@@ -1,9 +1,10 @@
 ﻿[game]
 # Straight in-game baby
-lobbyenabled = false
+lobbyenabled = true
 # Dev map for faster loading & convenience
-map = "CMDev"
+map = "Savannah"
 role_timers = false
+defaultpreset = "CMDistressSignal"
 
 [ghost]
 role_time = 0.5
@@ -35,3 +36,4 @@ see_own_notes = true
 
 [rmc]
 planet_maps = "/Maps/_RMC14/solaris.yml,/Maps/_RMC14/prison.yml,/Maps/_RMC14/shiva.yml"
+
