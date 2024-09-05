@@ -1,3 +1,3 @@
-﻿rmc-skills-cant-use = You don't know how to use {THE($item)}...
-rmc-skills-no-training = You don't have the training to use {THE($target)}
-rmc-skills-cant-operate = You don't seem to know how to operate {THE($target)}
+﻿rmc-skills-cant-use = Ви не знаєте як використовувати {THE($item)}...
+rmc-skills-no-training = Вас не навчили використовувати {THE($target)}
+rmc-skills-cant-operate = Ви не знаєте що робити {THE($target)}

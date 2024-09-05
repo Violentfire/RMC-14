@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentry
-  name: "M30 ammo drum (10x28mm Caseless)"
-  description: "An ammo drum of 500 10x28mm caseless rounds for the UN 571-C Sentry Gun. Just feed it into the sentry gun's ammo port when its ammo is depleted."
+  name: "М30 барабанний магазин (10x28mm Безгільзовий)"
+  description: "500-ти набійний магазин безгільзових набоїв калібру 10x28mm для UN 571-C Sentry Gun. Просто вставте його в патронний відсік і стріляйте"
   components:
   - type: Tag
     tags:

@@ -1,5 +1,5 @@
-chatsan-word-1 = omg
-chatsan-replacement-1 = oh my god
+chatsan-word-1 = омг
+chatsan-replacement-1 = боже мій
 
 chatsan-word-2 = omfg
 chatsan-replacement-2 = oh my fucking god
@@ -7,8 +7,8 @@ chatsan-replacement-2 = oh my fucking god
 chatsan-word-3 = ong
 chatsan-replacement-3 = on god
 
-chatsan-word-4 = wtf
-chatsan-replacement-4 = what the fuck
+chatsan-word-4 = шзх
+chatsan-replacement-4 = що за хрінь?
 
 chatsan-word-5 = wth
 chatsan-replacement-5 = what the heck
@@ -19,8 +19,8 @@ chatsan-replacement-6 = the fuck
 chatsan-word-7 = afaik
 chatsan-replacement-7 = as far as i know
 
-chatsan-word-8 = ik
-chatsan-replacement-8 = i know
+chatsan-word-8 = яз
+chatsan-replacement-8 = я знаю
 
 chatsan-word-9 = ikr
 chatsan-replacement-9 = i know, right

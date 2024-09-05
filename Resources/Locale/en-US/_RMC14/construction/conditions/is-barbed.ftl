@@ -1,2 +1,2 @@
-construction-examine-condition-missing-barbed = First, ensure it is barbed.
-construction-step-condition-missing-barbed = It must be barbed.
+construction-examine-condition-missing-barbed = По-перше, переконайтеся, що він колючий.
+construction-step-condition-missing-barbed = Він має бути колючим.

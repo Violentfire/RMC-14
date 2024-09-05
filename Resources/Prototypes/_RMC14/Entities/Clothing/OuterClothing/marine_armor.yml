@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseMarineArmorLight
   id: CMArmorM3Medium
-  name: M3 pattern marine armor
-  description: A standard UNMC M3 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage.
+  name: броня морпіхів зразка М3
+  description: Стандартна броня морпіхів ООН, M3 Pattern Chestplate. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorB12
-  name: B12 pattern marine armor
-  description: A lightweight suit of carbon fiber body armor built for quick movement. Designed in a lovely forest green. Use it to toggle the built-in flashlight.
+  name: броня морпіхів зразка B12
+  description: Полегшена броня непогано захищає тіло, а також дозволяє швидко пересуватися. Пофарбована у прекрасний лісисто-зелений колір. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/b12.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3Heavy
-  name: M3-EOD pattern heavy armor
-  description: A heavier version of the standard M3 pattern armor, the armor is primarily designed to withstand ballistic, explosive, and internal damage, with the drawback of increased bulk and thus reduced movement speed, alongside little additional protection from standard blunt force impacts and biological threats.
+  name: важка броня зразка M3-EOD
+  description: Важкий варіант стандартної M3 броні, спеціально спроєктована так щоб зменшити шкоду від куль, вибухів, а також внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3Warden
-  name: M3 pattern warden MP armor
-  description: A well-crafted suit of M3 Pattern Armor typically distributed to Wardens. Useful for letting your men know who is in charge.
+  name: броня військового наглядача зразка M3
+  description: Якісно виготовлена броня M3 Pattern Armor, яка зазвичай видається наглядачам. Показує хто тут головний і найважливіше, не заважає при сидінні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/warden.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMArmorM2MP
   id: CMArmorM3WO
-  name: M3 pattern chief MP armor
-  description: A well-crafted suit of M3 Pattern Armor typically distributed to Chief MPs. Useful for letting your men know who is in charge.
+  name: M3 броня голови ВСП
+  description: Гарно сконструйована броня, спеціально для голови ВСП. Подейкують що тільки бачучи цю броню поліціянти машинально салютують.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/wo.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3G4
-  name: M3-G4 grenadier armor
-  description: A custom set of M3 armor packed to the brim with padding, plating, and every form of ballistic protection under the sun. Used exclusively by Marine Grenadiers.
+  name: M3-G4 гренадерська броня
+  description: Спеціальне покращення броні М3, напхана до країв м'якою оббивкою, обшивкою, і усіма формами захисту від вибухів. В ній вас можна буде упізнати навіть після вибуху гранати в руках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/g4.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3TDemo
-  name: M3-T light armor
-  description: A custom set of M3 armor designed for users of long-ranged explosive weaponry. Provides better protection against explosives than standard M3 armor, while remaining nimble.
+  name: M3-T легка броня
+  description: Кастомний варіант броні M3 розроблений для користувачів протитанкового озброєння. Надає кращий захист від вибухів порівняно зі звичайною М3, при тому лишаючи власнику рухливість на болі бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/t.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3Light
-  name: M3-L pattern light armor
-  description: A lighter, cut down version of the standard M3 pattern armor. It sacrifices protection for more speed. Protects more against acid.
+  name: легка броня зразка M3-L
+  description: Полегшена, урізана версія броні М3. Ця броня ставить швидкість над захистом тому не дуже сподівайтеся вижити від чогось сильніше моральної шкоди. Більше захищає від кислоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCBaseMarineArmor
   id: CMArmorPress
-  name: press body armor
-  description: Body armor used by war correspondents in battles and wars across the universe.
+  name: броня кореспондентів
+  description: Броня, яку використовують військові кореспонденти під час роздобування нових цікавих кадрів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/press.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3Scout
-  name: M3-S light armor
-  description: A custom set of M3 armor designed for Marine Scouts.
+  name: M3-S легка броня
+  description: Легка версія броні М3 зроблена спеціально для розвідників. Час від часу переконуйтеся що вона досі на вас.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/scout.rsi
@@ -170,8 +170,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3VLBallistics
-  name: M3-VL pattern ballistics vest
-  description: Up until 2182 Marine non-combat personnel were issued non-standardized ballistics vests, though the lack of IMP compatibility and suit lamps proved time and time again inefficient. This modified M3-L shell is the result of a 6-year R&D program; It provides utility, protection, AND comfort to all Marine non-combat personnel.
+  name: M3-VL балістичний бронежилет
+  description: До 2182 року небойовий персонал морської піхоти отримував нестандартні балістичні жилети, проте не сумісність з IMP та відсутність вбудованих ліхтариків у костюмах знову і знову доводила їхню непрактичність. Цей модифікований бронежилет M3-L був розроблений в результаті 6-річної програми досліджень; він забезпечує світло, захист і комфорт для всього небойового персоналу морської піхоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: CMArmorM3VLBallistics
   id: CMArmorM3VLFlakVest
-  name: M3-VL pattern flak vest
-  description: A combination of the standard non-combat M3-VL ballistics vest and M70 flak jacket, this piece of armor has been distributed to dropship crew to keep them safe from threats external and internal...
+  name: M3-VL пілотна броня
+  description: Комбінація не бойового броніка M3-VL і бронежилета M70, спеціально для пілотів щоб захистити їх ззовні і зсередини...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl_flak.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM4
-  name: M4 pattern marine armor
-  description: A well tinkered and crafted hybrid of Smart-Gunner mesh and M3 pattern plates. Robust, yet nimble, with room for all your pouches.
+  name: броня морпіха зразка M4 
+  description: Добре продуманий та якісно виготовлений гібрид сітки Smart-Gunner та пластин M3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для підсумків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m4.rsi
@@ -217,8 +217,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM35
-  name: M35 pyrotechnician armor
-  description: A custom set of M35 armor designed for use by Marine Pyrotechnicians.
+  name: M35 броня піротехніка 
+  description: Спеціальна броня M35 розроблена для піротехніків. Не факт що витримає вибух гранати в руках, але це хоча б щось.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m35.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM45
-  name: M45 pattern ghillie armor # TODO RMC14 camo, id lock
-  description: A lightweight ghillie camouflage suit, used by Marine snipers on recon missions. Very lightweight and surprisingly very protective.
+  name: M45 камуфляжна броня # TODO RMC14 camo, id lock
+  description: Легкий камуфляжний костюм, що використовується морпіхотними снайперами на розвідувальних місіях. Дуже легкий і на диво добре захищає.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/ghille.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorSmartGunCombatHarness
-  name: ML66A combat harness
-  description: A heavy protective vest designed to be worn with the ML66A Smart Gun System. It has specially designed straps and reinforcement to carry the Smartgun and accessories.
+  name: бойове кріплення ML66A
+  description: Важкий бронежилет створений для використання разом з ML66A Smart Gun. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/ml66a.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM2MP
-  name: M2 pattern mp armor
-  description: M2 Armor offers higher protection against melee attacks but less protection against projectile attacks
+  name: броня ВСП зразка М2
+  description: Броня М2 гарно вправляється з захистом від ударів але з кулями у неї проблеми.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m2/mp.rsi

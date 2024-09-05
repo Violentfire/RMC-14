@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMagazineRifle
   id: CMMagazineSniperM96S
-  name: "M96S marksman magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will deal significant damage.
+  name: "M96S снайперський магазин (10x28mm)"
+  description: Магазин набоїв для снайперки. Прицільний постріл такою може призвести до сильних пошкоджень.
   components:
   - type: Tag
     tags:
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SIncendiary
-  name: "M96S incendiary magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily blind the targe and kindle the blaze further.
+  name: "M96S магазин запалювальних (10x28mm)"
+  description: Магазин набоїв для снайперки. Постріл такими здатний осліпити ціль, а також викликати її загоряння.
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmIncendiary
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SAntiMateriel
-  name: "XM43E1 marksman magazine (10x99mm)"
-  description: A magazine of 10x99mm anti-materiel rounds.
+  name: "XM43E1 снайперський магазин (10x99mm)"
+  description: Магазин протипіхотних набоїв калібру 10x99mm.
   components:
   - type: Tag
     tags:

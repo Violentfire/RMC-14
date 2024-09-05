@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCHelmetBase
   id: ArmorHelmetM10
-  name: M10 pattern marine helmet
-  description: A standard M10 Pattern Helmet. The inside label, along with washing information, reads, 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'. There is a built-in camera on the right side.
+  name: шолом морпіха зразку M10
+  description: Стандартний шолом зразку М10. Всередині на записці, поруч з інформацією про прання, написано, 'Якщо носити на голові вас поховають в відкритій труні.' З правого боку є вбудована камера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/standard.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10MP
-  name: M10 helmet MP
-  description: A special variant of the M10 Pattern Helmet worn by the Military Police of the Marines.
+  name: M10 шолом ВСП
+  description: Спеціальна варіація шолому М10 призначена для ВСП.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/mp.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10ChiefMP
-  name: M10 helmet chief MP
-  description: A special variant of the M10 Pattern Helmet worn by the Chief MP of the Marines.
+  name: M10 шолом голови ВСП
+  description: Варіант шолому М10 призначений для голови військової служби правопорядку.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/cmp.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10CO
-  name: M10 helmet CO
-  description: A special variant of the M10 Pattern Helmet worn by the Commanding Officer of the Marines.
+  name: M10 шолом КомОфа
+  description: Унікальний варіант шолому М10 розроблений для Командуючого Офіцера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/co.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Medic
-  name: M10 medic helmet
-  description: A special variant of the M10 Pattern Helmet worn by the medic marines of the Marines.
+  name: M10 медичний шолом
+  description: Особливий варіант шолому М10 створений для потреб бойових медиків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/med.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Tech
-  name: M10 tech helmet
-  description: A special variant of the M10 Pattern Helmet worn by the engineer marines of the Marines.
+  name: М10 тех шолом
+  description: Шолом інженерних морпіхів, подейкують що їх роблять з переплавлених інструментів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/tech.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11
-  name: M11 pattern leader helmet
-  description: A slightly fancier helmet for marine leaders. This one contains a small built-in camera and has cushioning to project your fragile brain.
+  name: шолом зразку М11
+  description: Покращений шолом спеціально для лідерів загонів. Він містить вбудовану камеру й м'якеньку амортизовану оббивку щоб захистити вашу голову коли по ній почне стукати командування.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM12
-  name: M12 pattern helmet
-  description: An experimental brain-bucket. A dust ruffle hangs from back. Moderately better at deflecting blunt objects at the cost of humiliation. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your intel work or for your fantastic leadership.
+  name: шолом зразку M12
+  description: Експерементальне відерце для голови. Ззаду звисає завіса від пилу. Краще стримує удари тупими предметами ціною приниження. Але хто буде сміятися над меморіалом? Не ви, ви будете отримувати медалі за свою розвідувальну діяльність чи геніальне командування.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m12.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM30
-  name: M30 tactical helmet
-  description: The M30 tactical helmet has an left eyepiece filter used to filter tactical data.
+  name: шолом зразку M30
+  description: Тактичний шолом M30 має худ на лівому оці що дозволяє фільтрувати тактичні дані.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m30.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetPress
-  name: press helmet
-  description: A special helmet variant worn by the press.
+  name: шолом пресси
+  description: Шолом який носить пресса. Не дуже на нього розраховуйте.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/press.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3Scout
-  name: M3-S helmet
-  description: A custom helmet from the M3 series designed to be lightweight and used for recon missions.
+  name: шолом M3-S 
+  description: Полегшений шолом серії M3 сконструйований спеціально для використання під час розвідки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/scout.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: RMCArmorHelmetM3Scout
   id: RMCArmorHelmetM3G4
-  name: M3-G4 helmet
-  description: Pairs with the M3-G4 heavy grenadier plating. A distant cousin of the experimental B18 defensive helmet. # As such, it also resists some parasite latching attempts.
+  name: шолом M3-G4 
+  description: Поєднується з важкою гренадерською бронею M3-G4. Далекий родич захисного шолому B18. # As such, it also resists some parasite latching attempts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/g4.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM35
-  name: M35 helmet
-  description: A custom helmet from the M3 series designed to be highly flame retardant.
+  name: шолом M35
+  description: Шолом серії M3 що відзначається надзвичайною вогнестійкістю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m35.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM45
-  name: M45 ghillie helmet
-  description: A lightweight M45 helmet with ghillie coif used by Marine snipers on recon missions.
+  name: M45 маскувальний шолом
+  description: Полегшений шолом M45 з гіллям на голові використовується морпіхотними снайперами на розвідувальних місіях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m45.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3TDemo
-  name: M3-T bombardier helmet
-  description: A custom-built helmet for explosive weaponry users. Comes with inbuilt ear blast protection, firing a rocket launcher without this is not recommended.
+  name: M3-T шолом підривника
+  description: Кастомний шолом для поціновувачів ВИБУХІВ і зброї яка з ними пов'язана. Поставляється з вбудованим захистом вух носія від гучних звуків, стріляти з труби без нього не рекомендується.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/t_demo.rsi

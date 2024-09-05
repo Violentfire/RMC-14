@@ -1,39 +1,39 @@
 # command
-department-CMCommand = Command
-cm-department-Command-description = The Command Department is the brains of the USS Almayer, leading and coordinating the squads and the other support staff of the ship to fight and win against the Aliens.
+department-CMCommand = Командування
+cm-department-Command-description = Керівництво цього корабля, керуйте і кооперуйте загони та їхню підтримку щоб досягти перемоги. Не пийте алкоголь на роботі.
 
 # military police
-department-CMMilitaryPolice = Military Police
-cm-department-MilitaryPolice-description = Enforce Marine Law. Detain Criminals. Keep Shipside Personnel Safe.
+department-CMMilitaryPolice = Військова Служба Правопорядку
+cm-department-MilitaryPolice-description = Стежте за дотриманням закону. Забезпечте безпеку екіпажу. Не катуйте ув'язнених, будь ласка.
 
 # requisitions
-department-CMRequisitions = Requisitions
-cm-department-Requisitions-description = Dispense supplies to the marines.
+department-CMRequisitions = Відділ постачання
+cm-department-Requisitions-description = Дістаньте морпіхам усе що їм потрібно.
 
 # marines
-department-CMSquad = Marines
-cm-department-Marine-description = They form the main fighting body of the Almayer and are sent planetside to fight all kinds of dangers throughout the Neroid Sector.
+department-CMSquad = Морпіхи
+cm-department-Marine-description = Ті хто лізе в саме пекло битви за перемогою. Відправляйтеся на планету щоб знищити загрозу, розвідати місцевість чи просто померти.
 
 # engineering
-department-CMEngineering = Engineering
+department-CMEngineering = Інженерний
 cm-department-Engineering-description = Your job is to maintain the ship's engine and keep everything running.
 
 # medical
-department-CMMedbay = Medbay
-cm-department-Medical-description = Treat all patients that come into medbay. Transfer injured marines from the hanger to medbay.
+department-CMMedbay = Медичний
+cm-department-Medical-description = Лікуйте, лікуйте і ще раз лікуйте. Намагайтеся не заснути коли справи йдуть добре і не застрелетись коли все погано.
 
 # auxiliary support
-department-CMAuxiliarySupport = Auxiliary Combat Support
-cm-department-AuxiliarySupport-description = The Auxiliary support personnel are tasked with supporting the marines either by providing support through firepower or other means.
+department-CMAuxiliarySupport = Підтримка
+cm-department-AuxiliarySupport-description = Надавайте вогневу і не тільки підтримку морпіхам.
 
 # other
-department-CMOther = Other
+department-CMOther = Інші
 cm-department-Other-description = ""
 
 # survivor
-department-CMSurvivor = Survivor
-cm-department-Survivor-description = Survive whenever possible by yourself or with other survivors.
+department-CMSurvivor = Виживші
+cm-department-Survivor-description = Протримайтеся до порятунку... якщо він звичайно буде.
 
 # human
-department-CMHuman = Human
-cm-department-Human-description = All human roles.
+department-CMHuman = Людина
+cm-department-Human-description = Всі людські ролі.

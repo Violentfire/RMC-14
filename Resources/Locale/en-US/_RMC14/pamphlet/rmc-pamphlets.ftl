@@ -1,5 +1,5 @@
-﻿rmc-pamphlets-cant-use = You can't read this!
-rmc-pamphlets-limit-reached = You've already used a pamphlet!
-rmc-pamphlets-already-know = You know this already!
-rmc-pamphlets-reading = You read over the pamphlet a few times, learning a new skill.
-rmc-pamhplets-rifleman-warning = Only riflemen can use this.
+﻿rmc-pamphlets-cant-use = Ви не можете це прочитати!
+rmc-pamphlets-limit-reached = Ви вже засвоїли цей матеріал!
+rmc-pamphlets-already-know = Це вам вже відомо!
+rmc-pamphlets-reading = Ви перечитуєте довідник кілька разів, щоб краще запам'ятати написане.
+rmc-pamhplets-rifleman-warning = Тільки стрільці можуть це використати.

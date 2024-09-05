@@ -1,16 +1,16 @@
 ﻿# medical
-cm-job-name-cmo = Chief Medical Officer
-cm-job-description-cmo = Oversee Medbay, Research, and Chemistry. Manage your medical crew. Advise the Command staff on matters of health and wellness of the marine force.
-CMJobCMO = Chief Medical Officer
+cm-job-name-cmo = Головний Лікар
+cm-job-description-cmo = Докладіть усіх зусиль щоб Медбей не поринув у хаос від гори трупів, стежте за науковцями і їх дослідженнями. Вправно керуйте всім медичним персоналом. Змусьте керівництво ввести медичне страхування для морпіхів.
+CMJobCMO = Головний Лікар
 
-cm-job-name-doctor = Doctor
-cm-job-description-doctor = Treat all patients that come into medbay. Transfer injured marines from the hanger to medbay. Perform surgery if needed.
-CMJobDoctor = Doctor
+cm-job-name-doctor = Лікар
+cm-job-description-doctor = Ви те що тримає цей корабель живим, допомагайте всім хто звернеться хоч з болем в пальці, хоч без голови. Переносьте павших морпіхотинців з корабля в Медбей. За необхідності проводьте операції.
+CMJobDoctor = Лікар
 
-cm-job-name-nurse = Nurse
-cm-job-description-nurse = Aid the doctors and medics in providing aid to the wounded.
-CMJobNurse = Nurse
+cm-job-name-nurse = Медичний Помічник
+cm-job-description-nurse = Допомагайте лікарям й намагайтеся при цьому нікого не вбити. Дрімайте поки немає роботи
+CMJobNurse = Медичний Помічник
 
-cm-job-name-researcher = Researcher
-cm-job-description-researcher = Conduct research on what is sent to you. Create and analyze new chemicals, tools and objects.
-CMJobResearcher = Researcher
+cm-job-name-researcher = Науковець
+cm-job-description-researcher = Досліджуйте всяку-всячину яку вам надсилають. Створіть та дослідіть нові хімікати, інструменти та інші речі. 
+CMJobResearcher = Науковець

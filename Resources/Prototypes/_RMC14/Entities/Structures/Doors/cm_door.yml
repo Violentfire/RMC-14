@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStructure
   id: CMBaseDoor
-  name: door
+  name: двері
   placement:
     mode: SnapgridCenter
   components:

@@ -1,24 +1,24 @@
-﻿rmc-neuro-tired = Your whole body is feeling numb as you quickly tire out!
+﻿rmc-neuro-tired = Ваше тіло німіє і ви швидко втомлюєтеся!
 
-rmc-neuro-numb = You body starts feeling numb, you can't feel your fingers!
+rmc-neuro-numb = Ваше тіло німіє, ви не відчуваєте пальців!
 
-rmc-neuro-where = Why am I here?
-rmc-neuro-very-numb = Your entire body feels numb!
-rmc-neuro-erratic = You notice your movement is erratic!
-rmc-neuro-panic = You panic as numbness takes over your body!
+rmc-neuro-where = Чому я тут?
+rmc-neuro-very-numb = Усе ваше тіло німіє!
+rmc-neuro-erratic = Ви помітили що рухаєтеся нерівно!
+rmc-neuro-panic = Ви панікуєте бо ваше тіло починає німіти!
 
-rmc-neuro-sting = Your eyes sting, you can't see!
+rmc-neuro-sting = Очі сильно пекуть, ви не можете бачити!
 
-rmc-neuro-what = What am I doing?
-rmc-neuro-hearing = Your hearing fades away, you can't hear anything!
-rmc-neuro-pain = A sharp pain eminates from your abdomen!
-rmc-neuro-agh = EVERYTHING IS HURTING!! AGH!!!
-rmc-neuro-so-numb = Your entire body is numb, you can't feel anything!
-rmc-neuro-limbs = You can't feel your limbs at all!
-rmc-neuro-think = Your mind goes blank, you can't think of anything!
+rmc-neuro-what = Що я роблю?
+rmc-neuro-hearing = Ви втратили слух! НІЧОГО НЕ ЧУТИ!
+rmc-neuro-pain = Ви відчуваєте різкий біль в животі!
+rmc-neuro-agh = ВСЕ БОЛИТЬ!! АААААААААА!!!
+rmc-neuro-so-numb = Все тіло заціпеніло, ви не відчуваєте жодну його частину!
+rmc-neuro-limbs = Ви зовсім не відчуваєте кінцівок!
+rmc-neuro-think = Всі думки зникли, в голові порожньо!
 
-rmc-stumble = You stumble!
+rmc-stumble = Ви спіткнулися!
 rmc-stumble-others = {CAPITALIZE($victim)} misteps in {POSS-ADJ($victim)} confusion!
 
-rmc-bloodcough = You cough up blood!
+rmc-bloodcough = Ви кашляєте кров'ю!
 

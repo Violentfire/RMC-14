@@ -1,1 +1,1 @@
-﻿cm-knife = Knife
+﻿cm-knife = Ніж

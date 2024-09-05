@@ -1,12 +1,12 @@
 ﻿# military police
-cm-job-name-chief-mp = Chief MP
-cm-job-description-chief-mp = Administrate the brig. Coordinate the MPs. Ensure Marine Law is properly enforced. Keep the ship and crew safe.
-CMJobChiefMP = Chief MP
+cm-job-name-chief-mp = Голова ВСП
+cm-job-description-chief-mp = Адмініструйте бріг. Координуйте всю військову службу правопорядку. Стежте за дотриманням законів на кораблі. Не дайте кораблю зануритися в хаос.
+CMJobChiefMP = Голова ВСП
 
-cm-job-name-militarywarden = Military Warden
-cm-job-description-militarywarden = Maintain the brig, do bookkeeping, and crack down on crime.
-CMJobMilitaryWarden = Military Warden
+cm-job-name-militarywarden = Військовий Наглядач
+cm-job-description-militarywarden = Керуйте бригом, займайтеся паперами, й випалюйте злочинність.
+CMJobMilitaryWarden = Військовий Наглядач
 
-cm-job-name-militarypolice = Military Police
-cm-job-description-militarypolice = Enforce Marine Law. Detain Criminals. Keep Shipside Personnel Safe.
-CMJobMilitaryPolice = Military Police
+cm-job-name-militarypolice = Військовий Поліціянт
+cm-job-description-militarypolice = Дотримуйтеся Морського Права. Розслідуйте злочини. Забезпечте безпеку на кораблі.
+CMJobMilitaryPolice = Військовий Поліціянт

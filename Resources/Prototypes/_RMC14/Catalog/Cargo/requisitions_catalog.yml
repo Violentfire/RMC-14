@@ -6,7 +6,7 @@
     speechVerb: Robotic
   - type: RequisitionsComputer
     categories:
-    - name: Ammo
+    - name: Набої
       entries:
       - cost: 2000
         crate: RMCCrateBoxMagazineRifleM54C
@@ -48,7 +48,7 @@
         crate: RMCCrateBoxMagazineM44Revolver
       - cost: 3000
         crate: RMCCrateBoxMagazineM44RevolverMarksman
-    - name: Attachments
+    - name: Приладдя
       entries:
       - cost: 3000
         crate: RMCCrateAttachmentSmartScope
@@ -92,7 +92,7 @@
         crate: RMCCrateAttachmentShotgunStock
       - cost: 3000
         crate: RMCCrateAttachmentSmgStock
-    - name: Clothing
+    - name: Одяг
       entries:
       - cost: 2000
         crate: RMCCrateClothingLargePouches
@@ -104,7 +104,7 @@
         crate: RMCCrateClothingWebbingPouch
       - cost: 3000
         crate: RMCCrateClothingOfficerOutfit
-    - name: Engineering
+    - name: Інженерне
       entries:
       - cost: 2000
         crate: RMCCrateEmptySandbags
@@ -138,7 +138,7 @@
         crate: RMCCrateFlashlights
       - cost: 1000
         crate: RMCCrateHighCapacityPowerCell
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - cost: 3000
         crate: RMCCrateGrenadesHighExplosive
@@ -146,7 +146,7 @@
         crate: RMCCrateGrenadesFrag
       - cost: 4000
         crate: RMCCrateBreachingCharges
-    - name: Food
+    - name: Їжа
       entries:
       - cost: 1000
         crate: RMCCrateFoodDonuts
@@ -156,7 +156,7 @@
         crate: RMCCrateFoodPizza
       - cost: 1000
         crate: RMCCrateFoodIngredients
-    - name: Gear
+    - name: Оснащення
       entries:
       - cost: 2000
         crate: RMCCrateGearBinoculars
@@ -164,7 +164,7 @@
         crate: RMCCrateGearPackFlare
       - cost: 6000
         crate: RMCCrateGearPackFlareCAS
-    - name: Medical
+    - name: Медицина
       entries:
       - cost: 3200
         crate: RMCCrateMedicalSurgery
@@ -178,7 +178,7 @@
         crate: RMCCrateMedicalFilled
       - cost: 2100
         crate: RMCCrateMedicalPill
-    - name: Mortar
+    - name: Міномет
       entries:
       - cost: 6000
         crate: RMCCrateMortarKit
@@ -190,7 +190,7 @@
 #      entries: []
 #    - name: Reagent tanks
 #      entries: []
-    - name: Research
+    - name: Наука
       entries:
       - cost: 3000
         crate: RMCCrateResearchPhoron
@@ -200,7 +200,7 @@
         crate: RMCCrateRestrictedEquipmentArmorM4
       - cost: 2000
         crate: RMCCrateRestrictedEquipmentArmorB12
-    - name: Supplies
+    - name: Витратники
       entries:
       - cost: 2000
         crate: RMCCrateSupplyInternals
@@ -214,7 +214,7 @@
         crate: RMCCrateSuppliesCrayons
 #    - name: Vehicle Ammo
 #      entries: []
-    - name: Weapons
+    - name: Зброя
       entries:
       - cost: 10000
         crate: RMCCrateSmartGunSet
@@ -226,7 +226,7 @@
         crate: RMCCrateMK80
       - cost: 3000
         crate: RMCCrateSU6
-    - name: Weapons Specialist Ammo
+    - name: Спеціальні Набої
       entries:
       - cost: 4000
         crate: RMCCrateMagazineM96SMixed

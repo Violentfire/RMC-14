@@ -1,9 +1,9 @@
-squad-alpha = Alpha Squad
-squad-bravo = Bravo Squad
-squad-charlie = Charlie Squad
-squad-delta = Delta Squad
+squad-alpha = Загін Альфа
+squad-bravo = Загін Браво
+squad-charlie = Загін Чарлі
+squad-delta = Загін Дельта
 
-squad-alpha-name = Alpha {$name}
-squad-bravo-name = Bravo {$name}
-squad-charlie-name = Charlie {$name}
-squad-delta-name = Delta {$name}
+squad-alpha-name = Альфа {$name}
+squad-bravo-name = Браво {$name}
+squad-charlie-name = Чарлі {$name}
+squad-delta-name = Дельта {$name}

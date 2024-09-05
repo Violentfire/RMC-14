@@ -1,1 +1,1 @@
-﻿chat-speech-verb-name-xeno = Xeno
+﻿chat-speech-verb-name-xeno = Ксено

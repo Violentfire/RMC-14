@@ -1,19 +1,19 @@
 ﻿# command
-cm-job-name-senior-enlisted-advisor = Senior Enlisted Advisor
-cm-job-description-senior-enlisted-advisor = Advise and train inexperienced crew members and marines alike. Bark out orders to new privates to get geared.
-CMJobSeniorEnlistedAdvisor = Senior Enlisted Advisor
+cm-job-name-senior-enlisted-advisor = Бойовий Інструктор
+cm-job-description-senior-enlisted-advisor = Наставляйте та навчайте малодосвідчених морпіхів. Намагайтеся не згадувати історії з В'єтнаму.
+CMJobSeniorEnlistedAdvisor = Бойовий Інструктор
 
-cm-job-name-staff-officer = Staff Officer
-cm-job-description-staff-officer = Monitor the marines, man the CIC. In charge of logistics and the overwatch system.
-CMJobStaffOfficer = Staff Officer
+cm-job-name-staff-officer = Штабний Офіцер
+cm-job-description-staff-officer = Спостерігайте за морпіхапи, командуйте CIC. Відповідайте за логістику та систему спостереження.
+CMJobStaffOfficer = Штабний Офіцер
 
-cm-job-name-commanding-officer = Commanding Officer
-cm-job-description-commanding-officer = Lead your company and complete the mission.
-CMJobCommandingOfficer = Commanding Officer
+cm-job-name-commanding-officer = Командуючий Офіцер
+cm-job-description-commanding-officer = Керуйте усіма для досягнення успіху.
+CMJobCommandingOfficer = Командуючий Офіцер
 
-cm-job-name-executive-officer = Executive Officer
-cm-job-description-executive-officer = You are second in command aboard the ship, and are the next in the chain of command after the Commanding Officer.
-CMJobExecutiveOfficer = Executive Officer
+cm-job-name-executive-officer = Виконавчий Офіцер
+cm-job-description-executive-officer = Ви другий по званню на цьому кораблі, виконуйте накази Командуючого Офіцера.
+CMJobExecutiveOfficer = Виконавчий Офіцер
 
 # Admin only right now.
-cm-job-name-high-command = High Command
+cm-job-name-high-command = Вище командування

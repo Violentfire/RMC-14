@@ -1,28 +1,28 @@
 # marines
-cm-job-name-rifleman = Rifleman
-cm-job-description-rifleman = Follow orders from those above you. Do your job and shoot when you're needed to shoot. Don't die in the process.
-CMJobRifleman = Rifleman
+cm-job-name-rifleman = Стрілець
+cm-job-description-rifleman = Будьте на побігеньках у вищих за званням. Робіть свою роботу, стріляйте коли це потрібно і намагайтеся не підірвати союзників гранатою. Бажано не помріть.
+CMJobRifleman = Стрілець
 
-cm-job-name-squad-leader = Squad Leader
-cm-job-description-squad-leader = Leader of one of the four marine squads. Give your squad and fireteams objectives and follow orders from Command. Keep your squad in one piece.
-CMJobSquaderLeader = Squad Leader
+cm-job-name-squad-leader = Лідер Загону
+cm-job-description-squad-leader = Лідер одного з чотирьох загонів. Скоординуйте ваш загін й виконайте завдання поставлене командуванням. Підтримайте свій загін мотиваційною промовою.
+CMJobSquaderLeader = Лідер Загону
 
-cm-job-name-fireteam-leader = Fireteam Leader
-cm-job-description-fireteam-leader = Follow the squad leader's orders and command your fireteam. Co-ordinate with CAS and fire support elements.
-CMJobFireteamLeader = Fireteam Leader
+cm-job-name-fireteam-leader = Лідер Вогневої Групи
+cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати наказ лідера загону. Зкоординуйтеся з CAS та іншою підтримкою.
+CMJobFireteamLeader = Лідер Вогневої Групи
 
-cm-job-name-weapons-specialist = Weapons Specialist
-cm-job-description-weapons-specialist = Gain access to heavier, more powerful weaponry and equipment. Combat professional, lead the squad if needed.
-CMJobWeaponsSpecialist = Weapons Specialist
+cm-job-name-weapons-specialist = Збройний Спеціаліст
+cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений воїн, за потреби можете очолити загін.
+CMJobWeaponsSpecialist = Збройний Спеціаліст
 
-cm-job-name-smart-gun-operator = Smart Gun Operator
-cm-job-description-smart-gun-operator = Support your Squad with heavy weaponry and give the enemy suppressing fire.
-CMJobSmartGunOperator = Smart Gun Operator
+cm-job-name-smart-gun-operator = Оператор Смартгана
+cm-job-description-smart-gun-operator = Прикривайте свій загін вогнем та дайте ворогу скуштувати самонавідного свинцю.
+CMJobSmartGunOperator = Оператор Смартгана
 
-cm-job-name-hospital-corpsman = Hospital Corpsman
-cm-job-description-hospital-corpsman = Keep Marines in fighting condition, or as close as you can get them. Medevac those who need to be sent back to Medbay for treatment.
-CMJobHospitalCorpsman = Hospital Corpsman
+cm-job-name-hospital-corpsman = Бойовий Медик
+cm-job-description-hospital-corpsman = Тримайте морпіхів в бойовому стані, або хоча б живими. За крайньої необхідності відправте поранених до Медбею. НЕ БАРИЖТЕ МОРФІНОМ!
+CMJobHospitalCorpsman = Бойовий Медик
 
-cm-job-name-combat-tech = Combat Technician
-cm-job-description-combat-tech = Build or remove fortifications. Establish and maintain FOB and Power. Gain access to blocked off areas.
-CMJobCombatTech = Combat Tech
+cm-job-name-combat-tech = Бойовий Технік
+cm-job-description-combat-tech = Будуйте та ламайте барикади. Збудуйте та підтримуйте ФОБ. Хваліться усім своєю турелькою та тим що можете проникнути всюди.
+CMJobCombatTech = Бойовий Технік

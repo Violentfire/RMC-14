@@ -1,8 +1,8 @@
-observe-nevermind = Nevermind
-observe-confirm = Observe
-observe-warning-1 = Are you sure you want to observe?
-observe-warning-2 = When you observe, you will not be able to join as marine.
-  It might also take some time to become a xeno or responder!
-observe-warning-window-title = Warning
-observe-as-admin = Admin Observe
-observe-as-player = Player Observe
+observe-nevermind = Байдуже
+observe-confirm = Спостерігати
+observe-warning-1 = Ви ТОЧНО певні що хочете бути спосерігачем?
+observe-warning-2 = Якщо станете спостерігачем, то не зможете долучитися до веселощів в ролі морпіха.
+  Також не факт що одразу зможете стати ксеноморфом!
+observe-warning-window-title = УВАГА
+observe-as-admin = Спостерігати як адмін
+observe-as-player = Спостерігати як гравець

@@ -1,1 +1,1 @@
-﻿rmc-suit-light-short = Your source of light shorts out.
+﻿rmc-suit-light-short = Ваше джерело світла вийшло з ладу.

@@ -1,1 +1,1 @@
-cm-defib-take-off-armor = Take off {POSS-ADJ($target)} armor first!
+cm-defib-take-off-armor = Спершу зніміть {POSS-ADJ($target)}!

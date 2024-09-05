@@ -1,8 +1,8 @@
-﻿cm-cpr-already-being-performed = CPR is already being performed on {$target}!
-cm-cpr-self-start-perform = You start performing CPR on {$target}
-cm-cpr-other-start-perform = {$performer} starts performing CPR on {$target}
-cm-cpr-self-perform = You perform CPR on {$target}. Repeat at least every {$seconds} seconds.
-cm-cpr-other-perform = {$performer} performs CPR on {$target}
-cm-cpr-self-perform-fail-received-too-recently = You fail to perform CPR on {$target}. Incorrect rhythm. Do it slower.
-cm-cpr-other-perform-fail = {$performer} fails to perform CPR on {$target}
-cm-cpr-take-off-mask = Take off {POSS-ADJ($target)} mask first!
+﻿cm-cpr-already-being-performed = СЛР {$target} вже роблять!
+cm-cpr-self-start-perform = Ви почали виконувати СЛР {$target}
+cm-cpr-other-start-perform = {$performer} почав виконувати СЛР {$target}
+cm-cpr-self-perform = Ви виконуєте СЛР {$target}. Повторюйте принаймні кожні {$seconds} секунд.
+cm-cpr-other-perform = {$performer} проводить СЛР {$target}
+cm-cpr-self-perform-fail-received-too-recently = Вам не вдалося провести СЛР {$target}. Неправильний ритм. Робіть це повільніше.
+cm-cpr-other-perform-fail = {$performer} не зміг зробити СЛР {$target}
+cm-cpr-take-off-mask = Зніміть спершу {POSS-ADJ($target)}!

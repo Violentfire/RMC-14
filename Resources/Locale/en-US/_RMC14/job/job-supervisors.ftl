@@ -1,13 +1,13 @@
 ﻿# supervisors
-cm-job-supervisors-we-ya = the We-Ya Corporate Office
-cm-job-supervisors-aso = the Auxiliary Support Officer
-cm-job-supervisors-co = the Commanding Officer
-cm-job-supervisors-cmo = the Chief Medical Officer
-cm-job-supervisors-ares = ARES and APOLLO
-cm-job-supervisors-po = the Dropship and Gunship Pilots
-cm-job-supervisors-marine-high-command = Marine High Command
-cm-job-supervisors-cmp = the Chief MP
-cm-job-supervisors-qm = the Quartermaster
-cm-job-supervisors-ce = the Chief Engineer
-cm-job-supervisors-sl = the acting Squad Leader
-cm-job-supervisors-nobody = nobody, you are on your own.
+cm-job-supervisors-we-ya = Офіс корпората Ве-Я
+cm-job-supervisors-aso = Офіцер Підтримки
+cm-job-supervisors-co = Командуючий Офіцер
+cm-job-supervisors-cmo = Головний Лікар
+cm-job-supervisors-ares = ARES і APOLLO
+cm-job-supervisors-po = Пілоти транспортного й бойового човнів
+cm-job-supervisors-marine-high-command = Вище Командування Морпіхів
+cm-job-supervisors-cmp = Голова ВСП
+cm-job-supervisors-qm = Квартирмейстр
+cm-job-supervisors-ce = Головний Інженер
+cm-job-supervisors-sl = Теперішній Лідер Загону
+cm-job-supervisors-nobody = ніхто, ви самі по собі.

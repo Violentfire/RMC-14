@@ -1,6 +1,6 @@
-﻿cm-ghost-window-title = Are you sure you want to ghost?
-cm-ghost-window-text = Are you -sure- you want to ghost? You are alive.
-  If you ghost, [bold][color=red]you won't be able to return to your body.[/color][/bold]
-  You can't change your mind so choose wisely!
-cm-ghost-window-stay = Stay in body
-cm-ghost-ghost = Ghost
+﻿cm-ghost-window-title = Ви справді хочете покинути тіло?
+cm-ghost-window-text = Ви справді -хочете- бути привидом? Ви живі.
+  If you ghost, [bold][color=red]ви не зможете повернутися назад в тіло.[/color][/bold]
+  Ви не зможете змінити вибрі, тому гарно подумайте!
+cm-ghost-window-stay = Лишитися в тілі
+cm-ghost-ghost = Привид

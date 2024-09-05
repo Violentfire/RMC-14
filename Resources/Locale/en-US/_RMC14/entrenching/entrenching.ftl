@@ -1,4 +1,4 @@
-cm-entrenching-start-digging = You start digging
-cm-entrenching-begin-filling = You begin filling the sandbags
-cm-entrenching-stop-digging = You stop digging
-cm-entrenching-dismantle = You start removing the individual sandbags
+cm-entrenching-start-digging = Ви почали копати
+cm-entrenching-begin-filling = Ви наповнюєте мішки з піском
+cm-entrenching-stop-digging = Ви перестали копати
+cm-entrenching-dismantle = Ви починаєте виймати окремі мішки з піском

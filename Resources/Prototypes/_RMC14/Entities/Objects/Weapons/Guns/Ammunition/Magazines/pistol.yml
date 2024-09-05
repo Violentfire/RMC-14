@@ -13,7 +13,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 magazine (9mm)
+  name: M1984 магазин (9mm)
   components:
   - type: Tag
     tags:
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: M77 AP magazine (9mm)
+  name: M77 ББ магазин (9mm)
   components:
   - type: Tag
     tags:
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolMK80
-  name: MK80 magazine (9mm Squash-Head)
+  name: MK80 магазин (9mm Squash-Head)
   components:
   - type: Tag
     tags:
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolSU6
-  name: SU-6 magazine (.45 ACP)
+  name: SU-6 магазин (.45 ACP)
   components:
   - type: Tag
     tags:

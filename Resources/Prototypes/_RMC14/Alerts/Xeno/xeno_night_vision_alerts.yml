@@ -7,8 +7,8 @@
     state: nightvision_half
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_night_vision.rsi
     state: nightvision_off
-  name: Night Vision
-  description: Click to change how you see in the dark.
+  name: Нічне Бачення
+  description: Натисніть щоб змінити ваше бачення в темряві.
   minSeverity: 0
   maxSeverity: 2
   clickEvent: !type:ToggleNightVisionAlertEvent

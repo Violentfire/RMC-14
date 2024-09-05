@@ -15,7 +15,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "M54C magazine (10x24mm)"
+  name: "M54C магазин (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "M54C AP magazine (10x24mm)"
+  name: "M54C ББ магазин (10x24mm)"
   suffix: AP
   components:
   - type: Tag
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "M54C extended magazine (10x24mm)"
+  name: "M54C збільшений магазин (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
-  name: "M54CE2 magazine (10x24mm)"
+  name: "M54CE2 магазин (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "M4SPR magazine (10x24mm)"
-  description: "A magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  name: "M4SPR магазин (10x24mm)"
+  description: "Магазин стандартних набоїв для гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -157,8 +157,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: M4SPR AP magazine (10x24mm)
-  description: "A magazine of armor-piercing 10x24mm rounds for use in the M4SPR battle rifle."
+  name: M4SPR ББ магазин (10x24mm)
+  description: "Магазин бронебійних набоїв 10x24mm які використовуються в гвинтівці M4SPR."
   suffix: AP
   components:
   - type: Tag
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "M4SPR extended magazine (10x24mm)"
+  name: "M4SPR збільшений магазин (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     capacity: 35
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "M4SPR A19 magazine (high-velocity)"
-  description: "A magazine of high-velocity A19 rounds for use in the M4SPR battle rifle."
+  name: "M4SPR магазин А19 (Високошвидкісні)"
+  description: "Магазин високошвидкісних набоїв А19 які використовуються в гвинтівці M4SPR."
   components:
   - type: Tag
     tags:
