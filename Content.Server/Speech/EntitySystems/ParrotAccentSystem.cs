@@ -7,7 +7,7 @@ namespace Content.Server.Speech.EntitySystems;
 
 public sealed partial class ParrotAccentSystem : EntitySystem
 {
-    private static readonly Regex WordCleanupRegex = new Regex("[^A-Za-z0-9 -]");
+    private static readonly Regex WordCleanupRegex = new Regex("[^a-zA-Z0-9а-яА-ЯїЇєЄіґҐ -]");
 
     [Dependency] private readonly IRobustRandom _random = default!;
 

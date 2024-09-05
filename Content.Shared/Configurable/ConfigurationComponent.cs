@@ -16,7 +16,7 @@ namespace Content.Shared.Configurable
         public string QualityNeeded = "Pulsing";
 
         [DataField("validation")]
-        public Regex Validation = new("^[a-zA-Z0-9 ]*$", RegexOptions.Compiled);
+        public Regex Validation = new("^[a-zA-Z0-9а-яА-ЯїЇєЄіґҐ ]*$", RegexOptions.Compiled);
 
         [Serializable, NetSerializable]
         public sealed class ConfigurationBoundUserInterfaceState : BoundUserInterfaceState
