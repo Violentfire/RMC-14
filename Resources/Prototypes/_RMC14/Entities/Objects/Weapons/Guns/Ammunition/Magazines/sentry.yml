@@ -4,6 +4,8 @@
   name: "М30 барабанний магазин (10x28mm Безгільзовий)"
   description: "500-ти набійний магазин безгільзових набоїв калібру 10x28mm для UN 571-C Sentry Gun. Просто вставте його в патронний відсік і стріляйте"
   components:
+  - type: Item
+    size: Normal
   - type: Tag
     tags:
     - RMCMagazineSentry
