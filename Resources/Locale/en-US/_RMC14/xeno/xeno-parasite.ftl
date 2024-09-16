@@ -1,9 +1,9 @@
-rmc-xeno-failed-cant-infect = We can't infect {THE($target)}!
-rmc-xeno-failed-cant-reach = We can't reach {$target}, they need to be lying down!
-rmc-xeno-failed-target-dead = We can't infect the dead!
-rmc-xeno-infect-success = The parasite smashes against {$target}'s {$clothing} and rips it off!
-rmc-xeno-infect-fail = The parasite smashes against {$target}'s {$clothing}!
-rmc-xeno-failed-parasite-dead = We can't infect with a dead child!
+rmc-xeno-failed-cant-infect = Ви не можете інфікувати {THE($target)}!
+rmc-xeno-failed-cant-reach = Ви не можете схопити {$target}, воно повинно лежати!
+rmc-xeno-failed-target-dead = Не можна інфікувати мертвих!
+rmc-xeno-infect-success = Паразит б'ється об {$clothing} {$target} і здирає його!
+rmc-xeno-infect-fail = Паразит б'ється об {$clothing} {$target}!
+rmc-xeno-failed-parasite-dead = Паразит мертвий, інфікування неможливе!
 
-rmc-xeno-parasite-dead = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} not moving.
-rmc-xeno-parasite-announce-infect = We sense that {$xeno} has infected a host!
+rmc-xeno-parasite-dead = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} не рухається.
+rmc-xeno-parasite-announce-infect = Ви бачите, що {$xeno} інфікував жертву!

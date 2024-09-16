@@ -52,6 +52,7 @@
     price: 500
   - type: MagazineAmmoProvider
     autoEject: true
+  - type: RMCAmmoEject
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -62,9 +63,9 @@
 
 - type: entity
   parent: CMBaseWeaponRifle
-  name: M54C assault rifle MK2
+  name: M54C штурмова гвинтівка MK2
   id: WeaponRifleM54C
-  description: The standard issue rifle of the Marines. Commonly carried by most combat personnel. Uses 10x24mm caseless ammunition.
+  description: Стандартна гвинтівка. Найбільш використовувана морпіхами зброя. Стріляє безгільзовими набоями калібру 10x24mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c.rsi
@@ -155,10 +156,10 @@
       rmc-aslot-underbarrel: 0.25, -0.343
 
 - type: entity
-  name: M54CE2 heavy assault rifle
+  name: M54CE2 важка штурмова гвинтівка
   parent: CMBaseWeaponRifle
   id: WeaponRifleM54CE2
-  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: Велика й потужна зброя яка розрахована на довготривалу стрільбу, але робить це меньш точно. Оскільки в неї сильна віддача стріляти необхідно використовуючи обидві руки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
@@ -248,9 +249,9 @@
 
 - type: entity
   parent: CMBaseWeaponRifle
-  name: M4SPR battle rifle
+  name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
-  description: The M4SPR battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4SPR battle rifle is perfect for reconnaissance and fire support teams.
+  description: M4SPR - це бойова гвинтівка призначена для стрільби на марксменські дистанції. Ідеально підходить для піхотних снайперів і людей що люблять стріляти одиночними.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
@@ -277,6 +278,8 @@
     recoilUnwielded: 2
     scatterWielded: 6
     baseFireRate: 2.86
+  - type: RMCWeaponDamageFalloff
+    falloffMultiplier: 0
   - type: WieldDelay
     baseDelay: 0.2
   - type: WieldableSpeedModifiers
@@ -330,9 +333,9 @@
 
 - type: entity
   parent: WeaponRifleM4SPR
-  name: M4SPR custom battle rifle
+  name: M4SPR спеціальна бойова гвинтівка
   id: WeaponRifleM4SPRCustom
-  description: An improvement over the already great M4SPR. Able to take A19 rounds, as well as having better control and accuracy at the cost of being harder to use. Can take traditional M4SPR mags, at lower damage.
+  description: Ще краща версія й так ідеальної гвинтівки M4SPR. Має можливість заряджатися набоями A19, збільшену точність, а також краще контролюється проте її складніше використовувати. Може стріляти й звичайними M4SPR набоями, але зі зменшеною шкодою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom.rsi
@@ -407,12 +410,14 @@
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
+        startingItem: RMCMagazineRifleM4SPRA19
         whitelist:
           tags:
           - CMMagazineRifleM4SPR
           - CMMagazineRifleM4SPRAP
           - CMMagazineRifleM4SPRExt
           - RMCMagazineRifleM4SPRA19
+          - RMCMagazineRifleM4SPRA19Impact
 
 - type: Tag
   id: WeaponRifleM54CE2

@@ -1,4 +1,4 @@
-chat-radio-marine-highcommand = ВищеКомандування
+chat-radio-marine-highcommand = Вище Командування
 
 chat-radio-marine-common = Морпіхотний-основний
 chat-radio-marine-command = Командування

@@ -34,8 +34,8 @@ CMJobXenoLurker = Lurker
 cm-job-name-xeno-praetorian = Praetorian
 CMJobXenoPraetorian = Praetorian
 
-cm-job-name-xeno-queen = Queen
-CMJobXenoQueen = Queen
+cm-job-name-xeno-queen = Королева
+CMJobXenoQueen = Королева
 
 cm-job-name-xeno-ravager = Ravager
 CMJobXenoRavager = Ravager
@@ -53,13 +53,13 @@ cm-job-name-xeno-warrior = Warrior
 CMJobXenoWarrior = Warrior
 
 # TODO RMC14
-department-CMXeno = Xenonid
+department-CMXeno = Ксеноїди
 cm-department-Xeno-description = ""
 
-cm-job-name-selectable-xenonid = Xenonid
-CMXenoSelectableXeno = Xenonid
+cm-job-name-selectable-xenonid = Ксеноїд
+CMXenoSelectableXeno = Ксеноїд
 
-cm-job-supervisors-queen = the Queen
+cm-job-supervisors-queen = Королева
 
 role-timer-xeno-roles = Xenonid
 role-timer-xeno-drones = drone and drone evolutions

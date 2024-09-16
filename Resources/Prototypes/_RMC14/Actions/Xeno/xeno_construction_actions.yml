@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread more weeds.
+  name: Посадити Траву (75) # TODO RMC14 proper plasma costs
+  description: Посадити вузол який розплодить навколо себе чорну траву.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -22,8 +22,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: Choose Resin Structure
-  description: "Choose a structure to secrete with the 'Secrete Resin' action."
+  name: Обрати Структуру Смоли
+  description: Оберіть яку саме структури зі смоли ви будуватимете
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: Secrete Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
+  name: Виділення Смоли
+  description: Збудуйте обрану структуру
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -55,8 +55,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: Збудувати Конструкцію
+  description: Розпочати будівництво важливої для Вулика конструкції.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem

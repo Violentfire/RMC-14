@@ -31,6 +31,12 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: RMCAmmoEject
+    containerID: ballistic-ammo
+    ejectSound:
+      path: /Audio/_RMC14/Weapons/Guns/Reload/grenade_insert.ogg
+      params:
+        volume: -2
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -56,10 +62,10 @@
 
 
 - type: entity
-  name: M83 grenade launcher
+  name: гранатомет M83
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: WeaponLauncherM83
-  description: A heavy, 6-shot grenade launcher used by the UNMC for area denial and big explosions.
+  description: Важкий, шестизарядний гранатомет що використовується морпіхами ООН для закидування ворога гранатами. На правій стороні вигравіювано наступне "Тримайте на запобіжнику щоб випадково не вистрілити собі під ноги гранатою".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m83.rsi
@@ -92,10 +98,10 @@
       rmc-aslot-rail: 0.0, 0.185
 
 - type: entity
-  name: M79 grenade launcher
+  name: гранатомет M79 
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: CMWeaponLauncherM79
-  description: The M79 grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher.
+  description: M79 - це однозарядний гранатомет, що здатен випльовувати гранати на непогану відстань.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m79.rsi
@@ -144,7 +150,7 @@
   name: M5-ATL
   parent:  [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherM5ATL
-  description: "The M5 Anti-Tank Launcher is a powerful anti-armor infantry weapon, commonly fielded by the UNMC. Used to take out light-tanks and enemy structures, the M5-ATL is a dangerous weapon with a variety of combat uses, depending on the loaded ammunition, and is capable of firing both shells and rocket-propelled grenades.\n\nThis one is missing its smart optics completely, and seems to be damaged, greatly limiting its range..."
+  description: "M5 Anti-Tank Launcher це потужна, бронебійна, зброя яку використовують морпіхи ООН для знищення важкоброньованих цілей. Дуже небезпечний і має різноманітні можливості бойового застосування, може бути заряджений як гранатою так і ракетою.\n\nНа цьому екзепмлярі відсутня розумна оптика, і, схоже, він пошкоджений через що дальність його пострілу зменшена..."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5spec.rsi

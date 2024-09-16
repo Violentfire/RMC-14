@@ -10,7 +10,7 @@ rmc-breech-loaded-closed-load-attempt = Спочатку треба відкри
 rmc-wield-use-delay = Спочатку зачекайте {$seconds} секунд перш ніж використовувати {THE($wieldable)}!
 rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секунд перед стрільбою {THE($wieldable)}!
 
-rmc-shoot-harness-required = Необхідний худ
+rmc-shoot-harness-required = Необхідне спорядження
 rmc-wear-smart-gun-required = Вам треба мати Смартган, щоб носити їх.
 
 rmc-revolver-spin = Ви крутите барабан.

@@ -1,8 +1,8 @@
 - type: entity
   id: CMTarbackCigar
   parent: Cigar
-  name: tarback cigar
-  description: "Tarbacks by Reisland Tobacco. The Surgeon General has declared that smoking Tarbacks can be hazardous to one’s health. Reisland Tobacco has declared that the Surgeon General is a bitch. Rolled in Columbia."
+  name: сигара
+  description: "Сигара від компанії СамоКрут. Рада Лікарів заявила що курити ці сигари шкідливо. СамоКрут заявили що Рада Лікарів дибіли. Скручено в Дніпрі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigars/tarback.rsi

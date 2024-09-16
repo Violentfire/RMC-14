@@ -12,8 +12,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
-  name: Toggle Ammo Type
-  description: Switch the ammo type fired by this gun.
+  name: Перемкнути Тип Набоїв
+  description: Перемикання типу набоїв Смартгану.
   components:
   - type: InstantAction
     icon:
@@ -26,8 +26,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleRecoil
-  name: Toggle Recoil Compensation
-  description: Removes all recoil when firing this gun.
+  name: Перемкнути Компенсацію Віддачі
+  description: Усуває віддачу під час стрільби.
   components:
   - type: InstantAction
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleAutoFire
-  name: Toggle Auto Fire
-  description: Makes the gun automatically shoot a single shot towards a target every couple seconds.
+  name: Перемкнути Автоматичну Стрільбу
+  description: Якщо увімкнено, то зброя робить один постріл в бік цілі кожні кілька секунд.
   components:
   - type: InstantAction
     icon:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleFarSight
-  name: Toggle Far Sight
-  description: Lets you see slightly farther away.
+  name: Перемкнути Далекоглядність
+  description: Дає вам змогу бачити трохи далі.
   components:
   - type: InstantAction
     icon:

@@ -1,8 +1,8 @@
 - type: entity
   parent: CigPackBase
   id: CMCigarettePackLuckySlothsMini
-  name: lucky sloths mini packet
-  description: These four-packs of Luckies come in every MRE. They're not as good as the Habana Reals that come in the LACN MREs, but at least they're free.
+  name: маленька пачка Везучий Ледар
+  description: Ця чотиримісна пачка Везучого є в кожному MRE. Вони не настільки добрі як Реаль Габана що пакують в LACN MRE, але, дарованому коню в зуби не заглядають.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths_4.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CigPackBase
   id: RMCCigarettePackLuckySloths
-  name: lucky sloths packet
-  description: Lucky Sloths Means Fine Tobacco! 9/10 doctors agree on Lucky Sloths...as the leading cause of marine lung cancer.
+  name: пачка Везучий Ледар 
+  description: Везучий Ледар - це якісний продукт! 9/10 лікарів кажуть що Везучий Ледар найкращі... у вбивстві морпіхів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/lucky_sloths.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackWeYaGold
-  name: We-Ya gold packet
-  description: Paving Better Worlds, and rolling better cigarettes. These fancy cigarettes are Weston-Yamada's entry into the market. Comes backed by a fierce legal team.
+  name: золота пачка Ве-Я
+  description: Будувати Кращі Світи, і крутити кращі цигарки. Ці вишукані цигарки від Вестон-Ямади найкраще що ставалося з сигаретним ринком за всі часи. Жоден лікар не критикує їх... або через їхню якість, або через команду юристів що стоять за ними.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/we_ya_gold_packet.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCCigarettePackLuckySloths
   id: RMCCigarettePackExecutiveSelect
-  name: executive select packet
-  description: These cigarettes are the height of luxury. They're smooth, they're cool, and they smell like victory...and cigarette smoke.
+  name: пачка Виконавчий вибір 
+  description: Ці цигарки верх розкоші. Вони вишукані, вони круті, і пахнуть перемогою...і сигаретним димом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigarettes/executive_select.rsi

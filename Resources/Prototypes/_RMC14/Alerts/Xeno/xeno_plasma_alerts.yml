@@ -40,6 +40,6 @@
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_plasma.rsi
     state: power_display_empty
   name: Плазма
-  description: Накопичена вами плазма. Використвоється для різник здібностями.
+  description: Накопичена вами плазма. Використвоється різними здібностями.
   minSeverity: 0
   maxSeverity: 18

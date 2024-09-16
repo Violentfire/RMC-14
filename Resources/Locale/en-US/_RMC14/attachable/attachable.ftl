@@ -1,4 +1,4 @@
-rmc-attachable-holder-strip-ui-title = стрічкове обладнання
+rmc-attachable-holder-strip-ui-title = стрічкові обвіси
 rmc-attachable-holder-strip-ui-empty-slot = нічого
 
 rmc-verb-strip-attachables = Додати обвіси
@@ -57,6 +57,7 @@ rmc-attachable-examine-ranged-fire-delay = [color={$colour}]{$sign}{TOSTRING($fi
 rmc-attachable-examine-ranged-recoil = [color={$colour}]{$sign}{$recoil}[/color] віддача.
 rmc-attachable-examine-ranged-damage = [color={$colour}]{$sign}{$damage}[/color] множник дальності ураження.
 rmc-attachable-examine-ranged-projectile-speed = [color={$colour}]{$sign}{$projectileSpeed}[/color] швидкість кулі.
+rmc-attachable-examine-ranged-damage-falloff = [color={$colour}]{$sign}{$falloff}[/color] мультиплікатор падіння.
 
 rmc-attachable-examine-melee-damage = [color={$colour}]{$sign}{$damage}[/color] шкоди від удару.
 

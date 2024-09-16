@@ -13,6 +13,7 @@ using Content.Shared.Interaction.Components;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
 using Content.Shared.Popups;
+using Content.Shared.Tag;
 using Content.Shared.Tools.Systems;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Systems;
@@ -20,7 +21,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
-using Robust.Shared.Player;
+using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
@@ -42,6 +43,7 @@ public sealed class SentrySystem : EntitySystem
     [Dependency] private readonly SkillsSystem _skills = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly TagSystem _tag = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _ui = default!;
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
@@ -75,9 +77,9 @@ public sealed class SentrySystem : EntitySystem
         _toUpdate.Add(sentry);
 
         if (sentry.Comp.StartingMagazine is { } magazine)
-        {
             TrySpawnInContainer(magazine, sentry, sentry.Comp.ContainerSlotId, out _);
-        }
+
+        UpdateState(sentry);
     }
 
     private void OnSentryPickupAttempt(Entity<SentryComponent> sentry, ref PickupAttemptEvent args)
@@ -215,6 +217,14 @@ public sealed class SentrySystem : EntitySystem
         if (!HasComp<BallisticAmmoProviderComponent>(used))
             return;
 
+        if (sentry.Comp.MagazineTag is { } magazineTag &&
+            !_tag.HasTag(used, magazineTag))
+        {
+            var msg = Loc.GetString("rmc-sentry-magazine-does-not-fit", ("sentry", sentry), ("magazine", used));
+            _popup.PopupClient(msg, sentry, user, PopupType.SmallCaution);
+            return;
+        }
+
         args.Handled = true;
 
         if (!CanInsertMagazinePopup(sentry, user, used, out _))
@@ -335,7 +345,10 @@ public sealed class SentrySystem : EntitySystem
 
     private void UpdateState(Entity<SentryComponent> sentry)
     {
-        var fixture = sentry.Comp.DeployFixture is { } fixtureId ? _fixture.GetFixtureOrNull(sentry, fixtureId) : null;
+        var fixture = sentry.Comp.DeployFixture is { } fixtureId && TryComp(sentry, out FixturesComponent? fixtures)
+            ? _fixture.GetFixtureOrNull(sentry, fixtureId, fixtures)
+            : null;
+
         switch (sentry.Comp.Mode)
         {
             case SentryMode.Item:

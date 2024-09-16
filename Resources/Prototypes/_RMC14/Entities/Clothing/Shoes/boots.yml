@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: CMShoesLaceupCommander
-  name: commanding officer dress shoes
-  description: Has special soles for better trampling those underneath.
+  name: туфлі командного офіцера
+  description: Мають дуже м'яку підошву, настільки м'яку що відчуття такі ніби ви ходите по хмаринкам.
 
 - type: entity
   abstract: true
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: CMBootsBlack
-  name: marine combat boots
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time.
+  name: бойові чоботи морпіхів
+  description: Стандартні бойові чоботи, гарно показують себе в усіх сценаріях. Завжди бойові, ЗАВЖДИ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/black.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMBootsBlackFilled
   id: RMCScoutShoes
-  name: infiltrator boots # Could probably use it's own sprite
-  description: A modified pair of combat boots, including several trimmed down areas and padded with cloth alongside some form of leather
+  name: розвідницькі чоботи # Could probably use it's own sprite
+  description: Модифікована пара бойових чоботів, розроблені спеціально щоб притишити звуки пересування.
   components:
   - type: FootstepModifier
     footstepSoundCollection:
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMBootsBlack
   id: CMBootsBrown
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time. These are brown.
+  description: Стандартні бойові чоботи, гарно показують себе в усіх сценаріях. Завжди коричневі, ЗАВЖДИ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/brown.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMBootsBlack
   id: CMBootsJungle
-  name: jungle boots
-  description: Don't go walkin' slow, the devil's on the loose.
+  name: джунглеві чоботи
+  description: Чим швидше ви йдете, тим меньше про В'єтнам згадаєте.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jungle.rsi
@@ -114,16 +114,16 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: RMCBootsCorporate
-  name: rugged boots
-  description: These synth-leather boots seem high quality when first worn, but quickly detoriate, especially in the environments the corporate security members these are issued to operate in. Still, better than nothing.
+  name: міцні чоботи
+  description: Ці синтетичні чоботи спершу справляють враження якісного взуття, однак вже скоро вони починають бути схожі на сміття яке тримається лише на божій силі і суперклеї. Проте це краще ніж нічого.
 
 
 # PMC 
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsPMC
-  name: polished shoes
-  description: The height of fashion, but these look to be woven with protective fiber.
+  name: начищені туфлі
+  description: Модні туфелькі, та й до того ж непогано захищають.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jackboots.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: RMCBootsPMC
   id: RMCBootsPMCCommando
-  name: PMC commando boots
-  description: A pair of heavily armored, acid-resistant boots.
+  name: чоботи спецназу PMC 
+  description: Пара важкоброньованих, кислотно-непроникних чоботів.
 
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
@@ -151,15 +151,15 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsVanBandolier
-  name: hiking boots
-  description: Over stone, over ice, through sun and sand, mud and snow, into raging water and hungry bog, these will never let you down.
+  name: похідні черевики
+  description: По камінню, по льоду, крізь сонце і пісок, бруд і сніг, в бурхливій воді і смердючому болоті, ці чоботи пройдуть скрізь.
 
 # CBRN
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsCBRN
-  name: M3 MOPP boots
-  description: M3 MOPP boots have been designed to protect the wearer from contact with any possible infection vectors or hazardous substances that may have contaminated the area of operations. This includes further enhancements in conjunction with the standard durability of M3 boots, reducing the probability of punctures or cuts as well as the effects of radiation.
+  name: чоботи M3 MOPP 
+  description: Чоботи M3 MOPP були розроблені для захисту від контакту з будь-якими можливими носіями інфекцій або небезпечними речовинами, які можуть бути в зоні проведення операцій. Це включає в себе додаткові покращення які в поєднанні зі стандартною міцністю черевиків M3, зменшують ймовірність проколів або порізів, а також вплив радіації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/cbrn.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsRoyal
-  name: L10 pattern combat boots
-  description: Standard issue combat boots for combat scenarios or combat situations. Used by the threa sun empires royal marines commando units.
+  name: бойові чоботи зразка L10 
+  description: Звичайні бойові чоботи. Використовуються підрозділами королівської морської піхоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/rmc.rsi

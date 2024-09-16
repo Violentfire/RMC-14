@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineFocus
-  name: Issue Order - Focus
-  description: Increases gun accuracy for nearby marines
+  name: Наказ - Цілитися
+  description: Збільшує точність ближніх морпіхів
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineHold
-  name: Issue Order - Hold
-  description: Increases damage resistance for nearby marines
+  name: Наказ - Триматися
+  description: Збільшує стійкість ближніх морпіхів 
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -27,8 +27,8 @@
 - type: entity
   id: ActionMarineMove
   parent: ActionMarineBase
-  name: Issue Order - Move
-  description: Increases speed for nearby marines
+  name: Наказ - Рухатися
+  description: Збільшує швидкість руху ближніх морпіхів
   components:
   - type: InstantAction
     itemIconStyle: NoItem
