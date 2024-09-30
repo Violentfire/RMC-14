@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionXenoRest
   parent: ActionXenoBase
-  name: Rest
-  description: Lie down to regenerate health and plasma more quickly while on weeds.
+  name: Відпочити
+  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -15,8 +15,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: CMGuidebookActionXenoRest
-  name: Rest
-  description: Lie down to regenerate health and plasma more quickly while on weeds.
+  name: Відпочити
+  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
   components:
   - type: Sprite
     state: resting
@@ -24,7 +24,7 @@
 - type: entity
   id: ActionXenoWatch
   parent: ActionXenoBase
-  name: Watch Xenonid
+  name: Відчути Ксеноїдів
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -36,8 +36,8 @@
 - type: entity
   id: ActionXenoPheromones
   parent: ActionXenoBase
-  name: Emit Pheromones (35) # TODO RMC14 proper plasma costs
-  description: Gives a buff to nearby xenonids.
+  name: Виділити Феромони (35) # TODO RMC14 proper plasma costs
+  description: Надає обрані підсилення ближнім ксеносам.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -50,8 +50,8 @@
 - type: entity
   id: ActionXenoHide
   parent: ActionXenoBase
-  name: Hide
-  description: Hide under tables and other objects.
+  name: Ховатися
+  description: Якщо активовано, ви будете ховатися від інкубаторського ока під столами та іншими об'єктами.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -64,8 +64,8 @@
 - type: entity
   id: ActionXenoToggleCrest
   parent: ActionXenoBase
-  name: Toggle Crest Defense
-  description: Increases your resistance to projectile damage but slows you down.
+  name: Опустити Гребінь
+  description: Збільшує ваш захист від куль, але ви рухаєтеся повільнішею.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -81,8 +81,8 @@
 - type: entity
   id: ActionXenoFortify
   parent: ActionXenoBase
-  name: Fortify
-  description: Become immobile and extremely resistant to projectile damage.
+  name: Укріпитися
+  description: Робить вас майже невразливим до куль, але й нерухомим водночас.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -98,8 +98,8 @@
 - type: entity
   id: ActionXenoResinWalker
   parent: ActionXenoBase
-  name: Resin Walker (50) # TODO RMC14 proper plasma costs
-  description: Run faster on weeds.
+  name: Смолоход (50) # TODO RMC14 proper plasma costs
+  description: Ви швидше рухаєтеся по траві.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -112,7 +112,7 @@
 - type: entity
   id: ActionXenoZoom
   parent: ActionXenoBase
-  name: Toggle Long-Range Sight
+  name: Перемкнути Дальновидність
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -125,8 +125,8 @@
 - type: entity
   id: ActionXenoWordQueen
   parent: ActionXenoBase
-  name: Word of the Queen (50) # TODO RMC14 proper plasma costs
-  description: Sends a message to all members of your hive.
+  name: Слово Королеви (50) # TODO RMC14 proper plasma costs
+  description: Цей гомін пролунає в головах усіх членів вашого вулику.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -140,8 +140,8 @@
 - type: entity
   id: ActionXenoGrowOvipositor
   parent: ActionXenoBase
-  name: Grow Ovipositor (700) # TODO RMC14 proper plasma costs
-  description: Become immobile and start laying eggs which will produce parasites. Has a 5 minute cooldown. [color=red]You must be in ovipositor mode for other xenonids to gain evolution points after round-start![/color]
+  name: Прикріпитися до Яйцеклада (700) # TODO RMC14 proper plasma costs
+  description: Стаєте нерухомою та починаєте відкладати яйця з яких потім вилізуть гарнюні паразитики. Має п'ятихвилинну перезарядку. [color=red]ЦЕ ЄДИНИЙ СПОСІБ КСЕНОЇДАМ ОТРИМУВАТИ ОЧКИ ЕВОЛЮЦІЇ ПІСЛЯ ПОЧАТКУ РАУНДУ![/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -154,8 +154,8 @@
 - type: entity
   id: ActionXenoTurnInvisible
   parent: ActionXenoBase
-  name: Turn Invisible (20) # TODO RMC14 proper plasma costs
-  description: Become partially invisible for a short time or until you attack.
+  name: Стати Невидимим (20) # TODO RMC14 proper plasma costs
+  description: Станьте частково невидимим, на короткий час чи до того як атакуєте.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -167,8 +167,8 @@
 - type: entity
   id: ActionXenoDefensiveShield
   parent: ActionXenoBase
-  name: Defensive Shield (50)
-  description: Gain a temporary shield that blocks the next 200 damage (And is immune to explosive damage) lasting 7 seconds. Any damage that impacts the shield is reduced by 10 before processing.
+  name: Захистний Щит (50)
+  description: Тимчасовий щит який блокує наступні 200 одиниць шкоди (І дає імунітет до вибухів), що діє 7 секунд. Будь-яка шкода, що потрапляє на щит зменьшується вдесятеро.
   components:
   - type: InstantAction
     itemIconStyle: NoItem

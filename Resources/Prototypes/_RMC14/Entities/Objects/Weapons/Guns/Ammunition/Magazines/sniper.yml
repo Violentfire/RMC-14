@@ -2,7 +2,7 @@
   parent: BaseMagazineRifle
   id: CMMagazineSniperM96S
   name: "M96S снайперський магазин (10x28mm)"
-  description: Магазин набоїв для снайперки. Прицільний постріл такою може призвести до сильних пошкоджень.
+  description: Магазин набоїв для снайперки. Прицільний постріл таким може призвести до сильних пошкоджень.
   components:
   - type: Tag
     tags:
@@ -33,7 +33,7 @@
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SIncendiary
   name: "M96S магазин запалювальних (10x28mm)"
-  description: Магазин набоїв для снайперки. Постріл такими здатний осліпити ціль, а також викликати її загоряння.
+  description: Магазин набоїв для снайперки. Постріл таким здатний осліпити ціль, а також викликати її загоряння.
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmIncendiary
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SFlak
-  name: "M96S flak magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily slow the target and minimize the backlash.
+  name: "M96S магазин сповільнюючих (10x28mm)"
+  description: Магазин набоїв для снайперки. Постріл таким здатний тимчасово сповільнити ціль, а також мінімізувати віддачу.
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmFlak

@@ -63,7 +63,7 @@
   parent: CigarCase
   id: RMCTarbackCase
   name: портсигар СамоКрут
-  description: Не дайте такому вишуканому оформленню і нісенітницям про традиції обдурити вас. Найсамокрутніші сигари у всьому всесвіті. Скручено в Дніпрі..
+  description: Не дайте такому вишуканому оформленню і нісенітницям про традиції обдурити вас. Найсамокрутніші сигари у всьому всесвіті. Скручено в Дніпрі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Cigars/tarback_box.rsi

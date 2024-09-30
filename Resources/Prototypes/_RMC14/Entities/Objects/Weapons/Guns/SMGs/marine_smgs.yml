@@ -35,9 +35,9 @@
 
 - type: entity
   parent: CMBaseWeaponSMG
-  name: M63 submachine gun
+  name: M63 пістолет-кулемет
   id: WeaponSMGM63
-  description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
+  description: Пістолет-кулемет виробництва Aegis Battlefield Armaments M-63. Зазвичай використовується легкою піхотою, медиками, техніками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63.rsi

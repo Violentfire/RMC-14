@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePlushie
   id: CMPlushieBase
-  name: generic plushie
-  description: perfectly generic
+  name: універсальна плюшка
+  description: Ідеальна універсальність
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/plushies.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieFarwa
-  name: Farwa plush
-  description: A Farwa plush doll. It's soft and comforting!
+  name: плюшева Farwa 
+  description: Плюшева іграшка Farwa. Вона м'якенька й гарненька!
   components:
   - type: Sprite
     state: farwa
@@ -20,8 +20,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBarricade
-  name: plushie barricade
-  description: Great for squeezing whenever you're scared. Or lightly hurt. Or in any other situation.
+  name: плюшева барикада
+  description: Ідеально підходить щоб сховатися за нею від страху. Просто вірте що за нею вам нічого не зашкодить. Не намагайтеся використовувати її замість справжньої.
   components:
   - type: Sprite
     state: barricade
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBee
-  name: bee plush
-  description: A cute toy that awakens the warrior spirit in the most reserved marine.
+  name: плюшева бджола
+  description: Мила іграшка, що пробудить дух Бджоляра навіть в найбоягузливішому бійці.
   components:
   - type: Sprite
     state: bee
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRock
-  name: rock plush
-  description: It says it is a plush on the tag, at least.
+  name: плюшевий камінь
+  description: Камінь, беземоційний камінь.
   components:
   - type: Sprite
     state: rock
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieTherapy
-  name: therapy plush
-  description: A therapeutic toy to assist marines in recovering from mental and behavioral disorders after experiencing the trauma of battles.
+  name: терапевтична плюшка
+  description: Терапевтична іграшка, яка допомагає відновити ментальне здоров'я морпіха.
   components:
   - type: Sprite
     layers:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRunnerBeret
-  name: XX-121 therapy plush
-  description: Don't be sad! Be glad (that you're alive)!
+  name: XX-121 терапевтична плюшка
+  description: Не сумуй! Радій (що ти живий)!
   components:
   - type: Sprite
     state: runner_beret

@@ -14,8 +14,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: Cycle Zoom Level
-  description: Change the level of magnification of your optics.
+  name: Перемкнути Рівень Приближення
+  description: Змінює приближення вашої оптики.
   components:
   - type: InstantAction
     icon:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: Whistle
-  description: Blow the whistle.
+  name: Посвистіти
+  description: Подути в свисток.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
