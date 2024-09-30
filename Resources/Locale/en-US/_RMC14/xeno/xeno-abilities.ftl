@@ -1,6 +1,10 @@
 ﻿# Plasma
 cm-xeno-not-enough-plasma = У вас недостатньо плазми!
 
+# Energy
+rmc-xeno-not-enough-energy = Your health reserves are insufficient!
+rmc-xeno-energy-increase-user = You feel your internal health reserves increase!
+
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
 cm-xeno-order-construction = Збудувати
@@ -10,6 +14,7 @@ cm-xeno-construction-plasma-left = Будівництво {$construction} при
 cm-xeno-cant-reach-there = Ви не можете туди дотягтися!
 cm-xeno-cant-build-in-self = Ви не можете будувати так близько!
 cm-xeno-unique-exists = {$choice} вже збудовано!
+rmc-xeno-cant-build-new-yet = Ми ще не можемо побудувати новий {$choice}!
 
 # Evolve
 cm-xeno-available-evolutions = Доступні Еволюції
@@ -23,6 +28,7 @@ cm-xeno-evolution-failed-hive-full = Вулик не може підтримув
 rmc-xeno-evolution-devolve-title = Деградувати в
 rmc-xeno-evolution-devolve = Ви деградували в {$xeno}!
 rmc-xeno-evolution-cant-evolve-damaged = Ви повинні бути здоровими щоб еволюціонувати.
+rmc-xeno-evolution-cant-strain-damaged = Ми повинні бути повністю здорові, щоб витримати навантаження.
 rmc-xeno-evolution-cant-devolve-damaged = Ви занадто слабкі для деградації, спершу відрегенеруйтеся.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-minutes = Ви маєте зачекати {$minutes} хвилин і {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-seconds = Ви маєте зачекати {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
@@ -87,6 +93,7 @@ rmc-xeno-rest-cant-stomp = Не можна тупотіти під час від
 rmc-xeno-rest-cant-gut = Не можна потрошити під час відпочинку!
 rmc-xeno-rest-cant-screech = Не можна кричати під час відпочинку!
 rmc-xeno-rest-cant-secrete = Не можна будувати під час відпочинку!
+rmc-xeno-rest-cant = Не можна цього робити під час відпочинку!
 
 # Toggle Crest Defense
 cm-xeno-toggle-crest-cant-fortify = Ви не можете укріплюватися, поки ваш гребінь опущений!
@@ -119,3 +126,29 @@ rmc-xeno-defensive-shield-end = Ви відчуваєте що більше не
 rmc-xeno-defensive-shield-resist-end = Ваш імунітет до вибухів закінчився!
 rmc-xeno-defensive-shield-activate = {$user} притискається до підлоги й стає більш захищеним!
 rmc-xeno-defensive-shield-activate-self = Ви притискаєтеся до підлоги й стаєте більш захищеним!
+
+# Acid Ball
+rmc-xeno-acid-ball-shoot-self = Ми підкидаємо стиснуту кульку кислоти в повітря!
+rmc-xeno-praetorian-acid-spit-hit-self = Ви відчуваєте, як кислота в'їдається в шкіру!
+
+# Retrieve
+rmc-xeno-not-same-hive = Ми повинні вибрати одну з наших сестер!
+rmc-xeno-retrieve-self = Ми не можемо повернути себе!
+rmc-xeno-retrieve-anchored = Ця сестра не може рухатися!
+rmc-xeno-retrieve-too-big = {$target} занадто великий, щоб отримати його стоячи!
+rmc-xeno-retrieve-dead = {$target} вже мертвий!
+rmc-xeno-retrieve-blocked = Ми не можемо дістатися до {$target} нашим гаком для вилучення смоли!
+rmc-xeno-retrieve-start-self = Готуємося вистрілити гаком для вилучення смоли в {$target}!
+rmc-xeno-retrieve-start-others = {$user} готується вистрілити своїм гаком для вилучення смоли у {$target}!
+rmc-xeno-retrieve-finish-user = Перекидаємо {$target} над головою за допомогою нашого смоляного гачка!
+rmc-xeno-retrieve-finish-target = Нас тягне до {$user}!
+
+# Aid
+rmc-xeno-aid-self = Ми не можемо зцілити себе!
+rmc-xeno-aid-dead = {$target} вже мертвий!
+rmc-xeno-heal-self = Ми зцілюємо {$target}!
+rmc-xeno-heal-target = Нас зцілює {$target}!
+rmc-xeno-heal-others = {$user} кладе свої кігті на {$target}, і його рани швидко затягуються!
+rmc-xeno-heal-ailments-self = Ми омолоджуємо {$target}!
+rmc-xeno-heal-ailments-target = Нас омолоджує {$target}!
+rmc-xeno-heal-ailments-others = {$user} вказує на {$target}, і вона спазмується, оскільки неприродно швидко відновлюється!
