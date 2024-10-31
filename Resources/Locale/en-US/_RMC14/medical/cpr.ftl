@@ -5,4 +5,3 @@ cm-cpr-self-perform = Ви виконуєте СЛР {$target}. Повторюй
 cm-cpr-other-perform = {$performer} проводить СЛР {$target}
 cm-cpr-self-perform-fail-received-too-recently = Вам не вдалося провести СЛР {$target}. Неправильний ритм. Робіть це повільніше.
 cm-cpr-other-perform-fail = {$performer} не зміг зробити СЛР {$target}
-cm-cpr-take-off-mask = Зніміть спершу {POSS-ADJ($target)}!

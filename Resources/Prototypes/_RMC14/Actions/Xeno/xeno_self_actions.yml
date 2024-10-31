@@ -17,6 +17,7 @@
   id: CMGuidebookActionXenoRest
   name: Відпочити
   description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     state: resting
@@ -37,7 +38,7 @@
   id: ActionXenoPheromones
   parent: ActionXenoBase
   name: Виділити Феромони (35) # TODO RMC14 proper plasma costs
-  description: Надає обрані підсилення ближнім ксеносам.
+  description: Надає обрані підсилення ближнім ксеносам. [color=cyan]Споживає 2,5 плазми на секунду.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -65,7 +66,7 @@
   id: ActionXenoToggleCrest
   parent: ActionXenoBase
   name: Опустити Гребінь
-  description: Збільшує ваш захист від куль, але ви рухаєтеся повільнішею.
+  description: Збільшує ваш захист від куль, але ви рухаєтеся повільнішею. Ви вважаєтесь на один розмір більшим, коли ваш гребінь опущений.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -82,7 +83,7 @@
   id: ActionXenoFortify
   parent: ActionXenoBase
   name: Укріпитися
-  description: Робить вас майже невразливим до куль, але й нерухомим водночас.
+  description: Робить вас майже невразливим до куль, але й нерухомим водночас. Ушкодження ще більше зменшуються від напрямку, в якому ви стоїте. Ви не можете бути оглушені, перебуваючи в укріпленні, і вважаєтесь на два розміри більшими.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -99,7 +100,7 @@
   id: ActionXenoResinWalker
   parent: ActionXenoBase
   name: Смолоход (50) # TODO RMC14 proper plasma costs
-  description: Ви швидше рухаєтеся по траві.
+  description: Ви швидше рухаєтеся по траві.  [color=cyan]Споживає 30 плазми на секунду.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -155,7 +156,7 @@
   id: ActionXenoTurnInvisible
   parent: ActionXenoBase
   name: Стати Невидимим (20) # TODO RMC14 proper plasma costs
-  description: Станьте частково невидимим, на короткий час чи до того як атакуєте.
+  description: Станьте частково невидимим, на короткий час чи до того як атакуєте. Can be toggled off to become visible again, with a refund of 90% remaining cloak time. Increases your movement speed by 15% until the ability expires.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -177,3 +178,50 @@
       state: empower
     event: !type:XenoDefensiveShieldActionEvent
     useDelay: 26
+
+- type: entity
+  id: ActionXenoRetrieveEgg
+  parent: ActionXenoBase
+  name: Retrieve Egg
+  description: Retrieves an egg from your storage if you have an empty hand. Using this on an unplanted egg will pick up all nearby unplanted eggs. Using an egg in hand will put it into your storage.
+  components:
+  - type: WorldTargetAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/xeno_actions.rsi
+      state: retrieve_egg
+    event: !type:XenoRetrieveEggActionEvent
+    deselectOnMiss: false
+    repeat: true
+    range: 30
+
+- type: entity
+  id: ActionXenoThrowParasite
+  parent: ActionXenoBase
+  name: Throw Parasite
+  description: Retrieves a parasite from your storage if you have an empty hand. Using this on a parasite on the ground will pickup all nearby parasites. Targeting a tile with a parasite in hand will throw it up to 4 tiles away, where the parasite will be stunned for 5 seconds. Using a parasite in hand will add it to your storage.[color=green]Parasites won't die due to time while you hold or carry them.[/color]
+  components:
+  - type: WorldTargetAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/xeno_actions.rsi
+      state: throw_parasite
+    event: !type:XenoThrowParasiteActionEvent
+    deselectOnMiss: false
+    repeat: true
+    range: 30
+    useDelay: 0
+
+- type: entity
+  id: ActionXenoParasiteReserve
+  parent: ActionXenoBase
+  name: Set Parasite Reserve
+  description: Sets your parasite Reserves. Observers cannot join as a stored parasite if your parasites stored is less than or equal to your reserve.
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/xeno_actions.rsi
+      state: reserve_parasite
+    event: !type:XenoReserveParasiteActionEvent
+    useDelay: 1

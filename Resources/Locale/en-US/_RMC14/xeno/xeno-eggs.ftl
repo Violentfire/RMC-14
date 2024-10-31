@@ -1,19 +1,29 @@
-cm-xeno-egg-clear = We clear the hatched egg.
-cm-xeno-egg-not-developed = The egg is not developed yet.
+cm-xeno-egg-clear = Ви знищуєте залишки яйця.
+cm-xeno-egg-not-developed = Яйце ще не достигло.
 
-cm-xeno-egg-failed-must-weeds = The egg must be planted on weeds.
+cm-xeno-egg-failed-must-weeds = Яйце має бути поставлене на траві.
 cm-xeno-egg-failed-plant-outside = Best not to plant this thing outside of a containment cell.
-cm-xeno-egg-failed-already-there = There's already an egg there.
-cm-xeno-egg-blocked = There's something built here already.
+cm-xeno-egg-failed-already-there = Там вже є яйце.
+cm-xeno-egg-blocked = Тут вже збудована споруда.
 
-rmc-xeno-egg-dead-child = This child is dead.
-rmc-xeno-egg-has-child = This one is occupied with a child.
-rmc-xeno-egg-awake-child = {CAPITALIZE($parasite)} doesn't want to go back in!
-rmc-xeno-egg-fail-return = This egg can't hold this child.
-rmc-xeno-egg-return-user = We place the child back into the egg.
-rmc-xeno-egg-return-self = {CAPITALIZE($parasite)} crawls back into the egg.
-rmc-xeno-egg-return = {CAPITALIZE($user)} slides {$parasite} back into the egg.
+rmc-xeno-egg-dead-child = Ця дитина мертва.
+rmc-xeno-egg-has-child = Це місце зайнято дитиною.
+rmc-xeno-egg-awake-child = {CAPITALIZE($parasite)} не хоче вертатися назад!
+rmc-xeno-egg-fail-return = Яйце не можу втримати цю дитину.
+rmc-xeno-egg-return-start = We start putting the child into the egg.
+rmc-xeno-egg-return-user = Ви повертаєте дитину назад в яйце.
+rmc-xeno-egg-return-self = {CAPITALIZE($parasite)} залазить назад в яйце.
+rmc-xeno-egg-return = {CAPITALIZE($user)} повертає {$parasite} назад в яйце.
 
-rmc-xeno-egg-ghost-verb = Become parasite
-rmc-xeno-egg-ghost-need-time = You ghosted too recently. You cannot become a parasite until 3 minutes have passed.
-rmc-xeno-egg-ghost-confirm = Are you sure you want to become a parasite?
+rmc-xeno-egg-ghost-verb = Стати паразитом
+rmc-xeno-egg-ghost-need-time = Ви занадто нещодавно опривидилися. Ви не можете стати паразитом поки не пройде три хвилини.
+rmc-xeno-egg-ghost-bypass-time = You successfully infected your target. You may become a parasite again.
+rmc-xeno-egg-ghost-confirm = Ви точно хочете стати паразитом?
+
+rmc-xeno-egg-throw-xeno = Throwing the egg would break it!
+rmc-xeno-egg-throw = That's a bad idea.
+
+rmc-xeno-egg-plant-self = We start planting the egg.
+rmc-xeno-egg-plant = {CAPITALIZE($user)} starts planting an egg.
+
+rmc-xeno-egg-carrier-death = {CAPITALIZE(THE($xeno))} has dropped some precious eggs!

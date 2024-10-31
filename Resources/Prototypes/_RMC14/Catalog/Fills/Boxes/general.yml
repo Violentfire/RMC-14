@@ -1,8 +1,8 @@
 - type: entity
-  name: box
+  name: ящик
   parent: BoxBase
   id: RMCBoxCardboard
-  description: It's just an ordinary box.
+  description: Це просто ящик.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/boxes.rsi

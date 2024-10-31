@@ -18,5 +18,6 @@ chat-radio-marine-foxtrot = Фокстрот
 
 chat-radio-colony = Колонія
 chat-radio-WY = Ве-я
+chat-radio-CMB = Бюро маршалів колоній
 
 chat-radio-hivemind = Вуликосвідомість

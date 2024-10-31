@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCBarricadeWood
-  name: wooden barricade
-  description: A wall made out of wooden planks nailed together. Not very sturdy, but can provide some concealment.
+  name: барикада з дерева
+  description: Купа дошок прибитих одне до одної цвяхами. Не дуже міцна, але краще ніж нічого.
   components:
   - type: Sprite
     drawdepth: WallTops

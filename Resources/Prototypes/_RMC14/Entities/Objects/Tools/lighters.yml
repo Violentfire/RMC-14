@@ -1,6 +1,6 @@
 - type: entity
-  name: zippo lighter
-  description: A fancy steel Zippo lighter. Ignite in style.
+  name: запальничка Зіппо
+  description: Найкраща сталева запальничка. Спаліть всіх хто каже інакше.
   parent: FlippoLighter
   id: RMCZippo
   components:
@@ -25,8 +25,8 @@
     - suitstorage
 
 - type: entity
-  name: We-Ya executive zippo lighter
-  description: A remarkable Zippo lighter embellished in the Company's black and gold shade.
+  name: запальничка представника Ве-Я
+  description: Чудова запальничка Zippo у фірмових кольорах компанії.
   parent: RMCZippo
   id: RMCZippoExec
   components:
