@@ -30,7 +30,7 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: Перекмкнути розвідувальний приціл М42
+  name: Перекмкнути ПНБ М42
   description: Дозволяє бачити навіть у повній темряві.
   components:
   - type: InstantAction

@@ -52,8 +52,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetal
-  name: metal barricade
-  description: A metal barricade that keeps the unwanted out. Upgradable with metal, plasteel, or metal rods for different attributes. Repair with a welder.
+  name: сталева барикада
+  description: Сталева барикада, ворогам завада. Може бути всіляко покращенна, наприклад завдяки сталі. Лагодиться зварювальником.
   components:
   - type: Climbable
   - type: Anchorable
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBurn
-  name: anti-biohazard barricade
-  description: A barricade incredibly resistant to corrosive and fire damage but breaks easier. Repair with a welder.
+  name: біозахисна барикада
+  description: Ця барикада надстійка до корозійних чи вогневих пошкоджень, але легко ламається від фізичної шкоди. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBrute
-  name: reinforced barricade
-  description: A heavy-duty barricade reinforced with metal and resistant against thrashing. Repair with a welder.
+  name: посилена барикада
+  description: Дуже міцна барикада, що посилена кількома шарами сталі. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeExplosive
-  name: blast-resistant barricade
-  description: An blast-resistant barricade made out of the same stuff in EODs. Repair with a welder.
+  name: вибухостійка барикада
+  description: Ця барикада стійка до вибухів, але перевіряти це не рекомендується. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeHandrail
-  name: handrail
-  description: A railing, for your hands. Woooow.
+  name: перила
+  description: Перила, щоб триматися. Круто.
   components:
     - type: Anchorable
     - type: Sprite
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetalDoor
-  name: folding metal barricade
-  description: A folding metal barricade weaker than the non-folding counterpart. Able to be opened and closed at a moment's notice. Repair with a welder.
+  name: підйомна сталева барикада
+  description: Її можна підняти, і опустити, і знов підняти, це так весело. Слабша за статичну версію. Лагодиться зварювальником.
   components:
   - type: Anchorable
   - type: MeleeSound

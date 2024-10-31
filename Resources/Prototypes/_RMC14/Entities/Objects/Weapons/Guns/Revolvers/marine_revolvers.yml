@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
-  name: M44 combat revolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds.
+  name: M44 револьвер
+  description: Громіздкий, інколи використовується штурмовиками, чи офіцерами Морської Піхоти, а також правоохоронцями. Стріляє набоями калібру .44 Magnum.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi

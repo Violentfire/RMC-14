@@ -37,7 +37,7 @@
   parent: CMBaseWeaponSMG
   name: M63 пістолет-кулемет
   id: WeaponSMGM63
-  description: Пістолет-кулемет виробництва Aegis Battlefield Armaments M-63. Зазвичай використовується легкою піхотою, медиками, техніками.
+  description: Пістолет-кулемет виробництва Aegis Battlefield Armaments, M-63. Зазвичай використовується легкою піхотою, медиками, техніками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63.rsi

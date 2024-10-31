@@ -4,8 +4,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorTool
-  name: tool storage machine
-  description: A large storage machine containing various tools and devices for general repair.
+  name: сховище з інструметами
+  description: Величезне сховище, в ньому містяться усі інструмети які можуть спасти вам на думку.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/tool.rsi

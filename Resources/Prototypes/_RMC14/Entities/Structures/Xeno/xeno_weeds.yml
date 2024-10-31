@@ -1,7 +1,7 @@
 ﻿- type: entity # TODO RMC14 sound
   id: XenoWeeds
-  name: weeds
-  description: Weird black weeds...
+  name: трава
+  description: Дивна, чорна трава...
   placement:
     mode: SnapgridCenter
     snap:
@@ -104,8 +104,8 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoWeedsSource
-  name: weed node
-  description: A weird, pulsating node
+  name: чорний вузол
+  description: Дивний, пульсуючий наріст
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -125,7 +125,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoWeeds
   id: XenoHiveWeeds
-  name: hive weeds
+  name: трава вулика
   placement:
     mode: SnapgridCenter
     snap:
@@ -186,7 +186,7 @@
 - type: entity # TODO RMC14 sound
   parent: XenoHiveWeeds
   id: XenoHiveWeedsSource
-  name: hive weed node
+  name: чорний вузол вулика
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_weeds.rsi
@@ -205,7 +205,7 @@
 
 - type: entity
   id: XenoWeedsWall
-  name: weeds
+  name: трава
   placement:
     mode: SnapgridCenter
     snap:

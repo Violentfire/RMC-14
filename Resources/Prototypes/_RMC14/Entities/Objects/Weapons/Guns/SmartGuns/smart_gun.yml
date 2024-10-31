@@ -2,7 +2,7 @@
   parent: CMBaseWeaponRifle
   id: RMCSmartGun
   name: ML66A smart gun
-  description: The actual firearm in the Smart Gun System. Essentially a heavy, mobile machinegun.
+  description: Потужна потужність, зброя вогневої підтримки зі системою Smart Gun. По суті, важкий, мобільний кулемет.
   components:
   - type: GunRequiresWield
   - type: Corrodible

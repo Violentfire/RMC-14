@@ -4,7 +4,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed]
   id: RMCPouchBayonet
-  name: байонетний чохол
+  name: чохол для ножів
   description: Бери ніж, ворогів ріж!
   components:
   - type: Sprite

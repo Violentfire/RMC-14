@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadePlasteel
-  name: plasteel barricade
-  description: A sturdy and easily assembled barricade made of reinforced plasteel plates, the pinnacle of strongpoints. Upgradable with metal, plasteel, or metal rods for different attributes. Repair with a welder.
+  name: пласталева барикада
+  description: Міцна й проста в побудові барикада, вершина барикадування. Може бути покращена. Лагодиться зварювальником. 
   components:
   - type: Climbable
   - type: Anchorable
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBurnPlasteel
-  name: plasteel anti-biohazard barricade
-  description: A sturdy barricade incredibly resistant to corrosive and fire damage but breaks easier. Repair with a welder.
+  name: біозахистна пласталева барикада
+  description: Надстійка до корозійних та вогняних пошкоджень, але слабше витримує фізичну шкоду. Краще своєї сталевої версії. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBrutePlasteel
-  name: plasteel reinforced barricade
-  description: A heavy-duty plasteel barricade reinforced with metal and resistant against thrashing. Repair with a welder.
+  name: посилена пласталева барикада
+  description: Надміцна пласталева барикада, об таку навіть ксеноморф зуби зламає. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeExplosivePlasteel
-  name: plasteel blast-resistant barricade
-  description: An sturdy blast-resistant barricade made out of the same stuff in EODs. Repair with a welder.
+  name: пласталева вибухостійка барикада
+  description: Ця вибухостійка барикада міцніша за її сталеву версію, але перевіряти її вибухостійкість всеодно не рекомендовано. Лагодиться зварювальником.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: CMBarricadeMetalDoor
   id: CMBarricadePlasteelDoor
-  name: folding plasteel barricade
-  description: A tough folding plasteel barricade stronger than its metal counterpart. Can be closed and opened at a moment's notice. Repair with a welder.
+  name: підйомна пласталева барикада
+  description: Вам нудно? Нема що робити? Підніміть, опустіть, знов підніміть, повторюйте поки не повеселішаєте, або вмрете. Лагодиться зварювальником.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi

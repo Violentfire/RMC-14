@@ -1,8 +1,8 @@
 - type: entity
-  name: Box of handcuffs
+  name: Ящик з наручниками
   parent: RMCBoxCardboard
   id: RMCBoxHandcuffs
-  description: A box full of handcuffs
+  description: Одному лиш командуючому офіцеру відомо, для чого їх використовують.
   components:
   - type: StorageFill
     contents:
