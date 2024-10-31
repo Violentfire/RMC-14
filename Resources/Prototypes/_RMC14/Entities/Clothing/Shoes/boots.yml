@@ -22,6 +22,7 @@
         whitelist:
           tags:
           - Knife
+          - Holdout
         startingItem: RMCM5Bayonet
   - type: CMItemSlots
     startingItem: RMCM5Bayonet
@@ -39,7 +40,7 @@
     layers:
     - state: icon
     - state: filled
-      map: [ "enum.CMItemSlotsLayers.Filled" ]
+      map: [ "enum.CMItemSlotsLayers.Fill" ]
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/black.rsi
   - type: ContainerContainer
@@ -54,6 +55,7 @@
         whitelist:
           tags:
           - Knife
+          - Holdout
   - type: Matchbox
   - type: CMHolster
   - type: CMItemSlots
@@ -118,7 +120,7 @@
   description: Ці синтетичні чоботи спершу справляють враження якісного взуття, однак вже скоро вони починають бути схожі на сміття яке тримається лише на божій силі і суперклеї. Проте це краще ніж нічого.
 
 
-# PMC 
+# PMC
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsPMC

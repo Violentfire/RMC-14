@@ -1,11 +1,14 @@
+using Content.Shared._RMC14.Dropship;
 using Content.Shared._RMC14.Hands;
 using Content.Shared._RMC14.Marines;
 using Content.Shared._RMC14.Xenonids.Construction;
+using Content.Shared._RMC14.Xenonids.Hive;
 using Content.Shared._RMC14.Xenonids.Parasite;
 using Content.Shared._RMC14.Xenonids.Plasma;
 using Content.Shared._RMC14.Xenonids.Weeds;
 using Content.Shared.Actions;
 using Content.Shared.Buckle.Components;
+using Content.Shared.Damage;
 using Content.Shared.Database;
 using Content.Shared.DoAfter;
 using Content.Shared.FixedPoint;
@@ -13,9 +16,10 @@ using Content.Shared.Ghost;
 using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
+using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
+using Content.Shared.Jittering;
 using Content.Shared.Maps;
-using Content.Shared.Mind;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
@@ -25,6 +29,8 @@ using Content.Shared.StepTrigger.Systems;
 using Content.Shared.Stunnable;
 using Content.Shared.Tag;
 using Content.Shared.Verbs;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Network;
@@ -40,25 +46,28 @@ namespace Content.Shared._RMC14.Xenonids.Egg;
 public sealed class XenoEggSystem : EntitySystem
 {
     [Dependency] private readonly SharedActionsSystem _actions = default!;
+    [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
     [Dependency] private readonly SharedInteractionSystem _interaction = default!;
+    [Dependency] private readonly SharedXenoHiveSystem _hive = default!;
     [Dependency] private readonly SharedXenoParasiteSystem _parasite = default!;
     [Dependency] private readonly SharedMapSystem _map = default!;
-    [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
     [Dependency] private readonly INetManager _net = default!;
     [Dependency] private readonly XenoPlasmaSystem _plasma = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedStunSystem _stun = default!;
+    [Dependency] private readonly EntityManager _entities = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly CMHandsSystem _rmcHands = default!;
     [Dependency] private readonly TagSystem _tags = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly SharedJitteringSystem _jitter = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly TurfSystem _turf = default!;
-    [Dependency] private readonly XenoSystem _xeno = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _ui = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     private static readonly ProtoId<TagPrototype> AirlockTag = "Airlock";
     private static readonly ProtoId<TagPrototype> StructureTag = "Structure";
@@ -78,6 +87,7 @@ public sealed class XenoEggSystem : EntitySystem
 
         SubscribeLocalEvent<XenoEggComponent, AfterAutoHandleStateEvent>(OnXenoEggAfterState);
         SubscribeLocalEvent<XenoEggComponent, GettingPickedUpAttemptEvent>(OnXenoEggPickedUpAttempt);
+        SubscribeLocalEvent<XenoEggComponent, UseInHandEvent>(OnXenoEggUseInHand);
         SubscribeLocalEvent<XenoEggComponent, InteractUsingEvent>(OnXenoEggInteractUsing);
         SubscribeLocalEvent<XenoEggComponent, XenoEggReturnParasiteDoAfterEvent>(OnXenoEggReturnParasiteDoAfter);
         SubscribeLocalEvent<XenoEggComponent, AfterInteractEvent>(OnXenoEggAfterInteract);
@@ -85,7 +95,9 @@ public sealed class XenoEggSystem : EntitySystem
         SubscribeLocalEvent<XenoEggComponent, ActivateInWorldEvent>(OnXenoEggActivateInWorld);
         SubscribeLocalEvent<XenoEggComponent, StepTriggerAttemptEvent>(OnXenoEggStepTriggerAttempt);
         SubscribeLocalEvent<XenoEggComponent, StepTriggeredOffEvent>(OnXenoEggStepTriggered);
+        SubscribeLocalEvent<XenoEggComponent, BeforeDamageChangedEvent>(OnXenoEggBeforeDamageChanged);
         SubscribeLocalEvent<XenoEggComponent, GetVerbsEvent<ActivationVerb>>(OnGetVerbs);
+        SubscribeLocalEvent<DropshipHijackStartEvent>(OnDropshipHijackStart);
     }
 
     private void OnXenoGrowOvipositorAction(Entity<XenoComponent> xeno, ref XenoGrowOvipositorActionEvent args)
@@ -145,7 +157,7 @@ public sealed class XenoEggSystem : EntitySystem
         if (TryComp(attached, out TransformComponent? xform))
             _transform.AnchorEntity(attached, xform);
 
-        var ev = new XenoOvipositorChangedEvent();
+        var ev = new XenoOvipositorChangedEvent(true);
         RaiseLocalEvent(ref ev);
     }
 
@@ -154,7 +166,7 @@ public sealed class XenoEggSystem : EntitySystem
         if (!TerminatingOrDeleted(attached) && TryComp(attached, out TransformComponent? xform))
             _transform.Unanchor(attached, xform);
 
-        var ev = new XenoOvipositorChangedEvent();
+        var ev = new XenoOvipositorChangedEvent(false);
         RaiseLocalEvent(ref ev);
     }
 
@@ -175,15 +187,24 @@ public sealed class XenoEggSystem : EntitySystem
             args.Cancel();
     }
 
+    private void OnXenoEggUseInHand(Entity<XenoEggComponent> egg, ref UseInHandEvent args)
+    {
+        var ev = new XenoEggUseInHandEvent(_entities.GetNetEntity(egg.Owner));
+        RaiseLocalEvent(args.User, ev);
+        args.Handled = ev.Handled;
+    }
+
     private void OnXenoEggAfterInteract(Entity<XenoEggComponent> egg, ref AfterInteractEvent args)
     {
+        if (args.Handled)
+            return;
+
         if (egg.Comp.State != XenoEggState.Item ||
             !TryComp(egg, out TransformComponent? xform))
         {
             return;
         }
 
-        var user = args.User;
         if (!args.CanReach)
         {
             if (_timing.IsFirstTimePredicted)
@@ -199,11 +220,21 @@ public sealed class XenoEggSystem : EntitySystem
         }
 
         args.Handled = true;
+
+        var plantTime = TimeSpan.FromSeconds(3.5);
+        if (TryComp<EggPlantTimeComponent>(args.User, out var time))
+            plantTime = time.PlantTime;
+
         var ev = new XenoEggPlaceDoAfterEvent(GetNetCoordinates(args.ClickLocation));
-        var doAfter = new DoAfterArgs(EntityManager, user, egg.Comp.PlaceDelay, ev, egg)
+        var doAfter = new DoAfterArgs(EntityManager, args.User, plantTime, ev, egg)
         {
             BreakOnMove = true,
+            BlockDuplicate = true,
+            DuplicateCondition = DuplicateConditions.SameEvent
         };
+
+        _popup.PopupPredicted(Loc.GetString("rmc-xeno-egg-plant-self"), Loc.GetString("rmc-xeno-egg-plant", ("user", args.User)), egg, args.User);
+
         _doAfter.TryStartDoAfter(doAfter);
     }
 
@@ -213,21 +244,33 @@ public sealed class XenoEggSystem : EntitySystem
             return;
 
         args.Handled = true;
+
         var coordinates = GetCoordinates(args.Coordinates);
         if (!CanPlaceEggPopup(args.User, egg, coordinates, false))
             return;
 
+        if (!_plasma.TryRemovePlasmaPopup(args.User, 30))
+            return;
+
         // Hand code is god-awful and its reach distance is inconsistent with args.CanReach
         // so we need to set the position ourselves.
-        _transform.SetCoordinates(egg, coordinates);
+        _transform.SetCoordinates(egg, EntityManager.GetCoordinates(args.Coordinates));
         _transform.SetLocalRotation(egg, 0);
 
         SetEggState(egg, XenoEggState.Growing);
         _transform.AnchorEntity(egg, Transform(egg));
+        _audio.PlayPredicted(egg.Comp.PlantSound, egg, args.User);
     }
 
     private void OnXenoEggActivateInWorld(Entity<XenoEggComponent> egg, ref ActivateInWorldEvent args)
     {
+        // Prevent attempt to open the egg during a UseInHand Event
+        if (!TryComp(egg.Owner, out TransformComponent? transformComp) ||
+            !transformComp.Anchored)
+        {
+            return;
+        }
+
         // TODO RMC14 multiple hive support
         if (!HasComp<XenoParasiteComponent>(args.User) && (!HasComp<XenoComponent>(args.User) || !HasComp<HandsComponent>(args.User)))
             return;
@@ -253,12 +296,20 @@ public sealed class XenoEggSystem : EntitySystem
         if (!CanReturnParasitePopup(user, used, egg))
             return;
 
+        var plantTime = TimeSpan.FromSeconds(3.5);
+        if (TryComp<EggPlantTimeComponent>(args.User, out var time))
+            plantTime = time.PlantTime;
+
         // this has no doafter in 13 but also the egg is not instantly able to infect when you do
+        // The steptrigger works a bit diff
         var ev = new XenoEggReturnParasiteDoAfterEvent();
-        var doAfter = new DoAfterArgs(EntityManager, user, egg.Comp.ReturnParasiteDelay, ev, egg, egg, used)
+        var doAfter = new DoAfterArgs(EntityManager, user, plantTime, ev, egg, egg, used)
         {
             BreakOnMove = true,
+            BlockDuplicate = true,
+            DuplicateCondition = DuplicateConditions.SameEvent
         };
+        _popup.PopupEntity(Loc.GetString("rmc-xeno-egg-return-start"), args.User, args.User);
         _doAfter.TryStartDoAfter(doAfter);
     }
 
@@ -300,7 +351,7 @@ public sealed class XenoEggSystem : EntitySystem
         if (!HasComp<ActorComponent>(uid) || !HasComp<GhostComponent>(uid))
             return;
 
-        if (ent.Comp.State == XenoEggState.Opened || ent.Comp.State == XenoEggState.Growing)
+        if (ent.Comp.State != XenoEggState.Grown)
             return;
 
         var parasiteVerb = new ActivationVerb
@@ -308,13 +359,26 @@ public sealed class XenoEggSystem : EntitySystem
             Text = Loc.GetString("rmc-xeno-egg-ghost-verb"),
             Act = () =>
             {
-                _ui.TryOpenUi(ent.Owner, XenoEggGhostUI.Key, uid);
+                _ui.TryOpenUi(ent.Owner, XenoParasiteGhostUI.Key, uid);
             },
 
             Impact = LogImpact.High,
         };
 
         args.Verbs.Add(parasiteVerb);
+    }
+
+    private void OnDropshipHijackStart(ref DropshipHijackStartEvent ev)
+    {
+        var query = EntityQueryEnumerator<XenoOvipositorCapableComponent>();
+        while (query.MoveNext(out var uid, out _))
+        {
+            foreach (var (actionId, action) in _actions.GetActions(uid))
+            {
+                if (action.BaseEvent is XenoGrowOvipositorActionEvent)
+                    _actions.ClearCooldown(actionId);
+            }
+        }
     }
 
     private bool CanTrigger(EntityUid user)
@@ -327,6 +391,10 @@ public sealed class XenoEggSystem : EntitySystem
     public bool Open(Entity<XenoEggComponent> egg, EntityUid? user, out EntityUid? spawned)
     {
         spawned = null;
+
+        if (egg.Comp.State == XenoEggState.Opening)
+            return false;
+
         if (egg.Comp.State == XenoEggState.Opened)
         {
             if (HasComp<XenoParasiteComponent>(user))
@@ -374,16 +442,25 @@ public sealed class XenoEggSystem : EntitySystem
             return false;
         }
 
-        SetEggState(egg, XenoEggState.Opened);
+        SetEggState(egg, XenoEggState.Opening);
+        _audio.PlayPredicted(egg.Comp.OpenSound, egg, user);
 
         if (_net.IsClient)
             return true;
 
-        if (TryComp(egg, out TransformComponent? xform))
-        {
-            spawned = SpawnAtPosition(egg.Comp.Spawn, xform.Coordinates);
-            _xeno.SetHive(spawned.Value, egg.Comp.Hive);
-        }
+        var coords = Transform(egg).Coordinates;
+        spawned = SpawnAtPosition(egg.Comp.Spawn, coords);
+        _hive.SetSameHive(egg.Owner, spawned.Value);
+
+        egg.Comp.SpawnedCreature = spawned;
+        Dirty(egg);
+
+        var eggContainer = _container.EnsureContainer<ContainerSlot>(egg.Owner, egg.Comp.CreatureContainerId);
+        _container.Insert(spawned.Value, eggContainer);
+
+        // TODO: create EggHatchedEvent to uncouple it from ai?
+        if (TryComp<ParasiteAIComponent>(spawned, out var ai))
+            _parasite.GoIdle((spawned.Value, ai));
 
         return true;
     }
@@ -448,8 +525,9 @@ public sealed class XenoEggSystem : EntitySystem
             return false;
         }
 
-        _parasite.Infect((spawned.Value, parasite), tripper, force: true);
-        _stun.TryParalyze(tripper, egg.Comp.KnockdownTime, true);
+        egg.Comp.InfectTarget = tripper;
+        Dirty(egg);
+
         return true;
     }
 
@@ -534,13 +612,19 @@ public sealed class XenoEggSystem : EntitySystem
             return false;
         }
 
-        if (_mind.TryGetMind(used, out _, out _))
+        if (!HasComp<ParasiteAIComponent>(used))
         {
             _popup.PopupEntity(Loc.GetString("rmc-xeno-egg-awake-child", ("parasite", used)), user, user, PopupType.SmallCaution);
             return false;
         }
 
         return true;
+    }
+
+    private void OnXenoEggBeforeDamageChanged(Entity<XenoEggComponent> ent, ref BeforeDamageChangedEvent args)
+    {
+        if (ent.Comp.State == XenoEggState.Item) // cannot destroy in item form
+            args.Cancelled = true;
     }
 
     public override void Update(float frameTime)
@@ -571,12 +655,8 @@ public sealed class XenoEggSystem : EntitySystem
             Dirty(uid, attached);
 
             var egg = SpawnAtPosition(capable.Spawn, xform.Coordinates.Offset(capable.Offset));
-            if (TryComp(egg, out XenoEggComponent? eggComp) &&
-                TryComp(uid, out XenoComponent? xeno))
-            {
-                eggComp.Hive = xeno.Hive;
-                Dirty(egg, eggComp);
-            }
+            // egg belongs to whichever hive planted it, not the queen. you can steal eggs to claim them for your hive
+            _hive.SetSameHive(uid, egg);
 
             _transform.SetLocalRotation(egg, Angle.Zero);
         }
@@ -595,30 +675,64 @@ public sealed class XenoEggSystem : EntitySystem
                 }
             }
 
-            if (!xform.Anchored ||
-                egg.State != XenoEggState.Growing)
-            {
+            if (!xform.Anchored)
                 continue;
+
+            if (egg.State == XenoEggState.Growing)
+            {
+                egg.GrowAt ??= time + _random.Next(egg.MinTime, egg.MaxTime);
+
+                if (time < egg.GrowAt || egg.State != XenoEggState.Growing)
+                    continue;
+
+                SetEggState((uid, egg), XenoEggState.Grown);
             }
 
-            egg.GrowAt ??= time + _random.Next(egg.MinTime, egg.MaxTime);
+            if (egg.State == XenoEggState.Opening)
+            {
+                egg.OpenAt ??= time + egg.EggOpenTime;
 
-            if (time < egg.GrowAt || egg.State != XenoEggState.Growing)
-                continue;
+                if (time < egg.OpenAt || egg.State != XenoEggState.Opening)
+                    continue;
 
-            SetEggState((uid, egg), XenoEggState.Grown);
+                SetEggState((uid, egg), XenoEggState.Opened);
+
+                var coords = _transform.GetMoverCoordinates(uid);
+
+                if (_container.TryGetContainer(uid, egg.CreatureContainerId, out var container))
+                    _container.EmptyContainer(container, destination: coords);
+
+                if (egg.SpawnedCreature == null)
+                    continue;
+
+                _jitter.DoJitter(egg.SpawnedCreature.Value, egg.CreatureExitEggJitterDuration, true, 80, 8, true);
+
+                if (egg.InfectTarget != null)
+                {
+                    if (TryComp<XenoParasiteComponent>(egg.SpawnedCreature, out var para))
+                    {
+                        _parasite.Infect((egg.SpawnedCreature.Value, para), egg.InfectTarget.Value, force: true);
+                        _stun.TryParalyze(egg.InfectTarget.Value, egg.KnockdownTime, true);
+                    }
+                }
+
+                egg.InfectTarget = null;
+                egg.SpawnedCreature = null;
+                egg.OpenAt = null;
+                Dirty(uid, egg);
+            }
         }
     }
 }
 
 [Serializable, NetSerializable]
-public enum XenoEggGhostUI
+public enum XenoParasiteGhostUI
 {
     Key
 }
 
 [Serializable, NetSerializable]
-public sealed class XenoEggGhostBuiMsg() : BoundUserInterfaceMessage
+public sealed class XenoParasiteGhostBuiMsg() : BoundUserInterfaceMessage
 {
 
 }

@@ -29,6 +29,7 @@
   id: CMGuidebookActionXenoEvolve
   name: Еволюціонувати
   description: Еволюціонувати до наступної касти ксеноїдів.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       state: evolve

@@ -5,6 +5,9 @@
   id: CMCartridgePistol9mm
 
 - type: Tag
+  id: CMCartridgePistol.22mm
+
+- type: Tag
   id: CMCartridgePistol9mmAP
 
 - type: Tag
@@ -13,8 +16,7 @@
 - type: Tag
   id: RCMCartridgePistol9mmSquashHead
 
-- type: Tag
-  id: CMCartridgeRifle10x24mm
+
 
 - type: Tag
   id: RMCCartridgePistol45ACP
@@ -51,9 +53,6 @@
 
 - type: Tag
   id: LauncherCompatibleGrenade
-
-- type: Tag
-  id: CMAutoInjector
 
 - type: Tag
   id: CMFlarePack
