@@ -1,13 +1,15 @@
-chat-radio-marine-highcommand = Вище Командування
+chat-radio-marine-highcommand = Вище Командування Морпіхів
 
-chat-radio-marine-common = Морпіхотний-основний
+chat-radio-marine-common = Загальний
 chat-radio-marine-command = Командування
 chat-radio-marine-medical = Медичний
 chat-radio-marine-engineer = Інженерний
-chat-radio-marine-military-police = ВСП
-chat-radio-marine-requisition = Карго
+# Можливо скоро стане застарілим. На заміну тоді "Військова поліція"
+chat-radio-marine-military-police = Військ. Служба Правопорядку
+chat-radio-marine-requisition = Логістика
 chat-radio-marine-intel = Розвідка
-chat-radio-marine-jtac = JTAC
+#Контролер Авіаційно-Тактичних Атак
+chat-radio-marine-jtac = КАТА 
 
 chat-radio-marine-alpha = Альфа
 chat-radio-marine-bravo = Браво
@@ -17,7 +19,8 @@ chat-radio-marine-echo = Ехо
 chat-radio-marine-foxtrot = Фокстрот
 
 chat-radio-colony = Колонія
-chat-radio-WY = Ве-я
-chat-radio-CMB = Бюро маршалів колоній
+chat-radio-WY = Ве-Я
+# CMB–БРШ
+chat-radio-CMB = Бюро Колоніальних Шерифів
 
-chat-radio-hivemind = Вуликосвідомість
+chat-radio-hivemind = Вулик
