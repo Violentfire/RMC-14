@@ -8,6 +8,7 @@ cm-gun-pump-first = Спочатку потрібно прокачати піс�
 rmc-breech-loaded-open-shoot-attempt = Спочатку потрібно закрити затвор!
 rmc-breech-loaded-not-ready-to-shoot = Спочатку треба передьорнуть затвор!
 rmc-breech-loaded-closed-load-attempt = Спочатку треба відкрити затвор!
+rmc-breech-loaded-closed-extract-attempt = You need to open the breech first!
 
 rmc-wield-use-delay = Спочатку зачекайте {$seconds} секунд перш ніж використовувати {THE($wieldable)}!
 rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секунд перед стрільбою {THE($wieldable)}!
