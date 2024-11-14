@@ -39,3 +39,6 @@ see_own_notes = true
 
 [rmc]
 planet_map_vote = false
+
+[ic]
+flavor_text = true
