@@ -68,8 +68,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleMotionDetector
-  name: Toggle Motion Detector
-  description: Periodically pings any unknown movement near you.
+  name: Перемкнути Датчик Руху
+  description: Фіксує рух невідомих істот поруч.
   components:
   - type: InstantAction
     icon:

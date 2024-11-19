@@ -124,7 +124,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "ML66A drum magazine (10x30mm)"
+  name: "ML66A барабанний магазин (10x30mm)"
   components:
   - type: Tag
     tags:
