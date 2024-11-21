@@ -1,9 +1,9 @@
-﻿rmc-xeno-words-of-the-queen-header = The words of the Queen reverberate in our head...
+﻿rmc-xeno-words-of-the-queen-header = Слова королеви лунають у нашій голові...
 
-xeno-ui-reserve-parasites-title = Reserve Parasites
-xeno-ui-reserve-parasites-apply-button-text = Apply
+xeno-ui-reserve-parasites-title = Запас Паразитів
+xeno-ui-reserve-parasites-apply-button-text = Подати
 
-xeno-ui-find-parasite-title = Find Parasite
-xeno-ui-find-parasite-spawn-button = Take Parasite
+xeno-ui-find-parasite-title = Знайти Паразита
+xeno-ui-find-parasite-spawn-button = Взяти Паразита
 xeno-ui-find-parasite-item = {$itemName} ({$areaName})
-xeno-ui-default-area-name = Unknown
+xeno-ui-default-area-name = Невідомо
