@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ActionMarineToggleable
   id: RMCActionGhilliePreparePosition
-  name: Prepare Position
-  description: Use the ghillie suit and the nearby environment to become near invisible.
+  name: Підготувати Позицію
+  description: Злийтеся воєдино з навколишнім середовищем.
   components:
   - type: InstantAction
     icon:

@@ -2,8 +2,8 @@ cm-gun-unskilled = Ви не знаєте як використовувати {T
 cm-gun-no-ammo-message = Скінчилися набої!
 cm-gun-use-delay = Зачекайте {$seconds} секунд перед тим як знову вистрілити!
 cm-gun-pump-examine = [bold]Натисніть вашу [color=cyan]унікальну[/color] клавішу (Spacebar за замовчуванням) щоб прокачати перед пострілом.[/bold]
-cm-gun-pump-first-with = Вам спочатку потрібно прокачати пістолет за допомогою {$key}!
-cm-gun-pump-first = Спочатку потрібно прокачати пістолет!
+cm-gun-pump-first-with = Вам спочатку потрібно прокачати зброю за допомогою {$key}!
+cm-gun-pump-first = Спочатку потрібно прокачати зброю!
 
 rmc-breech-loaded-open-shoot-attempt = Спочатку потрібно закрити затвор!
 rmc-breech-loaded-not-ready-to-shoot = Спочатку треба передьорнуть затвор!
@@ -21,7 +21,7 @@ rmc-revolver-spin = Ви крутите барабан.
 rmc-examine-text-scatter-max = Поточний максимальний розкид [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-scatter-min = Поточний мінімальний розкид [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-shots-to-max-scatter = Треба ще [color={$colour}]{$shots}[/color] пострілів до максимального розкиду.
-rmc-examine-text-iff = [color=cyan]This gun will ignore and shoot past friendlies![/color]
+rmc-examine-text-iff = [color=cyan]Ця зброя стріляє повз союзників, ігноруючи їх![/color]
 
 rmc-gun-rack-examine = [bold]Press your [color=cyan]unique action[/color] keybind (Spacebar by default) to rack before shooting.[/bold]
 rmc-gun-rack-first-with = You need to rack the gun with {$key} first!

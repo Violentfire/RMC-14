@@ -1,7 +1,7 @@
 - type: entity
   id: XenoResinHole
-  name: resin trap
-  description: It looks like a hidey hole.
+  name: смоляна пастка
+  description: Це виглядає як глибока діра.
   placement:
     mode: SnapgridCenter
     snap:

@@ -107,7 +107,7 @@ cm-xeno-plasma-transferred-to-other = Ви перемістили {$plasma} пл
 cm-xeno-plasma-transferred-to-self = {$target} передав {$plasma} плазми вам. Тепер у вас {$total} плазми.
 cm-xeno-plasma-cannot-self = Ви не можете перемістити плазму собі ж!
 cm-xeno-plasma-other-max-zero = {$target} не має потреби в плазмі!
-rmc-xeno-plasma-ovipositor = We can't transfer plasma to a queen mounted on her ovipositor.
+rmc-xeno-plasma-ovipositor = Ви не можете передати плазму Королеві, поки вона відкладає яйця.
 
 # Watch
 cm-xeno-watch = Список Ксено
@@ -124,11 +124,11 @@ cm-xeno-ovipositor-attach = Ви почали прикріплюватися д�
 cm-xeno-ovipositor-detach = Ви почали відкріплюватися від яйцеклада.
 
 # Retrieve Egg
-cm-xeno-retrieve-egg-no-eggs = We don't have any eggs stored!
-cm-xeno-retrieve-egg-too-many-eggs = We can't carry more eggs!
-cm-xeno-retrieve-egg-stash-egg = We store the egg for safekeeping. Now holding: {$cur_eggs}/{$max_eggs}.
-cm-xeno-retrieve-egg-unstash-egg = We grab an egg from our storage. Now holding: {$cur_eggs}/{$max_eggs}.
-rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} holding: {$cur_eggs}/{$max_eggs} eggs.
+cm-xeno-retrieve-egg-no-eggs = В нас немає жодного яйця!
+cm-xeno-retrieve-egg-too-many-eggs = Ви не можете нести більше яєць!
+cm-xeno-retrieve-egg-stash-egg = Ви кладете яйце в сховище. Тепер утримується: {$cur_eggs}/{$max_eggs}.
+cm-xeno-retrieve-egg-unstash-egg = Ви берете яйце зі сховища. Тепер утримується: {$cur_eggs}/{$max_eggs}.
+rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} утримує: {$cur_eggs}/{$max_eggs} яєць.
 
 # Throw Parasite
 cm-xeno-throw-parasite-no-parasites = We don't have any parasites stored!
