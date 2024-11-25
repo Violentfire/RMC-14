@@ -18,6 +18,8 @@ rmc-wear-smart-gun-required = Вам треба мати Смартган, що�
 
 rmc-revolver-spin = Ви крутите барабан.
 
+rmc-examine-text-weapon-accuracy = The current accuracy multiplier is [color={$colour}]{TOSTRING($accuracy, "F2")}[/color].
+
 rmc-examine-text-scatter-max = Поточний максимальний розкид [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-scatter-min = Поточний мінімальний розкид [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-shots-to-max-scatter = Треба ще [color={$colour}]{$shots}[/color] пострілів до максимального розкиду.
@@ -26,3 +28,9 @@ rmc-examine-text-iff = [color=cyan]Ця зброя стріляє повз со�
 rmc-gun-rack-examine = [bold]Press your [color=cyan]unique action[/color] keybind (Spacebar by default) to rack before shooting.[/bold]
 rmc-gun-rack-first-with = You need to rack the gun with {$key} first!
 rmc-gun-rack-first = You need to rack the gun first!
+
+rmc-assisted-reload-fail-angle = You must be standing behind {$target} in order to reload {POSS-ADJ($target)} weapon!
+rmc-assisted-reload-fail-full = {CAPITALIZE(POSS-ADJ($target))} {$weapon} is already loaded.
+rmc-assisted-reload-fail-mismatch = The {$ammo} can't be loaded into a {$weapon}!
+rmc-assisted-reload-start-user = You begin reloading {$target}'s {$weapon}! Hold still...
+rmc-assisted-reload-start-target = {$reloader} begins reloading your {$weapon} with the {$ammo}! Hold still...

@@ -1,3 +1,27 @@
+- type: entity
+  parent: RMCExplosiveUpgrade
+  id: RMCExplosiveUpgradePlasteel
+  components:
+  - type: RMCConstructionUpgrade
+    upgradedEntity: RMCBarricadeExplosivePlasteel
+
+- type: entity
+  parent: RMCBiohazardUpgrade
+  id: RMCBiohazardUpgradePlasteel
+  components:
+  - type: RMCConstructionUpgrade
+    upgradedEntity: RMCBarricadeBurnPlasteel
+
+- type: entity
+  parent: RMCBruteUpgrade
+  id: RMCBruteUpgradePlasteel
+  components:
+  - type: RMCConstructionUpgrade
+    upgradedEntity: RMCBarricadeBrutePlasteel
+
+- type: Tag
+  id: RMCPlasteelBarricade
+
 # Plasteel Barricade Tree
 - type: entity
   parent: CMBarricadeBase
@@ -71,13 +95,17 @@
   - type: Construction
     graph: BarricadePlasteelGraph
     node: nodePlasteel
+  - type: RMCConstructionUpgradeTarget
+    upgrades: ["RMCExplosiveUpgradePlasteel", "RMCBiohazardUpgradePlasteel", "RMCBruteUpgradePlasteel"]
+  - type: Tag
+    tags:
+    - RMCPlasteelBarricade
 
 # Metal Barricade Upgrades
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBurnPlasteel
-  name: біозахистна пласталева барикада
-  description: Надстійка до корозійних та вогняних пошкоджень, але слабше витримує фізичну шкоду. Краще своєї сталевої версії. Лагодиться зварювальником.
+  suffix: Biohazard
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -94,15 +122,13 @@
       trackAllDamage: true
       damageOverlay:
         sprite: _RMC14/Structures/Walls/Barricades/burn_barricade_cracks.rsi
-    - type: Construction
-      graph: BarricadePlasteelGraph
-      node: nodeBurnUpgrade
+    - type: RMCConstructionUpgradeTarget
+      upgrades: null
 
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeBrutePlasteel
-  name: посилена пласталева барикада
-  description: Надміцна пласталева барикада, об таку навіть ксеноморф зуби зламає. Лагодиться зварювальником.
+  suffix: Reinforced
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -119,15 +145,13 @@
       trackAllDamage: true
       damageOverlay:
         sprite: _RMC14/Structures/Walls/Barricades/brute_barricade_cracks.rsi
-    - type: Construction
-      graph: BarricadePlasteelGraph
-      node: nodeBruteUpgrade
+    - type: RMCConstructionUpgradeTarget
+      upgrades: null
 
 - type: entity
   parent: RMCBarricadePlasteel
   id: RMCBarricadeExplosivePlasteel
-  name: пласталева вибухостійка барикада
-  description: Ця вибухостійка барикада міцніша за її сталеву версію, але перевіряти її вибухостійкість всеодно не рекомендовано. Лагодиться зварювальником.
+  suffix: Composite
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -143,9 +167,8 @@
       trackAllDamage: true
       damageOverlay:
         sprite: _RMC14/Structures/Walls/Barricades/explosive_barricade_cracks.rsi
-    - type: Construction
-      graph: BarricadePlasteelGraph
-      node: nodeExplosiveUpgrade
+    - type: RMCConstructionUpgradeTarget
+      upgrades: null
 
 - type: entity
   parent: CMBarricadeMetalDoor
