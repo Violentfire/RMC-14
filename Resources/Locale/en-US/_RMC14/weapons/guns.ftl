@@ -23,6 +23,6 @@ rmc-examine-text-scatter-min = Поточний мінімальний розк�
 rmc-examine-text-shots-to-max-scatter = Треба ще [color={$colour}]{$shots}[/color] пострілів до максимального розкиду.
 rmc-examine-text-iff = [color=cyan]Ця зброя стріляє повз союзників, ігноруючи їх![/color]
 
-rmc-gun-rack-examine = [bold]Press your [color=cyan]unique action[/color] keybind (Spacebar by default) to rack before shooting.[/bold]
-rmc-gun-rack-first-with = You need to rack the gun with {$key} first!
-rmc-gun-rack-first = You need to rack the gun first!
+rmc-gun-rack-examine = [bold]Натисніть свою [color=cyan]унікальну[/color] клавішу (Пробіл за замовченням) щоб поставити перед стрільбою.[/bold]
+rmc-gun-rack-first-with = Вам спочатку потрібно поставити зброю за допомогою {$key}!
+rmc-gun-rack-first = Спочатку треба поставити зброю!

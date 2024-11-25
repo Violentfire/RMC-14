@@ -12,25 +12,25 @@ rmc-mortar-cant-insert = Ви не можете всунути {THE($shell)} в 
 rmc-mortar-not-deployed = Спочатку розгорніть {THE($mortar)}!
 rmc-mortar-fire-cooldown = Ствол {CAPITALIZE(THE($mortar))} все ще перегрітий. Зачекайте кілька секунд давши йому охолонути.
 rmc-mortar-less-accurate-with-range = [color=red]ЧИМ ДАЛІ ЗНАХОДИТЬСЯ ЦІЛЬ, ТИМ МЕНШЕ ТОЧНІСТЬ![/color]
-rmc-mortar-target-start-self = You start adjusting {THE($mortar)}'s firing angle and distance to match the new coordinates.
-rmc-mortar-target-start-others = {$user} starts adjusting {THE($mortar)}'s firing angle and distance.
-rmc-mortar-target-finish-self = You finish adjusting {THE($mortar)}'s firing angle and distance to match the new coordinates.
-rmc-mortar-target-finish-others = {$user} finishes adjusting {THE($mortar)}'s firing angle and distance.
-rmc-mortar-dial-start-self = You start dialing {THE($mortar)}'s firing angle and distance to match the new coordinates.
-rmc-mortar-dial-start-others = {$user} starts dialing {THE($mortar)}'s firing angle and distance.
-rmc-mortar-dial-finish-self = You finish dialing {THE($mortar)}'s firing angle and distance to match the new coordinates.
-rmc-mortar-dial-finish-others = {$user} finishes dialing {THE($mortar)}'s firing angle and distance.
+rmc-mortar-target-start-self = Ви починаєте коригувати кут і відстань стрільби {THE($mortar)} відповідно до заданих координат.
+rmc-mortar-target-start-others = {$user} починає коригувати {THE($mortar)}.
+rmc-mortar-target-finish-self = Ви відкоригували кут і відстань стрільби {THE($mortar)}.
+rmc-mortar-target-finish-others = {$user} відкоригував {THE($mortar)}.
+rmc-mortar-dial-start-self = Ви починаєте вводити нові кут і відстань {THE($mortar)}, щоб відповідати новим координатам.
+rmc-mortar-dial-start-others = {$user} починає вводити нові дані в {THE($mortar)}.
+rmc-mortar-dial-finish-self = Ви закінчили введення ночих кута і відстані в {THE($mortar)}.
+rmc-mortar-dial-finish-others = {$user} закінчив введення даних в {THE($mortar)}.
 
-rmc-mortar-shell-load-start-self = You start loading {THE($shell)} into {THE($mortar)}.
-rmc-mortar-shell-load-start-others = {$user} starts loading {THE($shell)} into {THE($mortar)}.
-rmc-mortar-shell-load-finish-self = You load {THE($shell)} into {THE($mortar)}.
+rmc-mortar-shell-load-start-self = Ви завантажуєте {THE($shell)} в {THE($mortar)}.
+rmc-mortar-shell-load-start-others = {$user} завантажує {THE($shell)} в {THE($mortar)}.
+rmc-mortar-shell-load-finish-self = Ви завантажили {THE($shell)} в {THE($mortar)}.
 rmc-mortar-shell-fire = {CAPITALIZE(THE($mortar))} стріляє!
 rmc-mortar-shell-warning = МІНА ПАДАЄ ПРЯМО НА {$direction} ВІД ВАС
 rmc-mortar-shell-warning-above = МІНА ПАДАЄ ПРЯМО НА ВАС
 rmc-mortar-shell-impact-warning = МІНА ПРЯМО ЗАРАЗ ВЛУЧИТЬ НА {$direction} ВІД ВАС
 rmc-mortar-shell-impact-warning-above = МІНА ПРЯМО ЗАРАЗ ВЛУЧИТЬ У ВАС
 
-rmc-mortar-interface = Mortar Interface
+rmc-mortar-interface = Мінометний Інтерфейс
 
 rmc-mortar-target-x = Target X:
 rmc-mortar-target-y = Target Y:

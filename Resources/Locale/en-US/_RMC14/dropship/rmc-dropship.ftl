@@ -1,26 +1,26 @@
-﻿rmc-dropship-pre-flight-fueling = The shuttle is still undergoing pre-flight fueling and cannot depart yet. Please wait another {$minutes} minutes before trying again.
+﻿rmc-dropship-pre-flight-fueling = Транспортник все ще проходить передпольотну заправку і тому не може вилетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
 
-rmc-dropship-weapons-title = Weapons Console
+rmc-dropship-weapons-title = Консоль Озброєння
 
 rmc-dropship-weapons-main-screen-text = U.N.M.C.
-  Dropship Weapons Control System
+  Система Керування Озброєнням Транспортника
   V 0.1
 
 rmc-dropship-weapons-weapon-selected = {$weapon}
-  No ammo
+  Нема набоїв
 rmc-dropship-weapons-weapon-selected-ammo = {$weapon}
   {$ammo}
-  Ammo {$rounds} / {$maxRounds}
+  Боєзапас {$rounds} / {$maxRounds}
 
-rmc-dropship-weapons-target-strike = Target Acquisition
+rmc-dropship-weapons-target-strike = Пошук Цілі
 
-  Strike mode: {$mode}
+  Режим обстрілу: {$mode}
 
-  Strike configuration {$weapon}
+  Налаштування обстрілу {$weapon}
 
-  Target selected: {$target}
+  Обрана ціль: {$target}
 
-  Offset {$xOffset},{$yOffset}
+  Зсув {$xOffset},{$yOffset}
 
 #  Attack Vector {$vector}
 
@@ -29,47 +29,47 @@ rmc-dropship-weapons-target-strike = Target Acquisition
 #  Guidance computer INCOMPLETE
 
 rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
-  {$rounds} rounds
+  {$rounds} набоїв
 
-rmc-dropship-weapons-equip = EQUIP
+rmc-dropship-weapons-equip = ОБЛАДНАННЯ
 rmc-dropship-weapons-fire-mission = F-MISS
-rmc-dropship-weapons-target = TARGET
-rmc-dropship-weapons-maps = MAPS
-rmc-dropship-weapons-cams = CAMS
-rmc-dropship-weapons-cancel = CANCEL
-rmc-dropship-weapons-exit = EXIT
+rmc-dropship-weapons-target = ЦІЛЬ
+rmc-dropship-weapons-maps = МАПИ
+rmc-dropship-weapons-cams = КАМЕРА
+rmc-dropship-weapons-cancel = СКАСУВАТИ
+rmc-dropship-weapons-exit = ВИЙТИ
 
-rmc-dropship-weapons-offset-calibration = Camera
-  Offset
-rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Does not affect direct bombardment!
+rmc-dropship-weapons-offset-calibration = Зсув
+  Камери
+rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Не впливає на пряме бомбардування!
 
-rmc-dropship-weapons-fire = FIRE
-rmc-dropship-weapons-strike = STRIKE
+rmc-dropship-weapons-fire = ВОГОНЬ
+rmc-dropship-weapons-strike = ОБСТРІЛ
 rmc-dropship-weapons-vector = VECTOR
 
-rmc-dropship-weapons-night-vision-on = NV-ON
-rmc-dropship-weapons-night-vision-off = NV-OFF
+rmc-dropship-weapons-night-vision-on = НБ-УВІМК
+rmc-dropship-weapons-night-vision-off = НБ-ВИМК
 
-rmc-dropship-weapons-weapon = WEAPON
+rmc-dropship-weapons-weapon = ЗБРОЯ
 
 rmc-dropship-weapons-previous = ^
 rmc-dropship-weapons-next = v
 
-rmc-dropship-weapons-fire-no-weapon = No weapon selected.
-rmc-dropship-weapons-fire-not-flying = Dropships can only fire fire while in flight.
-rmc-dropship-weapons-fire-not-skilled = You don't have the training to fire this weapon!
-rmc-dropship-weapons-fire-no-ammo = {$weapon} has no ammo.
-rmc-dropship-weapons-fire-cooldown = {$weapon} just fired, wait for it to cool down.
+rmc-dropship-weapons-fire-no-weapon = Зброю не обрано.
+rmc-dropship-weapons-fire-not-flying = Транспортники можуть вести вогонь лише в польоті.
+rmc-dropship-weapons-fire-not-skilled = Вас не навчали стріляти з цього!
+rmc-dropship-weapons-fire-no-ammo = {$weapon} не має набоїв.
+rmc-dropship-weapons-fire-cooldown = {$weapon} перегрітий після стрільби, зачекайте поки охолоне.
 
-rmc-dropship-weapons-point-gun = It has a {$weapon} loaded.
-rmc-dropship-weapons-point-ammo = It has a {$ammo} loaded.
-rmc-dropship-weapons-rounds-left = It has {$current} out of {$max} rounds left.
+rmc-dropship-weapons-point-gun = Тут вже є {$weapon}.
+rmc-dropship-weapons-point-ammo = Місце зайнято {$ammo}.
+rmc-dropship-weapons-rounds-left = В ньому лишилося {$current} набоїв з {$max}.
 
-rmc-dropship-flyby-no-skill = You don't have the skill to perform a flyby.
+rmc-dropship-flyby-no-skill = У вас немає навичок щоб виконати проліт.
 
-rmc-dropship-fabricator-title = Part Fabricator
-rmc-dropship-fabricator-points = Points: {$points}
-rmc-dropship-fabricator-equipment = [bold]Equipment[/bold]
-rmc-dropship-fabricator-ammo = [bold]Ammo[/bold]
-rmc-dropship-fabricator-fabricate = Fabricate ({$cost})
-rmc-dropship-fabricator-busy = The dropship part fabricator is busy. Please wait for completion of previous operation.
+rmc-dropship-fabricator-title = Виготовлювач Частин
+rmc-dropship-fabricator-points = Очків: {$points}
+rmc-dropship-fabricator-equipment = [bold]Оснащення[/bold]
+rmc-dropship-fabricator-ammo = [bold]Боєприпаси[/bold]
+rmc-dropship-fabricator-fabricate = Виготовити ({$cost})
+rmc-dropship-fabricator-busy = Виготовлювач частин для транспортника зайнятий. Дочекайтеся до кінця виконання попередньої операції.
