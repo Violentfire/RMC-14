@@ -4,9 +4,9 @@ cm-iv-attach-self-drawing = You attach {THE($iv)} to {$target}, taking blood fro
 cm-iv-attach-others-drawing = {$user} attaches {THE($iv)} to {$target}, taking blood from {OBJECT($target)}.
 cm-iv-attach-no-skill = You don't know how to connect this!
 
-cm-iv-detach-self = You detach {THE($iv)} from {$target}.
-cm-iv-detach-others = {$user} detaches {THE($iv)} from {$target}.
-cm-iv-detach-no-skill = You don't know how to disconnect this!
+cm-iv-detach-self = Ви від'єднуєте {THE($iv)} від {$target}.
+cm-iv-detach-others = {$user} від'єднує {THE($iv)} від {$target}.
+cm-iv-detach-no-skill = Ви не знаєте як це від'єднати!
 
 cm-iv-rip = The needle is ripped out of {$target}, doesn't that hurt?
 cm-iv-now-injecting = The IV drip is now injecting.
@@ -20,7 +20,7 @@ cm-iv-examine-chemicals-none = No chemicals are attached.
 cm-iv-examine-attached = {$attached} is attached.
 cm-iv-examine-attached-none = No one is attached.
 
-cm-blood-pack-cannot-self = You cannot connect this to yourself.
+cm-blood-pack-cannot-self = Ви не можете приєднати це до себе.
 cm-blood-pack-poke-self = You poke {$target} with {$pack}.
 cm-blood-pack-poke-others = {$user} pokes {$target} with {$pack}.
 cm-blood-pack-contains = It contains: [color=#BB0000FF]{$units} units[/color] of liquid.
