@@ -5,6 +5,10 @@ cm-xeno-not-enough-plasma = У вас недостатньо плазми!
 rmc-xeno-not-enough-energy = Your health reserves are insufficient!
 rmc-xeno-energy-increase-user = You feel your internal health reserves increase!
 
+# Acid reserves
+rmc-xeno-not-enough-acid = Your don't have enough acid built up!
+rmc-xeno-acid-increase-user = You feel your acid reserves increase!
+
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
 cm-xeno-order-construction = Збудувати
@@ -51,6 +55,7 @@ cm-xeno-weeds-source-already-here = Тут вже є пульсуючий вуз
 # Corrosive acid
 cm-xeno-acid-not-corrodible = Ви не можете розчинити {THE($target)}!
 cm-xeno-acid-already-corroding = {THE($target)} вже піддається впливу кислоти!
+rmc-xeno-acid-structure-unmeltable = We can only melt barricades and items!
 
 # Paralyzing Slash
 cm-xeno-paralyzing-slash-activate = Ваш наступний удар буде завдано з використанням нейротоксину!
@@ -107,7 +112,7 @@ cm-xeno-plasma-transferred-to-other = Ви перемістили {$plasma} пл
 cm-xeno-plasma-transferred-to-self = {$target} передав {$plasma} плазми вам. Тепер у вас {$total} плазми.
 cm-xeno-plasma-cannot-self = Ви не можете перемістити плазму собі ж!
 cm-xeno-plasma-other-max-zero = {$target} не має потреби в плазмі!
-rmc-xeno-plasma-ovipositor = We can't transfer plasma to a queen mounted on her ovipositor.
+rmc-xeno-plasma-ovipositor = Ви не можете передати плазму Королеві, поки вона відкладає яйця.
 
 # Watch
 cm-xeno-watch = Список Ксено
@@ -124,11 +129,11 @@ cm-xeno-ovipositor-attach = Ви почали прикріплюватися д�
 cm-xeno-ovipositor-detach = Ви почали відкріплюватися від яйцеклада.
 
 # Retrieve Egg
-cm-xeno-retrieve-egg-no-eggs = We don't have any eggs stored!
-cm-xeno-retrieve-egg-too-many-eggs = We can't carry more eggs!
-cm-xeno-retrieve-egg-stash-egg = We store the egg for safekeeping. Now holding: {$cur_eggs}/{$max_eggs}.
-cm-xeno-retrieve-egg-unstash-egg = We grab an egg from our storage. Now holding: {$cur_eggs}/{$max_eggs}.
-rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} holding: {$cur_eggs}/{$max_eggs} eggs.
+cm-xeno-retrieve-egg-no-eggs = В нас немає жодного яйця!
+cm-xeno-retrieve-egg-too-many-eggs = Ви не можете нести більше яєць!
+cm-xeno-retrieve-egg-stash-egg = Ви кладете яйце в сховище. Тепер утримується: {$cur_eggs}/{$max_eggs}.
+cm-xeno-retrieve-egg-unstash-egg = Ви берете яйце зі сховища. Тепер утримується: {$cur_eggs}/{$max_eggs}.
+rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} утримує: {$cur_eggs}/{$max_eggs} яєць.
 
 # Throw Parasite
 cm-xeno-throw-parasite-no-parasites = We don't have any parasites stored!
@@ -148,7 +153,7 @@ rmc-xeno-defensive-shield-activate = {$user} притискається до п�
 rmc-xeno-defensive-shield-activate-self = Ви притискаєтеся до підлоги й стаєте більш захищеним!
 
 # Acid Ball
-rmc-xeno-acid-ball-shoot-self = Ми підкидаємо стиснуту кульку кислоти в повітря!
+rmc-xeno-acid-ball-shoot-self = Ви підкидаєте стиснуту кульку кислоти в повітря!
 rmc-xeno-praetorian-acid-spit-hit-self = Ви відчуваєте, як кислота в'їдається в шкіру!
 
 # Retrieve
@@ -184,3 +189,12 @@ rmc-xeno-resin-surge-wall-self = We surge the resin, creating an unstable wall!
 rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} surges the resin, creating an unstable wall!
 rmc-xeno-resin-surge-sticky-self = We surge the deep resin, creating an unstable sticky resin patch!
 rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} surges deep resin, creating an unstable sticky resin patch!
+
+# For The Hive!
+rmc-xeno-for-the-hive-container = It is too cramped in here to activate this!
+rmc-xeno-for-the-hive-cancel = We remove all our explosive acid before it combusted.
+rmc-xeno-for-the-hive-activate = Our stomach starts turning and twisting, getting ready to compress the built up acid.
+rmc-xeno-for-the-hive-announce = ;FOR THE HIVE!!!
+rmc-xeno-for-the-hive-respawn-fail = You couldn't reincarnate!
+rmc-xeno-for-the-hive-respawn-corpse-self = The hive has no core! We manage to emerge from our old husk as a larva!
+rmc-xeno-for-the-hive-respawn-corpse-others = A larva suddenly emerges from a dead husk!

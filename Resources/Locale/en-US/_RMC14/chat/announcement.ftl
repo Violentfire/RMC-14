@@ -1,10 +1,10 @@
 rmc-announcement-author = Командування
 rmc-announcement-author-highcommand = Вище Командування
-rmc-announcement-message = [font size=14][bold][color=white]{$author} Announcement[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-message = [font size=14][bold][color=white]{$author} Оголошення[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 
-rmc-announcement-message-signed = [font size=14][bold][color=white]{$author} Announcement[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-message-signed = [font size=14][bold][color=white]{$author} Оголошення[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 
@@ -15,7 +15,7 @@ rmc-announcement-ares-message = [color=white][font size=16][bold]ARES v3.2 Opera
 
     {$message}[/bold][/font][/color]
 
-rmc-announcement-ares-lz-designated = Наказ Вищого Командування:
+rmc-announcement-ares-lz-designated = Наказ Командування:
 
     {$name} визначено як основну посадкову зону.
 
@@ -34,4 +34,4 @@ rmc-announcement-dropship-message = [color=white][font size=16][bold]Dropship Al
     {$message}[/bold][/font][/color]
 
 rmc-announcement-emergency-dropship-crash = [font size=14][bold][color=white]АВАРІЙНА СИТУАЦІЯ[/color][/bold][/font][font size=12][color=red]
-  ТРАНСПОРТНИК ЙДЕ НА ЗІТКНЕННЯ.ГОТУЙТЕСЯ ДО УДАРУ.[/color][/font]
+  ТРАНСПОРТНИК ЙДЕ НА ЗІТКНЕННЯ. ПРИГОТУЙТЕСЯ ДО УДАРУ.[/color][/font]

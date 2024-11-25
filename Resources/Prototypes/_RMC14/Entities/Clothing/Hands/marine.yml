@@ -2,7 +2,7 @@
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
   name: тактичні рукавиці
-  description: "Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'зв'язано Асоціацією Вдів Морських Піхотинців'."
+  description: "Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'Зв'язано Асоціацією Вдів Морських Піхотинців'."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsLatexMarine # TODO RMC14 armor
-  name: marine medical combat gloves
-  description: Standard issue marine sterile gloves, offers regular protection whilst offering the user a better grip when performing medical work.
+  name: бойові медичні рукавиці
+  description: Стерильні рукавички, що використовують медики на бойових. Дають такий же захист, як і звичайні, водночас забезпечуючи власнику кращий захват при перебиранні кишок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi

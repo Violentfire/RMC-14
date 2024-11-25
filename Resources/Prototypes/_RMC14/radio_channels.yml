@@ -14,6 +14,7 @@
   keycode: "з" #; and g in cm13. "Загальний"
   frequency: 1480
   color: "#B4B4B4"
+  colorblindColor: "#6FD08C"
   longRange: true
   tower: true
   planet: false

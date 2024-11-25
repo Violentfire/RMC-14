@@ -2,8 +2,8 @@
   parent: BaseItem
   id: XenoFruitBase
   abstract: true
-  name: resin fruit
-  description: a fruit that shouldn't exist
+  name: смоляний плід
+  description: Плід, який не має існувати, але.
   placement:
     mode: SnapgridCenter
     snap:
@@ -70,8 +70,8 @@
 - type: entity
   parent: XenoFruitBase
   id: XenoFruitLesser
-  name: lesser resin fruit
-  description: A fruit that can be eaten to immediately recover health.
+  name: малий смоляний плід
+  description: Плід, який можна з'їсти, щоб миттєво відновити здоров'я.
   components:
   - type: XenoFruit
     itemState: fruit_lesser_item
@@ -86,8 +86,8 @@
 - type: entity
   parent: XenoFruitLesser
   id: XenoFruitGreater
-  name: greater resin fruit
-  description: A fruit that can be eaten to immediately recover health, and a strong regeneration effect for a few seconds.
+  name: великий смоляний плід
+  description: Плід, який можна з'їсти, щоб миттєво відновити здоров'я, а також отримати ефект швидкої регенерації протягом кількох секунд.
   components:
   - type: XenoFruit
     itemState: fruit_greater_item
@@ -107,8 +107,8 @@
 - type: entity
   parent: XenoFruitBase
   id: XenoFruitUnstable
-  name: unstable resin fruit
-  description: A fruit that can be eaten to gain a strong overshield effect, and a small regeneration for several seconds.
+  name: нестабільний смоляний плід
+  description: Плід, який можна з'їсти, щоб отримати сильне збільшення броні, а також повільну регенерацію протягом кількох секунд.
   components:
   - type: XenoFruit
     itemState: fruit_unstable_item
@@ -130,8 +130,8 @@
 - type: entity
   parent: XenoFruitBase
   id: XenoFruitSpore
-  name: spore resin fruit
-  description: A fruit that can be eaten to reenergize cooldowns. It also passively emits weak recovery pheromones.
+  name: спористий смоляний плід
+  description: Плід, який можна з'їсти, щоб зменшити час відновлення. Він також пасивно виділяє слабкі феромони відновлення.
   components:
   - type: XenoFruit
     itemState: fruit_spore_item
@@ -151,8 +151,8 @@
 - type: entity
   parent: XenoFruitBase
   id: XenoFruitSpeed
-  name: alacrit resin fruit
-  description: A fruit that can be eaten to move faster for a short amount of time.
+  name: алакрітовий смоляний плід
+  description: Плід, який можна з'їсти, щоб рухатися швидше протягом короткого проміжку часу
   components:
   - type: XenoFruit
     itemState: fruit_speed_item
@@ -168,8 +168,8 @@
 - type: entity
   parent: XenoFruitBase
   id: XenoFruitPlasma
-  name: cruor resin fruit
-  description: A fruit that can be eaten to boost plasma generation.
+  name: круоровий смоляний плід
+  description: Плід, який можна їсти, щоб прискорити накопичення плазми.
   components:
   - type: XenoFruit
     itemState: fruit_plasma_item

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBarricadeBase
   id: CMBarricadeSandbag
-  name: sandbag barricade
-  description: A makeshift barricade made out of the sand from the ground. Tough to beat but easy to pierce.
+  name: барикада з мішків
+  description: Нашвидкоруч зведена барикада, наповнена зазвичай піском чи землею. Важко пробити, але легко проколоти.
   components:
   - type: BarricadeSandbag
   - type: Climbable
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagEmpty
-  name: empty sandbags
-  description: Some empty sandbags, best to fill them up if you want to use them.
+  name: порожні мішки
+  description: Кілька порожніх мішків. Якщо хочете звести з них барикаду, то спершу наповніть їх землею чи піском.
   components:
   - type: Item
     size: Small
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagFull
-  name: sandbags
-  description: Some bags filled with sand. For now, just cumbersome, but soon to be used for fortifications.
+  name: наповнені мішки
+  description: Кілька мішків, наповнених чимось на зразок піску. Поки що просто гарна декорація, але колись вони стануть гарним доповненням до вашої лінії оборони.
   components:
   - type: Item
     size: Large

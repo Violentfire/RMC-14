@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 mortar portable kit
-  description: A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Needs to be set down first.
+  name: M402 комплект портативного міномета
+  description: Ручна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -86,8 +86,8 @@
   abstract: true
   parent: BaseItem
   id: RMCMortarShellBase
-  name: 80mm mortar shell
-  description: An unlabeled 80mm mortar shell, probably a casing.
+  name: 80мм мінометна гільза
+  description: Мінометна міна калібру 80мм без маркування, ймовірно, гільза.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: 80mm high explosive mortar shell
-  description: An 80mm mortar shell, loaded with a high explosive charge.
+  name: 80мм уламково-фугасна міна
+  description: 80мм мінометна міна, заряджена потужним вибуховим зарядом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellFlare
-  name: 80mm flare/camera mortar shell
-  description: An 80mm mortar shell, loaded with an illumination flare / camera combo, attached to a parachute.
+  name: 80мм міна фаєр/камера 
+  description: 80-мм мінометна міна з освітлювальною ракетою та камерою, яка прикріплена до парашута.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -129,8 +129,8 @@
 
 - type: entity
   id: RMCMortarFlare
-  name: illumination flare
-  description: It's really bright, and unreachable.
+  name: освітлювальна ракета
+  description: Справді яскрава, і така недосяжна.
   components:
   - type: Transform
     anchored: true

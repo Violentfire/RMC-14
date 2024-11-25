@@ -50,6 +50,7 @@ rmc-attachable-examine-condition-blacklist-comps = [bold]бракує {$compNumb
 rmc-attachable-examine-condition-blacklist-sizes = [bold]не[/bold] з перелічених розмірів: [bold]{$sizes}[/bold]
 rmc-attachable-examine-condition-blacklist-tags = [bold]бракує {$tagNumber}[/bold] з наступних міток: [bold]{$tags}[/bold]
 
+rmc-attachable-examine-ranged-accuracy = [color={$colour}]{$sign}{$accuracy}[/color] accuracy multiplier.
 rmc-attachable-examine-ranged-scatter = [color={$colour}]{$sign}{$scatter}[/color] градуси розкиду.
 rmc-attachable-examine-ranged-burst-scatter = [color={$colour}]{$sign}{$burstScatterMult}[/color] розсіювання спалаху.
 rmc-attachable-examine-ranged-shots-per-burst = [color={$colour}]{$sign}{$shots}[/color] постріли чергами.

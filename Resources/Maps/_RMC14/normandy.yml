@@ -1,74 +1,45 @@
 meta:
   format: 6
-  postmapinit: true
+  postmapinit: false
 tilemap:
   0: Space
-  14: CMFloorCargo
-  13: CMFloorCargoArrowUp
-  25: CMFloorSteelPrison
-  24: CMFloorSteelPrisonBlue0
-  19: CMFloorSteelPrisonBlue1
-  22: CMFloorSteelPrisonBlue2
-  16: CMFloorSteelPrisonBlue3
-  21: CMFloorSteelPrisonBlue4
-  15: CMFloorSteelPrisonBlue5
-  23: CMFloorSteelPrisonBlue6
-  17: CMFloorSteelPrisonBlue7
-  20: CMFloorSteelPrisonBlueCorner0
-  18: CMFloorSteelPrisonBlueCorner3
-  12: CMFloorSteelPrisonDarkBrown0
-  6: CMFloorSteelPrisonDarkBrown1
-  10: CMFloorSteelPrisonDarkBrown2
-  2: CMFloorSteelPrisonDarkBrown3
-  9: CMFloorSteelPrisonDarkBrown4
-  1: CMFloorSteelPrisonDarkBrown5
-  11: CMFloorSteelPrisonDarkBrown6
-  3: CMFloorSteelPrisonDarkBrown7
-  8: CMFloorSteelPrisonDarkBrownCorners0
-  4: CMFloorSteelPrisonDarkBrownCorners3
-  5: CMPlanetCorsatPlate
-  7: CMPlanetCorsatSquare
-  883: Plating
+  717: CMShuttleTileRasputin11
+  721: CMShuttleTileRasputin15
+  723: CMShuttleTileRasputin3
+  724: CMShuttleTileRasputin4
+  725: CMShuttleTileRasputin5
+  726: CMShuttleTileRasputin6
+  727: CMShuttleTileRasputin7
+  728: CMShuttleTileRasputin8
+  858: Plating
+  1: RMCFloorEmpty
 entities:
 - proto: ""
   entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Map Entity
+      name: ПШП-25 "Нормандія"
     - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
-    - type: LoadedMap
-  - uid: 2
-    components:
-    - type: MetaData
-      name: grid
-    - type: Transform
-      pos: -0.099534035,-0.6300087
-      parent: 1
+      pos: -0.5010788,-1.4348177
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
           ind: 0,0
-          tiles: DwAAAAAAEgAAAAAABQAAAAAAcwMAAAAABQAAAAAAFAAAAAAAFQAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAEwAAAAAAEwAAAAAAEwAAAAAAEwAAAAAAEwAAAAAAFwAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAABwAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAABwAAAAAABwAAAAAABwAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAABwAAAAAABwAAAAAABwAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
-        0,-1:
-          ind: 0,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAADwAAAAAAGAAAAAAAGAAAAAAAGAAAAAAAFQAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAEAAAAAAABQAAAAAAGQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAEAAAAAAABQAAAAAAGQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAEAAAAAAABQAAAAAAGQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAEAAAAAAABQAAAAAAGQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAEAAAAAAABQAAAAAAGQAAAAAABQAAAAAAFgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
-        -1,-1:
-          ind: -1,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAA
+          tiles: 1QIAAAAA1QIAAAAA2AIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAA1QIAAAAA1wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
           version: 6
         -1,0:
           ind: -1,0
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA1AIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA1gIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        0,-1:
+          ind: 0,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAAzQIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        -1,-1:
+          ind: -1,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAzQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA
           version: 6
     - type: Broadphase
     - type: Physics
@@ -81,6 +52,7 @@ entities:
       fixtures: {}
     - type: OccluderTree
     - type: SpreaderGrid
+      updateAccumulator: 0.43416357
     - type: Shuttle
     - type: GridPathfinding
     - type: Gravity
@@ -89,1303 +61,5180 @@ entities:
     - type: DecalGrid
       chunkCollection:
         version: 2
-        nodes:
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStriped1
-          decals:
-            11: 3,-5
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStriped2
-          decals:
-            1: 2,-4
-            2: 2,-3
-            3: 2,-2
-            4: 2,-1
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStriped3
-          decals:
-            5: 4,-1
-            6: 4,-2
-            7: 4,-3
-            8: 4,-4
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStripedCorner0
-          decals:
-            13: 4,-5
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStripedCorner1
-          decals:
-            12: 2,-5
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStripedCorner2
-          decals:
-            9: 4,0
-        - node:
-            color: '#FFFFFFFF'
-            id: CMDecalStripedCorner3
-          decals:
-            10: 2,0
+        nodes: []
     - type: GridAtmosphere
       version: 2
       data:
+        tiles:
+          0,0:
+            0: 61167
+          0,1:
+            0: 8174
+          0,2:
+            0: 51
+            1: 34944
+          1,0:
+            0: 4352
+            1: 8738
+          -1,0:
+            0: 65518
+          -1,1:
+            0: 3822
+          -1,2:
+            0: 136
+            1: 8752
+          0,-2:
+            0: 30512
+            1: 11
+          0,-1:
+            2: 1
+            0: 30582
+          -1,-2:
+            0: 52352
+            1: 27
+          -1,-1:
+            0: 52428
+            1: 256
+          0,3:
+            1: 7
+          1,1:
+            1: 9284
+          1,2:
+            1: 18
+          -2,0:
+            1: 34952
+          -2,1:
+            1: 33860
+          -2,2:
+            1: 8
+          -1,3:
+            1: 12
+          0,-3:
+            1: 11264
+          1,-2:
+            1: 17457
+          1,-1:
+            1: 9028
+          1,-3:
+            1: 8448
+          -2,-2:
+            1: 17536
+          -2,-1:
+            1: 34884
+          -1,-3:
+            1: 34560
+          -2,-3:
+            1: 32768
+        uniqueMixes:
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          immutable: True
+          moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 147.92499
+          moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-- proto: ActionToggleLight
-  entities:
-  - uid: 164
-    components:
-    - type: Transform
-      parent: 163
-    - type: InstantAction
-      container: 163
+    - type: Dropship
+      crashWarningSound: !type:SoundPathSpecifier
+        params:
+          volume: -5
+        path: /Audio/_RMC14/Announcements/ARES/dropship_emergency.ogg
+      attachmentPoints:
+      - 94
+      - 100
+      - 121
+      - 120
+      marineHijackSound: !type:SoundPathSpecifier
+        params:
+          volume: -5
+        path: /Audio/_RMC14/Announcements/ARES/hijack.ogg
+      localHijackSound: !type:SoundPathSpecifier
+        path: /Audio/_RMC14/Machines/Shuttle/queen_alarm.ogg
+    - type: NavMap
 - proto: AtmosDeviceFanTiny
   entities:
-  - uid: 169
+  - uid: 2
     components:
     - type: Transform
-      pos: -0.5,2.5
-      parent: 2
-  - uid: 170
-    components:
-    - type: Transform
-      pos: 4.5,-6.5
-      parent: 2
-  - uid: 171
-    components:
-    - type: Transform
-      pos: 3.5,-6.5
-      parent: 2
-  - uid: 172
-    components:
-    - type: Transform
-      pos: 2.5,-6.5
-      parent: 2
-  - uid: 173
-    components:
-    - type: Transform
-      pos: 7.5,1.5
-      parent: 2
-  - uid: 174
-    components:
-    - type: Transform
-      pos: 7.5,2.5
-      parent: 2
-  - uid: 175
-    components:
-    - type: Transform
-      pos: -0.5,1.5
-      parent: 2
-- proto: ChairPilotSeat
-  entities:
+      pos: -0.5,-6.5
+      parent: 1
   - uid: 3
     components:
     - type: Transform
-      pos: 6.5,5.5
-      parent: 2
+      pos: 0.5,-6.5
+      parent: 1
   - uid: 4
     components:
     - type: Transform
-      pos: 6.5,4.5
-      parent: 2
+      pos: 1.5,-6.5
+      parent: 1
   - uid: 5
     components:
     - type: Transform
-      pos: 6.5,3.5
-      parent: 2
+      pos: 4.5,2.5
+      parent: 1
   - uid: 6
+    components:
+    - type: Transform
+      pos: 4.5,3.5
+      parent: 1
+  - uid: 7
+    components:
+    - type: Transform
+      pos: -3.5,3.5
+      parent: 1
+  - uid: 8
+    components:
+    - type: Transform
+      pos: -3.5,2.5
+      parent: 1
+- proto: CMArmorHelmetM30
+  entities:
+  - uid: 9
+    components:
+    - type: Transform
+      pos: -0.234375,9.701572
+      parent: 1
+- proto: CMComputerDropshipCamerasAlamo
+  entities:
+  - uid: 10
+    components:
+    - type: Transform
+      pos: -0.5,9.5
+      parent: 1
+- proto: CMComputerDropshipNavigation
+  entities:
+  - uid: 11
+    components:
+    - type: Transform
+      pos: 0.5,9.5
+      parent: 1
+    - type: AccessReader
+      accessLog:
+      - accessor: Pgriha ()
+        accessTime: 636.3993636
+- proto: CMComputerDropshipWeapons
+  entities:
+  - uid: 12
+    components:
+    - type: Transform
+      pos: 1.5,9.5
+      parent: 1
+- proto: CMDrinkCanBobdaPineapple
+  entities:
+  - uid: 13
+    components:
+    - type: Transform
+      pos: -0.32677418,8.649372
+      parent: 1
+- proto: CMDrinkCanBobdaVanilla
+  entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: -0.6548992,8.336872
+      parent: 1
+- proto: CMLightFixtureAlwaysPowered
+  entities:
+  - uid: 15
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,0.5
-      parent: 2
-  - uid: 7
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-0.5
-      parent: 2
-  - uid: 8
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-1.5
-      parent: 2
-  - uid: 9
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-2.5
-      parent: 2
-  - uid: 10
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-3.5
-      parent: 2
-  - uid: 11
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-4.5
-      parent: 2
-  - uid: 12
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-5.5
-      parent: 2
-  - uid: 13
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-0.5
-      parent: 2
-  - uid: 14
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-1.5
-      parent: 2
-  - uid: 15
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-2.5
-      parent: 2
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 16
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 5.5,-3.5
-      parent: 2
+      pos: 1.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 17
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 5.5,-4.5
-      parent: 2
+      pos: -1.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 18
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 6.5,0.5
-      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 2.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 19
     components:
     - type: Transform
-      pos: 0.5,5.5
-      parent: 2
+      pos: 3.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 20
     components:
     - type: Transform
-      pos: 0.5,4.5
-      parent: 2
+      pos: -2.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 21
     components:
     - type: Transform
-      pos: 0.5,3.5
-      parent: 2
+      pos: 2.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 22
     components:
     - type: Transform
-      pos: 1.5,5.5
-      parent: 2
+      pos: -1.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 23
     components:
     - type: Transform
-      pos: 1.5,4.5
-      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -0.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 24
     components:
     - type: Transform
-      pos: 1.5,3.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -2.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 25
     components:
     - type: Transform
-      pos: 5.5,5.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -2.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 26
     components:
     - type: Transform
-      pos: 5.5,4.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 3.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: CMLightFixtureSmallAlwaysPowered
+  entities:
   - uid: 27
     components:
     - type: Transform
-      pos: 5.5,3.5
-      parent: 2
+      pos: -0.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 28
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-5.5
-      parent: 2
+      pos: 1.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: CMMREComponentBiscuit
+  entities:
   - uid: 29
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,0.5
-      parent: 2
+      pos: 1.4969747,9.446918
+      parent: 1
+- proto: CMNormandyCockpit
+  entities:
   - uid: 30
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,0.5
-      parent: 2
-- proto: CMAlamoWall40
-  entities:
-  - uid: 77
-    components:
-    - type: Transform
-      pos: -1.5,-1.5
-      parent: 2
-- proto: CMAlamoWall41
-  entities:
-  - uid: 78
-    components:
-    - type: Transform
-      pos: -0.5,-1.5
-      parent: 2
-- proto: CMAlamoWall44
-  entities:
-  - uid: 81
-    components:
-    - type: Transform
-      pos: 7.5,-1.5
-      parent: 2
-- proto: CMAlamoWall45
-  entities:
-  - uid: 82
-    components:
-    - type: Transform
-      pos: 8.5,-1.5
-      parent: 2
-- proto: CMArmorHelmetM30
-  entities:
-  - uid: 130
-    components:
-    - type: Transform
-      pos: 2.8727603,8.847239
-      parent: 2
-- proto: CMComputerDropshipCamerasAlamo
-  entities:
-  - uid: 131
-    components:
-    - type: Transform
-      pos: 2.5,8.5
-      parent: 2
-- proto: CMComputerDropshipNavigation
-  entities:
-  - uid: 132
-    components:
-    - type: Transform
-      pos: 3.5,8.5
-      parent: 2
-- proto: CMComputerDropshipWeapons
-  entities:
-  - uid: 133
-    components:
-    - type: Transform
-      pos: 4.5,8.5
-      parent: 2
-- proto: CMLightFixtureAlwaysPowered
-  entities:
-  - uid: 134
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,5.5
-      parent: 2
-  - uid: 135
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,5.5
-      parent: 2
-  - uid: 136
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,-2.5
-      parent: 2
-  - uid: 137
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,-2.5
-      parent: 2
-  - uid: 138
-    components:
-    - type: Transform
-      pos: 6.5,0.5
-      parent: 2
-  - uid: 139
-    components:
-    - type: Transform
-      pos: 0.5,0.5
-      parent: 2
-  - uid: 140
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,-0.5
-      parent: 2
-  - uid: 141
-    components:
-    - type: Transform
-      pos: 3.5,5.5
-      parent: 2
-- proto: CMLightFixtureSmallAlwaysPowered
-  entities:
-  - uid: 142
-    components:
-    - type: Transform
-      pos: 2.5,7.5
-      parent: 2
-- proto: CMMREComponentSpaghettiChunks
-  entities:
-  - uid: 143
-    components:
-    - type: Transform
-      pos: 4.6455307,8.54542
-      parent: 2
-- proto: CMNormandyCockpit
-  entities:
-  - uid: 31
-    components:
-    - type: Transform
-      pos: 3.5,6.5
-      parent: 2
-- proto: CMNormandyDoor
-  entities:
-  - uid: 32
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5,2.5
-      parent: 2
-  - uid: 33
-    components:
-    - type: Transform
-      pos: 4.5,-6.5
-      parent: 2
-  - uid: 34
-    components:
-    - type: Transform
-      pos: 3.5,-6.5
-      parent: 2
-  - uid: 35
-    components:
-    - type: Transform
-      pos: 2.5,-6.5
-      parent: 2
-  - uid: 36
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,2.5
-      parent: 2
-  - uid: 37
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,1.5
-      parent: 2
-  - uid: 38
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5,1.5
-      parent: 2
-- proto: CMNormandyWall1
-  entities:
-  - uid: 39
-    components:
-    - type: Transform
-      pos: -0.5,-8.5
-      parent: 2
-- proto: CMNormandyWall10
-  entities:
-  - uid: 46
-    components:
-    - type: Transform
-      pos: 1.5,-6.5
-      parent: 2
-  - uid: 47
-    components:
-    - type: Transform
-      pos: 5.5,-6.5
-      parent: 2
-- proto: CMNormandyWall100
-  entities:
-  - uid: 40
-    components:
-    - type: Transform
-      pos: 1.5,10.5
-      parent: 2
-- proto: CMNormandyWall101
-  entities:
-  - uid: 41
-    components:
-    - type: Transform
-      pos: 2.5,10.5
-      parent: 2
-  - uid: 42
-    components:
-    - type: Transform
-      pos: 3.5,10.5
-      parent: 2
-  - uid: 43
-    components:
-    - type: Transform
-      pos: 4.5,10.5
-      parent: 2
-- proto: CMNormandyWall102
-  entities:
-  - uid: 44
-    components:
-    - type: Transform
-      pos: 5.5,10.5
-      parent: 2
-- proto: CMNormandyWall15
-  entities:
-  - uid: 48
-    components:
-    - type: Transform
-      pos: 6.5,-6.5
-      parent: 2
-  - uid: 49
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 0.5,-6.5
-      parent: 2
-  - uid: 114
-    components:
-    - type: Transform
-      pos: 1.5,-8.5
-      parent: 2
-- proto: CMNormandyWall16
-  entities:
-  - uid: 59
-    components:
-    - type: Transform
-      pos: -1.5,-5.5
-      parent: 2
-  - uid: 60
-    components:
-    - type: Transform
-      pos: 7.5,-5.5
-      parent: 2
-- proto: CMNormandyWall17
-  entities:
-  - uid: 61
-    components:
-    - type: Transform
-      pos: -0.5,-5.5
-      parent: 2
-  - uid: 62
-    components:
-    - type: Transform
-      pos: 8.5,-5.5
-      parent: 2
-- proto: CMNormandyWall19
-  entities:
-  - uid: 51
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-5.5
-      parent: 2
-  - uid: 53
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-1.5
-      parent: 2
-  - uid: 54
-    components:
-    - type: Transform
-      pos: 6.5,-1.5
-      parent: 2
-  - uid: 55
-    components:
-    - type: Transform
-      pos: 6.5,-2.5
-      parent: 2
-  - uid: 57
-    components:
-    - type: Transform
-      pos: 6.5,-5.5
-      parent: 2
-  - uid: 79
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,0.5
-      parent: 2
-  - uid: 80
-    components:
-    - type: Transform
-      pos: 7.5,0.5
-      parent: 2
-- proto: CMNormandyWall2
-  entities:
-  - uid: 58
-    components:
-    - type: Transform
-      pos: 0.5,-8.5
-      parent: 2
-- proto: CMNormandyWall22
-  entities:
-  - uid: 63
-    components:
-    - type: Transform
-      pos: -1.5,-4.5
-      parent: 2
-- proto: CMNormandyWall23
-  entities:
-  - uid: 65
-    components:
-    - type: Transform
-      pos: -0.5,-4.5
-      parent: 2
-- proto: CMNormandyWall24
-  entities:
-  - uid: 50
-    components:
-    - type: Transform
-      pos: 0.5,-4.5
-      parent: 2
-- proto: CMNormandyWall25
-  entities:
-  - uid: 56
-    components:
-    - type: Transform
-      pos: 6.5,-4.5
-      parent: 2
-- proto: CMNormandyWall26
-  entities:
-  - uid: 64
-    components:
-    - type: Transform
-      pos: 7.5,-4.5
-      parent: 2
-- proto: CMNormandyWall27
-  entities:
-  - uid: 66
-    components:
-    - type: Transform
-      pos: 8.5,-4.5
-      parent: 2
-- proto: CMNormandyWall28
-  entities:
-  - uid: 67
-    components:
-    - type: Transform
-      pos: -1.5,-3.5
-      parent: 2
-- proto: CMNormandyWall29
-  entities:
-  - uid: 68
-    components:
-    - type: Transform
-      pos: -0.5,-3.5
-      parent: 2
-- proto: CMNormandyWall30
-  entities:
-  - uid: 69
-    components:
-    - type: Transform
-      pos: 0.5,-3.5
-      parent: 2
-- proto: CMNormandyWall31
-  entities:
-  - uid: 70
-    components:
-    - type: Transform
-      pos: 6.5,-3.5
-      parent: 2
-- proto: CMNormandyWall32
-  entities:
-  - uid: 71
-    components:
-    - type: Transform
-      pos: 7.5,-3.5
-      parent: 2
-- proto: CMNormandyWall33
-  entities:
-  - uid: 72
-    components:
-    - type: Transform
-      pos: 8.5,-3.5
-      parent: 2
-- proto: CMNormandyWall34
-  entities:
-  - uid: 74
-    components:
-    - type: Transform
-      pos: -1.5,-2.5
-      parent: 2
-- proto: CMNormandyWall35
-  entities:
-  - uid: 73
-    components:
-    - type: Transform
-      pos: -0.5,-2.5
-      parent: 2
-- proto: CMNormandyWall36
-  entities:
-  - uid: 52
-    components:
-    - type: Transform
-      pos: 0.5,-2.5
-      parent: 2
-- proto: CMNormandyWall38
-  entities:
-  - uid: 75
-    components:
-    - type: Transform
-      pos: 7.5,-2.5
-      parent: 2
-- proto: CMNormandyWall39
-  entities:
-  - uid: 76
-    components:
-    - type: Transform
-      pos: 8.5,-2.5
-      parent: 2
-- proto: CMNormandyWall46
-  entities:
-  - uid: 83
-    components:
-    - type: Transform
-      pos: -0.5,-0.5
-      parent: 2
-  - uid: 84
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 7.5,-0.5
-      parent: 2
-- proto: CMNormandyWall47
-  entities:
-  - uid: 85
-    components:
-    - type: Transform
-      pos: 0.5,-0.5
-      parent: 2
-- proto: CMNormandyWall48
-  entities:
-  - uid: 86
-    components:
-    - type: Transform
-      pos: 6.5,-0.5
-      parent: 2
-- proto: CMNormandyWall5
-  entities:
-  - uid: 87
-    components:
-    - type: Transform
-      pos: 6.5,-8.5
-      parent: 2
-- proto: CMNormandyWall53
-  entities:
-  - uid: 88
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,4.5
-      parent: 2
-  - uid: 89
-    components:
-    - type: Transform
-      pos: 3.5,0.5
-      parent: 2
-- proto: CMNormandyWall56
-  entities:
-  - uid: 90
-    components:
-    - type: Transform
-      pos: 3.5,3.5
-      parent: 2
-  - uid: 91
-    components:
-    - type: Transform
-      pos: 3.5,1.5
-      parent: 2
-  - uid: 92
-    components:
-    - type: Transform
-      pos: 3.5,2.5
-      parent: 2
-- proto: CMNormandyWall6
-  entities:
-  - uid: 93
-    components:
-    - type: Transform
-      pos: 7.5,-8.5
-      parent: 2
-- proto: CMNormandyWall61
-  entities:
-  - uid: 105
-    components:
-    - type: Transform
-      pos: -1.5,3.5
-      parent: 2
-- proto: CMNormandyWall62
-  entities:
-  - uid: 95
-    components:
-    - type: Transform
-      pos: -0.5,3.5
-      parent: 2
-- proto: CMNormandyWall64
-  entities:
-  - uid: 96
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,5.5
-      parent: 2
-  - uid: 97
-    components:
-    - type: Transform
-      pos: 7.5,3.5
-      parent: 2
-- proto: CMNormandyWall65
-  entities:
-  - uid: 104
-    components:
-    - type: Transform
-      pos: 8.5,3.5
-      parent: 2
-- proto: CMNormandyWall69
-  entities:
-  - uid: 99
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,4.5
-      parent: 2
-  - uid: 100
-    components:
-    - type: Transform
-      pos: 7.5,4.5
-      parent: 2
-- proto: CMNormandyWall7
-  entities:
-  - uid: 101
-    components:
-    - type: Transform
-      pos: 1.5,-7.5
-      parent: 2
-- proto: CMNormandyWall70
-  entities:
-  - uid: 98
-    components:
-    - type: Transform
-      pos: 8.5,4.5
-      parent: 2
-  - uid: 102
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,4.5
-      parent: 2
-- proto: CMNormandyWall71
-  entities:
-  - uid: 103
-    components:
-    - type: Transform
-      pos: -1.5,5.5
-      parent: 2
-- proto: CMNormandyWall73
-  entities:
-  - uid: 94
-    components:
-    - type: Transform
-      pos: 7.5,5.5
-      parent: 2
-- proto: CMNormandyWall74
-  entities:
-  - uid: 106
-    components:
-    - type: Transform
-      pos: 8.5,5.5
-      parent: 2
-- proto: CMNormandyWall75
-  entities:
-  - uid: 107
-    components:
-    - type: Transform
-      pos: -0.5,6.5
-      parent: 2
-  - uid: 108
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,6.5
-      parent: 2
-- proto: CMNormandyWall76
-  entities:
-  - uid: 109
-    components:
-    - type: Transform
-      pos: 6.5,6.5
-      parent: 2
-  - uid: 116
-    components:
-    - type: Transform
-      pos: 0.5,6.5
-      parent: 2
-- proto: CMNormandyWall77
-  entities:
-  - uid: 45
-    components:
-    - type: Transform
-      pos: 1.5,6.5
-      parent: 2
-- proto: CMNormandyWall8
-  entities:
-  - uid: 112
-    components:
-    - type: Transform
-      pos: 5.5,-8.5
-      parent: 2
-  - uid: 113
-    components:
-    - type: Transform
-      pos: 5.5,-7.5
-      parent: 2
-- proto: CMNormandyWall80
-  entities:
-  - uid: 110
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,6.5
-      parent: 2
-  - uid: 111
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,6.5
-      parent: 2
-- proto: CMNormandyWall81
-  entities:
-  - uid: 115
-    components:
-    - type: Transform
-      pos: 5.5,6.5
-      parent: 2
-- proto: CMNormandyWall84
-  entities:
-  - uid: 117
-    components:
-    - type: Transform
-      pos: -0.5,7.5
-      parent: 2
-  - uid: 118
-    components:
-    - type: Transform
-      pos: 6.5,7.5
-      parent: 2
-- proto: CMNormandyWall85
-  entities:
-  - uid: 119
-    components:
-    - type: Transform
-      pos: 7.5,7.5
-      parent: 2
-  - uid: 120
-    components:
-    - type: Transform
       pos: 0.5,7.5
-      parent: 2
-- proto: CMNormandyWall86
-  entities:
-  - uid: 121
-    components:
-    - type: Transform
-      pos: 1.5,7.5
-      parent: 2
-- proto: CMNormandyWall89
-  entities:
-  - uid: 122
-    components:
-    - type: Transform
-      pos: 5.5,7.5
-      parent: 2
-- proto: CMNormandyWall92
-  entities:
-  - uid: 123
-    components:
-    - type: Transform
-      pos: 1.5,8.5
-      parent: 2
-- proto: CMNormandyWall94
-  entities:
-  - uid: 124
-    components:
-    - type: Transform
-      pos: 5.5,8.5
-      parent: 2
-- proto: CMNormandyWall95
-  entities:
-  - uid: 125
-    components:
-    - type: Transform
-      pos: 1.5,9.5
-      parent: 2
-- proto: CMNormandyWall96
-  entities:
-  - uid: 126
-    components:
-    - type: Transform
-      pos: 2.5,9.5
-      parent: 2
-- proto: CMNormandyWall97
-  entities:
-  - uid: 127
-    components:
-    - type: Transform
-      pos: 3.5,9.5
-      parent: 2
-- proto: CMNormandyWall98
-  entities:
-  - uid: 128
-    components:
-    - type: Transform
-      pos: 4.5,9.5
-      parent: 2
-- proto: CMNormandyWall99
-  entities:
-  - uid: 129
-    components:
-    - type: Transform
-      pos: 5.5,9.5
-      parent: 2
-- proto: CMRandomPosterAny
-  entities:
-  - uid: 145
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,6.5
-      parent: 2
-  - uid: 182
-    components:
-    - type: Transform
-      pos: -0.5,3.5
-      parent: 2
-- proto: CMSeatPilot
-  entities:
-  - uid: 146
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,7.5
-      parent: 2
-  - uid: 147
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,7.5
-      parent: 2
-- proto: DrinkDrGibbCan
-  entities:
-  - uid: 148
-    components:
-    - type: Transform
-      pos: 4.8046336,7.7560873
-      parent: 2
-  - uid: 149
-    components:
-    - type: Transform
-      pos: 4.902308,7.5217123
-      parent: 2
-- proto: DrinkMugOne
-  entities:
-  - uid: 144
-    components:
-    - type: Transform
-      pos: 2.5267062,8.934555
-      parent: 2
-- proto: RandomPosterAny
-  entities:
-  - uid: 150
-    components:
-    - type: Transform
-      pos: 6.5,-3.5
-      parent: 2
-  - uid: 181
-    components:
-    - type: Transform
-      pos: 7.5,0.5
-      parent: 2
-- proto: RandomSoap
-  entities:
-  - uid: 183
-    components:
-    - type: Transform
-      pos: 6.5,2.5
-      parent: 2
-- proto: RandomSpawner
-  entities:
-  - uid: 152
-    components:
-    - type: Transform
-      pos: 6.5,2.5
-      parent: 2
-  - uid: 153
-    components:
-    - type: Transform
-      pos: 1.5,1.5
-      parent: 2
-  - uid: 154
-    components:
-    - type: Transform
-      pos: 3.5,5.5
-      parent: 2
-  - uid: 155
-    components:
-    - type: Transform
-      pos: 4.5,-4.5
-      parent: 2
-  - uid: 156
-    components:
-    - type: Transform
-      pos: 2.5,-0.5
-      parent: 2
-  - uid: 185
-    components:
-    - type: Transform
-      pos: 3.5,-4.5
-      parent: 2
-  - uid: 186
-    components:
-    - type: Transform
-      pos: 1.5,-1.5
-      parent: 2
-  - uid: 187
-    components:
-    - type: Transform
-      pos: 5.5,-2.5
-      parent: 2
-- proto: RandomSpawner100
-  entities:
-  - uid: 184
-    components:
-    - type: Transform
-      pos: 2.5,3.5
-      parent: 2
-- proto: RMCAreaShuttleDrop2BigRed
-  entities:
-  - uid: 157
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.5,3.5
-      parent: 2
-- proto: RMCArmorHelmetM3G4
-  entities:
-  - uid: 165
-    components:
-    - type: Transform
-      parent: 162
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: RMCArmorM3G4
-  entities:
-  - uid: 163
-    components:
-    - type: Transform
-      parent: 162
-    - type: HandheldLight
-      toggleActionEntity: 164
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 164
-    - type: Physics
-      canCollide: False
-    - type: ActionsContainer
-    - type: InsideEntityStorage
-- proto: RMCCoatCorrespondentGreen
-  entities:
-  - uid: 158
-    components:
-    - type: Transform
-      pos: 2.4665103,7.534738
-      parent: 2
-- proto: RMCCrateGrenadesHighExplosive
-  entities:
-  - uid: 159
-    components:
-    - type: Transform
-      pos: 3.5,-3.5
-      parent: 2
-- proto: RMCCrateMetalSheets
-  entities:
-  - uid: 160
-    components:
-    - type: Transform
-      pos: 3.5,-0.5
-      parent: 2
-- proto: RMCCratePlasteelSheets
-  entities:
-  - uid: 161
-    components:
-    - type: Transform
-      pos: 3.5,-1.5
-      parent: 2
+      parent: 1
+    - type: DeviceNetwork
+      address: 4677-E7C2
+      receiveFrequency: 1280
     - type: Fixtures
       fixtures:
         fix1:
           shape: !type:PolygonShape
             radius: 0.01
             vertices:
-            - -0.4,-0.4
-            - 0.4,-0.4
-            - 0.4,0.29
-            - -0.4,0.29
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
           mask:
           - Impassable
+          - TableLayer
           - HighImpassable
           - LowImpassable
+          - InteractImpassable
           layer:
+          - TableLayer
+          - HighImpassable
           - BulletImpassable
+          - InteractImpassable
           - Opaque
-          density: 50
+          density: 100
           hard: True
           restitution: 0
           friction: 0.4
-    - type: EntityStorage
-      open: True
-      removedMasks: 20
-    - type: PlaceableSurface
-      isPlaceable: True
-- proto: RMCCrateRestrictedEquipmentArmorM4
-  entities:
-  - uid: 162
-    components:
-    - type: Transform
-      pos: 3.5,-2.5
-      parent: 2
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
     - type: ContainerContainer
       containers:
-        entity_storage: !type:Container
+        board: !type:Container
           showEnts: False
           occludes: True
           ents:
-          - 163
-          - 165
-        paper_label: !type:ContainerSlot
+          - 31
+    - type: DoorBolt
+      powered: True
+- proto: CMNormandyDoor
+  entities:
+  - uid: 32
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,3.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 2DDA-4BDF
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
           showEnts: False
           occludes: True
-          ent: null
-- proto: RMCFigurinePatronBillTitan
+          ents:
+          - 33
+    - type: DoorBolt
+      powered: True
+  - uid: 34
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 4.5,2.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 3E60-678B
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 35
+    - type: DoorBolt
+      powered: True
+  - uid: 36
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,3.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 4657-FAED
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 37
+    - type: DoorBolt
+      powered: True
+  - uid: 38
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -3.5,2.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 10F7-B744
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 39
+    - type: DoorBolt
+      powered: True
+  - uid: 40
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 39CD-915D
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 41
+    - type: DoorBolt
+      powered: True
+  - uid: 42
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 4F2D-E37E
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 43
+    - type: DoorBolt
+      powered: True
+  - uid: 44
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 6B10-04D5
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 45
+    - type: DoorBolt
+      powered: True
+- proto: CMNormandyWall1
   entities:
+  - uid: 46
+    components:
+    - type: Transform
+      pos: -3.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall100
+  entities:
+  - uid: 47
+    components:
+    - type: Transform
+      pos: -1.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall101
+  entities:
+  - uid: 48
+    components:
+    - type: Transform
+      pos: -0.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 49
+    components:
+    - type: Transform
+      pos: 0.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 50
+    components:
+    - type: Transform
+      pos: 1.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall102
+  entities:
+  - uid: 51
+    components:
+    - type: Transform
+      pos: 2.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall14
+  entities:
+  - uid: 52
+    components:
+    - type: Transform
+      pos: -1.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 53
+    components:
+    - type: Transform
+      pos: 2.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall15
+  entities:
+  - uid: 54
+    components:
+    - type: Transform
+      pos: 4.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 55
+    components:
+    - type: Transform
+      pos: 3.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall16
+  entities:
+  - uid: 56
+    components:
+    - type: Transform
+      pos: -4.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall17
+  entities:
+  - uid: 57
+    components:
+    - type: Transform
+      pos: -3.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall18
+  entities:
+  - uid: 58
+    components:
+    - type: Transform
+      pos: -2.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 59
+    components:
+    - type: Transform
+      pos: -2.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 60
+    components:
+    - type: Transform
+      pos: -2.5,-1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 61
+    components:
+    - type: Transform
+      pos: -3.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 62
+    components:
+    - type: Transform
+      pos: -3.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall19
+  entities:
+  - uid: 63
+    components:
+    - type: Transform
+      pos: 4.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 64
+    components:
+    - type: Transform
+      pos: 4.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 65
+    components:
+    - type: Transform
+      pos: 3.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 66
+    components:
+    - type: Transform
+      pos: 3.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 67
+    components:
+    - type: Transform
+      pos: 3.5,-1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall2
+  entities:
+  - uid: 68
+    components:
+    - type: Transform
+      pos: -2.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall20
+  entities:
+  - uid: 69
+    components:
+    - type: Transform
+      pos: 4.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall21
+  entities:
+  - uid: 70
+    components:
+    - type: Transform
+      pos: 5.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall22
+  entities:
+  - uid: 71
+    components:
+    - type: Transform
+      pos: -4.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall23
+  entities:
+  - uid: 72
+    components:
+    - type: Transform
+      pos: -3.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall24
+  entities:
+  - uid: 73
+    components:
+    - type: Transform
+      pos: -2.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall25
+  entities:
+  - uid: 74
+    components:
+    - type: Transform
+      pos: 3.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall26
+  entities:
+  - uid: 75
+    components:
+    - type: Transform
+      pos: 4.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall27
+  entities:
+  - uid: 76
+    components:
+    - type: Transform
+      pos: 5.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall28
+  entities:
+  - uid: 77
+    components:
+    - type: Transform
+      pos: -4.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall29
+  entities:
+  - uid: 78
+    components:
+    - type: Transform
+      pos: -3.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall3
+  entities:
+  - uid: 79
+    components:
+    - type: Transform
+      pos: -1.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall30
+  entities:
+  - uid: 80
+    components:
+    - type: Transform
+      pos: -2.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall31
+  entities:
+  - uid: 81
+    components:
+    - type: Transform
+      pos: 3.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall32
+  entities:
+  - uid: 82
+    components:
+    - type: Transform
+      pos: 4.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall33
+  entities:
+  - uid: 83
+    components:
+    - type: Transform
+      pos: 5.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall34
+  entities:
+  - uid: 84
+    components:
+    - type: Transform
+      pos: -4.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall35
+  entities:
+  - uid: 85
+    components:
+    - type: Transform
+      pos: -3.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall38
+  entities:
+  - uid: 86
+    components:
+    - type: Transform
+      pos: 4.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall39
+  entities:
+  - uid: 87
+    components:
+    - type: Transform
+      pos: 5.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall4
+  entities:
+  - uid: 88
+    components:
+    - type: Transform
+      pos: 2.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall47
+  entities:
+  - uid: 89
+    components:
+    - type: Transform
+      pos: -2.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall48
+  entities:
+  - uid: 90
+    components:
+    - type: Transform
+      pos: 3.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall5
+  entities:
+  - uid: 91
+    components:
+    - type: Transform
+      pos: 3.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall53
+  entities:
+  - uid: 92
+    components:
+    - type: Transform
+      pos: 0.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall6
+  entities:
+  - uid: 93
+    components:
+    - type: Transform
+      pos: 4.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall61
+  entities:
+  - uid: 94
+    components:
+    - type: Transform
+      pos: -4.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall62
+  entities:
+  - uid: 95
+    components:
+    - type: Transform
+      pos: -3.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall63
+  entities:
+  - uid: 96
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 97
+    components:
+    - type: Transform
+      pos: 0.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 98
+    components:
+    - type: Transform
+      pos: 0.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall64
+  entities:
+  - uid: 99
+    components:
+    - type: Transform
+      pos: 4.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall65
+  entities:
+  - uid: 100
+    components:
+    - type: Transform
+      pos: 5.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall66
+  entities:
+  - uid: 101
+    components:
+    - type: Transform
+      pos: -4.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall67
+  entities:
+  - uid: 102
+    components:
+    - type: Transform
+      pos: -3.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall68
+  entities:
+  - uid: 103
+    components:
+    - type: Transform
+      pos: 0.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall69
+  entities:
+  - uid: 104
+    components:
+    - type: Transform
+      pos: 4.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall7
+  entities:
+  - uid: 105
+    components:
+    - type: Transform
+      pos: -1.5,-7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall70
+  entities:
+  - uid: 106
+    components:
+    - type: Transform
+      pos: 5.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall71
+  entities:
+  - uid: 107
+    components:
+    - type: Transform
+      pos: -4.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall72
+  entities:
+  - uid: 108
+    components:
+    - type: Transform
+      pos: -3.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall73
+  entities:
+  - uid: 109
+    components:
+    - type: Transform
+      pos: 4.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall74
+  entities:
+  - uid: 110
+    components:
+    - type: Transform
+      pos: 5.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall75
+  entities:
+  - uid: 111
+    components:
+    - type: Transform
+      pos: -3.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall77
+  entities:
+  - uid: 112
+    components:
+    - type: Transform
+      pos: -1.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall78
+  entities:
+  - uid: 113
+    components:
+    - type: Transform
+      pos: -0.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 114
+    components:
+    - type: Transform
+      pos: 1.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall8
+  entities:
+  - uid: 115
+    components:
+    - type: Transform
+      pos: 2.5,-7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall81
+  entities:
+  - uid: 116
+    components:
+    - type: Transform
+      pos: 2.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 117
+    components:
+    - type: Transform
+      pos: -2.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 118
+    components:
+    - type: Transform
+      pos: 3.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall83
+  entities:
+  - uid: 119
+    components:
+    - type: Transform
+      pos: 4.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall84
+  entities:
+  - uid: 120
+    components:
+    - type: Transform
+      pos: -3.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall84Flipped
+  entities:
+  - uid: 121
+    components:
+    - type: Transform
+      pos: 4.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall85
+  entities:
+  - uid: 122
+    components:
+    - type: Transform
+      pos: -2.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall85Flipped
+  entities:
+  - uid: 123
+    components:
+    - type: Transform
+      pos: 3.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall86
+  entities:
+  - uid: 124
+    components:
+    - type: Transform
+      pos: -1.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall89
+  entities:
+  - uid: 125
+    components:
+    - type: Transform
+      pos: 2.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall9
+  entities:
+  - uid: 126
+    components:
+    - type: Transform
+      pos: -3.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+  - uid: 127
+    components:
+    - type: Transform
+      pos: -2.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall92
+  entities:
+  - uid: 128
+    components:
+    - type: Transform
+      pos: -1.5,9.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall94
+  entities:
+  - uid: 129
+    components:
+    - type: Transform
+      pos: 2.5,9.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall95
+  entities:
+  - uid: 130
+    components:
+    - type: Transform
+      pos: -1.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall96
+  entities:
+  - uid: 131
+    components:
+    - type: Transform
+      pos: -0.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall97
+  entities:
+  - uid: 132
+    components:
+    - type: Transform
+      pos: 0.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall98
+  entities:
+  - uid: 133
+    components:
+    - type: Transform
+      pos: 1.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall99
+  entities:
+  - uid: 134
+    components:
+    - type: Transform
+      pos: 2.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMSeatPassenger
+  entities:
+  - uid: 135
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,6.5
+      parent: 1
+  - uid: 136
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,5.5
+      parent: 1
+  - uid: 137
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,4.5
+      parent: 1
+  - uid: 138
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,0.5
+      parent: 1
+  - uid: 139
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,1.5
+      parent: 1
+  - uid: 140
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,1.5
+      parent: 1
+  - uid: 141
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,2.5
+      parent: 1
+  - uid: 142
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,3.5
+      parent: 1
+  - uid: 143
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,4.5
+      parent: 1
+  - uid: 144
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5,5.5
+      parent: 1
+  - uid: 145
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-5.5
+      parent: 1
+  - uid: 146
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-4.5
+      parent: 1
+  - uid: 147
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-3.5
+      parent: 1
+  - uid: 148
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-2.5
+      parent: 1
+  - uid: 149
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-1.5
+      parent: 1
+  - uid: 150
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-0.5
+      parent: 1
   - uid: 151
     components:
-    - type: MetaData
-      desc: Він не знає яке пекло чекає його..
-      name: Марін з посмішкою
     - type: Transform
-      pos: 4.4646883,0.53806305
-      parent: 2
-- proto: RMCFigurinePatronBites-The-Dust
-  entities:
+      rot: 1.5707963267948966 rad
+      pos: 1.5,1.5
+      parent: 1
+  - uid: 152
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 153
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,3.5
+      parent: 1
+  - uid: 154
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,4.5
+      parent: 1
+  - uid: 155
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 1.5,5.5
+      parent: 1
+  - uid: 156
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,6.5
+      parent: 1
+  - uid: 157
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,5.5
+      parent: 1
+  - uid: 158
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,4.5
+      parent: 1
+  - uid: 159
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,0.5
+      parent: 1
+  - uid: 160
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,1.5
+      parent: 1
+  - uid: 161
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-5.5
+      parent: 1
+  - uid: 162
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-4.5
+      parent: 1
+  - uid: 163
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-3.5
+      parent: 1
+  - uid: 164
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-2.5
+      parent: 1
+  - uid: 165
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-1.5
+      parent: 1
   - uid: 166
     components:
-    - type: MetaData
-      desc: Не схоже, що йому є якесь діло до незадоволеного Воєнполу. Наразі він думає, як взяти ще більш ліків для побратимів.
-      name: Звичайний марін-унатх
     - type: Transform
-      rot: 12.566370614359172 rad
-      pos: 6.6330595,1.6888247
-      parent: 2
-- proto: RMCFigurinePatronBredDahne
+      rot: 1.5707963267948966 rad
+      pos: -1.5,-0.5
+      parent: 1
+- proto: CMSeatPilot
+  entities:
+  - uid: 167
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,8.5
+      parent: 1
+  - uid: 168
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,8.5
+      parent: 1
+- proto: DoorElectronics
+  entities:
+  - uid: 31
+    components:
+    - type: Transform
+      parent: 30
+    - type: Physics
+      canCollide: False
+  - uid: 33
+    components:
+    - type: Transform
+      parent: 32
+    - type: Physics
+      canCollide: False
+  - uid: 35
+    components:
+    - type: Transform
+      parent: 34
+    - type: Physics
+      canCollide: False
+  - uid: 37
+    components:
+    - type: Transform
+      parent: 36
+    - type: Physics
+      canCollide: False
+  - uid: 39
+    components:
+    - type: Transform
+      parent: 38
+    - type: Physics
+      canCollide: False
+  - uid: 41
+    components:
+    - type: Transform
+      parent: 40
+    - type: Physics
+      canCollide: False
+  - uid: 43
+    components:
+    - type: Transform
+      parent: 42
+    - type: Physics
+      canCollide: False
+  - uid: 45
+    components:
+    - type: Transform
+      parent: 44
+    - type: Physics
+      canCollide: False
+- proto: RMCCoatCorrespondentGreen
+  entities:
+  - uid: 169
+    components:
+    - type: Transform
+      pos: 1.5,8.560947
+      parent: 1
+- proto: RMCCrateGearPackFlareCAS
+  entities:
+  - uid: 170
+    components:
+    - type: Transform
+      pos: 0.5,-3.5
+      parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 75.31249
+        moles:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+- proto: RMCCrateGrenadesFrag
+  entities:
+  - uid: 171
+    components:
+    - type: Transform
+      pos: 0.5,-1.5
+      parent: 1
+- proto: RMCCrateMetalSheets
+  entities:
+  - uid: 172
+    components:
+    - type: Transform
+      pos: 0.5,-2.5
+      parent: 1
+- proto: RMCNanoMed
+  entities:
+  - uid: 173
+    components:
+    - type: Transform
+      pos: 3.5,-1.5
+      parent: 1
+  - uid: 174
+    components:
+    - type: Transform
+      pos: -2.5,-1.5
+      parent: 1
+- proto: RMCPackFlareCAS
+  entities:
+  - uid: 175
+    components:
+    - type: Transform
+      pos: -0.65625006,9.420322
+      parent: 1
+- proto: RMCRotaryPhone
   entities:
   - uid: 176
     components:
     - type: MetaData
-      desc: Він забувся взяти побільше ліків.
-      name: Злий Ніан
+      name: шатл Нормандія
     - type: Transform
-      pos: 6.203261,1.5822821
-      parent: 2
-- proto: RMCFigurinePatronDaltonHarris
+      pos: 1.7667038,9.796868
+      parent: 1
+    - type: Physics
+      canCollide: False
+    - type: Fixtures
+      fixtures: {}
+- proto: WarpPoint
   entities:
   - uid: 177
     components:
-    - type: MetaData
-      desc: Він намагається зрозуміти як керувати цією махіною
-      name: Нервуючий Пілот
     - type: Transform
-      pos: 3.4595156,7.5331326
-      parent: 2
-- proto: RMCFigurinePatronIanthaAtikson
-  entities:
-  - uid: 179
-    components:
-    - type: MetaData
-      desc: Намагається рахувати весь вантаж який треба погрузити і вигрузити
-      name: Каргонець з папірцем в руках
-    - type: Transform
-      pos: 2.5127096,-3.6431923
-      parent: 2
-- proto: RMCFigurinePatronLanceVictors
-  entities:
-  - uid: 180
-    components:
-    - type: MetaData
-      desc: 'Він націлився на ніана , його вираз облича неможливо описати словами він занато злий '
-      name: 'Злий Поліцейський Який Тримає Пістлоте '
-    - type: Transform
-      pos: 4.341078,4.6032352
-      parent: 2
-- proto: RMCFigurinePatronRytilPyain
-  entities:
-  - uid: 167
-    components:
-    - type: MetaData
-      desc: Побачив раси які не люди! Іза цього злий!
-      name: 'Злий поліцейський '
-    - type: Transform
-      rot: 12.566370614359172 rad
-      pos: 4.445152,3.7943609
-      parent: 2
-- proto: RMCPackFlareCAS
-  entities:
-  - uid: 168
-    components:
-    - type: Transform
-      rot: 12.566370614359172 rad
-      pos: 2.2336836,7.840805
-      parent: 2
-- proto: RMCVendorBundleMilitaryPoliceApparel
-  entities:
-  - uid: 178
-    components:
-    - type: Transform
-      pos: 4.19271,8.796699
-      parent: 2
+      pos: 0.5,3.5
+      parent: 1
+    - type: WarpPoint
+      location: Нормандія
 ...

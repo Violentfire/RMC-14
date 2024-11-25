@@ -1,63 +1,45 @@
 meta:
   format: 6
-  postmapinit: true
+  postmapinit: false
 tilemap:
   0: Space
-  14: CMFloorCargo
-  13: CMFloorCargoArrowUp
-  12: CMFloorSteelPrisonDarkBrown0
-  6: CMFloorSteelPrisonDarkBrown1
-  10: CMFloorSteelPrisonDarkBrown2
-  2: CMFloorSteelPrisonDarkBrown3
-  9: CMFloorSteelPrisonDarkBrown4
-  1: CMFloorSteelPrisonDarkBrown5
-  11: CMFloorSteelPrisonDarkBrown6
-  3: CMFloorSteelPrisonDarkBrown7
-  8: CMFloorSteelPrisonDarkBrownCorners0
-  4: CMFloorSteelPrisonDarkBrownCorners3
-  5: CMPlanetCorsatPlate
-  7: CMPlanetCorsatSquare
-  883: Plating
+  717: CMShuttleTileRasputin11
+  721: CMShuttleTileRasputin15
+  723: CMShuttleTileRasputin3
+  724: CMShuttleTileRasputin4
+  725: CMShuttleTileRasputin5
+  726: CMShuttleTileRasputin6
+  727: CMShuttleTileRasputin7
+  728: CMShuttleTileRasputin8
+  858: Plating
+  1: RMCFloorEmpty
 entities:
 - proto: ""
   entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Map Entity
+      name: ПШП-25 "Аламо"
     - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: PhysicsMap
-    - type: GridTree
-    - type: MovedGrids
-    - type: Broadphase
-    - type: OccluderTree
-    - type: LoadedMap
-  - uid: 2
-    components:
-    - type: MetaData
-      name: Alamo
-    - type: Transform
-      pos: -0.099534035,-0.6300087
-      parent: 1
+      pos: -0.5010788,-1.4348177
+      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
           ind: 0,0
-          tiles: AQAAAAAABAAAAAAABQAAAAAAcwMAAAAABQAAAAAACAAAAAAACQAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAACgAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAACgAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABQAAAAAABQAAAAAAcwMAAAAABQAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAABgAAAAAABgAAAAAABgAAAAAABgAAAAAABgAAAAAACwAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAABwAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAABwAAAAAABwAAAAAABwAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAABwAAAAAABwAAAAAABwAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
-        0,-1:
-          ind: 0,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAQAAAAAADAAAAAAADAAAAAAADAAAAAAACQAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAgAAAAAABQAAAAAADQAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAgAAAAAABQAAAAAADgAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAgAAAAAABQAAAAAADgAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAgAAAAAABQAAAAAADgAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAgAAAAAABQAAAAAADgAAAAAABQAAAAAACgAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
-        -1,-1:
-          ind: -1,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAA
+          tiles: 1QIAAAAA1QIAAAAA2AIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAA1QIAAAAA1wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
           version: 6
         -1,0:
           ind: -1,0
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA1AIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA1gIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        0,-1:
+          ind: 0,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAAzQIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          version: 6
+        -1,-1:
+          ind: -1,-1
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAzQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA
           version: 6
     - type: Broadphase
     - type: Physics
@@ -70,6 +52,7 @@ entities:
       fixtures: {}
     - type: OccluderTree
     - type: SpreaderGrid
+      updateAccumulator: 0.067976
     - type: Shuttle
     - type: GridPathfinding
     - type: Gravity
@@ -82,1078 +65,5295 @@ entities:
     - type: GridAtmosphere
       version: 2
       data:
+        tiles:
+          0,0:
+            0: 61167
+          0,1:
+            0: 8174
+          0,2:
+            0: 51
+            1: 34944
+          1,0:
+            0: 4352
+            1: 8738
+          -1,0:
+            0: 65518
+          -1,1:
+            0: 3822
+          -1,2:
+            0: 136
+            1: 8752
+          0,-2:
+            0: 30512
+            1: 11
+          0,-1:
+            0: 30583
+          -1,-2:
+            0: 52352
+            1: 27
+          -1,-1:
+            0: 52428
+            1: 256
+          0,3:
+            1: 7
+          1,1:
+            1: 9284
+          1,2:
+            1: 18
+          -2,0:
+            1: 34952
+          -2,1:
+            1: 33860
+          -2,2:
+            1: 8
+          -1,3:
+            1: 12
+          0,-3:
+            1: 11264
+          1,-2:
+            1: 17457
+          1,-1:
+            1: 9028
+          1,-3:
+            1: 8448
+          -2,-2:
+            1: 17536
+          -2,-1:
+            1: 34884
+          -1,-3:
+            1: 34560
+          -2,-3:
+            1: 32768
+        uniqueMixes:
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          immutable: True
+          moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-- proto: AcousticGuitarInstrument
+    - type: Dropship
+      crashWarningSound: !type:SoundPathSpecifier
+        params:
+          volume: -5
+        path: /Audio/_RMC14/Announcements/ARES/dropship_emergency.ogg
+      attachmentPoints:
+      - 73
+      - 76
+      - 96
+      - 95
+      marineHijackSound: !type:SoundPathSpecifier
+        params:
+          volume: -5
+        path: /Audio/_RMC14/Announcements/ARES/hijack.ogg
+      localHijackSound: !type:SoundPathSpecifier
+        path: /Audio/_RMC14/Machines/Shuttle/queen_alarm.ogg
+    - type: NavMap
+- proto: AtmosDeviceFanTiny
   entities:
-  - uid: 166
+  - uid: 2
     components:
     - type: Transform
-      pos: 0.47827578,5.42894
-      parent: 2
-  - uid: 168
-    components:
-    - type: Transform
-      pos: 0.47827578,5.42894
-      parent: 2
-- proto: ChairPilotSeat
-  entities:
+      pos: -0.5,-6.5
+      parent: 1
   - uid: 3
     components:
     - type: Transform
-      pos: 6.5,5.5
-      parent: 2
+      pos: 1.5,-6.5
+      parent: 1
   - uid: 4
     components:
     - type: Transform
-      pos: 6.5,4.5
-      parent: 2
+      pos: 0.5,-6.5
+      parent: 1
   - uid: 5
     components:
     - type: Transform
-      pos: 6.5,3.5
-      parent: 2
+      pos: 4.5,2.5
+      parent: 1
   - uid: 6
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,0.5
-      parent: 2
+      pos: 4.5,3.5
+      parent: 1
   - uid: 7
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-0.5
-      parent: 2
+      pos: -3.5,3.5
+      parent: 1
   - uid: 8
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-1.5
-      parent: 2
+      pos: -3.5,2.5
+      parent: 1
+- proto: CMAlamoCockpit
+  entities:
   - uid: 9
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-2.5
-      parent: 2
-  - uid: 10
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-3.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 0.5,7.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 333F-2738
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 10
+    - type: DoorBolt
+      powered: True
+- proto: CMAlamoDoor
+  entities:
   - uid: 11
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-4.5
-      parent: 2
-  - uid: 12
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-5.5
-      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 4.5,2.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 7138-5989
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 12
+    - type: DoorBolt
+      powered: True
   - uid: 13
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 5.5,-0.5
-      parent: 2
-  - uid: 14
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-1.5
-      parent: 2
+      pos: 4.5,3.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 4B1B-257C
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 14
+    - type: DoorBolt
+      powered: True
   - uid: 15
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 5.5,-2.5
-      parent: 2
-  - uid: 16
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-3.5
-      parent: 2
+      pos: -3.5,2.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 2B41-7C87
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 16
+    - type: DoorBolt
+      powered: True
   - uid: 17
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 5.5,-4.5
-      parent: 2
-  - uid: 18
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 6.5,0.5
-      parent: 2
+      pos: -3.5,3.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 1460-0317
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 18
+    - type: DoorBolt
+      powered: True
   - uid: 19
     components:
     - type: Transform
-      pos: 0.5,5.5
-      parent: 2
-  - uid: 20
-    components:
-    - type: Transform
-      pos: 0.5,4.5
-      parent: 2
+      pos: 0.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 55EE-9366
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 20
+    - type: DoorBolt
+      powered: True
   - uid: 21
     components:
     - type: Transform
-      pos: 0.5,3.5
-      parent: 2
-  - uid: 22
-    components:
-    - type: Transform
-      pos: 1.5,5.5
-      parent: 2
+      pos: -0.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 2510-B225
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 22
+    - type: DoorBolt
+      powered: True
   - uid: 23
     components:
     - type: Transform
-      pos: 1.5,4.5
-      parent: 2
-  - uid: 24
-    components:
-    - type: Transform
-      pos: 1.5,3.5
-      parent: 2
+      pos: 1.5,-6.5
+      parent: 1
+    - type: DeviceNetwork
+      address: 3F67-CB24
+      receiveFrequency: 1280
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.49,-0.49
+            - 0.49,-0.49
+            - 0.49,0.49
+            - -0.49,0.49
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - TableLayer
+          - HighImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 100
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 24
+    - type: DoorBolt
+      powered: True
+- proto: CMAlamoWall1
+  entities:
   - uid: 25
     components:
     - type: Transform
-      pos: 5.5,5.5
-      parent: 2
+      pos: -3.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall100
+  entities:
   - uid: 26
     components:
     - type: Transform
-      pos: 5.5,4.5
-      parent: 2
+      pos: -1.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall101
+  entities:
   - uid: 27
     components:
     - type: Transform
-      pos: 5.5,3.5
-      parent: 2
+      pos: -0.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 28
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-5.5
-      parent: 2
+      pos: 0.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 29
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,0.5
-      parent: 2
+      pos: 1.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall102
+  entities:
   - uid: 30
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,0.5
-      parent: 2
-- proto: CMAlamoCockpit
+      pos: 2.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall14
   entities:
   - uid: 31
     components:
     - type: Transform
-      pos: 3.5,6.5
-      parent: 2
-- proto: CMAlamoDoor
-  entities:
+      pos: -1.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 32
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5,2.5
-      parent: 2
+      pos: 2.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall2
+  entities:
   - uid: 33
     components:
     - type: Transform
-      pos: 4.5,-6.5
-      parent: 2
-    - type: Door
-      secondsUntilStateChange: -7422.5503
-      state: Opening
-    - type: DeviceLinkSource
-      lastSignals:
-        DoorStatus: True
+      pos: -2.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall20
+  entities:
   - uid: 34
     components:
     - type: Transform
-      pos: 3.5,-6.5
-      parent: 2
+      pos: -4.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 35
     components:
     - type: Transform
-      pos: 2.5,-6.5
-      parent: 2
+      pos: 4.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall21
+  entities:
   - uid: 36
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,2.5
-      parent: 2
+      pos: 5.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 37
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,1.5
-      parent: 2
+      pos: -3.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall22
+  entities:
   - uid: 38
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5,1.5
-      parent: 2
-- proto: CMAlamoWall1
+      pos: -4.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall23
   entities:
   - uid: 39
     components:
     - type: Transform
-      pos: -0.5,-8.5
-      parent: 2
-- proto: CMAlamoWall100
+      pos: -3.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall24
   entities:
   - uid: 40
     components:
     - type: Transform
-      pos: 1.5,10.5
-      parent: 2
-- proto: CMAlamoWall101
+      pos: -2.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall25
   entities:
   - uid: 41
     components:
     - type: Transform
-      pos: 2.5,10.5
-      parent: 2
+      pos: 3.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall26
+  entities:
   - uid: 42
     components:
     - type: Transform
-      pos: 3.5,10.5
-      parent: 2
+      pos: 4.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall27
+  entities:
   - uid: 43
     components:
     - type: Transform
-      pos: 4.5,10.5
-      parent: 2
-- proto: CMAlamoWall102
+      pos: 5.5,-4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall28
   entities:
   - uid: 44
     components:
     - type: Transform
-      pos: 5.5,10.5
-      parent: 2
-- proto: CMAlamoWall14
+      pos: -4.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall29
   entities:
   - uid: 45
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,6.5
-      parent: 2
+      pos: -3.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall3
+  entities:
   - uid: 46
     components:
     - type: Transform
-      pos: 1.5,-6.5
-      parent: 2
+      pos: -1.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall30
+  entities:
   - uid: 47
     components:
     - type: Transform
-      pos: 5.5,-6.5
-      parent: 2
-- proto: CMAlamoWall15
+      pos: -2.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall31
   entities:
   - uid: 48
     components:
     - type: Transform
-      pos: 6.5,-6.5
-      parent: 2
+      pos: 3.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall32
+  entities:
   - uid: 49
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 0.5,-6.5
-      parent: 2
-- proto: CMAlamoWall18
+      pos: 4.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall33
   entities:
   - uid: 50
     components:
     - type: Transform
-      pos: 0.5,-4.5
-      parent: 2
-- proto: CMAlamoWall19
+      pos: 5.5,-3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall34
   entities:
   - uid: 51
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-5.5
-      parent: 2
+      pos: -4.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall35
+  entities:
   - uid: 52
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-2.5
-      parent: 2
+      pos: -3.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall37
+  entities:
   - uid: 53
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,-1.5
-      parent: 2
+      pos: 3.5,-1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 54
     components:
     - type: Transform
-      pos: 6.5,-1.5
-      parent: 2
+      pos: 3.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 55
     components:
     - type: Transform
-      pos: 6.5,-2.5
-      parent: 2
+      pos: 3.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall38
+  entities:
   - uid: 56
     components:
     - type: Transform
-      pos: 6.5,-4.5
-      parent: 2
+      pos: 4.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall39
+  entities:
   - uid: 57
     components:
     - type: Transform
-      pos: 6.5,-5.5
-      parent: 2
-- proto: CMAlamoWall2
+      pos: 5.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall4
   entities:
   - uid: 58
     components:
     - type: Transform
-      pos: 0.5,-8.5
-      parent: 2
-- proto: CMAlamoWall20
+      pos: 2.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall46
   entities:
   - uid: 59
     components:
     - type: Transform
-      pos: -1.5,-5.5
-      parent: 2
+      pos: -3.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall47
+  entities:
   - uid: 60
     components:
     - type: Transform
-      pos: 7.5,-5.5
-      parent: 2
-- proto: CMAlamoWall21
+      pos: -2.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall48
   entities:
   - uid: 61
     components:
     - type: Transform
-      pos: -0.5,-5.5
-      parent: 2
+      pos: 3.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall49
+  entities:
   - uid: 62
     components:
     - type: Transform
-      pos: 8.5,-5.5
-      parent: 2
-- proto: CMAlamoWall22
-  entities:
+      pos: 4.5,-0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 63
     components:
     - type: Transform
-      pos: -1.5,-4.5
-      parent: 2
+      pos: 3.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall5
+  entities:
   - uid: 64
     components:
     - type: Transform
-      pos: 7.5,-4.5
-      parent: 2
-- proto: CMAlamoWall23
+      pos: 3.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall50
   entities:
   - uid: 65
     components:
     - type: Transform
-      pos: -0.5,-4.5
-      parent: 2
-- proto: CMAlamoWall27
-  entities:
+      pos: -3.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 66
     components:
     - type: Transform
-      pos: 8.5,-4.5
-      parent: 2
-- proto: CMAlamoWall28
-  entities:
+      pos: -2.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 67
     components:
     - type: Transform
-      pos: -1.5,-3.5
-      parent: 2
-- proto: CMAlamoWall29
-  entities:
+      pos: -3.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 68
     components:
     - type: Transform
-      pos: -0.5,-3.5
-      parent: 2
-- proto: CMAlamoWall30
-  entities:
+      pos: -2.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 69
     components:
     - type: Transform
-      pos: 0.5,-3.5
-      parent: 2
-- proto: CMAlamoWall31
+      pos: -2.5,-1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall51
   entities:
   - uid: 70
     components:
     - type: Transform
-      pos: 6.5,-3.5
-      parent: 2
-- proto: CMAlamoWall32
-  entities:
+      pos: 4.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 71
     components:
     - type: Transform
-      pos: 7.5,-3.5
-      parent: 2
-- proto: CMAlamoWall33
+      pos: 4.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall6
   entities:
   - uid: 72
     components:
     - type: Transform
-      pos: 8.5,-3.5
-      parent: 2
-- proto: CMAlamoWall35
+      pos: 4.5,-8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall61
   entities:
   - uid: 73
     components:
     - type: Transform
-      pos: -0.5,-2.5
-      parent: 2
-- proto: CMAlamoWall38
+      pos: -4.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall62
   entities:
   - uid: 74
     components:
     - type: Transform
-      pos: -1.5,-2.5
-      parent: 2
+      pos: -3.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall64
+  entities:
   - uid: 75
     components:
     - type: Transform
-      pos: 7.5,-2.5
-      parent: 2
-- proto: CMAlamoWall39
+      pos: 4.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall65
   entities:
   - uid: 76
     components:
     - type: Transform
-      pos: 8.5,-2.5
-      parent: 2
-- proto: CMAlamoWall40
+      pos: 5.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall66
   entities:
   - uid: 77
     components:
     - type: Transform
-      pos: -1.5,-1.5
-      parent: 2
-- proto: CMAlamoWall41
+      pos: -4.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall67
   entities:
   - uid: 78
     components:
     - type: Transform
-      pos: -0.5,-1.5
-      parent: 2
-- proto: CMAlamoWall42
+      pos: -3.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall69
   entities:
   - uid: 79
     components:
     - type: Transform
-      pos: -0.5,0.5
-      parent: 2
-- proto: CMAlamoWall43
+      pos: 4.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall7
   entities:
   - uid: 80
     components:
     - type: Transform
-      pos: 7.5,0.5
-      parent: 2
-- proto: CMAlamoWall44
+      pos: -1.5,-7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall70
   entities:
   - uid: 81
     components:
     - type: Transform
-      pos: 7.5,-1.5
-      parent: 2
-- proto: CMAlamoWall45
+      pos: 5.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall71
   entities:
   - uid: 82
     components:
     - type: Transform
-      pos: 8.5,-1.5
-      parent: 2
-- proto: CMAlamoWall46
+      pos: -4.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall72
   entities:
   - uid: 83
     components:
     - type: Transform
-      pos: -0.5,-0.5
-      parent: 2
+      pos: -3.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall73
+  entities:
   - uid: 84
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 7.5,-0.5
-      parent: 2
-- proto: CMAlamoWall47
+      pos: 4.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall74
   entities:
   - uid: 85
     components:
     - type: Transform
-      pos: 0.5,-0.5
-      parent: 2
-- proto: CMAlamoWall48
+      pos: 5.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall75
   entities:
   - uid: 86
     components:
     - type: Transform
-      pos: 6.5,-0.5
-      parent: 2
-- proto: CMAlamoWall5
+      pos: -3.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall77
   entities:
   - uid: 87
     components:
     - type: Transform
-      pos: 6.5,-8.5
-      parent: 2
-- proto: CMAlamoWall53
+      pos: -1.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall8
   entities:
   - uid: 88
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,4.5
-      parent: 2
+      pos: 2.5,-7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall80
+  entities:
   - uid: 89
     components:
     - type: Transform
-      pos: 3.5,0.5
-      parent: 2
-- proto: CMAlamoWall56
-  entities:
+      pos: -0.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 90
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,3.5
-      parent: 2
+      pos: 1.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall81
+  entities:
   - uid: 91
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,1.5
-      parent: 2
+      pos: 2.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall82
+  entities:
   - uid: 92
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,2.5
-      parent: 2
-- proto: CMAlamoWall6
-  entities:
+      pos: 3.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 93
     components:
     - type: Transform
-      pos: 7.5,-8.5
-      parent: 2
-- proto: CMAlamoWall62
+      pos: -2.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall83
   entities:
   - uid: 94
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 7.5,5.5
-      parent: 2
+      pos: 4.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall84
+  entities:
   - uid: 95
     components:
     - type: Transform
-      pos: -0.5,3.5
-      parent: 2
-- proto: CMAlamoWall64
+      pos: -3.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall84Flipped
   entities:
   - uid: 96
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,5.5
-      parent: 2
+      pos: 4.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall85
+  entities:
   - uid: 97
     components:
     - type: Transform
-      pos: 7.5,3.5
-      parent: 2
-- proto: CMAlamoWall66
+      pos: -2.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall85Flipped
   entities:
   - uid: 98
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,4.5
-      parent: 2
-- proto: CMAlamoWall69
+      pos: 3.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall86
   entities:
   - uid: 99
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,4.5
-      parent: 2
+      pos: -1.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall89
+  entities:
   - uid: 100
     components:
     - type: Transform
-      pos: 7.5,4.5
-      parent: 2
-- proto: CMAlamoWall7
+      pos: 2.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall9
   entities:
   - uid: 101
     components:
     - type: Transform
-      pos: 1.5,-7.5
-      parent: 2
-- proto: CMAlamoWall70
+      pos: -2.5,-6.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall92
   entities:
   - uid: 102
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,4.5
-      parent: 2
-- proto: CMAlamoWall71
+      pos: -1.5,9.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall94
   entities:
   - uid: 103
     components:
     - type: Transform
-      pos: -1.5,5.5
-      parent: 2
+      pos: 2.5,9.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall95
+  entities:
   - uid: 104
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 8.5,3.5
-      parent: 2
-- proto: CMAlamoWall74
+      pos: -1.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall96
   entities:
   - uid: 105
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,3.5
-      parent: 2
+      pos: -0.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall97
+  entities:
   - uid: 106
     components:
     - type: Transform
-      pos: 8.5,5.5
-      parent: 2
-- proto: CMAlamoWall75
+      pos: 0.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall98
   entities:
   - uid: 107
     components:
     - type: Transform
-      pos: -0.5,6.5
-      parent: 2
+      pos: 1.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMAlamoWall99
+  entities:
   - uid: 108
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 7.5,6.5
-      parent: 2
-- proto: CMAlamoWall76
+      pos: 2.5,10.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMArmorHelmetM30
   entities:
   - uid: 109
     components:
     - type: Transform
-      pos: 6.5,6.5
-      parent: 2
-- proto: CMAlamoWall78
+      pos: -0.07326609,9.760518
+      parent: 1
+- proto: CMComputerDropshipCamerasAlamo
   entities:
   - uid: 110
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,6.5
-      parent: 2
+      pos: -0.5,9.5
+      parent: 1
+- proto: CMComputerDropshipNavigation
+  entities:
   - uid: 111
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,6.5
-      parent: 2
-- proto: CMAlamoWall8
+      pos: 0.5,9.5
+      parent: 1
+    - type: AccessReader
+      accessLog:
+      - accessor: Невідомий
+        accessTime: 86.8999131
+- proto: CMComputerDropshipWeapons
   entities:
   - uid: 112
     components:
     - type: Transform
-      pos: 5.5,-8.5
-      parent: 2
+      pos: 1.5,9.5
+      parent: 1
+- proto: CMDrinkCanBobdaClassicDiet
+  entities:
   - uid: 113
     components:
     - type: Transform
-      pos: 5.5,-7.5
-      parent: 2
+      pos: -0.6357661,8.728763
+      parent: 1
   - uid: 114
     components:
     - type: Transform
-      pos: 1.5,-8.5
-      parent: 2
-- proto: CMAlamoWall81
+      pos: -0.3857661,8.494388
+      parent: 1
+- proto: CMLightFixtureAlwaysPowered
   entities:
   - uid: 115
     components:
     - type: Transform
-      pos: 5.5,6.5
-      parent: 2
-- proto: CMAlamoWall82
-  entities:
+      rot: -1.5707963267948966 rad
+      pos: -1.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 116
     components:
     - type: Transform
-      pos: 0.5,6.5
-      parent: 2
-- proto: CMAlamoWall84
-  entities:
+      rot: 1.5707963267948966 rad
+      pos: 2.5,-2.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 117
     components:
     - type: Transform
-      pos: -0.5,7.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 0.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 118
     components:
     - type: Transform
-      pos: 6.5,7.5
-      parent: 2
-- proto: CMAlamoWall85
-  entities:
+      rot: 3.141592653589793 rad
+      pos: 3.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 119
     components:
     - type: Transform
-      pos: 7.5,7.5
-      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -2.5,6.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 120
     components:
     - type: Transform
-      pos: 0.5,7.5
-      parent: 2
-- proto: CMAlamoWall86
-  entities:
+      pos: -2.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 121
     components:
     - type: Transform
-      pos: 1.5,7.5
-      parent: 2
-- proto: CMAlamoWall89
-  entities:
+      pos: 2.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 122
     components:
     - type: Transform
-      pos: 5.5,7.5
-      parent: 2
-- proto: CMAlamoWall94
-  entities:
+      pos: -1.5,-5.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 123
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,8.5
-      parent: 2
+      pos: 3.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 124
     components:
     - type: Transform
-      pos: 5.5,8.5
-      parent: 2
-- proto: CMAlamoWall95
-  entities:
+      rot: -1.5707963267948966 rad
+      pos: 1.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 125
     components:
     - type: Transform
-      pos: 1.5,9.5
-      parent: 2
-- proto: CMAlamoWall96
+      rot: 1.5707963267948966 rad
+      pos: -0.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: CMLightFixtureSmallAlwaysPowered
   entities:
   - uid: 126
     components:
     - type: Transform
-      pos: 2.5,9.5
-      parent: 2
-- proto: CMAlamoWall97
-  entities:
+      pos: 1.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 127
     components:
     - type: Transform
-      pos: 3.5,9.5
-      parent: 2
-- proto: CMAlamoWall98
+      pos: -0.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: CMNormandyWall53
   entities:
   - uid: 128
     components:
     - type: Transform
-      pos: 4.5,9.5
-      parent: 2
-- proto: CMAlamoWall99
+      pos: 0.5,1.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall63
   entities:
   - uid: 129
     components:
     - type: Transform
-      pos: 5.5,9.5
-      parent: 2
-- proto: CMArmorHelmetM30
-  entities:
+      pos: 0.5,2.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 130
     components:
     - type: Transform
-      pos: 2.8727603,8.847239
-      parent: 2
-- proto: CMComputerDropshipCamerasAlamo
-  entities:
+      pos: 0.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
   - uid: 131
     components:
     - type: Transform
-      pos: 2.5,8.5
-      parent: 2
-- proto: CMComputerDropshipNavigation
+      pos: 0.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMNormandyWall68
   entities:
   - uid: 132
     components:
     - type: Transform
-      pos: 3.5,8.5
-      parent: 2
-- proto: CMComputerDropshipWeapons
+      pos: 0.5,5.5
+      parent: 1
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.5,-0.5
+            - 0.5,-0.5
+            - 0.5,0.5
+            - -0.5,0.5
+          mask:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - InteractImpassable
+          layer:
+          - Impassable
+          - TableLayer
+          - HighImpassable
+          - LowImpassable
+          - BulletImpassable
+          - InteractImpassable
+          - Opaque
+          density: 1000
+          hard: True
+          restitution: 0
+          friction: 0.4
+        rmc_dropship_blocked:
+          shape: !type:PhysShapeCircle
+            radius: 0.49
+            position: 0,0
+          mask:
+          - DropshipImpassable
+          layer: []
+          density: 1
+          hard: True
+          restitution: 0
+          friction: 0.4
+- proto: CMPackFlare
   entities:
   - uid: 133
     components:
     - type: Transform
-      pos: 4.5,8.5
-      parent: 2
-- proto: CMLightFixtureAlwaysPowered
+      pos: -0.5436843,9.626008
+      parent: 1
+- proto: CMSeatPassenger
   entities:
   - uid: 134
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,5.5
-      parent: 2
+      pos: 2.2219377,-2.5
+      parent: 1
   - uid: 135
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 1.5,5.5
-      parent: 2
+      pos: 3.698683,1.5
+      parent: 1
   - uid: 136
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,-2.5
-      parent: 2
+      pos: 3.2449794,0.5
+      parent: 1
   - uid: 137
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 5.5,-2.5
-      parent: 2
+      pos: 3.6894238,0.5
+      parent: 1
   - uid: 138
     components:
     - type: Transform
-      pos: 6.5,0.5
-      parent: 2
+      pos: 2.2250783,-5.5
+      parent: 1
   - uid: 139
     components:
     - type: Transform
-      pos: 0.5,0.5
-      parent: 2
+      pos: 2.70656,-5.5
+      parent: 1
   - uid: 140
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,-0.5
-      parent: 2
+      pos: 2.2204487,-4.5
+      parent: 1
   - uid: 141
     components:
     - type: Transform
-      pos: 3.5,5.5
-      parent: 2
-- proto: CMLightFixtureSmallAlwaysPowered
-  entities:
+      pos: 2.69416,-2.5
+      parent: 1
   - uid: 142
     components:
     - type: Transform
-      pos: 2.5,7.5
-      parent: 2
-- proto: CMMREComponentSpaghettiChunks
-  entities:
+      pos: 2.2311969,-1.5
+      parent: 1
   - uid: 143
     components:
     - type: Transform
-      pos: 4.6455307,8.54542
-      parent: 2
-- proto: CMRandomPosterAny
-  entities:
+      pos: 2.69416,-1.5
+      parent: 1
   - uid: 144
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 7.5,3.5
-      parent: 2
+      pos: 2.6979876,-0.5
+      parent: 1
   - uid: 145
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,6.5
-      parent: 2
-- proto: CMSeatPilot
-  entities:
+      pos: 2.2287118,-0.5
+      parent: 1
   - uid: 146
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,7.5
-      parent: 2
+      pos: 2.2250783,-3.5
+      parent: 1
   - uid: 147
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,7.5
-      parent: 2
-- proto: DrinkAleBottleFull
-  entities:
+      pos: 2.692671,-3.5
+      parent: 1
   - uid: 148
     components:
     - type: Transform
-      pos: 4.7227564,7.737863
-      parent: 2
-- proto: DrinkBeerBottleFull
-  entities:
+      pos: 3.2310905,1.5
+      parent: 1
   - uid: 149
     components:
     - type: Transform
-      pos: 4.9258814,7.612863
-      parent: 2
-- proto: RandomPosterAny
-  entities:
+      pos: 3.7079422,4.5
+      parent: 1
   - uid: 150
     components:
     - type: Transform
-      pos: 6.5,-3.5
-      parent: 2
+      pos: 3.226461,4.5
+      parent: 1
   - uid: 151
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -0.5,4.5
-      parent: 2
-- proto: RandomSpawner
-  entities:
+      pos: 3.7125719,5.5
+      parent: 1
   - uid: 152
     components:
     - type: Transform
-      pos: 6.5,2.5
-      parent: 2
+      pos: 2.70656,-4.5
+      parent: 1
   - uid: 153
     components:
     - type: Transform
-      pos: 1.5,1.5
-      parent: 2
+      pos: 3.221831,5.5
+      parent: 1
   - uid: 154
     components:
     - type: Transform
-      pos: 3.5,5.5
-      parent: 2
+      pos: 3.6894238,6.5
+      parent: 1
   - uid: 155
     components:
     - type: Transform
-      pos: 4.5,-4.5
-      parent: 2
+      pos: 3.226461,6.5
+      parent: 1
   - uid: 156
     components:
     - type: Transform
-      pos: 2.5,-0.5
-      parent: 2
-- proto: RMCAreaShuttleDrop1LV624
-  entities:
+      pos: -2.6779685,6.5
+      parent: 1
   - uid: 157
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.5,3.5
-      parent: 2
-- proto: RMCCoatCorrespondentGreen
-  entities:
+      pos: -2.2057464,6.5
+      parent: 1
   - uid: 158
     components:
     - type: Transform
-      pos: 2.4665103,7.534738
-      parent: 2
-- proto: RMCCrateGrenadesHighExplosive
-  entities:
+      pos: -2.6779685,5.5
+      parent: 1
   - uid: 159
     components:
     - type: Transform
-      pos: 3.5,-3.5
-      parent: 2
-- proto: RMCCrateMetalSheets
-  entities:
+      pos: -2.1918573,5.5
+      parent: 1
   - uid: 160
     components:
     - type: Transform
-      pos: 3.5,-0.5
-      parent: 2
-- proto: RMCCratePlasteelSheets
-  entities:
+      pos: -2.682598,4.5
+      parent: 1
   - uid: 161
     components:
     - type: Transform
-      pos: 3.5,-1.5
-      parent: 2
-- proto: RMCCrateRestrictedEquipmentArmorM4
-  entities:
+      pos: -2.1918573,4.5
+      parent: 1
   - uid: 162
     components:
     - type: Transform
-      pos: 3.5,-2.5
-      parent: 2
-- proto: RMCFigurinePatronBites-The-Dust
-  entities:
+      pos: -2.6641526,1.5
+      parent: 1
   - uid: 163
     components:
-    - type: MetaData
-      desc: Не схоже, що йому є якесь діло до незадоволеного Воєнполу. Наразі він думає, як взяти ще більш ліків для побратимів.
-      name: Звичайний марін-унатх
     - type: Transform
-      pos: 4.422054,2.229072
-      parent: 2
-- proto: RMCFigurinePatronBredDahne
-  entities:
-  - uid: 167
-    components:
-    - type: MetaData
-      desc: Бігає за медиком. Схоже допомогає тому з підготуванями
-      name: Звичайний марін-ніан
-    - type: Transform
-      pos: 4.943284,2.1768837
-      parent: 2
-- proto: RMCFigurinePatronRytilPyain
-  entities:
+      pos: -2.1873007,1.5
+      parent: 1
   - uid: 164
     components:
-    - type: MetaData
-      desc: Побачив раси які не люди! Іза цього злий!
-      name: 'Злий поліцейський '
     - type: Transform
-      pos: 4.405304,4.3058248
-      parent: 2
-- proto: RMCPackFlareCAS
-  entities:
+      pos: -2.6873007,0.5
+      parent: 1
   - uid: 165
     components:
     - type: Transform
-      pos: 2.086461,8.360058
-      parent: 2
+      pos: -2.2197082,0.5
+      parent: 1
+  - uid: 166
+    components:
+    - type: Transform
+      pos: -1.686923,-0.5
+      parent: 1
+  - uid: 167
+    components:
+    - type: Transform
+      pos: -1.2008119,-0.5
+      parent: 1
+  - uid: 168
+    components:
+    - type: Transform
+      pos: -1.6637747,-1.5
+      parent: 1
+  - uid: 169
+    components:
+    - type: Transform
+      pos: -1.1915526,-1.5
+      parent: 1
+  - uid: 170
+    components:
+    - type: Transform
+      pos: -1.673034,-2.5
+      parent: 1
+  - uid: 171
+    components:
+    - type: Transform
+      pos: -1.2147007,-2.5
+      parent: 1
+  - uid: 172
+    components:
+    - type: Transform
+      pos: -1.673034,-3.5
+      parent: 1
+  - uid: 173
+    components:
+    - type: Transform
+      pos: -1.2008119,-3.5
+      parent: 1
+  - uid: 174
+    components:
+    - type: Transform
+      pos: -1.673034,-4.5
+      parent: 1
+  - uid: 175
+    components:
+    - type: Transform
+      pos: -1.1915526,-4.5
+      parent: 1
+  - uid: 176
+    components:
+    - type: Transform
+      pos: -1.6776636,-5.5
+      parent: 1
+  - uid: 177
+    components:
+    - type: Transform
+      pos: -1.1822934,-5.5
+      parent: 1
+  - uid: 178
+    components:
+    - type: Transform
+      pos: 1.8143375,5.5
+      parent: 1
+  - uid: 179
+    components:
+    - type: Transform
+      pos: 1.8189671,4.5
+      parent: 1
+  - uid: 180
+    components:
+    - type: Transform
+      pos: 1.8189671,3.5
+      parent: 1
+  - uid: 181
+    components:
+    - type: Transform
+      pos: 1.8189671,2.5
+      parent: 1
+  - uid: 182
+    components:
+    - type: Transform
+      pos: 1.8189671,1.5
+      parent: 1
+  - uid: 183
+    components:
+    - type: Transform
+      pos: 1.3198621,1.5
+      parent: 1
+  - uid: 184
+    components:
+    - type: Transform
+      pos: 1.3198621,2.5
+      parent: 1
+  - uid: 185
+    components:
+    - type: Transform
+      pos: 1.3198621,3.5
+      parent: 1
+  - uid: 186
+    components:
+    - type: Transform
+      pos: 1.3198621,4.5
+      parent: 1
+  - uid: 187
+    components:
+    - type: Transform
+      pos: 1.3198621,5.5
+      parent: 1
+  - uid: 188
+    components:
+    - type: Transform
+      pos: -0.75867635,5.5
+      parent: 1
+  - uid: 189
+    components:
+    - type: Transform
+      pos: -0.75867635,4.5
+      parent: 1
+  - uid: 190
+    components:
+    - type: Transform
+      pos: -0.75867635,3.5
+      parent: 1
+  - uid: 191
+    components:
+    - type: Transform
+      pos: -0.28784305,5.5
+      parent: 1
+  - uid: 192
+    components:
+    - type: Transform
+      pos: -0.7494171,1.5
+      parent: 1
+  - uid: 193
+    components:
+    - type: Transform
+      pos: -0.75867635,2.5
+      parent: 1
+  - uid: 194
+    components:
+    - type: Transform
+      pos: -0.28784305,4.5
+      parent: 1
+  - uid: 195
+    components:
+    - type: Transform
+      pos: -0.28784305,3.5
+      parent: 1
+  - uid: 196
+    components:
+    - type: Transform
+      pos: -0.28784305,2.5
+      parent: 1
+  - uid: 197
+    components:
+    - type: Transform
+      pos: -0.28784305,1.5
+      parent: 1
+- proto: CMSeatPilot
+  entities:
+  - uid: 198
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,8.5
+      parent: 1
+  - uid: 199
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,8.5
+      parent: 1
+- proto: DoorElectronics
+  entities:
+  - uid: 10
+    components:
+    - type: Transform
+      parent: 9
+    - type: Physics
+      canCollide: False
+  - uid: 12
+    components:
+    - type: Transform
+      parent: 11
+    - type: Physics
+      canCollide: False
+  - uid: 14
+    components:
+    - type: Transform
+      parent: 13
+    - type: Physics
+      canCollide: False
+  - uid: 16
+    components:
+    - type: Transform
+      parent: 15
+    - type: Physics
+      canCollide: False
+  - uid: 18
+    components:
+    - type: Transform
+      parent: 17
+    - type: Physics
+      canCollide: False
+  - uid: 20
+    components:
+    - type: Transform
+      parent: 19
+    - type: Physics
+      canCollide: False
+  - uid: 22
+    components:
+    - type: Transform
+      parent: 21
+    - type: Physics
+      canCollide: False
+  - uid: 24
+    components:
+    - type: Transform
+      parent: 23
+    - type: Physics
+      canCollide: False
+- proto: RMCCoatCorrespondent
+  entities:
+  - uid: 200
+    components:
+    - type: Transform
+      pos: 1.4999415,8.551203
+      parent: 1
+- proto: RMCCrateFoodMRE
+  entities:
+  - uid: 201
+    components:
+    - type: Transform
+      pos: 0.5,-3.5
+      parent: 1
+- proto: RMCCrateGrenadesSmoke
+  entities:
+  - uid: 202
+    components:
+    - type: Transform
+      pos: 0.5,-1.5
+      parent: 1
+- proto: RMCCrateMetalSheets
+  entities:
+  - uid: 203
+    components:
+    - type: Transform
+      pos: 0.5,-2.5
+      parent: 1
+- proto: RMCDropshipDoorBlocker
+  entities:
+  - uid: 204
+    components:
+    - type: Transform
+      pos: 0.5,7.5
+      parent: 1
+  - uid: 205
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 1
+  - uid: 206
+    components:
+    - type: Transform
+      pos: 4.5,3.5
+      parent: 1
+  - uid: 207
+    components:
+    - type: Transform
+      pos: -3.5,2.5
+      parent: 1
+  - uid: 208
+    components:
+    - type: Transform
+      pos: -3.5,3.5
+      parent: 1
+  - uid: 209
+    components:
+    - type: Transform
+      pos: 0.5,-6.5
+      parent: 1
+  - uid: 210
+    components:
+    - type: Transform
+      pos: -0.5,-6.5
+      parent: 1
+  - uid: 211
+    components:
+    - type: Transform
+      pos: 1.5,-6.5
+      parent: 1
+- proto: RMCNanoMed
+  entities:
+  - uid: 212
+    components:
+    - type: Transform
+      pos: -2.5,-1.5
+      parent: 1
+  - uid: 213
+    components:
+    - type: Transform
+      pos: 3.5,-1.5
+      parent: 1
+- proto: RMCRotaryPhone
+  entities:
+  - uid: 214
+    components:
+    - type: MetaData
+      name: шатл Аламо
+    - type: Transform
+      pos: 1.796875,9.779008
+      parent: 1
+    - type: Physics
+      canCollide: False
+    - type: Fixtures
+      fixtures: {}
+- proto: WarpPoint
+  entities:
+  - uid: 215
+    components:
+    - type: Transform
+      pos: 0.5,3.5
+      parent: 1
+    - type: WarpPoint
+      location: Аламо
 ...
