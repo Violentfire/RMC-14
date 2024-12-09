@@ -1,11 +1,11 @@
-﻿cm-pill-contains = The pill contains:
-cm-pill-contains-none = The pill contains: No reagents.
+﻿cm-pill-contains = Пігулка містить:
+cm-pill-contains-none = Пігулка не містить нічого.
 
-cm-pill-contents-unknown = You don't know what's in it.
+cm-pill-contents-unknown = Ви не знаєте, що вона містить.
 cm-pill-contents-none = {""}
-cm-pill-contents-bicaridine = A Bicaridine pill. Heals brute damage.
-cm-pill-contents-dexalin = A Dexalin pill. Used to treat oxygen deprivation.
-cm-pill-contents-dylovene = An anti-toxin pill. It neutralizes many common toxins, as well as treating toxin damage.
-cm-pill-contents-inaprovaline = An Inaprovaline pill. Used to stabilize patients.
-cm-pill-contents-kelotane = A Kelotane pill. Used to treat burns.
-cm-pill-contents-tricordrazine = A Tricordrazine pill. A weak general use medicine for treating damage.
+cm-pill-contents-bicaridine = Пігулка Бікаридину. Загоює фізичні травми.
+cm-pill-contents-dexalin = Пігулка Дексаліну. Використовується для лікування кисневого голодування.
+cm-pill-contents-dylovene = Детоксикуюча пігулка. Нейтралізує більшість токсинів, а також завданих ними пошкоджень.
+cm-pill-contents-inaprovaline = Пігулка Іноправаліну. Стабілізує пацієнта.
+cm-pill-contents-kelotane = Пігулка Келотану. Заліковує опіки.
+cm-pill-contents-tricordrazine = Пігулка Трикордразину. Слабко лікує всі види покоджень.

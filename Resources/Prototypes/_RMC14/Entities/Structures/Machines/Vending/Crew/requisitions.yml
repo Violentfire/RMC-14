@@ -35,7 +35,7 @@
         amount: 50
       #- id: CMWeaponFlareM82F
       #  amount: 20
-    - name: Restricted Sidearms
+    - name: Restricted Firearms
       entries:
       - id: RMCMK80Case
         amount: 4
@@ -67,8 +67,8 @@
       #  amount: 4
       - id: CMGrenadeHighExplosive
         amount: 25
-      #- id: M40 HIDP Incendiary Grenade
-      #  amount: 4
+      - id: RMCGrenadeIncendiary
+        amount: 4
       #- id: M40 HPDP White Phosphorus Smoke Grenade
       #  amount: 4
       - id: CMGrenadeSmoke
@@ -101,10 +101,10 @@
         amount: 5
       - id: CMWebbingPouch
         amount: 2
-      #- id: Shoulder Holster
-      #  amount: 2
-      #- id: Knife Webbing
-      #  amount: 1
+      - id: CMWebbingHolster
+        amount: 2
+      - id: CMWebbingKnivesFilled
+        amount: 1
     - name: Backpacks
       entries:
       - id: CMBackpackMarine

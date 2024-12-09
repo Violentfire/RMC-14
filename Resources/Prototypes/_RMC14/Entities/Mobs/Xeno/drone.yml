@@ -57,6 +57,7 @@
       - XenoParasite
       - XenoEgg
       - XenoFruit
+  - type: TunnelRenamer
   - type: EggPlantTime
     plantTime: 2.5
   - type: MultiHandedHolder
@@ -80,7 +81,7 @@
     max: 200
     evolvesTo:
     - CMXenoCarrier
-#    - CMXenoBurrower
+    - CMXenoBurrower
     - CMXenoHivelord
     evolvesToWithoutPoints:
     - CMXenoQueen

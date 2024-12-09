@@ -12,7 +12,7 @@
   parent: CMBaseMask
   id: CMMaskGas
   name: протигаз
-  description: Протигаз, може бути підключений до газового балону. Відфільтровує шкідливі гази з повітря яке ви вдихаєте.
+  description: Протигаз, може бути підключений до балону з газом. Відфільтровує шкідливі гази з повітря яке ви вдихаєте.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/gas.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMBaseMask
   id: RMCMaskRebreather
-  name: rebreather
-  description: A close-fitting device that instantly heats or cools down air when you inhale so it doesn't damage your lungs.
+  name: респіратор
+  description: Щільно прилягаюча маска, яка зберігає температуру вдихаємого повітря стабільною, щоб не пошкодити ваші легені.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Mask/rebreather.rsi

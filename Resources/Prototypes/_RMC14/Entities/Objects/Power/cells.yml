@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPowerCell
-  name: power cell
-  description: A rechargeable electrochemical power cell.
+  name: акумулятор
+  description: Елемент живлення, який можна перезарядити.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Power/cells.rsi

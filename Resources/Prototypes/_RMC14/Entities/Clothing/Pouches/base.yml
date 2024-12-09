@@ -34,7 +34,7 @@
 - type: entity
   parent: [RMCPouch, BaseStorageItem]
   id: RMCPouchStorage
-  name: storage pouch
+  name: підсумок
   abstract: true
   components:
   - type: Storage

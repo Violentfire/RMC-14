@@ -2,7 +2,7 @@
   parent: ActionMarineToggleable
   id: RMCActionToggleCloak
   name: Перемкнути Плащ
-  description: Увімкнути або вимкнути Термоплащ
+  description: Увімкнути чи вимкнути Термоплащ
   components:
   - type: InstantAction
     icon:
