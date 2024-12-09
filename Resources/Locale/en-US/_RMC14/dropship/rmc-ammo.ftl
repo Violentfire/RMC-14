@@ -1,4 +1,4 @@
-﻿rmc-dropship-ammo-examine = It has {$rounds ->
-    [1] 1 round.
-    *[other] {$rounds} rounds.
+﻿rmc-dropship-ammo-examine = Воно містить {$rounds ->
+    [1] 1 набій.
+    *[other] {$rounds} набоїв.
   }

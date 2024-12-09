@@ -1,7 +1,7 @@
-﻿rmc-repairable-need-blowtorch = You need a stronger blowtorch!
-rmc-repairable-not-damaged = {CAPITALIZE(THE($target))} doesn't need repairs.
-rmc-repairable-not-trained = You are not trained to repair {THE($target)}...
-rmc-repairable-start-self = You begin repairing {THE($target)}
-rmc-repairable-start-others = {$user} begin repairing {THE($target)}
-rmc-repairable-finish-self = You repair {THE($target)}
-rmc-repairable-finish-others = {$user} repairs {THE($target)}
+﻿rmc-repairable-need-blowtorch = Вам потрібний кращий зварювальник!
+rmc-repairable-not-damaged = {CAPITALIZE(THE($target))} не потребує ремонту.
+rmc-repairable-not-trained = Вас не навчили лагодити {THE($target)}...
+rmc-repairable-start-self = Ви почали лагодити {THE($target)}
+rmc-repairable-start-others = {$user} почав лагодити {THE($target)}
+rmc-repairable-finish-self = Ви полагодили {THE($target)}
+rmc-repairable-finish-others = {$user} полагодив {THE($target)}

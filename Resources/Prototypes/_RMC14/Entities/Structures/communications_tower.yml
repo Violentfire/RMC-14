@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: RMCCommunicationsTower
-  name: TC-3T static telecommunications tower
-  description: A static heavy-duty TC-3T telecommunications tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
+  name: TC-3T телекомунікаційна вежа
+  description: Стаціонарний, надміцний ретранслятор ТС-3Т. Використовується для встановлення підпросторового зв'язку між планетарними та позапланетними локаціями. Потрібно додати нові частоти за допомогою мультитула.
   components:
   - type: Transform
     anchored: false

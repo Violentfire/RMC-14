@@ -72,8 +72,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: Use Phone
-  description: Used to call another phone.
+  name: Зателефонувати
+  description: Альо? АЛЬО!!
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -89,8 +89,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: Toggle Medical HUD
-  description: Toggle the optical matrix of the medical HUD.
+  name: Перемкнути Медичний Інтерфейс
+  description: Перемикає видимість стану здоров'я морпіхів.
   components:
   - type: InstantAction
     itemIconStyle: BigItem

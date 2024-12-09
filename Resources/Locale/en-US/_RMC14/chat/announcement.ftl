@@ -1,10 +1,10 @@
 rmc-announcement-author = Командування
 rmc-announcement-author-highcommand = Вище Командування
-rmc-announcement-message = [font size=14][bold][color=white]{$author} Оголошення[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-message = [font size=14][bold][color=white]Оголошення {$author}[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 
-rmc-announcement-message-signed = [font size=14][bold][color=white]{$author} Оголошення[/color][/bold][/font][font size=12][color=red]
+rmc-announcement-message-signed = [font size=14][bold][color=white]Оголошення {$author}[/color][/bold][/font][font size=12][color=red]
 
     {$message}
 

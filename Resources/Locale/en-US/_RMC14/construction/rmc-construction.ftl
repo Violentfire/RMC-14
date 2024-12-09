@@ -1,9 +1,9 @@
 rmc-construction-not-proper-surface = {$construction} мусить бути побудована на відповідній поверхні!
 rmc-construction-not-barricade-clear = У цьому напрямку вже стоїть барикада!
 
-rmc-construction-no-metal = You lack the required metal.
-rmc-construction-failure = You are not trained to touch {THE($ent)}!
+rmc-construction-no-metal = Замало металу для будування.
+rmc-construction-failure = Ви не навчені будувати {THE($ent)}!
 
-rmc-construction-upgrade-explosive = You applied a composite upgrade.
-rmc-construction-upgrade-burn = You applied a biohazardous upgrade.
-rmc-construction-upgrade-brute = You applied a reinforced upgrade.
+rmc-construction-upgrade-explosive = Ви звели вибухостійке покращення.
+rmc-construction-upgrade-burn = Ви звели біозахистне покращення.
+rmc-construction-upgrade-brute = Ви додали кілька металевих пластин до барикади.
