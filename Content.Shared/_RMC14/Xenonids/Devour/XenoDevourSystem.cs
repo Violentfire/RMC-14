@@ -43,6 +43,7 @@ public sealed class XenoDevourSystem : EntitySystem
     [Dependency] private readonly StandingStateSystem _standing = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedStunSystem _stun = default!;
+    [Dependency] private readonly EntityManager _entManager = default!;
 
     private EntityQuery<DevouredComponent> _devouredQuery;
     private EntityQuery<XenoDevourComponent> _xenoDevourQuery;
@@ -269,6 +270,9 @@ public sealed class XenoDevourSystem : EntitySystem
         _audio.PlayPredicted(xeno.Comp.RegurgitateSound, xeno, xeno);
         foreach (var ent in ents)
         {
+            var ev = new RegurgitateEvent(_entManager.GetNetEntity(xeno.Owner), _entManager.GetNetEntity(ent));
+            RaiseLocalEvent(xeno, ev);
+
             _stun.TryStun(ent, xeno.Comp.RegurgitationStun, true);
             if (_net.IsServer)
                 SpawnAttachedTo(xeno.Comp.RegurgitateEffect, ent.ToCoordinates());
@@ -424,6 +428,9 @@ public sealed class XenoDevourSystem : EntitySystem
         {
             return true;
         }
+
+        var ev = new RegurgitateEvent(_entManager.GetNetEntity(xeno.Owner), _entManager.GetNetEntity(devoured.Owner));
+        RaiseLocalEvent(xeno, ev);
 
         if (doFeedback)
             DoFeedback((xeno, xeno.Comp));
