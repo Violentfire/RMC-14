@@ -8,11 +8,11 @@ cm-job-description-squad-leader = Лідер одного з чотирьох з
 CMJobSquaderLeader = Лідер Загону
 
 cm-job-name-fireteam-leader = Лідер Вогневої Групи
-cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати наказ лідера загону. Зкоординуйтеся з CAS та іншою підтримкою.
+cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати наказ лідера загону. Зкоординуйте свої сили з БПП та іншими типами підтримки.
 CMJobFireteamLeader = Лідер Вогневої Групи
 
 cm-job-name-weapons-specialist = Збройний Спеціаліст
-cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений воїн, за потреби, можете очолити загін.
+cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений воїн, за потреби, зможете очолити загін.
 CMJobWeaponsSpecialist = Збройний Спеціаліст
 
 cm-job-name-smart-gun-operator = Оператор Смартгана

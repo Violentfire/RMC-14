@@ -2,7 +2,7 @@
   parent: ActionMarineToggleable
   id: RMCActionGhilliePreparePosition
   name: Підготувати Позицію
-  description: Злийтеся воєдино з навколишнім середовищем.
+  description: Злийтеся воєдино з навколишнім середовищем, потребує трохи часу на підготовку.
   components:
   - type: InstantAction
     icon:

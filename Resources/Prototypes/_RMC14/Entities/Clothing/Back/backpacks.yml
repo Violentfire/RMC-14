@@ -3,8 +3,8 @@
   parent: ClothingBackpack
   abstract: true
   id: CMPersonalStorageBase
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: наплічник
+  description: Можна вдягнути на спину і тягати свої манатки з собою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/standard.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: CMBackpack
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: наплічник
+  description: Можна вдягнути на спину і тягати свої манатки з собою.
   components:
   - type: StorageOpenDoAfter
     skipInHand: true
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackEngineer
-  name: industrial backpack
-  description: It's a tough backpack lookin' backpack used by engineers and the like.
+  name: інженерний наплічник
+  description: Це міцний рюкзак, що використовується інженерами і їм подібними.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/engineer.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMedical
-  name: medical backpack
-  description: It's a backpack especially designed for use in a sterile environment.
+  name: медичний наплічник
+  description: Цей рюкзак сконструйовано так, щоб зберігатися стерильним в будь-яких умовах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/medical.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackSecurity
-  name: security backpack
-  description: It's a very robust backpack.
+  name: наплічник охорони
+  description: Дуже охороняємий рюкзак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Civilians/security.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackCommand
-  name: marine commanding officer backpack
-  description: The contents of this backpack are top secret.
+  name: наплічник командуючого офіцера
+  description: Те, що знаходиться всередені є повністю засекреченим.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMarine
-  name: lightweight IMP backpack
-  description: The standard-issue pack of the Marine forces. Designed to lug gear into the battlefield.
+  name: полегшений наплічник ІМС
+  description: Наплічник який зазвичай використовують морські піхотинці. Спроєктований так, щоб донести всі ваші принади до нуля.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineMedic
-  name: Marine corpsman backpack
-  description: A standard-issue backpack worn by Marine medics.
+  name: медичний морпіхотний наплічник
+  description: Стандартний рюкзак, що використовуть медики Морської Піхоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMBackpackMarine
   id: CMBackpackMarineTech
-  name: Marine technician backpack
-  description: A standard-issue backpack worn by Marine technicians.
+  name: морпіхотний наплічник техніка
+  description: Цей рюкзак зазвичай використовують бойові техніки Морської Піхоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/techi.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackMortar
-  name: Marine mortar shell backpack
-  description: A backpack specifically designed to hold ammunition for the M402 mortar.
+  name: наплічник для мінометних мін
+  description: Рюкзак спеціально розроблений для перенесення боєприпасів міномета М402.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar.rsi
@@ -184,7 +184,7 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: IMP ammo rack
+  name: ІМС ammo rack
   description: A bare IMP frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to Marine ingenuity. Helps you lug around extra rounds or supplies.
   components:
   - type: Item

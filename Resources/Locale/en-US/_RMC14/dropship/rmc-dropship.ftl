@@ -2,7 +2,7 @@
 
 rmc-dropship-weapons-title = Консоль Озброєння
 
-rmc-dropship-weapons-main-screen-text = U.N.M.C.
+rmc-dropship-weapons-main-screen-text = К.М.П.О.О.Н.
   Система Керування Озброєнням Транспортника
   V 0.1
 
@@ -31,7 +31,7 @@ rmc-dropship-weapons-target-strike = Пошук Цілі
 rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
   {$rounds} набоїв
 
-rmc-dropship-weapons-equip = ОБЛАДНАННЯ
+rmc-dropship-weapons-equip = ОЗБРОЄННЯ
 rmc-dropship-weapons-fire-mission = F-MISS
 rmc-dropship-weapons-target = ЦІЛЬ
 rmc-dropship-weapons-maps = МАПИ

@@ -16,4 +16,4 @@ cm-job-description-executive-officer = Ви другий за званням н�
 CMJobExecutiveOfficer = Виконавчий Офіцер
 
 # Admin only right now.
-cm-job-name-high-command = Вище командування
+cm-job-name-high-command = Вище Командування
