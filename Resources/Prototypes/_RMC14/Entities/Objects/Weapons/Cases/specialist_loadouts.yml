@@ -2,6 +2,7 @@
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
   name: набір снайпера
+  suffix: Jungle
   description: "Великий кейс, що містить дуже далекобійну снайперську гвинтівку M96S, камуфляжну броню M45 і шолом, ПНБ M42, оптику, та додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: StorageFill
@@ -17,7 +18,7 @@
     - id: CMWeaponPistolMK80
     - id: CMMagazinePistolMK80
       amount: 2
-    - id: CMM96SSniperRifle
+    - id: WeaponM96SSniperRifleJungle
 #    - id: CMFacepaintSniper
 #    - id: CMSpotter
   - type: CMChangeUserOnVend
@@ -28,6 +29,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
   name: набір гранатометника
+  suffix: Jungle
   description: "Великий кейс, що містить потужний багатозарядний гранатомет M83, гренадерську броню M3-G4 і шолом, велику кількість гранат зразку M40 та додаткове спорядження.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -42,7 +44,7 @@
     - 0,0,21,1
   - type: StorageFill
     contents:
-    - id: WeaponLauncherM83 # check IFF
+    - id: WeaponLauncherM83Jungle # check IFF
     - id: RMCBeltGrenadeLargeFilled
     - id: RMCSatchelGrenadeSpec # ID lock
     - id: RMCSatchelGrenadeSpec
@@ -61,6 +63,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
   name: набір підривника
+  suffix: Jungle
   description: "Великий кейс, що містить великоліберну протитанкову пукову установку M5, легку противибухову броню M3-T, п'ять 84мм ракет, і додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -101,6 +104,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
   name: набір розвідника
+  suffix: Jungle
   description: "Великий кейс, що містить бойову гвинтівку M4RA, легку броню M3-S і шолом, приціл до M4RA, термоплащ M68, реактивний термальний мішок V3, боєприпаси та додаткове спорядження.\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -128,7 +132,7 @@
     - id: CMWeaponPistolMK80
     - id: CMMagazinePistolMK80
       amount: 2
-    - id: WeaponRifleM4SPRCustom
+    - id: WeaponRifleM4SPRCustomJungle
     - id: RMCThermalTarpFolded
 #    - id: RMCPlasticExplosives
 #      amount: 2

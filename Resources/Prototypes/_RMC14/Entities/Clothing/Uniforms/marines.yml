@@ -4,10 +4,11 @@
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: JumpsuitMarine
   name: морпіхотна уніформа
+  suffix: Jungle
   description: Стандартна форма морських піхотинців. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
 
 - type: entity
   parent: RMCMarineUniformBase
@@ -22,30 +23,33 @@
   parent: JumpsuitMarine
   id: CMJumpsuitMarineEngineer
   name: морпіхотна уніформа БойТеха
+  suffix: Jungle
   description: Уніформа, яку носять бойові техніки морської піхоти. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/engineer.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/engineer/jungle.rsi
 
 # Hospital Corpsman
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineMedic
   name: морпіхотна уніформа медика
+  suffix: Jungle
   description: Медики морської піхоти носять таку. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/medic.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/medic/jungle.rsi
 
 # RTO / FTL
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineRTO
   name: морпіхотна уніформа радіотелефоніста
+  suffix: Jungle
   description: Зазвичай використовується зв'язківцями. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/rto.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/rto/jungle.rsi
 
 # Sniper
 - type: entity
@@ -58,9 +62,10 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineTanker
   name: marine tanker uniform
+  suffix: Jungle
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker/jungle.rsi
 
 # Supply
 
@@ -136,10 +141,11 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitCO
   name: уніформа командуючого офіцера
+  suffix: Jungle
   description: Гарно пошита уніформа. Призначена для вищих офіцерів.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard/jungle.rsi
 
 - type: entity
   parent: CMJumpsuitCO
@@ -199,23 +205,27 @@
   parent: JumpsuitMarine
   id: CMJumpsuitOperations
   name: офіцерська бойова уніформа
+  suffix: Jungle
   description: Уніформа яку носять морпіхи-офіцери на завданні. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Command/operations.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/boiler/jungle.rsi
   - type: Foldable
     unfoldVerbText: rmc-sleeves-verb-unfold
     foldVerbText: rmc-sleeves-verb-fold
+  - type: FoldableClothing
+    foldedEquippedPrefix: sleeves
 
 # IO
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitIO
   name: уніформа офіцера розвідки
+  suffix: Jungle
   description: Тугіше, ніж лещата. Липкіша за олію для бороди. З голови до ніг обвішана сумками, кишенями, пакетами, ременями та поясами. Очевидно, що ви не лише найрозумніший з розвідників, але й наймодніший. На розробку цього костюму ціла команда науковців витратила п'ять років. Він коштує дорожче, ніж весь Алмаєр... напевно..
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Command/io.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/intel/jungle.rsi
 
 # Auxiliary
 
@@ -224,10 +234,11 @@
   parent: JumpsuitMarine
   id: CMJumpsuitPilot
   name: офіцерський комбінезон пілота
+  suffix: Jungle
   description: Комбінезон, який носять офіцери-пілоти морської піхоти, призначений для виживання в умовах трохи небезпечніших за кабіну транспортника. Відвезіть морпіхів на славну смерть. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/pilot.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/pilot/jungle.rsi
   - type: Foldable
     unfoldVerbText: rmc-sleeves-verb-unfold
     foldVerbText: rmc-sleeves-verb-fold

@@ -16,6 +16,21 @@ rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секун�
 rmc-shoot-harness-required = Необхідне спорядження
 rmc-wear-smart-gun-required = Вам треба мати Смартган, щоб носити їх.
 
+rmc-shoot-id-lock-unauthorized = Trigger locked. Unauthorized user.
+rmc-id-lock-unauthorized = Action denied. Unauthorized user.
+rmc-id-lock-authorization = You pick up the {$gun}, registering yourself as its owner.
+rmc-id-lock-authorization-combat = The {$gun} beeps, registering yourself as its owner.
+rmc-id-lock-toggle-lock = You {$action} the id lock on the {$gun}.
+
+rmc-id-lock-color-unauthorized = red
+rmc-id-lock-color-authorized = chartreuse
+rmc-id-lock-toggle-on = lock
+rmc-id-lock-toggle-off = unlock
+
+rmc-iff-toggle = You {$action} the IFF on the {$gun}.
+rmc-iff-toggle-off = disable
+rmc-iff-toggle-on = enable
+
 rmc-revolver-spin = Ви крутите барабан.
 
 rmc-examine-text-weapon-accuracy = The current accuracy multiplier is [color={$colour}]{TOSTRING($accuracy, "F2")}[/color].
@@ -24,6 +39,9 @@ rmc-examine-text-scatter-max = Поточний максимальний роз�
 rmc-examine-text-scatter-min = Поточний мінімальний розкид [color={$colour}]{TOSTRING($scatter, "F1")}[/color] градусів.
 rmc-examine-text-shots-to-max-scatter = Треба ще [color={$colour}]{$shots}[/color] пострілів до максимального розкиду.
 rmc-examine-text-iff = [color=cyan]Ця зброя стріляє повз союзників, ігноруючи їх![/color]
+rmc-examine-text-id-lock-no-user = [color=chartreuse]It's unregistered. Pick it up to register yourself as its owner.[/color]
+rmc-examine-text-id-lock = [color=chartreuse]It is registered to [/color][color={$color}]{$name}[/color][color=chartreuse].[/color]
+rmc-examine-text-id-lock-unlocked = [color=chartreuse]It is registered to [/color][color={$color}]{$name}[/color][color=chartreuse], but has its fire restrictions unlocked.[/color]
 
 rmc-gun-rack-examine = [bold]Натисніть свою [color=cyan]унікальну[/color] клавішу (Пробіл за замовченням) щоб поставити перед стрільбою.[/bold]
 rmc-gun-rack-first-with = Вам спочатку потрібно поставити зброю за допомогою {$key}!
