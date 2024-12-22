@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsInsulated
   id: CMHandsCaptain
-  name: captain's gloves
-  description: A pair of captain's gloves.
+  name: капітанські рукавички
+  description: Показують хто тут капітан.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/captain.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsLatex
-  name: latex gloves
-  description: A pair of latex gloves.
+  name: латексні рукавички
+  description: Пара рукавичок, перед тим як вдягнути перевірте чи немає у вас алергії на латекс.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi

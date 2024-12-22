@@ -41,8 +41,8 @@
   - CMGrenadeBase
   - RMCM40DPTags 
   id: CMGrenadeHighExplosive
-  name: M40 HEDP grenade
-  description: High-Explosive Dual-Purpose. A small, but deceptively strong blast grenade that has been phasing out the M15 HE grenades alongside the M40 HEFA. Capable of being loaded in grenade launchers, or thrown by hand.
+  name: M40 ФПП граната
+  description: Фугасна граната Подвійного-Призначення. Оманливо невелика, але дуже потужна фугасна граната яка разом з М40 ОФ поступово витісняють M15 ОФ. Можна зарядити в гранатомет, або кинути рукою. Намагайтеся не підірвати нею себе, чи союзників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hedp.rsi
@@ -62,8 +62,8 @@
   - CMGrenadeBase
   - RMCM40DPTags 
   id: CMGrenadeSmoke
-  name: M40 HSDP smoke grenade
-  description: The M40 HSDP is a small, but powerful smoke grenade. Based off the same platform as the M40 HEDP. It is set to detonate in 2 seconds.
+  name: M40 ВДР граната
+  description: Високодимна Розсіювальна граната. M40 ВДР маленька, але потужна димова граната. Базується на тій самій основі, що й M40 ФПП. Час до детонації після активації 2 секунди.
   components:
   - type: OnUseTimerTrigger
     delay: 2
@@ -112,8 +112,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFrag
-  name: M40 HEFA grenade
-  description: High-Explosive Fragmenting-Antipersonnel. A small, but deceptively strong fragmentation grenade that has been phasing out the M15 fragmentation grenades alongside the M40 HEDP. Capable of being loaded in grenade launchers, or thrown by hand.
+  name: M40 ОФ граната
+  description: Осколково-Фугасна граната. Маленька, але сильна шрапнельна граната яка поступово витісняє М15. Можна зарядити в гранатомет, чи кинути рукою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hefa.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFragOld
-  name: M15 fragmentation grenade
-  description: An outdated UNMC Fragmentation Grenade. With decades of service in the UNMC, the old M15 Fragmentation Grenade is slowly being replaced by the slightly safer M40-series grenades. It is set to detonate in 4 seconds.
+  name: M15 осколкова граната
+  description: Застаріла осколкова граната. Ці гранати, що десятиліттями служили КМПООН, потроху замінюються більш безпечними аналогами серії М40. Час детонації після активації становить 4 секунди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m15frag.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeTraining
-  name: M07 Training Grenade
-  description: A harmless reusable version of the M40 HEDP, used for training. Capable of being loaded into a grenade launcher, or thrown by hand.
+  name: M07 Навчальна Граната
+  description: Учбова версія гранати М40 ФПП, яка точно не має вибухнути, ТОЧНО. Можна зарядити в гранатомет, чи кинути рукою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m07training.rsi
@@ -191,8 +191,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: RMCGrenadeIncendiary
-  name: M40 HIDP incendiary grenade
-  description: The M40 HIDP is a small, but deceptively strong incendiary grenade designed to disrupt enemy mobility with long-lasting Type B napalm. It is set to detonate in 4 seconds.
+  name: M40 ВІРЗ граната
+  description: Високоімпульсна Розсіювальна Запалювальна граната. М40 ВІРЗ хоч і маленька, але потужна запалювальна граната, призначена для спалення ворогів живцем або зменшення їх мобільності. Час до детонації після активації 4 секунди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hidp.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: RMCGrenadeIncendiary
   id: RMCGrenadeMolotov
-  name: improvised firebomb
-  description: A potent, improvised firebomb, coupled with a pinch of gunpowder. Cheap, very effective, and deadly in confined spaces. Commonly found in the hands of rebels and terrorists. It can be difficult to predict how many seconds you have before it goes off, so be careful. Chances are, it might explode in your face.
+  name: коктейль для молотова
+  description: Саморобна запалювальна граната, дешева, потужна і супер небезпечна в обмеженому просторі. Часто використовується повстанцями й терористами. Взагалі, важко сказати скільки у вас є секунд до вибуху, найімовірніше він вибухне ще коли ви тільки подумаєте його запалити.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/molotov.rsi

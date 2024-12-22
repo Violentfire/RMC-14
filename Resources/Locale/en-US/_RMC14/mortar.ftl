@@ -33,21 +33,21 @@ rmc-mortar-shell-impact-warning-above = МІНА ПРЯМО ЗАРАЗ ВЛУЧ�
 
 rmc-mortar-interface = Мінометний Інтерфейс
 
-rmc-mortar-target-x = Target X:
-rmc-mortar-target-y = Target Y:
-rmc-mortar-target-set = Set Target
-rmc-mortar-target-too-close = You cannot aim at this coordinate, it is too close to your mortar.
+rmc-mortar-target-x = Ціль по X:
+rmc-mortar-target-y = Ціль по Y:
+rmc-mortar-target-set = Навестися
+rmc-mortar-target-too-close = Ви не можете навестися на ці координати, занадто близько до міномета.
 
-rmc-mortar-offset-x = X Offset:
-rmc-mortar-offset-y = Y Offset:
-rmc-mortar-offset-set = Dial Offset
-rmc-mortar-offset-too-far = You cannot dial to this coordinate, it is too far away from the original target.
-rmc-mortar-offset-too-close = You cannot dial to this coordinate, it is too close to your mortar.
-rmc-mortar-offset-max = Max dial
-  offset: {$max}
+rmc-mortar-offset-x = Зсув X:
+rmc-mortar-offset-y = Зсув Y:
+rmc-mortar-offset-set = Налаштувати зсув
+rmc-mortar-offset-too-far = Ви не можете навестися сюди, задалеко від початкових координат.
+rmc-mortar-offset-too-close =  Ви не можете навестися сюди, занадто близько до міномета.
+rmc-mortar-offset-max = Максимальний налаштовуваний
+  зсув: {$max}
 
-rmc-mortar-view-camera = View
-  Camera
+rmc-mortar-view-camera = Переглянути
+  Камеру
 
-rmc-mortar-camera-title = Mortar Camera Interface
-rmc-mortar-camera-name = Para-Cam ({$x}):({$y})
+rmc-mortar-camera-title = Інтерфейс Мінометної Камери
+rmc-mortar-camera-name = Пара-Кам ({$x}):({$y})

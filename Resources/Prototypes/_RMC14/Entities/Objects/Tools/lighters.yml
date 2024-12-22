@@ -27,8 +27,8 @@
     - suitstorage
 
 - type: entity
-  name: cheap lighter
-  description: A cheap-as-free lighter.
+  name: дешева запальничка
+  description: Моліться щоб вона не вибухнула у вас в руках.
   parent: RMCZippo
   id: RMCLighter
   components:
@@ -94,7 +94,7 @@
 
 - type: entity
   name: запальничка представника Ве-Я
-  description: Чудова запальничка Zippo у фірмових кольорах компанії.
+  description: Чудова запальничка Зіппо у фірмових кольорах компанії.
   parent: RMCZippo
   id: RMCZippoExec
   components:

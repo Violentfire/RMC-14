@@ -42,8 +42,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryAlienEmbryoRemoval
-  name: Alien Embryo Removal
-  description: Removal of an alien embryo from the body.
+  name: Зробити Аборт
+  description: Видаліть чужорідний ембріон з тіла.
   components:
   - type: CMSurgery
     priority: -1

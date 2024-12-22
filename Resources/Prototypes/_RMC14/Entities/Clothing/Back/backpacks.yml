@@ -149,8 +149,8 @@
 - type: entity
   parent: CMBackpack
   id: CMBackpackWelder
-  name: Marine technician welderpack
-  description: A specialized backpack worn by Marine technicians. It carries a fueltank for quick welder refueling and use.
+  name: наплічник техніка з паливом для зварки
+  description: Спеціалізований рюкзак, що використовується техніками Морської Піхоти. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder.rsi
@@ -184,7 +184,7 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: ІМС ammo rack
+  name: ІМС для перенесення набоїв
   description: A bare IMP frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to Marine ingenuity. Helps you lug around extra rounds or supplies.
   components:
   - type: Item

@@ -8,7 +8,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepOpenIncisionScalpel
-  name: Cut with a scalpel
+  name: Розріжте скальпелем
   components:
   - type: CMSurgeryStep
     tool:
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepClampBleeders
-  name: Clamp the bleeders
+  name: Зупиніть кровотечу
   components:
   - type: CMSurgeryStep
     tool:
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepRetractSkin
-  name: Retract the skin
+  name: Відтягніть шкіру
   components:
   - type: CMSurgeryStep
     tool:
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepSawBones
-  name: Saw through bones
+  name: Розпиляйте кістки
   components:
   - type: CMSurgeryStep
     tool:
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepPriseOpenBones
-  name: Prise the bones open
+  name: Розкрийте кістки
   components:
   - type: CMSurgeryStep
     tool:
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCutLarvaRoots
-  name: Cut larva roots
+  name: Відріжте присоски личинки
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepRemoveLarva
-  name: Remove larva
+  name: Видаліть личинку
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -115,7 +115,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCloseBones
-  name: Close bones
+  name: Закрийте кістки
   components:
   - type: CMSurgeryStep
     tool:
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepMendRibcage
-  name: Mend ribcage
+  name: Скріпіть кістки
   components:
   - type: CMSurgeryStep
     tool:
@@ -143,7 +143,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMSurgeryStepCloseIncision
-  name: Close incision
+  name: Зашийте
   components:
   - type: CMSurgeryStep
     tool:

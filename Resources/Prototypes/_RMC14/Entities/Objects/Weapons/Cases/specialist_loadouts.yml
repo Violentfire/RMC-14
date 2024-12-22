@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
-  name: sniper equipment case
-  description: "A large case containing your very own long-range M96S sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: набір снайпера
+  description: "Великий кейс, що містить дуже далекобійну снайперську гвинтівку M96S, камуфляжну броню M45 і шолом, ПНБ M42, оптику, та додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: StorageFill
     contents:
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
-  name: heavy grenadier equipment case
-  description: "A large case containing a heavy-duty multi-shot M83 grenade launcher, M3-G4 grenadier armor and helmet, significant amount of various M40 grenades and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: набір гранатометника
+  description: "Великий кейс, що містить потужний багатозарядний гранатомет M83, гренадерську броню M3-G4 і шолом, велику кількість гранат зразку M40 та додаткове спорядження.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
-  name: demolitionist equipment case
-  description: "A large case containing a heavy-caliber M5 Anti-Tank Launcher, reinforced M3-T light armor, five 84mm rockets, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: набір підривника
+  description: "Великий кейс, що містить великоліберну протитанкову пукову установку M5, легку противибухову броню M3-T, п'ять 84мм ракет, і додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
-  name: scout equipment case
-  description: "A large case containing an M4RA battle rifle, M3-S light armor and helmet, M4RA battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
+  name: набір розвідника
+  description: "Великий кейс, що містить бойову гвинтівку M4RA, легку броню M3-S і шолом, приціл до M4RA, термоплащ M68, реактивний термальний мішок V3, боєприпаси та додаткове спорядження.\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:

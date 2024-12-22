@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCTileFire
-  name: fire
+  name: вогонь
   placement:
     mode: SnapgridCenter
   components:

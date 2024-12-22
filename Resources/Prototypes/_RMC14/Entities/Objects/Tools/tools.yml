@@ -75,8 +75,8 @@
 - type: entity
   parent: Multitool
   id: CMMultitool
-  name: security access tuner
-  description: A small handheld tool used to override various machine functions.
+  name: мультитул
+  description: Невеликий інструмент, що використовується для взаємодії з електронікою.
   suffix: Multitool
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMCrowbar
   id: CMCrowbarRed
-  name: emergency crowbar
+  name: аварійний лом
   components:
   - type: Tag
     tags:

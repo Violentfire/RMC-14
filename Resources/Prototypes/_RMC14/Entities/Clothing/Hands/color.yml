@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsInsulated
-  name: marine insulated gloves
-  description: These gloves will protect the wearer from electric shocks.
+  name: ізоляційні рукавички
+  description: Рукавички, що забезпечують захист від ударів струмом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsBrown
-  name: brown gloves
-  description: A pair of brown gloves.
+  name: коричневі рукавички
+  description: Пара коричневих рукавичок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsLightBrown
-  name: light brown gloves
-  description: A pair of light brown gloves.
+  name: світло-коричневі рукавички
+  description: Пара світло-коричневих рукавичок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/light_brown.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsWhite
-  name: white gloves
-  description: A pair of white gloves.
+  name: білі рукавички
+  description: Можливо зараз вони і білі, але вже після першого бойового вони стануть колейдоском з чорного, червоного, зеленого... і, певно коричневого.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMHandsWhite
   id: CMHandsWhiteDress
-  name: dress gloves
-  description: A pair of fashionable white gloves, worn by marines in dress.
+  name: парадні рукавички
+  description: Пара модних рукавичок, які морпіхи вдягають на урочисті заходи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi

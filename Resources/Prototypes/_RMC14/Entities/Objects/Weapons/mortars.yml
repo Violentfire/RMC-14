@@ -2,7 +2,7 @@
   parent: BaseItem
   id: RMCMortarKit
   name: M402 комплект портативного міномета
-  description: Ручна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
+  description: Переносна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: 80мм уламково-фугасна міна
-  description: 80мм мінометна міна, заряджена потужним вибуховим зарядом.
+  name: 80мм осколково-фугасна міна
+  description: 80мм мінометна міна, в якій міститься потужний вибуховий заряд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
-  name: 80mm incendiary mortar shell
-  description: An 80mm mortar shell, loaded with a Type B napalm charge. Perfect for long-range area denial.
+  name: 80мм запалювальна мінометна міна
+  description: 80мм мінометна міна, завантажена напалмом типу Б. Ідеальна для тимчасового перерізання доступу на якусь територію.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi

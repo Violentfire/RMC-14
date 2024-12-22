@@ -17,8 +17,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMOintment
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
+  name: мазь
+  description: Використовується щоб замазати ваші проколи... ой, щоб вилікувати ваші опіки. Меньш ефективна проти опіків кислотою.
   suffix: Ten
   components:
   - type: Tag
@@ -87,8 +87,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMGauze
-  name: medical gauze
-  description: Some sterile gauze to wrap around bloody stumps and lacerations.
+  name: марля
+  description: Стерильна марля, використовується щоб зупинити кровотечу.
   suffix: Ten
   components:
   - type: Tag

@@ -2,7 +2,7 @@
 - type: entity
   parent: [RMCMarineHelmetBase, RMCFoldableHelmetBase]
   id: ArmorHelmetM10
-  name: шолом морпіха зразку M10
+  name: шолом морпіха зразка M10
   description: Стандартний шолом зразку М10. Всередині на записці, поруч з інформацією про прання, написано, 'Якщо носити на голові вас поховають в відкритій труні.' З правого боку вбудована камера.
   components:
   - type: Sprite
@@ -13,8 +13,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10MP
-  name: M10 шолом ВСП
-  description: Спеціальна варіація шолому М10 призначена для ВСП.
+  name: шолом ВСП зразка М10
+  description: Спеціальна варіація шолому М10 призначена для Військової служби правопорядку.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/mp.rsi
@@ -24,7 +24,7 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10ChiefMP
-  name: M10 шолом голови ВСП
+  name: шолом голови ВСП зразка М10
   description: Варіант шолому М10 призначений для голови військової служби правопорядку.
   components:
   - type: Sprite
@@ -35,8 +35,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10SO
-  name: M10 pattern officer helmet
-  description: A special variant of the M10 Pattern Helmet worn by Officers of the UNMC, attracting the attention of the grunts and sniper fire alike.
+  name: офіцерський шолом зразка М10
+  description: Варіація шолому М10, яку носять офіцери КМПООН, що звісно привертає увагу військових, і своїх, і ворожих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/officer/jungle.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10CO
-  name: M10 шолом КомОфа
-  description: "Унікальний варіант шолому М10 розроблений для Командуючого Офіцера. На етикетці написано: «Різниця між похоронами у відкритій і закритій труні. Носіть на голові для кращого результату»."
+  name: шолом КомОфа зразка М10
+  description: "Унікальний варіант шолому М10 розроблений для Командуючого Офіцера. На етикетці написано: «Офіцерам шолом не потрібен, але вдягніть. З любов'ю Верховне Командування»."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/co.rsi
@@ -103,7 +103,7 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11
-  name: шолом зразку М11
+  name: шолом зразка М11
   description: Покращений шолом спеціально для лідерів загонів. Він містить вбудовану камеру й м'якеньку амортизовану оббивку щоб захистити вашу голову коли по ній почне стукати командування.
   components:
   - type: Sprite
@@ -115,8 +115,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM12
-  name: шолом зразку M12
-  description: Експерементальне відерце для голови. Ззаду звисає завіса від пилу. Краще стримує удари тупими предметами ціною приниження. Але хто буде сміятися в кінці? Не ви, ви будете отримувати медалі за свою розвідувальну діяльність чи геніальне командування.
+  name: шолом зразка M12
+  description: Експерементальне відерце для голови. Ззаду звисає завіса від пилу. Навіть якщо вас битимуть по голові цеглиною, цей шолом має витримати... а от ваша самооцінка не факт. Але хто буде сміятися в кінці? Не ви, ви в цей час будете зайняті начищянням черевиків лідеру загону, або тримуванням медалей за своє геніальне командування. Ваша доля у ваших руках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m12.rsi
@@ -127,7 +127,7 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM30
-  name: шолом зразку M30
+  name: шолом зразка M30
   description: Тактичний шолом M30 має худ на лівому оці що дозволяє фільтрувати тактичні дані.
   components:
   - type: Sprite
