@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMEntrenchingTool
-  name: entrenching tool
-  description: Used to dig holes and bash heads in. Folds in to fit in small spaces.
+  name: саперна лопата
+  description: Найважливіший інструмент для будь-якого військового. За допомогою нього ви можете копати, копати і ще копати, а інколи, якщо доведеться, бити, загалом вам більше нічого й не треба. Можна скласти, щоб носити, наприклад, в кишені.
   components:
   - type: Tag
     tags:

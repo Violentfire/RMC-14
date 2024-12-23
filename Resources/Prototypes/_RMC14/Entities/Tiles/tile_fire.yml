@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCTileFire
-  name: fire
+  name: вогонь
   placement:
     mode: SnapgridCenter
   components:
@@ -57,6 +57,9 @@
           Three: { state: red_3 }
           Four: { state: red_4 }
   - type: IgnorePredictionHit
+  - type: RMCScorchEffectOnSpawn
+    decalTag: burnt
+    tileLimit: 3
 
 - type: entity
   parent: RMCTileFire

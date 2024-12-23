@@ -65,6 +65,11 @@ rmc-dropship-weapons-point-gun = Тут вже є {$weapon}.
 rmc-dropship-weapons-point-ammo = Місце зайнято {$ammo}.
 rmc-dropship-weapons-rounds-left = В ньому лишилося {$current} набоїв з {$max}.
 
+rmc-dropship-utility-activate-not-flying = Utility Systems can only activate while in flight.
+rmc-dropship-utility-not-flyby = {$utility} can only be used during flyby.
+rmc-dropship-utility-not-skilled = You don't have the training to use this system!
+rmc-dropship-utility-cooldown = {$utility} was just used, you need to wait a bit before using it again.
+
 rmc-dropship-flyby-no-skill = У вас немає навичок щоб виконати проліт.
 
 rmc-dropship-fabricator-title = Виготовлювач Частин

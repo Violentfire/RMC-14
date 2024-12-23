@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaKutjevo
-  name: Kutjevo Refinery
+  name: Кутєвський Нафтопереробний Завод
   suffix: Kutjevo Area
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaShuttleDrop1Kutjevo
-  name: Kutjevo - Dropship Alamo Landing Zone
+  name: Кутєво - Посадкова Зона Транспортника Аламо
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaShuttleDrop2Kutjevo
-  name: Kutjevo - Dropship Normandy Landing Zone
+  name: Кутєво - Посадкова Зона Транспортника Нормандія
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCAreaKutjevo
   id: RMCAreaKutjevoExterior
-  name: Kutjevo - Exterior
+  name: Кутєво - Зовні
   components:
   - type: Sprite
     state: ext
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCAreaKutjevo
   id: RMCAreaKutjevoInterior
-  name: Kutjevo - Interior
+  name: Кутєво - Всередині
   components:
   - type: Sprite
     state: int
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCAreaKutjevoInterior
   id: RMCAreaKutjevoInteriorOob
-  name: Kutjevo -  Out Of Bounds
+  name: Кутєво -  Поза Межею
   components:
   - type: Sprite
     state: oob
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCAreaKutjevoInteriorOob
   id: RMCAreaKutjevoInteriorOobDevRoom
-  name: Kutjevo - Credits Room
+  name: Кутєво - Кімната Подяки
   components:
   - type: Sprite
     state: kutjevo
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorLzPad
-  name: Kutjevo Auxilliary Landing Zone
+  name: Кутєво - Додаткова Посадкова Зона
   components:
   - type: Sprite
     state: lz_pad
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorLzDunes
-  name: Kutjevo - Landing Zone Dunes
+  name: Кутєво - Посадкова Зона Дюни
   components:
   - type: Sprite
     state: lz_dunes
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorLzRiver
-  name: Kutjevo - Power Station River
+  name: Кутєво - Гідроелектростанція
   components:
   - type: Sprite
     state: lz_river
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorSpring
-  name: Kutjevo - Southern Spring
+  name: Кутєво - Південне Джерело
   components:
   - type: Sprite
     state: lz_river
@@ -131,7 +131,7 @@
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorScrubland
-  name: Kutjevo - North Scrubland
+  name: Кутєво - Північні Чагарники
   components:
   - type: Sprite
     state: scrubland
@@ -139,12 +139,12 @@
 - type: entity
   parent: RMCAreaKutjevoExteriorScrubland
   id: RMCAreaKutjevoExteriorScrublandSouth
-  name: Kutjevo - South Scrubland
+  name: Kutjevo - Південні Чагарники
 
 - type: entity
   parent: RMCAreaKutjevoExterior
   id: RMCAreaKutjevoExteriorStonyfields
-  name: Kutjevo - Stony Fields
+  name: "Кутєво - Кам'яні Поля"
   components:
   - type: Sprite
     state: stone_fields

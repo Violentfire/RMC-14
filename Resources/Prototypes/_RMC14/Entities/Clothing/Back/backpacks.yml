@@ -28,10 +28,7 @@
     maxItemSize: Normal
     grid:
     - 0,0,20,1
-    blacklist:
-      tags:
-      - CMFirstAidKit # TODO RMC14 medical skill
-  #      - EngineerKit # TODO RMC14
+    blacklist: {}
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -47,6 +44,20 @@
     blacklist:
       components:
       - Xeno
+  - type: StorageStoreSkillRequired
+    entries:
+    - whitelist:
+        tags:
+        - RMCEngineerKit
+      skills:
+        all:
+          RMCSkillEngineer: 2
+    - whitelist:
+        tags:
+        - CMFirstAidKit
+      skills:
+        all:
+          RMCSkillMedical: 2
 
 - type: entity
   parent: CMPersonalStorageBase
@@ -108,7 +119,27 @@
   description: Наплічник який зазвичай використовують морські піхотинці. Спроєктований так, щоб донести всі ваші принади до нуля.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard/jungle-desert-classic.rsi
+
+- type: entity
+  parent: CMBackpackMarine
+  id: RMCBackpackMarineSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/standard/snow-urban.rsi
+
+- type: entity
+  parent: CMBackpackMarine
+  id: RMCBackpackMarineCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackMarine
+      Desert: CMBackpackMarine
+      Classic: CMBackpackMarine
+      Snow: RMCBackpackMarineSU
+      Urban: RMCBackpackMarineSU
 
 - type: entity
   parent: CMBackpackMarine
@@ -117,7 +148,27 @@
   description: Стандартний рюкзак, що використовуть медики Морської Піхоти.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic/jungle-desert-classic.rsi
+
+- type: entity
+  parent: CMBackpackMarineMedic
+  id: RMCBackpackMarineMedicCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackMarineMedic
+      Desert: CMBackpackMarineMedic
+      Classic: CMBackpackMarineMedic
+      Snow: RMCBackpackMarineMedicSU
+      Urban: RMCBackpackMarineMedicSU
+
+- type: entity
+  parent: CMBackpackMarineMedic
+  id: RMCBackpackMarineMedicSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/medic/snow-urban.rsi
 
 - type: entity
   parent: CMBackpackMarine
@@ -126,7 +177,27 @@
   description: Цей рюкзак зазвичай використовують бойові техніки Морської Піхоти.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/techi.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/tech/jungle-desert-classic.rsi
+
+- type: entity
+  parent: CMBackpackMarineTech
+  id: RMCBackpackMarineTechSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/tech/snow-urban.rsi
+
+- type: entity
+  parent: CMBackpackMarineTech
+  id: RMCBackpackMarineTechCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackMarineTech
+      Desert: CMBackpackMarineTech
+      Classic: CMBackpackMarineTech
+      Snow: RMCBackpackMarineTechSU
+      Urban: RMCBackpackMarineTechSU
 
 # Specific
 - type: entity
@@ -136,7 +207,7 @@
   description: Рюкзак спеціально розроблений для перенесення боєприпасів міномета М402.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar/jungle-desert-classic.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -147,13 +218,33 @@
   - type: FixedItemSizeStorage
 
 - type: entity
-  parent: CMBackpack
-  id: CMBackpackWelder
-  name: Marine technician welderpack
-  description: A specialized backpack worn by Marine technicians. It carries a fueltank for quick welder refueling and use.
+  parent: CMBackpackMortar
+  id: RMCBackpackMortarSU
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/mortar/snow-urban.rsi
+
+- type: entity
+  parent: CMBackpackMortar
+  id: RMCBackpackMortarCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackMortar
+      Desert: CMBackpackMortar
+      Classic: CMBackpackMortar
+      Snow: RMCBackpackMortarSU
+      Urban: RMCBackpackMortarSU
+
+- type: entity
+  parent: CMBackpack
+  id: CMBackpackWelder
+  name: наплічник техніка з паливом для зварки
+  description: Спеціалізований рюкзак, що використовується техніками Морської Піхоти. Цей містить бак з рідиною для заправки зварювальних апаратів.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder/jungle-desert-classic.rsi
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -182,9 +273,29 @@
     solution: tank
 
 - type: entity
+  parent: CMBackpackWelder
+  id: RMCBackpackWelderCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackWelder
+      Desert: CMBackpackWelder
+      Classic: CMBackpackWelder
+      Snow: RMCBackpackWelderSU
+      Urban: RMCBackpackWelderSU
+
+- type: entity
+  parent: CMBackpackWelder
+  id: RMCBackpackWelderSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/welder/snow-urban.rsi
+
+- type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: ІМС ammo rack
+  name: ІМС для перенесення набоїв
   description: A bare IMP frame with buckles designed to hold multiple ammo cans, but can fit any cumbersome box thanks to Marine ingenuity. Helps you lug around extra rounds or supplies.
   components:
   - type: Item

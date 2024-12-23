@@ -29,6 +29,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -102,7 +103,7 @@ public abstract class SharedRMCFlammableSystem : EntitySystem
 
     private void OnIgniteOnProjectileHit(Entity<IgniteOnProjectileHitComponent> ent, ref ProjectileHitEvent args)
     {
-        Ignite(args.Target, ent.Comp.Stacks, ent.Comp.Intensity, ent.Comp.Duration);
+        Ignite(args.Target, ent.Comp.Stacks, ent.Comp.Intensity, ent.Comp.Duration, false);
     }
 
     private void OnTileFireMapInit(Entity<TileFireComponent> ent, ref MapInitEvent args)
@@ -293,6 +294,11 @@ public abstract class SharedRMCFlammableSystem : EntitySystem
 
         _audio.PlayPredicted(patter.Sound, user, user);
         _popup.PopupClient($"You try to put out the fire on {Name(ent)}!", ent, user, PopupType.SmallCaution);
+        _popup.PopupEntity($"{Name(user)} tries to put out the fire on you!", ent, ent, PopupType.SmallCaution);
+
+        var others = Filter.PvsExcept(ent).RemoveWhereAttachedEntity(e => e == user || e == ent.Owner);
+        _popup.PopupEntity($"{Name(user)} tries to put out the fire on {Name(ent)}!", ent, others, true);
+
     }
 
     private void OnFlammableIgnite(Entity<FlammableComponent> ent, ref RMCIgniteEvent args)
@@ -321,7 +327,7 @@ public abstract class SharedRMCFlammableSystem : EntitySystem
         return Resolve(ent, ref ent.Comp, false) && ent.Comp.OnFire;
     }
 
-    public virtual bool Ignite(Entity<FlammableComponent?> flammable, int intensity, int duration, int? maxStacks)
+    public virtual bool Ignite(Entity<FlammableComponent?> flammable, int intensity, int duration, int? maxStacks, bool igniteDamage = true)
     {
         // TODO RMC14
         return false;

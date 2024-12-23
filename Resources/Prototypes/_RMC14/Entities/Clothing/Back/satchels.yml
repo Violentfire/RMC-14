@@ -2,8 +2,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: CMSatchel
-  name: leather satchel
-  description: A very fancy satchel made of fine leather. Looks pretty pricey.
+  name: шкіряна сумка
+  description: Дуже престижна сумка зроблена з тонкої шкіри. Виглядає побагатому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/classic.rsi
@@ -18,20 +18,40 @@
 - type: entity
   parent: CMSatchel
   id: CMBackpackSniper
-  name: M3 sniper's smock
-  description: A specially-designed smock with pockets for all your sniper needs.
+  name: M3 снайперська сумка
+  description: Спеціально розроблений халат з кишенями, не шумить, і покриває всі снайперські потреби.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/smock.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/sniper_smock/jungle-classic.rsi
   - type: Storage
     grid:
     - 0,0,20,1 # 21, Satchel but with backpack capacity
 
 - type: entity
+  parent: CMBackpackSniper
+  id: RMCBackpackSniperSD
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/sniper_smock/snow-urban-desert.rsi
+
+- type: entity
+  parent: CMBackpackSniper
+  id: RMCBackpackSniperCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMBackpackSniper
+      Desert: RMCBackpackSniperSD
+      Snow: RMCBackpackSniperSD
+      Classic: CMBackpackSniper
+      Urban: CMBackpackSniper
+
+- type: entity
   parent: CMSatchel
   id: RMCBackpackScout
-  name: M68 thermal cloak
-  description: The lightweight thermal dampeners and optical camouflage provided by this cloak are weaker than those found in standard UNMC ghillie suits. In exchange, the cloak can be worn over combat armor and offers the wearer high maneuverability and adaptability to many environments.
+  name: M68 термоплащ
+  description: Легкі термальні приглушувачі та оптичний камуфляж, які забезпечує цей плащ, слабші ніж у стандартних костюмах Гіллі. Але, натомість, цей плащ можна носити поверх броні, і він забезпечує високу маневреність, та кращу пристосованість до навколишніх умов.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/scout_cloak.rsi
@@ -69,8 +89,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelEngineer
-  name: industrial satchel
-  description: A tough satchel with extra pockets.
+  name: промислова сумка
+  description: Міцна сумка, з додатковими кишеннями.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/engineer.rsi
@@ -78,8 +98,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelMedical
-  name: medical satchel
-  description: A sterile satchel used in medical departments.
+  name: медична сумка
+  description: Стерильна сумка, використовувана медиками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/medical.rsi
@@ -87,8 +107,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelSecurity
-  name: security satchel
-  description: A robust satchel composed of two drop pouches and a large internal pocket. Made of a stiff fabric, it isn't very comfy to wear.
+  name: сумка охорони
+  description: Войовнича сумка, що складається, двох маленьких кишеньок та основної кишені. Зроблена з жорсткої тканини, не дуже зручна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/security.rsi
@@ -96,27 +116,77 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelMarine
-  name: Marine satchel
-  description: A heavy-duty satchel carried by some Marine soldiers and support personnel.
+  name: морпіхотна сумка
+  description: Важка сумка, яку носять більшість солдатів Морської Піхоти, та деякий допоміжний персонал.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/standard.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/standard/jungle-desert-classic.rsi
 
 - type: entity
   parent: CMSatchelMarine
-  id: CMSatchelMarineIntel
-  name: Marine lightweight expedition pack
-  description: A heavy-duty IMP based backpack that can be slung around the front or to the side, and can quickly be accessed with only one hand. Usually issued to Marine intelligence officers.
+  id: RMCSatchelMarineSU
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/big.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/standard/snow-urban.rsi  
+
+- type: entity
+  parent: CMSatchelMarine
+  id: RMCSatchelMarineCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMSatchelMarine
+      Desert: CMSatchelMarine
+      Snow: RMCSatchelMarineSU
+      Classic: CMSatchelMarine
+      Urban: RMCSatchelMarineSU
+  
+- type: entity
+  parent: CMSatchelMarine
+  id: CMSatchelMarineIntel
+  name: полегшений морпіхотний експедиційний наплічник
+  description: Міцний наплічник що базується на IMС, його можна повісити спереду чи збоку, тому до нього можна швидко дістатися навіть однією рукою. Зазвичай видається офіцерам розвідки.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/big/jungle-desert-classic.rsi
   - type: Storage
     grid:
     - 0,0,19,1 # 20
 
 - type: entity
   parent: CMSatchelMarineIntel
+  id: RMCSatchelMarineIntelSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/big/snow-urban.rsi 
+
+- type: entity
+  parent: CMSatchelMarineIntel
+  id: RMCSatchelMarineIntelCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMSatchelMarineIntel
+      Desert: CMSatchelMarineIntel
+      Snow: RMCSatchelMarineIntelSU
+      Classic: CMSatchelMarineIntel
+      Urban: RMCSatchelMarineIntelSU
+
+- type: entity
+  parent: CMSatchelMarineIntel
   id: CMSatchelMarineLogistics
+  name: логістичний ІМС наплічник
+  description: Зазвичай використовується логістичним персоналом. Інколи його видають комбатантам для довготривалих вторгнень глибоко у космос.
+  components:
+  - type: Storage
+    grid:
+    - 0,0,20,1 # 21
+
+- type: entity
+  parent: RMCSatchelMarineIntelSU
+  id: RMCSatchelMarineLogisticsSU
   name: Marine logistics IMP backpack
   description: A standard-issue backpack worn by logistics personnel. It is occasionally issued to combat personnel for longer term expeditions and deep space incursions.
   components:
@@ -125,13 +195,46 @@
     - 0,0,20,1 # 21
 
 - type: entity
+  parent: CMSatchelMarineLogistics
+  suffix: Camo Replace
+  id: RMCSatchelMarineLogisticsCamo
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMSatchelMarineLogistics
+      Desert: CMSatchelMarineLogistics
+      Snow: RMCSatchelMarineLogisticsSU
+      Classic: CMSatchelMarineLogistics
+      Urban: RMCSatchelMarineLogisticsSU 
+
+- type: entity
   parent: CMSatchelMarine
   id: CMSatchelMarineMedic
-  name: Marine corpsman satchel
-  description: A heavy-duty satchel used by Marine medics. It sacrifices capacity for usability. A small patch is sewn to the top flap.
+  name: медична бойова сумка
+  description: Міцна сумка використована бойовими медиками. Жертвує місткістю заради зручності. До верхнього клапану пришита невелика латка.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/medic.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/medic/jungle-desert-classic.rsi
+
+- type: entity
+  parent: CMSatchelMarineMedic
+  suffix: Camo Replace
+  id: RMCSatchelMarineMedicCamo
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMSatchelMarineMedic
+      Desert: CMSatchelMarineMedic
+      Snow: RMCSatchelMarineMedicSU
+      Classic: CMSatchelMarineMedic
+      Urban: RMCSatchelMarineMedicSU 
+
+- type: entity
+  parent: CMSatchelMarineMedic
+  id: RMCSatchelMarineMedicSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/medic/snow-urban.rsi
 
 - type: entity
   parent: CMSatchelMarine
@@ -140,7 +243,34 @@
   description: A heavy-duty chestrig used by some Marine technicians.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/techi.rsi
+    sprite: _RMC14/Objects/Clothing/Back/Chestrigs/tech/jungle-classic.rsi
+
+- type: entity
+  parent: CMSatchelMarineTech
+  id: RMCSatchelMarineTechDesert
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Chestrigs/tech/desert.rsi  
+
+- type: entity
+  parent: CMSatchelMarineTech
+  id: RMCSatchelMarineTechSU
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Chestrigs/tech/snow-urban.rsi  
+
+- type: entity
+  parent: CMSatchelMarineTech
+  suffix: Camo Replace
+  id: RMCSatchelMarineTechCamo
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: CMSatchelMarineTech
+      Desert: RMCSatchelMarineTechDesert
+      Snow: RMCSatchelMarineTechSU
+      Classic: CMSatchelMarineTech
+      Urban: RMCSatchelMarineTechSU
 
 - type: entity
   parent: CMSatchel

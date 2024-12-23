@@ -8,7 +8,7 @@ rmc-aslot-rail = Рейка
 rmc-aslot-stock = Приклад
 rmc-aslot-underbarrel = Підствольна частина
 
-rmc-attachable-activation-fail-not-wielded = {CAPITALIZE(THE($holder))} треба мати, щоб активувати {THE($attachable)}!
+rmc-attachable-activation-fail-not-wielded = {CAPITALIZE(THE($holder))} треба тримати в двох руках, щоб активувати {THE($attachable)}!
 rmc-attachable-activation-fail-not-held = {CAPITALIZE(THE($holder))} потрібно тримати, щоб активувати {THE($attachable)}!
 rmc-attachable-activation-fail-not-owned = {CAPITALIZE(THE($holder))} треба тримати або екіпірувати щоб активувати {THE($attachable)}!
 
@@ -32,8 +32,8 @@ attachable-popup-deactivate-unlock = Ви відкріпили {THE($attachable)
 attachable-popup-switch-to-generic = Ви перемкнулися на використання {THE($attachable)}.
 attachable-popup-switch-from-generic = Ви перестали використовувати {THE($attachable)}.
 
-rmc-attachable-examinable-verb-text = Прикріпити приладдя
-rmc-attachable-examinable-verb-message = Оглянути модифікатори які надає це приладдя.
+rmc-attachable-examinable-verb-text = Прикріпити обвіс
+rmc-attachable-examinable-verb-message = Оглянути модифікатори які надає цей обвіс.
 
 rmc-attachable-examine-condition-always = [bold]Always:[/bold]
 rmc-attachable-examine-condition-when = Коли
@@ -50,8 +50,8 @@ rmc-attachable-examine-condition-blacklist-comps = [bold]бракує {$compNumb
 rmc-attachable-examine-condition-blacklist-sizes = [bold]не[/bold] з перелічених розмірів: [bold]{$sizes}[/bold]
 rmc-attachable-examine-condition-blacklist-tags = [bold]бракує {$tagNumber}[/bold] з наступних міток: [bold]{$tags}[/bold]
 
-rmc-attachable-examine-ranged-accuracy = [color={$colour}]{$sign}{$accuracy}[/color] accuracy multiplier.
-rmc-attachable-examine-ranged-scatter = [color={$colour}]{$sign}{$scatter}[/color] градуси розкиду.
+rmc-attachable-examine-ranged-accuracy = [color={$colour}]{$sign}{$accuracy}[/color] коофіцієнт точності.
+rmc-attachable-examine-ranged-scatter = [color={$colour}]{$sign}{$scatter}[/color] градусів розкиду.
 rmc-attachable-examine-ranged-burst-scatter = [color={$colour}]{$sign}{$burstScatterMult}[/color] розсіювання спалаху.
 rmc-attachable-examine-ranged-shots-per-burst = [color={$colour}]{$sign}{$shots}[/color] постріли чергами.
 rmc-attachable-examine-ranged-fire-delay = [color={$colour}]{$sign}{TOSTRING($fireDelay, "F2")}[/color] секунд затримки стрільби.

@@ -1,2 +1,2 @@
-﻿rmc-discord-round-notifications-started = Round #{$id} started: Operation "{$operation}" on "{$planet}" aboard "{$ship}".
-rmc-discord-round-notifications-end = Operation #{$id} "{$operation}" on "{$planet}" aboard "{$ship}" has ended. It lasted for {$hours} hours, {$minutes} minutes, and {$seconds} seconds.
+﻿rmc-discord-round-notifications-started = Раунд #{$id} почався: Операція "{$operation}" на "{$planet}" біля якої перебуває ваш корабель "{$ship}".
+rmc-discord-round-notifications-end = Операція #{$id} "{$operation}" на "{$planet}" біля якої перебуває ваш корабель "{$ship}" завершена. Вона тривала {$hours} годин, {$minutes} хвилин, і {$seconds} секунд.

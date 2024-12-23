@@ -2,10 +2,11 @@
   parent: BaseItem
   id: RMCMortarKit
   name: M402 комплект портативного міномета
-  description: Ручна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
+  suffix: Classic
+  description: Переносна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Weapons/mortar.rsi
+    sprite: _RMC14/Objects/Weapons/mortar/classic.rsi
     layers:
     - map: [ "mortar" ]
       state: mortar_m402_carry
@@ -82,6 +83,64 @@
       components:
       - Marine
 
+#camo variants
+- type: entity
+  parent: RMCMortarKit
+  id: RMCMortarKitCamo
+  suffix: Camo Replace
+  components:
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: RMCMortarKitJungle
+      Desert: RMCMortarKitDesert
+      Snow: RMCMortarKitSnow
+      Classic: RMCMortarKit
+      Urban: RMCMortarKitUrban
+
+- type: entity
+  parent: RMCMortarKit
+  id: RMCMortarKitJungle
+  suffix: Jungle
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/mortar/jungle.rsi
+    layers:
+    - map: [ "mortar" ]
+      state: mortar_m402_carry
+
+- type: entity
+  parent: RMCMortarKit
+  id: RMCMortarKitDesert
+  suffix: Desert
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/mortar/desert.rsi
+    layers:
+    - map: [ "mortar" ]
+      state: mortar_m402_carry
+
+- type: entity
+  parent: RMCMortarKit
+  id: RMCMortarKitSnow
+  suffix: Snow
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/mortar/snow.rsi
+    layers:
+    - map: [ "mortar" ]
+      state: mortar_m402_carry
+
+- type: entity
+  parent: RMCMortarKit
+  id: RMCMortarKitUrban
+  suffix: Urban
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/mortar/urban.rsi
+    layers:
+    - map: [ "mortar" ]
+      state: mortar_m402_carry
+
 - type: entity
   abstract: true
   parent: BaseItem
@@ -99,8 +158,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: 80мм уламково-фугасна міна
-  description: 80мм мінометна міна, заряджена потужним вибуховим зарядом.
+  name: 80мм осколково-фугасна міна
+  description: 80мм мінометна міна, в якій міститься потужний вибуховий заряд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -118,8 +177,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
-  name: 80mm incendiary mortar shell
-  description: An 80mm mortar shell, loaded with a Type B napalm charge. Perfect for long-range area denial.
+  name: 80мм запалювальна мінометна міна
+  description: 80мм мінометна міна, завантажена напалмом типу Б. Ідеальна для тимчасового перерізання доступу на якусь територію.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi

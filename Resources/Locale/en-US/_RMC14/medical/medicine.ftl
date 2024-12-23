@@ -54,7 +54,7 @@ rmc-dexalin-container-label-text = ДК
 rmc-dylovene-container-label-text = ДЛ
 rmc-inaprovaline-container-label-text = ІН
 rmc-first-aid-container-label-text = ПД
-rmc-emergency-medicine-container-label-text = НС
+rmc-emergency-medicine-container-label-text = ЕК
 rmc-dexalin-plus-container-label-text = Д+
 rmc-epinephrine-container-label-text = ЕП
 

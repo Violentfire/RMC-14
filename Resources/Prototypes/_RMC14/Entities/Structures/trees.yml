@@ -1,7 +1,7 @@
 - type: entity
   id: RMCBaseTree
   suffix: RMCBaseTree
-  description: Yep, it's a tree.
+  description: Так, це дерево.
   abstract: true
   components:
   - type: SpriteFade

@@ -1,12 +1,12 @@
 ﻿# Foldable
 
-rmc-jacket-verb-fold = Зняти піджак
-rmc-jacket-verb-unfold = Вдягти піджак
+rmc-jacket-verb-fold = Закатити рукава
+rmc-jacket-verb-unfold = Спустити рукава
 
 rmc-sleeves-verb-fold = Закатити рукава
 rmc-sleeves-verb-unfold = Спустити рукава
 
-rmc-pants-verb-fold = Підкотити штани
-rmc-pants-verb-unfold = Спустити штани
+rmc-pants-verb-fold = Підкотити штанини
+rmc-pants-verb-unfold = Спустити штанини
 
 rmc-buttons-verb-fold = Перемкнути кнопки

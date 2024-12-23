@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchGeneral
-  name: light general pouch
-  description: A general-purpose pouch used to carry a small item, or two tiny ones.
+  name: маленький підсумок
+  description: Підсумок в який можна покласти будь-який маленький предмет, або два крихітних.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -14,6 +14,7 @@
       - Bible
       tags:
       - CMFirstAidKit
+      - RMCEngineerKit
       - RMCBoxStorage
 
 
@@ -21,8 +22,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralMedium
-  name: medium general pouch
-  description: A general-purpose pouch used to carry a variety of differently sized items.
+  name: середній підсумок
+  description: Універсальний підсумок, що використовується для перенесення різних предметів, різного розміру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_drop.rsi
@@ -35,8 +36,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralLarge
-  name: large general pouch
-  description: A general-purpose pouch used to carry more differently sized items.
+  name: великий підсумок
+  description: Універсальний підсумок збільшеної місткості, що використовується для перенесення різних предметів, різного розміру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_drop.rsi
@@ -71,8 +72,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFuelTank
-  name: fuel tank strap pouch
-  description: Two ring straps to loop around M240-pattern napalm tanks. Handle with care.
+  name: підсумок з паливними баками
+  description: Два напалмових баки М240 прив'язані ремінями. ОБЕРЕЖНО БО ВИБУХНЕ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/fueltank.rsi
@@ -94,8 +95,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSurvival
-  name: survival pouch
-  description: A pouch given to colonists in the event of an emergency.
+  name: підсумок вцілілого
+  description: Підсумок який видається усім колоністам у разі надзвичайної ситуації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
@@ -136,8 +137,8 @@
 - type: entity
   parent: RMCPouchSurvival
   id: RMCPouchSurvivalSynth
-  name: synth survival pouch
-  description: An emergency pouch given to silicons in the event of an emergency.
+  name: підсумок вцілілого синтетика
+  description:  Підсумок який видається усім синтетичним колоністам у разі надзвичайної ситуації.
   components:
   - type: Storage
     grid:
@@ -172,8 +173,8 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchCommand
-  name: command pouch
-  description: A specialized, sturdy pouch issued to Commanding Officers. Can hold their sidearm, the command tablet and a set of binoculars.
+  name: підсумок командуючого
+  description: Спеціалізований, надміцний підсумок, який видається Командючим Офіцерам. Містить зброю, керівничій планшет і оптику.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/command.rsi
@@ -239,8 +240,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMagazine
-  name: magazine pouch
-  description: It can carry magazines.
+  name: магазинний підсумок
+  description: В ньому можна переносити магазини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_ammo_mag.rsi
@@ -264,8 +265,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazineLarge
-  name: large magazine pouch
-  description: It can carry many magazines.
+  name: великий магазинний підсумок
+  description: В ньому можна переносити ще більше магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
@@ -278,8 +279,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazinePistol
-  name: pistol magazine pouch
-  description: It can carry pistol magazines and revolver speedloaders.
+  name: підсумок для пістолетних магазинів
+  description: В ньому можна носити пістолетні магазини й швидкі завантажувачі для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pistol_mag.rsi
@@ -296,8 +297,8 @@
 - type: entity
   parent: RMCPouchMagazinePistol
   id: RMCPouchMagazinePistolLarge
-  name: large pistol magazine pouch
-  description: It can carry many pistol magazines or revolver speedloaders.
+  name: великий підсумок для пістолетних магазинів
+  description: В ньому можна носити ще більше пістолетних магазинів й швидких завантажувачів для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_pistol_mag.rsi
@@ -310,8 +311,8 @@
 - type: entity
   parent: [RMCPouchStorage]
   id: RMCPouchShotgun
-  name: shotgun shell pouch
-  description: It can contain handfuls of shells. #, or bullets if you choose to for some reason. # TODO RMC14
+  name: дробовий підсумок
+  description: Може вміщати набої на дробовик... не дивно. #, or bullets if you choose to for some reason. # TODO RMC14          Просто лишу це тут: "У ньому можуть бути жмені черепашок"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_shotshells.rsi
@@ -333,8 +334,8 @@
 - type: entity
   parent: RMCPouchShotgun
   id: RMCPouchShotgunLarge
-  name: large shotgun shell pouch
-  description: It can contain more handfuls of shells. #, or bullets if you choose to for some reason. TODO RMC14
+  name: великий дробовий підсумок
+  description: Може вміщати набої на дробовик... не дивно. #, or bullets if you choose to for some reason. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_shotshells.rsi
@@ -355,8 +356,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchExplosive
-  name: explosive pouch
-  description: It can carry grenades, plastic explosives, mine boxes, and other explosives.
+  name: підсумок для вибухівки
+  description: В ньому можна переносити гранати, ящики з мінами, вибухові заряди, та інше вибухонебезпечне обладнання.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi
@@ -375,8 +376,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDocument
-  name: large document pouch
-  description: It can contain papers, folders, disks, technical manuals, and clipboards.
+  name: великий підсумок для документів
+  description: Може містити папери, папки, диски, технічні довідники, та іншу нудну всячину.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/document.rsi
@@ -397,8 +398,8 @@
 - type: entity
   parent: RMCPouchDocument
   id: RMCPouchDocumentSmall
-  name: small document pouch
-  description: A smaller version of the document pouch. It can contain papers, folders, disks, technical manuals, and clipboards.
+  name: маленький підсумок для документів
+  description: Зменшена версія підсумка для документів. Може містити папери, папки, диски, технічні довідники, та іншу нудну всячину.
   components:
   - type: Storage
     grid:
@@ -409,8 +410,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: flare pouch
-  description: A pouch designed to hold flares. Refillable with an M94 flare pack.
+  name: фаєрний підсумок
+  description: Підсумок призначений для зберігання фаєрів. Переспоряджається упаковкою фаєрів M94.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi
@@ -422,7 +423,7 @@
       map: [ "fullLayer" ]
   - type: CMItemSlots
     cooldown: 1
-    cooldownPopup: You need to wait before taking another flare!
+    cooldownPopup: Вам потрібно зачекати перш ніж взяти наступний фаєр!
     count: 16
     slot:
       name: Flare
@@ -443,8 +444,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchRadio
-  name: radio pouch
-  description: It can contain two handheld radios.
+  name: радіо підсумок
+  description: Може містити дві ручні рації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/radio.rsi
@@ -461,8 +462,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchElectronics
-  name: electronics pouch
-  description: It is designed to hold most electronics, power cells and circuit boards.
+  name: підсумок для електроніки
+  description: В нього можна покласти більшість електроніки, наприклад акамулятори чи плати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/electronics.rsi
@@ -493,8 +494,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchConstruction
-  name: construction pouch
-  description: It's designed to hold construction materials - glass/metal sheets, metal rods, barbed wire, cable coil, and empty sandbags. It also has two hooks for an entrenching tool and light replacer.
+  name: будівельний підсумок
+  description: Призначений для зберігання будівельних матеріалів - скляних/сталевих листів, сталевих прутів, колючого дроту, кабельних котушок, і пустих мішків з піском. Також має два гачки для саперних лопат та замінювач ламп.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/construction.rsi
@@ -531,8 +532,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchTools
-  name: tools pouch
-  description: It's designed to hold maintenance tools - screwdriver, wrench, cable coil, etc. It also has a hook for an entrenching tool or light replacer.
+  name: інструментний підсумок
+  description: Призначений для зберігання інструментів, таких як - викрутка, гайковий ключ, котушка кабелю, тощо. Також має два гачки для саперних лопат та замінювач ламп.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
@@ -577,8 +578,8 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsSoc
-  name: tactical tools pouch
-  description: This particular toolkit full of sharp, heavy objects was designed for breaking into things rather than fixing them. Still does the latter pretty well, though.
+  name: тактичний інструментний підсумок
+  description: Цей інструментний набір, був створений для того, щоб ламати речі, а не лагодити їх. Проте, з останнім він всеодно непогано вправляється.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi
