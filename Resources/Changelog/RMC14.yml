@@ -1,88 +1,4 @@
 ﻿Entries:
-- author: DrSmugleaf
-  changes:
-  - message: Added Sam Ali figurine.
-    type: Add
-  id: 642
-  time: '2024-08-30T12:50:01.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3889
-- author: Vermidia
-  changes:
-  - message: FTLs get insulated gloves as part of their kit
-    type: Fix
-  id: 643
-  time: '2024-08-30T22:49:02.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3894
-- author: DrSmugleaf
-  changes:
-  - message: Fixed Boiler gas spreading into itself and causing massive amounts of
-      lag. Re-enabled Boiler evolution.
-    type: Fix
-  - message: Fixed mortars and sentries not being attackable by xenoniods.
-    type: Fix
-  - message: Fixed Requisitions not being able to buy sentry magazines.
-    type: Fix
-  id: 644
-  time: '2024-08-30T22:59:42.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3897
-- author: Vermidia
-  changes:
-  - message: Fix larva burst in bags being stuck in said bags
-    type: Fix
-  id: 645
-  time: '2024-08-31T23:53:57.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3899
-- author: Vermidia
-  changes:
-  - message: You can now get a general idea of a sentries health by examining it
-    type: Fix
-  - message: Fixed being able to activate sentries right next to other active sentries
-    type: Fix
-  - message: You can rotate placed sentries with a screwdriver
-    type: Fix
-  id: 646
-  time: '2024-09-04T20:41:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3937
-- author: Vermidia
-  changes:
-  - message: Fix Lifesaver Bag not starting with an epinephrine autoinjector
-    type: Fix
-  id: 647
-  time: '2024-09-04T21:07:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3905
-- author: Vermidia
-  changes:
-  - message: Medilathe, useable by med staff and makes various medical supplies out
-      of plastic, such as hyposprays, high-capacity beakers, and stasis bags.
-    type: Add
-  - message: Vial Storage Boxes, which can storage 6 vials or auto-injectors
-    type: Add
-  - message: Fix Chem Plus sprite being wrong
-    type: Fix
-  - message: Fix surgical tray slots being too few
-    type: Fix
-  - message: Lathes are no longer acidable
-    type: Fix
-  id: 648
-  time: '2024-09-04T21:09:11.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3904
-- author: Vermidia
-  changes:
-  - message: Marines not wearing shoes slows them down
-    type: Fix
-  id: 649
-  time: '2024-09-04T21:10:59.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3910
-- author: DrSmugleaf
-  changes:
-  - message: Fixed some areas incorrectly allowing or prohibiting mortar fire and
-      placement. For example, the buildings in Solaris now correctly block a mortar
-      from being deployed inside, but don't prevent one placed outside firing a shell
-      into the building.
-    type: Fix
-  id: 650
-  time: '2024-09-06T08:02:04.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/3951
 - author: Whisper
   changes:
   - message: Added Walks-The-Graves figurine.
@@ -5000,5 +4916,86 @@
   id: 1141
   time: '2024-12-22T14:54:40.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/5204
+- author: DrSmugleaf
+  changes:
+  - message: Fixed comms towers not being able to be repaired.
+    type: Fix
+  - message: Fixed all xeno crit sprites.
+    type: Fix
+  - message: Fixed gardener drone overlays error sprite.
+    type: Fix
+  - message: Fixed warrior and steelcrest defender injury error sprites.
+    type: Fix
+  id: 1142
+  time: '2024-12-22T21:26:40.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5207
+- author: Dutch-VanDerLinde
+  changes:
+  - message: Fixed scarves blocking feeding someone pills.
+    type: Fix
+  id: 1143
+  time: '2024-12-22T21:49:49.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5208
+- author: Vermidia
+  changes:
+  - message: Fixed Medical Kit pouch being called a revival pouch in the corpsman
+      vendor
+    type: Fix
+  id: 1144
+  time: '2024-12-22T21:50:04.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5206
+- author: DrSmugleaf
+  changes:
+  - message: Fixed rounds never ending.
+    type: Fix
+  - message: Added Cyril 'Cloves' Culkins figurine.
+    type: Add
+  id: 1145
+  time: '2024-12-22T23:45:40.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5212
+- author: Rainbeon
+  changes:
+  - message: Fixed Boiler globs phasing through resin walls, membranes, and doors.
+    type: Fix
+  id: 1146
+  time: '2024-12-23T03:21:22.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5215
+- author: Rainbeon
+  changes:
+  - message: Fixed the Hivelord Resin Whisperer's Remote Build being too restrictive
+      on Line of Sight. You now only need to see any tiny part of a tile to remote
+      build on it, similar to CM13.
+    type: Fix
+  id: 1147
+  time: '2024-12-23T03:25:44.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5214
+- author: DrSmugleaf
+  changes:
+  - message: Fixed messages when failing to heal something as a healer drone showing
+      the target's numerical id instead of their name.
+    type: Fix
+  - message: Fixed rounds not ending automatically but actually.
+    type: Fix
+  id: 1148
+  time: '2024-12-23T03:27:22.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5216
+- author: Vermidia
+  changes:
+  - message: Fixed Healer drone pheromones not being the same strength as warden prae
+      pheromones.
+    type: Fix
+  id: 1149
+  time: '2024-12-23T04:08:19.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5219
+- author: Vermidia
+  changes:
+  - message: Fixed revival mix not showing up as revival mix in the corpsman vend
+    type: Fix
+  - message: Fixed CMO, SEA, and Nurses/Doctors not being able to get a medical kit
+      pouch from their vends.
+    type: Fix
+  id: 1150
+  time: '2024-12-24T02:21:51.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/5222
 Name: RMC14
 Order: -1

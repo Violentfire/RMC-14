@@ -4,6 +4,7 @@ cm-xeno-construction-failed-cant-build = Там не можна будувати
 cm-xeno-construction-failed-select-structure = Спочатку треба обрати що саме будувати! Скористайтеся дією під назвою "Обрати Структуру Смоли".
 cm-xeno-construction-failed-requires-support = {CAPITALIZE(MAKEPLURAL($choice))} треба будувати поруч з стіною чи смоляними дверима.
 
+rmc-xeno-construction-remote-failed-need-line-of-sight = We need direct line of sight to build!
 rmc-xeno-construction-remote-failed-need-on-weeds = We must be standing on weeds to establish a connection to the resin.
 rmc-xeno-construction-remote-construct = We focus our plasma into the weeds below us and force the weeds to secrete resin!
 rmc-xeno-construction-remote-open-door = We focus our connection to the resin and remotely open the resin door.
