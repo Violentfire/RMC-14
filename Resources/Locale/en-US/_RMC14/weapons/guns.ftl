@@ -2,34 +2,34 @@ cm-gun-unskilled = Ви не знаєте як використовувати {T
 cm-gun-no-ammo-message = Скінчилися набої!
 cm-gun-use-delay = Зачекайте {$seconds} секунд перед тим як знову вистрілити!
 cm-gun-pump-examine = [bold]Натисніть вашу [color=cyan]унікальну[/color] клавішу (Spacebar за замовчуванням) щоб прокачати перед пострілом.[/bold]
-cm-gun-pump-first-with = Вам спочатку потрібно прокачати зброю за допомогою {$key}!
+cm-gun-pump-first-with = Вам спершу потрібно прокачати зброю за допомогою {$key}!
 cm-gun-pump-first = Спочатку потрібно прокачати зброю!
 
-rmc-breech-loaded-open-shoot-attempt = Спочатку потрібно закрити затвор!
-rmc-breech-loaded-not-ready-to-shoot = Спочатку треба передьорнуть затвор!
-rmc-breech-loaded-closed-load-attempt = Спочатку треба відкрити затвор!
+rmc-breech-loaded-open-shoot-attempt = Спершу потрібно закрити затвор!
+rmc-breech-loaded-not-ready-to-shoot = Спершу треба передьорнуть затвор!
+rmc-breech-loaded-closed-load-attempt = Спершу треба відкрити затвор!
 rmc-breech-loaded-closed-extract-attempt = You need to open the breech first!
 
 rmc-wield-use-delay = Спочатку зачекайте {$seconds} секунд перш ніж використовувати {THE($wieldable)}!
-rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секунд перед стрільбою {THE($wieldable)}!
+rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секунд перед тим як стріляти з {THE($wieldable)}!
 
 rmc-shoot-harness-required = Необхідне спорядження
 rmc-wear-smart-gun-required = Вам треба мати Смартган, щоб носити їх.
 
-rmc-shoot-id-lock-unauthorized = Trigger locked. Unauthorized user.
-rmc-id-lock-unauthorized = Action denied. Unauthorized user.
-rmc-id-lock-authorization = You pick up the {$gun}, registering yourself as its owner.
-rmc-id-lock-authorization-combat = The {$gun} beeps, registering yourself as its owner.
-rmc-id-lock-toggle-lock = You {$action} the id lock on the {$gun}.
+rmc-shoot-id-lock-unauthorized = Гачок заблоковано. НЕАВТОРИЗОВАНИЙ КОРИСТУВАЧ.
+rmc-id-lock-unauthorized = ВІДХИЛЕНО. НЕАВТОРИЗОВАНИЙ КОРИСТУВАЧ.
+rmc-id-lock-authorization = Ви взяли {$gun}, авторизуючись як власник.
+rmc-id-lock-authorization-combat = {$gun} пікає, авторизуючи вас як власника.
+rmc-id-lock-toggle-lock = Ви {$action} індентифікаціний замок на {$gun}.
 
-rmc-id-lock-color-unauthorized = red
-rmc-id-lock-color-authorized = chartreuse
-rmc-id-lock-toggle-on = lock
-rmc-id-lock-toggle-off = unlock
+rmc-id-lock-color-unauthorized = червоним
+rmc-id-lock-color-authorized = шартрезовим
+rmc-id-lock-toggle-on = заблокували
+rmc-id-lock-toggle-off = розблокували
 
-rmc-iff-toggle = You {$action} the IFF on the {$gun}.
-rmc-iff-toggle-off = disable
-rmc-iff-toggle-on = enable
+rmc-iff-toggle = Ви {$action} УДВ для {$gun}.
+rmc-iff-toggle-off = вимкнули
+rmc-iff-toggle-on = увімкнули
 
 rmc-revolver-spin = Ви крутите барабан.
 

@@ -1,8 +1,8 @@
 - type: entity
-  name: pill
+  name: пігулка
   parent: BaseItem
   id: CMPill
-  description: "A pill."
+  description: "Пігулка... пігулка... пігулка... гірка певно"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pills.rsi

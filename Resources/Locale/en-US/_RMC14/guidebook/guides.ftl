@@ -1,6 +1,6 @@
 ﻿cm-guide-entry-rmc = RMC14
 
-cm-guide-entry-rules = Rules
+cm-guide-entry-rules = Правила
 cm-guide-entry-rules-ban-types = Ban Types
 cm-guide-entry-rules-ban-durations = Ban Durations
 cm-guide-entry-rules-zero-tolerance = Zero Tolerance

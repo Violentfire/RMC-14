@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: CMHeadset
-  name: radio headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: гарнітура
+  description: Оновлений, модульний інтерком який кріпиться на голову. Приймає ключі шифрування.
   components:
   - type: ContainerContainer
     containers:
@@ -24,8 +24,8 @@
 - type: entity
   parent: CMHeadset
   id: RMCHeadsetShip
-  name: marine radio headset
-  description: A standard military radio headset. Bulkier than combat models.
+  name: морпіхотна загальна гарнітура
+  description: Стандартна військова гарнітура. Габаритніша за бойові аналоги.
   components:
   - type: ContainerFill
     containers:

@@ -1,21 +1,21 @@
 ﻿<Document>
 
-  #So you've just been born into the hive!
-  #Now what?
+  #Отож, вітаю, ти щойно народилася у нашому славному Вулику!
+  #І шо ж тепер?
 
-  - Rejoice! We've just joined our hive as a larva. We can't do very much right now, but our potential is limitless!
+  - Радій! Ти стала частиною нашої родини. Зараз ти личинка, і не можеш зробити нічого корисного, АЛЕ ТВІЙ ПОТЕНЦІАЛ БЕЗМЕЖНИЙ!
   <Box>
     <GuideEntityEmbed Entity="CMXenoLarva"/>
   </Box>\n
-  - It's time to get to work! As soon as we can, we should try to evolve. This will require us to gain some age by waiting however.
-  - For beginners, becoming a drone is recommended. Drones are responsible for building the hive defenses.
+  - Що ж, пора починати! Пройде якийсь час, і ти зможеш еволюціонувати. А поки, намагайся не померти, сестро.
+  - Для початківців, рекомендовано перетворюватися на трутня. Трутні - це будівельники Вулика, вони будують, будують і будують... інколи носять яйця.
 
   <Box>
     <GuideEntityEmbed Entity="CMGuidebookActionXenoEvolve"/>
     <GuideEntityEmbed Entity="CMXenoDrone"/>
   </Box>\n
 
-  - Here are a few of the things we can construct!
+  - Ось кілька структур, які вони здатні побудувати!
 
   <Box>
     <GuideEntityEmbed Entity="WallXenoResin"/>
@@ -23,9 +23,9 @@
     <GuideEntityEmbed Entity="DoorXenoResin"/>
   </Box>\n
 
-  - Another important job of the Drone is to plant weeds.
-  - Weeds allow us to rest to regain our health and energy!
-  - We can also only construct the hive on weeds.
+  - О, і ще одна їх дуже важлива робота - це саджати траву.
+  - Трава дає нам змогу відпочити на ній відновивши плазму й здоров'я!
+  - А також, лише на ній можна будувати, тому ця робота справді важлива.
   <GuideEntityEmbed Entity="CMGuidebookActionXenoRest"/>
   <Box>
     <GuideEntityEmbed Entity="XenoWeeds"/>
@@ -33,9 +33,9 @@
     <GuideEntityEmbed Entity="XenoWeeds"/>
   </Box>\n
 
-  - Our final goal is to protect the Queen and plant her eggs so our hive may grow!
-  - Eggs can be placed on weeds, and contain parasites.
-  - Parasites can be extracted from the eggs, but be wary that parasites have short lifespans away from the weeds!
+  - Але, як ти вже знаєш, головна задача кожної з нас це захистити Королеву, щоб вона мала можливість відкладати яйця!
+  - До слова, трутні, як я вже й казала, вміють їх носити, а отже й ставити, проте ЛИШЕ НА ТРАВІ, нічого нового.
+  - А потім з цих яєчок можна витягнути паразитів, головне не відпускати їх гуляти не по траві надовго!
 
   <Box>
     <GuideEntityEmbed Entity="CMXenoQueen"/>
@@ -44,8 +44,8 @@
     <GuideEntityEmbed Entity="CMXenoParasite"/>
   </Box>\n
 
-  - When a parasite is placed on a living host, a new larva will be born! Rejoice!
-  - Hosts that hold the growing larva are very precious, and should be secured to a resin wall as soon as possible.
+  - Коли паразит прикріплюється до живого інкубатора, зароджується нова сестра! Во славу Вулика!
+  - Інкубатори в яких зароджуються наші сестри дуже цінні, їх слід берегти, а також якомога швидше прикріпити до стіни смоляним згустком.
   <Box>
     <GuideEntityEmbed Entity="SalvageHumanCorpse"/>
     <GuideEntityEmbed Entity="CMXenoLarva"/>

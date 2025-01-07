@@ -48,7 +48,7 @@ cm-wounds-already-treated-target-popup = Рани {$target} вже обробл�
 cm-burns-already-treated-self-popup = Ваші опіки вже оброблені.
 cm-burns-already-treated-target-popup = Опіки {$target} вже оброблені.
 
-cm-wounds-brackets-translators-note = {"{ }"} = Untreated
+cm-wounds-brackets-translators-note = {"{ }"} = Невиліковно
 
 cm-wounds-failed-unskilled = Ви навіть не здогадуєтеся, як використовувати {THE($treater)}!
 cm-wounds-failed-not-enough = У вас недостатньо {$treater}!

@@ -1,11 +1,11 @@
-rmc-medevac-toggle-beacon-verb = Toggle medevac
+rmc-medevac-toggle-beacon-verb = Перемкнути Маяк
 
-rmc-medevac-area-not-cas = INVALID TARGET: stretcher must be visible from high altitude.
-rmc-medevac-activate-beacon = Stretcher beacon is now active.
-rmc-medevac-inactivate-beacon = Stretcher beacon is now inactive.
+rmc-medevac-area-not-cas = НЕМОЖЛИВА ЦІЛЬ: транспортник не може встановити візуальний контакт.
+rmc-medevac-activate-beacon = Маяк на ношах активовано.
+rmc-medevac-inactivate-beacon = Маяк на ношах деактивовано.
 
-rmc-medevac-no-target = No target found
+rmc-medevac-no-target = Ціль не знайдено
 
-rmc-medevac-stretcher-examine-id = Tracking ID for CAS: {$id}.
+rmc-medevac-stretcher-examine-id = Індентифікатор відстеження для БАП: {$id}.
 
-rmc-medevac-stretcher-failure = Target stretcher is not properly setup
+rmc-medevac-stretcher-failure = Ноші не налаштовані належним чином

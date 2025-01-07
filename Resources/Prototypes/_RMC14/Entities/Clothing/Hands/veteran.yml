@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsVeteran
-  name: armored gloves
-  description: Non-standard kevlon fiber gloves. They're insulated and heavily armored.
+  name: броньовані рукавички
+  description: Незвичайні рукавички з волокон кевлону. Вони не проводять струм, та гарно захищають від пошкоджень.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/veteran.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranInsulated
-  name: insulated armored gloves
-  description: Non-standard kevlon fiber gloves. These are apparently ESPECIALLY insulated.
+  name: ізоляційні броньовані рукавички
+  description: Незвичайні рукавички з волокон кевлону. Вони НАДЗВИЧАЙНО ізоляційні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranPMC
-  name: WeYa PMC gloves
-  description: Standard issue kevlon fiber gloves manufactured for and by Weston-Yamada PMC dispatch division. They are insulated against electrical shock.
+  name: рукавички ПВК Ве-Я  
+  description: Стандартні для підрозділу швидкого реагування ПВК Вестон-Ямади рукавички, зроблені з кевлонових волокон. Не проводять струм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/pmc.rsi
