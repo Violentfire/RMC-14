@@ -1,4 +1,5 @@
-﻿rmc-dropship-pre-flight-fueling = Транспортник проходить передпольотну заправку і тому не може вилетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
+rmc-dropship-pre-flight-fueling = Транспортник проходить передпольотну заправку і тому не може вилетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
+rmc-dropship-pre-hijack = This terminal won't be operational for another {$minutes} minutes.
 
 rmc-dropship-weapons-title = Консоль Озброєння
 

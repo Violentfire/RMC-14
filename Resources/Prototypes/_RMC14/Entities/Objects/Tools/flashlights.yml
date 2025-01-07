@@ -9,7 +9,6 @@
       types:
         Blunt: 0
   - type: HandheldLight
-    addPrefix: false
     blinkingBehaviourId: blinking
     radiatingBehaviourId: radiating
   - type: LightBehaviour
@@ -134,6 +133,8 @@
   name: ручкарик
   description: Ліхтарик розміром з ручку, використовується медичним персоналом.
   components:
+  - type: HandheldLight
+    addPrefix: false
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/penlight.rsi
     layers:
@@ -162,6 +163,8 @@
   name: настільна лампа
   description: Просто настільна лампа, має стояти на столі.
   components:
+  - type: HandheldLight
+    addPrefix: false
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Light/lamp.rsi
     layers:
