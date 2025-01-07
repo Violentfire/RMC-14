@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSurgicalLine
-  name: surgical line
-  description: A roll of military-grade surgical line, able to seamlessly sew up any wound. Also works as a robust fishing line for maritime deployments.
+  name: хірургічна нитка
+  description: Моток хірургічної нитки військового зразка, за допомогою неї можна зашити будь-яку рану. Опціонально, але за допомогою неї можна вирвати зуб.
   components:
   - type: Tag
     tags:
@@ -192,8 +192,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSynthGraft
-  name: synth graft
-  description: An applicator for silicon skin field grafts. The stuff reeks, itches like the dickens, hurts going on, and the color is a perfectly averaged multiethnic tone that doesn't blend with anyone's complexion. But at least you don't have to stay in sickbay.
+  name: трансплантант синтетики
+  description: Річ, яка може пересадити вам шкіру, щоправда силіконову. Пересаджена шкіра невимовно смердить і страшенно свербить, до того ж її колір не пасує нікому. Але, принаймні, не треба буде відлежуватися в лікарні... хоча, це теж радше до мінусів.
   components:
   - type: Tag
     tags:

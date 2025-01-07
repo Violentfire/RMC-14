@@ -103,7 +103,7 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoTeamLeader
-  name: морпіхотна гарнітура лідера вогняної групи браво
+  name: морпіхотна гарнітура лідера вогневої групи браво
   description: Гарнітура, викувана в найближчьому радіоцентрі, для лідера вогневої групи Браво.
   components:
   - type: ContainerFill
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMHeadsetBravo
   id: CMHeadsetBravoMedic
-  name: морпіхотна гарнітура бойових медиків браво
+  name: морпіхотна гарнітура бойового медика браво
   description: Відполірована гарнітура, викувана з стерильного матеріалу, гарне доповнення до крил за спиною.
   components:
   - type: ContainerFill
@@ -198,7 +198,7 @@
   parent: CMHeadsetCharlie
   id: CMHeadsetCharlieMedic
   name: морпіхотна гарнітура бойового медика чарлі
-  description: Ця гарнітура чудово підкреслює янгольскі риси її власників.
+  description: Ця гарнітура чудово підкреслює янгольскі риси її власника.
   components:
   - type: ContainerFill
     containers:

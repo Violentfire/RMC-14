@@ -1,60 +1,60 @@
 <Document>
-[color=#5f698a]█    █ █▄ █[/color] [head=2][bold]UNITED NATIONS MARINE CORPS[/bold][/head]\n
-[color=#5f698a]▀ ▄▀ █ ▀█ [/color]
+[color=#5f698a]█▀▀█ █▄▄█[/color] [head=2][bold] КОРПУС МОРСЬКОЇ ПІХОТИ ОБ'ЄДНАНИХ НАЦІЙ[/bold][/head]\n
+[color=#5f698a]█▄▄█ █▀▀█[/color]
 
-#UNMC Rifleman's Primer
-  - Rise and shine, soldier! Get out of that cryobooth and get tactical!
+#Довідник Стрільця КМПОН
+  - Христос воскрес, солдате! Вилазь зі свого кріогроба і починай готуватися до місії!
 
-  - You've just woken up, so you're hungry. Head to the food vendor, dispense two meals from the machine and get them down your neck. If you have complaints about the food, you can address them to someone who gives a damn!
+  - Ти ж щойно прокинувся, хіба не голодний? Оно роздатчик стоїть, підійди і візьми собі поїсти, можеш хоч дві порції, жирдяю(берете в руку і тицяєте "Я"). Якщо матимеш притензії до їжі, то адресуй їх комусь кому не байдуже!
   <Box>
     <GuideEntityEmbed Entity="ColMarTechFood"/>
     <GuideEntityEmbed Entity="CMMarinePreparedMealChicken"/>
   </Box>
-   - You can't bring those trays with you, so leave them on a nearby table or throw them into the disposals. God help you if I catch you throwing them anywhere else!
+   - Порожні таці з собою не носити!!! Викинь їх десь в смітник, або лиши на столі. І не дай боже, я побачу що ти залишиш їх деінде.
   <Box>
-  [color=red]MARINE! You cannot fight in your shorts! Get dressed! DOUBLE TIME! [/color]
+  [color=red]МОРПІХУ! Ти не можеш воювати в одних лише шортах! ВДЯГАЙСЯ! ШВИДКО! [/color]
   </Box>
-  - Haul your ass to the automated equipment vendor and get your uniform on. Click on the vending machine, and then click the "Standard Marine Apparel".
-  - This will give you your uniform, including undersuit, boots, gloves, helmet, and headset - and you will wear them at ALL TIMES.
+  - Береш свою дупцю, і тягнеш її вдягатися, ось прям перед тобою стоїть автоматизований стелаж зі спорядженням(Клацніть на нього і оберіть "Стандартне Спорядження Морпіха").
+  - Що ж, ти нарешті отримав свій стандартний комлект, він включає в себе верхній одяг, чоботи, рукавички, шолом і гарнітуру.
   <GuideEntityEmbed Entity="ColMarTechEquipment"/>
 
-  - Take note of the colors on your helmet, they denote your squad:\n
-  [color=#E61919]Red for Alpha[/color], [color=#FFC32D]Yellow for Bravo[/color], [color=#C864C8]Purple for Charlie[/color], and [color=#4148C8]Blue for Delta[/color].
+  - Ану поглянь на свій шолом, якого він кольору? От, це позначає в якому загоні ти перебуваєш:\n
+  [color=#E61919]Червоний - це безумна Альфа[/color], [color=#FFC32D]жовтий - нудне Браво[/color], [color=#C864C8]фіолетовий - славне Чарлі[/color], а [color=#4148C8]синій - непомітна Дельта[/color].
 
-  - You now have your choice of equipment. You will only be dispensed one item per category (two for pouches) so choose carefully. Anything marked in [color=green]Green[/color] is recommended for your role, so grab yourself some light or medium armor, an M276 Ammo Load Rig, some first aid pouches, and a gas mask or coif if you so desire.
+  - Тепер час обирати спорядження. Видають лиш один предмет кожної категорії(два для підсумків), того не забудь увімкнути мізки. Усе, що там позначено [color=green]зеленим[/color] є рекомендованим спорядженням для твоєї, стрільцю, ролі, того рекомендую взяти легку чи середню броню, ремінь для набоїв М276, кілька підсумків першої допомоги, а також балаклаву, бо коли вона на тобі ти виглядаєш круто... хоча, в твоєму випадку це не допоможе.
     <Box>
     <GuideEntityEmbed Entity="CMBeltMarine"/>
     <GuideEntityEmbed Entity="RMCPouchFirstAid"/>
     </Box>
-  - You have 45 points to spend on extra equipment, such as grenades, tools, or special ammo! Each item has its own point cost and some items are better value than others. For now, grab some extended or armor-piercing magazines for the M54C and store them in your belt.
+  - Маєш 45 балів, щоб купити собі якийсь додатковий екіп, гранати там, інструменти, чи спеціальні набої! Кожен предмет має свою ціну, і в балах, і на полі бою. Хапай кілька бронебійних чи збільшених магазинів на M54C, і кидай собі в ремінь.
 
-  <Box>[color=red]Now you look like a marine![/color]
+  <Box>[color=red]Ось тепер виглядаєш як морпіх, ну, майже![/color]
   </Box>
-  - Now you're ready for prom but you ain't leaving this house without a chaperone!
-  - Head to the Automated Weapon rack and select your weapon. As before, recommended items are colored [color=green]Green[/color].
+  - Що ж, вдягнутися ти вдягнувся, а ВОЮВАТИ чим, не ножем же(До слова, ніж міститься у ваших чоботах, просто наведіться на них і натисніть "У")?!
+  - Тепер йди помацай автоматизований стелаж зі зброєю. Як і раніше, рекомендоване позначено [color=green]ЗЕЛЕНИМ[/color] кольором.
   <Box>
   <GuideEntityEmbed Entity="ColMarTechGuns"/>
   </Box>
-   - Meet your new best friend, the [bold]M54C Assault Rifle MK2[/bold]. Take some extra magazines and put them in your belt or pouches, and don't forget to load the gun.
-   - Now you might be tempted to take your new buddy for a spin and get to know eachother a little better. Head to the firing range if you want to practice your aim.
-   -If you are not in the firing range you [color=red]do not[/color] discharge your weapon!
+   - О, бачу ти вже, знайомся, твій найкращий друг [bold] штурмова гвинтівка M54C MK2[/bold]. Заряди її, і не забудь напхати собі ще більше магазинів, якщо ремінь вже тріщіть закріпи кілька магазинів на броніку.
+   - Ха, бачу в тебе вже є спокуса познайомитися з ним краще, почекай, не все так швидко, спробуй спершу дочекатися висадки, там вже й постріляєш.
+   - До речі, ти знав, що треба [color=red]розряджати[/color] зброю, поки ти знаходишся не в зоні бойових, чи стрільбищі? От і я не знав, тому забий.
     <GuideEntityEmbed Entity="WeaponRifleM54C"/>
-   - Make sure you have some standard and armor-piercing (AP) magazines. AP will punch through tougher targets, and that includes marines so WATCH. YOUR. FIRE.
+   - Переконайся, що маєш звичайні і бронебійні (ББ) магазини. ББшні краще пробивають цілі, в тому числі і дружні, тому ДИВИСЯ. КУДИ. СТРІЛЯЄШ.
   <Box>
   <GuideEntityEmbed Entity="CMMagazineRifleM54C"/>
   <GuideEntityEmbed Entity="CMMagazineRifleM54CAP"/>
   </Box>
-  - Inside the armory you will also find machines dispensing surplus uniforms, tools, munitions, and weapon attachments. We will cover weapon attachments in more detail another time.
-  <Box>[color=red]You're mean, you're green, you're a UN Marine! OORAH![/color]
+  - Всередині цієї кімнатки, її наче арсеналом звуть, але для мене "споряджалка", ще є багацько автоматів, які там уніформу, інструменти, обвіси всілякі на зброю видають. Про обвіси на зброю я тобі розповім наступного разу, якщо ти, звісно, доживеш.
+  <Box>[color=red]Ти злий, ти крутий, ти чорт морський! Єееее![/color]
   </Box>
 
-  - Find your squadmates and head to briefing. If you're late to the party, head straight west to the hangar bay and get ready for deployment.
+  - Тепер знайди своїх побратимів і рухайтеся разом на брифінг. Краще тобі не знати, що буде якщо ти запізнишся на цю вечірку... ДВАДЦЯТЬ. НАРЯДІВ. НА. ТУАЛЕТ. ПОЗАЧЕРГОВО.
 
-  - If you need any help, you can ask any of your fellow marines, or your local mentor, the Senior Enlisted Advisor.
-  - If you need extra assistance or have a problem, you can press F1 to contact the admins.
+  - Якщо буде потрібна якась допомога, можеш запитатися в своїх побратимів, чи в місцевого Інструктора, але, даю гарантію тобі не сподобається зустріч з ним.
+  - Якщо потребуєш якусь більш профільну допомогу, або таку, на яку ніхто не знає відповіді, настискай "F1" щоб зв'язатися з адмінами.
   <Box>
     <GuideEntityEmbed Entity="CMGuidebookRoleSEA"/>
   </Box>
-<Box>[color=red]SEMPER FI, MARINE! DISMISSED![/color]
+<Box>[color=red]ГЕРОЇ НЕ ВМИРАЮТЬ! ВІЛЬНИЙ![/color]
 </Box>
 </Document>

@@ -312,7 +312,7 @@
   parent: [RMCPouchStorage]
   id: RMCPouchShotgun
   name: дробовий підсумок
-  description: Може вміщати набої на дробовик... не дивно. #, or bullets if you choose to for some reason. # TODO RMC14          Просто лишу це тут: "У ньому можуть бути жмені черепашок"
+  description: В нього можна покласти набої на дробовик... не дивно. #, or bullets if you choose to for some reason. # TODO RMC14          Просто лишу це тут: "У ньому можуть бути жмені черепашок"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_shotshells.rsi
@@ -335,7 +335,7 @@
   parent: RMCPouchShotgun
   id: RMCPouchShotgunLarge
   name: великий дробовий підсумок
-  description: Може вміщати набої на дробовик... не дивно. #, or bullets if you choose to for some reason. TODO RMC14
+  description: В нього можна покласти набої на дробовик... не дивно. #, or bullets if you choose to for some reason. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_shotshells.rsi
@@ -377,7 +377,7 @@
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDocument
   name: великий підсумок для документів
-  description: Може містити папери, папки, диски, технічні довідники, та іншу нудну всячину.
+  description: Може вмістити папери, папки, диски, технічні довідники, та іншу нудну всячину.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/document.rsi
@@ -399,7 +399,7 @@
   parent: RMCPouchDocument
   id: RMCPouchDocumentSmall
   name: маленький підсумок для документів
-  description: Зменшена версія підсумка для документів. Може містити папери, папки, диски, технічні довідники, та іншу нудну всячину.
+  description: Зменшена версія підсумка для документів. Може вмістити папери, папки, диски, технічні довідники, та іншу нудну всячину.
   components:
   - type: Storage
     grid:
@@ -445,7 +445,7 @@
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchRadio
   name: радіо підсумок
-  description: Може містити дві ручні рації.
+  description: Може вмістити дві ручні рації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/radio.rsi
@@ -495,7 +495,7 @@
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchConstruction
   name: будівельний підсумок
-  description: Призначений для зберігання будівельних матеріалів - скляних/сталевих листів, сталевих прутів, колючого дроту, кабельних котушок, і пустих мішків з піском. Також має два гачки для саперних лопат та замінювач ламп.
+  description: Призначений для зберігання будівельних матеріалів - скляних/сталевих листів, сталевих прутів, колючого дроту, кабельних котушок, і пустих мішків з піском. Також має два гачки для саперних лопат та замінювача ламп.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/construction.rsi
