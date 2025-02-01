@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: power loader # TODO RMC14 name
-  description: An old but trusted design used in warehouses, constructions and military ships everywhere. # TODO RMC14 description
+  name: завантажувач # TODO RMC14 name
+  description: Старий, але надійний завантажувач, що використовується всюди де тільки можна уявити. # TODO RMC14 description
   components:
   - type: PowerLoader
     skills:

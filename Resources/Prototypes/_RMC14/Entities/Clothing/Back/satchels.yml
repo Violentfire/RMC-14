@@ -18,7 +18,7 @@
 - type: entity
   parent: CMSatchel
   id: CMBackpackSniper
-  name: M3 снайперська сумка
+  name: снайперська сумка M3 
   description: Спеціально розроблений халат з кишенями, не шумить, і покриває всі снайперські потреби.
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSatchel
   id: RMCBackpackScout
-  name: M68 термоплащ
+  name: термоплащ M68 
   description: Легкі термальні приглушувачі та оптичний камуфляж, що пропонує цей плащ, слабші ніж у стандартних костюмах Гіллі. Але, натомість, його можна носити поверх броні, до того ж, він забезпечує високу маневреність, та кращу пристосованість до навколишніх умов.
   components:
   - type: Sprite
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMSatchel
   id: CMSatchelSecurity
-  name: сумка охорони
-  description: Войовнича сумка, що складається, двох маленьких кишеньок та основної кишені. Зроблена з жорсткої тканини, не дуже зручна.
+  name: сумка охоронця
+  description: Войовнича сумка, що складається з двох маленьких кишеньок та основної кишені. Зроблена з жорсткої тканини, не дуже зручна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/security.rsi
@@ -104,7 +104,7 @@
   parent: CMSatchel
   id: CMSatchelMarine
   name: морпіхотна сумка
-  description: Важка сумка, яку носять більшість солдатів Морської Піхоти, та деякий допоміжний персонал.
+  description: Важка сумка, яку носять більшість солдатів Морської Піхоти, та деякий персонал підтримки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/standard/jungle-desert-classic.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMSatchelMarine
   id: CMSatchelMarineIntel
-  name: полегшений морпіхотний експедиційний наплічник
+  name: полегшений експедиційний наплічник
   description: Міцний наплічник що базується на IMС, його можна повісити спереду чи збоку, тому до нього можна швидко дістатися навіть однією рукою. Зазвичай видається офіцерам розвідки.
   components:
   - type: Sprite

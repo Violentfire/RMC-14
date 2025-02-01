@@ -12,7 +12,7 @@
             - !type:SnapToGrid { }
           steps:
             - tag: RMCRackParts
-              name: rack parts
+              name: частини стелажів
               icon:
                 sprite: _RMC14/Objects/Materials/rack_parts.rsi
                 state: icon

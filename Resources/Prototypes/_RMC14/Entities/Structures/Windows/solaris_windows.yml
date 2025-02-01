@@ -37,8 +37,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowSolaris
-  name: window
-  description: A glass window inside a wall frame.
+  name: вікно
+  description: Скляне вікно всередині стінної рами.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/solaris_window.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowSolarisReinforced
-  name: reinforced window
-  description: A glass window. The inside is reinforced with a few tempered matrix rods along the base. It looks rather strong. Might take a few good hits to shatter it.
+  name: армоване вікно
+  description: Скляне вікно. Внутрішня частина армована кількома загартованими матричними стрижнями вздовж основи. Виглядає досить міцним. Може знадобитися кілька хороших ударів, щоб розбити його.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/solaris_rwindow.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowSolarisHull
-  name: hull window
-  description: A glass window. Something tells you this one is somehow indestructible.
+  name: корпусне вікно
+  description: Скляне вікно. Щось підказує вам, що воно незнищенне. 
   components:
   - type: Corrodible
     isCorrodible: false

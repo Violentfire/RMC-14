@@ -5,7 +5,7 @@
   parent: BaseItem
   id: RMCExplosiveBreachingCharge
   name: підривний заряд # TODO RMC14 disable with multitool?
-  description: Вибуховий пристрій, що використовується для проникнення в закриті зони шляхом підриву, направляє вибухову хвилю в стіну, ти самим захищаючи вас від можливості бути понівечиним нею.
+  description: Вибуховий пристрій, що використовується для проникнення в закриті зони шляхом підриву, направляє вибухову хвилю в стіну, тим самим захищаючи вас від можливості бути понівечиним нею.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/satchel_charge.rsi

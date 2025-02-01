@@ -1,7 +1,7 @@
-cm-refillable-solution-full = {CAPITALIZE(THE($target))} is full!
-cm-refillable-solution-cannot-refill = {CAPITALIZE(THE($user))} cannot refill the {$target}.
-cm-refillable-solution-whirring-noise = {CAPITALIZE(THE($user))} makes a whirring noise as it refills your {$target}.
+cm-refillable-solution-full = {CAPITALIZE(THE($target))} заповнено!
+cm-refillable-solution-cannot-refill = {CAPITALIZE(THE($user))} не може перезаправити {$target}.
+cm-refillable-solution-whirring-noise = {CAPITALIZE(THE($user))} дзижчіть, коли наповнює ваш {$target}.
 
-rmc-bottle-closed = An airtight lid seals it completely.
-rmc-bottle-put-lid = Add lid
-rmc-bottle-remove-lid = Remove lid
+rmc-bottle-closed = Герметична кришка повністю закриває її.
+rmc-bottle-put-lid = Закрити кришку
+rmc-bottle-remove-lid = Зняти кришку

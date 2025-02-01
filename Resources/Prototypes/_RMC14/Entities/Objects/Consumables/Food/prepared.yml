@@ -110,7 +110,7 @@
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealTofu
   name: морпіхотний приготований пайок (тофу)
-  description: КМПООН не подає тофу, тож викуси, клятий травосмокт гіппі. Цей прапор означає вашу поразку.
+  description: КМПОН не подає тофу, тож викуси, клятий травосмокт гіппі. Цей прапор означає вашу поразку.
   components:
   - type: Sprite
     state: tofu

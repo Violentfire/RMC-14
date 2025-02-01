@@ -55,4 +55,4 @@ cm-wounds-failed-not-enough = У вас недостатньо {$treater}!
 cm-wounds-open-cut = {$target} розрізано, вам треба щось більше ніж {$treater}!
 cm-wounds-cannot-treat = {THE($treater)} не лікує такі рани!
 cm-wounds-already-treated = Рани {$target} вже оброблені!
-cm-wounds-start-fumbling = Ви починаєте доглядати {THE($name)}.
+cm-wounds-start-fumbling = Ви починаєте лікувати за допомогою {THE($name)}.

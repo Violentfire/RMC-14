@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowChigusa
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: армоване вікно
+  description: Скляне вікно зі спеціальною стрижневою матрицею вмонтоване у стінну раму. Виглядає досить міцним. Може знадобитися кілька хороших ударів, щоб розбити його.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/chigusa.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowHangar
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: армоване вікно
+  description: Скляне вікно зі спеціальною стрижневою матрицею вмонтоване у стінну раму. Виглядає досить міцним. Може знадобитися кілька хороших ударів, щоб розбити його.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hangar.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowBunker
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: армоване вікно
+  description: Скляне вікно зі спеціальною стрижневою матрицею вмонтоване у стінну раму. Виглядає досить міцним. Може знадобитися кілька хороших ударів, щоб розбити його.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/bunker.rsi

@@ -20,7 +20,7 @@
     - to: apc
       steps:
       - component: ApcElectronics
-        name: "power control module"
+        name: "модуль керування живленням"
         icon:
           sprite: "_RMC14/Objects/Misc/module.rsi"
           state: "power_mod"

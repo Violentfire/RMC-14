@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: RMCTablePartBase
-  name: table parts
-  description: A kit for a table, including a large, flat metal surface and four legs. Some assembly required.
+  name: деталі столу
+  description: Комплект для столу, що включає велику плоску металеву поверхню та чотири ніжки. Потрібна певна збірка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/table_parts.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: RMCTablePartBase
   id: RMCTablePartTan
-  name: tan table parts
+  name: деталі столу
   components:
   - type: Sprite
     state: tan
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCTablePartBase
   id: RMCTablePartReinforced
-  name: reinforced table parts
-  description: A kit for a table, including a large, flat metal surface and four legs. This kit has side panels. Some assembly required.
+  name: армовані деталі столу
+  description: Комплект для столу, що включає велику плоску металеву поверхню та чотири ніжки. Цей комплект має бічні панелі. Потрібна певна збірка.
   components:
   - type: Sprite
     state: reinforced
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCTablePartBase
   id: RMCTablePartWood
-  name: wooden table parts
-  description: A kit for a table, including a large, flat wooden surface and four legs. Some assembly required.
+  name: дерев'яні деталі столу
+  description: Комплект для столу, що включає велику плоску дерев'яну поверхню та чотири ніжки. Потрібна деяка збірка.
   components:
   - type: Sprite
     state: wood
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCTablePartWood
   id: RMCTablePartWoodPoor
-  name: poor wooden table parts
-  description: A kit for a poorly crafted table, including a large, flat wooden surface and four legs. Some assembly required.
+  name: неякісні дерев'яні деталі столу
+  description: Комплект для неякісно виготовленого столу, що включає велику плоску дерев'яну поверхню та чотири ніжки. Потрібна деяка збірка.
   components:
   - type: Sprite
     state: poor_wood
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCTablePartWood
   id: RMCTablePartWoodFancy
-  name: fancy wooden table parts
-  description: A kit for a finely crafted mahogany table, including a large, flat wooden surface and four legs. Some assembly required.
+  name: вишукані дерев'яні деталі столу
+  description: Комплект для вишуканого столу з червоного дерева, що включає велику плоску дерев'яну поверхню та чотири ніжки. Потрібна деяка збірка.
   components:
   - type: Sprite
     state: fancy_wood
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCTablePartBase
   id: RMCTablePartGambling
-  name: gambling table parts
+  name: частини грального столу
   components:
   - type: Sprite
     state: gamble
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCTablePartBase
   id: RMCTablePartAlmayer
-  name: gray table parts
+  name: деталі сірого столу
   components:
   - type: Sprite
     state: almayer

@@ -41,9 +41,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM42A2WoodenStock
-  name: M42A2 wooden stock
-  suffix: Desert
-  description: A non-standard heavy wooden stock for the M42A2 Shotgun. More cumbersome than the standard issue stakeout, but reduces recoil and scatter. Allegedly makes a pretty good club in a fight too.
+  name: "дерев'яний приклад M42A2"
+  description: "Нестандартний важкий дерев'яний приклад для дробовика M42A2. Більш громіздкий, ніж стандартний, але зменшує віддачу та розсіювання. Як кажуть, також є досить хорошою дубинкою в бою."
   components:
   - type: Sprite
     state: d-stock
@@ -79,6 +78,7 @@
       accuracyAddMult: -0.15
       recoilFlat: 2
       scatterFlat: 6
+  - type: Appearance
   - type: ItemCamouflage
     states:
       Jungle: stock
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentMOU53Stock
-  name: MOU53 tactical stock
-  description: A metal stock fitted specifically for the MOU53 break action shotgun.
+  name: тактичний приклад MOU53
+  description: Металевий приклад, спеціально розроблений для рушниці MOU53
   components:
   - type: Sprite
     state: ou_stock
@@ -132,14 +132,14 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentXM51Stock # TODO RMC14 burst
-  name: XM51 stock
-  suffix: Jungle
-  description: A specialized stock designed for XM51 breaching shotguns. Helps the user absorb the recoil of the weapon while also reducing scatter. Integrated mechanisms inside the stock allow use of a devastating two-shot burst. This comes at a cost of the gun becoming too unwieldy to holster, worse handling and mobility.
+  name: приклад XM51
+  description: Спеціалізований приклад, розроблений для рушниць пробивної дії XM51. Допомагає користувачеві поглинати віддачу зброї, зменшуючи розсіювання. Інтегровані механізми всередині приклада дозволяють використовувати руйнівну серію з двох пострілів. Але за це доводиться платити тим, що зброя стає занадто громіздкою для носіння в кобурі, гіршою керованістю та мобільністю.
   components:
   - type: Sprite
     state: xm51_stock
   - type: AttachableVisuals
     suffix: ""
+  - type: Appearance
   - type: Tag
     tags:
     - RMCAttachmentStock
@@ -181,8 +181,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentDoubleBarrelShotgunStock
-  name: double barrel shotgun stock
-  description: A chunky piece of wood coated in varnish and age.
+  name: приклад двоствольної рушниці
+  description: Грубезний шматок дерева, покритий лаком і постарілий.
   components:
   - type: Sprite
     state: db-stock
@@ -198,8 +198,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM890Stock
-  name: M890 Tactical Stock
-  description: Standard Stock for the M890 tactical shotgun.
+  name: тактичний приклад M890
+  description: Стандартний приклад для тактичної рушниці M890.
   components:
   - type: Sprite
     state: tactical_stock_221
@@ -236,8 +236,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentSlavicStock
-  name: double barrel shotgun stock
-  description: A chunky piece of wood coated in varnish and age.
+  name: приклад двоствольної рушниці
+  description: Грубезний шматок дерева, покритий лаком і постарілий.
   components:
   - type: Sprite
     state: slavicstock
@@ -262,9 +262,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM54CStockSolid
-  name: M54C solid stock
-  suffix: Desert
-  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: цілісний приклад M54C
+  description: Рідкісний приклад, який у невеликих кількостях надходив на озброєння підрозділів UNMC. Сумісна з M54C, цей приклад зменшує віддачу та розсіювання, але за рахунок погіршення керованості та маневреності. Також покращує удари прикладом по предметах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/desert.rsi
@@ -300,6 +299,7 @@
       accuracyAddMult: -0.15
       recoilFlat: 2
       scatterFlat: 6
+  - type: Appearance
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/jungle.rsi
@@ -311,8 +311,8 @@
 - type: entity
   parent: RMCAttachmentM54CStockSolid
   id: RMCAttachmentM54CStockSolidMarksman
-  name: M54C marksman stock
-  description: A rare stock distributed in small numbers to UNMC forces. Compatible with the M54C, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: стрілецький приклад M54C
+  description: Рідкісний приклад, який у невеликих кількостях надходив на озброєння підрозділів UNMC. Сумісна з M54C, цей приклад зменшує віддачу та розсіювання, але за рахунок погіршення керованості та маневреності. Також покращує удари прикладом по предметах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
@@ -327,8 +327,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM54CStockCollapsible
-  name: M54C folding stock
-  description: The standard back end of any gun starting with M54. Compatible with the M54C series, this stock reduces recoil and scatter, but at a reduction to handling and agility. Also enhances the thwacking of things with the stock-end of the rifle.
+  name: складний приклад M54C
+  description: Стандартна задня частина будь-якого пістолета, починаючи з M54. Сумісна з серією M54C, ця ложа зменшує віддачу та розсіювання, але при цьому погіршує керованість та маневреність гвинтівки. Також покращує удари прикладом по предметах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/desert.rsi
@@ -346,7 +346,7 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/desert.rsi
       state: m54c-col-on
-    actionName: Toggle M54C Folding Stock
+    actionName: Розкласти приклад для M54C
   - type: AttachableSizeMods
     modifiers:
       - size: 1
@@ -387,8 +387,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM16Stock
-  name: M16 bump stock
-  description: Technically illegal in the state of California.
+  name: приклад M16 з відбійником
+  description: Технічно нелегальний у штаті Каліфорнія.
   components:
   - type: Sprite
     state: m16-stock
@@ -405,8 +405,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM16StockCollapsible
-  name: collapsible M16 stock
-  description: Very illegal in the state of California.
+  name: розкладний приклад M16
+  description: Дуже незаконний в штаті Каліфорнія.
   components:
   - type: Sprite
     state: m16-folding
@@ -420,7 +420,7 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
       state: m16-folding-on
-    actionName: Toggle Collapsible M16 Stock
+    actionName: Розкласти приклад M16
   - type: Tag
     tags:
     - RMCAttachmentStock
@@ -449,8 +449,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM79Stock
-  name: M79 hardened polykevlon stock
-  description: Helps to mitigate the recoil of launching a 40mm grenade. Fits only to the M79.
+  name: приклад із загартованого полікевлону M79
+  description: "Допомагає пом'якшити віддачу при відстрілі 40-мм гранати. Підходить лише для M79."
   components:
   - type: Sprite
     state: m79-stock
@@ -466,8 +466,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentM63Stock
-  name: submachinegun stock
-  description: A rare AEGIS stock distributed in small numbers to UNMC forces. Compatible with the M63, this stock reduces recoil and scatter, but at a reduction to handling and agility. Seemingly a bit more effective in a brawl.
+  name: приклад для пістолета-кулемета
+  description: Рідкісний приклад AEGIS, що постачався у малих кількостях підрозділам UNMC. Сумісний з M63, цей приклад зменшує віддачу та розсіювання, але за рахунок зниження керованості та маневреності. Здається, він трохи ефективніший у ближньому бою.
   components:
   - type: Sprite
     state: smgstock
@@ -504,8 +504,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM63StockCollapsible
-  name: submachinegun folding stock
-  description: A Kirchner brand K2 M63 folding stock, standard issue in the UNMC. The stock, when extended, reduces recoil and scatter, but at a reduction to handling and agility. Seemingly a bit more effective in a brawl. This stock can collapse in, removing all positive and negative effects.
+  name: розкладний приклад для пістолета-кулемета
+  description: Складаний приклад K2 M63 марки Kirchner, що входить до стандартної комплектації UNMC. Висунута ложа зменшує віддачу та розкид, але при цьому погіршує маневреність та маневреність. Здається, що це трохи ефективніше в сутичці. Цей приклад можна скласти, прибравши всі позитивні та негативні ефекти.
   components:
   - type: Sprite
     state: smgstockcol
@@ -520,7 +520,7 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
       state: smgstockcol-on
-    actionName: Toggle Submachinegun Folding Stock
+    actionName: Розкласти приклад для пістолета-кулемета
   - type: AttachableSizeMods
     modifiers:
     - conditions:
@@ -556,8 +556,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM63ArmBrace
-  name: submachinegun arm brace
-  description: A specialized stock for use on an M63 submachine gun. It makes one handing more accurate at the expense of burst amount. Wielding the weapon with this stock attached confers a major inaccuracy and recoil debuff.
+  name: ручна підпора для пістолета-кулемета
+  description: Спеціалізований приклад для використання з пістолетом-кулеметом M63. Він підвищує точність при стрільбі однією рукою, але зменшує кількість пострілів в серії. Використання зброї з цим прикладом додає значний штраф до точності та віддачі.
   components:
   - type: Sprite
     state: smg-brace
@@ -576,8 +576,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
       state: smg-brace-on
-    actionName: Toggle Submachinegun Arm Brace
-    actionDesc: Lock the arm brace to your arm.
+    actionName: Розкласти підпору для пістолета-кулемета
+    actionDesc: Зафіксує підпору до твоєї руки
   - type: AttachablePreventDropToggleable
   - type: AttachableSizeMods
     modifiers:
@@ -603,8 +603,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM44MagnumSharpshooterStock
-  name: M44 magnum sharpshooter stock
-  description: A wooden stock modified for use on a 44-magnum. Increases accuracy and reduces recoil at the expense of handling and agility. Less effective in melee as well.
+  name: стрілецький приклад M44 Magnum
+  description: "Дерев'яний приклад, модифікований для використання з .44 Magnum. Підвищує точність та зменшує віддачу, але за рахунок зниження керованості та маневреності. Менш ефективний у ближньому бою."
   components:
   - type: Sprite
     state: 44stock
@@ -624,7 +624,7 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
       state: 44stock-on
-    actionName: Toggle M44 Magnum Sharpshooter Stock
+    actionName: Розкласти стрілецький приклад M44 Magnum
   - type: AttachableSizeMods
     modifiers:
     - size: 1
@@ -658,9 +658,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentXM88Stock
-  name: XM88 padded stock
-  suffix: Desert
-  description: A specially made compound polymer stock reinforced with aluminum rods and thick rubber padding to shield the user from recoil. Fitted specifically for the XM88 Heavy Rifle.
+  name: приклад XM88 з амортизацією
+  description: Спеціально виготовлений композитний полімерний приклад, посилений алюмінієвими прутами та товстою гумовою підкладкою для захисту користувача від віддачі. Сумісний виключно з важкою гвинтівкою XM88.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
@@ -697,6 +696,7 @@
       accuracyAddMult: -0.1
       recoilFlat: 1
       scatterFlat: 14
+  - type: Appearance
   - type: ItemCamouflage
     states:
       Jungle: boomslang-stock

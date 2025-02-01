@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseItem
   id: RMCEngineeringUpgrade
-  name: engineering upgrade kit
-  description: A kit used to upgrade the defenses of an engineer's sentry. Back in 1980 when the machines tried to break free, it was a single android who laid them low. Now their technology is used widely on the rim.
+  name: покращувальний набір турелі
+  description: Набір, що дозволяє покращити вашу турель. Повертаючись в 1980, коли єдина покращена турель змогла зупинити повстання машин, можна зробити висновок про необхідність цього. А зараз такі технології використовуються повсякчас.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/engineering_kit.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: RMCBaseSentry
   id: RMCSentry
-  name: UN 571-C sentry gun
-  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
+  name: ОН 571-C вартова турель
+  description: Напівавтоматична турель, яку можна розмістити, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою M30 і 500-набійним барабанним магазином.
   components:
   - type: Icon
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMini
-  name: UN 512-M mini sentry
-  description: A compact version of the UNMC defenses. Designed for quick deployment of the associated type in the field.
+  name: ОН 512-M міні-турель вартовий
+  description: Компактна версія стандартної турелі. Створена для швидкого розгортання в польових умовах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniper
-  name: UN 725-D sniper sentry
-  description: A fully-automated defence turret with long-range targeting capabilities. Armed with a modified M32-S Autocannon and an internal belt feed.
+  name: ОН 725-D снайперська вартова турель
+  description: Повністю автономна турель, яка може вражати цілі на далекій дистанції. Оснащенна модифікованою автогарматою M32-S і внутрішньою стрічкою набоїв.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryOmni
-  name: UN 571-D omnidirectional sentry gun
-  description: A deployable, semi-automated turret with 360 degree range AI targeting capabilities. Armed with an M30 Autocannon and a 500-round drum magazine.
+  name: ОН 571-D всюдиглядна вартова турель
+  description: Напівавтоматична турель, яка може крутити гармату на 360 градусів, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою M30 і 500-набійним барабанним магазином.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -373,8 +373,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryShotgun
-  name: UN 12-G Shotgun Sentry
-  description: A deployable, semi-automated turret with specialized for close range combat. Protects itself with sturdier plating and steel tusks.
+  name: ОН 12-G вартова турель-дробовик
+  description: Розміщувальна, напівавтоматична турель, що спеціалізована на ближній дистанції. Захищена міцним покриттям, і сталевими іклами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -439,8 +439,8 @@
 - type: entity
   parent: RMCBaseTurret
   id: RMCTurretGaussDumb
-  name: damaged UN-577 gauss turret
-  description: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been fried via acid damage, and it will open fire on any targets within range.
+  name: пошкоджена ОН-577 турель
+  description: Напівавтоматична турель, яку можна розмістити, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою M30 і великим барабанним магазином. Система УДВ цієї турелі знищена кислотою, тож вона відкриватиме вогонь по будь-якій цілі, в межах досяжності.
   components:
   - type: Gun
     fireRate: 2.5

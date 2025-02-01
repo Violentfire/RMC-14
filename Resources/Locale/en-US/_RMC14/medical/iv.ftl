@@ -1,26 +1,26 @@
-﻿cm-iv-attach-self-injecting = You attach {THE($iv)} to {$target}, injecting into {OBJECT($target)}.
-cm-iv-attach-others-injecting = {$user} attaches {THE($iv)} to {$target}, injecting into {OBJECT($target)}.
-cm-iv-attach-self-drawing = You attach {THE($iv)} to {$target}, taking blood from {OBJECT($target)}.
-cm-iv-attach-others-drawing = {$user} attaches {THE($iv)} to {$target}, taking blood from {OBJECT($target)}.
-cm-iv-attach-no-skill = You don't know how to connect this!
+﻿cm-iv-attach-self-injecting = Ви під'єднуєте {THE($iv)} до {$target}.
+cm-iv-attach-others-injecting = {$user} під'єднує {THE($iv)} до {$target}.
+cm-iv-attach-self-drawing = Ви під'єднуєте {THE($iv)} до {$target}, переливаючи кров з {OBJECT($target)}.
+cm-iv-attach-others-drawing = {$user} під'єднує {THE($iv)} до {$target}, переливаючи кров з {OBJECT($target)}.
+cm-iv-attach-no-skill = Ви не знаєте як це під'єднати!
 
 cm-iv-detach-self = Ви від'єднуєте {THE($iv)} від {$target}.
 cm-iv-detach-others = {$user} від'єднує {THE($iv)} від {$target}.
 cm-iv-detach-no-skill = Ви не знаєте як це від'єднати!
 
-cm-iv-rip = The needle is ripped out of {$target}, doesn't that hurt?
-cm-iv-now-injecting = The IV drip is now injecting.
-cm-iv-now-taking = The IV drip is now taking blood.
-cm-iv-verb-toggle-inject = Toggle inject
+cm-iv-rip = З {$target} виривають голку, хіба це не боляче?
+cm-iv-now-injecting = Тепер крапельниця вливає кров.
+cm-iv-now-taking = Тепер крапельниця збирає кров.
+cm-iv-verb-toggle-inject = Перемкнути ін'єкцію
 
-cm-iv-examine-injecting = {CAPITALIZE(THE($iv))} is injecting.
-cm-iv-examine-drawing = {CAPITALIZE(THE($iv))} is taking blood.
-cm-iv-examine-chemicals = Attached is {$attached} with {$units} units of liquid.
-cm-iv-examine-chemicals-none = No chemicals are attached.
-cm-iv-examine-attached = {$attached} is attached.
-cm-iv-examine-attached-none = No one is attached.
+cm-iv-examine-injecting = {CAPITALIZE(THE($iv))} вливає кров.
+cm-iv-examine-drawing = {CAPITALIZE(THE($iv))} збирає кров.
+cm-iv-examine-chemicals = Вставлено {$attached} зі {$units} одиницями рідини.
+cm-iv-examine-chemicals-none = Нічого не вставлено.
+cm-iv-examine-attached = Вводиться {$attached}.
+cm-iv-examine-attached-none = Ніхто не під'єднаний.
 
 cm-blood-pack-cannot-self = Ви не можете приєднати це до себе.
-cm-blood-pack-poke-self = You poke {$target} with {$pack}.
-cm-blood-pack-poke-others = {$user} pokes {$target} with {$pack}.
-cm-blood-pack-contains = It contains: [color=#BB0000FF]{$units} units[/color] of liquid.
+cm-blood-pack-poke-self = Ви тицяєте {$target} за допомогою {$pack}.
+cm-blood-pack-poke-others = {$user} тицяє {$target} за допомогою {$pack}.
+cm-blood-pack-contains = Містить: [color=#BB0000FF]{$units} одиниць[/color] рідини.

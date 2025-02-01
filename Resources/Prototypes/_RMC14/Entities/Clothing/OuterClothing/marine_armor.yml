@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseMarineArmorLight
   id: CMArmorM3Medium
-  name: броня морпіхів зразка М3
-  description: Стандартна броня морпіхів ООН, M3 Pattern Chestplate. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
+  name: броня морпіха зразка М3
+  description: Стандартна броня морпіхів КОН. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorB12
-  name: броня морпіхів зразка B12
-  description: A lightweight suit of carbon fiber body armor built for quick movement. Designed in a lovely forest green. Use it to toggle the built-in flashlight. #cm13 calls all camo variants forest green. parity.
+  name: броня морпіха зразка B12
+  description: Легка броня, створена з вуглецевого волокна, що дозволяє носієві швидко пересуватися. Пофарбована у прекрасний лісисто-зелений колір. #cm13 calls all camo variants forest green. parity.
   suffix: Jungle
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
   parent: CMArmorM3Medium
   id: CMArmorM3Heavy
   name: важка броня зразка M3-EOD
-  description: Важкий варіант стандартної M3 броні, спеціально спроєктована так щоб зменшити шкоду від куль, вибухів, а також внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
+  description: Важкий варіант стандартної M3 броні, спеціально спроєктована так щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/padded/jungle.rsi
@@ -287,7 +287,7 @@
   id: CMArmorM3Warden
   name: броня військового наглядача зразка M3
   suffix: Jungle
-  description: Якісно виготовлена броня зразку M3 Pattern Armor, яка зазвичай видається наглядачам. Показує хто тут головний і що найважливіше, не заважає при сидінні.
+  description: Якісно виготовлена броня зразка M3, що зазвичай видається наглядачам. Показує хто тут головний і що найважливіше, не заважає під час сидіння.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/warden/jungle.rsi
@@ -304,9 +304,9 @@
 - type: entity
   parent: CMArmorM2MP
   id: CMArmorM3WO
-  name: M3 броня голови ВСП
+  name: броня голови ВСП
   suffix: Jungle
-  description: Гарно сконструйована броня, спеціально для голови ВСП. Подейкують що тільки бачучи цю броню поліціянти машинально салютують.
+  description: Гарно сконструйована броня, спеціально для голови Військової служби правопорядку. Подейкують що тільки побачивши цю броню, поліціянти машинально салютують.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/wo/jungle.rsi
@@ -361,7 +361,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3G4
-  name: M3-G4 гренадерська броня
+  name: гренадерська броня M3-G4 
   suffix: Jungle
   description: Спеціальне покращення броні М3, напхана до країв м'якою оббивкою, обшивкою, і усіма формами захисту від вибухів. Людина в ній стає напівбогом що може пережити гранату підірвану прямо під ногами.
   components:
@@ -384,7 +384,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3TDemo
-  name: M3-T легка противибухова броня
+  name: легка противибухова броня M3-T
   suffix: Jungle
   description: Кастомний варіант броні M3 розроблений для користувачів протитанкового озброєння. Надає кращий захист від вибухів порівняно зі звичайною М3, при тому лишаючи власнику рухливість на полі бою.
   components:
@@ -539,7 +539,7 @@
   parent: RMCBaseMarineArmor
   id: CMArmorPress
   name: броня кореспондента
-  description: Броня, яку використовують військові кореспонденти під час роздобування нових цікавих кадрів.
+  description: Броня, яку використовують військові кореспонденти під час здобуття нових цікавих кадрів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/press.rsi
@@ -565,7 +565,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3Scout
-  name: M3-S легка броня
+  name: легка броня M3-S
   suffix: Jungle
   description: Легка версія броні М3 зроблена спеціально для розвідників. Час від часу переконуйтеся що вона досі на вас.
   components:
@@ -594,7 +594,7 @@
 - type: entity
   parent: CMArmorM3Light
   id: CMArmorM3VLBallistics
-  name: M3-VL балістичний бронежилет
+  name:  балістичний бронежилет M3-VL
   description: До 2182 року небойовий персонал морської піхоти отримував нестандартні балістичні жилети, проте несумісність з IMС та відсутність вбудованих ліхтариків у костюмах знову і знову доводила їхню непрактичність. Цей модифікований бронежилет M3-L був розроблений в результаті 6-річної програми досліджень; він забезпечує світло, захист і комфорт для всього небойового персоналу морської піхоти.
   components:
   - type: Sprite
@@ -612,7 +612,7 @@
 - type: entity
   parent: CMArmorM3VLBallistics
   id: CMArmorM3VLFlakVest
-  name: M3-VL пілотна броня
+  name: пілотна броня M3-VL 
   description: Комбінація небойового броніка M3-VL і бронежилета M70, зроблений спеціально для пілотів, щоб захистити їх ззовні і зсередини...
   components:
   - type: Sprite
@@ -659,7 +659,7 @@
   id: CMArmorM4
   name: броня морпіха зразка M4 
   suffix: Jungle
-  description: Добре продуманий та якісно виготовлений гібрид сітки Smart-Gunner та пластин M3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для підсумків.
+  description: Добре продуманий та якісно виготовлений гібрид кріплення для Смартгану та пластин M3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для ваших речей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m4/jungle.rsi
@@ -683,7 +683,7 @@
   id: CMArmorM35
   name: M35 броня піротехніка 
   suffix: Jungle
-  description: Спеціальна броня M35 розроблена для піротехніків. Не факт що витримає вибух гранати в руках, але це хоча б щось.
+  description: Броня розроблена для піротехніків. Не факт що витримає вибух гранати в руках, але це хоча б щось.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m35/jungle.rsi
@@ -703,7 +703,7 @@
   id: CMArmorM45
   name: M45 масхалат # TODO RMC14 camo, id lock
   suffix: Jungle
-  description: Легкий камуфляжний костюм, що використовується морпіхотними снайперами на розвідувальних місіях. Дуже легкий і на диво добре захищає.
+  description: Легкий камуфляжний костюм, що використовується морпіхотними снайперами на розвідувальних місіях. Легкий і на диво добре захищає.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/ghillie/jungle.rsi

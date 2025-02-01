@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMachete
-  name: H5 чохол для мачете моделі M2132 
+  name: чохол H5 для мачете моделі M2132 
   description: Великий шкіряний чохол, створений для безпечного носіння M2132 мачете. Можна носити на спині, або на поясі.
   components:
   - type: Sprite
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardShotgun
-  name: L44 M42A2 кобура для дробовика
-  description: Велика кобура, що має вміщати дробовики використовувані КМПООН. Може бути закріплено на спині, щоб було зручніше носити цей тягар.
+  name: кобура L44 для дробовика M42A2 
+  description: Велика кобура, що має вміщати дробовики M42A2 використовувані КМПОН. Може бути закріплена на спині, щоб було зручніше носити цей тягар.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/shotgun.rsi

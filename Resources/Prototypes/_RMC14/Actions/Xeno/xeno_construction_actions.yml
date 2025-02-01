@@ -57,8 +57,8 @@
 - type: entity
   id: ActionXenoCoerceResin
   parent: ActionXenoBase
-  name: Coerce Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action. You may also build within line of sight if you are on weeds."
+  name: Примусова Смола
+  description: "Збудуйте структуру обрану в дії 'Оберіть Структуру Смоли'. Ви також можете будувати всюди, в межах свого поля зору, якщо ви, звісно, стоїте на траві."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -96,8 +96,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: Plant Resin Hole (200)
-  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
+  name: Розмістити Пастку (200)
+  description: Вирийте в траві яму. Її можна заповнити паразитом, кислотою, чи газом.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -111,8 +111,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: Change Fruit
-  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
+  name: Обрати Плід
+  description: Оберіть плід який хочете посадити.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -125,8 +125,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: Plant Resin Fruit (100)
-  description: Plant chosen resin fruit on weeds at the cost of health and plasma. Xenos can pick these fruits once they're mature, you can also pick a plant early to get rid of it. Xenos can use them in hand or eat them on the ground to gain their effects. They can also be used on other xenos to feed them. You can only have 6 fruits planted and picked at a time.
+  name: Розмістити Плід (100)
+  description: Посадіть обраний вами плід на траві, це коштуватиме вам плазми й здоров'я. Коли плід дозріє, ксеноїд може з'їсти його для отримання різних, в залежності від плоду, ефектів, або можна зірвати його раніше, але це нічого не дасть, а просто прибере плід. Можна посадити і зібрати лише 6 плодів за раз.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -139,8 +139,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread hardier weeds, which grow fruit 25% faster, have slightly more health, and can be spread on some surfaces where normal weeds won't grow.
+  name: Посадити Витривалу Траву (125) # TODO RMC14 proper plasma costs
+  description: Посадіть пульсуючий вузол, який розповсюдить навколо витривалішу траву. Плоди на ній ростуть на 25% швидше, вона має трохи більше здоров'я, а також може рости на таких поверхнях, на яких звичайна трава не здатна.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -157,8 +157,8 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: Plant Resin Fruit (50)
-  description: Plant resin fruit on weeds at the cost of health and plasma.
+  name: Розмістити Плід (50)
+  description: Посадіть обраний вами плід на траві, це коштуватиме вам плазми й здоров'я.
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent
@@ -167,8 +167,8 @@
 - type: entity
   id: ActionXenoDigTunnel
   parent: ActionXenoBase
-  name: Dig Tunnel (200)
-  description: Dig a tunnel for speedy transportation across the hive.
+  name: Вирити Тунель (200)
+  description: Викопайте тунель для швидкого переміщення Вуликом.
   components:
   - type: InstantAction
     event: !type:XenoDigTunnelActionEvent

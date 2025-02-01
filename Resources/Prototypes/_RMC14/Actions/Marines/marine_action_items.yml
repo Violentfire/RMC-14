@@ -14,7 +14,7 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: Перемкнути Рівень Приближення
+  name: Перемкнути Приближення
   description: Змінює приближення вашої оптики.
   components:
   - type: InstantAction
@@ -46,8 +46,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIDLock
-  name: Toggle ID lock
-  description: Toggles the ID lock on the gun, allowing anyone to use it.
+  name: Перемкнути ІД Замок
+  description: Перемикає стан ІД замка на зброї.
   components:
   - type: InstantAction
     icon:
@@ -58,8 +58,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIFF
-  name: Toggle IFF
-  description: Toggles the IFF on the gun.
+  name: Перемкнути УДВ
+  description: Перемикає уникання дружнього вогню для зброї.
   components:
   - type: InstantAction
     icon:
@@ -82,7 +82,7 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: Посвистіти
+  name: Свистіти
   description: Подути в свисток.
   components:
   - type: InstantAction
@@ -123,8 +123,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleWeldingGoggles
-  name: Toggle the welding goggles
-  description: Change the positions of the welding goggles on your forehead.
+  name: Перемкнути Зварювальні Окуляри
+  description: Змінює положення зварювальних окулярів на чолі.
   components:
   - type: InstantAction
     itemIconStyle: BigItem

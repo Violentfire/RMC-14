@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCAreaKutjevoExteriorScrubland
   id: RMCAreaKutjevoExteriorScrublandSouth
-  name: Kutjevo - Південні Чагарники
+  name: Кутєво - Південні Чагарники
 
 - type: entity
   parent: RMCAreaKutjevoExterior

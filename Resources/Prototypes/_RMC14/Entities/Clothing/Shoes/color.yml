@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesBlack
-  name: black shoes
-  description: A pair of black shoes.
+  name: чорні туфлі
+  description: Пара чорних туфлів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/black.rsi

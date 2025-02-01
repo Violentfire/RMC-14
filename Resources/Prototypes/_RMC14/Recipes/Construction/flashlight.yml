@@ -1,12 +1,12 @@
 - type: construction
   parent: RMC
-  name: Modify Flashlight
+  name: Модифікувати ліхтар
   id: RMCFlashlightModify
   graph: RMCFlashLightGraph
   startNode: start
   targetNode: Flashlight
   category: construction-category-cm-utilities
-  description: Alter a Flashlight into a Rail Light Weapon Attachment
+  description: Перетворення ліхтарика на пристосування для рейкової стрілецької зброї
   icon:
     sprite: _RMC14/Objects/Tools/Light/flashlight.rsi
     state: flashlight

@@ -20,7 +20,7 @@
   parent: CMBaseWindow
   id: CMWindowShiva
   name: poly-kevlon framed window
-  description: A semi-transparent (not entirely opaque) pane of material set into a poly-kevlon frame. Very smashable.
+  description: Напівпрозоре (не повністю прозоре) полотно матеріалу, вмонтоване в полікевлонову раму. Дуже легко розбивається.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/shiva_window.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowShivaIce
-  name: thin ice wall
-  description: It is very thin.
+  name: тонка крижана стінка
+  description: Вона дуже тонка.
   components:
   - type: Corrodible
     isCorrodible: false

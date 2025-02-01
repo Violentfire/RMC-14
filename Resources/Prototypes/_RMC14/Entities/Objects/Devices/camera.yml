@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCCameraBroadcasting
-  name: broadcasting camera
-  description: Actively document everything you see, from the mundanity of shipside to the brutal battlefields below. # TODO Has a built-in printer for action shots.
+  name: етерна камера
+  description: Зніміть на неї УСЕ, від простого і нудного життя морпіхів на борту, до повного краху їхньої операції на полі битви. # TODO Has a built-in printer for action shots.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/broadcasting_camera.rsi

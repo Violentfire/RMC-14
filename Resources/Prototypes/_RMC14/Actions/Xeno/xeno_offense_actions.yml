@@ -189,7 +189,7 @@
   id: ActionXenoTailSweep
   parent: ActionXenoBase
   name: Обертовий Удар Хвостом (10) # TODO RMC14 proper plasma costs
-  description: Змусьте усіх ворогів біля вас впасти.
+  description: Змусьте усіх інкубаторів навколо вас впасти.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -425,7 +425,7 @@
   id: ActionXenoScreech
   parent: ActionXenoBase
   name: Королівський Крик (250)
-  description: Змушує завмерти від жаху всіх інкубаторів навколо. [color=red]This will also stun parasites, and is blocked by solid walls, smoke, and boiler gas, but not windows![/color]
+  description: Змушує завмерти від жаху всіх інкубаторів навколо. [color=red]Це також оглушить усіх паразитів! Блокується міцними стінами, газом, димом проте не вікнами[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -483,7 +483,7 @@
   parent: ActionXenoBase
   id: ActionXenoBombard
   name: Постріл Газовою Кулею (200)
-  description: Після підготовки вистрілить кислотною або нейротоксичною кулею.
+  description: Після підготовки вистрілить кулею кислотного або нейротоксичного газу.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -522,7 +522,7 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidShroud
-  name: Кислотний Туман
+  name: Газова Завіса
   description: Створіть навколо себе невелику хмару кислотного або нейротоксичного газу, щоб замаскуватися. Після цього вам прийдеться почекати перед тим, як використовувати будь-яке вміння.
   components:
   - type: InstantAction
@@ -543,8 +543,8 @@
 - type: entity
   id: ActionXenoTremor
   parent: ActionXenoBase
-  name: Tremor (100)
-  description: Slam the ground with a 7x7 AOE, stunning all enemies in range for a short period of time.
+  name: Тремтіння Землі (100)
+  description: Ударте по землі, оглушивши всіх ворогів навколо на короткий період часу.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -557,8 +557,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoForTheHive
-  name: For The Hive!
-  description: Prime yourself to detonate in a massive acid explosion in 20 seconds. Requires 200 acid at the minimum. The more acid reserves you have, the larger and more damaging the explosion will be. It will also coat barricades and mobs in acid, in a range equal to 1/2th the damage range. Damage is less the farther the mob is from the explosion. You will be slowed, change visually, and make an a loud wailing sound charging up. Dying will prevent the explosion from going off, but if successful you will respawn as a larva at your hive's hive core or at your corpse if theres none. Using this ability while primed will cancel the explosion at the cost of a 1/4th of your acid reserves.
+  name: За Вулик!
+  description: Підготуйтеся до потужного кислотного самопідриву через 20 секунд. Потребує мінімум 200 накопиченої кислоти, але чим більше її буде тим потужніше бабахне. Вибух також покриє усі барикади і істот в половині радіусу кислотою. Чим далі істота від вас тим меншої шкоди зазнає. Під час підготовки ви сповільнетеся, змінитеся візуально, а також видасте гучний звук. Якщо вас вб'ють до детонації, вибуху не буде, але якщо все піде за планом, ви відродитеся в ядрі Вулика як личинка(якщо ядра немає, личинка з'явиться на місці вашого трупа). Використання цієї дії під час підготовки скасує її, але це коштуватиме чверть накопиченої кислоти.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -570,8 +570,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoImpale
-  name: Impale (80)
-  description: Impales an adjacent enemy with your tail. Hits twice on a marked target and removes the mark. Pierces some armor.
+  name: Проколоти (80)
+  description: Пронижіть ворога своїм хвостом. Двічі б'є по позначеній цілі і знімає позначку. Пробиває деяку броню.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -588,8 +588,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailTrip
-  name: Tail Trip (30)
-  description: Disarms and dazes an unmarked enemy. Stuns and dazes for longer on a marked target, and removes the mark.
+  name: Змах Хвостом (30)
+  description: Обеззброює та приголомшує ворога. Позначеного ворога приголомшує на довший період, а також знімає з нього позначку.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -606,8 +606,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoPierce
-  name: Pierce (50)
-  description: Pierce through enemies in a line doing high damage and piercing some armor. Hitting 2 or more recharges your shield.
+  name: Пробиття (50)
+  description: Пронизує ворога наскрізь, завдаючи великої шкоди, пробиває деяку броню. Попадання у 2-ох або більше перезарядить гребінь.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -624,8 +624,8 @@
 - type: entity
   parent: ActionXenoDash
   id: ActionXenoBlitz
-  name: Blitz (50)
-  description: Dash a short distance towards a given location. After 3 seconds or if you use it again before then, damages enemies around you. Hitting 1 or more recharges your shield.
+  name: Блискавичний Напад (50)
+  description: Промчіть невелику відстань до обраної клітинки. Через 3 секунди чи якщо ви натиснете на дію ще раз, завдасте шкоду ворогам навколо. Попадання в 1-го чи більше перезарядить гребінь.
   components:
   - type: WorldTargetAction
     useDelay: 0

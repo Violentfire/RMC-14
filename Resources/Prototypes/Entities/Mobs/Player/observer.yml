@@ -33,8 +33,8 @@
   - Incorporeal
   - BaseMob
   id: MobObserver
-  name: observer
-  description: Boo!
+  name: спостерігач
+  description: Буу!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
 
 - type: entity
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: Буу!
+  description: Налякайте членів екіпажу, через вашу нудьгу!
   components:
   - type: InstantAction
     icon: Interface/Actions/scream.png
@@ -96,8 +96,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: Toggle All Lighting
-  description: Toggle all light rendering to better observe dark areas.
+  name: Перемкнути все освітлення
+  description: Перемикає рендерінг всього освітлення, щоб краще бачити темні ділянки.
   components:
   - type: InstantAction
     icon: Interface/VerbIcons/light.svg.192dpi.png
@@ -107,8 +107,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: Перемкнути Поле Зору
+  description: Перемикає поле зору, щоб бачити те, що бачать гравці.
   components:
   - type: InstantAction
     icon: Interface/VerbIcons/vv.svg.192dpi.png
@@ -118,8 +118,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: Перемкнути привидів
+  description: Перемикає видимість привидів
   components:
   - type: InstantAction
     icon: { sprite: Mobs/Ghosts/ghost_human.rsi, state: icon }
@@ -129,8 +129,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: Перемкнути слух привидів
+  description: Перемикайтеся між прослуховуванням усіх повідомлень і прослуховуванням лише радіо та повідомлень поблизу.
   components:
   - type: InstantAction
     checkCanInteract: false

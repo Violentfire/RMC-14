@@ -9,7 +9,7 @@
         - to: Tan
           steps:
           - tag: RMCTablePartTan
-            name: tan table parts
+            name: деталі світлого столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: tan
@@ -17,7 +17,7 @@
         - to: Reinforced
           steps:
           - tag: RMCTablePartReinforced
-            name: reinforced table parts
+            name: армовані деталі столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: reinforced
@@ -25,7 +25,7 @@
         - to: Wood
           steps:
           - tag: RMCTablePartWood
-            name: wooden table parts
+            name: дерев'яні деталі столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: wood
@@ -33,7 +33,7 @@
         - to: PoorWood
           steps:
           - tag: RMCTablePartWoodPoor
-            name: poor wooden table parts
+            name: неякісні дерев'яні деталі столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: poor_wood
@@ -41,7 +41,7 @@
         - to: FancyWood
           steps:
           - tag: RMCTablePartWoodFancy
-            name: fancy wooden table parts
+            name: вишукані дерев'яні деталі столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: fancy_wood
@@ -49,7 +49,7 @@
         - to: Gambling
           steps:
           - tag: RMCTablePartGambling
-            name: gambling table parts
+            name: деталі грального столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: gamble
@@ -57,7 +57,7 @@
         - to: Almayer
           steps:
           - tag: RMCTablePartAlmayer
-            name: gray table parts
+            name: деталі сірого столу
             icon:
               sprite: _RMC14/Objects/Materials/table_parts.rsi
               state: almayer

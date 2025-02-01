@@ -11,7 +11,7 @@ rmc-announcement-message-signed = [font size=14][bold][color=white]Оголош�
     Надіслано,
     {$job} {$name}[/color][/font]
 
-rmc-announcement-ares-message = [color=white][font size=16][bold]ARES v3.2 Operation Staging Order[/bold][/font][/color][color=red][font size=14][bold]
+rmc-announcement-ares-message = [color=white][font size=16][bold]АРЕС v3.2 Теперішній Наказ Операції[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
 
@@ -19,17 +19,17 @@ rmc-announcement-ares-lz-designated = Наказ Командування:
 
     {$name} визначено як основну посадкову зону.
 
-rmc-announcement-ares-online = [color=white][font size=16][bold]ARES Online[/bold][/font][/color][color=red][font size=14][bold]
+rmc-announcement-ares-online = [color=white][font size=16][bold]АРЕС Онлайн[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
 
-rmc-announcement-ares-map = [color=white][font size=16][bold]UNS Almayer[/bold][/font][/color][color=red][font size=14][bold]
+rmc-announcement-ares-map = [color=white][font size=16][bold]КОН Саванна[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
 
 rmc-announcement-cooldown = Будь ласка зачекайте принаймні {$seconds} секунд до нового оголошення
 
-rmc-announcement-dropship-message = [color=white][font size=16][bold]Dropship Alert[/bold][/font][/color][color=red][font size=14][bold]
+rmc-announcement-dropship-message = [color=white][font size=16][bold]Повідомлення Транспортника[/bold][/font][/color][color=red][font size=14][bold]
 
     {$message}[/bold][/font][/color]
 
