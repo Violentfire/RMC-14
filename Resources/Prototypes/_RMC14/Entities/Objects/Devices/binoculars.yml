@@ -2,7 +2,6 @@
   parent: BaseItem
   id: RMCBinoculars
   name: бінокль
-  suffix: Jungle
   description: Стандартний військовий бінокль.
   components:
   - type: Item
@@ -25,6 +24,7 @@
     quickEquip: false
     slots:
     - suitstorage
+  - type: Appearance
   - type: ItemCamouflage
     states:
       Jungle: binoculars
@@ -37,7 +37,6 @@
   parent: RMCBinoculars
   id: RMCRangefinder
   name: далекомір
-  suffix: Jungle
   description: "Той самий бінокль, але з функцією визначення координат. Натисніть на клітинку, щоб отримати її координати."
   components:
   - type: Item
@@ -74,7 +73,6 @@
   parent: RMCRangefinder
   id: RMCLaserDesignator
   name: лазерний цілевказівник
-  suffix: Jungle
   description: "Цілевказівник має два режима: ІЧ мітка для БАП та визначення координат. Натисніть на клітинку, щоб зробити щось з цього."
   components:
   - type: Sprite
@@ -92,7 +90,6 @@
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorScout
   name: цілевказівник розвідника
-  suffix: Jungle
   description: "Цей удосконалений цілевказівник, що використовується розвідниками КМПОН має ті самі два режима: ІЧ мітка для БАП та визначення координат. Натисніть на клітинку, щоб зробити щось з цього."
   components:
   - type: Rangefinder

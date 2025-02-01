@@ -4,11 +4,11 @@
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: JumpsuitMarine
   name: морпіхотна уніформа
-  suffix: Jungle
   description: Стандартна форма морських піхотинців. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
+  - type: Appearance
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
@@ -30,7 +30,6 @@
   parent: JumpsuitMarine
   id: CMJumpsuitMarineEngineer
   name: морпіхотна уніформа БойТеха
-  suffix: Jungle
   description: Уніформа, яку носять бойові техніки морської піхоти. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
@@ -48,7 +47,6 @@
   parent: JumpsuitMarine
   id: CMJumpsuitMarineMedic
   name: морпіхотна уніформа медика
-  suffix: Jungle
   description: Медики морської піхоти носять таку. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
@@ -66,7 +64,6 @@
   parent: JumpsuitMarine
   id: CMJumpsuitMarineRTO
   name: морпіхотна уніформа радіотелефоніста
-  suffix: Jungle
   description: Зазвичай використовується зв'язківцями. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
@@ -90,7 +87,6 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineTanker
   name: marine tanker uniform
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker/jungle.rsi
@@ -109,7 +105,7 @@
 
 # Cargotech
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitCargoTech
   name: уніформа вантажника
   description: Принеси, подай, і всяке таке.
@@ -144,7 +140,7 @@
 
 # Ordnance Technician / OT
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitOrdnanceTech
   name: уніформа техніка артилерії
   description: Носій цієї форми любить запах напалму зранку.
@@ -154,7 +150,7 @@
 
 # Maintenance Technician / MT
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitMaintTech
   name: уніформа обслуговуючого інженера
   description: Пахне потом, кров'ю і чортовим космічним мастилом.
@@ -169,11 +165,11 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitCO
   name: уніформа командуючого офіцера
-  suffix: Jungle
   description: Гарно пошита уніформа. Призначена для вищих офіцерів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard/jungle.rsi
+  - type: Appearance
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard/jungle.rsi
@@ -190,6 +186,8 @@
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_black.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: CMJumpsuitCO
@@ -199,6 +197,8 @@
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_white.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: CMJumpsuitCO
@@ -208,11 +208,13 @@
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/service.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 # Executive officer
 
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitXOFormal
   name: парадна службова морпіхотна уніформа 
   description: Офіційна військова форма, яку зазвичай носять морські піхотинці ООН. Все ще практична, але стильніша, ніж стандартна військова форма.
@@ -225,7 +227,7 @@
 
 # Officer
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitBO
   name: морпіхотна службова уніформа
   description: Військова форма, яку носять морські піхотинці. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
@@ -240,7 +242,6 @@
   parent: JumpsuitMarine
   id: CMJumpsuitOperations
   name: офіцерська бойова уніформа
-  suffix: Jungle
   description: Уніформа яку носять морпіхи-офіцери на завданні. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
@@ -263,7 +264,6 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitIO
   name: уніформа офіцера розвідки
-  suffix: Jungle
   description: Тугіше, ніж лещата. Липкіша за олію для бороди. З голови до ніг обвішана сумками, кишенями, пакетами, ременями та поясами. Очевидно, що ви не лише найрозумніший з розвідників, але й наймодніший. На розробку цього костюму ціла команда науковців витратила п'ять років. Він коштує дорожче, ніж весь Алмаєр... напевно..
   components:
   - type: Sprite
@@ -273,10 +273,9 @@
 
 # Pilot
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitPilot
   name: офіцерський комбінезон пілота
-  suffix: Jungle
   description: Комбінезон, який носять офіцери-пілоти морської піхоти, призначений для виживання в умовах трохи небезпечніших за кабіну транспортника. Відвезіть морпіхів на славну смерть. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
@@ -337,7 +336,7 @@
 
 # Marine
 - type: entity
-  parent: JumpsuitMarine
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitSurvivorMarine
   name: уніформа КМПООН
   description: Розірвана, обгоріла і заплямована кров'ю. Ця форма бачила біль, страждання, радість, смерть... поразку й тріумф, та ще багато чого.

@@ -51,13 +51,11 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumPadded
   name: M3 pattern padded marine armor
-  suffix: Jungle
 
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumPadless
   name: M3 pattern padless marine armor
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padless/jungle.rsi
@@ -73,7 +71,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumRidged
   name: M3 pattern ridged marine armor
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/ridged/jungle.rsi
@@ -89,7 +86,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumCarrier
   name: M3 pattern carrier marine armor
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/carrier/jungle.rsi
@@ -105,7 +101,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumSkull
   name: M3 pattern skull marine armor
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/skull/jungle.rsi
@@ -121,7 +116,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumSmooth
   name: M3 pattern smooth marine armor
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/smooth/jungle.rsi
@@ -138,7 +132,6 @@
   id: CMArmorB12
   name: броня морпіха зразка B12
   description: Легка броня, створена з вуглецевого волокна, що дозволяє носієві швидко пересуватися. Пофарбована у прекрасний лісисто-зелений колір. #cm13 calls all camo variants forest green. parity.
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/b12/jungle.rsi
@@ -205,12 +198,10 @@
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavyPadded
-  suffix: Jungle
 
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavyPadless
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/padless/jungle.rsi
@@ -225,7 +216,6 @@
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavyRidged
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/ridged/jungle.rsi
@@ -240,7 +230,6 @@
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavyCarrier
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/carrier/jungle.rsi
@@ -255,7 +244,6 @@
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavySkull
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/skull/jungle.rsi
@@ -270,7 +258,6 @@
 - type: entity
   parent: CMArmorM3Heavy
   id: RMCArmorM3HeavySmooth
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/smooth/jungle.rsi
@@ -283,16 +270,13 @@
       Urban: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/smooth/urban.rsi
 
 - type: entity
-  parent: CMArmorM3Medium
+  parent: CMArmorM2MP
   id: CMArmorM3Warden
   name: броня військового наглядача зразка M3
-  suffix: Jungle
   description: Якісно виготовлена броня зразка M3, що зазвичай видається наглядачам. Показує хто тут головний і що найважливіше, не заважає під час сидіння.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/warden/jungle.rsi
-  - type: CMArmor
-    bio: 15
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/warden/jungle.rsi
@@ -305,7 +289,6 @@
   parent: CMArmorM2MP
   id: CMArmorM3WO
   name: броня голови ВСП
-  suffix: Jungle
   description: Гарно сконструйована броня, спеціально для голови Військової служби правопорядку. Подейкують що тільки побачивши цю броню, поліціянти машинально салютують.
   components:
   - type: Sprite
@@ -324,7 +307,6 @@
   id: RMCArmorM3SO
   name: M3 pattern officer armor
   description: A well-crafted suit of M3 Pattern Armor typically found in the hands of higher-ranking officers. Useful for letting your men know who is in charge when taking to the field.
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/officer/jungle.rsi
@@ -357,12 +339,13 @@
     maxItemSize: Small
     grid:
     - 0,0,5,1 # 3 slots
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3G4
   name: гренадерська броня M3-G4 
-  suffix: Jungle
   description: Спеціальне покращення броні М3, напхана до країв м'якою оббивкою, обшивкою, і усіма формами захисту від вибухів. Людина в ній стає напівбогом що може пережити гранату підірвану прямо під ногами.
   components:
   - type: Sprite
@@ -385,7 +368,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3TDemo
   name: легка противибухова броня M3-T
-  suffix: Jungle
   description: Кастомний варіант броні M3 розроблений для користувачів протитанкового озброєння. Надає кращий захист від вибухів порівняно зі звичайною М3, при тому лишаючи власнику рухливість на полі бою.
   components:
   - type: Sprite
@@ -463,7 +445,6 @@
 - type: entity
   parent: CMArmorM3Light
   id: RMCArmorM3LightPadless
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/padless/jungle.rsi
@@ -478,7 +459,6 @@
 - type: entity
   parent: CMArmorM3Light
   id: RMCArmorM3LightRidged
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/ridged/jungle.rsi
@@ -493,7 +473,6 @@
 - type: entity
   parent: CMArmorM3Light
   id: RMCArmorM3LightCarrier
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/carrier/jungle.rsi
@@ -508,7 +487,6 @@
 - type: entity
   parent: CMArmorM3Light
   id: RMCArmorM3LightSkull
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/skull/jungle.rsi
@@ -523,7 +501,6 @@
 - type: entity
   parent: CMArmorM3Light
   id: RMCArmorM3LightSmooth
-  suffix: Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/smooth/jungle.rsi
@@ -536,28 +513,15 @@
       Urban: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/smooth/urban.rsi
 
 - type: entity
-  parent: RMCBaseMarineArmor
+  parent: CMArmorM3Light
   id: CMArmorPress
   name: броня кореспондента
   description: Броня, яку використовують військові кореспонденти під час здобуття нових цікавих кадрів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/press.rsi
-  - type: CMArmor
-    armor: 15
-    bio: 15
-    explosionArmor: 20
-  - type: RMCArmorSpeedTier
-    speedTier: light
-  - type: ClothingSpeedModifier
-    walkModifier: .725
-    sprintModifier: .725
-  - type: Storage
-    grid:
-    - 0,0,3,1 # 2 slots
-  - type: ExplosionResistance
-    damageCoefficient: 0
-    worn: false
+  - type: ItemCamouflage # this is needed, otherwise it looks like M3MediumArmor
+    camouflageVariations: { }
 
 - type: Tag
   id: RMCScoutArmor
@@ -566,7 +530,6 @@
   parent: CMArmorM3Medium
   id: RMCArmorM3Scout
   name: легка броня M3-S
-  suffix: Jungle
   description: Легка версія броні М3 зроблена спеціально для розвідників. Час від часу переконуйтеся що вона досі на вас.
   components:
   - type: Sprite
@@ -608,6 +571,8 @@
     - 0,0,1,1 # 2 slots
   - type: RMCBulkyArmor
     isBulky: false
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: CMArmorM3VLBallistics
@@ -620,12 +585,13 @@
   - type: Storage
     grid:
     - 0,0,3,1 # 2 slots
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3VLSynth
   name: M3A1 Synthetic Utility Vest
-  suffix: Jungle
   description: This variant of the ubiquitous M3 pattern vest has been extensively modified, providing no protection in exchange for maximum mobility and added storage. Synthetic programming compliant.
   components:
   - type: Sprite
@@ -658,7 +624,6 @@
   parent: CMArmorM3Medium
   id: CMArmorM4
   name: броня морпіха зразка M4 
-  suffix: Jungle
   description: Добре продуманий та якісно виготовлений гібрид кріплення для Смартгану та пластин M3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для ваших речей.
   components:
   - type: Sprite
@@ -682,7 +647,6 @@
   parent: CMArmorM3Medium
   id: CMArmorM35
   name: M35 броня піротехніка 
-  suffix: Jungle
   description: Броня розроблена для піротехніків. Не факт що витримає вибух гранати в руках, але це хоча б щось.
   components:
   - type: Sprite
@@ -702,7 +666,6 @@
   parent: CMArmorM3Medium
   id: CMArmorM45
   name: M45 масхалат # TODO RMC14 camo, id lock
-  suffix: Jungle
   description: Легкий камуфляжний костюм, що використовується морпіхотними снайперами на розвідувальних місіях. Легкий і на диво добре захищає.
   components:
   - type: Sprite
@@ -731,7 +694,6 @@
   parent: [ RMCAllowSuitStorageClothingSmartgunner, CMArmorM3Medium ]
   id: CMArmorSmartGunCombatHarness
   name: бойове кріплення ML66A
-  suffix: Jungle
   description: Важкий бронежилет створений для використання разом з ML66A Smart Gun. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
   components:
   - type: Sprite
@@ -760,7 +722,6 @@
   parent: [ RMCAllowSuitStorageClothingArmorMP, CMArmorM3Medium ]
   id: CMArmorM2MP
   name: броня ВСП зразка М2
-  suffix: Jungle
   description: Броня М2 гарно вправляється з захистом від ударів але з кулями у неї проблеми.
   components:
   - type: Sprite

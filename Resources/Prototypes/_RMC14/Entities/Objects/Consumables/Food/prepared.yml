@@ -8,13 +8,17 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 25
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
-          Quantity: 20
+          Quantity: 9
   - type: Item
     size: Small
     sprite: _RMC14/Objects/Consumable/Food/prepared.rsi
+  - type: Extractable
+    grindableSolutionName: food
+  - type: InjectableSolution
+    solution: food
 
 - type: entity
   parent: CMMarinePreparedMealBase
@@ -29,7 +33,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 9
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 9
@@ -43,11 +47,11 @@
   - type: Sprite
     state: chicken
   - type: Food
-    transferAmount: 3.33
+    transferAmount: 3
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 10
@@ -65,7 +69,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 9
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 9
@@ -83,7 +87,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 8
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 8
@@ -101,7 +105,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 9
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 9
@@ -115,16 +119,16 @@
   - type: Sprite
     state: tofu
   - type: Food
-    transferAmount: 2
+    transferAmount: 1
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 2
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 2
-          
-# Festive 
+
+# Festive
 
 - type: entity
   parent: CMMarinePreparedMealBase
@@ -139,7 +143,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 24
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 15
@@ -159,7 +163,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 24
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 15
@@ -179,7 +183,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 24
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 15

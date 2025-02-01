@@ -2,7 +2,6 @@
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGun
   name: ML66A smart gun
-  suffix: Jungle
   description: Потужна потужність, зброя вогневої підтримки зі системою Smart Gun. По суті, важкий, мобільний кулемет.
   components:
   - type: Wieldable
@@ -152,12 +151,15 @@
       Snow: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a/snow.rsi
       Classic: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a/classic.rsi
       Urban: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a/urban.rsi
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/smartgun_mouse.rsi
+      state: all
 
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
   name: "ML66A барабанний магазин (10x30mm)"
-  suffix: Jungle
   components:
   - type: Tag
     tags:

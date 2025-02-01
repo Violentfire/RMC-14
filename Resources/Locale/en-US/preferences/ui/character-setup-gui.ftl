@@ -1,4 +1,5 @@
 character-setup-gui-character-setup-label = Налаштування персонажа
+character-setup-gui-character-setup-adminremarks-button = Admin Remarks
 character-setup-gui-character-setup-stats-button = Статистика
 character-setup-gui-character-setup-rules-button = Правила
 character-setup-gui-character-setup-close-button = Закрити
