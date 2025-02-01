@@ -116,6 +116,7 @@
   id: ActionXenoTailStabCorrosive
   name: Кислотний Удар Хвостом
   description: Атакуйте хвостом в заданому напрямку. Перезарядка відбуватиметься швидше, якщо ви промахнулися. [color=red]Впорскує в ціль розбавлену молекулярну кислоту, яка з часом завдає їй шкоди.[/color]
+  components:
   - type: WorldTargetAction
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
