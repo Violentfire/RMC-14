@@ -1,63 +1,63 @@
 # Whisper
 - type: rank
   id: RMCRankProvostSectorMarshal
-  name: Sector Marshal
-  prefix: PvSM.
+  name: Маршал Сектору
+  prefix: ПвМС.
   paygrade: O9
 
 # Any admin with high law understanding
 - type: rank
   id: RMCRankProvostSeniorMarshal
-  name: Senior Marshal
-  prefix: PvSnM.
+  name: Старший Маршал
+  prefix: ПвСт.М.
   paygrade: O8
 
 # Any admin with low law understanding, or wanting a lower rank
 - type: rank
   id: RMCRankProvostMarshal
-  name: Marshal
-  prefix: PvM.
+  name: Маршал
+  prefix: ПвМ.
   paygrade: O7
 
 # Any whitelisted CO
 - type: rank
   id: RMCRankProvostDeputyMarshal
-  name: Deputy Marshal
-  prefix: PvDM.
+  name: Заступник Маршала
+  prefix: ПвЗМ.
   paygrade: O6
 
 # Any player with high law understanding
 - type: rank
   id: RMCRankProvostChiefInspector
-  name: Chief Inspector
-  prefix: PvCI.
+  name: Головний Інспектор
+  prefix: ПвГІ.
   paygrade: CI
 
 # Any player with medium-low law understanding
 - type: rank
   id: RMCRankProvostInspector
-  name: Provost Inspector
-  prefix: PvI.
+  name: Інспектор
+  prefix: ПвІ.
   paygrade: I
 
 # Any player with low law understanding, with guidance
 - type: rank
   id: RMCRankProvostAdvisor
-  name: Sergeant Major
-  prefix: SgtMaj.
+  name: Сержант-Майор
+  prefix: С-нтМ-р.
   paygrade: E9E
 
 # Any player with given objective, possible team leader
 - type: rank
   id: RMCRankProvostProvostTeamLeader
-  name: Master Sergeant
-  prefix: MSgt.
+  name: Майстер-Сержант
+  prefix: М.С-нт.
   paygrade: E8
 
 # Any player with given objective, squad member
 - type: rank
   id: RMCRankProvostProvostEnforcer
-  name: Staff Sergeant
-  prefix: SSgt.
+  name: Штаб-Сержант
+  prefix: Шт.С-нт.
   paygrade: E6
 
