@@ -1,9 +1,9 @@
-rmc-dropship-pre-flight-fueling = Транспортник проходить передпольотну заправку і тому не може вилетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
-rmc-dropship-pre-hijack = This terminal won't be operational for another {$minutes} minutes.
+rmc-dropship-pre-flight-fueling = Транспортник проходить передпольотну заправку і тому не може взлетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
+rmc-dropship-pre-hijack = Цей термінал буде недоступним ще {$minutes} хвилин.
 
 rmc-dropship-weapons-title = Консоль Озброєння
 
-rmc-dropship-weapons-main-screen-text = К.М.П.О.О.Н.
+rmc-dropship-weapons-main-screen-text = К.М.П.О.Н.
   Система Керування Озброєнням Транспортника
   V 0.1
 
@@ -33,7 +33,7 @@ rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
   {$rounds} набоїв
 
 rmc-dropship-weapons-equip = ОЗБРОЄННЯ
-rmc-dropship-weapons-fire-mission = F-MISS
+rmc-dropship-weapons-fire-mission = В-МІС
 rmc-dropship-weapons-target = ЦІЛЬ
 rmc-dropship-weapons-maps = МАПИ
 rmc-dropship-weapons-cams = КАМЕРА
@@ -60,16 +60,16 @@ rmc-dropship-weapons-fire-no-weapon = Зброю не обрано.
 rmc-dropship-weapons-fire-not-flying = Транспортники можуть вести вогонь лише в польоті.
 rmc-dropship-weapons-fire-not-skilled = Вас не навчали стріляти з цього!
 rmc-dropship-weapons-fire-no-ammo = {$weapon} не має набоїв.
-rmc-dropship-weapons-fire-cooldown = {$weapon} перегрітий після стрільби, зачекайте поки охолоне.
+rmc-dropship-weapons-fire-cooldown = {$weapon} нагрілася після стрільби, зачекайте поки охолоне.
 
 rmc-dropship-weapons-point-gun = Тут вже є {$weapon}.
 rmc-dropship-weapons-point-ammo = Місце зайнято {$ammo}.
 rmc-dropship-weapons-rounds-left = В ньому лишилося {$current} набоїв з {$max}.
 
-rmc-dropship-utility-activate-not-flying = Utility Systems can only activate while in flight.
-rmc-dropship-utility-not-flyby = {$utility} can only be used during flyby.
-rmc-dropship-utility-not-skilled = You don't have the training to use this system!
-rmc-dropship-utility-cooldown = {$utility} was just used, you need to wait a bit before using it again.
+rmc-dropship-utility-activate-not-flying = Цю систему можна використати лише в польоті.
+rmc-dropship-utility-not-flyby = {$utility} можна використовувати лише під час прольоту.
+rmc-dropship-utility-not-skilled = Вас не навчали використовувати це!
+rmc-dropship-utility-cooldown = {$utility} щойно використовувався, почекайте перед тим як використати його знову.
 
 rmc-dropship-flyby-no-skill = У вас немає навичок щоб виконати проліт.
 

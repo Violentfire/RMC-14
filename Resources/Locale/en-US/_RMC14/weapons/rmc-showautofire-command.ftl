@@ -1,4 +1,4 @@
-﻿cmd-showautofire-desc = Показує автоматичне наведення стрільби для розумної зброї.
-cmd-showautofire-help = Usage: showautofire
-cmd-showautofire-enabled = Увімкнено показ автоматичного наведення стрільби для розумної збро.
-cmd-showautofire-disabled = Вимкнено показ автоматичного наведення стрільби для розумної зброї.
+﻿cmd-showautofire-desc = Показує автоматичне наведення стрільби для Смартгана.
+cmd-showautofire-help = Застосування: показавтовогню
+cmd-showautofire-enabled = Увімкнено показ автоматичного наведення стрільби для Смартгана.
+cmd-showautofire-disabled = Вимкнено показ автоматичного наведення стрільби для Смартгана.

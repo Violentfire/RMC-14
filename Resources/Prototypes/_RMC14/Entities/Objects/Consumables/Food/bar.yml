@@ -8,21 +8,23 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 50
         reagents:
         - ReagentId: Nutriment
           Quantity: 8
-        - ReagentId: Vitamin
-          Quantity: 2
   - type: Item
     size: Tiny
     sprite: _RMC14/Objects/Consumable/Food/bar.rsi
+  - type: Extractable
+    grindableSolutionName: food
+  - type: InjectableSolution
+    solution: food
 
 - type: entity
   parent: CMBarFoodBase
   id: CMMarineProteinBar
-  name: зіпсований Морпіхотний батончик
-  description: Найбільш підроблений батончик який ви тільки бачили. Зроблений з переробленої упаковки кращого батончика, і вкритий замінником шоколаду.
+  name: зіпсований морпіхотний батончик
+  description: Найгірший батончик який ви тільки бачили, а не дай бог і куштували. Зроблений з переробленої упаковки кращого батончика, і вкритий замінником шоколаду.
   components:
   - type: Sprite
     state: protein_bar

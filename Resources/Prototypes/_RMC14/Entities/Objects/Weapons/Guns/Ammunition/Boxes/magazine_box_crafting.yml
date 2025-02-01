@@ -1,15 +1,15 @@
-﻿# construction ui entries
+# construction ui entries
 
 # M54C
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C Reg)
+  name: Магазинна коробка (M54C Рег)
   id: RMCBoxMagazineRifleM54C
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M54C mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для M54C.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -17,13 +17,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C AP)
+  name: Магазинна коробка (M54C ББ)
   id: RMCBoxMagazineRifleM54CAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M54C mags.
+  description: Коробка для магазинів, яка може містити бронебійні магазини для M54C.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -31,13 +31,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C Ext)
+  name: Магазинна коробка (M54C Розш)
   id: RMCBoxMagazineRifleM54CExt
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M54C mags.
+  description: Коробка для магазинів, яка може містити розширені магазини для M54C.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -46,13 +46,13 @@
 # M63
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 Reg)
+  name: Магазинна коробка (M63 Розш)
   id: RMCBoxMagazineSMGM63
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M63 mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для M63.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m63
@@ -60,13 +60,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 AP)
+  name: Магазинна коробка (M63 ББ)
   id: RMCBoxMagazineSMGM63AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M63 mags.
+  description: Коробка для магазинів, яка може містити бронебійні магазини для M63.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m63
@@ -74,13 +74,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 Ext)
+  name: Магазинна коробка (M63 Розш)
   id: RMCBoxMagazineSMGM63Ext
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63ExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M63 mags.
+  description: Коробка для магазинів, яка може містити розширені магазини для M63.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m63
@@ -89,13 +89,13 @@
 # M4SPR
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR Reg)
+  name: Магазинна коробка (M4SPR Рег)
   id: RMCBoxMagazineRifleM4SPR
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPREmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M4SPR mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для M4SPR.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m4spr
@@ -103,13 +103,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR AP)
+  name: Магазинна коробка (M4SPR ББ)
   id: RMCBoxMagazineRifleM4SPRAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M4SPR mags.
+  description: Коробка для магазинів, яка може містити бронебійні магазини для M4SPR.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m4spr
@@ -117,13 +117,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR Ext)
+  name: Магазинна коробка (M4SPR Розш)
   id: RMCBoxMagazineRifleM4SPRExt
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M4SPR mags.
+  description: Коробка для магазинів, яка може містити розширені магазини для M4SPR.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m4spr
@@ -132,42 +132,42 @@
 # M1984
 - type: construction
   parent: RMC
-  name: Magazine Box (M1984 Reg)
+  name: Магазинна коробка (M1984 Рег)
   id: RMCBoxMagazinePistolM1984
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M1984 mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для M1984.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m1984
   objectType: Item
 
-#- type: construction
-#  parent: RMC
-#  name: Magazine Box (M1984 AP)
-#  id: RMCBoxMagazinePistolM1984AP
-#  graph: RMCBoxMagazine
-#  startNode: start
-#  targetNode: RMCBoxMagazinePistolM1984APEmpty
-#  category: construction-category-cm-box-magazine
-#  description: A magazine box that can contain armor piercing M1984 mags.
-#  icon:
-#    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
-#    state: base_m1984
-#  objectType: Item
+- type: construction
+  parent: RMC
+  name: Magazine Box (M1984 AP)
+  id: RMCBoxMagazinePistolM1984AP
+  graph: RMCBoxMagazine
+  startNode: start
+  targetNode: RMCBoxMagazinePistolM1984APEmpty
+  category: construction-category-cm-box-magazine
+  description: A magazine box that can contain armor piercing M1984 mags.
+  icon:
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
+    state: base_m1984
+  objectType: Item
 
 # 88 mod 4 / 88m4
 - type: construction
   parent: RMC
-  name: Magazine Box (M77 AP)
+  name: Магазинна коробка (M77 ББ)
   id: RMCBoxMagazinePistolM77AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM77APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M77 mags.
+  description: Коробка для магазинів, яка може містити бронебійні магазини для M77.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m77
@@ -176,13 +176,13 @@
 # MK80
 - type: construction
   parent: RMC
-  name: Magazine Box (MK80 Reg)
+  name: Магазинна коробка (MK80 Рег)
   id: RMCBoxMagazinePistolMK80
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolMK80Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular MK80 mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для MK80.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_mk80
@@ -191,13 +191,13 @@
 # SU-6 Smart pistol
 - type: construction
   parent: RMC
-  name: Magazine Box (SU-6 Reg)
+  name: Магазинна коробка (SU-6 Рег)
   id: RMCBoxMagazinePistolSU6
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolSU6Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular SU-6 mags.
+  description: Коробка для магазинів, яка може містити регулярні магазини для SU-6.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_su6
@@ -206,13 +206,13 @@
 # M44
 - type: construction
   parent: RMC
-  name: Magazine Box (M44 Reg)
+  name: Магазинна коробка (M44 Рег)
   id: RMCBoxMagazineRevolverM44Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44Empty
   category: construction-category-cm-box-magazine
-  description: A box for holding many speedloaders with a carrying handle.
+  description: Ящик для зберігання багатьох швидконавантажувачів з ручкою для перенесення.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -220,13 +220,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M44 Mark)
+  name: Магазинна коробка (M44 Марк)
   id: RMCBoxMagazineRevolverM44MarksmanEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44MarksmanEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding many marksman speedloaders with a carrying handle.
+  description: Контейнер з ручкою для перенесення, який вміщує багато швидкозавантажувачів для марксманської зброї.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -235,13 +235,13 @@
 # Nailgun
 - type: construction
   parent: RMC
-  name: Magazine Box (Nailgun)
+  name: Магазинна коробка (Цвяходер)
   id: RMCBoxMagazineSMGNailgunEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGNailgunEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain nailgun mags.
+  description: Коробка для магазинів, яка може містити магазини для цвяходеру.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_nailgun
@@ -250,13 +250,13 @@
 # Shotgun
 - type: construction
   parent: RMC
-  name: Shell Box (Buckshot)
+  name: Коробка для набоїв (Дробовий)
   id: RMCBoxShellsBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_buck
@@ -264,13 +264,13 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Slugs)
+  name: Коробка для набоїв (Кульові)
   id: RMCBoxShellsSlugsEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsSlugsEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_slug
@@ -278,13 +278,13 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Flechette)
+  name: Коробка для набоїв (Підкаліберний)
   id: RMCBoxShellsFlechetteEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsFlechetteEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_flech
@@ -292,13 +292,13 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Incendiary)
+  name: Коробка для набоїв (Запальний)
   id: RMCBoxShellsIncendiaryEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsIncendiaryEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_inc
@@ -320,13 +320,13 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Inc Buckshot)
+  name: Коробка для набоїв (Inc Buckshot)
   id: RMCBoxShellsIncendiaryBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsIncendiaryBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_incbuck
@@ -334,13 +334,13 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Breaching)
+  name: Коробка для набоїв (Пробивні)
   id: RMCBoxShellsBreachingEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsBreachingEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: Ящик для зберігання снарядів.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_breach
@@ -350,13 +350,13 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (MRE)
+  name: Ящик Постачання (сухпаї)
   id: RMCBoxMREEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMREEmpty
   category: construction-category-cm-box-magazine
-  description: A box of MREs. Nutritious, but not delicious.
+  description: Коробка сухпайків. Поживні, але не смачні.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: supply_crate
@@ -364,13 +364,13 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (M94)
+  name: Ящик Постачання (M94)
   id: RMCBoxPackFlareEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxPackFlareEmpty
   category: construction-category-cm-box-magazine
-  description: A box of M94 marking flare packs, to brighten up your day.
+  description: Коробка сигнальних фаєрів з маркуванням M94, щоб зробити ваш день яскравішим.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: supply_crate
@@ -378,13 +378,13 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (M89-S)
+  name: Ящик Постачання (M89-С)
   id: RMCBoxPackFlareCASEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxPackFlareCASEmpty
   category: construction-category-cm-box-magazine
-  description: A box of M89 signal flare packs, to mark up the way.
+  description: Коробка сигнальних фаєрів M89, щоб позначити шлях.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: supply_crate
@@ -392,13 +392,13 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (Flashlights)
+  name: Ящик Постачання (Ліхтарі)
   id: RMCBoxFlashlightsEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxFlashlightsEmpty
   category: construction-category-cm-box-magazine
-  description: A box of flashlights to brighten your day!
+  description: Коробка ліхтариків, щоб зробити ваш день яскравішим!
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: flashlightbox
@@ -418,172 +418,172 @@
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxMagazineRifleM54CAPEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxMagazineRifleM54CExtEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # M63
     - to: RMCBoxMagazineSMGM63Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxMagazineSMGM63APEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxMagazineSMGM63ExtEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # M4SPR
     - to: RMCBoxMagazineRifleM4SPREmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     - to: RMCBoxMagazineRifleM4SPRAPEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     - to: RMCBoxMagazineRifleM4SPRExtEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # M1984
     - to: RMCBoxMagazinePistolM1984Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
-
-#    - to: RMCBoxMagazinePistolM1984APEmpty
-#      steps:
-#      - material: RMCSheetCardboard
-#        amount: 1
-#        doAfter: 1
+        doAfter: 0.25
+        
+    - to: RMCBoxMagazinePistolM1984APEmpty
+      steps:
+      - material: RMCSheetCardboard
+        amount: 1
+        doAfter: 0.25
 
     # M77AP
     - to: RMCBoxMagazinePistolM77APEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # MK80
     - to: RMCBoxMagazinePistolMK80Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # SU-6
     - to: RMCBoxMagazinePistolSU6Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # M44
     - to: RMCBoxMagazineRevolverM44Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxMagazineRevolverM44MarksmanEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # Nailgun
     - to: RMCBoxMagazineSMGNailgunEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # XM88
     - to: RMCBoxBullets458Empty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # Shotgun
     - to: RMCBoxShellsBuckshotEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxShellsSlugsEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxShellsFlechetteEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxShellsIncendiaryEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     # - to: RMCBoxShellsBeanbagEmpty
       # steps:
       # - material: RMCSheetCardboard
         # amount: 1
-        # doAfter: 1
+        # doAfter: 0.25
     - to: RMCBoxShellsIncendiaryBuckshotEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxShellsBreachingEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
     # Misc
     - to: RMCBoxMREEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxPackFlareEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxPackFlareCASEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
     - to: RMCBoxFlashlightsEmpty
       steps:
       - material: RMCSheetCardboard
         amount: 1
-        doAfter: 1
+        doAfter: 0.25
 
   # Why the fuck do you even need these nodes???
 
@@ -614,8 +614,8 @@
   # M1984
   - node: RMCBoxMagazinePistolM1984Empty
     entity: RMCBoxMagazinePistolM1984Empty
-#  - node: RMCBoxMagazinePistolM1984APEmpty
-#    entity: RMCBoxMagazinePistolM1984APEmpty
+  - node: RMCBoxMagazinePistolM1984APEmpty
+    entity: RMCBoxMagazinePistolM1984APEmpty
 
   # M77AP
   - node: RMCBoxMagazinePistolM77APEmpty

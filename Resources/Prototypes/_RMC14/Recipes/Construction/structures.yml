@@ -2,12 +2,12 @@
 - type: construction
   parent: RMC
   id: CMGirder
-  name: girder
+  name: балка
   graph: CMGirder
   startNode: start
   targetNode: girder
   category: construction-category-cm-structures
-  description: A large structural assembly made out of metal.
+  description: Велика конструкція з металу.
   icon:
     sprite: _RMC14/Structures/Walls/girder.rsi
     state: girder
@@ -40,12 +40,12 @@
 - type: construction
   parent: RMC
   id: CMWallMetal
-  name: wall
+  name: стіна
   graph: CMGirder
   startNode: start
   targetNode: wall
   category: construction-category-cm-structures
-  description: A huge chunk of metal used to separate rooms.
+  description: Величезний шматок металу використовувався для розділення кімнат.
   icon:
     sprite: _RMC14/Structures/Walls/metal.rsi
     state: full
@@ -59,12 +59,12 @@
 - type: construction
   parent: RMC
   id: CMWallReinforced
-  name: reinforced wall
+  name: армована стіна
   graph: CMGirder
   startNode: start
   targetNode: reinforcedWall
   category: construction-category-cm-structures
-  description: A huge chunk of reinforced metal used to separate rooms.
+  description: Величезний шматок армованого металу використовувався для розділення кімнат.
   icon:
     sprite: _RMC14/Structures/Walls/rwall.rsi
     state: full
@@ -78,13 +78,13 @@
 # Airlocks
 - type: construction
   parent: RMC
-  name: airlock
+  name: Шлюз
   id: CMAirlock
   graph: CMAirlock
   startNode: start
   targetNode: airlock
   category: construction-category-cm-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Він відкривається, закривається і, можливо, розчавить вас.
   icon:
     sprite: _RMC14/Structures/Doors/airlock_assemblies.rsi
     state: as_3
@@ -96,13 +96,13 @@
 
 - type: construction
   parent: RMC
-  name: glass airlock
+  name: скляний шлюз
   id: CMAirlockGlass
   graph: CMAirlock
   startNode: start
   targetNode: glassAirlock
   category: construction-category-cm-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Він відкривається, закривається і, можливо, розчавить вас.
   icon:
     sprite: _RMC14/Structures/Doors/airlock_assemblies.rsi
     state: as_g3
@@ -115,13 +115,13 @@
 # Directional Windows
 - type: construction
   parent: RMC
-  name: directional window
+  name: направлене вікно
   id: RMCWindowDirectional
   graph: RMCWindowDirectional
   startNode: start
   targetNode: windowDirectional
   category: construction-category-cm-structures
-  description: A glass window. It looks thin and flimsy.
+  description: Скляне вікно. Воно виглядає крихким і тонким.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -134,13 +134,13 @@
 
 - type: construction
   parent: RMC
-  name: directional reinforced window
+  name: направлене армоване вікно
   id: RMCWindowReinforcedDirectional
   graph: RMCWindowDirectional
   startNode: start
   targetNode: windowReinforcedDirectional
   category: construction-category-cm-structures
-  description: A glass window reinforced with bracing rods. It looks rather strong.
+  description: Скляне вікно, укріплене прутами. Виглядає досить міцно.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -154,13 +154,13 @@
 # Windoors
 - type: construction
   parent: RMC
-  name: windoor
+  name: віконні двері
   id: CMWindoor
   graph: CMWindoor
   startNode: start
   targetNode: windoor
   category: construction-category-cm-structures
-  description: It opens, it closes, and you can see through it!
+  description: Воно відкривається, закривається, і ви можете бачити крізь нього!
   icon:
     sprite: _RMC14/Structures/Doors/windoor_assemblies.rsi
     state: windoor_assembly01
@@ -172,13 +172,13 @@
 
 - type: construction
   parent: RMC
-  name: secure windoor
+  name: захищені віконні двері
   id: CMWindoorSecure
   graph: CMWindoor
   startNode: start
   targetNode: windoorSecure
   category: construction-category-cm-structures
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  description: Воно відкривається, закривається, і крізь нього можна бачити! Це виглядає міцно.
   icon:
     sprite: _RMC14/Structures/Doors/windoor_assemblies.rsi
     state: secure_assembly01
@@ -191,13 +191,13 @@
 # Barricades
 - type: construction
   parent: RMC
-  name: Metal Barricade
+  name: Металева барикада
   id: CMBarricadeMetal
   graph: BarricadeMetalGraph
   startNode: start
   targetNode: nodeMetal
   category: construction-category-cm-structures
-  description: A military-grade metal barricade.
+  description: Металева барикада військового зразка.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -210,13 +210,13 @@
 
 - type: construction
   parent: RMC
-  name: Plasteel Barricade
+  name: Пласталева барикада
   id: RMCBarricadePlasteel
   graph: BarricadePlasteelGraph
   startNode: start
   targetNode: nodePlasteel
   category: construction-category-cm-structures
-  description: A military-grade hardened plasteel barricade.
+  description: Барикада із пласталі військового зразка.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -229,13 +229,13 @@
 
 - type: construction
   parent: RMC
-  name: Wooden Barricade
+  name: Дерев'яна барикада
   id: RMCBarricadeWood
   graph: BarricadeWoodGraph
   startNode: start
   targetNode: nodeWood
   category: construction-category-cm-structures
-  description: A makeshift wooden barricade.
+  description: Імпровізована дерев'яна барикада.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -248,13 +248,13 @@
 
 - type: construction
   parent: RMC
-  name: Turnstile
+  name: Огорожа
   id: CMBarricadeTurnstile
   graph: BarricadeTurnstileGraph
   startNode: start
   targetNode: nodeTurnstile
   category: construction-category-cm-structures
-  description: A fence to ensure marines stay in line.
+  description: Огорожа, щоб морські піхотинці не виходили за лінію фронту.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -267,13 +267,13 @@
 
 - type: construction
   parent: RMC
-  name: Medical Turnstile
+  name: Медична Огорожа
   id: CMBarricadeTurnstileMed
   graph: BarricadeTurnstileMedGraph
   startNode: start
   targetNode: nodeTurnstileMed
   category: construction-category-cm-structures
-  description: A fence to ensure marines stay in line in medical.
+  description: Огорожа, яка забезпечує порядок і контроль черги морпіхів у медичному відділі.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -286,13 +286,13 @@
 
 - type: construction
   parent: RMC
-  name: Handrail
+  name: Перила
   id: RMCBarricadeHandrail
   graph: BarricadeHandrailGraph
   startNode: start
   targetNode: nodeHandrail
   category: construction-category-cm-structures
-  description: A railing, for your hands. Woooow.
+  description: Перила, для ваших рук. Вааау.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -305,13 +305,13 @@
 
 - type: construction
   parent: RMC
-  name: Folding Metal Barricade
+  name: Складна металева барикада
   id: CMBarricadeMetalDoor
   graph: BarricadeMetalDoorGraph
   startNode: start
   targetNode: nodeBarricadeMetalDoor
   category: construction-category-cm-structures
-  description: A barricade that can be folded or opened to allow marines through.
+  description: Барикада, яку можна скласти, щоб звільнити прохід, або розкласти для обмеження доступу.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -324,13 +324,13 @@
 
 - type: construction
   parent: RMC
-  name: Folding Plasteel Barricade
+  name: Складна пласталева барикада
   id: CMBarricadePlasteelDoor
   graph: BarricadePlasteelDoorGraph
   startNode: start
   targetNode: nodeBarricadePlasteelDoor
   category: construction-category-cm-structures
-  description: A barricade that can be folded or opened to allow marines through. Made from hardened plasteel.
+  description: Барикада, яку можна скласти, щоб звільнити прохід, або розкласти для обмеження доступу. Виготовлена з загартованої пласталі.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -344,13 +344,13 @@
 #lighting
 - type: construction
   parent: RMC
-  name: tube light fixture
+  name: Настінне кріплення для ламп
   id: CMLightTubeFixture
   graph: CMLightFixture
   startNode: start
   targetNode: tubeLight
   category: construction-category-cm-structures
-  description: A wallmounted fixture for tube lights.
+  description: Настінне кріплення для трубчастих ламп.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true
@@ -363,13 +363,13 @@
 
 - type: construction
   parent: RMC
-  name: bulb light fixture
+  name: Настінне кріплення для лампочок
   id: CMLightBulbFixture
   graph: CMLightFixture
   startNode: start
   targetNode: bulbLight
   category: construction-category-cm-structures
-  description: A wallmounted fixture for bulb lights.
+  description: Настінний світильник, призначений для лампочок.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true
@@ -382,13 +382,13 @@
 
 - type: construction
   parent: RMC
-  name: campfire
+  name: багаття
   id: RMCCampfire
   graph: RMCCampfire
   startNode: start
   targetNode: Campfire
   category: construction-category-cm-structures
-  description: A nice and cozy campfire for getting all your friends together.
+  description: Гарне та затишне вогнище, де можна зібрати всіх друзів.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: False
@@ -403,12 +403,12 @@
 - type: construction
   parent: RMC
   id: RMCGrille
-  name: grille
+  name: решітка
   graph: RMCGrille
   startNode: start
   targetNode: Grille
   category: construction-category-cm-structures
-  description: A flimsy lattice of metal rods.
+  description: Крихка решітка з металевих прутів.
   icon:
     sprite: _RMC14/Structures/Walls/grille.rsi
     state: grille
@@ -423,12 +423,12 @@
 - type: construction
   parent: RMC
   id: CMFence
-  name: fence
+  name: паркан
   graph: CMFence
   startNode: start
   targetNode: fenceMetal
   category: construction-category-cm-structures
-  description: A weak mesh fence.
+  description: Слабкий сітчастий паркан.
   icon:
     sprite: _RMC14/Structures/fences.rsi
     state: fence0

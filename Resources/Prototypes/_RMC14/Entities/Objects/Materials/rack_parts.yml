@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCRackParts
-  name: rack parts
-  description: A collapsable kit for a three-shelf rack with four telescoping legs. Some assembly required.
+  name: деталі стійок
+  description: Розбірний комплект для стелажа на три полиці з чотирма телескопічними ніжками. Потребує певної збірки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/rack_parts.rsi

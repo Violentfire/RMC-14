@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCCorrespondentMicrophone
-  name: microphone
+  name: мікрофон
   suffix: RMC
-  description: To report on the events where no other correspondent has gone before. Now with sound!
+  description: Для найсоковитіших репортажів, з найгарячиших точок. Тепер зі звуком!
   components:
   - type: Sprite
     sprite: Objects/Fun/Instruments/microphone.rsi

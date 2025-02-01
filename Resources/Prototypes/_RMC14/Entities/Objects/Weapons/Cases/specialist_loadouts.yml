@@ -2,7 +2,6 @@
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
   name: набір снайпера
-  suffix: Jungle
   description: "Великий кейс, що містить дуже далекобійну снайперську гвинтівку M96S, камуфляжну броню M45 і шолом, ПНБ M42, оптику, та додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: StorageFill
@@ -15,7 +14,7 @@
       amount: 2
     - id: CMMagazineSniperM96S # TODO rmc14 CMMagazineSniperM96SFlak
     - id: CMBackpackSniper
-    - id: CMWeaponPistolMK80
+    - id: RMCMK80
     - id: CMMagazinePistolMK80
       amount: 2
     - id: CMM96SSniperRifle
@@ -29,7 +28,6 @@
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
   name: набір гранатометника
-  suffix: Jungle
   description: "Великий кейс, що містить потужний багатозарядний гранатомет M83, гренадерську броню M3-G4 і шолом, велику кількість гранат зразку M40 та додаткове спорядження.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -51,7 +49,7 @@
     - id: RMCHandsM3G4
     - id: RMCArmorM3G4
     - id: RMCArmorHelmetM3G4 # hugger protection
-    - id: CMWeaponPistolMK80
+    - id: RMCMK80
     - id: CMMagazinePistolMK80
       amount: 2
     - id: RMCBinoculars
@@ -63,7 +61,6 @@
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
   name: набір підривника
-  suffix: Jungle
   description: "Великий кейс, що містить великоліберну протитанкову пукову установку M5, легку противибухову броню M3-T, п'ять 84мм ракет, і додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -90,7 +87,7 @@
       amount: 2
 #    - id: RMCRocket84mmWhitePhosphorous
 #      amount: 1
-    - id: CMWeaponPistolMK80
+    - id: RMCMK80
     - id: CMMagazinePistolMK80
       amount: 2
 #    - id: RMCPlasticExplosives
@@ -104,7 +101,6 @@
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
   name: набір розвідника
-  suffix: Jungle
   description: "Великий кейс, що містить бойову гвинтівку M4RA, легку броню M3-S і шолом, приціл до M4RA, термоплащ M68, реактивний термальний мішок V3, боєприпаси та додаткове спорядження.\nNOTE: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
@@ -129,7 +125,7 @@
     - id: RMCMagazineRifleM4SPRA19Impact
       amount: 2
     - id: RMCBackpackScout
-    - id: CMWeaponPistolMK80
+    - id: RMCMK80
     - id: CMMagazinePistolMK80
       amount: 2
     - id: WeaponRifleM4SPRCustom

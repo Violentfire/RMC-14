@@ -12,8 +12,8 @@
 - type: entity
   parent: [ RMCRailAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentRailFlashlight
-  name: rail flashlight
-  description: A flashlight, for rails, on guns. Can be toggled on and off. A better light source than standard M3 pattern armor lights.
+  name: рейковий ліхтар
+  description: Ліхтар для кріплення на рейки зброї. Може вмикатися та вимикатися. Забезпечує кращий рівень освітлення порівняно зі стандартними ліхтарями броні M3.
   components:
   - type: ToggleableLightVisuals
     spriteLayer: light
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentMagneticHarness
-  name: magnetic harness
-  description: A magnetically attached harness kit that attaches to the rail mount of a weapon. When dropped, the weapon will sling to any set of Marine armor.
+  name: магнітне кріплення
+  description: Комплект магнітного кріплення, що фіксується на рейковій планці зброї. У разі падіння зброя автоматично фіксується до будь-якої броні Морпіхів із відповідним кріпленням.
   components:
   - type: Sprite
     state: magnetic
@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS5RedDotSight
-  name: S5 red-dot sight
-  description: An all-weather collimator sight, designated as the AN/PVQ-64 Dot Sight. Equipped with a sunshade to increase clarity in bright conditions and resist weathering. Compact and efficient, a marvel of military design, until you realize that this is actually just an off-the-shelf design that got a military designation slapped on.
+  name: приціл S5 з червоною крапкою
+  description: Універсальний коліматорний приціл, відомий як AN/PVQ-64 Dot Sight. Оснащений сонцезахисним козирком для покращення видимості у яскравих умовах і стійкості до погодних впливів. Компактний і ефективний, приклад військового дизайну... але насправді це просто масовий комерційний продукт із наклеєною військовою назвою.
   components:
   - type: Sprite
     state: reddot
@@ -130,8 +130,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS6ReflexSight
-  name: S6 reflex sight
-  description: An AEGIS S6 reflex sight. A zero-magnification alternative to iron sights with a more open optic window when compared to the S5 red-dot. Helps to reduce scatter during automated fire.
+  name: рефлекторний приціл S6
+  description: Рефлекторний приціл AEGIS S6. Альтернатива залізним прицілам з нульовим збільшенням з більш відкритим оптичним вікном порівняно з прицілом S5 з червоною крапкою. Допомагає зменшити розсіювання під час автоматичної стрільби.
   components:
   - type: Sprite
     state: reflex
@@ -170,8 +170,8 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: sniperscope
-    actionName: Look through Scope
-    actionDesc: Scope in. If you're seeing this, someone forgot to set the description properly.
+    actionName: Дивитись крізь Приціл
+    actionDesc: Придивись. Якщо ви бачите цей текст, хтось забув правильно встановити опис.
   - type: AttachableToggleableSimpleActivate
   - type: Scope
     requireWielding: true
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS84xTelescopicScope
-  name: S8 4x telescopic scope
-  description: An AEGIS S8 telescopic eye piece. Fixed at 4x zoom.
+  name: S8 4x телескопічний приціл
+  description: Телескопічний приціл AEGIS S8. Фіксоване 4-кратне збільшення.
   components:
   - type: Sprite
     state: sniperscope
@@ -197,8 +197,8 @@
     - RMCAttachmentS84xTelescopicScope
   - type: AttachableVisuals
   - type: AttachableToggleable
-    actionName: Look through the S8 4x Telescopic Scope
-    actionDesc: An AEGIS S8 telescopic eye piece. Fixed at 4x zoom.
+    actionName: Подивитись крізь телескопічний приціл S8
+    actionDesc: Телескопічний приціл AEGIS S8. Фіксоване 4-кратне збільшення.
   - type: AttachableToggleableSimpleActivate
   - type: Scope
     zoomLevels:
@@ -231,8 +231,8 @@
 - type: entity
   parent: RMCAttachmentS84xTelescopicScope
   id: RMCAttachmentSlavicScope
-  name: 4x telescopic scope
-  description: Oppa! How did you get this off glorious Stalin weapon? Blyat, put back on and do job tovarish. Yankee is not shoot self no?
+  name: 4-кратний телескопічний приціл
+  description: Оппа! Як ти зняв це з бридкої сталінської зброї? Бляха, одягай назад і роби свою роботу товариш. Янкі не застрелиться, ні?
   components:
   - type: Sprite
     state: slavicscope
@@ -246,14 +246,14 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: slavicscope
-    actionName: Look through the 4x Telescopic Scope
-    actionDesc: A slavic scope. Fixed at 4x zoom.
+    actionName: Подивитись крізь 4-кратний телескопічний приціл
+    actionDesc: "Слов'янський приціл. Фіксується на 4-кратному збільшенні."
 
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS42xTelescopicMiniscope
-  name: S4 2x telescopic mini-scope
-  description: An AEGIS S4 telescoping eye piece. Fixed at a modest 2x zoom.
+  name: міні-телескопічний приціл S4 2x
+  description: Телескопічний приціл S4 від AEGIS із фіксованим збільшенням у 2x.
   components:
   - type: Sprite
     state: miniscope
@@ -267,8 +267,8 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: miniscope
-    actionName: Look through the S4 2x Telescopic Mini-Scope
-    actionDesc: An AEGIS S4 telescoping eye piece. Fixed at a modest 2x zoom.
+    actionName: Подивитись крізь міні-телескопічний приціл S4 2x
+    actionDesc: Телескопічний приціл S4 від AEGIS із фіксованим збільшенням у 2x.
   - type: AttachableToggleableSimpleActivate
   - type: Scope
     zoomLevels:
@@ -300,8 +300,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentS42xAdvancedTelescopicMiniscope
-  name: WeYa S4 2x advanced telescopic mini-scope
-  description: An AEGIS S4 telescoping eye piece, custom-tuned by WeYa scientists to be as ergonomic as possible.
+  name: ВеЯ S4 2x Покращений міні-оптичний приціл
+  description: Телескопічний приціл AEGIS S4, спеціально налаштований вченими ВеЯ, щоб бути настільки ергономічним, наскільки це можливо.
   components:
   - type: Sprite
     state: miniscope-nsg23
@@ -313,8 +313,8 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: miniscope-nsg23
-    actionName: Look through WeYa S4 2x Advanced Telescopic Mini-Scope
-    actionDesc: An AEGIS S4 telescoping eye piece, custom-tuned by WeYa scientists to be as ergonomic as possible.
+    actionName: Подивитись крізь покращений міні-оптичний приціл S4 2x
+    actionDesc: Телескопічний приціл AEGIS S4, спеціально налаштований вченими ВеЯ, щоб бути настільки ергономічним, наскільки це можливо.
   - type: Scope
     zoomLevels:
     - zoom: 1
@@ -327,8 +327,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentMiniscopeHunting
-  name: 2x hunting mini-scope
-  description: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+  name: 2x мисливський міні-приціл
+  description: Цивільний приціл, популярний на мисливських гвинтівках завдяки низькій ціні та чудовій оптиці. Забезпечує скромне 2x збільшення.
   components:
   - type: Sprite
     state: huntingscope
@@ -342,14 +342,14 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: huntingscope
-    actionName: Look through 2x Hunting Mini-Scope
-    actionDesc: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+    actionName: Подивитись крізь 2-кратний мисливський міні-приціл
+    actionDesc: Цивільний приціл, популярний на мисливських гвинтівках завдяки низькій ціні та чудовій оптиці. Забезпечує скромне 2x збільшення.
 
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentB8SmartScope
-  name: B8 smart-scope
-  description: An experimental B8 Smart-Scope. Based on the technologies used in the Smart Gun by AEGIS, this sight has integrated IFF systems. It can only attach to the M4SPR Battle Rifle and the M44 Combat Revolver.
+  name: розумний приціл B8
+  description: Експериментальний приціл B8 Smart-Scope. Базується на технологіях Smart Gun від AEGIS, має вбудовані системи розпізнавання «свій-чужий» (IFF). Може кріпитися тільки до M4SPR Battle Rifle і M44 Combat Revolver.
   components:
   - type: Sprite
     state: iffbarrel
@@ -362,8 +362,8 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: huntingscope
-    actionName: Look through B8 Smart-Scope
-    actionDesc: Lets you see further and shoot through your fellow marines without harming them.
+    actionName: Подивитись крізь розумний приціл B8
+    actionDesc: Дозволяє бачити вам далі, та стріляти крізь побратимів, не завдаючи їм шкоди.
   - type: AttachableIFF
   - type: AttachableWeaponRangedMods
     modifiers:
@@ -376,8 +376,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCM96SIntegratedScope
-  name: M96S integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: інтегрований приціл M96S
+  description: Цей приціл не мав зніматися з гвинтівки. Як ви це зробили?
   components:
   - type: Sprite
     state: m96s-scope
@@ -393,8 +393,8 @@
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: m96s-scope
-    actionName: Look through M96S Integrated Scope
-    actionDesc: Lets you see further.
+    actionName: Подивитись крізь інтегрований приціл M96S
+    actionDesc: Дозволяє бачити далі
   - type: AttachableSpeedMods
     modifiers:
     - conditions:
@@ -429,9 +429,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentXS-9
-  name: XS-9 targeting relay
-  suffix: Desert
-  description: While still in development, the XS-9 Targeting Relay has many features -- most of them disabled for the field testing -- functions slightly better than a standard scope.
+  name: релейна система прицілювання XS-9
+  description: На етапі розробки XS-9 Targeting Relay має багато функцій, більшість із яких вимкнено для польових випробувань. Працює трохи краще за стандартний приціл.
   components:
   - type: Sprite
     state: d_boomslang-scope
@@ -440,13 +439,14 @@
     - RMCAttachmentRail
     - RMCAttachmentXS-9
   - type: AttachableVisuals
+  - type: Appearance
   - type: AttachableToggleable
     breakOnMove: false
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
       state: d_boomslang-scope
-    actionName: Look through the XS-9 Scope
-    actionDesc: A mostly disabled XS-9, it still functions as a scope though.
+    actionName: Подивитись крізь приціл XS-9
+    actionDesc: Хоча більшість функцій XS-9 вимкнено, він усе ще виконує роль прицілу.
   - type: AttachableToggleableSimpleActivate
   - type: Scope
     zoomLevels:

@@ -1,9 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCBinoculars
-  name: binoculars
-  suffix: Jungle
-  description: A military-issued pair of binoculars.
+  name: бінокль
+  description: Стандартний військовий бінокль.
   components:
   - type: Item
     size: Small
@@ -25,6 +24,7 @@
     quickEquip: false
     slots:
     - suitstorage
+  - type: Appearance
   - type: ItemCamouflage
     states:
       Jungle: binoculars
@@ -36,9 +36,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCRangefinder
-  name: rangefinder
-  suffix: Jungle
-  description: "A pair of binoculars with a rangefinding function. Click a tile to acquire it's coordinates."
+  name: далекомір
+  description: "Той самий бінокль, але з функцією визначення координат. Натисніть на клітинку, щоб отримати її координати."
   components:
   - type: Item
     heldPrefix: rangefinders
@@ -73,9 +72,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignator
-  name: laser designator
-  suffix: Jungle
-  description: "A laser designator with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
+  name: лазерний цілевказівник
+  description: "Цілевказівник має два режима: ІЧ мітка для БАП та визначення координат. Натисніть на клітинку, щоб зробити щось з цього."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -91,9 +89,8 @@
 - type: entity
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorScout
-  name: scout laser designator
-  suffix: Jungle
-  description: "An improved laser designator, issued to UNMC scouts, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something."
+  name: цілевказівник розвідника
+  description: "Цей удосконалений цілевказівник, що використовується розвідниками КМПОН має ті самі два режима: ІЧ мітка для БАП та визначення координат. Натисніть на клітинку, щоб зробити щось з цього."
   components:
   - type: Rangefinder
     delay: 3
@@ -102,7 +99,7 @@
 
 - type: entity
   id: RMCRangefinderTarget
-  name: laser
+  name: лазер
   components:
   - type: Transform
     anchored: true
@@ -116,7 +113,7 @@
 - type: entity
   parent: RMCRangefinderTarget
   id: RMCLaserDesignatorTarget
-  description: It's a laser to designate artillery targets, get away from it!
+  description: Це лазер для визначення координат, по яким скоро прилетить щось вибухове. Тікайте від нього!
   components:
   - type: Sprite
     sprite: _RMC14/Effects/laser.rsi
@@ -125,7 +122,7 @@
 
 - type: entity
   id: RMCLaserDropshipTarget
-  name: blinking laser
+  name: мерехтливий лазер
   components:
   - type: Transform
     anchored: true

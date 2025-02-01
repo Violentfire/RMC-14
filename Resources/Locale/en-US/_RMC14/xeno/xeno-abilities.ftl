@@ -40,6 +40,7 @@ rmc-xeno-evolution-cant-strain-damaged = Ми повинні бути повні
 rmc-xeno-evolution-cant-devolve-damaged = Ви занадто слабкі для деградації, спершу відрегенеруйтеся.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-minutes = Ви маєте зачекати {$minutes} хвилин і {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-seconds = Ви маєте зачекати {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
+rmc-xeno-evolution-cant-evolve-caste-cooldown = We cannot evolve into this caste again yet! ({$minutes} minutes and {$seconds} seconds remaining)
 rmc-xeno-evolution-failed-bad-location = Ви не можете еволюціонувати тут.
 rmc-xeno-evolution-start-self = We begin to twist and contort.
 rmc-xeno-evolution-start-others = {$xeno} begins to twist and contort.

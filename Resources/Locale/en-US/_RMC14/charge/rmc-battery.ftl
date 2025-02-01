@@ -1,1 +1,1 @@
-﻿rmc-low-power = low power
+﻿rmc-low-power = батарея сіла

@@ -1,5 +1,5 @@
 # APC
-construction-examine-condition-apc-open = First, screw open the APC.
-construction-examine-condition-apc-close = First, screw shut the APC.
-construction-step-condition-apc-open = The APC electronics panel must be screwed open.
-construction-step-condition-apc-close = The APC electronics panel must be screwed shut.
+construction-examine-condition-apc-open = Спочатку відкрутіть ЗКЖ.
+construction-examine-condition-apc-close = Спочатку закрутіть ЗКЖ.
+construction-step-condition-apc-open = Електронна панель ЗКЖ повинна бути відкручена.
+construction-step-condition-apc-close = Електронна панель ЗКЖ повинна бути закручена.

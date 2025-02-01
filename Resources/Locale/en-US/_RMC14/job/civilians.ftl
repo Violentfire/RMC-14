@@ -1,6 +1,7 @@
 ﻿# Non Marine Personnel
 cm-job-name-correspondent = Кореспондент
 cm-job-description-correspondent = Напишіть новини про все що захочете, наприклад про безстрашних морпіхів.
+cm-job-prefix-correspondent = PRESS
 CMJobCorrespondent = Кореспондент
 
 cm-job-name-survivor = Виживший
@@ -9,4 +10,5 @@ CMJobSurvivor = Виживший
 
 cm-job-name-liaison = Представник Корпорації
 cm-job-description-liaison = Будьте зв'язковим між корпорацією Ве-Я і кораблем морпіхів надсилаючи факси. Відстоюйте інтереси компанії до кінця.
+cm-job-prefix-liaison = CL
 CMJobLiaison = Представник корпорації

@@ -8,7 +8,7 @@
         - to: RailLight
           steps:
             - tag: Flashlight
-              name: flashlight
+              name: ліхтар
               icon:
                 sprite: _RMC14/Objects/Tools/Light/flashlight.rsi
                 state: flashlight

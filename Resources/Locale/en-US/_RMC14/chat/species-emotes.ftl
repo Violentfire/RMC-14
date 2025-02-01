@@ -1,29 +1,29 @@
-rmc-emote-name-hiss = Hiss
-rmc-emote-name-meow = Meow
-rmc-emote-name-mew = Mew
-rmc-emote-name-growl = Growl
-rmc-emote-name-purr = Purr
+rmc-emote-name-hiss = Шипіти
+rmc-emote-name-meow = Нявкнути
+rmc-emote-name-mew = Мєвкнути
+rmc-emote-name-growl = Гарчати
+rmc-emote-name-purr = Мурчати
 
-rmc-emote-hiss = hisses.
-rmc-emote-meow = meows.
-rmc-emote-mew = mews.
-rmc-emote-growl = growls.
-rmc-emote-purr = purrs.
+rmc-emote-hiss = шипить.
+rmc-emote-meow = нявкає.
+rmc-emote-mew = мєвкає.
+rmc-emote-growl = гарчить.
+rmc-emote-purr = мурчить.
 
-rmc-emote-name-bark = Bark
-rmc-emote-name-snarl = Snarl
-rmc-emote-name-whine = Whine
-rmc-emote-name-howl = Howl
+rmc-emote-name-bark = Гавкнути
+rmc-emote-name-snarl = Гарчати
+rmc-emote-name-whine = Скавчати
+rmc-emote-name-howl = Вити
 
-rmc-emote-bark = barks.
-rmc-emote-snarl = snarls.
-rmc-emote-whine = whines.
-rmc-emote-howl = howls.
+rmc-emote-bark = гавкає.
+rmc-emote-snarl = гарчить.
+rmc-emote-whine = скавчить.
+rmc-emote-howl = виє.
 
-rmc-emote-name-xeno-roar = Roar
-rmc-emote-name-xeno-tail-swipe = Tail Swipe
-rmc-emote-name-xeno-help = Call for Help
+rmc-emote-name-xeno-roar = Заревіти
+rmc-emote-name-xeno-tail-swipe = Махнути хвостом
+rmc-emote-name-xeno-help = Покликати на Допомогу
 
-rmc-emote-xeno-roar = roars!
-rmc-emote-xeno-tail-swipe = swipes {POSS-ADJ($entity)} tail.
-rmc-emote-xeno-help = needs help!
+rmc-emote-xeno-roar = реве!
+rmc-emote-xeno-tail-swipe = махає {POSS-ADJ($entity)} хвостом.
+rmc-emote-xeno-help = потребує допомоги!

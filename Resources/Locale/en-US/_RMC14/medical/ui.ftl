@@ -1,4 +1,4 @@
-rmc-chem-master-window-change-color-button = Change Pill Bottle Color
-rmc-chem-master-non-pill-bottle-output = The output cannot store pills!
+rmc-chem-master-window-change-color-button = Змінити Колір
+rmc-chem-master-non-pill-bottle-output = Вихід не може зберігати пігулки!
 
-rmc-ui-change-pill-bottle-color-title = Change Pill Bottle Color
+rmc-ui-change-pill-bottle-color-title = Змінити Колір Пігулкової Пляшечки

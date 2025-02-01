@@ -41,8 +41,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: webbing
-  description: A sturdy mess of synthcotton belts and buckles, ready to share your burden.
+  name: розвантажка
+  description: Міцна плутанина ременів й пряжок, зроблених з синтетичної бавовни, готова розділити ваш тягар.
   components:
   - type: Sprite
     state: webbing
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingBlack
-  name: black webbing vest
-  description: Robust black synthcotton vest with lots of pockets to hold whatever you need, but cannot hold in hands.
+  name: чорний розвантажувальний жилет
+  description: Міцний жилет з синтетичної бавовни, пофарбований у чорний колір. Має багацько кишень, що дозволить вам не забивати зайвий раз сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMWebbingBlack
   id: CMWebbingBrown
-  name: brown webbing vest
-  description: Worn brownish synthcotton vest with lots of pockets to unload your hands.
+  name: коричневий розвантажувальний жилет
+  description: Розвантажка в якій, здається, хтось вмер. Тим не менш, це ніяк не пережкоджає його основній функції, а саме розвантажити ваші кишені від зайового барахла.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: shoulder holster
-  description: A handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: плечова кобура
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingPouch
-  name: drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: сумка скиду
+  description: Оскільки відпрацьовані магазини в КМПОН нікому не потрібні, сюди можна скидувати будь-які інші речі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: CMWebbing
   id: RMCToolWebbingSmall
-  name: small tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage. This is the small low-budget version.
+  name: маленький жилет для інструментів
+  description: Коричнева розвантажка зроблена з синтетичної бавовни, більш міцна за цивільні аналоги. Саме ця являє собою зменшену версію.
   components:
   - type: Storage
     grid:
@@ -296,7 +296,7 @@
       - CableCoil
       - Multitool
       - PowerCell
-      # TODO nailgun
+      - RMCNailgunCompact
       components:
       - Welder
       - PowerCell
@@ -322,7 +322,7 @@
         - CableCoil
         - Multitool
         - PowerCell
-        # TODO nailgun
+        - RMCNailgunCompact
         components:
         - Welder
         - PowerCell
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbingSmallFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: StorageFill
     contents:
@@ -354,8 +354,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: M272 pattern knife vest
-  description: An older generation M272 pattern knife vest once employed by the UNMC. Can hold up to 5 knives. It is made of synthcotton.
+  name: жилет для ножів зразка M272 
+  description: Розвантажувальний жилет, який колись використовував КМПОН. Може вміщувати до п'яти ножів. Зроблений з синтетичної бавовни.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_knife.rsi
@@ -393,7 +393,7 @@
 - type: entity
   parent: CMWebbingKnives
   id: CMWebbingKnivesFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: StorageFill    
     contents:

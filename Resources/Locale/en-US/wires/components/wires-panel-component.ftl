@@ -1,2 +1,2 @@
-wires-panel-component-on-examine-open = The [color=lightgray]maintenance panel[/color] is [color=red]open[/color].
-wires-panel-component-on-examine-closed = The [color=lightgray]maintenance panel[/color] is [color=darkgreen]closed[/color].
+wires-panel-component-on-examine-open = [color=lightgray]Сервісна панель[/color][color=red] відчинена[/color].
+wires-panel-component-on-examine-closed = [color=lightgray]Сервісна панель[/color][color=darkgreen] зачинена[/color].

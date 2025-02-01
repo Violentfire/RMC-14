@@ -12,7 +12,7 @@
             - !type:SnapToGrid { }
           steps:
             - tag: RMCRackParts
-              name: rack parts
+              name: частини стелажів
               icon:
                 sprite: _RMC14/Objects/Materials/rack_parts.rsi
                 state: icon
@@ -27,7 +27,7 @@
               amount: 1
           steps:
             - tool: Anchoring
-              doAfter: 1
+              doAfter: 0
 
 - type: constructionGraph
   parent: RMC
@@ -47,4 +47,4 @@
           amount: 1
         steps:
         - tool: Anchoring
-          doAfter: 1
+          doAfter: 0

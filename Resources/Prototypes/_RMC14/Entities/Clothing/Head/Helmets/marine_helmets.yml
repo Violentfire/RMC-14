@@ -3,7 +3,6 @@
   parent: [RMCMarineHelmetBase, RMCFoldableHelmetBase]
   id: ArmorHelmetM10
   name: шолом морпіха зразка M10
-  suffix: Jungle
   description: Стандартний шолом зразку М10. Всередині на записці, поруч з інформацією про прання, написано, 'Якщо носити на голові вас поховають в відкритій труні.' З правого боку вбудована камера.
   components:
   - type: Sprite
@@ -22,7 +21,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10MP
   name: шолом ВСП зразка М10
-  suffix: Jungle
   description: Спеціальна варіація шолому М10 призначена для Військової служби правопорядку.
   components:
   - type: Sprite
@@ -41,7 +39,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10ChiefMP
   name: шолом голови ВСП зразка М10
-  suffix: Jungle
   description: Варіант шолому М10 призначений для голови військової служби правопорядку.
   components:
   - type: Sprite
@@ -60,7 +57,6 @@
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10SO
   name: офіцерський шолом зразка М10
-  suffix: Jungle
   description: Варіація шолому М10, яку носять офіцери КМПООН, що звісно привертає увагу військових, і своїх, і ворожих.
   components:
   - type: Sprite
@@ -91,12 +87,13 @@
     explosionArmor: 10 #same as base m10 helmet
     #todo RMC: melee armor: 25
     #todo RMC: energy armor: 15
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Medic
   name: M10 медичний шолом
-  suffix: Jungle
   description: Особливий варіант шолому М10 створений для потреб бойових медиків.
   components:
   - type: Sprite
@@ -131,7 +128,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM10Tech
   name: М10 тех шолом
-  suffix: Jungle
   description: Шолом інженерних морпіхів, подейкують що їх роблять з переплавлених інструментів.
   components:
   - type: Sprite
@@ -152,7 +148,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11
   name: шолом зразка М11
-  suffix: Jungle
   description: Покращений шолом спеціально для лідерів загонів. Він містить вбудовану камеру й м'якеньку амортизовану оббивку щоб захистити вашу голову коли по ній почне стукати командування.
   components:
   - type: Sprite
@@ -172,7 +167,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM12
   name: шолом зразка M12
-  suffix: Jungle
   description: Експерементальне відерце для голови. Ззаду звисає завіса від пилу. Навіть якщо вас битимуть по голові цеглиною, цей шолом має витримати... а от ваша самооцінка не факт. Але хто буде сміятися в кінці? Не ви, ви в цей час будете зайняті начищянням черевиків лідеру загону, або тримуванням медалей за своє геніальне командування. Ваша доля у ваших руках.
   components:
   - type: Sprite
@@ -192,7 +186,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM30
   name: шолом зразка M30
-  suffix: Jungle
   description: Тактичний шолом M30 має худ на лівому оці що дозволяє фільтрувати тактичні дані.
   components:
   - type: Sprite
@@ -218,13 +211,14 @@
     sprite: _RMC14/Objects/Clothing/Head/Helmets/press.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Head/Helmets/press.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }
 
 # M3-S Scout Spec
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3Scout
   name: шолом M3-S 
-  suffix: Jungle
   description: Полегшений шолом серії M3 сконструйований спеціально для використання розвідниками.
   components:
   - type: Sprite
@@ -244,7 +238,6 @@
   parent: RMCArmorHelmetM3Scout
   id: RMCArmorHelmetM3G4
   name: шолом M3-G4 
-  suffix: Jungle
   description: Поєднується з важкою гренадерською бронею M3-G4. Далекий родич захисного шолому B18. # As such, it also resists some parasite latching attempts.
   components:
   - type: Sprite
@@ -269,7 +262,6 @@
   parent: ArmorHelmetM10
   id: CMArmorHelmetM35
   name: шолом M35
-  suffix: Jungle
   description: Шолом серії M3 що відзначається надзвичайною вогнестійкістю.
   components:
   - type: Sprite
@@ -289,7 +281,6 @@
   parent: RMCMarineHelmetBase
   id: CMArmorHelmetM45
   name: M45 маскувальний шолом
-  suffix: Jungle
   description: Полегшений шолом M45 з гіллям на голові, використовується морпіхотними снайперами на розвідувальних місіях.
   components:
   - type: Sprite
@@ -315,7 +306,6 @@
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3TDemo
   name: M3-T шолом підривника
-  suffix: Jungle
   description: Кастомний шолом для поціновувачів ВИБУХІВ і зброї яка з ними пов'язана. Поставляється з вбудованим захистом вух носія від гучних звуків, стріляти з труби без нього не рекомендується.
   components:
   - type: Sprite

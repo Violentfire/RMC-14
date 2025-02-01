@@ -8,7 +8,7 @@
 - type: entity
   abstract: true
   id: RMCItemSlotM5Bayonet
-  suffix: Filled
+  suffix: Заповнено
   components:
   - type: ContainerContainer
     containers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: CMBootsBlackFilled
-  suffix: Filled
+  suffix: Заповнено
 
 - type: entity
   parent: CMBootsBlackFilled
@@ -115,7 +115,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsJungle]
   id: CMBootsJungleFilled
-  suffix: Filled
+  suffix: Заповнено
 
 # Corporate
 - type: entity
@@ -140,19 +140,19 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsPMCFilled
-  suffix: Filled
+  suffix: Заповнено
 
 # PMC Commando
 - type: entity
   parent: RMCBootsPMC
   id: RMCBootsPMCCommando
-  name: чоботи спецназу PMC 
+  name: чоботи спецназу ПВК 
   description: Пара важкоброньованих, кислотно-непроникних чоботів.
 
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsPMCCommandoFilled
-  suffix: Filled
+  suffix: Заповнено
 
 # Van Bandolier
 - type: entity
@@ -165,8 +165,8 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsCBRN
-  name: чоботи M3 MOPP 
-  description: Чоботи M3 MOPP були розроблені для захисту від контакту з будь-якими можливими носіями інфекцій або небезпечними речовинами, які можуть бути в зоні проведення операцій. Це включає в себе додаткові покращення які в поєднанні зі стандартною міцністю черевиків M3, зменшують ймовірність проколів або порізів, а також вплив радіації.
+  name: чоботи M3 РХБЗ 
+  description: Чоботи M3 РХБЗ були розроблені для захисту від контакту з будь-якими можливими носіями інфекцій або небезпечними речовинами, які можуть бути в зоні проведення операцій. Це включає в себе додаткові покращення, які в поєднанні зі стандартною міцністю черевиків M3, зменшують ймовірність проколів або порізів, а також вплив радіації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/cbrn.rsi

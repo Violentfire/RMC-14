@@ -1,3 +1,3 @@
-construction-examine-condition-any-conditions = Any of these conditions must be true:
-construction-guide-condition-any-conditions = Any of the conditions below must be true
-construction-guide-condition-part-assembly = All of the required parts must be inserted.
+construction-examine-condition-any-conditions = Будь-яка з цих умов повинна відповідати дійсності:
+construction-guide-condition-any-conditions = Будь-яка з наведених нижче умов має бути істинною
+construction-guide-condition-part-assembly = Необхідно вставити всі необхідні деталі.

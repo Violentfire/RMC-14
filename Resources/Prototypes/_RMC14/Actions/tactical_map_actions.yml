@@ -1,7 +1,7 @@
 ﻿- type: entity
   abstract: true
   id: RMCActionOpenTacticalMap
-  name: Open Tactical Map
+  name: Оглянути Тактичну Мапу
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -23,7 +23,7 @@
   - type: InstantAction
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
-      state: toggle_queen_zoom
+      state: xeno_tacmap
 
 - type: entity
   parent: RMCActionOpenTacticalMap

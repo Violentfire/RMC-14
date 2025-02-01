@@ -2,9 +2,9 @@
   abstract: true
   id: BarbedWireBase
   parent: BaseItem
-  name: barbed wire
-  suffix: Filled
-  description: A type of metal fencing wire constructed with sharp edges or points arranged at intervals along the strands. In short, it hurts to touch it. A lot. Place on barricades to prevent unwants from breaking through painlessly.
+  name: колючий дріт
+  suffix: Заповнений
+  description: Тип металевого огороджувального дроту з гострими краями або вістрями, розташованими через певні проміжки вздовж ниток. Коротше кажучи, до нього боляче торкатися. Дуже боляче. Використовується на барикадах, щоб запобігти безболісному прориву небажаних осіб.
   components:
   - type: Tag
     tags:
@@ -62,7 +62,7 @@
 - type: entity
   parent: BarbedWireBase
   id: BarbedWire1
-  suffix: Single
+  suffix: Одна
   components:
   - type: Sprite
     state: barbed_wire
