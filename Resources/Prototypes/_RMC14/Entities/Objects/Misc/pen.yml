@@ -3,8 +3,8 @@
 - type: entity
   parent: Pen
   id: CMPen
-  name: pen
-  description: It's a normal black ink pen.
+  name: ручка
+  description: Це звичайна чорнильна ручка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: CMPen
   id: CMPenClicky # TODO RMC14 make it clicky
-  name: WEYA pen
-  description: It's a WEYA brand extra clicky black ink pen.
+  name: ручка Ве-Я
+  description: Ручка з надзвичайно приємним кліком, клікніть раз - і вже ніколи не зможете перестати.
 
 - type: entity
   parent: CMPen

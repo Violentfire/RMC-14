@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBedsheetBase
-  name: bedsheet
-  description: A surprisingly soft linen bedsheet.
+  name: матрац
+  description: На такому матраці гарно спатиметься навіть посеред пекла.
   abstract: true
   placement:
     mode: SnapgridCenter

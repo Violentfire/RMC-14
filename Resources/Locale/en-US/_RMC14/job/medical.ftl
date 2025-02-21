@@ -1,20 +1,20 @@
 ﻿# medical
 cm-job-name-cmo = Головний Лікар
 cm-job-description-cmo = Докладіть усіх зусиль щоб Медбей не поринув у хаос від гори трупів, стежте за науковцями і їх дослідженнями. Вправно керуйте всім медичним персоналом. Змусьте керівництво ввести медичне страхування для морпіхів.
-cm-job-prefix-cmo = CMO
+cm-job-prefix-cmo = ГЛ
 CMJobCMO = Головний Лікар
 
 cm-job-name-doctor = Лікар
 cm-job-description-doctor = Ви те що тримає усіх на цьому кораблі живими, допомагайте всім хто звернеться хоч з болем в пальці, хоч без голови. Переносьте павших морпіхотинців з транспортника в Медбей. За необхідності оперуйте пацієнтів.
-cm-job-prefix-doctor = Doc
+cm-job-prefix-doctor = Л-Р
 CMJobDoctor = Лікар
 
 cm-job-name-nurse = Медичний Помічник
 cm-job-description-nurse = Допомагайте лікарям й намагайтеся при цьому нікого не вбити. Дрімайте поки немає роботи.
-cm-job-prefix-nurse = Nurse
+cm-job-prefix-nurse = МедПом
 CMJobNurse = Медичний Помічник
 
 cm-job-name-researcher = Науковець
 cm-job-description-researcher = Досліджуйте всяку-всячину яку вам надсилають. Створіть та дослідіть нові хімікати, інструменти та інші речі. 
-cm-job-prefix-researcher = Rsr
+cm-job-prefix-researcher = НАУК
 CMJobResearcher = Науковець
