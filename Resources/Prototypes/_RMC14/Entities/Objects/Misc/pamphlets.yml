@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMPamphlet
-  name: instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge.
+  name: загальний довідник
+  description: Тут написано те, як щось там зробити.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/pamphlets.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletMedical
-  name: medical instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a medical insignia.
+  name: медичний довідник
+  description: Тут описується те, як не витратити кілька років свого життя навчаючися на медичному.
   components:
   - type: Sprite
     state: pamphlet_medical
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletEngineer
-  name: engineer instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an engineering insignia.
+  name: інженерний довідник
+  description: Тут описуються усілякі інженерні напрацювання.
   components:
   - type: Sprite
     state: pamphlet_construction
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletJTAC
-  name: JTAC instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a radio on it.
+  name: довідник КАТА
+  description: Тут написано про якогось ТАРАСа.
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletSpotter
-  name: spotter instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a pair of binoculars on it.
+  name: довідник розвідника
+  description: Він навчить вас правильно дивитися в бінокль.
   suffix: NOT IMPLEMENTED
   components:
   - type: Sprite
@@ -74,8 +74,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletPowerloader
-  name: powerloader instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a powerloader insignia. The title reads 'Moving freight and squishing heads - a practical guide to Caterpillar P-5000 Work Loader'.
+  name: довідник по навантажувачу
+  description: На обкладинці намальований навантажувач. В назві написано 'Рухатися легко, а ще легше стояти - практичний посібник по використанню навантажувача Хетезі Н-5000'.
   suffix: NOT IMPLEMENTED
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletPolice
-  name: policing instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a radio on it.
+  name: довідник поліціянта
+  description: Читайте - законом ставайте.
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletSurgery
-  name: surgery instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a medical insignia.
+  name: довідник хірурга
+  description: Бути хірургом легко, ось, прочитайте.
   components:
   - type: Sprite
     state: pamphlet_medical
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletIntel
-  name: field intelligence instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an intelligence insignia.
+  name: довідник з польової розвідки
+  description: Розвідка на полі бою - це важливо, тут ви дізнаєтеся як її провести.
   components:
   - type: Sprite
     state: pamphlet_reading
@@ -130,38 +130,38 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletLanguage
-  name: translation pamphlet
-  description: A pamphlet used by lazy Marine interpreters to quickly learn new languages on the spot.
+  name: довідник лінгвіста
+  description: Довідник спеціально створений для лінивих військових перекладачів, дає змогу за кілька секунд вивчити нову мову.
   suffix: NOT IMPLEMENTED
 
 # gives japanese language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageJapanese
-  name: Pages of Turedobando Yohei Adobencha Zohuken
-  description: These are some torn pages from a famous isekai manga named 'Turedobando Yohei Adobencha Zohuken' or Japanese Mercenary Adventure Sequel about a travelling band of Freelancers sent into a fantasy world. Why do you even know this?
+  name: Пристойно непристойна Японія
+  description: Це кілька вирваних сторінок відомої манги 'Пристойно непристойна Японія' про світ де розпуста під забороною. Звідки я взагалі це знаю?
 
 # gives chinese language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageChinese
-  name: Pages from the Little Red Book
-  description: Pages from the handbook to starting a famine that kills over 100 million of your people. Apparently this will help you learn Chinese.
+  name: Маленька Червона Книга
+  description: Сторінки з книги, яка навчить вас заморити голодом 100 мільйонів ваших людей. Звісно, що це допоможе вам вивчити китайську.
   # desc starts with "没有共产党就没有新中国!" but RMC14 doesnt support chinese letters :(
 
 # gives german language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageGerman
-  name: Translated Lyrics to 99 Luftballons
-  description: These hastily scribbled translations of 99 Luftballons, an iconic German hit of the 80s, were meant for the yearly Battalion Karaoke Night. I guess you can get some better use out of this.
+  name: Переклад пісні 99 Luftballons
+  description: Це збірка нашвидкоруч зроблених перекладів пісні 99 Luftballons, іконічного німецького хіта вісімдесятих. Думаю, пора вчити німецьку.
 
 # gives spanish language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageSpanish
-  name: America Latina - A Quick Translation Guide
-  description: This pamphlet was designed for Intelligence Officers to interact with the local populaces, but only for IOs who managed to sleep through Dialects and Mannerisms Class.
+  name: Латинська Америка - Перекладач
+  description: Цей довідник призначений для розвідників, що працюють з місцевими. Але лише для тих, хто проспав це на курсах.
 
 
 # RESTRICTED LANGUAGES
@@ -171,19 +171,19 @@
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageYautja
-  name: stained parchment
-  description: A yellowed old piece of parchment covered in strange runes from an alien writing system. The letters seem to shift back and forth into place before your eyes.
+  name: пофарбований пергамент
+  description: Пожовклий шматок пергаменту, на якому виведені дивні руни. Здається вони рухаються, і прямо у вас на очах складаються в якісь слова. 
 
 # gives xenonid language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageXenonid
-  name: Xenobiologist's file
-  description: A xenobiologist's document recording and detailing observations on captive Xenonid communication via vocalisations and pheromones, as well as notes on attempting to reproduce them by human beings.
+  name: Записи Ксенобіолога
+  description: Документ ксенобіолога де записані усі деталі спілкування ксеноморфів у неволі, а також намагання людей їх відтворити.
 
 # gives primitive language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageMonkey
-  name: scribbled drawings
-  description: A piece of paper covered in crude depictions of bananas and various types of primates. Probably drawn by a three-year-old child - or an unusually intelligent marine.
+  name: мальовані каракулі
+  description: Шматок паперу розмальований бананами і приматами різних видів. Напевно його намалювала трирічна дитина... або ж не обділений розумом морпіх.
