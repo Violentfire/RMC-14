@@ -4,7 +4,7 @@
   parent: RubberStampBase
   id: CMStampBase
   abstract: true
-  name: rubber stamp
+  name: печатка
   description: A rubber stamp for stamping important documents.
   components:
   - type: Item
@@ -21,7 +21,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCO
-  name: CO's rubber stamp
+  name: печатка КО
   components:
   - type: Sprite
     state: stamp-cap
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: ASO's rubber stamp
+  name: печатка ОП
   components:
   - type: Sprite
     state: stamp-hop
@@ -45,7 +45,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMP
-  name: CMP's rubber stamp
+  name: печатка ГВСП
   components:
   - type: Sprite
     state: stamp-hos
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: CMO's rubber stamp
+  name: печатка ГЛ
   components:
   - type: Sprite
     state: stamp-cmo
@@ -69,7 +69,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: QM's rubber stamp
+  name: печатка КМ
   components:
   - type: Sprite
     state: stamp-ro
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCE
-  name: CE's rubber stamp
+  name: печатка ГІ
   components:
   - type: Sprite
     state: stamp-ce
@@ -95,7 +95,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampApproved
-  name: APPROVED rubber stamp
+  name: печатка ЗАТВЕРДЖЕНО
   components:
   - type: Sprite
     state: stamp-approve
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampDenied
-  name: DENIED rubber stamp
+  name: печатка ВІДХИЛЕНО
   components:
   - type: Sprite
     state: stamp-deny
@@ -121,7 +121,8 @@
 - type: entity
   parent: CMStampBase
   id: CMStampWeYa
-  name: WEYA rubber stamp
+  name: печатка Ве-Я
+  suffix: Admin
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -133,7 +134,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
-  name: Marine rubber stamp
+  name: печатка Вищого Командування
   components:
   - type: Sprite
     state: stamp-marine
@@ -145,7 +146,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMB
-  name: CMB rubber stamp
+  name: печатка КБШ
   components:
   - type: Sprite
     state: stamp-cmb
@@ -153,3 +154,16 @@
     stampedName: stamp-component-stamped-name-cm-cmb
     stampedColor: "#b0901b"
     stampState: "paper_stamp-cmb"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampProvost
+  name: provost rubber stamp
+  suffix: Admin
+  components:
+  - type: Sprite
+    state: stamp-provost # update sprite
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-provost
+    stampedColor: "#cb0000"
+    stampState: "paper_stamp-provost"

@@ -125,6 +125,18 @@
   description: Ці синтетичні чоботи спершу справляють враження якісного взуття, однак вже скоро вони починають бути схожі на сміття яке тримається лише на божій силі і суперклеї. Проте це краще ніж нічого.
 
 
+# SPP
+- type: entity
+  parent: CMBootsBrown
+  id: RMCBootsSPP
+  name: military combat boots
+
+- type: entity
+  parent: [RMCItemSlotM5Bayonet, RMCBootsSPP] # TODO RMC14 SPP Bayonet
+  id: RMCBootsSPPFilled
+  suffix: Filled
+
+
 # PMC
 - type: entity
   parent: CMBootsBlack

@@ -53,6 +53,6 @@ rmc-assisted-reload-fail-mismatch = The {$ammo} can't be loaded into a {$weapon}
 rmc-assisted-reload-start-user = You begin reloading {$target}'s {$weapon}! Hold still...
 rmc-assisted-reload-start-target = {$reloader} begins reloading your {$weapon} with the {$ammo}! Hold still...
 
-rmc-gun-stacks-hit-single = Bullseye!
-rmc-gun-stacks-hit-multiple = Bullseye! {$hits} hits in a row!
-rmc-gun-stacks-reset = The {$weapon} beeps as it loses its targeting data, and returns to normal firing procedures.
+rmc-gun-stacks-hit-single = Вцілив!
+rmc-gun-stacks-hit-multiple = Вцілив! {$hits} влучань поспіль!
+rmc-gun-stacks-reset = {$weapon} втрачає дані про ціль, і переходить на стандарний режим стрільби.

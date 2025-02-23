@@ -9,6 +9,7 @@ rmc-storage-limit-max-ammo = Більше набоїв не влізе!
 rmc-storage-limit-max-ammo-webbing = Ви не можете покласти більше набоїв в розвантажку!
 rmc-storage-limit-one-binoculars = Тут вже є бінокль!
 rmc-storage-limit-one-command-tablet = Воно вже містить планшет!
+rmc-storage-limit-accessories = You can't fit any more accessories in the helmet!
 rmc-storage-nothing-left = {CAPITALIZE(THE($storage))} порожній. Нема що взяти.
 rmc-holster-verb = Unholster
 rmc-storage-webbing-remove-verb = Зняти РПС

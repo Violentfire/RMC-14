@@ -38,8 +38,8 @@ rmc-mortar-target-y = Ціль по Y:
 rmc-mortar-target-set = Навестися
 rmc-mortar-target-too-close = Ви не можете навестися на ці координати, занадто близько до міномета.
 
-rmc-mortar-offset-x = Зсув X:
-rmc-mortar-offset-y = Зсув Y:
+rmc-mortar-offset-x = Зсув по X:
+rmc-mortar-offset-y = Зсув по Y:
 rmc-mortar-offset-set = Налаштувати зсув
 rmc-mortar-offset-too-far = Ви не можете навестися сюди, задалеко від початкових координат.
 rmc-mortar-offset-too-close =  Ви не можете навестися сюди, занадто близько до міномета.

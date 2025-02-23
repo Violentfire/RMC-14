@@ -1,7 +1,7 @@
 ﻿# Marines
 
 - type: entity
-  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: JumpsuitMarine
   name: морпіхотна уніформа
   description: Стандартна форма морських піхотинців. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineTanker
-  name: marine tanker uniform
+  name: UNMC tanker uniform
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker/jungle.rsi
@@ -140,7 +140,7 @@
 
 # Ordnance Technician / OT
 - type: entity
-  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: CMJumpsuitOrdnanceTech
   name: уніформа техніка артилерії
   description: Носій цієї форми любить запах напалму зранку.
@@ -150,7 +150,7 @@
 
 # Maintenance Technician / MT
 - type: entity
-  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: CMJumpsuitMaintTech
   name: уніформа обслуговуючого інженера
   description: Пахне потом, кров'ю і чортовим космічним мастилом.
@@ -239,16 +239,13 @@
     foldVerbText: rmc-sleeves-verb-fold
 
 - type: entity
-  parent: JumpsuitMarine
+  parent: CMJumpsuitBO
   id: CMJumpsuitOperations
   name: офіцерська бойова уніформа
   description: Уніформа яку носять морпіхи-офіцери на завданні. Має вбудовані пластини легкого кевлару для захисту від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/boiler/jungle.rsi
-  - type: Foldable
-    unfoldVerbText: rmc-sleeves-verb-unfold
-    foldVerbText: rmc-sleeves-verb-fold
   - type: FoldableClothing
     foldedEquippedPrefix: sleeves
   - type: ItemCamouflage
@@ -259,17 +256,32 @@
       Classic: _RMC14/Objects/Clothing/Uniforms/boiler/classic.rsi
       Urban: _RMC14/Objects/Clothing/Uniforms/boiler/urban.rsi
 
+# Auxiliary
 # IO
 - type: entity
-  parent: RMCMarineUniformBase
-  id: CMJumpsuitIO
+  parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
+  id: RMCUniformIntel
   name: уніформа офіцера розвідки
   description: Тугіше, ніж лещата. Липкіша за олію для бороди. З голови до ніг обвішана сумками, кишенями, пакетами, ременями та поясами. Очевидно, що ви не лише найрозумніший з розвідників, але й наймодніший. На розробку цього костюму ціла команда науковців витратила п'ять років. Він коштує дорожче, ніж весь Алмаєр... напевно..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/intel/jungle.rsi
+  - type: Foldable
+    unfoldVerbText: rmc-sleeves-verb-unfold
+    foldVerbText: rmc-sleeves-verb-fold
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Uniforms/intel/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Uniforms/intel/desert.rsi
+      Snow: _RMC14/Objects/Clothing/Uniforms/intel/snow.rsi
+      Classic: _RMC14/Objects/Clothing/Uniforms/intel/classic.rsi
+      Urban: _RMC14/Objects/Clothing/Uniforms/intel/urban.rsi
+  - type: Tag
+    tags:
+    - RMCUniformIntel
 
-# Auxiliary
+- type: Tag
+  id: RMCUniformIntel
 
 # Pilot
 - type: entity

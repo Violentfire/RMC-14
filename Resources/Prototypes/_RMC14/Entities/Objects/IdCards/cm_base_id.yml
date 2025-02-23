@@ -2,8 +2,8 @@
 - type: entity
   parent: [Clothing, CMIDCardBase]
   id: CMIDCardStandardDogtag
-  name: dog tag
-  description: A marine dog tag.
+  name: жетон
+  description: Жетон морпіхотинця.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -31,8 +31,7 @@
         enum.DogtagVisuals.Taken:
           True: { state: "dogtag_taken" }
           False: { state: "dogtag" }
-          
-  
+
 - type: entity
   parent: BaseItem
   id: RMCInformationDogtag

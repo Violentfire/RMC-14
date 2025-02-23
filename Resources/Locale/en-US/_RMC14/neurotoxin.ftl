@@ -4,10 +4,10 @@ rmc-neuro-numb = Ваше тіло німіє, ви не відчуваєте п
 
 rmc-neuro-where = Чому я тут?
 rmc-neuro-very-numb = Усе ваше тіло німіє!
-rmc-neuro-erratic = Ви помітили що рухаєтеся нерівно!
+rmc-neuro-erratic = Ви помітили що рухаєтеся занадто вайлувато!
 rmc-neuro-panic = Ви панікуєте, бо ваше тіло починає німіти!
 
-rmc-neuro-sting = Очі сильно пекуть, ви не можете бачити!
+rmc-neuro-sting = Очі сильно печуть, ви не можете бачити!
 
 rmc-neuro-what = Що я роблю?
 rmc-neuro-hearing = Ви втратили слух! НІЧОГО НЕ ЧУТИ!
@@ -18,7 +18,7 @@ rmc-neuro-limbs = Ви зовсім не відчуваєте кінцівок!
 rmc-neuro-think = Всі думки зникли, в голові порожньо!
 
 rmc-stumble = Ви спіткнулися!
-rmc-stumble-others = {CAPITALIZE($victim)} misteps in {POSS-ADJ($victim)} confusion!
+rmc-stumble-others = {CAPITALIZE($victim)} заплутується у власних ногах і падає!
 
 rmc-bloodcough = Ви кашляєте кров'ю!
 

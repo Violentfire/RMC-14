@@ -2,12 +2,16 @@
 cm-xeno-not-enough-plasma = У вас недостатньо плазми!
 
 # Energy
-rmc-xeno-not-enough-energy = Your energy reserves are insufficient!
-rmc-xeno-energy-increase-user = You feel your internal energy reserves increase!
+rmc-xeno-not-enough-energy = Our energy reserves are insufficient!
+rmc-xeno-energy-increase-user = We feel our internal energy reserves increase!
 
 # Internal Health
-rmc-xeno-not-enough-internal-health = Your health reserves are insufficient!
-rmc-xeno-internal-health-increase-user = You feel your internal health reserves increase!
+rmc-xeno-not-enough-internal-health = Our health reserves are insufficient!
+rmc-xeno-internal-health-increase-user = We feel our internal health reserves increase!
+
+# Fury
+rmc-xeno-not-enough-fury = We're not angry enough for this!
+rmc-xeno-fury-increase-user = We are overcome with rage!
 
 # Acid reserves
 rmc-xeno-not-enough-acid = Your don't have enough acid built up!
@@ -41,6 +45,7 @@ rmc-xeno-evolution-cant-devolve-damaged = Ви занадто слабкі дл�
 rmc-xeno-evolution-cant-evolve-recent-queen-death-minutes = Ви маєте зачекати {$minutes} хвилин і {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-seconds = Ви маєте зачекати {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
 rmc-xeno-evolution-cant-evolve-caste-cooldown = We cannot evolve into this caste again yet! ({$minutes} minutes and {$seconds} seconds remaining)
+rmc-xeno-evolution-failed-early-weeds = The hive hasn't developed enough yet for you to evolve off weeds!
 rmc-xeno-evolution-failed-bad-location = Ви не можете еволюціонувати тут.
 rmc-xeno-evolution-start-self = We begin to twist and contort.
 rmc-xeno-evolution-start-others = {$xeno} begins to twist and contort.
@@ -119,7 +124,7 @@ cm-xeno-toggle-crest-cant-tail-sweep = Ви не можете бити хвос�
 cm-xeno-plasma-transferred-to-other = Ви перемістили {$plasma} плазми в {$target}. У вас залишилося {$total} плазми.
 cm-xeno-plasma-transferred-to-self = {$target} передав {$plasma} плазми вам. Тепер у вас {$total} плазми.
 cm-xeno-plasma-cannot-self = Ви не можете перемістити плазму собі ж!
-cm-xeno-plasma-other-max-zero = {$target} не має потреби в плазмі!
+cm-xeno-plasma-other-max-zero = {CAPITALIZE($target)} не має потреби в плазмі!
 rmc-xeno-plasma-ovipositor = Ви не можете передати плазму Королеві, поки вона відкладає яйця.
 
 # Watch
@@ -198,6 +203,7 @@ rmc-xeno-resin-surge-wall-self = We surge the resin, creating an unstable wall!
 rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} surges the resin, creating an unstable wall!
 rmc-xeno-resin-surge-sticky-self = We surge the deep resin, creating an unstable sticky resin patch!
 rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} surges deep resin, creating an unstable sticky resin patch!
+rmc-xeno-resin-surge-see-fail = We cannot see that location!
 
 # Burrow
 rmc-xeno-burrow-down-start = We begin burrowing ourselves into the ground.
@@ -205,11 +211,16 @@ rmc-xeno-burrow-down-failure-break = We stop burrowing.
 rmc-xeno-burrow-down-failure-bad-area = There's no way to burrow here.
 rmc-xeno-burrow-down-failure-rest = We cannot burrow while resting!
 rmc-xeno-burrow-down-finish = We burrow ourselves into the ground.
+rmc-xeno-burrow-cooldown-finish = We can burrow again.
+rmc-xeno-burrow-down-failure-cooldown = We can't burrow yet.
+rmc-xeno-burrow-down-doafter-stop = We can't do this right now!
 
 rmc-xeno-burrow-resurface-cooldown-finish = We can now surface.
 rmc-xeno-burrow-move-cooldown-finish = We can now tunnel while burrowed.
+rmc-xeno-burrow-move-forced-unburrow = We pop out of the ground!
 
 rmc-xeno-burrow-move-start = We start tunneling!
+rmc-xeno-burrow-move-break = We stop tunneling!
 rmc-xeno-burrow-move-failure = There's no way to tunnel over there.
 rmc-xeno-burrow-move-failure-solid = We can't tunnel into a solid wall!
 rmc-xeno-burrow-move-failure-bad-area = There's no way to tunnel over there.
@@ -275,7 +286,35 @@ rmc-xeno-toggle-cleave-fling = We will now throw our enemies with our cleave.
 # Soak
 rmc-xeno-soak-self = We begin to tank incoming damage!
 rmc-xeno-soak-others = {CAPITALIZE(THE($xeno))} begins to tank incoming damage!
-rmc-xeno-soak-end-fail = We stop taking incoming damage.
+rmc-xeno-soak-end-fail = We stop tanking incoming damage.
 rmc-xeno-soak-end-self = We feel enraged after taking in oncoming damage! Our tail slam's cooldown is reset and we heal!
 rmc-xeno-soak-end-others =  {CAPITALIZE(THE($xeno))} gets enraged after being damaged enough!
 
+# Tail Fountain
+rmc-xeno-tail-fountain-self = We use our tail to pour acid over {$target}.
+rmc-xeno-tail-fountain-others = {CAPITALIZE(THE($user))} pours acid all over {$target} using its tail.
+rmc-xeno-tail-fountain-fail = We can't extinguish that!
+rmc-xeno-tail-fountain-fail-self = We can't extinguish ourselves!
+
+# Tantrum
+rmc-xeno-tantrum-fail-self = We must enrage a sister!
+rmc-xeno-tantrum-fail-raging-self = We are already full of rage!
+rmc-xeno-tantrum-fail-not-xeno = That's not a sister!
+rmc-xeno-tantrum-fail-wrong-hive = Why would we help our enemies?!
+rmc-xeno-tantrum-fail-dead = No amount of anger can bring our sister back.
+rmc-xeno-tantrum-fail-valkyrie = We can't order another valkyrie with our rage.
+rmc-xeno-tantrum-fail-raging = {CAPITALIZE(THE($target))} is already enraged!
+rmc-xeno-tantrum-self = Our rage drives us forward, our healing and armor is increased!
+rmc-xeno-tantrum-other = We feel an overwhelming rage!
+rmc-xeno-tantrum-end = We feel ourselves calm down.
+
+# Fight or Flight
+rmc-xeno-fof-effect = Every single inch in our body moves on its own to fight!
+
+# Ravager Empower
+rmc-xeno-ravager-shield-end = We feel our shield decay!
+rmc-xeno-empower-start-self = We start empowering ourself!
+rmc-xeno-empower-start-others = {CAPITALIZE(THE($user))} starts empowering!
+rmc-xeno-ravager-empower = We feel a rush of power from the surrounding enemies!
+rmc-xeno-ravager-empower-fizzle = There were no enemies around us!
+rmc-xeno-ravager-super-empower-fade = Our glow fades away, the power leaving our form!
