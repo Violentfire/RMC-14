@@ -3,6 +3,7 @@ stamp-component-stamped-name-cm-default = Штамп
 stamp-component-stamped-name-cm-we-ya = Ве-Я
 stamp-component-stamped-name-cm-marine = Вище Командування
 stamp-component-stamped-name-cm-cmb = Colony Marshal Bureau
+stamp-component-stamped-name-cm-provost = Provost Marshal Office
 
 stamp-component-stamped-name-cm-co = Командуючий Офіцер
 stamp-component-stamped-name-cm-aso = Офіцер Підтримки

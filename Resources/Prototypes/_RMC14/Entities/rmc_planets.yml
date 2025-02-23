@@ -32,7 +32,6 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/prison.yml
     camouflage: Classic
-    minPlayers: 130
     announcement: "Автоматичний сигнал лиха було отримано з в'язниці суворого режиму \"Орбітальна Тюрма Флоріна\". Для встановлення причини, найближчим часом з ВКОН Саванна буде відправлена група реагування."
 
 - type: entity
@@ -42,7 +41,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/trijent.yml
     camouflage: Desert
-    minPlayers: 130
+    minPlayers: 25
     announcement: "Ми втратили контакт з позасонячною колонією Вестон-Ямади, \"Дамба Триджент\", що на планеті \"Райжин.\" На допомогу було надіслано ваш корабель Саванна."
 
 - type: entity
@@ -79,3 +78,13 @@
     map: /Maps/_RMC14/chances.yml
     camouflage: Classic
     announcement: "Пан-Пан. Це командуючий офіцер ВКСШ Ганют, РОЗСИЛ КМПСШ. Ми висадилися на планеті LV-522 неподалік Вимоги Ченса, повторюю, неподалік Вимоги Ченса. Ми втратили контакт з Ганютом, також наші транспортники невзмозі вилетіти. МИ ПОТРЕБУЄМО ДОПОМОГИ ВІД УСІХ КОРАБЛІВ ПОБЛИЗУ; це повідомлення транслюватиметься кожні 24 години."
+
+- type: entity
+  id: RMCPlanetHybrisa
+  name: LV-759 Hybrisa Prospera
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/hybrisa.yml
+    camouflage: Urban
+    announcement: "An automated distress signal has been received from the Weston-Yamada colony, Hybrisa Prospera — a vast, city-like settlement renowned for its immense wealth, extensive mining operations, and thriving commerce. Recently fully acquired from the TSE, this former colony is now a key asset for Weston-Yamada, with a sprawling urban center housing thousands of residents and numerous smaller outer colonies under its control. The UNS Almayer has been dispatched to investigate the situation."
+    minPlayers: 25

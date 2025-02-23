@@ -27,6 +27,7 @@
     addPrefix: false
     blinkingBehaviourId: blinking
     radiatingBehaviourId: radiating
+  - type: NoHandsInteractionBlocked
   - type: LightBehaviour
     behaviours:
     - !type:FadeBehaviour

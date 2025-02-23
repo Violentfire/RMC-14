@@ -10,3 +10,8 @@ rmc-pants-verb-fold = Підкотити штанини
 rmc-pants-verb-unfold = Спустити штанини
 
 rmc-buttons-verb-fold = Перемкнути кнопки
+
+rmc-jacket-verb = Toggle Jacket
+rmc-sleeves-verb = Toggle Sleeves
+
+rmc-sleeves-cannot = You can't roll down the sleeves! Try putting on your jacket.

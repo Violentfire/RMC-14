@@ -122,6 +122,7 @@
   parent: CMStampBase
   id: CMStampWeYa
   name: печатка Ве-Я
+  suffix: Admin
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -153,3 +154,16 @@
     stampedName: stamp-component-stamped-name-cm-cmb
     stampedColor: "#b0901b"
     stampState: "paper_stamp-cmb"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampProvost
+  name: provost rubber stamp
+  suffix: Admin
+  components:
+  - type: Sprite
+    state: stamp-provost # update sprite
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-provost
+    stampedColor: "#cb0000"
+    stampState: "paper_stamp-provost"
