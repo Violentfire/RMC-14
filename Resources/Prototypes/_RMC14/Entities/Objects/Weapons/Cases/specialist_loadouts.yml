@@ -2,7 +2,7 @@
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
   name: набір снайпера
-  description: "Великий кейс, що містить дуже далекобійну снайперську гвинтівку M96S, камуфляжну броню M45 і шолом, ПНБ M42, оптику, та додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
+  description: "Великий кейс, що містить дуже далекобійну снайперську гвинтівку M96S, камуфляжну броню M45 і шолом, ПНБ M42, оптику, та додаткове обладнання.\n\nНОТАТКА: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: StorageFill
     contents:
@@ -28,7 +28,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
   name: набір гранатометника
-  description: "Великий кейс, що містить потужний багатозарядний гранатомет M83, гренадерську броню M3-G4 і шолом, велику кількість гранат зразку M40 та додаткове спорядження.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
+  description: "Великий кейс, що містить потужний багатозарядний гранатомет M83, гренадерську броню M3-G4 і шолом, велику кількість гранат зразку M40 та додаткове спорядження.\n\nНОТАТКА: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:
@@ -61,7 +61,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
   name: набір підривника
-  description: "Великий кейс, що містить великоліберну протитанкову пукову установку M5, легку противибухову броню M3-T, п'ять 84мм ракет, і додаткове обладнання.\n\nNOTE: Ви не можете покласти речі назад у цей кейс."
+  description: "Великий кейс, що містить великоліберну протитанкову пукову установку M5, легку противибухову броню M3-T, п'ять 84мм ракет, і додаткове обладнання.\n\nНОТАТКА: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:
@@ -104,7 +104,7 @@
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
   name: набір розвідника
-  description: "Великий кейс, що містить бойову гвинтівку M4RA, легку броню M3-S і шолом, приціл до M4RA, термоплащ M68, реактивний термальний мішок V3, боєприпаси та додаткове спорядження.\nNOTE: Ви не можете покласти речі назад у цей кейс."
+  description: "Великий кейс, що містить бойову гвинтівку M4RA, легку броню M3-S і шолом, приціл до M4RA, термоплащ M68, реактивний термальний мішок V3, боєприпаси та додаткове спорядження.\n\nНОТАТКА: Ви не можете покласти речі назад у цей кейс."
   components:
   - type: Sprite
     layers:
@@ -145,20 +145,20 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitLoader
-  name: loader kit
-  description: "A large kit containing all the supplies needed to turn a Private into the loading assistant for a Demolitions Specialist.
+  name: набір заряджаючого
+  description: "Великий набір, що можна видати стрільцю, який зголосився стати помічником підривника.
 
-    A little infographic series shows how reloading should be done:
+    Невелика покрокова інструкція:
 
-    Step One: Grab the Rocket
+    Крок Перший: Візьміть ракету
+    
+    Крок Другий: Підійдіть за спину спеціаліста
 
-    Step Two: Position yourself behind the Specialist
+    Крок Третій: Впевніться, підривник тримає трубу
 
-    Step Three: Ensure the Specialist is wielding their Launcher
+    Крок Четвертий: Завантажте ракету в тубус
 
-    Step Four: Load the Rocket into the Launcher
-
-    Step Five: Stand clear of the back-blast"
+    Крок П'ятий: Швидко відійдіть в бік, щоб не потрапити під вибух порохових газів, що утвориться під час пострілу"
   components:
   - type: Storage
     maxItemSize: Huge

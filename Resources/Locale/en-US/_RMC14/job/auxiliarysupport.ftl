@@ -20,6 +20,6 @@ cm-job-prefix-dcc = ПП
 CMJobDropshipCrewChief = Помічник Пілота
 
 cm-job-name-intel = Офіцер Розвідки
-cm-job-description-intel = Recover intelligence objects from groundside, process, and gain tech points to support the operation by OB warhead, dropship points or requisition supply.
+cm-job-description-intel = Знайдіть усю інформацію про цю колонію, і кожного хто в ній жив... і кожного хто її вбив. А потім обміняйте цю інформацію на бали.
 cm-job-prefix-intel = ОР
 CMJobIntelOfficer = Офіцер Розвідки

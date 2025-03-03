@@ -65,7 +65,7 @@
   id: CMPamphletSpotter
   name: довідник розвідника
   description: Він навчить вас правильно дивитися в бінокль.
-  suffix: NOT IMPLEMENTED
+  suffix: НЕ РЕАЛІЗОВАНО
   components:
   - type: Sprite
     state: pamphlet_spotter
@@ -76,7 +76,7 @@
   id: CMPamphletPowerloader
   name: довідник по навантажувачу
   description: На обкладинці намальований навантажувач. В назві написано 'Рухатися легко, а ще легше стояти - практичний посібник по використанню навантажувача Хетезі Н-5000'.
-  suffix: NOT IMPLEMENTED
+  suffix: НЕ РЕАЛІЗОВАНО
   components:
   - type: Sprite
     state: pamphlet_powerloader
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletLoader
-  name: loader instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a rocket on it.
+  name: довідник помічника підривника
+  description: Навчить вас як правильно запихувати ракету в трубу, щоб та не вибухнула.
   components:
   - type: Sprite
     state: pamphlet_loader
@@ -147,7 +147,7 @@
   id: CMPamphletLanguage
   name: довідник лінгвіста
   description: Довідник спеціально створений для лінивих військових перекладачів, дає змогу за кілька секунд вивчити нову мову.
-  suffix: NOT IMPLEMENTED
+  suffix: НЕ РЕАЛІЗОВАНО
 
 # gives japanese language
 - type: entity

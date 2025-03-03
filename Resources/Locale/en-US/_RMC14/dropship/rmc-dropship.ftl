@@ -42,7 +42,7 @@ rmc-dropship-weapons-exit = ВИЙТИ
 
 rmc-dropship-weapons-offset-calibration = Зсув
   Камери
-rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Не впливає на пряме бомбардування!
+rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Не впливає на прямий обстріл!
 
 rmc-dropship-weapons-fire = ВОГОНЬ
 rmc-dropship-weapons-strike = ОБСТРІЛ
@@ -78,4 +78,4 @@ rmc-dropship-fabricator-points = Очків: {$points}
 rmc-dropship-fabricator-equipment = [bold]Оснащення[/bold]
 rmc-dropship-fabricator-ammo = [bold]Боєприпаси[/bold]
 rmc-dropship-fabricator-fabricate = Виготовити ({$cost})
-rmc-dropship-fabricator-busy = Виготовлювач частин для транспортника зайнятий. Дочекайтеся до кінця виконання попередньої операції.
+rmc-dropship-fabricator-busy = Виготовлювач частин для транспортника зайнятий. Дочекайтеся виконання попередньої операції.

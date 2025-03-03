@@ -3,7 +3,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipment
-  name: ColMarTech автоматизований стелаж морпіхотного спорядження
+  name: КолМорСпор автоматизований стелаж морпіхотного спорядження
   description: Автоматизований стелаж, під'єднаний до величезного сховища зі стандартним спорядженням стрільців морської піхоти.
   components:
   - type: AccessReader

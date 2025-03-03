@@ -16,7 +16,7 @@ CMJobFireteamLeader = Лідер Вогневої Групи
 
 cm-job-name-weapons-specialist = Збройний Спеціаліст
 cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений воїн, за потреби, зможете очолити загін.
-cm-job-prefix-weapons-specialist = Спец
+cm-job-prefix-weapons-specialist = ЗСПЦ
 CMJobWeaponsSpecialist = Збройний Спеціаліст
 
 cm-job-name-smart-gun-operator = Оператор Смартгана
@@ -31,5 +31,5 @@ CMJobHospitalCorpsman = Бойовий Медик
 
 cm-job-name-combat-tech = Бойовий Технік
 cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ. Хваліться усім своєю турелькою та тим що можете проникнути всюди.
-cm-job-prefix-combat-tech = БойТех
+cm-job-prefix-combat-tech = БТ
 CMJobCombatTech = Бойовий Технік

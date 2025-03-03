@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 комплект портативного міномета
+  name: M402 комплект переносного міномета
   suffix: Classic
   description: Переносна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
   components:
@@ -104,7 +104,7 @@
   parent: BaseItem
   id: RMCMortarShellBase
   name: 80мм мінометна гільза
-  description: Мінометна міна калібру 80мм без маркування, ймовірно, гільза.
+  description: Мінометна міна калібру 80-мм без маркування, ймовірно, гільза.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -117,7 +117,7 @@
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
   name: 80мм осколково-фугасна міна
-  description: 80мм мінометна міна, в якій міститься потужний вибуховий заряд.
+  description: 80-мм мінометна міна, в якій міститься потужний вибуховий заряд.
   components:
   - type: Item
     heldPrefix: he
@@ -138,7 +138,7 @@
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
   name: 80мм запалювальна мінометна міна
-  description: 80мм мінометна міна, завантажена напалмом типу Б. Ідеальна для тимчасового перерізання доступу на якусь територію.
+  description: 80-мм мінометна міна, завантажена напалмом типу Б. Ідеальна для тимчасового перерізання доступу на якусь територію.
   components:
   - type: Item
     heldPrefix: inc

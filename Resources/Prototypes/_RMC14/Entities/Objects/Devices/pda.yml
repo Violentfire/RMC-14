@@ -2,7 +2,7 @@
   parent: CentcomPDA # Not AdminPDA, because then this would be both a health scanner and a base health analyzer, which is a little bit stupid.
   id: RMCAdminPDA
   name: КПК Адміністратора
-  suffix: Admin
+  suffix: Адмін
   description: Якщо ви знайшли це КПК, поверніть його найближчому адміну, або ж...
   components:
   - type: Pda
