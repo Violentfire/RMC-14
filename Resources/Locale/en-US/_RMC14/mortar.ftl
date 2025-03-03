@@ -24,7 +24,6 @@ rmc-mortar-dial-finish-others = {$user} закінчив введення дан
 rmc-mortar-shell-load-start-self = Ви завантажуєте {$shell} в {$mortar}.
 rmc-mortar-shell-load-start-others = {$user} завантажує {$shell} в {$mortar}.
 rmc-mortar-shell-load-finish-self = Ви завантажили {$shell} в {$mortar}.
-
 rmc-mortar-shell-fire = {CAPITALIZE($mortar)} стріляє!
 rmc-mortar-shell-warning = МІНА ПАДАЄ ПРЯМО НА {$direction} ВІД ВАС
 rmc-mortar-shell-warning-above = МІНА ПАДАЄ ПРЯМО НА ВАС
@@ -37,6 +36,7 @@ rmc-mortar-target-x = Ціль по X:
 rmc-mortar-target-y = Ціль по Y:
 rmc-mortar-target-set = Навестися
 rmc-mortar-target-too-close = Ви не можете навестися на ці координати, занадто близько до міномета.
+rmc-mortar-target-too-far = You cannot aim at this coordinate, it is too far from your mortar.
 
 rmc-mortar-offset-x = Зсув по X:
 rmc-mortar-offset-y = Зсув по Y:

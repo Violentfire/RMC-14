@@ -162,7 +162,7 @@
           Medium: { state: magaz_mre_2, visible: true }
           High: { state: magaz_mre_3, visible: true }
           Full: { state: magaz_mre, visible: true }
-    
+
 - type: entity
   parent: RMCBoxMREEmpty
   id: RMCBoxMRE

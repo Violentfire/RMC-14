@@ -2,6 +2,7 @@
 
 xeno-ui-reserve-parasites-title = Запас Паразитів
 xeno-ui-reserve-parasites-apply-button-text = Подати
+xeno-reserve-parasites-verb = Reserve Parasites
 
 xeno-ui-find-parasite-title = Знайти Паразита
 xeno-ui-find-parasite-spawn-button = Взяти Паразита

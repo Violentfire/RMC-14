@@ -44,3 +44,8 @@ rmc-announcement-delta = [color=#CECECE][font size=16][bold]SELF-DESTRUCT SYSTEM
 
      DANGER, THE EMERGENCY DESTRUCT SYSTEM IS NOW ACTIVATED. PROCEED TO THE SELF-DESTRUCT CHAMBER FOR CONTROL ROD INSERTION.[/bold][/font][/color]
 
+rmc-announcement-general-quarters = ATTENTION! GENERAL QUARTERS. ALL HANDS, MAN YOUR BATTLESTATIONS.
+
+rmc-announcement-dropship-hijack = Unscheduled dropship departure detected from operational area. Hijack likely. Shutting down autopilot.
+
+rmc-announcement-dropship-hijack-hive = The Queen has commanded the metal bird to depart for the metal hive in the sky! Rejoice!

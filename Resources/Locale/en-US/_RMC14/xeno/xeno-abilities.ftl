@@ -25,8 +25,11 @@ cm-xeno-requires-more-plasma = {THE($construction)} потребує на {$plas
 cm-xeno-construction-plasma-left = Будівництво {$construction} призначено тут. Воно вимагає на [color=cyan]{$plasma}[/color] більше плазми.
 cm-xeno-cant-reach-there = Ви не можете туди дотягтися!
 cm-xeno-cant-build-in-self = Ви не можете будувати так близько!
-cm-xeno-unique-exists = {$choice} вже збудовано!
-rmc-xeno-cant-build-new-yet = Ми ще не можемо побудувати новий {$choice}!
+rmc-xeno-construction-unique-exists = There's already a {$choice} built!
+rmc-xeno-construction-hive-limit-met = We have reached the limit of {$choice} the hive can support!
+rmc-xeno-construction-requires-hive-weeds = {$choice} must be built on hive weeds!
+rmc-xeno-construction-requires-space = We need more open space to build here
+rmc-xeno-cant-build-new-yet = We can't build a new {$choice} yet!
 
 # Evolve
 cm-xeno-available-evolutions = Доступні Еволюції
@@ -318,3 +321,13 @@ rmc-xeno-empower-start-others = {CAPITALIZE(THE($user))} starts empowering!
 rmc-xeno-ravager-empower = We feel a rush of power from the surrounding enemies!
 rmc-xeno-ravager-empower-fizzle = There were no enemies around us!
 rmc-xeno-ravager-super-empower-fade = Our glow fades away, the power leaving our form!
+# Abduct
+rmc-xeno-abduct-cancel = We relax our tail.
+rmc-xeno-abduct-no-room = We don't have any room to do our abduction!
+rmc-xeno-abduct-none = Our tail fails to catch anything!
+rmc-xeno-abduct-one = Our tail catches and slows one target!
+rmc-xeno-abduct-two = Our tail catches and roots two targets!
+rmc-xeno-abduct-more = Our tail catches and stuns {$targets} targets!
+
+# Tail Lash
+rmc-xeno-tail-lash-no-room = We don't have any room to do our tail lash!

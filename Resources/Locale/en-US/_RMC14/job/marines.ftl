@@ -7,7 +7,7 @@ CMJobRifleman = Стрілець
 cm-job-name-squad-leader = Лідер Загону
 cm-job-description-squad-leader = Лідер одного з чотирьох загонів. Скоординуйте ваш загін й виконайте завдання поставлене командуванням. Підтримайте свій загін мотиваційною промовою.
 cm-job-prefix-squad-leader = ЛЗ
-CMJobSquaderLeader = Лідер Загону
+CMJobSquadLeader = Лідер Загону
 
 cm-job-name-fireteam-leader = Лідер Вогневої Групи
 cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати наказ лідера загону. Зкоординуйте свої сили з БПП та іншими типами підтримки.
