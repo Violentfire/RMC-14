@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: CMAutolathe
-  name: autolathe
-  description: It produces items using metal and glass.
+  name: автостат
+  description: Він може виробити безліч речей, але, тільки якщо ви заправите його матеріалами.
   components:
   - type: ApcPowerReceiver
     powerLoad: 0
@@ -122,3 +122,11 @@
     board: CMAutolatheMachineCircuitboard
   - type: Corrodible
     isCorrodible: false
+
+- type: entity
+  parent: CMAutolathe
+  id: RMCAutolatheEmpty
+  suffix: Empty
+  components:
+  - type: MaterialStorage
+    storage: {}

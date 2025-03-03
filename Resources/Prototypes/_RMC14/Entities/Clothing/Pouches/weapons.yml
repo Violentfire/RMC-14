@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCPouchBayonet
   id: RMCPouchBayonetFill
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: CMItemSlots
     startingItem: CMM11Knife
@@ -72,7 +72,7 @@
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCPouchMachete
   name: чохол для мачете H6B моделі M2132 
-  description: Велики шкіряний чохол призначений для зберігання мачете моделі M2132. Може бути прикріплений до кишені.
+  description: Великий шкіряний чохол призначений для зберігання мачете моделі M2132. Може бути прикріплений до кишені.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/machete.rsi
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCPouchMachete
   id: RMCPouchMacheteFilled
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: ContainerFill
     containers:

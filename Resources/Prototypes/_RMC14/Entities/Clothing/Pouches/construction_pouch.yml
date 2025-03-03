@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchConstruction
-  name: construction pouch
-  description: It's designed to hold construction materials - glass/metal sheets, metal rods, barbed wire, cable coil, and empty sandbags. It also has two hooks for an entrenching tool and light replacer.
+  name: підсумок для матеріалів
+  description: Він розроблений, щоб переносити будівельні матеріали, такі як - скляні/металеві листи, сталеві прути, колючий дріт, котушки кабелю, і порожні мішки. Він також має два гачки, для саперної лопати і лампозамінювача.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/construction.rsi

@@ -2,6 +2,6 @@
 
 rmc-glob-start-self = Починається викидання великої газової кулі!
 rmc-glob-start-others = {$user} готується виплюнути величезну кулю!
-rmc-glob-shoot-self = Ви плюєте на кулю кислотного газу!
-rmc-glob-shoot-others = {$user} плює на підлогу!
+rmc-glob-shoot-self = Ви плюєте кулю кислотного газу!
+rmc-glob-shoot-others = {$user} плює кулею на підлогу!
 rmc-glob-land = Куля кислоти бризкаючи приземляється і одразу перетворюється на небезпечні випари!

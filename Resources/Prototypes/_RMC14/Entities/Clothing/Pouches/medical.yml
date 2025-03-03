@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCPouchMedicalSoc
   id: RMCPouchMedicalSocFill
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: StorageFill # todo rmc14 autoinjectors oxycodone
     contents:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCPouchMedicalSocDutch
   id: RMCPouchMedicalSocDutchFill
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: StorageFill
     contents:
@@ -82,7 +82,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFirstResponder
-  name: підсумок швидкого реагування 
+  name: допоміжний медичний підсумок 
   description: Підсумок призначений для перенесення різних додаткових медичних матеріалів, таких як стазисні мішки, пересувні ліжка і аналізатори здоров'я.
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
       #      - TODO RMC14 splint
       - CMAutoInjector
       - CMFireExtinguisherPortable
-      - CMRollerBed
+      - CMRollerItem
       - BodyBag
       - PillPacket
       - Hypospray
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCPouchFirstResponder
   id: RMCPouchFirstResponderFill
-  suffix: Filled
+  suffix: Заповнений
   components:
   - type: StorageFill
     contents:
@@ -274,7 +274,7 @@
       # - TODO RMC14 syringe case
         - CMSurgicalCase
         - CMFireExtinguisherPortable
-        - CMRollerBed
+        - CMRollerItem
         - CMSurgicalLine
         - CMSynthGraft
         - BodyBag
@@ -307,7 +307,7 @@
       #      - TODO RMC14 syringe case
       - CMSurgicalCase
       - CMFireExtinguisherPortable
-      - CMRollerBed
+      - CMRollerItem
       - CMSurgicalLine
       - CMSynthGraft
       - BodyBag

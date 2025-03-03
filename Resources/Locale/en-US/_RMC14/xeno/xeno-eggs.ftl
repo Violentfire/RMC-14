@@ -1,7 +1,7 @@
 cm-xeno-egg-clear = Ви знищуєте залишки яйця.
 cm-xeno-egg-not-developed = Яйце ще не достигло.
 
-cm-xeno-egg-failed-must-weeds = Яйце має бути поставлене на траві.
+cm-xeno-egg-failed-must-hive-weeds = Яйце має бути поставлене на траві.
 cm-xeno-egg-failed-plant-outside = Best not to plant this thing outside of a containment cell.
 cm-xeno-egg-failed-already-there = Там вже є яйце.
 cm-xeno-egg-blocked = Тут вже збудована споруда.
@@ -17,6 +17,7 @@ rmc-xeno-egg-return = {CAPITALIZE($user)} повертає {$parasite} наза�
 
 rmc-xeno-egg-ghost-verb = Стати паразитом
 rmc-xeno-egg-ghost-need-time = Ви занадто нещодавно опривидилися. Ви не можете стати паразитом поки не пройде три хвилини.
+rmc-xeno-egg-ghost-need-time-round = You cannot become a parasite until enough time has passed passed in the round ({$seconds} seconds remaining).
 rmc-xeno-egg-ghost-bypass-time = You successfully infected your target. You may become a parasite again.
 rmc-xeno-egg-ghost-confirm = Ви точно хочете стати паразитом?
 

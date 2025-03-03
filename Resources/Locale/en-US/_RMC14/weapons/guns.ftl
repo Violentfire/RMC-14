@@ -55,4 +55,4 @@ rmc-assisted-reload-start-target = {$reloader} begins reloading your {$weapon} w
 
 rmc-gun-stacks-hit-single = Вцілив!
 rmc-gun-stacks-hit-multiple = Вцілив! {$hits} влучань поспіль!
-rmc-gun-stacks-reset = {$weapon} втрачає дані про ціль, і переходить на стандарний режим стрільби.
+rmc-gun-stacks-reset = {$weapon} втрачає дані про ціль, і перемикається на стандарний режим стрільби.

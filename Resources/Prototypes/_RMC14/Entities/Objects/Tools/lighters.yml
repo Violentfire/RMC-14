@@ -1,6 +1,6 @@
 - type: entity
   name: запальничка Зіппо
-  description: Найкраща сталева запальничка. Спаліть всіх хто каже інакше.
+  description: Найкраща сталева запальничка. Спаліть всіх, хто каже інакше.
   parent: FlippoLighter
   id: RMCZippo
   components:

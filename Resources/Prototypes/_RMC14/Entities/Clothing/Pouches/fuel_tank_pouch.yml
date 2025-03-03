@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFuelTank
-  name: fuel tank strap pouch
-  description: Two ring straps to loop around M34-pattern napalm tanks. Handle with care.
+  name: напалмовий підсумок
+  description: Дві стрічки, що тримають напалмові баки зразка М34. Не паліть біля них.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/fueltank.rsi

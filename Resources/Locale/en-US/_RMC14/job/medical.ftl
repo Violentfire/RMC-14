@@ -6,12 +6,12 @@ CMJobCMO = Головний Лікар
 
 cm-job-name-doctor = Лікар
 cm-job-description-doctor = Ви те що тримає усіх на цьому кораблі живими, допомагайте всім хто звернеться хоч з болем в пальці, хоч без голови. Переносьте павших морпіхотинців з транспортника в Медбей. За необхідності оперуйте пацієнтів.
-cm-job-prefix-doctor = Л-Р
+cm-job-prefix-doctor = ЛКР
 CMJobDoctor = Лікар
 
 cm-job-name-nurse = Медичний Помічник
 cm-job-description-nurse = Допомагайте лікарям й намагайтеся при цьому нікого не вбити. Дрімайте поки немає роботи.
-cm-job-prefix-nurse = МедПом
+cm-job-prefix-nurse = МДПМ
 CMJobNurse = Медичний Помічник
 
 cm-job-name-researcher = Науковець

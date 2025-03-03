@@ -1,38 +1,38 @@
 ﻿<Document>
-  # Marine Law
+  # Морпіхотний закон
 
-  Marine law and SOP applies to all personnel in the vicinity of the operation or aboard the UNMC warship, including hostile factions and other organizations not explicitly exempt.
+  Морпіхотний закон і СРП поширюється на усіх, хто перебуває в зоні операції або на борту військового корабля КМПОН, включно з представниками ворожих організацій.
 
-  ## Basics
+  ## Основи
 
-  - Command and [color=#ff000d][bold]MP[/bold][/color] are required to both enforce the law and abide by it, where allowed by their position on the ship.
-  - On UNMC warships and operations, the law is enforced by the [color=#ff000d][bold]MP[/bold][/color]s and [color=#8B0000][bold]Chief MP[/bold][/color], and they operate independently from the normal command structure ONLY in matters related to the enforcement of the Law.
-  - The [color=#00CBFE][bold]Commanding Officer[/bold][/color] of the warship has the final say on law enforcement within their operational area unless overseen by higher officials of the [color=#ffa500][bold]Provost Marshal Office[/bold][/color] or High Command.
-  - [color=#ff000d][bold]MP[/bold][/color] may, at their discretion, ignore Minor Crimes unless they are ordered to enforce one.
-  - [color=#ff000d][bold]MP[/bold][/color] cannot be ordered to ignore Minor Crimes.
-  - [color=#ff000d][bold]MP[/bold][/color] breaking the law in any capacity cannot be ignored.
+  - Командування та [color=#ff000d][bold]ВСП[/bold][/color] повинні запезпечувати дотримання закону, а також самі його дотримуватися.
+  - На військових кораблях, а також в операціях КМПОН дотримання закону забезпечується [color=#ff000d][bold]ВП[/bold][/color] та [color=#8B0000][bold]ГВСП[/bold][/color], вони можуть діяти незалежно від командного ланцюжка ЛИШЕ в питаннях дотримання закону.
+  - [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] військового корабля має вирішальне слово стосовно забезпечення правопорядку в зоні своєї відповідальності, але лише якщо його не перебрали на себе вищі чини, наприклад [color=#ffa500][bold]Офіс Головного Шерифа[/bold][/color] чи Вище Командування.
+  - [color=#ff000d][bold]ВП[/bold][/color] можуть, за власним бажанням ігнорувати Малозначимі Правопорушення, якщо їм не наказано інакшого.
+  - [color=#ff000d][bold]ВП[/bold][/color] не може бути наказано ігнорувати Малозначимі Правопорушення.
+  - [color=#ff000d][bold]ВП[/bold][/color] за жодних обставин не може ігнорувати порушення закону.
 
-  Should [color=#ff000d][bold]MP[/bold][/color]s disagree on cases, Marine Law rank structure must be followed.
+  Якщо [color=#ff000d][bold]ВП[/bold][/color] не можуть дійти згоди стосовно чогось, то слід керуватися ланцюгом командування.
 
-  - [color=#ffa500][bold]Provost Marshal Office[/bold][/color] > [color=#00CBFE][bold]Commanding Officer[/bold][/color] > [color=#8B0000][bold]Chief MP[/bold][/color] > [bold]Warden[/bold] > [color=#ff000d][bold]MP[/bold][/color] > Deputized [color=#ff000d][bold]MP[/bold][/color]
+  - [color=#ffa500][bold]Офіс Головного Шерифа[/bold][/color] > [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] > [color=#8B0000][bold]Голова ВСП[/bold][/color] > [bold]Наглядач[/bold] > [color=#ff000d][bold]ВП[/bold][/color] > ТВО [color=#ff000d][bold]ВП[/bold][/color]
 
-  ## Law and Related
-  - [textlink="Chain of Command" link="RMCCommandChain"]
-  - [textlink="Ranks" link="RMCMarineLawRanks"]
-  - [textlink="Definitions" link="RMCMarineLawDefinitions"]
-  - [textlink="Procedures" link="RMCMarineLawProcedures"]
-  - [textlink="Crimes" link="RMCMarineLawCrimes"]
-  - [textlink="Prisoner Rights" link="RMCMarineLawPrisonerRights"]
-  - [textlink="Prisoner Rights, Appeals" link="RMCMarineLawAppeals"]
-  - [textlink="Special Provisions" link="RMCMarineLawSpecialProvisions"]
-  - [textlink="Synthetics" link="RMCMarineLawSynthetics"]
-  - [textlink="Commanding Officer Provisions and Regulations" link="RMCMarineLawCOProvisions"]
+  ## Закон та Пов'язане
+  - [textlink="Ланцюг Командування" link="RMCCommandChain"]
+  - [textlink="Звання" link="RMCMarineLawRanks"]
+  - [textlink="Визначення" link="RMCMarineLawDefinitions"]
+  - [textlink="Процедури" link="RMCMarineLawProcedures"]
+  - [textlink="Злочини" link="RMCMarineLawCrimes"]
+  - [textlink="Права Ув'язнених" link="RMCMarineLawPrisonerRights"]
+  - [textlink="Права Ув'язнених, Апеляції" link="RMCMarineLawAppeals"]
+  - [textlink="Спеціальні Установи" link="RMCMarineLawSpecialProvisions"]
+  - [textlink="Синтетики" link="RMCMarineLawSynthetics"]
+  - [textlink="Положення і Правила Командуючого Офіцера" link="RMCMarineLawCOProvisions"]
 
-  ## Standard Operating Procedure
+  ## Стандартні Робочі Процедури
 
-  These are sets of regulations and polices of the UNMC.
-  Failure to follow the Standard Operating Procedure may result in [bold]Failure to Follow Procedure[/bold] charges.
+  Це набір правил та політик КМПОН.
+  Недотримання СРП може призвести до [bold]звинувачень у порушенні процедури[/bold].
 
-  - [textlink="Standard Operating Procedure" link="RMCMarineSOP"]
+  - [textlink="Стандартна Робоча Процедура" link="RMCMarineSOP"]
 
 </Document>
