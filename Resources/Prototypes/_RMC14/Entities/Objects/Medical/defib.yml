@@ -87,7 +87,7 @@
 - type: entity
   id: CMDefibrillatorEmpty
   parent: CMDefibrillator
-  suffix: RMC14, Empty
+  suffix: RMC14, Розряджений
   components:
   - type: ItemSlots
     slots:
@@ -97,4 +97,4 @@
 - type: entity
   parent: CMBaseDefibrillator
   id: CMDefibrillatorInfinite
-  suffix: RMC14, Infinite
+  suffix: RMC14, Нескінченний

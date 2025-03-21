@@ -1,7 +1,7 @@
 - type: entity
   parent: BoxFolderClipboard
   id: CMClipboard
-  name: clipboard
+  name: планшетка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/clipboard.rsi

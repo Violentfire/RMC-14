@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCOrbitalCannon
-  name: orbital cannon
-  description: "The UNMC Orbital Cannon System. Used for shooting large targets on the planet that is orbited. It accelerates its payload with solid fuel for devastating results upon impact."
+  name: орбітальна гармата
+  description: "Орбітальна гарматна система КМПОН. Використовується для ураження великих цілей на планеті, навколо якої обертається. Прискорює свій боєзаряд за допомогою рідкого палива, завдаючи руйнівного удару при зіткненні."
   placement:
     mode: SnapgridCenter
   components:
@@ -40,7 +40,7 @@
 
 - type: entity
   id: RMCOrbitalCannonFuel
-  name: solid fuel
+  name: рідке пальне
   placement:
     mode: SnapgridCenter
   components:
@@ -63,7 +63,7 @@
 - type: entity
   abstract: true
   id: RMCOrbitalCannonWarheadBase
-  name: orbital warhead
+  name: орбітальна боєголовка
   placement:
     mode: SnapgridCenter
   components:
@@ -86,7 +86,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  name: HE orbital warhead
+  name: орбітальна боєголовка HE
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  name: incendiary orbital warhead
+  name: запалювальна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  name: cluster orbital warhead
+  name: кластерна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -115,8 +115,8 @@
 
 - type: entity
   id: RMCOrbitalCannonWarheadSpawner
-  name: random orbital warhead
-  description: "This is a random orbital warhead."
+  name: випадкова орбітальна боєголовка
+  description: "Це випадкова орбітальна боєголовка."
   placement:
     mode: SnapgridCenter
   components:
@@ -132,7 +132,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionExplosive
-  name: explosive OB explosion
+  name: вибух орбітального бомбардування
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -160,7 +160,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionIncendiary
-  name: incendiary OB explosion
+  name: запальний вибух орбітального бомбардування
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -180,7 +180,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionCluster
-  name: cluster OB explosion
+  name: кластерний вибух орбітального бомбардування
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -202,8 +202,8 @@
 
 - type: entity
   id: RMCOrbitalCannonComputer
-  name: orbital cannon console
-  description: "The console controlling the orbital cannon loading systems."
+  name: консоль орбітальної гармати
+  description: "Консоль керування системами завантаження орбітальної гармати."
   placement:
     mode: SnapgridCenter
   components:
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCOrbitalCannonChair
-  name: seat
-  description: "A comfortable seat."
+  name: сидіння
+  description: "Зручне сидіння."
   placement:
     mode: SnapgridCenter
   components:
@@ -242,8 +242,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCableConnector
-  name: cannon cable connector
-  description: "A connector for the large cannon cables."
+  name: роз'єм гарматного кабелю
+  description: "Роз'єм для підключення великогабаритних гарматних кабелів."
   placement:
     mode: SnapgridCenter
   components:
@@ -268,8 +268,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCable
-  name: cannon cables
-  description: "Some large cables."
+  name: гарматні кабелі
+  description: "Кілька великих кабелів."
   placement:
     mode: SnapgridCenter
   components:

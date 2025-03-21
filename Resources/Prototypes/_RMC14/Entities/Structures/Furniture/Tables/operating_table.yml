@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: CMOperatingTable
-  name: operating table
-  description: Used for advanced medical procedures.
+  name: операційний стіл
+  description: Використовується для складних медичних процедур.
   components:
   - type: Transform
     anchored: true

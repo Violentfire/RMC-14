@@ -45,13 +45,13 @@
 
 - type: construction
   parent: RMC
-  name: rifle ammunition box (10x24mm)
+  name: коробка для гвинтівочні набоїв (10х24мм)
   id: RMCBoxBulletsRifle
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsRifleEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x24mm ammunition box. Used to refill M54C MK1, MK2, M4SPR and M54CE2 HAR magazines. It comes with a leather strap allowing to wear it on the back.
+  description: Коробка для набоїв калібром 10х24 мм. Використовується для спорядження магазинів M54C MK1, MK2, M4SPR та M54CE2 HAR. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -59,13 +59,13 @@
 
 - type: construction
   parent: RMC
-  name: rifle ammunition box (10x24mm AP)
+  name: коробка для гвинтівочні набоїв (10х24мм ББ)
   id: RMCBoxBulletsRifleAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsRifleAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x24mm armor-piercing ammunition box. Used to refill M54C MK2, and M4SPR AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: Коробка для бронебійних набоїв калібром 10х24 мм. Використовується для поповнення магазинів M54C MK2 та M4SPR AP. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m54
@@ -74,7 +74,7 @@
 # M63
 - type: construction
   parent: RMC
-  name: Магазинна коробка (M63 Розш)
+  name: Магазинна коробка (M63 Рег)
   id: RMCBoxMagazineSMGM63
   graph: RMCBoxMagazine
   startNode: start
@@ -116,13 +116,13 @@
 
 - type: construction
   parent: RMC
-  name: SMG HV ammunition box (10x20mm)
+  name: Коробка з набоями SMG HV (10×20мм)
   id: RMCBoxBulletsSMGEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm ammunition box. Used to refill M63 HV and extended magazines. It comes with a leather strap allowing to wear it on the back.
+  description: Коробка для набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m63
@@ -130,13 +130,13 @@
 
 - type: construction
   parent: RMC
-  name: SMG HV ammunition box (10x20mm AP)
+  name: Коробка з набоями SMG HV (10×20мм ББ)
   id: RMCBoxBulletsSMGAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm armor-piercing ammunition box. Used to refill M63 AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: Коробка для бронебійних набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m63
@@ -202,13 +202,13 @@
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M1984 AP)
+  name: Магазинна коробка (M1984 ББ)
   id: RMCBoxMagazinePistolM1984AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M1984 mags.
+  description: Коробка для магазинів, яка може містити бронебійні набої M1984.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     state: base_m1984
@@ -548,7 +548,7 @@
       - material: RMCSheetCardboard
         amount: 1
         doAfter: 0.25
-        
+
     - to: RMCBoxMagazinePistolM1984APEmpty
       steps:
       - material: RMCSheetCardboard

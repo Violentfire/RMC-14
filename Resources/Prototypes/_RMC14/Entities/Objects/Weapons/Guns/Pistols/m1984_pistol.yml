@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: M1984 service pistol
-  description: An M1984 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the M77 combat pistol. Fires 9mm pistol rounds.
+  name: M1984 службовий пістолет
+  description: Службовий пістолет M1984, який колись був стандартною зброєю маринів, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними набоями.
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_mk80_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
@@ -69,7 +69,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_mk80_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 magazine (9mm)
+  name: M1984 магазин (9mm)
   components:
   - type: Tag
     tags:
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: bullet (9mm)
+  name: куля (9mm)
   components:
   - type: Projectile
     damage:
@@ -120,7 +120,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: cartridge (9mm)
+  name: гільза (9mm)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 AP magazine (9mm)
-  description: A pistol magazine. This one contains armor-piercing bullets, which have noticeably higher stopping power on well-armored targets, and noticeably less on unarmored or lightly-armored targets.
+  name: M1984 ББ магазин (9mm)
+  description: Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу зупиняючу здатність по сильно броньованих цілях і значно меншу - по неброньованих або легкоброньованих цілях.
   components:
   - type: Tag
     tags:

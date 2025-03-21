@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CMBasePaper
-  name: paper
-  description: A piece of white paper.
+  name: бумага
+  description: Простий аркуш паперу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: CMBasePaperFaxable
   id: CMPaper
-  name: paper
+  name: Простий аркуш паперу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -133,25 +133,25 @@
 - type: entity
   parent: CMPaperWritten
   id: CMPaperJudgement
-  name: judgement
+  name: рішення
   components:
   - type: Paper
-    content: "For crimes against the station, the offender is sentenced to:"
+    content: "За злочини проти станції зловмисника засуджують до позбавлення волі:"
 
 - type: entity
   parent: CMPaperWritten
   id: CMPaperAlmayerStorage
-  name: almayer emergency storage note
+  name: вказівки щодо аварійного збереження савани
   components:
   - type: Paper
-    content: "Hey Garry, I got the boys to move most of the emergency supplies down into the ASRS hold just like ya' asked.
-      Next time you're around Chinook I'll buy you a beer ok?"
+    content: "Гей, Гаррі, я попросив хлопців перенести більшу частину аварійних запасів у сховище постачання, як ти і просив.
+      Наступного разу, коли будеш у Чинук, я пригощу тебе пивом, гаразд?"
 
 - type: entity
   parent: CMBasePaper
   id: RMCPaperRequisitionInvoice
-  name: requisition invoice
-  description: 'A single unit of bureaucracy awaiting for approval.'
+  name: накладна-замовлення
+  description: 'Бюрократична одиниця, яка чекає на затвердження.'
   components:
   - type: Sprite
     layers:

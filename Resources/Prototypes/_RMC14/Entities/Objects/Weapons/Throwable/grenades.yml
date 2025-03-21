@@ -2,8 +2,8 @@
   abstract: true
   parent: GrenadeBase
   id: CMGrenadeBase
-  name: grenade
-  description: Duck and cover.
+  name: граната
+  description: ЛЯГАЙ!
   components:
   - type: Explosive
     explosionType: RMC
@@ -38,8 +38,8 @@
     - RMCGrenadeM40
 
 - type: entity
-  name: flashbang
-  description: Excellent for stopping groups of Rioters. Don't expect sunglasses to protect you...
+  name: сліплячка
+  description: Прекрасна, щоб спинити заколот. Не забудьте вдягнути свої сонцезахисні окуляри...
   parent: CMGrenadeBase
   id: RMCGrenadeFlashBang
   components:

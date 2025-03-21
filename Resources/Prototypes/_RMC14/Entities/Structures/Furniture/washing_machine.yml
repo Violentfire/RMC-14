@@ -1,8 +1,8 @@
 - type: entity
   id: CMWashingMachine
   parent: BaseStructure
-  name: washing machine
-  description: The WM-321 is a rugged, cylindrical powerhouse, equipped with a transparent window. This one is not operational.
+  name: пральна машина
+  description: ПМ-321 — міцна циліндрична пральна машина, обладнана прозорим вікном. Ця модель не працює.
   placement:
     mode: SnapgridCenter
   components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMWashingMachine
   id: CMWashingMachineDouble
-  name: washing machine (double)
+  name: пральна машина (подвійна)
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/washing_machine.rsi

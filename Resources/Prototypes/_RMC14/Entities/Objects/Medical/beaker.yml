@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeaker
-  name: beaker
-  description: A beaker. Can hold up to 60 units.
+  name: мензурка
+  description: Мензурка. Містить до 60 унцій рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/beaker.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMBeakerLarge
-  name: large beaker
-  description: A large beaker. Can hold up to 120 units.
+  name: велика мензурка
+  description: Велика мензурка. Містить до 120 унцій рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/large_beaker.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCBeakerBaseMetallic
   id: RMCBeakerHighCapacity
-  name: high-capacity beaker
-  description: A beaker with an enlarged holding capacity, made with blue-tinted plexiglass in order to withstand greater pressure. Can hold up to 300 units.
+  name: мензурка великої місткості
+  description: Мензурка зі збільшеною місткістю, виготовлена з синього тонованого оргскла, щоб витримувати більший тиск. Вміщує до 300 унцій рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/high_capacity_beaker.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMBeakerBase
   id: CMMiniTank
-  name: MS-11 Smart Refill Tank
-  description: A robust little tank capable of refilling autoinjectors that previously required a nanomed system to refill. Using the wonders of microchips, it automatically sorts the correct chemicals into most single reagent autoinjectors. It is unable to partially fill them however. A valve exists on the top to transfer reagents to another container or to flush it entirely.
+  name: MS-11 смарт-резервувар для дозаправки
+  description: Робустний маленький резервуар, здатний заправляти автоінжектори, для заправки яких раніше була потрібна наномедична система. Використовуючи чудеса мікрочіпів, він автоматично сортує потрібні хімічні речовини для більшості однореагентних автоінжекторів. Однак він не може частково заповнити їх. У верхній частині є клапан для переливання реагентів в інший контейнер або для його повного промивання.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/minitank.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: CMBeakerBase
   id: RMCPressurizedCanister
-  name: pressurized canister
-  description: A pressurized container. The inner part of a pressurized reagent canister pouch. Only compatible with its pouch, machinery or a storage tank.
+  name: герметична каністра
+  description: Герметичний контейнер. Внутрішня частина пакет-балона для реагентів під тиском. Сумісний лише з відповідним пакетом, механізмами або резервуаром для зберігання.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/pressurized_reagent_container.rsi
@@ -266,7 +266,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterBicaridine
-  suffix: Bicaridine
+  suffix: Бікардин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -279,7 +279,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterKelotane
-  suffix: Kelotane
+  suffix: Келотан
   components:
   - type: SolutionContainerManager
     solutions:
@@ -292,7 +292,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazineRevival
-  suffix: Tricordrazine - Revival
+  suffix: Трикордразин - відновлювальний.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -309,7 +309,7 @@
 - type: entity
   parent: RMCPressurizedCanister
   id: RMCPressurizedCanisterTricordrazine
-  suffix: Tricordrazine
+  suffix: Трикордразин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -325,8 +325,8 @@
 - type: entity
   parent: CMBeakerBase
   id: RMCVial
-  name: vial
-  description: A small glass vial. Can hold up to 30 units.
+  name: ампула
+  description: Невелика скляна ампула. Містить до 30 унцій рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/vials.rsi
@@ -369,9 +369,9 @@
 - type: entity
   parent: RMCVial
   id: RMCVialTricordrazine
-  name: tricordrazine vial
-  description: A small glass vial. Can hold up to 30 units. Contains Tricordrazine, a weak general use medicine for treating damage.
-  suffix: Filled, Tricordrazine
+  name: ампула з трикордразином
+  description: Невелика скляна ампула. Містить до 30 унцій рідини. Містить трикордазин, слабкий препарат загального застосування для лікування ушкоджень.
+  suffix: Заповнена, Трикордразин
   components:
   - type: SolutionContainerManager
     solutions:

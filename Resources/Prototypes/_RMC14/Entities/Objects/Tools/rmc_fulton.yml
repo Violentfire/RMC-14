@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCFulton
-  name: fulton recovery device
-  description: A system used by the UNMC for retrieving objects of interest on the ground from an AUD-25 dropship. Can be used to extract unrevivable corpses, or crates, typically lasting around 3 minutes in the air.
+  name: "пристрій для доставлення 'фултон'"
+  description: Система, яка застосовується КМПОН для підйому об'єктів із землі, що становлять інтерес, за допомогою літального апарату та системи захоплення фултонів. Може використовуватися для підйому тіл, що не підлягають реанімації, або ящиків, зазвичай перебуваючи в повітрі близько 3 хвилин.
   suffix: 1
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 
 - type: stack
   id: RMCFulton
-  name: fulton
+  name: фултон
   icon:
     sprite: _RMC14/Objects/Tools/fulton.rsi
     state: fulton

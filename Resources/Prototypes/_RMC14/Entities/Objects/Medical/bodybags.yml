@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseDeployFoldable
   id: CMBodyBag
-  name: body bag
-  description: A folded bag designed for the storage and transportation of cadavers.
+  name: мішок для тіл
+  description: Складений мішок, призначений для зберігання і транспортування трупів.
   components:
   - type: Item
     size: Small
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMBodyBag
   id: CMBodyBagFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMBodyBag
   id: CMStasisBag
-  name: stasis bag
-  description: A folded, reusable bag designed to prevent additional damage to an occupant.
+  name: стазисний мішок
+  description: Складений багаторазовий мішок, призначений для запобігання додатковим ушкодженням потерпілого.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/stasisbag.rsi
@@ -141,7 +141,7 @@
 - type: entity
   parent: CMStasisBag
   id: CMStasisBagFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseItem
   id: RMCStasisBagUsed
-  name: used stasis bag
-  description: It's been ripped open. You will need to find a machine capable of recycling it.
+  name: використаний стазисний мішок
+  description: Він був розірваний. Вам потрібно знайти машину, здатну переробити це.
   suffix: trash
   components:
   - type: Item
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMBodyBag
   id: RMCThermalTarp
-  name: V3 reactive thermal tarp
-  description: A more compact and improved version of the V2 thermal tarp, intended primarily for the transportation of deceased or wounded marines. It has improved cloaking technology than earlier models, allowing it to cloak to a greater degree and faster, but can only be used with special training.
+  name: Реактивний термобрезент V3
+  description: "Більш компактна та вдосконалена версія термобрезенту V2, призначена головним чином для транспортування загиблих або поранених морпіхів. Має покращену технологію маскування порівняно з попередніми моделями, що дозволяє швидше й ефективніше приховувати об'єкт, але потребує спеціальної підготовки для використання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/bodybags.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCThermalTarp
   id: RMCThermalTarpFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true

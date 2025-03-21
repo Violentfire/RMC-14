@@ -21,8 +21,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: Xenonid Tracker
-  description: Tracks the Queen.
+  name: Трекер ксеноїдів
+  description: Стежити за королевою.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -50,8 +50,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: Resin Marker Tracker
-  description: Tracks a Resin Marker placed by the Queen or a Hive Leader.
+  name: Стежити за маркером смоли
+  description: Відстежувати маркер смоли, розміщений королевою або Ватажком вулика.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -79,8 +79,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest
-  name: Marine Squad Tracker
-  description: Tracks the Squad Leader.
+  name: Трекер загону маринів
+  description: Стежити за лідером загону.
   minSeverity: 0
   maxSeverity: 10
   clickEvent: !type:SquadLeaderTrackerClickedEvent
@@ -90,8 +90,8 @@
   icons:
   - sprite: /Textures/_RMC14/Structures/Machines/map_table.rsi
     state: maptable
-  name: Tactical Map
-  description: Click to open the Tactical Map.
+  name: Тактична мапа
+  description: Натисніть, щоб відкрити Тактичну мапу.
   clickEvent: !type:OpenTacMapAlertEvent
 
 - type: alert
@@ -99,6 +99,6 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_map.rsi
     state: open_xeno_map
-  name: Tactical Map
-  description: Click to open the Tactical Map.
+  name: Тактична мапа
+  description: Натисніть, щоб відкрити Тактичну мапу.
   clickEvent: !type:OpenTacMapAlertEvent

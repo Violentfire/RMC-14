@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponRifle
-  name: M4SPR battle rifle
+  name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
-  description: The M4SPR battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4SPR battle rifle is perfect for reconnaissance and fire support teams.
+  description: Бойова гвинтівка M4SPR - це спеціальна гвинтівка для стрільби на ураження, що стоїть на озброєнні маринів. Має конструкцію булпап, що робить її ідеальною для розвідувальних підрозділів та команд вогневої підтримки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
@@ -45,7 +45,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
@@ -110,7 +110,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         startingItem: CMMagazineRifleM4SPR
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "M4SPR magazine (10x24mm)"
-  description: "A magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  name: "M4SPR магазин (10x24мм)"
+  description: "Магазин зі стандартними патронами 10х24 мм для бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: M4SPR AP magazine (10x24mm)
-  description: "A magazine of armor-piercing 10x24mm rounds for use in the M4SPR battle rifle."
+  name: M4SPR ББ магазин (10x24мм)
+  description: "Магазин бронебійних набоїв 10х24мм для бойової гвинтівки M4SPR."
   suffix: AP
   components:
   - type: Tag
@@ -181,7 +181,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "M4SPR extended magazine (10x24mm)"
+  name: "M4SPR розширений магазин (10x24mm)"
   components:
   - type: BallisticAmmoProvider
     capacity: 35

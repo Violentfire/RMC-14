@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelPaperScrap
-  name: paper scrap
-  description: A scrap of paper, you think some of the words might still be readable.
+  name: паперовий клаптик
+  description: Клаптик паперу, ви думаєте, що деякі слова можливо прочитати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
-  name: progress report
-  description: A written report from someone for their supervisor about the status of some kind of project.
+  name: звіт про прогрес
+  description: Письмовий звіт працівника своєму керівнику про хід виконання якогось проекту
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelFolder
-  name: intel folder
-  description: A folder with some documents inside.
+  name: папка розвідданих
+  description: Папка з купою різних документів всередині.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
-  name: technical manual
-  description: A highly specified technical manual, may be of use to someone in the relevant field.
+  name: технічний посібник
+  description: Технічний посібник з детальним описом, який може бути корисним для тих, хто має відношення до відповідної галузі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/books.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsole
-  name: tech tree console
-  description: A console used to make tech purchases.
+  name: консоль дерева технологій
+  description: Консоль для відкриття технологій.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntel
-  name: intel computer
-  description: An UNMC Intel Computer for data cataloguing and distribution.
+  name: "комп'ютер розвідки"
+  description: "Комп'ютер розвідки, для каталогізації та дистрибуції даних."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -168,23 +168,23 @@
     tree:
       options:
       -
-        - name: Unlock Tier 1
-          description: Transitions the tree to another tier.
+        - name: Розблокувати рівень 1
+          description: Переводить технології на новий рівень.
           cost: 0
           events:
           - !type:TechUnlockTierEvent
             tier: 1
           - !type:TechAnnounceEvent
-            author: ALMAYER DEFCON LEVEL INCREASED
-            message: "THREAT ASSESSMENT LEVEL INCREASED TO LEVEL 1.
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 1.
 
-              LEVEL 1 assets have been authorised to handle the situation."
+              Активи РІВНЯ 1 були авторизовані для врегулювання ситуації."
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Requisition Budget Increase
-          description: Distributes resources to requisitions for spending.
+        - name: Збільшення Бюджету Запитів
+          description: Розподіляє ресурси до заявок для витрат.
           cost: 7
           increase: 1
           repurchasable: true
@@ -192,13 +192,13 @@
           - !type:TechRequisitionsBudgetEvent
             amount: 5000
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional supply budget has been authorised for this operation.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: На цю операцію було виділений додатковий бюджет для постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_req
-        - name: Dropship Budget Increase
-          description: Distributes resources to the dropship fabricator.
+        - name: Збільшення ресурсів десантного корабля
+          description: Розподіляє ресурси до фабрикатора десантного корабля.
           cost: 6
           increase: 1
           repurchasable: true
@@ -206,28 +206,28 @@
           - !type:TechDropshipBudgetEvent
             amount: 2000
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional dropship part fabricator points have been authorised for this operation.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: Для цієї операції дозволено додаткові очки фабрикатора деталей десантного корабля.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_ds
-        - name: Unlock Tier 2
-          description: Transitions the tree to another tier.
+        - name: Розблокувати рівень 2
+          description: Переводить технології на новий рівень.
           cost: 5
           events:
           - !type:TechUnlockTierEvent
             tier: 2
           - !type:TechAnnounceEvent
-            author: ALMAYER DEFCON LEVEL INCREASED
-            message: "THREAT ASSESSMENT LEVEL INCREASED TO LEVEL 2.
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 2.
 
-              LEVEL 2 assets have been authorised to handle the situation."
+              Активи РІВНЯ 2 були авторизовані для врегулювання ситуації."
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Additional OB projectiles - HE
-          description: Highly explosive bombardment ammo, to be loaded into the orbital cannon.
+        - name: Додаткові орбітальні боєголовки.
+          description: Боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -235,13 +235,13 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadExplosive
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional Orbital Bombardment warheads (HE) have been delivered to Requisitions' ASRS.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: Додаткові боєголовки орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_he
-        - name: Additional OB projectiles - Incendiary
-          description: Highly flammable bombardment ammo, to be loaded into the orbital cannon.
+        - name: Додаткові запалювальні снаряди для ОБ
+          description: Запальні боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -249,13 +249,13 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadIncendiary
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional Orbital Bombardment warheads (Incendiary) have been delivered to Requisitions' ASRS.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: Додаткові запальні боєголовки для орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_incend
-        - name: Additional OB projectiles - Cluster
-          description: Highly explosive bombardment ammo that fragments, to be loaded into the orbital cannon.
+        - name: Додаткові кластерні снаряди для ОБ
+          description: Кластерні боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -263,47 +263,47 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadCluster
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional Orbital Bombardment warheads (Cluster) have been delivered to Requisitions' ASRS.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ 
+            message: Додаткові кластерні боєголовки для орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_cluster
-        - name: Unlock Tier 3
-          description: Transitions the tree to another tier.
+        - name: Розблокувати рівень 3
+          description: Переводить технології на новий рівень.
           cost: 5
           events:
           - !type:TechUnlockTierEvent
             tier: 3
           - !type:TechAnnounceEvent
-            author: ALMAYER DEFCON LEVEL INCREASED
-            message: "THREAT ASSESSMENT LEVEL INCREASED TO LEVEL 3.
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 3.
 
-              LEVEL 3 assets have been authorised to handle the situation."
+              Активи РІВНЯ 3 були авторизовані для врегулювання ситуації."
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Wake Up Additional Troops
-          description: Wakes up additional troops to fight against any threats.
+        - name: Викликати додаткові війська
+          description: Пробуджує додаткові війська для боротьби з будь-якими загрозами.
           cost: 6
           increase: 6
           repurchasable: true
           events:
           - !type:TechCryoMarinesEvent
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: Additional troops are being taken out of cryo.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: З кріогенного сну виводяться додаткові бійці.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: cryotroops
-        - name: Wake Up Additional Specialist
-          description: Wakes up an additional specialist to fight against any threats.
+        - name: Пробудження додаткового спеціаліста
+          description: Прокидається додатковий спеціаліст для боротьби з будь-якими загрозами.
           cost: 8
           events:
           - !type:TechCryoSpecEvent
           - !type:TechAnnounceEvent
-            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-            message: An additional specialist is being taken out of cryo.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            message: Додаткового спеціаліста виводять з кріогенного сну.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: overshield

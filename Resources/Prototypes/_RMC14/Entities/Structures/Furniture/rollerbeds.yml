@@ -7,8 +7,8 @@
 - type: entity
   parent: RollerBed
   id: CMRollerBed
-  name: roller bed
-  description: A collapsed roller bed that can be carried around.
+  name: Складне ліжко на роликах
+  description: Складне ліжко на роликах, яке можна переносити.
   components:
   - type: Tag
     tags:
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMRollerBed
   id: CMRollerBedSpawnFolded
-  suffix: folded
+  suffix: Складене
   components:
   - type: Foldable
     folded: true
@@ -64,8 +64,8 @@
 - type: entity
   parent: CMRollerBed
   id: CMPortableSurgicalBed
-  name: portable surgical bed
-  description: A collapsible surgical bed. It's not perfect, but it's the best you'll get short of an actual surgical table.
+  name: портативне хірургічне ліжко
+  description: Складне хірургічне ліжко. Воно не ідеальне, але це найкраще, що ви можете отримати, не маючи справжнього хірургічного столу.
   components:
   - type: Item
     heldPrefix: surgical
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMPortableSurgicalBed
   id: CMPortableSurgicalBedSpawnFolded
-  suffix: folded
+  suffix: складене
   components:
   - type: Foldable
     folded: true
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ BaseDeployFoldable ]
   id: RMCMedevacStretcher
-  name: medevac stretcher
-  description: A collapsible stretcher that can be activated to send patients to an overhead dropship.
+  name: ноші для евакуації
+  description: Складні ноші, які можна активувати, щоб відправити пацієнта до повітряного транспортника.
   components:
   - type: Item
     size: Small
@@ -172,7 +172,7 @@
 - type: entity
   parent: RMCMedevacStretcher
   id: RMCMedevacStretcherFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMRollerBed
   id: RMCRollerBedHospital
-  name: hospital roller bed
-  description: A basic cushioned leather board resting on a small frame. Not very comfortable at all, but allows the patient to rest lying down while moved to another location rapidly. Not great for surgery, but better than nothing.
+  name: лікарняне ліжко на роликах
+  description: Простора шкіряна платформа з підкладкою, що лежить на невеликій рамі. Не дуже зручна, але дозволяє пацієнту лежати під час швидкого транспортування в інше місце. Не підходить для хірургії, але краща, ніж нічого.
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -227,7 +227,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalBloodFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheetFolded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true
@@ -277,7 +277,7 @@
 - type: entity
   parent: RMCRollerBedHospital
   id: RMCRollerBedHospitalSheet2Folded
-  suffix: folded
+  suffix: складений
   components:
   - type: Foldable
     folded: true

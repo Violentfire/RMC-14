@@ -2,7 +2,7 @@
 - type: entity
   parent: PottedPlantRandom
   id: CMPottedPlantRandom
-  name: random potted plant spawner
+  name: спавнер випадкових горщиків з рослинами
   components:
   - type: RandomSpawner
     offset: 0
@@ -45,7 +45,7 @@
   parent: PottedPlantBase
   id: CMPottedPlantBase
   abstract: true
-  name: potted plant
+  name: рослина в горщику
   description: ""
   components:
   - type: Sprite

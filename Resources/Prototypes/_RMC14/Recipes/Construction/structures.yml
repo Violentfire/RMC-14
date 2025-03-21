@@ -45,7 +45,7 @@
   startNode: start
   targetNode: wall
   category: construction-category-cm-structures
-  description: Величезний шматок металу використовувався для розділення кімнат.
+  description: Величезний шматок металу використовується для розділення кімнат.
   icon:
     sprite: _RMC14/Structures/Walls/metal.rsi
     state: full
@@ -64,7 +64,7 @@
   startNode: start
   targetNode: reinforcedWall
   category: construction-category-cm-structures
-  description: Величезний шматок армованого металу використовувався для розділення кімнат.
+  description: Величезний шматок армованого металу використовується для розділення кімнат.
   icon:
     sprite: _RMC14/Structures/Walls/rwall.rsi
     state: full
@@ -78,7 +78,7 @@
 # Airlocks
 - type: construction
   parent: RMC
-  name: Шлюз
+  name: шлюз
   id: CMAirlock
   graph: CMAirlock
   startNode: start
@@ -121,7 +121,7 @@
   startNode: start
   targetNode: windowDirectional
   category: construction-category-cm-structures
-  description: Скляне вікно. Воно виглядає крихким і тонким.
+  description: Скляне вікно. Воно виглядає крихким і тонким
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -178,7 +178,7 @@
   startNode: start
   targetNode: windoorSecure
   category: construction-category-cm-structures
-  description: Воно відкривається, закривається, і крізь нього можна бачити! Це виглядає міцно.
+  description: Воно відкривається, закривається, і ви можете бачити крізь нього! Ці виглядають міцно.
   icon:
     sprite: _RMC14/Structures/Doors/windoor_assemblies.rsi
     state: secure_assembly01
@@ -191,13 +191,13 @@
 # Barricades
 - type: construction
   parent: RMC
-  name: Металева барикада
+  name: Металева Барикада
   id: CMBarricadeMetal
   graph: BarricadeMetalGraph
   startNode: start
   targetNode: nodeMetal
   category: construction-category-cm-structures
-  description: Металева барикада військового зразка.
+  description: Барикада із сталі військового зразку.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -210,13 +210,13 @@
 
 - type: construction
   parent: RMC
-  name: Пласталева барикада
+  name: Пласталева Барикада
   id: RMCBarricadePlasteel
   graph: BarricadePlasteelGraph
   startNode: start
   targetNode: nodePlasteel
   category: construction-category-cm-structures
-  description: Барикада із пласталі військового зразка.
+  description: Барикада із пласталі військового зразку.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -229,13 +229,13 @@
 
 - type: construction
   parent: RMC
-  name: Дерев'яна барикада
+  name: "Дерев'яна Барикада"
   id: RMCBarricadeWood
   graph: BarricadeWoodGraph
   startNode: start
   targetNode: nodeWood
   category: construction-category-cm-structures
-  description: Імпровізована дерев'яна барикада.
+  description: "Імпровізована дерев'яна барикада."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -273,7 +273,7 @@
   startNode: start
   targetNode: nodeTurnstileMed
   category: construction-category-cm-structures
-  description: Огорожа, яка забезпечує порядок і контроль черги морпіхів у медичному відділі.
+  description: Огорожа, яка забезпечує порядок і контроль черги морпіхів у медичному відділі. 
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -305,7 +305,7 @@
 
 - type: construction
   parent: RMC
-  name: Складна металева барикада
+  name: Складна Металева Барикада
   id: CMBarricadeMetalDoor
   graph: BarricadeMetalDoorGraph
   startNode: start
@@ -324,7 +324,7 @@
 
 - type: construction
   parent: RMC
-  name: Складна пласталева барикада
+  name: Складна Пласталева Барикада
   id: CMBarricadePlasteelDoor
   graph: BarricadePlasteelDoorGraph
   startNode: start
@@ -344,7 +344,7 @@
 #lighting
 - type: construction
   parent: RMC
-  name: Настінне кріплення для ламп
+  name: настінне кріплення для ламп
   id: CMLightTubeFixture
   graph: CMLightFixture
   startNode: start
@@ -363,7 +363,7 @@
 
 - type: construction
   parent: RMC
-  name: Настінне кріплення для лампочок
+  name: настінне кріплення для лампочок
   id: CMLightBulbFixture
   graph: CMLightFixture
   startNode: start
@@ -388,7 +388,7 @@
   startNode: start
   targetNode: Campfire
   category: construction-category-cm-structures
-  description: Гарне та затишне вогнище, де можна зібрати всіх друзів.
+  description: Гарне і затишне вогнище, де можна зібрати всіх друзів.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: False
@@ -403,12 +403,12 @@
 - type: construction
   parent: RMC
   id: RMCGrille
-  name: решітка
+  name: grille
   graph: RMCGrille
   startNode: start
   targetNode: Grille
   category: construction-category-cm-structures
-  description: Крихка решітка з металевих прутів.
+  description: A flimsy lattice of metal rods.
   icon:
     sprite: _RMC14/Structures/Walls/grille.rsi
     state: grille
@@ -423,12 +423,12 @@
 - type: construction
   parent: RMC
   id: RMCGrilleElectrified
-  name: grille
+  name: решітка
   graph: RMCGrilleElectrified
   startNode: start
   targetNode: GrilleElectrified
   category: construction-category-cm-structures
-  description: A dark reinforced mesh grille with warning stripes, equipped with Tesla-like coils to regulate high voltage current. It is highly electrified and dangerous when powered.
+  description: Темна армована сітчаста решітка з попереджувальними смугами, оснащена котушками Тесли для регулювання струму високої напруги. Вона сильно електризується і небезпечна під напругою.
   icon:
     sprite: _RMC14/Structures/Walls/electric_grille.rsi
     state: grille
