@@ -179,6 +179,7 @@
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 1.
 
               Активи РІВНЯ 1 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
@@ -222,6 +223,7 @@
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 2.
 
               Активи РІВНЯ 2 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
@@ -279,6 +281,7 @@
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 3.
 
               Активи РІВНЯ 3 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade

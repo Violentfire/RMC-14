@@ -1,25 +1,18 @@
 - type: entity
   abstract: true
   parent: CMBaseStructureCorrodible
-  id: CMBaseWindow # TODO RMC14 this needs to be 2 separate entities eventually
+  id: CMBaseWindowIndestructible
   placement:
     mode: SnapgridCenter
     snap:
     - Wall
   components:
-  - type: MeleeSound
-    soundGroups:
-      Brute:
-        collection: GlassSmack
   - type: Transform
     anchored: true
   - type: Sprite
     drawdepth: Walls
   - type: PlacementReplacement
     key: walls
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: Glass
   - type: Airtight
   - type: RadiationBlocker
     resistance: 2
@@ -50,7 +43,24 @@
     flags: Breaching
 
 - type: entity
-  parent: CMBaseWindow
+  abstract: true
+  parent: CMBaseWindowIndestructible
+  id: CMBaseWindow # TODO RMC14 this needs to be 2 separate entities eventually
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmack
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Glass
+
+- type: entity
+  parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedAlmayerHull
   name: корпусне вікно
   description: Скляне вікно зі спеціальною стрижневою матрицею вмонтоване у стінну раму. Воно було створене з екзотичних матеріалів, щоб запобігти пробоїнам корпусу. Тут не пройти.
@@ -122,9 +132,10 @@
     spawnPrototype: RMCWindowFrameAlmayer
     sound:
       collection: WindowShatter
+  - type: ImmuneToUnarmed
 
 - type: entity
-  parent: CMBaseWindow
+  parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedWhiteHull
   name: корпусне вікно
   description: Надміцне вікно, призначене для забезпечення безпеки досліджень. Воно було створене з екзотичних матеріалів, щоб запобігти пробоїнам корпусу. Тут не пройти.

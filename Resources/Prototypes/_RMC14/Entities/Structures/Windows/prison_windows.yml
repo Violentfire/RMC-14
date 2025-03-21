@@ -142,7 +142,7 @@
       collection: WindowShatter
 
 - type: entity
-  parent: CMBaseWindow
+  parent: CMBaseWindowIndestructible
   id: RMCWindowPrisonHull
   name: корпусне вікно
   description: Скляне вікно зі спеціальною стрижневою матрицею вмонтоване у стінну раму. Ця модель має автоматичну систему затворів, щоб запобігти будь-якому атмосферному порушенню.

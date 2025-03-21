@@ -4,11 +4,9 @@ chat-radio-marine-common = Загальний
 chat-radio-marine-command = Командування
 chat-radio-marine-medical = Медичний
 chat-radio-marine-engineer = Інженерний
-# Можливо скоро стане застарілим. На заміну тоді "Військова поліція"
 chat-radio-marine-military-police = Військ. Служба Правопорядку
 chat-radio-marine-requisition = Логістика
 chat-radio-marine-intel = Розвідка
-#Контролер Авіаційно-Тактичних Атак
 chat-radio-marine-jtac = КАТА 
 
 chat-radio-marine-alpha = Альфа
