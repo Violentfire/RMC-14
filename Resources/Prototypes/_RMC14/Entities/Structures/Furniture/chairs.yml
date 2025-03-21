@@ -22,6 +22,7 @@
     anchored: false
   - type: Physics
     bodyType: Static
+  - type: Rotatable
   - type: Construction
     graph: CMSeat
     node: chair
@@ -58,6 +59,8 @@
     anchored: true
   - type: Physics
     bodyType: Static
+  - type: Rotatable
+    rotateWhileAnchored: true
   - type: Construction
     graph: CMSeat
     node: chairComfy
@@ -166,6 +169,8 @@
   - type: Construction
     graph: CMSeat
     node: chairOfficeDark
+  - type: Rotatable
+    rotateWhileAnchored: true
 
 - type: entity
   parent: CMChairOfficeDark

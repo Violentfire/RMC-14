@@ -20,12 +20,19 @@
     sprite: _RMC14/Areas/savannah.rsi
     state: savannah
   - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: false # TODO RMC14 true
+    lasing: false
+    medevac: false
+    OB: true
+    supplyDrop: true
     powerNet: almayer
     hijackEvacuationArea: false
     hijackEvacuationWeight: 0
     hijackEvacuationType: None
-    mortarPlacement: false
-    mortarFire: false # TODO RMC14 true
+  - type: IntelRescueSurvivorArea
 
 # MAINTS
 
@@ -272,6 +279,7 @@
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
     state: medical
+  - type: IntelRecoverCorpsesArea
 
 - type: entity
   parent:
@@ -451,27 +459,42 @@
   id: RMCAreaSavannahAtmosPort
   name: Port Atmos
 
+# PUMP
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahLifeboatPumps
+  name: Lifeboat Fuel Pumps
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_almayer.rsi
+    state: lifeboat_pump
+  - type: Area
+    zLevel: 1
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.25
+    hijackEvacuationType: Add
+
 - type: entity
   parent:
-  - RMCAreaSavannahEngineering
+  - RMCAreaSavannahLifeboatPumps
   id: RMCAreaSavannahPumpStarboardBow
   name: Starboard Bow Pump
 
 - type: entity
   parent:
-  - RMCAreaSavannahEngineering
+  - RMCAreaSavannahLifeboatPumps
   id: RMCAreaSavannahPumpStarboardQuarter
   name: Starboard Quarter Pump
 
 - type: entity
   parent:
-  - RMCAreaSavannahEngineering
+  - RMCAreaSavannahLifeboatPumps
   id: RMCAreaSavannahPumpPortBow
   name: Port Bow Pump
 
 - type: entity
   parent:
-  - RMCAreaSavannahEngineering
+  - RMCAreaSavannahLifeboatPumps
   id: RMCAreaSavannahPumpPortQuarter
   name: Port Quarter Pump
 
