@@ -1,9 +1,9 @@
 - type: gameMap
   id: Savannah
-  mapName: Savannah
+  mapName: Саванна
   mapPath: /Maps/_RMC14/savannah.yml
   minPlayers: 0
-  maxPlayers: 75
+  maxPlayers: 50
   maxRandomOffset: 0
   randomRotation: false
   stations:
@@ -11,44 +11,44 @@
       stationProto: StandardUNMCWarship
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'LCS-14 Savannah'
+          mapNameTemplate: 'ДКП-Саванна "Січ"' #LSC-Savannah. Landing Ship Carrier – Десантний Корабель-Перевізник. Назва корабля "Січ", тип Саванна.
         - type: StationJobs
           availableJobs:
-            # Command
+             #Командування
             CMCommandingOfficer: [1, 1]
             CMExecutiveOfficer: [1, 1]
             CMStaffOfficer: [4, 4]
             CMSeniorEnlistedAdvisor: [1, 1]
 
-            # Military Police
+             #ВСП
             CMChiefMP: [1, 1]
             CMMilitaryWarden: [1, 1]
-            CMMilitaryPolice: [5, 8]
+            CMMilitaryPolice: [3, 3]
 
-            # Auxiliary
+             #Підтримка
             CMAuxiliarySupportOfficer: [1, 1]
-            CMIntelOfficer: [4, 4]
+            CMIntelOfficer: [2, 2]
             CMPilotDropship: [1, 1]
             CMPilotGunship: [1, 1]
             CMDropshipCrewChief: [2, 2]
 
-            # Engineering
+             #Інженерія
             CMChiefEngineer: [1, 1]
 #            CMOrdnanceTech: [3, 3]
             CMMaintTech: [3, 3]
 
-            # Medical
+             #Медичний
             CMCMO: [1, 1]
-            CMDoctor: [4, 6]
-            CMNurse: [4, 6]
+            CMDoctor: [3, 3]
+            CMNurse: [3, 3]
 #            CMResearcher: [2, 2]
 
-            # Requisition
+             #Постачання
             CMQuartermaster: [1, 1]
-            CMCargoTech: [4, 4]
-#            CMMessTech: [1, 1]
+            CMCargoTech: [2, 2]
+            CMMessTech: [1, 1]
 
-            # Marines
+             #Морпіхи
             CMSquadLeader: [4, 4]
             CMFireteamLeader: [4, 8]
             CMSmartGunOperator: [4, 4]
@@ -57,8 +57,8 @@
             CMHospitalCorpsman: [8, 16]
             CMRifleman: [ -1, -1 ]
 
-            # Civilians
+             #Цивільні
             CMCorrespondent: [2, 2]
 
-            # Other
+             #Інші
             CMLiaison: [1, 1]

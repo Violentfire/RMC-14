@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
-  name: M44 combat revolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds.
+  name: M44 бойовий револьвер
+  description: Масивний револьвер, який час від часу носять штурмовики та офіцери, а також цивільні правоохоронці. Стріляє набоями .44 Магнум.
   components:
   - type: Tag
     tags:
@@ -69,7 +69,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader44
-  name: "M44 speed loader (.44)"
+  name: "M44 швидкозарядник (.44)"
   parent: BaseItem
   abstract: true
   components:
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader44
   id: RMCSpeedLoaderM44
-  name: "M44 speed loader (.44)"
-  description: A revolver speed loader.
+  name: "M44 швидкозарядник (.44)"
+  description: Револьверний швидкозарядник.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/m44.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "M44 marksman speed loader (.44)"
-  description: A revolver speed loader filled with Marksman ammo.
+  name: "M44 швидкозарядник для точної стрільби (.44)"
+  description: Револьверний швидкісний зарядник, наповнений патронами для точної стільби.
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: cartridge (.44)
+  name: гільза (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -151,7 +151,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: cartridge (.44)
+  name: гільза (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -164,7 +164,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: bullet (.44)
+  name: куля (.44)
   components:
   - type: Projectile
     damage:
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: bullet (.44 Marksman)
+  name: куля (.44 для точної стрільби)
   components:
   - type: Projectile
     damage:

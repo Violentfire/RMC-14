@@ -186,7 +186,7 @@
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/cbrn.rsi
 
 
-# Royal Marines
+# Royal Crown Marines
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsRoyal

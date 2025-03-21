@@ -1,8 +1,8 @@
 - type: entity
   id: CMShower
-  name: shower
-  suffix: Empty
-  description: The HS-451. Installed in the 2050s by the WeYa Hygiene Division.
+  name: душ
+  suffix: Пустий
+  description: HS-451. Встановлений у 2050-х роках відділом гігієни компанією ВеЯ.
   placement:
     mode: SnapgridCenter
   components:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CMSinkEmpty
-  name: sink
-  suffix: Empty
-  description: A sink used for washing one's hands and face.
+  name: раковина
+  suffix: Пуста
+  description: Раковина, яку використовують для миття рук та обличчя.
   placement:
     mode: SnapgridCenter
   components:
@@ -64,8 +64,8 @@
 - type: entity
   parent: CMSinkEmpty
   id: CMSink
-  name: sink
-  suffix: Water
+  name: раковина
+  suffix: Вода
   components:
   - type: SolutionContainerManager
     solutions:

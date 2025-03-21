@@ -33,3 +33,6 @@ cm-job-name-combat-tech = Бойовий Технік
 cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ. Хваліться усім своєю турелькою та тим що можете проникнути всюди.
 cm-job-prefix-combat-tech = БТ
 CMJobCombatTech = Бойовий Технік
+
+rmc-job-name-mortar-operator = Mortar Operator
+rmc-job-name-loader = Loader

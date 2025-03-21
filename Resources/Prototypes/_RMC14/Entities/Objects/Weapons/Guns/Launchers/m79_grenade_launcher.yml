@@ -1,8 +1,8 @@
-﻿- type: entity
-  name: M79 grenade launcher
+- type: entity
+  name: гранатомет M79 
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: CMWeaponLauncherM79
-  description: The M79 grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher.
+  description: M79 - це однозарядний гранатомет, що може швидко перевернути ситуацію в бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m79.rsi
@@ -26,7 +26,7 @@
     capacity: 1
     soundInsert:
       path: /Audio/_RMC14/Weapons/Guns/Reload/m79_reload.ogg
-  #    proto: CMGrenadeHighExplosive # This needs to start with an HIRR baton slug when those get implemented.
+    proto: RMCBatonSlugHIRR
   - type: AttachableHolder
     slots:
       rmc-aslot-rail:

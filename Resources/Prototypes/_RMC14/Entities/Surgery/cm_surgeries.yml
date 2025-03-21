@@ -6,7 +6,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenIncision
-  name: Open Incision
+  name: Відкрити розріз
   components:
   - type: CMSurgery
     steps:
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryCloseIncision
-  name: Close Incision
+  name: Закрити розріз
   components:
   - type: CMSurgery
     priority: 1
@@ -29,7 +29,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenRibcage
-  name: Open Ribcage
+  name: Відкрити грудну клітку
   components:
   - type: CMSurgery
     requirement: CMSurgeryOpenIncision
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryAlienEmbryoRemoval
-  name: Зробити Аборт
-  description: Видаліть чужорідний ембріон з тіла.
+  name: Видалення інопланетного ембріона
+  description: Видалення інопланетного ембріона з тіла
   components:
   - type: CMSurgery
     priority: -1

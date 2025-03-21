@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: CMVendorBundleRiflemanApparel
-  name: standard marine apparel
-  description: Contains a marine jumpsuit, a M10 helmet, a headset, combat gloves and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу, шолом M10, гарнітуру, бойові рукавиці та бойові чоботи.
   categories:
   - HideSpawnMenu
   components:
@@ -19,8 +19,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleFireteamLeaderApparel
-  name: standard marine apparel
-  description: Contains a marine jumpsuit, a M12 helmet, a headset, insulated gloves and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу, шолом M12, гарнітуру, ізольовані рукавички та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
@@ -33,12 +33,11 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleSquadMedicalApparel
-  name: standard marine apparel
-  description: Contains a corpsman jumpsuit, a M10 helmet, a headset and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу медика, шолом M12, гарнітуру та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
-    - CMArmorHelmetM10Medic # TODO RMC14 M4
     - CMVendorHeadsetSquadCorpsman
     - CMJumpsuitMarineMedic
     - CMBootsBlackFilled
@@ -46,8 +45,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleSquadMedicalEssentials
-  name: essential medical set
-  description: Contains a stasis bag, a defibrillator, a roller bed, medical tools, and two blood packs.
+  name: стандартний медичний набір
+  description: "Містить стазисний мішок, дефібрилятор, каталку, медичні інструменти та два пакети з кров'ю."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/stasisbag.rsi
@@ -70,8 +69,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleCombatTechnicianApparel
-  name: standard marine apparel
-  description: Contains a marine jumpsuit, a M10 helmet, a headset, insulated gloves and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу, шолом M10, гарнітуру, ізольовані рукавички та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
@@ -84,8 +83,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleCombatTechnicianEssentials
-  name: essential engineer set
-  description: Contains 50 metal, 40 plasteel, 25 sandbags, a high-capacity power cell, an entrenching tool, a light replacer, and a nailgun.
+  name: стандартний інженерний набір
+  description: Містить 50 металевих листів, 40 пласталевих листів, 25 мішків з піском, акумулятор великої ємності, саперну лопату, замінник ламп та цвяхомет.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/c4.rsi
@@ -105,8 +104,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleSquadLeaderApparel
-  name: standard marine apparel
-  description: Contains a marine jumpsuit, a M11 helmet, a headset, combat gloves and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу, шолом M11, гарнітуру, бойові рукавиці та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
@@ -119,8 +118,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleWeaponsSpecialistApparel
-  name: standard marine apparel
-  description: Contains a marine jumpsuit, a headset, combat gloves and combat boots.
+  name: стандартне морпіхотне обмундирування
+  description: Містить морпіхотну уніформу, гарнітуру, бойові рукавиці та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
@@ -132,8 +131,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleMilitaryPoliceApparel
-  name: Essential Police Set
-  description: Contains security HUD-glasses, a filled security belt and a M10 helmet.
+  name: стандартний Поліцейський Набір
+  description: Містить службові окуляри, з влаштованим ПД, cпоряджений пояс охоронця та шолом M10.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/security_glasses.rsi
@@ -147,8 +146,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleCrewMedicalEssentialsNurse
-  name: essential medical set
-  description: Contains a defibrillator, a first-aid kit, medical tools and a flashlight.
+  name: стандартний медичний набір
+  description: Містить дефібрилятор, аптечку, медичні інструменти та ліхтарик.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/defib.rsi
@@ -167,8 +166,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCCommandingOfficerEssentialsBundle
-  name: Commanding Officer Essentials kit
-  description: Contains a laser designator, whistle, and a disabler.
+  name: Стандартний Набір Командуючого Офіцера
+  description: Містить лазерний цілевказівник, свисток і знешкоджувач.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi

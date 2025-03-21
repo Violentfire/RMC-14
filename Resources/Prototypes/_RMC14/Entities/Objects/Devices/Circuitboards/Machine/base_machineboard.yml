@@ -1,9 +1,9 @@
 - type: entity
   id: CMBaseMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: machine board
+  name: плата машини
   abstract: true
-  suffix: Machine Board
+  suffix: плата машини
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/module.rsi

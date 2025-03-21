@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCRotaryPhone
-  name: rotary phone
-  description: The finger plate is a little stiff.
+  name: дисковий телефон
+  description: Пластина для пальців трохи жорстка.
   components:
   - type: Physics
     bodyType: Static
@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneWallmount
-  name: wall-mounted phone
-  description: "It is a wall mounted telephone. The fine text reads: To log your details with the mainframe please insert your keycard into the slot below. Unfortunately the slot is jammed. You can still use the phone, however."
+  name: настінний телефон
+  description: "Це настінний телефон. На ньому написано дрібним шрифтом: Для того, щоб зареєструвати свої дані в базі даних, будь ласка, вставте свою ключ-карту в слот, що знаходиться нижче. На жаль, слот заклинило. Однак ви все ще можете користуватися телефоном."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/wallmount_phone.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseItem
   id: RMCTelephone
-  name: telephone
+  name: телефон
   components:
   - type: Sprite
     sprite: _RMC14/Objects/phone.rsi

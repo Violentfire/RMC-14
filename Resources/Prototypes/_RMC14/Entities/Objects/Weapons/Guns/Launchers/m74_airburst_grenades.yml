@@ -3,7 +3,7 @@
   abstract: true
   parent: BaseItem
   id: RMCBaseAirBurstGrenade
-  name: Air Burst Grenade
+  name: повітряно-вибухова граната
   components:
   - type: Appearance
   - type: Sprite
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCBaseAirBurstGrenade
   id: RMC40MMGrenadeM74AGMF
-  name: M74 AGM-F 40mm Frag Grenade
-  description: M74 - Airburst Grenade Munition - Fragmentation. This grenade must be launched with a grenade launcher, and detonates once it reaches its destination. It disperses jagged shrapnel in a cone in front of itself, tearing through sinews and armor alike. Dispersion pattern is optimized against large target. Suffers from overpenetration on a direct hit.
+  name: М74 ПВГ-О 40мм осколкова граната
+  description: M74 - Повітряно-Вибухова Граната - Осколкова. Цією гранатою слід стріляти з гранатомета. Трохи пролетівши розсіює перед собою рій смертоносних осколків так, щоб вражати великі цілі. Надсмертоносна при прямому попаданні.
   components:
   - type: Tag
     tags:
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMC40MMGrenadeM74AGMI
-  name: M74 AGM-I 40mm Incendiary Grenade
-  description: M74 - Airburst Grenade Munition - Incendiary. This grenade must be launched with a grenade launcher, and detonates once it reaches its destination. It disperses jagged shrapnel in a cone in front of itself, tearing through sinews and armor alike. Dispersion pattern is optimized against large target. Suffers from overpenetration on a direct hit.
+  name: М74 ПВГ-З 40мм запалювальна граната
+  description: M74 - Повітряно-Вибухова Граната - Запалювальна. Цією гранатою слід стріляти з гранатомета. Запалює підлогу після влучання. Розсіює перед собою рій смертоносних розпечених осколків. Надсмертоносна при прямому попаданні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMCHornetShellM74AGMS
-  name: M74 AGM-H 40mm Hornet Shell
-  description: Functions identically to the standard AGM-F 40mm grenade, except instead of exploding into shrapnel, the hornet shell shoots off holo-targeting .22lr rounds. The equivalent to buckshot at-range.
+  name: М74 ПВГ-К 40мм Шершень
+  description: Ідентична M74 ПВГ-О, лиш окрім того моменту, що замість шрапнелі вистрілює кулями калібру .22дг. Одним словом - картеч, але на непоганій відстані.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMCStarShellM74AGMS
-  name: M74 AGM-S Star Shell
-  description: Functions identically to the standard AGM-F 40mm grenade, except instead of exploding into shrapnel, the star shells bursts into burning phosphor that illuminates the area.
+  name: М74 ПВГ-З Зіркова
+  description: Ідентична M74 ПВГ-О, за винятком того, що замість шрапнелі розкидує навколо зіркоподібні сяючі уламки, що освітлять ваш темний шлях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMCBatonSlugHIRR
-  name: HIRR Baton Slug
-  description: Cousin to the M15 Rubber pellet, the HIRR baton slug was recalled from military and civilian police forces due to over-packed propellant in the sabot casing. Now it is utilized as a less-than-lethal option in engagements with human, and sometimes non-human, forces. Historically, the HIRR was incredibly popular during the Arcturus conflict, as the impact force was found to reliably incapacitate Arcturian resistance forces by breaking their ribs into their lungs.
+  name: ВІГС сповільнюючий 
+  description: Родич гумової М15. Був знятий з озброєння поліції через завелику смертність тих, в кого ним стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMC40MMGrenadeM74AGMS
-  name: M74 AGM-S 40mm Smoke Grenade
-  description: M74 - Airburst Grenade Munition - Smoke. This grenade must be launched with a grenade launcher, and detonates once it reaches its destination. Upon detonation, instantly combines multiple chemicals inside its casing to form a smoke cloud.
+  name: М74 ПВГ-Д 40мм димова граната
+  description: M74 - Повітряно-Вибухова Граната - Димова. Вистрілюється з гранатомету. Детонуючи, випускає нешкідливу хмару диму.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileFrag
-  name: M74 AGM-F 40mm Grenade
+  name: М74 ПВГ-О 40мм граната
   categories: [ HideSpawnMenu ]
   components:
   - type: ProjectileGrenade
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileIncendiary
-  name: M74 AGM-F 40mm Grenade
+  name: М74 ПВГ-О 40мм граната
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileHornet
-  name: M74 AGM-H 40mm Hornet Shell
+  name: М74 ПВГ-К 40мм шершень
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileStarShell
-  name: M74 AGM-S Star Shell
+  name: М74 ПВГ-З Зіркова
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileSmoke
-  name: M74 AGM-S 40mm Grenade
+  name: М74 ПВГ-Д 40мм граната
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCStarShellBullet
-  name: Starshell bullet
+  name: сяюча зірочка
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCHornetRound
-  name: .22 Hornet Round
+  name: .22 патрон шершня
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCShrapnelJagged
-  name: Jagged Shrapnel
+  name: зазубрена шрапнель
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -354,7 +354,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCShrapnelIncendiary
-  name: Flaming Shrapnel
+  name: розпечена шрапнель
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -386,8 +386,8 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBatonSlugProjectile
-  name: HIRR Baton Slug
-  description: Cousin to the M15 Rubber pellet, the HIRR baton slug was recalled from military and civilian police forces due to over-packed propellant in the sabot casing. Now it is utilized as a less-than-lethal option in engagements with human, and sometimes non-human, forces. Historically, the HIRR was incredibly popular during the Arcturus conflict, as the impact force was found to reliably incapacitate Arcturian resistance forces by breaking their ribs into their lungs.
+  name: ВІГС сповільнюючий
+  description: Родич гумової М15. Був знятий з озброєння поліції через завелику смертність тих, в кого ним стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnFixedDistanceStop
@@ -414,6 +414,7 @@
     knockBackPowerMax: 3
     knockBackSpeed: 5
     forceKnockBack: true
+    slowsEffectBigXenos: true
     dazeTime: 3.4
   - type: RMCProjectileAccuracy
     accuracy: 100

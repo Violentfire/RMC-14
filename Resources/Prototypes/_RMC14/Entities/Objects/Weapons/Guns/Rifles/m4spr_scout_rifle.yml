@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponRifleM4SPR
-  name: M4SPR custom battle rifle
+  name: M4SPR спеціальна бойова гвинтівка 
   id: WeaponRifleM4SPRCustom
-  description: An improvement over the already great M4SPR. Able to take A19 rounds, as well as having better control and accuracy at the cost of being harder to use. Can take traditional M4SPR mags, at lower damage.
+  description: Удосконалення в порівнянні з і без того чудовим M4SPR. Здатний приймати набої A19, а також має кращий контроль і точність, але складніший у використанні. Може використовувати традиційні магазини M4SPR з нижчим рівнем пошкоджень цілей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
@@ -80,7 +80,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "A19 HV magazine (10x24mm)"
-  description: "A magazine of A19 high velocity rounds for use in the M4SPR custom battle rifle. The M4SPR custom battle rifle is the only gun that can chamber these rounds."
+  name: "A19 ВШ магазин (10x24mm)"
+  description: "Магазин з високошвидкісними патронами A19 для спеціальної бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -136,8 +136,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Impact
-  name: "A19 HV high impact magazine (10x24mm)"
-  description: "A magazine of A19 HV high impact rounds for use in the M4SPR custom battle rifle. The M4SPR custom battle rifle is the only gun that can chamber these rounds."
+  name: "A19 Високовражаючий магазин ВШ (10x24mm)"
+  description: "Магазин із підвищеною вражаючою дією ВШ A19, для спеціальної бойової гвинтівки M4SPR. Спеціальна бойова гвинтівка M4SPR - єдина зброя, яка може заряджатися цими набоями."
   components:
   - type: Tag
     tags:
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Incendiary
-  name: "A19 HV incendiary magazine (10x24mm)"
-  description: "A magazine of A19 HV incendiary rounds for use in the M4SPR custom battle rifle. The M4SPR custom battle rifle is the only gun that can chamber these rounds."
+  name: "A19 Запальний магазин ВШ (10x24mm)"
+  description: "Магазин запалювальних високошвидкосних набоїв A19, для спеціальної бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -186,8 +186,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: cartridge (A19 high-velocity)
-  description: A high-velocity A19 cartridge. Fits in M4SPR custom magazines.
+  name: гільза (A19 високошвидкісний)
+  description: Високошвидкісний набій А19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:
@@ -199,8 +199,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: cartridge (A19 high-velocity high impact)
-  description: A high-velocity high impact A19 cartridge. Fits in M4SPR custom magazines.
+  name: Гільза (A19 ВШ ударний)
+  description: Високошвидкісний ударний набій А19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:
@@ -212,8 +212,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Incendiary
-  name: cartridge (A19 high-velocity incendiary)
-  description: A high-velocity incendiary A19 cartridge. Fits in M4SPR custom magazines.
+  name: гільза (A19 ВШ запалювальний)
+  description: Високошвидкісний запалювальний набій A19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:

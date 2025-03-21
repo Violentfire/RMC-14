@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCIntelDetector
-  name: data detector
-  description: A device that detects objects that may be useful for intel gathering.
+  name: детектор інформації
+  description: "Пристрій, який виявляє об'єкти, що можуть бути корисними для збору інформації."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/intel_detector.rsi

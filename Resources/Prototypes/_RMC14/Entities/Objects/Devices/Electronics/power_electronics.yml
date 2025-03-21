@@ -2,8 +2,8 @@
 - type: entity
   id: CMAPCElectronics
   parent: CMBaseElectronics
-  name: power control module
-  description: Circuit used in APC construction.
+  name: модуль контроля потужності
+  description: Плата, що використовуєтсья в ЗКЖ.
   components:
     - type: ApcElectronics
     - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: StorageTank
   id: RMCWaterCooler
-  name: water cooler
-  description: A machine that dispenses water to drink. It has levers for hot and cold, but it only dispenses room-temperature water.
+  name: кулер для води
+  description: Автомат, який видає воду для пиття. Він має важелі для гарячої та холодної води, але видає лише воду кімнатної температури.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/water_cooler.rsi

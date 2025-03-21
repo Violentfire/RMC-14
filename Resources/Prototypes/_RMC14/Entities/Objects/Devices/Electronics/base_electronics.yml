@@ -1,7 +1,7 @@
 - type: entity
   id: CMBaseElectronics
   parent: BaseElectronics
-  name: base electronics
+  name: базова електроніка
   abstract: true
   suffix: Electronics
   components:

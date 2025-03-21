@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: M63 submachine gun
+  name: M63 пістолет-кулемет
   id: WeaponSMGM63
-  description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
+  description: Пістолет-кулемет Aegis Battlefield Armaments M-63. Зазвичай використовується у легкій піхоті, медикі та розвідці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63/desert.rsi
@@ -46,7 +46,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_unload.ogg
         priority: 2
@@ -56,6 +56,7 @@
           - CMMagazineSMGM63AP
           - CMMagazineSMGM63Ext
           - RMCMagazineSMGM63Rubber
+          - RMCMagazineSMGM63HEAP
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:
@@ -110,7 +111,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineSMGM63
-  name: "M63 HV magazine (10x20mm)"
+  name: "M63 ВШ магазин (10x20мм)"
   components:
   - type: Tag
     tags:
@@ -142,7 +143,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63AP
-  name: "M63 AP magazine (10x20mm)"
+  name: "M63 ББ магазин (10x20мм)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -167,8 +168,35 @@
 
 - type: entity
   parent: CMMagazineSMGM63
+  id: RMCMagazineSMGM63HEAP
+  name: "M63 HEAP magazine (10x20mm)"
+  suffix: HEAP
+  components:
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - RMCCartridge10x20mmHEAP
+    proto: RMCCartridge10x20mmHEAP
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-1
+      map: [ "enum.GunVisualLayers.Mag" ]
+    - state: ammo_band
+      color: "#9C9A19"
+  - type: Tag
+    tags:
+    - CMMagazineSmg
+    - RMCMagazineSMGM63HEAP
+#  - type: RefillableByBulletBox no HEAP bulletbox
+#    bulletType: RMCBoxBulletsSMGAP
+
+- type: entity
+  parent: CMMagazineSMGM63
   id: CMMagazineSMGM63Ext
-  name: "M63 extended magazine (10x20mm)"
+  name: "M63 розширений магазин (10x20мм)"
   components:
   - type: BallisticAmmoProvider
     capacity: 72
@@ -187,7 +215,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: CMCartridge10x20mm
-  name: cartridge (10x20mm)
+  name: гільза (10x20мм)
   components:
   - type: Tag
     tags:
@@ -199,7 +227,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge10x20mmAP
-  name: AP cartridge (10x20mm)
+  name: ББ гільза (10x20mm)
   components:
   - type: Tag
     tags:
@@ -207,6 +235,18 @@
     - CMCartridge10x20mmAP
   - type: CartridgeAmmo
     proto: Bullet10x20mmAP
+
+- type: entity
+  parent: CMCartridge10x20mm
+  id: RMCCartridge10x20mmHEAP
+  name: HEAP cartridge (10x20mm)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - RMCCartridge10x20mmHEAP
+  - type: CartridgeAmmo
+    proto: RMCBullet10x20mmHEAP
 
 - type: entity
   parent: RMCBaseBullet
@@ -244,6 +284,18 @@
   - type: CMArmorPiercing
     amount: 30
 
+- type: entity
+  parent: Bullet10x20mm
+  id: RMCBullet10x20mmHEAP
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 45
+  - type: CMArmorPiercing
+    amount: 30
+
 - type: Tag
   id: RMCWeaponSMGM63
 
@@ -254,7 +306,13 @@
   id: CMMagazineSMGM63AP
 
 - type: Tag
+  id: RMCMagazineSMGM63HEAP
+
+- type: Tag
   id: CMMagazineSMGM63Ext
 
 - type: Tag
   id: CMCartridge10x20mmAP
+
+- type: Tag
+  id: RMCCartridge10x20mmHEAP

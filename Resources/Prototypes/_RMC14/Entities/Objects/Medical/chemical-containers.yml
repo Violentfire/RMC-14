@@ -1,8 +1,8 @@
 - type: entity
-  name: jug
+  name: глечик
   parent: BaseItem
   id: RMCJug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  description: Використовується для зберігання дуже великої кількості хімічних речовин або розчинів. Вживати їх вкрай нерозумно.
   components:
     - type: SolutionContainerManager
       solutions:
@@ -89,8 +89,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: carbon
+  name: глечик
+  suffix: вуглець
   id: RMCJugCarbon
   categories: [ HideSpawnMenu ]
   components:
@@ -105,8 +105,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: fluorine
+  name: глечик
+  suffix: фтор
   id: RMCJugFluorine
   categories: [ HideSpawnMenu ]
   components:
@@ -121,8 +121,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: chlorine
+  name: глечик
+  suffix: хлор
   id: RMCJugChlorine
   categories: [ HideSpawnMenu ]
   components:
@@ -137,8 +137,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: aluminium
+  name: глечик
+  suffix: алюміній
   id: RMCJugAluminum
   categories: [ HideSpawnMenu ]
   components:
@@ -153,8 +153,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: phosphorus
+  name: глечик
+  suffix: фосфор
   id: RMCJugPhosphorus
   categories: [ HideSpawnMenu ]
   components:
@@ -169,8 +169,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: sulfur
+  name: глечик
+  suffix: сірка
   id: RMCJugSulfur
   categories: [ HideSpawnMenu ]
   components:
@@ -185,8 +185,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: silicon
+  name: глечик
+  suffix: кремній
   id: RMCJugSilicon
   categories: [ HideSpawnMenu ]
   components:
@@ -201,8 +201,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: hydrogen
+  name: глечик
+  suffix: водень
   id: RMCJugHydrogen
   categories: [ HideSpawnMenu ]
   components:
@@ -217,8 +217,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: lithium
+  name: глечик
+  suffix: літій
   id: RMCJugLithium
   categories: [ HideSpawnMenu ]
   components:
@@ -233,8 +233,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: sodium
+  name: глечик
+  suffix: натрій
   id: RMCJugSodium
   categories: [ HideSpawnMenu ]
   components:
@@ -249,8 +249,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: potassium
+  name: глечик
+  suffix: калій
   id: RMCJugPotassium
   categories: [ HideSpawnMenu ]
   components:
@@ -265,8 +265,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: radium
+  name: глечик
+  suffix: радій
   id: RMCJugRadium
   categories: [ HideSpawnMenu ]
   components:
@@ -281,8 +281,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: iron
+  name: глечик
+  suffix: залізо
   id: RMCJugIron
   categories: [ HideSpawnMenu ]
   components:
@@ -297,8 +297,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: copper
+  name: глечик
+  suffix: мідь
   id: RMCJugCopper
   categories: [ HideSpawnMenu ]
   components:
@@ -313,8 +313,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: gold
+  name: глечик
+  suffix: золото
   id: RMCJugGold
   categories: [ HideSpawnMenu ]
   components:
@@ -329,8 +329,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: mercury
+  name: глечик
+  suffix: ртуть
   id: RMCJugMercury
   categories: [ HideSpawnMenu ]
   components:
@@ -345,8 +345,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: silver
+  name: глечик
+  suffix: срібло
   id: RMCJugSilver
   categories: [ HideSpawnMenu ]
   components:
@@ -361,8 +361,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: ethanol
+  name: глечик
+  suffix: етанол
   id: RMCJugEthanol
   categories: [ HideSpawnMenu ]
   components:
@@ -377,8 +377,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: sugar
+  name: глечик
+  suffix: цукор
   id: RMCJugSugar
   categories: [ HideSpawnMenu ]
   components:
@@ -393,8 +393,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: nitrogen
+  name: глечик
+  suffix: азот
   id: RMCJugNitrogen
   categories: [ HideSpawnMenu ]
   components:
@@ -409,8 +409,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: oxygen
+  name: глечик
+  suffix: кисень
   id: RMCJugOxygen
   categories: [ HideSpawnMenu ]
   components:
@@ -425,8 +425,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: water
+  name: глечик
+  suffix: вода
   id: RMCJugWater
   categories: [ HideSpawnMenu ]
   components:
@@ -441,8 +441,8 @@
 
 - type: entity
   parent: RMCJug
-  name: jug
-  suffix: sulphuric acid
+  name: глечик
+  suffix: сірчана кислота
   id: RMCJugSulphuricAcid
   categories: [ HideSpawnMenu ]
   components:

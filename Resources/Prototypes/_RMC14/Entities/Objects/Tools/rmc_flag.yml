@@ -1,7 +1,7 @@
 ﻿#- type: entity
 #  parent: BaseItem
 #  id: RMCFlagCarriableBase
-#  name: flag
+#  name: прапор
 #  components:
 #  - type: Sprite
 #    state: icon
@@ -13,8 +13,8 @@
 #- type: entity
 #  parent: RMCFlagCarriableBase
 #  id: RMCFlagCarriableUN
-#  name: UN flag
-#  description: "The flag of the UN." # This one looks ready to be planted into the ground."
+#  name: прапор ООН
+#  description: "Прапор ООН. # Цей, здається, вже готовий, щоб його встановили в землю."
 #  components:
 #  - type: Sprite
 #    sprite: _RMC14/Objects/Flags/un_flag.rsi
@@ -23,7 +23,7 @@
 #  parent: RMCFlagCarriableBase
 #  id: RMCFlagCarriableUNMC
 #  name: UNMC flag
-#  description: "The flag of the UNMC." # This one looks ready to be planted into the ground."
+#  description: "Прапор UNMC." # Цей, здається, вже готовий, щоб його встановили в землю."
 #  components:
 #  - type: Sprite
 #    sprite: _RMC14/Objects/Flags/unmc_flag.rsi

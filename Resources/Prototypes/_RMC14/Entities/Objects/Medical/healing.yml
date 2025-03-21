@@ -72,7 +72,7 @@
 - type: entity
   id: CMOintment1
   parent: CMOintment
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     stackType: CMOintment
@@ -81,7 +81,7 @@
 - type: entity
   id: CMOintment10
   parent: CMOintment
-  suffix: Ten
+  suffix: Десяток
   components:
   - type: Stack
     stackType: CMOintment
@@ -93,7 +93,7 @@
   id: CMGauze
   name: марля
   description: Стерильна марля, використовується щоб зупинити кровотечу.
-  suffix: Ten
+  suffix: Десяток
   components:
   - type: Tag
     tags:
@@ -132,7 +132,7 @@
 
 - type: stack
   id: CMGauze
-  name: gauze
+  name: марля
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: gauze }
   spawn: CMGauze1
   maxCount: 10
@@ -140,7 +140,7 @@
 - type: entity
   id: CMGauze1
   parent: CMGauze
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -148,7 +148,7 @@
 - type: entity
   id: CMGauze10
   parent: CMGauze
-  suffix: Ten
+  suffix: Десяток
   components:
   - type: Stack
     count: 10
@@ -157,7 +157,7 @@
   parent: CMBaseHealingItem
   id: CMSurgicalLine
   name: хірургічна нитка
-  description: Моток хірургічної нитки військового зразка, за допомогою неї можна зашити будь-яку рану. Опціонально, але за допомогою неї можна вирвати зуб.
+  description: Моток хірургічної нитки військового зразка, нею можна зашити будь-яку рану. Опціонально, але за допомогою неї можна вирвати зуб.
   components:
   - type: Tag
     tags:
@@ -245,9 +245,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMBurnKit
-  name: burn kit
-  description: A treatment kit for severe burns.
-  suffix: Ten
+  name: протиопіковий набір
+  description: Набір, яким лікують опіки.
+  suffix: Десяток
   components:
   - type: Stack
     stackType: CMBurnKit
@@ -289,7 +289,7 @@
 - type: entity
   id: CMBurnKit1
   parent: CMBurnKit
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -297,14 +297,14 @@
 - type: entity
   id: CMBurnKit10
   parent: CMBurnKit
-  suffix: Ten
+  suffix: Десяток
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMBurnKit
-  name: advanced burn kit
+  name: просунутий протиопіковий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -313,9 +313,9 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMTraumaKit
-  name: trauma kit
-  description: A trauma kit for severe injuries.
-  suffix: Ten
+  name: біоклеєвий набір
+  description: Всередині цією упаковки міститься біоклей, що допомагає загоювати фізичні ушкодження, такі як порізи або ж синці.
+  suffix: Десяток
   components:
   - type: Stack
     stackType: CMTraumaKit
@@ -357,7 +357,7 @@
 - type: entity
   id: CMTraumaKit1
   parent: CMTraumaKit
-  suffix: One
+  suffix: Один
   components:
   - type: Stack
     count: 1
@@ -365,14 +365,14 @@
 - type: entity
   id: CMTraumaKit10
   parent: CMTraumaKit
-  suffix: Ten
+  suffix: Десяток
   components:
   - type: Stack
     count: 10
 
 - type: stack
   id: CMTraumaKit
-  name: advanced trauma kit
+  name: просунутий біоклеєвий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit }
   spawn: CMTraumaKit1
   maxCount: 10
