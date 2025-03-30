@@ -33,7 +33,7 @@ rmc-announcement-ares-map = [color=#CECECE][font size=16][bold]КОН Саван
 
 rmc-announcement-cooldown = Будь ласка зачекайте принаймні {$seconds} секунд до нового оголошення
 
-rmc-announcement-dropship-message = [color==#CECECE][font size=16][bold]Повідомлення Транспортника[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-dropship-message = [color=#CECECE][font size=16][bold]Повідомлення Транспортника[/bold][/font][/color][color=red][font size=16][bold]
 
     {$message}[/bold][/font][/color]
 
@@ -49,3 +49,7 @@ rmc-announcement-general-quarters = ATTENTION! GENERAL QUARTERS. ALL HANDS, MAN 
 rmc-announcement-dropship-hijack = Unscheduled dropship departure detected from operational area. Hijack likely. Shutting down autopilot.
 
 rmc-announcement-dropship-hijack-hive = The Queen has commanded the metal bird to depart for the metal hive in the sky! Rejoice!
+
+rmc-announcement-ares-command = [color=#CECECE][font size=16][bold]ARES v3.2[/bold][/font][/color][color=red][font size=16]
+
+    {$message}[/font][/color]
