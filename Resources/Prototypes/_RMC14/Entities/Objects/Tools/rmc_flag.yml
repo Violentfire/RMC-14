@@ -1,29 +1,40 @@
-﻿#- type: entity
-#  parent: BaseItem
-#  id: RMCFlagCarriableBase
-#  name: прапор
-#  components:
-#  - type: Sprite
-#    state: icon
-#  - type: Item
-#    size: Large
-#  - type: Corrodible
-#    isCorrodible: false
-#
-#- type: entity
-#  parent: RMCFlagCarriableBase
-#  id: RMCFlagCarriableUN
-#  name: прапор ООН
-#  description: "Прапор ООН. # Цей, здається, вже готовий, щоб його встановили в землю."
-#  components:
-#  - type: Sprite
-#    sprite: _RMC14/Objects/Flags/un_flag.rsi
-#
-#- type: entity
-#  parent: RMCFlagCarriableBase
-#  id: RMCFlagCarriableUNMC
-#  name: UNMC flag
-#  description: "Прапор UNMC." # Цей, здається, вже готовий, щоб його встановили в землю."
-#  components:
-#  - type: Sprite
-#    sprite: _RMC14/Objects/Flags/unmc_flag.rsi
+- type: entity
+  parent: BaseItem
+  id: RMCFlagCarriableBase
+  name: flag
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      map: [ "base" ]
+    state: icon
+  - type: Item
+    size: Large
+  - type: Corrodible
+    isCorrodible: false
+  - type: Appearance
+  - type: PlantableFlag
+  - type: GenericVisualizer
+    visuals:
+      enum.PlantableFlagVisuals.Planted:
+        base:
+          True: { state: deploy }
+          False: { state: icon }
+
+- type: entity
+  parent: RMCFlagCarriableBase
+  id: RMCFlagCarriableUN
+  name: Прапор ООН.
+  description: "Прапор ООН." # This one looks ready to be planted into the ground."
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Flags/un_flag.rsi
+
+- type: entity
+  parent: RMCFlagCarriableBase
+  id: RMCFlagCarriableUNMC
+  name: UNMC flag
+  description: "Прапор UNMC." # This one looks ready to be planted into the ground."
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Flags/unmc_flag.rsi

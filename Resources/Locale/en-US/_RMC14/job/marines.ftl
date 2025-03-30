@@ -36,3 +36,4 @@ CMJobCombatTech = Бойовий Технік
 
 rmc-job-name-mortar-operator = Mortar Operator
 rmc-job-name-loader = Loader
+rmc-job-name-spotter= Spotter
