@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCGroundsideOperationsConsole
-  name: groundside operations console
-  description: This can be used for various important functions.
+  name: консоль наземних операцій
+  description: Призначений для виконання низки важливих завдань.
   components:
   - type: ActivatableUI
     key: enum.MarineCommunicationsComputerUI.Key
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
-  name: almayer control console
-  description: This is used for controlling ship and its related functions.
+  name: консоль управління альмаєром
+  description: Призначена для управління кораблем та його допоміжними функціями.
   components:
   - type: ActivatableUI
     key: enum.MarineControlComputerUi.Key
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCOverwatchConsole
-  name: overwatch console
-  description: State of the art machinery for giving orders to a squad.
+  name: консоль спостереження
+  description: Передова система для командування бійцями.
   components:
   - type: Transform
     anchored: false
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTacticalMapTable
-  name: map table
-  description: A table that displays a map of the current operation location.
+  name: тактичний стіл
+  description: Стіл, на якому відображається карта поточного району бойових дій.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/map_table.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCEscapePodController
-  name: escape pod controller
-  description: A shuttle control computer.
+  name: контролер капсули евакуації
+  description: Комп’ютер управління шаттлом
   components:
   - type: Sprite
     sprite: _RMC14/Structures/escape_pod_panel.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCLifeboatConsole
-  name: lifeboat console
-  description: A lifeboat control computer.
+  name: консоль рятувальної капсули
+  description: Комп’ютер управління рятувальною капсулою
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

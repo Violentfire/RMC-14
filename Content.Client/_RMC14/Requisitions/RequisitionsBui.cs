@@ -1,4 +1,4 @@
-﻿using Content.Shared._RMC14.Requisitions;
+using Content.Shared._RMC14.Requisitions;
 using Content.Shared._RMC14.Requisitions.Components;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
@@ -55,35 +55,35 @@ public sealed class RequisitionsBui(EntityUid owner, Enum uiKey) : BoundUserInte
             _window.OnClose += Close;
         }
 
-        var platformLabel = "No platform";
-        var platformButtonLabel = "No platform";
+        var platformLabel = "Платформа відсутня";
+        var platformButtonLabel = "Платформа відсутня";
         var platformButtonDisabled = false;
         bool? raise = null;
         switch (uiState.PlatformLowered)
         {
             case Lowered or Raised when uiState.Busy:
-                platformLabel = $"Platform position: {uiState.PlatformLowered}";
-                platformButtonLabel = "ASRS is busy";
+                platformLabel = $"Положення платформи: {uiState.PlatformLowered}";
+                platformButtonLabel = "АТСС зайнята";
                 platformButtonDisabled = true;
                 break;
             case Lowered:
-                platformButtonLabel = "Raise platform";
-                platformLabel = "Platform position: Lowered";
+                platformButtonLabel = "Підняти платформу"
+                platformLabel = "Положення платформи: Опущено";
                 raise = true;
                 break;
             case Raised:
-                platformButtonLabel = "Lower platform";
-                platformLabel = "Platform position: Raised";
+                platformButtonLabel = "Опустити платформу";
+                platformLabel = "Положення платформи: Піднято";
                 raise = false;
                 break;
             case Lowering:
-                platformButtonLabel = "Please wait";
-                platformLabel = "Platform lowering...";
+                platformButtonLabel = "Будь ласка зачекайте";
+                platformLabel = "Платформа опускається...";
                 platformButtonDisabled = true;
                 break;
             case Raising:
-                platformButtonLabel = "Please wait";
-                platformLabel = "Platform raising...";
+                platformButtonLabel = "Будь ласка зачекайте";
+                platformLabel = "Платформа піднімається...";
                 platformButtonDisabled = true;
                 break;
             case null:
@@ -102,14 +102,14 @@ public sealed class RequisitionsBui(EntityUid owner, Enum uiKey) : BoundUserInte
         }
 
         var budget = new FormattedMessage();
-        budget.AddMarkupOrThrow($"[bold]Supply budget: ${uiState.Balance}[/bold]");
+        budget.AddMarkupOrThrow($"[bold]Бюджет постачання: ${uiState.Balance}[/bold]");
         _window.MainView.BudgetLabel.SetMessage(budget);
         _window.OrderCategoriesView.BudgetLabel.SetMessage(budget);
         _window.CategoryView.BudgetLabel.SetMessage(budget);
         _window.OrderSearchView.BudgetLabel.SetMessage(budget);
 
         var categoryHeader = new FormattedMessage();
-        categoryHeader.AddMarkupOrThrow("[bold]Select a category[/bold]");
+        categoryHeader.AddMarkupOrThrow("[bold]Обрати категорію[/bold]");
         _window.OrderCategoriesView.CategoryHeaderLabel.SetMessage(categoryHeader);
         _window.OrderCategoriesView.CategoriesContainer.DisposeAllChildren();
 
@@ -171,7 +171,7 @@ public sealed class RequisitionsBui(EntityUid owner, Enum uiKey) : BoundUserInte
 
         var category = computer.Categories[categoryIndex];
         var requestMsg = new FormattedMessage();
-        requestMsg.AddMarkupOrThrow($"[bold]Request from: {category.Name}[/bold]");
+        requestMsg.AddMarkupOrThrow($"[bold]Запит від: {category.Name}[/bold]");
         _window.CategoryView.RequestFromLabel.SetMessage(requestMsg);
 
         var state = State as RequisitionsBuiState;
@@ -235,7 +235,7 @@ public sealed class RequisitionsBui(EntityUid owner, Enum uiKey) : BoundUserInte
                 continue;
 
             var categoryHeader = new FormattedMessage();
-            categoryHeader.AddMarkupOrThrow($"[bold]Request from: {category.Name}[/bold]");
+            categoryHeader.AddMarkupOrThrow($"[bold]Запит від: {category.Name}[/bold]");
             categoryGroup.GroupLabel.SetMessage(categoryHeader);
 
             _window.OrderSearchView.ResultContainer.AddChild(categoryGroup);

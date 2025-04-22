@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Numerics;
 using System.Text;
 using Content.Shared._RMC14.Areas;
@@ -8,6 +8,7 @@ using Content.Shared._RMC14.Marines.Announce;
 using Content.Shared._RMC14.Marines.HyperSleep;
 using Content.Shared._RMC14.Power;
 using Content.Shared._RMC14.Xenonids.Announce;
+using Content.Shared.Audio;
 using Content.Shared.CCVar;
 using Content.Shared.Coordinates;
 using Content.Shared.Doors;
@@ -34,6 +35,7 @@ namespace Content.Shared._RMC14.Evacuation;
 
 public abstract class SharedEvacuationSystem : EntitySystem
 {
+    [Dependency] private readonly SharedAmbientSoundSystem _ambientSound = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly AreaSystem _area = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
@@ -216,7 +218,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
         {
             using (args.PushGroup(nameof(EvacuationComputerComponent)))
             {
-                args.PushMarkup($"[color=red]This pod is only rated for a maximum of {maxMobs} occupants! Any more may cause it to crash and burn.[/color]");
+                args.PushMarkup($"[color=red]Ця капсула розрахована максимум на {maxMobs} пасажирів! Більше — і вона може впасти й згоріти.[/color]");
             }
         }
     }
@@ -230,10 +232,10 @@ public abstract class SharedEvacuationSystem : EntitySystem
 
         var msg = ent.Comp.Mode switch
         {
-            EvacuationComputerMode.Disabled => "Evacuation has not started.",
+            EvacuationComputerMode.Disabled => "Евакуацію не було розпочато",
             EvacuationComputerMode.Ready => "",
-            EvacuationComputerMode.Travelling => "The escape pod has already been launched!",
-            EvacuationComputerMode.Crashed => "This escape pod has crashed!",
+            EvacuationComputerMode.Travelling => "Рятівна капсула вже була запущена!",
+            EvacuationComputerMode.Crashed => "Ця рятівна капсула зазнала аварії!",
             _ => throw new ArgumentOutOfRangeException(),
         };
 
@@ -248,15 +250,15 @@ public abstract class SharedEvacuationSystem : EntitySystem
         {
             var progress = GetEvacuationProgress();
             if (progress < 25)
-                args.PushMarkup("It looks like it barely has any fuel yet.");
+                args.PushMarkup("Схоже, пального майже немає.");
             else if (progress < 50)
-                args.PushMarkup("It looks like it has accumulated some fuel.");
+                args.PushMarkup("Схоже, трохи пального вже є.");
             else if (progress < 75)
-                args.PushMarkup("It looks like the fuel tank is a little over half full.");
+                args.PushMarkup("Схоже, бак заповнений трохи більше ніж наполовину.");
             else if (progress < 100)
-                args.PushMarkup("It looks like the fuel tank is almost full.");
+                args.PushMarkup("Схоже, бак майже повний.");
             else
-                args.PushMarkup("It looks like the fuel tank is full.");
+                args.PushMarkup("Схоже, бак повний");
         }
     }
 
@@ -266,7 +268,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
             return;
 
         args.Cancel();
-        _popup.PopupClient("Evacuation has not been authorized.", ent, args.User, PopupType.SmallCaution);
+        _popup.PopupClient("Дозвіл на евакуацію не надано.", ent, args.User, PopupType.SmallCaution);
     }
 
     private void OnEvacuationComputerLaunch(Entity<EvacuationComputerComponent> ent, ref EvacuationComputerLaunchBuiMsg args)
@@ -274,13 +276,13 @@ public abstract class SharedEvacuationSystem : EntitySystem
         var user = args.Actor;
         if (ent.Comp.Mode != EvacuationComputerMode.Ready)
         {
-            Log.Warning($"{ToPrettyString(user)} tried to activate evacuation computer {ToPrettyString(ent)} that is not ready. Mode: {ent.Comp.Mode}");
+            Log.Warning($"{ToPrettyString(user)} комп’ютер евакуації {ToPrettyString(ent)} ще не готовий до активації. Поточний режим: {ent.Comp.Mode}");
             return;
         }
 
         if (Transform(ent).GridUid is not { } gridId)
         {
-            Log.Warning($"{ToPrettyString(user)} tried to activate evacuation computer {ToPrettyString(ent)} not on grid");
+            Log.Warning($"{ToPrettyString(user)} комп’ютер евакуації {ToPrettyString(ent)} не підключено до енергомережі.");
             return;
         }
 
@@ -314,7 +316,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
                     if (mobs > maxMobs && ent.Comp.Mode != EvacuationComputerMode.Crashed)
                     {
                         ent.Comp.Mode = EvacuationComputerMode.Crashed;
-                        _popup.PopupClient("The evacuation pod is overloaded with this many people inside!", ent, user, PopupType.LargeCaution);
+                        _popup.PopupClient("Перевищено ліміт пасажирів у рятівній капсулі!", ent, user, PopupType.LargeCaution);
 
                         var time = _timing.CurTime;
                         var detonating = EnsureComp<DetonatingEvacuationComputerComponent>(ent);
@@ -349,7 +351,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
         var user = args.Actor;
         if (!ent.Comp.Enabled)
         {
-            Log.Warning($"{ToPrettyString(user)} tried to activate lifeboat computer {ToPrettyString(ent)} that is not ready.");
+            Log.Warning($"{ToPrettyString(user)} комп’ютер рятувальної капсули {ToPrettyString(ent)} не готовий до активації.");
             return;
         }
 
@@ -373,6 +375,15 @@ public abstract class SharedEvacuationSystem : EntitySystem
         while (pumps.MoveNext(out var uid, out _))
         {
             _appearance.SetData(uid, EvacuationPumpLayers.Layer, visual);
+        }
+    }
+
+    private void SetPumpAmbience()
+    {
+        var pumps = EntityQueryEnumerator<EvacuationPumpComponent>();
+        while (pumps.MoveNext(out var uid, out var pump))
+        {
+            _ambientSound.SetSound(uid, pump.ActiveSound);
         }
     }
 
@@ -410,7 +421,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
             {
                 _marineAnnounce.AnnounceARES(
                     null,
-                    "Attention. Emergency. All personnel must evacuate immediately.",
+                    "Увага. Надзвичайна ситуація. Весь персонал повинен негайно евакуюватися.",
                     startSound
                 );
                 var ev = new EvacuationEnabledEvent();
@@ -418,7 +429,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
             }
             else
             {
-                _marineAnnounce.AnnounceARES(null, "Evacuation has been cancelled.", cancelSound);
+                _marineAnnounce.AnnounceARES(null, "Евакуацію було скасовано.", cancelSound);
                 var ev = new EvacuationDisabledEvent();
                 RaiseLocalEvent(uid, ref ev, true);
             }
@@ -479,17 +490,18 @@ public abstract class SharedEvacuationSystem : EntitySystem
             {
                 progress.StartAnnounced = true;
                 SetPumpAppearance(EvacuationPumpVisuals.Empty);
+                SetPumpAmbience();
 
                 var areas = new StringBuilder();
                 foreach (var areaId in GetEvacuationAreas(uid.ToCoordinates()))
                 {
                     var powered = IsAreaPumpPowered(areaId);
-                    var line = $"[{Name(areaId)}] - [{(powered ? "Online" : "Offline")}]";
+                    var line = $"[{Name(areaId)}] - [{(powered ? "Онлайн" : "Офлайн")}]";
                     areas.AppendLine(line);
                 }
 
                 areas.Append(
-                    "Due to low orbit, extra fuel is required for non-surface evacuations.\nMaintain fueling functionality for optimal evacuation conditions.");
+                    "Внаслідок низької орбіти, для евакуацій поза поверхнею потрібне додаткове паливо.\n Забезпечте належне заправлення для оптимальних умов евакуації.");
                 _marineAnnounce.AnnounceARES(null, areas.ToString());
             }
 
@@ -513,7 +525,7 @@ public abstract class SharedEvacuationSystem : EntitySystem
                 if (progress.LastPower.TryGetValue(areaId, out var lastPower) &&
                     lastPower != powered)
                 {
-                    _marineAnnounce.AnnounceARES(null, $"{Name(areaId)} - [{(powered ? "Online" : "Offline")}]");
+                    _marineAnnounce.AnnounceARES(null, $"{Name(areaId)} - [{(powered ? "Онлайн" : "Офлайн")}]");
                 }
 
                 progress.LastPower[areaId] = powered;
@@ -547,19 +559,19 @@ public abstract class SharedEvacuationSystem : EntitySystem
 
                 string MarinePercentageString(int percentage)
                 {
-                    var marineAnnounce = $"Emergency fuel replenishment is at {percentage} percent.";
+                    var marineAnnounce = $"Аварійна заправка пального завершена на {percentage} процентів";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " Всі зони для заправки функціонують..";
                     else
-                        marineAnnounce += $"To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $"Для збільшення швидкості закачки пального, відновіть живлення в наступних зонах: {offAreas}";
 
                     return marineAnnounce;
                 }
 
                 if (progress.Progress >= progress.Required)
                 {
-                    _marineAnnounce.AnnounceARES(null, "Emergency fuel replenishment is at 100 percent. Safe utilization of lifeboats and pods is now possible.");
-                    _xenoAnnounce.AnnounceAll(default, "The talls have completed their goals!");
+                    _marineAnnounce.AnnounceARES(null, "Аварійна заправка пального завершена на 100%. Доступне безпечне використання шлюпок та капсул.");
+                    _xenoAnnounce.AnnounceAll(default, "Інкубатори завершили свої завдання!");
                     SetPumpAppearance(EvacuationPumpVisuals.Full);
                     var ev = new EvacuationProgressEvent(100);
                     RaiseLocalEvent(uid, ref ev, true);
@@ -568,9 +580,9 @@ public abstract class SharedEvacuationSystem : EntitySystem
                 {
                     _marineAnnounce.AnnounceARES(null, MarinePercentageString(75));
 
-                    var xenoAnnounce = "The talls are three quarters of the way towards their goals.";
+                    var xenoAnnounce = "Інкубатори на три чверті наблизилися до своїх цілей.";
                     if (onAreas.Length > 0)
-                        xenoAnnounce += $" Disable the following areas: {onAreas}";
+                        xenoAnnounce += $" Деактивуйте наступні зони: {onAreas}";
 
                     _xenoAnnounce.AnnounceAll(default, xenoAnnounce);
                     SetPumpAppearance(EvacuationPumpVisuals.SeventyFive);
@@ -582,9 +594,9 @@ public abstract class SharedEvacuationSystem : EntitySystem
                 {
                     _marineAnnounce.AnnounceARES(null, MarinePercentageString(50));
 
-                    var xenoAnnounce = "The talls are half way towards their goals.";
+                    var xenoAnnounce = "Інкубатори на півшляху до своїх цілей.";
                     if (onAreas.Length > 0)
-                        xenoAnnounce += $" Disable the following areas: {onAreas}";
+                        xenoAnnounce += $" Деактивуйте наступні зони: {onAreas}";
 
                     _xenoAnnounce.AnnounceAll(default, xenoAnnounce);
                     SetPumpAppearance(EvacuationPumpVisuals.Fifty);
@@ -593,17 +605,17 @@ public abstract class SharedEvacuationSystem : EntitySystem
                 }
                 else if (progress.Progress >= progress.Required * 0.25)
                 {
-                    var marineAnnounce = "Emergency fuel replenishment is at 25 percent. Lifeboat emergency early launch is now available.";
+                    var marineAnnounce = "Аварійна заправка пального виконана на 25 відсотків. Ранній запуск рятувальної шлюпки тепер доступний.";
                     if (offAreas.Length == 0)
-                        marineAnnounce += " All fueling areas operational.";
+                        marineAnnounce += " Всі помпи працюють.";
                     else
-                        marineAnnounce += $" To increase speed, restore power to the following areas: {offAreas}";
+                        marineAnnounce += $" Для збільшення швидкості відновіть живлення в наступних зонах: {offAreas}";
 
                     _marineAnnounce.AnnounceARES(null, marineAnnounce);
 
-                    var xenoAnnounce = "The talls are a quarter of the way towards their goals.";
+                    var xenoAnnounce = "Інкубатори досягли трьох чвертей шляху до своїх завдань.";
                     if (onAreas.Length > 0)
-                        xenoAnnounce += $" Disable the following areas: {onAreas}";
+                        xenoAnnounce += $" Деактивуйте наступні зони: {onAreas}";
 
                     _xenoAnnounce.AnnounceAll(default, xenoAnnounce);
 

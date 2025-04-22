@@ -3,8 +3,8 @@
   parent: BaseToolSurgery
   id: CMBaseToolSurgery
   abstract: true
-  name: retractor
-  description: Retracts stuff.
+  name: ретрактор
+  description: Відкриває доступ до органів.
   components:
   - type: Item
     size: Small
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMRetractor
-  name: retractor
-  description: Retracts stuff.
+  name: ретрактор
+  description: Відкриває доступ до органів.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMRetractor
   id: CMRetractorPredator
-  name: opener
+  name: розширювач
   components:
   - type: Sprite
     state: predator_retractor
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMHemostat
-  name: hemostat
-  description: You think you have seen this before.
+  name: гемостат
+  description: Ви думаєте що раніше це бачили.
   components:
   - type: CMSurgeryTool
     endSound:
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMHemostat
   id: CMHemostatPredator
-  name: pincher
+  name: затиск
   components:
   - type: Sprite
     state: predator_hemostat
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCautery
-  name: cautery
-  description: This stops bleeding.
+  name: припікач
+  description: Це зупиняє кровотечу.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMCautery
   id: CMCauteryPredator
-  name: cauterizer
+  name: припікач
   components:
   - type: Sprite
     state: predator_cautery
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMSurgicalDrill
-  name: surgical drill
-  description: You can drill using this item. You dig?
+  name: хірургічна дрель
+  description: Цим предметом можна свердлити.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMSurgicalDrill
   id: CMSurgicalDrillPredator
-  name: bone drill
+  name: дрель для кісток
   components:
   - type: Sprite
     state: predator_drill
@@ -147,8 +147,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMScalpel
-  name: scalpel
-  description: Cut, cut, and once more cut.
+  name: скальпель
+  description: Ріжемо, ріжемо і ще раз ріжемо.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -184,7 +184,7 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPredator
-  name: cutter
+  name: різець
   components:
   - type: Sprite
     state: predator_scalpel
@@ -193,8 +193,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelLaser
-  name: prototype laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks like an unreliable early model.
+  name: прототип лазерного скальпеля
+  description: Скальпель, доповнений спрямованим лазером, для контролю кровотечі під час розрізу. Також функціонує як припікач. Це виглядає як ненадійна рання модель.
   components:
   - type: Sprite
     layers:
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserImproved
-  name: laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks trustworthy, though it could be better.
+  name: лазерний скальпель
+  description: Скальпель, доповнений спрямованим лазером, для контролю кровотечі під час розрізу. Також функціонує як припікач. Виглядає надійно, хоча міг би бути і кращим.
   components:
   - type: Sprite
     layers:
@@ -242,8 +242,8 @@
 - type: entity
   parent: CMScalpelLaser
   id: CMScalpelLaserAdvanced
-  name: advanced laser scalpel
-  description: A scalpel augmented with a directed laser, for controlling bleeding as the incision is made. Also functions as a cautery. This one looks to be the pinnacle of precision energy cutlery!
+  name: просунутий лазерний скальпель
+  description: Скальпель, доповнений спрямованим лазером, для контролю кровотечі під час розрізу. Також функціонує як припікач. Цей скальпель виглядає як вершина високоточних енергетичних ножів!
   components:
   - type: Sprite
     layers:
@@ -260,8 +260,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelPICT
-  name: PICT system
-  description: The Precision Incision and Cauterization Tool uses a high-frequency vibrating blade, laser cautery, and suction liquid control system to precisely sever target tissues while preventing all fluid leakage. Despite its troubled development program and horrifying price tag, outside of complex experimental surgeries it isn't any better than an ordinary twenty-dollar scalpel and can't create a full-length incision bloodlessly.
+  name: система ІТНП
+  description: Інструмент для Точного Надрізу та Припікання, використовує високочастотне вібруюче лезо, лазерне припікання та систему контролю відсмоктування рідини, щоб точно розрізати потрібні тканини, запобігаючи при цьому витоку крові. Незважаючи на складну програму розробки та страшну ціну, за винятком складних експериментальних операцій, він нічим не кращий за звичайний двадцятидоларовий скальпель і не може зробити розріз на всю довжину безкровно.
   components:
   - type: Sprite
     state: pict_system
@@ -270,8 +270,8 @@
 - type: entity
   parent: CMScalpel
   id: CMScalpelManager
-  name: incision management system
-  description: A true extension of the surgeon's body, this marvel instantly and completely prepares an incision allowing for the immediate commencement of therapeutic steps.
+  name: система управління розрізами
+  description: Справжнє продовження тіла хірурга, це диво миттєво і повністю готує розріз, дозволяючи негайно розпочати терапевтичні кроки.
   components:
   - type: Sprite
     state: scalpel_manager
@@ -282,8 +282,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMCircularSaw
-  name: circular saw
-  description: For heavy-duty cutting.
+  name: циркулярна пила
+  description: Для різання у важких умовах.
   components:
   - type: CMSurgeryTool
     startSound:
@@ -309,7 +309,7 @@
 - type: entity
   parent: CMCircularSaw
   id: CMCircularSawPredator
-  name: bone saw
+  name: кісткова пила
   components:
   - type: Sprite
     state: predator_bonesaw
@@ -320,8 +320,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBonesetter
-  name: bone setter
-  description: Used for setting bones back into place.
+  name: костоправ
+  description: Використовується для вправляння кісток на місце.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bonesetter.rsi
@@ -334,7 +334,7 @@
 - type: entity
   parent: CMBonesetter
   id: CMBonesetterPredator
-  name: bone placer
+  name: розміщувач кісток
   components:
   - type: Sprite
     state: predator_bonesetter
@@ -346,8 +346,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMWoundClamp
-  name: wound clamp
-  description: Used for clamping wounds after treatment.
+  name: затискач для рани
+  description: Використовується для затискання ран після обробки.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/wound_clamp.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMAutopsy
-  name: We-Ya Brand Automatic Autopsy System(TM)
-  description: Putting the FUN back in Autopsy.  This little gadget performs an entire autopsy of whatever strange life form you've found in about 30 seconds.
+  name: Автоматизована система розтину ВЕ-Я (TM)
+  description: Повертаємо розвагу в розтин. Цей маленький пристрій проводить повний розтин будь-якої дивної форми життя, яку ви знайшли, всього за 30 секунд.
   components: # TODO RMC14
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
@@ -376,15 +376,10 @@
 - type: entity
   parent: CMBaseToolSurgery
   id: CMBoneGel
-  name: bottle of bone gel
-  description: A container for bone gel that often needs to be refilled from a specialized machine.
+  name: пляшка кісткового гелю
+  description: Контейнер для кісткового гелю, який часто потрібно поповнювати з спеціалізованої машини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/Surgery/bone_gel.rsi
     state: bone-gel
   - type: CMBoneGel
-
-- type: entity
-  parent: CMBoneGel
-  id: RMCBoneGelEmpty
-  suffix: Empty # TODO RMC14

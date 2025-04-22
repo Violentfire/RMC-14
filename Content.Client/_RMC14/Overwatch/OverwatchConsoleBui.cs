@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Client._RMC14.UserInterface;
 using Content.Client.Message;
 using Content.Shared._RMC14.Marines.Squads;
@@ -49,7 +49,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
             return;
 
         Window = this.CreatePopOutableWindow<OverwatchConsoleWindow>();
-        Window.OverwatchHeader.SetMarkupPermissive("[color=#88C7FA]OVERWATCH DISABLED - SELECT SQUAD[/color]");
+        Window.OverwatchHeader.SetMarkupPermissive("[color=#88C7FA]СПОСТЕРЕЖЕННЯ ВИМКНЕНО - ОБЕРІТЬ ЗАГІН[/color]");
 
         if (State is OverwatchConsoleBuiState s)
             RefreshState(s);
@@ -241,7 +241,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                 Window.SquadViewContainer.AddChild(monitor);
             }
 
-            monitor.OverwatchLabel.Text = $"{squad.Name} Overwatch | Dashboard";
+            monitor.OverwatchLabel.Text = $"{squad.Name} спостереження | Панель управління";
 
             monitor.OnStop += () => SendPredictedMessage(new OverwatchConsoleStopOverwatchBuiMsg());
 
@@ -353,7 +353,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                         StyleClasses = { "OpenBoth" },
                         Text = "-",
                         ModulateSelfOverride = Color.FromHex("#BB1F1D"),
-                        ToolTip = "Hide marine",
+                        ToolTip = "Сховати морпіха",
                     };
 
                     var promoteButton = new Button
@@ -364,7 +364,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                         StyleClasses = { "OpenBoth" },
                         Text = "^",
                         ModulateSelfOverride = Color.FromHex(GreenColor),
-                        ToolTip = "Promote marine to Squad Leader",
+                        ToolTip = "Підвищити морпіха до Лідера Загону",
                     };
 
                     hideButton.OnPressed += _ =>
@@ -414,7 +414,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
 
                 if (marine.Camera == default)
                 {
-                    row.Name.Label.SetMarkupPermissive($"[color={YellowColor}]{name} (NO CAMERA)[/color]");
+                    row.Name.Label.SetMarkupPermissive($"[color={YellowColor}]{name} (ВІДСУТНЯ КАМЕРА)[/color]");
                     row.Name.Button.Text = null;
                     row.Name.Button.Disabled = true;
                 }
@@ -429,18 +429,18 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
 
                 var (mobState, color) = marine.State switch
                 {
-                    MobState.Critical => ("Unconscious", YellowColor),
-                    MobState.Dead => ("Dead", RedColor),
-                    _ => ("Conscious", GreenColor),
+                    MobState.Critical => ("Без свідомості", YellowColor),
+                    MobState.Dead => ("Мертвий", RedColor),
+                    _ => ("У свідомості", GreenColor),
                 };
 
                 if (marine.SSD && marine.State != MobState.Dead)
-                    mobState = $"{mobState} (SSD)";
+                    mobState = $"{mobState} (ССД)";
 
                 row.State.Label.SetMarkupPermissive($"[color={color}]{mobState}[/color]");
                 row.Location.Label.Text = $"[color=white]{marine.AreaName}[/color]";
 
-                var distanceStr = "N/A";
+                var distanceStr = "Н/Д";
                 if (marine.LeaderDistance is { } distance &&
                     !distance.IsLengthZero())
                 {
@@ -454,13 +454,13 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                 {
                     row.Buttons.Hide.Text = "+";
                     row.Buttons.Hide.ModulateSelfOverride = Color.FromHex("#248E34");
-                    row.Buttons.Hide.ToolTip = "Show marine";
+                    row.Buttons.Hide.ToolTip = "Показати морпіха";
                 }
                 else
                 {
                     row.Buttons.Hide.Text = "-";
                     row.Buttons.Hide.ModulateSelfOverride = Color.FromHex("#BB1F1D");
-                    row.Buttons.Hide.ToolTip = "Hide marine";
+                    row.Buttons.Hide.ToolTip = "Сховати морпіха";
                 }
 
                 if (squad.Leader == marine.Id)
@@ -494,28 +494,28 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                     {
                         roleDeployed = leader.Value.Name;
                         roleAlive = leader.Value.State == MobState.Dead
-                            ? $"[color={RedColor}]DEAD[/color]"
-                            : $"[color={GreenColor}]ALIVE[/color]";
+                            ? $"[color={RedColor}]МЕРТВИЙ[/color]"
+                            : $"[color={GreenColor}]ЖИВИЙ[/color]";
                     }
                     else if (all.TryFirstOrNull(out var first))
                     {
                         roleDeployed = first.Value.Name;
                         roleAlive = first.Value.State == MobState.Dead
-                            ? $"[color={RedColor}]DEAD[/color]"
-                            : $"[color={GreenColor}]ALIVE[/color]";
+                            ? $"[color={RedColor}]МЕРТВИЙ[/color]"
+                            : $"[color={GreenColor}]ЖИВИЙ[/color]";
                     }
                     else
                     {
-                        roleDeployed = $"[color={RedColor}]NONE[/color]";
-                        roleAlive = $"[color={RedColor}]N/A[/color]";
+                        roleDeployed = $"[color={RedColor}]ВІДСУТНІЙ[/color]";
+                        roleAlive = $"[color={RedColor}]Н/Д[/color]";
                     }
                 }
                 else
                 {
-                    roleDeployed = $"{deployed.Count} DEPLOYED";
+                    roleDeployed = $"{deployed.Count} ВІДПРАВЛЕНИХ";
 
                     var aliveColor = alive.Count > 0 ? GreenColor : RedColor;
-                    roleAlive = $"[color={aliveColor}]{alive.Count} ALIVE[/color]";
+                    roleAlive = $"[color={aliveColor}]{alive.Count} ЖИВИХ[/color]";
                 }
 
                 var deployedLabel = new RichTextLabel();
@@ -571,7 +571,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
             }
 
             var totalAliveColor = allAlive > 0 ? GreenColor : RedColor;
-            var totalAlive = $"[color={totalAliveColor}]{allAlive} ALIVE[/color]";
+            var totalAlive = $"[color={totalAliveColor}]{allAlive} ЖИВИХ[/color]";
             var totalAliveLabel = new RichTextLabel();
             totalAliveLabel.SetMarkupPermissive(totalAlive);
 
@@ -583,7 +583,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                 Children =
                 {
                     new Control { HorizontalExpand = true },
-                    new Label { Text = "Total/Living" },
+                    new Label { Text = "Загалом/Живі" },
                     new Control { HorizontalExpand = true },
                 },
                 Margin = margin,
@@ -601,7 +601,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                         Children =
                         {
                             new Control { HorizontalExpand = true },
-                            new Label { Text = $"{marines.Count} TOTAL" },
+                            new Label { Text = $"{marines.Count} ЗАГАЛОМ" },
                             new Control { HorizontalExpand = true },
                         },
                     },
@@ -654,22 +654,22 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
             squad.Visible = id == activeSquad;
             squad.OperatorButton.Text = consoleOperator == null
                 ? string.Empty
-                : $"Operator - {consoleOperator}";
+                : $"Оператор - {consoleOperator}";
 
             squad.ShowLocationButton.Text = console.Location switch
             {
-                OverwatchLocation.Planet => "Shown: planetside",
-                OverwatchLocation.Ship => "Shown: shipside",
-                _ => "Shown: all",
+                OverwatchLocation.Planet => "Показати: на планеті",
+                OverwatchLocation.Ship => "Показати: на кораблі",
+                _ => "Показати: всіх",
             };
 
             squad.ShowDeadButton.Text = console.ShowDead
-                ? "Hide dead"
-                : "Show dead";
+                ? "Сховати мертвих"
+                : "Показати мертвий";
 
             squad.ShowHiddenButton.Text = console.ShowHidden
-                ? "Hide hidden"
-                : "Show hidden";
+                ? "Сховати прихованих"
+                : "Показати прихованих";
 
             var margin = new Thickness(2);
             if (supplyDrop != null)
@@ -726,7 +726,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
         var panel = CreatePanel(50);
         panel.AddChild(new Label
         {
-            Text = "LONG.",
+            Text = "ДОВЖ.",
             Margin = margin,
         });
         longitudes.AddChild(panel);
@@ -735,7 +735,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
         panel = CreatePanel(50);
         panel.AddChild(new Label
         {
-            Text = "LAT.",
+            Text = "ШИР.",
             Margin = margin,
         });
         latitudes.AddChild(panel);
@@ -744,7 +744,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
         panel = CreatePanel(50);
         panel.AddChild(new Label
         {
-            Text = "COMMENT",
+            Text = "КОМЕНТАР",
             Margin = margin,
         });
         comments.AddChild(panel);
@@ -807,7 +807,7 @@ public sealed class OverwatchConsoleBui : RMCPopOutBui<OverwatchConsoleWindow>
                 StyleClasses = { "OpenBoth" },
                 Text = "<",
                 ModulateSelfOverride = Color.FromHex("#D3B400"),
-                ToolTip = "Save Comment",
+                ToolTip = "Зберегти Коментар",
             };
             saveButton.OnPressed += _ => onSave(location);
 

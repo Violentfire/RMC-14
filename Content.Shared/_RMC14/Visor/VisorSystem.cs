@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Shared._RMC14.Scoping;
 using Content.Shared.Actions;
 using Content.Shared.Clothing;
@@ -100,7 +100,7 @@ public sealed class VisorSystem : EntitySystem
 
         if (containers.All(c => c.ContainedEntity == null))
         {
-            _popup.PopupClient("There are no visors to swap to currently.", ent, args.Performer, PopupType.SmallCaution);
+            _popup.PopupClient("Зараз немає доступних візорів для заміни.", ent, args.Performer, PopupType.SmallCaution);
             return;
         }
 
@@ -180,9 +180,9 @@ public sealed class VisorSystem : EntitySystem
         }
 
         if (anyRemoved)
-            _popup.PopupClient("You remove the inserted visors", args.Target, args.User);
+            _popup.PopupClient("Ти знімаєш вставлений візор", args.Target, args.User);
         else
-            _popup.PopupClient("There are no visors left to take out!", args.Target, args.User);
+            _popup.PopupClient("Не залишилося візорів, які можна зняти!", args.Target, args.User);
 
         ent.Comp.CurrentVisor = null;
         Dirty(ent);
@@ -209,7 +209,7 @@ public sealed class VisorSystem : EntitySystem
     {
         using (args.PushGroup(nameof(CycleableVisorComponent)))
         {
-            args.PushMarkup("Use a [color=cyan]screwdriver[/color] on this to take out any visors!");
+            args.PushMarkup("Використай [color=cyan]викрутку[/color], щоб зняти візор!");
         }
     }
 
@@ -285,7 +285,7 @@ public sealed class VisorSystem : EntitySystem
             }
         }
 
-        msg = $"{Name(cycleable)} has used all of its visor attachment sockets.";
+        msg = $"{Name(cycleable)} використав усі свої гнізда для кріплення візорів.";
         _popup.PopupClient(msg, cycleable, user, PopupType.SmallCaution);
         return true;
     }

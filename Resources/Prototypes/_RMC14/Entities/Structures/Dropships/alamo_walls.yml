@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseAlamoWall
-  name: alamo wall
+  name: стіна аламо
   components:
   - type: Corrodible
     isCorrodible: false
@@ -654,8 +654,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall61
-  name: port wing weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: місце кріплення для озброєння лівого крила
+  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
   suffix: 61
   components:
   - type: Sprite
@@ -709,8 +709,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall65
-  name: starboard wing weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: місце кріплення для озброєння правого крила
+  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
   suffix: 65
   components:
   - type: Sprite
@@ -926,8 +926,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall84
-  name: port fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: передньо-ліва точка встановлення озброєння
+  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
   suffix: 84
   components:
   - type: Sprite
@@ -951,8 +951,8 @@
 - type: entity
   parent: CMAlamoWall84
   id: CMAlamoWall84Flipped
-  name: starboard fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: переднє праве кріплення зброї
+  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
   suffix: 84, Flipped
   components:
   - type: Sprite
@@ -964,8 +964,8 @@
 - type: entity
   parent: CMBaseAlamoWall
   id: CMAlamoWall85
-  name: electronic system attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: точка кріплення електроніки
+  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
   suffix: 85
   components:
   - type: Sprite

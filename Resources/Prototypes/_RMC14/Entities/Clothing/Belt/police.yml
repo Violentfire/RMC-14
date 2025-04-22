@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltSecurity
-  name: M276 pattern security rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This configuration is commonly seen among Marine Military Police and peacekeepers, though it can hold some light munitions.
+  name: тактичний пояс M276 для служби безпеки
+  description: M276 це стандартний тактичний пояс для перенесення спорядження КМПОН. Складається з модульного пояса з різними кліпсами. Цю конфігурацію зазвичай використовують військова поліція морпіхів і миротворці, також вона здатна вмістити деяку легку амуніцію.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/security.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: CMBeltSecurity
   id: CMBeltSecurityMP
-  name: M276 pattern military police rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: тактичний пояс M276 для військової служби правопорядку
+  description: M276 це стандартний тактичний пояс для перенесення спорядження КМПОН. Складається з модульного пояса з різними кліпсами. Ця версія оснащена набором дрібних підсумків, призначених для носіння нелетального спорядження та засобів стримування.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecuritySPP
-  name: Type 43 military police rig
-  description: The Type 43 is the standard load-bearing equipment of the SPP. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: розвантаження типу 43 для військової служби правопорядку 
+  description: Це стандартне спорядження типу 43, для перенесення спорядження СПП. Складається з модульного пояса з різними кліпсами. Ця версія оснащена низкою дрібних підсумків, призначених для носіння нелетального спорядження та засобів стримування.
 
 - type: entity
   parent: CMBeltSecuritySPP
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecurityMarshal
-  name: marshal duty belt
-  description: The black duty belt used to carry the instruments of a Marshals. It is a heavy police belt with several pouches to contain various law enforcement items.
+  name: пояс маршала
+  description: Чорний службовий пояс, який використовують маршали для носіння своїх інструментів. Це важкий військоий пояс із кількома підсумками для розміщення різного спорядження правопорядку.
   components:
   - type: Storage
     maxItemSize: Normal
