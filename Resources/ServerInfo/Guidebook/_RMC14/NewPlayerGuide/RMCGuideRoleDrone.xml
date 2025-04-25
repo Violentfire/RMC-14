@@ -47,7 +47,7 @@
   - Коли паразит прикріплюється до живого інкубатора, зароджується нова сестра! Во славу Вулика!
   - Інкубатори в яких зароджуються наші сестри дуже цінні, їх слід берегти, а також якомога швидше прикріпити до стіни смоляним згустком.
   <Box>
-    <GuideEntityEmbed Entity="SalvageHumanCorpse"/>
+    <GuideEntityEmbed Entity="RMCGuidebookCorpseColonistBurst"/>
     <GuideEntityEmbed Entity="CMXenoLarva"/>
   </Box>\n
 

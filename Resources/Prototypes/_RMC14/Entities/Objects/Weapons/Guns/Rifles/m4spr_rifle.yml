@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: CMBaseWeaponRifle
+  parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
   description: Бойова гвинтівка M4SPR - це спеціальна гвинтівка для стрільби на ураження, що стоїть на озброєнні маринів. Має конструкцію булпап, що робить її ідеальною для розвідувальних підрозділів та команд вогневої підтримки.

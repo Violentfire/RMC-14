@@ -20,15 +20,23 @@
 
 - type: entity
   parent: CMStampBase
+  id: CMStampXO
+  name: executive officer's rubber stamp
+  components:
+  - type: Sprite
+    state: stamp-hop
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-xo
+    stampedColor: "#3681bb"
+    stampState: "paper_stamp-cap"
+
+- type: entity
+  parent: CMStampXO
   id: CMStampCO
   name: печатка КО
   components:
-  - type: Sprite
-    state: stamp-cap
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-co
-    stampedColor: "#e38e4f"
-    stampState: "paper_stamp-cap"
 
 - type: entity
   parent: CMStampBase
@@ -36,10 +44,10 @@
   name: печатка ОП
   components:
   - type: Sprite
-    state: stamp-hop
+    state: stamp-ce
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-aso
-    stampedColor: "#3681bb"
+    stampedColor: "#b0901b"
     stampState: "paper_stamp-hop"
 
 - type: entity
@@ -79,7 +87,7 @@
     stampState: "paper_stamp-ro"
 
 - type: entity
-  parent: CMStampBase
+  parent: CMStampASO
   id: CMStampCE
   name: печатка ГІ
   components:
@@ -87,8 +95,19 @@
     state: stamp-ce
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-ce
-    stampedColor: "#b0901b"
     stampState: "paper_stamp-ce"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampLiaison
+  name: corporate liaison rubber stamp
+  components:
+  - type: Sprite
+    state: stamp-we_ya
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-cl
+    stampedColor: "#996600"
+    stampState: "paper_stamp-we_ya"
 
 # Simple
 
@@ -119,22 +138,19 @@
 # Admin Only
 
 - type: entity
-  parent: CMStampBase
+  parent: CMStampLiaison
   id: CMStampWeYa
   name: печатка Ве-Я
   suffix: Admin
   components:
-  - type: Sprite
-    state: stamp-we_ya
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-we-ya
-    stampedColor: "#996600"
-    stampState: "paper_stamp-we_ya"
 
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
   name: печатка Вищого Командування
+  suffix: Admin
   components:
   - type: Sprite
     state: stamp-marine
@@ -147,6 +163,7 @@
   parent: CMStampBase
   id: CMStampCMB
   name: печатка КБШ
+  suffix: Admin
   components:
   - type: Sprite
     state: stamp-cmb

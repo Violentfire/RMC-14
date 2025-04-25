@@ -28,4 +28,6 @@ chat-radio-spp-engi = SPP Engi
 chat-radio-spp-med = SPP Med
 chat-radio-spp-cct = SPP CCT
 
+chat-radio-royal-marine = Royal Marine
+
 chat-radio-hivemind = Вулик

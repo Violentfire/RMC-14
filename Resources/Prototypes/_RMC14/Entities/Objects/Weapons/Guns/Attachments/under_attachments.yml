@@ -337,6 +337,7 @@
       Breaching: 10.8
   - type: UseDelay
   - type: RMCWeaponAccuracy
+  - type: GunPointBlank
   - type: AttachableToggleable
     userOnly: true
     attachedOnly: true
@@ -451,6 +452,7 @@
     resetOnHandSelected: false
   - type: RMCSelectiveFire
     baseFireRate: 0.417
+  - type: GunIgnorePrediction
   - type: BallisticAmmoProvider
     cycleable: false
     whitelist:
