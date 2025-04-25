@@ -1,9 +1,9 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseStorageItem
   id: CMPacketPills
-  name: упаковка таблеток
-  description: Містить пігулки. Після того, як ви їх виймете, вони вже не влізуть назад.
+  name: pill packet
+  description: Contains pills. Once you take them out, they don't go back in.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/pill_packets.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsTricordrazine
-  name: упаковка таблеток трікордазину
-  description: Ця упаковка містить таблетки трікордазину. Злегка загоює всі види пошкоджень. Після того, як ви виймете їх, вони не влізуть назад. Не приймайте більше 2 таблеток за короткий проміжок часу.
+  name: tricordazine pill packet
+  description: This packet contains tricordazine pills. Heals all types of damage slightly. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: tricordrazine_packet
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsBicaridine
-  name: упаковка таблеток бікаридину
-  description: Ця упаковка містить таблетки бікаридину. Ефективно лікують механічні пошкодження. Після того, як ви виймете їх, вони не влізуть назад. Не приймайте більше 2 таблеток за короткий проміжок часу.
+  name: bicaridine pill packet
+  description: This packet contains bicaridine pills. Heals brute damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: bicaridine_packet
@@ -69,8 +69,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsKelotane
-  name: упаковка таблеток келотану
-  description: Ця упаковка містить таблетки келотану. Ефективно загоюють опіки. Після того, як ви виймете їх, вони не влізуть назад. Не приймайте більше 2 таблеток за короткий проміжок часу.
+  name: kelotane pill packet
+  description: This packet contains kelotane pills. Heals burn damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: kelotane_packet

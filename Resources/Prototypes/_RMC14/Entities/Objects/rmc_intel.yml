@@ -41,7 +41,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
   name: звіт про прогрес
-  description: Письмовий звіт працівника своєму керівнику про хід виконання якогось проєкту.
+  description: Письмовий звіт працівника своєму керівнику про хід виконання якогось проекту
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: [CMHealthAnalyzer, RMCIntelRetrieveDeviceBase]
   id: RMCIntelRetrieveHealthAnalyzer
-  suffix: Розвідка, Експериментальний Пристрій
+  suffix: Intel, Experimental Device
   components:
   - type: IntelClues
     clue: rmc-intel-clue-experimental-device
@@ -175,10 +175,11 @@
           - !type:TechUnlockTierEvent
             tier: 1
           - !type:TechAnnounceEvent
-            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 1.
 
               Активи РІВНЯ 1 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
@@ -192,7 +193,7 @@
           - !type:TechRequisitionsBudgetEvent
             amount: 5000
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: На цю операцію було виділений додатковий бюджет для постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -206,7 +207,7 @@
           - !type:TechDropshipBudgetEvent
             amount: 2000
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: Для цієї операції дозволено додаткові очки фабрикатора деталей десантного корабля.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -218,10 +219,11 @@
           - !type:TechUnlockTierEvent
             tier: 2
           - !type:TechAnnounceEvent
-            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 2.
 
               Активи РІВНЯ 2 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
@@ -235,7 +237,7 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadExplosive
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: Додаткові боєголовки орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -249,7 +251,7 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadIncendiary
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: Додаткові запальні боєголовки для орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -263,7 +265,7 @@
           - !type:TechWarheadEvent
             warhead: RMCOrbitalCannonWarheadCluster
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ 
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ 
             message: Додаткові кластерні боєголовки для орбітального бомбардування були доставлені до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -275,10 +277,11 @@
           - !type:TechUnlockTierEvent
             tier: 3
           - !type:TechAnnounceEvent
-            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
             message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 3.
 
               Активи РІВНЯ 3 були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
@@ -291,7 +294,7 @@
           events:
           - !type:TechCryoMarinesEvent
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: З кріогенного сну виводяться додаткові бійці.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
@@ -302,7 +305,7 @@
           events:
           - !type:TechCryoSpecEvent
           - !type:TechAnnounceEvent
-            author: АВТОРИЗОВАНО ДОСТУП ДО СПЕЦІАЛЬНИХ АКТИВІВ САВАННИ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
             message: Додаткового спеціаліста виводять з кріогенного сну.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi

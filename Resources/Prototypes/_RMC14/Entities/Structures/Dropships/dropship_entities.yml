@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: MarkerBase
   id: RMCDropshipDoorBlocker
-  name: блокіратор дверей корабля
-  description: Перешкоджає переміщенню барикад на борт корабля.
+  name: dropship door blocker
+  description: Blocks barricades from being pulled into the dropship.
   components:
   - type: Transform
     anchored: true
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCUtilityAttachmentPoint
-  name: точка кріплення 
-  description: Точка кріплення для допоміжних систем
+  name: utility attach point
+  description: An attachment point for utility systems
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/dropship_attachment_points.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCEngineAttachmentPoint
-  name: точка встановлення двигуна
-  description: Місце для встановлення важкого обладнання за допомогою завантажувача.
+  name: engine system attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   components:
   - type: Transform
     anchored: false

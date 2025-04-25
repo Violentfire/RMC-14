@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: CMBaseStructure
   abstract: true
   id: CMComputerDropship
@@ -13,8 +13,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigation
-  name: "транспортно-навігаційний комп'ютер"
-  description: "Бортовий комп’ютер що використовується для автопілота або далеких перельотів."
+  name: dropship navigation computer
+  description: A flight computer that can be used for autopilot or long-range flights.
   components:
   - type: Sprite
     state: console
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigationPlanetside
-  name: "транспортно-навігаційний комп'ютер"
-  description: "Польотний комп’ютер, може використовуватись для керування з’єднаними десантними кораблями."
+  name: dropship navigation computer
+  description: A flight computer that can be used to direct linked dropships.
   suffix: Planetside
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
-  name: керування камерами
-  description: "Комп'ютер що використовується для перегляду зображення з камер, під’єднаних до десантного корабля."
+  name: camera controls
+  description: A computer to monitor cameras linked to the dropship.
   components:
   - type: Sprite
     state: consoleleft
@@ -65,8 +65,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeapons
-  name: керування озброєнням
-  description: "Комп’ютер керування, слугує для керування спорядженням, озброєнням та симуляціями, встановленими на кораблі."
+  name: weapons controls
+  description: A computer to manage equipment, weapons and simulations installed on the dropship.
   components:
   - type: Sprite
     state: consoleright
@@ -87,8 +87,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestination
-  name: пункт призначення корабля
-  description: Визначає допустиму локацію для ШЗС перельоту кораблів під час пілотування.
+  name: dropship destination
+  description: Defines a valid location for the dropships to FTL to when piloted.
   placement:
     mode: SnapgridCenter
   components:
@@ -102,8 +102,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipHijackDestination
-  name: пункт призначення корабля
-  description: Визначає допустиму локацію для ШЗС перельоту корабля під час пілотування.
+  name: hijack destination
+  description: Defines a valid location for the dropships to FTL to when hijacked.
   placement:
     mode: SnapgridCenter
   components:

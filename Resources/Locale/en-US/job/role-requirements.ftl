@@ -1,19 +1,18 @@
-﻿role-timer-department-insufficient = Потрібно ще [color=yellow]{$time}[/color] часу гри у відділі [color={$departmentColor}]{$department}[/color], щоб відкрити цю роль.
-role-timer-department-too-high = Потрібно на [color=yellow]{$time}[/color] менше часу гри у відділі [color={$departmentColor}]{$department}[/color], щоб обрати цю роль. (Ти намагаєшся зіграти на ролі стажера?)
-role-timer-overall-insufficient = Потрібно ще [color=yellow]{$time}[/color] загального часу гри, щоб відкрити цю роль.
-role-timer-overall-too-high = Потрібно на [color=yellow]{$time}[/color] менше загального часу гри, щоб обрати цю роль. (Ти намагаєшся зіграти на ролі стажера?)
-role-timer-role-insufficient = Потрібно ще [color=yellow]{$time}[/color] часу гри за роль [color={$departmentColor}]{$job}[/color], щоб відкрити її.
-role-timer-role-too-high = Потрібно на [color=yellow]{$time}[/color] менше часу гри за роль [color={$departmentColor}]{$job}[/color], щоб обрати її. (Ти намагаєшся зіграти на ролі стажера?)
-role-timer-age-too-old = Твій персонаж має бути молодшим за [color=yellow]{$age}[/color], щоб обрати цю роль.
-role-timer-age-too-young = Твій персонаж має бути старшим за [color=yellow]{$age}[/color], щоб обрати цю роль.
-role-timer-whitelisted-species = Твій персонаж має належати до одного з таких видів, щоб обрати цю роль:
-role-timer-blacklisted-species = Твій персонаж не має належати до жодного з таких видів, щоб обрати цю роль:
-role-timer-whitelisted-traits = Твій персонаж має мати одну з таких рис, щоб обрати цю роль:
-role-timer-blacklisted-traits = Твій персонаж не має мати жодної з таких рис, щоб обрати цю роль:
+﻿role-timer-department-insufficient = You require [color=yellow]{$time}[/color] more playtime in the [color={$departmentColor}]{$department}[/color] department to unlock this.
+role-timer-department-too-high = You require [color=yellow]{$time}[/color] less playtime in the [color={$departmentColor}]{$department}[/color] department to select this. (Are you trying to play a trainee role?)
+role-timer-overall-insufficient = You require [color=yellow]{$time}[/color] more overall playtime to unlock this.
+role-timer-overall-too-high = You require [color=yellow]{$time}[/color] less overall playtime to select this. (Are you trying to play a trainee role?)
+role-timer-role-insufficient = You require [color=yellow]{$time}[/color] more playtime with [color={$departmentColor}]{$job}[/color] to unlock this.
+role-timer-role-too-high = You require[color=yellow] {$time}[/color] less playtime with [color={$departmentColor}]{$job}[/color] to select this. (Are you trying to play a trainee role?)
+role-timer-age-too-old = Your character must be under the age of [color=yellow]{$age}[/color] for you to choose this.
+role-timer-age-too-young = Your character must be over the age of [color=yellow]{$age}[/color] for you to choose this.
+role-timer-whitelisted-species = Your character must be one of the following species for you to select this:
+role-timer-blacklisted-species = Your character must not be one of the following species for you to select this:
+role-timer-whitelisted-traits = Your character must have one of the following traits for you to select this:
+role-timer-blacklisted-traits = Your character must not have any of the following traits for you to select this:
 
-role-timer-locked = Заблоковано (наведи курсор для деталей)
+role-timer-locked = Locked (hover for details)
 
-role-timer-department-unknown = Невідомий відділ
+role-timer-department-unknown = Unknown Department
 
-role-ban = Ця роль заблокована для вас
-
+role-ban = You have been banned from this role.

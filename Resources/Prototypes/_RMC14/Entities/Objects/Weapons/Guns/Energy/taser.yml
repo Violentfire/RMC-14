@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWeaponBatterySmall
   id: RMCWeaponTaser
-  name: нейтралізуючий пістолет
-  description: Сучасний електрошоковий пристрій, здатний стріляти іонізованими електричними снарядами. Використовується для нейтралізації без летальних наслідків.
+  name: disabler gun
+  description: An advanced stun device capable of firing balls of ionized electricity. Used for nonlethal takedowns.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Energy/taser.rsi

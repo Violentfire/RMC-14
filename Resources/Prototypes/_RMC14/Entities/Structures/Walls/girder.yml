@@ -1,7 +1,7 @@
 - type: entity
   parent: Girder
   id: CMGirder
-  name: балка
+  name: girder
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/girder.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMGirder
   id: CMGirderReinforced
-  name: посилена балка
+  name: reinforced girder
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/girder.rsi

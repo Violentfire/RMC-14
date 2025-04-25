@@ -2,7 +2,7 @@
   id: CMCarpetBase
   parent: BaseStructure
   name: килим
-  description: "Елегантна поверхня для ходьби."
+  description: "Вишукана поверхня для ходьби."
   abstract: true
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
   id: RMCCarpetBaseNonIconsmooth
   parent: BaseStructure
   name: килим
-  description: Елегантна поверхня для ходьби.
+  description: Вишукана поверхня для ходьби.
   abstract: true
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   id: RMCCarpetBlue1
   parent: RMCCarpetBaseNonIconsmooth
-  name: синій килим
+  name: блакитний килим
   components:
   - type: Clickable
   - type: Sprite
@@ -408,7 +408,7 @@
 - type: entity
   id: RMCCarpetBlack1
   parent: RMCCarpetBaseNonIconsmooth
-  name: темний килим
+  name: чорний килим
   components:
   - type: Clickable
   - type: Sprite

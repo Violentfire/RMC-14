@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: RMCTelevision
-  name: телевізор
-  description: Він робить зображення за допомогою металу та скла.
+  name: television set
+  description: It produces items using metal and glass.
   components:
   - type: Transform
     anchored: true
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCCircuitboardTelevision
-  name: схема (телевізор)
-  description: Машинна плата для телевізора.
+  name: circuit board (television set)
+  description: A machine printed circuit board for a television set.
   components:
   - type: MachineBoard
     prototype: RMCTelevision

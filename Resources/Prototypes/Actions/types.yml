@@ -1,4 +1,4 @@
-﻿# base actions
+# base actions
 
 - type: entity
   id: BaseSuicideAction
@@ -11,7 +11,7 @@
 
 - type: entity
   id: ActionScream
-  name: Закричати
+  name: Scream
   description: AAAAAAAAAAAAAAAAAAAAAAAAA
   components:
   - type: InstantAction
@@ -22,8 +22,8 @@
 
 - type: entity
   id: ActionTurnUndead
-  name: Перетворитися на нежить
-  description: Піддайся інфекції та стань зомбі.
+  name: Turn Undead
+  description: Succumb to your infection and become a zombie.
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -33,8 +33,8 @@
 
 - type: entity
   id: ActionToggleLight
-  name: Перемкнути світло
-  description: Увімкнути та вимкнути світло
+  name: Toggle Light
+  description: Turn the light on and off.
   components:
   - type: InstantAction
     useDelay: 1
@@ -44,8 +44,8 @@
 
 - type: entity
   id: ActionOpenStorageImplant
-  name: Перемкнути імплант сховища
-  description: Відкриває або закриває імплант сховища, вбудований під шкірою.
+  name: Toggle Storage Implant
+  description: Opens or closes the storage implant embedded under your skin
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateMicroBomb
-  name: Активувати мікробомбу
-  description: Активує вашу внутрішню мікробомбу, повністю знищуючи вас і ваше обладнання.
+  name: Activate Microbomb
+  description: Activates your internal microbomb, completely destroying you and your equipment
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateDeathAcidifier
-  name: Активувати Устрій для розкладу
-  description: Активує ваш устрій для розкладу, повністю розтоплюючи вас і ваше обладнання.
+  name: Activate Death-Acidifier
+  description: Activates your death-acidifier, completely melting you and your equipment
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -90,8 +90,8 @@
 
 - type: entity
   id: ActionActivateFreedomImplant
-  name: Вирватися
-  description: Активуючи імплант свободи, ви звільняєтесь від будь-яких речей що обежують ваші руки.
+  name: Break Free
+  description: Activating your freedom implant will free you from any hand restraints
   components:
   - type: InstantAction
     charges: 3
@@ -105,8 +105,8 @@
 
 - type: entity
   id: ActionOpenUplinkImplant
-  name: Відкрити аплінк
-  description: Відкриває синдикатний аплінк, вбудований під шкірою.
+  name: Open Uplink
+  description: Opens the syndicate uplink embedded under your skin
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -118,8 +118,8 @@
 
 - type: entity
   id: ActionActivateEmpImplant
-  name: Активувати ЕМП
-  description: Активує невеликий електромагнітний імпульс навколо вас.
+  name: Activate EMP
+  description: Triggers a small EMP pulse around you
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -134,8 +134,8 @@
 
 - type: entity
   id: ActionActivateScramImplant
-  name: ПРИПИНЯЙ!
-  description: Випадковим чином телепортує вас на велику відстань.
+  name: SCRAM!
+  description: Randomly teleports you within a large distance.
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -150,8 +150,8 @@
 
 - type: entity
   id: ActionActivateDnaScramblerImplant
-  name: Перемішати ДНК
-  description: Випадковим чином змінює ваше ім'я та зовнішність.
+  name: Scramble DNA
+  description:  Randomly changes your name and appearance.
   components:
   - type: ConfirmableAction
     popup: dna-scrambler-action-popup
@@ -166,8 +166,8 @@
 
 - type: entity
   id: ActionToggleSuitPiece
-  name: Перемкнути частину костюма
-  description: Не забудь одягти важливі частини костюма перед тим, як приступити до діла.
+  name: Toggle Suit Piece
+  description: Remember to equip the important pieces of your suit before going into action.
   components:
   - type: InstantAction
     itemIconStyle: BigItem
@@ -176,8 +176,8 @@
 
 - type: entity
   id: ActionCombatModeToggle
-  name: "[color=red]Бойовий режим[/color]"
-  description: Увімкнути бойовий режим
+  name: "[color=red]Combat Mode[/color]"
+  description: Enter combat mode
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -190,8 +190,8 @@
 - type: entity
   id: ActionCombatModeToggleOff
   parent: ActionCombatModeToggle
-  name: "[color=red]Бойовий режим[/color]"
-  description: Вимкнути бойовий режим
+  name: "[color=red]Combat Mode[/color]"
+  description: Enter combat mode
   components:
   - type: InstantAction
     enabled: false
@@ -200,8 +200,8 @@
 
 - type: entity
   id: ActionChangeVoiceMask
-  name: Встановити ім'я
-  description: Змінити ім'я, яке чують інші, на інше.
+  name: Set name
+  description: Change the name others hear to something else.
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
@@ -209,8 +209,8 @@
 
 - type: entity
   id: ActionVendingThrow
-  name: Видати предмет
-  description: Випадковим чином видати предмет з вашого запасу.
+  name: Dispense Item
+  description: Randomly dispense an item from your stock.
   components:
   - type: InstantAction
     useDelay: 30
@@ -218,8 +218,8 @@
 
 - type: entity
   id: ActionArtifactActivate
-  name: Активувати артифакт
-  description: Негайно активує поточний артефактний вузол.
+  name: Activate Artifact
+  description: Immediately activates your current artifact node.
   components:
   - type: InstantAction
     icon:
@@ -230,8 +230,8 @@
 
 - type: entity
   id: ActionToggleBlock
-  name: Блок
-  description: Підняти або опустити щит.
+  name: Block
+  description: Raise or lower your shield.
   components:
   - type: InstantAction
     icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: teleriot-icon }
@@ -240,8 +240,8 @@
 
 - type: entity
   id: ActionClearNetworkLinkOverlays
-  name: Очистити накладки мережевого зв'язку.
-  description: Очистити накладки мережевого з'єднання.
+  name: Clear network link overlays
+  description: Clear network link overlays.
   components:
   - type: InstantAction
     clientExclusive: true
@@ -253,8 +253,8 @@
 
 - type: entity
   id: ActionAnimalLayEgg
-  name: Викласти яйце
-  description: Використовує голод для відкладання яйця.
+  name: Lay egg
+  description: Uses hunger to lay an egg.
   components:
   - type: InstantAction
     icon: { sprite: Objects/Consumable/Food/egg.rsi, state: icon }
@@ -263,8 +263,8 @@
 
 - type: entity
   id: ActionSleep
-  name: Задрімати
-  description: Час спати.
+  name: Sleep
+  description: Go to sleep.
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -274,8 +274,8 @@
 
 - type: entity
   id: ActionWake
-  name: Встати
-  description: Перестати спати.
+  name: Wake up
+  description: Stop sleeping.
   components:
   - type: InstantAction
     icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
@@ -287,8 +287,8 @@
 
 - type: entity
   id: ActionActivateHonkImplant
-  name: Хонк!
-  description: Активує ваш імплант для гудка, який видаватиме характерний звук клоуна.
+  name: Honk
+  description: Activates your honking implant, which will produce the signature sound of the clown.
   components:
   - type: InstantAction
     icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
@@ -297,8 +297,8 @@
 
 - type: entity
   id: ActionFireStarter
-  name: Запалити
-  description: Запалює ворогів в радіусі навколо вас.
+  name: Ignite
+  description: Ignites enemies in a radius around you.
   components:
   - type: InstantAction
     priority: -1
@@ -308,8 +308,8 @@
 
 - type: entity
   id: ActionToggleEyes
-  name: Вікрити/закрити очі
-  description: Закрий очі щоб захистити їх, або відкрий щоб насолоджуватися красивими вогнями.
+  name: Open/Close eyes
+  description: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
   components:
   - type: InstantAction
     icon: Interface/Actions/eyeopen.png
@@ -321,8 +321,8 @@
 
 - type: entity
   id: ActionToggleWagging
-  name: Виляти хвостом
-  description: Почніть або зупиніть віляння хвостом.
+  name: Wagging Tail
+  description: Start or stop wagging your tail.
   components:
     - type: InstantAction
       icon: { sprite: Mobs/Customization/reptilian_parts.rsi, state: tail_smooth_behind }
@@ -333,8 +333,8 @@
 
 - type: entity
   id: FakeMindShieldToggleAction
-  name: '[color=green]Перемкнути підроблений Майншилд[/color]'
-  description: Увімкнути/вимкнути відображення імпланту підробленого Майншилда.
+  name: '[color=green]Toggle Fake Mindshield[/color]'
+  description: Turn the Fake Mindshield implant's transmission on/off
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_fakemindshield.rsi, state: icon }
@@ -345,8 +345,8 @@
 
 - type: entity
   id: ActionToggleParamedicSiren
-  name: Перемкнути сирену парамедика
-  description: Перемикає сирену парамедика в увімкнений/вимкнений стан.
+  name: Toggle Paramedic Siren
+  description: Toggles the paramedic siren on and off.
   components:
   - type: InstantAction 
     icon:

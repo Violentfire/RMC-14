@@ -1,8 +1,8 @@
 - type: entity
   id: CMDisposalUnit
   parent: DisposalUnitBase
-  name: смітник
-  description: Пневматичний смітник для утилізації відходів.
+  name: disposal unit
+  description: A pneumatic waste disposal unit.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Piping/disposal.rsi

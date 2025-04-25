@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCBucket
-  name: відро
-  description: Це відро. Вміщує 120 унцій.
+  name: bucket
+  description: It's a bucket. Holds 120 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/bucket.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketMop
-  name: відро для швабри
-  description: Велике відро, зазвичай використовується зі шваброю. Вміщує 240 унцій.
+  name: mop bucket
+  description: A larger bucket, typically used with a mop. Holds 240 units
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mopbucket.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketJani
-  name: відро для прибирання
-  description: Це велике відро, яке поміщається у візок прибиральника. Вміщує 500 унцій.
+  name: janitorial bucket
+  description: It's a large bucket that fits in a janitorial cart. Holds 500 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/janibucket.rsi

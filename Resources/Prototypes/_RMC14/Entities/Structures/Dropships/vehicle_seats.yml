@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: CMSeatBase
   id: CMSeatPassenger
-  name: пасажирське крісло
-  description: Міцне крісло з упором, який опускається через ваше тіло. Запобігає травмам та пошкодженням під час аварії транспортного засобу, утримуючи вас на місці. Прикріпіть паски безпеки, діти! Ремонтувати за допомогою зварювального інструменту у разі пошкодження.
+  name: passenger seat
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
   components:
   - type: Physics
     bodyType: Static
@@ -13,8 +13,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMSeatPilot
-  name: крісло пілота
-  description: Спеціально розроблене крісло для пілотів.
+  name: pilot's chair
+  description: A specially designed chair for pilots to sit in.
   placement:
     mode: SnapgridCenter
   components:
@@ -27,8 +27,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatHunter
-  name: сидіння мисливця
-  description: Якісно виготовлене крісло для великого гуманоїдного мисливця.
+  name: hunter chair
+  description: An exquisitely crafted chair for a large humanoid hunter.
   components:
   - type: Physics
     bodyType: Static
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatWhite
-  name: пасажирське сидіння
-  description: Міцне крісло з упором, який опускається через ваше тіло. Запобігає травмам та пошкодженням під час аварії транспортного засобу, утримуючи вас на місці. Прикріпіть паски безпеки, діти! Ремонтувати за допомогою зварювального інструменту у разі пошкодження.
+  name: passenger seat
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
   components:
   - type: Physics
     bodyType: Static
