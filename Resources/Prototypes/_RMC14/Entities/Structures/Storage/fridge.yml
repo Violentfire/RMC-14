@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: CMLockerBase
   id: CMLockerFridge
-  name: fridge
+  name: холодильник
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/fridge.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeGroceries
-  name: groceries
+  name: продукти
   components:
   - type: StorageFill
     contents:
@@ -26,7 +26,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeOrganic
-  name: organic
+  name: органіка
   components:
   - type: StorageFill
     contents:
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeDry
-  name: dry
+  name: сухий 
   components:
   - type: StorageFill
     contents:
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeMeat
-  name: meat
+  name: "м'ясо"
   components:
   - type: StorageFill
     contents:
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMLockerFridge
   id: RMCLockerFridgeFish
-  name: fish
+  name: риба
   components:
   - type: StorageFill
     contents:

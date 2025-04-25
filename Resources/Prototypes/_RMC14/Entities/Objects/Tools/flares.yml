@@ -1,8 +1,8 @@
 - type: entity
-  name: flare
+  name: фаєр
   parent: BaseItem
   id: CMFlare
-  description: A red Marine issued flare. There are instructions on the side, it reads 'pull cord, make light'.
+  description: "Звичайний червоний фаєр для морпіхів. На боці є інструкція: 'смикни за шнур — отримаєш світло'"
   components:
   - type: Tag
     tags:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareCAS
-  name: signal flare
-  description: A green UNMC issued signal flare. The telemetry computer works on chemical reaction that releases smoke and light and thus works only while the flare is burning.
+  name: сигнальний фаєр
+  description: "Зелений сигнальний фаєр для морпіхів. Всередині фаєра є телекомп'ютер, що працює на хімічній реакції яка протікає під час горіння."
   components:
   - type: Tag
     tags:
@@ -105,8 +105,8 @@
 - type: entity
   parent: CMFlare
   id: RMCStarShellAsh
-  name: burning star shell ash
-  description: Bright burning ash from a Star Shell 40mm. Don't touch, or it'll burn ya'.
+  name: "попіл 40-міліметрового снаряда 'Зоряний меч'"
+  description: "Яскравий палаючий попіл від 40-міліметрового снаряда 'Зоряний меч'. Не чіпай руками, бо обпечешся."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/flares.rsi
@@ -124,7 +124,6 @@
     state: starshell_ash
   - type: PointLight
     color: "#FFCCCC"
-    energy: 1.5
   - type: ExpendableLight
     pickupWhileOn: false
     glowDuration: 375
@@ -132,7 +131,6 @@
     spentName: expendable-light-starshell-ash-empty-name
     spentDesc: expendable-light-starshell-ash-empty-desc
     iconStateSpent: starshell_ash-empty
-    loopedSound: null
   - type: LightBehaviour
     behaviours:
     - !type:FadeBehaviour
@@ -147,10 +145,10 @@
       endValue: 1.0
 
 - type: entity
-  parent: RMCBoxMagazineSupplyBase
+  parent: RMCBoxMagazineBase
   id: RMCBoxPackFlareEmpty
-  name: box of M94 flare packs (x10)
-  description: A box of M94 marking flare packs, to brighten up your day.
+  name: коробка фаєрів М94
+  description: Коробка сигнальних фаєрів з маркуванням M94. Щоб був в вас яскравий день.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -160,22 +158,32 @@
   - type: CMItemSlots
     count: 10
     slot:
-      name: FlarePack
+      name: КоробкаФаєрів
       whitelist:
         tags:
         - CMFlarePack
   - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     layers:
-    - state: supply_box
-      color: "#887b67"
-    - state: supply_ammo_full
+    - state: supply_crate
+    - state: magaz_flares
       map: [ "enum.CMItemSlotsLayers.Fill" ]
-      color: "#867872"
-    - state: supply_box_lightflare
-      color: "#e0d5c2"
-    - state: supply_lid_closed
+    - state: text_m94
+    - state: supply_crate_lid
       map: [ "lid" ]
-      color: "#887b67"
+  - type: GenericVisualizer
+    visuals:
+      enum.DeployableItemVisuals.Deployed:
+        lid:
+          True: { visible: false }
+          False: { visible: true }
+      enum.CMItemSlotsLayers.Fill:
+        enum.CMItemSlotsLayers.Fill:
+          Empty: { state: magaz_flares, visible: false }
+          Low: { state: magaz_flares_1, visible: true }
+          Medium: { state: magaz_flares_2, visible: true }
+          High: { state: magaz_flares_3, visible: true }
+          Full: { state: magaz_flares, visible: true }
 
 - type: entity
   parent: RMCBoxPackFlareEmpty
@@ -186,10 +194,10 @@
     startingItem: CMPackFlare
 
 - type: entity
-  parent: RMCBoxMagazineSupplyBase
+  parent: RMCBoxMagazineBase
   id: RMCBoxPackFlareCASEmpty
-  name: box of M89-S flare packs (x10)
-  description: A box of M89 signal flare packs, to mark up the way.
+  name: коробка сигнальних фаєрів М89-С
+  description: Коробка сигнальних фаєрів M89 для маркування цілей.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -199,22 +207,32 @@
   - type: CMItemSlots
     count: 10
     slot:
-      name: FlarePack
+      name: КоробкаФаєрів
       whitelist:
         tags:
         - RMCPackFlareCAS
   - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/magazine_boxes.rsi
     layers:
-    - state: supply_box
-      color: "#887b67"
-    - state: supply_ammo_full
+    - state: supply_crate
+    - state: magaz_flares_signal
       map: [ "enum.CMItemSlotsLayers.Fill" ]
-      color: "#867872"
-    - state: supply_box_casflare
-      color: "#e0d5c2"
-    - state: supply_lid_closed
+    - state: text_m89
+    - state: supply_crate_lid
       map: [ "lid" ]
-      color: "#887b67"
+  - type: GenericVisualizer
+    visuals:
+      enum.DeployableItemVisuals.Deployed:
+        lid:
+          True: { visible: false }
+          False: { visible: true }
+      enum.CMItemSlotsLayers.Fill:
+        enum.CMItemSlotsLayers.Fill:
+          Empty: { state: magaz_flares_signal, visible: false }
+          Low: { state: magaz_flares_signal_1, visible: true }
+          Medium: { state: magaz_flares_signal_2, visible: true }
+          High: { state: magaz_flares_signal_3, visible: true }
+          Full: { state: magaz_flares_signal, visible: true }
 
 - type: entity
   parent: RMCBoxPackFlareCASEmpty
@@ -228,8 +246,8 @@
   abstract: true
   parent: BaseItem
   id: CMPackFlareBase
-  name: M94 marking flare pack
-  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
+  name: набір фаєрів M94
+  description: Пакет з восьмими фаєрами M94. Використовуються морпіхами для освітлення темних ділянок, до яких неможливо дістатися звичайним наплічним ліхтарем.
   components:
   - type: Item
     size: Normal
@@ -278,8 +296,8 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareCAS
-  name: M89-S signal flare pack
-  description: A packet of eight M89-S Signal Marking Flares.
+  name: набір сигнальних фаєрів M89-S
+  description: Набір з восьмими сигнальних фаєрами M89-С.
   suffix: Filled
   components:
   - type: Tag

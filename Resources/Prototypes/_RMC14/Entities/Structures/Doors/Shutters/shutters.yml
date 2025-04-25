@@ -2,8 +2,8 @@
   parent: CMBaseStructureCorrodible
   id: RMCShutterBaseIndestructible
   abstract: true
-  name: shutters
-  description: That looks like it doesn't open easily.
+  name: ставні
+  description: Здається, що це не легко відкрити.
   placement:
     mode: SnapgridCenter
   components:

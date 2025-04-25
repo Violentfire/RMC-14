@@ -1,9 +1,9 @@
-- type: entity
+﻿- type: entity
   parent: BoxBase
   id: CMFolderBase
   abstract: true
-  name: folder
-  description: A folder.
+  name: папка
+  description: Папка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -11,11 +11,10 @@
   - type: Item
     sprite: _RMC14/Objects/Misc/paper.rsi
     size: Small
-    shape: null
   - type: Storage
     maxItemSize: Small
     grid:
-    - 0,0,4,3
+    - 0,0,4,1
     whitelist:
       tags:
       - Document
@@ -36,15 +35,11 @@
       prob: 0.2
     - id: CMPaper
       prob: 0.2
-  - type: InteractedBlacklist
-    blacklist:
-      components:
-      - Xeno
 
 - type: entity
   parent: CMFolderBase
   id: CMFolderBlue
-  description: A blue folder.
+  description: Синя папка.
   components:
   - type: Sprite
     state: folder_blue
@@ -52,7 +47,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderRed
-  description: A red folder.
+  description: Червона папка.
   components:
   - type: Sprite
     state: folder_red
@@ -60,7 +55,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderYellow
-  description: A yellow folder.
+  description: Жовта папка.
   components:
   - type: Sprite
     state: folder_yellow
@@ -68,7 +63,7 @@
 - type: entity
   parent: CMFolderBase
   id: CMFolderWhite
-  description: A white folder.
+  description: Біла папка.
   components:
   - type: Sprite
     state: folder_white

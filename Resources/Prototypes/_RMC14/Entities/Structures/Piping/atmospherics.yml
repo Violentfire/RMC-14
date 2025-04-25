@@ -1,8 +1,8 @@
 - type: entity
   parent: GasUnaryBase
   id: CMVentPump
-  name: air vent
-  description: Has a valve and pump attached to it.
+  name: вентеляція
+  description: До нього приєднаний клапан і помпа.
   placement:
     mode: SnapgridCenter
   components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: GasUnaryBase
   id: CMVentScrubber
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: фільтр
+  description: До нього приєднаний клапан і помпа.
   placement:
     mode: SnapgridCenter
   components:

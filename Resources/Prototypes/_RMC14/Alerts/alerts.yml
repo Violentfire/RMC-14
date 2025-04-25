@@ -1,4 +1,4 @@
-- type: alert
+п»ї- type: alert
   id: HiveTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
@@ -21,8 +21,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: Трекер ксеноїдів
-  description: Стежити за королевою.
+  name: РўСЂРµРєРµСЂ РєСЃРµРЅРѕС—РґС–РІ
+  description: РЎС‚РµР¶РёС‚Рё Р·Р° РєРѕСЂРѕР»РµРІРѕСЋ.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -50,8 +50,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: Стежити за маркером смоли
-  description: Відстежувати маркер смоли, розміщений королевою або Ватажком вулика.
+  name: РЎС‚РµР¶РёС‚Рё Р·Р° РјР°СЂРєРµСЂРѕРј СЃРјРѕР»Рё
+  description: Р’С–РґСЃС‚РµР¶СѓРІР°С‚Рё РјР°СЂРєРµСЂ СЃРјРѕР»Рё, СЂРѕР·РјС–С‰РµРЅРёР№ РєРѕСЂРѕР»РµРІРѕСЋ Р°Р±Рѕ Р’Р°С‚Р°Р¶РєРѕРј РІСѓР»РёРєР°.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -79,8 +79,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest
-  name: Трекер загону маринів
-  description: Стежити за лідером загону.
+  name: РўСЂРµРєРµСЂ Р·Р°РіРѕРЅСѓ РјР°СЂРёРЅС–РІ
+  description: РЎС‚РµР¶РёС‚Рё Р·Р° Р»С–РґРµСЂРѕРј Р·Р°РіРѕРЅСѓ.
   minSeverity: 0
   maxSeverity: 10
   clickEvent: !type:SquadLeaderTrackerClickedEvent
@@ -90,8 +90,8 @@
   icons:
   - sprite: /Textures/_RMC14/Structures/Machines/map_table.rsi
     state: maptable
-  name: Тактична мапа
-  description: Натисніть, щоб відкрити Тактичну мапу.
+  name: РўР°РєС‚РёС‡РЅР° РјР°РїР°
+  description: РќР°С‚РёСЃРЅС–С‚СЊ, С‰РѕР± РІС–РґРєСЂРёС‚Рё РўР°РєС‚РёС‡РЅСѓ РјР°РїСѓ.
   clickEvent: !type:OpenTacMapAlertEvent
 
 - type: alert
@@ -99,6 +99,6 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_map.rsi
     state: open_xeno_map
-  name: Тактична мапа
-  description: Натисніть, щоб відкрити Тактичну мапу.
+  name: РўР°РєС‚РёС‡РЅР° РјР°РїР°
+  description: РќР°С‚РёСЃРЅС–С‚СЊ, С‰РѕР± РІС–РґРєСЂРёС‚Рё РўР°РєС‚РёС‡РЅСѓ РјР°РїСѓ.
   clickEvent: !type:OpenTacMapAlertEvent

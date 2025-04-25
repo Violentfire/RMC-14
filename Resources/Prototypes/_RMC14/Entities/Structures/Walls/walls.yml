@@ -1,9 +1,9 @@
-# Standard
+﻿# Standard
 - type: entity
   parent: CMBaseWall
   id: CMWallMetal
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: стіна
+  description: Великий шматок металу, який використовується для розділення кімнат.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/metal.rsi
@@ -12,8 +12,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: ReceiverXenoClaws
-    maxHealth: 3000
   - type: Destructible
     thresholds:
     - trigger:
@@ -32,8 +30,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayer
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: стіна
+  description: Великий шматок металу, який використовується для розділення кімнат.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -47,8 +45,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayerWhite
-  name: wall
-  description: A huge chunk of metal used to separate rooms.
+  name: стіна
+  description: Великий шматок металу, який використовується для розділення кімнат.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -63,8 +61,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallReinforced
-  name: reinforced wall
-  description: A huge chunk of reinforced metal used to separate rooms.
+  name: писилена стіна
+  description: Величезний шматок посиленого металу, який використовується для розділення кімнат.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -73,9 +71,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: ReceiverXenoClaws
-    maxHealth: 9000
-    minimumClawStrength: VerySharp
   - type: Destructible
     thresholds:
     - trigger:
@@ -95,10 +90,7 @@
 
 - type: entity
   parent: CMBaseWall
-  name: reinforced wall
   id: CMWallSuperReinforced
-  description: A huge chunk of reinforced metal used to separate rooms. Looks very robust.
-  suffix: Super Reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -107,9 +99,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: ReceiverXenoClaws
-    maxHealth: 9000
-    minimumClawStrength: VerySharp
   - type: Destructible
     thresholds:
     - trigger:
@@ -125,8 +114,6 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallReinforcedAlmayer
-  name: reinforced hull
-  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -140,8 +127,6 @@
 - type: entity
   parent: CMWallReinforced
   id: CMWallReinforcedAlmayerWhite
-  name: reinforced hull
-  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -152,27 +137,12 @@
     key: walls
     base: wall
 
-- type: entity
-  parent: CMWallReinforced
-  id: CMWallReinforcedAlmayerAI
-  name: reinforced hull
-  description: A reinforced metal wall used to isolate potentially dangerous areas.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
-    state: reinforced
-  - type: IconSmooth
-    key: walls
-    base: aiwall
-
 # Indestructible
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallReinforcedHeavy
-  name: heavy reinforced hull
-  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
+  name: важкий посилений корпус
+  description: Величезний шматок надміцного металу, що використовується для розділення кімнат. Виглядає практично незламним.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -188,8 +158,6 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayer
-  name: heavy reinforced hull
-  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -203,8 +171,7 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerWhite
-  name: heavy reinforced hull
-  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
+  name: надміцний корпус
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -214,21 +181,6 @@
   - type: IconSmooth
     key: walls
     base: wall
-
-- type: entity
-  parent: CMWallReinforcedHeavy
-  id: CMWallReinforcedHeavyAlmayerAI
-  name: heavy reinforced hull
-  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
-    state: hull
-  - type: IconSmooth
-    key: walls
-    base: aiwall
 
 # TODO RMC14 temp hull, breakable only after hijack
 
@@ -266,8 +218,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallRock
-  name: rock wall
-  description: A rough wall of hardened rock.
+  name: стіна каміння
+  description: Стіна з твердого каменю.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cave.rsi
@@ -283,8 +235,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallCult
-  name: wall
-  description: The patterns engraved on the wall seem to shift as you try to focus on them. You feel sick.
+  name: стіна
+  description: Візерунки вирізьблені на стіні здається змінюються коли ти намагаєшся зосередитись на них. Тобі стає погано.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cult.rsi
@@ -295,8 +247,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: ReceiverXenoClaws
-    maxHealth: 3000
   - type: Destructible
     thresholds:
     - trigger:
@@ -313,8 +263,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallWood
-  name: wood wall
-  description: A wooden wall used to separate rooms.
+  name: "дерев'яна стіна"
+  description: "Дерев'яна стіна, використовується для розділення кімнат"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/wood.rsi
@@ -324,8 +274,6 @@
   - type: Tag
     tags:
     - Wall
-  - type: ReceiverXenoClaws
-    maxHealth: 3000
   - type: Destructible
     thresholds:
     - trigger:
@@ -342,8 +290,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallJungle
-  name: jungle vegetation
-  description: Exceptionally dense vegetation that you can't see through.
+  name: рослинність джунглів
+  description: Надзвичайно густа рослинність, крізь яку нічого не видно.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/jungle.rsi
@@ -353,217 +301,79 @@
   - type: Tag
     tags:
     - Wall
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
   - type: IconSmooth
     key: walls
     base: jungle_veg
 
-# Elevator
+# Solaris
 - type: entity
-  parent: CMBaseWallInvincible
-  id: RMCWallElevator
-  name: elevator wall
+  parent: CMWallMetal
+  id: CMWallSolaris
+  name: стіна колонії
+  description: Міцні стіни, що були розбиті піском з самого дня їх спорудження. Свідчення людської витримки.
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Walls/elevator.rsi
+    sprite: _RMC14/Structures/Walls/solaris_wall.rsi
+    state: solaris_interior
   - type: Icon
-    sprite: _RMC14/Structures/Walls/elevator.rsi
-    state: full
-  - type: Tag
-    tags:
-    - Wall
+    sprite: _RMC14/Structures/Walls/solaris_wall.rsi
+    state: solaris_interior
   - type: IconSmooth
-    key: walls
-    base: wall
+    key: wall
+    base: solaris_interior
 
 - type: entity
-  parent: CMBaseWallInvincible
-  id: RMCWallElevatorBroken
-  name: elevator wall
+  parent: CMWallReinforced
+  id: CMWallSolarisReinforced
+  name: посилена стіна колонії
+  description: Міцні стіни, що піддаються ударам піску з самого дня їх спорудження. Свідчення людської витримки.
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Walls/elevator.rsi
-    state: wall_broke
+    sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
+    state: solaris_interior_r
   - type: Icon
-    sprite: _RMC14/Structures/Walls/elevator.rsi
-    state: wall_broke
-  - type: Occluder
-    enabled: false
-
-# Containment
-
-- type: entity
-  parent: CMBaseWallInvincible
-  id: RMCWallContainment
-  name: cell wall
-  description : A metal wall used to separate rooms and make up the ship
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/containment.rsi
-    state: containment_wall_south
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/containment.rsi
-    state: containment_wall_south
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentCorner
-  components:
-  - type: Sprite
-    state: containment_wall_corner
-  - type: Icon
-    state: containment_wall_corner
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentWest
-  components:
-  - type: Sprite
-    state: containment_wall_w
-  - type: Icon
-    state: containment_wall_w
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentEast
-  components:
-  - type: Sprite
-    state: containment_wall_e
-  - type: Icon
-    state: containment_wall_e
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentNorth
-  components:
-  - type: Sprite
-    state: containment_wall_n
-  - type: Icon
-    state: containment_wall_n
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect1
-  components:
-  - type: Sprite
-    state: containment_wall_connect_e
-  - type: Icon
-    state: containment_wall_connect_e
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect2
-  components:
-  - type: Sprite
-    state: containment_wall_connect3
-  - type: Icon
-    state: containment_wall_connect3
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect3
-  components:
-  - type: Sprite
-    state: containment_wall_connect_w
-  - type: Icon
-    state: containment_wall_connect_w
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect4
-  components:
-  - type: Sprite
-    state: containment_wall_connect_w2
-  - type: Icon
-    state: containment_wall_connect_w2
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect5
-  components:
-  - type: Sprite
-    state: containment_wall_connect_e2
-  - type: Icon
-    state: containment_wall_connect_e2
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect6
-  components:
-  - type: Sprite
-    state: containment_wall_connect_s1
-  - type: Icon
-    state: containment_wall_connect_s1
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentConnect7
-  components:
-  - type: Sprite
-    state: containment_wall_connect_s2
-  - type: Icon
-    state: containment_wall_connect_s2
-
-- type: entity
-  parent: RMCWallContainment
-  id: RMCWallContainmentWindow
-  name: cell window
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Windows/containment.rsi
-    state: containment_window_h
-  - type: Icon
-    sprite: _RMC14/Structures/Windows/containment.rsi
-    state: containment_window_h
-  - type: Occluder
-    enabled: false
-
-- type: entity
-  parent: RMCWallContainmentWindow
-  id: RMCWallContainmentWindow2
-  components:
-  - type: Sprite
-    state: containment_window
-  - type: Icon
-    state: containment_window
-
-# Hunter Walls
-
-- type: entity
-  parent: CMBaseWallInvincible
-  id: RMCWallHunter
-  name: hunter wall
-  description: Nigh indestructible walls that make up the hull of a hunter ship.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/hunter.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/hunter.rsi
-    state: metal
-  - type: Tag
-    tags:
-    - Wall
+    sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
+    state: solaris_interior_r
   - type: IconSmooth
-    key: walls
-    base: metal
+    key: wall
+    base: solaris_interior_r
 
 - type: entity
   parent: CMBaseWallInvincible
-  id: RMCWallHunterDegraded
-  name: degraded hunter wall
-  description: Ancient beyond measure, these walls make up the hull of a vessel of non human origin. Despite this, they can be felled with plastic explosives like any other opaque blocker.
+  id: CMWallSolarisHull
+  name: мадміцна стіна колонії
+  description: Міцні стіни, які з самого дня свого спорудження піддаються ударам піску. Свідчення людської волі.
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Walls/hunter_degraded.rsi
+    sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
+    state: solaris_interior_r
   - type: Icon
-    sprite: _RMC14/Structures/Walls/hunter_degraded.rsi
-    state: metal
+    sprite: _RMC14/Structures/Walls/solaris_rwall.rsi
+    state: solaris_interior_h
   - type: IconSmooth
-    key: walls
-    base: metal
-  - type: Tag
-    tags:
-    - Wall
-  - type: RMCWallExplosionDeletable
-  - type: DestroyedByExplosionType
-  - type: Corrodible
-    isCorrodible: true
+    key: wall
+    base: solaris_interior_r
+
+- type: entity
+  parent: CMBaseWallInvincible
+  id: CMWallSolarisRock
+  name: стіна з каміння
+  description: Міцні стіни, які з самого дня свого спорудження піддаються ударам піску. Свідчення людської сили волі.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/solaris_rock.rsi
+    state: solaris_rock
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/solaris_rock.rsi
+    state: solaris_rock
+  - type: IconSmooth
+    key: wall
+    base: solaris_rock

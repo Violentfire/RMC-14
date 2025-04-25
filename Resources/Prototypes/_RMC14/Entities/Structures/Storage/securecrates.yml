@@ -11,8 +11,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCCrateLarge
-  name: large crate
-  description: A hefty wooden crate.
+  name: великий ящик
+  description: "Масивний дерев'яний ящик."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/densecrate.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCase
-  name: storage case
-  description: A black storage case.
+  name: ящик для зберігання
+  description: Чорний ящик для зберігання речей.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/case.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: RMCSecureCase
   id: RMCSecureCaseDouble
-  name: cases
-  description: A stack of black storage cases.
+  name: кейс
+  description: Набір чорних кейсів.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/casedouble.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCSecureCase
   id: RMCSecureCaseSmall
-  name: small cases
-  description: Two small black storage cases.
+  name: малий кейс
+  description: Два малих чорних кейсів для збереження в них речей.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/casesmall.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCaseChest
-  name: chest
-  description: hefty wooden crate.
+  name: скриня
+  description: "Масивна дерев'яна скриня."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/chest.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: RMCSecureCaseChest
   id: RMCSecureCaseStrapped
-  name: secure supply crate
-  description: A hefty wooden crate.
+  name: захищений ящик постачання
+  description: "Масивний дерев'яний ящик."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/securecrate.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: RMCSecureCaseChest
   id: RMCSecureCaseMedicalBig
-  name: medical crate
-  description: A crate containing medical supplies.
+  name: медичний ящик
+  description: Ящик з медичними припасами.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/chestwhite.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSmallChestYellow
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: мала скриня
+  description: Малий пластиковий ящик, обгорнутий захисними еластичними стрічками.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichest.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSmallChestBlue
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: мала скриня
+  description: Малий пластиковий ящик, обгорнутий захисними еластичними стрічками.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichestb.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSmallChestRed
-  name: small chest
-  description: A small plastic crate wrapped with securing elastic straps.
+  name: мала скриня
+  description: Малий пластиковий ящик, обгорнутий захисними еластичними стрічками.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minichestc.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSecureCaseMedicalSmall
-  name: small medcase
-  description: A small metal crate. Here, Freeman take this medkit!
+  name: малий медичний ящик
+  description: Малий металевий ящик. Ось, Фріман, візьми цей мед-набір!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minimedcase.rsi
@@ -319,8 +319,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCSecureCaseAmmoMini
-  name: small ammocase
-  description: A small metal crate. Here, Freeman ammo!
+  name: малий ящик для боєприпасів
+  description: Малий металевий ящик. Ось, Фріман, набої!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/miniammo.rsi
@@ -335,8 +335,8 @@
 - type: entity
   parent: RMCSmallChestYellow
   id: RMCCrateMini
-  name: small crate
-  description: The large supply crate's cousin, 1st removed.
+  name: малий ящик
+  description: Родич великого ящика для постачання... віддалений родич.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minicrate.rsi
@@ -357,8 +357,8 @@
 - type: entity
   parent: RMCCrateOpenableBase
   id: RMCSecureCaseMini
-  name: small case
-  description: A small hard-shell case. What could be inside?
+  name: малий кейс
+  description: Малий та міцний кейс. Що може бути всередині?
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/minicase.rsi

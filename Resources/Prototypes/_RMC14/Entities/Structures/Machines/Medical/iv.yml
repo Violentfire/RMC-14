@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: CMBaseStructureCorrodible
   id: CMIV
-  name: iv
-  description: Allows you to inject blood into a patient or extract blood from them to do a blood transfusion.
+  name: крапельниця
+  description: Дозволяє переливати кров пацієнту або забирати її для подальшого використання.
   suffix: IV, empty
   components:
   - type: Physics
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseItem
   id: CMBloodPack # TODO RMC14 blood types
-  name: пакет з кров'ю
-  description: Пакет крові. Містить рідину, яку зазвичай використовуються для переливання.
+  name: пакет крові
+  description: Пакет крові. Містить рідину, яку зазвичай використовують для переливання.
   suffix: CM, empty
   components:
   - type: BloodPack
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMBloodPack
   id: CMBloodPackFull # TODO RMC14 blood types
-  name: пакет з кров'ю
+  name: пакет крові
   suffix: CM, Full
   components:
   - type: SolutionContainerManager

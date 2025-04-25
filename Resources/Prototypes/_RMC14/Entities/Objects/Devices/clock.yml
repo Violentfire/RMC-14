@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCDigitalClock
-  name: digital clock
-  description: A battery powered clock, able to keep time within about 5 seconds... it was never that accurate.
+  name: цифровий годинник
+  description: Годинник на батарейках, що підтримує час з точністю до 5 секунд... хоча він ніколи не був таким точним.
   components:
   - type: Item
     size: Small
@@ -13,8 +13,8 @@
 
 - type: entity
   id: RMCCatClock
-  name: cat clock
-  description: An unbelievably creepy cat clock that surveys the room with every tick and every tock.
+  name: кіт-годинник
+  description: Надзвичайно лячний котячий годинник, що кидає погляд на всю кімнату з кожним тиком і текам.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

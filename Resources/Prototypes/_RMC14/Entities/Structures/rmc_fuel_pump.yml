@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: RMCFuelPump
-  name: fuel pump
-  description: It is a machine that pumps fuel around the ship.
+  name: паливний насос
+  description: Це насос, що перекачує пальне по всьому кораблю.
   placement:
     mode: SnapgridCenter
   components:
@@ -24,6 +24,8 @@
   - type: InteractionOutline
   - type: Clickable
   - type: EvacuationPump
+    activeSound:
+      path: /Audio/_RMC14/Machines/fuel_pump_active.ogg
   - type: ApcPowerReceiver
   - type: RMCPowerReceiver
     idleLoad: 5
@@ -40,7 +42,7 @@
       visible: false
   - type: Appearance
   - type: GenericVisualizer
-    visuals:      
+    visuals:
       enum.EvacuationPumpLayers.Layer:
         enum.EvacuationPumpLayers.Layer:
           Empty: { state: fuelpump_0 }
@@ -55,4 +57,3 @@
         unpowered:
           True: { visible: false }
           False: { visible: true }
-        

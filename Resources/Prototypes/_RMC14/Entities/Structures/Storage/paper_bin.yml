@@ -1,138 +1,109 @@
-- type: entity
-  parent: PaperBin
-  id: CMPaperBin
+﻿- type: entity
+  parent: BaseStructureDynamic
+  id: PaperBin
+  name: кошик для паперу
+  description: Які секрети ховаються на дні його нескінченної стопки?
   suffix: Empty
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Misc/paper.rsi
+    sprite: Objects/Misc/bureaucracy.rsi
     state: paper_bin0
     drawdepth: SmallObjects
     noRot: true
-  - type: Item
-    size: Normal
+  - type: Appearance
   - type: ItemMapper
-    sprite: _RMC14/Objects/Misc/paper.rsi
+    sprite: Objects/Misc/bureaucracy.rsi
     mapLayers:
       paper_bin1:
         whitelist:
           tags:
           - Document
           - Write
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.10,0.10,0.10"
+        density: 500
+        mask:
+          - TabletopMachineMask
+  - type: InteractionOutline
   - type: Bin
-    maxItems: 30
-  - type: InteractedBlacklist
-    blacklist:
-      components:
-      - Xeno
+    whitelist:
+      tags:
+      - Document
+      - Write
+  - type: ContainerContainer
+    containers:
+      bin-container: !type:Container
 
 - type: entity
-  parent: CMPaperBin
-  id: CMPaperBin5
+  parent: PaperBin
+  id: PaperBin5
   suffix: 5
   components:
   - type: Bin
     initialContents:
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
     whitelist:
       tags:
       - Document
       - Write
 
 - type: entity
-  parent: CMPaperBin
-  id: CMPaperBin10
+  parent: PaperBin
+  id: PaperBin10
   suffix: 10
   components:
   - type: Bin
     initialContents:
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
     whitelist:
       tags:
       - Document
       - Write
 
 - type: entity
-  parent: CMPaperBin
-  id: CMPaperBin20
+  parent: PaperBin
+  id: PaperBin20
   suffix: 20
   components:
   - type: Bin
     initialContents:
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    whitelist:
-      tags:
-      - Document
-      - Write
-
-- type: entity
-  parent: CMPaperBin
-  id: CMPaperBin30
-  suffix: 30
-  components:
-  - type: Bin
-    initialContents:
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
-    - CMPaper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
     whitelist:
       tags:
       - Document

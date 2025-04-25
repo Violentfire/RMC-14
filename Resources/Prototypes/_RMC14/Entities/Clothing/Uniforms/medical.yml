@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitCMO
-  name: chief medical officer's jumpsuit
-  description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: комбінезон головного лікаря
+  description: Комбінезон, який носять досвідчені медики, здатні очолити медвідділ. Забезпечує незначний захист від біологічних загроз.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/cmo.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitResearch
-  name: reseacher clothes
-  description: A simple set of civilian clothes worn by researchers.
+  name: спецодяг дослідника
+  description: Простий комплект цивільного одягу, який носять дослідники.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/research.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMScrubsBlue
-  name: blue medical scrubs
-  description: They're made of a special fiber that provides minor protection against biohazards. These are in blue.
+  name: синій медичний костюм 
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. А також він синій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/blue.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: CMScrubsGreen
-  name: green medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in dark green.
+  name: зелений медичний костюм
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Він темно-зелений.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/green.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: CMScrubsPurple
-  name: purple medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in purple.
+  name: фіолетовий медичний костюм
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Цей костюм фіолетовий.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/purple.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: CMScrubsOrange
-  name: orange medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in prisoner orange.
+  name: оранжевий медичний костюм
+  description: "Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Цей костюм в'язничний оранжевий."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/orange.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: RMCScrubsLightBlue
-  name: light blue medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in light blue.
+  name: світло-синій медичний костюм
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Цей костюм світло-синій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/lightblue.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: RMCScrubsOlive
-  name: olive medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in olive green.
+  name: оливковий медичний костюм
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Цей костюм оливково-зелений.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/olive.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMScrubsBlue
   id: RMCScrubsGrey
-  name: grey medical scrubs
-  description: It's made of a special fiber that provides minor protection against biohazards. This one is in mundane grey.
+  name: сірий медичний костюм
+  description: Цей медичний костюм зроблений з особливого волокна, що надає мінімальний захист від біологічних небезпек. Цей костюм буденно сірий.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Scrubs/grey.rsi

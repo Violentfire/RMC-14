@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: RMCPodDoorButton
-  name: button
-  description: A remote control-switch for a door.
+  name: кнопка
+  description: Кнопка для керування дверима.
   placement:
     mode: SnapgridCenter
     snap:
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonBigRed
-  name: button
-  description: A remote control-switch for a door.
+  name: кнопка
+  description: Кнопка для керування дверима.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/door_button_br.rsi
@@ -37,9 +37,9 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonWeYa
-  name: button
+  name: кнопка
   suffix: locked, weya
-  description: A remote control-switch for a door.
+  description: Кнопка для керування дверима.
   components:
   - type: AccessReader
     access: [ [ "RMCAccessWeYa" ] ]
