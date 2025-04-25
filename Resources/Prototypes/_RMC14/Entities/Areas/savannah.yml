@@ -267,6 +267,10 @@
   - RMCAreaSavannahCommand
   id: RMCAreaSavannahIO
   name: IO office
+  components:
+  - type: Area
+    zLevel: 1
+    retrieveItemObjective: true
 
 # MEDICAL
 
