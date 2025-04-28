@@ -1,52 +1,52 @@
-﻿<Document>
-  # General roleplay standards
+<Document>
+  # Загальні стандарти рольової гри
 
 
-  ## Character memory
-  - Your personal character may remember events that occured in previous missions and discuss them, but may not mention their own death or the death of another present character.
-  - Marine specific knowledge can be found in [textlink="marine roleplay standards." link="RMCMarineRoleplayStandards"]
+  ## Пам’ять персонажа
+  - Ваш персонаж може пам’ятати події з попередніх місій і згадувати їх у розмовах. Однак згадувати власну смерть чи смерть іншого персонажа, який присутній у раунді - заборонено.
+  - Детальні правила для морпіхів читайте в [textlink="стандартах рольової гри морпіхів." link="RMCMarineRoleplayStandards"]
 
-  ## Act like an actual character in this setting.
-  - Do not use text speak or emoticons in character, and do not refer to out of character things like admins or rounds in-game.
-  - Do not reference memes in character, on any faction, including substituting letters on a meme as a Xenonid.
-  - Do not use emotes or local out of character to bypass speech filters or muteness.
-  - You are not required to write a backstory; however, you are expected to at least make an effort to act like your role.
-  - Some actions have no delay to make gameplay like reloading smoother. Do not abuse this to spam any kind of sounds.
-  - Use [textlink="acceptable character names." link="RMCCharacterNames"]
+  ## Поводьтесь як реальний персонаж цього світу
+  - Заборонено використовувати інтернет-сленг (типу лол, кек), смайлики, або згадувати позагрові речі на кшталт адміністраторів, раундів тощо.
+  - Заборонено згадувати меми, навіть у видозміненому вигляді, незалежно від фракції (навіть ксеноморфи).
+  - Заборонено використовувати чат дій або LOOC, щоби обходити фільтри мовлення або німу.
+  - Ви не зобов’язані мати повну біографію, але очікується, що ви відіграватимете свою роль хоч із базовим підходом.
+  - Деякі дії не мають затримок для зручності гри (наприклад, перезарядка). Не зловживайте цим, щоби створювати шум, спамити діями або поводитись неадекватно.
+  - Імена персонажів мають відповідати [textlink="допустимим нормам." link="RMCCharacterNames"]
 
-  ## Suicides
-  - You must have a valid roleplay reason to commit suicide.
-  - Starting and then cancelling a suicide will be treated the same as an actual suicide, and also requires a valid reason.
-  - Suiciding at round-end without a valid roleplay reason will be considered end-of-round grief and result in the same ban.
+  ## Самогубства
+  - У вас повинна бути вагома рольова причина, щоб покінчити життя самогубством.
+  - Якщо ви розпочали самогубство, а потім скасували, це все одно розглядається як спроба самогубства й потребує обґрунтування.
+  - Самогубство в кінці раунду без причини вважається мудацтвом і карається відповідно.
 
-  [bold]If you are not sure if you have a valid reason, AHelp (F1) to ask.[/bold]
+  [bold]Не впевнені - використовуйте AHelp (F1), щоб запитати.[/bold]
 
-  [bold]Valid suicide examples:[/bold]
-  - Suiciding as a survivor in a last stand scenario, when it is clear that you will be captured by xenonids and there is no hope of fighting back.
-  - Suiciding to avoid being captured by a hostile force.
-  - Suiciding if you fail to evac in a post-hijack evacuation of the Almayer.
+  [bold]Приклади допустимого самогубства:[/bold]
+  - Самогубство вижившого в ситуації останнього бою, коли очевидно, що ви будете роздавлені ксеноморфами, і не маєте шансів на перемогу.
+  - Самогубство, щоб уникнути полону ворожими силами.
+  - Самогубство під час евакуації після викрадення шатлу, якщо ви не встигли на евакуацію.
 
-  [bold]Not valid suicide examples:[/bold]
-  - Suiciding at round end without a valid roleplay reason. Going out after a victory is not a valid reason.
-  - Suiciding in briefing.
-  - Suiciding to spite someone or because you want to stop playing the round.
-  - Suiciding after receiving bad orders.
-  - Suiciding at round-start because you didn't get the role you wanted.
-  - Suiciding at memorial in remembrance of fallen marines.
-  - Suiciding because you are wounded.
+  [bold]Недопустимі приклади:[/bold]
+  - Самогубство в кінці раунду без РП-причини (навіть "героїчна смерть" після перемоги - не причина).
+  - Самогубство під час брифінгу.
+  - Самогубство, щоб насолити іншому гравцеві або стало нудно.
+  - Самогубство після отримання поганого наказу.
+  - Самогубство на початку раунду, тому що ви не отримали ту роль, яку хотіли.
+  - Самогубство біля меморіалу пам’яті про полеглих.
+  - Здійснювати самогубство, тому що ти поранений.
 
-  ## Metagaming/Powergaming
+  ## Метагейм/Паверґейм
 
-  Some parts of the game cannot be covered by mechanics to ensure proper roleplay and balance.
+  Деякі речі в грі не можна охопити механікою, тому діють правила задля збереження РП і балансу.
 
-  - Surrounding an objective structure such as towers or APCs entirely with reinforced walls to prevent Xenonids attacking it [bold]without T3s[/bold] is not allowed. This is usually only relevant in the early game.\nWalls can be used to cover most of the object, however there must remain access for other xenos IE barricades.\nThis rule is no longer applied as soon as a T3 Xenonid has been witnessed.
-  - Xenonids also cannot surround an objective structure or APC entirely with walls, but can make an accessible room of it with a resin door. A room at minimum should have a tile of walkable space around the structure, with the spirit of the rule being that you are building a base that includes the structure, not encasing it in resin solely for out of character gameplay purposes.
-  - Exploitation of any current game bugs. You can ask in ahelp if something is a bug to avoid this.
-  - Xenonids may not intentionally build on top of revivable player corpses with the [bold]intent[/bold] to hide corpses.
+  - Заборонено повністю оточувати важливу структуру (наприклад, телекомунікаційну вежу або ЗКЖ) армованими стінами, щоб ксеноморфи не могли атакувати її без [bold]Т3 юнітів[/bold]. Зазвичай це актуально лише на початку гри.\nМожна закривати зону частково армованими стінами, залишаючи прохід з барикад.\nЦя заборона втрачає силу, щойно на карті з’являється хоча б один T3-ксеноморф.
+  - Ксеноморфам також заборонено повністю закривати важливі об’єкти для морпіхів (наприклад, телекомунікаційні вежі або ЗКЖ) смоляними стінами, але можуть зробити з них доступну кімнату за допомогою смоляних дверей. Ви маєте залишити принаймні одну клітинку вільного простору навколо структури. Принцип: ви будуєте базу, а не консервуєте об’єкт винятково задля переваги.
+  - Заборонено навмисно використовувати баги гри. Якщо не впевнені чи це баг - спитайте через AHelp.
+  - Ксеноморфам заборонено навмисно будувати поверх тіл гравців, які підлягають реанімації, з [bold]наміром[/bold] приховати їх.
 
-  [bold]Below is a list of common questions.[/bold]
+  [bold]Часті запитання.[/bold]
 
-  - Using an external program to calculate coordinate locations is permitted.
-  - Xenonids may kill anyone, anywhere, for any reason, provided it is not detrimental to the hive. (i.e killing someone who could easily be infected, or is infected.)
+  - Дозволяється використовувати сторонні програми для обчислення координат.
+  - Ксеноморфи можуть убити будь-кого, будь-де, з будь-якої причини, якщо це не завдасть шкоди вулику. (наприклад, не вбивати заражених чи потенційних носіїв.)
 
 </Document>

@@ -1,43 +1,42 @@
-﻿<Document>
+<Document>
 
-  # Character Names
+  # Імена персонажів
 
-  [italic]Admin rulings on IC names are final and disputes should be done through the forums, not by refusing to comply with an admin.[/italic]
+  [italic]Рішення адміністратора щодо назв IC є остаточними, і суперечки повинні вирішуватися на форумах, а не шляхом відмови підкоритися адміністратору.[/italic]
 
-  ## Use realistic names, avoid names of real people and characters
-  [italic]Non-human characters have leeway with their own naming formats, listed in character naming formats.[/italic]
-  - Pick a realistic name that could appear on a birth certificate with at least a first and last name.
-  - No names or references of people or characters from the real world.
-  - No titles/honorifics. Titles and honorifics include but are not limited to; Dr/Doctor, Jr/Junior, Major.
-  - Names must follow all other rules (no slurs/sexual names/etc)
-  - Usernames, objects, random characters, very "low effort" names, "meta" names, or otherwise implausible names cannot be used as names.
-  - Up to two characters of Roman numerals may be used.
+  ## Використовуйте реалістичні імена персонажів і не використовуйте імена відомих людей та відомих вигаданих персонажів
+  [italic]Нелюдські раси мають більше свободи у форматі імен, згідно з правилами, наведеними нижче.[/italic]
+  - Ім’я має бути реалістичним, таким, яке могло би з’явитися у свідоцтві про народження - з іменем та прізвищем.
+  - Заборонено використовувати імена/посилання на відомих людей, історичних постатей або персонажів з фільмів, ігор тощо.
+  - Ім’я персонажа не повинно містити жодних звань, професійних титулів чи звертань. Приклад: Лікар, Лейтенант, Вбивця, тощо.
+  - Повинні відповідати всім іншим правилам (жодних образливих/сексуальних назв тощо)
+  - Не можна використовувати імена користувачів, об'єктів, випадкових символів, дуже "легкі" імена, метаімена або інші неправдоподібні імена.
+  - Допускається використання до двох римських цифр у складі імені.
 
-  ## Nicknames
-  [italic]Any character may use the human name format.[/italic]
-  - Nicknames may only be applied to human name format.
-  - They may be used in the format of, in single quotes, [bold]Firstname 'Nickname' Lastname[/bold].
-  - Nicknames can be at most two words.
+  ## Прізвиська
+  [italic]Кожен персонаж може використовувати формат імені людини.[/italic]
+  - Прізвиська можна використовувати лише у форматі людських імен.
+  - Їх можна використовувати у форматі, взятому в одинарні лапки [bold]Ім’я 'Прізвисько' Прізвище[/bold].
+  - Прізвисько може містити не більше двох слів.
 
-  ## Character Naming Formats
-  [italic]Any character may use the human name format. Characters sharing naming formats with another species otherwise should have an in-character lore reasoning. For species not requiring a last name, the first name should be exotic to warrant such.[/italic]
-  - Humans, Felinids, Vulpkanin: The standard naming format. [bold]Firstname Lastname[/bold] "John Smith"
-  - Dwarves: Similar to the human name format, with a viking theme. Try using the randomiser. [bold]Firstname Lastname[/bold] "Erik Lightningclaw"
-  - Reptilians/Lizards: Exotic names, try using the randomiser. A last name is optional. [bold]Name1-Name2[/bold] "Beewos-Azala"
-  - Reptilians/Lizards: (Second common) usually related to the character's interests. [bold]Verb-article-noun[/bold] "Fights-The-Wars"
-  - Diona: Nature themed. [bold]Noun of Noun[/bold] "The Flower of Union"
-  - Moth use latin or light themed names. A last name is optional. [bold]Firstname Lastname[/bold] "Lucy Emperor"
-  - Arachnids use latin themed names. A last name is optional. [bold]Firstname Lastname[/bold] "Spiroctenus Triangularis"
-  - Avali use exotic single names and can include a last name with a dash. Try the randomiser. [bold]Firstname-Lastname[/bold] "Ralomi" "Ralomi-Jasyo"
-  - Rodentia use simple names that consist of an adjective, and a single name. The adjective is optional. [bold]Adjective Firstname[/bold] "Shifty Fin"
-  - Slime-People use the standard naming format. A last name is optional. [bold]Firstname Lastname[/bold] "John Smith"
+  ## Формати імен за расами
+  [italic]"Усі персонажі можуть використовувати людський формат. Якщо персонаж має ім’я іншої раси - має бути пояснення в лорі. Якщо в імені лише одне слово - воно повинне бути екзотичним."[/italic]
+  - Люди, фелініди, вульпканіни: стандартний формат [bold]Ім'я Прізвище[/bold]. (наприклад: Том Фішер)
+  - Дворфи: як у людей, але з вікінговим ухилом [bold]Ім'я Прізвище[/bold]. (наприклад: Ерік Блискавичний)
+  - Унатхи: відображає його рідне походження [bold]Ім'я-НазваКлану[/bold]. (наприклад: Ріт-Скеі)
+  - Діони: зазвичай мають спокійні, природні імена в стилі [bold]іменника від іменника[/bold]. (наприклад: Пелюстка спокою)
+  - Ніани: зазвичай використовують латинські імена або легкі тематичні назви [bold]Ім'я Прізвище[/bold]. (наприклад: Сократ Темнора)
+  - Арахніди: зазвичай використовують латинські назви павукоподібних [bold]Ім'я Прізвище[/bold]. (наприклад: Аргюронета Ретікулатус)
+  - Авалі: зазвичай використовують імена, що мають м’яке звучання, з акцентом на гармонійне поєднання складів та екзотичність. Імена не містять додаткових слів, таких як прізвища чи описові частини. [bold]Ім'я[/bold]. (наприклад: Номі)
+  - Роденти: прості імена, можливий [bold]Прикметник Ім'я[/bold]. (наприклад: Вухастий Макс)
+  - Слаймолюди: зазвичай використовують таку саму структуру як і в людей [bold]Ім'я Прізвище[/bold]. (наприклад: Фольп Сууб)
 
-  ## Artificial Womb Soldiers
-  [italic]These soldiers do not have any biological parents who have passed along their last name to them. Instead these soldiers have been assigned a regular first name, the AW initials as a middle name and a weapon as their surname.[/italic]
-  - May only be applied to human name format. Any character may use the human name format.
-  - As an AW Soldier you MUST have a weapon as your last name.
-  - This weapon needs to have been used/developed before or during 1975 or earlier. (Vulcan, Sword, etc.)
-  - For example; James AW Sword
+  ## Штучно створені (ШС) солдати
+  [italic]Такі солдати не мають біологічних батьків і отримують спеціальні імена.[/italic]
+  - Можуть використовувати лише людський формат імені.
+  - Ініціали ШС як середнє ім’я.
+  - Назву зброї, яка використовувалася або була створена до 1975 року. (Меч, Автомат, тощо.)
+  - Приклад: Джейк ШС Вогнемет
 
 
 </Document>

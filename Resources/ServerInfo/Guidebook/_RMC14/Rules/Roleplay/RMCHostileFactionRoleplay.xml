@@ -1,14 +1,14 @@
-﻿<Document>
-  # Hostile Faction Roleplay Standards
-  You do not have rules of engagement and may fire at and be hostile to Marine forces if:
-  - You have not surrendered.
-  - You have not accepted medical aid from the Marines, or been revived by them.\nYou may attempt to escape without combat and resume hostile activities when out of sight.
-  - You have not changed your faction uniform.
-  - You have remained hostile to Marine forces.\nPretending not be hostile will be counted as surrendering, unless it is for the sake of first contact negotiations which result in hostilities.
+<Document>
+  # Стандарти рольової гри для ворожих фракцій
+  На вас не діють правила ескалації. Ви можете відкривати вогонь і поводитись агресивно щодо морпіхів, якщо дотримуєтесь наступних умов:
+  - Ви не здалися.
+  - Ви не прийняли медичну допомогу від морпіхів або вас не було реанімовано ними.\nВтеча без бою не вважається капітуляцією - ви можете залишатись ворожими після цього.
+  - Ви не змінили уніформу на іншу фракцію.
+  - Ви зберігаєте ворожу поведінку щодо морпіхів.\nІмітація неагресивної поведінки буде розцінюватись як капітуляція, якщо вона не є частиною першого контактного переговорного процесу, що переходить у ворожість.
 
-  [bold]Exceptions[/bold]
+  [bold]Винятки[/bold]
 
-  - If captured, you may attempt to start a prison riot when in the brig, to escape and resume hostile intentions. This does not require permission if you are a hostile faction member.
+  - Якщо вас взяли в полон, ви можете спробувати влаштувати бунт в бригу, щоби втекти й продовжити ворожі дії. Для цього не потрібен дозвіл, якщо ви належите до ворожої фракції.
 
-  - If you are a hostile force attacking the Marines prior to hijack, [color=#ff0000]attacking newly spawned players in cryo is forbidden, let them have a chance to gear up before you attack them![/color] Avoiding the cryo rooms unless the Marines are using them as cover will be enough.
+  - Якщо ви нападаєте на морпіхів до викрадення шатлу, однак [color=#ff0000]заборонено атакувати нових гравців, які щойно з'явилися у кріо-кімнатах. Дайте їм час екіпіруватися перед боєм![/color] Уникайте кімнат з кріо-капсулами, якщо тільки морпіхи самі не використовують їх як укриття.
 </Document>
