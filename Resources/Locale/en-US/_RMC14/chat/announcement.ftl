@@ -1,5 +1,5 @@
 rmc-announcement-author = Командування
-rmc-announcement-author-highcommand = Вище Командування
+rmc-announcement-author-highcommand = Вище Командування КМПОН
 rmc-announcement-message = [font size=16][bold][color=#CECECE]Оголошення {$author}[/color][/bold][/font][font size=16][color=red]
 
     {$message}
@@ -40,15 +40,15 @@ rmc-announcement-dropship-message = [color=#CECECE][font size=16][bold]Пові�
 rmc-announcement-emergency-dropship-crash = [font size=16][bold][color=#CECECE]АВАРІЙНА СИТУАЦІЯ[/color][/bold][/font][font size=16][color=red]
   ТРАНСПОРТНИК ЙДЕ НА ЗІТКНЕННЯ. ПРИГОТУЙТЕСЯ ДО УДАРУ.[/color][/font]
 
-rmc-announcement-delta = [color=#CECECE][font size=16][bold]SELF-DESTRUCT SYSTEMS ACTIVE[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-delta = [color=#CECECE][font size=16][bold]СИСТЕМА САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО[/bold][/font][/color][color=red][font size=16][bold]
 
-     DANGER, THE EMERGENCY DESTRUCT SYSTEM IS NOW ACTIVATED. PROCEED TO THE SELF-DESTRUCT CHAMBER FOR CONTROL ROD INSERTION.[/bold][/font][/color]
+     НЕБЕЗПЕКА. АВАРІЙНУ СИСТЕМУ САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО. ПРОСЛІДУЙТЕ ДО ВІДСІКУ САМОЗНИЩЕННЯ ДЛЯ ВСТАВЛЕННЯ СТЕРЖНЯ КЕРУВАННЯ.[/bold][/font][/color]
 
-rmc-announcement-general-quarters = ATTENTION! GENERAL QUARTERS. ALL HANDS, MAN YOUR BATTLESTATIONS.
+rmc-announcement-general-quarters = УВАГА! ТРИВОГА. УСІМ ПРОЙТИ ДО СВОЇХ БОЙОВИХ ПОСТІВ.
 
-rmc-announcement-dropship-hijack = Unscheduled dropship departure detected from operational area. Hijack likely. Shutting down autopilot.
+rmc-announcement-dropship-hijack = Незапланований виліт десантного шатлу зафіксовано. Ймовірне захоплення. Автопілот вимкнено.
 
-rmc-announcement-dropship-hijack-hive = The Queen has commanded the metal bird to depart for the metal hive in the sky! Rejoice!
+rmc-announcement-dropship-hijack-hive = Королева веліла металевому птаху нести нас до вулика на небесах! Святкуймо!
 
 rmc-announcement-ares-command = [color=#CECECE][font size=16][bold]ARES v3.2[/bold][/font][/color][color=red][font size=16]
 
