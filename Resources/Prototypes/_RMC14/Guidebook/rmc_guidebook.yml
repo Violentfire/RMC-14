@@ -1,4 +1,4 @@
-﻿- type: guideEntry
+- type: guideEntry
   abstract: true
   id: RMC
   isCM: true
@@ -18,7 +18,7 @@
 - type: guideEntry
   parent: RMC
   id: RMCGuideNewPlayer
-  name: "New Player Guide"
+  name: "Довідник для нових гравців!"
   text: "/ServerInfo/Guidebook/_RMC14/RMCGuideNewPlayer.xml"
   children:
   - RMCGuideRoleRifleman
@@ -31,42 +31,42 @@
   parent: RMC
   id: RMCGuideRoleRifleman
   priority: 0
-  name: "Rifleman Guide"
+  name: "Довідник Стрільця"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleRifleman.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleDrone
   priority: 1
-  name: "Drone Guide"
+  name: "Довідник Трутня"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleDrone.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleCombatTechnician
   priority: 2
-  name: "Combat Technician"
+  name: "Бойовий Технік"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleCombatTechnician.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideCommunicationsTowers
   priority: 3
-  name: "Communications Towers Guide"
+  name: "Телекомунікаційні та Сенсорні Вежі"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideCommunicationsTowers.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleMaintenanceTechnician
   priority: 4
-  name: "Maintenance Technician"
+  name: "Обслуговуючий Інженер"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleMaintenanceTechnician.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCMedical
   priority: 5
-  name: "Medical"
+  name: "Медицина"
   text: "/ServerInfo/Guidebook/_RMC14/Medical/RMCMedical.xml"
   children:
   - RMCChemicals
@@ -75,12 +75,12 @@
   parent: RMC
   id: RMCRequisitions
   priority: 6
-  name: "Requisitions"
+  name: "Постачання"
   text: "/ServerInfo/Guidebook/_RMC14/RMCRequisitions.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCIntel
   priority: 7
-  name: "Intel"
+  name: "Розвідка"
   text: "/ServerInfo/Guidebook/_RMC14/RMCIntel.xml"

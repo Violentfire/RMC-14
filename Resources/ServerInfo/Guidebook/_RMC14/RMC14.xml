@@ -1,25 +1,26 @@
-﻿<Document>
-  #RMC-14 Guidebook
+<Document>
+  #Довідник RMC-14
 
-  Welcome to RMC-14.
+  Ласкаво просимо в RMC-14!
 
-  This is a MRP server inspired by CM13, in the new SS14 engine!
+  Це сервер із середнім рівнем рольового відіграшу (MRP), натхненний CM13, але вже на новому рушії SS14!
 
-  The guidebook, roadmap and rules for the game can be found on the lobby screen, and at any point in the escape menu.
+  Довідник, плани на майбутнє та правила гри можна знайти на екрані лобі перед початком гри, а також у будь-який момент через меню (Escape).
 
-  Click any of the tabs on the left to learn about RMC14 and it's unique content.
+  Натисніть на будь-яку вкладку ліворуч, щоб дізнатися більше про RMC-14 та його унікальний контент.
 
-  Be sure to read the rules if you haven't already.
-  - [textlink="The rules" link="RMCOverview"]
+  Спершу прочитайте правила, якщо ви цього раніше ще не зробили.
+  - [textlink="Правила серверу" link="CMOverview"]
 
-  New to RMC-14, SS14, or have no CM13 experience? Be careful! A lot of mechanics and values are not the same as SS14.
-  - [textlink="New player guide!" link="RMCGuideNewPlayer"]
+  Ви вперше на RMC-14 або не маєте досвіду гри в CM13? Будьте обережні! Більшість механік і визначень відрізняються від класичної SS14.
+  (Якщо ви лише починаєте грати в SS14, ми радимо спершу прочитати довідник та спробувати інший сервер для засвоєння основ керування - наш проєкт трохи складніший.)
+  - [textlink="Довідник для нових гравців!" link="RMCGuideNewPlayer"]
 
-  Have some experience? Check out these guidebook pages!
-  - [textlink="Medical" link="RMCMedical"]
-  - [textlink="Medicines" link="RMCMedicine"]
-  - [textlink="Requisitions" link="RMCRequisitions"]
-  - [textlink="Communications towers and senor towers" link="RMCGuideCommunicationsTowers"]
-  - [textlink="Combat Technician" link="RMCGuideRoleCombatTechnician"]
-  - [textlink="Maintenance Technician" link="RMCGuideRoleMaintenanceTechnician"]
+  Маєте досвід? Тоді перегляньте ці сторінки з довідника!
+  - [textlink="Медицина" link="RMCMedical"]
+  - [textlink="Ліки" link="CMMedicine"]
+  - [textlink="Постачання" link="RMCRequisitions"]
+  - [textlink="Телекомунікаційні та Сенсорні Вежі" link="RMCGuideCommunicationsTowers"]
+  - [textlink="Бойовий Технік" link="RMCGuideRoleCombatTechnician"]
+  - [textlink="Обслуговуючий Інженер" link="RMCGuideRoleMaintenanceTechnician"]
 </Document>
