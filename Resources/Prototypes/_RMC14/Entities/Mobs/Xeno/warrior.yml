@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoWarrior
-  name: Warrior
-  description: A beefy alien with an armored carapace.
+  name: Воїн
+  description: Кремезний інопланетянин у броньованому панцирі.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-warrior

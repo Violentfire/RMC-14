@@ -3,7 +3,7 @@
   - CMXenoUndeveloped
   - CMXenoFlammable
   id: CMXenoLarva
-  name: Larva
+  name: Личинка
   components:
   - type: GhostRole
     name: cm-job-name-xeno-larva

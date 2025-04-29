@@ -7,8 +7,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoPraetorianBase
-  name: Praetorian
-  description: A huge, looming beast of an alien.
+  name: Преторіанець
+  description: Величезний, загрозливий інопланетний звір.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-praetorian
@@ -88,7 +88,7 @@
   - type: RMCSize
     size: Big
   - type: RMCXenoDamageVisuals
-    prefix: praetorian
+    prefix: преторіанець
   - type: XenoSpit
     projectileId: XenoSpitProjectilePraetorian
   - type: XenoSprayAcid
@@ -148,7 +148,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianValkyrie
-  suffix: Valkyrie
+  suffix: Валькірія
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Praetorian/valkyrie_praetorian.rsi
@@ -214,7 +214,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianDancer
-  suffix: Dancer
+  suffix: Танцюрист
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Praetorian/dancer_praetorian.rsi
@@ -249,7 +249,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianVanguard
-  suffix: Vanguard
+  suffix: Авангард
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Praetorian/vanguard_praetorian.rsi
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianOppressor
-  suffix: Oppressor
+  suffix: Гнобитель
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Praetorian/oppressor_praetorian.rsi

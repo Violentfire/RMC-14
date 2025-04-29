@@ -1,64 +1,64 @@
 ﻿<Document>
-  # RMC-14 Rules
+  # Правила RMC-14
 
-  [color=#ff0000][bold]If you are unable to click any links, use the in-game guidebook version, in the escape menu.[/bold][/color]
+  [color=#ff0000][bold]Якщо ви не можете натиснути на жодне посилання, скористайтеся внутрішньоігровою версією посібника, яку можна знайти в меню, що відкривається клавішею "Esc".[/bold][/color]
 
-  [italic]RMC is a roleplaying game with team deathmatch elements. This means players are expected, to an extent, to pretend their character is part of this world in their actions and words. This is the intended experience, and the experience the players of RMC enjoy, and is not always about winning.[/italic]
+  [italic]RMC - це рольова гра з елементами командного смертельного бою. Це означає, що гравці повинні певною мірою вдавати, що їхній персонаж є частиною цього світу у своїх діях і словах. Це той досвід, який гравці отримують від RMC, і він не завжди пов'язаний з перемогою.[/italic]
 
-  ## Recent Changes
-  Read the relevant sections for the entire text.
-  - [textlink="(Xgaming)" link ="RMCGeneralRoleplayStandards"] Xenonids may not intentionally build on top of revivable player corpses with the [bold]intent[/bold] to hide corpses.
-  - [textlink="(Standard Operating Procedure)" link ="RMCMarineSOPNONModDeployment"] All civilian personnel, excluding recovered personnel [bold]require permission[/bold] from the Commander to deploy.
-  - [textlink="(Standard Operating Procedure)" link ="RMCMarineSOPNONModDepartment"]  Equipment from personal job-specific vendors may not be awarded or otherwise handed out. See full text for details.
+  ## Останні зміни
+  Повний текст читайте у відповідних розділах.
+  - [textlink="(Xgaming)" link ="RMCGeneralRoleplayStandards"] Ксеноніди не мають права навмисно зводити споруди на тілах гравців, придатних до реанімації, з [bold]метою[/bold] приховування.
+  - [textlink="(Стандартна Операційна Процедура)" link ="RMCMarineSOPNONModDeployment"] Усі цивільні особи, окрім евакуйованого персоналу, [bold]повинні отримати дозвіл[/bold] від командира для висадки.
+  - [textlink="(Стандартна Операційна Процедура)" link ="RMCMarineSOPNONModDepartment"]  Обладнання з особистих автоматів, що відповідають за конкретні ролі, не може бути надано або передано іншим особам. Для деталей зверніться до повного тексту.
 
-  ## Admin Decisions Are Final.
-  - Rules are enforced as intended. Every example of a rule break cannot be written, thus enforcement is subject to admin interpretation of the rule's intention.
-  - Admins may handle rule breaks through in-character consequences at their discretion. This does not apply to zero tolerance rules, and rule breaks may not be requested to be handled this way.
-  - Do not argue with the staff. You may file an appeal if you feel the decision to be incorrect, not ignore it.
+  ## Рішення Адміністрації є Остаточними.
+  - Правила виконуються відповідно до їхнього призначення. Оскільки неможливо описати всі приклади порушень, застосування правил залежить від інтерпретації їх наміру адміністрацією.
+  - Адміністратори мають право  вирішувати порушення правил у межах ігрового процесу на власний розсуд. Однак це не стосується правил з нульовою толерантністю, і порушення цих правил не можуть бути вирішені таким чином за запитом.
+  - Не сперечайтеся з персоналом. Якщо ви вважаєте рішення адміністрації неправильним, подайте апеляцію, а не ігноруйте його.
 
-  ## Important notes
+  ## Важливі примітки
 
-  Heavily avoid using a VPN or any similar program to connect or while connected to RMC. You are putting your account at risk, which may result in your account being permanently banned.
-  If you have a legitimate reason to use a VPN, you must attempt at least once to connect to the server without a VPN before requesting an exemption for it.
+  Наполегливо уникайте використання VPN або будь-якої подібної програми для підключення або під час підключення до RMC. Ви піддаєте свій обліковий запис ризику, що може призвести до постійного бану вашого облікового запису.
+  Якщо у вас є законна причина для використання VPN, ви повинні принаймні один раз спробувати підключитися до сервера без VPN, перш ніж подавати запит на виняток для нього.
 
-  ## General Information
-  Disconnecting from or ignoring/evading admin-helps will result in action being taken.
-  This is to prevent bad actors from avoiding issues. If you need to leave urgently, let us know and it will be considered in your appeal.
+  ## Загальна інформація
+  Відключення від гри або ігнорування/уникнення відповіді на звернення адміністрації призведе до відповідних дій.
+  Це зроблено для того, щоб запобігти униканню відповідальності з боку порушників. Якщо вам потрібно терміново покинути гру, повідомте нас, і це буде враховано під час розгляду вашої апеляції.
 
-  - [bold]These rules are not the same as other servers, should be read in their entirety.[/bold]
-  - [textlink="Ban Types and Durations" link="RMCBanTypes"]
+  - [bold]Ці правила не такі, як на інших серверах, їх слід читати в повному обсязі.[/bold]
+  - [textlink="Типи Банів та їх Тривалість" link="RMCBanTypes"]
 
-  ## Zero Tolerance Rules
-  You are liable to be banned without warning for breaking these rules.
-  - [textlink="Click here to read the zero tolerance rules." link="RMCZeroTolerance"]
+  ## Правила нульової толерантності
+  За порушення цих правил ви можете бути заблоковані без попередження.
+  - [textlink="Натисніть тут, щоб прочитати правила нульової толерантності." link="RMCZeroTolerance"]
 
-  ## Core Rules
-  These are the general rules of RMC14. Click them for more information.
-  - [textlink="1. This is a English server, please only use English." link="RMCLanguage"]
-  - [textlink="2. Do not use multiple accounts, or alt accounts, and do not share accounts." link="RMCMultikey"]
-  - [textlink="3. Follow the rules of escalation against non-hostiles." link="RMCRulesEscalation"]
-  - [textlink="4. Don't use information gained from outside your character's knowledge." link="RMCMetaknowledge"]
-  - [textlink="5. Don't antagonize your team, don't harass players." link="RMCKindness"]
-  - [textlink="6. Don't quit a command level role without notice." link="RMCCommandRoles"]
-  - [textlink="7. Mutinies, riots and similar activity require admin permission." link="RMCMutinies"]
-  - 8. Don't disconnect if you do not get the role/kit you want, be considerate.
-  - 9. Follow the roleplay rules and standards of the server. (Outlined at the bottom of this page)
+  ## Основні правила
+  Це загальні правила RMC14. Клікніть на них для отримання додаткової інформації.
+  - [textlink="1. Це український сервер, будь ласка, використовуйте лише українську мову." link="RMCLanguage"]
+  - [textlink="2. Не використовуйте кілька акаунтів або альт-акаунтів, а також не діліться акаунтами." link="RMCMultikey"]
+  - [textlink="3. Дотримуйтесь правил ескалації проти неворожої сторони." link="RMCRulesEscalation"]
+  - [textlink="4. Не використовуйте інформацію, отриману поза межами знань вашого персонажа." link="RMCMetaknowledge"]
+  - [textlink="5. Не провокуйте свою команду, не переслідуйте гравців." link="RMCKindness"]
+  - [textlink="6. Не звільняйтеся з керівної посади без попередження." link="RMCCommandRoles"]
+  - [textlink="7. Заколоти, заворушення та подібні дії вимагають дозволу адміністратора." link="RMCMutinies"]
+  - 8. Не відключайтесь, якщо не отримали бажану роль/набір, будьте ввічливими.
+  - 9. Дотримуйтесь правил і стандартів рольової гри на сервері. (Описано внизу цієї сторінки)
 
-  ## Command and Military Police
-  These rules also apply to any individual who is promoted or is acting in the place of a MP/Command role (unless they are a member of a hostile force).\n[italic]Command roles are defined as; all heads, cic staff, mp, and squad leaders.[/italic]
-  - [textlink="1. Command and MP must follow Marine Law." link="RMCMarineLaw"]
-  - [textlink="2. Command and MP are held to a higher standard of play." link="RMCHigherStandards"]
-  - [textlink="3. MP should try to remain non-lethal and effect arrests, except in specific special circumstances." link="RMCLethalForce"]
-  - [textlink="4. MP will be expected to answer for use of lethal force." link="RMCLethalForceConsequences"]
-  - Only a whitelisted CO or Provost may pardon a sentence, but appeals can be done. See marine law.
+  ## Командування і Військова Служба Правопорядку
+  Ці правила також застосовуються до будь-якої особи, яка отримує підвищення або діє замість члена ВСП/Командування (якщо вона не є членом ворожих сил).\n[italic]Командні ролі визначаються як: всі керівники, співробітники БІЦ, ВСП та лідери загонів.[/italic]
+  - [textlink="1. Командування та ВСП повинні дотримуватися Морського Закону." link="RMCMarineLaw"]
+  - [textlink="2. Командний і ВСП мають більш високі стандарти гри." link="RMCHigherStandards"]
+  - [textlink="3. ВСП повинні намагатися залишатись нелетальними і здійснювати арешти, за винятком особливих випадків." link="RMCLethalForce"]
+  - [textlink="4. ВСП буде зобов'язана відповідати за використання летальної сили." link="RMCLethalForceConsequences"]
+  - Вирок може бути пом'якшений лише КО або Провостом, що входять до білого списку. Однак апеляції залишаються доступними. Ознайомтесь із морським законом.
 
-  ## Roleplay Rules and Standards
+  ## Правила та стандарти рольової гри
 
-  - [textlink="1. General Roleplay Standards." link="RMCGeneralRoleplayStandards"]
-  - [textlink="2. Character Names." link="RMCCharacterNames"]
-  - [textlink="3. Marines." link="RMCMarineRoleplayStandards"]
-  - [textlink="4. Command." link="RMCCommandRoleplay"]
-  - [textlink="5. Xenonids." link="RMCXenoRoleplay"]
-  - [textlink="6. Survivors." link="RMCSurvivorRoleplay"]
-  - [textlink="7. Hostile Factions." link="RMCHostileFactionRoleplay"]
+  - [textlink="1. Загальні Стандарти Рольової Гри." link="RMCGeneralRoleplayStandards"]
+  - [textlink="2. Імена Персонажів." link="RMCCharacterNames"]
+  - [textlink="3. Морпіхи." link="RMCMarineRoleplayStandards"]
+  - [textlink="4. Командування." link="RMCCommandRoleplay"]
+  - [textlink="5. Ксеноїди." link="RMCXenoRoleplay"]
+  - [textlink="6. Виживші." link="RMCSurvivorRoleplay"]
+  - [textlink="7. Ворожі Угрупування." link="RMCHostileFactionRoleplay"]
 </Document>

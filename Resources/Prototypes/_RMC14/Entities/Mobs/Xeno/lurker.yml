@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoLurker
-  name: Lurker
-  description: A beefy, fast alien with sharp claws.
+  name: Люркер
+  description: "М'язистий, швидкий прибулець з гострими кігтями."
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lurker

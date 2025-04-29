@@ -147,7 +147,7 @@
 
 - type: stack
   id: CMPlasteel
-  name: пласталі
+  name: пласталеві листи
   icon: { sprite: /Textures/_RMC14/Objects/Materials/Sheets/plasteel.rsi, state: plasteel }
   spawn: CMSheetPlasteel
   maxCount: 50
@@ -155,7 +155,7 @@
 - type: entity
   parent: CMSheetMetalBase
   id: CMSheetPlasteel
-  name: пласталевий лист
+  name: пласталеві листи
   description: Пласталь - це дорогий, міцний матеріал, виготовлений шляхом поєднання платини, сталі та сучасних полімерів для створення металу, стійкого до корозії, дуже міцного та легкого. Єдина причина, чому його не використовують частіше, - це те, що він до біса дорогий».
   suffix: Заповнене
   components:
@@ -184,7 +184,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel10
-  name: пласталь
+  name: пласталеві листи
   suffix: "10"
   components:
     - type: Sprite
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel15
-  name: пласталь
+  name: пласталеві листи
   suffix: "15"
   components:
     - type: Sprite
@@ -208,7 +208,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel30
-  name: пласталь
+  name: пласталеві листи
   suffix: "30"
   components:
     - type: Sprite
@@ -220,7 +220,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel40
-  name: пласталь
+  name: пласталеві листи
   suffix: "40"
   components:
     - type: Sprite
@@ -232,7 +232,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel50
-  name: plasteel
+  name: пласталеві листи
   suffix: "50"
   components:
     - type: Sprite
@@ -244,8 +244,8 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel1
-  name: пласталь
-  suffix: Одна
+  name: пласталевий лист
+  suffix: Один
   components:
     - type: Sprite
       state: plasteel

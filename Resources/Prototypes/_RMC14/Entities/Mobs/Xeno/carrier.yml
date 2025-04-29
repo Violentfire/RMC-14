@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoCarrier
-  name: Carrier
-  description: A strange-looking alien creature. It carries a number of scuttling jointed crablike creatures.
+  name: Носій
+  description: Дивна на вигляд інопланетна істота. Вона несе на собі кілька шустрих, суглобових крабоподібних створінь.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-carrier

@@ -7,8 +7,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoRunnerBase
-  name: Runner
-  description: A small red alien that looks like it could run fairly quickly...
+  name: Бігун
+  description: Маленький червоний прибулець, який виглядає так, ніби може досить швидко бігати...
   components:
   - type: GhostRole
     name: cm-job-name-xeno-runner
@@ -101,7 +101,7 @@
   - type: RMCSize
     size: SmallXeno
   - type: RMCXenoDamageVisuals
-    prefix: runner
+    prefix: бігун
   - type: TacticalMapIcon
     icon:
       sprite: _RMC14/Interface/map_blips.rsi
@@ -147,7 +147,7 @@
 - type: entity
   parent: CMXenoRunnerBase
   id: RMCXenoRunnerAcider
-  suffix: Acider
+  suffix: Кислотний
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Runner/acider_runner.rsi

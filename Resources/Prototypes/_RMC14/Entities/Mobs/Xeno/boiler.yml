@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoBoiler
-  name: Boiler
-  description: A huge, grotesque xenonid covered in glowing, oozing acid slime.
+  name: Бойлер
+  description: Величезний, гротескний ксенонід, вкритий сяючим, сочащимся кислотним слизом.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-boiler

@@ -85,7 +85,7 @@ public sealed class CommunicationsTowerSystem : EntitySystem
 
         using (args.PushGroup(nameof(CommunicationsTowerComponent)))
         {
-            args.PushMarkup("[color=red]It is damaged and needs a welder for repairs![/color]");
+            args.PushMarkup("[color=red]Воно пошкоджене і потребує зварника для ремонту![/color]");
         }
     }
 
@@ -99,8 +99,8 @@ public sealed class CommunicationsTowerSystem : EntitySystem
 
         var options = new List<DialogOption>
         {
-            new("Wipe communication frequencies"),
-            new("Add your faction's frequencies"),
+            new("Очистити комунікаційні частоти"),
+            new("Додати частоти вашої фракції"),
         };
         _dialog.OpenOptions(ent, args.User, "TC-3T comms tower", options);
     }
@@ -135,7 +135,7 @@ public sealed class CommunicationsTowerSystem : EntitySystem
             return;
 
         args.Handled = true;
-        var msg = $"You wipe the preexisting frequencies from the {Name(ent)}.";
+        var msg = $"Ви видаляєте вже існуючі частоти з {Name(ent)}.";
         _popup.PopupClient(msg, ent, args.User, PopupType.Medium);
     }
 
@@ -156,7 +156,7 @@ public sealed class CommunicationsTowerSystem : EntitySystem
         }
 
         args.Handled = true;
-        var msg = $"You add your faction's communication frequencies to the {Name(ent)}'s comm list.";
+        var msg = $"Ви додаєте комунікаційні частоти вашої фракції до списку частот {Name(ent)}";
         _popup.PopupClient(msg, ent, args.User, PopupType.Medium);
     }
 
@@ -164,13 +164,13 @@ public sealed class CommunicationsTowerSystem : EntitySystem
     {
         if (ent.Comp.State == CommunicationsTowerState.Broken)
         {
-            _popup.PopupClient($"{Name(ent)} needs repairs to be turned back on!", ent, args.User, PopupType.MediumCaution);
+            _popup.PopupClient($"{Name(ent)} потребує ремонту, щоб її знов увімкнули!", ent, args.User, PopupType.MediumCaution);
             return;
         }
 
         if (!_rmcPower.IsPowered(ent))
         {
-            _popup.PopupClient($"{Name(ent)} makes a small plaintful beep, and nothing happens. It seems to be out of power.", ent, args.User, PopupType.MediumCaution);
+            _popup.PopupClient($"{Name(ent)} видає невеликий простий звуковий сигнал, але нічого не відбувається. Здається, він знеструмлений", ent, args.User, PopupType.MediumCaution);
             return;
         }
 

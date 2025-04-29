@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoCrusher
-  name: Crusher
-  description: A huge alien with an enormous armored crest.
+  name: Руйнівник
+  description: Величезний інопланетянин з величезним броньованим гребенем.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-crusher

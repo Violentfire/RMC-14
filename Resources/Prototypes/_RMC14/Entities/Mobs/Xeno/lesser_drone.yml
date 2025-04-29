@@ -5,8 +5,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: CMXenoLesserDrone
-  name: Lesser Drone
-  description: An alien drone. Looks... smaller.
+  name: Малий трутень
+  description: Інопланетний трутень. Виглядає... меншим.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lesser-drone

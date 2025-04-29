@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   id: CMXenoRavager
-  name: Ravager
-  description: A huge, nasty red alien with enormous scythed claws.
+  name: Спустошувач
+  description: Величезний, бридкий червоний прибулець з величезними косими кігтями.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-ravager

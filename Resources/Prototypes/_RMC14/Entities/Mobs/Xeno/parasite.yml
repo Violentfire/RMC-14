@@ -3,7 +3,7 @@
   - CMXenoUndeveloped
   - CMXenoFlammable
   id: CMXenoParasite # TODO RMC14 slowly die off weeds
-  name: Parasite
+  name: Паразит
   components:
   - type: GhostRole
     name: cm-job-name-xeno-parasite
