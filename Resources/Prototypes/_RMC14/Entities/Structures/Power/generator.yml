@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCGeneratorFusion
   id: RMCGeneratorFusionColony
-  name: Геотермальний генератор G-11
+  name: геотермальний генератор G-11
   description: Термоелектричний генератор, розташований на вершині заповненої плазмою свердловини.
   components:
   - type: RMCFusionReactor
@@ -74,7 +74,7 @@
 - type: entity
   parent: BaseItem
   id: RMCGeneratorFusionCell
-  name: Універсальна паливний елемент WL-6
+  name: універсальний паливний елемент WL-6
   description: Перезаряджуваний паливний елемент.
   components:
   - type: Sprite
