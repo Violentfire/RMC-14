@@ -1,5 +1,5 @@
 rmc-announcement-author = Командування
-rmc-announcement-author-highcommand = Вище Командування КМПОН
+rmc-announcement-author-highcommand = Вище Командування
 rmc-announcement-message = [font size=16][bold][color=#CECECE]Оголошення {$author}[/color][/bold][/font][font size=16][color=red]
 
     {$message}
@@ -42,11 +42,11 @@ rmc-announcement-emergency-dropship-crash = [font size=16][bold][color=#CECECE]�
 
 rmc-announcement-delta = [color=#CECECE][font size=16][bold]СИСТЕМА САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО[/bold][/font][/color][color=red][font size=16][bold]
 
-     НЕБЕЗПЕКА. АВАРІЙНУ СИСТЕМУ САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО. ПРОСЛІДУЙТЕ ДО ВІДСІКУ САМОЗНИЩЕННЯ ДЛЯ ВСТАВЛЕННЯ СТЕРЖНЯ КЕРУВАННЯ.[/bold][/font][/color]
+     НЕБЕЗПЕКА, АВАРІЙНУ СИСТЕМУ САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО! ПРОСЛІДУЙТЕ ДО ВІДСІКУ САМОЗНИЩЕННЯ ДЛЯ ВСТАВЛЕННЯ СТЕРЖНЯ КЕРУВАННЯ![/bold][/font][/color]
 
-rmc-announcement-general-quarters = УВАГА! ТРИВОГА. УСІМ ПРОЙТИ ДО СВОЇХ БОЙОВИХ ПОСТІВ.
+rmc-announcement-general-quarters = УВАГА! БОЙОВА ТРИВОГА! ВСІМ ЗАЙНЯТИ СВОЇ БОЙОВІ ПОСТИ!
 
-rmc-announcement-dropship-hijack = Незапланований виліт десантного шатлу зафіксовано. Ймовірне захоплення. Автопілот вимкнено.
+rmc-announcement-dropship-hijack = Незапланований виліт десантного транспортника зафіксовано. Ймовірне захоплення. Автопілот вимкнено.
 
 rmc-announcement-dropship-hijack-hive = Королева веліла металевому птаху нести нас до вулика на небесах! Святкуймо!
 
@@ -54,6 +54,6 @@ rmc-announcement-ares-command = [color=#CECECE][font size=16][bold]ARES v3.2[/bo
 
     {$message}[/font][/color]
 
-rmc-announcement-unidentified-lifesigns = [color=#CECECE][font size=16][bold]Unidentifled lifesigns[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-unidentified-lifesigns = [color=#CECECE][font size=16][bold]Невідомі життєві сигнали[/bold][/font][/color][color=red][font size=16][bold]
 
-    Unidentified lifesigns ({$count}) detected onboard the dropship {$name}. Recommendation: lockdown of exterior access ports, including ducting and ventilation.[/bold][/font][/color]
+    Виявлено невідомі життєві сигнали ({$count}) на борту транспортника {$name}. Рекомендація: заблокувати всі зовнішні входи, включно з вентиляційними та технічними каналами.[/bold][/font][/color]
