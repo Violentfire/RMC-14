@@ -57,6 +57,7 @@
     removes:
     - type: LizardAccent
     - type: MothAccent
+    - type: FelinidAccent
     - type: ReplacementAccent
       accent: dwarf
 
