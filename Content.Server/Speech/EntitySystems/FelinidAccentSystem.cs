@@ -24,11 +24,31 @@ public sealed class FelinidAccentSystem : EntitySystem
     {
         var msg = message;
         var ending = "";
+        char last_letter = '.';
+        int i = 1;
+        while(i < msg.Length)
+            {
+                if(char.IsLetter(msg[^i]))
+                {
+                    last_letter = msg[^i];
+                    break;
+                }
+                i++;
+            }
         if(message.Length > 5)
         {
-            if(_random.Prob(0.2f))
+            if(_random.Prob(0.1f))
             {
-                int choice = _random.Next(5);
+                int choice = 0;
+                if(!string.IsNullOrEmpty(msg) && char.IsUpper(last_letter))
+                {
+                    choice = _random.Next(5);
+                }
+                else
+                {
+                    choice = _random.Next(7);
+                }
+
 
                 switch(choice)
                 {
@@ -47,22 +67,17 @@ public sealed class FelinidAccentSystem : EntitySystem
                     case 4:
                         ending =  " -ня";
                         break;
-
+                    case 5:
+                        ending = " -пурр";
+                        break;
+                    case 6:
+                        ending = " -мурр";
+                        break;
                 }
 
             }
         }
-        char last_letter = '.';
-        int i = 1;
-        while(i < msg.Length)
-            {
-                if(char.IsLetter(msg[^i]))
-                {
-                    last_letter = msg[^i];
-                    break;
-                }
-                i++;
-            }
+
         if (!string.IsNullOrEmpty(msg) && char.IsUpper(last_letter))
         {
             ending = ending.ToUpper();
