@@ -11,6 +11,8 @@ public sealed class LizardAccentSystem : EntitySystem
     private static readonly Regex RegexUpperSh = new("Ш+");
     private static readonly Regex RegexLowerShch = new("щ+");
     private static readonly Regex RegexUpperShch = new("Щ+");
+    private static readonly Regex RegexLowerZh = new("ж+");
+    private static readonly Regex RegexUpperZh = new("Ж+");
 
     public override void Initialize()
     {
@@ -31,9 +33,13 @@ public sealed class LizardAccentSystem : EntitySystem
         // upper SH
         message = RegexUpperSh.Replace(message, "ШШШ");
         // lower SHCH
-        message = RegexLowerShch.Replace(message, "щщщ");
+        message = RegexLowerShch.Replace(message, "шшщ");
         // upper SHCH
-        message = RegexUpperShch.Replace(message, "ЩЩЩ");
+        message = RegexUpperShch.Replace(message, "ШШЩ");
+        // lower ZH
+        message = RegexLowerZh.Replace(message, "жшш");
+        //upper ZH
+        message = RegexUpperZh.Replace(message. "ЖШШ");
 
         args.Message = message;
     }
