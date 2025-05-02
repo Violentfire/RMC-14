@@ -4,7 +4,7 @@ meta:
   engineVersion: 251.0.0-fixtures-fix
   forkId: ""
   forkVersion: ""
-  time: 05/01/2025 10:12:10
+  time: 05/01/2025 12:18:50
   entityCount: 391
 maps: []
 grids:
@@ -69,6 +69,8 @@ entities:
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
+      inherent: True
+      enabled: True
     - type: DecalGrid
       chunkCollection:
         version: 2
