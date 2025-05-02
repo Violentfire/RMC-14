@@ -39,7 +39,7 @@ public sealed class LizardAccentSystem : EntitySystem
         // lower ZH
         message = RegexLowerZh.Replace(message, "жшш");
         //upper ZH
-        message = RegexUpperZh.Replace(message. "ЖШШ");
+        message = RegexUpperZh.Replace(message, "ЖШШ");
 
         args.Message = message;
     }
