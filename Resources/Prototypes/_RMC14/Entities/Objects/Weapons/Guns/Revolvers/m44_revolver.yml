@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
   name: M44 бойовий револьвер
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCWeaponRevolverM44
   id: RMCWeaponRevolverM44Empty
-  suffix: Empty
+  suffix: Пустий
   components:
   - type: RevolverAmmoProvider
     proto: null
