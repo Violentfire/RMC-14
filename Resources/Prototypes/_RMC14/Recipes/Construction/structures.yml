@@ -234,7 +234,7 @@
   graph: BarricadeWoodGraph
   startNode: start
   targetNode: nodeWood
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: "Імпровізована дерев'яна барикада."
   objectType: Structure
   placementMode: SnapgridCenter
