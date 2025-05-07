@@ -1,44 +1,44 @@
-﻿<Document>
-  # RMC-14 Guidebook
+<Document>
+  # Довідник RMC-14
 
-  Welcome to RMC-14.
+  Ласкаво просимо в RMC-14!
 
-  This is a MRP server inspired by CM13, in the new SS14 engine!
+  Це сервер із середнім рівнем рольового відіграшу (MRP), натхненний CM13, але вже на новому рушії SS14!
 
-  The guidebook, roadmap and rules for the game can be found on the lobby screen, and at any point in the escape menu.
+  Довідник, плани на майбутнє та правила гри можна знайти на екрані лобі перед початком гри, а також у будь-який момент через меню (Escape).
 
-  Click any of the tabs on the left to learn about RMC14 and it's unique content.
+  Натисніть на будь-яку вкладку ліворуч, щоб дізнатися більше про RMC-14 та його унікальний контент.
 
-  Be sure to read the rules if you haven't already.
-  - [textlink="The rules" link="RMCOverview"]
+  Спершу прочитайте правила, якщо ви цього раніше ще не зробили.
+  - [textlink="Правила серверу" link="RMCOverview"]
 
-  New to RMC-14, SS14, or have no CM13 experience? Be careful! A lot of mechanics and values are not the same as these games.
-  - [textlink="New player guide!" link="RMCGuideNewPlayer"]
-  - [textlink="Your first day as a rifleman!" link="RMCGuideRoleRifleman"]
-  - [textlink="So you've just been born into the hive! Now what?" link="RMCGuideRoleDrone"]
+  Ви вперше на RMC-14, SS14 або не маєте досвіду гри в CM13? Будьте обережні! Більшість механік і визначень відрізняються від класичної SS14.
+  - [textlink="Довідник для нових гравців!" link="RMCGuideNewPlayer"]
+  - [textlink="Твій перший день у ролі стрільця!" link="RMCGuideRoleRifleman"]
+  - [textlink="Отже, ви щойно народилися у вулику! Що далі?" link="RMCGuideRoleDrone"]
 
-  ## Have some experience? Check out these guidebook pages!
+  ## Маєте досвід? Тоді перегляньте ці сторінки з довідника!
 
-  Anyone is free to add guides to this page, either through the discord or github.
+  Кожен може вільно додавати гайди на цю сторінку через Discord або GitHub.
 
-  ### Marines
+  ### Морпіхи
 
-  [bold]Roles[/bold]
-  - [textlink="Medical" link="RMCMedical"]
-  - [textlink="Requisitions" link="RMCRequisitions"]
-  - [textlink="Combat Technician" link="RMCGuideRoleCombatTechnician"]
-  - [textlink="Maintenance Technician" link="RMCGuideRoleMaintenanceTechnician"]
-  - [textlink="Survivor" link="RMCSurvivor"]
-  - [textlink="Smart Gun Operator" link="RMCGuideRoleSGO"]
+  [bold]Ролі[/bold]
+  - [textlink="Медицина" link="RMCMedical"]
+  - [textlink="Постачання" link="RMCRequisitions"]
+  - [textlink="Бойовий Технік" link="RMCGuideRoleCombatTechnician"]
+  - [textlink="Обслуговуючий Інженер" link="RMCGuideRoleMaintenanceTechnician"]
+  - [textlink="Виживший" link="RMCSurvivor"]
+  - [textlink="Оператор Смарт-Гану" link="RMCGuideRoleSGO"]
 
-  [bold]Structures[/bold]
-  - [textlink="Communications towers and sensor towers" link="RMCGuideCommunicationsTowers"]
+  [bold]Об'єкти[/bold]
+  - [textlink="Телекомунікаційні та Сенсорні Вежі" link="RMCGuideCommunicationsTowers"]
 
-  ### Xenonids
+  ### Ксеноморфи
 
-  [bold]Roles[/bold]
+  [bold]Ролі[/bold]
 
 
-  [bold]Structures[/bold]
+  [bold]Об'єкти[/bold]
 
 </Document>
