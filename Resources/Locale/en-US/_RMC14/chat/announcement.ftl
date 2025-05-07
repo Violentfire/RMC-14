@@ -40,7 +40,7 @@ rmc-announcement-dropship-message = [color=#CECECE][font size=16][bold]Пові�
 rmc-announcement-emergency-dropship-crash = [font size=16][bold][color=#CECECE]АВАРІЙНА СИТУАЦІЯ[/color][/bold][/font][font size=16][color=red]
   ТРАНСПОРТНИК ЙДЕ НА ЗІТКНЕННЯ. ПРИГОТУЙТЕСЯ ДО УДАРУ.[/color][/font]
 
-rmc-announcement-delta = [color=#CECECE][font size=16][bold]СИСТЕМА САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-delta = [color=#CECECE][font size=16][bold]СИСТЕМУ САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО[/bold][/font][/color][color=red][font size=16][bold]
 
      НЕБЕЗПЕКА, АВАРІЙНУ СИСТЕМУ САМОЗНИЩЕННЯ КОРАБЛЯ АКТИВОВАНО! ПРОСЛІДУЙТЕ ДО ВІДСІКУ САМОЗНИЩЕННЯ ДЛЯ ВСТАВЛЕННЯ СТЕРЖНЯ КЕРУВАННЯ![/bold][/font][/color]
 
