@@ -196,7 +196,7 @@
   graph: BarricadeMetalGraph
   startNode: start
   targetNode: nodeMetal
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: Барикада із сталі військового зразку.
   objectType: Structure
   placementMode: SnapgridCenter
@@ -215,7 +215,7 @@
   graph: BarricadePlasteelGraph
   startNode: start
   targetNode: nodePlasteel
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: Барикада із пласталі військового зразку.
   objectType: Structure
   placementMode: SnapgridCenter
@@ -234,7 +234,7 @@
   graph: BarricadeWoodGraph
   startNode: start
   targetNode: nodeWood
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: "Імпровізована дерев'яна барикада."
   objectType: Structure
   placementMode: SnapgridCenter
@@ -273,7 +273,7 @@
   startNode: start
   targetNode: nodeTurnstileMed
   category: construction-category-cm-structures
-  description: Огорожа, яка забезпечує порядок і контроль черги морпіхів у медичному відділі. 
+  description: Огорожа, яка забезпечує порядок і контроль черги морпіхів у медичному відділі.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -310,7 +310,7 @@
   graph: BarricadeMetalDoorGraph
   startNode: start
   targetNode: nodeBarricadeMetalDoor
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: Барикада, яку можна скласти, щоб звільнити прохід, або розкласти для обмеження доступу.
   objectType: Structure
   placementMode: SnapgridCenter
@@ -329,7 +329,7 @@
   graph: BarricadePlasteelDoorGraph
   startNode: start
   targetNode: nodeBarricadePlasteelDoor
-  category: construction-category-cm-structures
+  category: construction-category-cm-barricades
   description: Барикада, яку можна скласти, щоб звільнити прохід, або розкласти для обмеження доступу. Виготовлена з загартованої пласталі.
   objectType: Structure
   placementMode: SnapgridCenter

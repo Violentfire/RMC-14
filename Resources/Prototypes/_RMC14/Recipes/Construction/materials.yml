@@ -5,7 +5,7 @@
   graph: BarbedWireGraph
   startNode: start
   targetNode: nodeBarbedWire
-  category: construction-category-cm-materials
+  category: construction-category-cm-barricades
   description: Створюйте колючий дріт, щоб прикрасити ваші барикади.
   icon: { sprite: _RMC14/Objects/barbed_wire.rsi, state: barbed_wire }
   objectType: Item
