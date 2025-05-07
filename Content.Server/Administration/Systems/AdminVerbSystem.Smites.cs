@@ -912,6 +912,7 @@ public sealed partial class AdminVerbSystem
                 EnsureComp<FrenchAccentComponent>(args.Target);
                 EnsureComp<GermanAccentComponent>(args.Target);
                 EnsureComp<LizardAccentComponent>(args.Target);
+                EnsureComp<FelinidAccentComponent>(args.Target);
                 EnsureComp<MobsterAccentComponent>(args.Target);
                 EnsureComp<MothAccentComponent>(args.Target);
                 EnsureComp<OwOAccentComponent>(args.Target);
