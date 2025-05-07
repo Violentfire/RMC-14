@@ -1,74 +1,74 @@
-﻿<Document>
+<Document>
   Guide by Kynthos on Discord
 
-  [color=#5f698a]█    █ █▄ █[/color] [head=2][bold]UNITED NATIONS MARINE CORPS[/bold][/head]\n
+  [color=#5f698a]█    █ █▄ █[/color] [head=2][bold]КОРПУС МОРСЬКОЇ ПІХОТИ ОБ'ЄДНАНИХ НАЦІЙ[/bold][/head]\n
   [color=#5f698a]▀ ▄▀ █ ▀█ [/color]
 
-  #Combat Technician
+  #Бойовий Технік
 
-  It is recommended that you play [textlink="Maintenance Technician" link="RMCGuideRoleMaintenanceTechnician"] to learn the basics of Engineering.
+  Рекомендується зіграти за роль [textlink="Обслуговуючого інженера" link="RMCGuideRoleMaintenanceTechnician"], щоб навчитися основам інженерної справи.
 
-  The Combat Technician is the frontline Engineer for the Marine squads. Their primary responsibilities include fixing power, breaching into buildings, and setting up forward fortifications. Your work will provide your fellow Marines with cover to fight from, allowing them to engage the enemy in areas they would not be able to safely do otherwise.
+  Бойовий технік - це інженер на передовій у складі підрозділів морської піхоти. Його основні завдання - відновлення енергопостачання, підтримка наступу, облаштування та вдосконалення укріплень. Ваша робота забезпечить піхотинцям надійне прикриття, дозволяючи їм вступати в бій у зонах, звідки в разі непередбачених ситуацій можна швидко за них відступити.
 
-  ##Pre-Deployment Equipment
+  ##Спорядження до початку операції
 
-  The Combat Technician is expected to carry the following items on them at all times:
-  - [bold]A full suite of tools[/bold]. Among them are the blowtorch, crowbar, entrenching tool, light replacer, screwdriver, security access tuner, wire cutters, and wrench.
-  - [bold]Welding Protection[/bold]. The standard Combat Technician Helmet provides Welding protection, but Welding Goggles can be found elsewhere should you lose your helmet.
-  - [bold]Common building materials[/bold] for constructing fortifications: Sandbags, Metal, and Plasteel. It is highly recommended that you use a [bold]Construction Pouch[/bold] to efficiently carry these bulky items.
-  - [bold]Breaching explosives[/bold], for accessing inaccessible areas through a newly crafted doorway and stripping cover from the enemy.
-  - [bold]Your faithful Sentry Gun[/bold], which you can deploy to provide covering fire in hostile environments. If it breaks you are not getting a replacement.
+  Очікується, що бойовий технік завжди матиме при собі таке спорядження:
+  - [bold]Повний набір інструментів[/bold]. Серед них - зварювальний апарат, лом, піхотна лопата, інструмент для заміни ламп, цвяхостріл, мультитул, викрутка, кусачки та гайковий ключ.
+  - [bold]Захист для зварювання[/bold]. Стандартний шолом бойового техніка забезпечує необхідний захист, але якщо ви його втратите - зварювальні окуляри можна знайти в інших місцях.
+  - [bold]Основні будівельні матеріали[/bold] для облаштування укріплень: мішки з піском, металеві листи і пласталь. Наполегливо рекомендується використовувати [bold]Підсумок для матеріалів[/bold] для зручного перенесення цих громіздких ресурсів.
+  - [bold]Вибухівка[/bold], для створення проходів у недоступних місцях і знищення ворожих укриттів.
+  - [bold]Ваша надійна автоматична турель[/bold], яку можна розмістити для прикриття союзників у небезпечних зонах. У разі поломки заміна не передбачена.
 
-  Majority of these items are provided for free in your specialised Barracks. The Essential Engineer set, Sentry Gun, and a toolbelt full of tools can all be dispensed free of charge. Use your limited points to purchase an upgrade to the Sentry Gun, additional breaching explosives, or additional building materials. If you need more of anything, line up at Requisitions to request more.
+  Більшість із цих предметів можна отримати безкоштовно у вашій спеціалізованій казармі. Основний інженерний набір, автоматична турель і пояс з інструментами видаються безкоштовно. Використовуйте свої обмежені бали, щоб придбати покращення для турелі, додаткову вибухівку або будівельні матеріали. Якщо вам потрібно більше спорядження - зверніться до Постачання.
 
-  Once you are equipped and deployed, you’ll be expected to perform the following responsibilities.
+  Після спорядження та висадки на місце бойових дій, від вас очікується виконання таких обов’язків:
 
-  ##Fixing Power and Repairing Lights
+  ##Ремонт генераторів та освітлення
 
-  Each facility the UNMC is deployed to is powered by [bold]G-11 Geothermal Generators[/bold], which will be depowered and broken when you arrive. These items are usually located in the local engineering facility, but your superiors will inform you of their exact location in case they’re not. You’ll need a blowtorch, wire cutters, and wrench to get them in working order.
+  Кожна колонія чи об'єкт, живиться від [bold]геотермальних генераторів G-11[/bold], які будуть знеструмлені та зламані, коли ви прибудете. Ці генератори зазвичай знаходяться в місцевому інженерному відділі, але ваше командування повідомить вам їхнє точне місцезнаходження на тактичній мапі, якщо це не так. Щоб привести їх у робочий стан, вам знадобиться зварювальний апарат, кусачки та гайковий ключ.
 
   <Box>
     <GuideEntityEmbed Entity="RMCGeneratorFusionColony"/>
   </Box>
 
-  Once power is generating, you’ll need to repair any broken APCs to distribute power to nearby electronics and use the light replacer to replace broken lightbulbs. Broken floodlights will take slightly more effort, as the internal wiring will also need replacing. Carry some [bold]cable coil[/bold] if you’re expecting to repair these.
+  Коли генерація електроенергії буде відновлена, вам потрібно буде полагодити зламані ЗКЖ за допомогою викрутки, щоб розподілити струм до найближчої електроніки. Використовуйте інструмент для заміни ламп, щоб оновити пошкоджені лампи. Зламані прожектори потребують трохи більше зусиль - доведеться також замінити внутрішню проводку. Візьміть із собою [bold]провода[/bold], якщо ви плануєте їх відремонтувати.
 
-  ##Repairing Sensitive Equipment
+  ##Обслуговування критично важливого обладнання
 
-  The Combat Technician is among the few Marines specially trained in repairing vital equipment on the Colony. The two you will be entrusted with are the Telecommunications and Sensor tower, which you can learn more about [textlink="here" link="RMCGuideCommunicationsTowers"].
+  Бойовий технік є одним із небагатьох морських піхотинців, які мають спеціальну підготовку з ремонту ключового обладнання колонії. Вам буде довірено дві телекомунікаційні та одна сенсорна вежа. Детальніше про вежі ви можете дізнатися [textlink="тут" link="RMCGuideCommunicationsTowers"].
 
-  ##Building Fortifications
+  ##Будівництво укріплень
 
-  The enemy that you are fighting excels in melee range. In many situations, the only thing that stops a fighting Marine from getting mauled is the simple metal barricade, which blocks movement but still allows you to shoot over.
+  Ворог, з яким ви воюєте, скоріше за все попробує себе у ближньому бою. У багатьох ситуаціях єдине, що стоїть між морським піхотинцем і вірною загибеллю - це проста металева барикада, яка блокує пересування, але дозволяє вести вогонь поверх неї.
 
   <Box>
     <GuideEntityEmbed Entity="CMBarricadeMetal"/>
-    [color=#C68610]Everything the Combat Technician will need can be found in the crafting menu, default hotkey G. Type "Bar" in the search field.[/color]
+    [color=#C68610]Все, що знадобиться бойовому техніку, можна знайти в меню крафта, гаряча клавіша за замовчуванням G. Введіть "Бар" у полі пошуку.[/color]
   </Box>
 
-  - [bold]Metal Barricade[/bold]: Standard issue tried and true combat fortification. Requires 4 metal.
-  - [bold]Metal Folding Barricade[/bold]: A metal barricade that can be folded down to allow passage. Is extremely fragile, so do not rely on it to provide much safety. Requires 6 metal.
-  - [bold]Plasteel Barricade[/bold]: Much more durable but expensive version of the metal barricade. Requires 6 Plasteel.
-  - [bold]Plasteel Folding Barricade[/bold]: This folding barricade is more durable than its metal counterparts, and as such is recommended for making doorways in sturdy fortifications. Requires 8 plasteel.
+  - [bold]Металева барикада[/bold]: Стандартна, перевірена в боях барикада. Потрібно 4 металічних листи.
+  - [bold]Складна металева барикада[/bold]: Барикада, яку можна відкрити та закрити для проходу. Вона надзвичайно крихка, тому не покладайтеся на її міцність. Потрібно 6 металевих листів.
+  - [bold]Пласталева барикада[/bold]: Значно міцніша, хоча й дорожча варіація металевої барикади. Потрібно 6 пласталі.
+  - [bold]Складна пласталева барикада[/bold]: Більш міцна за металеву версію, тому її варто використовувати для створення дверних проходів у міцних укріпленнях. Потрібно 8 пласталі.
 
-  The cheap alternative to metal barricades are [bold]sandbag barricades[/bold]. These can be deployed faster than a barricade and do not need specialised training to construct, but the bags need to be filled using an entrenching tool beforehand. Sandbags also have limited repair options, so they are only reliable for so long.
+  Дешевою альтернативою металевим та пласталевим барикадам є [bold]мішки з піском[/bold]. Їх можна встановити швидше, ніж звичайні барикади, і для цього не потрібна спеціальна підготовка. Однак перед встановленням мішки потрібно заповнити піском за допомогою піхотної лопати. Барикади з мішків мають обмежені можливості для ремонту, тому вони надійні лише протягом тривалого часу.
 
   <Box>
     <GuideEntityEmbed Entity="CMBarricadeSandbag"/>
   </Box>
 
-  Once a Barricade is built, it isn’t finished until you lace it with barbed wire, which you can craft for 1 metal per barricade. A Barbed barricade will harm anything that strikes it, as well as completely prevent anything from vaulting over it. [bold]Every Barricade should have some barbed wire[/bold].
+  Коли барикаду збудовано - не радійте раніше часу. Спочатку обв'яжіть її [bold]колючим дротом[/bold], яку можна виготовити з 1 металевого листа на кожну барикаду. Барикада з колючим дротом завдає шкоди всьому, що її торкнеться, та повністю унеможливлює перелазання через неї. [bold]Кожна барикада повинна мати колючий дріт[/bold].
 
   <Box>
     <GuideEntityEmbed Entity="BarbedWire1"/>
   </Box>
 
-  Non-foldable Barricades have three upgrades which require 2 metal:
-  - [bold]Anti-Biohazard[/bold]: Provides resistance to being melted down by various acid attacks.
-  - [bold]Blast-Resistant[/bold]: Provides explosive resistance.
-  - [bold]Reinforced[/bold]: Provides resistance to being mauled.
+  Не складні барикади мають три види покращень, кожна з яких потребує 2 металевих листа:
+  - [bold]Антикислотна[/bold]: Забезпечує стійкість до роз’їдання різними кислотами.
+  - [bold]Вибухостійка[/bold]: Зменшує шкоду від вибухів.
+  - [bold]Посилена[/bold]: Підвищує стійкість до різних пошкоджень.
 
-  To upgrade a barricade, click one with metal sheets in your active hand.
+  Щоб покращити барикаду, візьміть металеві листи в активну руку та клікніть по барикаді.
 
   <Box>
     <GuideEntityEmbed Entity="CMBarricadeBurn"/>
@@ -76,9 +76,9 @@
     <GuideEntityEmbed Entity="CMBarricadeBrute"/>
   </Box>
 
-  Should a barricade be damaged, it can be repaired with a blowtorch. This is a lengthy process that does not completely repair the Barricade, so extreme punishment will eventually wear down your defences. When placing Barricades, make sure it allows your Marines to safely shoot at the enemy, and avoid placing them right next to corners where they can be endlessly attacked from behind cover. If you have the extra time, deconstruct or blast this cover to open new firing lines.
+  У разі пошкодження барикади, її можна відремонтувати. Візьміть цвяхостріл та металеві листи, після чого використайте інструмент на барикаді для прикріплення металу. Лише тоді за допомогою зварювального апарата проведіть остаточний ремонт. Це тривалий процес, і він не повністю відновлює її міцність, тож під сильним вогнем ваші укріплення рано чи пізно не витримають. Розміщуючи барикади, переконайтесь, що ваші побратими можуть безпечно стріляти по ворогу, і уникайте розміщення барикад біля кутів, де їх можна безкарно атакувати з-за укриття. Якщо маєте додатковий час - розберіть або підірвіть таке укриття, щоби відкрити нові лінії вогню.
 
-  ##Scavenging Materials
+  ##Пошук матеріалів
 
-  You will [bold]always[/bold] need additional building materials, and the lives of your fellow Marines are worth more than the buildings around you. Chairs, metal railings, and window frames can be quickly deconstructed for more metal, while walls and doors can be slowly deconstructed for the same purpose. Some AOs will have preinstalled fortifications that you can use yourself or deconstruct to obtain the building materials. Instructions for deconstruction are provided upon inspection.
+  Ви [bold]завжди[/bold] потребуватимете додаткових будівельних матеріалів, а життя ваших побратимів по морській піхоті цінніші ніж можете собі уявити. Стільці, металеві забори та віконні рами можна швидко демонтувати, щоб отримати металеві листи. Стіни та двері демонтуються повільніше, але теж підходять для цієї мети. У деяких районах операцій можуть бути попередньо встановлені укріплення - їх можна використати або розібрати на матеріали. Інструкції щодо демонтажу будуть доступні після огляду та натиснення на кнопки "почати деконструкцію".
 </Document>

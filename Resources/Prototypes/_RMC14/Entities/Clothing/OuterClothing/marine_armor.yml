@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseMarineArmorLight
   id: CMArmorM3Medium
-  name: броня морпіха зразка М3
-  description: Стандартна броня морпіхів КОН. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
+  name: морпіхотна броня зразка М3
+  description: Стандартна броня морпіхів КОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -30,8 +30,8 @@
 
 - type: entity
   id: RMCArmorM3MediumVariants
-  name: M3 pattern marine armor
-  description: A standard UNMC M3 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage.
+  name: морпіхотна броня зразка М3
+  description: Стандартна броня морпіхів КОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   categories:
   - HideSpawnMenu
   components:
@@ -51,12 +51,12 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumPadded
-  name: M3 pattern padded marine armor
+  name: морпіхотна броня зразка М3 з наплічниками
 
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumPadless
-  name: M3 pattern padless marine armor
+  name: морпіхотна броня зразка М3 без наплічників
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padless/jungle.rsi
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumRidged
-  name: M3 pattern ridged marine armor
+  name: морпіхотна броня зразка М3, ребриста
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/ridged/jungle.rsi
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumCarrier
-  name: M3 pattern carrier marine armor
+  name: морпіхотна броня зразка М3 з підсумками
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/carrier/jungle.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumSkull
-  name: M3 pattern skull marine armor
+  name: морпіхотна броня зразка М3 з черепом
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/skull/jungle.rsi
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3MediumSmooth
-  name: M3 pattern smooth marine armor
+  name: морпіхотна броня зразка М3, гладка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/smooth/jungle.rsi
@@ -152,7 +152,7 @@
   parent: CMArmorM3Medium
   id: CMArmorM3Heavy
   name: важка броня зразка M3-EOD
-  description: Важкий варіант стандартної M3 броні, спеціально спроєктована так щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
+  description: Важкий варіант стандартної броні М3. Спеціально спроєктована так, щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/padded/jungle.rsi
@@ -179,8 +179,8 @@
 
 - type: entity
   id: RMCArmorM3HeavyVariants
-  name: M3-EOD pattern heavy armor
-  description: A heavier version of the standard M3 pattern armor, the armor is primarily designed to withstand ballistic, explosive, and internal damage, with the drawback of increased bulk and thus reduced movement speed, alongside little additional protection from standard blunt force impacts and biological threats.
+  name: важка броня зразка М3-EOD
+  description: Важкий варіант стандартної броні М3. Спеціально спроєктована так, щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   categories:
   - HideSpawnMenu
   components:
@@ -291,7 +291,7 @@
   parent: CMArmorM2MP
   id: CMArmorM3WO
   name: броня голови ВСП
-  description: Гарно сконструйована броня, спеціально для голови Військової служби правопорядку. Подейкують що тільки побачивши цю броню, поліціянти машинально салютують.
+  description: Гарно виготовлена броня, спеціально для голови Військової служби правопорядку. Подейкують, що тільки побачивши цю броню, поліціянти машинально салютують.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/wo/jungle.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: CMArmorM2MP
   id: RMCArmorM3SO
-  name: M3 pattern officer armor
-  description: A well-crafted suit of M3 Pattern Armor typically found in the hands of higher-ranking officers. Useful for letting your men know who is in charge when taking to the field.
+  name: офіцерська броня зразка М3
+  description: Гарно виготовлена броня зразка М3, яку зазвичай носять старші офіцери. Корисно, щоб у бою ваші підлеглі знали, хто тут головний.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/officer/jungle.rsi
@@ -327,8 +327,8 @@
 - type: entity
   parent: CMArmorM2MP
   id: RMCArmorM3CO
-  name: M3 pattern commanding officer armor
-  description: A robust, well-polished suit of armor for the Commanding Officer. Custom-made to fit its owner with special straps to operate a smart gun. Show those Marines who's really in charge.
+  name: броня командира зразка М3
+  description: Міцний, допрацьований зразок броні для Командуючого Офіцера. Виготовлений на замовлення для власника зі спеціальними ременями для смарт-кулемету. Покажіть цим морпіхам, хто тут насправді головний.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/co.rsi
@@ -352,8 +352,8 @@
 - type: entity
   parent: CMArmorM2MP
   id: RMCArmorM3General
-  name: M3 pattern general officer armor
-  description: A well-crafted suit of M3 Pattern Armor with a gold shine. It looks very expensive, but shockingly fairly easy to carry and wear.
+  name: генеральська броня зразка М3
+  description: Гарно виготовлена броня зразка М3 з золотим вилиском. Виглядає дуже дорого, але на диво досить легка у носінні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/ceremonial.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3G4
-  name: гренадерська броня M3-G4 
-  description: Спеціальне покращення броні М3, напхана до країв м'якою оббивкою, обшивкою, і усіма формами захисту від вибухів. Людина в ній стає напівбогом що може пережити гранату підірвану прямо під ногами.
+  name: гренадерська броня зразка M3-G4 
+  description: Спеціальне покращення броні М3, напхана до країв м'якою оббивкою, обшивкою, і усіма формами захисту від вибухів. Людина в ній стає напівбогом, що може пережити гранату підірвану прямо під ногами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/g4/jungle.rsi
@@ -395,8 +395,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3TDemo
-  name: легка противибухова броня M3-T
-  description: Кастомний варіант броні M3 розроблений для користувачів протитанкового озброєння. Надає кращий захист від вибухів порівняно зі звичайною М3, при тому лишаючи власнику рухливість на полі бою.
+  name: легка противибухова броня зразка M3-T
+  description: Кастомний варіант броні M3 розроблений для користувачів протитанкового озброєння. Надає кращий захист від вибухів порівняно зі звичайною М3, при тому лишаючи власнику мобільність на полі бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/t/jungle.rsi
@@ -421,7 +421,7 @@
   parent: CMArmorM3Medium
   id: CMArmorM3Light
   name: легка броня зразка M3-L
-  description: Полегшена, урізана версія броні М3. Ця броня ставить швидкість над захистом тому не дуже сподівайтеся вижити від чогось сильніше моральної шкоди. Більше захищає від кислоти.
+  description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/padded/jungle.rsi
@@ -441,8 +441,8 @@
 
 - type: entity
   id: RMCArmorM3LightVariants
-  name: M3-L pattern light armor
-  description: A lighter, cut down version of the standard M3 pattern armor. It sacrifices durability for more speed.
+  name: легка броня зразка M3-L
+  description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
   categories:
   - HideSpawnMenu
   components:
@@ -558,8 +558,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: RMCArmorM3Scout
-  name: легка броня M3-S
-  description: Легка версія броні М3 зроблена спеціально для розвідників. Час від часу переконуйтеся що вона досі на вас.
+  name: легка броня зразка M3-S
+  description: Легка версія броні М3 зроблена спеціально для розвідників. Час від часу переконуйтеся, що вона досі на вас.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/scout/jungle.rsi
@@ -586,7 +586,7 @@
 - type: entity
   parent: CMArmorM3Light
   id: CMArmorM3VLBallistics
-  name:  балістичний бронежилет M3-VL
+  name:  балістичний бронежилет зразка M3-VL
   description: До 2182 року небойовий персонал морської піхоти отримував нестандартні балістичні жилети, проте несумісність з IMС та відсутність вбудованих ліхтариків у костюмах знову і знову доводила їхню непрактичність. Цей модифікований бронежилет M3-L був розроблений в результаті 6-річної програми досліджень; він забезпечує світло, захист і комфорт для всього небойового персоналу морської піхоти.
   components:
   - type: Sprite
@@ -607,7 +607,7 @@
 - type: entity
   parent: CMArmorM3VLBallistics
   id: CMArmorM3VLFlakVest
-  name: пілотна броня M3-VL 
+  name: пілотна броня зразка M3-VL 
   description: Комбінація небойового броніка M3-VL і бронежилета M70, зроблений спеціально для пілотів, щоб захистити їх ззовні і зсередини...
   components:
   - type: Sprite
@@ -621,8 +621,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3VLSynth
-  name: M3A1 Synthetic Utility Vest
-  description: This variant of the ubiquitous M3 pattern vest has been extensively modified, providing no protection in exchange for maximum mobility and added storage. Synthetic programming compliant.
+  name: Синтетичний Службовий Жилет зразка М3А1
+  description: Цей варіант повсюдного жилета зразка M3 зазнав значних модифікацій, не забезпечує жодного захисту, натомість надає максимальну мобільність і додаткові кишені. Сумісний із синтетичним ПЗ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/jungle.rsi
@@ -679,7 +679,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM35
-  name: M35 броня піротехніка 
+  name: броня піротехніка зразка М35
   description: Броня розроблена для піротехніків. Не факт що витримає вибух гранати в руках, але це хоча б щось.
   components:
   - type: Sprite
@@ -700,7 +700,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM45
-  name: M45 масхалат # TODO RMC14 camo, id lock
+  name: маскхалат зразка М45 # TODO RMC14 camo, id lock
   description: Легкий камуфляжний костюм, що використовується морпіхотними снайперами на розвідувальних місіях. Легкий і на диво добре захищає.
   components:
   - type: Sprite
@@ -741,7 +741,7 @@
   parent: [ RMCAllowSuitStorageClothingSmartgunner, CMArmorM3Medium ]
   id: CMArmorSmartGunCombatHarness
   name: бойове кріплення ML66A
-  description: Важкий бронежилет створений для використання разом з ML66A Smart Gun. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
+  description: Важкий бронежилет створений для використання разом зі смарт-кулеметом ML66A Smartgun. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/ml66a/jungle.rsi
@@ -771,7 +771,7 @@
   parent: [ RMCAllowSuitStorageClothingArmorMP, CMArmorM3Medium ]
   id: CMArmorM2MP
   name: броня ВСП зразка М2
-  description: Броня М2 гарно вправляється з захистом від ударів але з кулями у неї проблеми.
+  description: Стандартна броня морпіхів КОН зразка М2. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m2/mp/jungle.rsi
@@ -800,8 +800,8 @@
 - type: entity
   parent: CMArmorM4
   id: RMCArmorXM4
-  name: XM4 pattern intel armor
-  description: Tougher than steel, quieter than whispers, the XM4 Intel Armor provides capable protection combined with an experimental integrated motion tracker. It took an R&D team a weekend to develop and costs more than the Chinook Station... probably. When worn, uniform accessories such as webbing cannot be attached due to the motion sensors occupying the clips.
+  name: броня розвідки зразка ХМ4
+  description: Твердіша за сталь, тихіша за шепіт, броня розвідки ХМ4 забезпечує захист разом із встроєним ексмериментальним детектором руху. Це зайняло Н.В. тиждень на розробку та коштувало більше, аніж станція "Чінук"... напевно. Підчас носіння, аксесуари типу розгрузки не можуть бути одягнені через детектор руху, що займає кріплення.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/io/jungle.rsi

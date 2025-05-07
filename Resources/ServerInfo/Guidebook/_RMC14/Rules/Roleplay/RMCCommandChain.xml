@@ -1,22 +1,22 @@
-﻿<Document>
+<Document>
 
-  # Chain of Command
+  # Ланцюг командування
 
-  The new commander of the operation does not assume a new rank, title or powers such as access changes, but other personnel must follow their orders that pertain to directing the operation.
+  Новий командувач операцією не отримує нового звання, титулу чи додаткових повноважень (наприклад, доступу). Проте інший персонал зобов'язаний виконувати його накази, якщо вони стосуються керівництва операцією.
 
-  - Commanding Officer
-  - Executive Officer
-  - Auxiliary Support Officer
-  - Staff Officer
-  - Chief MP
-  - Chief Medical Officer
-  - Chief Engineer
-  - Pilot Officer
-  - Intelligence Officer
-  - Quartermaster
-  - Senior Enlisted Advisor
-  - Warden
-  - Military Police
-  - Squad Leader (Starts at Alpha and goes through the squads)
-  - Ranking military personnel (Any squad role, starting at Alpha and through the squads.)
+  - Командуючий Офіцер
+  - Виконавчий Офіцер
+  - Офіцер Підтримки
+  - Штабний Офіцер
+  - Голова Військової Служби Правопорядку
+  - Головний Лікар
+  - Головний Інженер
+  - Пілот
+  - Офіцер Розвідки
+  - Квартирмейстер
+  - Інструктор
+  - Наглядач
+  - Військовий Поліціянт
+  - Лідер Загону (починаючи з загону Альфа, далі за списком)
+  - Найвищий за рангом військовий (будь-яка роль у загоні, починаючи з Альфи)
 </Document>
