@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: ColMarTech automated weapons rack
-  description: An automated weapon rack hooked up to a big storage of standard-issue weapons.
+  name: Автоматизована стійка зброї КолМорТех
+  description: Автоматизована стійка з видачі зброї, боєприпасів і спорядження для морпіхів.
   components:
   - type: AccessReader
     access:
@@ -16,7 +16,7 @@
     - "CMAccessMarinePrep"
     hackable: true
     sections:
-    - name: Primary firearms
+    - name: Основна зброя
       entries:
       - id: WeaponRifleM4SPR
         amount: 10
@@ -27,7 +27,7 @@
       - id: WeaponRifleM54C
         amount: 30
         recommended: true
-    - name: Primary ammunition
+    - name: Боєприпаси до основної зброї
       entries:
       - id: RMCBoxShotgunFlechette
         amount: 4
@@ -41,7 +41,7 @@
         amount: 25
       - id: CMMagazineRifleM54C
         amount: 25
-    - name: Sidearms
+    - name: Додаткова зброя
       entries:
       - id: RMCWeaponPistolM77Empty
         amount: 25
@@ -53,7 +53,7 @@
         amount: 25
       #- id: WeaponFlareM82F
       #  amount: 10
-    - name: Sidearm ammunition
+    - name: Боєприпаси до додаткової зброї
       entries:
       - id: CMMagazinePistolM77AP
         amount: 25
@@ -63,7 +63,7 @@
         amount: 25
       - id: RMCMagazinePistolM13
         amount: 25
-    - name: Attachments
+    - name: Обвіси
       entries:
       - id: RMCAttachmentM63StockCollapsible
         amount: 10
@@ -77,7 +77,7 @@
         recommended: true
       - id: RMCAttachmentU1GrenadeLauncher
         amount: 25
-    - name: Utilities
+    - name: Допоміжне спорядження
       entries:
       - id: RMCM5Bayonet
         amount: 25
@@ -89,8 +89,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: ColMarTech surplus uniform vendor
-  description: An automated rack hooked up to a small storage of standard marine uniforms.
+  name: Стійка надлишкового одягу КолМорТех
+  description: Стійка з одягом і спорядженням для морпіхів.
   components:
   - type: AccessReader
     access:
@@ -102,7 +102,7 @@
     - "CMAccessMarinePrep"
     hackable: true
     sections:
-    - name: Standard Equipment
+    - name: Стандартне спорядження
       entries:
       - id: CMBootsBlack
         amount: 15
@@ -118,7 +118,7 @@
         amount: 15
       - id: ArmorHelmetM10
         amount: 15
-    - name: Webbings
+    - name: Жилети
       entries:
       - id: CMWebbingBrown
         amount: 1
@@ -130,7 +130,7 @@
         amount: 1
       - id: CMWebbingHolster
         amount: 1
-    - name: Armor
+    - name: Броня
       entries:
       - id: RMCArmorM3MediumCarrier
         amount: 15
@@ -148,7 +148,7 @@
         amount: 10
       - id: RMCArmorM3LightPadded
         amount: 10
-    - name: Backpack
+    - name: Рюкзаки
       entries:
       - id: CMBackpackMarine
         amount: 15
@@ -168,7 +168,7 @@
         amount: 15
       - id: RMCScabbardShotgun
         amount: 5
-    - name: Restricted Backpacks
+    - name: Спеціальні рюкзаки
       entries:
       - id: CMBackpackWelder
         amount: 1
@@ -176,7 +176,7 @@
         amount: 2
       - id: RMCBackpackRTO
         amount: 1
-    - name: Belts
+    - name: Поясне спорядження
       entries:
       - id: CMBeltMarine
         amount: 15
@@ -199,7 +199,7 @@
         amount: 15
       - id: RMCBeltUtilityGeneral
         amount: 15
-    - name: Pouches
+    - name: Підсумки
       entries:
       - id: RMCPouchBayonet
         name: Bayonet Sheath (Full)
@@ -225,7 +225,7 @@
         amount: 15
       - id: RMCPouchPistol
         amount: 15
-    - name: Restricted Pouches
+    - name: Спеціальні підсумки
       entries:
       - id: RMCPouchConstruction
         amount: 1
@@ -240,7 +240,7 @@
         amount: 1
 #      - id: Sling Pouch
 #        amount: 1
-    - name: Mask
+    - name: Маски
       entries:
       - id: CMMaskGas
         amount: 15
@@ -248,7 +248,7 @@
         amount: 10
       - id: RMCMaskRebreather
         amount: 10
-    - name: Miscellaneous
+    - name: Різне
       entries:
       - id: RMCGogglesBallistic
         amount: 10
@@ -284,7 +284,7 @@
         amount: 20
       - id: RMCM5CameraGear
         amount: 10
-    - name: Optics
+    - name: Оптика
       entries: [ ]
 #      - id: Advanced Medical Optic (CORPSMAN ONLY)
 #        amount: 4
@@ -295,8 +295,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: ColMarTech automated munition squad vendor
-  description: An automated supply rack hooked up to a small storage of various ammunition types. Can be accessed by any Marine Rifleman.
+  name: Стійка боєприпасів КолМорТех
+  description: Стійка з різними видами боєприпасів. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -310,7 +310,7 @@
     - "CMAccessRequisitions"
     hackable: true
     sections:
-    - name: Armor-Piercing Ammunition
+    - name: Бронебійні боєприпаси
       entries:
       - id: CMMagazineRifleM4SPRAP
         amount: 4
@@ -318,13 +318,13 @@
         amount: 3
       - id: CMMagazineRifleM54CAP
         amount: 3
-    - name: Extended Ammunition
+    - name: Збільшені магазини
       entries:
       - id: CMMagazineSMGM63Ext
         amount: 2
       - id: CMMagazineRifleM54CExt
         amount: 2
-    - name: Special Ammunition
+    - name: Спеціальні боєприпаси
       entries:
       - id: RMCMagazineSmartGun
         amount: 1
@@ -336,7 +336,7 @@
         amount: 6
       - id: RMCMagazinePistolM13Drum
         amount: 6
-    - name: Restricted Firearm Ammunition
+    - name: Обмежені боєприпаси
       entries:
       - id: CMMagazinePistolMK80
         amount: 6
@@ -361,8 +361,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: ColMarTech automated utilities squad vendor
-  description: An automated supply rack hooked up to a small storage of various utilities and tools. Can be accessed by any Marine Rifleman.
+  name: Стійка спорядження КолМорТех
+  description: Стійка з базовим оснащенням та інструментами загального призначення. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -376,13 +376,13 @@
     - "CMAccessRequisitions"
     hackable: true
     sections:
-    - name: Food
+    - name: Їжа
       entries:
       - id: CMMRE
         amount: 5
       - id: RMCBoxMRE
         amount: 1
-    - name: Tools
+    - name: Інструменти
       entries:
       - id: CMEntrenchingTool
         amount: 2
@@ -398,7 +398,7 @@
         amount: 1
       - id: CMWelder
         amount: 1
-    - name: Flare and light
+    - name: Флаєри і освітлення
       entries:
 #      #  amount: 1
       - id: RMCFlashlight # Combat Flashlight
@@ -411,7 +411,7 @@
         amount: 10
       - id: RMCPackFlareCAS
         amount: 1
-    - name: Miscellaneous
+    - name: Різне
       entries:
       - id: RMCEngineerKit
         amount: 1
@@ -441,8 +441,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: Aegis Armaments squad attachments vendor
-  description: An automated supply rack hooked up to a small storage of weapons attachments. Can be accessed by any Marine Rifleman.
+  name: Стійка обвісів Егіда
+  description: Стійка з видачі обвісів для зброї. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -456,7 +456,7 @@
     - "CMAccessRequisitions"
     hackable: true
     sections: # TODO RMC14
-    - name: Barrel
+    - name: Ствол
       entries:
       - id: RMCAttachmentExtendedBarrel
         amount: 3
@@ -464,7 +464,7 @@
         amount: 3
       - id: RMCAttachmentSuppressor
         amount: 3
-    - name: Rail
+    - name: Рейкова планка
       entries:
       - id: RMCAttachmentB8SmartScope
         amount: 2
@@ -478,7 +478,7 @@
         amount: 4
       - id: RMCAttachmentS84xTelescopicScope
         amount: 2
-    - name: Underbarrel
+    - name: Підствольне кріплення
       entries:
       - id: RMCAttachmentAngledGrip
         amount: 3
@@ -500,7 +500,7 @@
         amount: 2
       - id: RMCAttachmentVerticalGrip
         amount: 3
-    - name: Stock
+    - name: Приклад
       entries:
       - id: RMCAttachmentM42A2WoodenStock
         amount: 2
