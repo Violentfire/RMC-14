@@ -3,8 +3,8 @@
   abstract: true
   parent: BaseSMES
   id: CMSMESBase
-  name: SMES
-  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
+  name: НМА
+  description: Надпровідний Магнітний Акамулятор (НМА).
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Power/smes.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMSMESBase
   id: CMSMESBasic
-  suffix: Basic, 8MW
+  suffix: Базовий, 8MW
   components:
   - type: Battery
     maxCharge: 8000000
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSMESBasic
   id: CMSMESEmpty
-  suffix: Empty
+  suffix: Пустий
   components:
   - type: Battery
     startingCharge: 0
