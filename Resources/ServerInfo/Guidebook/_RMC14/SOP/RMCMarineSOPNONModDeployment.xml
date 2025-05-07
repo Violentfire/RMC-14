@@ -1,66 +1,66 @@
 ﻿<Document>
-  # NON-Modifiable Deployment Restrictions
+  # Незмінні обмеження на розгортання
 
-  ## Nuclear Protocol
+  ## Ядерний Протокол
 
-  In the event of nuclear ordnance being deployed, all personnel are authorized to deploy to the [bold]FOB[/bold] to protect it during countdown, which overrides all other department SOP preventing deployments.
+  Якщо було активовано ядерний боєприпас, весь персонал може бути розгорнутий на [bold]ПОБ[/bold] з метою його захисту під час зворотного відліку. Це скасовує всі інші стандартні операційні процедури департаментів, що забороняють розгортання.
 
-  - The [color=#008000][bold]Commander[/bold][/color] may order personnel to remain aboard the ship at their discretion.
-  - Prisoners may not be deployed.
+  - [color=#008000][bold]Командир[/bold][/color] має повноваження наказати персоналу залишитися на кораблі, якщо вважатиме це за необхідне.
+  - Залучення в'язнів до операцій заборонене.
 
-  ## Commander Field Deployment
+  ## Польова присутність Командувача
 
-  - The [color=#008000][bold]Commander[/bold][/color] has the right to deploy to the frontline for the sake of commanding their personnel from a direct point of view. Deployments must be for the sake of the personnel and operation, and not for the personal glory of the [color=#008000][bold]Commander[/bold][/color].
-  - A [color=#90EE90][bold]Duty Officer[/bold][/color] may not deploy.
-  - This right to deploy is exclusive to the [color=#00CBFE][bold]Commanding Officer[/bold][/color] and [bold]Executive Officer[/bold], it cannot be transferred.
+  - [color=#008000][bold]Командир[/bold][/color] має право вирушити на передову з метою безпосереднього командування особовим складом. Розгортання повинні здійснюватися задля підтримки підрозділів та успішного виконання операції, а не заради особистої слави [color=#008000][bold]Командира[/bold][/color].
+  - [color=#90EE90][bold]Офіцер чергування[/bold][/color] не може бути відправлений у зону бойових дій.
+  - Повноваження на розгортання мають лише [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] і [bold]Виконавчий Офіцер[/bold], делегування цього права заборонене.
 
-  [bold]Preparing to Deploy[/bold]
+  [bold]Підготовка до розгортання[/bold]
 
-  - The [color=#00CBFE][bold]Commanding Officer[/bold][/color] and [bold]Executive Officer[/bold] should not be deployed at the same time, if both are present.
-  - Deployment should not be done unless they are confident CIC can be managed in their absence.
-  - Actions taken by [bold]CIC Personnel[/bold] in the absence is the responsibility of the [color=#008000][bold]Commander[/bold][/color].
-  - If the [color=#00CBFE][bold]Commanding Officer[/bold][/color] is present, the [bold]Executive Officer[/bold] requires permission to deploy, otherwise they must notify [bold]CIC Personnel[/bold] of their intent to deploy.
-  - The [color=#00CBFE][bold]Commanding Officer[/bold][/color] must notify [bold]CIC Personnel[/bold] of their intent to deploy.
-  - The [color=#00CBFE][bold]Commanding Officer[/bold][/color] may appoint honor guards for their own protection but [bold]Executive Officer[/bold]s must request permission from the [color=#00CBFE][bold]Commanding Officer[/bold][/color] to do the same.
+  - [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] та [bold]Виконавчий Офіцер[/bold] не повинні бути розгорнуті одночасно, якщо обидва присутні.
+  - Розгортання не повинно відбуватися, поки не буде впевненості, що БІЦ може функціонувати без їхньої присутності.
+  - Якщо [bold]персонал БІЦ[/bold] відсутній, відповідальність за їхні дії покладається на [color=#008000][bold]Командувача[/bold][/color].
+  - Якщо [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] присутній, [bold]Виконавчий Офіцер[/bold] потребує дозволу на розгортання, в іншому випадку він повинен повідомити [bold]Персонал БІЦ[/bold] про свої наміри.
+  - [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] повинен сповістити [bold]Персонал БІЦ[/bold] про свої наміри щодо розгортання.
+  - [color=#00CBFE][bold]Командуючий Офіцер[/bold][/color] може призначити почесну варту для власного захисту, але [bold]Виконавчий Офіцер[/bold] повинен отримати дозвіл від [color=#00CBFE][bold]Командуючого Офіцера[/bold][/color] на такі ж дії.
 
-  [bold]When Deployed[/bold]
+  [bold]Після Розгортання[/bold]
 
-  - The deploying [color=#008000][bold]Commander[/bold][/color] must still command and communicate frequently with both the [bold]CIC[/bold] and marine crews.
-  - Combat should be reserved when assisting the marines in a supporting capacity, in defense of others and self, or directly leading an offensive maneuver.
-  - They should avoid unnecessarily putting themselves in danger, and remain close to marines to focus on providing clear orders.
+  - Розгортаючийся [color=#008000][bold]Командувач[/bold][/color] повинен продовжувати керувати та часто спілкуватись з [bold]БІЦ[/bold] так і з морпіхами.
+  - Бій повинен бути обмежений випадками надання допомоги морським піхотинцям, обороною себе та інших, або безпосереднім веденням наступу.
+  - Вони повинні уникати зайвої небезпеки і залишатися поруч з морськими піхотинцями, щоб зосередитися на наданні чітких наказів.
 
-  ## Shipside Personnel
+  ## Судновий Персонал
 
-  Personnel normally restricted to shipside duties such as doctors and Military Police may be deployed to the [bold]FOB[/bold]; however special circumstances or clearances are needed.
+  Персонал, який зазвичай виконує обов'язки на борту судна, наприклад, лікарі та військова поліція, можуть бути направлені на [bold]ПОБ[/bold]; однак для цього потрібні особливі обставини або дозволи.
 
-  - Civilians (Personnel that are not enlisted or officers of the UNMC) may deploy at their discretion, provided their landing zone is not in direct danger.
-  - All recovered personnel defined by [textlink="NON-Modifiable Third-Party Personnel" link="RMCMarineSOPNONModThirdparty"] do not require permission to deploy.
-  - Department Heads may not deploy at all, with the exception of the [bold]Chief Engineer[/bold] under some conditions.
-  - All personnel that intend to deploy, including Staff Officers [bold]require permission[/bold] from either their head of department, or the [color=#008000][bold]Commander[/bold][/color].
-  - The [color=#008000][bold]Commander[/bold][/color] may overrule the department head regarding deployment.
+  - Цивільні особи (персонал, що не є військовослужбовцями або офіцерами КМПОН) можуть розгортатися на свій розсуд, за умови, що їхня зона висадки не перебуває під прямою загрозою.
+  - Керівники департаментів не можуть брати участь у розгортанні, за винятком [bold]Головного Інженера[/bold] за певних обставин.
+  - Персонал, який має намір розгортатися, в тому числі офіцери штабу, [bold]потрібно отримати дозвіл[/bold] від керівника свого відділу або [color=#008000][bold]Командуючого[/bold][/color].
+  - Весь цивільний персонал, за винятком відновленого персоналу, визначеного в [textlink="Незмінний персонал третьої сторони" link="RMCMarineSOPNONModThirdparty"] [bold]потрібно отримати дозвіл[/bold] від [color=#008000][bold]Командувача[/bold][/color] для розгортання.
+  - [color=#008000][bold]Командувач[/bold][/color] може відмінити рішення начальника відділу щодо розгортання.
 
-  [bold]Engineering[/bold]
+  [bold]Інженери[/bold]
 
-  - The [bold]Chief Engineer[/bold] may deploy to the [bold]FOB[/bold] if there is an [bold]Auxiliary Support Officer[/bold] on board, but still requires permission from them or the [color=#008000][bold]Commander[/bold][/color].
-  - Both the [bold]Chief Engineer[/bold] and maintenance techs may only deploy with the purpose of building the [bold]FOB[/bold], and telecommunications, but must leave if these areas are no longer considered secure.
+  - [bold]Головний Інженер[/bold] може бути розгорнутий на [bold]ПОБ[/bold] якщо на борту є [bold]Офіцер Підтримки[/bold] але все одно потребує дозволу від нього або від [color=#008000][bold]Командувача[/bold][/color].
+  - [bold]Головний Інженер[/bold] та техніки з обслуговування можуть бути розгорнуті лише з метою побудови [bold]ПОБ[/bold]-у, and telecommunications, та телекомунікацій, але повинні залишити ці зони, якщо вони більше не вважаються безпечними.
 
-  [bold]Medical[/bold]
+  [bold]Медики[/bold]
 
-  - Doctors and Nurses may deploy to the [bold]FOB[/bold], and designated [bold]Field Hospital[/bold], until they are no longer [bold]Secure Area[/bold]s.
+  - Доктори та Медсестри можуть бути розгорнуті до [bold]ПОБ[/bold], та призначеного [bold]Польового Шпиталю[/bold], поки ці зони залишаються [bold]Безпечними Районами[/bold].
 
-  [bold]Requisitions[/bold]
+  [bold]Постачання[/bold]
 
-  - Cargo techs may deploy to the [bold]FOB[/bold] to assist in organizing and accounting for supplies.
+  - Вантажники можуть бути відправлені до [bold]ПОБ[/bold]-у для допомоги в організації та обліку постачання.
 
-  [bold]Military Police[/bold]
+  [bold]Військова Служба Правопорядку[/bold]
 
-  - [bold]CIC Personnel[/bold] may request up to four volunteers from the [color=#ff000d][bold]MP[/bold][/color] to be deployed to the [bold]FOB[/bold] and [bold]Secure Area[/bold]s to protect deployed shipside crew and handle arrests.
-  - This is unrelated to [color=#00CBFE][bold]Commanding Officer[/bold][/color] escorts, and can be overridden by either higher ranking personnel or the [color=#008000][bold]Commander[/bold][/color].
-  - At least one [color=#ff000d][bold]MP[/bold][/color] must remain on the ship at all times. If the [color=#8B0000][bold]Chief MP[/bold][/color] is present, it must be them.
-  - The [bold]Warden[/bold] may deploy to perform requested arrests in the absence of [color=#ff000d][bold]MP[/bold][/color] officers, but should otherwise remain on the ship.
-  - Deployed [color=#ff000d][bold]MP[/bold][/color] may move between [bold]Secure Area[/bold]s and should be avoiding combat while doing so, unless in protection of non-combat personnel like doctors or themselves.
-  - [color=#ff000d][bold]MP[/bold][/color] should retreat and assist non-combat personnel in retreating from a [bold]Secure Area[/bold] if it is no longer secure.
-  - [color=#ff000d][bold]MP[/bold][/color] may be required to transfer a prisoner from the AO to the ship, and should, to the best of their ability, ensure the prisoner makes it to the ship safely.
+  - [bold]Персонал БІЦ[/bold] може запросити до чотирьох волонтерів від [color=#ff000d][bold]ВСП[/bold][/color] для відправлення на [bold]ПОБ[/bold] та в [bold]Контрольовані Зони[/bold] з метою захисту розгорнутого суднового екіпажу та здійснення арештів.
+  - Це не має відношення до ескорту [color=#00CBFE][bold]Командуючого Офіцера[/bold][/color] та може бути скасоване вищим керівництвом, або ж [color=#008000][bold]Командувачем[/bold][/color].
+  - Принаймні один член [color=#ff000d][bold]ВСП[/bold][/color] повинен залишатися на кораблі в будь-який час. Якщо присутній [color=#8B0000][bold]Голова ВСП[/bold][/color] це повинен бути саме він.
+  - [bold]Наглядач[/bold] може відправитися на місце для виконання запитуваних арештів за відсутності офіцерів [color=#ff000d][bold]ВСП[/bold][/color] але в іншому випадку повинен залишатися на кораблі.
+  - Розгорнуті [color=#ff000d][bold]ВСП[/bold][/color]  можуть переміщатися між [bold]Контрольованими Зонами[/bold] і повинні уникати бою під час цього, якщо лише не захищають неконфліктний персонал, такий як лікарі, або не захищають себе.
+  - [color=#ff000d][bold]ВСП[/bold][/color] повинні відступити та допомогти неконфліктному персоналу відступити з [bold]Контрольованої Зони[/bold] якщо вона більше не є безпечною.
+  - [color=#ff000d][bold]ВСП[/bold][/color] може бути вимушене перевезти ув'язненого з операційної зони на корабель і має зробити все можливе, щоб забезпечити безпечне доставлення ув'язненого на корабель.
 
 
 </Document>
