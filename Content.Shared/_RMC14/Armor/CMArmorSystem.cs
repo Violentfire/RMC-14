@@ -9,17 +9,22 @@ using Content.Shared.Armor;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
+using Content.Shared.Examine;
 using Content.Shared.Explosion;
 using Content.Shared.FixedPoint;
+using Content.Shared.GameTicking;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Movement.Components;
 using Content.Shared.Preferences;
 using Content.Shared.Rounding;
+using Content.Shared.Verbs;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.Manager;
+using Robust.Shared.Timing;
+using Robust.Shared.Utility;
 
 namespace Content.Shared._RMC14.Armor;
 
@@ -30,14 +35,22 @@ public sealed class CMArmorSystem : EntitySystem
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly IPrototypeManager _prototypes = default!;
     [Dependency] private readonly ISerializationManager _serializationManager = default!;
+    [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly ExamineSystemShared _examine = default!;
 
     private static readonly ProtoId<DamageGroupPrototype> ArmorGroup = "Brute";
     private static readonly ProtoId<DamageGroupPrototype> BioGroup = "Burn";
     private static readonly int MaxXenoArmor = 55;
 
+    private EntityQuery<RMCAllowSuitStorageUserWhitelistComponent> _rmcAllowSuitStorageUserWhitelistQuery;
+
     public override void Initialize()
     {
+        _rmcAllowSuitStorageUserWhitelistQuery = GetEntityQuery<RMCAllowSuitStorageUserWhitelistComponent>();
+
+        SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawnComplete);
+
         SubscribeLocalEvent<CMArmorComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<CMArmorComponent, ComponentRemove>(OnRemove);
         SubscribeLocalEvent<CMArmorComponent, DamageModifyEvent>(OnDamageModify);
@@ -72,6 +85,22 @@ public sealed class CMArmorSystem : EntitySystem
 
         SubscribeLocalEvent<RMCAllowSuitStorageUserWhitelistComponent, GotEquippedEvent>(OnAllowSuitStorageUserWhitelistGotEquipped);
         SubscribeLocalEvent<RMCAllowSuitStorageUserWhitelistComponent, GotUnequippedEvent>(OnAllowSuitStorageUserWhitelistGotUnequipped);
+        SubscribeLocalEvent<CMArmorComponent, GetVerbsEvent<ExamineVerb>>(OnArmorVerbExamine);
+    }
+
+    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent ev)
+    {
+        if (!TryComp(ev.Mob, out InventoryComponent? inventory))
+            return;
+
+        var slots = _inventory.GetSlotEnumerator((ev.Mob, inventory));
+        while (slots.MoveNext(out var slot))
+        {
+            if (!_rmcAllowSuitStorageUserWhitelistQuery.TryComp(slot.ContainedEntity, out var whitelist))
+                continue;
+
+            OnAllowSuitStorageWhitelistEquipped((slot.ContainedEntity.Value, whitelist), ev.Mob);
+        }
     }
 
     private void OnMapInit(Entity<CMArmorComponent> armored, ref MapInitEvent args)
@@ -109,6 +138,8 @@ public sealed class CMArmorSystem : EntitySystem
 
     private void OnGetArmor(Entity<CMArmorComponent> armored, ref CMGetArmorEvent args)
     {
+        args.ExplosionArmor += armored.Comp.ExplosionArmor;
+
         if (HasComp<XenoComponent>(armored))
         {
             args.XenoArmor += armored.Comp.XenoArmor;
@@ -123,6 +154,8 @@ public sealed class CMArmorSystem : EntitySystem
 
     private void OnGetArmorRelayed(Entity<CMArmorComponent> armored, ref InventoryRelayedEvent<CMGetArmorEvent> args)
     {
+        args.Args.ExplosionArmor += armored.Comp.ExplosionArmor;
+
         if (HasComp<XenoComponent>(armored))
         {
             args.Args.XenoArmor += armored.Comp.XenoArmor;
@@ -395,7 +428,25 @@ public sealed class CMArmorSystem : EntitySystem
 
     private void OnAllowSuitStorageUserWhitelistGotEquipped(Entity<RMCAllowSuitStorageUserWhitelistComponent> ent, ref GotEquippedEvent args)
     {
-        if (!_entityWhitelist.IsWhitelistPass(ent.Comp.User, args.Equipee))
+        OnAllowSuitStorageWhitelistEquipped(ent, args.Equipee);
+    }
+
+    private void OnAllowSuitStorageUserWhitelistGotUnequipped(Entity<RMCAllowSuitStorageUserWhitelistComponent> ent, ref GotUnequippedEvent args)
+    {
+        if (_timing.ApplyingState)
+            return;
+
+        var comp = EnsureComp<AllowSuitStorageComponent>(ent);
+        comp.Whitelist = _serializationManager.CreateCopy(ent.Comp.DefaultWhitelist, notNullableOverride: true);
+        Dirty(ent, comp);
+    }
+
+    private void OnAllowSuitStorageWhitelistEquipped(Entity<RMCAllowSuitStorageUserWhitelistComponent> ent, EntityUid user)
+    {
+        if (_timing.ApplyingState)
+            return;
+
+        if (!_entityWhitelist.IsWhitelistPass(ent.Comp.User, user))
         {
             var comp = EnsureComp<AllowSuitStorageComponent>(ent);
             comp.Whitelist = _serializationManager.CreateCopy(ent.Comp.DefaultWhitelist, notNullableOverride: true);
@@ -409,10 +460,47 @@ public sealed class CMArmorSystem : EntitySystem
         EntityManager.AddComponents(ent, allowed);
     }
 
-    private void OnAllowSuitStorageUserWhitelistGotUnequipped(Entity<RMCAllowSuitStorageUserWhitelistComponent> ent, ref GotUnequippedEvent args)
+    private void OnArmorVerbExamine(EntityUid uid, CMArmorComponent component, GetVerbsEvent<ExamineVerb> args)
     {
-        var comp = EnsureComp<AllowSuitStorageComponent>(ent);
-        comp.Whitelist = _serializationManager.CreateCopy(ent.Comp.DefaultWhitelist, notNullableOverride: true);
-        Dirty(ent, comp);
+        if (!args.CanInteract || !args.CanAccess || HasComp<XenoComponent>(uid))
+            return;
+
+        var examineMarkup = GetArmorExamine(component);
+
+        _examine.AddDetailedExamineVerb(args, component, examineMarkup,
+            Loc.GetString("armor-examinable-verb-text"), "/Textures/Interface/Actions/actions_fakemindshield.rsi/icon-on.png",
+            Loc.GetString("armor-examinable-verb-message"));
     }
+
+    private FormattedMessage GetArmorExamine(CMArmorComponent armorComponent)
+    {
+        var msg = new FormattedMessage();
+        msg.AddMarkupOrThrow(Loc.GetString("armor-examine"));
+
+        // You can add any new armor types here, and they should show up
+        // Maybe add what body part is protects in the future? "It has the following protection for your torso:"
+        var armorRatings = new (string, int)[]
+        {
+            (Loc.GetString("rmc-armor-melee"), armorComponent.Melee),
+            (Loc.GetString("rmc-armor-bullet"), armorComponent.Bullet),
+            (Loc.GetString("rmc-armor-bio"), armorComponent.Bio),
+            (Loc.GetString("rmc-armor-explosion-armor"), armorComponent.ExplosionArmor)
+        };
+
+        foreach (var (text, value) in armorRatings)
+        {
+            if (value != 0)
+            {
+                msg.PushNewline();
+                msg.AddMarkupOrThrow(Loc.GetString(
+                    $"rmc-examine-armor",
+                    ("text", text),
+                    ("value", value)
+                ));
+
+            }
+        }
+        return msg;
+    }
+
 }

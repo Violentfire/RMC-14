@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: CMVendorBundleRiflemanApparel
   name: стандартне морпіхотне обмундирування
   description: Містить морпіхотну уніформу, шолом M10, гарнітуру, бойові рукавиці та бойові чоботи.
@@ -70,11 +70,10 @@
   parent: CMVendorBundleRiflemanApparel
   id: CMVendorBundleCombatTechnicianApparel
   name: стандартне морпіхотне обмундирування
-  description: Містить морпіхотну уніформу, шолом M10, гарнітуру, ізольовані рукавички та бойові чоботи.
+  description: Містить морпіхотну уніформу, шолом M10, ізольовані рукавички та бойові чоботи.
   components:
   - type: CMVendorBundle
     bundle:
-    - CMArmorHelmetM10Tech # TODO RMC14 M4
     - CMVendorHeadsetSquadComTech
     - CMJumpsuitMarineEngineer
     - CMHandsInsulated

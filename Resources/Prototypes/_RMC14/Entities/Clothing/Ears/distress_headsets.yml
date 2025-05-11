@@ -12,7 +12,7 @@
 
 # For Bureau Marshals
 - type: entity
-  parent: CMHeadset
+  parent: RMCHeadsetIcons
   id: RMCHeadsetDistressBureau
   name: навушник шерифа
   description: Якісно зроблена гарнітура, яку використовують в Бюро Шерифів Колонії. Малогабаритна й зручна. Закон один для всіх.
@@ -24,7 +24,7 @@
 
 # For WeYa civilians
 - type: entity
-  parent: CMHeadset
+  parent: RMCHeadsetIcons
   id: RMCHeadsetDistressWeYa
   name: гарнітура корпората Ве-Я
   description: Ця гарнітура призначена для вух корпоратів.
@@ -36,7 +36,7 @@
 
 # For WeYa PMC
 - type: entity
-  parent: CMHeadset
+  parent: RMCHeadsetIcons
   id: RMCHeadsetDistressPMC
   name: гарнітура ПВК
   description: Гарнітура корпорації, але для дещо інших потреб.
@@ -60,7 +60,7 @@
     radioTextIncrease: 2
 
 - type: entity
-  parent: CMHeadset
+  parent: RMCHeadsetIcons
   id: RMCHeadsetDistressPMCDirector
   name: PMC headset
   description: A special headset used by corporate personnel.
@@ -78,7 +78,7 @@
 
 # For Duke's Dozen/Freelancer
 - type: entity
-  parent: CMHeadset
+  parent: RMCHeadsetIcons
   id: RMCHeadsetDistressDukes
   name: Duke's Dozen headset
   description: A special headset used by small groups of trained operatives. Or terrorists.
@@ -87,3 +87,11 @@
     containers:
       key_slots:
       - RMCEncryptionKeyDukes
+  - type: GrantMarineIcons
+
+- type: entity
+  parent: RMCHeadsetDistressDukes
+  id: RMCHeadsetDistressDukesLeader
+  components:
+  - type: RMCHeadset
+    radioTextIncrease: 3
