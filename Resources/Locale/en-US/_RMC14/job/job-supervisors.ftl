@@ -11,3 +11,4 @@ cm-job-supervisors-qm = Квартирмейстр
 cm-job-supervisors-ce = Головний Інженер
 cm-job-supervisors-sl = Теперішній Лідер Загону
 cm-job-supervisors-nobody = ніхто, ви самі по собі.
+cm-job-supervisors-colonists = the sapient colonists

@@ -453,6 +453,8 @@
   - type: RMCSelectiveFire
     baseFireRate: 0.417
   - type: GunIgnorePrediction
+  - type: GunIFF
+    enabled: true
   - type: BallisticAmmoProvider
     cycleable: false
     whitelist:
@@ -474,6 +476,7 @@
         volume: 5
     timerStart: enum.TimerStartMode.OnHitGround
   - type: ShootAtFixedPoint
+    shootArcProj: true
     maxFixedRange: 7
   - type: UniqueAction
   - type: BreechLoaded
@@ -702,6 +705,7 @@
   id: RMCAttachmentLaserLightModule
   name: MK80 лазерно-променевий модуль
   description: Модуль лазерного цілевказівника для службового пістолета MK80, який наразі проходить обмежені польові випробування в рамках програми створення пістолета нового покоління для маринів. Усі пістолети MK80 оснащуються цим модулем.
+  suffix: DO NOT MAP
   components:
   - type: Sprite
     layers:
