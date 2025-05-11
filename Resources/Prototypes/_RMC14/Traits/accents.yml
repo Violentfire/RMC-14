@@ -1,13 +1,4 @@
 - type: trait
-  id: Russian
-  name: rmc-trait-russian-accent-name
-  description: rmc-trait-russian-accent-desc
-  category: SpeechTraits
-  cost: 1
-  components:
-    - type: RussianAccent
-
-- type: trait
   id: Mobster
   name: rmc-trait-mobster-accent-name
   description: rmc-trait-mobster-accent-desc
