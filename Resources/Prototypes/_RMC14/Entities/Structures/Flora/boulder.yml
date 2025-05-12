@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseRockDestructible
   id: RMCBoulderLarge
-  name: boulder
-  description: A large rock. It's not cooking anything.
+  name: валун
+  description: Це просто великий камінь. Що, ніколи валуни не бачив?
   placement:
     mode: SnapgridBorder
   components:
