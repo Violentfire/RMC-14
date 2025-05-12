@@ -3,15 +3,15 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: ColMarTechFood
-  name: ColMarTech food vendor
-  description: Marine Food Vendor, containing standard military Prepared Meals.
+  name: Стійка їжі КолМорТех
+  description: Стійка з приготованою їжею та флягами. Призначена для харчування морпіхів.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/food.rsi
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Festive Meals
+    - name: Святкові страви
       holidays:
       - FestiveSeason
       entries:
@@ -21,7 +21,7 @@
         amount: 25
       - id: RMCMarinePreparedMealFruitcake
         amount: 25
-    - name: Prepared Meals
+    - name: Готові страви
       entries:
       - id: CMMRE
         name: UNMC Meal Ready to Eat
@@ -40,7 +40,7 @@
         amount: 15
       - id: CMMarineProteinBar
         amount: 50
-    - name: Flasks
+    - name: Фляги
       entries:
       - id: CMCanteen
         amount: 10
@@ -55,8 +55,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorBooze
-  name: Booze-O-Mat
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  name: Бухло-Мат
+  description: "Стійка з алкоголем, яка ніби знає, чого ти хочеш - ще до того, як ти це візьмеш. На здертій етикетці щось написано: НЕ ДОПУСКАТИ АЛКАШІВ."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/boozeomat.rsi
@@ -74,7 +74,7 @@
     hackable: true
     scaling: false
     sections:
-    - name: Alcohol
+    - name: Алкоголь
       entries:
 #      - id: DrinkAleBottleFull
 #        amount: 6
@@ -106,9 +106,9 @@
         amount: 12 # TODO RMC14 5
 #      - id: DrinkCoffeeLiqueurBottleFull
 #        amount: 5
-    - name: Craft Beers
+    - name: Крафтове пиво
       entries: []
-    - name: Non-Alcohol
+    - name: Безалкогольне
       entries:
       - id: CMDrinkCanFruitBeer
         amount: 8
@@ -124,7 +124,7 @@
         amount: 4
       - id: CMDrinkCanTonic
         amount: 8
-    - name: Containers
+    - name: Посуд
       entries:
       - id: CMMetalFlask
         name: metal flask (empty)
@@ -137,8 +137,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorChess
-  name: Chess-o-mat
-  description: In 2143 Red Star Drinks, a SPP-CA (Colony Administration) affiliated corporation ran a promotional sweepstakes for drinkers who had found special codes on the inside of the caps of a limited run of Red Star Vodka, shipping them a Chess-O-Mat with unlimited refills.
+  name: Шах-І-Мат
+  description: "У 2143 році компанія Griffeater Spirits, афілійована з Колоніальною адміністрацією (SPP-CA), провела рекламну акцію: кожен, хто знайшов спеціальний код під кришкою пляшки обмеженої серії Griffeater Gin, отримував Шах-І-Мат із необмеженим поповненням."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chessomat.rsi
@@ -148,12 +148,12 @@
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Chess
+    - name: Шахмати
       entries:
       - id: ChessBoard
         amount: 5
-    - name: White Pieces
+    - name: Білі фігури
       entries: []
-    - name: Black Pieces
+    - name: Чорні фігури
       entries: []
     # TODO RMC14 vodka chess pieces

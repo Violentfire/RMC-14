@@ -115,8 +115,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieAlec
-  name: conspicuous plush
-  description: You can almost feel spite emanating from it. On it's back is a small tag listing the several cheap and hyper allergenic textiles it's made of. At the very bottom is the name of the maker, Drake Industries.
+  name: підозріла іграшка
+  description: "Здається, ця іграшка пасивно тебе ненавидить. Її спина прикрашена біркою з переліком дивних і підозрілих матеріалів. У самому низу - ім’я виробника: Drake Industries"
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieNyx
-  name: accursed plush
-  description: It's rumoured if you ask this plushie for metal, your soul gets trapped in the pit. It's also rumoured that this plushie was made with 99% cotton.
+  name: проклята іграшка
+  description: Кажуть, якщо прошепотіти "метал" у присутності цієї іграшки - опинишся в бездонній ямі постачання. Інші кажуть, вона зроблена на 99% з бавовни... І на 1% - з Нікси.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -160,8 +160,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieXippy
-  name: xippy
-  description: An accursed agent of chaos and violence.
+  name: ксіппі
+  description: Кажуть, ця іграшка несе за собою хаос й насильство.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -204,8 +204,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieProvost
-  name: intimidating plush
-  description: An icon for all avid tax payers and law enforcement personnel - Don't let anyone know that this plushie is actually behind on their taxes.
+  name: грозна іграшка
+  description: Символ усіх, хто стоїть на варті закону й сумлінно платить податки. Принаймні, поки ніхто не дізнається, що вона сама в боргах перед податковою.
   suffix: DO NOT MAP
   components:
   - type: Sprite

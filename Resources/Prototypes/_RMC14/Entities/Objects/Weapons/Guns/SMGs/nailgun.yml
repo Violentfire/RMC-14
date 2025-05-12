@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: CMBaseWeaponSMG
-  name: nailgun
+  name: цвяхостріл
   id: WeaponNailgun
-  description: A carpentry tool, used to drive nails into tough surfaces. Of course, if there isn't anything there, that's just a very sharp nail launching at high velocity...
+  description: "Столярський інструмент для забивання цвяхів у тверді матеріали. Але якщо перед ним нічого немає - це просто цвях, який летить тобі в лоба на шаленій швидкості."
   suffix: Filled
   components:
   - type: Sprite
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSMGNailgun
-  name: "nailgun magazine (7x45mm)"
-  description: "A large magazine of oversized plasteel nails. Unfortunately, the production cost of those nail makes them ill-affordable for most military projects, and only some specific construction projects requires them."
+  name: "магазин цвяхостріла (7x45мм)"
+  description: "Магазин великих пласталевих цвяхів. Через високу ціну їх рідко використовують у військових цілях - лише для специфічних будівельних задач."
   components:
   - type: Tag
     tags:
