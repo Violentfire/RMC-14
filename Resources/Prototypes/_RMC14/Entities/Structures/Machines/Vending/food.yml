@@ -56,7 +56,7 @@
   parent: ColMarTechBaseAnchorable
   id: CMVendorBooze
   name: Бухло-Мат
-  description: "Стійка з алкоголем, яка знає, чого ти хочеш - ще до того, як ти це візьмеш. На здертій етикетці щось написано: НЕ ДОПУСКАТИ АЛКАШІВ."
+  description: "Стійка з алкоголем, яка ніби знає, чого ти хочеш - ще до того, як ти це візьмеш. На здертій етикетці щось написано: НЕ ДОПУСКАТИ АЛКАШІВ."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/boozeomat.rsi
