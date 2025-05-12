@@ -138,7 +138,7 @@
   parent: ColMarTechBaseAnchorable
   id: CMVendorChess
   name: Шах-І-Мат
-  description: У 2143 році компанія Griffeater Spirits, афілійована з Колоніальною адміністрацією (SPP-CA), провела рекламну акцію: кожен, хто знайшов спеціальний код під кришкою пляшки обмеженої серії Griffeater Gin, отримував Шах-І-Мат із необмеженим поповненням.
+  description: "У 2143 році компанія Griffeater Spirits, афілійована з Колоніальною адміністрацією (SPP-CA), провела рекламну акцію: кожен, хто знайшов спеціальний код під кришкою пляшки обмеженої серії Griffeater Gin, отримував Шах-І-Мат із необмеженим поповненням."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chessomat.rsi
