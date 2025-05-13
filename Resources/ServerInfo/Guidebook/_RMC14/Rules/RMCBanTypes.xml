@@ -1,25 +1,25 @@
 ﻿<Document>
-  # Ban Types
+  # Типи Банів
 
-  Bans can be appealed on the discord in the ban appeals section.
+  Бан можна оскаржити на Discord-сервері в розділі "rmc-cm-скарги".
 
-  ## Role Ban
-  Also called a "job ban", this ban prevents your character from joining or late-joining a round as one or more jobs or roles. These are often used in response to problematic behavior in particular departments or address gross inexperience in important roles such as heads of staff. These bans do not mechanically prevent you from switching to the role during a round or acting as that role, but doing so is considered ban evasion.
+  ## Роль Бан
+  Цю заборону також називають банома на роботу, вона не дозволяє вашому персонажу доєднатись до раунду в якості однієї, або декількох робіт чи ролей. Такі заборони часто застосовуються у відповідь на проблемну поведінку в певних відділах або у зв'язку з явною недосвідченістю у виконані важливих ролей, наприклад, керівників відділів. Цей бан не блокує можливість механічно переключитись на іншу роль під час раунду, проте такі дії будуть вважатись ухиленням від бану.
 
-  ## Game Ban
-  Also called a "server ban", this ban prevents you from connecting to all RMC14 servers.
+  ## Ігровий Бан
+  Також його називають "серверним баном", він забороняє під'єднуватись до наших серверів.
 
-  # Ban Durations
+  # Тривалість Банів
 
-  ## Temporary
-  Temporary bans will be lifted automatically after a certain amount of time. If they are a game ban, they will tell you how much time is remaining when you try to connect.
+  ## Тимчасова
+  Тимчасові бани будуть зняті автоматично через певний проміжок часу. Якщо це ігровий бан, то при спробі підключення ви побачите, скільки часу залишилося.
 
-  ## Indefinite
-  These bans will only be removed on a successful appeal on the forums. Any ban which doesn't tell you when it expires and doesn't specify otherwise can be presumed to be an indefinite ban.
+  ## Безстрокова
+  Ці бани будуть зняті тільки після успішного оскарження на форумах. Будь-яка заборона, в якій не вказано, коли вона закінчується, і не вказано інше, може вважатися безстроковою.
 
-  ## Voucher
-  This is an indefinite ban which may only be appealed both with a successful appeal and which require a voucher of good behavior from the administrative team of a well-known or at least decently active SS13/SS14 server in order for the appeal to be considered. Voucher bans typically cannot be appealed for at least six months after being issued. Without a voucher, a player can only attempt to appeal a voucher ban once, and only if the ban was inappropriately placed. Voucher bans are typically only placed as a result of an unsuccessful appeal of an indefinite game ban by players with a history of bans and of causing issues.
+  ## Ваучерна
+  Це безстрокова заборона, яка може бути оскаржена лише в разі успішної апеляції, і яка вимагає гарантії гарної поведінки від адміністративної команди відомого або принаймні пристойно активного сервера SS13/SS14 для того, щоб апеляція була розглянута. Ваучерні бани, як правило, не можуть бути оскаржені протягом щонайменше шести місяців після їх видачі. Без ваучера гравець може спробувати оскаржити ваучерний бан лише один раз, і тільки якщо бан був накладений неправомірно. Ваучерні бани, як правило, накладаються тільки в результаті невдалої апеляції на безстрокову заборону гри гравцями, які мають історію банів і створюють проблеми.
 
-  ## Permanent
-  This is a ban that is only appealable if the ban was inappropriately placed, including if the ban should not have been permanent. If the result of the appeal is that the ban was appropriately placed, the ban may not be appealed again and will not be lifted. These bans are extremely rare, but are applied to players who continually cause problems even after a voucher ban or users who have completely unacceptable behavior may be permanently removed.
+  ## Постійна
+  Це заборона, яка може бути оскаржена лише в тому випадку, якщо вона була накладена неналежним чином, в тому числі, якщо заборона не повинна була бути постійною. Якщо в результаті апеляції буде встановлено, що бан був накладений правильно, то він не може бути оскаржений повторно і не буде знятий. Такі бани застосовуються вкрай рідко, але вони застосовуються до гравців, які постійно створюють проблеми навіть після ваучерного бану, або до користувачів, які мають абсолютно неприйнятну поведінку, і можуть бути видалені назавжди.
 </Document>
