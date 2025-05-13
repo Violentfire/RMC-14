@@ -42,7 +42,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretTan
-  name: tan beret
+  name: пустельна берета
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_tan.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCMP
-  name: UNMC Chief MP beret
-  description: A beret with the UNMC Military Police insignia emblazoned on it. It shines with the glow of corrupt authority and a smudge of doughnut.
+  name: берета ГВСП
+  description: Берет із емблемою Військової Служби Правопорядку КМПОН, що гордо сяє відблиском корумпованої влади й плямою від пончика.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_wo.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: RMCHeadCapFlippable
-  name: cap
-  description: Standard baseball cap.
+  name: кепка
+  description: Звичайна бейсболка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap/jungle.rsi
@@ -396,8 +396,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadDressBlues
-  name: marine dress blues cover
-  description: The combination cover of the legendary Marine dress blues, virtually unchanged since the 19th century. The polished logo sits proudly on the white cloth.
+  name: парадний кашкет морпіха
+  description: Парадний кашкет морпіха, що зберіг свій вигляд ще з ХІХ століття. Білосніжна тканина та блискучий герб - символ традицій і честі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/DressBlues/enlisted.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadDressBluesOfficer
-  name: marine dress blues officer cover
-  description: The combination cover of the legendary Marine dress blues, virtually unchanged since the 19th century. Features a gold stripe and silvered logo, emblematic of an officer.
+  name: офіцерський парадний кашкет морпіха
+  description: Офіцерський парадний кашкет морпіха, що зберіг свій вигляд ще з ХІХ століття. Має золоту смугу та посріблений герб - ознаки офіцерського звання.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/DressBlues/officer.rsi
@@ -440,9 +440,9 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretSquadAlpha
-  name: UNMC squad beret
-  description: Often found atop heads, slightly less found on those still attached.
-  suffix: Alpha
+  name: берет загону КМПОН
+  description: Для тих, хто хоче проявити гордість, і не має чого втрачати (принаймні, в голові).
+  suffix: Альфа
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/alpha.rsi
@@ -452,8 +452,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadBravo
-  description: It has quite a lot of debris on it, the person wearing this probably moves less than a wall.
-  suffix: Bravo
+  description: На ньому стільки пилюки й сміття, що носій скоріше за все рухається менше, ніж стіна.
+  suffix: Браво
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/bravo.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadCharlie
-  description: Still has some morning toast crumbs on it.
-  suffix: Charlie
+  description: На ньому все ще є крихти від сніданку.
+  suffix: Чарлі
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/charlie.rsi
@@ -474,8 +474,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadDelta
-  description: Hard to consider protection, but these types of people don't seek protection.
-  suffix: Delta
+  description: Важко назвати це захистом, але такі люди й не шукають захисту.
+  suffix: Дельта
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/delta.rsi
@@ -485,8 +485,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadEcho
-  description: Tightly Woven, as it should be.
-  suffix: Echo
+  description: Щільно сплетений, як і належить.
+  suffix: Ехо
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/echo.rsi
@@ -496,8 +496,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadFoxtrot
-  description: Looks and feels starched, cold to the touch.
-  suffix: Foxtrot
+  description: Випрасуваний до хрусту й такий же теплий, як його власник.
+  suffix: Фокстрот
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/foxtrot.rsi
@@ -507,8 +507,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadIntel
-  description: Looks more intellegent than the person wearing it.
-  suffix: Intel
+  description: Виглядає розумніше за свого власника.
+  suffix: Розвідка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/intel.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCProvostCommandBeret
-  name: UNMC provost command beret
-  description: A beret with the UNMC Military Police insignia emblazoned on it.
+  name: берет ВСП
+  description: Берет із гербом Військової Служби Правопорядку КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/pvciberet.rsi
