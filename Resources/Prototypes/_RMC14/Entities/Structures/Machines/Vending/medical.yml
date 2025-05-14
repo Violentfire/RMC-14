@@ -2,8 +2,8 @@
 
 - type: entity
   id: CMMedilinkSupplyPort
-  name: medilink supply port
-  description: A complex network of pipes and machinery, linking to large storage systems below the deck. Medical vendors linked to this port will be able to infinitely restock supplies.
+  name: "медичний порт МедЗв'язок"
+  description: "Складна мережа труб і механізмів, підключена до великих систем зберігання під палубою. Медичні автомати, під'єднані до цього порту, зможуть нескінченно поповнювати запаси."
   placement:
     mode: SnapgridCenter
   components:
@@ -19,8 +19,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorMedicalAllAccess
-  name: We-Ya-Med Plus
-  description: Medical pharmaceutical dispenser. Provided by We-Ya Pharmaceuticals Division(TM).
+  name: Ве-Я-Мед Плюс
+  description: Медичний дозатор лікарських засобів. Постачається Фармацевтичним відділом корпорації Ве-Я.
   suffix: All Access
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
   - type: CMAutomatedVendor # TODO RMC14 different ui style
     hackable: true
     sections:
-    - name: Field supplies
+    - name: Перша допомога
       entries:
       - id: CMBurnKit10
         amount: 6
@@ -66,7 +66,7 @@
         amount: 6
 #      - id: CMSplints10 # TODO RMC14
 #        amount: 6
-    - name: Autoinjectors
+    - name: Автоінжектори
       entries:
       - id: CMBicaridineAutoInjector
         amount: 3
@@ -84,7 +84,7 @@
 #        amount: 3
       - id: CMTricordrazineAutoInjector
         amount: 3
-    - name: Liquid bottles
+    - name: Пляшечки з ліками
       entries:
       - id: CMBottleBicaridine
         amount: 3
@@ -102,7 +102,7 @@
 #        amount: 3
 #      - id: CMBottleTramadol # TODO RMC14
 #        amount: 3
-    - name: Pill bottles
+    - name: Флакони з пігулками
       entries:
       - id: CMPillCanisterBicaridine
         amount: 2
@@ -118,7 +118,7 @@
 #        amount: 2
 #      - id: CMPillCanisterTramadol # TODO RMC14
 #        amount: 2
-    - name: Medical utilities
+    - name: Медичне обладнання
       entries:
       - id: CMDefibrillator
         amount: 3
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMVendorMedical
   id: CMVendorChemistry
-  name: We-Ya-Chem Plus
-  description: Medical chemistry dispenser. Provided by We-Ya Pharmaceuticals Division(TM).
+  name: Ве-Я-Хім Плюс
+  description: Медичний дозатор готових ліків. Постачається Фармацевтичним відділом корпорації Ве-Я.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chem.rsi
@@ -168,7 +168,7 @@
       - Bottle
   - type: CMAutomatedVendor # TODO RMC14 different ui style
     sections:
-    - name: Liquid bottles
+    - name: Пляшечки з ліками
       entries:
       - id: CMBottleBicaridine
         amount: 6
@@ -186,7 +186,7 @@
     #        amount: 6
     #      - id: CMBottleTramadol # TODO RMC14
     #        amount: 6
-    - name: Miscellaneous
+    - name: Різне
       entries:
       - id: CMBeaker
         name: Beaker (60 units)
@@ -205,8 +205,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: ColMarTechMarineMedical
-  name: ColMarTech MarineMed
-  description: Medical Pharmaceutical dispenser with basic medical supplies for marines.
+  name: Медісейв
+  description: Медичний дозатор із базовим медичним приладдям та препаратами для морської піхоти.
   components:
   - type: Fixtures
     fixtures:
@@ -239,16 +239,16 @@
       - Hypospray
   - type: CMAutomatedVendor
     sections:
-    - name: Autoinjectors
+    - name: Автоінжектори
       entries:
       - id: CMTricordrazineAutoInjectorNoSkill
         amount: 5
     #- id: CMPainStopAutoinjector
-    - name: Devices
+    - name: Пристрої
       entries:
       - id: CMHealthAnalyzer
         amount: 3
-    - name: Field Supplies
+    - name: Перша допомога
       entries:
       - id: CMFireExtinguisherPortable
         amount: 5
@@ -262,8 +262,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: RMCNanoMed
-  name: NanoMed
-  description: A wall-mounted medical equipment dispenser.
+  name: НаноМед
+  description: Настінний дозатор для видачі базових медичних засобів першої допомоги.
   components:
   - type: Fixtures
     fixtures:
@@ -297,7 +297,7 @@
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Supplies
+    - name: Перша допомога
       entries:
       # - id: CMPainStopAutoinjector
       #   amount: 2
@@ -309,7 +309,7 @@
         amount: 4
       # - id: CMMedicalSplints5
       #   amount: 4
-    - name: Utility
+    - name: Пристрої
       entries:
       - id: CMHealthAnalyzer
         amount: 3
@@ -317,8 +317,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorBlood
-  name: MM Blood Dispenser
-  description: The Marine Med Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  name: Дозатор крові
+  description: Найкращий дозатор крові 2105 року! Надійність, перевірена часом! Забери свій вже сьогодні! #dont update year, that`s a joke from cm13
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi
@@ -341,11 +341,11 @@
   - type: CMAutomatedVendor
     hackable: true
     sections:
-    - name: Blood Packs
+    - name: "Пакет з кров'ю"
       entries:
       - id: CMBloodPackFull
         amount: 30
-    - name: Miscellaneous
+    - name: Різне
       entries:
       - id: CMBloodPack
         amount: 5

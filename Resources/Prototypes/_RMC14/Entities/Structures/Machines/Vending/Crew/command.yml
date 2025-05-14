@@ -667,8 +667,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSeniorOfficerEquipment
-  name: ColMarTech Senior Officer Equipment Rack
-  description: An automated equipment vendor for Senior Officers.
+  name: Стійка спорядження командного складу КолМарТех
+  description: Автоматизована стійка видачі спорядження для представників командного складу.
   components:
   - type: AccessReader
     access:
@@ -1135,20 +1135,20 @@
     # ////////////////////////////////////
     # Chief Medical Officer
     # ////////////////////////////////////
-    - name: Medical Set (Mandatory)
+    - name: "Медичний набір (Обов'язково)"
       jobs:
       - CMCMO
       takeAll: CMMedicalSet
       entries:
       - id: CMVendorBundleCrewMedicalEssentialsNurse
-    - name: Standard Equipment
+    - name: Стандартне екіпірування
       jobs:
       - CMCMO
       takeAll: CMStandard
       entries:
       - id: CMHandsLatex
       - id: CMHeadsetCMO
-    - name: Eyewear
+    - name: Окуляри
       jobs:
       - CMCMO
       choices: { CMEyewear: 1 }
@@ -1157,7 +1157,7 @@
       # - id: RMCGlassesMedicalHUDGlassesPrescription TODO
       # - id: RMCGlasesReagentScannerHUD TODO
       # - id: RMCGlasesReagentScannerHUDPrescription TODO
-    - name: Uniform
+    - name: Уніформа
       jobs:
       - CMCMO
       choices: { CMUniform: 1 }
@@ -1170,7 +1170,7 @@
       - id: CMScrubsPurple
       - id: RMCScrubsOlive
       - id: RMCScrubsGrey
-    - name: Suit
+    - name: Костюм
       jobs:
       - CMCMO
       choices: { CMSuit: 1 }
@@ -1180,7 +1180,7 @@
       - id: RMCLabcoat
         recommended: true
       - id: RMCMedicalApron
-    - name: Headwear
+    - name: Шапочки
       jobs:
       - CMCMO
       choices: { CMHelmet: 1 }
@@ -1190,7 +1190,7 @@
       - id: CMHeadCapSurgBlue
       - id: CMHeadCapSurgPurple
       - id: CMHeadCapSurgGreen
-    - name: Bag
+    - name: Рюкзаки
       jobs:
       - CMCMO
       choices: { CMBag: 1 }
@@ -1201,7 +1201,7 @@
         recommended: true
       - id: CMBackpackMedical
         recommended: true
-    - name: Belt
+    - name: Поясне спорядження
       jobs:
       - CMCMO
       choices: { CMBelt: 1 }
@@ -1210,7 +1210,7 @@
         name: M276 pattern lifesaver bag (Full)
       - id: CMBeltMedicalFilled
         name: M276 medical storage rig (Full)
-    - name: Personal Sidearm
+    - name: Особистий пістолет
       jobs:
       - CMCMO
       choices: { CMWeapon: 1 }
@@ -1222,7 +1222,7 @@
       - id: RMCM44BeltFilled
         name: M44 revolver
         recommended: true
-    - name: Combat Equipment (Combat Use Only)
+    - name: Бойове спорядження (Лише бойове застосування)
       jobs:
       - CMCMO
       takeAll: CMStandard
@@ -1230,7 +1230,7 @@
       - id: RMCArmorM3SO
       - id: RMCArmorHelmetM10SO
       - id: CMBootsBlackFilled
-    - name: Pouches
+    - name: Різне
       jobs:
       - CMCMO
       choices: { CMPouches: 2 }
@@ -1265,7 +1265,7 @@
         name: Pressurized Reagent Canister Pouch\n(EMPTY)
       - id: RMCPouchGeneralLarge
       - id: RMCPouchSling
-    - name: Accessories
+    - name: Жилети
       jobs:
       - CMCMO
       choices: { CMAccessories: 1 }
@@ -1274,7 +1274,7 @@
       - id: CMWebbingBlack
         recommended: true
       - id: CMWebbing
-    - name: Spare Equipment
+    - name: Гарнітури
       jobs:
       - CMCMO
       entries:

@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCMorgueBase
   id: CMMorgue
-  name: morgue
-  description: Used to store bodies until someone fetches them.
+  name: морг
+  description: Служить для зберігання тіл... Земля їм морозом. Оснащений системою оповіщення, здатною виявляти навіть хибні спрацювання!
   components:
   - type: Pullable
   - type: Clickable
@@ -104,8 +104,8 @@
 - type: entity
   parent: [ Crematorium, RMCMorgueBase ]
   id: CMCrematorium
-  name: crematorium
-  description: A human incinerator. Works well on barbecue nights.
+  name: крематорій
+  description: Спалює тіла. Ідеально підходить для вечірок із шашличком.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/morgue.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMHyperSleepChamber
-  name: hypersleep chamber
-  description: A large automated capsule with LED displays intended to put anyone inside into 'hypersleep', a form of non-cryogenic statis used on most ships, linked to a long-term hypersleep bay on a lower level.
+  name: камера гіперсну
+  description: Велика автоматизована капсула з LED-дисплеями, призначена для введення будь-кого в стан гіперсну - некріогенічної форми стазису, що застосовується на більшості кораблів. Підключена до відсіку тривалого гіперсну, розташованого на нижньому рівні.
   components:
   - type: Transform
     anchored: true
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberAlpha
-  suffix: Alpha
+  suffix: Альфа
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberBravo
-  suffix: Bravo
+  suffix: Браво
   components:
   - type: SquadSpawner
     squad: SquadBravo
@@ -74,7 +74,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberCharlie
-  suffix: Charlie
+  suffix: Чарлі
   components:
   - type: SquadSpawner
     squad: SquadCharlie
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberDelta
-  suffix: Delta
+  suffix: Дельта
   components:
   - type: SquadSpawner
     squad: SquadDelta
