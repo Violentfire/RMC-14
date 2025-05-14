@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCPouchStorage
   id: RMCPouchReagentCanister
-  name: pressurized reagent canister pouch
-  description: A pressurized reagent canister pouch. It is used to refill custom injectors, and can also store one. May be refilled with a reagent tank or a Chemical Dispenser. Can be worn by attaching it to a pocket.
+  name: герметичний підсумок з реагентом
+  description: Герметичний підсумок з реагентом, призначений для заправки індивідуальних ліків. Також може зберігати один інжектор усередині. Заправляється від резервуара з реагентом або хімічного дозатора. Можна носити, прикріпивши на пояс.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pressurized_reagent_canister.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterBicaridine
-  suffix: Bicaridine
+  suffix: Бікаридин
   components:
   - type: StorageFill
     contents:
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterKelotane
-  suffix: Kelotane
+  suffix: Келотан
   components:
   - type: StorageFill
     contents:
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterTricordrazineRevival
-  suffix: Tricordrazine - Revival
+  suffix: Суміш реанімації - Трикордразин
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCPouchReagentCanister
   id: RMCPouchReagentCanisterTricordrazine
-  suffix: Tricordrazine
+  suffix: Трикордразин
   components:
   - type: StorageFill
     contents:

@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewMedicalEquipment
-  name: ColMarTech medical equipment rack
-  description: An automated equipment vendor for the Medical Department.
+  name: Медична стійка КолМарТех
+  description: Автоматизована стійка з видачі спорядження для медичного персоналу.
   components:
   - type: AccessReader
     access:
@@ -18,21 +18,21 @@
     - CMResearcher
     - CMCMO
     sections:
-    - name: Medical Set (Mandatory)
+    - name: "Медичний набір (обов'язково)"
       takeAll: CMMedicalSet
       entries:
       - id: CMVendorBundleCrewMedicalEssentialsNurse
-    - name: Standard Equipment
+    - name: Стандартне екіпірування
       takeAll: CMStandard
       entries:
       - id: CMHandsLatex
       - id: CMHeadsetMedical
-    - name: Eyewear
+    - name: Окуляри
       choices: { CMEyewear: 1 }
       entries:
       - id: RMCGlassesMedicalHUDGlasses
 #      - id: Prescription Medical HUD Glasses
-    - name: Uniform
+    - name: Уніформа
       choices: { CMUniform: 1 }
       entries:
       - id: CMScrubsGreen
@@ -41,40 +41,40 @@
       - id: CMScrubsPurple
       - id: RMCScrubsOlive
       - id: RMCScrubsGrey
-    - name: Suit
+    - name: Одяг
       jobs:
       - CMNurse
       choices: { CMSuit: 1 }
       entries:
       - id: RMCMedicalApron
-    - name: Suit
+    - name: Одяг
       jobs:
       - CMDoctor
       choices: { CMSuit: 1 }
       entries:
       - id: RMCLabcoat
       - id: RMCMedicalApron
-#    - name: Snow gear (Snow use only)
+#    - name: Сніжне спорядження (Тільки для снігу)
 #      takeall: CMSnowgear
 #      entries:
 #      - id: Snowcoat
 #      - id: Balaclava
 #      - id: Snow Scarf
-    - name: Headwear
+    - name: Шапочки
       choices: { CMHeadwear: 1 }
       entries:
       - id: CMHeadCapSurgOrange
       - id: CMHeadCapSurgBlue
       - id: CMHeadCapSurgPurple
       - id: CMHeadCapSurgGreen
-    - name: Belt
+    - name: Поясне спорядження
       choices: { CMBelt: 1 }
       entries:
       - id: CMBeltMedicBagFilled
         name: M276 pattern lifesaver bag (Full)
       - id: CMBeltMedicalFilled
         name: M276 pattern medical storage rig (Full)
-    - name: Backpack
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine
@@ -83,7 +83,7 @@
         name: satchel
       - id: CMBackpackMedical
       - id: CMSatchelMedical
-    - name: Pouches
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchAutoinjector
@@ -116,7 +116,7 @@
         recommended: true
         name: Pressurized Reagent Canister Pouch\n(EMPTY)
       #- id: CMSlingPouch
-    - name: Accessories
+    - name: Жилети
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown

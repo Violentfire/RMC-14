@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMIV
-  name: iv
-  description: Allows you to inject blood into a patient or extract blood from them to do a blood transfusion.
+  name: крапельниця
+  description: Дозволяє вливати кров пацієнту або брати її для переливання.
   suffix: IV, empty
   components:
   - type: Physics
