@@ -1,40 +1,40 @@
 ﻿<Document>
-  ## Mutinies and riots require admin permission.
+  ## Заколоти й заворушення потребують дозволу адміністратора
 
-  [bold]General[/bold]
+  [bold]Загальне[/bold]
 
-  - All players, including hostile forces, must obtain admin permission before engaging in riots, mutinies or similar activity.
-  - Strikes, revolutions, riots, cults, prison riots (excluding hostile forces), and any other type of similar largely disruptive behavior are strictly forbidden without permission.
-  - Staff reserve the right to grant or deny these, and to decide if the reason given is sufficient.
+  - Всі гравці, включаючи ворожі угрупування, повинні отримати дозвіл адміністратора перед тим, як брати участь у заворушеннях, заколотах або подібних діях.
+  - Страйки, революції, бунти, культи, бунти у в'язницях (за винятком ворожих угрупувань) і будь-який інший тип подібної поведінки, що в значній мірі дезорганізує суспільство, суворо заборонені за відсутності дозволу.
+  - Адміністрація має право самостійно приймати рішення щодо схвалення чи відхилення запиту та оцінки його обґрунтованості.
 
-  [bold]Mutinies[/bold]
+  [bold]Заколоти[/bold]
 
-  - MPs are not able to mutiny and will always side with the acting commander, unless they are neutral, in which case they may not help or arrest either side until the mutiny is concluded.\nThis applies to the individial player and not the MP as a whole.
-  - Mutiny cannot occur during hijack, and any ongoing mutiny must be ended upon hijack.
-  - Only the Acting Commander can be mutinied against. They must be given a chance to stand down peacefully.
-  - During the mutiny, attacking any uninvolved, medical, or surrendered personnel is forbidden, as is perma-killing anyone involved.
-  - If you have surrendered during a mutiny, you must remain as such.
-  - You may not change sides unless you are surrendering.
-  - When failed, all sides must be given medical treatment. Commanding Officers or higher are able to deny treatment or battlefield execute mutineers. 
-  - When succeeded, all sides must be given medical treatment. The next in the command chain should be put in charge.
-  - Mutinies must have 3 members minimum.
+  - ВСП не може бунтувати і завжди стануть на бік діючого командира, якщо тільки вони не є нейтральними, в цьому випадку вони не можуть допомагати або заарештовувати жодну зі сторін, поки бунт не буде завершено.\nЦе стосується окремого гравця, а не ВСП як цілого.
+  - Заколот не має здійснюватись під час захоплення(hijack), і будь-який триваючий заколот має бути припинений в разі захоплення.
+  - Заколот дозволений лише проти виконуючого обов’язки командира. Він повинен отримати можливість мирно відмовитися від командування.
+  - Під час заколоту заборонено нападати на непричетних, медичний персонал або тих, хто здався в полон, а також перманентно вбивати будь-кого, хто бере участь у заколоті.
+  - Здавшись під час заколоту, ви не можете повернутися до протистояння.
+  - Ви не маєте права змінювати сторону, якщо тільки не здаєтесь.
+  - У разі невдачі всі сторони повинні отримати медичну допомогу. Командуючі Офіцери і вище можуть відмовити в лікуванні або стратити бунтівників на полі бою.
+  - Після успішного заколоту всі сторони мають отримати медичну допомогу. Командування має перейти до наступного за ланцюгом командування.
+  - Заколоти повинні складатись з мінімум 3 осіб.
 
-  [bold]Examples of mutiny reasons:[/bold]
-  - Commander incompetence, where the next in line would lead better.
-  - Commander takes no actions in leading.
-  - Commander refuses to allow evacuation.
+  [bold]Приклади причин заколоту:[/bold]
+  - Некомпетентність командира, коли наступний за ланцюгом командування зможе краще керувати.
+  - Командир не виконує жодних обов’язків з управління.
+  - Командир відмовляється дозволити евакуацію.
 
-  [bold]Examples of invalid mutiny reasons:[/bold]
-  - Not liking the commander.
-  - Wanting to kill the commander.
-  - Trying to take revenge against the commander or CIC.
+  [bold]Приклади неприпустимих причин для заколоту:[/bold]
+  - Неприязнь до командира.
+  - Бажання вбити командира.
+  - Спроба помститися командиру або БІЦ.
 
-  [bold]Evacuation Mutinies[/bold]
+  [bold]Евакуаційні Заколоти[/bold]
 
-  - These can be done at any point a shipside evacuation (like during hijack) is allowed, but the Commander is refusing evacuation requests.
-  - They may be done by any number of people without permission, with the intent to evacuate from the ship and save their own lives and the lives of others that wish to evacuate.
-  - The Commander must still be given a chance to allow the evacuation through negotiation.
-  - The most minimal amount of force should be used to start the evacuation.
-  - Any roles may join and aid this mutiny, even those normally prevented.
+  - Їх можна влаштувати в будь-який момент, коли евакуація з борту судна дозволена (наприклад, під час захоплення), але командир відмовляє в евакуації.
+  - Їх може влаштувати будь-яка кількість людей без дозволу, з наміром евакуюватися з судна і врятувати своє життя та життя інших людей, які бажають евакуюватися.
+  - Командувачу все одно потрібно дати шанс дозволити евакуацію шляхом переговорів.
+  - Для початку евакуації слід застосовувати мінімальну кількість сили.
+  - Будь-які ролі можуть приєднатися та допомогти у цьому заколоті, навіть ті, яким зазвичай це заборонено.
 
 </Document>
