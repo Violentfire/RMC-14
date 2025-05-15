@@ -1,6 +1,7 @@
 - type: entity
   id: RMCBaseTree
   suffix: RMCBaseTree
+  name: велике дерево
   description: Так, це дерево.
   abstract: true
   components:

@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCLamp
   id: RMCLampTripod
-  name: щтативна лампа
+  name: штативна лампа
   description: Аварійне джерело світла, яке стоїть на штативі. Здається, що вона може світити вічність.
   components:
   - type: Sprite

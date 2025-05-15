@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBedsheetBase
-  name: матрац
-  description: На такому матраці гарно спатиметься навіть посеред пекла.
+  name: покривало
+  description: Ідеально підходить для того, щоб накритися і зробити вигляд, ніби тебе тут нема.
   abstract: true
   placement:
     mode: SnapgridCenter

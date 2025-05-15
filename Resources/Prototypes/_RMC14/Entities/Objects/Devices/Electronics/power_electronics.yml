@@ -2,7 +2,7 @@
 - type: entity
   id: CMAPCElectronics
   parent: CMBaseElectronics
-  name: модуль контроля потужності
+  name: модуль контролю потужності
   description: Плата, що використовуєтсья в ЗКЖ.
   components:
     - type: ApcElectronics
