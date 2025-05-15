@@ -1,62 +1,62 @@
 - type: rank
   id: RMCRankWeYaJuniorExecutive
-  name: Junior Executive
-  prefix: Jr. Exec.
+  name: Молодший керівник
+  prefix: Мол.Кер.
 
 - type: rank
   id: RMCRankWeYaExecutive
-  name: Executive
-  prefix: Exec.
+  name: Керівник
+  prefix: Кер.
 
 - type: rank
   id: RMCRankWeYaSeniorExecutive
-  name: Senior Executive
-  prefix: Sr. Exec.
+  name: Старший керівник
+  prefix: Старш.Кер.
 
 - type: rank
   id: RMCRankWeYaExecutiveSpecialist
-  name: Executive Specialist
-  prefix: Exec. Spc.
+  name: Спеціаліст з керівних питань
+  prefix: Спец-з-Кер.пит.
   paygrade: WYC5
 
 - type: rank
   id: RMCRankWeYaExecutiveSupervisor
-  name: Executive Supervisor
-  prefix: Exec. Spvsr.
+  name: Інспектор з керівних питань
+  prefix: Інсп-з-Кер.пит.
   paygrade: WYC6
 
 - type: rank
   id: RMCRankWeYaAssistantManager
-  name: Assistant Manager
-  prefix: Assis. Mng.
+  name: Помічник менеджера
+  prefix: Помін.Мен.
 
 - type: rank
   id: RMCRankWeYaDivisionManager
-  name: Division Manager
-  prefix: Div. Mng.
+  name: Керівник відділу
+  prefix: Кер.Від.
 
 - type: rank
   id: RMCRankWeYaChiefExecutive
-  name: Chief Executive
-  prefix: Chief. Exec.
+  name: Головний керівник
+  prefix: Гол.Кер.
 
 - type: rank
   id: RMCRankWeYaDeputyDirector
-  name: Deputy Director
-  prefix: Dep. Director
+  name: Заступник директора
+  prefix: Заст. Директора
 
 - type: rank
   id: RMCRankWeYaDirector
-  name: Director
-  prefix: Director
+  name: Директор
+  prefix: Директор
 
 # Lawyers
 - type: rank
   id: RMCRankWeYaLegalSpecialist
-  name: Legal Specialist
-  prefix: Legal Spc.
+  name: Юридичний спеціаліст
+  prefix: Юр.Спец.
 
 - type: rank
   id: RMCRankWeYaLegalSupervisor
-  name: Legal Supervisor
-  prefix: Legal Spvsr.
+  name: Юридичний інспектор
+  prefix: Юр.Інсп.

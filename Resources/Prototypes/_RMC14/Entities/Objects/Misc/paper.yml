@@ -107,7 +107,7 @@
 - type: entity
   parent: CMBasePaperFaxable
   id: CMPaper
-  name: Простий аркуш паперу.
+  name: папір
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi

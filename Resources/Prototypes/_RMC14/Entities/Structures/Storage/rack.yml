@@ -1,7 +1,7 @@
 - type: entity
   parent: CMBaseStructure
   id: CMRack
-  name: Стелаж
+  name: стелаж
   description: Стелаж із металевих полиць, розташованих одна над одною. Відмінно підходить для зберігання, але не дуже - як укриття.
   components:
   - type: Transform
