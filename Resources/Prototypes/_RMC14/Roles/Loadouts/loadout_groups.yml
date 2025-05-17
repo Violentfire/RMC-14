@@ -323,3 +323,21 @@
   - RMCPinTransgender
   - RMCPinAutism
   - RMCPinAutismGold
+
+# Alcohole
+- type: loadoutGroup
+  id: AlcoholLoadoutGroupRMC
+  name: Alcohole
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - VodkaLoadout
+  - WhiskeyLoadout
+  - SakeLoadout
+  - RumLoadout
+  - PurpleWineLoadout
+  - PatronLoadout
+  - MelonLiquorLoadout
+  - KahluaLoadout
+  - GinLoadout
+  - GoldschlagerLoadout
