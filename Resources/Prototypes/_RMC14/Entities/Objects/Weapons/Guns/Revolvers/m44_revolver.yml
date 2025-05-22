@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCWeaponRevolverBase
   id: RMCWeaponRevolverM44
   name: M44 бойовий револьвер
-  description: Масивний револьвер, який час від часу носять штурмовики та офіцери, а також цивільні правоохоронці. Стріляє набоями .44 Магнум.
+  description: Масивний револьвер, що іноді використовується бойовими підрозділами та офіцерами морської піхоти. Також перебуває на озброєнні цивільних правоохоронних органів. Стріляє набоями .44 Magnum.
   components:
   - type: Tag
     tags:
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "M44 швидкозарядник для точної стрільби (.44)"
-  description: Револьверний швидкісний зарядник, наповнений патронами для точної стільби.
+  name: "M44 швидкозарядник з високоточними набоями (.44)"
+  description: Револьверний швидкозарядник, заряджений високоточними набоями .44 Magnum.
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: гільза (.44)
+  name: набій (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -151,7 +151,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: гільза (.44)
+  name: набій (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

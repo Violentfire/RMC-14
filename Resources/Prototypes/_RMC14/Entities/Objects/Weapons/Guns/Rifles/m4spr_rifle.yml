@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
-  description: Бойова гвинтівка M4SPR - це спеціальна гвинтівка для стрільби на ураження, що стоїть на озброєнні маринів. Має конструкцію булпап, що робить її ідеальною для розвідувальних підрозділів та команд вогневої підтримки.
+  description: Бойова гвинтівка M4SPR - це спеціалізована зброя для точного ураження цілей, яка перебуває на озброєнні морської піхоти. Завдяки нестандартній компоновці, магазин розташований позаду спускового гачка, що робить зброю компактною та зручною для розвідки та вогневої підтримки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "M4SPR магазин (10x24мм)"
-  description: "Магазин зі стандартними патронами 10х24 мм для бойової гвинтівки M4SPR."
+  name: "M4SPR магазин (10x24 мм)"
+  description: "Магазин зі стандартними набоями 10х24 мм для бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: M4SPR ББ магазин (10x24мм)
-  description: "Магазин бронебійних набоїв 10х24мм для бойової гвинтівки M4SPR."
+  name: M4SPR ББ магазин (10x24 мм)
+  description: "Магазин зі бронебійними набоями 10х24 мм для бойової гвинтівки M4SPR."
   suffix: AP
   components:
   - type: Tag
@@ -182,7 +182,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "M4SPR розширений магазин (10x24mm)"
+  name: "M4SPR розширений магазин (10x24 мм)"
   components:
   - type: BallisticAmmoProvider
     capacity: 35

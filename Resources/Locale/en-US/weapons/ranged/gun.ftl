@@ -1,57 +1,57 @@
 
-gun-selected-mode-examine = Current selected fire mode is [color={$color}]{$mode}[/color].
-gun-fire-rate-examine = Fire rate is [color={$color}]{$fireRate}[/color] per second.
-gun-selector-verb = Change to {$mode}
-gun-selected-mode = Selected {$mode}
-gun-disabled = You can't use guns!
-gun-clumsy = The gun blows up in your face!
-gun-set-fire-mode = Set to {$mode}
-gun-magazine-whitelist-fail = That won't fit into the gun!
-gun-magazine-fired-empty = No ammo left!
+gun-selected-mode-examine = Активний режим вогню: [color={$color}]{$mode}[/color].
+gun-fire-rate-examine = Темп вогню: [color={$color}]{$fireRate}[/color] per second.
+gun-selector-verb = Перемкнути на {$mode}
+gun-selected-mode = Обрано: {$mode}
+gun-disabled = Ти не можеш стріляти зі зброї!
+gun-clumsy = Зброя вибухає тобі просто в обличчя!
+gun-set-fire-mode = Встановити {$mode}
+gun-magazine-whitelist-fail = Це не підходить до цієї зброї!
+gun-magazine-fired-empty = Не залишилося набоїв!
 
 # SelectiveFire
-gun-SemiAuto = semi-auto
-gun-Burst = burst
-gun-FullAuto = full-auto
+gun-SemiAuto = напівавтоматичний
+gun-Burst = черга
+gun-FullAuto = автоматичний
 
 # BallisticAmmoProvider
-gun-ballistic-cycle = Cycle
-gun-ballistic-cycled = Cycled
-gun-ballistic-cycled-empty = Cycled (empty)
-gun-ballistic-cycle-delayed = You begin unloading {CAPITALIZE(THE($entity))}. Hold still...
-gun-ballistic-cycle-delayed-cancelled = You stop unloading {CAPITALIZE(THE($entity))}.
-gun-ballistic-cycle-delayed-empty = {CAPITALIZE(THE($entity))} is already unloaded.
-gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} won't fit inside {THE($targetEntity)}!
-gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} is already empty!
-gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} is already fully loaded!
-gun-ballistic-transfer-cancelled = Your reload was interrupted!
-gun-ballistic-transfer-primed = You can't load a primed {$ammoEntity}!
+gun-ballistic-cycle = Розрядити
+gun-ballistic-cycled = Розряджено
+gun-ballistic-cycled-empty = Немає що розряджати
+gun-ballistic-cycle-delayed = Ти починаєш заряджання {CAPITALIZE(THE($entity))}. Тримайся...
+gun-ballistic-cycle-delayed-cancelled = Ти припинив заряджання {CAPITALIZE(THE($entity))}.
+gun-ballistic-cycle-delayed-empty = {CAPITALIZE(THE($entity))} вже розряджено.
+gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} не сумісний із {THE($targetEntity)}!
+gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} вже порожній!
+gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} вже повністю заряджений!
+gun-ballistic-transfer-cancelled = Твою перезарядку було перервано!
+gun-ballistic-transfer-primed = Ти не можеш заряджати бойовий {$ammoEntity}!
 
 # CartridgeAmmo
-gun-cartridge-spent = It is [color=red]spent[/color].
-gun-cartridge-unspent = It is [color=lime]not spent[/color].
+gun-cartridge-spent = [color=red]Використано[/color].
+gun-cartridge-unspent = [color=lime]Не використано[/color].
 
 # BatteryAmmoProvider
-gun-battery-examine = It has enough charge for [color={$color}]{$count}[/color] shots.
+gun-battery-examine = Має достатньо заряду для [color={$color}]{$count}[/color] пострілів.
 
 # CartridgeAmmoProvider
-gun-chamber-bolt-ammo = Gun not bolted
-gun-chamber-bolt = The bolt is [color={$color}]{$bolt}[/color].
-gun-chamber-bolt-closed = Closed bolt
-gun-chamber-bolt-opened = Opened bolt
-gun-chamber-bolt-close = Close bolt
-gun-chamber-bolt-open = Open bolt
-gun-chamber-bolt-closed-state = open
-gun-chamber-bolt-open-state = closed
-gun-chamber-rack = Rack
+gun-chamber-bolt-ammo = Затвор зброї не закритий
+gun-chamber-bolt = Затвор [color={$color}]{$bolt}[/color].
+gun-chamber-bolt-closed = закритий
+gun-chamber-bolt-opened = відкритий
+gun-chamber-bolt-close = Закрити затвор
+gun-chamber-bolt-open = Відкрити затвор
+gun-chamber-bolt-closed-state = відкрито
+gun-chamber-bolt-open-state = закрито
+gun-chamber-rack = Засіб
 
 # MagazineAmmoProvider
-gun-magazine-examine = It has [color={$color}]{$count}[/color] shots remaining.
+gun-magazine-examine = Залишилося [color={$color}]{$count}[/color] куль.
 
 # RevolverAmmoProvider
-gun-revolver-empty = Empty revolver
-gun-revolver-full = Revolver full
-gun-revolver-insert = Inserted
-gun-revolver-spin = Spin revolver
-gun-revolver-spun = Spun
-gun-speedloader-empty = Speedloader empty
+gun-revolver-empty = Спустошити барабан
+gun-revolver-full = Барабан повний
+gun-revolver-insert = Вставлено
+gun-revolver-spin = Крутити барабан
+gun-revolver-spun = Барабан прокручено
+gun-speedloader-empty = Швидкозарядник порожній
