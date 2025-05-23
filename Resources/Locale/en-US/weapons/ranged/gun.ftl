@@ -12,7 +12,7 @@ gun-magazine-fired-empty = Не залишилося набоїв!
 # SelectiveFire
 gun-SemiAuto = напівавтоматичний
 gun-Burst = черга
-gun-FullAuto = автоматичний
+gun-FullAuto = автомaтичний
 
 # BallisticAmmoProvider
 gun-ballistic-cycle = Розрядити
