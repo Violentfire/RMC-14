@@ -10,7 +10,7 @@ gun-magazine-whitelist-fail = Це не підходить до цієї збр�
 gun-magazine-fired-empty = Не залишилося набоїв!
 
 # SelectiveFire
-gun-SemiAuto = напівавтоматичний
+gun-SemiAuto = напівавтоматичний test тест
 gun-Burst = черга
 gun-FullAuto = автомaтичний
 
