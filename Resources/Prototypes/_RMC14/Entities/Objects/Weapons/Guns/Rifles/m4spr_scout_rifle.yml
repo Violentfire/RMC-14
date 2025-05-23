@@ -1,8 +1,8 @@
-- type: entity
+﻿- type: entity
   parent: WeaponRifleM4SPR
   name: M4SPR спеціальна бойова гвинтівка 
   id: WeaponRifleM4SPRCustom
-  description: Удосконалена версія й без того ефективної M4SPR. Підтримує набої типу A19, має кращий контроль і точність, але є складнішою у використанні. Сумісна з традиційними магазинами M4SPR, проте вони забезпечують нижчий рівень ураження цілей.
+  description: Удосконалення в порівнянні з і без того чудовим M4SPR. Здатний приймати набої A19, а також має кращий контроль і точність, але складніший у використанні. Може використовувати традиційні магазини M4SPR з нижчим рівнем пошкоджень цілей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
@@ -18,20 +18,11 @@
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
-    - Burst
     recoilWielded: 1
     recoilUnwielded: 4
     scatterWielded: 2.5
     scatterUnwielded: 8
     baseFireRate: 1.8
-    burstFireRateMultiplier: 15
-    modifiers:
-      Burst:
-        # fireDelay: 0.01
-        maxScatterModifier: 10
-        useBurstScatterMult: true
-        unwieldedScatterMultiplier: 2
-        shotsToMaxScatter: 6
   - type: RMCWeaponAccuracy
     accuracyMultiplier: 1.1
   - type: GunDamageModifier
@@ -43,11 +34,9 @@
     heavy: 1
   - type: Gun
     shotsPerBurst: 2
-    burstCooldown: 0.75
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    - Burst
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_m4spr.ogg
   - type: GunUserWhitelist
@@ -59,9 +48,10 @@
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
   - type: MeleeWeapon
+    attackRate: 1
     damage:
       types:
-        Blunt: 26 # Yes this does this much damage in 13.
+        Slash: 31 # Yes this does this much damage in 13. 51 with a bayonet attached.
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:
@@ -87,12 +77,10 @@
           - RMCAttachmentFlashlightGrip
           - RMCAttachmentLaserSight
           - RMCAttachmentVerticalGrip
-          - RMCAttachmentU7UnderbarrelShotgun
-          - RMCAttachmentExtinguisher
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: Магазин
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
@@ -123,8 +111,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "A19 ВШ магазин (10x24 мм)"
-  description: "Магазин з високошвидкісними набоями A19 для спеціальної бойової гвинтівки M4SPR."
+  name: "A19 ВШ магазин (10x24mm)"
+  description: "Магазин з високошвидкісними патронами A19 для спеціальної бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -148,8 +136,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Impact
-  name: "A19 магазин підвищеної уражаючої дії ВШ (10x24 мм)"
-  description: "Магазин A19 ВШ із підвищеною уражаючою дією, призначений для спеціальної бойової гвинтівки M4SPR. M4SPR - єдина зброя, здатна заряджатися цими набоями."
+  name: "A19 Високовражаючий магазин ВШ (10x24mm)"
+  description: "Магазин із підвищеною вражаючою дією ВШ A19, для спеціальної бойової гвинтівки M4SPR. Спеціальна бойова гвинтівка M4SPR - єдина зброя, яка може заряджатися цими набоями."
   components:
   - type: Tag
     tags:
@@ -173,8 +161,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Incendiary
-  name: "A19 запальний магазин ВШ (10x24 мм)"
-  description: "Магазин A19 із запальними високошвидкісними набоями, призначений для спеціальної бойової гвинтівки M4SPR."
+  name: "A19 Запальний магазин ВШ (10x24mm)"
+  description: "Магазин запалювальних високошвидкосних набоїв A19, для спеціальної бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -198,8 +186,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: набій А19 (високошвидкісний)
-  description: Високошвидкісний набій А19. Використовується в спеціальних магазинах для M4SPR.
+  name: Гільза (A19 високошвидкісний)
+  description: Високошвидкісний набій А19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:
@@ -211,8 +199,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: набій A19 ВШ (уражаючий)
-  description: Високошвидкісний набій A19 з підвищеною уражаючою дією. Використовується в спеціальних магазинах для M4SPR.
+  name: Гільза (A19 ВШ ударний)
+  description: Високошвидкісний ударний набій А19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:
@@ -224,8 +212,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Incendiary
-  name: набій A19 ВШ (запальний)
-  description: Високошвидкісний набій A19 з запальною дією. Використовується в спеціальних магазинах для M4SPR.
+  name: Гільза (A19 ВШ запалювальний)
+  description: Високошвидкісний запалювальний набій A19. Підходить для спеціальних магазинів M4SPR.
   components:
   - type: Tag
     tags:
