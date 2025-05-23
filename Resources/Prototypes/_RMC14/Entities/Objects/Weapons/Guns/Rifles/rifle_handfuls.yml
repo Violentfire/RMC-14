@@ -1,7 +1,7 @@
 - type: entity
   parent: CMShellShotgunBase
   id: RMCCartridge458SOCOM
-  name: handful of .458 SOCOM bullets
+  name: жменька набоїв .458 SOCOM
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/xm88.rsi
@@ -33,7 +33,7 @@
 
 - type: stack
   id: RMCCartridge458SOCOM
-  name: handful of .458 SOCOM bullets
+  name: жменька набоїв .458 SOCOM
   icon: { sprite: /Textures/_RMC14/Objects/Weapons/Guns/Ammunition/Magazines/xm88.rsi, state: SOCOM1 }
   spawn: RMCCartridge458SOCOM
   maxCount: 9

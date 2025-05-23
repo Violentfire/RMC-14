@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: Type 71 assault rifle
+  name: Type 71 штурмова гвинтівка
   id: RMCWeaponRifleType71
-  description: The primary service rifle of the SPP space forces, the Type 71 is an ergonomic, lightweight assault rifle chambered in 5.45x39mm. In accordance with doctrinal principles of overmatch and suppression, the rifle has a high rate of fire and a high-capacity casket magazine. Despite lackluster precision, an integrated recoil-dampening mechanism makes the rifle surprisingly controllable in bursts.
+  description: Основна службова гвинтівка сил СПП, Type 71 - ергономічна, легка штурмова гвинтівка під набій 5.45х39 мм. Відповідно до доктринальних принципів переваги в вогневій силі та придушення, має високу скорострільність і магазин великої місткості типу "труна". Незважаючи на невисоку точність, вбудований механізм гасіння віддачі забезпечує напрочуд добру керованість під час стрільби чергами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/type71.rsi
@@ -105,9 +105,9 @@
 
 - type: entity
   parent: RMCWeaponRifleType71
-  name: Type 71-F assault rifle
+  name: Type 71-F штурмова гвинтівка
   id: RMCWeaponRifleType71Flamer
-  description: This appears to be a less common variant of the Type 71 with an integrated flamethrower that seems especially powerful.
+  description: Схоже, це менш поширений варіант Type 71 із вбудованим вогнеметом, що видається особливо крутим.
   components:
   - type: AttachableHolder
     slots:
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleType71
-  name: "Type 71 magazine (5.45x39mm)"
+  name: "Type 71 магазин (5.45x39 мм)"
   components:
   - type: Tag
     tags:
@@ -171,7 +171,7 @@
 - type: entity
   parent: RMCMagazineRifleType71
   id: RMCMagazineRifleType71AP
-  name: "Type 71 AP magazine (5.45x39mm)"
+  name: "Type 71 ББ магазин (5.45x39 мм)"
   components:
   - type: Tag
     tags:
@@ -199,7 +199,7 @@
 - type: entity
   parent: RMCMagazineRifleType71
   id: RMCMagazineRifleType71HEAP
-  name: "Type 71 HEAP magazine (5.45x39mm)"
+  name: "Type 71 магазин із вибуховими бронебійними набоями (5.45x39 мм)"
   components:
   - type: Tag
     tags:
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifle545x39mm
-  name: cartridge (5.45x39mm)
-  description: A 5.45x39mm cartridge. Fits in 5.45x39mm magazines.
+  name: набій (5.45x39 мм)
+  description: Набій калібру 5.45х39 мм. Сумісний з магазинами 5.45х39 мм.
   components:
   - type: Tag
     tags:
@@ -240,8 +240,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifle545x39mmAP
-  name: cartridge (5.45x39mm)
-  description: A 5.45x39mm cartridge. Fits in 5.45x39mm magazines.
+  name: ББ набій (5.45x39 мм)
+  description: Бронебійний набій калібру 5.45х39 мм. Сумісний з бронебійними магазинами 5.45х39 мм.
   components:
   - type: Tag
     tags:
@@ -253,8 +253,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifle545x39mmHEAP
-  name: cartridge (5.45x39mm)
-  description: A 5.45x39mm HEAP cartridge. Fits in 5.45x39mm magazines.
+  name: вибухово бронебійний набій (5.45x39 мм)
+  description: Вибухово бронебійний набій калібру 5.45х39 мм. Сумісний з вибухово бронебійними магазинами 5.45х39 мм.
   components:
   - type: Tag
     tags:
