@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: M54C штурмова гвинтівка MK1
+  name: M54C МК1 штурмова гвинтівка
   id: WeaponRifleM54CMK1
-  description: Старіша версія штурмової гвинтівки, що перебувала на озброєнні морської піхоти. Використовує безгільзові набої 10×24 мм.
+  description: Старіша версія штурмової гвинтівки, що перебувала на озброєнні морської піхоти. Використовує безгільзові набої 10х24 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1.rsi

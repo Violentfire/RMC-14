@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: AR10 штурмова гвинтівка
   id: WeaponRifleAR10
-  description: Є попередником більш поширеної гвинтівки M16. Вважається батьком автоматичних гвинтівок XX століття. Причина її появи тут - загадка. Використовує набій 7.62×51 мм.
+  description: Є попередником більш поширеної гвинтівки M16. Вважається батьком автоматичних гвинтівок XX століття. Причина її появи тут - загадка. Використовує набій 7.62х51 мм.
   suffix: Filled
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleAR10
   name: набій (7.62x51)
-  description: Гвинтівковий набій 7.62×51 мм.
+  description: Гвинтівковий набій 7.62х51 мм.
   components:
   - type: Tag
     tags:

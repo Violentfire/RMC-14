@@ -145,7 +145,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
-  name: "M54CE2 HT magazine (10x24mm)"
+  name: "M54CE2 магазин з голографічним наведенням (10x24 мм)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmHT
-  name: набій (10x24 мм)
-  description: Набій HT калібру 10×24 мм. Підходить до магазинів із системою голографічного наведення.
+  name: ГН набій (10x24 мм)
+  description: Набій з системою голографічного наведення, калібру 10×24 мм. Підходить до магазинів із системою голографічного наведення.
   components:
   - type: Tag
     tags:

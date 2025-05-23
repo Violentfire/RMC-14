@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: MAR-40 бойова гвинтівка
   id: WeaponRifleMAR40
-  description: Дешева, надійна штурмова гвинтівка під набій 7,62х39 мм. Зазвичай зустрічається в руках злочинців, найманців, а також бійців СПП чи ФВК.
+  description: Дешева, надійна штурмова гвинтівка під набій 7.62х39 мм. Зазвичай зустрічається в руках злочинців, найманців, а також бійців СПП чи ФВК.
   suffix: Filled
   components:
   - type: Sprite
