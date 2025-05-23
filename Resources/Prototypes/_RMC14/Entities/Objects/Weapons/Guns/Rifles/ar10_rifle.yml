@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: AR10 assault rifle
+  name: AR10 штурмова гвинтівка
   id: WeaponRifleAR10
-  description: An earlier version of the more widespread M16 rifle. Considered to be the father of the 20th century rifle. How one of these ended up here is a mystery of its own. It is chambered in 7.62x51mm.
+  description: Є попередником більш поширеної гвинтівки M16. Вважається батьком автоматичних гвинтівок XX століття. Причина її появи тут - загадка. Використовує набій 7.62х51 мм.
   suffix: Filled
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleAR10
-  name: "AR10 Magazine (7.62x51mm)"
+  name: "AR10 магазин (7.62x51 мм)"
   components:
   - type: Tag
     tags:
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleAR10
-  name: Cartridge (7.62x51)
-  description: A 7.62x51 rifle cartridge
+  name: набій (7.62x51)
+  description: Гвинтівковий набій 7.62х51 мм.
   components:
   - type: Tag
     tags:

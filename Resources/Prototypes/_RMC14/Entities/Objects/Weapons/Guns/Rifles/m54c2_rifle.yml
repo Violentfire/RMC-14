@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: M54C/2 assault rifle MK2
+  name: M54C/2 МК2 штурмова гвинтівка
   id: RMCWeaponRifleM54C2
-  description: A modified version M54C assault rifle MK2, re-engineered for better weight, handling and accuracy. Fires precise two-round bursts. Given only to elite units.
+  description: Модифікована версія штурмової гвинтівки M54C MK2, перероблена для зменшеної ваги, кращої керованості та точності. Стріляє точними чергами по два набої. Надається лише елітним підрозділам.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c2.rsi

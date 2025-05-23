@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: M54C assault rifle MK2
+  name: M54C МК2 штурмова гвинтівка
   id: WeaponRifleM54C
-  description: The standard issue rifle of the Marines. Commonly carried by most combat personnel. Uses 10x24mm caseless ammunition.
+  description: Стандартна гвинтівка морської піхоти. Є найбільш популярною серед військових. Використовує безгільзові набої 10х24 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/desert.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "M54C magazine (10x24mm)"
+  name: "M54C магазин (10x24 мм)"
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "M54C AP magazine (10x24mm)"
+  name: "M54C ББ магазин (10x24 мм)"
   suffix: AP
   components:
   - type: Tag
@@ -166,7 +166,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
-  name: "M54C Incendiary magazine (10x24mm)"
+  name: "M54C запальний магазин (10x24 мм)"
   suffix: Incendiary
   components:
   - type: Tag
@@ -193,7 +193,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
-  name: "M54C HEAP magazine (10x24mm)"
+  name: "M54C магазин із вибуховими бронебійними набоями (10x24 мм)"
   suffix: HEAP
   components:
   - type: Tag
@@ -220,7 +220,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "M54C extended magazine (10x24mm)"
+  name: "M54C розширений магазин (10x24 мм)"
   components:
   - type: Tag
     tags:
@@ -249,8 +249,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
-  name: cartridge (10x24mm)
-  description: A 10x24mm cartridge. Fits in 10x24mm magazines.
+  name: набій (10x24 мм)
+  description: Набій калібру 10х24 мм. Сумісний з магазинами 10х24 мм.
   components:
   - type: Tag
     tags:
@@ -262,8 +262,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: ББ набій (10x24 мм)
+  description: Бронебійний набій калібру 10х24 мм. Сумісний з бронебійними магазинами 10х24 мм.
   components:
   - type: Tag
     tags:
@@ -275,8 +275,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: запальний набій (10x24 мм)
+  description: Запальний набій калібру 10х24 мм. Сумісний з запальними магазинами 10х24 мм.
   components:
   - type: Tag
     tags:
@@ -288,8 +288,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
-  name: HEAP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm HEAP magazines.
+  name: вибухово бронебійний набій (10x24 мм)
+  description: Вибухово бронебійний набій калібру 10х24 мм. Сумісний з вибухово бронебійними магазинами 10х24 мм.
   components:
   - type: Tag
     tags:

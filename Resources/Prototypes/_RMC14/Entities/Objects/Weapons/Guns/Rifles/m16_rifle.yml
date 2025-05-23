@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleM16 # TODO: Make the M16 grenadier rifle when impact nades exist
-  name: M16 rifle
-  description: An old, reliable design first adopted by the U.S. military in the 1960s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
+  name: M16 гвинтівка
+  description: Стара, надійна, перевірена часом зброя, яка була прийнята на озброєння армією США у 1960-х роках. Справжній експонат для музею старої зброї. Використовує набій 5.56х45 мм.
   suffix: Filled
   components:
   - type: Sprite
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM16
-  name: "M16 Magazine (5.56x45mm)"
+  name: "M16 магазин (5.56x45 мм)"
   components:
   - type: Tag
     tags:
@@ -155,8 +155,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM16
-  name: Cartridge (5.56x45)
-  description: A 5.56x45 rifle cartridge
+  name: набій (5.56x45)
+  description: Гвинтівковий набій 5.56х45 мм.
   components:
   - type: Tag
     tags:

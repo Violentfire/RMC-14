@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: M54CE2 heavy assault rifle
+  name: M54CE2 важка штурмова гвинтівка
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleM54CE2
-  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: Зброя підрозділів вогневої підтримки, яка здатна вести тривалий придушувальний вогонь із закріпленої позиції. Незважаючи на свою нестабільність і низьку точність, її можна переносити і використовувати вручну.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
-  name: "M54CE2 magazine (10x24mm)"
+  name: "M54CE2 магазин (10x24 мм)"
   components:
   - type: Tag
     tags:
@@ -145,7 +145,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
-  name: "M54CE2 HT magazine (10x24mm)"
+  name: "M54CE2 магазин з голографічним наведенням (10x24 мм)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmHT
-  name: cartridge (10x24mm)
-  description: A 10x24mm HT cartridge. Fits in 10x24mm holo targeting magazines.
+  name: ГН набій (10x24 мм)
+  description: Набій з системою голографічного наведення, калібру 10×24 мм. Підходить до магазинів із системою голографічного наведення.
   components:
   - type: Tag
     tags:
@@ -191,7 +191,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2AP
-  name: "M54CE2 AP magazine (10x24mm)"
+  name: "M54CE2 ББ магазин (10x24 мм)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
