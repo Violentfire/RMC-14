@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
@@ -82,7 +82,6 @@
           - RMCAttachmentFlashlightGrip
           - RMCAttachmentLaserSight
           - RMCAttachmentVerticalGrip
-          - RMCAttachmentExtinguisher
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 1.12, 0.0
@@ -155,7 +154,7 @@
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
   name: M4SPR ББ магазин (10x24 мм)
-  description: "Магазин зі бронебійними набоями 10х24 мм для бойової гвинтівки M4SPR."
+  description: "Магазин бронебійних набоїв 10х24 мм для бойової гвинтівки M4SPR."
   suffix: AP
   components:
   - type: Tag
