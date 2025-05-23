@@ -209,8 +209,8 @@
 - type: entity
   parent: RMCDrinkAlcoholBase
   id: RMCDrinkAlcoholVodka
-  name: горілка червона зірка
-  description: "'Горілка 'Червона зірка': Головний продукт ворожої дієти. Хто б міг подумати, що рідка картопля може так сильно смердіти. На пляшці написано: 'Людина Червоної Зірки Ра-Ра: Вибір еліти'. Принаймні, ти так думаєш... ти ж не вмієш читати по російськи."
+  name: горілка козаки
+  description: Міцна, як дух нації. У кожній краплі - вогонь степу й свободи Запоріжжя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/red_star_vodka.rsi
