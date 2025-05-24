@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM13
-  name: M13 Auto Pistol
-  description: The M13 Auto Pistol, a compact, rapid-firing sidearm designed for close-quarters defense. With a 40-round magazine, it emphasizes fire rate over precision, providing effective suppressive fire in short-range engagements.
+  name: M13 автоматичний пістолет
+  description: Автоматичний пістолет M13 - компактна, швидкострільна зброя, розроблена для самозахисту на близькій дистанції. Завдяки магазину на 40 набоїв він робить ставку на швидкість стрільби, а не на точність, забезпечуючи ефективне подавлення противника на коротких відстанях.
   components:
   - type: Tag
     tags:
@@ -110,7 +110,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13
-  name: M13 HV Magazine (10x20mm)
+  name: M13 ВШ магазин (10x20mm)
   components:
   - type: Tag
     tags:
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Ext
-  name: M13 HV Extended Magazine (10x20mm)
+  name: M13 ВШ розширений магазин (10x20 мм)
   components:
   - type: Tag
     tags:
@@ -164,7 +164,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Drum
-  name: M13 HV Drum Magazine (10x20mm)
+  name: M13 ВШ барабанний магазин (10x20 мм)
   components:
   - type: Tag
     tags:

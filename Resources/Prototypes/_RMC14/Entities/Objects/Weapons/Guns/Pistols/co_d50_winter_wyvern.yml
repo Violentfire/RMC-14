@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolCOD50WinterWyvern
-  name: vintage D50 Winter Wyvern
-  description: A bulky 50 caliber pistol with a serious kick. Hand crafted from the finest blacksteel with an ivory grip bolted together with gold studs. Very elegant.
+  name: класичний D50 'Зимовий Виверн'
+  description: "Масивний пістолет .50 калібру з потужною віддачею. Ручна робота: виготовлений з найкращої чорної сталі, з рукояткою кольору слонової кістки, з'єднаною золотими заклепками. Вишуканий та елегантний."
   components:
   - type: Gun
     shotsPerBurst: 2
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolD50WinterWyvernHI
-  name: D50 winter wyvern HI magazine (.50AE)
+  name: D50 зимовий виверн ПУЗ магазин (.50AE)
   components:
   - type: Tag
     tags:
@@ -101,7 +101,7 @@
 
 - type: entity
   id: RMCCartridgePistolHI50AE
-  name: cartridge (High Impact .50AE)
+  name: набій (з підвищеною уражаючою здатністю .50AE)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -114,7 +114,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistolHI50AE
-  name: bullet (HI50AE)
+  name: куля (ПУЗ .50AE)
   components:
   - type: Projectile
     damage:
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolD50WinterWyvernHIAP
-  name: D50 winter wyvern HIAP Magazine (.50AE)
+  name: D50 зимовий вивенр ББПУЗ магазин (.50AE)
   components:
   - type: Tag
     tags:
@@ -156,7 +156,7 @@
 
 - type: entity
   id: RMCCartridgePistolHIAP50AE
-  name: cartridge (High Impact Armor-Piercing .50AE)
+  name: набій (бронебійний з підвищеною уражаючою здатністю .50AE)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -169,7 +169,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistolHIAP50AE
-  name: bullet (HIAP50AE)
+  name: куля (ББПУЗ .50AE)
   components:
   - type: Projectile
     damage:
