@@ -1,6 +1,6 @@
-﻿cm-xeno-death-gasp = lets out a waning guttural screech, green blood bubbling from its maw.
+cm-xeno-death-gasp = випускає згасаючий горловий вереск, зелена кров пузириться в пащі.
 
-cm-xeno-death = Hive: {$xeno} has died at {$location}!
-cm-xeno-death-queen =  A sudden tremor ripples through the hive... the Queen has been slain! Vengeance!
+cm-xeno-death = Вулик: {$xeno} загинув у {$location}!
+cm-xeno-death-queen =  Раптовий тремор проходить крізь вулик... Королеву було вбито! Час помсти!
 
-rmc-xeno-hibernation = The Queen has left without us. We quickly find a hiding place to enter hibernation as we lose touch with the hive mind...
+rmc-xeno-hibernation = Королева покинула нас. Ми швидко знаходимо схованку щоб впасти в сплячку втрачаючи зв’язок із розумом вулика...

@@ -2,20 +2,20 @@
 cm-xeno-not-enough-plasma = У вас недостатньо плазми!
 
 # Energy
-rmc-xeno-not-enough-energy = Our energy reserves are insufficient!
-rmc-xeno-energy-increase-user = We feel our internal energy reserves increase!
+rmc-xeno-not-enough-energy = Наших енергетичних запасів недостатньо!
+rmc-xeno-energy-increase-user = Ми відчуваємо, як наші внутрішні резерви енергії зростають!
 
 # Internal Health
-rmc-xeno-not-enough-internal-health = Our health reserves are insufficient!
-rmc-xeno-internal-health-increase-user = We feel our internal health reserves increase!
+rmc-xeno-not-enough-internal-health = Наших запасів здоров’я недостатньо!
+rmc-xeno-internal-health-increase-user = Ми відчуваємо, як наші внутрішні запаси здоров’я зростають!
 
 # Fury
-rmc-xeno-not-enough-fury = We're not angry enough for this!
-rmc-xeno-fury-increase-user = We are overcome with rage!
+rmc-xeno-not-enough-fury = Ми ще недостатньо розлючені для цього!
+rmc-xeno-fury-increase-user = Нас переповнює лють!
 
 # Acid reserves
-rmc-xeno-not-enough-acid = Your don't have enough acid built up!
-rmc-xeno-acid-increase-user = You feel your acid reserves increase!
+rmc-xeno-not-enough-acid = У вас недостатньо накопиченої кислоти!
+rmc-xeno-acid-increase-user = Ви відчуваєте, як ваші запаси кислоти зростають!
 
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
@@ -25,12 +25,12 @@ cm-xeno-requires-more-plasma = {THE($construction)} потребує на {$plas
 cm-xeno-construction-plasma-left = Будівництво {$construction} призначено тут. Воно вимагає на [color=cyan]{$plasma}[/color] більше плазми.
 cm-xeno-cant-reach-there = Ви не можете туди дотягтися!
 cm-xeno-cant-build-in-self = Ви не можете будувати так близько!
-rmc-xeno-construction-unique-exists = There's already a {$choice} built!
-rmc-xeno-construction-hive-limit-met = We have reached the limit of {$choice} the hive can support!
-rmc-xeno-construction-requires-hive-weeds = {$choice} must be built on hive weeds!
-rmc-xeno-construction-requires-hive-core = The hive must have a hive core to build {$choice}!
-rmc-xeno-construction-requires-space = We need more open space to build here
-rmc-xeno-cant-build-new-yet = We can't build a new {$choice} yet!
+rmc-xeno-construction-unique-exists = {$choice} вже побудовано!
+rmc-xeno-construction-hive-limit-met = Ми досягли межі {$choice}, яку вулик може підтримувати!
+rmc-xeno-construction-requires-hive-weeds = {$choice} має бути побудовано на траві!
+rmc-xeno-construction-requires-hive-core = Для побудови {$choice} вулик має мати ядро!
+rmc-xeno-construction-requires-space = Нам потрібно більше вільного простору для будівництва тут.
+rmc-xeno-cant-build-new-yet = Ми ще не можемо побудувати новий {$choice}!
 
 # Evolve
 cm-xeno-available-evolutions = Доступні Еволюції
@@ -48,11 +48,11 @@ rmc-xeno-evolution-cant-strain-damaged = Ми повинні бути повні
 rmc-xeno-evolution-cant-devolve-damaged = Ви занадто слабкі для деградації, спершу відрегенеруйтеся.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-minutes = Ви маєте зачекати {$minutes} хвилин і {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
 rmc-xeno-evolution-cant-evolve-recent-queen-death-seconds = Ви маєте зачекати {$seconds} секунд поки вулик оговтається від смерті минулої Королеви.
-rmc-xeno-evolution-cant-evolve-caste-cooldown = We cannot evolve into this caste again yet! ({$minutes} minutes and {$seconds} seconds remaining)
-rmc-xeno-evolution-failed-early-weeds = The hive hasn't developed enough yet for you to evolve off weeds!
+rmc-xeno-evolution-cant-evolve-caste-cooldown = Ми ще не можемо знову еволюціонувати в цей каст (залишилось {$minutes} хвилин і {$seconds} секунд).
+rmc-xeno-evolution-failed-early-weeds = Вулик ще недостатньо розвинений, щоб ви могли еволюціонувати без трави!
 rmc-xeno-evolution-failed-bad-location = Ви не можете еволюціонувати тут.
-rmc-xeno-evolution-start-self = We begin to twist and contort.
-rmc-xeno-evolution-start-others = {$xeno} begins to twist and contort.
+rmc-xeno-evolution-start-self = Ми починаємо викручуватись і корчитись.
+rmc-xeno-evolution-start-others = {$xeno} починає викручуватись і корчитись.
 
 # Fortify
 cm-xeno-fortify-cant-headbutt = Не можна битися головою під час укріплення!
@@ -61,7 +61,7 @@ cm-xeno-fortify-cant-tail-sweep = Не можна махати хвостом п
 cm-xeno-fortify-cant-toggle-crest = Не можна опустити гребінь під час укріплення!
 
 # Headbutt
-rmc-xeno-headbutt-too-far = We can't headbutt from this distance with our crest lowered!
+rmc-xeno-headbutt-too-far = Ми не можемо таранити головою з такої відстані, коли гребінь опущено!
 
 # Leap
 cm-xeno-leap-cancelled = Ви передумуєте стрибати!
@@ -72,17 +72,17 @@ cm-xeno-weeds-source-already-here = Тут вже є пульсуючий вуз
 # Corrosive acid
 cm-xeno-acid-not-corrodible = Ви не можете розчинити {THE($target)}!
 cm-xeno-acid-already-corroding = {THE($target)} вже піддається впливу кислоти!
-rmc-xeno-acid-structure-unmeltable = We can only melt barricades and items!
+rmc-xeno-acid-structure-unmeltable = Ми можемо розплавляти лише барикади та предмети!
 
 # Paralyzing Slash
-cm-xeno-paralyzing-slash-activate = Our next slash will apply neurotoxin!
-cm-xeno-paralyzing-slash-expire = We have waited too long, your slash will no longer apply neurotoxin!
-cm-xeno-paralyzing-slash-hit = We add neurotoxin into your attack, {$target} is about to fall over paralyzed!
+cm-xeno-paralyzing-slash-activate = Наступний наш удар буде з нейротоксином!
+cm-xeno-paralyzing-slash-expire = Ми чекали надто довго, твій удар більше не нанесe нейротоксин!
+cm-xeno-paralyzing-slash-hit = Ми додаємо нейротоксин у твою атаку, {$target} скоро впаде паралізований!
 
 # Crippling Strike
-cm-xeno-crippling-strike-activate = Our next slash will apply neurotoxin!
-cm-xeno-crippling-strike-expire = We have waited too long, your slash will no longer apply neurotoxin!
-cm-xeno-crippling-strike-hit = We significantly strengthen our attack, slowing {THE($target)}!
+cm-xeno-crippling-strike-activate = Наступний наш удар буде з нейротоксином!
+cm-xeno-crippling-strike-expire = Ми чекали занадто довго, твій удар більше не завдасть нейротоксину!
+cm-xeno-crippling-strike-hit = Ми суттєво посилюємо нашу атаку, уповільнюючи {THE($target)}!
 
 # Pheromones
 rmc-xeno-pheromones-help =
@@ -140,7 +140,7 @@ cm-xeno-charge-spit-expire = Ваш плювок знову звичайний.
 
 # Turn Invisible
 cm-xeno-invisibility-expire = Ви відчуваєте що невидимість добігає кінця!
-rmc-xeno-invisibility-expire-bump = We bumped into someone and lost our invisibility!
+rmc-xeno-invisibility-expire-bump = Ми натрапили на когось і втратили невидимість!
 
 # Ovipositor
 cm-xeno-ovipositor-attach = Ви почали прикріплюватися до яйцеклада.
@@ -154,15 +154,15 @@ cm-xeno-retrieve-egg-unstash-egg = Ви берете яйце зі сховищ�
 rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} утримує: {$cur_eggs}/{$max_eggs} яєць.
 
 # Throw Parasite
-cm-xeno-throw-parasite-no-parasites = We don't have any parasites stored!
-cm-xeno-throw-parasite-too-many-parasites = We can't carry more parasites!
-cm-xeno-throw-parasite-stash-parasite = We store the parasite for safekeeping. Now sheltering: {$cur_parasites}/{$max_parasites}.
-cm-xeno-throw-parasite-unstash-parasite = We grab a parasite from our storage. Now sheltering: {$cur_parasites}/{$max_parasites}.
-rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} sheltering: {$cur_paras}/{$max_paras} parasites.
-rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} parasite ghost {$rev_paras ->
-   [one] role
-   *[other] roles
-} available.
+cm-xeno-throw-parasite-no-parasites = Ми не маємо жодного паразита!
+cm-xeno-throw-parasite-too-many-parasites = Ми не можемо нести більше паразитів!
+cm-xeno-throw-parasite-stash-parasite = Ми зберігаємо паразита для безпеки. Тепер паразитів: {$cur_parasites}/{$max_parasites}.
+cm-xeno-throw-parasite-unstash-parasite = Ми беремо паразита зі сховища. Тепер паразитів: {$cur_parasites}/{$max_parasites}.
+rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} зберігає: {$cur_paras}/{$max_paras} паразитів.
+rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} привид {$rev_paras ->
+   [one] роль
+   *[other] ролей
+} паразита доступний.
 
 # Defensive Shield
 rmc-xeno-defensive-shield-end = Ви відчуваєте що більше не захищені!
@@ -189,184 +189,184 @@ rmc-xeno-retrieve-finish-target = Нас тягне до {$user}!
 # Aid
 rmc-xeno-aid-self = Ми не можемо зцілити себе!
 rmc-xeno-aid-dead = {$target} вже мертвий!
-rmc-xeno-aid-on-fire = We cannot heal this xeno!
+rmc-xeno-aid-on-fire = Ми не можемо зцілити цього ксено!
 rmc-xeno-heal-self = Ми зцілюємо {$target}!
 rmc-xeno-heal-target = Нас зцілює {$target}!
 rmc-xeno-heal-others = {$user} кладе свої кігті на {$target}, і його рани швидко затягуються!
 rmc-xeno-heal-ailments-self = Ми омолоджуємо {$target}!
 rmc-xeno-heal-ailments-target = Нас омолоджує {$target}!
 rmc-xeno-heal-ailments-others = {$user} вказує на {$target}, і вона спазмується, оскільки неприродно швидко відновлюється!
-rmc-xeno-heal-sisters = We must target one of our sisters!
+rmc-xeno-heal-sisters = Ми повинні націлитися на одну з наших сестер!
 
 # Resin Surge
-rmc-xeno-resin-surge-shield-self = We surge the resin around {THE($target)}, making it temporarily nigh unbreakable!
-rmc-xeno-resin-surge-shield-others = {CAPITALIZE(THE($xeno))} surges the resin around {THE($target)}, making it temporarily nigh unbreakable!
-rmc-xeno-resin-surge-shield-fail = We haplessly try to surge resin around {THE($target)}, but it's already reinforced. It'll take a moment for us to recover.
-rmc-xeno-resin-surge-fruit = We surge the resin around {THE($target)}, speeding its growth somewhat!
-rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE(THE($target))} is already mature. The resin surge does nothing.
-rmc-xeno-resin-surge-wall-self = We surge the resin, creating an unstable wall!
-rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} surges the resin, creating an unstable wall!
-rmc-xeno-resin-surge-sticky-self = We surge the deep resin, creating an unstable sticky resin patch!
-rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} surges deep resin, creating an unstable sticky resin patch!
-rmc-xeno-resin-surge-see-fail = We cannot see that location!
+rmc-xeno-resin-surge-shield-self = Ми зміцнюємо смолу навколо {THE($target)}, тимчасово роблячи її майже незламною!
+rmc-xeno-resin-surge-shield-others = {CAPITALIZE(THE($xeno))} згустила смолу навколо {THE($target)}, тимчасово зробивши її майже незламною!
+rmc-xeno-resin-surge-shield-fail = Ми безпорадно намагаємося згустити смолу навколо {THE($target)}, але вона вже зміцнена. Нам знадобиться трохи часу, щоб відновитися.
+rmc-xeno-resin-surge-fruit = Ми прискорюємо зростання смоли навколо {THE($target)}, посилюючи її!
+rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE(THE($target))} вже дозрів. Згусток смоли не дає жодного ефекту.
+rmc-xeno-resin-surge-wall-self = Ми спрямовуємо смолу, створюючи нестабільну стіну!
+rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} спрямовує смолу, створюючи нестабільну стіну!
+rmc-xeno-resin-surge-sticky-self = Ми спрямовуємо глибоку смолу, створюючи нестабільний шар липкої смоли!
+rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} спрямовує глибоку смолу, створюючи нестабільний шар липкої смоли!
+rmc-xeno-resin-surge-see-fail = Ми не бачимо це місце!
 
 # Burrow
-rmc-xeno-burrow-down-start = We begin burrowing ourselves into the ground.
-rmc-xeno-burrow-down-failure-break = We stop burrowing.
-rmc-xeno-burrow-down-failure-bad-area = There's no way to burrow here.
-rmc-xeno-burrow-down-failure-rest = We cannot burrow while resting!
-rmc-xeno-burrow-down-finish = We burrow ourselves into the ground.
-rmc-xeno-burrow-cooldown-finish = We can burrow again.
-rmc-xeno-burrow-down-failure-cooldown = We can't burrow yet.
-rmc-xeno-burrow-down-doafter-stop = We can't do this right now!
+rmc-xeno-burrow-down-start = Ми починаємо зариватися в землю.
+rmc-xeno-burrow-down-failure-break = Ми перестаємо зариватися в землю.
+rmc-xeno-burrow-down-failure-bad-area = Тут не можливо заритися.
+rmc-xeno-burrow-down-failure-rest = Ми не можемо почати копати поки відпочиваємо.
+rmc-xeno-burrow-down-finish = Ми зариваємося в землю.
+rmc-xeno-burrow-cooldown-finish = Ми знову можемо заритися.
+rmc-xeno-burrow-down-failure-cooldown = Ми ще не можемо заритися.
+rmc-xeno-burrow-down-doafter-stop = Ми не можемо зробити це зараз!
 
-rmc-xeno-burrow-resurface-cooldown-finish = We can now surface.
-rmc-xeno-burrow-move-cooldown-finish = We can now tunnel while burrowed.
-rmc-xeno-burrow-move-forced-unburrow = We pop out of the ground!
+rmc-xeno-burrow-resurface-cooldown-finish = Тепер ми можемо вилізти на поверхню.
+rmc-xeno-burrow-move-cooldown-finish = Тепер ми можемо рухатись під землею.
+rmc-xeno-burrow-move-forced-unburrow = Ми вилізли з-під землі!
 
-rmc-xeno-burrow-move-start = We start tunneling!
-rmc-xeno-burrow-move-break = We stop tunneling!
-rmc-xeno-burrow-move-failure = There's no way to tunnel over there.
-rmc-xeno-burrow-move-failure-solid = We can't tunnel into a solid wall!
-rmc-xeno-burrow-move-failure-bad-area = There's no way to tunnel over there.
-rmc-xeno-burrow-move-failure-coolown = We must wait some time to do this.
-rmc-xeno-burrow-move-finish = We tunnel to the target.
+rmc-xeno-burrow-move-start = Ми починаємо рити тунель!
+rmc-xeno-burrow-move-break = Ми припиняємо рити тунель!
+rmc-xeno-burrow-move-failure = Тут неможливо прорити тунель.
+rmc-xeno-burrow-move-failure-solid = Ми не можемо прорити тунель у суцільній стіні!
+rmc-xeno-burrow-move-failure-bad-area = Тут неможливо прорити тунель.
+rmc-xeno-burrow-move-failure-coolown = Ми мусимо трохи почекати, щоб це зробити.
+rmc-xeno-burrow-move-finish = Ми прорили тунель до цілі.
 
-rmc-xeno-burrow-failure-space = We make tunnels, not wormholes
+rmc-xeno-burrow-failure-space = Ми риємо тунелі, а не червоточини.
 
 # For The Hive!
-rmc-xeno-for-the-hive-container = It is too cramped in here to activate this!
-rmc-xeno-for-the-hive-cancel = We remove all our explosive acid before it combusted.
-rmc-xeno-for-the-hive-activate = Our stomach starts turning and twisting, getting ready to compress the built up acid.
-rmc-xeno-for-the-hive-announce = ;FOR THE HIVE!!!
+rmc-xeno-for-the-hive-container = Тут занадто тісно, щоб активувати це!
+rmc-xeno-for-the-hive-cancel = Ми видаляємо всю нашу вибухову кислоту, перш ніж вона вибухнула.
+rmc-xeno-for-the-hive-activate = Наш шлунок починає крутитися і скручуватися, готуючись випустити накопичену кислоту.
+rmc-xeno-for-the-hive-announce = ;ЗА ВУЛИК!!!
 
-rmc-xeno-for-the-hive-respawn-fail = You couldn't reincarnate!
-rmc-xeno-for-the-hive-respawn-corpse-self = The hive has no core! We manage to emerge from our old husk as a larva!
-rmc-xeno-for-the-hive-respawn-corpse-others = A larva suddenly emerges from a dead husk!
+rmc-xeno-for-the-hive-respawn-fail = Ви не змогли воскреснути!
+rmc-xeno-for-the-hive-respawn-corpse-self = Вулик не має ядра! Нам вдається вирватися з нашої старої оболонки у вигляді лярви!
+rmc-xeno-for-the-hive-respawn-corpse-others = Лярва раптово виринає з мертвої оболонки!
 
 # Generic Respawn
-rmc-xeno-respawn-fail = You couldn't reincarnate!
-rmc-xeno-respawn-corpse-self = The hive has no core! We manage to emerge from our old husk as a larva!
-rmc-xeno-respawn-corpse-others = A larva suddenly emerges from a dead husk!
+rmc-xeno-respawn-fail = Ви не змогли воскреснути!
+rmc-xeno-respawn-corpse-self = Вулик не має ядра! Нам вдається вирватися з нашої старої оболонки у вигляді лярви!
+rmc-xeno-respawn-corpse-others = Лярва раптово виринає з мертвої оболонки!
 
 # Apply Salve
-rmc-xeno-apply-salve-target-not-xeno-failure = The target cannot be healed!
-rmc-xeno-apply-salve-target-self-failure = We can't heal ourself with our own resin salve!
-rmc-xeno-apply-salve-target-hostile-failure = {$target_xeno} is hostile to our hive!
-rmc-xeno-apply-salve-target-too-far-away-failure = We can't apply our resin salve from here!
-rmc-xeno-apply-salve-target-dead-failure = {$target_xeno} is dead!
-rmc-xeno-apply-salve-target-on-fire-failure = Extinguish {$target_xeno} first or the flames will burn our resin salve away!
-rmc-xeno-apply-salve-target-full-health-failure = {$target_xeno} is already at full health!
+rmc-xeno-apply-salve-target-not-xeno-failure = Ціль не можна вилікувати!
+rmc-xeno-apply-salve-target-self-failure = Ми не можемо вилікувати себе власною смолою!
+rmc-xeno-apply-salve-target-hostile-failure = {$target_xeno} ворожий до нашого вулику!
+rmc-xeno-apply-salve-target-too-far-away-failure = Ми не можемо нанести нашу смолу здалеку!
+rmc-xeno-apply-salve-target-dead-failure = {$target_xeno} мертвий!
+rmc-xeno-apply-salve-target-on-fire-failure = Спочатку загасіть {$target_xeno}, інакше вогонь знищить нашу смолу!
+rmc-xeno-apply-salve-target-full-health-failure = {$target_xeno} вже має повне здоров’я!
 
-rmc-xeno-apply-salve-self = We regurgitate our vital fluids and some plasma to create a regenerative resin salve and apply it to {$target_xeno}'s wounds. We feel weakened...
-rmc-xeno-apply-salve-target = {$healer_xeno} covers our wounds with a regenerative resin salve. We feel reinvigorated!
+rmc-xeno-apply-salve-self = Ми випльовуємо наші життєві рідини й трохи плазми щоб створити регенеративну смолу і наносимо її на рани {$target_xeno}. Ми відчуваємо втому...
+rmc-xeno-apply-salve-target = {$healer_xeno} покриває наші рани регенеративною смолою. Ми відчуваємо прилив сил!
 
 # Sacrificial Heal
-rmc-xeno-sacrifice-heal-will-respawn = We have transferred enough health! We will be reborn when we sacrifice ourself!
+rmc-xeno-sacrifice-heal-will-respawn = Ми передали достатньо здоров’я! Ми воскреснемо пожертвувавши собою!
 
-rmc-xeno-sacrifice-heal-target-not-xeno-failure = The target cannot be healed!
-rmc-xeno-sacrifice-heal-target-self-failure = We can't heal ourself!
-rmc-xeno-sacrifice-heal-target-hostile-failure = {$target_xeno} is hostile to our hive!
-rmc-xeno-sacrifice-heal-target-low-level-failure = It would be a waste...
-rmc-xeno-sacrifice-heal-target-too-far-away-failure = We need to be closer to {$target_xeno}.
-rmc-xeno-sacrifice-heal-target-dead-failure = {$target_xeno} is dead!
-rmc-xeno-sacrifice-heal-target-full-health-failure = {$target_xeno} is already at full health!
+rmc-xeno-sacrifice-heal-target-not-xeno-failure = Ціль не можна вилікувати!
+rmc-xeno-sacrifice-heal-target-self-failure = Ми не можемо зцілити себе!
+rmc-xeno-sacrifice-heal-target-hostile-failure = {$target_xeno} ворожий до нашого вулику!
+rmc-xeno-sacrifice-heal-target-low-level-failure = Це було б марно...
+rmc-xeno-sacrifice-heal-target-too-far-away-failure = Нам потрібно бути ближче до {$target_xeno}.
+rmc-xeno-sacrifice-heal-target-dead-failure = {$target_xeno} мертвий!
+rmc-xeno-sacrifice-heal-target-full-health-failure = {$target_xeno} вже має повне здоров’я!
 
-rmc-xeno-sacrifice-heal-target-announcement = {$healer_xeno} sacrifices itself to heal {$target_xeno}!
-rmc-xeno-sacrifice-heal-target-enviorment = {$healer_xeno} explodes in a deluge of regenerative resin salve, covering {$target_xeno} in it!
-rmc-xeno-sacrifice-heal-announce = ;OUR SISTER WILL NOT DIE!!!
+rmc-xeno-sacrifice-heal-target-announcement = {$healer_xeno} жертвує собою щоб вилікувати {$target_xeno}!
+rmc-xeno-sacrifice-heal-target-enviorment = {$healer_xeno} вибухає в потоці регенеративної смоли, вкриваючи нею {$target_xeno}!
+rmc-xeno-sacrifice-heal-announce = ;НАША СЕСТРА НЕ ЗАГИНЕ!!!
 
 # Dodge
-rmc-xeno-dodge-self = We can now weave through our enemies!
-rmc-xeno-dodge-end = We can no longer weave through our enemies!
+rmc-xeno-dodge-self = Тепер ми можемо ухилятися від ворогів!
+rmc-xeno-dodge-end = Ми більше не можемо ухилятися від ворогів!
 
 # Vanguard Shield
-rmc-xeno-shield-vanguard-hit = Our shield took the hit!
-rmc-xeno-shield-vanguard-regen = We feel our defensive shell regenerate! It'll block one hit!
-rmc-xeno-shield-vanguard-break = We feel our defensive shell shatter!
+rmc-xeno-shield-vanguard-hit = Наш щит прийняв удар!
+rmc-xeno-shield-vanguard-regen = Ми відчуваємо, як наш захисний панцир відновлюється! Він заблокує один удар!
+rmc-xeno-shield-vanguard-break = Ми відчуваємо, як наш захисний панцир розлітається на шматки!
 
 # Toggle Cleave
-rmc-xeno-toggle-cleave-root = We will now root our enemies with our cleave.
-rmc-xeno-toggle-cleave-fling = We will now throw our enemies with our cleave.
+rmc-xeno-toggle-cleave-root = Тепер ми паралізуватимемо ворогів нашим ударом.
+rmc-xeno-toggle-cleave-fling = Тепер ми відкидатимемо ворогів нашим ударом.
 
 # Soak
-rmc-xeno-soak-self = We begin to tank incoming damage!
-rmc-xeno-soak-others = {CAPITALIZE(THE($xeno))} begins to tank incoming damage!
-rmc-xeno-soak-end-fail = We stop tanking incoming damage.
-rmc-xeno-soak-end-self = We feel enraged after taking in oncoming damage! Our tail slam's cooldown is reset and we heal!
-rmc-xeno-soak-end-others =  {CAPITALIZE(THE($xeno))} gets enraged after being damaged enough!
+rmc-xeno-soak-self = Ми починаємо брати на себе вхідну шкоду!
+rmc-xeno-soak-others = {CAPITALIZE(THE($xeno))} починає брати на себе вхідну шкоду!
+rmc-xeno-soak-end-fail = Ми перестаємо брати на себе вхідну шкоду.
+rmc-xeno-soak-end-self = Ми відчуваємо лють після отримання шкоди! Відлік відновлення удару хвостом скидається, і ми лікуємося!
+rmc-xeno-soak-end-others =  {CAPITALIZE(THE($xeno))} приходить у лють після того, як отримав достатньо шкоди!
 
 # Tail Fountain
-rmc-xeno-tail-fountain-self = We use our tail to pour acid over {$target}.
-rmc-xeno-tail-fountain-others = {CAPITALIZE(THE($user))} pours acid all over {$target} using its tail.
-rmc-xeno-tail-fountain-fail = We can't extinguish that!
-rmc-xeno-tail-fountain-fail-self = We can't extinguish ourselves!
+rmc-xeno-tail-fountain-self = Ми використовуємо хвіст, щоб полити кислотою {$target}.
+rmc-xeno-tail-fountain-others = {CAPITALIZE(THE($user))} поливає кислотою {$target} хвостом.
+rmc-xeno-tail-fountain-fail = Ми не можемо це загасити!
+rmc-xeno-tail-fountain-fail-self = Ми не можемо загасити себе!
 
 # Tantrum
-rmc-xeno-tantrum-fail-self = We must enrage a sister!
-rmc-xeno-tantrum-fail-raging-self = We are already full of rage!
-rmc-xeno-tantrum-fail-not-xeno = That's not a sister!
-rmc-xeno-tantrum-fail-wrong-hive = Why would we help our enemies?!
-rmc-xeno-tantrum-fail-dead = No amount of anger can bring our sister back.
-rmc-xeno-tantrum-fail-valkyrie = We can't order another valkyrie with our rage.
-rmc-xeno-tantrum-fail-raging = {CAPITALIZE(THE($target))} is already enraged!
-rmc-xeno-tantrum-self = Our rage drives us forward, our healing and armor is increased!
-rmc-xeno-tantrum-other = We feel an overwhelming rage!
-rmc-xeno-tantrum-end = We feel ourselves calm down.
+rmc-xeno-tantrum-fail-self = Нам потрібно розлютити сестру!
+rmc-xeno-tantrum-fail-raging-self = Ми вже переповнені люттю!
+rmc-xeno-tantrum-fail-not-xeno = Це не сестра!
+rmc-xeno-tantrum-fail-wrong-hive = Чому ми маємо допомагати ворогам?!
+rmc-xeno-tantrum-fail-dead = Жодна лють не поверне нашу сестру.
+rmc-xeno-tantrum-fail-valkyrie = Ми не можемо наказати іншій валькірії через нашу лють.
+rmc-xeno-tantrum-fail-raging = {CAPITALIZE(THE($target))} вже переповнений люттю!
+rmc-xeno-tantrum-self = Наша лють веде нас вперед, наше лікування та броня посилюються!
+rmc-xeno-tantrum-other = Ми відчуваємо безмежну лють!
+rmc-xeno-tantrum-end = Ми відчуваємо як заспокоюємося.
 
 # Fight or Flight
-rmc-xeno-fof-effect = Every single inch in our body moves on its own to fight!
+rmc-xeno-fof-effect = Кожен дюйм нашого тіла рухається сам по собі щоб боротися!
 
 # Ravager Empower
-rmc-xeno-ravager-shield-end = We feel our shield decay!
-rmc-xeno-empower-start-self = We start empowering ourself!
-rmc-xeno-empower-start-others = {CAPITALIZE(THE($user))} starts empowering!
-rmc-xeno-ravager-empower = We feel a rush of power from the surrounding enemies!
-rmc-xeno-ravager-empower-fizzle = There were no enemies around us!
-rmc-xeno-ravager-super-empower-fade = Our glow fades away, the power leaving our form!
+rmc-xeno-ravager-shield-end = Ми відчуваємо, як наш щит слабіє!
+rmc-xeno-empower-start-self = Ми починаємо підсилювати себе!
+rmc-xeno-empower-start-others = {CAPITALIZE(THE($user))} починає підсилюватися!
+rmc-xeno-ravager-empower = Ми відчуваємо прилив сили від навколишніх ворогів!
+rmc-xeno-ravager-empower-fizzle = Поблизу не було ворогів!
+rmc-xeno-ravager-super-empower-fade = Наше світіння згасає, сила покидає нас!
 # Abduct
-rmc-xeno-abduct-cancel = We relax our tail.
-rmc-xeno-abduct-no-room = We don't have any room to do our abduction!
-rmc-xeno-abduct-none = Our tail fails to catch anything!
-rmc-xeno-abduct-one = Our tail catches and slows one target!
-rmc-xeno-abduct-two = Our tail catches and roots two targets!
-rmc-xeno-abduct-more = Our tail catches and stuns {$targets} targets!
+rmc-xeno-abduct-cancel = Ми розслабляємо хвіст.
+rmc-xeno-abduct-no-room = У нас немає місця для викрадення!
+rmc-xeno-abduct-none = Наш хвіст не зловив нічого!
+rmc-xeno-abduct-one = Наш хвіст ловить і сповільнює одну ціль!
+rmc-xeno-abduct-two = Наш хвіст ловить і паралізує дві цілі!
+rmc-xeno-abduct-more = Наш хвіст ловить і паралізує {$targets} цілей!
 
 # Tail Lash
-rmc-xeno-tail-lash-no-room = We don't have any room to do our tail lash!
+rmc-xeno-tail-lash-no-room = У нас немає місця для удару хвостом!
 
 # Headbite
-rmc-xeno-headbite-others = {$xeno} grabs {$target}'s head aggressively.
-rmc-xeno-headbite-self = We grab {$target}'s head aggressively.
-rmc-xeno-headbite-warning-larva = We should not harm this host! It has a sister inside.
-rmc-xeno-headbite-warning = We can only headbite an unconscious, adjacent target!
-rmc-xeno-headbite-hit-self = We pierce {$target}'s head with our inner jaw!
-rmc-xeno-headbite-hit-others = {$xeno} pierces {$target}'s head with its inner jaw!
+rmc-xeno-headbite-others = {$xeno} агресивно хапає за голову {$target}.
+rmc-xeno-headbite-self = Ми агресивно хапаємо за голову {$target}.
+rmc-xeno-headbite-warning-larva = Ми не можемо шкодити цьому інкубатору! Усередині є сестра.
+rmc-xeno-headbite-warning = Ми можемо кусати за голову лише непритомну ціль, що знаходиться поруч!
+rmc-xeno-headbite-hit-self = Ми пробиваємо голову {$target} внутрішніми щелепами!
+rmc-xeno-headbite-hit-others = {$xeno} пробиває голову {$target} внутрішніми щелепами!
 
 # Produce Eggs
-rmc-xeno-produce-eggs-no-plasma = We don't have enough plasma to support forming eggs.
-rmc-xeno-produce-eggs-new-egg = We generate an egg. Now holding: {$cur_eggs} / {$max_eggs}.
-rmc-xeno-produce-eggs-start = We start forming eggs.
+rmc-xeno-produce-eggs-no-plasma = У нас недостатньо плазми для формування яєць.
+rmc-xeno-produce-eggs-new-egg = Ми генеруємо яйце. Тепер зберігаємо: {$cur_eggs} / {$max_eggs}.
+rmc-xeno-produce-eggs-start = Ми починаємо формувати яйця.
 
 # Eggsac Passive
-rmc-xeno-sustain-egg-decaying = We can only sustain {$max} eggs off hive weeds! Our oldest egg is decaying rapidly.
-rmc-xeno-sustain-death = {CAPITALIZE(THE($xeno))} throes as its eggsac bursts into a mess of acid!
+rmc-xeno-sustain-egg-decaying = Ми можемо підтримувати лише {$max} яєць за допомогою рослин гнізда! Наше найстарше яйце швидко гине.
+rmc-xeno-sustain-death = {CAPITALIZE(THE($xeno))} б’ється в судомах, коли його яєчний мішок розривається в кислотну кашу!
 
 # Apprehend
-rmc-xeno-apprehend-activate = Our next slash will slow!
-rmc-xeno-apprehend-deactivate = We feel our speed wane!
-rmc-xeno-apprehend-expire = We have waited too long, our slash will no longer slow enemies!
+rmc-xeno-apprehend-activate = Наш наступний удар сповільнить ворога!
+rmc-xeno-apprehend-deactivate = Ми відчуваємо, як наша швидкість знижується!
+rmc-xeno-apprehend-expire = Ми занадто довго чекали, наш удар більше не сповільнюватиме ворогів!
 
 # Rage
-rmc-xeno-rage-lock = We feel a euphoric rush as we reach max rage! We are LOCKED at max Rage!
-rmc-xeno-rage-expire = Our adrenal glands spasm. We cannot gain any rage for {$cooldown} seconds.
-rmc-xeno-rage-examine = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} has {$amount}/{$max} rage stacks.
+rmc-xeno-rage-lock = Ми відчуваємо ейфоричний сплеск, досягнувши максимуму люті! Ми ЗАФІКСОВАНІ на максимумі люті!
+rmc-xeno-rage-expire = Наші наднирники спазмують. Ми не можемо накопичувати лють протягом {$cooldown} секунд.
+rmc-xeno-rage-examine = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} має {$amount}/{$max} зарядів люті.
 
 # Eviscerate
-rmc-xeno-eviscerate-fail = We can't do eviscerate with 0 rage stacks!
+rmc-xeno-eviscerate-fail = Ми не можемо виконати розпорювання без зарядів люті!
 
-rmc-xeno-eviscerate-windup-self = We begin digging in for a massive strike!
-rmc-xeno-eviscerate-windup = {$xeno} begins digging in for a massive strike!
+rmc-xeno-eviscerate-windup-self = Ми готуємось до потужного удару!
+rmc-xeno-eviscerate-windup = {$xeno} готується до потужного удару!
 
-rmc-xeno-eviscerate-windup-small-self = We begin digging in for a strike!
-rmc-xeno-eviscerate-windup-small = {$xeno} begins digging in for a strike!
+rmc-xeno-eviscerate-windup-small-self = Ми готуємось до удару!
+rmc-xeno-eviscerate-windup-small = {$xeno} готується до удару!
