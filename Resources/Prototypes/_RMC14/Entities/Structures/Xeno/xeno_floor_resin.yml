@@ -61,8 +61,8 @@
 - type: entity
   parent: XenoBaseFloorResin
   id: XenoStickyResin
-  name: sticky resin
-  description: A layer of disgusting sticky slime.
+  name: клейка смола
+  description: Шар огидного липкого слизу.
   components:
   - type: XenoConstructionPlasmaCost
     plasma: 55
@@ -74,8 +74,8 @@
 - type: entity
   parent: XenoStickyResin
   id: XenoStickyResinWeak
-  name: weak sticky resin
-  description: A thin and weak layer of disgusting sticky slime. It looks like it's already melting...
+  name: слабка клейка смола
+  description: Тонкий і крихкий шар огидного липкого слизу. Здається, він уже тане...
   components:
   - type: Sprite
     state: sticky_weak
@@ -88,8 +88,8 @@
 - type: entity
   parent: XenoBaseFloorResin
   id: XenoFastResin
-  name: fast resin
-  description: A layer of disgusting sleek slime.
+  name: слизька смола
+  description: Шар огидного слизького слизу.
   components:
   - type: Sprite
     state: fast

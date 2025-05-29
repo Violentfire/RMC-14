@@ -1,8 +1,8 @@
 - type: entity
   id: HiveClusterXeno
   parent: BaseHiveStructure
-  name: Hive Cluster
-  description: A large clump of gooey mass. It rhythmically pulses, as if its pumping something into the weeds below...
+  name: Кластер Вулика
+  description: Велика грудка слизької маси. Ритмічно пульсує, ніби щось перекачує в траву під нею...
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/hive_cluster.rsi
@@ -52,8 +52,8 @@
 - type: entity
   id: HiveClusterXenoConstructionNode
   parent: BaseHiveStructureNode
-  name: Hive Cluster
-  description: A large clump of gooey mass. Looks like a marker for something.
+  name: Кластер Вулика
+  description: Велика грудка слизької маси. Схоже на якийсь маркер.
   components:
   - type: Sprite
     color: '#FFFFFFAA'
