@@ -14,89 +14,89 @@
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin1
-  name: підлога шатлу 1
+  name: підлога шатла 1
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin1.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin2
-  name: підлога шатлу 2
+  name: підлога шатла 2
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin2.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin3
-  name: підлога шатлу 3
+  name: підлога шатла 3
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin3.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin4
-  name: підлога шатлу 4
+  name: підлога шатла 4
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin4.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin5
-  name: підлога шатлу 5
+  name: підлога шатла 5
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin5.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin6
-  name: підлога шатлу 6
+  name: підлога шатла 6
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin6.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin7
-  name: підлога шатлу 7
+  name: підлога шатла 7
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin7.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin8
-  name: підлога шатлу 8
+  name: підлога шатла 8
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin8.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin9
-  name: підлога шатлу 9
+  name: підлога шатла 9
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin9.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin10
-  name: підлога шатлу 10
+  name: підлога шатла 10
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin10.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin11
-  name: підлога шатлу 11
+  name: підлога шатла 11
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin11.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin12
-  name: підлога шатлу 12
+  name: підлога шатла 12
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin12.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin13
-  name: підлога шатлу 13
+  name: підлога шатла 13
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin13.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin14
-  name: підлога шатлу 14
+  name: підлога шатла 14
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin14.png
 
 - type: tile
   parent: CMShuttleTileBase
   id: CMShuttleTileRasputin15
-  name: підлога шатлу 15
+  name: підлога шатла 15
   sprite: /Textures/_RMC14/Tiles/shuttle/rasputin15.png
