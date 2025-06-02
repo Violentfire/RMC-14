@@ -37,7 +37,7 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoWatch
-  name: Watch Xenonid
+  name: Спостерігати за Ксеноїдами
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -60,8 +60,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoPheromones
-  name: Emit Pheromones
-  description: Gives a buff to nearby xenonids.
+  name: Виділити Феромони
+  description: Підсилює ксеноїдів поруч.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
   id: ActionXenoFortify
   parent: ActionXenoBase
   name: Укріпитися
-  description: Become immobile and impassable to mobs, dramatically increasing your resistance to direct damage and explosions. Damage is further reduced from the direction you are facing. You can't be stunned by minor explosions. You count as two sizes bigger while fortified and still can attack structures or use tail slam.
+  description: Стаєте нерухомою і непрохідним для інших, значно підвищуючи опір прямій шкоді та вибухам. шкода додатково зменшується з боку, куди ви дивитесь. Вас не можна оглушити від слабких вибухів. Ви вважаєтесь на два розміри більшим у зміцненому стані і все ще можете атакувати структури або використовувати удар хвостом.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -136,8 +136,8 @@
 - type: entity
   id: ActionXenoFortifySteelcrest
   parent: ActionXenoFortify
-  name: Fortify
-  description: Become much slower, increasing your resistance to direct damage and explosions. Damage is greatly reduced from the direction you are facing. You count as two sizes bigger while fortified and still can attack structures or use tail slam, but your slashes do less damage.
+  name: Зміцнення
+  description: Стаєте значно повільнішою, підвищуючи опір прямій шкоді та вибухам. Шкода сильно зменшується з боку, куди ви дивитеся. У зміцненому стані вважаєтесь на два розміри більшим і все ще можете атакувати структури або використовувати удар хвостом, але твої розсічення завдають меншої шкоди.
 
 - type: entity
   id: ActionXenoResinWalker
@@ -215,8 +215,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoGrowOvipositor
-  name: Grow Ovipositor
-  description: Become immobile and start laying eggs which will produce parasites.
+  name: Прикріпитися до Яйцеклада
+  description: Стаєте нерухомимою та починаєш відкладати яйця з яких з’являються паразити.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -268,8 +268,8 @@
 - type: entity
   id: ActionXenoRetrieveEgg
   parent: ActionXenoBase
-  name: Retrieve Egg
-  description: Retrieves an egg from your storage if you have an empty hand. Using this on an unplanted egg will pick up all nearby unplanted eggs. Using an egg in hand will put it into your storage.
+  name: Взяти Яйце
+  description: Виймає яйце з вашого сховища, якщо в вас вільна рука. Використання цієї дії на непосаджене яйце підніме всі непосаджені яйця поблизу. Якщо тримати яйце в руці й активувати цю дію, воно буде покладене до сховища.
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -293,8 +293,8 @@
 - type: entity
   id: ActionXenoThrowParasite
   parent: ActionXenoBase
-  name: Throw Parasite
-  description: Retrieves a parasite from your storage if you have an empty hand. Using this on a parasite on the ground will pickup all nearby parasites. Targeting a tile with a parasite in hand will throw it up to 4 tiles away, where the parasite will be stunned for 5 seconds. Using a parasite in hand will add it to your storage. [color=green]Parasites won't die due to time while you hold or carry them.[/color]
+  name: Кинути Паразита
+  description: Дістає паразита зі сховища, якщо у вас вільна рука. Якщо використати цю дію на паразиті на землі — ви піднімете всіх паразитів поблизу. Якщо націлити плитку, тримаючи паразита в руці, ви кинете його на відстань до 4 плиток, після чого паразит буде оглушений на 5 секунд. Повторне використання паразита в руці покладе його назад до вашого сховища. [color=green]Паразити не помирають з часом, поки ви їх тримаєте або несете.[/color]
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -319,8 +319,8 @@
 - type: entity
   id: ActionXenoParasiteReserve
   parent: ActionXenoBase
-  name: Set Parasite Reserve
-  description: Sets your parasite Reserves. Observers cannot join as a stored parasite if your parasites stored is less than or equal to your reserve.
+  name: Встановити Резерв Паразитів
+  description: Встановлює ваш резерв паразитів. Спостерігачі не зможуть приєднатись як збережений паразит, якщо кількість паразитів у вашому сховищі менша або дорівнює резерву.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -341,7 +341,7 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoManageHive
-  name: Manage The Hive
+  name: Керування Вуликом
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -354,8 +354,8 @@
 - type: entity
   id: ActionXenoDodge
   parent: ActionXenoBase
-  name: Dodge (200)
-  description: Gain a speed boost for 7 seconds and move through allies and enemies unimpeded. Your speed is doubled near standing enemies.
+  name: Ухилення (200)
+  description: Отримуєте прискорення на 7 секунд і можете вільно проходити крізь союзників та ворогів. Ваша швидкість подвоюється поблизу нерухомих ворогів.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -368,8 +368,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBurrow
-  name: Burrow
-  description: Burrow underground preventing you from getting hit from all sources. Once burrowed click a tile to move to it and resurface after a doafter that depends on distance.
+  name: Заритися
+  description: "Зариваєтесь під землю що запобігає будь-яким атакам по вам. Після заривання Ви можете клікнути по плитці щоб переміститися туди і з’явитися на поверхні через час, який залежить від відстані."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -395,8 +395,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSoak
-  name: Soak (20)
-  description: Soak in damage for 6 seconds. If you take 140 damage or higher, you regen 75 health and your tail slam gets refreshed.
+  name: Поглинання (20)
+  description: Протягом 6 секунд Ви поглинаєте шкоду. Якщо отримуєте 140 або більше шкоди відновлюєте 75 здоров’я а удар хвостом оновлюється.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -410,8 +410,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoEmpower
-  name: Empower (50)
-  description: On first activation it, gain a small amount of shield. After 6 seconds or using it again, get empowered based on surrounding enemies (max 6), gaining shield from each. If you empowered from at least 3 targets, you become Super-Empowered, gaing additional damage on melee attacks, and changing how some of your other abilities work.
+  name: Підсилення (50)
+  description: При першій активації ви отримуєте невеликий щит. Через 6 секунд або при повторному використанні ви отримуєте підсилення залежно від кількості ворогів навколо (максимум 6), отримуючи щит від кожного. Якщо ви підсилилися від щонайменше 3 цілей, стаєте суперпідсиленим - отримуєте додаткову шкоду в ближньому бою та змінюється дія деяких ваших інших здібностей.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -432,8 +432,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoGenerateEggs
-  name: Generate Eggs (50)
-  description: Generate an egg every 30 seconds, which goes into your storage. [color=cyan]Consumes 15 plasma every 2 seconds.[/color]
+  name: Створювати Яйця (50)
+  description: Генеруєте яйце кожні 30 секунд, яке потрапляє до вашого сховища. [color=cyan]споживає 15 плазми кожні 2 секунди.[/color]
   components:
   - type: InstantAction
     itemIconStyle: NoItem
