@@ -1,4 +1,4 @@
-﻿<controls:MarineCommunicationsComputerWindow
+<controls:MarineCommunicationsComputerWindow
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client._RMC14.Marines.Announce"
     xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
@@ -6,26 +6,26 @@
     MinSize="400 350">
     <BoxContainer Orientation="Vertical" Margin="5">
         <BoxContainer Orientation="Horizontal">
-            <Label Text="Planet: " />
+            <Label Text="Планета: " />
             <Label Name="PlanetName" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <Label Text="Operation: " />
+            <Label Text="Операція: " />
             <Label Name="OperationName" Access="Public" />
         </BoxContainer>
         <cc:HSeparator Color="#4972A1" Margin="0 5" />
-        <Button Name="MedalButton" Access="Public" Text="Give a medal" StyleClasses="OpenBoth" />
-        <Button Name="TacticalMapButton" Access="Public" Text="Tactical Map" StyleClasses="OpenBoth" />
-        <Button Name="OverwatchButton" Access="Public" Text="Overwatch" StyleClasses="OpenBoth" />
+        <Button Name="MedalButton" Access="Public" Text="Нагородити медалю" StyleClasses="OpenBoth" />
+        <Button Name="TacticalMapButton" Access="Public" Text="Тактична мапа" StyleClasses="OpenBoth" />
+        <Button Name="OverwatchButton" Access="Public" Text="Система нагляду" StyleClasses="OpenBoth" />
         <cc:HSeparator Color="#4972A1" Margin="0 5" />
-        <Button Name="EchoButton" Access="Public" Text="Designate Echo Squad" StyleClasses="OpenBoth" />
+        <Button Name="EchoButton" Access="Public" Text="Призначити Ехо Загін" StyleClasses="OpenBoth" />
         <cc:HSeparator Name="EchoSeparator" Access="Public" Color="#4972A1" Margin="0 5" />
         <BoxContainer Name="LandingZonesSection" Access="Public" Orientation="Vertical">
-            <Label Text="Designate Primary LZ" />
+            <Label Text="Призначити основну зону посадки" />
             <BoxContainer Name="LandingZonesContainer" Access="Public" Orientation="Vertical" />
             <cc:HSeparator Color="#4972A1" Margin="0 5" />
         </BoxContainer>
-        <TextEdit Name="Text" Access="Public" HorizontalExpand="True" VerticalExpand="True" />
-        <Button Name="Send" Access="Public" Text="Send" HorizontalExpand="True" />
+        <TextEdit Name="Текст" Access="Public" HorizontalExpand="True" VerticalExpand="True" />
+        <Button Name="Відправити" Access="Public" Text="Відправити" HorizontalExpand="True" />
     </BoxContainer>
 </controls:MarineCommunicationsComputerWindow>

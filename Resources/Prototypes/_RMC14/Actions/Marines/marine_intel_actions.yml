@@ -1,6 +1,6 @@
-﻿- type: entity
+- type: entity
   id: RMCActionViewIntelObjectives
-  name: View Intel Objectives
+  name: Переглянути Цілі Розвідки
   components:
   - type: InstantAction
     checkCanInteract: false
