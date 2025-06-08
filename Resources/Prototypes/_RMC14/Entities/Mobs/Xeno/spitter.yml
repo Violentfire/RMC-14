@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent:
   - CMXenoDeveloped
   - CMXenoTail
@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoSpitter
-  name: Spitter
-  description: A gross, oozing alien of some kind.
+  name: Плювака
+  description: Огидний чужопланетянин, що сочиться слизом
   components:
   - type: GuideHelp
     guides:

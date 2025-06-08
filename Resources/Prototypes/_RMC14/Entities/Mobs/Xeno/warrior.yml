@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoWarrior
-  name: Warrior
-  description: A beefy alien with an armored carapace.
+  name: Воїн
+  description: Кремезний чужопланетянин з броньованим панцирем.
   components:
   - type: GuideHelp
     guides:

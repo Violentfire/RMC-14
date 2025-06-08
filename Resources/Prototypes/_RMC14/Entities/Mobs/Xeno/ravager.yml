@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoRavagerBase
-  name: Ravager
-  description: A huge, nasty red alien with enormous scythed claws.
+  name: Спустошувач
+  description: Величезний, огидний червоний чужопланетянин з велетенськими серпоподібними кігтями.
   abstract: true
   components:
   - type: GuideHelp

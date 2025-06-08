@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoRunnerBase
-  name: Runner
-  description: A small red alien that looks like it could run fairly quickly...
+  name: Бігун
+  description: Малий червоний ксеноїд, схоже він здатен бігати доволі швидко... 
   components:
   - type: GhostRole
     name: cm-job-name-xeno-runner
