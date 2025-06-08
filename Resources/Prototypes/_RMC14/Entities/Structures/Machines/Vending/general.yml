@@ -27,8 +27,8 @@
         amount: 10
       - id: RMCCassetteTapeRedQwesta
         amount: 10
-      - id: RMCCassetteTapeBolgarich
-        amount: 10
+#      - id: RMCCassetteTapeBolgarich - русняве
+#        amount: 10
       - id: RMCCassetteTapeQwertyquerty
         amount: 10
       - id: RMCCassetteTapePigeonBeans
