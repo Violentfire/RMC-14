@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoPraetorianBase
-  name: Praetorian
-  description: A huge, looming beast of an alien.
+  name: Преторіанець
+  description: Масивний та лячний чужопланетний звір.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-praetorian

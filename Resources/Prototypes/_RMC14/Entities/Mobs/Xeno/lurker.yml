@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent:
   - CMXenoDeveloped
@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoLurkerBase
-  name: Lurker
-  description: A beefy, fast alien with sharp claws.
+  name: Мисливець
+  description: Міцний та моторошний ксеноїд з гострими кігтями.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lurker

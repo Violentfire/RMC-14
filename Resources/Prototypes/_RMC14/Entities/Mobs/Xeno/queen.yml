@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoMobCollision
   id: RMCXenoQueenBase
-  name: Queen
-  description: A huge, looming alien creature. The biggest and the baddest.
+  name: Королева
+  description: Велетенська чужопланетна істота. Найбільша і найжорстокіша.
   components:
   - type: GuideHelp
     guides:
