@@ -5,7 +5,7 @@
   id: CMStampBase
   abstract: true
   name: печатка
-  description: A rubber stamp for stamping important documents.
+  description: Гумовий штамп для затвердження важливих документів.
   components:
   - type: Item
     heldPrefix: stamp
@@ -21,7 +21,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampXO
-  name: executive officer's rubber stamp
+  name: печатка ВО
   components:
   - type: Sprite
     state: stamp-hop
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMW
-  name: Military Warden's rubber stamp
+  name: печатка ВН
   components:
   - type: Sprite
     state: stamp-mw
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampLiaison
-  name: corporate liaison rubber stamp
+  name: печатка Представника Компанії
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampProvost
-  name: provost rubber stamp
+  name: пачатка ВСП
   suffix: Admin, Provost
   components:
   - type: Sprite
@@ -200,7 +200,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampCLF
-  name: colony liberation front rubber stamp
+  name: печатка КВФ
   suffix: Admin, CLF
   components:
   - type: Sprite
@@ -213,7 +213,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampSPP
-  name: socialist progressive peoples rubber stamp
+  name: печатка Соціал-Прогресивного Народу
   suffix: Admin, SPP
   components:
   - type: Sprite
@@ -226,7 +226,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampTSE
-  name: three suns empire rubber stamp
+  name: печатка Імперії Трьох Сонць
   suffix: Admin, TSE
   components:
   - type: Sprite
@@ -239,7 +239,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampFreePress
-  name: free press rubber stamp
+  name: печатка Вільної Преси
   suffix: Admin, Press
   components:
   - type: Sprite
