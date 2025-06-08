@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBreaching
-  name: коробка з штурмовими набоями
+  name: коробка з пробивними набоями
   description: Містить 16-каліберні набої, призначені для вибивання дверей та руйнування перешкод.
   components:
   - type: Storage
