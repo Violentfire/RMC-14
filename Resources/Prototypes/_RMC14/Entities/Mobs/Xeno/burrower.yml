@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoBurrower
-  name: Burrower
-  description: A beefy alien with sharp claws.
+  name: Копач
+  description: Кремезний ксеноїд з гострими кігтями.
   components:
   - type: GuideHelp
     guides:

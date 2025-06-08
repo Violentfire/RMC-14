@@ -1,21 +1,21 @@
-﻿rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})
+rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})
 
 rmc-xeno-name = {$baseName} ({$prefix}{$postfix})
-rmc-xeno-young = Young {$baseName}
-rmc-xeno-mature = Mature {$baseName}
-rmc-xeno-elder = Elder {$baseName}
-rmc-xeno-ancient = Ancient {$baseName}
-rmc-xeno-prime = Prime {$baseName}
+rmc-xeno-young = Молодий {$baseName}
+rmc-xeno-mature = Зрілий {$baseName}
+rmc-xeno-elder = Штарший {$baseName}
+rmc-xeno-ancient = Давнній {$baseName}
+rmc-xeno-prime = Первісний {$baseName}
 
-rmc-xeno-mature-parasite = Fledgling {$baseName}
-rmc-xeno-elder-parasite = Veteran {$baseName}
-rmc-xeno-ancient-parasite = Baneful {$baseName}
-rmc-xeno-prime-parasite = Merciless {$baseName}
+rmc-xeno-mature-parasite = Юний {$baseName}
+rmc-xeno-elder-parasite = Ветеран {$baseName}
+rmc-xeno-ancient-parasite = Зловісний {$baseName}
+rmc-xeno-prime-parasite = Безжальний {$baseName}
 
 # Only 1 because getting king multiple times will be rare
-rmc-xeno-mature-king = Ruthless {$baseName}
+rmc-xeno-mature-king = Безжальний {$baseName}
 
 # Only 3 because it's a larva
-rmc-xeno-young-larva = Little {$baseName}
-rmc-xeno-mature-larva = Mature {$baseName}
-rmc-xeno-elder-larva = Big {$baseName}
+rmc-xeno-young-larva = Мала {$baseName}
+rmc-xeno-mature-larva = Зріла {$baseName}
+rmc-xeno-elder-larva = Велика {$baseName}

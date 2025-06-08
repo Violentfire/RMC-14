@@ -1,56 +1,56 @@
-﻿cm-job-name-xeno-boiler = Boiler
-CMJobXenoBoiler = Boiler
+cm-job-name-xeno-boiler = Бойлер
+CMJobXenoBoiler = Бойлер
 
-cm-job-name-xeno-burrower = Burrower
-CMJobXenoBurrower = Burrower
+cm-job-name-xeno-burrower = Копач
+CMJobXenoBurrower = Копач
 
-cm-job-name-xeno-carrier = Carrier
-CMJobXenoCarrier = Carrier
+cm-job-name-xeno-carrier = Носій
+CMJobXenoCarrier = Носій
 
-cm-job-name-xeno-crusher = Crusher
-CMJobXenoCrusher = Crusher
+cm-job-name-xeno-crusher = Руйнівник
+CMJobXenoCrusher = Руйнівник
 
-cm-job-name-xeno-defender = Defender
-CMJobXenoDefender = Defender
+cm-job-name-xeno-defender = Захисник
+CMJobXenoDefender = Захисник
 
-cm-job-name-xeno-drone = Drone
-CMJobXenoDrone = Drone
+cm-job-name-xeno-drone = Дрон
+CMJobXenoDrone = Дрон
 
-cm-job-name-xeno-hivelord = Hivelord
-CMJobXenoHivelord = Hivelord
+cm-job-name-xeno-hivelord = Володар вулика
+CMJobXenoHivelord = Володар  вулика
 
-cm-job-name-xeno-parasite = Parasite
-CMJobXenoParasite = Parasite
+cm-job-name-xeno-parasite = Паразит
+CMJobXenoParasite = Паразит
 
-cm-job-name-xeno-larva = Larva
-CMJobXenoLarva = Larva
+cm-job-name-xeno-larva = Лярва
+CMJobXenoLarva = Лярва
 
-cm-job-name-xeno-lesser-drone = Lesser Drone
-CMJobXenoLesserDrone = Lesser Drone
+cm-job-name-xeno-lesser-drone = Малий Дрон
+CMJobXenoLesserDrone = Малий Дрон
 
-cm-job-name-xeno-lurker = Lurker
-CMJobXenoLurker = Lurker
+cm-job-name-xeno-lurker = Мисливець
+CMJobXenoLurker = Мисливець
 
-cm-job-name-xeno-praetorian = Praetorian
-CMJobXenoPraetorian = Praetorian
+cm-job-name-xeno-praetorian = Преторіанець
+CMJobXenoPraetorian = Преторіанець
 
 cm-job-name-xeno-queen = Королева
 CMJobXenoQueen = Королева
 
-cm-job-name-xeno-ravager = Ravager
-CMJobXenoRavager = Ravager
+cm-job-name-xeno-ravager = Спустошувач
+CMJobXenoRavager = Спустошувач
 
-cm-job-name-xeno-runner = Runner
-CMJobXenoRunner = Runner
+cm-job-name-xeno-runner = Бігун
+CMJobXenoRunner = Бігун
 
-cm-job-name-xeno-sentinel = Sentinel
-CMJobXenoSentinel = Sentinel
+cm-job-name-xeno-sentinel = Вартовий
+CMJobXenoSentinel = Вартовий
 
-cm-job-name-xeno-spitter = Spitter
-CMJobXenoSpitter = Spitter
+cm-job-name-xeno-spitter = Плювака
+CMJobXenoSpitter = Плювака
 
-cm-job-name-xeno-warrior = Warrior
-CMJobXenoWarrior = Warrior
+cm-job-name-xeno-warrior = Воїн
+CMJobXenoWarrior = Воїн
 
 # TODO RMC14
 department-CMXeno = Ксеноїди
@@ -61,6 +61,6 @@ CMXenoSelectableXeno = Ксеноїд
 
 cm-job-supervisors-queen = Королева
 
-role-timer-xeno-roles = Xenonid
-role-timer-xeno-drones = drone and drone evolutions
-role-timer-xeno-tier-three = tier three castes
+role-timer-xeno-roles = Ксенос
+role-timer-xeno-drones = дрон і його еволюції
+role-timer-xeno-tier-three = касти третього рівня
