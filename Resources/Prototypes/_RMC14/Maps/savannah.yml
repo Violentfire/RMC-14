@@ -17,7 +17,7 @@
              #Командування
             CMCommandingOfficer: [1, 1]
             CMExecutiveOfficer: [1, 1]
-            CMStaffOfficer: [4, 4]
+            CMStaffOfficer: [2, 2]
             CMSeniorEnlistedAdvisor: [1, 1]
 
              #ВСП
@@ -50,11 +50,11 @@
 
              #Морпіхи
             CMSquadLeader: [4, 4]
-            CMFireteamLeader: [4, 8]
-            CMSmartGunOperator: [4, 4]
-            CMWeaponsSpecialist: [4, 4]
-            CMCombatTech: [8, 12]
-            CMHospitalCorpsman: [8, 16]
+            CMFireteamLeader: [8, 8]
+            CMSmartGunOperator: [2, 2]
+            CMWeaponsSpecialist: [2, 2]
+            CMCombatTech: [12, 12]
+            CMHospitalCorpsman: [8, 8]
             CMRifleman: [ -1, -1 ]
 
              #Цивільні
