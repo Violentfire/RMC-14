@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoDroneBase
-  name: Drone
-  description: An alien drone.
+  name: Дрон
+  description: Чужопланетний дрон.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-drone

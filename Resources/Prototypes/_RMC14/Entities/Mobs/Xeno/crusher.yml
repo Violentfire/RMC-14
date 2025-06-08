@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoCrusherBase
-  name: Crusher
-  description: A huge alien with an enormous armored crest.
+  name: Руйнівник
+  description: Гігантська чужопланетна істота з масивним броньованим гребенем.
   components:
   - type: GuideHelp
     guides:

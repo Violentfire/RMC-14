@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoHivelordBase
-  name: Hivelord
-  description: A builder of really big hives.
+  name: Володар Вулика
+  description: Будівник справді великих вуликів.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-hivelord
