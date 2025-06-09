@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: кутова рукоятка
-  description: "Кутова рукоятка покращує ергономіку зброї та пришвидшує час наведення на ціль.
+  name: кутовий хват
+  description: "Кутовий хват покращує ергономіку зброї та пришвидшує час наведення на ціль.
     Проте це також збільшує розмір зброї."
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
   name: сошка
-  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність і скорострільність, а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
+  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність, скорострільність а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
   components:
   - type: Sprite
     state: bipod
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentBurstFireAssembly # burstfire_assembly
-  name: burst fire assembly
-  description: A small angled piece of fine machinery that increases the burst count on some weapons.
+  name: модуль чергового вогню
+  description: Компактний елемент точної механіки, який дозволяє деяким зразкам зброї вести довші черги.
   components:
   - type: Sprite
     state: rapidfire
@@ -285,8 +285,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: CMAttachmentXMVESG1FlamerNozzle
-  name: XM-VESG-1 flamer nozzle
-  description: A special nozzle designed to alter flamethrowers to be used in a more offense orientated manner. As the inside of the nozzle is coated in a special gel and resin substance that takes the fuel that passes through and hardens it. Upon exiting the barrel, a cluster of burning gel is projected instead of a stream of burning naphtha.
+  name: насадка ГПП-ВЕСГ-1 для вогнемета
+  description: Спеціальна насадка, призначена для переобладнання вогнеметів для більш наступального застосування. Внутрішня частина насадки вкрита особливим гелем і смолою, які тверднуть під час проходження пального. Після виходу з дула замість струменя палаючої нафти викидається згусток палаючого гелю.
   components:
   - type: Sprite
     state: flamer_nozzle
@@ -294,8 +294,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU7UnderbarrelShotgun
-  name: U7 підствольний дробовик
-  description: "Тактичний дробовик AEGIS U7. Кріпиться до нижньої частини ствола більшості видів зброї. Заряджається лише п'ятьма набоями з картеччю. Спеціалізовано для проникнення в будівлі."
+  name: П7 підствольний дробовик
+  description: "Тактичний дробовик AEGIS П7. Кріпиться до нижньої частини ствола більшості видів зброї. Заряджається лише п'ятьма набоями з картеччю. Спеціалізовано для проникнення в будівлі."
   components:
   - type: Sprite
     state: masterkey
@@ -362,8 +362,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentUnderbarrelExtinguisher
-  name: HME-12 underbarrel extinguisher
-  description: "Підствольний вогнегасник Taiho-Technologies HME-12. Кріпиться до підствольника більшості видів зброї. Перед тим, як застосовувати, спрямувати на полум'я."
+  name: ПВГ-12 підствольний вогнегасник
+  description: "Підствольний вогнегасник Тайхо-Технолоджис ПВГ-12. Кріпиться до підствольника більшості видів зброї. Перед тим, як застосовувати, спрямувати на полум'я."
   components:
   - type: Sprite
     state: extinguisher
@@ -427,7 +427,7 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU1GrenadeLauncher
-  name: U1 підствольний гранатомет
+  name: П1 підствольний гранатомет
   description: Підствольний гранатомет з можливістю перезаряджання.
   components:
   - type: Sprite

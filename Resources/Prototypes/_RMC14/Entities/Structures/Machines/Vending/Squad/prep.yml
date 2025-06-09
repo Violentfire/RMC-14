@@ -195,23 +195,23 @@
 #      - id: M276 Pattern M82F Holster Rig
 #        amount: 5
       - id: CMBeltKnifeFilled
-        name: M276 Knife Rig (Full)
+        name: Пояс M276 для Ножів (Повний)
         amount: 15
       - id: RMCBeltUtilityGeneral
         amount: 15
     - name: Підсумки
       entries:
       - id: RMCPouchBayonet
-        name: Bayonet Sheath (Full)
+        name: Чохол Для Ножів (Повний)
         amount: 15
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: First-Aid Pouch (Splints, Gauze, Ointment)
+        name: Підсумок Першої Допомоги (Трикодазин, Марля, Мазь)
         amount: 15
       - id: RMCPouchFirstAidPills
-        name: First-Aid Pouch (Pill Packets)
+        name: Підсумок Першої Допомоги (Упаковки Пігулок)
         amount: 15
       - id: RMCPouchFlareFilled
-        name: Flare Pouch (Full)
+        name: Підсумок для Флаєрів (Повний)
         amount: 15
       - id: RMCPouchDocumentSmall
         amount: 15
@@ -232,7 +232,7 @@
       - id: RMCPouchExplosive
         amount: 1
       - id: RMCPouchFirstResponder
-        name: First Responder Pouch (Empty)
+        name: Допоміжний Медичний Підсумок (Пустий)
         amount: 2
       - id: RMCPouchMagazinePistolLarge
         amount: 2
@@ -263,16 +263,16 @@
       - id: RMCGlassesMarineRpgOld
         amount: 10
       - id: RMCHelmetGarbGasmask
-        name: M5 integrated gas mask
+        name: інтегрований протигаз
         amount: 10
       - id: RMCHelmetGarbNetting
-        name: M10 helmet netting
+        name: сітка
         amount: 10
       - id: RMCHelmetGarbRainCover
-        name: M10 helmet rain cover
+        name: дощовик
         amount: 10
       - id: RMCHelmetGarbGunOil
-        name: firearm lubricant
+        name: мастило для зброї
         amount: 15
 #      - id: Marine Flair
 #        amount: 15
@@ -284,10 +284,10 @@
         amount: 20
       - id: RMCM5CameraGear
         amount: 10
-    - name: Optics
+    - name: Оптика
       entries:
       - id: RMCVisorMedicalAdvanced
-        name: advanced medical optic (CORPSMAN ONLY)
+        name: просунутий медичний візор (ЛИШЕ ДЛЯ МЕДИКІВ)
         amount: 4
       - id: RMCVisorSquad
         amount: 15
@@ -425,7 +425,7 @@
       - id: CMRollerBedSpawnFolded
         amount: 1
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         amount: 5
       - id: RMCBinoculars
         amount: 1
