@@ -157,8 +157,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinWeak
-  name: weak resin wall
-  description: Weird slime solidified into a wall. It already looks on the verge of collapsing...
+  name: слабка смоляна стіна
+  description: Дивна стіна з затверділого слизу. Виглядає так, ніби ось-ось розвалиться...
   components:
   - type: Destructible
     thresholds:

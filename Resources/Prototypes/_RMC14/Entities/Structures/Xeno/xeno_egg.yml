@@ -2,7 +2,7 @@
   parent: BaseItem
   id: XenoEgg
   name: яйце
-  description: Виглядає як яйце... дуже дивне яйце
+  description: Виглядає як яйце... дуже дивне яйце.
   placement:
     mode: SnapgridCenter
     snap:
@@ -151,7 +151,7 @@
   parent: XenoEggDestroyed
   categories: [ HideSpawnMenu ]
   id: XenoEggDestroyedFragile
-  name: fragile egg
+  name: крихке яйце
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_egg_fragile.rsi
@@ -160,7 +160,7 @@
   parent: XenoEggDestroyed
   categories: [ HideSpawnMenu ]
   id: XenoEggDestroyedFragileSustained
-  name: fragile egg
+  name: крихке яйце
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_egg_fragile_eggsac.rsi
