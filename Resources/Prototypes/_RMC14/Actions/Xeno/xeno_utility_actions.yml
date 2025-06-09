@@ -23,8 +23,8 @@
 - type: entity
   id: ActionXenoHealerDroneTransferPlasma
   parent: ActionXenoBase
-  name: Transfer plasma (100) # TODO RMC14 proper plasma costs
-  description: Give plasma to a nearby xenonid.
+  name: Передача плазми (100) # TODO RMC14 proper plasma costs
+  description: Передати плазми обраному ксеносу.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -38,8 +38,8 @@
 - type: entity
   id: ActionXenoTransferPlasmaHivelord
   parent: ActionXenoBase
-  name: Transfer plasma (200) # TODO RMC14 proper plasma costs
-  description: Give plasma to a xenonid.
+  name: Передача плазми (200) # TODO RMC14 proper plasma costs
+  description: Передати плазму ксеносу.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -53,8 +53,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: Resin Surge (75)
-  description: Speeds up fruit growth by 5 seconds when used on fruit, creates temporary walls when used on weeds or use on existing walls to reinforce them with 6000 hp for 15 seconds. Targeting anything else creates a 3x3 patch of weak sticky resin after a small doafter.
+  name: Резиновий Викид (75)
+  description: "Прискорює дозрівання плодів на 5 секунд при застосуванні до фруктів. Створює тимчасові стіни при використанні на бур’янах або зміцнює існуючі стіни, надаючи їм 6000 одиниць здоров’я на 15 секунд. Якщо використати на будь-чому іншому — після короткої затримки утворюється ділянка 3×3 зі слабкої липкої смоли."
   components:
   - type: EntityWorldTargetAction
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: Retrieve (180 plasma, 100 fury)
-  description: Pulls a xenonid to you if they are still, with a 0.6 second doafter. You can't pull very big xenonids unless they are downed.
+  name: Виклик (180 плазми, 100 люті)
+  description: З затримкою в 0,6 секунди притягує ксеноніда до вас, якщо він стоїть на місці. Великі ксеноніди не притягуються, якщо вони не повалені.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -104,8 +104,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidHeal
-  name: Aid Xenonid Healing (100 plasma, 100+ health reserves)
-  description: Heals a nearby ally Xeno. Healing another Xeno will also heal you, and half your remaining health reserves will be consumed for extra healing. [color=red]This can't heal ignited xenonids![/color]
+  name: "Лікування Ксеноїда (100 плазми, 100+ запасу здоров'я)"
+  description: "Лікує обраного союзного ксеноїда. Зцілення іншого ксеноїда також зцілює й вас, а половина вашого залишкового запасу здоров’я буде витрачена для посиленого лікування. [color=red]Це не лікує охоплених вогнем ксенонідів![/color]"
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -128,8 +128,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAidRejuvenate
-  name: Aid Xenonid Rejuvenate (100 plasma, 100 health reserves)
-  description: Remove ailments and stuns from a far away ally Xeno.
+  name: "Підтримка Ксеноїда (100 плазми, 100 запасу здоров'я)"
+  description: Знімає негативний стан та оглушення з віддаленого ксеноїда.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -170,8 +170,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoLeader
-  name: Choose/Follow Xenonid Leaders
-  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
+  name: Обрати/Слідкувати за Лідерами
+  description: Обрати або відібрати лідерство у ксеноїдів, а також дозволяє спостерігати за ними. Підвищення ксеноїда до лідера змусить його випромінювати ваші феромони навколо себе.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoLeader
-  name: Choose Leaders
-  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
+  name: Обрати Лідера
+  description: Обрати або відібрати лідерство у ксеноїдів. Підвищення ксеноїда до лідера змусить його випромінювати ваші феромони навколо себе.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeal
-  name: Heal Xenonid (600) # TODO RMC14 proper plasma costs
-  description: Heals xenonids in a 4 tile range around where you click for 30% of their health over 20 seconds.
+  name: Лікування Ксеноїдів (600) # TODO RMC14 proper plasma costs
+  description: "Лікує ксеноїдів у радіусі 4 плиток від обраної точки, відновлюючи 30% їхнього здоров’я протягом 20 секунд."
   components:
   - type: WorldTargetAction
     itemIconStyle: NoItem
@@ -214,8 +214,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApplySalve
-  name: Apply Salve (200)
-  description: Apply a salve to use some of your health to heal allied Xenos up to 100 health over 5 seconds. You can stack multiple salves.
+  name: Нанести Слиз (200)
+  description: "Наносить смолу, використовуючи частину вашого здоров’я для лікування союзних ксеноїдів до 100 одиниць здоров’я за 5 секунд. Можна наносити одночасно смолу на кілька ксеноїдів."
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -231,8 +231,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSacrifice
-  name: Sacrifice
-  description: Sacrifice your life to heal a sister. [color=red]YOU WILL ONLY RESPAWN IF YOU MAXED OUT YOUR TRANSFERRED HEALTH BY HEALING SISTERS.[/color]
+  name: Жертва
+  description: Пожертвуйте своїм життям, щоб зцілити сестру. [color=red]ВИ ВІДРОДИТЕСЯ ЛИШЕ, ЯКЩО ПЕРЕД ЦИМ ПЕРЕДАЛИ МАКСИМАЛЬНУ КІЛЬКІСТЬ ЗДОРОВ’Я ПІД ЧАС ЛІКУВАННЯ СЕСТЕР.[/color]
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -246,8 +246,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailFountain
-  name: Tail Fountain
-  description: Extinguishes fire from a nearby ally or foe. Uses up your melee attack.
+  name: Хвостовий Потік
+  description: Гасить вогонь на ближньому союзнику або ворогові. Витрачає вашу атаку ближнього бою.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -269,8 +269,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTantrum
-  name: Tantrum (100 plasma, 75 fury)
-  description: Give an ally and yourself temporary armor for a few seconds, which lasts longer on you. Crushers and Ravagers get a speed boost instead.
+  name: Істерика (100 плазми, 75 люті)
+  description: Надає тимчасову броню союзнику та собі на кілька секунд, при цьому тривалість ефекту на вас більша. Для Руйнівників і Спустошувачів замість броні дає бонус до швидкості.
   components:
   - type: EntityTargetAction
     itemIconStyle: NoItem
@@ -293,8 +293,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFightOrFlight
-  name: Fight or Flight (300 plasma, 75 fury)
-  description: Remove ailments and stuns from all allies around you. The radius is longer if you have 75+ fury after paying the cost.
+  name: Бийся або Тікай (300 плазми, 75 люті)
+  description: Знімає негативний стан та оглушення з усіх союзників навколо вас. Радіус дії збільшується, якщо після активації у вас залишається 75 або більше люті.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -319,8 +319,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoQueenEye
-  name: Enter Eye Form
-  description: Look around any area with weeds remotely. You can use infinite range abilities while in this form, and build resin from afar.
+  name: Вхід у Форму Ока
+  description: Дозволяє дистанційно оглядати будь-яку ділянку з травою. У цій формі можна використовувати здібності з необмеженим радіусом дії та створювати смолу здалеку.
   components:
   - type: InstantAction
     itemIconStyle: NoItem
