@@ -53,8 +53,8 @@
             CMFireteamLeader: [8, 8]
             CMSmartGunOperator: [2, 2]
             CMWeaponsSpecialist: [2, 2]
-            CMCombatTech: [12, 12]
-            CMHospitalCorpsman: [8, 8]
+            CMCombatTech: [8, 8]
+            CMHospitalCorpsman: [12, 12]
             CMRifleman: [ -1, -1 ]
 
              #Цивільні
