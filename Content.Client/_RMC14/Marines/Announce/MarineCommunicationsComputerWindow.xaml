@@ -25,7 +25,7 @@
             <BoxContainer Name="LandingZonesContainer" Access="Public" Orientation="Vertical" />
             <cc:HSeparator Color="#4972A1" Margin="0 5" />
         </BoxContainer>
-        <TextEdit Name="Текст" Access="Public" HorizontalExpand="True" VerticalExpand="True" />
-        <Button Name="Відправити" Access="Public" Text="Відправити" HorizontalExpand="True" />
+        <TextEdit Name="Text" Access="Public" HorizontalExpand="True" VerticalExpand="True" />
+        <Button Name="Send" Access="Public" Text="Відправити" HorizontalExpand="True" />
     </BoxContainer>
 </controls:MarineCommunicationsComputerWindow>
