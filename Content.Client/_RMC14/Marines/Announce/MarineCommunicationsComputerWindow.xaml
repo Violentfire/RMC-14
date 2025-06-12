@@ -14,7 +14,7 @@
             <Label Name="OperationName" Access="Public" />
         </BoxContainer>
         <cc:HSeparator Color="#4972A1" Margin="0 5" />
-        <Button Name="MedalButton" Access="Public" Text="Нагородити медалю" StyleClasses="OpenBoth" />
+        <Button Name="MedalButton" Access="Public" Text="Нагородити медаллю" StyleClasses="OpenBoth" />
         <Button Name="TacticalMapButton" Access="Public" Text="Тактична мапа" StyleClasses="OpenBoth" />
         <Button Name="OverwatchButton" Access="Public" Text="Система нагляду" StyleClasses="OpenBoth" />
         <cc:HSeparator Color="#4972A1" Margin="0 5" />

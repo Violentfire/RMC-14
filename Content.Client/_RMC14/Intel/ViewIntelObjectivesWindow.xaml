@@ -27,11 +27,11 @@
             <Label Name="DocumentsLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal" Visible="False"> <!-- TODO RMC14 -->
-            <RichTextLabel Text="[color=#5B88B0]Завантажити данні:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Завантажені данні:[/color]" MinWidth="200" />
             <Label Name="UploadDataLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Витягти речі:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Витягнуті речі:[/color]" MinWidth="200" />
             <Label Name="RetrieveItemsLabel" Access="Public" />
         </BoxContainer>
         <!-- <BoxContainer Orientation="Horizontal"> -->
@@ -43,19 +43,19 @@
         <!--     <Label Name="AnalyzeChemicalsLabel" Access="Public" /> -->
         <!-- </BoxContainer> -->
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Врятовані Виживші:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Врятовані виживші:[/color]" MinWidth="200" />
             <Label Name="RescueSurvivorsLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Повернені Тіла:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Повернені тіла:[/color]" MinWidth="200" />
             <Label Name="RecoverCorpsesLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Комунікації Колонії:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Комунікації колонії:[/color]" MinWidth="200" />
             <Label Name="ColonyCommunicationsLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Енергія Колонії:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Енергія колонії:[/color]" MinWidth="200" />
             <Label Name="ColonyPowerLabel" Access="Public" />
         </BoxContainer>
         <RichTextLabel Text="[bold]Підказки[/bold]" Margin="0 15 0 0" />
