@@ -1,4 +1,4 @@
-﻿rmc-xeno-immature-prefix = Immature {$baseName}
-rmc-xeno-immature-matures-in-minutes = Matures in {$minutes} minutes {$seconds} seconds
-rmc-xeno-immature-matures-in-seconds = Matures in {$seconds} seconds
-rmc-xeno-immature-mature = You have matured and have access to new abilities.
+rmc-xeno-immature-prefix = Незріла {$baseName}
+rmc-xeno-immature-matures-in-minutes = Стане зрілою через {$minutes} хвилини та {$seconds} секунд
+rmc-xeno-immature-matures-in-seconds = Стане зрілою через {$seconds} секунд
+rmc-xeno-immature-mature = Ви дозріли і отримали нові здібності.

@@ -3,7 +3,7 @@ rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})
 rmc-xeno-name = {$baseName} ({$prefix}{$postfix})
 rmc-xeno-young = Молодий {$baseName}
 rmc-xeno-mature = Зрілий {$baseName}
-rmc-xeno-elder = Штарший {$baseName}
+rmc-xeno-elder = Старший {$baseName}
 rmc-xeno-ancient = Давнній {$baseName}
 rmc-xeno-prime = Первісний {$baseName}
 
