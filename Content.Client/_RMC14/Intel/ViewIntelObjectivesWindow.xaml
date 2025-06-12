@@ -43,11 +43,11 @@
         <!--     <Label Name="AnalyzeChemicalsLabel" Access="Public" /> -->
         <!-- </BoxContainer> -->
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Врятувати Виживших:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Врятовані Виживші:[/color]" MinWidth="200" />
             <Label Name="RescueSurvivorsLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Повернути Тіла:[/color]" MinWidth="200" />
+            <RichTextLabel Text="[color=#5B88B0]Повернені Тіла:[/color]" MinWidth="200" />
             <Label Name="RecoverCorpsesLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
