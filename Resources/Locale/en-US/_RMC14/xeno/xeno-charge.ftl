@@ -1,5 +1,5 @@
-﻿rmc-xeno-charge-plow-through = {$xeno} plows straight through {THE($target)}!
-rmc-xeno-charge-smashes = {$xeno} smashes into {THE($target)}!
-rmc-xeno-charge-knockback-self = You fling {$target} out of the way!
-rmc-xeno-charge-knockback-target = {$user} flings you out of its way!
-rmc-xeno-charge-knockback-others = {$user} flings {$target} over to the side!
+rmc-xeno-charge-plow-through = {$xeno} проламується крізь {THE($target)}!
+rmc-xeno-charge-smashes = {$xeno} вгризається в {THE($target)}!
+rmc-xeno-charge-knockback-self = Ви відкидаєте {$target} з дороги!
+rmc-xeno-charge-knockback-target = {$user} відкидає вас!
+rmc-xeno-charge-knockback-others = {$user} відкидає {$target} у бік!

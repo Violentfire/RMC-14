@@ -9,17 +9,17 @@ rmc-xeno-cant-throw = Ми не можемо кинути {THE($target)}!
 rmc-xeno-parasite-dead = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} не рухається.
 rmc-xeno-parasite-announce-infect = Ви відчуваєте, що {$xeno} інфікував жертву!
 
-rmc-xeno-parasite-player-pickup = {CAPITALIZE($parasite)} can handle {REFLEXIVE($parasite)}!
-rmc-xeno-parasite-nonplayer-pull = Pulling {$parasite} might hurt {OBJECT($parasite)}!
+rmc-xeno-parasite-player-pickup = {CAPITALIZE($parasite)} може впоратися з {REFLEXIVE($parasite)}!
+rmc-xeno-parasite-nonplayer-pull = Спроба витягти {$parasite} може зашкодити {OBJECT($parasite)}!
 
-rmc-xeno-parasite-ai-active = {CAPITALIZE(SUBJECT($parasite))} seems to be active.
-rmc-xeno-parasite-ai-idle = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} resting.
-rmc-xeno-parasite-ai-dying = [color=red]{CAPITALIZE(SUBJECT($parasite))} needs to return to safety![/color]
+rmc-xeno-parasite-ai-active = {CAPITALIZE(SUBJECT($parasite))} виглядає активно.
+rmc-xeno-parasite-ai-idle = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} відпочиває.
+rmc-xeno-parasite-ai-dying = [color=red]{CAPITALIZE(SUBJECT($parasite))} має повернутися в безпечне місце![/color]
 
-rmc-xeno-parasite-ai-eaten = {CAPITALIZE($parasite)} is furiously cannibalized by the other nearby parasites!
+rmc-xeno-parasite-ai-eaten = {CAPITALIZE($parasite)} лютує коли інші паразити починають її захоплювати!
 
-rmc-xeno-parasite-ghost-carrier-none = {THE($xeno)} has no sheltered parasites!
-rmc-xeno-parasite-ghost-carrier-reserved = {THE($xeno)} has reserved the remaining parasites for {REFLEXIVE($xeno)}.
-rmc-xeno-parasite-ghost-carrier-dead = {THE($xeno)} is dead and all {POSS-ADJ($xeno)} parasites died with {OBJECT($xeno)}.
+rmc-xeno-parasite-ghost-carrier-none = У {THE($xeno)} немає жодного паразита!
+rmc-xeno-parasite-ghost-carrier-reserved = {THE($xeno)} зберегла решту паразитів для {REFLEXIVE($xeno)}.
+rmc-xeno-parasite-ghost-carrier-dead = {THE($xeno)} мертва і всі {POSS-ADJ($xeno)} паразити загинули разом з {OBJECT($xeno)}.
 
-rmc-xeno-parasite-carrier-death = The chittering mass of tiny aliens try to escape {THE($xeno)}!
+rmc-xeno-parasite-carrier-death = Рояча купа дрібних ксеносів намагаються втекти з {THE($xeno)}!
