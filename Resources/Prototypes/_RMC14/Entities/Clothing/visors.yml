@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVisorMedical
-  name: basic medical optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display that shows data about nearby humanoids health status.
+  name: базовий медичний візор
+  description: "Прилад-забрало, сумісний з усіма стандартними шоломами КМПОН. Цей тип забезпечує відображення даних про стан здоров'я найближчих гуманоїдів безпосередньо на забралі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCVisorMedical
   id: RMCVisorMedicalAdvanced
-  name: advanced medical optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display that shows data about nearby humanoids health status and research notes.
+  name: просунутий медичний візор
+  description: "Прилад-забрало, сумісний з усіма стандартними шоломами КМПОН. Цей тип забезпечує відображення даних про стан здоров'я найближчих гуманоїдів та наукових записок безпосередньо на забралі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVisorWelding
-  name: welding visor
-  description: An insertable visor HUD into a standard UNMC helmet. This type protects the eyes from welders.
+  name: зварювальний візор
+  description: Прилад-забрало, сумісний з усіма стандартними шоломами КМПОН. Цей тип захищає очі від зварювальних іскор.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVisorSquad
-  name: squad optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display of marine squads.
+  name: візор загону
+  description: Прилад-забрало, сумісний з усіма стандартними шоломами КМПОН. Цей тип забезпечує відображення інформації про загони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
