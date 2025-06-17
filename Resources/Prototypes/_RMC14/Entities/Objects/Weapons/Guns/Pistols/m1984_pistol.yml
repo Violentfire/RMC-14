@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: M1984 службовий пістолет
-  description: Службовий пістолет M1984, який колись був стандартною зброєю маринів, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними набоями.
+  name: M1984 СЃР»СѓР¶Р±РѕРІРёР№ РїС–СЃС‚РѕР»РµС‚
+  description: РЎР»СѓР¶Р±РѕРІРёР№ РїС–СЃС‚РѕР»РµС‚ M1984, СЏРєРёР№ РєРѕР»РёСЃСЊ Р±СѓРІ СЃС‚Р°РЅРґР°СЂС‚РЅРѕСЋ Р·Р±СЂРѕС”СЋ РјРѕСЂСЃСЊРєРёС… РїС–С…РѕС‚РёРЅС†С–РІ, Р°Р»Рµ РЅРµС‰РѕРґР°РІРЅРѕ Р±СѓРІ Р·Р°РјС–РЅРµРЅРёР№ РЅР° Р±РѕР№РѕРІРёР№ РїС–СЃС‚РѕР»РµС‚ M77. РЎС‚СЂС–Р»СЏС” 9-РјРј РїС–СЃС‚РѕР»РµС‚РЅРёРјРё РїР°С‚СЂРѕРЅР°РјРё.
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Магазин
+        name: РњР°РіР°Р·РёРЅ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_mk80_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
@@ -64,12 +64,12 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: CMWeaponPistolM1984Empty
-  suffix: Empty
+  suffix: РџСѓСЃС‚РёР№
   components:
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: магазин
+        name: РњР°РіР°Р·РёРЅ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_mk80_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 магазин (9mm)
+  name: M1984 РјР°РіР°Р·РёРЅ (9РјРј)
   components:
   - type: Tag
     tags:
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: куля (9mm)
+  name: РєСѓР»СЏ (9 РјРј)
   components:
   - type: Projectile
     damage:
@@ -120,7 +120,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: гільза (9mm)
+  name: РЅР°Р±С–Р№ (9 РјРј)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 ББ магазин (9mm)
-  description: Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу зупиняючу здатність по сильно броньованих цілях і значно меншу - по неброньованих або легкоброньованих цілях.
+  name: M1984 Р‘Р‘ РјР°РіР°Р·РёРЅ (9РјРј)
+  description: РџС–СЃС‚РѕР»РµС‚РЅРёР№ РјР°РіР°Р·РёРЅ. Р¦РµР№ РјР°РіР°Р·РёРЅ РјС–СЃС‚РёС‚СЊ Р±СЂРѕРЅРµР±С–Р№РЅС– РєСѓР»С–, СЏРєС– РјР°СЋС‚СЊ Р·РЅР°С‡РЅРѕ Р±С–Р»СЊС€Сѓ СѓСЂР°Р¶Р°СЋС‡Сѓ Р·РґР°С‚РЅС–СЃС‚СЊ РїРѕ Р±СЂРѕРЅСЊРѕРІР°РЅРёРј С†С–Р»СЏРј С– Р·РЅР°С‡РЅРѕ РјРµРЅС€Сѓ - РїРѕ РЅРµР±СЂРѕРЅСЊРѕРІР°РЅРёРј Р°Р±Рѕ Р»РµРіРєРѕР±СЂРѕРЅСЊРѕРІР°РЅРёРј С†С–Р»СЏРј.
   components:
   - type: Tag
     tags:
