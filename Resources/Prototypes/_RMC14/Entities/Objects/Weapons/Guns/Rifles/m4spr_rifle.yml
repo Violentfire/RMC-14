@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
