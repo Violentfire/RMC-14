@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: M1984 службовий пістолет
-  description: Службовий пістолет M1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними патронами.
+  name: М1984 службовий пістолет
+  description: An M1984 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the M77 combat pistol. Fires 9mm pistol rounds.
   components:
   - type: Tag
     tags:
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 магазин (9мм)
+  name: М1984 магазин (9мм)
   components:
   - type: Tag
     tags:
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: куля (9 мм)
+  name: куля (9мм)
   components:
   - type: Projectile
     damage:
@@ -120,7 +120,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: набій (9 мм)
+  name: набій (9мм)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 ББ магазин (9мм)
-  description: Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу уражаючу здатність по броньованим цілям і значно меншу - по неброньованим або легкоброньованим цілям.
+  name: М1984 ББ магазин (9мм)
+  description: Пістолетний магазин. Цей містить бронебійні набої, які мають значно більшу зупиняючу силу на броньованих цілях, і значно меншу на неброньованих, або легкоброньованих цілях.
   components:
   - type: Tag
     tags:
