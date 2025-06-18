@@ -1,7 +1,7 @@
 
 gun-selected-mode-examine = Поточний обраний режим вогню: [color={$color}]{$mode}[/color].
 gun-fire-rate-examine = Швидкість стрільби становить [color={$color}]{$fireRate}[/color] за секунду.
-gun-selector-verb = Змінено на {$mode}
+gun-selector-verb = Змінити на {$mode}
 gun-selected-mode = Обрано {$mode}
 gun-disabled = Ви не можете використовувати зброю!
 gun-clumsy = Пістолет вибухає перед твоїм обличчям!
@@ -46,7 +46,7 @@ gun-chamber-bolt-open-state = закритий
 gun-chamber-rack = Звести
 
 # MagazineAmmoProvider
-gun-magazine-examine = Залишилося [color={$color}]{$count}[/color] пострілів.
+gun-magazine-examine = Набоїв залишилось на [color={$color}]{$count}[/color] пострілів.
 
 # RevolverAmmoProvider
 gun-revolver-empty = Револьвер порожній
