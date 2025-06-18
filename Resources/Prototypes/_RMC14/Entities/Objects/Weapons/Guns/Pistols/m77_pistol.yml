@@ -1,4 +1,4 @@
-- type: entity
+﻿- type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM77
   name: бойовий пістолет M77 # TODO RMC14 sounds
