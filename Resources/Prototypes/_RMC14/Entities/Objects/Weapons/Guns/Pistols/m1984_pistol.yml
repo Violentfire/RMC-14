@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: CMWeaponPistolM1984
-  name: M1984 service pistol абабабаб
-  description: An M1984 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the M77 combat pistol. Fires 9mm pistol rounds.
+  name: M1984 службовий пістолет
+  description: Службовий Пістолет M1984, колись стандартна запасна зброя Морпіхів, проте від недавна замінюється на бойовий пістолет М77. Використовує набої 9 мм.
   components:
   - type: Tag
     tags:
@@ -82,7 +82,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 magazine (9mm)
+  name: M1984 магазин (9 мм)
   components:
   - type: Tag
     tags:
@@ -109,7 +109,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: bullet (9mm)
+  name: куля (9 мм)
   components:
   - type: Projectile
     damage:
@@ -120,7 +120,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: cartridge (9mm)
+  name: набій (9 мм)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 AP magazine (9mm)
-  description: A pistol magazine. This one contains armor-piercing bullets, which have noticeably higher stopping power on well-armored targets, and noticeably less on unarmored or lightly-armored targets.
+  name: M1984 ББ магазин (9 мм)
+  description: Пістолетний магазин. Цей має бронебійні кулі, які мають набагато більшу зупиняючу силу на більш броньований цілях, і меншу на неброньованих чи легкоброньованих цілях.
   components:
   - type: Tag
     tags:
