@@ -43,7 +43,7 @@
 - type: entity
   parent: CMShellShotgunBase
   id: RMCShellShotgunBreaching
-  name: жменька штурмових набоїв
+  name: жменька пробивних набоїв
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi
@@ -73,7 +73,7 @@
 
 - type: stack
   id: RMCShellShotgunBreaching
-  name: жменька штурмових набоїв
+  name: жменька пробивних набоїв
   icon: { sprite: /Textures/_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi, state: breaching_shell_1 }
   spawn: RMCShellShotgunBreaching
   maxCount: 6
