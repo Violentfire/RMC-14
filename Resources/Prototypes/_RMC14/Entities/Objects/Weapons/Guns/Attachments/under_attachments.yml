@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: кутова рукоятка
-  description: "Кутова рукоятка покращує ергономіку зброї та пришвидшує час наведення на ціль.
+  name: кутовий хват
+  description: "Кутовий хват покращує ергономіку зброї та пришвидшує час наведення на ціль.
     Проте це також збільшує розмір зброї."
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
   name: сошка
-  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність і скорострільність, а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
+  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність, скорострільність а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
   components:
   - type: Sprite
     state: bipod
@@ -590,8 +590,7 @@
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
   name: вертикальна рукоятка
-  description: "Вертикальна рукоятка забезпечує кращу точність, меншу віддачу та менше розсіювання, особливо під час стрільби чергами.
-    However, it also increases weapon size."
+  description: "Вертикальна рукоятка забезпечує кращу точність, зменшену віддачу та менше розсіювання, особливо під час стрільби чергами. Однак збільшує розміри зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -621,7 +620,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
   name: підствольне кріплення для ліхтаря
-  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Зменшує віддачу і розсіювання на крихітну величину. Працює як джерело світла. 
+  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Трохи знижує віддачу та розсіювання. Працює як джерело світла. 
   components:
   - type: ToggleableLightVisuals
     spriteLayer: light
