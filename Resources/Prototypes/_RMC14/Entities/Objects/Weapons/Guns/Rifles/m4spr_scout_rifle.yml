@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponRifleM4SPR
-  name: M4SPR спеціальна бойова гвинтівка 
+  name: M4SPR СЃРїРµС†С–Р°Р»СЊРЅР° Р±РѕР№РѕРІР° РіРІРёРЅС‚С–РІРєР°
   id: WeaponRifleM4SPRCustom
-  description: Удосконалення в порівнянні з і без того чудовим M4SPR. Здатний приймати набої A19, а також має кращий контроль і точність, але складніший у використанні. Може використовувати традиційні магазини M4SPR з нижчим рівнем пошкоджень цілей.
+  description: РЈРґРѕСЃРєРѕРЅР°Р»РµРЅР° РІРµСЂСЃС–СЏ Р№ Р±РµР· С‚РѕРіРѕ РµС„РµРєС‚РёРІРЅРѕС— M4SPR. РџС–РґС‚СЂРёРјСѓС”С‚СЊСЃСЏ РЅР°Р±РѕС— С‚РёРїСѓ Рђ19, РјР°С” РєСЂР°С‰РёР№ РєРѕРЅС‚СЂРѕР»СЊ С– С‚РѕС‡РЅС–СЃС‚СЊ, Р°Р»Рµ С” СЃРєР»Р°РґРЅС–С€РѕСЋ Сѓ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅС–. РЎСѓРјС–СЃРЅР° Р· С‚СЂР°РґРёС†С–Р№РЅРёРјРё РјР°РіР°Р·РёРЅР°РјРё M4SPR, РїСЂРѕС‚Рµ РІРѕРЅРё Р·Р°Р±РµР·РїРµС‡СѓСЋС‚СЊ РЅРёР¶С‡РёР№ СЂС–РІРµРЅСЊ СѓСЂР°Р¶РµРЅСЊ С†С–Р»РµР№.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
@@ -92,7 +92,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Магазин
+        name: РњР°РіР°Р·РёРЅ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
@@ -123,8 +123,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRA19
-  name: "A19 ВШ магазин (10x24mm)"
-  description: "Магазин з високошвидкісними патронами A19 для спеціальної бойової гвинтівки M4SPR."
+  name: "A19 Р’РЁ РјР°РіР°Р·РёРЅ (10x24 РјРј)"
+  description: "РњР°РіР°Р·РёРЅ Р· РІРёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёРјРё РЅР°Р±РѕСЏРјРё A19 РґР»СЏ СЃРїРµС†С–Р°Р»СЊРЅРѕС— Р±РѕР№РѕРІРѕС— РіРІРёРЅС‚С–РІРєРё M4SPR."
   components:
   - type: Tag
     tags:
@@ -148,8 +148,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Impact
-  name: "A19 Високовражаючий магазин ВШ (10x24mm)"
-  description: "Магазин із підвищеною вражаючою дією ВШ A19, для спеціальної бойової гвинтівки M4SPR. Спеціальна бойова гвинтівка M4SPR - єдина зброя, яка може заряджатися цими набоями."
+  name: "A19 РјР°РіР°Р·РёРЅ РїС–РґРІРёС‰РµРЅРѕС— СѓСЂР°Р¶Р°СЋС‡РѕС— РґС–С— Р’РЁ (10x24 РјРј)"
+  description: "РњР°РіР°Р·РёРЅ A19 Р’РЁ Р· РїС–РґРІРёС‰РµРЅРѕСЋ СѓСЂР°Р¶Р°СЋС‡РѕСЋ РґС–С”СЋ, РґР»СЏ СЃРїРµС†С–Р°Р»СЊРЅРѕС— Р±РѕР№РѕРІРѕС— РіРІРёРЅС‚С–РІРєРё M4SPR. РЎРїРµС†С–Р°Р»СЊРЅР° Р±РѕР№РѕРІР° РіРІРёРЅС‚С–РІРєР° M4SPR - С”РґРёРЅР° Р·Р±СЂРѕСЏ, Р·РґР°С‚РЅР° Р·Р°СЂСЏРґР¶Р°С‚РёСЃСЏ С†РёРјРё РЅР°Р±РѕСЏРјРё."
   components:
   - type: Tag
     tags:
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCMagazineRifleM4SPRA19
   id: RMCMagazineRifleM4SPRA19Incendiary
-  name: "A19 Запальний магазин ВШ (10x24mm)"
-  description: "Магазин запалювальних високошвидкосних набоїв A19, для спеціальної бойової гвинтівки M4SPR."
+  name: "A19 Р·Р°РїР°Р»СЊРЅРёР№ РјР°РіР°Р·РёРЅ Р’РЁ (10С…24 РјРј)"
+  description: "РњР°РіР°Р·РёРЅ Рђ19 С–Р· Р·Р°РїР°Р»СЊРЅРёРјРё РІРёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёРјРё РЅР°Р±РѕСЏРјРё, РґР»СЏ СЃРїРµС†С–Р°Р»СЊРЅРѕС— Р±РѕР№РѕРІРѕС— РіРІРёРЅС‚С–РІРєРё M4SPR."
   components:
   - type: Tag
     tags:
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: гільза (A19 високошвидкісний)
-  description: Високошвидкісний набій А19. Підходить для спеціальних магазинів M4SPR.
+  name: РЅР°Р±С–Р№ A19 (РІРёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёР№)
+  description: Р’РёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёР№ РЅР°Р±С–Р№ Рђ19. Р’РёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ РІ СЃРїРµС†С–Р°Р»СЊРЅРёС… РјР°РіР°Р·РёРЅР°С… РґР»СЏ M4SPR.
   components:
   - type: Tag
     tags:
@@ -211,8 +211,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: Гільза (A19 ВШ ударний)
-  description: Високошвидкісний ударний набій А19. Підходить для спеціальних магазинів M4SPR.
+  name: РЅР°Р±С–Р№ A19 (Р’РЁ СѓСЂР°Р¶Р°СЋС‡РёР№)
+  description: Р’РёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёР№ РЅР°Р±С–Р№ Рђ19 Р· РїС–РґРІРёС‰РµРЅРѕСЋ СѓСЂР°Р¶Р°СЋС‡РѕСЋ РґС–С”СЋ. Р’РёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ РІ СЃРїРµС†С–Р°Р»СЊРЅРёС… РјР°РіР°Р·РёРЅР°С… РґР»СЏ M4SPR.
   components:
   - type: Tag
     tags:
@@ -224,8 +224,8 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Incendiary
-  name: гільза (A19 ВШ запалювальний)
-  description: Високошвидкісний запалювальний набій A19. Підходить для спеціальних магазинів M4SPR.
+  name: РЅР°Р±С–Р№ (A19 Р’РЁ Р·Р°РїР°Р»СЋРІР°Р»СЊРЅРёР№)
+  description: Р’РёСЃРѕРєРѕС€РІРёРґРєС–СЃРЅРёР№ РЅР°Р±С–Р№ A19 С–Р· Р·Р°РїР°Р»СЊРЅРѕСЋ РґС–С”СЋ. Р’РёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ РІ СЃРїРµС†С–Р°Р»СЊРЅРёС… РјР°РіР°Р·РёРЅР°С… РґР»СЏ M4SPR.
   components:
   - type: Tag
     tags:
@@ -253,11 +253,6 @@
     - range: 4
       falloff: 10
       buildup: true
-  - type: RMCProjectileDamageFalloff
-    thresholds:
-    - range: 24
-      falloff: 9999
-      ignoreModifiers: true
 
 - type: entity
   parent: RMCBaseBullet
@@ -283,12 +278,6 @@
       falloff: 10
     - range: 4
       falloff: 10
-      buildup: true
-  - type: RMCProjectileDamageFalloff
-    thresholds:
-    - range: 24
-      falloff: 9999
-      ignoreModifiers: true
 
 - type: entity
   parent: RMCBaseBullet
@@ -303,18 +292,7 @@
     amount: 25
   - type: RMCProjectileAccuracy
     accuracy: 105
-    thresholds:
-    - range: 16
-      falloff: 10
-    - range: 4
-      falloff: 10
-      buildup: true
   - type: IgniteOnProjectileHit
-  - type: RMCProjectileDamageFalloff
-    thresholds:
-    - range: 24
-      falloff: 9999
-      ignoreModifiers: true
 
 - type: Tag
   id: RMCMagazineRifleM4SPRA19

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM77
-  name: M77 бойовий пістолет # TODO RMC14 sounds
-  description: Стандартна вогнепальна зброя маринів. Також зустрічається на озброєнні підрозділів ВЕ-Я. Стріляє 9-мм бронебійними кулями і здатний вести постріл чергою з 3 набоїв.
+  name: Р±РѕР№РѕРІРёР№ РїС–СЃС‚РѕР»РµС‚ M77 # TODO RMC14 sounds
+  description: РЎС‚Р°РЅРґР°СЂС‚РЅР° РІРѕРіРЅРµРїР°Р»СЊРЅР° Р·Р±СЂРѕСЏ РјРѕСЂСЃСЊРєРѕС— РїС–С…РѕС‚Рё. РўР°РєРѕР¶ Р·СѓСЃС‚СЂС–С‡Р°С”С‚СЊСЃСЏ РЅР° РѕР·Р±СЂРѕС”РЅРЅС– РєРѕРјР°РЅРґ РџР’Рљ В«Р’Рµ-РЇВ». РЎС‚СЂС–Р»СЏС” 9-РјРј Р±СЂРѕРЅРµР±С–Р№РЅРёРјРё РєСѓР»СЏРјРё С– Р·РґР°С‚РЅР° РІРёРєРѕРЅСѓРІР°С‚Рё РїРѕСЃС‚СЂС–Р»Рё С‡РµСЂРіРѕСЋ Р· 3 РЅР°Р±РѕС—РІ.
   components:
   - type: Tag
     tags:
@@ -41,7 +41,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Магазин
+        name: РњР°РіР°Р·РёРЅ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCWeaponPistolM77
   id: RMCWeaponPistolM77Empty
-  suffix: Empty
+  suffix: РџСѓСЃС‚РёР№
   components:
   - type: ItemSlots
     slots:
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: M77 ББ магазин (9мм)
+  name: M77 Р‘Р‘ РјР°РіР°Р·РёРЅ (9РјРј)
   components:
   - type: Tag
     tags:
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: куля (9мм ББ)
+  name: РєСѓР»СЏ (9РјРј Р‘Р‘)
   components:
   - type: Projectile
     damage:
@@ -137,7 +137,7 @@
 
 - type: entity
   id: CMCartridgePistolM77AP
-  name: гульза (9мм ББ)
+  name: РЅР°Р±С–Р№ (9 РјРј Р‘Р‘)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
