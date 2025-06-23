@@ -41,3 +41,9 @@
     # - /Audio/_RMC14/Voice/Human/female_preburst5.ogg
     # - /Audio/_RMC14/Voice/Human/female_preburst6.ogg
     # - /Audio/_RMC14/Voice/Human/female_preburst7.ogg
+
+- type: soundCollection # Додавання білду Січі
+  id: AvaliScreams
+  files:
+    - /Audio/_RMC14/Voice/Avali/avali_scream.ogg
+    - /Audio/_RMC14/Voice/Avali/avali_scream2.ogg
