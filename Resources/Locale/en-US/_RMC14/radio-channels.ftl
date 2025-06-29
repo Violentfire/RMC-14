@@ -25,9 +25,9 @@ chat-radio-provost = Провост
 
 chat-radio-spp-command = Командування СПН
 chat-radio-spp = СПН
-chat-radio-spp-engi = Інж СПП
-chat-radio-spp-med = Мед СПП
-chat-radio-spp-cct = БТ СПП
+chat-radio-spp-engi = Інж СПН
+chat-radio-spp-med = Мед СПН
+chat-radio-spp-cct = БТ СПН
 
 chat-radio-royal-marine = Королівська Морпіхота
 chat-radio-tse = ІТС
