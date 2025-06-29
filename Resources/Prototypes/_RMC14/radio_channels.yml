@@ -2,7 +2,7 @@
 - type: radioChannel #UNMC High Command, for events and such, basically CentComm channel
   id: MarineHighCommand
   name: chat-radio-marine-highcommand
-  keycode: "ц" #z in cm13. Типу Центком
+  keycode: "ц" #z in CM13/RMC. "Вище Командування Морпіхоти". Типу Центком
   frequency: 1471
   color: "#318779"
   longRange: true
@@ -11,7 +11,7 @@
 - type: radioChannel
   id: MarineCommon
   name: chat-radio-marine-common
-  keycode: "з" #; and g in cm13. "Загальний"
+  keycode: "з" #; and g in CM13/RMC. "Загальний"
   frequency: 1480
   color: "#B4B4B4"
   colorblindColor: "#6FD08C"
@@ -22,7 +22,7 @@
 - type: radioChannel
   id: MarineCommand
   name: chat-radio-marine-command
-  keycode: "к" #v in cm13. "Командування"
+  keycode: "к" #v in CM13/RMC. "Командування"
   frequency: 1481
   color: "#5b96d4"
   longRange: true
@@ -31,7 +31,7 @@
 - type: radioChannel
   id: MarineMedical
   name: chat-radio-marine-medical
-  keycode: "м" #m in cm13. "Медичний"
+  keycode: "м" #m in CM13/RMC. "Медичний"
   frequency: 1482
   color: "#009771"
   longRange: true
@@ -40,7 +40,7 @@
 - type: radioChannel
   id: MarineEngineer
   name: chat-radio-marine-engineer
-  keycode: "і" #n in cm13. "Інженерний"
+  keycode: "і" #n in CM13/RMC. "Інженерний"
   frequency: 1483
   color: "#e4860c"
   longRange: true
@@ -49,7 +49,7 @@
 - type: radioChannel
   id: MarineMilitaryPolice
   name: chat-radio-marine-military-police
-  keycode: "п" #p in cm13. "Поліція"
+  keycode: "п" #p in CM13/RMC. "Поліція"
   frequency: 1484
   color: "#be324f"
   longRange: true
@@ -58,7 +58,7 @@
 - type: radioChannel
   id: MarineRequisition
   name: chat-radio-marine-requisition
-  keycode: "л" #u in cm13. "Логістика"
+  keycode: "л" #u in CM13/RMC. "Логістика"
   frequency: 1485
   color: "#b17324"
   longRange: true
@@ -67,7 +67,7 @@
 - type: radioChannel
   id: MarineIntel
   name: chat-radio-marine-intel
-  keycode: "р" #t in cm13. "Розвідка"
+  keycode: "р" #t in CM13/RMC. "Розвідка"
   frequency: 1486
   color: "#059705"
   longRange: true
@@ -76,7 +76,7 @@
 - type: radioChannel
   id: MarineJTAC
   name: chat-radio-marine-jtac
-  keycode: "т" #j in CM13. "КАТА"
+  keycode: "т" #j in CM13/RMC. "КАТА" (Контролер Авіаційно-Тактичних Атак) 
   frequency: 1487
   color: "#ad3b98"
   longRange: true
@@ -86,7 +86,7 @@
 - type: radioChannel
   id: MarineAlpha
   name: chat-radio-marine-alpha
-  keycode: "а" #a in cm13. "Альфа"
+  keycode: "а" #a in CM13/RMC. "Альфа"
   frequency: 1491
   color: "#dc0a0a"
   longRange: true
@@ -95,7 +95,7 @@
 - type: radioChannel
   id: MarineBravo
   name: chat-radio-marine-bravo
-  keycode: "б" #b in cm13. "Браво"
+  keycode: "б" #b in CM13/RMC. "Браво"
   frequency: 1492
   color: "#f2af03"
   longRange: true
@@ -104,7 +104,7 @@
 - type: radioChannel
   id: MarineCharlie
   name: chat-radio-marine-charlie
-  keycode: "ч" #c in cm13. "Чарлі"
+  keycode: "ч" #c in CM13/RMC. "Чарлі"
   frequency: 1493
   color: "#a94ac2"
   longRange: true
@@ -113,7 +113,7 @@
 - type: radioChannel
   id: MarineDelta
   name: chat-radio-marine-delta
-  keycode: "д" #d in cm13. "Дельта"
+  keycode: "д" #d in CM13/RMC. "Дельта"
   frequency: 1494
   color: "#038ae1"
   longRange: true
@@ -122,7 +122,7 @@
 - type: radioChannel
   id: MarineEcho
   name: chat-radio-marine-echo
-  keycode: "е" #e in cm13. "Ехо"
+  keycode: "е" #e in CM13/RMC. "Ехо"
   frequency: 1495
   color: "#3be1b1"
   longRange: true
@@ -131,7 +131,7 @@
 - type: radioChannel
   id: MarineFoxtrot
   name: chat-radio-marine-foxtrot
-  keycode: "ф" #f in cm13. "Фокстрот"
+  keycode: "ф" #f in CM13/RMC. "Фокстрот"
   frequency: 1496
   color: "#c23c07"
   longRange: true
@@ -141,7 +141,7 @@
 - type: radioChannel
   id: MarineForecon
   name: chat-radio-forecon
-  keycode: "k"
+  keycode: "н" #k in RMC. "ФОРКОН"
   frequency: 1724
   color: "#32CD32"
   longRange: true
@@ -151,7 +151,7 @@
 - type: radioChannel
   id: Colony
   name: chat-radio-colony
-  keycode: "о" #o in cm13. "кОлоністи"
+  keycode: "о" #o in CM13/RMC. "кОлоністи"
   frequency: 1469
   color: "#cf40a6" #todo rmc14
   longRange: true
@@ -168,7 +168,7 @@
 - type: radioChannel # Only used by Corporate Liason to hand out to bodyguards / command.
   id: WEYA
   name: chat-radio-WY
-  keycode: "в" #w in CM13. "Ве-Я"
+  keycode: "в" #w in CM13/RMC. "Ве-Я"
   frequency: 1231
   color: "#fe9b24"
   longRange: true
@@ -177,7 +177,7 @@
 - type: radioChannel
   id: CMB
   name: chat-radio-CMB
-  keycode: "ш" #бюро колоніальних Шерифів
+  keycode: "ш" #l in RMC. "Бюро Колоніальних Шерифів"
   frequency: 1220
   color: "#1b748c"
   longRange: true
@@ -186,7 +186,7 @@
 - type: radioChannel
   id: Provost
   name: chat-radio-provost
-  keycode: "r"
+  keycode: "с" #r in RMC. "Провост"
   frequency: 1473
   color: "#9b0612"
   longRange: true
@@ -195,7 +195,7 @@
 - type: radioChannel
   id: RoyalMarine
   name: chat-radio-royal-marine
-  keycode: "q"
+  keycode: "ї" #q in RMC. "Королевські морпіхи". Ї. . .
   frequency: 1551
   color: "#e1580e"
   longRange: true
@@ -204,7 +204,7 @@
 - type: radioChannel
   id: Hivemind
   name: chat-radio-hivemind
-  keycode: "х" #Х. . .
+  keycode: "х" #h in RMC. "Вулик". Х. . .
   frequency: 426
   color: "#8b36a6"
   longRange: true

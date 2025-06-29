@@ -1,6 +1,6 @@
-chat-radio-marine-highcommand = Вище Командування Морпіхів
+chat-radio-marine-highcommand = Вище Командування Морпіхоти
 
-chat-radio-marine-common = Загальний
+chat-radio-marine-common = Саванна
 chat-radio-marine-command = Командування
 chat-radio-marine-medical = Медичний
 chat-radio-marine-engineer = Інженерний
@@ -16,22 +16,22 @@ chat-radio-marine-delta = Дельта
 chat-radio-marine-echo = Ехо
 chat-radio-marine-foxtrot = Фокстрот
 
-chat-radio-forecon = FORECON
+chat-radio-forecon = ФОРКОН
 
 chat-radio-colony = Колонія
 chat-radio-WY = Ве-Я
 chat-radio-CMB = Бюро Колоніальних Шерифів
-chat-radio-provost = Provost
+chat-radio-provost = Провост
 
-chat-radio-spp-command = SPP Command
-chat-radio-spp = SPP
-chat-radio-spp-engi = SPP Engi
-chat-radio-spp-med = SPP Med
-chat-radio-spp-cct = SPP CCT
+chat-radio-spp-command = Командування СПН
+chat-radio-spp = СПН
+chat-radio-spp-engi = Інж СПП
+chat-radio-spp-med = Мед СПП
+chat-radio-spp-cct = БТ СПП
 
-chat-radio-royal-marine = Royal Marine
-chat-radio-tse = TSE
+chat-radio-royal-marine = Королівська Морпіхота
+chat-radio-tse = ІТС
 
 chat-radio-hivemind = Вулик
 
-chat-radio-marine-sun-riders = Sun Riders
+chat-radio-marine-sun-riders = Сонячні Вершники
