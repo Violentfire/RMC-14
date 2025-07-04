@@ -1,4 +1,4 @@
 rmc-rank-component-examine = { CAPITALIZE(SUBJECT($user)) } { GENDER($user) ->
-    [epicene] носить
-    *[other] носять
+    [epicene] носять
+    *[other] носить
   } звання [color=white]{ $rank }[/color].
