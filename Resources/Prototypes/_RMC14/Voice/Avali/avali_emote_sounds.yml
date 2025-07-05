@@ -8,11 +8,11 @@
     Laugh:
       collection: AvaliLaugh
     Cough:
-      collection: AvaliCoughs
+      path: /Audio/_RMC14/Voice/Avali/avali_cough.ogg
     Crying:
       collection: AvaliCry
     Whistle:
-      collection: AvaliWhistle
+      path: /Audio/_RMC14/Voice/Avali/avali_whistle.ogg
 
 - type: emoteSounds
   parent: [RMCUnisexAvali, RMCMaleHuman]
