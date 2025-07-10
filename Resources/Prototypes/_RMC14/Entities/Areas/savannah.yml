@@ -234,7 +234,6 @@
   name: IO office
   components:
   - type: Area
-    zLevel: 1
     retrieveItemObjective: true
 
 # MEDICAL
@@ -406,7 +405,6 @@
     sprite: _RMC14/Areas/areas_almayer.rsi
     state: lifeboat_pump
   - type: Area
-    zLevel: 1
     hijackEvacuationArea: true
     hijackEvacuationWeight: 0.25
     hijackEvacuationType: Add
