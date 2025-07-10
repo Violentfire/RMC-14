@@ -174,7 +174,7 @@
 
 - type: construction
   parent: RMC
-  name: Складна Металева Барикада
+  name: Підйомна Металева Барикада
   id: CMBarricadeMetalDoor
   graph: BarricadeMetalDoorGraph
   startNode: start
@@ -194,7 +194,7 @@
 
 - type: construction
   parent: RMC
-  name: Складна Пласталева Барикада
+  name: Підйомна Пласталева Барикада
   id: CMBarricadePlasteelDoor
   graph: BarricadePlasteelDoorGraph
   startNode: start

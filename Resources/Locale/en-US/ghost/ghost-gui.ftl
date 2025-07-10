@@ -1,5 +1,5 @@
-ghost-gui-return-to-body-button = Повернутися до тіла.
-ghost-gui-ghost-warp-button = Примарне переміщення.
+ghost-gui-return-to-body-button = Повернутися до тіла
+ghost-gui-ghost-warp-button = Примарне переміщення
 ghost-gui-ghost-roles-button = Ролі привидів ({$count})
 ghost-gui-toggle-ghost-visibility-popup-on = Увімкнути бачення інших привидів.
 ghost-gui-toggle-ghost-visibility-popup-off = Вимкнути бачення інших привидів.
@@ -19,7 +19,7 @@ ghost-roles-window-title = Ролі привидів
 ghost-roles-window-available-button = Наявно ({$rolesCount})
 ghost-roles-window-join-raffle-button = Приєднатися до розіграшу
 ghost-roles-window-raffle-in-progress-button =
-    Приєднатися до розіграшу ({$time} залишилося, { $players ->
+    Приєднатися, залишилося ({$time}, { $players ->
          [one] {$players} гравець
         *[other] {$players} гравців
     })
@@ -34,5 +34,5 @@ ghost-roles-window-follow-role-button = Слідкувати
 ghost-roles-window-no-roles-available-label = Зараз немає доступних ролей для привидів.
 ghost-roles-window-rules-footer = Кнопка стане активною через {$time} секунд (ця затримка потрібна, щоб ви встигли прочитати правила)
 
-ghost-return-to-body-title = Повернутися до тіла.
-ghost-return-to-body-text = Вас реанімують! Повернутися до тіла?
+ghost-return-to-body-title = Повернутися до тіла
+ghost-return-to-body-text = Вас реанімують! Повернетесь до тіла?

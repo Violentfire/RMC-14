@@ -68,6 +68,7 @@ cm-xeno-leap-cancelled = Ви передумуєте стрибати!
 
 # Plant weeds
 cm-xeno-weeds-source-already-here = Тут вже є пульсуючий вузол!
+rmc-xeno-weeds-blocked = We can't do that here.
 
 # Corrosive acid
 cm-xeno-acid-not-corrodible = Ви не можете розчинити {THE($target)}!
@@ -78,6 +79,7 @@ rmc-xeno-acid-structure-unmeltable = Ми можемо розплавляти л
 cm-xeno-paralyzing-slash-activate = Наступний наш удар буде з нейротоксином!
 cm-xeno-paralyzing-slash-expire = Ми чекали надто довго, твій удар більше не нанесe нейротоксин!
 cm-xeno-paralyzing-slash-hit = Ми додаємо нейротоксин у твою атаку, {$target} скоро впаде паралізований!
+cm-xeno-paralyzing-slash-immune = {$target} shrugs off the neurotoxin!
 
 # Crippling Strike
 cm-xeno-crippling-strike-activate = Наступний наш удар буде з нейротоксином!
@@ -202,7 +204,7 @@ rmc-xeno-heal-sisters = Ми повинні націлитися на одну �
 rmc-xeno-resin-surge-shield-self = Ми зміцнюємо смолу навколо {THE($target)}, тимчасово роблячи її майже незламною!
 rmc-xeno-resin-surge-shield-others = {CAPITALIZE(THE($xeno))} згустила смолу навколо {THE($target)}, тимчасово зробивши її майже незламною!
 rmc-xeno-resin-surge-shield-fail = Ми безпорадно намагаємося згустити смолу навколо {THE($target)}, але вона вже зміцнена. Нам знадобиться трохи часу, щоб відновитися.
-rmc-xeno-resin-surge-fruit = Ми прискорюємо зростання смоли навколо {THE($target)}, посилюючи її!
+rmc-xeno-resin-surge-fruit = We pour all energy into {THE($target)}'s growth, bringing it to swift maturity!
 rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE(THE($target))} вже дозрів. Згусток смоли не дає жодного ефекту.
 rmc-xeno-resin-surge-wall-self = Ми спрямовуємо смолу, створюючи нестабільну стіну!
 rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} спрямовує смолу, створюючи нестабільну стіну!

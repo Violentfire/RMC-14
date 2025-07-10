@@ -39,6 +39,8 @@ rmc-dropship-weapons-maps = МАПИ
 rmc-dropship-weapons-cams = КАМЕРА
 rmc-dropship-weapons-cancel = СКАСУВАТИ
 rmc-dropship-weapons-exit = ВИЙТИ
+rmc-dropship-weapons-lock = LOCK
+rmc-dropship-weapons-clear = CLEAR
 
 rmc-dropship-weapons-offset-calibration = Зсув
   Камери
@@ -80,3 +82,17 @@ rmc-dropship-fabricator-equipment = [bold]Оснащення[/bold]
 rmc-dropship-fabricator-ammo = [bold]Боєприпаси[/bold]
 rmc-dropship-fabricator-fabricate = Виготовити ({$cost})
 rmc-dropship-fabricator-busy = Виготовлювач частин для транспортника зайнятий. Дочекайтеся виконання попередньої операції.
+
+rmc-dropship-firemission-warning = A DROPSHIP FIRES TOWARDS THE {$direction}
+rmc-dropship-firemission-warning-above = A DROPSHIP FIRES RIGHT ONTOP OF YOU!
+
+rmc-dropship-paradrop-target-screen-text = HPU-1 Paradrop Deployment System
+    {$hasTarget}
+
+rmc-dropship-paradrop-target-screen-target-none = No locked target found.
+    Paradropping not available.
+
+rmc-dropship-paradrop-target-screen-target-targeting = Locked to {$dropTarget}.
+    Paradropping available.
+
+rmc-dropship-paradrop-lock-target-not-flying = You can only enable the paradrop module while in flight.

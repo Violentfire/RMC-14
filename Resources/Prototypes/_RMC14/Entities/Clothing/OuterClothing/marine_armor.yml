@@ -32,8 +32,7 @@
   id: RMCArmorM3MediumVariants
   name: морпіхотна броня зразка М3
   description: Стандартна броня морпіхів КОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
-  categories:
-  - HideSpawnMenu
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -180,8 +179,7 @@
   id: RMCArmorM3HeavyVariants
   name: важка броня зразка М3-EOD
   description: Важкий варіант стандартної броні М3. Спеціально спроєктована так, щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
-  categories:
-  - HideSpawnMenu
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/eod/padded/jungle.rsi
@@ -441,8 +439,7 @@
   id: RMCArmorM3LightVariants
   name: легка броня зразка M3-L
   description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
-  categories:
-  - HideSpawnMenu
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/padded/jungle.rsi

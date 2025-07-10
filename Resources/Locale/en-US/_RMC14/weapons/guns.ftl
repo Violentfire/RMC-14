@@ -56,3 +56,9 @@ rmc-assisted-reload-start-target = {$reloader} begins reloading your {$weapon} w
 rmc-gun-stacks-hit-single = Вцілив!
 rmc-gun-stacks-hit-multiple = Вцілив! {$hits} влучань поспіль!
 rmc-gun-stacks-reset = {$weapon} втрачає дані про ціль, і перемикається на стандарний режим стрільби.
+
+rmc-gun-shoot-air-self = YOU FIRE YOUR { CAPITALIZE($weapon) } INTO THE AIR!
+rmc-gun-shoot-air-other = { CAPITALIZE(THE($user)) } FIRES { CAPITALIZE(THE($weapon)) } INTO THE AIR!
+rmc-gun-shoot-air-blocked = The roof above you is too dense.
+
+rmc-flare-gun-examine = The last signal flare fired has the designation: [color=#ad3b98][bold]{$id}[/bold][/color]

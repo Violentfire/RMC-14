@@ -119,6 +119,7 @@
   parent: CMBulletBase
   id: RCMBulletPistol9mmSquashHead
   name: "куля (9мм м'якоголовна куля)"
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:

@@ -1,0 +1,13 @@
+# Всі прототипи нижче додавання білду Січі
+- type: soundCollection
+  id: AvaliLaugh
+  files:
+    - /Audio/_RMC14/Voice/Avali/avali_laugh.ogg
+    - /Audio/_RMC14/Voice/Avali/avali_laugh1.ogg
+    - /Audio/_RMC14/Voice/Avali/avali_laugh2.ogg
+
+- type: soundCollection
+  id: AvaliCry
+  files:
+    - /Audio/_RMC14/Voice/Avali/avali_cry1.ogg
+    - /Audio/_RMC14/Voice/Avali/avali_cry2.ogg

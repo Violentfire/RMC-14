@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: кутова рукоятка
-  description: "Кутова рукоятка покращує ергономіку зброї та пришвидшує час наведення на ціль.
+  name: кутовий хват
+  description: "Кутовий хват покращує ергономіку зброї та пришвидшує час наведення на ціль.
     Проте це також збільшує розмір зброї."
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
   name: сошка
-  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність і скорострільність, а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
+  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність, скорострільність а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
   components:
   - type: Sprite
     state: bipod
@@ -79,13 +79,6 @@
     showActive: true
   - type: AttachableTemporarySpeedMods
     alteration: Interrupted
-    modifiers:
-    - duration: 1
-      walk: 0.5
-      sprint: 0.357
-    - duration: 2
-      walk: 0.66
-      sprint: 0.526
   - type: AttachableSizeMods
     modifiers:
     - size: 2
@@ -228,6 +221,8 @@
         unwieldedOnly: true
       accuracyAddMult: 0.05
       scatterFlat: -4
+  - type: RMCLoreExaminable
+    content: A standard visible-band laser module designated as the AN/PEQ-42 Laser Sight. Can be mounted onto any firearm that has a lower rail large enough to accommodate it.
 
 - type: entity
   parent: RMCUnderAttachmentBase
@@ -259,6 +254,8 @@
         - ReagentId: RMCNapalmUT
           Quantity: 40
   - type: RMCFlamerAmmoProvider
+    maxIntensity: 10
+    maxDuration: 10
   - type: RMCFlamerTank
   - type: AttachableToggleable
     userOnly: true
@@ -290,6 +287,8 @@
   components:
   - type: Sprite
     state: flamer_nozzle
+  - type: RMCLoreExaminable
+    content: The Experimental Volatile-Exothermic-Sphere-Generator clip-on nozzle attachment for the M34 incinerator unit was specifically designed to allow marines to launch fireballs into enemy foxholes and bunkers. Despite the gel and resin coating, the flaming ball of naptha tears apart due the drag caused by launching it through the air, leading marines to use the attachment as a makeshift firework launcher during shore leave.
 
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
@@ -590,8 +589,7 @@
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
   name: вертикальна рукоятка
-  description: "Вертикальна рукоятка забезпечує кращу точність, меншу віддачу та менше розсіювання, особливо під час стрільби чергами.
-    However, it also increases weapon size."
+  description: "Вертикальна рукоятка забезпечує кращу точність, зменшену віддачу та менше розсіювання, особливо під час стрільби чергами. Однак збільшує розміри зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -621,7 +619,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
   name: підствольне кріплення для ліхтаря
-  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Зменшує віддачу і розсіювання на крихітну величину. Працює як джерело світла. 
+  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Трохи знижує віддачу та розсіювання. Працює як джерело світла. 
   components:
   - type: ToggleableLightVisuals
     spriteLayer: light

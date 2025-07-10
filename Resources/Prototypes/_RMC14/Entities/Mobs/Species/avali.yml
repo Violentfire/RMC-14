@@ -12,6 +12,8 @@
     - HeadSide
   - type: Sprite
     drawdepth: Mobs
+  - type: TypingIndicator
+    proto: avali
   - type: Vocal
     sounds:
       Male: RMCMaleAvali

@@ -261,7 +261,7 @@
         crate: RMCCrateResearchPhoron
       - cost: 2000
         crate: RMCCrateResearchPlastic
-    - name: Restricted Equipment
+    - name: Обмежене Обладнання
       entries:
       - cost: 2000
         crate: RMCCrateRestrictedEquipmentArmorM4

@@ -1,0 +1,461 @@
+- type: entity
+  parent: BaseItem
+  id: RMCHelmetGarbBase
+  abstract: true
+  components:
+  - type: Sprite
+  - type: Item
+    size: Tiny
+  - type: HelmetAccessory
+  - type: Appearance
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbToggleableBase
+  abstract: true
+  components:
+  - type: ItemToggle
+    activated: false
+    verbToggleOff: rmc-helmetgarbs-off
+    verbToggleOn: rmc-helmetgarbs-on
+
+# NVG
+
+- type: entity
+  parent: RMCHelmetGarbToggleableBase
+  id: RMCHelmetGarbNightVision
+  name:  старі окуляри нічного бачення М2
+  description: Цю пару позбавлено всієї електроніки, тож вони більше не працюють. Але гей! Вони ж змушують тебе почуватися більш… Професійно, чи не так?
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
+      state: helmet
+    toggledRsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
+      state: helmet-down
+
+# Netting
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbNetting
+  name: бойова сітка
+  description: Напевно бойова сітка для шолома. А може й просто сітка для волосся, яку випадково замовили для фантомного кухаря з Саванни. Ймовірно, абсолютно даремна.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbNetting
+  id: RMCHelmetGarbNettingUrban
+  name: міська бойова сітка
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_urban.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_urban.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_urban.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbNetting
+  id: RMCHelmetGarbNettingDesert
+  name: пустельна бойова сітка
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_desert.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_desert.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_desert.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbNetting
+  id: RMCHelmetGarbNettingJungle
+  name: джунглева бойова сітка
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_jungle.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_jungle.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/netting_jungle.rsi
+      state: helmet
+
+# Rain Cover
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbRainCover
+  name: чохол від дощу
+  description: Стандартний бойовий шолом M10 вже має водостійкість на глибині до 10 метрів. Але якщо ти хочеш бути абсолютно сухим - ось чохол. Не обіцяємо, що він працює, але виглядає солідно.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbRainCover
+  id: RMCHelmetGarbRainCoverUrban
+  name: міський чохол від дощу
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_urban.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_urban.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_urban.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbRainCover
+  id: RMCHelmetGarbRainCoverDesert
+  name: пустельний чохол від дощу
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_desert.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_desert.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_desert.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbRainCover
+  id: RMCHelmetGarbRainCoverJungle
+  name: джунглевий чохол від дощу
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_jungle.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_jungle.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover_jungle.rsi
+      state: helmet
+
+# Ammo
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbBuckshot
+  name: гільзи від картечних набоїв
+  description: Три використані гільзи доброї старої картечі. Кажуть, колись їх фарбували в зелений... Були ж часи.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbFlechette
+  name: гільзи від флешетних набоїв
+  description: Чим більше ти стріляєш такими, тим більше здається, що осколкова граната краще впоралася б із цим завданням. Гей, а ці штуки взагалі не мали би вилітати з твого дробовика?
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbSlug
+  name: гільзи від кулевих набоїв
+  description: Для тих ситуацій, коли треба збити ціль із ніг завдяки потужній силі. Ці три гільзи вже виконали свою роботу.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/slug.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/slug.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/slug.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbCartridge
+  name: гільза
+  description: Це гільза з автоматичної гвинтівки Type 54. Деформована внаслідок удару об броньовану поверхню. Тепер це просто трофей на удачу.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
+      state: helmet
+
+# Visors
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbGasmask
+  name: інтегрований противогаз М5
+  description: "Виробництво було припинено КМПОН, коли з’ясувалося, що не кожен боєць носить шолом 24/7, якби це дивно не звучало; Ця новина звела Вище Командування ООН у повний ступор."
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbGasmask
+  id: RMCHelmetGarbGasmaskDesert
+  name: пустельний інтегрований противогаз М5
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_desert.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_desert.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_desert.rsi
+      state: helmet
+
+
+- type: entity
+  parent: RMCHelmetGarbGasmask
+  id: RMCHelmetGarbGasmaskJungle
+  name: джунглевий інтегрований противогаз М5
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_jungle.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_jungle.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_jungle.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbGasmask
+  id: RMCHelmetGarbGasmaskUrban
+  name: міський інтегрований противогаз М5
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_urban.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_urban.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask_urban.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCRC6RiotShield
+  name: RC6 riot shield
+  description: The complimentary, but sold separate face shield associated with the RC6 riot helmet.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/riot_shield.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/riot_shield.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/riot_shield.rsi
+      state: helmet
+
+# Feathers
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbFeather
+  name: щасливе біле перо
+  description: Найкраща зброя снайпера - це не гвинтівка, а його розум.
+  components:
+  - type: Sprite
+    sprite:  _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbFeather
+  id: RMCHelmetGarbFeatherRed
+  name: щасливе червоне перо
+  description: Яскраво-червоне, пластикове й неякісне перо - ідеально пасує до душевної стійкості будь якого корпората. Тобто - відсутньої.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_red.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_red.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_red.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbFeather
+  id: RMCHelmetGarbFeatherBlue
+  name: щасливе синє перо
+  description: Має яскравий синій колір. Тобі здається, що колись бачив пташку в якомусь старому мультику… Домашня, трохи незграбна, але з добрим серцем.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_blue.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_blue.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_blue.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbFeather
+  id: RMCHelmetGarbFeatherPurple
+  name: щасливе фіолетове перо
+  description: Фіолетове перо, створене в результаті симуляції 1000 друкарських мавп. Деякі кажуть - це геніальне мистецтво. Інші - що це просто ШІ перегрівся.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_purple.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_purple.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_purple.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbFeather
+  id: RMCHelmetGarbFeatherYellow
+  name: щасливе жовте перо
+  description: Має насичений, невблаганний жовтий колір. Кажуть, колонія Новий Канзас виробляє найбільшу кількість парт на душу населення серед усіх колоній під контролем ООН.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_yellow.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_yellow.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_yellow.rsi
+      state: helmet
+
+# Misc
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbGunOil
+  name: масло для зброї
+  description: Не слухай дурнів - М54С не чиститься сама, скільки б ти не молився.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbRosary
+  name: хрестик
+  description: "Ісус рятує життя! Во ім'я Отця, і Сина, і Святого Духа! Амінь!"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbPrescription
+  name: пляшечка з-під пігулок
+  description: Ліки від чого? Від тривоги? Безсоння? Параної? Хто зна. Напис стерся, пігулки зникли. Залишається лише пляшка і кришечка, яку не відкриє навіть технік з ломом.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/prescription.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/prescription.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/prescription.rsi
+      state: helmet
+
+- type: entity
+  parent: RMCHelmetGarbBase
+  id: RMCHelmetGarbWire
+  name: обрізаний колючий дріт
+  description: Шматок колючого дроту, з якого спиляли більшість гострих шипів. Тепер його можна брати в руки без ризику порізатися.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/trimmed_barb_wire.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Clothing/HelmetGarb/trimmed_barb_wire.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _RMC14/Objects/Clothing/HelmetGarb/trimmed_barb_wire.rsi
+      state: helmet

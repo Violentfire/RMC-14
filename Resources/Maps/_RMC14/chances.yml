@@ -96603,7 +96603,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -2.5,-45.5
       parent: 1
-- proto: RMCPlatformStrataRock
+- proto: RMCPlatformShivaRock
   entities:
   - uid: 9918
     components:
@@ -96719,7 +96719,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -84.5,3.5
       parent: 1
-- proto: RMCPlatformStrataRockCornerSmall
+- proto: RMCPlatformShivaRockCornerSmall
   entities:
   - uid: 9938
     components:

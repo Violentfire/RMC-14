@@ -67,6 +67,7 @@
     - CMSurvivorDoctor: 3
     - CMSurvivorEngineer: 4
     - CMSurvivorSecurity: 2
+    - CMSurvivorScientist: 2
     survivorJobInserts:
       RMCSurvivorCommandingOfficer:
       - RMCSurvivorCommanderNewVaradero: 1
@@ -83,6 +84,8 @@
       - CMSurvivorCargoTechnician: 2
       CMSurvivorSecurity:
       - CMSurvivorUNPeacekeeper: 2
+      CMSurvivorScientist:
+      - RMCSurvivorNewVaraderoResearcher: 2
 
 - type: entity
   id: RMCPlanetKutjevo
@@ -121,6 +124,7 @@
       CMSurvivorDoctor: RMCSurvivorForeconBase
       CMSurvivorEngineer: RMCSurvivorForeconBase
       CMSurvivorSecurity: RMCSurvivorForeconBase
+      CMSurvivorScientist: RMCSurvivorForeconBase
 
 - type: entity
   id: RMCPlanetHybrisa
@@ -131,3 +135,30 @@
     camouflage: Urban
     announcement: "Автоматичний сигнал лиха надійшов з колонії Вестон-Ямади, Процвітаюча Гібріса. Вона являє собою величезне місто, відоме своїми гірничодобувними операціями, величезними багатствами, а також захмарними цінами. Нещодавно викуплена у ТСЕ, ця колонія тепер ключовий актив Вестон-Ямади. Для встановлення причини, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
     minPlayers: 40
+
+- type: entity
+  id: RMCPlanetSorokyne
+  name: LV-976 Sorokyne Strata
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/sorokyne.yml
+    camouflage: Jungle
+    minPlayers: 130
+    announcement: "An automated distress signal has been recieved from a mining colony on border world LV-976, \"Sorokyne Outpost\". A response team from the UNS Almayer will be dispatched shortly to investigate."
+    survivorJobInserts:
+      CMSurvivor:
+      - CMJobSurvivorSoroCivilian: -1
+      - CMJobSurvivorSoroMiner: -1
+      - CMJobSurvivorFireProtectionSpecialist: 1
+      CMSurvivorCorporate:
+      - CMJobSurvivorHalcyonDynamicsLiaison: 2
+      CMSurvivorDoctor:
+      - CMJobSurvivorMoHDoctor: 3
+      CMSurvivorEngineer:
+      - CMJobSurvivorInfrastructureEngineer: 2
+      - CMJobSurvivorReactorTechnician: 2
+      CMSurvivorSecurity:
+      - CMJobSurvivorArmedPoliceOfficer: 2
+      - CMJobSurvivorArmyReservist: 2
+      CMSurvivorScientist:
+      - CMJobSurvivorCECResearcher: 2

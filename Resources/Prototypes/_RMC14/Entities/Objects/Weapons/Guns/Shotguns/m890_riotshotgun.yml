@@ -10,6 +10,8 @@
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_riot.rsi
   - type: Gun
     shotsPerBurst: 1
+    soundGunshot:
+      collection: RMCTacticalShotgunShoot
   - type: ShootUseDelay
   - type: RMCSelectiveFire
     baseFireModes:

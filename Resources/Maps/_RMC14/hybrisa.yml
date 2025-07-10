@@ -139893,60 +139893,28 @@ entities:
           showEnts: False
           occludes: True
           ent: 4928
-- proto: FireAxeCabinetOpen
+- proto: RMCFireAxeCabinetFilled
   entities:
   - uid: 12665
     components:
     - type: Transform
       pos: -32.5,-0.5
       parent: 1
-    - type: Openable
-      opened: False
-    - type: ContainerContainer
-      containers:
-        ItemCabinet: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 12666
   - uid: 12667
     components:
     - type: Transform
       pos: -23.5,-99.5
       parent: 1
-    - type: Openable
-      opened: False
-    - type: ContainerContainer
-      containers:
-        ItemCabinet: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 12668
   - uid: 12669
     components:
     - type: Transform
       pos: -84.5,-78.5
       parent: 1
-    - type: Openable
-      opened: False
-    - type: ContainerContainer
-      containers:
-        ItemCabinet: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 12670
   - uid: 12671
     components:
     - type: Transform
       pos: -182.5,-34.5
       parent: 1
-    - type: Openable
-      opened: False
-    - type: ContainerContainer
-      containers:
-        ItemCabinet: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: 12672
 - proto: FoamedAluminiumMetal
   entities:
   - uid: 12673
@@ -170379,32 +170347,6 @@ entities:
     - type: Transform
       pos: -189.5,-65.5
       parent: 1
-- proto: RMCFireAxe
-  entities:
-  - uid: 12666
-    components:
-    - type: Transform
-      parent: 12665
-    - type: Physics
-      canCollide: False
-  - uid: 12668
-    components:
-    - type: Transform
-      parent: 12667
-    - type: Physics
-      canCollide: False
-  - uid: 12670
-    components:
-    - type: Transform
-      parent: 12669
-    - type: Physics
-      canCollide: False
-  - uid: 12672
-    components:
-    - type: Transform
-      parent: 12671
-    - type: Physics
-      canCollide: False
 - proto: RMCFlashlight
   entities:
   - uid: 17777

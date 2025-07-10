@@ -1,5 +1,8 @@
 ﻿# Foldable
 
+rmc-dogtag-verb-hide = Hide dogtags
+rmc-dogtag-verb-show = Show dogtags
+
 rmc-jacket-verb-fold = Закатити рукава
 rmc-jacket-verb-unfold = Спустити рукава
 

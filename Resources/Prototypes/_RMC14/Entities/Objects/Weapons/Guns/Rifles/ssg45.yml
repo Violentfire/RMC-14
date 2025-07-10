@@ -1,8 +1,9 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
+  id: RMCWeaponRifleSSG45NoLock
   name: SSG-45 штурмова гвинтівка
-  id: WeaponRifleSSG45
   description: SSG - точна штурмова гвинтівка від Weston-Yamada, як наступник застарілої лінійки зброї серій M5. Ідеальна для бою на середніх і далеких дистанціях. Використовує безгільзові набої 7х62 мм. Має кращу зупиняючу дію та ефективність боєприпасів порівняно з M54C MK2, зберігаючи ефективність у ближньому бою.
+  suffix: No ID Lock
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/ssg45/ssg45_inhands.rsi
@@ -56,7 +57,6 @@
   - type: RMCWeaponAccuracy
     accuracyMultiplier: 1.5
     accuracyMultiplierUnwielded: 0.75
-  - type: GunIDLock
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -119,6 +119,62 @@
   - type: Tag
     tags:
     - RMCWeaponRifleSSG45
+
+- type: entity
+  parent: RMCWeaponRifleSSG45NoLock
+  id: WeaponRifleSSG45
+  suffix: Has ID Lock
+  components:
+  - type: GunIDLock
+
+- type: entity
+  parent: RMCWeaponRifleSSG45NoLock
+  id: RMCWeaponRifleSSG45NoLockStripped
+  suffix: No ID Lock, Stripped
+  components:
+  - type: AttachableHolder
+    slots:
+      rmc-aslot-barrel:
+        whitelist:
+          tags:
+          - RMCAttachmentBarrelCharger
+          - RMCAttachmentExtendedBarrel
+          - RMCAttachmentSuppressor
+          - RMCM5Bayonet
+      rmc-aslot-rail:
+        whitelist:
+          tags:
+          - RMCAttachmentRailFlashlight
+          - RMCAttachmentMagneticHarness
+          - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS6ReflexSight
+          - RMCAttachmentS84xTelescopicScope
+          - RMCAttachmentS42xTelescopicMiniscope
+      rmc-aslot-stock:
+        locked: true
+        startingAttachable: RMCAttachmentSSG45Stock
+        whitelist:
+          tags:
+          - RMCAttachmentSSG45Stock
+      rmc-aslot-underbarrel:
+        startingAttachable: null
+        whitelist:
+          tags:
+          - RMCAttachmentAngledGrip
+          - RMCAttachmentBipod
+          - RMCAttachmentFlashlightGrip
+          - RMCAttachmentGyroscopicStabilizer
+          - RMCAttachmentLaserSight
+          - RMCAttachmentVerticalGrip
+          - RMCAttachmentExtinguisher
+          - RMCAttachmentFlamer
+
+- type: entity
+  parent: RMCWeaponRifleSSG45NoLockStripped
+  id: RMCWeaponRifleSSG45Stripped
+  suffix: Has ID Lock, Stripped
+  components:
+  - type: GunIDLock
 
 - type: entity
   parent: CMMagazineRifleBase

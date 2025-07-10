@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   id: RMCOrbitalCannon
   name: орбітальна гармата
-  description: "Орбітальна гарматна система КМПОН. Використовується для ураження великих цілей на планеті, навколо якої обертається. Прискорює свій боєзаряд за допомогою рідкого палива, завдаючи руйнівного удару при зіткненні."
+  description: "Орбітальна гарматна КМПОН. Використовується для ураження великої площі на планеті, навколо якої обертається корабель. Прискорює боєголовку за допомогою рідкого палива, завдаючи руйнівного удару при зіткненні."
   placement:
     mode: SnapgridCenter
   components:
@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCOrbitalCannonFuel
-  name: рідке пальне
+  name: Рідке пальне
   placement:
     mode: SnapgridCenter
   components:
@@ -69,7 +69,7 @@
 - type: entity
   abstract: true
   id: RMCOrbitalCannonWarheadBase
-  name: орбітальна боєголовка
+  name: Орбітальна боєголовка
   placement:
     mode: SnapgridCenter
   components:
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  name: орбітальна боєголовка HE
+  name: Фугасна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  name: запалювальна орбітальна боєголовка
+  name: Запалювальна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  name: кластерна орбітальна боєголовка
+  name: Кластерна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "An experimental phoron-based AEGIS Orbital Warhead, straight from the R&D Division of AEGIS. Designed to be used against targets where a single orbital warhead is simply not enough."
-  name: AEGIS orbital warhead
+  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок AEGIS. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
+  name: Орбітальна боєголовка AEGIS
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -308,7 +308,7 @@
 
 - type: entity
   id: RMCOrbitalCannonCableConnector
-  name: роз'єм гарматного кабелю
+  name: "роз'єм гарматного кабелю"
   description: "Роз'єм для підключення великогабаритних гарматних кабелів."
   placement:
     mode: SnapgridCenter

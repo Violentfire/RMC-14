@@ -109,7 +109,7 @@
   abstract: true
   parent: BaseCartridge
   id: CMShellShotgunBase
-  name: жменька дробових набоїв
+  name: жменька картечних набоїв
   description: Жменька набоїв для перезарядки на ходу.
   components:
   - type: Sprite

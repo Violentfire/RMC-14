@@ -117,6 +117,7 @@
   parent: CMBulletBase
   id: CMBulletPistolMK45
   name: пістолетна куля (.45)
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:

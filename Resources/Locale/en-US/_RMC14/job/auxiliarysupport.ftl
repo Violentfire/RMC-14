@@ -1,4 +1,4 @@
-﻿# auxiliary support
+# auxiliary support
 cm-job-name-aso = Офіцер Підтримки
 cm-job-description-aso = Координуйте допоміжні підрозділи.
 cm-job-prefix-aso = ОП
@@ -10,7 +10,7 @@ cm-job-prefix-dropship-pilot = ПТ
 CMJobPilotDropship = Пілот Транспортника
 
 cm-job-name-gunship-pilot = Пілот Бойового Корабля
-cm-job-description-gunship-pilot = Літайте, приносьте демократію коли це потрібно, і підтримуйте транспортник.
+cm-job-description-gunship-pilot = Use your dropship’s full arsenal to provide close air support for Marines on the ground. Be ready to medevac wounded personnel and extract fultons if needed.
 cm-job-prefix-gunship-pilot = БП
 CMJobPilotGunship = Пілот Бойового Корабля
 

@@ -4,7 +4,7 @@ rmc-xeno-name = {$baseName} ({$prefix}{$postfix})
 rmc-xeno-young = Молодий {$baseName}
 rmc-xeno-mature = Зрілий {$baseName}
 rmc-xeno-elder = Старший {$baseName}
-rmc-xeno-ancient = Давнній {$baseName}
+rmc-xeno-ancient = Давній {$baseName}
 rmc-xeno-prime = Первісний {$baseName}
 
 rmc-xeno-mature-parasite = Юний {$baseName}

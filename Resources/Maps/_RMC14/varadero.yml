@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 251.0.1
+  engineVersion: 251.0.2
   forkId: ""
   forkVersion: ""
-  time: 05/30/2025 12:35:59
-  entityCount: 26760
+  time: 07/08/2025 14:53:03
+  entityCount: 26761
 maps:
 - 1
 grids:
@@ -153833,7 +153833,7 @@ entities:
       pos: 94.5,21.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -16244.653
+      secondsUntilStateChange: -16334.654
       state: Opening
   - uid: 20859
     components:
@@ -153981,47 +153981,12 @@ entities:
     - type: Transform
       pos: 105.36395,81.66354
       parent: 1
-- proto: DrinkSakeBottleFull
-  entities:
-  - uid: 20884
-    components:
-    - type: Transform
-      pos: 68.3753,160.70312
-      parent: 1
-  - uid: 20885
-    components:
-    - type: Transform
-      pos: 68.70342,160.67188
-      parent: 1
-  - uid: 20886
-    components:
-    - type: Transform
-      pos: 82.72924,122.621155
-      parent: 1
-  - uid: 20887
-    components:
-    - type: Transform
-      rot: -12.566370614359172 rad
-      pos: 100.70583,117.51047
-      parent: 1
-  - uid: 20888
-    components:
-    - type: Transform
-      pos: 93.59807,61.48229
-      parent: 1
 - proto: DrinkShaker
   entities:
   - uid: 20889
     components:
     - type: Transform
       pos: 91.124245,62.511948
-      parent: 1
-- proto: DrinkWhiskeyBottleFull
-  entities:
-  - uid: 20890
-    components:
-    - type: Transform
-      pos: 109.5,152.5
       parent: 1
 - proto: FernyBush01
   entities:
@@ -166423,7 +166388,7 @@ entities:
       pos: 73.5,59.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -65939.06
+      secondsUntilStateChange: -66029.06
       state: Opening
   - uid: 23017
     components:
@@ -166527,6 +166492,32 @@ entities:
       parent: 1
 - proto: RMCDrinkAlcoholSake
   entities:
+  - uid: 20884
+    components:
+    - type: Transform
+      pos: 68.3753,160.70312
+      parent: 1
+  - uid: 20885
+    components:
+    - type: Transform
+      pos: 68.70342,160.67188
+      parent: 1
+  - uid: 20886
+    components:
+    - type: Transform
+      pos: 82.72924,122.621155
+      parent: 1
+  - uid: 20887
+    components:
+    - type: Transform
+      rot: -12.566370614359172 rad
+      pos: 100.70583,117.51047
+      parent: 1
+  - uid: 20888
+    components:
+    - type: Transform
+      pos: 93.59807,61.48229
+      parent: 1
   - uid: 23035
     components:
     - type: Transform
@@ -166597,6 +166588,11 @@ entities:
       parent: 1
 - proto: RMCDrinkAlcoholWhiskey
   entities:
+  - uid: 20890
+    components:
+    - type: Transform
+      pos: 109.5,152.5
+      parent: 1
   - uid: 23046
     components:
     - type: Transform
@@ -181352,6 +181348,14 @@ entities:
     - type: Transform
       pos: 119.5,44.5
       parent: 1
+- proto: RMCWallGold
+  entities:
+  - uid: 26582
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 85.5,87.5
+      parent: 1
 - proto: RMCWallHunter
   entities:
   - uid: 25735
@@ -184393,6 +184397,13 @@ entities:
     - type: Transform
       pos: 39.5,59.5
       parent: 1
+- proto: RMCWeaponPistolM82F
+  entities:
+  - uid: 26761
+    components:
+    - type: Transform
+      pos: 145.5,135.5
+      parent: 1
 - proto: RMCWeaponPistolMK45
   entities:
   - uid: 26339
@@ -186035,14 +186046,6 @@ entities:
     components:
     - type: Transform
       pos: 42.5,130.5
-      parent: 1
-- proto: WallGold
-  entities:
-  - uid: 26582
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 85.5,87.5
       parent: 1
 - proto: WallXenoResin
   entities:

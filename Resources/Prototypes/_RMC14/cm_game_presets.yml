@@ -9,3 +9,12 @@
   showInVote: false
   rules:
   - CMDistressSignal
+
+# Зроблено для нашого білду. Просто відсутність геймрулів, завдяки чому для запуску раунду не треба ксеноїдів. Але при цьому ж нема й планети, а також система загонів вимикається
+- type: gamePreset
+  id: Calmed
+  alias:
+  - calmed
+  name: Спокійний
+  showInVote: false
+  description: "Загрози ксеноїдів нема. . . Напевно!"

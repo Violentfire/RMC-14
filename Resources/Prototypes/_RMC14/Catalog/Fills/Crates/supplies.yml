@@ -5,7 +5,7 @@
 - type: entity
   parent: RMCCrateSupply
   id: RMCCrateSupplyInternals
-  name: oxygen internals crate (x3 masks, x3 tanks)
+  name: Ящик кисневих наборів (3 маски, 3 балони)
   components:
   - type: StorageFill
     contents:
@@ -18,7 +18,7 @@
 - type: entity
   parent: RMCCrateSupply
   id: RMCCrateSupplyEvacuation
-  name: emergency equipment (x2 toolbox, x2 hazard vest, x5 oxygen tank, x5 masks)
+  name: Аварійне обладнання (2 ящики інструментів, 2 захисні жилети, 5 кисневих балонів, 5 масок)
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   id: RMCCrateSuppliesBoxes
   parent: RMCCrateSupply
-  name: cardboard sheets (x50) #empty boxes (x10)
+  name: Картонні листи (50 шт.) #empty boxes (x10)
   components:
   - type: StorageFill
     contents:
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCCrateSupply
   id: RMCCrateSupplyJanitor
-  name: assorted janitorial supplies
+  name: Різноманітні прибиральні засоби
   components:
   - type: StorageFill
     contents:
@@ -71,7 +71,7 @@
 - type: entity
   id: RMCCrateSuppliesCrayons
   parent: RMCCrateSupply
-  name: boxes of crayons
+  name: Коробки з олівцями
   components:
   - type: StorageFill
     contents:
