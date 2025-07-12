@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteSG
-  name: мачетний чохол для ML66A
-  description: Чохол для мачете моделі M2132, що під'єднується до бойового кріплення ML66A.
+  name: мачетний чохол для МЛ66A
+  description: "Чохол для мачете моделі M2132, що під'єднується до бойового кріплення МЛ66A."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_sg.rsi

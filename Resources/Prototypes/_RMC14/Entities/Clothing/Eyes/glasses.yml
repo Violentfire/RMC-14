@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesSmartGunSight
-  name: налобний візор ML66A # TODO RMC14 meson tile vision see description below
-  description: Налобний візор для смартгана ML66A. Оснащений системою нічного бачення. # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
+  name: налобний візор МЛ66A # TODO RMC14 meson tile vision see description below
+  description: Налобний візор для смартгана МЛ66A. Оснащений системою нічного бачення. # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
   components:
   - type: Item
     storedRotation: 0
