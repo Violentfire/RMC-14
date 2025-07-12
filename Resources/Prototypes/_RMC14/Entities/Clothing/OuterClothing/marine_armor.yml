@@ -748,8 +748,8 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, CMArmorM3Medium ]
   id: CMArmorSmartGunCombatHarness
-  name: бойове кріплення ML66A
-  description: Важкий бронежилет створений для використання разом зі смарт-кулеметом ML66A Smartgun. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
+  name: бойове кріплення МЛ66A
+  description: Важкий бронежилет створений для використання разом зі смарт-кулеметом МЛ66A. Має спеціальні ремені та посилення для перенесення Смартгана і комплектуючих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/ml66a/jungle.rsi

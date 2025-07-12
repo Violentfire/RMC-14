@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentMOU53Stock
-  name: тактичний приклад MOU53
-  description: Металевий приклад, спеціально розроблений для рушниці MOU53
+  name: тактичний приклад УМО-53
+  description: Металевий приклад, спеціально розроблений для рушниці УМО-53
   components:
   - type: Sprite
     state: ou_stock
