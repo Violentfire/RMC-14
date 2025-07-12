@@ -1,6 +1,6 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: XM88 важка гвинтівка
+  name: ТМГ-88 важка гвинтівка
   id: WeaponRifleXM88
   description: Експериментальна переносна протитехнічна гвинтівка під набій .458 SOCOM. Після кожного пострілу набій потрібно досилати вручну.
   components:
@@ -133,7 +133,7 @@
   parent: RMCBoxShotgunBase
   id: RMCBox458SOCOM
   name: коробка набоїв .458 SOCOM
-  description: Коробка, наповнена набоями .458 SOCOM, призначеними для важкої гвинтівки XM88.
+  description: Коробка, наповнена набоями .458 SOCOM, призначеними для важкої гвинтівки ТМГ-88.
   components:
   - type: Storage
     grid:

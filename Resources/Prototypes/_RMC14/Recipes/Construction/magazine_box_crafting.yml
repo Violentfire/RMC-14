@@ -124,13 +124,13 @@
 
 - type: construction
   parent: RMC
-  name: Коробка з набоями SMG HV (10×20мм)
+  name: Коробка з набоями ПК ВШ (10×20мм)
   id: RMCBoxBulletsSMGEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
+  description: Коробка для набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 ВШ та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
     state: smg_box
@@ -139,13 +139,13 @@
 
 - type: construction
   parent: RMC
-  name: Коробка з набоями SMG HV (10×20мм ББ)
+  name: Коробка з набоями ПК ВШ (10×20мм ББ)
   id: RMCBoxBulletsSMGAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGAPEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для бронебійних набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
+  description: Коробка для бронебійних набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 ВШ та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
     state: smg_box
@@ -264,13 +264,13 @@
 # SU-6 Smart pistol
 - type: construction
   parent: RMC
-  name: Магазинна коробка (SU-6 Рег)
+  name: Магазинна коробка (СУ-6 Рег)
   id: RMCBoxMagazinePistolSU6
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolSU6Empty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для SU-6.
+  description: Коробка для магазинів, яка може містити регулярні магазини для СУ-6.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
     state: pistol_box
@@ -448,7 +448,7 @@
 
 - type: construction
   parent: RMC
-  name: Коробка для набоїв (Inc Buckshot)
+  name: Коробка для набоїв (Запальна Картеч)
   id: RMCBoxShellsIncendiaryBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
@@ -480,7 +480,7 @@
 
 - type: construction
   parent: RMC
-  name: Ящик Постачання (сухпаї)
+  name: Ящик Постачання (Сухпаї)
   id: RMCBoxMREEmpty
   graph: RMCBoxMagazine
   startNode: start
@@ -540,13 +540,13 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (High-Capacity Power Cells)
+  name: Ящик постачання (Акумулятори великої ємності)
   id: RMCBoxMagazinePowerCellsHigh
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePowerCellsHigh
   category: construction-category-cm-box-magazine
-  description: A box of High-Capacity Power Cells to keep your electronics going all night long!
+  description: Коробка акумуляторів великої ємності, щоб твої пристрої працювали всю ніч!
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
     state: supply_box
