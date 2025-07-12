@@ -1249,7 +1249,7 @@
   parent: CMBeltBaseStorage
   id: RMCM300SOCOMBelt
   name: ремінь для патронів .458 SOCOM зразка М300
-  description: Ремінь створений для переноски потужного набою .458 SOCOM для важкої гвинтівки ХМ88.
+  description: Ремінь створений для переноски потужного набою .458 SOCOM для важкої гвинтівки ТМГ-88.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm88/jungle-classic.rsi

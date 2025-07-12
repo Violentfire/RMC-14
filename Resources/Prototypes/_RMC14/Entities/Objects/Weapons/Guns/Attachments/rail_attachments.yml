@@ -519,8 +519,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentXS-9
-  name: релейна система прицілювання XS-9
-  description: На етапі розробки XS-9 Targeting Relay має багато функцій, більшість із яких вимкнено для польових випробувань. Працює трохи краще за стандартний приціл.
+  name: релейна система прицілювання ПП-9
+  description: На етапі розробки ПП-9 має багато функцій, більшість із яких вимкнено для польових випробувань. Працює трохи краще за стандартний приціл.
   components:
   - type: Sprite
     state: d_boomslang-scope

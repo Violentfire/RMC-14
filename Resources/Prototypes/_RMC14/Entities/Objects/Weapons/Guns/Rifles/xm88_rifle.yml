@@ -2,7 +2,7 @@
   parent: CMBaseWeaponRifle
   name: ТМГ-88 важка гвинтівка
   id: WeaponRifleXM88
-  description: Експериментальна переносна протитехнічна гвинтівка під набій .458 SOCOM. Після кожного пострілу набій потрібно досилати вручну.
+  description: Тестова модель гвинтівка під набій .458 SOCOM. Після кожного пострілу набій потрібно досилати вручну.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm88/desert.rsi
