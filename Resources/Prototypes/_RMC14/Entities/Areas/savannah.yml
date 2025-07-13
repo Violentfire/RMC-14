@@ -465,6 +465,11 @@
   parent: RMCAreaSavannah
   id: RMCAreaSavannahLifeboatAmidship
   name: Центральне Стикування Рятувальних Шлюпок
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
 
 - type: entity
   parent: RMCAreaSavannahLifeboatAmidship
