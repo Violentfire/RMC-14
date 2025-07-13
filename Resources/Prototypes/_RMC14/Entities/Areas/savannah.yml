@@ -1,13 +1,14 @@
-# Structure:
-# . Maints
-# . Corridors
-# . Brig
-# . Command
-# . Medical
-# . Auxiliary
-# . Prep
-# . Engi
-# . Other
+# Структура:
+# . Тех. Приміщення
+# . Коридори (загальні)
+# . Бріг
+# . Командування
+# . Медичний
+# . Підтримка
+# . Казарми
+# . Інженерний
+# . Помпи
+# . Інше
 
 - type: entity
   parent: RMCAreaBase
@@ -32,13 +33,12 @@
     hijackEvacuationType: None
   - type: IntelRescueSurvivorArea
 
-# MAINTS
+# ТЕХ. ПРИМІЩЕННЯ
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahMaints
   abstract: true
-  name: Maints
   components:
   - type: Sprite
     state: other
@@ -73,7 +73,7 @@
   id: RMCAreaSavannahMaintsPortQuarter
   name: Тех. Приміщення Заднього Лівого Борту
 
-# Corridors
+# КОРИДОРИ (загальні)
 
 - type: entity
   parent: RMCAreaSavannah
@@ -103,7 +103,7 @@
   id: RMCAreaSavannahCorridorBriefingPort
   name: Коридор Брифінгу Лівого Борту
 
-# BRIG
+# БРІГ
 
 - type: entity
   parent: RMCAreaSavannah
@@ -165,10 +165,15 @@
 
 - type: entity
   parent: RMCAreaSavannahBrig
-  id: RMCAreaSavannahObservationRoom
+  id: RMCAreaSavannahArmory # Додано білдом Січі
+  name: Зброярня Брігу
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahObservationRoom # Додано білдом Січі
   name: Кімната Спостереження
 
-# COMMAND
+# КОМАНДУВАННЯ
 
 - type: entity
   parent: RMCAreaSavannah
@@ -238,15 +243,15 @@
 
 - type: entity
   parent: RMCAreaSavannahBrig
-  id: RMCAreaSavannahSynthetic
+  id: RMCAreaSavannahSynthetic # Додано (перенесено) білдом Січі
   name: Сховище Синтетиків
 
-# MEDICAL
+# МЕДИЧНИЙ
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahMedical
-  name: Медичний
+  name: Медичний Відділ
   components:
   - type: Sprite
     state: medical
@@ -255,7 +260,7 @@
 - type: entity
   parent: RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalSurgery
-  name: Операційні
+  name: Хірургічні палати
 
 - type: entity
   parent: RMCAreaSavannahMedical
@@ -274,20 +279,20 @@
 
 - type: entity
   parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalMorgue
+  id: RMCAreaSavannahMedicalMorgue # Додано білдом Січі
   name: Морг
 
 - type: entity
   parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalCMO
+  id: RMCAreaSavannahMedicalCMO # Додано білдом Січі
   name: Офіс Головного Лікаря
 
 - type: entity
   parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalRestroom
+  id: RMCAreaSavannahMedicalRestroom # Додано білдом Січі
   name: Кімната Відпочинку Медичного
 
-# Auxiliary
+# ПІДТРИМКА
 
 - type: entity
   parent: RMCAreaSavannah
@@ -327,7 +332,7 @@
   id: RMCAreaSavannahCanteen
   name: Їдальня
 
-# PREP
+# КАЗАРМИ
 
 - type: entity
   parent: RMCAreaSavannah
@@ -377,7 +382,7 @@
   - type: Sprite
     state: delta
 
-# ENGI
+# ІНЖЕНЕРНИЙ
 
 - type: entity
   parent: RMCAreaSavannah
@@ -415,7 +420,7 @@
   name: Атмос Лівого Борту
 
 
-# PUMP
+# ПОМПИ
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahLifeboatPumps
@@ -426,7 +431,7 @@
     state: lifeboat_pump
   - type: Area
     hijackEvacuationArea: true
-    hijackEvacuationWeight: 0.25
+    hijackEvacuationWeight: 0.25 # 0.1 в оригіналі. Змінено білдом Січі
     hijackEvacuationType: Add
 
 - type: entity
@@ -449,12 +454,12 @@
   id: RMCAreaSavannahPumpPortQuarter
   name: Помпа Заднього Лівого Борту
 
-# OTHER
+# ІНШЕ
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahSEA
-  name: Тир та офіс Інструктора
+  name: Офіс Інструктора та Тир
 
 - type: entity
   parent: RMCAreaSavannah
@@ -493,10 +498,10 @@
 
 - type: entity
   parent: RMCAreaSavannah
-  id: RMCAreaSavannahPress
-  name: Офіс Пресси
+  id: RMCAreaSavannahPress # Додано білдом Січі
+  name: Офіс Преси
 
 - type: entity
   parent: RMCAreaSavannah
-  id: RMCAreaSavannahDisposals
+  id: RMCAreaSavannahDisposals # Додано білдом Січі
   name: Смітник
