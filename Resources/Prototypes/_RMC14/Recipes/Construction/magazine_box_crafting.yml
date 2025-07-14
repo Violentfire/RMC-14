@@ -264,13 +264,13 @@
 # SU-6 Smart pistol
 - type: construction
   parent: RMC
-  name: Магазинна коробка (СУ-6 Рег)
+  name: Магазинна коробка (СП-6 Рег)
   id: RMCBoxMagazinePistolSU6
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolSU6Empty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для СУ-6.
+  description: Коробка для магазинів, яка може містити регулярні магазини для СП-6.
   icon:
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
     state: pistol_box

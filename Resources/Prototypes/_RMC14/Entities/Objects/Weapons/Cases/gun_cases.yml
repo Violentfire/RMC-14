@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCasePistolSmart
-  name: кейс для смарт-пістолета СУ-6
-  description: Кейс для пістолета СУ-6 зі смарт-системою. У комплекті повний ремінь з кобурою.
+  name: кейс для смарт-пістолета СП-6
+  description: Кейс для пістолета СП-6 зі смарт-системою. У комплекті повний ремінь з кобурою.
   components:
   - type: Storage
     maxItemSize: Huge

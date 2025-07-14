@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSmartPistol
-  name: Коробка з магазинами (СУ-6, 16 шт. звичайних магазинів)
+  name: Коробка з магазинами (СП-6, 16 шт. звичайних магазинів)
   components:
   - type: StorageFill
     contents:
