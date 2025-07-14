@@ -226,7 +226,7 @@
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahASO
-  name: Офіс ОП та Кріокапсули Командування
+  name: Офіс ОП та Гіперсон Командування
 
 - type: entity
   parent: RMCAreaSavannahCommand
