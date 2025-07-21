@@ -143,13 +143,13 @@
 
 - type: entity
   id: RMCPlanetSorokyne
-  name: LV-976 Sorokyne Strata
+  name: ЛВ-976 Сорокіне Страта
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/sorokyne.yml
     camouflage: Jungle
-    minPlayers: 130
-    announcement: "An automated distress signal has been recieved from a mining colony on border world LV-976, \"Sorokyne Outpost\". A response team from the UNS Almayer will be dispatched shortly to investigate."
+    minPlayers: 40
+    announcement: "З колонії гірничодобувної компанії на прикордонній планеті ЛВ-976, \"Форпост Сорокіно\", отримано автоматичний сигнал СОС. Для розслідування відправлена група з ДКП-Саванна \"Січ\"."
     survivorJobInserts:
       CMSurvivor:
       - CMJobSurvivorSoroCivilian: -1
