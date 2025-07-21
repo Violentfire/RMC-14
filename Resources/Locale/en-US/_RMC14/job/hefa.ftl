@@ -1,7 +1,7 @@
 ﻿rmc-ghost-role-information-hefa-rules = You are a [color=yellow][bold]HEFA follower[/bold][/color]. You may or may not be hostile to the marines, depending on admin instructions.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
 rmc-ghost-role-information-hefa-friendly-description = You and your fellow brothers must retrieve as many HEFAs as possible!
 rmc-ghost-role-information-hefa-hostile-description = You and your fellow brothers must retrieve as many HEFAs as possible, and dispense the holy justice of HEFA shrapnel!

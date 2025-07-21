@@ -1,26 +1,26 @@
-﻿rmc-ghost-role-information-clf-rules = You are a [color=red][bold]CLF member[/bold][/color]. You are hostile to the marines unless stated otherwise.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+﻿rmc-ghost-role-information-clf-rules = Ви [color=red][bold]ЧЛЕН ФВК[/bold][/color]. Ви вороже налаштовані до морпіхів, якщо не зазначено інше.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
-rmc-ghost-role-information-clf-description = Ensure the marines are repelled from this space, for the free colonies!
+rmc-ghost-role-information-clf-description = Забезпечте вигнання морпіхів з цього простору заради вільних колоній!
 
-rmc-ghost-role-clf-cell-commander = CLF Cell Commander (Hostile)
-rmc-clf-cell-commander = CLF Cell Commander
-rmc-job-prefix-clf-cell-commander = CMDR
+rmc-ghost-role-clf-cell-commander = Командир Ячейки ФВК (Ворожий)
+rmc-clf-cell-commander = Командир Ячейки ФВК
+rmc-job-prefix-clf-cell-commander = КМНД
 
-rmc-ghost-role-clf-soldier = CLF Soldier (Hostile)
-rmc-clf-soldier = CLF Soldier
-rmc-job-prefix-clf-soldier = GRL
+rmc-ghost-role-clf-soldier = Солдат ФВК (Ворожий)
+rmc-clf-soldier = Солдат ФВК
+rmc-job-prefix-clf-soldier = СЛД
 
-rmc-ghost-role-clf-engineer = CLF Technician (Hostile)
-rmc-clf-engineer = CLF Technician
-rmc-job-prefix-clf-engineer = TECH
+rmc-ghost-role-clf-engineer = Технік ФВК (Ворожий)
+rmc-clf-engineer = Технік ФВК
+rmc-job-prefix-clf-engineer = ТЕХ
 
-rmc-ghost-role-clf-medic = CLF Medic (Hostile)
-rmc-clf-medic = CLF Medic
-rmc-job-prefix-clf-medic = MED
+rmc-ghost-role-clf-medic = Медик ФВК (Ворожий)
+rmc-clf-medic = Медик ФВК
+rmc-job-prefix-clf-medic = МЕД
 
-rmc-ghost-role-clf-specialist = CLF Specialist (Hostile)
-rmc-clf-specialist = CLF Specialist
-rmc-job-prefix-clf-specialist = SPC
+rmc-ghost-role-clf-specialist = Спеціаліст ФВК (Ворожий)
+rmc-clf-specialist = Спеціаліст ФВК
+rmc-job-prefix-clf-specialist = СПЦ

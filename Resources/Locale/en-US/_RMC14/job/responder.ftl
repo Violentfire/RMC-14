@@ -1,9 +1,9 @@
 rmc-ghost-role-information-responder-description = Your job is to respond to faxes appropriately, based on your faction. You are acting on behalf of RMC staff.
 
 rmc-ghost-role-information-responder-rules = You are a [color=red][bold]Fax Responder[/bold][/color]. Your factional relations depend on your faction.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
                                              You are acting on behalf of server staff, and should be EXTREMELY careful with wording when writing faxes.
                                              Fax Responders cannot make decisions that would drastically alter the round's flow, such as activating ERTs or overriding staff decisions without their input. Do not order anyone to break server rules. Always use AHelp if you're unsure whether your action requires staff involvement.
                                              If you are ever in doubt, or receive a fax that requires admin attention, do not hesitate to AHelp.

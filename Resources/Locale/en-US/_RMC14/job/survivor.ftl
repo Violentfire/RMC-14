@@ -1,89 +1,89 @@
-﻿# generic survs
+﻿# загальні вижививші
 
-cm-job-name-survivor = Civilian Colonist
-cm-job-description-survivor = You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
-CMJobSurvivor = Civilian Colonist
+cm-job-name-survivor = Цивільний Колоніст
+cm-job-description-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
+CMJobSurvivor = Цивільний Колоніст
 
-cm-job-name-survivor-doctor = Doctor Colonist
-CMJobSurvivorDoctor = Doctor Colonist
+cm-job-name-survivor-doctor = Колоніст Лікар
+CMJobSurvivorDoctor = Колоніст Лікар
 
-cm-job-name-survivor-engineer = Engineer Colonist
-CMJobSurvivorEngineer = Engineer Colonist
+cm-job-name-survivor-engineer = Інженер Колоніст
+CMJobSurvivorEngineer = Інженер Колоніст
 
-cm-job-name-survivor-security = Security Colonist
-CMJobSurvivorSecurity = Security Colonist
+cm-job-name-survivor-security = Колоніст Охоронець
+CMJobSurvivorSecurity = Колоніст Охоронець
 
-cm-job-name-survivor-corporate = Corporate Colonist
-CMJobSurvivorCorporate = Corporate Colonist
+cm-job-name-survivor-corporate = Колоніст Корпорат
+CMJobSurvivorCorporate = Колоніст Корпорат
 
-cm-job-name-survivor-miner = Miner Colonist
-CMJobSurvivorMiner = Miner Colonist
+cm-job-name-survivor-miner = Колоніст Шахтар
+CMJobSurvivorMiner = Колоніст Шахтар
 
-cm-job-name-surivor-priest = Priest Colonist
-CMJobSurvivorPriest = Priest Colonist
+cm-job-name-surivor-priest = Колоніст Священик
+CMJobSurvivorPriest = Колоніст Священик
 
-cm-job-name-survivor-scientist = Scientist Colonist
-CMSurvivorScientist = Scientist Colonist
+cm-job-name-survivor-scientist = Колоніст Науковець
+CMSurvivorScientist = Колоніст Науковець
 
-rmc-job-greeting-survivor = You are a survivor of the attack on the colony. You worked or lived in the colony, and managed to avoid the alien attacks... until now.
+rmc-job-greeting-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
 
-  You are fully aware of the xenonid threat and are able to use this knowledge as you see fit.
+  Ви повністю усвідомлюєте загрозу ксенонідів і можете використовувати ці знання на свій розсуд.
 
-  You are NOT aware of the marines or their intentions.
+  Ви НЕ знаєте про морських піхотинців та їхні наміри.
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-# FORECON survs
+# виживші ФОРКОНа
 
-rmc-job-greeting-forecon = You are UNMC Force Reconnaissance (FORECON) marine from the UNS Hanyut, stranded on this planet after your team was wiped out while investigating the distress signal. With your pilot dead along with the majority of your unit, you and your team have been running and gunning to survive... but with supplies low and food running out maybe your only means of survival is to move west to the crashed dropship to salvage anything useful.
+rmc-job-greeting-forecon = Ви — морський піхотинець Розвідувальних сил ООН (ФОРКОН) з корабля ОНК Хануют, який опинився на цій планеті після того, як вашу команду було знищено під час розслідування сигналу лиха. Ваш пілот загинув разом із більшістю підрозділу, тому ви та ваша команда втікли та намагаєтеся вижити... але через брак припасів та їжі, можливо, ваш єдиний спосіб вижити — це рухатися на захід до розбитого десантного корабля, щоб врятувати щось корисне.
 
-  You are fully aware of the xenonid threat and are able to use this knowledge as you see fit.
+  Ви повністю усвідомлюєте загрозу ксенонідів і можете використовувати ці знання на свій розсуд.
 
-  You are NOT aware of the marines or their intentions.
+  Ви НЕ знаєте про морських піхотинців та їхні наміри.
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-rmc-job-name-survivor-co = Survivor Commander
-rmc-job-description-survivor-co = You are a Major of the UNMC.
+rmc-job-name-survivor-co = Командир Вижившими
+rmc-job-description-survivor-co = Ви Майор КМПОН.
 
-rmc-job-name-forecon = FORECON Survivor
-rmc-job-description-forecon = You are a stranded UNMC Forecon marine. Your ship, the UNS Hanyut, crashed and you are stranded on the planet. Do what it takes to survive!
+rmc-job-name-forecon = Виживший ФОРКОНа
+rmc-job-description-forecon = Ви — морський піхотинець КМПОН ФОРКОН, який застряг на планеті. Ваш корабель ОНК Хануют, зазнав аварії і ви опинилися на ній. Зробіть усе можливе, щоб вижити!
 
-rmc-job-name-forecon-sniper = Sniper
-rmc-job-name-forecon-marksman = Marksman
-rmc-job-name-forecon-support-tech = Support Technician
-rmc-job-name-forecon-synth = Synthetic
-rmc-job-name-forecon-commander = Commander
+rmc-job-name-forecon-sniper = Снайпер
+rmc-job-name-forecon-marksman = Снайпер піхоти
+rmc-job-name-forecon-support-tech = Технік Підтримки
+rmc-job-name-forecon-synth = Синтетик
+rmc-job-name-forecon-commander = Командир
 
-# New Varadero Survs
+# виживші Ньо-Варадеро
 
-rmc-job-name-survivor-commander-new-varadero = Commander
-CMJobSurvivorCommanderNewVaradero = Commander
+rmc-job-name-survivor-commander-new-varadero = Командер
+CMJobSurvivorCommanderNewVaradero = Командер
 
-cm-job-name-surivor-beach-bum = Beach Bum
-CMJobSurvivorBeachBum = Beach Bum
+cm-job-name-surivor-beach-bum = Пляжний Тусовщик
+CMJobSurvivorBeachBum = Пляжний Тусовщик
 
-cm-job-name-survivor-cargo-technician = New Varadero Cargo Technician
-CMJobSurvivorCargoTechnician = New Varadero Cargo Technician
+cm-job-name-survivor-cargo-technician = Працівник Складу Нью-Варадеро
+CMJobSurvivorCargoTechnician = Працівник Складу Нью-Варадеро
 
-cm-job-name-survivor-medical-technician = New Varadero Medical Technician
-CMJobSurvivorMedicalTechnician = New Varadero Medical Technician
+cm-job-name-survivor-medical-technician = Працівник Медичного Ньо-Варадеро
+CMJobSurvivorMedicalTechnician = Працівник Медичного Ньо-Варадеро
 
-cm-job-name-survivor-technician = New Varadero Engineering Technician
-CMJobSurvivorTechnician = New Varadero Engineering Technician
+cm-job-name-survivor-technician = Технік Нью-Варадеро
+CMJobSurvivorTechnician = Технік Нью-Варадеро
 
-cm-job-name-survivor-un-peacekeeper = United Nations Peacekeeper
-CMJobSurvivorUNPeacekeeper = United Nations Peacekeeper
+cm-job-name-survivor-un-peacekeeper = Миротворець ООН
+CMJobSurvivorUNPeacekeeper = Миротворець ООН
 
-cm-job-name-survivor-icb = Interstellar Commerce Bureau Liaison
-CMJobSurvivorICB = Interstellar Commerce Bureau Liaison
-cm-job-prefix-survivor-icb = ICB
+cm-job-name-survivor-icb = Представник Бюро Міжзоряної Торгівлі
+CMJobSurvivorICB = Представник Бюро Міжзоряної Торгівлі
+cm-job-prefix-survivor-icb = БМТ
 
-cm-job-name-survivor-new-varadero-researcher = New Varadero Researcher
-RMCSurvivorNewVaraderoResearcher = United Nations Peacekeeper
+cm-job-name-survivor-new-varadero-researcher = Науковець Нью-Варадеро
+RMCSurvivorNewVaraderoResearcher = Миротворець ООН
 
 
-# Sorokyne Strata Survs
+# виживші Сорокіна, комуняки, поки не чипаю
 
 rmc-job-name-survivor-infrastructure-engineer = Inzhener Infrastruktury
 CMJobSurvivorInfrastructureEngineer = Infrastructure Engineer

@@ -5,7 +5,7 @@ cm-job-prefix-mp = ГВСП
 CMJobChiefMP = Голова ВСП
 
 cm-job-name-militarywarden = Військовий Наглядач
-cm-job-description-militarywarden = Керуйте бригом, займайтеся паперами, й випалюйте злочинність.
+cm-job-description-militarywarden = Керуйте бригом, займайтеся паперами, випалюйте злочинність.
 cm-job-prefix-militarywarden = ВН
 CMJobMilitaryWarden = Військовий Наглядач
 

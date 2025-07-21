@@ -1,7 +1,7 @@
 ﻿rmc-ghost-role-information-freelancer-rules = You are a [color=blue][bold]Freelancer[/bold][/color]. You may or may not be hostile to the marines, depending on admin instructions.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
 rmc-ghost-role-information-freelancer-friendly-description = Help the crew of the UNS ship in exchange for payment, and choose your payment well. Do what your Warlord says. Ensure your survival at all costs.
 rmc-ghost-role-information-freelancer-hostile-description = Ransack the UNS ship and kill anyone who gets in your way. Do what your Warlord says. Ensure your survival at all costs.

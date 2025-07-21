@@ -1,6 +1,6 @@
-﻿# Non Marine Personnel
+﻿# Не морпіхотний персонал
 cm-job-name-correspondent = Кореспондент
-cm-job-description-correspondent = Напишіть новини про все що захочете, наприклад про безстрашних морпіхів.
+cm-job-description-correspondent = Напишіть та запишіть все, що захочете. Як наприклад - героїчних морпіхів!
 cm-job-prefix-correspondent = ПРЕСС
 CMJobCorrespondent = Кореспондент
 
@@ -9,21 +9,21 @@ cm-job-description-liaison = Будьте зв'язковим між корпо�
 cm-job-prefix-liaison = ПК
 CMJobLiaison = Представник Корпорації
 
-rmc-job-name-synth = UNMC Synthetic
-rmc-job-description-synth = Support and assist the UNMC Departments and Personnel.
-rmc-job-prefix-synth = SYN
-RMCJobSynthetic = Synthetic
+rmc-job-name-synth = Синтет КМПОН
+rmc-job-description-synth = Підтримувати й допомагати відділом та персоналу КМПОН.
+rmc-job-prefix-synth = СИНТ
+RMCJobSynthetic = Синтет
 
-rmc-job-name-synth-colony = Colony Synthetic
-rmc-job-description-synth-colony = Support and assist the Colony Personnel.
+rmc-job-name-synth-colony = Синтет Колонії
+rmc-job-description-synth-colony = Підтримувати й допомагати персоналу Колонії.
 
-rmc-job-name-dynagrid-engineer = Dynagrid Engineer
-rmc-job-description-dynagrid-engineer = Maintain the Dynagrid Nexus and other power facilities of Hybrisa Prospera.
-rmc-job-prefix-dynagrid-engineer = DG ENG
+rmc-job-name-dynagrid-engineer = Інженер Дінагрид
+rmc-job-description-dynagrid-engineer = Підтримувати Дінагрід Нексус та інші енергетичні об'єкти Процвітаючої Гібріси.
+rmc-job-prefix-dynagrid-engineer = ДГ ІНЖ
 
-rmc-job-name-novamed-doctor = Nova Medica Doctor
-rmc-job-description-novamed-doctor = Treat inbound patients at the Nova Medica Hospital.
-rmc-job-prefix-novamed-doctor = NM DOC
+rmc-job-name-novamed-doctor = Лікар Нова Медика
+rmc-job-description-novamed-doctor = Лікуйте пацієнтів, що надходять у лікарню Нова Медика.
+rmc-job-prefix-novamed-doctor = НМ ЛКР
 
-rmc-job-name-hybrisa-civilian = Hybrisa Prospera Colonist
-rmc-job-description-hybrisa-civilian = Live out your life within Hybrisa Prospera.
+rmc-job-name-hybrisa-civilian = Колоніст Процвітаючої Гібріси
+rmc-job-description-hybrisa-civilian = Проживи своє життя в Провцітаючій Гібрсі.

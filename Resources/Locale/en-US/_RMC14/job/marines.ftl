@@ -10,17 +10,17 @@ cm-job-prefix-squad-leader = ЛЗ
 CMJobSquadLeader = Лідер Загону
 
 cm-job-name-fireteam-leader = Лідер Вогневої Групи
-cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати наказ лідера загону. Зкоординуйте свої сили з БПП та іншими типами підтримки.
+cm-job-description-fireteam-leader = Командуйте своєю групою намагаючись виконати накази лідера загону. Скоординуйте свої сили з БПП та іншими типами підтримки. Будьте готові очолити загін.
 cm-job-prefix-fireteam-leader = ЛВГ
 CMJobFireteamLeader = Лідер Вогневої Групи
 
 cm-job-name-weapons-specialist = Збройний Спеціаліст
-cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений воїн, за потреби, зможете очолити загін.
+cm-job-description-weapons-specialist = Ви маєте доступ до потужнішої зброї і кращого екіпірування. Оскільки ви досвідчений морпіх, за потреби, будьте готові очолити загін.
 cm-job-prefix-weapons-specialist = ЗСПЦ
 CMJobWeaponsSpecialist = Збройний Спеціаліст
 
 cm-job-name-smart-gun-operator = Оператор Смартгана
-cm-job-description-smart-gun-operator = Прикривайте свій загін вогнем та дайте ворогу скуштувати самонавідного свинцю.
+cm-job-description-smart-gun-operator = Прикривайте свій загін вогнем та дайте ворогу скуштувати самонавідного свинцю. Будьте готові очолити загін.
 cm-job-prefix-gun-operator = ОСГ
 CMJobSmartGunOperator = Оператор Смартгана
 
@@ -30,32 +30,32 @@ cm-job-prefix-hospital-corpsman = БМ
 CMJobHospitalCorpsman = Бойовий Медик
 
 cm-job-name-combat-tech = Бойовий Технік
-cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ. Хваліться усім своєю турелькою та тим що можете проникнути всюди.
+cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ. Хваліться усім своєю турелькою та тим, що можете проникнути всюди.
 cm-job-prefix-combat-tech = БТ
 CMJobCombatTech = Бойовий Технік
 
-rmc-job-name-mortar-operator = Mortar Operator
-rmc-job-prefix-mortar-operator = MO
+rmc-job-name-mortar-operator = Оператор Міномету
+rmc-job-prefix-mortar-operator = ОМ
 
-rmc-job-name-loader = Loader
-rmc-job-prefix-loader = LDR
+rmc-job-name-loader = Заряджаючий
+rmc-job-prefix-loader = ЗРД
 
-rmc-job-name-spotter = Spotter
-rmc-job-prefix-spotter = SPTR
+rmc-job-name-spotter = Навідник
+rmc-job-prefix-spotter = НВД
 
-rmc-job-name-weapons-specialist-demo = Demolitionist Specialist
-rmc-job-prefix-weapons-specialist-demo = DEMO
+rmc-job-name-weapons-specialist-demo = Спеціаліст-Підривник
+rmc-job-prefix-weapons-specialist-demo = ПДР
 
-rmc-job-name-weapons-specialist-grenadier = Grenadier Specialist
-rmc-job-prefix-weapons-specialist-grenadier = GRND
+rmc-job-name-weapons-specialist-grenadier = Спеціаліст-Гренадер
+rmc-job-prefix-weapons-specialist-grenadier = ГРН
 
-rmc-job-name-weapons-specialist-sniper = Sniper Specialist
-rmc-job-prefix-weapons-specialist-sniper = SNPR
+rmc-job-name-weapons-specialist-sniper = Спеціаліст-Снайпер
+rmc-job-prefix-weapons-specialist-sniper = СНП
 
-rmc-job-name-weapons-specialist-anti-materiel-sniper = AMR Specialist
-rmc-job-prefix-weapons-specialist-anti-materiel-sniper = AMR
+rmc-job-name-weapons-specialist-anti-materiel-sniper = Спеціаліст-АМГ
+rmc-job-prefix-weapons-specialist-anti-materiel-sniper = АМГ
 
-rmc-job-name-weapons-specialist-scout = Scout Specialist
-rmc-job-prefix-weapons-specialist-scout = SCT
+rmc-job-name-weapons-specialist-scout = Спеціаліст-Розвідник
+rmc-job-prefix-weapons-specialist-scout = РЗВ
 
-rmc-job-name-forecon-spotter = Recon Spotter
+rmc-job-name-forecon-spotter = Навідник Розвідки
