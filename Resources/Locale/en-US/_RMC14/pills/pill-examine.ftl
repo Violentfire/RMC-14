@@ -11,3 +11,4 @@ cm-pill-contents-kelotane = Пігулка Келотану. Заліковує 
 cm-pill-contents-tricordrazine = Пігулка Трикордразину. Слабко лікує всі види покоджень.
 rmc-pill-contents-meralyne-bicaridine = A Meralyne-Bicaridine pill. Rapidly heals brute damage.
 rmc-pill-contents-russianred = A Russian Red pill. A very dangerous radiation-countering substance.
+rmc-pill-contents-antized = A pill of some unique medicine. You believe it can treat necrotic infections.

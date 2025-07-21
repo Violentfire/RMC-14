@@ -4,13 +4,14 @@
   name: Відпочити
   description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: resting
-    event: !type:XenoRestActionEvent
     useDelay: 1
+  - type: InstantAction
+    event: !type:XenoRestActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -27,11 +28,12 @@
   parent: ActionXenoBase
   name: Відчути Ксеноїдів
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: watch_xeno
+  - type: InstantAction
     event: !type:XenoWatchActionEvent
 
 - type: entity
@@ -49,13 +51,14 @@
   name: Виділити Феромони (35) # TODO RMC14 proper plasma costs
   description: Надає обрані підсилення ближнім ксеносам. [color=cyan]Споживає 2,5 плазми на секунду.[/color]
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: emit_pheromones
-    event: !type:XenoPheromonesActionEvent
     useDelay: 0.33
+  - type: InstantAction
+    event: !type:XenoPheromonesActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -73,13 +76,14 @@
   name: Ховатися
   description: Якщо активовано, ви будете ховатися від інкубаторського ока під столами та іншими об'єктами.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: xenohide
-    event: !type:XenoHideActionEvent
     useDelay: 0.5
+  - type: InstantAction
+    event: !type:XenoHideActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -95,13 +99,14 @@
   name: Опустити Гребінь
   description: Збільшує ваш захист від куль, але ви рухаєтеся повільнішею. Ви вважаєтесь на один розмір більшим, коли ваш гребінь опущений.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: crest_defense
-    event: !type:XenoToggleCrestActionEvent
     useDelay: 2
+  - type: InstantAction
+    event: !type:XenoToggleCrestActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -117,13 +122,14 @@
   name: Укріпитися
   description: Стаєте нерухомою і непрохідним для інших, значно підвищуючи опір прямій шкоді та вибухам. шкода додатково зменшується з боку, куди ви дивитесь. Вас не можна оглушити від слабких вибухів. Ви вважаєтесь на два розміри більшим у зміцненому стані і все ще можете атакувати структури або використовувати удар хвостом.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: fortify
-    event: !type:XenoFortifyActionEvent
     useDelay: 5
+  - type: InstantAction
+    event: !type:XenoFortifyActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -145,13 +151,14 @@
   name: Смолоход (50) # TODO RMC14 proper plasma costs
   description: Ви швидше рухаєтеся по траві.  [color=cyan]Споживає 30 плазми на секунду.[/color]
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: toggle_speed
-    event: !type:XenoResinWalkerActionEvent
     useDelay: 0.25
+  - type: InstantAction
+    event: !type:XenoResinWalkerActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -166,13 +173,14 @@
   parent: ActionXenoBase
   name: Перемкнути Дальновидність
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: toggle_long_range
-    event: !type:XenoZoomActionEvent
     useDelay: 0.2
+  - type: InstantAction
+    event: !type:XenoZoomActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -188,13 +196,14 @@
   name: Слово Королеви (50) # TODO RMC14 proper plasma costs
   description: Цей гомін пролунає в головах усіх членів вашого вулику.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: queen_word
-    event: !type:XenoWordQueenActionEvent
     useDelay: 10
+  - type: InstantAction
+    event: !type:XenoWordQueenActionEvent
   - type: XenoWordQueenAction
   - type: RMCDazeableAction
 
@@ -204,11 +213,12 @@
   name: Прикріпитися до Яйцеклада (700) # TODO RMC14 proper plasma costs
   description: Стаєте нерухомою та починаєте відкладати яйця з яких потім вилізуть гарнюні паразитики. Має п'ятихвилинну перезарядку. [color=red]ЦЕ ЄДИНИЙ СПОСІБ КСЕНОЇДАМ ОТРИМУВАТИ ОЧКИ ЕВОЛЮЦІЇ ПІСЛЯ ПОЧАТКУ РАУНДУ![/color]
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: grow_ovipositor
+  - type: InstantAction
     event: !type:XenoGrowOvipositorActionEvent
   - type: XenoGrowOvipositorAction
 
@@ -228,11 +238,12 @@
   name: Стати Невидимим (20) # TODO RMC14 proper plasma costs
   description: Станьте частково невидимим, на короткий час чи до того як атакуєте. Can be toggled off to become visible again, with a refund of 90% remaining cloak time. Increases your movement speed by 15% until the ability expires.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: lurker_invisibility
+  - type: InstantAction
     event: !type:XenoTurnInvisibleActionEvent
 
 - type: entity
@@ -249,13 +260,14 @@
   name: Захистний Щит (50)
   description: Тимчасовий щит який блокує наступні 200 одиниць шкоди (І дає імунітет до вибухів), що діє 7 секунд. Будь-яка шкода, що потрапляє на щит зменьшується вдесятеро.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: empower
-    event: !type:XenoDefensiveShieldActionEvent
     useDelay: 26
+  - type: InstantAction
+    event: !type:XenoDefensiveShieldActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -271,16 +283,18 @@
   name: Взяти Яйце
   description: Виймає яйце з вашого сховища, якщо в вас вільна рука. Використання цієї дії на непосаджене яйце підніме всі непосаджені яйця поблизу. Якщо тримати яйце в руці й активувати цю дію, воно буде покладене до сховища.
   components:
-  - type: WorldTargetAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: retrieve_egg
-    event: !type:XenoRetrieveEggActionEvent
+  - type: TargetAction
     checkCanAccess: false
     deselectOnMiss: false
     repeat: true
     range: 16
+  - type: WorldTargetAction
+    event: !type:XenoRetrieveEggActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -296,17 +310,19 @@
   name: Кинути Паразита
   description: Дістає паразита зі сховища, якщо у вас вільна рука. Якщо використати цю дію на паразиті на землі — ви піднімете всіх паразитів поблизу. Якщо націлити плитку, тримаючи паразита в руці, ви кинете його на відстань до 4 плиток, після чого паразит буде оглушений на 5 секунд. Повторне використання паразита в руці покладе його назад до вашого сховища. [color=green]Паразити не помирають з часом, поки ви їх тримаєте або несете.[/color]
   components:
-  - type: WorldTargetAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: throw_parasite
-    event: !type:XenoThrowParasiteActionEvent
+    useDelay: 0
+  - type: TargetAction
     checkCanAccess: false
     deselectOnMiss: false
     repeat: true
     range: 16
-    useDelay: 0
+  - type: WorldTargetAction
+    event: !type:XenoThrowParasiteActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -322,13 +338,14 @@
   name: Встановити Резерв Паразитів
   description: Встановлює ваш резерв паразитів. Спостерігачі не зможуть приєднатись як збережений паразит, якщо кількість паразитів у вашому сховищі менша або дорівнює резерву.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: reserve_parasite
-    event: !type:XenoReserveParasiteActionEvent
     useDelay: 1
+  - type: InstantAction
+    event: !type:XenoReserveParasiteActionEvent
 
 - type: entity
   parent: CMGuidebookActionXenoBase
@@ -343,13 +360,14 @@
   id: ActionXenoManageHive
   name: Керування Вуликом
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: xeno_readmit
-    event: !type:ManageHiveActionEvent
     useDelay: 0.5
+  - type: InstantAction
+    event: !type:ManageHiveActionEvent
 
 - type: entity
   id: ActionXenoDodge
@@ -357,13 +375,14 @@
   name: Ухилення (200)
   description: Отримуєте прискорення на 7 секунд і можете вільно проходити крізь союзників та ворогів. Ваша швидкість подвоюється поблизу нерухомих ворогів.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: prae_dodge
-    event: !type:XenoDodgeActionEvent
     useDelay: 19
+  - type: InstantAction
+    event: !type:XenoDodgeActionEvent
 
 - type: entity
   parent: ActionXenoBase
@@ -371,17 +390,19 @@
   name: Заритися
   description: "Зариваєтесь під землю що запобігає будь-яким атакам по вам. Після заривання Ви можете клікнути по плитці щоб переміститися туди і з’явитися на поверхні через час, який залежить від відстані."
   components:
-  - type: WorldTargetAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: burrow
-    event: !type:XenoBurrowActionEvent
+    checkCanInteract: false
+  - type: TargetAction
     range: 8
     repeat: true
     deselectOnMiss: false
     checkCanAccess: false
-    checkCanInteract: false
+  - type: WorldTargetAction
+    event: !type:XenoBurrowActionEvent
   - type: ActionBlockIfResting
 
 - type: entity
@@ -398,13 +419,14 @@
   name: Поглинання (20)
   description: Протягом 6 секунд Ви поглинаєте шкоду. Якщо отримуєте 140 або більше шкоди відновлюєте 75 здоров’я а удар хвостом оновлюється.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: soak
-    event: !type:XenoSoakActionEvent
     useDelay: 17
+  - type: InstantAction
+    event: !type:XenoSoakActionEvent
   - type: ActionBlockIfResting
 
 - type: entity
@@ -413,11 +435,12 @@
   name: Підсилення (50)
   description: При першій активації ви отримуєте невеликий щит. Через 6 секунд або при повторному використанні ви отримуєте підсилення залежно від кількості ворогів навколо (максимум 6), отримуючи щит від кожного. Якщо ви підсилилися від щонайменше 3 цілей, стаєте суперпідсиленим - отримуєте додаткову шкоду в ближньому бою та змінюється дія деяких ваших інших здібностей.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: rav_empower
+  - type: InstantAction
     event: !type:XenoEmpowerActionEvent
   - type: ActionBlockIfResting
 
@@ -435,11 +458,12 @@
   name: Створювати Яйця (50)
   description: Генеруєте яйце кожні 30 секунд, яке потрапляє до вашого сховища. [color=cyan]споживає 15 плазми кожні 2 секунди.[/color]
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: lay_egg
+  - type: InstantAction
     event: !type:XenoGenerateEggsActionEvent
 
 - type: entity

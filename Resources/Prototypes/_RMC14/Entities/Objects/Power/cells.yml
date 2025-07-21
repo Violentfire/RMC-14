@@ -26,8 +26,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellCrap
-  name: We-Ya rechargeable mini-battery
-  description: Cheap, throwaway batteries provided by the Weston-Yamada Corporation. The 'rechargeable' feature was added to be more marketable to independent colonists hell-bent on 'using it till it disintegrates', a common sentiment on the frontier.
+  name: міні-батарея Ве-Я
+  description: "Дешеві одноразові батареї, які постачає корпорація Вестон-Ямада. Функція 'перезаряджуваності' була додана для кращого маркетингу серед незалежних колоністів, які дотримуються принципу 'користуватися, поки не розсиплеться' - поширена практика на фронтирі."
   components:
   - type: Sprite
     layers:
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellHigh
-  name: high-capacity power cell
+  name: акумулятор великої ємності
   components:
   - type: Sprite
     layers:
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellSuper
-  name: super-capacity power cell
+  name: акумулятор надвеликої ємності
   components:
   - type: Sprite
     layers:
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellHyper
-  name: hyper-capacity power cell
+  name: акумулятор гіперємності 
   components:
   - type: Sprite
     layers:
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellInfinite
-  name: infinite-capacity power cell
+  name: акумулятор нескінченної ємності
   components:
   - type: Sprite
     layers:
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellPotato
-  name: potato battery
-  description: A rechargeable starch-based power cell.
+  name: картопляна батерейка
+  description: Перезаряджаємий енергетичний елемент на основі крохмалю.
   components:
   - type: Sprite
     layers:
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCPowerCell
   id: RMCPowerCellSmartgun
-  name: smart gun ML66A battery
-  description: "A standard-issue 9-volt lithium dry-cell battery, most commonly used within the UNMC to power smartguns. Per the manual, one battery is good for up to 50000 rounds and plugs directly into the smartgun's power receptacle, which is only compatible with this type of battery. Various auxiliary modes usually bring the round count far lower. While this cell is incompatible with most standard electrical system, it can be charged by common rechargers in a pinch. UNMC smartgunners often guard them jealously."
+  name: батарея для смарт-кулемету МЛ66A
+  description: "Стандартна 9-вольтова літієва суха батарея, що використовується у КМПОН для живлення смарт-кулемету. За інструкцією, одна батарея забезпечує до 50 000 пострілів і підключається безпосередньо до роз’єму живлення смарт-кулемету, сумісного лише з цим типом батарей. Різні додаткові режими зазвичай значно знижують кількість пострілів. Хоча ця батарея несумісна з більшістю стандартних електросистем, у разі потреби її можна заряджати за допомогою звичайних зарядних пристроїв. Оператори смарт-кулеметів КМПОН часто ревно їх охороняють"
   components:
   - type: Sprite
     layers:

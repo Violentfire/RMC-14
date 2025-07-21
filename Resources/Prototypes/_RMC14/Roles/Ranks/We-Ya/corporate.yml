@@ -1,17 +1,26 @@
 - type: rank
+  id: RMCRankWeYaTrainee
+  name: Trainee
+  prefix: Trn.
+  paygrade: WYC1
+
+- type: rank
   id: RMCRankWeYaJuniorExecutive
   name: Молодший керівник
   prefix: Мол.Кер.
+  paygrade: WYC2
 
 - type: rank
   id: RMCRankWeYaExecutive
   name: Керівник
   prefix: Кер.
+  paygrade: WYC3
 
 - type: rank
   id: RMCRankWeYaSeniorExecutive
   name: Старший керівник
   prefix: Старш.Кер.
+  paygrade: WYC4
 
 - type: rank
   id: RMCRankWeYaExecutiveSpecialist
@@ -29,26 +38,31 @@
   id: RMCRankWeYaAssistantManager
   name: Помічник менеджера
   prefix: Помін.Мен.
+  paygrade: WYC7
 
 - type: rank
   id: RMCRankWeYaDivisionManager
   name: Керівник відділу
   prefix: Кер.Від.
+  paygrade: WYC8
 
 - type: rank
   id: RMCRankWeYaChiefExecutive
   name: Головний керівник
   prefix: Гол.Кер.
+  paygrade: WYC9
 
 - type: rank
   id: RMCRankWeYaDeputyDirector
   name: Заступник директора
   prefix: Заст. Директора
+  paygrade: WYC10
 
 - type: rank
   id: RMCRankWeYaDirector
   name: Директор
   prefix: Директор
+  paygrade: WYC11
 
 # Lawyers
 - type: rank
@@ -60,3 +74,10 @@
   id: RMCRankWeYaLegalSupervisor
   name: Юридичний інспектор
   prefix: Юр.Інсп.
+
+# Pilots
+- type: rank
+  id: RMCRankWeYaPilotOfficer
+  name: Captain
+  prefix: Capt
+  paygrade: WYPO2

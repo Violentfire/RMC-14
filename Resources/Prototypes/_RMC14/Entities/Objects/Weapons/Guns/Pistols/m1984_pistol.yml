@@ -1,5 +1,5 @@
 - type: entity
-  parent: CMWeaponPistolBase
+  parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: CMWeaponPistolM1984
   name: M1984 службовий пістолет
   description: Службовий пістолет M1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними патронами.

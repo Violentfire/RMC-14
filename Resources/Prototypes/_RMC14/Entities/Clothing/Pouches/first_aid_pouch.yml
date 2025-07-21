@@ -25,7 +25,8 @@
 - type: entity
   parent: RMCPouchFirstAid
   id: RMCPouchFirstAidInjectors
-  suffix: Інжектори
+  suffix: Injectors
+  description: Contains a variety of autoinjectors for quickly treating injuries.
   components:
   - type: StorageFill
     contents:

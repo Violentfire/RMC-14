@@ -355,9 +355,9 @@
       - CigPack
       - RMCPenlight
       - Flare
+      #      - # TODO RMC14 minitank (needs full implementation and a tag to fit it in here, but the item exists as CMMiniTank)
       #      - # TODO RMC14 reagent analyzer
       #      - # TODO RMC14 plant analyzer
-      #      - # TODO RMC14 minitank
       components:
       - Hypospray
       - Defibrillator
@@ -427,7 +427,7 @@
   parent: CMBeltMarine
   id: CMBeltSmartGunOperator
   name: ремінь оператора смартгана зразка М280
-  description: Не дивлячісь на те, що 1. барабани надзвичайно неергономні, і 2. потребують надзвичайно точної обробки щоби бути сумісними зі зброєю (спойлер, це копіум, додаючи ще один міф до 'Характеру Смарт Ганів'), морпіхота вирішила прийняти на озброєння модифікований ремінь (формально більш відомий під назвою М280) з гачками і пилозахисними чохлом (надто складним для пересічного марінада) для барабанних магазинів системи ML66A. Коли гачок на барабанах не застрягає в залитій мастилом липучці, ремінь досить добре справляється з перенесенням великої кількості амуніції. Але зрештою, у порівнянні зі звичайним ременем... він відстій. Але ж хіба не про це морпіхота?
+  description: Не дивлячісь на те, що 1. барабани надзвичайно неергономні, і 2. потребують надзвичайно точної обробки щоби бути сумісними зі зброєю (спойлер, це копіум, додаючи ще один міф до 'Характеру Смарт Ганів'), морпіхота вирішила прийняти на озброєння модифікований ремінь (формально більш відомий під назвою М280) з гачками і пилозахисними чохлом (надто складним для пересічного марінада) для барабанних магазинів системи МЛ66A. Коли гачок на барабанах не застрягає в залитій мастилом липучці, ремінь досить добре справляється з перенесенням великої кількості амуніції. Але зрештою, у порівнянні зі звичайним ременем... він відстій. Але ж хіба не про це морпіхота?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator/jungle-classic.rsi
@@ -574,8 +574,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSmartPistol
-  name: ремінь для смарт пістолету SU-6 зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія для смарт пістолета SU-6.
+  name: ремінь для смарт пістолету СП-6 зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія для смарт пістолета СП-6.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_pistol.rsi
@@ -658,6 +658,15 @@
     - sprite: _RMC14/Objects/Weapons/Guns/gun_underlays.rsi
       state: highpower
       map: [ "mk45_fill" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/gun_underlays.rsi
+      state: deagle
+      map: [ "handcannon_fill" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/gun_underlays.rsi
+      state: g_deagle
+      map: [ "g_handcannon_fill" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/gun_underlays.rsi
+      state: c_deagle
+      map: [ "co_handcannon_fill" ]
     - state: icon-front
       map: [ "holstered" ]
     - state: half
@@ -710,6 +719,9 @@
     - b92fs_fill
     - mk45_fill
     - m13_fill
+    - handcannon_fill
+    - g_handcannon_fill
+    - co_handcannon_fill
     mapLayers:
       holstered:
         whitelist:
@@ -739,6 +751,18 @@
         whitelist:
           tags:
           - RMCWeaponPistolM13
+      handcannon_fill:
+        whitelist:
+          tags:
+          - RMCWeaponPistolHandcannon
+      g_handcannon_fill:
+        whitelist:
+          tags:
+          - RMCWeaponPistolHandcannonGold
+      co_handcannon_fill:
+        whitelist:
+          tags:
+          - RMCWeaponPistolHandcannonWyvern
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Clothing/Belt/holster_pistol/classic-jungle.rsi
@@ -1249,7 +1273,7 @@
   parent: CMBeltBaseStorage
   id: RMCM300SOCOMBelt
   name: ремінь для патронів .458 SOCOM зразка М300
-  description: Ремінь створений для переноски потужного набою .458 SOCOM для важкої гвинтівки ХМ88.
+  description: Ремінь створений для переноски потужного набою .458 SOCOM для важкої гвинтівки ТМГ-88.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm88/jungle-classic.rsi
@@ -1292,11 +1316,11 @@
   components:
   - type: StorageFill
     contents:
-    - id: RMCMagazinePistolD50WinterWyvernHI
+    - id: RMCMagazinePistolHandcannon
       amount: 4
-    - id: RMCMagazinePistolD50WinterWyvernHIAP
+    - id: RMCMagazinePistolHandcannonHIAP
       amount: 2
-    - id: RMCWeaponPistolCOD50WinterWyvern
+    - id: RMCWeaponPistolHandcannonWinterWyvern
 
 - type: entity
   parent: CMBeltMarine
@@ -1371,6 +1395,26 @@
   - type: StorageFill
     contents:
     - id: RMCMagazineRifleType71
+      amount: 5
+
+- type: entity
+  parent: CMBeltMarine
+  id: RMCMAR40BeltFilled
+  suffix: Filled, MAR40
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleMAR40
+      amount: 5
+
+- type: entity
+  parent: CMBeltMarine
+  id: RMCMAR50BeltFilled
+  suffix: Filled, MAR50
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineMar50LMG
       amount: 5
 
 - type: entity

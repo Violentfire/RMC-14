@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentMOU53Stock
-  name: тактичний приклад MOU53
-  description: Металевий приклад, спеціально розроблений для рушниці MOU53
+  name: тактичний приклад УМО-53
+  description: Металевий приклад, спеціально розроблений для рушниці УМО-53
   components:
   - type: Sprite
     state: ou_stock
@@ -684,6 +684,63 @@
 
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
+  id: RMCAttachmentMP5AltStockCollapsible
+  name: MP5A5 folding stock
+  description: MP5A5 folding stock for Alternate MP5
+  components:
+  - type: Sprite
+    state: mp5_stock
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RMCAttachmentMP5AltStockCollapsible
+  - type: AttachableToggleable
+    icon:
+      sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
+      state: mp5_stock
+    iconActive:
+      sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
+      state: mp5_stock-on
+    actionName: Toggle Submachinegun Folding Stock
+  - type: AttachableSizeMods
+    modifiers:
+    - conditions:
+        activeOnly: true
+      size: 1
+  - type: AttachableSpeedMods
+    modifiers:
+    - conditions:
+        wieldedOnly: true
+        activeOnly: true
+      walk: -0.024
+      sprint: -0.043
+  - type: AttachableWieldDelayMods
+    modifiers:
+    - conditions:
+        activeOnly: true
+      delay: 0.4
+  - type: AttachableWeaponMeleeMods
+    modifiers:
+    - bonusDamage:
+        types:
+          Blunt: 10
+  - type: AttachableWeaponRangedMods
+    modifiers:
+    - conditions:
+        wieldedOnly: true
+        activeOnly: true
+      accuracyAddMult: 0.15
+      recoilFlat: -2
+      scatterFlat: -6
+    - conditions:
+        unwieldedOnly: true
+        activeOnly: true
+      accuracyAddMult: -0.15
+      recoilFlat: 2
+      scatterFlat: 2
+
+- type: entity
+  parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentM63ArmBrace
   name: ручна підпора для пістолета-кулемета
   description: Спеціалізований приклад для використання з пістолетом-кулеметом M63. Він підвищує точність при стрільбі однією рукою, але зменшує кількість пострілів в серії. Використання зброї з цим прикладом додає значний штраф до точності та віддачі.
@@ -789,8 +846,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCAttachmentXM88Stock
-  name: приклад XM88 з амортизацією
-  description: Спеціально виготовлений композитний полімерний приклад, посилений алюмінієвими прутами та товстою гумовою підкладкою для захисту користувача від віддачі. Сумісний виключно з важкою гвинтівкою XM88.
+  name: приклад ТМГ-88 з амортизацією
+  description: Спеціально виготовлений композитний полімерний приклад, посилений алюмінієвими прутами та товстою гумовою підкладкою для захисту користувача від віддачі. Сумісний виключно з важкою гвинтівкою ТМГ-88.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/stock.rsi
@@ -845,6 +902,21 @@
     tags:
     - RMCAttachmentStock
     - RMCAttachmentHG3712Stock
+
+- type: entity
+  parent: RMCStockAttachmentBase
+  id: RMCAttachmentM3714Stock
+  name: M3714 stock
+  description: The non-detachable stock of a M37-14 pump shotgun.
+  components:
+  - type: Sprite
+    state: M3714stock
+  - type: AttachableVisuals
+    suffix: ""
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RMCAttachmentM3714Stock
 
 - type: entity
   parent: RMCStockAttachmentBase
@@ -922,6 +994,9 @@
 
 - type: Tag
   id: RMCAttachmentHG3712Stock
+
+- type: Tag
+  id: RMCAttachmentM3714Stock
 
 - type: Tag
   id: RMCAttachmentStock
@@ -1006,3 +1081,6 @@
 
 - type: Tag
   id: RMCAttachmentAK4047StockCollapsible
+
+- type: Tag
+  id: RMCAttachmentMP5AltStockCollapsible

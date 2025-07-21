@@ -27,6 +27,7 @@ materials-bones = кістка
 materials-coal = вугілля
 materials-diamond = алмаз
 materials-gunpowder = порох
+materials-cotton = cotton
 
 # Ores
 materials-raw-iron = залізна рула

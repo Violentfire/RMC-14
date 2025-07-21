@@ -554,10 +554,12 @@
   name: M203 гранатомет
   description: Антикварний підствольний гранатомет. Вміщує лише одну 40-мм гранату, не має сучасних систем УДВ, та не уникне влучання в ваших друзів.
   components:
-  - type: Sprite # TODO: No IFF for this launcher
+  - type: Sprite
     layers:
       - state: grenade-m203
         map: [ "enum.BreechVisuals.Open" ]
+  - type: GunIFF
+    enabled: false
   - type: BallisticAmmoProvider
     capacity: 1
   - type: ShootAtFixedPoint
@@ -621,7 +623,8 @@
   name: підствольне кріплення для ліхтаря
   description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Трохи знижує віддачу та розсіювання. Працює як джерело світла. 
   components:
-  - type: ToggleableLightVisuals
+  - type: ItemTogglePointLight
+  - type: ToggleableVisuals
     spriteLayer: light
   - type: PointLight
     enabled: false

@@ -64,7 +64,9 @@
     tags:
     - BypassInteractionRangeChecks
   - type: PointLight
+    netsync: false
     radius: 6
+    castShadows: false
     enabled: false
   - type: ActiveInputMover
   - type: GhostColor
@@ -101,59 +103,65 @@
     - AllowGhostShownByEvent
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionGhostBoo
   name: Буу!
   description: Налякайте членів екіпажу, через вашу нудьгу!
   components:
-  - type: InstantAction
+  - type: Action
     icon: Interface/Actions/scream.png
     checkCanInteract: false
-    event: !type:BooActionEvent
     startDelay: true
     useDelay: 120
+  - type: InstantAction
+    event: !type:BooActionEvent
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionToggleLighting
   name: Перемкнути все освітлення
   description: Перемикає рендерінг всього освітлення, щоб краще бачити темні ділянки.
   components:
-  - type: InstantAction
+  - type: Action
     icon: Interface/VerbIcons/light.svg.192dpi.png
     clientExclusive: true
-    checkCanInteract: false
+  - type: InstantAction
     event: !type:ToggleLightingActionEvent
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionToggleFov
   name: Перемкнути Поле Зору
   description: Перемикає поле зору, щоб бачити те, що бачать гравці.
   components:
-  - type: InstantAction
+  - type: Action
     icon: Interface/VerbIcons/vv.svg.192dpi.png
     clientExclusive: true
-    checkCanInteract: false
+  - type: InstantAction
     event: !type:ToggleFoVActionEvent
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionToggleGhosts
   name: Перемкнути привидів
   description: Перемикає видимість привидів
   components:
-  - type: InstantAction
+  - type: Action
     icon: { sprite: Mobs/Ghosts/ghost_human.rsi, state: icon }
     clientExclusive: true
-    checkCanInteract: false
+  - type: InstantAction
     event: !type:ToggleGhostsActionEvent
 
 - type: entity
+  parent: BaseMentalAction
   id: ActionToggleGhostHearing
   name: Перемкнути слух привидів
   description: Перемикайтеся між прослуховуванням усіх повідомлень і прослуховуванням лише радіо та повідомлень поблизу.
   components:
-  - type: InstantAction
-    checkCanInteract: false
+  - type: Action
     icon:
       sprite: Clothing/Ears/Headsets/base.rsi
       state: icon
     iconOn: Interface/Actions/ghostHearingToggled.png
+  - type: InstantAction
     event: !type:ToggleGhostHearingActionEvent

@@ -2,8 +2,9 @@
   id: RMCActionViewIntelObjectives
   name: Переглянути Цілі Розвідки
   components:
-  - type: InstantAction
+  - type: Action
     checkCanInteract: false
     icon:
       entity: CMFolderWhite
+  - type: InstantAction
     event: !type:ViewIntelObjectivesActionEvent

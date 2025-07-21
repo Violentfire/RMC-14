@@ -5,4 +5,5 @@ construction-menu-place-ghost = Поставити примари констру
 construction-menu-clear-all = Очистити Все
 construction-menu-eraser-mode = Режим очистки
 construction-menu-craft = Створити
+construction-menu-search = Search
 construction-menu-grid-view = Grid View

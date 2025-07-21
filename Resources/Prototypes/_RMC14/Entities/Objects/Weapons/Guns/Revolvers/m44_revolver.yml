@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: RMCWeaponRevolverBase
+  parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverM44
   name: M44 бойовий револьвер
   description: Масивний револьвер, який час від часу носять штурмовики та офіцери, а також цивільні правоохоронці. Стріляє набоями .44 Магнум.

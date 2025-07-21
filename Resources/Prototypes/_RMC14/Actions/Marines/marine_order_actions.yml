@@ -4,11 +4,12 @@
   name: Наказ - Цілитися
   description: Збільшує точність ближніх морпіхів
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/marine_actions.rsi
       state: focus
+  - type: InstantAction
     event: !type:FocusActionEvent
 
 - type: entity
@@ -17,11 +18,12 @@
   name: Наказ - Триматися
   description: Збільшує стійкість ближніх морпіхів 
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/marine_actions.rsi
       state: hold
+  - type: InstantAction
     event: !type:HoldActionEvent
 
 - type: entity
@@ -30,9 +32,10 @@
   name: Наказ - Рухатися
   description: Збільшує швидкість руху ближніх морпіхів
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/marine_actions.rsi
       state: move
+  - type: InstantAction
     event: !type:MoveActionEvent

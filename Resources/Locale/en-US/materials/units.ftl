@@ -16,6 +16,8 @@ materials-unit-slab = кусок
 materials-unit-web = павутиння
 # chunks of ore
 materials-unit-chunk = уламок
+# boll of cotton
+materials-unit-boll = boll
 
 # bills of spesos... not very good but they are not (yet?) used for crafting anything
 # also the lathe/atm would need bigger denominations to output...

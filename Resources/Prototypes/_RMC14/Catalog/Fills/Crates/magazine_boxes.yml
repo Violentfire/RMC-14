@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBatterySmartGun
-  name: Ящик з батареями для смарт-гану ML66A (4 шт.)
+  name: Ящик з батареями для смарт-кулемету МЛ66A (4 шт.)
   components:
   - type: StorageFill
     contents:
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineSmartGun
-  name: Ящик з барабанними магазинами для смарт-гану ML66A (2 шт.)
+  name: Ящик з барабанними магазинами для смарт-кулемету МЛ66A (2 шт.)
   components:
   - type: StorageFill
     contents:
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineNapthalUT
-  name: Ящик паливних баків M34 UT-Napthal (4 шт.)
+  name: Ящик паливних баків M34 УТ-Нафтал (4 шт.)
   components:
   - type: StorageFill
     contents:
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSmartPistol
-  name: Коробка з магазинами (SU-6, 16 шт. звичайних магазинів)
+  name: Коробка з магазинами (СП-6, 16 шт. звичайних магазинів)
   components:
   - type: StorageFill
     contents:
@@ -231,6 +231,36 @@
   - type: StorageFill
     contents:
     - id: RMCMagazineSentryShotgun
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxMagazineSentryFire
+  name: UN 42-FM sentry flamer ammunition (x2)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSentryFire
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxMagazineSentryFireBlue
+  name: UN 55-FA sentry flamer ammunition (x2)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSentryFireBlue
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxMagazineSentryFireSmoke
+  name: UN 60-FP sentry flamer ammunition (x2)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSentryFireSmoke
       amount: 2
 
 - type: entity

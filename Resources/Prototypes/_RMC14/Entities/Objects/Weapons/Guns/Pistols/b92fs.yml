@@ -1,5 +1,5 @@
 - type: entity
-  parent: CMWeaponPistolBase
+  parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolB92FS
   name: Беретта M92FS
   description: Популярний поліцейський пістолет ХХ століття, який часто використовували загартовані копи у протистоянні з терористами. Класика свого часу, під набій 9 мм. Зазвичай зустрічається в руках виживших та бійців Фронту Визволення Колоній.

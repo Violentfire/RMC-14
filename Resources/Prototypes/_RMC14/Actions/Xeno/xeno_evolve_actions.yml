@@ -4,11 +4,12 @@
   name: Еволюціонувати
   description: Еволюціонувати до наступної касти ксеноїдів.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: evolve
+  - type: InstantAction
     event: !type:XenoOpenEvolutionsActionEvent
 
 - type: entity
@@ -17,11 +18,12 @@
   name: Деградувати
   description: Перейти до попередньої касти ксеноїдів. [color=red]ВАМ НЕ ПОВЕРНУТЬ ОЧКИ ЕВОЛЮЦІЇ![/color]
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: NoItem
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: xeno_deevolve
+  - type: InstantAction
     event: !type:XenoOpenDevolveActionEvent
 
 - type: entity

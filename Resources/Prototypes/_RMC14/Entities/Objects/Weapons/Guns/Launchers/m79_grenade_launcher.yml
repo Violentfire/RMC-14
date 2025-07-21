@@ -1,14 +1,11 @@
 - type: entity
   name: гранатомет M79 
-  parent: [ RMCBaseWeaponGrenadeLauncher ]
+  parent: [ RMCBaseSlideMagazineVisualsBallistic, RMCBaseWeaponGrenadeLauncher ]
   id: CMWeaponLauncherM79
   description: M79 - це однозарядний гранатомет, що може швидко перевернути ситуацію в бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m79.rsi
-    layers:
-    - state: base
-      map: [ "enum.GunVisualLayers.Base" ]
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m79.rsi
     slots:

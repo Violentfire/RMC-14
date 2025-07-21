@@ -37,6 +37,7 @@
         type: NameTunnelBui
   - type: DeletedByWeedKiller
   - type: XenoFriendly
+  - type: RMCTrackable
 
 - type: entity
   parent: XenoTunnel
@@ -52,6 +53,7 @@
   parent: XenoTunnelMaint
   id: XenoTunnelMaintNoXenoDesc
   description: Вхід до тунелю для технічного обслуговування. Купка сміття заважає роздивитися більше.
+  suffix: No Xeno Desc
 
 - type: entity
   parent: XenoTunnelMaint

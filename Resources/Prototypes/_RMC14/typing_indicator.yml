@@ -3,4 +3,5 @@
   id: avali
   spritePath: /Textures/_RMC14/Effects/avali_speech.rsi
   typingState: avali0
+  idleState: idle
   offset: -0.12, 0.1

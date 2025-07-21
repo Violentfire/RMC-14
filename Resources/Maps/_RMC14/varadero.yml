@@ -142,9 +142,7 @@ entities:
     - type: Transform
     - type: Map
       mapPaused: True
-    - type: PhysicsMap
     - type: GridTree
-    - type: MovedGrids
     - type: Broadphase
     - type: OccluderTree
     - type: MapLight
@@ -40998,14 +40996,6 @@ entities:
         121,35: RMCAreaVaraderoInteriorToilets
         121,34: RMCAreaVaraderoInteriorToilets
         121,33: RMCAreaVaraderoInteriorToilets
-- proto: ActionToggleLight
-  entities:
-  - uid: 3
-    components:
-    - type: Transform
-      parent: 2
-    - type: InstantAction
-      container: 2
 - proto: Basketball
   entities:
   - uid: 4
@@ -169371,15 +169361,6 @@ entities:
       rot: -12.566370614359172 rad
       pos: 144.50212,85.48593
       parent: 1
-    - type: HandheldLight
-      toggleActionEntity: 3
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot {}
-        actions: !type:Container
-          ents:
-          - 3
-    - type: ActionsContainer
   - uid: 23583
     components:
     - type: Transform

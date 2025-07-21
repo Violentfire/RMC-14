@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: CMWeaponPistolBase
+  parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolHoldout
   name: маленький пістолет
   description: Маленький пістолет, ідеальний для тих, хто любить тримати козир у рукаві. Де саме він був схований? Повір, тобі краще не знати.

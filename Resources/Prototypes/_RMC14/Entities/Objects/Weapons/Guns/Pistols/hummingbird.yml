@@ -1,6 +1,6 @@
 - type: entity
-  parent: CMWeaponPistolBase
-  id: RMCWeaponPistolD18 # TODO Map in on LV-624
+  parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
+  id: RMCWeaponPistolD18
   name: D18 'Колібрі'
   description: Пістолет D18 'Колібрі' був розроблений у середині 2170-х років як дешева та прихована зброя для агентів ФВК із 'сплячих осередків', що діяли з метою вбивств і засідок. Його можна сховати навіть у взутті чи робочих черевиках.
   components:
@@ -81,9 +81,9 @@
 
 - type: Tag
   id: RMCMagazinePistolD18
-      
+
 - type: Tag # For stuff like the D18 and Holdout Pistol
   id: Holdout
-  
+
 - type: Tag
   id: RMCWeaponPistolD18

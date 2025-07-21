@@ -38,5 +38,5 @@ ui-vote-fluff = Запущено з використанням технолог�
 
 ## Vote menu command
 
-ui-vote-menu-command-description = Відкриває меню голосування
-ui-vote-menu-command-help-text = Використання: меню голосування
+cmd-votemenu-desc = Opens the voting menu.
+cmd-votemenu-help = Usage: votemenu

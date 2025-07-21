@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGun
-  name: ML66A смарт-кулемет
+  name: МЛ66A смарт-кулемет
   description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. По суті, це важкий, мобільний кулемет."
   components:
   - type: Wieldable
@@ -231,8 +231,8 @@
 - type: entity
   parent: RMCSmartGun
   id: RMCSmartGunCO
-  name: ML66B 'кавалерійський' смарт-кулемет
-  description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. Окрім міцнішого корпусу, системи ідентифікаційного замка та фантазійного фарбування, зброя ідентична стандартній моделі ML66A."
+  name: "МЛ66Б 'кавалерійський' смарт-кулемет"
+  description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. Окрім міцнішого корпусу, системи ідентифікаційного замка та фантазійного фарбування, зброя ідентична стандартній моделі МЛ66A."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/CO.rsi # the game cries errors if i dont add blank camo sprites even though they dont fucking appear
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "ML66A барабанний магазин (10x30мм)"
+  name: "МЛ66A барабанний магазин (10x30мм)"
   components:
   - type: Tag
     tags:

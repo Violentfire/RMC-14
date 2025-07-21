@@ -4,6 +4,7 @@ rmc-attachable-holder-strip-ui-empty-slot = нічого
 rmc-verb-strip-attachables = Додати обвіси
 
 rmc-aslot-barrel = Ствол
+rmc-bslot-barrel = Mateba Barrel
 rmc-aslot-rail = Рейка
 rmc-aslot-stock = Приклад
 rmc-aslot-underbarrel = Підствольна частина

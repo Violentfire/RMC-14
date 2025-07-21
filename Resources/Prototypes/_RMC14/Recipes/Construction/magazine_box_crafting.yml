@@ -9,10 +9,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для M54C.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
+  description:  Коробка для магазинів, яка може містити регулярні магазини для M54C.
   iconColor: "#7b8246"
   objectType: Item
 
@@ -25,9 +22,6 @@
   targetNode: RMCBoxMagazineRifleM54CAPEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для магазинів, яка може містити бронебійні магазини для M54C.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
   iconColor: "#7b8246"
   objectType: Item
 
@@ -40,9 +34,6 @@
   targetNode: RMCBoxMagazineRifleM54CExtEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для магазинів, яка може містити розширені магазини для M54C.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
   iconColor: "#7b8246"
   objectType: Item
 
@@ -55,9 +46,6 @@
   targetNode: RMCBoxBulletsRifleEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для набоїв калібром 10х24 мм. Використовується для спорядження магазинів M54C MK1, MK2, M4SPR та M54CE2 HAR. Комплектується шкіряним ремінцем для носіння на спині.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
   iconColor: "#7b8246"
   objectType: Item
 
@@ -70,9 +58,6 @@
   targetNode: RMCBoxBulletsRifleAPEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для бронебійних набоїв калібром 10х24 мм. Використовується для поповнення магазинів M54C MK2 та M4SPR AP. Комплектується шкіряним ремінцем для носіння на спині.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
   iconColor: "#7b8246"
   objectType: Item
 
@@ -86,9 +71,6 @@
   targetNode: RMCBoxMagazineSMGM63Empty
   category: construction-category-cm-box-magazine
   description: Коробка для магазинів, яка може містити регулярні магазини для M63.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#727e90"
   objectType: Item
 
@@ -101,9 +83,6 @@
   targetNode: RMCBoxMagazineSMGM63APEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для магазинів, яка може містити бронебійні магазини для M63.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#727e90"
   objectType: Item
 
@@ -116,39 +95,30 @@
   targetNode: RMCBoxMagazineSMGM63ExtEmpty
   category: construction-category-cm-box-magazine
   description: Коробка для магазинів, яка може містити розширені магазини для M63.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Коробка з набоями SMG HV (10×20мм)
+  name: Коробка з набоями ПК ВШ (10×20мм)
   id: RMCBoxBulletsSMGEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
+  description: Коробка для набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 ВШ та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Коробка з набоями SMG HV (10×20мм ББ)
+  name: Коробка з набоями ПК ВШ (10×20мм ББ)
   id: RMCBoxBulletsSMGAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGAPEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для бронебійних набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 HV та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
+  description: Коробка для бронебійних набоїв калібру 10х20 мм. Використовується для поповнення магазинів M63 ВШ та їх розширених версій. Комплектується шкіряним ремінцем для носіння на спині.
   iconColor: "#727e90"
   objectType: Item
 
@@ -161,10 +131,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPREmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для M4SPR.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
+  description: A magazine box that can contain regular M4SPR mags.
   iconColor: "#695d42"
   objectType: Item
 
@@ -176,10 +143,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRAPEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити бронебійні магазини для M4SPR.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
+  description: A magazine box that can contain armor piercing M4SPR mags.
   iconColor: "#695d42"
   objectType: Item
 
@@ -191,10 +155,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRExtEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити розширені магазини для M4SPR.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: rifle_box
+  description: A magazine box that can contain extended M4SPR mags.
   iconColor: "#695d42"
   objectType: Item
 
@@ -207,10 +168,7 @@
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984Empty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для M1984.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A magazine box that can contain regular M1984 mags.
   iconColor: "#b2976e"
   objectType: Item
 
@@ -222,10 +180,7 @@
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984APEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити бронебійні набої M1984.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A magazine box that can contain armor piercing M1984 mags.
   iconColor: "#b2976e"
   objectType: Item
 
@@ -238,10 +193,7 @@
   startNode: start
   targetNode: RMCBoxMagazinePistolM77APEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити бронебійні магазини для M77.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A magazine box that can contain armor piercing M77 mags.
   iconColor: "#7c7e83"
   objectType: Item
 
@@ -254,26 +206,20 @@
   startNode: start
   targetNode: RMCBoxMagazinePistolMK80Empty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для MK80.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A magazine box that can contain regular MK80 mags.
   iconColor: "#4a4a4a"
   objectType: Item
 
 # SU-6 Smart pistol
 - type: construction
   parent: RMC
-  name: Магазинна коробка (SU-6 Рег)
+  name: Магазинна коробка (СП-6 Рег)
   id: RMCBoxMagazinePistolSU6
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolSU6Empty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити регулярні магазини для SU-6.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A magazine box that can contain regular SU-6 mags.
   iconColor: "#6b5c58"
   objectType: Item
 
@@ -286,10 +232,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44Empty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання багатьох швидконавантажувачів з ручкою для перенесення.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A box for holding many speedloaders with a carrying handle.
   iconColor: "#727e90"
   objectType: Item
 
@@ -301,10 +244,7 @@
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44MarksmanEmpty
   category: construction-category-cm-box-magazine
-  description: Контейнер з ручкою для перенесення, який вміщує багато швидкозавантажувачів для марксманської зброї.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: pistol_box
+  description: A box for holding many marksman speedloaders with a carrying handle.
   iconColor: "#727e90"
   objectType: Item
 
@@ -318,9 +258,6 @@
   targetNode: RMCBoxMagazinePistolM13Empty
   category: construction-category-cm-box-magazine
   description: A magazine box that can contain regular M13 mags.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#7c4c1b"
   objectType: Item
 
@@ -333,9 +270,6 @@
   targetNode: RMCBoxMagazinePistolM13ExtEmpty
   category: construction-category-cm-box-magazine
   description: A magazine box that can contain extended M13 mags.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#7c4c1b"
   objectType: Item
 
@@ -348,9 +282,6 @@
   targetNode: RMCBoxMagazinePistolM13DrumEmpty
   category: construction-category-cm-box-magazine
   description: A magazine box that can contain drum M13 mags.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: smg_box
   iconColor: "#7c4c1b"
   objectType: Item
 
@@ -363,10 +294,7 @@
   startNode: start
   targetNode: RMCBoxMagazineSMGNailgunEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка для магазинів, яка може містити магазини для цвяходеру.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
+  description: A magazine box that can contain nailgun mags.
   iconColor: "#709bff"
   objectType: Item
 
@@ -379,10 +307,7 @@
   startNode: start
   targetNode: RMCBoxShellsBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#944444"
   objectType: Item
 
@@ -394,10 +319,7 @@
   startNode: start
   targetNode: RMCBoxShellsSlugsEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#578e75"
   objectType: Item
 
@@ -409,10 +331,7 @@
   startNode: start
   targetNode: RMCBoxShellsFlechetteEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#6551a0"
   objectType: Item
 
@@ -424,10 +343,7 @@
   startNode: start
   targetNode: RMCBoxShellsIncendiaryEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#c6cdd3"
   objectType: Item
 
@@ -440,24 +356,17 @@
   # targetNode: RMCBoxShellsBeanbagEmpty
   # category: construction-category-cm-box-magazine
   # description: A box for holding shells.
-  # icon:
-    # sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    # state: shell_box
-    # color: "#5786be"
   # objectType: Item
 
 - type: construction
   parent: RMC
-  name: Коробка для набоїв (Inc Buckshot)
+  name: Коробка для набоїв (Запальна Картеч)
   id: RMCBoxShellsIncendiaryBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsIncendiaryBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#c6cdd3"
   objectType: Item
 
@@ -469,10 +378,7 @@
   startNode: start
   targetNode: RMCBoxShellsBreachingEmpty
   category: construction-category-cm-box-magazine
-  description: Ящик для зберігання снарядів.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: shell_box
+  description: A box for holding shells.
   iconColor: "#595959"
   objectType: Item
 
@@ -480,16 +386,13 @@
 
 - type: construction
   parent: RMC
-  name: Ящик Постачання (сухпаї)
+  name: Ящик Постачання (Сухпаї)
   id: RMCBoxMREEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMREEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка сухпайків. Поживні, але не смачні.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
+  description: A box of MREs. Nutritious, but not delicious.
   iconColor: "#887b67"
   objectType: Item
 
@@ -501,10 +404,7 @@
   startNode: start
   targetNode: RMCBoxPackFlareEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка сигнальних фаєрів з маркуванням M94, щоб зробити ваш день яскравішим.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
+  description: A box of M94 marking flare packs, to brighten up your day.
   iconColor: "#887b67"
   objectType: Item
 
@@ -516,10 +416,7 @@
   startNode: start
   targetNode: RMCBoxPackFlareCASEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка сигнальних фаєрів M89, щоб позначити шлях.
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
+  description: A box of M89 signal flare packs, to mark up the way.
   iconColor: "#887b67"
   objectType: Item
 
@@ -531,25 +428,19 @@
   startNode: start
   targetNode: RMCBoxFlashlightsEmpty
   category: construction-category-cm-box-magazine
-  description: Коробка ліхтариків, щоб зробити ваш день яскравішим!
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
+  description: A box of flashlights to brighten your day!
   iconColor: "#887b67"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Supply Box (High-Capacity Power Cells)
+  name: Ящик постачання (Акумулятори великої ємності)
   id: RMCBoxMagazinePowerCellsHigh
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePowerCellsHigh
   category: construction-category-cm-box-magazine
   description: A box of High-Capacity Power Cells to keep your electronics going all night long!
-  icon:
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
-    state: supply_box
   iconColor: "#887b67"
   objectType: Item
 

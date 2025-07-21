@@ -76,6 +76,7 @@
   name: завантажувач # TODO RMC14 name
   description: Старий, але надійний завантажувач, що використовується всюди де тільки можна уявити. # TODO RMC14 description
   components:
+  - type: RMCAllowStrapMovement
   - type: PowerLoader
     skills:
       all:

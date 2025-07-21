@@ -1,5 +1,5 @@
 - type: entity
-  parent: CMWeaponPistolBase
+  parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolM77
   name: бойовий пістолет M77 # TODO RMC14 sounds
   description: Стандартна вогнепальна зброя морської піхоти. Також зустрічається на озброєнні команд ПВК «Ве-Я». Стріляє 9-мм бронебійними кулями і здатна виконувати постріли чергою з 3 набоїв.

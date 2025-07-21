@@ -33,3 +33,6 @@ tool-quality-rolling-tool-name = Качалка
 
 tool-quality-digging-name = Копання
 tool-quality-digging-tool-name = Лопата
+
+tool-quality-brushing-name = Brushing
+tool-quality-brushing-tool-name = Wire Brush

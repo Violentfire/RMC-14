@@ -7,9 +7,6 @@
   targetNode: apc
   category: construction-category-cm-utilities
   description: "Зональний Контроль Живлення (ЗКЖ). Контролює енергію. У певній зоні."
-  icon:
-    sprite: _RMC14/Structures/Power/apc.rsi
-    state: base
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true
