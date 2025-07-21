@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: RMCPlanetLV624
   name: ЛВ-624 Посадка Лазаруса
   components:
@@ -11,6 +11,23 @@
       scenarioProbability: 0.1
     - scenarioName: asset_protection
       scenarioProbability: 0.1
+    survivorJobInserts:
+      CMSurvivor:
+      - CMSurvivor: -1
+      - CMSurvivorPriest: 1
+      CMSurvivorCorporate:
+      - CMSurvivorLV624CorporateLiaison: 2
+      CMSurvivorDoctor:
+      - CMSurvivorLV624MedicalTechnician: 3
+      CMSurvivorEngineer:
+      - CMSurvivorLV624Engineer: 2
+      - CMSurvivorLV624CargoTechnician: 2
+      CMSurvivorSecurity:
+      - CMSurvivorGoon: 2
+      - CMSurvivorCMBDeputy: 2
+      - CMSurvivorLV624SecurityGuard: 2
+      CMSurvivorScientist:
+      - CMSurvivorLV624Archeologist: 2
 
 - type: entity
   id: RMCPlanetSolaris
@@ -140,6 +157,32 @@
     camouflage: Urban
     announcement: "Автоматичний сигнал лиха надійшов з колонії Вестон-Ямади, Процвітаюча Гібріса. Вона являє собою величезне місто, відоме своїми гірничодобувними операціями, величезними багатствами, а також захмарними цінами. Нещодавно викуплена у ТСЕ, ця колонія тепер ключовий актив Вестон-Ямади. Для встановлення причини, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
     minPlayers: 40
+    survivorJobInserts:
+      CMSurvivor:
+      - RMCSurvivorHybrisaCivilian: -1
+      - RMCSurvivorHybrisaTMCCMiner: -1
+      - RMCSurvivorHybrisaGrindBarista: 1
+      - RMCSurvivorHybrisaMaterialReprocessingTechnician: 1
+      - RMCSurvivorHybrisaOfficeWorker: 1
+      - RMCSurvivorHybrisaPizzaGalaxy: 1
+      - RMCSurvivorHybrisaWeyamartEmployee: 1
+      - RMCSurvivorHybrisaFireProtectionSpecialist: 1
+      CMSurvivorCorporate:
+      - RMCSurvivorHybrisaCorporateLiaison: 2
+      - RMCSurvivorHybrisaCommercialPilot: 2
+      CMSurvivorDoctor:
+      - RMCSurvivorHybrisaMedicalDoctor: 3
+      - RMCSurvivorHybrisaEMTParamedic: 3
+      CMSurvivorEngineer:
+      - RMCSurvivorHybrisaConstructionWorker: 2
+      - RMCSurvivorHybrisaEngineer: 2
+      - RMCSurvivorHybrisaHeavyVehicleOperator: 2
+      CMSurvivorSecurity:
+      - RMCSurvivorHybrisaCorporateSecurity: 2
+      - RMCSurvivorHybrisaTSEPAConstable: 2
+      CMSurvivorScientist:
+      - RMCSurvivorHybrisaXenoarchaeologist: 2
+      - RMCSurvivorHybrisaXenobiologist: 2
 
 - type: entity
   id: RMCPlanetSorokyne
