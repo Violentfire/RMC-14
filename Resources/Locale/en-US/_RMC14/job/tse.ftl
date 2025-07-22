@@ -1,15 +1,18 @@
-rmc-job-name-tsepa-constable = TSEPA Constable
-rmc-job-description-tsepa-constable = Assist in the enforcement of TSE Law.
-rmc-job-prefix-tsepa-constable = TSEPA CST
+rmc-job-name-tsepa-constable = ІТСПА Констебль
+rmc-job-description-tsepa-constable = Допомагайте в застосуванні закону ІТС.
+rmc-job-prefix-tsepa-constable = ІТСПА КНСТ
 
-rmc-job-name-tsepa-senior-constable = TSEPA Senior Constable
-rmc-job-description-tsepa-senior-constable = Enforcer of TSE Law.
-rmc-job-prefix-tsepa-senior-constable = TSEPA SR CST
+rmc-job-name-tsepa-senior-constable = ІТСПА Старший Констебль
+rmc-job-description-tsepa-senior-constable = Застосовувач закону ІТС.
+rmc-job-prefix-tsepa-senior-constable = ІТСПА СТ КНСТ
 
-rmc-job-name-tsepa-inspector = TSEPA Inspector
-rmc-job-description-tsepa-inspector = Oversee the enforcement of TSE Law.
-rmc-job-prefix-tsepa-inspector = TSEPA INSP
+rmc-job-name-tsepa-inspector = Інспектор ІТСПА
+rmc-job-description-tsepa-inspector = Контролювати виконання Закону ІТС.
+rmc-job-prefix-tsepa-inspector = ІТСПА ІНСП
 
-rmc-job-name-tsepa-synth = TSEPA Support Synthetic
-rmc-job-description-tsepa-synth = Support and assist the TSEPA Personnel.
-rmc-job-prefix-tsepa-synth = SYN
+rmc-job-name-tsepa-synth = Синтет Підтримки ІТСПА
+rmc-job-description-tsepa-synth = Підтримка та допомога персоналу ІТСПА.
+rmc-job-prefix-tsepa-synth = СИНТ
+
+# ТSE, Three Suns Empire - Імперія Трьох Сонць, ІТС
+# PA (в TSEPA), можливо Протокольний Агент

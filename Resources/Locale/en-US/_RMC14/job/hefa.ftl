@@ -3,16 +3,16 @@
                                              Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
                                              Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
-rmc-ghost-role-information-hefa-friendly-description = You and your fellow brothers must retrieve as many HEFAs as possible!
-rmc-ghost-role-information-hefa-hostile-description = You and your fellow brothers must retrieve as many HEFAs as possible, and dispense the holy justice of HEFA shrapnel!
+rmc-ghost-role-information-hefa-friendly-description = Ти та твої побратими повинні отримати якомога більше ХЕФА!
+rmc-ghost-role-information-hefa-hostile-description =Ти та твої побратими повинні отримати якомога більше ХЕФА й вершити святе правосуддя осколками ХЕФА!
 
-rmc-ghost-name-hefa-hostile-grandmaster = HEFA Grandmaster (Hostile)
-rmc-ghost-name-hefa-friendly-grandmaster = HEFA Grandmaster (Friendly)
-rmc-job-name-hefa-grandmaster = HEFA Grandmaster
-rmc-job-prefix-hefa-grandmaster = OHEFA
-
-rmc-ghost-name-hefa-hostile-shrapnelsworn = HEFA Shrapnelsworn (Hostile)
-rmc-ghost-name-hefa-friendly-shrapnelsworn = HEFA Shrapnelsworn (Friendly)
-rmc-job-name-hefa-shrapnelsworn = HEFA Shrapnelsworn
-rmc-job-prefix-hefa-shrapnelsworn = OHEFA
+rmc-ghost-name-hefa-hostile-grandmaster = Гросмейстер ХЕФА (Ворожі)
+rmc-ghost-name-hefa-friendly-grandmaster = Гросмейстер ХЕФА (Дружні)
+rmc-job-name-hefa-grandmaster = Гросмейстер ХЕФА
+rmc-job-prefix-hefa-grandmaster = ОХЕФА
+# shrapnelsworn, shrapnel та sworn - шрапнель та присяга, шрапнельосяг
+rmc-ghost-name-hefa-hostile-shrapnelsworn = Шпранельосяг ХЕФА (Ворожі)
+rmc-ghost-name-hefa-friendly-shrapnelsworn = Шпранельосяг ХЕФА (Дружні)
+rmc-job-name-hefa-shrapnelsworn = Шпранельосяг ХЕФА
+rmc-job-prefix-hefa-shrapnelsworn = ОХЕФА
 

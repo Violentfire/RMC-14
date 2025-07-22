@@ -5,22 +5,22 @@
 
 rmc-ghost-role-information-clf-description = Забезпечте вигнання морпіхів з цього простору заради вільних колоній!
 
-rmc-ghost-role-clf-cell-commander = Командир Ячейки ФВК (Ворожий)
+rmc-ghost-role-clf-cell-commander = Командир Ячейки ФВК (Ворожі)
 rmc-clf-cell-commander = Командир Ячейки ФВК
 rmc-job-prefix-clf-cell-commander = КМНД
 
-rmc-ghost-role-clf-soldier = Солдат ФВК (Ворожий)
+rmc-ghost-role-clf-soldier = Солдат ФВК (Ворожі)
 rmc-clf-soldier = Солдат ФВК
 rmc-job-prefix-clf-soldier = СЛД
 
-rmc-ghost-role-clf-engineer = Технік ФВК (Ворожий)
+rmc-ghost-role-clf-engineer = Технік ФВК (Ворожі)
 rmc-clf-engineer = Технік ФВК
 rmc-job-prefix-clf-engineer = ТЕХ
 
-rmc-ghost-role-clf-medic = Медик ФВК (Ворожий)
+rmc-ghost-role-clf-medic = Медик ФВК (Ворожі)
 rmc-clf-medic = Медик ФВК
 rmc-job-prefix-clf-medic = МЕД
 
-rmc-ghost-role-clf-specialist = Спеціаліст ФВК (Ворожий)
+rmc-ghost-role-clf-specialist = Спеціаліст ФВК (Ворожі)
 rmc-clf-specialist = Спеціаліст ФВК
 rmc-job-prefix-clf-specialist = СПЦ

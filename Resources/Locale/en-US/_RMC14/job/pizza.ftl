@@ -5,6 +5,6 @@
 
 rmc-ghost-role-information-pizza-description = Твоє завдання — доставляти піцу. Ти ДУЖЕ впевнений, що тобі саме сюди...
 
-rmc-ghost-name-pizza = Кур'єр Піци (Нейтральний)
+rmc-ghost-name-pizza = Кур'єр Піци (Нейтральні)
 rmc-job-name-pizza = Кур'єр Піци
 rmc-job-prefix-pizza = ПІЦА

@@ -61,27 +61,27 @@ rmc-job-name-forecon-support-tech = Технік Підтримки
 rmc-job-name-forecon-synth = Синтетик
 rmc-job-name-forecon-commander = Командир
 
-# LV-624 survs
+# Виживші ЛВ-624
 
-rmc-job-name-survivor-lv624-archeologist = Archeologist
-CMSurvivorLV624Archeologist = Archeologist
+rmc-job-name-survivor-lv624-archeologist = Археолог
+CMSurvivorLV624Archeologist = Археолог
 
-rmc-job-name-survivor-lv624-cargo-technician = Cargo Technician
-CMSurvivorLV624CargoTechnician = Cargo Technician
+rmc-job-name-survivor-lv624-cargo-technician = Вантажник
+CMSurvivorLV624CargoTechnician = Вантажник
 
-rmc-job-name-survivor-lv624-corporate-liaison = LV-624 Corporate Liaison
-CMSurvivorLV624CorporateLiaison = LV-624 Corportate Liaison
+rmc-job-name-survivor-lv624-corporate-liaison = Представник Корпорації ЛВ-624
+CMSurvivorLV624CorporateLiaison = Представник Корпорації ЛВ-624
 
-rmc-job-name-survivor-lv624-security-guard = We-Ya Security Guard
-CMSurvivorLV624SecurityGuard = We-Ya Security Guard
+rmc-job-name-survivor-lv624-security-guard = Охоронець Ве-Я
+CMSurvivorLV624SecurityGuard = Охоронець Ве-Я
 
-rmc-job-name-survivor-lv624-medical-technician = Emergency Medical Technician
-CMSurvivorLV624MedicalTechnician = Emergency Medical Technician
+rmc-job-name-survivor-lv624-medical-technician = Технік Швидкої Мед. Допомоги
+CMSurvivorLV624MedicalTechnician = Технік Швидкої Мед. Допомоги
 
-rmc-job-name-survivor-lv624-engineer = Engineer
-CMSurvivorLV624Engineer = Engineer
+rmc-job-name-survivor-lv624-engineer = Інженер
+CMSurvivorLV624Engineer = Інженер
 
-# виживші Ньо-Варадеро
+# Виживші Ньо-Варадеро
 
 rmc-job-name-survivor-commander-new-varadero = Командер
 CMJobSurvivorCommanderNewVaradero = Командер
@@ -108,49 +108,49 @@ cm-job-prefix-survivor-icb = БМТ
 cm-job-name-survivor-new-varadero-researcher = Науковець Нью-Варадеро
 RMCSurvivorNewVaraderoResearcher = Миротворець ООН
 
-# Hybrisa Prospera Survs
+# Виживші Процвітаючої Гібріси
 
-rmc-job-name-survivor-hybrisa-civilian = Civilian
-CMJobSurvivorHybrisaCivilian = Civilian
+rmc-job-name-survivor-hybrisa-civilian = Цивільний
+CMJobSurvivorHybrisaCivilian = Цивільний
 
-rmc-job-name-survivor-hybrisa-office-worker = Civilian - Office Worker
-CMJobSurvivorHybrisaOfficeWorker = Civilian - Office Worker
+rmc-job-name-survivor-hybrisa-office-worker = Цивільний - Працівник Офісу
+CMJobSurvivorHybrisaOfficeWorker = Цивільний - Працівник Офісу
 
-rmc-job-name-survivor-hybrisa-weyamart-employee = Civilian - Weymart Employee
-CMJobSurvivorHybrisaWeyamartEmployee = Civilian - Weymart Employee
+rmc-job-name-survivor-hybrisa-weyamart-employee = Цивільний - Працівник Веймарта
+CMJobSurvivorHybrisaWeyamartEmployee = Цивільний - Працівник Веймарта
 
-rmc-job-name-survivor-material-reprocessing-technician = Civilian - Material Reprocessing Technician
-CMJobSurvivorHybrisaMaterialReprocessingTechnician = Civilian - Material Reprocessing Technician
+rmc-job-name-survivor-material-reprocessing-technician = Цивільний - Технік з Переробки Матеріалів
+CMJobSurvivorHybrisaMaterialReprocessingTechnician = Цивільний - Технік з Переробки Матеріалів
 
-rmc-job-name-survivor-fire-protection-specialist-hybrisa = Civilian - Fire Protection Specialist
-CMJobSurvivorFireProtectionSpecialistHybrisa = Civilian - Fire Protection Specialist
-rmc-job-prefix-fire-protection-specialist-hybrisa = FPS
+rmc-job-name-survivor-fire-protection-specialist-hybrisa = Цивільний - Спеціаліст з Пожежної Безпеки
+CMJobSurvivorFireProtectionSpecialistHybrisa = Цивільний - Спеціаліст з Пожежної Безпеки
+rmc-job-prefix-fire-protection-specialist-hybrisa = СПБ
 
-rmc-job-name-survivor-grind-barista = Civilian - The Daily Grind Barista
-CMJobSurvivorHybrisaGrindBarista = Civilian - The Daily Grind Barista
+rmc-job-name-survivor-grind-barista = Цивільний - Бариста
+CMJobSurvivorHybrisaGrindBarista = Цивільний - Бариста
+# TMCC, не знаю, як це перекласти
+rmc-job-name-survivor-tmcc-miner = TMCC - Шахтар
+CMJobSurvivorHybrisaTMCCMiner = TMCC - Шахтар
 
-rmc-job-name-survivor-tmcc-miner = TMCC - Miner
-CMJobSurvivorHybrisaTMCCMiner = TMCC - Miner
+rmc-job-name-survivor-medical-doctor = Лікар
+CMJobSurvivorHybrisaMedicalDoctor = Лікар
+# Технік Швидкої Медичної Допомоги - ТШМД
+rmc-job-name-survivor-emt-paramedic = ТШМД - Парамедик 
+CMJobSurvivorHybrisaEMTParamedic = ТШМД - Парамедик
 
-rmc-job-name-survivor-medical-doctor = Doctor
-CMJobSurvivorHybrisaMedicalDoctor = Doctor
+rmc-job-name-survivor-xenoarchaeologist = Ксеноархеолог
+CMJobSurvivorHybrisaXenoarchaeologist = Ксеноархеолог
 
-rmc-job-name-survivor-emt-paramedic = EMT - Paramedic
-CMJobSurvivorHybrisaEMTParamedic = EMT - Paramedic
+rmc-job-name-survivor-xenobiologist = Ксенобіолог
+CMJobSurvivorHybrisaXenobiologist = Ксенобіолог
 
-rmc-job-name-survivor-xenoarchaeologist = Xenoarchaeologist
-CMJobSurvivorHybrisaXenoarchaeologist = Xenoarchaeologist
+rmc-job-name-survivor-commercial-pilot = Вестон-Ямада - Комерційний Пілот
 
-rmc-job-name-survivor-xenobiologist = Xenobiologist
-CMJobSurvivorHybrisaXenobiologist = Xenobiologist
+rmc-job-name-survivor-hybrisa-engineer = Інженер-Електрик
+rmc-job-name-survivor-construction-worker = Будівельник
+rmc-job-name-survivor-heavy-vehicle-operator = Водій Великого Транспорту
 
-rmc-job-name-survivor-commercial-pilot = Weston-Yamada - Commercial Pilot
-
-rmc-job-name-survivor-hybrisa-engineer = Electrical Engineer
-rmc-job-name-survivor-construction-worker = Construction Worker
-rmc-job-name-survivor-heavy-vehicle-operator = Heavy Vehicle Operator
-
-# виживші Сорокіна, комуняки, поки не чипаю
+# Виживші Сорокіна. Комуняки, поки не чипаю
 
 rmc-job-name-survivor-infrastructure-engineer = Inzhener Infrastruktury
 CMJobSurvivorInfrastructureEngineer = Infrastructure Engineer
