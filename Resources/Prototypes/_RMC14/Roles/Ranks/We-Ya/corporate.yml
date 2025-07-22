@@ -32,7 +32,7 @@
   id: RMCRankWeYaExecutiveSupervisor
   name: Інспектор з керівних питань
   prefix: Інсп-з-Кер.пит.
-  paygrade: WYC6
+  paygrade: WEYAC6
 
 - type: rank
   id: RMCRankWeYaAssistantManager

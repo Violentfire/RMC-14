@@ -64,6 +64,7 @@ cm-xeno-fortify-cant-toggle-crest = Не можна опустити гребі�
 rmc-xeno-headbutt-too-far = Ми не можемо таранити головою з такої відстані, коли гребінь опущено!
 
 # Leap
+cm-xeno-leap-blocked = We cannot do that while squeezing and scuttling!
 cm-xeno-leap-cancelled = Ви передумуєте стрибати!
 
 # Plant weeds
