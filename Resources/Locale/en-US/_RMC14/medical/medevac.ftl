@@ -1,6 +1,6 @@
 rmc-medevac-toggle-beacon-verb = Перемкнути Маяк
 
-rmc-medevac-area-not-cas = НЕМОЖЛИВА ЦІЛЬ: транспортник не може встановити візуальний контакт.
+rmc-medevac-area-not-cas = НЕМОЖЛИВА ЦІЛЬ: шатл не може встановити візуальний контакт.
 rmc-medevac-activate-beacon = Маяк на ношах активовано.
 rmc-medevac-inactivate-beacon = Маяк на ношах деактивовано.
 

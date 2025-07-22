@@ -1,10 +1,10 @@
-rmc-dropship-pre-flight-fueling = Транспортник проходить передпольотну заправку і тому не може взлетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
+rmc-dropship-pre-flight-fueling = Шатл проходить передпольотну заправку і тому не може взлетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
 rmc-dropship-pre-hijack = Цей термінал буде недоступним ще {$minutes} хвилин.
 
 rmc-dropship-weapons-title = Консоль Озброєння
 
 rmc-dropship-weapons-main-screen-text = К.М.П.О.Н.
-  Система Керування Озброєнням Транспортника
+  Система Керування Озброєнням Шатла
   V 0.1
 
 rmc-dropship-weapons-weapon-selected = {$weapon}
@@ -59,7 +59,7 @@ rmc-dropship-weapons-previous = ^
 rmc-dropship-weapons-next = v
 
 rmc-dropship-weapons-fire-no-weapon = Зброю не обрано.
-rmc-dropship-weapons-fire-not-flying = Транспортники можуть вести вогонь лише в польоті.
+rmc-dropship-weapons-fire-not-flying = Шатли можуть вести вогонь лише в польоті.
 rmc-dropship-weapons-fire-not-skilled = Вас не навчали стріляти з цього!
 rmc-dropship-weapons-fire-no-ammo = {$weapon} не має набоїв.
 rmc-dropship-weapons-fire-cooldown = {$weapon} нагрілася після стрільби, зачекайте поки охолоне.
@@ -81,7 +81,7 @@ rmc-dropship-fabricator-points = Очків: {$points}
 rmc-dropship-fabricator-equipment = [bold]Оснащення[/bold]
 rmc-dropship-fabricator-ammo = [bold]Боєприпаси[/bold]
 rmc-dropship-fabricator-fabricate = Виготовити ({$cost})
-rmc-dropship-fabricator-busy = Виготовлювач частин для транспортника зайнятий. Дочекайтеся виконання попередньої операції.
+rmc-dropship-fabricator-busy = Виготовлювач частин для шатла зайнятий. Дочекайтеся виконання попередньої операції.
 
 rmc-dropship-firemission-warning = A DROPSHIP FIRES TOWARDS THE {$direction}
 rmc-dropship-firemission-warning-above = A DROPSHIP FIRES RIGHT ONTOP OF YOU!
