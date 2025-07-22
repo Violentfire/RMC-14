@@ -384,7 +384,6 @@
     whitelist:
       components:
       - Marine
-  - type: EmoteCooldown
 
 - type: entity
   abstract: true
