@@ -1,4 +1,4 @@
-# Names
+# Назви
 chat-emote-name-scream = Кричати
 chat-emote-name-laugh = Сміятися
 chat-emote-name-honk = Гонкати
@@ -33,7 +33,7 @@ chat-emote-name-robotbeep = Робот
 chat-emote-name-yawn = Позіхнути
 chat-emote-name-snore = Хропіти
 
-# Message
+# Повідомлення
 chat-emote-msg-scream = кричить!
 chat-emote-msg-laugh = сміється.
 chat-emote-msg-honk = гонкає.

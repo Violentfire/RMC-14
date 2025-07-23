@@ -71,6 +71,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "o.o", "chatsan-wide-eyed" },
         { "о-о", "chatsan-wide-eyed" }, // Sich
         { "о.о", "chatsan-wide-eyed" }, // Sich
+        { "omg", "chatsan-wide-eyed" }, // Sich
+        { "омг", "chatsan-wide-eyed" }, // Sich
         { "._.", "chatsan-surprised" },
         { ".-.", "chatsan-confused" },
         { "?", "chatsan-confused" }, // RMC14
