@@ -4,32 +4,32 @@ cm-job-name-survivor = Цивільний Колоніст
 cm-job-description-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
 CMJobSurvivor = Цивільний Колоніст
 
-cm-job-name-survivor-doctor = Колоніст Лікар
-CMJobSurvivorDoctor = Колоніст Лікар
+cm-job-name-survivor-doctor = Колоніст-Лікар
+CMJobSurvivorDoctor = Колоніст-Лікар
 
-cm-job-name-survivor-engineer = Інженер Колоніст
-CMJobSurvivorEngineer = Інженер Колоніст
+cm-job-name-survivor-engineer = Колоніст-Інженер
+CMJobSurvivorEngineer = Колоніст-Інженер
 
-cm-job-name-survivor-security = Колоніст Охоронець
-CMJobSurvivorSecurity = Колоніст Охоронець
+cm-job-name-survivor-security = Колоніст-Охоронець
+CMJobSurvivorSecurity = Колоніст-Охоронець
 
-cm-job-name-survivor-corporate = Колоніст Корпорат
-CMJobSurvivorCorporate = Колоніст Корпорат
+cm-job-name-survivor-corporate = Колоніст-Корпорат
+CMJobSurvivorCorporate = Колоніст-Корпорат
 
-cm-job-name-survivor-miner = Колоніст Шахтар
-CMJobSurvivorMiner = Колоніст Шахтар
+cm-job-name-survivor-miner = Колоніст-Шахтар
+CMJobSurvivorMiner = Колоніст-Шахтар
 
-cm-job-name-surivor-priest = Колоніст Священик
-CMJobSurvivorPriest = Колоніст Священик
+cm-job-name-surivor-priest = Колоніст-Священик
+CMJobSurvivorPriest = Колоніст-Священик
 
-cm-job-name-survivor-scientist = Колоніст Науковець
-CMSurvivorScientist = Колоніст Науковець
+cm-job-name-survivor-scientist = Колоніст-Науковець
+CMSurvivorScientist = Колоніст-Науковець
 
-rmc-job-name-survivor-cmb-deputy = CMB Deputy
-CMSurvivorCMBDeputy = CMB Deputy
+rmc-job-name-survivor-cmb-deputy = Представник БКМ
+CMSurvivorCMBDeputy = Представник БКМ
 
-cm-job-name-survivor-goon = We-Ya Corporate Security
-CMSurvivorGoon = We-Ya Corporate Security
+cm-job-name-survivor-goon = Корпоративний Безпековець Ве-Я
+CMSurvivorGoon = Корпоративний Безпековець Ве-Я
 
 rmc-job-greeting-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
 
