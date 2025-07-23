@@ -48,12 +48,12 @@
 
 - type: rank
   id: RMCRankChiefWarrantOfficer
-  name: Chief Warrant Officer
-  prefix: CWarOff.
+  name: Головний Ворент-Офіцер
+  prefix: ГВорОф.
   paygrade: O0-2
 
 - type: rank
   id: RMCRankWarrantOfficer
-  name: Warrant Officer
-  prefix: WarOff.
+  name: Ворент-Офіцер
+  prefix: ВорОф.
   paygrade: O0-1
