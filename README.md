@@ -6,11 +6,11 @@
 
 ## Посилання
 
-[Сайт Січі](https://sich.me/) | [ДС Сервер Січі](https://discord.gg/qKNsBbV22F)
+### Січ: [Сайт Січі](https://sich.me/) | [ДС Сервер Січі](https://discord.gg/qKNsBbV22F)
 
-[Офіційний репо РМС](https://github.com/RMC-14/RMC-14/) | [Офіційна Вікі РМС](https://wiki.rouny-ss14.com/) | [Офіційний ДС Сервер РМС](https://discord.gg/rouny)
+### RMC: [Офіційний репо РМС](https://github.com/RMC-14/RMC-14/) | [Офіційна Вікі РМС](https://wiki.rouny-ss14.com/) | [Офіційний ДС Сервер РМС](https://discord.gg/rouny)
 
-[Сторінка СС14 у Стімі](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Завантаження лаунчеру гри без Стіму](https://spacestation14.io/about/nightlies/)
+### СС14: [Сторінка СС14 у Стімі](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Завантаження лаунчеру гри без Стіму](https://spacestation14.io/about/nightlies/)
 
 ## Внесення Змін
 
@@ -24,7 +24,7 @@
 2. Запустіть `RUN_THIS.py` щоб ініціалізувати сабмодулі та завантажити двигун.
 3. Скомпілюйте це все за допомогою dotnet.
 
-[Більш детальна інструкція (англійською)](https://docs.spacestation14.com/en/general-development/setup.html), [Українській варіант (може бути застарілою)](https://ss14.miraheze.org/wiki/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA_%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%83)
+[Більш детальна інструкція (англійською)](https://docs.spacestation14.com/en/general-development/setup.html), [Українській варіант (може бути застарілим)](https://ss14.miraheze.org/wiki/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA_%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%83)
 
 ## Ліцензія
 
