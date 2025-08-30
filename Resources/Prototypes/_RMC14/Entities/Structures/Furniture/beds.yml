@@ -5,7 +5,7 @@
   description: Матрац на прямокутному металевому каркасі. Використовується для зручної підтримки людини в лежачому положенні, зокрема для регулярного сну. Давня технологія, яка все ще залишається корисною.
   components:
   - type: Transform
-    anchored: false
+    anchored: true
   - type: Physics
     bodyType: Static
   - type: Sprite

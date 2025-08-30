@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/20/2025 21:18:03
-  entityCount: 32338
+  time: 08/18/2025 11:23:49
+  entityCount: 32370
 maps:
 - 1
 grids:
@@ -22666,45 +22666,45 @@ entities:
         82,46: RMCAreaStrataExteriorSouthOutpost
         82,47: RMCAreaStrataExteriorSouthOutpost
         82,48: RMCAreaStrataExteriorSouthOutpost
-        81,46: RMCAreaStrataExteriorSouthOutpost
-        81,47: RMCAreaStrataExteriorSouthOutpost
-        81,48: RMCAreaStrataExteriorSouthOutpost
-        80,46: RMCAreaStrataExteriorSouthOutpost
-        80,47: RMCAreaStrataExteriorSouthOutpost
-        80,48: RMCAreaStrataExteriorSouthOutpost
-        79,46: RMCAreaStrataExteriorSouthOutpost
-        79,47: RMCAreaStrataExteriorSouthOutpost
-        79,48: RMCAreaStrataExteriorSouthOutpost
-        78,46: RMCAreaStrataExteriorSouthOutpost
-        78,47: RMCAreaStrataExteriorSouthOutpost
-        78,48: RMCAreaStrataExteriorSouthOutpost
-        77,46: RMCAreaStrataExteriorSouthOutpost
-        77,47: RMCAreaStrataExteriorSouthOutpost
-        77,48: RMCAreaStrataExteriorSouthOutpost
-        76,46: RMCAreaStrataExteriorSouthOutpost
-        76,47: RMCAreaStrataExteriorSouthOutpost
-        76,48: RMCAreaStrataExteriorSouthOutpost
-        75,46: RMCAreaStrataExteriorSouthOutpost
-        75,47: RMCAreaStrataExteriorSouthOutpost
-        75,48: RMCAreaStrataExteriorSouthOutpost
+        81,46: RMCAreaStrataExteriorPartsStorageCave
+        81,47: RMCAreaStrataExteriorPartsStorageCave
+        81,48: RMCAreaStrataExteriorPartsStorageCave
+        80,46: RMCAreaStrataExteriorPartsStorageCave
+        80,47: RMCAreaStrataExteriorPartsStorageCave
+        80,48: RMCAreaStrataExteriorPartsStorageCave
+        79,46: RMCAreaStrataExteriorPartsStorageCave
+        79,47: RMCAreaStrataExteriorPartsStorageCave
+        79,48: RMCAreaStrataExteriorPartsStorageCave
+        78,46: RMCAreaStrataExteriorPartsStorageCave
+        78,47: RMCAreaStrataExteriorPartsStorageCave
+        78,48: RMCAreaStrataExteriorPartsStorageCave
+        77,46: RMCAreaStrataExteriorPartsStorageCave
+        77,47: RMCAreaStrataExteriorPartsStorageCave
+        77,48: RMCAreaStrataExteriorPartsStorageCave
+        76,46: RMCAreaStrataExteriorPartsStorageCave
+        76,47: RMCAreaStrataExteriorPartsStorageCave
+        76,48: RMCAreaStrataExteriorPartsStorageCave
+        75,46: RMCAreaStrataExteriorPartsStorageCave
+        75,47: RMCAreaStrataExteriorPartsStorageCave
+        75,48: RMCAreaStrataExteriorPartsStorageCave
         84,46: RMCAreaStrataExteriorSouthOutpost
-        77,43: RMCAreaStrataExteriorSouthOutpost
-        77,45: RMCAreaStrataExteriorSouthOutpost
-        78,43: RMCAreaStrataExteriorSouthOutpost
-        78,44: RMCAreaStrataExteriorSouthOutpost
-        78,45: RMCAreaStrataExteriorSouthOutpost
-        79,43: RMCAreaStrataExteriorSouthOutpost
-        79,44: RMCAreaStrataExteriorSouthOutpost
-        79,45: RMCAreaStrataExteriorSouthOutpost
-        80,43: RMCAreaStrataExteriorSouthOutpost
-        80,44: RMCAreaStrataExteriorSouthOutpost
-        80,45: RMCAreaStrataExteriorSouthOutpost
-        81,43: RMCAreaStrataExteriorSouthOutpost
-        81,44: RMCAreaStrataExteriorSouthOutpost
-        81,45: RMCAreaStrataExteriorSouthOutpost
-        77,44: RMCAreaStrataExteriorSouthOutpost
-        76,44: RMCAreaStrataExteriorSouthOutpost
-        76,45: RMCAreaStrataExteriorSouthOutpost
+        77,43: RMCAreaStrataExteriorPartsStorageCave
+        77,45: RMCAreaStrataExteriorPartsStorageCave
+        78,43: RMCAreaStrataExteriorPartsStorageCave
+        78,44: RMCAreaStrataExteriorPartsStorageCave
+        78,45: RMCAreaStrataExteriorPartsStorageCave
+        79,43: RMCAreaStrataExteriorPartsStorageCave
+        79,44: RMCAreaStrataExteriorPartsStorageCave
+        79,45: RMCAreaStrataExteriorPartsStorageCave
+        80,43: RMCAreaStrataExteriorPartsStorageCave
+        80,44: RMCAreaStrataExteriorPartsStorageCave
+        80,45: RMCAreaStrataExteriorPartsStorageCave
+        81,43: RMCAreaStrataExteriorPartsStorageCave
+        81,44: RMCAreaStrataExteriorPartsStorageCave
+        81,45: RMCAreaStrataExteriorPartsStorageCave
+        77,44: RMCAreaStrataExteriorPartsStorageCave
+        76,44: RMCAreaStrataExteriorPartsStorageCave
+        76,45: RMCAreaStrataExteriorPartsStorageCave
         69,49: RMCAreaStrataExteriorSouthOutpost
         69,50: RMCAreaStrataExteriorSouthOutpost
         69,51: RMCAreaStrataExteriorSouthOutpost
@@ -22853,13 +22853,13 @@ entities:
         89,51: RMCAreaStrataExteriorSouthOutpost
         89,50: RMCAreaStrataExteriorSouthOutpost
         86,50: RMCAreaStrataExteriorSouthOutpost
-        75,49: RMCAreaStrataExteriorSouthOutpost
-        76,49: RMCAreaStrataExteriorSouthOutpost
-        77,49: RMCAreaStrataExteriorSouthOutpost
-        78,49: RMCAreaStrataExteriorSouthOutpost
-        79,49: RMCAreaStrataExteriorSouthOutpost
-        80,49: RMCAreaStrataExteriorSouthOutpost
-        81,49: RMCAreaStrataExteriorSouthOutpost
+        75,49: RMCAreaStrataExteriorPartsStorageCave
+        76,49: RMCAreaStrataExteriorPartsStorageCave
+        77,49: RMCAreaStrataExteriorPartsStorageCave
+        78,49: RMCAreaStrataExteriorPartsStorageCave
+        79,49: RMCAreaStrataExteriorPartsStorageCave
+        80,49: RMCAreaStrataExteriorPartsStorageCave
+        81,49: RMCAreaStrataExteriorPartsStorageCave
         82,49: RMCAreaStrataExteriorSouthOutpost
         83,49: RMCAreaStrataExteriorSouthOutpost
         84,49: RMCAreaStrataExteriorSouthOutpost
@@ -46203,6 +46203,96 @@ entities:
         173,37: RMCAreaStrataExteriorDeepJunglePlatform
         174,37: RMCAreaStrataExteriorDeepJunglePlatform
         175,37: RMCAreaStrataExteriorDeepJunglePlatform
+        17,62: RMCAreaStrataExteriorMarshCrash
+        13,62: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,62: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        14,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,62: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        15,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,62: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        16,54: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        13,54: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        12,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,61: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,60: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,59: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,58: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,57: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,56: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        17,55: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+        61,23: RMCAreaStrataInteriorOutOfBounds
+        38,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        38,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        38,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        38,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        39,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        39,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        39,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        39,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        40,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        40,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        40,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        40,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        41,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        41,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        41,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        41,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        42,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        42,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        42,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        42,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        43,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        43,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        43,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        43,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        44,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        44,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        44,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        44,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        45,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        45,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        45,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        45,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        46,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        46,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        46,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        46,131: RMCAreaStrataInteriorMiningOutpostCanteen
+        47,128: RMCAreaStrataInteriorMiningOutpostCanteen
+        47,129: RMCAreaStrataInteriorMiningOutpostCanteen
+        47,130: RMCAreaStrataInteriorMiningOutpostCanteen
+        47,131: RMCAreaStrataInteriorMiningOutpostCanteen
 - proto: Ash
   entities:
   - uid: 2
@@ -46314,6 +46404,13 @@ entities:
     components:
     - type: Transform
       pos: 95.5,138.5
+      parent: 1
+- proto: ClothingUniformJumpskirtJanimaidmini
+  entities:
+  - uid: 32368
+    components:
+    - type: Transform
+      pos: 53.5,95.5
       parent: 1
 - proto: CMAdvFirstAidKitFilled
   entities:
@@ -48359,7 +48456,7 @@ entities:
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 33.513344,102.26898
+      pos: 33.5,102.5
       parent: 1
   - uid: 378
     components:
@@ -48382,7 +48479,7 @@ entities:
   - uid: 381
     components:
     - type: Transform
-      pos: 27.600452,4.6505046
+      pos: 27.5,4.5
       parent: 1
   - uid: 382
     components:
@@ -49743,7 +49840,7 @@ entities:
   - uid: 615
     components:
     - type: Transform
-      pos: 29.024538,123.8625
+      pos: 29.5,123.5
       parent: 1
   - uid: 616
     components:
@@ -49760,18 +49857,18 @@ entities:
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 170.7352,112.502014
+      pos: 170.5,112.5
       parent: 1
   - uid: 619
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 169.24908,112.502014
+      pos: 169.5,112.5
       parent: 1
   - uid: 620
     components:
     - type: Transform
-      pos: 168.53381,111.89785
+      pos: 168.5,111.5
       parent: 1
 - proto: CMChairComfy
   entities:
@@ -50953,6 +51050,13 @@ entities:
     - type: Transform
       pos: 71.5,86.5
       parent: 1
+- proto: CMCrowbarRed
+  entities:
+  - uid: 32367
+    components:
+    - type: Transform
+      pos: 217.5,49.5
+      parent: 1
 - proto: CMDefibrillator
   entities:
   - uid: 826
@@ -51032,315 +51136,313 @@ entities:
     - type: Transform
       pos: 64.5,84.5
       parent: 1
-- proto: CMDoubleDoorCommandGlass
+- proto: CMDoubleDoorColonyCommandGlassLocked
   entities:
   - uid: 840
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 211.5,49.5
+      pos: 163.5,89.5
       parent: 1
   - uid: 841
-    components:
-    - type: Transform
-      pos: 211.5,50.5
-      parent: 1
-  - uid: 842
-    components:
-    - type: Transform
-      pos: 207.5,57.5
-      parent: 1
-  - uid: 843
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 207.5,56.5
-      parent: 1
-  - uid: 844
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 202.5,47.5
-      parent: 1
-  - uid: 845
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 205.5,49.5
-      parent: 1
-  - uid: 846
-    components:
-    - type: Transform
-      pos: 205.5,50.5
-      parent: 1
-  - uid: 847
-    components:
-    - type: Transform
-      pos: 202.5,48.5
-      parent: 1
-  - uid: 848
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 200.5,53.5
-      parent: 1
-  - uid: 849
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 199.5,53.5
-      parent: 1
-  - uid: 850
-    components:
-    - type: Transform
-      pos: 92.5,92.5
-      parent: 1
-  - uid: 851
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 92.5,91.5
-      parent: 1
-  - uid: 852
-    components:
-    - type: Transform
-      pos: 92.5,82.5
-      parent: 1
-  - uid: 853
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 92.5,81.5
-      parent: 1
-  - uid: 854
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 97.5,79.5
-      parent: 1
-  - uid: 855
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 96.5,79.5
-      parent: 1
-  - uid: 856
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 72.5,89.5
-      parent: 1
-  - uid: 857
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 73.5,89.5
-      parent: 1
-  - uid: 858
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 63.5,77.5
-      parent: 1
-  - uid: 859
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 64.5,77.5
-      parent: 1
-- proto: CMDoubleDoorCommandGlassLocked
-  entities:
-  - uid: 860
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 126.5,128.5
-      parent: 1
-  - uid: 861
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 125.5,131.5
-      parent: 1
-  - uid: 862
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 124.5,131.5
-      parent: 1
-  - uid: 863
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 125.5,128.5
-      parent: 1
-  - uid: 864
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 162.5,128.5
-      parent: 1
-  - uid: 865
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 161.5,128.5
-      parent: 1
-  - uid: 866
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 153.5,117.5
-      parent: 1
-  - uid: 867
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 154.5,117.5
-      parent: 1
-  - uid: 868
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 173.5,119.5
-      parent: 1
-  - uid: 869
-    components:
-    - type: Transform
-      pos: 173.5,120.5
-      parent: 1
-  - uid: 870
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 165.5,110.5
-      parent: 1
-  - uid: 871
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 166.5,110.5
-      parent: 1
-  - uid: 872
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 159.5,114.5
-      parent: 1
-  - uid: 873
-    components:
-    - type: Transform
-      pos: 159.5,115.5
-      parent: 1
-  - uid: 874
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 146.5,120.5
-      parent: 1
-  - uid: 875
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 146.5,117.5
-      parent: 1
-  - uid: 876
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 147.5,117.5
-      parent: 1
-  - uid: 877
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 147.5,120.5
       parent: 1
-  - uid: 878
-    components:
-    - type: Transform
-      pos: 163.5,89.5
-      parent: 1
-  - uid: 879
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 163.5,88.5
-      parent: 1
-  - uid: 880
-    components:
-    - type: Transform
-      pos: 162.5,71.5
-      parent: 1
-  - uid: 881
+  - uid: 842
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 161.5,69.5
+      pos: 147.5,117.5
+      parent: 1
+  - uid: 843
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 146.5,117.5
+      parent: 1
+  - uid: 844
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 146.5,120.5
+      parent: 1
+  - uid: 845
+    components:
+    - type: Transform
+      pos: 159.5,115.5
+      parent: 1
+  - uid: 846
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 159.5,114.5
+      parent: 1
+  - uid: 847
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 166.5,110.5
+      parent: 1
+  - uid: 848
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 165.5,110.5
+      parent: 1
+  - uid: 849
+    components:
+    - type: Transform
+      pos: 173.5,120.5
+      parent: 1
+  - uid: 850
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 173.5,119.5
+      parent: 1
+  - uid: 851
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 154.5,117.5
+      parent: 1
+  - uid: 852
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 153.5,117.5
+      parent: 1
+  - uid: 853
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 161.5,128.5
+      parent: 1
+  - uid: 854
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 162.5,128.5
+      parent: 1
+  - uid: 855
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 125.5,128.5
+      parent: 1
+  - uid: 856
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 124.5,131.5
+      parent: 1
+  - uid: 857
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 125.5,131.5
+      parent: 1
+  - uid: 858
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 126.5,128.5
       parent: 1
   - uid: 882
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 162.5,70.5
+      pos: 211.5,49.5
       parent: 1
   - uid: 883
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 160.5,69.5
+      pos: 211.5,50.5
       parent: 1
   - uid: 884
     components:
     - type: Transform
-      pos: 124.5,71.5
+      pos: 207.5,57.5
       parent: 1
   - uid: 885
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 124.5,70.5
+      pos: 207.5,56.5
       parent: 1
   - uid: 886
     components:
     - type: Transform
-      pos: 131.5,53.5
+      rot: 3.141592653589793 rad
+      pos: 202.5,47.5
       parent: 1
   - uid: 887
     components:
     - type: Transform
-      pos: 124.5,53.5
+      rot: 3.141592653589793 rad
+      pos: 205.5,49.5
       parent: 1
   - uid: 888
+    components:
+    - type: Transform
+      pos: 205.5,50.5
+      parent: 1
+  - uid: 889
+    components:
+    - type: Transform
+      pos: 202.5,48.5
+      parent: 1
+  - uid: 890
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 200.5,53.5
+      parent: 1
+  - uid: 891
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 199.5,53.5
+      parent: 1
+  - uid: 892
+    components:
+    - type: Transform
+      pos: 92.5,92.5
+      parent: 1
+  - uid: 893
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 92.5,91.5
+      parent: 1
+  - uid: 32339
+    components:
+    - type: Transform
+      pos: 92.5,82.5
+      parent: 1
+  - uid: 32340
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 92.5,81.5
+      parent: 1
+  - uid: 32341
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 97.5,79.5
+      parent: 1
+  - uid: 32342
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 96.5,79.5
+      parent: 1
+  - uid: 32343
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 72.5,89.5
+      parent: 1
+  - uid: 32344
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 73.5,89.5
+      parent: 1
+  - uid: 32345
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 63.5,77.5
+      parent: 1
+  - uid: 32346
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 64.5,77.5
+      parent: 1
+  - uid: 32347
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 163.5,88.5
+      parent: 1
+  - uid: 32348
+    components:
+    - type: Transform
+      pos: 162.5,71.5
+      parent: 1
+  - uid: 32349
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 161.5,69.5
+      parent: 1
+  - uid: 32350
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 162.5,70.5
+      parent: 1
+  - uid: 32351
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 160.5,69.5
+      parent: 1
+  - uid: 32352
+    components:
+    - type: Transform
+      pos: 124.5,71.5
+      parent: 1
+  - uid: 32353
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 124.5,70.5
+      parent: 1
+  - uid: 32354
+    components:
+    - type: Transform
+      pos: 131.5,53.5
+      parent: 1
+  - uid: 32355
+    components:
+    - type: Transform
+      pos: 124.5,53.5
+      parent: 1
+  - uid: 32356
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 124.5,52.5
       parent: 1
-  - uid: 889
+  - uid: 32357
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 131.5,52.5
       parent: 1
-  - uid: 890
+  - uid: 32358
     components:
     - type: Transform
       pos: 116.5,70.5
       parent: 1
-  - uid: 891
+  - uid: 32359
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 116.5,69.5
       parent: 1
-  - uid: 892
+  - uid: 32360
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 109.5,71.5
       parent: 1
-  - uid: 893
+  - uid: 32361
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -65179,15 +65281,6 @@ entities:
     - type: Transform
       pos: 151.5,120.5
       parent: 1
-- proto: CMWeaponLauncherM79
-  entities:
-  - uid: 3462
-    components:
-    - type: Transform
-      parent: 3461
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: CMWelder
   entities:
   - uid: 3463
@@ -65747,48 +65840,7 @@ entities:
     - type: CMArmor
       bio: 15
     - type: Storage
-      savedLocations: {}
       grid: []
-      maxItemSize: Small
-      storageInsertSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storageOpenSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storedItems: {}
-    - type: Item
-      heldPrefix: off
-    - type: Clothing
-      unequipDelay: 2
-      equipDelay: 2
-      equippedPrefix: off
-      clothingVisuals:
-        outerClothing:
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: equipped-OUTERCLOTHING
-          sprite: null
-          texture: null
-          shader: null
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: lamp-off
-          sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
-          texture: null
-          shader: null
     - type: Physics
       canCollide: False
     - type: AllowSuitStorage
@@ -65819,10 +65871,6 @@ entities:
         - Gun
         - CassettePlayer
     - type: InsideEntityStorage
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          ents: []
   - uid: 3543
     components:
     - type: Transform
@@ -65830,48 +65878,7 @@ entities:
     - type: CMArmor
       bio: 15
     - type: Storage
-      savedLocations: {}
       grid: []
-      maxItemSize: Small
-      storageInsertSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storageOpenSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storedItems: {}
-    - type: Item
-      heldPrefix: off
-    - type: Clothing
-      unequipDelay: 2
-      equipDelay: 2
-      equippedPrefix: off
-      clothingVisuals:
-        outerClothing:
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: equipped-OUTERCLOTHING
-          sprite: null
-          texture: null
-          shader: null
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: lamp-off
-          sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
-          texture: null
-          shader: null
     - type: Physics
       canCollide: False
     - type: AllowSuitStorage
@@ -65902,10 +65909,6 @@ entities:
         - Gun
         - CassettePlayer
     - type: InsideEntityStorage
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          ents: []
   - uid: 3544
     components:
     - type: Transform
@@ -65913,48 +65916,7 @@ entities:
     - type: CMArmor
       bio: 15
     - type: Storage
-      savedLocations: {}
       grid: []
-      maxItemSize: Small
-      storageInsertSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storageOpenSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storedItems: {}
-    - type: Item
-      heldPrefix: off
-    - type: Clothing
-      unequipDelay: 2
-      equipDelay: 2
-      equippedPrefix: off
-      clothingVisuals:
-        outerClothing:
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: equipped-OUTERCLOTHING
-          sprite: null
-          texture: null
-          shader: null
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: lamp-off
-          sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
-          texture: null
-          shader: null
     - type: Physics
       canCollide: False
     - type: AllowSuitStorage
@@ -65985,10 +65947,6 @@ entities:
         - Gun
         - CassettePlayer
     - type: InsideEntityStorage
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          ents: []
   - uid: 3545
     components:
     - type: Transform
@@ -65996,48 +65954,7 @@ entities:
     - type: CMArmor
       bio: 15
     - type: Storage
-      savedLocations: {}
       grid: []
-      maxItemSize: Small
-      storageInsertSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storageOpenSound: !type:SoundCollectionSpecifier
-        collection: storageRustle
-      storedItems: {}
-    - type: Item
-      heldPrefix: off
-    - type: Clothing
-      unequipDelay: 2
-      equipDelay: 2
-      equippedPrefix: off
-      clothingVisuals:
-        outerClothing:
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: equipped-OUTERCLOTHING
-          sprite: null
-          texture: null
-          shader: null
-        - cycle: False
-          copyToShaderParameters: null
-          renderingStrategy: null
-          map: null
-          color: null
-          visible: null
-          offset: null
-          rotation: null
-          scale: null
-          state: lamp-off
-          sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
-          texture: null
-          shader: null
     - type: Physics
       canCollide: False
     - type: AllowSuitStorage
@@ -66068,10 +65985,6 @@ entities:
         - Gun
         - CassettePlayer
     - type: InsideEntityStorage
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          ents: []
 - proto: RMCArmorSPPFirefighter
   entities:
   - uid: 787
@@ -71079,6 +70992,21 @@ entities:
       parent: 1
 - proto: RMCBoxMagazineRifleAK4047Empty
   entities:
+  - uid: 879
+    components:
+    - type: Transform
+      pos: 138.5,115.5
+      parent: 1
+  - uid: 880
+    components:
+    - type: Transform
+      pos: 138.5,116.5
+      parent: 1
+  - uid: 881
+    components:
+    - type: Transform
+      pos: 138.5,117.5
+      parent: 1
   - uid: 4391
     components:
     - type: Transform
@@ -71685,6 +71613,38 @@ entities:
       fixtures: {}
 - proto: RMCBushJungle2
   entities:
+  - uid: 872
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 75.5,104.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 873
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 76.5,106.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 875
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 68.5,106.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 877
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 58.5,107.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 4483
     components:
     - type: Transform
@@ -72188,6 +72148,38 @@ entities:
       fixtures: {}
 - proto: RMCBushJungle3
   entities:
+  - uid: 871
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 76.5,103.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 874
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 69.256035,106.20563
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 876
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 60.5,105.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 878
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 58.5,111.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
   - uid: 4554
     components:
     - type: Transform
@@ -89501,6 +89493,18 @@ entities:
     - type: Transform
       pos: 176.5,92.5
       parent: 1
+- proto: RMCMonitorCameraLandingZone
+  entities:
+  - uid: 32369
+    components:
+    - type: Transform
+      pos: 46.5,18.5
+      parent: 1
+  - uid: 32370
+    components:
+    - type: Transform
+      pos: 10.5,108.5
+      parent: 1
 - proto: RMCMotionDetector
   entities:
   - uid: 7773
@@ -98923,7 +98927,7 @@ entities:
       name: Landing Zone - Secure Lockdown Button
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 6.5,83
+      pos: 6.5,83.25
       parent: 1
     - type: RMCDoorButton
       id: LZ1
@@ -100850,6 +100854,40 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: RMCPropTurbine
+  entities:
+  - uid: 32363
+    components:
+    - type: Transform
+      pos: 218.5,49.5
+      parent: 1
+- proto: RMCPropTurbineStrutsBorder
+  entities:
+  - uid: 32364
+    components:
+    - type: Transform
+      pos: 218.5,49.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCPropTurbineStrutsLeft
+  entities:
+  - uid: 32366
+    components:
+    - type: Transform
+      pos: 219.5,49.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCPropTurbineStrutsRight
+  entities:
+  - uid: 32365
+    components:
+    - type: Transform
+      pos: 217.5,49.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: RMCPropVehicleBoxVanRedF
   entities:
   - uid: 9740
@@ -116419,6 +116457,66 @@ entities:
           ent: null
 - proto: RMCTurretGaussSpaceborne
   entities:
+  - uid: 859
+    components:
+    - type: Transform
+      pos: 29.5,97.5
+      parent: 1
+  - uid: 860
+    components:
+    - type: Transform
+      pos: 28.5,112.5
+      parent: 1
+  - uid: 861
+    components:
+    - type: Transform
+      pos: 4.5,121.5
+      parent: 1
+  - uid: 862
+    components:
+    - type: Transform
+      pos: 10.5,122.5
+      parent: 1
+  - uid: 863
+    components:
+    - type: Transform
+      pos: 18.5,121.5
+      parent: 1
+  - uid: 864
+    components:
+    - type: Transform
+      pos: 20.5,113.5
+      parent: 1
+  - uid: 865
+    components:
+    - type: Transform
+      pos: 20.5,101.5
+      parent: 1
+  - uid: 866
+    components:
+    - type: Transform
+      pos: 20.5,108.5
+      parent: 1
+  - uid: 867
+    components:
+    - type: Transform
+      pos: 17.5,94.5
+      parent: 1
+  - uid: 868
+    components:
+    - type: Transform
+      pos: 9.5,90.5
+      parent: 1
+  - uid: 869
+    components:
+    - type: Transform
+      pos: 11.5,85.5
+      parent: 1
+  - uid: 870
+    components:
+    - type: Transform
+      pos: 5.5,85.5
+      parent: 1
   - uid: 12502
     components:
     - type: Transform
@@ -116646,6 +116744,11 @@ entities:
     components:
     - type: Transform
       pos: 233.5,23.5
+      parent: 1
+  - uid: 32362
+    components:
+    - type: Transform
+      pos: 13.5,2.5
       parent: 1
 - proto: RMCWallJungleStrata
   entities:
@@ -210916,6 +211019,15 @@ entities:
     - type: Transform
       pos: 75.5,32.5
       parent: 1
+- proto: RMCWeaponLauncherM85A1
+  entities:
+  - uid: 3462
+    components:
+    - type: Transform
+      parent: 3461
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: RMCWeaponPistolHoldout
   entities:
   - uid: 31210

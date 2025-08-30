@@ -8,6 +8,7 @@ rmc-bslot-barrel = Mateba Barrel
 rmc-aslot-rail = Рейка
 rmc-aslot-stock = Приклад
 rmc-aslot-underbarrel = Підствольна частина
+rmc-aslot-harness = Harness
 
 rmc-attachable-activation-fail-not-wielded = {CAPITALIZE(THE($holder))} треба тримати в двох руках, щоб активувати {THE($attachable)}!
 rmc-attachable-activation-fail-not-held = {CAPITALIZE(THE($holder))} потрібно тримати, щоб активувати {THE($attachable)}!
@@ -60,6 +61,8 @@ rmc-attachable-examine-ranged-recoil = [color={$colour}]{$sign}{$recoil}[/color]
 rmc-attachable-examine-ranged-damage = [color={$colour}]{$sign}{$damage}[/color] множник дальності ураження.
 rmc-attachable-examine-ranged-projectile-speed = [color={$colour}]{$sign}{$projectileSpeed}[/color] швидкість кулі.
 rmc-attachable-examine-ranged-damage-falloff = [color={$colour}]{$sign}{$falloff}[/color] мультиплікатор падіння.
+rmc-attachable-examine-ranged-range = [color={$colour}]{$sign}{$falloff}[/color] projectile range.
+rmc-attachable-examine-ranged-projectile-stun-duration = [color={$colour}]{$sign}{$stunDurationMult}[/color] stun duration multiplier.
 
 rmc-attachable-examine-melee-damage = [color={$colour}]{$sign}{$damage}[/color] шкоди від удару.
 

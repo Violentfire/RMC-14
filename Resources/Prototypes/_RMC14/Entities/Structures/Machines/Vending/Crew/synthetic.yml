@@ -33,8 +33,12 @@
       - id: CMWebbingBrown
         recommended: true
       - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
       - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
       - id: CMWebbing
+      - id: RMCWebbingBlackSmall
       - id: CMWebbingHolster
       - id: CMWebbingSurgicalBlue
       - id: CMWebbingSurgicalGreen

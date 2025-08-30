@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleSSG45NoLock
-  name: SSG-45 штурмова гвинтівка
-  description: SSG - точна штурмова гвинтівка від Weston-Yamada, як наступник застарілої лінійки зброї серій M5. Ідеальна для бою на середніх і далеких дистанціях. Використовує безгільзові набої 7х62 мм. Має кращу зупиняючу дію та ефективність боєприпасів порівняно з M54C MK2, зберігаючи ефективність у ближньому бою.
+  name: SSG-45 Assault Rifle
+  description: Developed by Weston-Yamada as a modern successor to the aging M5 platform, the SpezialSturmGewehr is engineered for precision mid-to-long range combat. The primary rifle of the Weston-Yamada PMCs.
   suffix: No ID Lock
   components:
   - type: Sprite
@@ -92,12 +92,6 @@
           - RMCAttachmentS6ReflexSight
           - RMCAttachmentS84xTelescopicScope
           - RMCAttachmentS42xTelescopicMiniscope
-      rmc-aslot-stock:
-        locked: true
-        startingAttachable: RMCAttachmentSSG45Stock
-        whitelist:
-          tags:
-          - RMCAttachmentSSG45Stock
       rmc-aslot-underbarrel:
         startingAttachable: RMCAttachmentMiniFlamethrower
         whitelist:
@@ -113,16 +107,17 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.875, 0.095
-      rmc-aslot-rail: 0.095, 0.25
-      rmc-aslot-stock: -0.41, 0.06
-      rmc-aslot-underbarrel: 0.345, -0.245
+      rmc-aslot-rail: 0.185, 0.25
+      rmc-aslot-underbarrel: 0.32, -0.27
   - type: Tag
     tags:
     - RMCWeaponRifleSSG45
+  - type: RMCLoreExaminable
+    content: rmc-lore-examinable-ssg45
 
 - type: entity
   parent: RMCWeaponRifleSSG45NoLock
-  id: WeaponRifleSSG45
+  id: RMCWeaponRifleSSG45
   suffix: Has ID Lock
   components:
   - type: GunIDLock
@@ -150,12 +145,6 @@
           - RMCAttachmentS6ReflexSight
           - RMCAttachmentS84xTelescopicScope
           - RMCAttachmentS42xTelescopicMiniscope
-      rmc-aslot-stock:
-        locked: true
-        startingAttachable: RMCAttachmentSSG45Stock
-        whitelist:
-          tags:
-          - RMCAttachmentSSG45Stock
       rmc-aslot-underbarrel:
         startingAttachable: null
         whitelist:

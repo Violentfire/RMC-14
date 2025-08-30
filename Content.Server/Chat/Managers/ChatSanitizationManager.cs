@@ -37,10 +37,12 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":O", "chatsan-surprised" },
         { "!", "chatsan-surprised" }, // RMC14
         { ":3", "chatsan-smiles" },
+        { ":з", "chatsan-smiles" }, // Sich
         { ":S", "chatsan-uncertain" },
         { ":>", "chatsan-grins" },
         { ":<", "chatsan-pouts" },
         { "xD", "chatsan-laughs" },
+        { "хД", "chatsan-laughs" }, // Sich
         { ":'(", "chatsan-cries" },
         { ":'[", "chatsan-cries" },
         { "='(", "chatsan-cries" },
@@ -55,14 +57,22 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ":u", "chatsan-smiles-smugly" },
         { ":v", "chatsan-smiles-smugly" },
         { ">:i", "chatsan-annoyed" },
+        { ">:і", "chatsan-annoyed" }, // Sich
         { ":i", "chatsan-sighs" },
+        { ":і", "chatsan-sighs" }, // Sich
         { ":|", "chatsan-sighs" },
         { ":p", "chatsan-stick-out-tongue" },
         { ";p", "chatsan-stick-out-tongue" },
+        { ":р", "chatsan-stick-out-tongue" }, // Sich
+        { ";р", "chatsan-stick-out-tongue" }, // Sich
         { ":b", "chatsan-stick-out-tongue" },
         { "0-0", "chatsan-wide-eyed" },
         { "o-o", "chatsan-wide-eyed" },
         { "o.o", "chatsan-wide-eyed" },
+        { "о-о", "chatsan-wide-eyed" }, // Sich
+        { "о.о", "chatsan-wide-eyed" }, // Sich
+        { "omg", "chatsan-wide-eyed" }, // Sich
+        { "омг", "chatsan-wide-eyed" }, // Sich
         { "._.", "chatsan-surprised" },
         { ".-.", "chatsan-confused" },
         { "?", "chatsan-confused" }, // RMC14
@@ -78,9 +88,16 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "lel", "chatsan-laughs" },
         { "kek", "chatsan-laughs" },
         { "rofl", "chatsan-laughs" },
+        { "лмао", "chatsan-laughs" }, // Sich
+        { "лмфао", "chatsan-laughs" }, // Sich
+        { "лол", "chatsan-laughs" }, // Sich
+        { "кек", "chatsan-laughs" }, // Sich
+        { "рофл", "chatsan-laughs" }, // Sich
         { "o7", "chatsan-salutes" },
+        { "о7", "chatsan-salutes" }, // Sich
         { ";_;7", "chatsan-tearfully-salutes" },
         { "idk", "chatsan-shrugs" },
+        { "хз", "chatsan-shrugs" }, // Sich
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },
         { "(;", "chatsan-winks" },

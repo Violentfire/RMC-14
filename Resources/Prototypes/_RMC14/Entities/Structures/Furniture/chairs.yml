@@ -24,6 +24,12 @@
   name: стілець
   description: Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Призначений для більш-менш зручного сидячого положення.
   components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Foldable
+    anchorOnUnfold: true
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/folding_chair.rsi
     layers:
@@ -58,7 +64,7 @@
   - type: Foldable
     folded: true
   - type: Strap
-    enabled: False
+    enabled: false
 
 - type: entity
   parent: CMSeatBase
@@ -105,6 +111,8 @@
   id: CMChairComfy
   name: зручний стілець
   description: Стілець зі шкіряною оббивкою та регульованим підголовником. У такому можна сидіти вічно.  
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     state: comfychair
@@ -234,7 +242,7 @@
   parent: CMSeatBase
   id: CMChairOfficeDark
   name: темне офісне крісло
-  components:
+  components: # RMC14 Non-parity: Not rotatable
   - type: Sprite
     state: officechair_dark
   - type: Construction

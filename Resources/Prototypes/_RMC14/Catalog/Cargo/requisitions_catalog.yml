@@ -131,13 +131,17 @@
       - cost: 2000
         crate: RMCCrateClothingWebbing
       - cost: 2000
+        crate: RMCCrateClothingWebbingBlack
+      - cost: 2000
         crate: RMCCrateClothingWebbingVest
       - cost: 2000
         crate: RMCCrateClothingWebbingKnife
       - cost: 3000
         crate: RMCCrateClothingWebbingHolster
       - cost: 2000
-        crate: RMCCrateClothingWebbingPouch
+        crate: RMCCrateClothingDropPouch
+      - cost: 3000
+        crate: RMCCrateClothingDropPouchBlack
       - cost: 3000
         crate: RMCCrateClothingOfficerOutfit
     - name: Інженерне
@@ -233,6 +237,8 @@
         crate: RMCCrateGearPackFlareCAS
       - cost: 2000
         crate: RMCCrateGearFulton
+      - cost: 4000
+        crate: RMCCrateGearParachute
     - name: Медицина
       entries:
       - cost: 3200
@@ -306,7 +312,7 @@
       - cost: 3000
         crate: RMCCrateXM51
       - cost: 4000
-        crate: RMCCrateM79
+        crate: RMCCrateM85A1
     - name: Спеціальні Набої
       entries:
       - cost: 4000
