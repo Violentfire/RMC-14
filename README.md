@@ -1,35 +1,41 @@
 <p align="center"> <img alt="Space Station 14" width="400" height="400" src="https://github.com/user-attachments/assets/320ad459-8997-4e5b-9f7e-fc7e7d7dcb73" /></p>
 
-RMC-14 is an asymmetric game, that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox).
+## Вітаємо на сторінці білду сервера Січі!
 
-This is the primary repo for RMC-14. To prevent people forking Robust Toolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+### Rouny's Marine Corps 14 (Корпус МорПіхоти Руні 14) - це асиметрична ПВП-гра що працює на рушії [Robust Toolbox](https://github.com/space-wizards/RobustToolbox).
 
-If you want to host or create content for RMC-14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+***Цей форк містить в собі частковий переклад [Корпусу МорПіхоти Руні 14 (РМС)](https://github.com/RMC-14/RMC-14) українською мовою, плюс часткові локальні зміни під потреби сервера Січі. Сам сервер можете знайти у лаунчері гри, а також завітайте до нашого [ДС сервера](https://discord.gg/qKNsBbV22F)!***
 
-## Links
+## Посилання
 
-[RMC-14 Community Wiki](https://wiki.rouny-ss14.com/) | [Discord](https://discord.gg/rouny) | [SS14 Steam Launcher](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Launcher Download](https://spacestation14.io/about/nightlies/)
+### Січ: [Сайт Січі](https://sich.me/) | [ДС Сервер Січі](https://discord.gg/qKNsBbV22F)
 
-## Contributing
+### RMC: [Офіційний репо РМС](https://github.com/RMC-14/RMC-14/) | [Офіційна Вікі РМС](https://wiki.rouny-ss14.com/) | [Офіційний ДС Сервер РМС](https://discord.gg/rouny)
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/RMC-14/RMC-14/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+### СС14: [Сторінка СС14 у Стімі](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Завантаження лаунчеру гри без Стіму](https://spacestation14.io/about/nightlies/)
 
-## Building
+## Внесення Змін
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+Ми будемо раді бачити будь-яку допомогу у підтримці та розробці нашої версії білду. Процес створення та прийняття ПРів точно такий ж, як й у інших форків. В ідеалі будьте присутніми у [нашому ДС Сервері](https://discord.gg/qKNsBbV22F), там 90% інформацій щодо поточних цілей, стандартів перекладу та обговорення подальших змін.
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+Єдине, першочергова ціль - переклад та додавання невеликих та локально необхідних **САМЕ НАМ змін**. Якщо хочете додати якусь повноцінну механіку чи фішку, краще спочатку спробуйте зробити це до [офіційного білду РМС](https://github.com/RMC-14/RMC-14/).
 
-## License
+## Розгортання білду
 
-All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+1. Клонуйте цей репозиторій.
+2. Запустіть `RUN_THIS.py` щоб ініціалізувати сабмодулі та завантажити двигун.
+3. Скомпілюйте це все за допомогою dotnet.
 
-Most assets are licensed under [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+[Більш детальна інструкція (англійською)](https://docs.spacestation14.com/en/general-development/setup.html), [Українській варіант (може бути застарілим)](https://ss14.miraheze.org/wiki/%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA_%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D1%83)
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+## Ліцензія
 
-## Partners
+Увесь код у цьому репозіторії ліцензован під ліцензією [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
 
-Proxy/VPN detection by [GetIPIntel.net](http://getipintel.net/).
+Більшість ресурсів ліцензовано за ліцензією [CC-BY-SA-3.0](https://creativecommons.org/licenses/by-sa/3.0/), якщо не зазначено інше. Ресурси мають свою ліцензію та авторські права у файлі метаданих. [Приклад](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+
+Зауважте що деяки ассети ліцензовани не коммерційною ліцензію [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) або схожими не комерційними ліцензіями, й їх потрібно буде видалити у випадку якщо ви захочете використовувати цій проект у комерційних цілях.
+
+## Партнери
+
+Моніторинг Проксі/ВПН підключень завдяки [GetIPIntel.net](http://getipintel.net/) (не використовується у нас).
