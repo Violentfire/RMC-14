@@ -20,8 +20,8 @@ rmc-emote-snarl = гарчить.
 rmc-emote-whine = скавчить.
 rmc-emote-howl = виє.
 
-rmc-emote-name-gnash = Gnash
-rmc-emote-gnash = gnashes.
+rmc-emote-name-gnash = Скрежетіти
+rmc-emote-gnash = скрежетить зубами.
 
 rmc-emote-name-xeno-roar = Заревіти
 rmc-emote-name-xeno-tail-swipe = Махнути хвостом
@@ -31,12 +31,12 @@ rmc-emote-xeno-roar = реве!
 rmc-emote-xeno-tail-swipe = махає {POSS-ADJ($entity)} хвостом.
 rmc-emote-xeno-help = потребує допомоги!
 
-rmc-emote-name-peep = Peep
-rmc-emote-name-anger = Trill angrilly
-rmc-emote-name-trill = Trill
-rmc-emote-name-warble = Warble
+rmc-emote-name-peep = Піп
+rmc-emote-name-anger = Трелити агресивно
+rmc-emote-name-trill = Трелити
+rmc-emote-name-warble = Співати
 
-rmc-emote-peep = peeps with surprise!
-rmc-emote-anger = trills angrily!
-rmc-emote-trill = trill!
-rmc-emote-warble = warbles!
+rmc-emote-peep = здивовано піпає!
+rmc-emote-anger = агресивно трелить!
+rmc-emote-trill = трелить!
+rmc-emote-warble = співає!

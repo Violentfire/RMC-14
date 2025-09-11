@@ -60,6 +60,10 @@ rmc-gun-stacks-reset = {$weapon} втрачає дані про ціль, і п�
 rmc-gun-shoot-air-self = YOU FIRE YOUR { CAPITALIZE($weapon) } INTO THE AIR!
 rmc-gun-shoot-air-other = { CAPITALIZE(THE($user)) } FIRES { CAPITALIZE(THE($weapon)) } INTO THE AIR!
 rmc-gun-shoot-air-blocked = The roof above you is too dense.
+rmc-gun-shoot-air-examine = [bold]Press your [color=cyan]unique action[/color] keybind (Spacebar by default){$harm ->
+    [true] {" while in harm mode"}
+    *[false] {""}
+    } to fire into the air.[/bold]
 
 rmc-flare-gun-examine = The last signal flare fired has the designation: [color=#ad3b98][bold]{$id}[/bold][/color]
 

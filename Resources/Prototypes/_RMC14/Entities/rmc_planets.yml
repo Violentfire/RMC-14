@@ -1,11 +1,11 @@
 - type: entity
   id: RMCPlanetLV624
-  name: ЛВ-624 Посадка Лазаруса
+  name: ЖЗ-624 Посадка Лазаруса # ЖЗ - ЖиттєЗдатна
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/lv624.yml
     camouflage: Jungle
-    announcement: "Було отримано автоматичний сигнал лиха з місця археологічних розкопок Посадка Лазаруса, що на планеті ЛВ-624. Щоб встановити причину, з ДКП-Саванна \"Січ\" найближчим часом буде відправлена група реагування."
+    announcement: "Було отримано автоматичний сигнал лиха з місця археологічних розкопок Посадка Лазаруса, що на планеті ЖЗ-624. Щоб встановити причину, з ДКП-Саванна \"Січ\" найближчим часом буде відправлена група реагування."
     nightmareScenarios:
     - scenarioName: fallen_ship
       scenarioProbability: 0.1
@@ -36,7 +36,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/solaris.yml
     camouflage: Desert
-    announcement: "Вестон-Ямада втратили зв'язок з одним зі своїх біосховищ, Хребтом Солярис, на планеті ЛВ-1413. Ве-Я відправили вас розібратися з причиною зникнення зв'язку."
+    announcement: "Вестон-Ямада втратили зв'язок з одним зі своїх біосховищ, Хребтом Солярис, на планеті ЖЗ-1413. Ве-Я відправили вас розібратися з причиною зникнення зв'язку."
 
 - type: entity
   id: RMCPlanetShiva
@@ -53,7 +53,7 @@
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/prison.yml
-    camouflage: Classic
+    camouflage: Urban
     announcement: "Автоматичний сигнал лиха було отримано з в'язниці суворого режиму \"Орбітальна Тюрма Фіоріна\". Для встановлення причини, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
 
 - type: entity
@@ -65,6 +65,32 @@
     camouflage: Desert
     minPlayers: 40
     announcement: "Ми втратили контакт з позасонячною колонією Вестон-Ямади, \"Дамба Тріджент\", що на планеті \"Райжин.\" На допомогу було надіслано ДКП-Саванна \"Січ\"."
+    survivorJobs:
+    - CMSurvivor: -1
+    - CMSurvivorCorporate: 2
+    - CMSurvivorDoctor: 3
+    - CMSurvivorEngineer: 4
+    - CMSurvivorSecurity: 2
+    - CMSurvivorScientist: 2
+    survivorJobInserts:
+      CMSurvivor:
+      - CMSurvivorTrijentTrucker: -1
+      - CMSurvivorMiner: -1
+      - CMSurvivorTrijentChaplain: 1
+      CMSurvivorCorporate:
+      - CMSurvivorICB: 1
+      - CMSurvivorTrijentCorporate: 1
+      CMSurvivorDoctor:
+      - CMSurvivorTrijentDoctor: 3
+      CMSurvivorEngineer:
+      - CMSurvivorTrijentEngiHydro: 2
+      - CMSurvivorTrijentDamTech: 2
+      CMSurvivorSecurity:
+      - CMSurvivorTrijentGoon: 1
+      - CMSurvivorCMBDeputy: 1
+      CMSurvivorScientist:
+      - CMSurvivorTrijentResearcher: 2
+
 
 - type: entity
   id: RMCPlanetVaradero
@@ -98,7 +124,7 @@
       - CMSurvivorMiner: -1
       - CMSurvivorPriest: 1
       CMSurvivorCorporate:
-      - CMSurvivorICB: 2
+      - CMSurvivorVaraderoICB: 2
       CMSurvivorDoctor:
       - CMSurvivorMedicalTechnician: 3
       CMSurvivorEngineer:
@@ -120,12 +146,12 @@
 
 - type: entity
   id: RMCPlanetChances
-  name: ЛВ-522 Земля Фортуни
+  name: ЖЗ-522 Земля Фортуни
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/chances.yml
-    camouflage: Classic
-    announcement: "Пан-Пан. Це командуючий офіцер ВКСШ Ганют, РОЗСИЛ КМПСШ. Ми висадилися на планеті ЛВ-522 неподалік \"Землі Фортуни\", повторюю, неподалік \"Землі Фортуни\". Ми втратили контакт з Ганютом, також наші транспортники не в змозі вилетіти. МИ ПОТРЕБУЄМО ДОПОМОГИ ВІД УСІХ КОРАБЛІВ ПОБЛИЗУ; це повідомлення транслюватиметься кожні 24 години."
+    camouflage: Urban
+    announcement: "Пан-Пан. Це командуючий офіцер ВКСШ Ганют, РОЗСИЛ КМПСШ. Ми висадилися на планеті ЖЗ-522 неподалік \"Землі Фортуни\", повторюю, неподалік \"Землі Фортуни\". Ми втратили контакт з Ганютом, також наші шатли не в змозі вилетіти. МИ ПОТРЕБУЄМО ДОПОМОГИ ВІД УСІХ КОРАБЛІВ ПОБЛИЗУ; це повідомлення транслюватиметься кожні 24 години."
     selectRandomSurvivorInsert: false
     survivorJobs:
     - RMCSurvivorCommandingOfficer: 1
@@ -150,7 +176,7 @@
 
 - type: entity
   id: RMCPlanetHybrisa
-  name: ЛВ-759 Процвітаюча Гібріса
+  name: ЖЗ-759 Процвітаюча Гібріса
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/hybrisa.yml
@@ -186,13 +212,13 @@
 
 - type: entity
   id: RMCPlanetSorokyne
-  name: LV-976 Sorokyne Strata
+  name: ЖЗ-976 Сорокіне Страта # Комуністи (СПП). . . "Сорокина Срака", наврядч ми її будемо задіювати.
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/sorokyne.yml
     camouflage: Jungle
-    minPlayers: 130
-    announcement: "An automated distress signal has been recieved from a mining colony on border world LV-976, \"Sorokyne Outpost\". A response team from the UNS Almayer will be dispatched shortly to investigate."
+    minPlayers: 40
+    announcement: "З колонії гірничодобувної компанії на прикордонній планеті ЖЗ-976, \"Форпост Сорокіно\", отримано автоматичний сигнал СОС. Для розслідування відправлена група з ДКП-Саванна \"Січ\"."
     survivorJobInserts:
       CMSurvivor:
       - CMJobSurvivorSoroCivilian: -1
@@ -210,3 +236,30 @@
       - CMJobSurvivorArmyReservist: 2
       CMSurvivorScientist:
       - CMJobSurvivorCECResearcher: 2
+
+- type: entity
+  id: RMCPlanetArcticValley
+  name: Arctic Valley
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/arctic_valley.yml
+    camouflage: Snow
+    inRotation: false
+
+- type: entity
+  id: RMCPlanetCorsat
+  name: CORSAT
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/corsat.yml
+    camouflage: Classic
+    inRotation: false
+
+- type: entity
+  id: RMCPlanetHybrisaRepaired
+  name: LV-759 Hybrisa Prospera (Repaired)
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/hybrisa_greenshift.yml
+    camouflage: Urban
+    inRotation: false

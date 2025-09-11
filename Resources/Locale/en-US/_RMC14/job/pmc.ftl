@@ -68,3 +68,8 @@ rmc-job-name-pmc-bodyguard-lead = Лідер Охорони
 rmc-ghost-name-pmc-bodyguard-lead = Лідер Найманців Ве-Я (Охоронець Виконавчого Корпората)
 
 rmc-job-name-pmc-corporate-goon = Корпоративнивний Безпековець Ве-Я
+
+rmc-job-name-pmc-pve-team-leader = Лідер Команди
+rmc-job-name-pmc-pve-force-leader = Лідер Сил
+rmc-job-name-pmc-pve-force-command = Командир Сил
+

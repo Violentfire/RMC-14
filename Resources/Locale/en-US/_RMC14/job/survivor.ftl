@@ -25,6 +25,9 @@ CMJobSurvivorPriest = Колоніст-Священик
 cm-job-name-survivor-scientist = Колоніст-Науковець
 CMSurvivorScientist = Колоніст-Науковець
 
+cm-job-name-survivor-trucker = Колоніст-Далекобійник
+CMJobSurvivorTrucker = Колоніст-Далекобійник
+
 rmc-job-name-survivor-cmb-deputy = Представник БКМ
 CMSurvivorCMBDeputy = Представник БКМ
 
@@ -144,6 +147,9 @@ CMJobSurvivorHybrisaXenoarchaeologist = Ксеноархеолог
 rmc-job-name-survivor-xenobiologist = Ксенобіолог
 CMJobSurvivorHybrisaXenobiologist = Ксенобіолог
 
+rmc-job-name-survivor-pizza-galaxy = Цивільний - Водій Доставки Галактики Піци
+CMJobSurvivorHybrisaPizzaGalaxy = Цивільний - Водій Доставки Галактики Піци
+
 rmc-job-name-survivor-commercial-pilot = Вестон-Ямада - Комерційний Пілот
 
 rmc-job-name-survivor-hybrisa-engineer = Інженер-Електрик
@@ -183,3 +189,29 @@ CMJobSurvivorSoroMiner = Miner
 
 rmc-job-name-survivor-halcyon-dynamics-liaison = Halcyon Dynamics - Corporate Liaison
 CMJobSurvivorHalcyonDynamicsLiaison = Halcyon Dynamics Liaison
+
+# Trijent survs
+
+rmc-job-name-survivor-trijent-chaplain = Trijent Dam Chaplain
+CMSurvivorTrijentChaplain = Chaplain
+
+rmc-job-name-survivor-trijent-goon = Trijent Dam Security
+CMSurvivorTrijentGoon = Trijent Dam Security
+
+cm-job-name-survivor-trijent-doctor = Trijent Dam Doctor
+CMSurvivorTrijentDoctor = Trijent Dam Doctor
+
+cm-job-name-survivor-trijent-researcher = Trijent Dam Researcher
+CMSurvivorTrijentResearcher = Trijent Dam Researcher
+
+cm-job-name-survivor-trijent-trucker = Trijent Dam Heavy Vehicle Operator
+CMSurvivorTrijentTrucker = Trijent Dam Heavy Vehicle Operator
+
+cm-job-name-survivor-trijent-engi-hydro = Hydro Electric Engineer
+CMSurvivorTrijentEngiHydro = Hydro Electric Engineer
+
+cm-job-name-survivor-trijent-dam-tech = Dam Maintenance Technician
+CMSurvivorTrijentDamTech = Dam Maintenance Technician
+
+cm-job-name-survivor-trijent-corporate = Trijent Corporation Liaison
+CMSurvivorTrijentCorporate = Trijent Corporation Liaison

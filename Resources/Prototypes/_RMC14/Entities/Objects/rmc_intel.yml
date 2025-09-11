@@ -92,8 +92,8 @@
   description: Технічний посібник з детальним описом, який може бути корисним для тих, хто має відношення до відповідної галузі.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Misc/books.rsi
-    state: book
+    sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
+    state: icon
   - type: Item
     size: Tiny
   - type: IntelReadObjective

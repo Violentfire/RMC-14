@@ -1,4 +1,5 @@
 ﻿rmc-acid-resist = Ви зупиняєтеся, падаєте й котитеся, намагаючись позбавитися кислоти.
+rmc-acid-resist-partial = You stop, drop, and roll, getting rid of some of the acid... but it's still melting you!
 
 rmc-glob-start-self = Починається викидання великої газової кулі!
 rmc-glob-start-others = {$user} готується виплюнути величезну кулю!
