@@ -1,39 +1,39 @@
-# command
+# Командування
 department-CMCommand = Командування
-cm-department-Command-description = Керівництво цього корабля, керуйте і кооперуйте загони та їхню підтримку щоб досягти перемоги. Не пийте алкоголь на роботі.
+cm-department-Command-description = Ви - Керівництво цього судна, керуйте і кооперуйте загони та їхню підтримку щоб досягти перемоги. Не пийте алкоголь під час служби.
 
-# military police
-department-CMMilitaryPolice = Військова Служба Правопорядку
-cm-department-MilitaryPolice-description = Стежте за дотриманням закону. Забезпечте безпеку екіпажу. Не катуйте ув'язнених, будь ласка.
+# ВСП
+department-CMMilitaryPolice = Військової Служби Правопорядку
+cm-department-MilitaryPolice-description = Стежте за дотриманням закону. Забезпечте безпеку екіпажу Саванни. Не катуйте ув'язнених, будь ласка.
 
-# requisitions
-department-CMRequisitions = Відділ постачання
-cm-department-Requisitions-description = Дістаньте морпіхам усе що їм потрібно.
+# Постачання
+department-CMRequisitions = Відділу Постачань
+cm-department-Requisitions-description = Дістаньте/замовте/відправте морпіхам усе, що їм буде потрібно.
 
-# marines
-department-CMSquad = Морпіхи
-cm-department-Marine-description = Ті хто лізе в саме пекло битви за перемогою. Відправляйтеся на планету щоб знищити загрозу, розвідати місцевість чи просто померти.
+# Морпіхи
+department-CMSquad = Морпіхів
+cm-department-Marine-description = Ті хто лізе в саме пекло битви заради перемоги. Відправляйтеся на планету щоб знищити загрозу та спробуйте не померти!
 
-# engineering
-department-CMEngineering = Інженерний
-cm-department-Engineering-description = Your job is to maintain the ship's engine and keep everything running.
+# Інженерія
+department-CMEngineering = Інженерів
+cm-department-Engineering-description = Ваша робота - це слідкувати за судном та бути впевненим, що все працює, як треба.
 
-# medical
-department-CMMedbay = Медичний
-cm-department-Medical-description = Лікуйте, лікуйте і ще раз лікуйте. Намагайтеся не заснути коли справи йдуть добре і не застрелетись коли все погано.
+# Медичний
+department-CMMedbay = Медиків
+cm-department-Medical-description = Готуйте хімікати, проводьте хірургійні операції, у випадку чого допомагайте лікувати. Намагайтеся не заснути, коли справи йдуть добре і не застрелетись, коли все погано.
 
-# auxiliary support
-department-CMAuxiliarySupport = Підтримка
-cm-department-AuxiliarySupport-description = Надавайте вогневу і не тільки підтримку морпіхам.
+# Підтримка
+department-CMAuxiliarySupport = Підтримки
+cm-department-AuxiliarySupport-description = Керуйте та надавайте вогневу, розвідницьку та загальну підтримку морпіхам на землі.
 
-# other
-department-CMOther = Інші
+# Інші
+department-CMOther = Інших
 cm-department-Other-description = ""
 
-# survivor
-department-CMSurvivor = Виживші
-cm-department-Survivor-description = Протримайтеся до порятунку... якщо він звичайно буде.
+# Виживші
+department-CMSurvivor = Виживших
+cm-department-Survivor-description = Протримайтеся до моменту прибуття порятунку... Якщо він звичайно буде.
 
-# human
+# Людина. Не використовується
 department-CMHuman = Людина
 cm-department-Human-description = Всі людські ролі.
