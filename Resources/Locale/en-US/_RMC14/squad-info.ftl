@@ -1,59 +1,59 @@
-﻿rmc-squad-info-title = Squad Info
-rmc-squad-info-fireteams = [bold]Fireteams[/bold]
-rmc-squad-info-role = [bold]Role[/bold]
-rmc-squad-info-rank = [bold]Rank[/bold]
-rmc-squad-info-member = [bold]Member[/bold]
-rmc-squad-info-assign-ft = [bold]Assign FT[/bold]
-rmc-squad-info-actions = [bold]Actions[/bold]
-rmc-squad-info-squad-leader-name = [bold]Squad Leader: {$leader}[/bold]
-rmc-squad-info-squad-leader-none = [bold]Squad Leader: None[/bold]
-rmc-squad-info-team-leader-name = [bold]TL: {$leader}[/bold]
-rmc-squad-info-team-leader-none = [bold]Team Lead: Unassigned[/bold]
-rmc-squad-info-promote-team-leader = Promote to Team Leader
-rmc-squad-info-unassign-fireteam = Unassign from Fireteam
-rmc-squad-info-unassigned = [font size=16][bold]Unassigned[/bold][/font]
-rmc-squad-info-fireteam = [font size=16][bold]Fireteam {$fireteam}[/bold][/font]
-rmc-squad-info-tracking-selection = Tracking Selection
-rmc-squad-info-tracking-choose = Choose a new tracking target.
-rmc-squad-info-change-tracker = Change Tracker
+﻿rmc-squad-info-title = Інформація про Загін
+rmc-squad-info-fireteams = [bold]Вогневі Групи[/bold]
+rmc-squad-info-role = [bold]Роль[/bold]
+rmc-squad-info-rank = [bold]Ранг[/bold]
+rmc-squad-info-member = [bold]Учасник Загону[/bold]
+rmc-squad-info-assign-ft = [bold]Призначити ЛВГ[/bold]
+rmc-squad-info-actions = [bold]Дії[/bold]
+rmc-squad-info-squad-leader-name = [bold]Лідер Загону: {$leader}[/bold]
+rmc-squad-info-squad-leader-none = [bold]Лідер Загону: Відсутній[/bold]
+rmc-squad-info-team-leader-name = [bold]Лідер Групи: {$leader}[/bold]
+rmc-squad-info-team-leader-none = [bold]Лідер Групи: Не призначено[/bold]
+rmc-squad-info-promote-team-leader = Підвищити до Лідера Групи
+rmc-squad-info-unassign-fireteam = Видалити з Вогневої Групи
+rmc-squad-info-unassigned = [font size=16][bold]Не призначено[/bold][/font]
+rmc-squad-info-fireteam = [font size=16][bold]Вогнева Група №{$fireteam}[/bold][/font]
+rmc-squad-info-tracking-selection = Вибір відстеження
+rmc-squad-info-tracking-choose = Оберіть нову ціль відстеження:
+rmc-squad-info-change-tracker = Змінити відстежувач
 
-rmc-squad-info-CommandingOfficer = Commanding Officer
-rmc-squad-info-ExecutiveOfficer = Executive Officer
-rmc-squad-info-AuxiliarySupportOfficer = Auxiliary Support Officer
-rmc-squad-info-ChiefMilitaryPolice = Chief Military Police
-rmc-squad-info-ChiefEngineer = Chief Engineer
-rmc-squad-info-ChiefMedicalOfficer = Chief Medical Officer
-rmc-squad-info-SeniorEnlistedAdvisor = Senior Enlisted Advisor
-rmc-squad-info-Quartermaster = Quartermaster
-rmc-squad-info-MilitaryWarden = Military Warden
-rmc-squad-info-SquadLeader = Squad Leader
-rmc-squad-info-FireteamLeader = Fireteam Leader
-rmc-squad-info-Rifleman = Rifleman
+rmc-squad-info-CommandingOfficer = Командуючий Офіцер
+rmc-squad-info-ExecutiveOfficer = Виконавчий Офіцер
+rmc-squad-info-AuxiliarySupportOfficer = Офіцер Підтримки
+rmc-squad-info-ChiefMilitaryPolice = Голова ВСП
+rmc-squad-info-ChiefEngineer = Головний Інженер
+rmc-squad-info-ChiefMedicalOfficer = Головний Лікар
+rmc-squad-info-SeniorEnlistedAdvisor = Інструктор
+rmc-squad-info-Quartermaster = Квартирмейстер
+rmc-squad-info-MilitaryWarden = Військовий Наглядач
+rmc-squad-info-SquadLeader = Лідер Загону
+rmc-squad-info-FireteamLeader = Лідер Вогневої Групи
+rmc-squad-info-Rifleman = Стрілець
 
-rmc-squad-info-DirectorPmc = Director
-rmc-squad-info-LeaderPmc = Team Leader
-rmc-squad-info-CorporateLiaison = Corporate Liaison
+rmc-squad-info-DirectorPmc = Директор
+rmc-squad-info-LeaderPmc = Лідер Команди
+rmc-squad-info-CorporateLiaison = Представник Корпорації
 
-rmc-squad-info-SupervisorWeYa = Legal Supervisor
-rmc-squad-info-LawyerWeYa = Legal Specialist
-rmc-squad-info-LeaderGoon = Security Leader
+rmc-squad-info-SupervisorWeYa = Юридичний Rерівник
+rmc-squad-info-LawyerWeYa = Юридичний Cпеціаліст
+rmc-squad-info-LeaderGoon = Лідер Охорони
 
-rmc-squad-info-SupervisorWeYaExecutive = Supervisor Executive
-rmc-squad-info-SupervisorWeYaSpecialist = Supervisor Specialist
+rmc-squad-info-SupervisorWeYaExecutive = Керівник Управління
+rmc-squad-info-SupervisorWeYaSpecialist = Спеціаліст з Корпоративних Питань
 
-rmc-squad-info-ProvostMarshal = Provost Marshal
-rmc-squad-info-ProvostDeputyMarshal = Provost Deputy Marshal
-rmc-squad-info-ProvostChiefInspector = Provost Chief Inspector
-rmc-squad-info-ProvostInspector = Provost Inspector
-rmc-squad-info-ProvostTeamLeader = Provost Team Leader
-rmc-squad-info-ProvostAdvisor = Provost Advisor
+rmc-squad-info-ProvostMarshal = Маршал Провосту
+rmc-squad-info-ProvostDeputyMarshal = Заступник Маршала Провосту
+rmc-squad-info-ProvostChiefInspector = Головний Інспектор Провосту
+rmc-squad-info-ProvostInspector = Інспектор Провосту
+rmc-squad-info-ProvostTeamLeader = Лідер Групи Провосту
+rmc-squad-info-ProvostAdvisor = Радник Провосту
 
-rmc-squad-info-LeaderSpp = Leader
-rmc-squad-info-LeaderFreelancer = Leader
+rmc-squad-info-LeaderSpp = Лідер
+rmc-squad-info-LeaderFreelancer = Лідер
 
-rmc-squad-info-FORECONCommandingOfficer = Commanding Officer
+rmc-squad-info-FORECONCommandingOfficer = Командуючий Офіцер
 
-rmc-squad-info-InspectorTSEPA = TSEPA Inspector
-rmc-squad-info-SeniorConstableTSEPA = TSEPA Senior Constable
+rmc-squad-info-InspectorTSEPA = Інспектор ІТСПА
+rmc-squad-info-SeniorConstableTSEPA = ІТСПА Старший Констебль
 
-rmc-squad-info-PrimaryLandingZone = Primary Landing Zone
+rmc-squad-info-PrimaryLandingZone = Основна Посадкова Зона
