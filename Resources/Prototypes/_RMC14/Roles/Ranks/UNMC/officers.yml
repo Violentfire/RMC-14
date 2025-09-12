@@ -48,8 +48,8 @@
 
 - type: rank
   id: RMCRankChiefWarrantOfficer
-  name: Головний Ворент-Офіцер
-  prefix: ГВорОф.
+  name: Старший Ворент-Офіцер
+  prefix: СВорОф.
   paygrade: O0-2
 
 - type: rank
