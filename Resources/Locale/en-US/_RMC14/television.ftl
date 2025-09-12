@@ -1,1 +1,1 @@
-﻿rmc-television-title = Television Set
+﻿rmc-television-title = Телевізор

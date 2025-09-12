@@ -2,7 +2,7 @@
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client._RMC14.Intel"
     xmlns:ui="clr-namespace:Content.Client._RMC14.UserInterface"
-    Title="Marine Tech Tree Objectives"
+    Title="Цілі Розвідки Морпіхоти"
     MinSize="600 550">
     <BoxContainer Orientation="Vertical">
         <BoxContainer Orientation="Horizontal">
