@@ -1,19 +1,19 @@
-# Medal Types
-rmc-medal-1 = Distinguished  conduct medal
-rmc-medal-2 = Bronze heart medal
-rmc-medal-3 = Medal of valor
-rmc-medal-4 = Medal of exceptional heroism
+# Типи Медалей
+rmc-medal-1 = Медаль «За визначні заслуги»
+rmc-medal-2 = Медаль «Бронзове серце»
+rmc-medal-3 = Медаль за Доблесть
+rmc-medal-4 = Медаль за Винятковий Героїзм
 
-# Medal UI
-rmc-medal-recipient = Medal Recipient
-rmc-medal-recipient-prompt = Who do you want to award a medal to?
+# Інтерфейс видачі Медалей
+rmc-medal-recipient = Одержувач Медалі
+rmc-medal-recipient-prompt = Кому ви хочете вручити Медаль?
 
-rmc-medal-type = Medal Type
-rmc-medal-type-prompt = What type of medal do you want to award?
+rmc-medal-type = Тип Медалі
+rmc-medal-type-prompt = Який тип Медалі ви хочете вручити?
 
-rmc-medal-citation-prompt = What should the medal citation read?
-rmc-medal-awarded = Medal awarded
+rmc-medal-citation-prompt = Що повино бути написано щодо цієї медалі?
+rmc-medal-awarded = Медал видано
 
-# Medal Errors
-rmc-medal-error-self-award = You can't give yourself a medal!
-rmc-medal-error-officer-only = Only a Senior Officer can award medals!
+# Помилки пов'язані з Медалями
+rmc-medal-error-self-award = Ви не можете видати медаль самому себе!
+rmc-medal-error-officer-only = Тільки Командуючий Офіцер може видавати медалі!

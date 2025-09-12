@@ -1,5 +1,5 @@
-﻿rmc-keycard-device = Keycard Authentication Device
-rmc-keycard-device-description = This device is used to trigger some
-  high security events.
-  It requires the simultaneous swipe
-  of two high-level ID cards.
+﻿rmc-keycard-device = Пристрій Автентифікації Айді-Картою
+rmc-keycard-device-description = Це пристрій для задіяння особливих
+  безпекових заходів.
+  Він вимагає одночасного проведення
+  двох Айді-карт високого рівня доступу.
