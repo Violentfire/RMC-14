@@ -29,7 +29,7 @@
         RMCSkillEndurance: 1
         RMCSkillFirearms: 0
         RMCSkillMedical: 3
-        RMCSkillSurgery: 1
+        RMCSkillSurgery: 2 # 1 в оригіналі. Змінено білдом Січі
         RMCSkillFireman: 1
     - type: RMCUserBulkyArmorIncapable
     - type: JobPrefix

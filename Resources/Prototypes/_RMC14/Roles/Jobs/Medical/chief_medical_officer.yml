@@ -33,7 +33,7 @@
     - type: Skills
       skills:
         RMCSkillEndurance: 1
-        RMCSkillFirearms: 0
+        RMCSkillFirearms: 1 # 0 в оригіналі. Змінено білдом Січі
         RMCSkillFireman: 1
         RMCSkillIntel: 1
         RMCSkillJtac: 3

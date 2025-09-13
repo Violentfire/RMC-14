@@ -26,6 +26,7 @@
       skills:
         RMCSkillCqc: 1
         RMCSkillEndurance: 1
+        RMCSkillConstruction: 1 # Додано білдом Січі
         RMCSkillEngineer: 2
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
