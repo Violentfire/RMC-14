@@ -4,8 +4,8 @@ ui-tactical-map-tab-canvas = Малювати
 
 ui-tactical-map-label-dialog-create-title = Створити Мітку
 ui-tactical-map-label-dialog-edit-title = Змінити Мітку
-ui-tactical-map-label-dialog-placeholder = Текст Мітки...
-ui-tactical-map-label-dialog-ok = ОК
+ui-tactical-map-label-dialog-placeholder = Текст мітки...
+ui-tactical-map-label-dialog-ok = Ок
 ui-tactical-map-label-dialog-cancel = Скасувати
 ui-tactical-map-label-dialog-delete = Видалити
 
