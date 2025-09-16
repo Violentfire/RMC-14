@@ -94,7 +94,7 @@
 - type: entity
   parent: CMAutoInjector
   id: CMTricordrazineAutoInjector
-  name: автоіжектор трикордразину
+  name: автоінжектор трикордразину
   description: Автоінжектор заповнений трьома дозами Трикордразину, слабким препаратом загальної дії.
   components:
   - type: SolutionContainerManager
@@ -203,7 +203,7 @@
 - type: entity
   parent: CMAutoInjector
   id: CMInaprovalineAutoInjector
-  name: автоіжектор інапроваліну
+  name: автоінжектор інапроваліну
   description: Автоінжектор заповнений трьома дозами Інапроваліну, який стабілізує пацієнтів в критичному стані.
   components:
   - type: Hypospray
@@ -248,7 +248,7 @@
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjector15
   name: медичний автоінжектор (M-M)
-  description: Професійний інжектор, виготовлений на замовлення, виглядає так наче над ними працювала ціла наукова команда. Має сходий замок, як на пляшках з пігулками, і вміщує аж до щести доз препарату.
+  description: Професійний медичний автоінжектор виготовлений на замовлення. Виглядає так, наче над ними працювала ціла наукова команда. Має такий самий замок, як на пляшках з пігулками та здатен містити у собі до шести доз препарату.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/medic_auto_injector.rsi
@@ -274,7 +274,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjector30
-  name: medic autoinjector (M-XXL)
+  name: медичний автоінжектор (M-XXL)
   components:
   - type: Sprite
     layers:
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorEZ1
-  name: автоіжектор (E-U)
-  description: Виготовлений на замовлення, автоінжектор EZ, ймовірно, не без наукових досліджень. Впорскує весь запас рідини за один укол, при тому не вимагає ніякого навчання.
+  name: автоінжектор (E-U)
+  description: Виготовлений на замовлення EZ автоінжектор, схоже на його дизайн та створення сильно не витрачалися. Вводить весь запас рідини за один укол, але при цьому не вимагає ніяких навичок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/ez_medic_auto_injector.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorEZ1
   id: RMCMedicAutoInjectorEZ5
-  name: autoinjector (E-T)
+  name: автоінжектор (E-T)
   components:
   - type: Sprite
     layers:
@@ -438,7 +438,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorBicaridine15
-  suffix: Bicaridine
+  suffix: Бікаридин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorKelotane15
-  suffix: Kelotane
+  suffix: Келотан
   components:
   - type: SolutionContainerManager
     solutions:
@@ -464,7 +464,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazineRevival15
-  suffix: Tricordrazine - Revival
+  suffix: Трикодразин - Реанімація
   components:
   - type: SolutionContainerManager
     solutions:
@@ -481,7 +481,7 @@
 - type: entity
   parent: RMCMedicAutoInjector15
   id: RMCMedicAutoInjectorTricordrazine15
-  suffix: Tricordrazine
+  suffix: Трикодразин
   components:
   - type: SolutionContainerManager
     solutions:
@@ -507,8 +507,8 @@
 - type: entity
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorCS5
-  name: autoinjector (C-XS)
-  description: A custom-made autoinjector, likely from research.
+  name: автоінжектор (C-XS)
+  description: Автоінжектор виготовлений на замовлення. Ймовірно він з лабораторії.
   components:
   - type: Sprite
     layers:
@@ -529,7 +529,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS15
-  name: autoinjector (C-M)
+  name: автоінжектор (C-M)
   components:
   - type: Sprite
     layers:
@@ -549,7 +549,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS30
-  name: autoinjector (C-XL)
+  name: автоінжектор (C-XL)
   components:
   - type: Sprite
     layers:
@@ -569,7 +569,7 @@
 - type: entity
   parent: RMCMedicAutoInjectorCS5
   id: RMCMedicAutoInjectorCS60
-  name: autoinjector (C-XXL)
+  name: автоінжектор (C-XXL)
   components:
   - type: Sprite
     layers:

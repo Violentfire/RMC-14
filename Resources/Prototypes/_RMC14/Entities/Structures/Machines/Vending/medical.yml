@@ -105,7 +105,7 @@
 #        amount: 3
 #      - id: CMBottleTramadol # TODO RMC14
 #        amount: 3
-    - name: Флакони з пігулками
+    - name: Пляшечки з пігулками
       entries:
       - id: CMPillCanisterBicaridine
         amount: 2

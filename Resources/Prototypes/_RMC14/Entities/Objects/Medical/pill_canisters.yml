@@ -2,9 +2,9 @@
 - type: entity
   parent: PillCanister
   id: RMCPillCanisterNoSkill
-  name: pill bottle
-  description: It's an airtight container for storing medication.
-  suffix: No Skill
+  name: пляшечка пігулок
+  description: Це герметичний контейнер для зберігання ліків.
+  suffix: Без навички # Без навички - не потребується навичка медицини для її відкриття
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pill_canister.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterBicaridineNoSkill
-  name: bicaridine pill bottle
-  suffix: Bicaridine, 16, No Skill
+  name: пляшечка пігулок бікаридину
+  suffix: Бікаридин, 16, Без навички
   components:
   - type: Item
     heldPrefix: 11
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCPillCanisterBicaridineNoSkill
   id: CMPillCanisterBicaridine
-  suffix: Bicaridine, 16
+  suffix: Бікаридин, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMPillCanister
   id: CMPillCanisterDexalin
-  name: dexalin pill bottle
-  suffix: Dexalin, 16
+  name: пляшечка пігулок дексаліну
+  suffix: Дексалін, 16
   components:
   - type: Item
     heldPrefix: 1
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMPillCanister
   id: CMPillCanisterDylovene
-  name: dylovene pill bottle
-  suffix: Dylovene, 16
+  name: пляшечка пігулок диловену
+  suffix: Диловен, 16
   components:
   - type: Item
     heldPrefix: 6
@@ -174,8 +174,8 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterInaprovalineNoSkill
-  name: inaprovaline pill bottle
-  suffix: Inaprovaline, 16, No Skill
+  name: пляшечка пігулок інапроваліну
+  suffix: Інопровалін, 16, Без навички
   components:
   - type: Item
     heldPrefix: 3
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCPillCanisterInaprovalineNoSkill
   id: CMPillCanisterInaprovaline
-  suffix: Inaprovaline, 16
+  suffix: Інопровалін, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCPillCanisterNoSkill
   id: RMCPillCanisterKelotaneNoSkill
-  name: kelotane pill bottle
-  suffix: Kelotane, 16, No Skill
+  name: пляшечка пігулок келотану
+  suffix: Келотан, 16, Без навички
   components:
   - type: Item
     heldPrefix: 2
@@ -229,7 +229,7 @@
 - type: entity
   parent: RMCPillCanisterKelotaneNoSkill
   id: CMPillCanisterKelotane
-  suffix: Kelotane, 16
+  suffix: Келотан, 16
   components:
   - type: StorageSkillRequired
     skills:
@@ -238,8 +238,8 @@
 - type: entity
   parent: CMPillCanister
   id: CMPillCanisterTricordrazine
-  name: tricordrazine pill bottle
-  suffix: Tricordrazine, 16
+  name: пляшечка пігулок трикодразину
+  suffix: Трикодразин, 16
   components:
   - type: Item
     heldPrefix: 7
