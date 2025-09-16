@@ -4,28 +4,28 @@
     xmlns:ui="clr-namespace:Content.Client._RMC14.UserInterface">
     <BoxContainer Orientation="Vertical">
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[bold]Information[/bold]" />
+            <RichTextLabel Text="[bold]Інформація[/bold]" />
             <Control HorizontalExpand="True" />
             <Label Name="CurrentPointsLabel" Access="Public" />
         </BoxContainer>
         <ui:BlueHorizontalSeparator />
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Name:[/color]" MinWidth="110" />
+            <RichTextLabel Text="[color=#5B88B0]Назва:[/color]" MinWidth="110" />
             <Label Name="NameLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Description:[/color]" MinWidth="110" />
+            <RichTextLabel Text="[color=#5B88B0]Опис:[/color]" MinWidth="110" />
             <Label Name="DescriptionLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Cost:[/color]" MinWidth="110" />
+            <RichTextLabel Text="[color=#5B88B0]Ціна:[/color]" MinWidth="110" />
             <Label Name="CostLabel" Access="Public" />
         </BoxContainer>
         <BoxContainer Name="StatisticsContainer" Access="Public" Orientation="Horizontal">
-            <RichTextLabel Text="[color=#5B88B0]Statistics:[/color]" MinWidth="110" />
+            <RichTextLabel Text="[color=#5B88B0]Особливості:[/color]" MinWidth="110" />
             <BoxContainer Name="Statistics" Access="Public" Orientation="Vertical" />
         </BoxContainer>
-        <Button Name="PurchaseButton" Access="Public" Text="Purchase"
+        <Button Name="PurchaseButton" Access="Public" Text="Замовити"
                 HorizontalExpand="True" StyleClasses="OpenBoth" Margin="0 15 0 0" />
     </BoxContainer>
 </controls:TechControlConsoleOptionWindow>
