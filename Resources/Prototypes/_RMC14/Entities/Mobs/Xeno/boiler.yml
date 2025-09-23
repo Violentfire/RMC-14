@@ -63,7 +63,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: -0.15,0.05
-    unlockAt: 900 # 15 minutes
+    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
   - type: XenoHeavy
   - type: XenoDevolve
     devolvesTo:
