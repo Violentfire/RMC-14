@@ -25,7 +25,7 @@
   marineAuthorityLevel: 12
   supervisors: cm-job-supervisors-co
   accessGroups:
-  - ASO # SO в оригіналі. Змінено білдом Січі (даємо доступи в постачання)
+  - MarineMain # SO в оригіналі. Змінено білдом Січі (даємо доступи в постачання)
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
