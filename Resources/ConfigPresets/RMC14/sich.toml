@@ -18,7 +18,7 @@ bindto = "::,0.0.0.0"
 engine_version = "264.0.1-fix-physics"
 
 [rmc]
-#Обмеження сурвів для нашого білду. Нічого такого, але про всяк й тут буде.
+#Обмеження сурвів для нашого білду, зміна рейту ксено, зняття обмежень на емоції, такс 20 хвилин та ще декілька моментів
 survivors_minimum = 0
 survivors_maximum = 3
 marines_per_survivor = 30
@@ -50,7 +50,6 @@ can_create_vacuum = false
 
 [game]
 #Налаштування самого серверу, в першу чергу щодо часу після кінця раунду та початкового режиму.
-hostname = "Тест"
 defaultpreset = "CMDistressSignal"
 fallbackenabled = false
 fallbackpreset = "CMDistressSignal"
@@ -75,7 +74,7 @@ role_time = 0
 show_editor_species_button = false
 
 [ic]
-#Додає описи для персонажів.
+#Додає описи для персонажів та якась тех. штука
 flavor_text = true
 id_job_length = 50
 
