@@ -33,7 +33,7 @@
 Задіяти ви їх можете за допомогою додавання у файл конфігу серверу (`RMC-14\bin\Content.Server\server_config.toml`) строк:
 ```
 [config]
-config.presets = "RMC14/sich" #("RMC14/sich,RMC14/sich_dev" якщо хочете задіяти також дев конфіг)
+presets = "RMC14/sich" #("RMC14/sich,RMC14/sich_dev" якщо хочете задіяти також дев конфіг)
 ```
 
 ## Ліцензія
