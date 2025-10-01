@@ -22,17 +22,14 @@ CMJobSurvivorMiner = Колоніст-Шахтар
 cm-job-name-surivor-priest = Колоніст-Священик
 CMJobSurvivorPriest = Колоніст-Священик
 
-cm-job-name-survivor-scientist = Колоніст-Науковець
-CMSurvivorScientist = Колоніст-Науковець
-
 cm-job-name-survivor-trucker = Колоніст-Далекобійник
 CMJobSurvivorTrucker = Колоніст-Далекобійник
 
+cm-job-name-survivor-scientist = Колоніст-Науковець
+CMSurvivorScientist = Колоніст-Науковець
+
 rmc-job-name-survivor-cmb-deputy = Представник БКМ
 CMSurvivorCMBDeputy = Представник БКМ
-
-cm-job-name-survivor-goon = Корпоративний Безпековець Ве-Я
-CMSurvivorGoon = Корпоративний Безпековець Ве-Я
 
 rmc-job-greeting-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
 
@@ -84,7 +81,7 @@ CMSurvivorLV624MedicalTechnician = Технік Швидкої Мед. Допо�
 rmc-job-name-survivor-lv624-engineer = Інженер
 CMSurvivorLV624Engineer = Інженер
 
-# Виживші Ньо-Варадеро
+# Виживші Нью-Варадеро
 
 rmc-job-name-survivor-commander-new-varadero = Командер
 CMJobSurvivorCommanderNewVaradero = Командер
@@ -190,28 +187,28 @@ CMJobSurvivorSoroMiner = Miner
 rmc-job-name-survivor-halcyon-dynamics-liaison = Halcyon Dynamics - Corporate Liaison
 CMJobSurvivorHalcyonDynamicsLiaison = Halcyon Dynamics Liaison
 
-# Trijent survs
+# Виживші Тріджента
 
-rmc-job-name-survivor-trijent-chaplain = Trijent Dam Chaplain
-CMSurvivorTrijentChaplain = Chaplain
+rmc-job-name-survivor-trijent-chaplain = Священик Дамби Тріджент
+CMSurvivorTrijentChaplain = Священик
 
-rmc-job-name-survivor-trijent-goon = Trijent Dam Security
-CMSurvivorTrijentGoon = Trijent Dam Security
+rmc-job-name-survivor-trijent-goon = Охоронець Дамби Тріджент
+CMSurvivorTrijentGoon = Охоронець Дамби Тріджент
 
-cm-job-name-survivor-trijent-doctor = Trijent Dam Doctor
-CMSurvivorTrijentDoctor = Trijent Dam Doctor
+cm-job-name-survivor-trijent-doctor = Лікар Дамби Тріджент
+CMSurvivorTrijentDoctor = Лікар Дамби Тріджент
 
-cm-job-name-survivor-trijent-researcher = Trijent Dam Researcher
-CMSurvivorTrijentResearcher = Trijent Dam Researcher
+cm-job-name-survivor-trijent-researcher = Науковець Дамби Тріджент
+CMSurvivorTrijentResearcher = Науковець Дамби Тріджент
 
-cm-job-name-survivor-trijent-trucker = Trijent Dam Heavy Vehicle Operator
-CMSurvivorTrijentTrucker = Trijent Dam Heavy Vehicle Operator
+cm-job-name-survivor-trijent-trucker = Водій Важкого Транспорту Дамби Тріджент
+CMSurvivorTrijentTrucker = Водій Важкого Транспорту Дамби Тріджент
 
-cm-job-name-survivor-trijent-engi-hydro = Hydro Electric Engineer
-CMSurvivorTrijentEngiHydro = Hydro Electric Engineer
+cm-job-name-survivor-trijent-engi-hydro = Інженер-Гідроелектрик
+CMSurvivorTrijentEngiHydro = Інженер-Гідроелектрик
 
-cm-job-name-survivor-trijent-dam-tech = Dam Maintenance Technician
-CMSurvivorTrijentDamTech = Dam Maintenance Technician
+cm-job-name-survivor-trijent-dam-tech = Технік з Обслуговування Дамби
+CMSurvivorTrijentDamTech = Технік з Обслуговування Дамби
 
-cm-job-name-survivor-trijent-corporate = Trijent Corporation Liaison
-CMSurvivorTrijentCorporate = Trijent Corporation Liaison
+cm-job-name-survivor-trijent-corporate = Представник Корпорації Трідженту
+CMSurvivorTrijentCorporate = Представник Корпорації Трідженту
