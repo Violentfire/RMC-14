@@ -1,23 +1,18 @@
 - type: entity
   abstract: true
-  parent: BaseItem
-  id: SichCassetteTapeBase
-  name: cassette
-  description: A plastic cassette tape.
+  parent: RMCCassetteTapeBase
+  id: RMCSichCassetteTapeBase
   components:
   - type: Sprite
     sprite: _Sich/Objects/Devices/cassette_player.rsi
-    state: cassette_blue
-  - type: Item
-    size: Small
-  - type: CassetteTape
 
-#Січ
+# Січ
 
 - type: entity
-  parent: SichCassetteTapeBase
-  id: CassetteTapeSich
-  name: Касета з запальними піснями
+  parent: RMCSichCassetteTapeBase
+  id: RMCSichCassetteTape
+  name: запальна касета
+  description: Касета з композиціями, під які ваша смерть буде виглядати красиво. Спеціально для українського полку КМПОН!
   components:
   - type: Sprite
     state: cassette_hellfire
@@ -32,9 +27,10 @@
     - /Audio/_Sich/Jukebox/paintInBlack.ogg
 
 - type: entity
-  parent: SichCassetteTapeBase
-  id: CassetteTapeManSoldWorldSich
-  name: Касета від того, хто продав світ
+  parent: RMCSichCassetteTapeBase
+  id: RMCSichCassetteTapeManSoldWorld
+  name: касета продавшого світ
+  description: Касета від того, хто продав світ. Спеціально для українського полку КМПОН!
   components:
   - type: Sprite
     state: cassette_who_sold_world
@@ -44,9 +40,10 @@
 
 
 - type: entity
-  parent: SichCassetteTapeBase
-  id: CassetteTapeUaSich
-  name: Касета з українськими піснями
+  parent: RMCSichCassetteTapeBase
+  id: RMCSichCassetteTapeUa
+  name: українська касета
+  description: Касета з збірником українських композицій. Спеціально для українського полку КМПОН!
   components:
   - type: Sprite
     state: cassette_ua
