@@ -1,8 +1,8 @@
 character-setup-gui-character-setup-label = Налаштування персонажа
-character-setup-gui-character-setup-adminremarks-button = Admin Remarks
+character-setup-gui-character-setup-adminremarks-button = Адмін Нотатки
 character-setup-gui-character-setup-stats-button = Статистика
 character-setup-gui-character-setup-rules-button = Правила
-character-setup-gui-character-setup-close-button = Закрити
+character-setup-gui-character-setup-close-button = Вийти
 character-setup-gui-create-new-character-button = Створити новий слот...
 character-setup-gui-create-new-character-button-tooltip = Дозволено не більше {$maxCharacters} персонажів.
 character-setup-gui-character-picker-button-delete-button = Видалити
