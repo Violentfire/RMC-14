@@ -23,6 +23,10 @@ rmc-emote-howl = виє.
 rmc-emote-name-gnash = Скрежетіти
 rmc-emote-gnash = скрежетить зубами.
 
+rmc-emote-name-r-rattle = Rattle Tail
+
+rmc-emote-r-rattle = rattles {POSS-ADJ($entity)} tail.
+
 rmc-emote-name-xeno-roar = Заревіти
 rmc-emote-name-xeno-tail-swipe = Махнути хвостом
 rmc-emote-name-xeno-help = Покликати на Допомогу

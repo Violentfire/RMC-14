@@ -5,6 +5,9 @@
   description: "Потужна снайперська гвинтівка виробництва компанії Aegis Armaments. Гвинтівка має оптичний приціл та стріляє бронебійними патронами з 15-зарядного магазину.
     'Мир за допомогою військової сили'"
   components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideRoleSpecSniper
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Snipers/m96s/desert.rsi
     layers:
@@ -82,6 +85,8 @@
       Snow: _RMC14/Objects/Weapons/Guns/Snipers/m96s/snow.rsi
       Classic: _RMC14/Objects/Weapons/Guns/Snipers/m96s/classic.rsi
       Urban: _RMC14/Objects/Weapons/Guns/Snipers/m96s/urban.rsi
+  - type: RMCGunChamber
+    enabled: false
 
 - type: entity
   parent: BaseItem

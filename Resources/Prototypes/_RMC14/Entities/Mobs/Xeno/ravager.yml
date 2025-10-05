@@ -41,7 +41,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: 0,0.1
-    unlockAt: 900 # 15 minutes
+    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
   - type: XenoRegen
     standHealingMultiplier: 0.66
   - type: XenoHeavy

@@ -6,6 +6,7 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
+  - RMCXenoVentCrawler
   id: CMXenoBurrower
   name: Копач
   description: Кремезний ксеноїд з гострими кігтями.
@@ -122,3 +123,5 @@
     name: cm-job-name-xeno-burrower
   - type: RMCSurgeryXenoHeart
     item: RMCOrganXenoHeartT2
+  - type: VentCrawler
+    ventCrawlIcon: burrower

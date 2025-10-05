@@ -1,10 +1,10 @@
-﻿rmc-ghost-role-information-pizza-rules = You are a [color=red][bold]Pizza Deliverer[/bold][/color]. You are not hostile to any faction.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+﻿rmc-ghost-role-information-pizza-rules = Ти [color=red][bold]Кур'єр Піци[/bold][/color]. Ти не ворожий до будь-якої організації.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
-rmc-ghost-role-information-pizza-description = Your job is to deliver your pizzas. You're PRETTY sure this is the right place...
+rmc-ghost-role-information-pizza-description = Твоє завдання — доставляти піцу. Ти ДУЖЕ впевнений, що тобі саме сюди...
 
-rmc-ghost-name-pizza = Pizza Deliverer (Neutral)
-rmc-job-name-pizza = Pizza Deliverer
-rmc-job-prefix-pizza = PIZZA
+rmc-ghost-name-pizza = Кур'єр Піци (Нейтральні)
+rmc-job-name-pizza = Кур'єр Піци
+rmc-job-prefix-pizza = ПІЦА

@@ -4,6 +4,9 @@
   id: WeaponRifleM4SPRCustom
   description: Удосконалена версія й без того ефективної M4SPR. Підтримується набої типу А19, має кращий контроль і точність, але є складнішою у використанні. Сумісна з традиційними магазинами M4SPR, проте вони забезпечують нижчий рівень уражень цілей.
   components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideRoleSpecScout
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom/desert.rsi
     layers:
@@ -18,7 +21,6 @@
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
-    - Burst
     recoilWielded: 1
     recoilUnwielded: 4
     scatterWielded: 2.5

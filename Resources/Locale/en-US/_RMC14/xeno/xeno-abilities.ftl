@@ -157,15 +157,15 @@ cm-xeno-retrieve-egg-unstash-egg = Ви берете яйце зі сховищ�
 rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} утримує: {$cur_eggs}/{$max_eggs} яєць.
 
 # Throw Parasite
-cm-xeno-throw-parasite-no-parasites = Ми не маємо жодного паразита!
-cm-xeno-throw-parasite-too-many-parasites = Ми не можемо нести більше паразитів!
-cm-xeno-throw-parasite-stash-parasite = Ми зберігаємо паразита для безпеки. Тепер паразитів: {$cur_parasites}/{$max_parasites}.
-cm-xeno-throw-parasite-unstash-parasite = Ми беремо паразита зі сховища. Тепер паразитів: {$cur_parasites}/{$max_parasites}.
-rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} зберігає: {$cur_paras}/{$max_paras} паразитів.
-rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} привид {$rev_paras ->
-   [one] роль
-   *[other] ролей
-} паразита доступний.
+cm-xeno-throw-parasite-no-parasites = We don't have any children stored!
+cm-xeno-throw-parasite-too-many-parasites = We can't carry more children!
+cm-xeno-throw-parasite-stash-parasite = We store the child for safekeeping. Now sheltering: {$cur_parasites}/{$max_parasites}.
+cm-xeno-throw-parasite-unstash-parasite = We grab a child from our storage. Now sheltering: {$cur_parasites}/{$max_parasites}.
+rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} sheltering: {$cur_paras}/{$max_paras} children.
+rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} parasite ghost {$rev_paras ->
+   [one] role
+   *[other] roles
+} available.
 
 # Defensive Shield
 rmc-xeno-defensive-shield-end = Ви відчуваєте що більше не захищені!

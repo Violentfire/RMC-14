@@ -341949,7 +341949,7 @@ entities:
     - type: Transform
       pos: -98.5,-41.5
       parent: 1
-- proto: WeaponShotgunM42A2
+- proto: WeaponShotgunM42A1
   entities:
   - uid: 49340
     components:

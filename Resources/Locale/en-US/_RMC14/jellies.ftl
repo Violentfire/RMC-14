@@ -1,39 +1,38 @@
-# Jelly Types
-rmc-jelly-1 = Royal jelly of slaughter
-rmc-jelly-2 = Royal jelly of resilience
-rmc-jelly-3 = Royal jelly of sabotage
-rmc-jelly-4 = Royal jelly of proliferation
-rmc-jelly-5 = Royal jelly of rejuvenation
+# Типи Желе
+rmc-jelly-1 = Королівське желе Різанини
+rmc-jelly-2 = Королівське желе Стійкості
+rmc-jelly-3 = Королівське желе Саботажу
+rmc-jelly-4 = Королівське желе Поширення
+rmc-jelly-5 = Королівське желе Зцілення
 
-# Jelly UI
-rmc-jelly-recipient = Jelly Recipient
-rmc-jelly-recipient-prompt = Who do you want to award a jelly to?
+# Інтерфейс видачі Желе
+rmc-jelly-recipient = Одержувач Желе
+rmc-jelly-recipient-prompt = Кому ви хочете вручити Желе?
 
-rmc-jelly-type = Jelly Type
-rmc-jelly-type-prompt = What type of jelly do you want to award?
+rmc-jelly-type = Тип Желе
+rmc-jelly-type-prompt = Який тип Желе ви хочете вручити?
 
-rmc-jelly-citation-prompt = What should the pheromone read?
-rmc-jelly-awarded = Jelly awarded
+rmc-jelly-citation-prompt = Що повинні відображати феромони?
+rmc-jelly-awarded = Желе видано
 
-# Jelly Errors
-rmc-jelly-error-cant-give = You can't give a jelly to that xeno!
-rmc-jelly-error-not-enough-playtime = You don't have the time required to hand out jellies { $requiredHours }!
-rmc-jelly-error-limit-reached = You can't give out any more jellies ({ $given }/{ $limit })!
+# Помилки пов'язані з Желе
+rmc-jelly-error-cant-give = Ви не можете видати Желе цьому ксеноїду!
+rmc-jelly-error-not-enough-playtime = Ви занадто молоді, щоб видавати Желе! Мінімум { $requiredHours } годин в ролі Королеви.
+rmc-jelly-error-limit-reached = Ви не можете видавати більше желе ({ $given }/{ $limit })!
 
-# Hive Management UI
-rmc-hivemanagement-deevolve = De-evolve (500)
-rmc-hivemanagement-reward = Reward Jelly (500)
-rmc-hivemanagement-hive-management = Hive Management
-rmc-hivemanagement-manage-the-hive = Manage The Hive
-rmc-hivemanagement-deevolution = Deevolution
-rmc-hivemanagement-are-you-sure-deevolve = Are you sure you want to deevolve { $name }?
-rmc-hivemanagement-are-you-sure-deevolve-from = Are you sure you want to deevolve { $name } from { $from }?
-rmc-hivemanagement-are-you-sure-deevolve-from-to = Are you sure you want to deevolve { $name } from { $from } to { $to }?
-rmc-hivemanagement-choose-caste = Choose a caste
-rmc-hivemanagement-provide-reason = Provide a reason for deevolving { $name }
-rmc-hivemanagement-queen-deevolving = The queen is deevolving you for the following reason: { $reason }
-rmc-hivemanagement-must-overwatch = You must overwatch the xeno you want to de-evolve.
-rmc-hivemanagement-cant-be-devolved = { $name } can't be devolved!
-rmc-hivemanagement-cant-deevolve-larva = You cannot deevolve xenonids to larva.
-rmc-hivemanagement-cant-deevolve-other-hive = You cannot deevolve a member of another hive!
-
+# Інтерфейс керування Вуликом
+rmc-hivemanagement-deevolve = Де-еволюціонувати (500)
+rmc-hivemanagement-reward = Нагородити Желе (500)
+rmc-hivemanagement-hive-management = Керування Вуликом
+rmc-hivemanagement-manage-the-hive = Керувати Вуликом
+rmc-hivemanagement-deevolution = Де-еволюція
+rmc-hivemanagement-are-you-sure-deevolve = Ви впевнені, що хочете де-еволюціонувати { $name }?
+rmc-hivemanagement-are-you-sure-deevolve-from = Ви впевнені, що хочете де-еволюціонувати { $name } з { $from }?
+rmc-hivemanagement-are-you-sure-deevolve-from-to = Ви впевнені, що хочете де-еволюціонувати { $name } з { $from } до { $to }?
+rmc-hivemanagement-choose-caste = Обрати касту
+rmc-hivemanagement-provide-reason = Введіть причину для деволюції { $name }
+rmc-hivemanagement-queen-deevolving = Королева де-еволюціонува вас, бо: { $reason }
+rmc-hivemanagement-must-overwatch = Ви повинні спостерігати за ксеноїдом, щоб де-еволюціонувати його.
+rmc-hivemanagement-cant-be-devolved = { $name } не може бути де-еволюціонуваним!
+rmc-hivemanagement-cant-deevolve-larva = Ви не можете де-еволюціонувати ксеноїда в лярву.
+rmc-hivemanagement-cant-deevolve-other-hive = Ви не можете де-еволюціонувати члена іншого вулика!

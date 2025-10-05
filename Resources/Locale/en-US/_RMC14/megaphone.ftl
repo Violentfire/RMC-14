@@ -1,2 +1,2 @@
-rmc-megaphone-examine = Use this item in your hand to broadcast a message.
-rmc-megaphone-ui-text = Enter a message to broadcast:
+rmc-megaphone-examine = Використовуйте цей предмет у руці, щоб оголосити повідомлення.
+rmc-megaphone-ui-text = Введіть повідомлення для оголошення:

@@ -32,6 +32,7 @@
     - type: Skills
       skills:
         RMCSkillEndurance: 1
+        RMCSkillEngineer: 2 # Додано білдом Січі (як в помічника)
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillIntel: 1

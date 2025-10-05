@@ -1,8 +1,8 @@
-﻿rmc-xeno-words-of-the-queen-header = Слова королеви лунають у нашій голові...
+rmc-xeno-words-of-the-queen-header = Слова королеви лунають у нашій голові...
 
-xeno-ui-reserve-parasites-title = Запас Паразитів
+xeno-ui-reserve-parasites-title = Reserve Children
 xeno-ui-reserve-parasites-apply-button-text = Подати
-xeno-reserve-parasites-verb = Reserve Parasites
+xeno-reserve-parasites-verb = Reserve Children
 
 xeno-ui-find-parasite-title = Знайти Паразита
 xeno-ui-find-parasite-spawn-button = Взяти Паразита
@@ -23,3 +23,7 @@ rmc-xeno-tracker-target-Queen = Queen
 rmc-xeno-tracker-target-HiveLeader = Hive Leader
 rmc-xeno-tracker-target-Tunnel = Tunnel
 rmc-xeno-tracker-target-HiveCore = Hive Core
+
+rmc-xeno-ui-ovi-needed-label = [bold][color=red]The Queen must be in their\novipositor for you to gain points![/color][/bold]
+rmc-xeno-ui-evolution-points = Evolution points: { $points } / { $maxPoints }
+rmc-ui-xeno-strain-confirm = Confirm

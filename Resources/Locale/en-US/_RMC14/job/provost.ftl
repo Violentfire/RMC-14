@@ -1,35 +1,35 @@
-﻿rmc-ghost-role-information-provost-rules = You are a [color=red][bold]Provost Member[/bold][/color]. You are not hostile to any faction.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+﻿rmc-ghost-role-information-provost-rules = Ви [color=red][bold]Член Провосту[/bold][/color]. Ви не ворожі до жодної фракції.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
-rmc-ghost-role-information-provost-description = Enforce marine law, turn to your superiors for guidance. Authority is tied to your chain of command.
-rmc-ghost-role-information-provost-squad-description = Ensure compliance with marine law, quell riots and protect any Provost Officials.
+rmc-ghost-role-information-provost-description = Забезпечуйте дотримання морського закону, звертайтеся за порадою до свого начальства. Повноваження пов'язані з вашим ланцюгом командування.
+rmc-ghost-role-information-provost-squad-description = Забезпечувати дотримання морського законодавства, придушувати заворушення та захищати будь-яких посадових осіб Провосту.
 
-rmc-ghost-name-corp-provost-advisor = Provost Advisor (Friendly)
-rmc-job-name-corp-provost-advisor = Provost Advisor
-rmc-job-prefix-provost-advisor = PvA
+rmc-ghost-name-corp-provost-advisor = Радник Провосту (Дружні)
+rmc-job-name-corp-provost-advisor = Радник Провосту
+rmc-job-prefix-provost-advisor = ПвР
 
-rmc-ghost-name-corp-provost-chief = Provost Chief Inspector (Friendly)
-rmc-job-name-corp-provost-chief = Provost Chief Inspector
-rmc-job-prefix-provost-chief = PvCI
+rmc-ghost-name-corp-provost-chief = Головний Інспектор Провосту (Дружні)
+rmc-job-name-corp-provost-chief = Головний Інспектор Провосту
+rmc-job-prefix-provost-chief = ПвГІ
 
-rmc-ghost-name-corp-provost-deputy-marshal = Provost Deputy Marshal (Friendly)
-rmc-job-name-corp-provost-deputy-marshal = Provost Deputy Marshal
-rmc-job-prefix-provost-deputy-marshal = PvDM
+rmc-ghost-name-corp-provost-deputy-marshal = Заступник Маршала Провосту (Дружні)
+rmc-job-name-corp-provost-deputy-marshal = Заступник Маршала Провосту
+rmc-job-prefix-provost-deputy-marshal = ПвЗМ
 
-rmc-ghost-name-corp-provost-enforcer = Provost Enforcer (Friendly)
-rmc-job-name-corp-provost-enforcer = Enforcer
-rmc-job-prefix-provost-enforcer = PvE
+rmc-ghost-name-corp-provost-enforcer = Виконавець Провосту (Дружні)
+rmc-job-name-corp-provost-enforcer = Виконавець
+rmc-job-prefix-provost-enforcer = ПрВ
 
-rmc-ghost-name-corp-provost-inspector = Provost Inspector (Friendly)
-rmc-job-name-corp-provost-inspector = Provost Inspector
-rmc-job-prefix-provost-inspector = PvI
+rmc-ghost-name-corp-provost-inspector = Інспектор Провосту (Дружні)
+rmc-job-name-corp-provost-inspector = Інспектор Провосту
+rmc-job-prefix-provost-inspector = ПвІ
 
-rmc-ghost-name-corp-provost-marshal = Provost Marshal (Friendly)
-rmc-job-name-corp-provost-marshal = Provost Marshal
-rmc-job-prefix-provost-marshal = PvM
+rmc-ghost-name-corp-provost-marshal = Маршал Провосту (Дружні)
+rmc-job-name-corp-provost-marshal = Маршал Провосту
+rmc-job-prefix-provost-marshal = ПвМ
 
-rmc-ghost-name-corp-provost-team-leader = Provost Team Leader (Friendly)
-rmc-job-name-corp-provost-team-leader = Team Leader
-rmc-job-prefix-provost-team-leader = PvTML
+rmc-ghost-name-corp-provost-team-leader = Лідер Групи Провосту (Дружні)
+rmc-job-name-corp-provost-team-leader = Лідер Групи
+rmc-job-prefix-provost-team-leader = ПвЛГ

@@ -307,8 +307,8 @@
 - type: entity
   id: ActionXenoThrowParasite
   parent: ActionXenoBase
-  name: Кинути Паразита
-  description: Дістає паразита зі сховища, якщо у вас вільна рука. Якщо використати цю дію на паразиті на землі — ви піднімете всіх паразитів поблизу. Якщо націлити плитку, тримаючи паразита в руці, ви кинете його на відстань до 4 плиток, після чого паразит буде оглушений на 5 секунд. Повторне використання паразита в руці покладе його назад до вашого сховища. [color=green]Паразити не помирають з часом, поки ви їх тримаєте або несете.[/color]
+  name: Carrier's Bond
+  description: Retrieves a child from your storage if you have an empty hand. Using this on a child on the ground will pickup all nearby children. Targeting a tile with a child in hand will throw it up to 4 tiles away, where the child will be stunned for 5 seconds. Using a child in hand will add it to your storage. [color=green]Children won't die due to time while you hold or carry them.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -335,8 +335,8 @@
 - type: entity
   id: ActionXenoParasiteReserve
   parent: ActionXenoBase
-  name: Встановити Резерв Паразитів
-  description: Встановлює ваш резерв паразитів. Спостерігачі не зможуть приєднатись як збережений паразит, якщо кількість паразитів у вашому сховищі менша або дорівнює резерву.
+  name: Set Child Reserve
+  description: Sets your child Reserves. Observers cannot join as a stored child if your children stored is less than or equal to your reserve.
   components:
   - type: Action
     itemIconStyle: NoItem

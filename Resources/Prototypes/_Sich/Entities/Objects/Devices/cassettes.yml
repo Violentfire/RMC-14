@@ -1,0 +1,56 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: SichCassetteTapeBase
+  name: cassette
+  description: A plastic cassette tape.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Devices/cassette_player.rsi
+    state: cassette_blue
+  - type: Item
+    size: Small
+  - type: CassetteTape
+
+#Січ
+
+- type: entity
+  parent: SichCassetteTapeBase
+  id: CassetteTapeSich
+  name: Касета з запальними піснями
+  components:
+  - type: Sprite
+    state: cassette_hellfire
+  - type: CassetteTape
+    songs:
+    - /Audio/_Sich/Jukebox/californiaDream.ogg
+    - /Audio/_Sich/Jukebox/fortunaSon.ogg
+    - /Audio/_Sich/Jukebox/welcomeToTheJungle.ogg
+    - /Audio/_Sich/Jukebox/thisfire.ogg
+    - /Audio/_Sich/Jukebox/sevenNationArmy.ogg
+    - /Audio/_Sich/Jukebox/paranoid.ogg
+    - /Audio/_Sich/Jukebox/paintInBlack.ogg
+
+- type: entity
+  parent: SichCassetteTapeBase
+  id: CassetteTapeManSoldWorldSich
+  name: Касета від того, хто продав світ
+  components:
+  - type: Sprite
+    state: cassette_who_sold_world
+  - type: CassetteTape
+    songs:
+    - /Audio/_Sich/Jukebox/theManWhoSoldTheWorld.ogg
+
+
+- type: entity
+  parent: SichCassetteTapeBase
+  id: CassetteTapeUaSich
+  name: Касета з українськими піснями
+  components:
+  - type: Sprite
+    state: cassette_ua
+  - type: CassetteTape
+    songs:
+    - /Audio/_Sich/Jukebox/dkEnergetikStreetEast.ogg
+    - /Audio/_Sich/Jukebox/shubenuk.ogg

@@ -6,6 +6,7 @@
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
+  - RMCXenoVentCrawler
   id: CMXenoSpitter
   name: Плювака
   description: Огидний чужопланетянин, що сочиться слизом
@@ -113,3 +114,5 @@
     name: cm-job-name-xeno-spitter
   - type: RMCSurgeryXenoHeart
     item: RMCOrganXenoHeartT2
+  - type: VentCrawler
+    ventCrawlIcon: spitter

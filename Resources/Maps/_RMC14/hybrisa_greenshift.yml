@@ -328047,7 +328047,7 @@ entities:
     - type: Transform
       pos: -78.55281,-13.20909
       parent: 1
-- proto: WeaponShotgunM42A2
+- proto: WeaponShotgunM42A1
   entities:
   - uid: 15359
     components:

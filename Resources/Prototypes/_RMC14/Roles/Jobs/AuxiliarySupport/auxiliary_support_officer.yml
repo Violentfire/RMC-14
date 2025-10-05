@@ -34,7 +34,7 @@
   marineAuthorityLevel: 13
   supervisors: cm-job-supervisors-co
   accessGroups:
-  - ASO
+  - MarineMain
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

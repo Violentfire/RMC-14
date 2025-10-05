@@ -9,6 +9,9 @@ rmc-breech-loaded-open-shoot-attempt = Спершу потрібно закри�
 rmc-breech-loaded-not-ready-to-shoot = Спершу треба передьорнуть затвор!
 rmc-breech-loaded-closed-load-attempt = Спершу треба відкрити затвор!
 rmc-breech-loaded-closed-extract-attempt = You need to open the breech first!
+rmc-breech-loaded-toggle-attempt-cooldown = You must wait before {$action} the chamber again!
+rmc-breech-loaded-open = opening
+rmc-breech-loaded-close = closing
 
 rmc-wield-use-delay = Спочатку зачекайте {$seconds} секунд перш ніж використовувати {THE($wieldable)}!
 rmc-shoot-use-delay = Спочатку зачекайте {$seconds} секунд перед тим як стріляти з {THE($wieldable)}!
@@ -42,6 +45,7 @@ rmc-examine-text-iff = [color=cyan]Ця зброя стріляє повз со�
 rmc-examine-text-id-lock-no-user = [color=chartreuse]It's unregistered. Pick it up to register yourself as its owner.[/color]
 rmc-examine-text-id-lock = [color=chartreuse]It is registered to [/color][color={$color}]{$name}[/color][color=chartreuse].[/color]
 rmc-examine-text-id-lock-unlocked = [color=chartreuse]It is registered to [/color][color={$color}]{$name}[/color][color=chartreuse], but has its fire restrictions unlocked.[/color]
+rmc-examine-text-execute = [color=red]This gun can be used to execute people with the right skill![/color]
 
 rmc-gun-rack-examine = [bold]Натисніть свою [color=cyan]унікальну[/color] клавішу (Пробіл за замовченням) щоб поставити перед стрільбою.[/bold]
 rmc-gun-rack-first-with = Вам спочатку потрібно поставити зброю за допомогою {$key}!

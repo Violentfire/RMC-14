@@ -54,6 +54,22 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ";-;", "chatsan-cries" },
         { ";_;", "chatsan-cries" },
         { "qwq", "chatsan-cries" },
+        { "t.t", "rmc-chatsan-emote-sobs" }, // RMC14 should be cries after case sensitive emote detection
+        { "t-t", "rmc-chatsan-emote-sobs" }, // RMC14
+        { "t_t", "rmc-chatsan-emote-sobs" }, // RMC14
+        { "t~t", "rmc-chatsan-emote-sobs" }, // RMC14
+//        { "T.t", "chatsan-cries" }, // RMC14
+//        { "T-t", "chatsan-cries" }, // RMC14
+//        { "T_t", "chatsan-cries" }, // RMC14
+//        { "T~t", "chatsan-cries" }, // RMC14
+//        { "t.T", "chatsan-cries" }, // RMC14
+//        { "t-T", "chatsan-cries" }, // RMC14
+//        { "t_T", "chatsan-cries" }, // RMC14
+//        { "t~T", "chatsan-cries" }, // RMC14
+//        { "T.T", "rmc-chatsan-emote-sobs" }, // RMC14 pending case sensitive emote detection option, make lowercase cries
+//        { "T-T", "rmc-chatsan-emote-sobs" }, // RMC14
+//        { "T_T", "rmc-chatsan-emote-sobs" }, // RMC14
+//        { "T~T", "rmc-chatsan-emote-sobs" }, // RMC14
         { ":u", "chatsan-smiles-smugly" },
         { ":v", "chatsan-smiles-smugly" },
         { ">:i", "chatsan-annoyed" },
@@ -96,8 +112,26 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "o7", "chatsan-salutes" },
         { "о7", "chatsan-salutes" }, // Sich
         { ";_;7", "chatsan-tearfully-salutes" },
+        { ";-;7", "chatsan-tearfully-salutes" }, // RMC14
+        { "t.t7", "chatsan-tearfully-salutes" }, // RMC14
+        { "t-t7", "chatsan-tearfully-salutes" }, // RMC14
+        { "t_t7", "chatsan-tearfully-salutes" }, // RMC14
+        { "t~t7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T.t7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T-t7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T_t7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T~t7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "t.T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "t-T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "t_T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "t~T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T.T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T-T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T_T7", "chatsan-tearfully-salutes" }, // RMC14
+//        { "T~T7", "chatsan-tearfully-salutes" }, // RMC14
         { "idk", "chatsan-shrugs" },
         { "хз", "chatsan-shrugs" }, // Sich
+        { "idgaf", "chatsan-shrugs" }, // RMC14
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },
         { "(;", "chatsan-winks" },

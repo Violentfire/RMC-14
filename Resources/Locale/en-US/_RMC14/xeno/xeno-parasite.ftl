@@ -1,25 +1,25 @@
-rmc-xeno-failed-cant-infect = Ви не можете інфікувати {THE($target)}!
-rmc-xeno-failed-cant-reach = Ви не можете схопити {$target}, воно повинно лежати!
-rmc-xeno-failed-target-dead = Не можна інфікувати мертвих!
-rmc-xeno-infect-success = Паразит б'ється об {$clothing} {$target} і здирає його!
-rmc-xeno-infect-fail = Паразит б'ється об {$clothing} {$target}!
-rmc-xeno-failed-parasite-dead = Паразит мертвий, інфікування неможливе!
-rmc-xeno-cant-throw = Ми не можемо кинути {THE($target)}!
+rmc-xeno-failed-cant-infect = We can't infect {THE($target)}!
+rmc-xeno-failed-cant-reach = We can't reach {$target}, they need to be lying down!
+rmc-xeno-failed-target-dead = We can't infect the dead!
+rmc-xeno-infect-success = The tiny xenonid smashes against {$target}'s {$clothing} and rips it off!
+rmc-xeno-infect-fail = The tiny xenonid smashes against {$target}'s {$clothing}!
+rmc-xeno-failed-parasite-dead = We can't infect with a dead child!
+rmc-xeno-cant-throw = We can't throw {THE($target)}!
 
-rmc-xeno-parasite-dead = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} не рухається.
-rmc-xeno-parasite-announce-infect = Ви відчуваєте, що {$xeno} інфікував жертву!
+rmc-xeno-parasite-dead = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} not moving.
+rmc-xeno-parasite-announce-infect = We sense that a {$xeno} has infected a host at {$location}!
 
-rmc-xeno-parasite-player-pickup = {CAPITALIZE($parasite)} може впоратися з {REFLEXIVE($parasite)}!
-rmc-xeno-parasite-nonplayer-pull = Спроба витягти {$parasite} може зашкодити {OBJECT($parasite)}!
+rmc-xeno-parasite-player-pickup = {CAPITALIZE($parasite)} can handle {REFLEXIVE($parasite)}!
+rmc-xeno-parasite-nonplayer-pull = Pulling the {$parasite} might hurt {OBJECT($parasite)}!
 
 rmc-xeno-parasite-ai-active = {CAPITALIZE(SUBJECT($parasite))} виглядає активно.
 rmc-xeno-parasite-ai-idle = {CAPITALIZE(SUBJECT($parasite))} {CONJUGATE-BE($parasite)} відпочиває.
 rmc-xeno-parasite-ai-dying = [color=red]{CAPITALIZE(SUBJECT($parasite))} має повернутися в безпечне місце![/color]
 
-rmc-xeno-parasite-ai-eaten = {CAPITALIZE($parasite)} лютує коли інші паразити починають її захоплювати!
+rmc-xeno-parasite-ai-eaten = The {CAPITALIZE($parasite)} is furiously cannibalized by the other nearby children!
 
-rmc-xeno-parasite-ghost-carrier-none = У {THE($xeno)} немає жодного паразита!
-rmc-xeno-parasite-ghost-carrier-reserved = {THE($xeno)} зберегла решту паразитів для {REFLEXIVE($xeno)}.
-rmc-xeno-parasite-ghost-carrier-dead = {THE($xeno)} мертва і всі {POSS-ADJ($xeno)} паразити загинули разом з {OBJECT($xeno)}.
+rmc-xeno-parasite-ghost-carrier-none = {THE($xeno)} has no sheltered children!
+rmc-xeno-parasite-ghost-carrier-reserved = {THE($xeno)} has reserved the remaining children for {REFLEXIVE($xeno)}.
+rmc-xeno-parasite-ghost-carrier-dead = {THE($xeno)} is dead and all {POSS-ADJ($xeno)} children died with {OBJECT($xeno)}.
 
 rmc-xeno-parasite-carrier-death = Рояча купа дрібних ксеносів намагаються втекти з {THE($xeno)}!

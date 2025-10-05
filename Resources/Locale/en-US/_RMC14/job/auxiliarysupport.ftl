@@ -1,25 +1,25 @@
-# auxiliary support
+# Підтримка
 cm-job-name-aso = Офіцер Підтримки
-cm-job-description-aso = Координуйте допоміжні підрозділи.
+cm-job-description-aso = Координуйте допоміжні підрозділи від Постачань до Розвідки та Пілотів. Будьте готові замінити кожен з них, а також взяти на себе командування операцією у випадку чого. Ви йдете третім у Ланцюгу Командування, відразу після Виконавчого Офіцера.
 cm-job-prefix-aso = ОП
 CMJobAuxiliarySupportOfficer = Офіцер Підтримки
 
-cm-job-name-dropship-pilot = Пілот Транспортника
-cm-job-description-dropship-pilot = Транспортуйте морпіхів на поле бою й забирайте поранених. Зробіть все щоб ворог не потрапив на човен.
-cm-job-prefix-dropship-pilot = ПТ
-CMJobPilotDropship = Пілот Транспортника
+cm-job-name-dropship-pilot = Пілот Траспортного Шатлу
+cm-job-description-dropship-pilot = Транспортуйте морпіхів на поле бою та з поля бою. Зробіть все, щоб ворог не потрапив на ваш шатл. За потреби ви можете виконувати обов'язки й Пілота Бойового Шатла.
+cm-job-prefix-dropship-pilot = ТП
+CMJobPilotDropship = Пілот Траспортного Шатлу
 
-cm-job-name-gunship-pilot = Пілот Бойового Корабля
-cm-job-description-gunship-pilot = Use your dropship’s full arsenal to provide close air support for Marines on the ground. Be ready to medevac wounded personnel and extract fultons if needed.
+cm-job-name-gunship-pilot = Пілот Бойового Шатлу
+cm-job-description-gunship-pilot = Використовуйте весь арсенал вашого бойового шатлу, щоб забезпечити повітряну підтримку морпіхів на землі. Будьте готові до евакуації поранених, витягування фултонів чи навіть парашутного десанту за допомогою спеціальних модулів. За потреби ви можете виконувати обов'язки й Пілота Транспортного Шатла.
 cm-job-prefix-gunship-pilot = БП
-CMJobPilotGunship = Пілот Бойового Корабля
+CMJobPilotGunship = Пілот Бойового Шатлу
 
 cm-job-name-dcc = Помічник Пілота
-cm-job-description-dcc = Допомагайте пілотам бойових та транспортних кораблів і піклуйтеся про поранених на борту.
+cm-job-description-dcc = Допомагайте пілотам бойових та транспортних шатлів з будь-чим, що їм може знадобитися. При потребі візьміть пілотування на себе.
 cm-job-prefix-dcc = ПП
 CMJobDropshipCrewChief = Помічник Пілота
 
 cm-job-name-intel = Офіцер Розвідки
-cm-job-description-intel = Знайдіть усю інформацію про цю колонію, і кожного хто в ній жив... і кожного хто її вбив. А потім обміняйте цю інформацію на бали.
+cm-job-description-intel = Знайдіть усю інформацію про цю колонію, і кожного хто в ній жив... і кожного хто її вбив. Використайте цю інформацію для отримання переваги над супротивником.
 cm-job-prefix-intel = ОР
 CMJobIntelOfficer = Офіцер Розвідки

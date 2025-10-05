@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Kutjevo
-  name: Кутєво - Посадкова Зона Транспортника Аламо
+  name: Кутєво - Посадкова Зона Шатла Аламо
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Kutjevo
-  name: Кутєво - Посадкова Зона Транспортника Нормандія
+  name: Кутєво - Посадкова Зона Шатла Нормандія
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi

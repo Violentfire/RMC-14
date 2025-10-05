@@ -278,6 +278,10 @@
       state: flamethrower-on
   - type: AttachableVisuals
     offset: -0.125, 0.245
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/flamer_mouse.rsi
+      state: all
 
 - type: entity
   parent: RMCUnderAttachmentBase
@@ -357,6 +361,10 @@
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: masterkey-on
   - type: AttachableVisuals
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/shotgun_mouse.rsi
+      state: all
 
 - type: entity
   parent: RMCUnderAttachmentBase
@@ -422,6 +430,10 @@
   - type: SolutionTransfer
     maxTransferAmount: 60
     transferAmount: 60
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/shotgun_mouse.rsi
+      state: all
 
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
@@ -508,6 +520,10 @@
     tags:
     - RMCAttachmentUnderbarrel
     - RMCAttachmentU1GrenadeLauncher
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/explosive_mouse.rsi
+      state: all
 
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
@@ -547,6 +563,10 @@
     tags:
     - RMCAttachmentUnderbarrel
     - RMCAttachmentMK1GrenadeLauncher
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/explosive_mouse.rsi
+      state: all
 
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
@@ -586,6 +606,10 @@
     tags:
     - RMCAttachmentUnderbarrel
     - RMCAttachmentM203GrenadeLauncher
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/explosive_mouse.rsi
+      state: all
 
 - type: entity
   parent: RMCUnderAttachmentBase

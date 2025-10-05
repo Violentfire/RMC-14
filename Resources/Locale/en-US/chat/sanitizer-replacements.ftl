@@ -21,3 +21,4 @@ chatsan-tearfully-salutes = слізно салютує
 chatsan-shrugs = знизує плечима
 chatsan-tearfully-smiles = слізно посміхається
 chatsan-winks = підморгує
+rmc-chatsan-emote-sobs = sobs

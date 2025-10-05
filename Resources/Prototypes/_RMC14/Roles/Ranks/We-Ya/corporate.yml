@@ -69,11 +69,13 @@
   id: RMCRankWeYaLegalSpecialist
   name: Юридичний спеціаліст
   prefix: Юр.Спец.
+  paygrade: WYC5
 
 - type: rank
   id: RMCRankWeYaLegalSupervisor
   name: Юридичний інспектор
   prefix: Юр.Інсп.
+  paygrade: WYC6
 
 # Pilots
 - type: rank

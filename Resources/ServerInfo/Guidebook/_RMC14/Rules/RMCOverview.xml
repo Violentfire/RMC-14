@@ -8,14 +8,12 @@
   ## Останні зміни
   Повний текст читайте у відповідних розділах.
 
+  - [textlink="(Core Rules)" link="RMCKindness"] Split in character crimes into its own section, allowing for more clarity. More information and guidelines have been added.
+  - (Current Page) Added Community Rules. These are the same community rules on the Discord.
+  - [textlink="(Non-Mod Department SOP)" link="RMCMarineSOPNONModDepartment"] Access Modification.
+  - [textlink="(Zero Tolerance)" link="RMCZeroTolerance"] Clarification: Don't share in-game information with anyone playing, neither in-character or any ooc/external means.
   - [textlink="(Core Rule 5)" link="RMCKindness"] Be kind to new players, teach them.
   - [textlink="(Zero Tolerance)" link="RMCZeroTolerance"] External communities should not be promoted or advertised.
-  - [textlink="(Marine Law Appeals)" link="RMCMarineLawAppeals"] Clarified who can be delegated to for appeal processing to mean just an uninvolved MP or Officer in all cases.
-  - (Mutinies) Clarified when a mutiny begins, and when someone can participate.
-  - [textlink="(Survivors Roleplay)" link ="RMCSurvivorRoleplay"] Survivors must accept requests/invitations to board the Almayer for the first time, but are not required to stay after they arrive.
-  - (Roleplay, Survivor/Marines) Survivors must not be hostile in any way to marines. Marines must not antagonize survivors.
-  - [textlink="(Third-Party SOP)" link ="RMCMarineSOPNONModThirdparty"] Most if not all recovered personnel may not become MPs.
-  - [textlink="(Rules)" link ="RMCKindness"] Avoid taking equipment from and/or cryosleeping afk players or players that are dead, but revivable.
 
   ## Рішення Адміністрації є Остаточними.
   - Правила виконуються відповідно до їхнього призначення. Оскільки неможливо описати всі приклади порушень, застосування правил залежить від інтерпретації їх наміру адміністрацією.
@@ -23,6 +21,8 @@
   - Не сперечайтеся з персоналом. Якщо ви вважаєте рішення адміністрації неправильним, подайте апеляцію, а не ігноруйте його.
 
   ## Важливі примітки
+
+  ### VPNs
 
   Наполегливо уникайте використання VPN або будь-якої подібної програми для підключення або під час підключення до RMC. Ви піддаєте свій обліковий запис ризику, що може призвести до постійного бану вашого облікового запису.
   Якщо у вас є законна причина для використання VPN, ви повинні принаймні один раз спробувати підключитися до сервера без VPN, перш ніж подавати запит на виняток для нього.
@@ -33,6 +33,7 @@
 
   - [bold]Ці правила не такі, як на інших серверах, їх слід читати в повному обсязі.[/bold]
   - [textlink="Типи Банів та їх Тривалість" link="RMCBanTypes"]
+  - This game has friendly fire mechanics. Avoid shooting your team.
 
   ## Правила нульової толерантності
   За порушення цих правил ви можете бути заблоковані без попередження.
@@ -49,6 +50,16 @@
   - [textlink="7. Заколоти, заворушення та подібні дії вимагають дозволу адміністратора." link="RMCMutinies"]
   - 8. Не відключайтесь, якщо не отримали бажану роль/набір, будьте ввічливими.
   - 9. Дотримуйтесь правил і стандартів рольової гри на сервері. (Описано внизу цієї сторінки)
+
+  ## Community Rules (All OOC channels)
+
+  - Per the hub rules of SS14, do not speak negatively of other SS14 servers, their community, or staff.
+
+  - Be civil. No harassment/bullying or offensive/abusive/hate speech content that would make the game a hostile space. Avoid political topics.
+
+  - Please do not start heated discussions, including balance issues or roleplay issues, as it is rarely productive with lack of context and information. Missing and new features/fixes and rules can be suggested in the features forum.
+
+  - Do not discuss, complain, or comment about anyone's admin/moderator bans/notes/actions including your own. If you've been banned or disagree with an action, the person involved must make an appeal in our appeals forum where a ruling can be made. It is otherwise assumed that the action is valid and there is no issue.
 
   ## Командування і Військова Служба Правопорядку
   Ці правила також застосовуються до будь-якої особи, яка отримує підвищення або діє замість члена ВСП/Командування (якщо вона не є членом ворожих сил).\n[italic]Командні ролі визначаються як: всі керівники, співробітники БІЦ, ВСП та лідери загонів.[/italic]

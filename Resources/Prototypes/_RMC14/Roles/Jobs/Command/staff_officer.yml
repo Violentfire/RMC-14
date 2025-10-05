@@ -25,7 +25,7 @@
   marineAuthorityLevel: 12
   supervisors: cm-job-supervisors-co
   accessGroups:
-  - SO
+  - MarineMain # SO в оригіналі. Змінено білдом Січі (даємо доступи в постачання)
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -43,7 +43,7 @@
         RMCSkillMedical: 2
         RMCSkillOverwatch: 1
         RMCSkillPolice: 1
-        RMCSkillPowerLoader: 1
+        RMCSkillPowerLoader: 2 # 1 в оригіналі. Змінено білдом Січі
         RMCSkillSurgery: 1
         RMCSkillVehicles: 2
     - type: MarineOrders

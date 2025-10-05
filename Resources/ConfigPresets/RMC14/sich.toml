@@ -1,0 +1,133 @@
+﻿# Ті ж значення конфігу, що й на сервері морпіхоти Січі (крім чисто серверної частини). Для тестів якихось механік та й десь це б зберігати.
+
+[accessibility]
+# Технічна штука з налаштуваннями доступності
+screen_shake_intensity = 1
+
+[adminlogs]
+# Назва серверу у адмін нотатках
+server_name = "Морпіхота"
+
+[net]
+#Тікрейт, базові налаштування порту та айпі. Технічна штука №2
+tickrate = 30
+bindto = "::,0.0.0.0"
+
+[build]
+# Версія білду, у РМС вона зазвичай не та, що остання. З часом буде змінюватися
+engine_version = "264.0.1-fix-physics"
+
+[rmc]
+#Обмеження сурвів для нашого білду, зміна рейту ксено, зняття обмежень на емоції, такс 20 хвилин та ще декілька моментів
+survivors_minimum = 0
+survivors_maximum = 3
+marines_per_survivor = 30
+distress_xenos_minimum = 1
+emote_cooldown_seconds = 0
+late_joins_burrowed_larva_death_time = 0
+disconnected_xeno_ghost_role_time_seconds = 120
+late_joins_per_burrowed_larva_early = 6.5
+late_joins_per_burrowed_larva = 6
+dropship_initial_delay_minutes = 20
+evolution_points_accumulate_before_minutes = 20
+marines_per_xeno = 5
+bioscan_base_cooldown_seconds = 1200
+
+[atmos]
+#Зміни для нормальної праці атмосу в РМС (тобто там, де його нема).
+space_wind = false
+monstermos_rip_tiles = false
+grid_impulse = false
+max_process_time = 1
+
+[events]
+#Ігрові події з ваніли. Вони не потрібні, тому вимкнені.
+enabled = false
+
+[explosion]
+#Обмеження вибухів, щоб вони не буквально пробивали планети до космосу.
+can_create_vacuum = false
+
+[game]
+#Налаштування самого серверу, в першу чергу щодо часу після кінця раунду та початкового режиму.
+defaultpreset = "CMDistressSignal"
+fallbackenabled = false
+fallbackpreset = "CMDistressSignal"
+round_end_sound_collection = "CMRoundEnd"
+contraband_examine = false
+panic_bunker.enabled = false
+round_end_pvs_overrides = false
+round_restart_time = 180
+lobbyduration = 180
+
+[gateway]
+#Ще одна штука для стабільної праці РМС.
+generator_enabled = false
+
+[ghost]
+#Дещо механічне для РМС.
+kill_crit = false
+role_time = 0
+
+[guidebook]
+#Прибирає зайве для РМС.
+show_editor_species_button = false
+
+[ic]
+#Додає описи для персонажів та якась тех. штука
+flavor_text = true
+id_job_length = 50
+
+[physics]
+#Ще одні зміни для РМС, тепер з фізикою.
+grid_splitting = false
+maxlinvelocity = 72
+target_minimum_tickrate = 120
+
+[procgen]
+#Ще одна технічна штука для РМС.
+preload = false
+
+[server]
+#Базові налаштування для відображення гайдів та правил РМСних.
+rules_file = "RMCOverview"
+default_guide = "RMC14"
+
+[shuttle]
+#Налаштування для нормальної праці шатлів.
+arrivals_planet = false
+arrivals = false
+preload_grids = false
+startup_time = 10
+travel_time = 100
+arrival_time = 10
+cooldown = 120
+mass_limit = -1
+emergency = false
+auto_call_time = 0
+
+[movement]
+#КОЛІЗІЯЯЯЯ
+mob_pushing = true
+
+[tips]
+#Поради (вже тут)
+dataset = "RMC_Tips"
+login_dataset = "RMC_Tips"
+
+[vote]
+#Приколи з голосуванням для РМС.
+preset_enabled = false
+restart_ghost_percentage = 75
+
+[admin]
+#Адмінські штучки + відображення нотаток гравцям
+admins_count_in_playercount = true
+alert.explosion_min_intensity = -1
+see_own_notes = true
+server_ban_erase_player = true
+new_player_threshold = 600
+
+[interaction]
+#Менше зайвих повідомлень адміністрації
+rate_limit_announce_admins_delay = -1

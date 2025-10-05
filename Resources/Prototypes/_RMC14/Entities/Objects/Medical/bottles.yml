@@ -92,7 +92,7 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleBicaridine
-  name: пляшка бікардину
+  name: пляшка бікаридину
   description: Маленька пляшка. Містить бікардин - використовується для лікування фізичних ушкоджень.
   components:
   - type: SolutionContainerManager
@@ -160,7 +160,7 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleInaprovaline
-  name: inaprovaline bottle
+  name: пляшка інапроваліну
   description: Мала пляшка. Містить інапровалін - використовується для стабілізації пацієнтів.
   components:
   - type: SolutionContainerManager
@@ -177,8 +177,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleTricordrazine
-  name: tricordrazine bottle
-  description: A small bottle. Contains tricordrazine - A weak but catch-all medicine for treating all sorts of damage.
+  name: пляшка трикодразину
+  description: Мала пляшка. Містить трикордразин – слабкий, але універсальний препарат для лікування всіх видів пошкоджень.
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,48 +1,48 @@
-rmc-ghost-role-information-responder-description = Your job is to respond to faxes appropriately, based on your faction. You are acting on behalf of RMC staff.
+rmc-ghost-role-information-responder-description = Ваше завдання — відповідати на факси належним чином, виходячи з вашої фракції. Ви дієте від імені адміністрації.
 
-rmc-ghost-role-information-responder-rules = You are a [color=red][bold]Fax Responder[/bold][/color]. Your factional relations depend on your faction.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
-                                             You are acting on behalf of server staff, and should be EXTREMELY careful with wording when writing faxes.
-                                             Fax Responders cannot make decisions that would drastically alter the round's flow, such as activating ERTs or overriding staff decisions without their input. Do not order anyone to break server rules. Always use AHelp if you're unsure whether your action requires staff involvement.
-                                             If you are ever in doubt, or receive a fax that requires admin attention, do not hesitate to AHelp.
-                                             Only call the marines by telephone if you have an EXCEPTIONAL reason. Your primary method of communication must always be the fax machine.
-                                             Do NOT use your radio to transmit under any circumstances. It is for listening only, not for communication.
-                                             Do NOT use the Overwatch console to interfere with squads or send messages. It is solely for observation.
-                                             Do NOT abuse the authority of this role. Misuse of your powers or failure to meet expectations will result in removal, or worse.
+rmc-ghost-role-information-responder-rules = Ви [color=red][bold]Відповідач на Факси[/bold][/color]. Ваші відносини до фракцій залежать від вашої фракції.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
+                                             Ви дієте від імені адміністрації серверу та повинні бути ДУЖЕ обережними з формулюваннями під час написання факсів.
+                                             Відповідачі на факси не можуть приймати рішення, які можуть докорінно змінити хід раунду, такі як активація ГШР або скасування рішень адміністрації без їхньої участі. Не наказуйте нікому порушувати правила сервера. Завжди користуйтеся АХелп, якщо ви не впевнені, чи вимагає ваша дія участі адміністрації.
+                                             Якщо у вас виникнуть сумніви або ви отримаєте факс, який потребує уваги адміністратора, не соромтеся звертатися в АХелп.
+                                             Телефонуйте морським піхотинцям лише за ВИНЯТКОВОЇ причини. Вашим основним засобом зв'язку завжди має бути факс.
+                                             НЕ використовуйте рацію для комунікації за жодних обставин. Вона призначена лише для прослуховування, а не для зв'язку.
+                                             НЕ використовуйте консоль Спостереження для втручання в дії загонів або надсилання повідомлень. Вона призначена виключно для спостереження.
+                                             НЕ зловживайте повноваженнями цієї посади. Зловживання вашими повноваженнями або невиконання обов'язків призведе до звільнення або ще гіршого.
 
 
-#UNMC fax responder
-rmc-job-name-unmc-responder = UNMC Communications Officer
-rmc-job-description-unmc-responder = "You are acting on behalf of UNMC Regional Command to respond to faxes sent to UNMC High Command."
+#Відповідач на Факси від ООН
+rmc-job-name-unmc-responder = Офіцер Зв'язку КМПОН
+rmc-job-description-unmc-responder = "Ви дієте від імені Регіонального Командування КМПОН, відповідаючи на факси, надіслані до Верховного Командування КМПОН."
 
-#We-Ya fax responder
-rmc-job-name-weya-responder = We-Ya Communications Executive
-rmc-job-description-weya-responder = "You are acting on behalf of the Regional We-Ya special services department to respond to faxes."
+#Відповідач на Факси від Ве-Я
+rmc-job-name-weya-responder = Виконавчий Директор з Комунікації Ве-Я
+rmc-job-description-weya-responder = "Ви дієте від імені регіонального відділу спеціальних служб Ве-Я, відповідаючи на факси."
 
-#Provost fax responder
-rmc-job-name-provost-responder = Provost Communications Officer
-rmc-job-description-provost-responder = "You are acting on behalf of the regions Provost Marshal Office to respond to faxes sent to the Provost Marshal Office."
+#Відповідач на Факси від Провосту
+rmc-job-name-provost-responder = Офіцер Зв'язку Провосту
+rmc-job-description-provost-responder = "Ви дієте від імені Офісу Провоста регіону, відповідаючи на факси, надіслані до Офісу Провоста."
 
-#Free Press fax responder
-rmc-job-name-free-press-responder = Free Press
-rmc-job-description-free-press-responder = "You are a promiment regional editor, a member of the Free Press."
+#Відповідач на Факси від Вільної Преси
+rmc-job-name-free-press-responder = Вільна Преса
+rmc-job-description-free-press-responder = "Ви — відомий регіональний редактор, член Вільної Преси."
 
-#CLF fax responder
-rmc-job-name-clf-responder = CLF Information Correspondent
-rmc-job-description-clf-responder = "You are a member of a regional CLF cell. Inform and receive information from local cells."
-rmc-job-prefix-clf-responder = INFO
+#Відповідач на Факси від ФВК
+rmc-job-name-clf-responder = Інформаційний Кореспондент ФВК
+rmc-job-description-clf-responder = "Ви є членом регіональної ячейки ФВК. Інформуйте та отримуйте інформацію від інших ячейок."
+rmc-job-prefix-clf-responder = ІНФО
 
-#SPP fax responder
-rmc-job-name-spp-responder = SPP Communications Officer
-rmc-job-description-spp-responder = "You are acting on behalf of SPP Regional Command to respond to faxes sent to SPP Command."
+#Відповідач на Факси від СПН
+rmc-job-name-spp-responder = Офіцер Зв'язку СПН. Комуняки. . .
+rmc-job-description-spp-responder = "Ви дієте від імені Регіонального командування СПН, відповідаючи на факси, надіслані до командування СПН."
 
-#TSE fax responder
-rmc-job-name-tse-responder = TSE Communications Officer
-rmc-job-description-tse-responder = "You are acting on behalf of TSE Regional Command to respond to faxes sent to TSE Command."
+#Відповідач на Факси від ІТС
+rmc-job-name-tse-responder = Офіцер Зв'язку ІТС
+rmc-job-description-tse-responder = "Ви дієте від імені Регіонального командування ІТС, відповідаючи на факси, надіслані до Командування ІТС."
 
-#CMB fax responder
-rmc-job-name-cmb-responder = CMB Communications Officer
-rmc-job-description-cmb-responder = "You are a dispatcher of the local branch of the CMB. Respond to faxes accordingly."
+#Відповідач на Факси від БКМ
+rmc-job-name-cmb-responder = Офіцер Зв'язку БКМ
+rmc-job-description-cmb-responder = "Ви диспетчер місцевого відділення БКМ. Відповідайте на факси відповідно."
 

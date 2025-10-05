@@ -1,24 +1,26 @@
-rmc-ghost-role-information-bureau-rules = You are a [color=cyan][bold]member of the Colony Marshal Bureau[/bold][/color]. You may or may not be hostile to the marines, depending on admin instructions.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+rmc-ghost-role-information-bureau-rules = Ви [color=cyan][bold]член Бюро Колоніальних Маршалів[/bold][/color]. Ви можете бути вороже налаштовані до морських піхотинців, а можете й ні, залежно від інструкцій адміністратора.
+                                             Ви не пам'ятаєте нічого зі свого попереднього життя, й не пам'ятаєте нічого, що бачили будучи привидом.
+                                             Вам дозволено використовувати знання про гру загалом, такі як стриляти, будувати, використовувати предмети, тощо.
+                                             Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати та називати ім'я, заняття, тощо зі свого минулого персонажа.
 
-rmc-ghost-role-information-bureau-marshal-description = Get your instructions from the CMB Office and carry out your orders. Do not enforce or override Marine Law on a Marine Ship unless requested.
-rmc-ghost-role-information-bureau-observer-description = Monitor and Document the treatment of sapient beings within the UNS Ship. Ensure the rights of sapient beings are being followed, and provide medical treatment where needed.
-rmc-ghost-role-information-icb-description = Oversee trade operations, enforce regulations, and investigate potential smuggling or black market activity. You are expected to collaborate with CMB deputies and ensure compliance with interstellar trade laws.
+rmc-ghost-role-information-bureau-marshal-description = Отримуйте інструкції від офісу БКМ та виконуйте їхні накази. Не застосовуйте та не скасовуйте морське право на морському судні, якщо інше не вимагається.
+rmc-ghost-role-information-bureau-observer-description = Контролювати та документувати поводження з розумними істотами на кораблі ООН. Забезпечуйте дотримання прав розумних істот та надавайте медичну допомогу за потреби.
+rmc-ghost-role-information-icb-description = Контролюйте торговельні операції, забезпечуйте дотримання правил та розслідуйте потенційну контрабанду або діяльність на чорному ринку. Від вас очікується співпраця із депутатами БКМ та забезпечення дотримання законів міжзоряної торгівлі.
 
-rmc-ghost-name-bureau-marshal = CMB Marshal (Friendly)
-rmc-job-name-bureau-marshal = CMB Marshal
-rmc-job-prefix-bureau-marshal = CMB MAR
+rmc-ghost-name-bureau-marshal = Маршал БКМ (Дружні)
+rmc-job-name-bureau-marshal = Маршал БКМ
+rmc-job-prefix-bureau-marshal = МАРШ БКМ
 
-rmc-ghost-name-bureau-deputy = CMB Deputy (Friendly)
-rmc-job-name-bureau-deputy = CMB Deputy
-rmc-job-prefix-bureau-deputy = CMB DEP
+rmc-ghost-name-bureau-deputy = Депутат БКМ (Дружні)
+rmc-job-name-bureau-deputy = Депутат БКМ
+rmc-job-prefix-bureau-deputy = ДЕП БКМ
 
-rmc-ghost-name-bureau-observer = Interstellar Sapient-Life Rights Observer (Friendly)
-rmc-job-name-bureau-observer = Interstellar Sapient-Life Rights Observer
-rmc-job-prefix-bureau-observer = OBS
+rmc-ghost-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі (Дружні)
+rmc-job-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі
+rmc-job-prefix-bureau-observer = СПВ
 
-rmc-ghost-name-icb = Interstellar Commerce Bureau Liaison (Friendly)
-rmc-job-name-icb = Interstellar Commerce Bureau Liaison
-rmc-job-prefix-icb = ICB
+rmc-ghost-name-icb = Представник Бюро Міжзоряної Торгівлі (Дружні)
+rmc-job-name-icb = Представник Бюро Міжзоряної Торгівлі
+rmc-job-prefix-icb = БМТ
+
+# БКМ(CMB) - Бюро Колоніальних Маршалів 
