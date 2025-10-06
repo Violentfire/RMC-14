@@ -20,11 +20,13 @@
       tags:
       - CommandTablet
       - RMCHeadset
+      - DoorBumpOpener # Додавання білду Січі
   - type: RMCEntityStorageWhitelist
     whitelist:
       tags:
       - CommandTablet
       - RMCHeadset
+      - DoorBumpOpener # Додавання білду Січі
   - type: AccessReader
     access: [["RMCAccessSeniorCommand"]]
   - type: RMCMesonsNonviewable
@@ -47,3 +49,10 @@
     children:
     - id: RMCTabletCO
     - id: RMCHeadsetMarineCommand
+    - id: RMCIDCCardReserve # Додавання білду Січі. Резервна картка
+
+- type: entity # Додавання білду Січі. Резервна картка для потреб офіцерів.
+  parent: CMIDCardBase
+  id: RMCIDCCardReserve
+  name: резервна картка
+  description: "Зовнішньо звичайна айді картка КМПОН, єдине, на ній вигравіювано текст: \"РЕЗЕРВНА КАРТКА ДЛЯ ПОТРЕБ ОФІЦЕРСЬКОГО СКЛАДУ. Розпоряджатися нею має право лише актуальний командир операції. Володіння карткою без його дозволу рівноцінно викраденню картки офіцера.\""

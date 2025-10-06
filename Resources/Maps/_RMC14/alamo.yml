@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 251.0.0-fixtures-fix
+  engineVersion: 264.0.1-fix-physics
   forkId: ""
   forkVersion: ""
-  time: 07/10/2025 14:02:14
-  entityCount: 214
+  time: 09/02/2025 09:07:44
+  entityCount: 203
 maps: []
 grids:
 - 1
@@ -15,7 +15,9 @@ nullspace: []
 tilemap:
   0: Space
   717: CMShuttleTileRasputin11
+  2: CMShuttleTileRasputin14
   721: CMShuttleTileRasputin15
+  3: CMShuttleTileRasputin2
   723: CMShuttleTileRasputin3
   724: CMShuttleTileRasputin4
   725: CMShuttleTileRasputin5
@@ -38,20 +40,20 @@ entities:
       chunks:
         0,0:
           ind: 0,0
-          tiles: 1QIAAAAA1QIAAAAA2AIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAA1QIAAAAA1wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
+          tiles: 1QIAAAAAANUCAAAAAADYAgAAAAAA0QIAAAAAAFoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaAwAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAANECAAAAAADTAgAAAAAA0QIAAAAAANECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAABaAwAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaAwAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAAWgMAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAAANUCAAAAAADXAgAAAAAA0QIAAAAAAFoDAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAABaAwAAAAAAWgMAAAAAAFoDAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAgAAAAAA0QIAAAAAAFoDAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAAANECAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAABaAwAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
         -1,0:
           ind: -1,0
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA1AIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA1gIAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAANECAAAAAADUAgAAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAgAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAAANECAAAAAADTAgAAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABaAwAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAWgMAAAAAANECAAAAAADWAgAAAAAA1QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAABaAwAAAAAAWgMAAAAAAFoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAFoDAAAAAADRAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaAwAAAAAA0QIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAFoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
         0,-1:
           ind: 0,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzQIAAAAAzQIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAWgMAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAA0wIAAAAA0QIAAAAAWgMAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-          version: 6
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAABaAwAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANECAAAAAADTAgAAAAAA0QIAAAAAAFoDAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAABaAwAAAAAAWgMAAAAAAFoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAAWgMAAAAAAFoDAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANECAAAAAADTAgAAAAAA0QIAAAAAAFoDAAAAAABaAwAAAAAAWgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAgAAAAAA0wIAAAAAANECAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0QIAAAAAANMCAAAAAADRAgAAAAAAWgMAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
         -1,-1:
           ind: -1,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAAzQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAWgMAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAA0QIAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAWgMAAAAA0QIAAAAA0wIAAAAA
-          version: 6
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABaAwAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAABaAwAAAAAA0QIAAAAAANMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAABaAwAAAAAAWgMAAAAAANECAAAAAADTAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaAwAAAAAAWgMAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAAFoDAAAAAABaAwAAAAAA0QIAAAAAANMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgMAAAAAANECAAAAAADTAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAFoDAAAAAADRAgAAAAAA0wIAAAAAAA==
+          version: 7
     - type: Broadphase
     - type: Physics
       bodyStatus: InAir
@@ -65,6 +67,7 @@ entities:
     - type: SpreaderGrid
       updateAccumulator: 0.067976
     - type: Shuttle
+      dampingModifier: 0.25
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -382,32 +385,13 @@ entities:
         2,9: RMCAreaShuttleDrop1Sulaco
         -5,6: RMCAreaShuttleDrop1Sulaco
         5,6: RMCAreaShuttleDrop1Sulaco
+    - type: ImplicitRoof
 - proto: AtmosDeviceFanTiny
   entities:
-  - uid: 2
-    components:
-    - type: Transform
-      pos: -0.5,-6.5
-      parent: 1
-  - uid: 3
-    components:
-    - type: Transform
-      pos: 1.5,-6.5
-      parent: 1
-  - uid: 4
-    components:
-    - type: Transform
-      pos: 0.5,-6.5
-      parent: 1
-  - uid: 5
-    components:
-    - type: Transform
-      pos: 4.5,2.5
-      parent: 1
   - uid: 6
     components:
     - type: Transform
-      pos: 4.5,3.5
+      pos: -3.5,2.5
       parent: 1
   - uid: 7
     components:
@@ -417,399 +401,59 @@ entities:
   - uid: 8
     components:
     - type: Transform
-      pos: -3.5,2.5
+      pos: -0.5,-6.5
       parent: 1
-- proto: CMAlamoCockpit
-  entities:
-  - uid: 9
-    components:
-    - type: Transform
-      pos: 0.5,7.5
-      parent: 1
-- proto: CMAlamoDoor
-  entities:
-  - uid: 10
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 4.5,2.5
-      parent: 1
-    - type: DeviceNetwork
-      address: 7138-5989
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 11
-    - type: DoorBolt
-      powered: True
   - uid: 12
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 4.5,3.5
-      parent: 1
-    - type: DeviceNetwork
-      address: 4B1B-257C
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 13
-    - type: DoorBolt
-      powered: True
-  - uid: 14
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -3.5,2.5
-      parent: 1
-    - type: DeviceNetwork
-      address: 2B41-7C87
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 15
-    - type: DoorBolt
-      powered: True
-  - uid: 16
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -3.5,3.5
-      parent: 1
-    - type: DeviceNetwork
-      address: 1460-0317
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 17
-    - type: DoorBolt
-      powered: True
-  - uid: 18
     components:
     - type: Transform
       pos: 0.5,-6.5
       parent: 1
-    - type: DeviceNetwork
-      address: 55EE-9366
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 19
-    - type: DoorBolt
-      powered: True
-  - uid: 20
-    components:
-    - type: Transform
-      pos: -0.5,-6.5
-      parent: 1
-    - type: DeviceNetwork
-      address: 2510-B225
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 21
-    - type: DoorBolt
-      powered: True
-  - uid: 22
+  - uid: 13
     components:
     - type: Transform
       pos: 1.5,-6.5
       parent: 1
-    - type: DeviceNetwork
-      address: 3F67-CB24
-      receiveFrequency: 1280
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.49,-0.49
-            - 0.49,-0.49
-            - 0.49,0.49
-            - -0.49,0.49
-          mask:
-          - Impassable
-          - TableLayer
-          - HighImpassable
-          - LowImpassable
-          - InteractImpassable
-          layer:
-          - TableLayer
-          - HighImpassable
-          - BulletImpassable
-          - InteractImpassable
-          - Opaque
-          density: 100
-          hard: True
-          restitution: 0
-          friction: 0.4
-        rmc_dropship_blocked:
-          shape: !type:PhysShapeCircle
-            radius: 0.49
-            position: 0,0
-          mask:
-          - DropshipImpassable
-          layer: []
-          density: 1
-          hard: True
-          restitution: 0
-          friction: 0.4
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 23
-    - type: DoorBolt
-      powered: True
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 4.5,3.5
+      parent: 1
+  - uid: 15
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 1
+- proto: CMAlamoCockpit
+  entities:
+  - uid: 3
+    components:
+    - type: Transform
+      pos: 0.5,7.5
+      parent: 1
+    missingComponents:
+    - DoorBolt
+- proto: CMAlamoDoorAft
+  entities:
+  - uid: 2
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,-6.5
+      parent: 1
+- proto: CMAlamoDoorPort
+  entities:
+  - uid: 5
+    components:
+    - type: Transform
+      pos: -3.5,2.5
+      parent: 1
+- proto: CMAlamoDoorStarboard
+  entities:
+  - uid: 4
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 1
 - proto: CMAlamoWall1
   entities:
   - uid: 24
@@ -829,13 +473,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -875,13 +519,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -921,13 +565,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -965,13 +609,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1009,13 +653,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1055,13 +699,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1101,13 +745,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1145,13 +789,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1191,13 +835,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1237,13 +881,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1281,13 +925,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1327,13 +971,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1371,13 +1015,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1417,13 +1061,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1463,13 +1107,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1509,13 +1153,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1555,13 +1199,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1601,13 +1245,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1647,13 +1291,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1693,13 +1337,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1739,13 +1383,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1785,13 +1429,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1831,13 +1475,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1877,13 +1521,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1923,13 +1567,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1969,13 +1613,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2015,13 +1659,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2061,13 +1705,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2107,13 +1751,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2151,13 +1795,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2195,13 +1839,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2241,13 +1885,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2287,13 +1931,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2333,13 +1977,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2379,13 +2023,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2425,13 +2069,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2471,13 +2115,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2517,13 +2161,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2561,13 +2205,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2607,13 +2251,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2653,13 +2297,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2697,13 +2341,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2741,13 +2385,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2785,13 +2429,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2829,13 +2473,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2875,13 +2519,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2919,13 +2563,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -2965,13 +2609,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3011,13 +2655,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3057,13 +2701,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3103,13 +2747,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3149,13 +2793,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3195,13 +2839,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3241,13 +2885,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3287,13 +2931,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3333,13 +2977,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3379,13 +3023,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3425,13 +3069,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3471,13 +3115,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3517,13 +3161,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3563,13 +3207,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3609,13 +3253,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3655,13 +3299,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3701,13 +3345,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3747,13 +3391,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3791,13 +3435,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3837,13 +3481,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3883,13 +3527,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3927,13 +3571,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -3973,13 +3617,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4019,13 +3663,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4065,13 +3709,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4111,13 +3755,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4157,13 +3801,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4203,13 +3847,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4249,13 +3893,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4295,13 +3939,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4341,13 +3985,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4387,13 +4031,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4433,13 +4077,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4479,13 +4123,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4525,13 +4169,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4571,13 +4215,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4617,13 +4261,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4797,13 +4441,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4843,13 +4487,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4887,13 +4531,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4931,13 +4575,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -4977,13 +4621,13 @@ entities:
             - -0.5,0.5
           mask:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - InteractImpassable
           layer:
           - Impassable
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -5375,50 +5019,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,8.5
       parent: 1
-- proto: DoorElectronics
-  entities:
-  - uid: 11
-    components:
-    - type: Transform
-      parent: 10
-    - type: Physics
-      canCollide: False
-  - uid: 13
-    components:
-    - type: Transform
-      parent: 12
-    - type: Physics
-      canCollide: False
-  - uid: 15
-    components:
-    - type: Transform
-      parent: 14
-    - type: Physics
-      canCollide: False
-  - uid: 17
-    components:
-    - type: Transform
-      parent: 16
-    - type: Physics
-      canCollide: False
-  - uid: 19
-    components:
-    - type: Transform
-      parent: 18
-    - type: Physics
-      canCollide: False
-  - uid: 21
-    components:
-    - type: Transform
-      parent: 20
-    - type: Physics
-      canCollide: False
-  - uid: 23
-    components:
-    - type: Transform
-      parent: 22
-    - type: Physics
-      canCollide: False
 - proto: RMCCoatCorrespondent
   entities:
   - uid: 197
@@ -5509,20 +5109,20 @@ entities:
       fixtures: {}
 - proto: RMCUtilityAttachmentPoint
   entities:
-  - uid: 209
+  - uid: 9
     components:
     - type: Transform
-      pos: 0.5,-0.5
+      pos: 0.5,-1.5
       parent: 1
-  - uid: 210
+  - uid: 10
     components:
     - type: Transform
-      pos: 0.5,-2.5
+      pos: 0.5,-3.5
       parent: 1
-  - uid: 211
+  - uid: 11
     components:
     - type: Transform
-      pos: 0.5,-4.5
+      pos: 0.5,-5.5
       parent: 1
 - proto: WarpPoint
   entities:
