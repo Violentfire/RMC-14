@@ -1,1 +1,1 @@
-﻿rmc-xeno-tumble-not-perpendicular = You can only tumble towards your left or right!
+rmc-xeno-tumble-not-perpendicular = Ви можете зробити перекид лише вліво або вправо!
