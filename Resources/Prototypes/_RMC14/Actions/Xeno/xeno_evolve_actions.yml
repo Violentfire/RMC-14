@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: ActionXenoBase
   id: ActionXenoEvolve
   name: Еволюціонувати
@@ -30,7 +30,7 @@
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoEvolve
   name: Еволюціонувати
-  description: Evolve to the next caste of xenonid or choose a strain if one is available.
+  description: Еволюціонувати до наступної касти ксеноїдів або обрати мутацію яка вам доступна.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

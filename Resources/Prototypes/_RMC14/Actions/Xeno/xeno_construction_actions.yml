@@ -118,8 +118,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoOrderConstruction
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: Наказ Будівництва
+  description: Розпочинає будівництво важливої для вулика структури.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -235,8 +235,8 @@
 - type: entity
   id: ActionLesserDronePlantWeeds
   parent: ActionXenoBase
-  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread more weeds.
+  name: Посадити Траву (75) # TODO RMC14 proper plasma costs
+  description: Посадити вузол який розплодить навколо себе чорну траву.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -259,8 +259,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoExpandWeeds
-  name: Expand Weeds (50) # TODO RMC14 proper plasma costs
-  description: Expand existing weeds or turn a weed tile into a node.
+  name: Розширити Траву (50) # TODO RMC14 proper plasma costs
+  description: Розширте існуючу траву або перетворіть плитку трави у вузол.
   components:
   - type: Action
     itemIconStyle: NoItem
