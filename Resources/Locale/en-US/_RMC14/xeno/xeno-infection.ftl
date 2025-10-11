@@ -22,6 +22,6 @@ rmc-xeno-infection-burst-soon = {CAPITALIZE($victim)} починає сильн�
 rmc-xeno-infection-burst-soon-self = Ви відчуваєте, як щось повзає по ваших нутрощах!
 
 rmc-xeno-infection-burst-now-victim = Ви відчуваєте, як щось розриває вас зсередини!
-rmc-xeno-infection-burst-now-xeno = Ми починаємо вириватися з тіла {THE($victim)}!
+rmc-xeno-infection-burst-now-xeno = Ми починаємо вириватися з тіла {$victim}!
 
 rmc-xeno-infected-bursted = {CAPITALIZE(SUBJECT($victim))} {CONJUGATE-HAVE($victim)} величезну дірку в грудях {POSS-ADJ($victim)}!
