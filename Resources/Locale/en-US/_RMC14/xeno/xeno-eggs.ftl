@@ -28,6 +28,6 @@ rmc-xeno-egg-throw = Це погана ідея.
 rmc-xeno-egg-plant-self = Ми починаємо ставити яйце.
 rmc-xeno-egg-plant = {CAPITALIZE($user)} починає ставити яйце.
 
-rmc-xeno-egg-carrier-death = {CAPITALIZE(THE($xeno))} упустив кілька цінних яєць!
+rmc-xeno-egg-carrier-death = {CAPITALIZE($xeno)} упустив кілька цінних яєць!
 
 rmc-xeno-fragile-egg-prefix = крихкий {$baseName}
