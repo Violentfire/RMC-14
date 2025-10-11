@@ -17,8 +17,8 @@ rmc-xeno-egg-return-self = {CAPITALIZE($parasite)} залазить назад �
 rmc-xeno-egg-return = {CAPITALIZE($user)} повертає {$parasite} назад в яйце.
 
 rmc-xeno-egg-ghost-verb = Стати паразитом
-rmc-xeno-egg-ghost-need-time = Ви занадто нещодавно опривидилися. Ви не можете стати паразитом поки не пройде три хвилини.
-rmc-xeno-egg-ghost-need-time-round = Ви не можете стати паразитом поки не мине достатньо часу в раунді (залишилося {$seconds} секунд).
+rmc-xeno-egg-ghost-need-time = Ви занадто нещодавно опривидилися. Ви не можете стати паразитом поки не пройде три хвилини. Залишилося {$seconds} секунд.
+rmc-xeno-egg-ghost-need-time-round = Ви не можете стати паразитом поки не мине достатньо часу в раунді. Залишилося {$seconds} секунд.
 rmc-xeno-egg-ghost-bypass-time = Ви успішно заразили свою ціль. Ви можете знову стати паразитом.
 rmc-xeno-egg-ghost-confirm = Ви точно хочете стати паразитом?
 
