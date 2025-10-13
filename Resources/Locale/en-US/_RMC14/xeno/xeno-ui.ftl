@@ -17,7 +17,7 @@ xeno-ui-enter-tunnel-verb = Увійти в Тунель
 xeno-ui-select-destination-tunnel-title = Вибрати Тунель Призначення
 xeno-ui-select-destination-tunnel-submit-text = Обрати Тунель
 
-rmc-xeno-ui-burrowed-need-time = Ви занадто нещодавно стали привидом. Не можна стати закопаною личинкою, поки не мине 2,5 хвилини ({$seconds} секунд залишилось).
+rmc-xeno-ui-burrowed-need-time = Ви занадто нещодавно стали привидом. Не можна стати закопаною лярвою поки не мине 2,5 хвилини ({$seconds} секунд залишилось).
 
 rmc-xeno-tracker-target-Queen = Королева
 rmc-xeno-tracker-target-HiveLeader = Лідер Вулика
