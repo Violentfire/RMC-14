@@ -542,4 +542,8 @@
   id: Xeno
   name: chat-speech-verb-name-default
   speechVerbStrings:
-  - hisses
+  - шипить # В оригіналі лише hisses. Інше - додавання білду Січі
+  - гарчить
+  - ричить
+  - скреготить
+  - гудить

@@ -24,8 +24,10 @@
 - type: entity
   parent: RMCFlagCarriableBase
   id: RMCFlagCarriableUN
-  name: Прапор ООН.
-  description: "Прапор ООН." # This one looks ready to be planted into the ground."
+  name: Прапор ООН
+  description: "Прапор Організації Об'єднаних Націй.
+    \nПри погляді на нього ви відразу згадуєте слова Вчителя географії: \"Темно-синє полотно - немов безкрайні простори космосу. По центру велика чотирикутна зірка, а навколо неї 13 менших шестикутних розташованих вздовж дуги - неначе Сонячна та інші 13 систем. Знизу цього всього шифр - UN абеткою морзе.\" 
+    \n\nВиглядає готовим до встановлення в землю." #Опис сильно розширений білдом Січі
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flags/un_flag.rsi
@@ -37,8 +39,10 @@
 - type: entity
   parent: RMCFlagCarriableBase
   id: RMCFlagCarriableUNMC
-  name: UNMC flag
-  description: "Прапор UNMC." # This one looks ready to be planted into the ground."
+  name: Прапор КМПОН
+  description: "Прапор Корпусу Морської Піхоти Об'єднаних Націй.
+    \nПри погляді на нього ви відразу згадуєте слова Інструктора: \"Зелене полотно - немов планета Земля. По центру емблема, в її верхній частині зірка з крилами - Сонце та авіація, під ними коло, яке символізує планету-ціль, позаду неї проходить стріла - флот, а з краю видніється шифр - UNMC морзянкою.\"
+    \n\nВиглядає готовим до встановлення в землю." #Опис сильно розширений білдом Січі
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flags/unmc_flag.rsi
