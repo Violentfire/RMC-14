@@ -326,7 +326,7 @@
 - type: entity
   parent: RMCAreaSavannahRequisitions
   id: RMCAreaSavannahQuartermaster
-  name: Офіс Квартирмейстера
+  name: Офіс Офіцера Логістики
 
 - type: entity
   parent: RMCAreaSavannahAuxiliary
