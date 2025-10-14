@@ -1,7 +1,7 @@
 hud-chatbox-info = {$talk-key} щоб говорити, {$cycle-key} щоб перемикати канали.
 hud-chatbox-info-talk = {$talk-key} щоб говорити.
-hud-chatbox-info-cycle = Натисни тут щоб говорити, {$cycle-key} щоб перемикати канали.
-hud-chatbox-info-unbound = Натисни тут щоб говорити.
+hud-chatbox-info-cycle = Натисніть тут щоб говорити, {$cycle-key} щоб перемикати канали.
+hud-chatbox-info-unbound = Натисніть тут щоб говорити.
 
 hud-chatbox-select-name-prefixed = {$prefix} {$name}
 hud-chatbox-select-channel-Admin = Адмін
