@@ -22,8 +22,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: Xenonid Tracker
-  description: Tracks the Queen.
+  name: Відстежувач Ксеноїдів
+  description: Вказує на Королеву.
   clickEvent: !type:HiveTrackerClickedAlertEvent
   altClickEvent: !type:HiveTrackerAltClickedAlertEvent
   minSeverity: 0
@@ -32,20 +32,20 @@
 - type: alert
   parent: HiveTracker
   id: LeaderTracker
-  name: Hive Leader Tracker
-  description: Tracks a hive leader.
+  name: Відстежувач Лідера Вулику
+  description: Вказує на лідера вулику.
 
 - type: alert
   parent: HiveTracker
   id: TunnelTracker
-  name: Tunnel Tracker
-  description: Tracks a tunnel.
+  name: Відстежувач Тунелю
+  description: Вказує на тунель.
 
 - type: alert
   parent: HiveTracker
   id: HiveCoreTracker
-  name: Hive Core Tracker
-  description: Tracks the hive core.
+  name: Відстежувач Ядра Вулику
+  description: Вказує на ядро вулику.
 
 - type: alert
   id: ResinMarkerTracker
@@ -70,8 +70,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_tracker.rsi
     state: trackon-southwest
-  name: ������� �� �������� �����
-  description: ³���������� ������ �����, ��������� ��������� ��� �������� ������.
+  name: Стежити за маркером смоли
+  description: Відстежувати маркер смоли, розміщений королевою або Ватажком вулика.
 #  clickEvent: !type:SelectTrackerAlertEvent
   minSeverity: 0
   maxSeverity: 10
@@ -100,8 +100,8 @@
     state: trackon-west
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest
-  name: ������ ������ �������
-  description: ������� �� ������ ������.
+  name: Відстежувач Морпіхів Загону
+  description: Вказує на Лідера Загону.
   minSeverity: 0
   maxSeverity: 10
   clickEvent: !type:SquadLeaderTrackerClickedEvent
@@ -131,7 +131,7 @@
     state: trackon-west_asl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_asl
-  description: Tracks the Alpha Squad Leader.
+  description: Вказує на Лідера Загону Альфа.
 
 - type: alert
   id: SquadTrackerBravo
@@ -158,7 +158,7 @@
     state: trackon-west_bsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_bsl
-  description: Tracks the Bravo Squad Leader.
+  description: Вказує на Лідера Загону Браво.
 
 - type: alert
   parent: SquadTracker
@@ -185,7 +185,7 @@
     state: trackon-west_csl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_csl
-  description: Tracks the Charlie Squad Leader.
+  description: Вказує на Лідера Загону Чарлі.
 
 - type: alert
   parent: SquadTracker
@@ -212,7 +212,7 @@
     state: trackon-west_dsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_dsl
-  description: Tracks the Delta Squad Leader.
+  description: Вказує на Лідера Загону Дельта.
 
 - type: alert
   parent: SquadTracker
@@ -239,7 +239,7 @@
     state: trackon-west_esl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_esl
-  description: Tracks the Echo Squad Leader.
+  description: Вказує на Лідера Загону Ехо.
 
 - type: alert
   parent: SquadTracker
@@ -266,7 +266,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the Foxtrot Squad Leader.
+  description: Вказує на Лідера Загону Фокстрот.
 
 - type: alert
   parent: SquadTracker
@@ -293,7 +293,7 @@
     state: trackon-west_isl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_isl
-  description: Tracks the Foxtrot Squad Leader.
+  description: Вказує на Лідера Загону Інтел.
 
 - type: alert
   parent: SquadTracker
@@ -320,7 +320,7 @@
     state: trackon-west_dsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_dsl
-  description: Tracks the Sun Riders Section Sergeant.
+  description: Вказує на Сержанта відділення Сонячних Вершників.
 
 - type: alert
   parent: SquadTracker
@@ -347,7 +347,7 @@
     state: trackon-west_fosl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fosl
-  description: Tracks the FORECON Squad Leader.
+  description: Вказує на Лідера ФОРКОНу.
 
 - type: alert
   parent: SquadTracker
@@ -374,7 +374,7 @@
     state: trackon-west_co
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_co
-  description: Tracks the Commanding Officer.
+  description: Вказує на Командуючого ОФіцера.
 
 - type: alert
   parent: SquadTracker
@@ -401,7 +401,7 @@
     state: trackon-west_xo
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_xo
-  description: Tracks the Executive Officer.
+  description: Вказує на Виконавчого Офіцера.
 
 - type: alert
   parent: SquadTracker
@@ -428,7 +428,7 @@
     state: trackon-west_cmp
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_cmp
-  description: Tracks the Chief Military Police
+  description: Вказує на ГВСП.
 
 - type: alert
   parent: SquadTracker
@@ -455,7 +455,7 @@
     state: trackon-west_lz
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_lz
-  description: Tracks the Primary Landing Zone
+  description: Вказує на Основну Посадкову Зону.
 
 - type: alert
   parent: SquadTracker
@@ -482,8 +482,8 @@
     state: trackon-west_cl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_cl
-  name: We-Ya Squad Tracker
-  description: Tracks the Corporate Liaison.
+  name: Відстежувач Загону Ве-Я
+  description: Вказує на Представника Корпорації.
 
 - type: alert
   parent: SquadTracker
@@ -510,8 +510,8 @@
     state: trackon-west_tl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_tl
-  name: We-Ya Squad Tracker
-  description: Tracks the Team Leader
+  name: Відстежувач Загону Ве-Я
+  description: Вказує на Лідера Команди.
 
 - type: alert
   parent: SquadTracker
@@ -538,8 +538,8 @@
     state: trackon-west_fl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fl
-  name: We-Ya Squad Tracker
-  description: Tracks the Force Leader
+  name: Відстежувач Загону Ве-Я
+  description: Вказує на Лідера Сил.
 
 - type: alert
   id: MarineTacMapAlert
@@ -547,8 +547,8 @@
   icons:
   - sprite: /Textures/_RMC14/Structures/Machines/map_table.rsi
     state: maptable
-  name: �������� ����
-  description: ���������, ��� ������� �������� ����.
+  name: Тактична мапа
+  description: Натисніть, щоб відкрити Тактичну мапу.
   clickEvent: !type:OpenTacMapAlertEvent
 
 - type: alert
@@ -557,8 +557,8 @@
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_map.rsi
     state: open_xeno_map
-  name: �������� ����
-  description: ���������, ��� ������� �������� ����.
+  name: Тактична мапа
+  description: Натисніть, щоб відкрити Тактичну мапу.
   clickEvent: !type:OpenTacMapAlertEvent
 
 - type: alert
@@ -600,8 +600,8 @@
     state: roof3b
   - sprite: /Textures/_RMC14/Structures/Machines/ceiling.rsi
     state: roof4b
-  name: Area Info
-  description: Information of the area you are in.
+  name: Інформація про місцевість
+  description: Інформація про місцевість, в якій ви зараз знаходитесь.
   minSeverity: 0
   maxSeverity: 7
 
