@@ -10,7 +10,6 @@
   prototype: BarbedWire1
   doAfterTime: 1
   doAfterTimeMin: 1
-  skill: RMCSkillConstruction
   materialCost: 1
   ignoreBuildRestrictions: true
   restrictedCollisionGroup: null
