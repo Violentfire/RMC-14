@@ -12,7 +12,7 @@
     drawdepth: WallMountedItems
     sprite: _RMC14/Structures/Wallmounts/cmdcabinet.rsi
   - type: EntityStorage
-    capacity: 3 # for storing a tablet and headset, as well as for one more additional thing if needed
+    capacity: 4 # for storing a tablet and headset, as well as for one more additional thing if needed
     isCollidableWhenOpen: true
     enteringOffset: 0, -0.6
     enteringRange: 0.03
@@ -20,13 +20,11 @@
       tags:
       - CommandTablet
       - RMCHeadset
-      - DoorBumpOpener # Додавання білду Січі
   - type: RMCEntityStorageWhitelist
     whitelist:
       tags:
       - CommandTablet
       - RMCHeadset
-      - DoorBumpOpener # Додавання білду Січі
   - type: AccessReader
     access: [["RMCAccessSeniorCommand"]]
   - type: RMCMesonsNonviewable
@@ -56,3 +54,7 @@
   id: RMCIDCCardReserve
   name: резервна картка
   description: "Зовнішньо звичайна айді картка КМПОН, єдине, на ній вигравіювано текст: \"РЕЗЕРВНА КАРТКА ДЛЯ ПОТРЕБ ОФІЦЕРСЬКОГО СКЛАДУ. Розпоряджатися нею має право лише актуальний командир операції. Володіння карткою без його дозволу рівноцінно викраденню картки офіцера.\""
+  components:
+  - type: Tag
+    tags:
+    - CommandTablet
