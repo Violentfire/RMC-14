@@ -1,4 +1,4 @@
-﻿rmc-lobby-join-xeno = Join Xeno
-rmc-lobby-no-burrowed-larva = No burrowed larva are available.
-rmc-lobby-burrowed-larva-available = The hive has burrowed larva available.
-rmc-lobby-join-as-larva = Join as Larva
+﻿rmc-lobby-join-xeno = Приєднатися до ксено
+rmc-lobby-no-burrowed-larva = Немає доступних лярв.
+rmc-lobby-burrowed-larva-available = У вулика є захована лярва.
+rmc-lobby-join-as-larva = Приєднатися за лярву
