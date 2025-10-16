@@ -11,7 +11,7 @@
 # . Інше
 
 - type: entity
-  parent: RMCAreaBase
+  parent: RMCAreaAlmayer
   id: RMCAreaSavannah
   suffix: Зона Саванни
   components:
@@ -19,20 +19,7 @@
     sprite: _RMC14/Areas/savannah.rsi
     state: savannah
   - type: Area
-    CAS: true
-    fulton: true
-    mortarPlacement: false
-    mortarFire: false # TODO RMC14 true
-    lasing: false
-    medevac: false
-    paradropping: false
-    OB: true
-    supplyDrop: true
     powerNet: savannah
-    hijackEvacuationArea: false
-    hijackEvacuationWeight: 0
-    hijackEvacuationType: None
-  - type: IntelRescueSurvivorArea
 
 # ТЕХ. ПРИМІЩЕННЯ
 
@@ -506,3 +493,8 @@
   parent: RMCAreaSavannah
   id: RMCAreaSavannahDisposals # Додано білдом Січі
   name: Смітник
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahToilets # Додано білдом Січі
+  name: Вбиральні
