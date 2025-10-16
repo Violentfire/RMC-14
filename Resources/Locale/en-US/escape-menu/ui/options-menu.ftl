@@ -48,6 +48,7 @@ ui-options-quality-label = Якість
 ui-options-misc-label = Різне
 ui-options-interface-label = Інтерфейс
 
+
 ui-options-auto-fill-highlights = Автоматично заповнювати підсвічування інформацією про персонажа
 ui-options-highlights-color = Колір підсвічування:
 ui-options-highlights-color-example = Це підсвічений текст!
@@ -102,6 +103,9 @@ ui-options-hud-layout = Розташування HUD:
 
 ui-options-binds-reset-all = Скинути всі клавіші
 ui-options-binds-explanation = Клік для зміни, правий клік для очищення
+
+## Controls menu
+
 ui-options-unbound = Не призначено
 ui-options-bind-reset = Скинути
 ui-options-key-prompt = Натисніть клавішу...
