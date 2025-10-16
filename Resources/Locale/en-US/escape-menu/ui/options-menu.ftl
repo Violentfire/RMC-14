@@ -13,7 +13,7 @@ ui-options-apply = Зберегти та застосувати
 ui-options-reset-all = Скинути зміни
 ui-options-default = Скинути до стандартних налаштувань
 
-ui-options-value-percent = { TOSTRING($value, «P0») }
+ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
 
@@ -67,7 +67,7 @@ ui-options-lighting-low = Низька
 ui-options-lighting-medium = Середня
 ui-options-lighting-high = Висока
 ui-options-scale-label = Масштаб інтерфейсу:
-ui-options-scale-auto = Автоматично ({ TOSTRING($scale, «P0») })
+ui-options-scale-auto = Автоматично ({ TOSTRING($scale, "P0") })
 ui-options-scale-75 = 75%
 ui-options-scale-100 = 100%
 ui-options-scale-125 = 125%
@@ -324,12 +324,12 @@ ui-options-net-predict-tick-bias-tooltip = Збільшення цього зн�
 ui-options-net-pvs-spawn = Ліміт спавну об’єктів PVS
 ui-options-net-pvs-spawn-tooltip = Обмежує швидкість, з якою сервер надсилає нові
                                    об’єкти клієнту. Зменшення може зменшити лаги при спавні,
-                                   але може викликати «поп-ін» об’єктів.
+                                   але може викликати "поп-ін" об’єктів.
 
 ui-options-net-pvs-entry = Ліміт видимих об’єктів PVS
 ui-options-net-pvs-entry-tooltip = Обмежує швидкість, з якою сервер надсилає нові
                                    видимі об’єкти. Зменшення може зменшити лаги,
-                                   але може викликати «поп-ін».
+                                   але може викликати "поп-ін".
 
 ui-options-net-pvs-leave = Ліміт видалення об’єктів PVS
 ui-options-net-pvs-leave-tooltip = Обмежує швидкість, з якою клієнт видаляє
