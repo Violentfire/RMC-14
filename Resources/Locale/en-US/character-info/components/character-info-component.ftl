@@ -1,4 +1,4 @@
-character-info-title = Character
-character-info-roles-antagonist-text = You have no special Roles
-character-info-objectives-label = Objectives
-character-info-no-profession = No Profession
+character-info-title = Персонаж
+character-info-roles-antagonist-text = Ви не маєте спеціальних ролей
+character-info-objectives-label = Цілі
+character-info-no-profession = Без професії
