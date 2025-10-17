@@ -1,5 +1,5 @@
 ﻿- type: entity
-  id: CMDistressSignal # тест
+  id: CMDistressSignal
   parent: BaseGameRule
   categories: [ HideSpawnMenu ]
   components:
