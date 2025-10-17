@@ -58,6 +58,10 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "t-t", "rmc-chatsan-emote-sobs" }, // RMC14
         { "t_t", "rmc-chatsan-emote-sobs" }, // RMC14
         { "t~t", "rmc-chatsan-emote-sobs" }, // RMC14
+        { "т.т", "rmc-chatsan-emote-sobs" }, // Sich
+        { "т-т", "rmc-chatsan-emote-sobs" }, // Sich
+        { "т_т", "rmc-chatsan-emote-sobs" }, // Sich
+        { "т~т", "rmc-chatsan-emote-sobs" }, // Sich
 //        { "T.t", "chatsan-cries" }, // RMC14
 //        { "T-t", "chatsan-cries" }, // RMC14
 //        { "T_t", "chatsan-cries" }, // RMC14
@@ -85,11 +89,18 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "0-0", "chatsan-wide-eyed" },
         { "o-o", "chatsan-wide-eyed" },
         { "o.o", "chatsan-wide-eyed" },
+        { "0_0", "chatsan-wide-eyed" }, // Sich
+        { "0.0", "chatsan-wide-eyed" }, // Sich
         { "о-о", "chatsan-wide-eyed" }, // Sich
         { "о.о", "chatsan-wide-eyed" }, // Sich
         { "omg", "chatsan-wide-eyed" }, // Sich
         { "омг", "chatsan-wide-eyed" }, // Sich
         { "._.", "chatsan-surprised" },
+        { "о_0", "chatsan-surprised" }, // Sich
+        { "0_о", "chatsan-surprised" }, // Sich
+        { "о.0", "chatsan-surprised" }, // Sich
+        { "0.о", "chatsan-surprised" }, // Sich
+        { ".).", "chatsan-surprised" }, // Sich-MIU
         { ".-.", "chatsan-confused" },
         { "?", "chatsan-confused" }, // RMC14
         { "-_-", "chatsan-unimpressed" },
