@@ -3,7 +3,7 @@
 species-name-human = Людина
 species-name-dwarf = Дворф
 species-name-reptilian = Унатх
-species-name-slime = Слайм персона
+species-name-slime = Слаймолюд
 species-name-diona = Діона
 species-name-arachnid = Арахнід
 species-name-moth = Ніан
