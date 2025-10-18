@@ -68,7 +68,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/prison.yml
     camouflage: Urban
-    minPlayers: 130
+    # minPlayers: 130 in RMC. Прибрано білдом Січі (ми любимо Флоріду)
     announcement: "Автоматичний сигнал лиха було отримано з в'язниці суворого режиму \"Орбітальна Тюрма Фіоріна\". Для встановлення причин цього, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
     survivorJobInserts:
       CMSurvivor:
@@ -95,7 +95,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/trijent.yml
     camouflage: Desert
-    minPlayers: 40
+    minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     announcement: "Ми втратили контакт з позасонячною колонією Вестон-Ямади, \"Дамба Тріджент\", що на планеті \"Райжин.\" На допомогу було надіслано ДКП-Саванна \"Січ\"."
     survivorJobs:
     - CMSurvivor: -1
@@ -229,7 +229,7 @@
     map: /Maps/_RMC14/hybrisa.yml
     camouflage: Urban
     announcement: "Автоматичний сигнал лиха надійшов з колонії Вестон-Ямади, Процвітаюча Гібріса. Вона являє собою величезне місто, відоме своїми гірничодобувними проєктами, велечезними статками, а також захмарними цінами. Нещодавно викуплена у ІТС, ця колонія тепер ключовий актив Вестон-Ямади. Для встановлення причин, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
-    minPlayers: 40
+    minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     survivorJobInserts:
       CMSurvivor:
       - RMCSurvivorHybrisaCivilian: -1
@@ -264,7 +264,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/sorokyne.yml
     camouflage: Jungle
-    minPlayers: 40
+    minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     announcement: "З колонії гірничодобувної компанії на прикордонній планеті ЖЗ-976, \"Форпост Сорокіно\", отримано автоматичний сигнал СОС. Для розслідування причин цього буде відправлена група з ДКП-Саванна \"Січ\"."
     survivorJobInserts:
       CMSurvivor:
