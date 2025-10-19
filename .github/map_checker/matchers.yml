@@ -40,4 +40,10 @@
   - "savannah.yml"
   entityMatchers:
   - "CMStamp.*" # All stamps.
+  - "RMCPlushieAlec" # Ця строка та всі нижче - додавання білду Січі. Дайте мені пхати іграшки які я хочу :godo:
+  - "RMCPlushieNyx"
+  - "RMCPlushieXippy"
+  - "RMCPlushieProvost"
+  - "RMCPlushieCrow"
+  - "RMCPlushieMotivationalMoth"
 
