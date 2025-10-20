@@ -34,7 +34,10 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "]=", "chatsan-frowns" },
         { ":D", "chatsan-smiles-widely" },
         { "D:", "chatsan-frowns-deeply" },
+        { ":Д", "chatsan-smiles-widely" }, // Sich
+        { "Д:", "chatsan-frowns-deeply" }, // Sich
         { ":O", "chatsan-surprised" },
+        { ":О", "chatsan-surprised" }, // Sich
         { "!", "chatsan-surprised" }, // RMC14
         { ":3", "chatsan-smiles" },
         { ":з", "chatsan-smiles" }, // Sich
@@ -54,6 +57,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ";-;", "chatsan-cries" },
         { ";_;", "chatsan-cries" },
         { "qwq", "chatsan-cries" },
+        { ",),", "chatsan-cries" }, // Sich-MIU
         { "t.t", "rmc-chatsan-emote-sobs" }, // RMC14 should be cries after case sensitive emote detection
         { "t-t", "rmc-chatsan-emote-sobs" }, // RMC14
         { "t_t", "rmc-chatsan-emote-sobs" }, // RMC14
@@ -106,6 +110,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "-_-", "chatsan-unimpressed" },
         { "smh", "chatsan-unimpressed" },
         { "o/", "chatsan-waves" },
+        { "о/", "chatsan-waves" }, // Sich
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
@@ -128,6 +133,10 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "t-t7", "chatsan-tearfully-salutes" }, // RMC14
         { "t_t7", "chatsan-tearfully-salutes" }, // RMC14
         { "t~t7", "chatsan-tearfully-salutes" }, // RMC14
+        { "т.т7", "chatsan-tearfully-salutes" }, // Sich
+        { "т-т7", "chatsan-tearfully-salutes" }, // Sich
+        { "т_т7", "chatsan-tearfully-salutes" }, // Sich
+        { "т~т7", "chatsan-tearfully-salutes" }, // Sich
 //        { "T.t7", "chatsan-tearfully-salutes" }, // RMC14
 //        { "T-t7", "chatsan-tearfully-salutes" }, // RMC14
 //        { "T_t7", "chatsan-tearfully-salutes" }, // RMC14
