@@ -161,7 +161,29 @@
 
 - type: entity
   parent: RMCRailAttachmentBase
-  id: RMCAttachmentS6ReflexSight
+  id: RMCAttachmentS5MicroRedDotSight
+  name: приціл S5-мікро з червоною крапкою
+  description: Легкий, низькопрофільний точковий оптичний приціл, розроблений для швидкого захоплення цілі з мінімальним зниженням ваги. Оптимізований для пістолетів-кулеметів та іншої зброї, він ідеально підходить для ближнього бою, де швидкість та спритність мають найбільше значення.
+  components:
+  - type: Sprite
+    state: reddot_small
+  - type: Tag
+    tags:
+    - RMCAttachmentRail
+    - RMCAttachmentS5MicroRedDotSight
+  - type: AttachableVisuals
+  - type: AttachableWeaponRangedMods
+    modifiers:
+    - conditions:
+        wieldedOnly: true
+      accuracyAddMult: 0.15
+    - conditions:
+        unwieldedOnly: true
+      accuracyAddMult: 0.05
+
+- type: entity
+  parent: RMCRailAttachmentBase
+  id: RMCAttachmentS6ReflexSight # reflex
   name: рефлекторний приціл S6
   description: Рефлекторний приціл AEGIS S6. Альтернатива залізним прицілам з нульовим збільшенням з більш відкритим оптичним вікном порівняно з прицілом S5 з червоною крапкою. Допомагає зменшити розсіювання під час автоматичної стрільби.
   components:
@@ -609,6 +631,9 @@
 
 - type: Tag
   id: RMCAttachmentS5RedDotSight
+
+- type: Tag
+  id: RMCAttachmentS5MicroRedDotSight
 
 - type: Tag
   id: RMCAttachmentS6ReflexSight

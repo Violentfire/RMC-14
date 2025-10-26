@@ -17,6 +17,10 @@ rmc-xeno-fury-increase-user = Нас переповнює лють!
 rmc-xeno-not-enough-acid = У вас недостатньо накопиченої кислоти!
 rmc-xeno-acid-increase-user = Ви відчуваєте, як ваші запаси кислоти зростають!
 
+# Shards
+rmc-xeno-not-enough-shards = У нас недостатньо уламків!
+rmc-xeno-shards-increase-user = Ми вирощуємо більше уламків!
+
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
 cm-xeno-order-construction = Збудувати
@@ -380,6 +384,14 @@ rmc-xeno-fling-too-big = {CAPITALIZE($target)} занадто великий, щ
 # Gut
 rmc-gut-start-self = Ми впиваємося кігтями в тіло цього нещасного інкубатора і починаємо розривати його навпіл!
 rmc-gut-start-others = {$user} впивається кігтями в тіло {$target}, починаючи розривати його навпіл!
+rmc-gut-finish-self = Ми розриваємо цього жалюгідного інкубатора на шматки!!
+rmc-gut-finish-others = {$user} розриває {$target} на шматки!!
 
-rmc-gut-finish-self = Ми розриваємо цього жалюгідного інкубатора навпіл!!
-rmc-gut-finish-others = {$user} розриває {$target} навпіл!!
+# Shed Spikes
+rmc-shed-spikes = Ми скинули свої уламки і не можемо накопичувати нові протягом 30 секунд!
+rmc-shed-spikes-back = Ми можемо накопичувати уламки!
+
+# Spike Shield
+rmc-spike-shield-self = Ми вздіймаємо наші голки, схожі на уламки кісток, утворюючи захисний панцир!
+rmc-spike-shield-others = {$user} наїжачує свої голки з кістяних уламків, утворюючи захисний панцир!
+rmc-spike-shield-hit = {$user} розкидує кістяні голки всюди!

@@ -1,11 +1,11 @@
 ﻿# requisitions
-cm-job-name-quartermaster = Квартирмейстр
-cm-job-description-quartermaster = Контролюйте працю відділу постачань. Організуйте вантажників та забезпечте стабільне надсилання всього необхідного на фронт. Спорьте з стрільцем, бо не видали йому 20 гранат.
-cm-job-prefix-quartermaster = КМ
-CMJobQuartermaster = Квартирмейстр
+cm-job-name-quartermaster = Офіцер Логістики
+cm-job-description-quartermaster = Контролюйте працю відділу постачань. Організуйте вантажників та забезпечте стабільне надсилання всього необхідного на фронт. Сперечайтеся з стрільцем, бо не видали йому 20 гранат.
+cm-job-prefix-quartermaster = ОЛ
+CMJobQuartermaster = Офіцер Логістики
 
 cm-job-name-cargotech = Вантажник
-cm-job-description-cargotech = Тягайте ящики, виконуйте замовлення морпіхів, слухайтеся КМа. Спробуйте не впавсти в ЯМУ.
+cm-job-description-cargotech = Тягайте ящики, виконуйте замовлення морпіхів, слухайтеся ОЛа. Спробуйте не впавсти в ЯМУ.
 cm-job-prefix-cargotech = ВНТ
 CMJobCargoTech = Вантажник
 

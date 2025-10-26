@@ -43,6 +43,7 @@
         CMSurvivorScientist:
         - CMSurvivor: 0
 
+
 - type: entity
   id: RMCPlanetSolaris
   name: Хребет Солярис
@@ -50,7 +51,50 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/solaris.yml
     camouflage: Desert
-    announcement: "Вестон-Ямада втратили зв'язок з одним зі своїх біосховищ, колонією Хребет Солярис на планеті ЖЗ-1413 (Рутерра-І). Початково вона використовувалась для експериментів з тераформуванням лишайником, але після їх провалу – продана корпорації Вестон-Ямада. Вас відправлено, щоб розібратися з причинами втрати зв'язку."
+    announcement: announcement: "Вестон-Ямада втратили зв'язок з одним зі своїх біосховищ, колонією Хребет Солярис на планеті ЖЗ-1413 (Рутерра-І). Початково вона використовувалась для експериментів з тераформуванням лишайником, але після їх провалу – продана корпорації Вестон-Ямада. Вас відправлено, щоб розібратися з причинами втрати зв'язку."
+    nightmareScenarios:
+    - scenarioName: clfmining
+      scenarioProbability: 0.1
+    - scenarioName: crashlanding_offices
+      scenarioProbability: 0.2
+#    survivorJobScenarios:
+#      clfmining:
+#        CMSurvivor:
+#        - : 1
+#        - : -1
+#        CMSurvivorCorporate:
+#        - : 1
+#        - : -1
+#        CMSurvivorDoctor:
+#        - : 1
+#        - : -1
+#        CMSurvivorEngineer:
+#        - : 1
+#        - : -1
+#        CMSurvivorSecurity:
+#        - : 1
+#        - : -1
+#        CMSurvivorScientist:
+#        - : -1
+#      crashlanding_offices:
+#        CMSurvivor:
+#        - : 1
+#        - : -1
+#        CMSurvivorCorporate:
+#        - : 1
+#        - : -1
+#        CMSurvivorDoctor:
+#        - : 1
+#        - : -1
+#        CMSurvivorEngineer:
+#        - : 1
+#        - : -1
+#        CMSurvivorSecurity:
+#        - : 1
+#        - : -1
+#        CMSurvivorScientist:
+#        - : -1
+
 
 - type: entity
   id: RMCPlanetShiva
@@ -67,7 +111,7 @@
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/prison.yml
-    camouflage: Urban
+    camouflage: Classic
     # minPlayers: 130 in RMC. Прибрано білдом Січі (ми любимо Флоріду)
     announcement: "Автоматичний сигнал лиха було отримано з в'язниці суворого режиму \"Орбітальна Тюрма Фіоріна\". Початково станція існувала на орбіті планети Фіоріна-161 заради розвідки покладів платини цієї ж планети, але після їх вичерпання була перебудована у Орбітальну тюрму та Науковий комплекс, ціллю дослідження якого стало ████████. Для встановлення причин сигналу СОС, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
     survivorJobInserts:
@@ -122,6 +166,42 @@
       - CMSurvivorCMBDeputy: 1
       CMSurvivorScientist:
       - CMSurvivorTrijentResearcher: 2
+#    survivorJobScenarios:
+#      clf_pods:
+#        CMSurvivor:
+#        - : -1
+#        CMSurvivorCorporate:
+#        - : 1
+#        - : -1
+#        CMSurvivorDoctor:
+#        - : 1
+#        - : -1
+#        CMSurvivorEngineer:
+#        - : 1
+#        - : -1
+#        CMSurvivorSecurity:
+#        - : 1
+#        - : -1
+#        CMSurvivorScientist:
+#        - : -1
+#    survivorJobScenarios:
+#      spp_bar:
+#        CMSurvivor:
+#        - : -1
+#        CMSurvivorCorporate:
+#        - : 1
+#        - : -1
+#        CMSurvivorDoctor:
+#        - : 1
+#        - : -1
+#        CMSurvivorEngineer:
+#        - : 1
+#        - : -1
+#        CMSurvivorSecurity:
+#        - : 1
+#        - : -1
+#        CMSurvivorScientist:
+#        - : -1
 
 
 - type: entity
@@ -197,7 +277,7 @@
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/chances.yml
-    camouflage: Urban
+    camouflage: Classic
     announcement: "Пан-Пан. Це командуючий офіцер КОН \"Ганют\", ФОРКОН КМПОН. Ми висадилися на планеті ЖЗ-522 неподалік \"Землі Фортуни\", повторюю, неподалік \"Землі Фортуни\". Ми втратили контакт з Ганютом, також наші шатли не в змозі вилетіти. МИ ПОТРЕБУЄМО ДОПОМОГИ ВІД УСІХ КОРАБЛІВ ПОБЛИЗУ; це повідомлення транслюватиметься кожні 24 години."
     selectRandomSurvivorInsert: false
     survivorJobs:
@@ -302,13 +382,23 @@
 #        CMSurvivorScientist:
 #        - : -1
 
+# PVE Maps Below
 - type: entity
   id: RMCPlanetArcticValley
   name: Arctic Valley
   components:
   - type: RMCPlanetMapPrototype
-    map: /Maps/_RMC14/arctic_valley.yml
+    map: /Maps/_RMC14/PVE/arctic_valley.yml
     camouflage: Snow
+    inRotation: false
+
+- type: entity
+  id: RMCPlanetJungleDelta
+  name: Jungle Delta
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/PVE/jungle_delta.yml
+    camouflage: Jungle
     inRotation: false
 
 - type: entity
@@ -316,7 +406,7 @@
   name: CORSAT
   components:
   - type: RMCPlanetMapPrototype
-    map: /Maps/_RMC14/corsat.yml
+    map: /Maps/_RMC14/PVE/corsat.yml
     camouflage: Classic
     inRotation: false
 
@@ -325,7 +415,7 @@
   name: LV-759 Hybrisa Prospera (Repaired)
   components:
   - type: RMCPlanetMapPrototype
-    map: /Maps/_RMC14/hybrisa_greenshift.yml
+    map: /Maps/_RMC14/PVE/hybrisa_greenshift.yml
     camouflage: Urban
     inRotation: false
 
@@ -334,6 +424,6 @@
   name: LV-976 - Sorokyne Strata (Repaired)
   components:
   - type: RMCPlanetMapPrototype
-    map: /Maps/_RMC14/sorokyne_repaired.yml
+    map: /Maps/_RMC14/PVE/sorokyne_repaired.yml
     camouflage: Jungle
     inRotation: false

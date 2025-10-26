@@ -1,6 +1,6 @@
 - type: entity
   id: CMVendorBundleRiflemanApparel
-  name: стандартне морпіхотне обмундирування
+  name: Уніформа, шолом, гарнітура, рукавички, чоботи
   description: Містить морпіхотну уніформу, шолом M10, гарнітуру, бойові рукавиці та бойові чоботи.
   categories: [ HideSpawnMenu ]
   components:
@@ -94,7 +94,7 @@
     - CMSheetPlasteel40
     - RMCPowerCellHigh
     - CMEntrenchingTool
-    - CMLightReplacer
+    - RMCLightReplacer
     - CMAPCElectronics
     - RMCNailgunTactical
 

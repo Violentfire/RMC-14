@@ -96,7 +96,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  name: Фугасна орбітальна боєголовка
+  description: "Боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньої кількості твердого палива. Ця конкретна модель призначена для використання в сильно укріплених районах, викликаючи великий круговий вибух, якщо їй вдається досягти землі."
+  name: фугасна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -106,7 +107,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  name: Запалювальна орбітальна боєголовка
+  description: "Боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для відсікання ворожих сил, створюючи великий діамант надгарячого блакитного вогню."
+  name: запалювальна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -116,7 +118,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  name: Кластерна орбітальна боєголовка
+  description: "Боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для використання у тісних й добре укріплених районах, викликаючи численні вибухи приблизно прямокутної форми."
+  name: кластерна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -161,7 +164,8 @@
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
     state: ob_warhead_1
-  - type: RandomSpawner
+  - type: UniqueRandomSpawner
+    spawnerGroup: RMCOrbitalCannonWarheadSpawner
     prototypes:
     - RMCOrbitalCannonWarheadExplosive
     - RMCOrbitalCannonWarheadCluster
@@ -291,6 +295,10 @@
   - type: ActivatableUI
     key: enum.OrbitalCannonComputerUI.Key
   - type: OrbitalCannonComputer
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
 
 - type: entity
   parent: CMSeatBase

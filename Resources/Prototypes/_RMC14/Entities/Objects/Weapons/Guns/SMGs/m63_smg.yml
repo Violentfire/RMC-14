@@ -2,7 +2,7 @@
   parent: CMBaseWeaponSMG
   name: M63 пістолет-кулемет
   id: WeaponSMGM63
-  description: Пістолет-кулемет Aegis Battlefield Armaments M-63. Зазвичай використовується у легкій піхоті, медикі та розвідці.
+  description: Пістолет-кулемет AEGIS Armaments M-63. Зазвичай використовується у легкій піхоті, медиками, інженерами та розвідкою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63/desert.rsi
@@ -64,8 +64,10 @@
           tags:
           - RMCAttachmentBarrelCharger
           - RMCAttachmentExtendedBarrel
+          - RMCAttachmentExtendedCompensator
           - RMCAttachmentRecoilCompensator
           - RMCAttachmentSuppressor
+          - RMCAttachmentSuppressorCompact
           - RMCM5Bayonet
       rmc-aslot-rail:
         whitelist:
@@ -73,6 +75,7 @@
           - RMCAttachmentRailFlashlight
           - RMCAttachmentMagneticHarness
           - RMCAttachmentS5RedDotSight
+          - RMCAttachmentS5MicroRedDotSight
           - RMCAttachmentS6ReflexSight
           - RMCAttachmentS42xTelescopicMiniscope
       rmc-aslot-stock:

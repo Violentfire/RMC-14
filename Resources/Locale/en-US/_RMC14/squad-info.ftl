@@ -17,6 +17,7 @@ rmc-squad-info-tracking-selection = Вибір відстеження
 rmc-squad-info-tracking-choose = Оберіть нову ціль відстеження:
 rmc-squad-info-change-tracker = Змінити відстежувач
 
+
 rmc-squad-info-CommandingOfficer = Командуючий Офіцер
 rmc-squad-info-ExecutiveOfficer = Виконавчий Офіцер
 rmc-squad-info-AuxiliarySupportOfficer = Офіцер Підтримки
@@ -24,7 +25,7 @@ rmc-squad-info-ChiefMilitaryPolice = Голова ВСП
 rmc-squad-info-ChiefEngineer = Головний Інженер
 rmc-squad-info-ChiefMedicalOfficer = Головний Лікар
 rmc-squad-info-SeniorEnlistedAdvisor = Інструктор
-rmc-squad-info-Quartermaster = Квартирмейстер
+rmc-squad-info-Quartermaster = Офіцер Логістики
 rmc-squad-info-MilitaryWarden = Військовий Наглядач
 rmc-squad-info-SectionSergeant = Section Sergeant
 rmc-squad-info-PVESquadLeader = Squad Leader

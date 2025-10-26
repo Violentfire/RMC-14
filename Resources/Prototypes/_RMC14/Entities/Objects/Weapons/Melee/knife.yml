@@ -71,7 +71,7 @@
 
 - type: entity
   name: M11 метальний ніж
-  parent: [ RMCBaseMeleeWeapon, BaseKnife]
+  parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM11Knife
   description: Військовий ніж спроєктований для метання в ворога.
   components:
@@ -104,7 +104,7 @@
   - type: DeleteOnExplosion
 
 - type: entity
-  parent: [ RMCBaseMeleeWeapon, BaseKnife]
+  parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM2132Machete
   name: M2132 мачете
   description: Остання версія Морпіхотного Мачете. Намагайтеся не відрубайте собі щось.
@@ -182,7 +182,7 @@
   - type: UsableWhileDevoured
 
 - type: entity
-  parent: [ RMCBaseMeleeWeapon, BaseKnife]
+  parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: RMCStraightRazor
   name: straight razor
   description: The commandant's favorite weapon against marines who dare break the grooming standards.
@@ -199,8 +199,8 @@
     visuals:
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
-          True: {state: razor}
-          False: {state: razor-off}
+          True: { state: razor }
+          False: { state: razor-off }
   - type: Appearance
   - type: Item
     size: Small

@@ -376,9 +376,12 @@
   - type: CMArmorPiercing
     amount: 10
   - type: RMCStunOnHit
-    maxRange: 10
-    stunTime: 0
-    slowTime: 0.8
+    stuns:
+    - whitelist:
+        minMobSize: VerySmallXeno
+      maxRange: 10
+      stunTime: 0
+      slowTime: 0.8
   - type: RMCProjectileAccuracy
     accuracy: 100
     thresholds:
@@ -441,15 +444,18 @@
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: RMCStunOnHit
-    maxRange: 10
-    stunTime: 1.6
-    slowTime: 4
-    knockBackPowerMin: 1
-    knockBackPowerMax: 3
-    knockBackSpeed: 5
-    forceKnockBack: true
-    slowsEffectBigXenos: true
-    dazeTime: 3.4
+    stuns:
+    - whitelist:
+        minMobSize: VerySmallXeno
+      maxRange: 10
+      stunTime: 1.6
+      slowTime: 4
+      knockBackPowerMin: 1
+      knockBackPowerMax: 3
+      knockBackSpeed: 5
+      forceKnockBack: true
+      slowsEffectBigXenos: true
+      dazeTime: 3.4
   - type: RMCProjectileAccuracy
     accuracy: 100
     thresholds:

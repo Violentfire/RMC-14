@@ -30,7 +30,7 @@ cm-job-prefix-hospital-corpsman = БМ
 CMJobHospitalCorpsman = Бойовий Медик
 
 cm-job-name-combat-tech = Бойовий Технік
-cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ. Хваліться усім своєю турелькою та тим, що можете проникнути всюди.
+cm-job-description-combat-tech = Будуйте та розбирайте барикади. Збудуйте та підтримуйте ПОБ разом з Зв'язком. Хваліться усім своєю турелькою та тим, що можете проникнути всюди.
 cm-job-prefix-combat-tech = БТ
 CMJobCombatTech = Бойовий Технік
 

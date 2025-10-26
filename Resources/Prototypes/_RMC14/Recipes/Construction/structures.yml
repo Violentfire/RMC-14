@@ -183,8 +183,8 @@
 - type: construction
   parent: RMC
   name: настінне кріплення для ламп
-  id: CMLightTubeFixture
-  graph: CMLightFixture
+  id: RMCLightTubeFixture
+  graph: RMCLightFixture
   startNode: start
   targetNode: tubeLight
   category: construction-category-cm-structures
@@ -199,8 +199,8 @@
 - type: construction
   parent: RMC
   name: настінне кріплення для лампочок
-  id: CMLightBulbFixture
-  graph: CMLightFixture
+  id: RMCLightBulbFixture
+  graph: RMCLightFixture
   startNode: start
   targetNode: bulbLight
   category: construction-category-cm-structures

@@ -2,7 +2,7 @@
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
   name: M357 'Суперник'
   id: WeaponShotgunM357
-  description: Двоствольний дробовик виробництва Aegis. Старий, міцний, дешевий. Вміщує лише два набої 12 калібру одночасно.
+  description: Двоствольний дробовик виробництва AEGIS. Старий, міцний, дешевий. Вміщує лише два набої 12 калібру одночасно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/doublebarrel.rsi
