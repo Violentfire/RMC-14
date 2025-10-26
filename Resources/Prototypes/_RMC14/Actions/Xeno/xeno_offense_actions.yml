@@ -72,8 +72,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidAcider
-  name: Strong Corrosive Acid (100 acid)
-  description: Melts down barricades or items over time. You cannot melt structures.
+  name: Стійка корозійна кислота (100 acid)
+  description: З часом роз'їдає барикади і предмети. Ви не можете розплавити споруди. 
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -175,8 +175,8 @@
 - type: entity
   id: ActionXenoRush
   parent: ActionXenoLeap
-  name: Rush
-  description: Jump towards a given location and slash the enemy you hit, shaking their screen.
+  name: Випад
+  description: Стрибає в задане місце й наносить рублячий удар по ворогу, якого зачепить. Після влучання екран ворога тремтить.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -215,8 +215,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoAssault
-  name: Assault (25)
-  description: Charge towards a location. Destroys some objects in your path. Melee slashes reduce assault's cooldown. If Super-Empowered, stuns and flings back the first enemy hit.
+  name: Напад (25)
+  description: Кидається в вказане місце. Знищує деякі об'єкти на своєму шляху. Удари в ближньому бою скорочують час відновлення атаки. Якщо ти маєш надзвичайну силу, оглушує і відкидає першого враженого ворога.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -266,7 +266,7 @@
   id: ActionXenoHeadbutt
   parent: ActionXenoBase
   name: Удар Головою (10) # TODO RMC14 proper plasma costs
-  description: Charge towards the targeted enemy and push back the first enemy hit, piercing armor slightly. Does less damage but has more knockback when crest is lowered.
+  description: Нападає на вказаного ворога і відкидає першого враженого на вашому шляху, злегка пробиваючи броню. Завдає менше шкоди, але має більшу силу відкидання, коли гребінь опущений.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -718,8 +718,8 @@
 - type: entity
   parent: ActionXenoStomp
   id: ActionXenoCrush
-  name: Crush (25)
-  description: Slam the ground with a 7x7 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: Розчавлення (25)
+  description: Удар по землі з площею дії 7x7, що уповільнює та обеззброюючи всіх ворогів у радіусі досяжності. Завдає значної шкоди цілям, над якими ви знаходитесь.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -759,8 +759,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleCharging
-  name: Toggle Charging
-  description: Enable charging when moving in a straight line, which increases your speed and impact damage depending on the total distance travelled.
+  name: Перемкнути Накопичення
+  description: Увімкніть накопичення під час руху по прямій, що збільшує вашу швидкість і шкоду від удару в залежності від загальної пройденої відстані.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -999,8 +999,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveRoot
-  name: Cleave Root
-  description: Root an enemy for a second. The duration is higher if your shield is up.
+  name: Вкорінення
+  description: На секунду вкорінює ворога на одному місці. Тривалість ефекту збільшується, якщо у вас піднятий гребінь.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1031,8 +1031,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveFling
-  name: Cleave Fling
-  description: Fling an enemy. The distance is doubled if your shield is up.
+  name: Викинути
+  description: Кидає ворога. Дистанція подвоюється, якщо твій гребінь піднятий.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1082,14 +1082,14 @@
 - type: entity
   id: ActionXenoSpitQueen
   parent: ActionXenoSpit
-  name: Xeno Spit (50/25)
-  description: Launches a projectile that will either paralyze the first enemy it hits or damage them and cover them in acid.
+  name: Ксено Плювок (50/25)
+  description: Випускає снаряд, який або паралізує ворога в кого влучить, або завдає шкоди й покриває кислотою.
 
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleSpitType
-  name: Toggle Spit Type
-  description: Toggle between Neurotoxic or Acidic spit. Neurotoxic has less range and costs 50 plasma, and knocks down the first enemy it hits. Acidic has more range and costs 25 plasma, and damages and covers in acid the first enemy it hits.
+  name: Перемкнути Тип Плювка
+  description: Перемикайся між нейротоксичним і кислотним плювком. Нейротоксичний має меншу дальність і коштує 50 плазми, збиває з ніг ворога в якого влучить. Кислотний має більшу дальність і коштує 25 плазми, завдає шкоди й покриває кислотою ворога.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1106,8 +1106,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHighGallop
-  name: High Gallop
-  description: Stuns foes in a 2x3 area in targeted direction, and slows them. Also flings back grenades.
+  name: Високий Галоп
+  description: Оглушує та сповільнює ворогів у заданому напрямку в зоні 2x3. Також відкидає гранати.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1133,8 +1133,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoScissorCut
-  name: Scissor Cut (25)
-  description: Cuts enemies and fences in a straight line. If Super-Empowered, slows enemies hit too.
+  name: Ножиці (25)
+  description: Розрізає ворогів і огорожі по прямій лінії. Якщо маєте надзвичайну силу, також уповільнює вражених ворогів.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1162,8 +1162,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailSeize
-  name: Tail Seize
-  description: Throw out your tail in front of you. Uses up your melee attack. Pulls in the first enemy hit to you and roots and slows them on arrival.
+  name: Захоплення Хвостом
+  description: Викидає хвіст перед собою. Використовує атаку ближнього бою. Притягує першого ворога, який вас вразив, зупиняє та уповільнює його після притягування.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1191,8 +1191,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAbduct
-  name: Abduct (180)
-  description: Cast out a line that after a small doafter pulls in enemies towards you, disarming them. Catching 1 target slows them, 2 roots them, and 3 or more stuns them.
+  name: Викрадення (180)
+  description: Викидає жилку яка після короткої паузи притягує ворогів до тебе та роззброює їх. Зловивши 1 ціль, ви сповільнюєте її, 2 - приковуєте до місця, а 3 і більше - оглушуєте.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1220,8 +1220,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailLash
-  name: Tail Lash (80)
-  description: Fling back foes in a 2x3 area in targeted direction after a very short doafter. Also slows.
+  name: Хвостовий Батіг (80)
+  description: Після короткої паузи викидає ворогів назад у напрямку цілі на площі 2×3. Також сповільнює.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1248,8 +1248,8 @@
 - type: entity
   id: ActionXenoDislocate
   parent: ActionXenoBase
-  name: Dislocate (55)
-  description: Punch a targeted enemy, doing some damage and pushing them back. If the target is slowed, stunned, downed, or rooted, instead roots and completely pierces armor. Reduces the cooldown of Abduct and Tail Lash.
+  name: Дизлокація (55)
+  description: Б’є обраного ворога, завдаючи шкоди та відштовхуючи його назад. Якщо ворог сповільнений, оглушений, повалений або вкорінений - замість цього вкорінює його й повністю пробиває броню. Зменшує час перезаряджання здібностей Хвостовий Батіг і Викрадення.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1278,8 +1278,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailJab
-  name: Tail Jab
-  description: Jab an enemy in a 2.5 tile range, doing high damage and slowing them.
+  name: Хвостовий Удар
+  description: Б’є ворога на відстані 2,5 клітинки, завдає високої шкоди та сповільнює.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1301,8 +1301,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFlurry
-  name: Flurry
-  description: An attack that has a range of 1x3 tiles, dealing damage per target and healing you.
+  name: Шквал
+  description: Атакує на площі 1×3 клітинки, завдає шкоду кожній цілі та лікує вас.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1328,8 +1328,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeadbite
-  name: Headbite
-  description: Instantly kills unconscious targets and heals you for 150 HP.
+  name: Вкусити За Голову
+  description: Миттєво вбиває непритомних інкубаторів та відновлює вам 150 здоров'я.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1357,8 +1357,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApprehend
-  name: Apprehend
-  description: Increases your movement speed and applies a slow on the next target you slash.
+  name: Схоплення
+  description: Збільшує вашу швидкість руху та накладає сповільнення на наступну ціль, яку ви розсікаєте.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1390,8 +1390,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoClothesline
-  name: Clothesline
-  description: Flings a target, doing minimal damage and healing you. The amount healed is higher the more rage stacks you have.
+  name: Розмах
+  description: Кидає ціль і завдає мінімальної шкоди, також лікує вас. Кількість лікування зростає з числом накопиченої ярості.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1410,8 +1410,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTumble
-  name: Tumble (25) # TODO RMC14 proper plasma costs
-  description: Charge towards your side and push back the first enemy hit. Can only be used towards either side of where you are facing.
+  name: Перекид (25) # TODO RMC14 proper plasma costs
+  description: Розганяється в сторону та відштовхує першого ворога у якого влучить. Можна використовувати лише вліво або вправо від вашого напряму.
   components:
   - type: Action
     itemIconStyle: NoItem

@@ -1,44 +1,44 @@
-﻿rmc-bioscan-ares-announcement = [color=white][font size=16][bold]ARES v3.2 Bioscan Status[/bold][/font][/color][color=red][font size=14][bold]
+rmc-bioscan-ares-announcement = [color=white][font size=16][bold]АРЕС v3.2 Статус Біоскану[/bold][/font][/color][color=red][font size=14][bold]
     {$message}[/bold][/font][/color]
 
-rmc-bioscan-ares = Bioscan complete.
+rmc-bioscan-ares = Біосканування завершено.
 
-  Sensors indicate { $shipUncontained ->
-    [0] no
+  Датчики фіксують { $shipUncontained ->
+    [0] відсутність
     *[other] {$shipUncontained}
-  } unknown lifeform { $shipUncontained ->
-    [0] signatures
-    [1] signature
-    *[other] signatures
-  } present on the ship{ $shipLocation ->
+  } невизначених { $shipUncontained ->
+    [0] сигнатур
+    [1] сигнатура
+    *[other] сигнатур
+  } на борту корабля{ $shipLocation ->
     [none] {""}
-    *[other], including one in {$shipLocation},
-  } and { $onPlanet ->
-    [0] no
-    *[other] approximately {$onPlanet}
+    *[other], зокрема в {$shipLocation},
+  } і { $onPlanet ->
+    [0] відсутність
+    *[other] приблизно {$onPlanet}
   } { $onPlanet ->
-    [0] signatures
-    [1] signature
-    *[other] signatures
-  } located elsewhere{ $planetLocation ->
+    [0] сигнатур
+    [1] сигнатура
+    *[other] сигнатур
+  } в інших місцях{ $planetLocation ->
     [none].
-    *[other], including one in {$planetLocation}
+    *[other], зокрема в {$planetLocation}
   }
 
-rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]The Queen Mother reaches into your mind from worlds away.
-  {$message}[/bold][/font][/color]
+rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]Королева-мати проникає в ваш розум з далеких світів.
+    {$message}[/bold][/font][/color]
 
-rmc-bioscan-xeno = To my children and their Queen: I sense { $onShip ->
-  [0] no hosts
-  [1] approximately 1 host
-  *[other] approximately {$onShip} hosts
-} in the metal hive{ $shipLocation ->
+rmc-bioscan-xeno = До моїх дітей і їх Королеви: я відчуваю { $onShip ->
+  [0] що інкубаторів більше не залишилося
+  [1] приблизно одного інкубатора
+  *[other] близька {$onShip} інкубаторів
+} в металевому вулику{ $shipLocation ->
   [none] {""}
-  *[other], including one in {$shipLocation},
-} and {$onPlanet ->
-  [0] none
+  *[other], зокрема в {$shipLocation},
+} і {$onPlanet ->
+  [0] більше немає
   *[other] {$onPlanet}
-} scattered elsewhere{$planetLocation ->
+} деінде{$planetLocation ->
   [none].
-  *[other], including one in {$planetLocation}
+  *[other], зокрема в {$planetLocation}
 }

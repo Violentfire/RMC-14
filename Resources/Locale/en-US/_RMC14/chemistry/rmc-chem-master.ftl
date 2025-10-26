@@ -10,12 +10,12 @@ rmc-chem-master-beaker = Колба:
 rmc-chem-master-beaker-none = Колба відсутня.
 rmc-chem-master-beaker-amount = {$amount} од.
 
-rmc-chem-master-pill-bottle = Пляшки для Пігулок:
-rmc-chem-master-pill-bottle-none = Пляшки для пігулок відсутні.
-rmc-chem-master-pill-bottle-fill = Заповнити пляшку
+rmc-chem-master-pill-bottle = Пляшки Пігулок:
+rmc-chem-master-pill-bottle-none = Пляшки пігулок відсутні.
+rmc-chem-master-pill-bottle-fill = Заповнити
 rmc-chem-master-pill-bottle-pills = {$amount} / {$total}
-rmc-chem-master-pill-bottle-transfer = Перемістити
-rmc-chem-master-pill-bottle-eject = Вийняти
+rmc-chem-master-pill-bottle-transfer = Скласти
+rmc-chem-master-pill-bottle-eject = Діст.
 rmc-chem-master-pill-bottle-window-title = Колір пляшечки
 
 rmc-chem-master-beaker-title = [bold]Колба[/bold]
