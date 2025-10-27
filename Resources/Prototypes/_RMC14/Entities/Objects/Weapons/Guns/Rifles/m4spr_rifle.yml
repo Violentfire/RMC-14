@@ -314,7 +314,7 @@
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
   name: "M4SPR розширений магазин (10x24mm)"
-  description: "Розширений магазин стандартних набоїв 10x24 мм для використання в бойовій гвинтівці M4SPR.""
+  description: "Розширений магазин стандартних набоїв 10x24 мм для використання в бойовій гвинтівці M4SPR."
   components:
   - type: BallisticAmmoProvider
     capacity: 35
