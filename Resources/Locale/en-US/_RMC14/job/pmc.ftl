@@ -11,8 +11,6 @@ rmc-ghost-role-information-pmc-whiteout-rules = You are a [color=orange][bold]PM
 
 rmc-ghost-role-information-pmc-description = Забезпечте безпеку активів Вестон-Ямада. Переконайтеся, що Представник Корпорації у безпеці. Заперечуйте причетність Вестон-Ямади та не довіряйте морпіхам. Стріляйте лише у відповідь або за наказом.
 
-rmc-ghost-role-information-pmc-whiteout-description = Listen to your superiors. Follow orders.
-
 rmc-ghost-name-pmc-standard = Оператор ПВК Ве-Я (Нейтральні)
 rmc-job-name-pmc-standard = Оператор
 rmc-job-prefix-pmc-standard = ОП

@@ -9,13 +9,14 @@ screen_shake_intensity = 1
 server_name = "Морпіхота"
 
 [net]
-#Тікрейт, базові налаштування порту та айпі. Технічна штука №2
+#Тікрейт, базові налаштування порту та айпі, вимкнення зайвих повідомлень в консоль серверу. Технічна штука №2
 tickrate = 20
 bindto = "::,0.0.0.0"
+log_late_msg = false
 
 [build]
 # Версія білду, у РМС вона зазвичай не та, що остання. З часом буде змінюватися
-engine_version = "264.0.1-fix-physics"
+engine_version = "264.0.2-fix-physics"
 
 [rmc]
 #Обмеження сурвів для нашого білду, зміна рейту ксено, зняття обмежень на емоції, такс 20 хвилин та ще декілька моментів
@@ -58,7 +59,7 @@ contraband_examine = false
 panic_bunker.enabled = false
 round_end_pvs_overrides = false
 round_restart_time = 180
-lobbyduration = 180
+lobbyduration = 230
 
 [gateway]
 #Ще одна штука для стабільної праці РМС.
@@ -127,6 +128,7 @@ alert.explosion_min_intensity = -1
 see_own_notes = true
 server_ban_erase_player = true
 new_player_threshold = 600
+server_ban_hwid_ban_default = false
 
 [interaction]
 #Менше зайвих повідомлень адміністрації

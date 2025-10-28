@@ -2,6 +2,7 @@
 cm-job-supervisors-we-ya = Офіс корпорації Вестон-Ямада
 cm-job-supervisors-aso = Офіцер Підтримки
 cm-job-supervisors-co = Командуючий Офіцер
+rmc-job-supervisors-commander = the current Commander
 cm-job-supervisors-cmo = Головний Лікар
 cm-job-supervisors-ares = АРЕС і АПОЛЛО
 cm-job-supervisors-po = Пілоти транспортного й бойового шатлів
@@ -16,3 +17,6 @@ cm-job-supervisors-colonists = the sapient colonists
 cm-job-supervisors-secserg = the Section Sergeant
 cm-job-supervisors-platco = the Platoon Commander
 cm-job-supervisors-company-command = Company Command
+cm-job-supervisors-royal-tl = the Team Leader
+cm-job-supervisors-royal-officer = the Lieutenant
+cm-job-supervisors-royal-major = the Major

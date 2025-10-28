@@ -27,17 +27,17 @@ rmc-clf-specialist = Спеціаліст ФВК
 rmc-job-prefix-clf-specialist = СПЦ
 
 rmc-ghost-role-clf-pve-commander = CLF Commander (PVE)
-rmc-job-name-clf-pve-commander = CLF Commander
+rmc-job-name-clf-pve-commander = Commander
 rmc-job-prefix-clf-pve-commander = CMDR
 
 rmc-ghost-role-clf-pve-doctor = CLF Doctor (PVE)
-rmc-job-name-clf-pve-doctor = CLF Doctor
+rmc-job-name-clf-pve-doctor = Doctor
 rmc-job-prefix-clf-pve-doctor = Doc
 
 rmc-ghost-role-clf-pve-heavy-gunner = CLF Heavy Gunner (PVE)
-rmc-job-name-clf-pve-heavy-gunner = CLF Heavy Gunner
+rmc-job-name-clf-pve-heavy-gunner = Heavy Gunner
 rmc-job-prefix-clf-pve-heavy-gunner = Hvy. Gnr.
 
 rmc-ghost-role-clf-pve-standard = CLF Standard (PVE)
-rmc-job-name-clf-pve-standard = CLF Standard
+rmc-job-name-clf-pve-standard = Standard
 rmc-job-prefix-clf-pve-standard = GRL

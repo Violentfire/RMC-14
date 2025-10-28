@@ -1,0 +1,29 @@
+- type: entity
+  id: RMCSignRequisitions
+  name: керівництво відділу постачання КМПОН
+  description: 1. Спорядження і обслуговування - це не обов'язок постачання. Модулі видаються на розсуд, а не за правом.
+
+    2. Видача здійснюється лише за повного екіпірування. Спідня білизна з кріосну - не обслуговується.
+
+    3. Остаточне слово - за Квартирмейстером. Лише старше командування може скасувати його рішення.
+
+    4. Поводьтесь із працівниками постачання з повагою. Вони стараються як можуть.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    sprite: _RMC14/Structures/decals.rsi
+    state: roplaque
+  - type: InteractionOutline
+  - type: Clickable
+
+- type: entity
+  parent: RMCSignRequisitions
+  id: RMCSignRequisitionsCreed
+  name: LOC creed plaque
+  description: The short version of the Logistics Officer Creed made by the UN Logistics Officer Corps, this on is purely decorative and ceremonial version which is much shorter and doesn't include more modern edits.
+  components:
+  - type: Sprite
+    state: rocreed

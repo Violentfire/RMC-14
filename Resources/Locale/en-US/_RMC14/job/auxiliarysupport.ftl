@@ -1,6 +1,6 @@
 # Підтримка
 cm-job-name-aso = Офіцер Підтримки
-cm-job-description-aso = Координуйте допоміжні підрозділи від Постачань до Розвідки та Пілотів. Будьте готові замінити кожен з них, а також взяти на себе командування операцією у випадку чого. Ви йдете третім у Ланцюгу Командування, відразу після Виконавчого Офіцера.
+cm-job-description-aso = Coordinate the intelligence department, and assist the Executive Officer.
 cm-job-prefix-aso = ОП
 CMJobAuxiliarySupportOfficer = Офіцер Підтримки
 

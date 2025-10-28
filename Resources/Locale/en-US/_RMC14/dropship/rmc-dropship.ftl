@@ -1,6 +1,6 @@
 rmc-dropship-pre-flight-fueling = Шатл проходить передпольотну заправку і тому не може взлетіти. Будь ласка, зачекайте ще {$minutes} хвилин до її закінчення.
 rmc-dropship-pre-hijack = Цей термінал буде недоступним ще {$minutes} хвилин.
-rmc-dropship-invalid-hijack = Lights flash from the terminal but you can't comprehend their meaning.
+rmc-dropship-invalid-hijack = З терміналу блимають вогники, проте ви не можете зрозуміти їх значення.
 
 rmc-dropship-weapons-title = Консоль Озброєння
 
@@ -40,10 +40,10 @@ rmc-dropship-weapons-maps = МАПИ
 rmc-dropship-weapons-cams = КАМЕРА
 rmc-dropship-weapons-cancel = СКАСУВАТИ
 rmc-dropship-weapons-exit = ВИЙТИ
-rmc-dropship-weapons-lock = LOCK
-rmc-dropship-weapons-clear = CLEAR
-rmc-dropship-weapons-enable = ENABLE
-rmc-dropship-weapons-disable = DISABLE
+rmc-dropship-weapons-lock = ЗАФІКСУВАТИ
+rmc-dropship-weapons-clear = ОЧИСТИТИ
+rmc-dropship-weapons-enable = УВІМКНУТИ
+rmc-dropship-weapons-disable = ВИМКНУТИ
 
 rmc-dropship-weapons-offset-calibration = Зсув
   Камери
@@ -51,7 +51,7 @@ rmc-dropship-weapons-offset-calibration-does-not-affect-direct-bombardment = Н�
 
 rmc-dropship-weapons-fire = ВОГОНЬ
 rmc-dropship-weapons-strike = ОБСТРІЛ
-rmc-dropship-weapons-vector = VECTOR
+rmc-dropship-weapons-vector = ВЕКТОР
 
 rmc-dropship-weapons-night-vision-on = НБ-УВІМК
 rmc-dropship-weapons-night-vision-off = НБ-ВИМК
@@ -67,7 +67,7 @@ rmc-dropship-weapons-fire-not-skilled = Вас не навчали стріля�
 rmc-dropship-weapons-fire-no-ammo = {$weapon} не має набоїв.
 rmc-dropship-weapons-fire-cooldown = {$weapon} нагрілася після стрільби, зачекайте поки охолоне.
 
-rmc-dropship-attached = It has a {$attachment} loaded.
+rmc-dropship-attached = У ньому встановлено {$attachment}.
 
 rmc-dropship-weapons-point-ammo = Місце зайнято {$ammo}.
 rmc-dropship-weapons-rounds-left = В ньому лишилося {$current} набоїв з {$max}.
@@ -86,17 +86,17 @@ rmc-dropship-fabricator-ammo = [bold]Боєприпаси[/bold]
 rmc-dropship-fabricator-fabricate = Виготовити ({$cost})
 rmc-dropship-fabricator-busy = Виготовлювач частин для шатла зайнятий. Дочекайтеся виконання попередньої операції.
 
-rmc-dropship-firemission-warning = A DROPSHIP FIRES TOWARDS THE {$direction}
-rmc-dropship-firemission-warning-above = A DROPSHIP FIRES RIGHT ONTOP OF YOU!
+rmc-dropship-firemission-warning = ШАТЛ ВІДКРИВАЄ ВОГОНЬ У НАПРЯМКУ {$direction}
+rmc-dropship-firemission-warning-above = ШАТЛ СТРІЛЯЄ ПРЯМО ПО ВАС!
 
-rmc-dropship-paradrop-target-screen-text = HPU-1 Paradrop Deployment System
+rmc-dropship-paradrop-target-screen-text = СПД-1 Система Повітряного Десантування
     {$hasTarget}
 
-rmc-dropship-paradrop-target-screen-target-none = No locked target found.
-    Paradropping not available.
+rmc-dropship-paradrop-target-screen-target-none = Не знайдено зафіксованої цілі.
+    Десантування недоступне.
 
-rmc-dropship-paradrop-target-screen-target-targeting = Locked to {$dropTarget}.
-    Paradropping available.
+rmc-dropship-paradrop-target-screen-target-targeting = Зафіксовано на {$dropTarget}.
+    Десантування доступне.
 
-rmc-dropship-paradrop-lock-no-target = No target selected.
-rmc-dropship-paradrop-lock-target-not-flying = You can only enable the paradrop module while in flight.
+rmc-dropship-paradrop-lock-no-target = Ціль не обрано.
+rmc-dropship-paradrop-lock-target-not-flying = Модуль десантування можна увімкнути лише під час польоту.

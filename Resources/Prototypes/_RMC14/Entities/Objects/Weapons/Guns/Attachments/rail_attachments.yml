@@ -161,7 +161,29 @@
 
 - type: entity
   parent: RMCRailAttachmentBase
-  id: RMCAttachmentS6ReflexSight
+  id: RMCAttachmentS5MicroRedDotSight
+  name: S5-Micro dot sight
+  description: A lightweight, low-profile dot optic designed for rapid target acquisition with minimal weight penalty. Optimized for submachine guns and sidearms, it's ideal for close-quarters combat where speed and agility matter most.
+  components:
+  - type: Sprite
+    state: reddot_small
+  - type: Tag
+    tags:
+    - RMCAttachmentRail
+    - RMCAttachmentS5MicroRedDotSight
+  - type: AttachableVisuals
+  - type: AttachableWeaponRangedMods
+    modifiers:
+    - conditions:
+        wieldedOnly: true
+      accuracyAddMult: 0.15
+    - conditions:
+        unwieldedOnly: true
+      accuracyAddMult: 0.05
+
+- type: entity
+  parent: RMCRailAttachmentBase
+  id: RMCAttachmentS6ReflexSight # reflex
   name: рефлекторний приціл S6
   description: Рефлекторний приціл AEGIS S6. Альтернатива залізним прицілам з нульовим збільшенням з більш відкритим оптичним вікном порівняно з прицілом S5 з червоною крапкою. Допомагає зменшити розсіювання під час автоматичної стрільби.
   components:
@@ -609,6 +631,9 @@
 
 - type: Tag
   id: RMCAttachmentS5RedDotSight
+
+- type: Tag
+  id: RMCAttachmentS5MicroRedDotSight
 
 - type: Tag
   id: RMCAttachmentS6ReflexSight

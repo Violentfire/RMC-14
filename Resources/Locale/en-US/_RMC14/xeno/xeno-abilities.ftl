@@ -17,11 +17,15 @@ rmc-xeno-fury-increase-user = Нас переповнює лють!
 rmc-xeno-not-enough-acid = У вас недостатньо накопиченої кислоти!
 rmc-xeno-acid-increase-user = Ви відчуваєте, як ваші запаси кислоти зростають!
 
+# Shards
+rmc-xeno-not-enough-shards = We don't have enough shards!
+rmc-xeno-shards-increase-user = We grow more shards!
+
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
 cm-xeno-order-construction = Збудувати
-cm-xeno-too-close-to-other-node = Це занадто близько до {THE($target)}!
-cm-xeno-requires-more-plasma = {THE($construction)} потребує на {$plasma} більше плазми.
+cm-xeno-too-close-to-other-node = Це занадто близько до {$target}!
+cm-xeno-requires-more-plasma = {$construction} потребує на {$plasma} більше плазми.
 cm-xeno-construction-plasma-left = Будівництво {$construction} призначено тут. Воно вимагає на [color=cyan]{$plasma}[/color] більше плазми.
 cm-xeno-cant-reach-there = Ви не можете туди дотягтися!
 cm-xeno-cant-build-in-self = Ви не можете будувати так близько!
@@ -69,23 +73,23 @@ cm-xeno-leap-cancelled = Ви передумуєте стрибати!
 
 # Plant weeds
 cm-xeno-weeds-source-already-here = Тут вже є пульсуючий вузол!
-rmc-xeno-weeds-blocked = We can't do that here.
+rmc-xeno-weeds-blocked = Ми не можемо це зробити тут.
 
 # Corrosive acid
-cm-xeno-acid-not-corrodible = Ви не можете розчинити {THE($target)}!
-cm-xeno-acid-already-corroding = {THE($target)} вже піддається впливу кислоти!
+cm-xeno-acid-not-corrodible = Ви не можете розчинити {$target}!
+cm-xeno-acid-already-corroding = {$target} вже піддається впливу кислоти!
 rmc-xeno-acid-structure-unmeltable = Ми можемо розплавляти лише барикади та предмети!
 
 # Paralyzing Slash
 cm-xeno-paralyzing-slash-activate = Наступний наш удар буде з нейротоксином!
 cm-xeno-paralyzing-slash-expire = Ми чекали надто довго, твій удар більше не нанесe нейротоксин!
 cm-xeno-paralyzing-slash-hit = Ми додаємо нейротоксин у твою атаку, {$target} скоро впаде паралізований!
-cm-xeno-paralyzing-slash-immune = {$target} shrugs off the neurotoxin!
+cm-xeno-paralyzing-slash-immune = {$target} не піддається впливу нейротоксину!
 
 # Crippling Strike
 cm-xeno-crippling-strike-activate = Наступний наш удар буде з нейротоксином!
 cm-xeno-crippling-strike-expire = Ми чекали занадто довго, твій удар більше не завдасть нейротоксину!
-cm-xeno-crippling-strike-hit = Ми суттєво посилюємо нашу атаку, уповільнюючи {THE($target)}!
+cm-xeno-crippling-strike-hit = Ми суттєво посилюємо нашу атаку, уповільнюючи {$target}!
 
 # Pheromones
 rmc-xeno-pheromones-help =
@@ -157,15 +161,15 @@ cm-xeno-retrieve-egg-unstash-egg = Ви берете яйце зі сховищ�
 rmc-xeno-retrieve-egg-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} утримує: {$cur_eggs}/{$max_eggs} яєць.
 
 # Throw Parasite
-cm-xeno-throw-parasite-no-parasites = We don't have any children stored!
-cm-xeno-throw-parasite-too-many-parasites = We can't carry more children!
-cm-xeno-throw-parasite-stash-parasite = We store the child for safekeeping. Now sheltering: {$cur_parasites}/{$max_parasites}.
-cm-xeno-throw-parasite-unstash-parasite = We grab a child from our storage. Now sheltering: {$cur_parasites}/{$max_parasites}.
-rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} sheltering: {$cur_paras}/{$max_paras} children.
-rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} parasite ghost {$rev_paras ->
-   [one] role
-   *[other] roles
-} available.
+cm-xeno-throw-parasite-no-parasites = У нас немає дітей на зберіганні!
+cm-xeno-throw-parasite-too-many-parasites = Ми не можемо переносити більше дітей!
+cm-xeno-throw-parasite-stash-parasite = Ми беремо дитину для збереження. Зараз у нас перебуває: {$cur_parasites}/{$max_parasites}.
+cm-xeno-throw-parasite-unstash-parasite = Ми беремо дитину з нашого сховища. Зараз у нас перебуває: {$cur_parasites}/{$max_parasites}.
+rmc-xeno-throw-parasite-current = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-BE($xeno)} надаємо сховок: {$cur_paras}/{$max_paras} дітям.
+rmc-xeno-throw-parasite-reserves = {CAPITALIZE(SUBJECT($xeno))} {CONJUGATE-HAVE($xeno)} {$rev_paras} привидів паразитів {$rev_paras ->
+   [one] роль
+   *[other] ролей
+} доступний.
 
 # Defensive Shield
 rmc-xeno-defensive-shield-end = Ви відчуваєте що більше не захищені!
@@ -202,15 +206,15 @@ rmc-xeno-heal-ailments-others = {$user} вказує на {$target}, і вона
 rmc-xeno-heal-sisters = Ми повинні націлитися на одну з наших сестер!
 
 # Resin Surge
-rmc-xeno-resin-surge-shield-self = Ми зміцнюємо смолу навколо {THE($target)}, тимчасово роблячи її майже незламною!
-rmc-xeno-resin-surge-shield-others = {CAPITALIZE(THE($xeno))} згустила смолу навколо {THE($target)}, тимчасово зробивши її майже незламною!
-rmc-xeno-resin-surge-shield-fail = Ми безпорадно намагаємося згустити смолу навколо {THE($target)}, але вона вже зміцнена. Нам знадобиться трохи часу, щоб відновитися.
-rmc-xeno-resin-surge-fruit = We pour all energy into {THE($target)}'s growth, bringing it to swift maturity!
-rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE(THE($target))} вже дозрів. Згусток смоли не дає жодного ефекту.
+rmc-xeno-resin-surge-shield-self = Ми зміцнюємо смолу навколо {$target}, тимчасово роблячи її майже незламною!
+rmc-xeno-resin-surge-shield-others = {CAPITALIZE($xeno)} згустила смолу навколо {$target}, тимчасово зробивши її майже незламною!
+rmc-xeno-resin-surge-shield-fail = Ми безпорадно намагаємося згустити смолу навколо {$target}, але вона вже зміцнена. Нам знадобиться трохи часу, щоб відновитися.
+rmc-xeno-resin-surge-fruit = Ми вкладаємо всю енергію в розвиток {$target}, прискорюючи його дозрівання!
+rmc-xeno-resin-surge-fruit-fail = {CAPITALIZE($target)} вже дозрів. Згусток смоли не дає жодного ефекту.
 rmc-xeno-resin-surge-wall-self = Ми спрямовуємо смолу, створюючи нестабільну стіну!
-rmc-xeno-resin-surge-wall-others = {CAPITALIZE(THE($xeno))} спрямовує смолу, створюючи нестабільну стіну!
+rmc-xeno-resin-surge-wall-others = {CAPITALIZE($xeno)} спрямовує смолу, створюючи нестабільну стіну!
 rmc-xeno-resin-surge-sticky-self = Ми спрямовуємо глибоку смолу, створюючи нестабільний шар липкої смоли!
-rmc-xeno-resin-surge-sticky-others = {CAPITALIZE(THE($xeno))} спрямовує глибоку смолу, створюючи нестабільний шар липкої смоли!
+rmc-xeno-resin-surge-sticky-others = {CAPITALIZE($xeno)} спрямовує глибоку смолу, створюючи нестабільний шар липкої смоли!
 rmc-xeno-resin-surge-see-fail = Ми не бачимо це місце!
 
 # Burrow
@@ -294,14 +298,14 @@ rmc-xeno-toggle-cleave-fling = Тепер ми відкидатимемо вор
 
 # Soak
 rmc-xeno-soak-self = Ми починаємо брати на себе вхідну шкоду!
-rmc-xeno-soak-others = {CAPITALIZE(THE($xeno))} починає брати на себе вхідну шкоду!
+rmc-xeno-soak-others = {CAPITALIZE($xeno)} починає брати на себе вхідну шкоду!
 rmc-xeno-soak-end-fail = Ми перестаємо брати на себе вхідну шкоду.
 rmc-xeno-soak-end-self = Ми відчуваємо лють після отримання шкоди! Відлік відновлення удару хвостом скидається, і ми лікуємося!
-rmc-xeno-soak-end-others =  {CAPITALIZE(THE($xeno))} приходить у лють після того, як отримав достатньо шкоди!
+rmc-xeno-soak-end-others =  {CAPITALIZE($xeno)} приходить у лють після того, як отримав достатньо шкоди!
 
 # Tail Fountain
 rmc-xeno-tail-fountain-self = Ми використовуємо хвіст, щоб полити кислотою {$target}.
-rmc-xeno-tail-fountain-others = {CAPITALIZE(THE($user))} поливає кислотою {$target} хвостом.
+rmc-xeno-tail-fountain-others = {CAPITALIZE($user)} поливає кислотою {$target} хвостом.
 rmc-xeno-tail-fountain-fail = Ми не можемо це загасити!
 rmc-xeno-tail-fountain-fail-self = Ми не можемо загасити себе!
 
@@ -312,7 +316,7 @@ rmc-xeno-tantrum-fail-not-xeno = Це не сестра!
 rmc-xeno-tantrum-fail-wrong-hive = Чому ми маємо допомагати ворогам?!
 rmc-xeno-tantrum-fail-dead = Жодна лють не поверне нашу сестру.
 rmc-xeno-tantrum-fail-valkyrie = Ми не можемо наказати іншій валькірії через нашу лють.
-rmc-xeno-tantrum-fail-raging = {CAPITALIZE(THE($target))} вже переповнений люттю!
+rmc-xeno-tantrum-fail-raging = {CAPITALIZE($target)} вже переповнений люттю!
 rmc-xeno-tantrum-self = Наша лють веде нас вперед, наше лікування та броня посилюються!
 rmc-xeno-tantrum-other = Ми відчуваємо безмежну лють!
 rmc-xeno-tantrum-end = Ми відчуваємо як заспокоюємося.
@@ -323,7 +327,7 @@ rmc-xeno-fof-effect = Кожен дюйм нашого тіла рухаєтьс
 # Ravager Empower
 rmc-xeno-ravager-shield-end = Ми відчуваємо, як наш щит слабіє!
 rmc-xeno-empower-start-self = Ми починаємо підсилювати себе!
-rmc-xeno-empower-start-others = {CAPITALIZE(THE($user))} починає підсилюватися!
+rmc-xeno-empower-start-others = {CAPITALIZE($user)} починає підсилюватися!
 rmc-xeno-ravager-empower = Ми відчуваємо прилив сили від навколишніх ворогів!
 rmc-xeno-ravager-empower-fizzle = Поблизу не було ворогів!
 rmc-xeno-ravager-super-empower-fade = Наше світіння згасає, сила покидає нас!
@@ -353,7 +357,7 @@ rmc-xeno-produce-eggs-start = Ми починаємо формувати яйц�
 
 # Eggsac Passive
 rmc-xeno-sustain-egg-decaying = Ми можемо підтримувати лише {$max} яєць за допомогою рослин гнізда! Наше найстарше яйце швидко гине.
-rmc-xeno-sustain-death = {CAPITALIZE(THE($xeno))} б’ється в судомах, коли його яєчний мішок розривається в кислотну кашу!
+rmc-xeno-sustain-death = {CAPITALIZE($xeno)} б’ється в судомах, коли його яєчний мішок розривається в кислотну кашу!
 
 # Apprehend
 rmc-xeno-apprehend-activate = Наш наступний удар сповільнить ворога!
@@ -375,11 +379,20 @@ rmc-xeno-eviscerate-windup-small-self = Ми готуємось до удару!
 rmc-xeno-eviscerate-windup-small = {$xeno} готується до удару!
 
 # Fling
-rmc-xeno-fling-too-big = {CAPITALIZE(THE($target))} is too big for us to fling!
+rmc-xeno-fling-too-big = {CAPITALIZE($target)} занадто великий, щоб ми могли його кинути!
 
 # Gut
-rmc-gut-start-self = We plunge our claws into the body of this unfortunate host, starting to tear them in half!
-rmc-gut-start-others = {$user} plunges their claws into the body of {$target}, starting to tear them in half!
+rmc-gut-start-self = Ми впиваємося кігтями в тіло цього нещасного інкубатора і починаємо розривати його навпіл!
+rmc-gut-start-others = {$user} впивається кігтями в тіло {$target}, починаючи розривати його навпіл!
 
-rmc-gut-finish-self = We tear this pathetic host in half!!
-rmc-gut-finish-others = {$user} tears {$target} in half!!
+rmc-gut-finish-self = Ми розриваємо цього жалюгідного інкубатора навпіл!!
+rmc-gut-finish-others = {$user} розриває {$target} навпіл!!
+
+# Shed Spikes
+rmc-shed-spikes = We have shed our shards and cannot gain any more for 30 seconds!
+rmc-shed-spikes-back = We can gain shards again!
+
+# Spike Shield
+rmc-spike-shield-self = We ruffle our bone-shard quills, forming a defensive shell!
+rmc-spike-shield-others = {$user} ruffles its bone-shard quills, forming a defensive shell!
+rmc-spike-shield-hit = {$user} sprays bone quills everywhere!

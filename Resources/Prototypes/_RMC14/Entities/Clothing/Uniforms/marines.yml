@@ -41,6 +41,42 @@
     - RMCPatchTSEMarines
     - RMCPatchTSE
 
+- type: entity
+  parent: JumpsuitMarine
+  id: RMCJumpsuitMarineRoyalMK80 # TODO RMC14 sprite
+  suffix: Filled, Royal, MK80
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCShoulderHolsterMK80
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchTSEMarines
+    - RMCPatchTSE
+
+- type: entity
+  parent: JumpsuitMarine
+  id: RMCJumpsuitMarineRoyalMedic # TODO RMC14 sprite
+  suffix: Filled, Royal, Medic
+  components:
+  - type: WebbingClothing
+    startingWebbing: CMWebbingSurgicalBlue
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchTSEMarines
+    - RMCPatchTSE
+
+- type: entity
+  parent: JumpsuitMarine
+  id: RMCJumpsuitMarineRoyalTeamlead # TODO RMC14 sprite
+  suffix: Filled, Royal, Teamlead
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingDropPouchRoyalTeamlead
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchTSEMarines
+    - RMCPatchTSE
+
 # Formal
 - type: entity
   parent: RMCMarineUniformBase
@@ -158,17 +194,17 @@
 
 # Supply
 
-# Quartermaster / RO
+# Logistics Officer
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitQM
   name: уніформа квартермейстра
-  description: Той хто носить цю уніформу, хай замовить усім гранати. 
+  description: A nicely-fitting military suit for a Logistics Officer. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/ro.rsi
 
-# Cargotech
+# ReqTech / RT
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitCargoTech
