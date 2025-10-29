@@ -143,19 +143,20 @@ rmc-xeno-charger-description = Ви втрачаєте:
     - Здібність "Таран" - силоміць штовхає ворогів у напрямку руху.
 rmc-xeno-charger-popup = Ніхто не зупинить вулик. Ми станемо і незламною перешкодою, і невпинною силою.
 
-rmc-xeno-hedgehog-name = Hedgehog
+rmc-xeno-hedgehog-name = Їжак
 # TODO RMC14 limb damage shrapnel and causing damage when they move
-rmc-xeno-hedgehog-description = You lose:
-  - Your empower, charge, and scissor cut abilities.
-  - Some movement speed and attack speed.
-  - Your plasma system is replaced with bone shards (max 300).
-  You gain:
-  - Increased health and armor that scales with shard count (+2.5 armor per 50 shards).
-  - Fire Spikes: Launch 8 spikes that embed in targets, slowing them. (75 shards, 10s cooldown).
-  - Spike Shield: Temporary shield that damages nearby enemies when hit (150 shards, 2s duration, 11s cooldown).
-  - Spike Shed: Launch all shards in all directions for massive damage, gain speed boost but lose shard generation for 30s (min 50 shards, 30s cooldown).
-rmc-xeno-hedgehog-popup = This one's hide bristles with deadly spines. Let them come and be pierced by your defenses.
+rmc-xeno-hedgehog-description = Ви втрачаєте:
+  - Ваші здібності "Підсилення", "Напад" та "Ножиці".
+  - Частину швидкості руху та атаки.
+  - Вашу плазмову систему замінюють уламки кісток (максимум 300).
+  Ви отримуєте:
+  - Збільшення здоров'я та броні, що масштабується залежно від кількості уламків (+2,5 броні за кожні 50 уламків).
+  - Вогняні Шипи: Запускає 8 шипів, які при влучанні сповільнюють ціль. (75 уламків, час відновлення 10 с).
+  - Шипастий Щит: Тимчасовий щит з шипів, який випускає їх ж при кожному отриманому пошкоджені (150 уламків, тривалість 2 с, час відновлення 11 с).
+  - Шипастий Розвал: Випускає всі ваші уламки навколо вас, завдаючи значну шкоду оточуючим. Ви отримуєте прискорення, але втрачає генерацію уламків на 30 с (мінімум 50 осколків, час відновлення 30 с).
 
-rmc-xeno-watcher-name = Watcher
-rmc-xeno-watcher-description = You lose your ability to hide, but gain enhanced vision. You can toggle between normal enhanced vision and greatly enhanced vision.
-rmc-xeno-watcher-popup = You are now a Watcher. You have enhanced vision but cannot hide.
+rmc-xeno-hedgehog-popup = Шкура вкрита смертоносними колючками. Нехай вороги підійдуть та відчують, що ваш захист насправді є нападом.
+
+rmc-xeno-watcher-name = Спостерігач
+rmc-xeno-watcher-description = Ви втрачаєте здатність ховатися, але отримуєте збільшений радіус огляду. Ви можете перемикатися між нормальним та збільшеним радіусом.
+rmc-xeno-watcher-popup = Тепер ти Спостерігач. У тебе покращений зір, але ти не можеш сховатися.
