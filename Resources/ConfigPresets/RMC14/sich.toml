@@ -22,7 +22,7 @@ engine_version = "264.0.2-fix-physics"
 #Обмеження сурвів для нашого білду, зміна рейту ксено, зняття обмежень на емоції, такс 20 хвилин та ще декілька моментів
 survivors_minimum = 0
 survivors_maximum = 3
-marines_per_survivor = 30
+marines_per_survivor = 15
 distress_xenos_minimum = 1
 emote_cooldown_seconds = 0
 late_joins_burrowed_larva_death_time = 0

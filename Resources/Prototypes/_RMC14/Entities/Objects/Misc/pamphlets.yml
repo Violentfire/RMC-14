@@ -72,7 +72,7 @@
     addComps:
     - type: SpotterWhitelist
     addSkills:
-      RMCSkillJtac: 1
+      RMCSkillJtac: 2 # 1 в RMC. Змінено білдом Січі (багфікс)
     giveJobTitle: rmc-job-name-spotter
     givePrefix: rmc-job-prefix-spotter
     isAppendPrefix: false
