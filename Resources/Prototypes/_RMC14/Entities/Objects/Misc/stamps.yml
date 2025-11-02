@@ -21,7 +21,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampXO
-  name: печатка Виконавчого Офіцера
+  name: печатка Виконавчого офіцера
   components:
   - type: Sprite
     state: stamp-hop
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMStampXO
   id: CMStampCO
-  name: печатка Командуючого Офіцера
+  name: печатка Командуючого офіцера
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-co
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: печатка Офіцера Підтримки
+  name: печатка Офіцера підтримки
   components:
   - type: Sprite
     state: stamp-ce
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMW
-  name: печатка Військового Наглядача
+  name: печатка Військового наглядача
   components:
   - type: Sprite
     state: stamp-mw
@@ -77,7 +77,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: печатка Головного Лікаря
+  name: печатка Головного лікаря
   components:
   - type: Sprite
     state: stamp-cmo
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: печатка Офіцера Логістики
+  name: печатка Офіцера логістики
   components:
   - type: Sprite
     state: stamp-ro
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMStampASO
   id: CMStampCE
-  name: печатка Головного Інженера
+  name: печатка Головного інженера
   components:
   - type: Sprite
     state: stamp-ce
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampLiaison
-  name: печатка Представника Корпорації
+  name: печатка Представника корпорації
   components:
   - type: Sprite
     state: stamp-we_ya
