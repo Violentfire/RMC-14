@@ -2,7 +2,7 @@ cm-xeno-egg-clear = Ви знищуєте залишки яйця.
 cm-xeno-egg-not-developed = Яйце ще не достигло.
 
 cm-xeno-egg-failed-must-weeds = Яйце має бути поставлене на траві.
-cm-xeno-egg-failed-must-hive-weeds = Яйце має бути поставлене на траві.
+cm-xeno-egg-failed-must-hive-weeds = Яйце має бути поставлене на траві вулика.
 cm-xeno-egg-failed-plant-outside = Краще не висаджувати це поза межами безпечного місця.
 cm-xeno-egg-failed-already-there = Там вже є яйце.
 cm-xeno-egg-blocked = Тут вже збудована споруда.

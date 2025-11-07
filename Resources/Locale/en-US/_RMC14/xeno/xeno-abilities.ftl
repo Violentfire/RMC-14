@@ -18,8 +18,8 @@ rmc-xeno-not-enough-acid = У вас недостатньо накопичено
 rmc-xeno-acid-increase-user = Ви відчуваєте, як ваші запаси кислоти зростають!
 
 # Shards
-rmc-xeno-not-enough-shards = We don't have enough shards!
-rmc-xeno-shards-increase-user = We grow more shards!
+rmc-xeno-not-enough-shards = У нас недостатньо голок!
+rmc-xeno-shards-increase-user = Ми вирощуємо більше голок!
 
 # Construction
 cm-xeno-choose-resin-structure = Оберіть Структуру Смоли
@@ -68,7 +68,7 @@ cm-xeno-fortify-cant-toggle-crest = Не можна опустити гребі�
 rmc-xeno-headbutt-too-far = Ми не можемо таранити головою з такої відстані, коли гребінь опущено!
 
 # Leap
-cm-xeno-leap-blocked = We cannot do that while squeezing and scuttling!
+cm-xeno-leap-blocked = Ми не можемо стрибнути туди!
 cm-xeno-leap-cancelled = Ви передумуєте стрибати!
 
 # Plant weeds
@@ -389,10 +389,10 @@ rmc-gut-finish-self = Ми розриваємо цього жалюгідног�
 rmc-gut-finish-others = {$user} розриває {$target} навпіл!!
 
 # Shed Spikes
-rmc-shed-spikes = We have shed our shards and cannot gain any more for 30 seconds!
-rmc-shed-spikes-back = We can gain shards again!
+rmc-shed-spikes = Ми позбулися голків і не можемо відростити їх знову протягом 30 секунд!
+rmc-shed-spikes-back = Ми можемо знову відновлювати голки!
 
 # Spike Shield
-rmc-spike-shield-self = We ruffle our bone-shard quills, forming a defensive shell!
-rmc-spike-shield-others = {$user} ruffles its bone-shard quills, forming a defensive shell!
-rmc-spike-shield-hit = {$user} sprays bone quills everywhere!
+rmc-spike-shield-self = Ми розпушуємо наші кісткові голки, утворюючи захисну оболонку!
+rmc-spike-shield-others = {$user} розпушує свої кісткові голки, утворюючи захисну оболонку!
+rmc-spike-shield-hit = {$user} розкидає кісткові голки навколо!
