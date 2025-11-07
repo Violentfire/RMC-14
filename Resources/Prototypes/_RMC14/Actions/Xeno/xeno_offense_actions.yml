@@ -1436,8 +1436,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFireSpikes
-  name: Fire Spikes (75 shards)
-  description: Launch 8 small shards of spikes in the direction you click.
+  name: Випустити голки (75 голок)
+  description: Запускає 8 малих голок у напрямку куди ви натиснете.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1457,8 +1457,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSpikeShed
-  name: Spike Shed (all shards)
-  description: Shred all of your shards to launch them all in all directions around yourself. Lose the bonus armor in the process while also gaining a speed boost. This will disable you from gaining any shards for 30 seconds. Requires 150 shards minimum
+  name: Скинути голки (усі голки)
+  description: Розкидати всі свої голки у всіх напрямках навколо себе. Ви втратите бонусну броню, але отримаєте прискорення. Це не дозволить вам відновлювати голки протягом 30 секунд. Потрібно мінімум 150 голок.
   components:
   - type: Action
     itemIconStyle: NoItem
