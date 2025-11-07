@@ -19,12 +19,12 @@ ghost-roles-window-title = Ролі привидів
 ghost-roles-window-available-button = Наявно ({$rolesCount})
 ghost-roles-window-join-raffle-button = Приєднатися до розіграшу
 ghost-roles-window-raffle-in-progress-button =
-    Приєднатися, залишилося ({$time}, { $players ->
+    Приєднатися ({$time}, { $players ->
          [one] {$players} гравець
         *[other] {$players} гравців
     })
 ghost-roles-window-leave-raffle-button =
-    Залишити розіграш ({$time} залишилося, { $players ->
+    Залишити ({$time}, { $players ->
          [one] {$players} гравець
         *[other] {$players} гравців
     })
