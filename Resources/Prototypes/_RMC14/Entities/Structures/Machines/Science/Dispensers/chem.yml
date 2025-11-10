@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCChemDispenserBase
   id: RMCChemDispenserGround
-  suffix: Підлога
+  suffix: Наземний
   components:
   - type: RMCChemicalDispenser
     network: RMCChemStorageGround
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCChemStorageBase
   id: RMCChemStorageGround
-  suffix: Підлога
+  suffix: Наземна
   components:
   - type: RMCChemicalStorage
     network: RMCChemStorageGround
