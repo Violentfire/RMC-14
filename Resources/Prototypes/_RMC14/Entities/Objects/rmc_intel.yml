@@ -89,7 +89,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
   name: технічний посібник
-  description: Детальний технічний посібник, вам здаєтться що він може бути корисним для тих хто має відношення до цієї галузі.
+  description: Детальний технічний посібник, вам здається, що він може бути корисним для тих хто має відношення до цієї галузі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
