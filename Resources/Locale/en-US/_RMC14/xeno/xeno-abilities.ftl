@@ -389,7 +389,7 @@ rmc-gut-finish-self = Ми розриваємо цього жалюгідног�
 rmc-gut-finish-others = {$user} розриває {$target} навпіл!!
 
 # Shed Spikes
-rmc-shed-spikes = Ми позбулися голків і не можемо відростити їх знову протягом 30 секунд!
+rmc-shed-spikes = Ми позбулися голок і не можемо відростити їх знову протягом 30 секунд!
 rmc-shed-spikes-back = Ми можемо знову відновлювати голки!
 
 # Spike Shield
