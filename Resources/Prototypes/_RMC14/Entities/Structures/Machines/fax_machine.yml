@@ -1,8 +1,8 @@
 - type: entity
   parent: FaxMachineBase
   id: CMFax
-  name: fax machine
-  description: Liaison's best and only friend.
+  name: факс-апарат
+  description: Єдиний та найкращий друг Корпората.
   components:
   - type: ApcPowerReceiver
     needsPower: false # TODO RMC14
@@ -35,31 +35,31 @@
 - type: entity
   parent: CMFax
   id: CMFaxCMB
-  name: colony marshal bureau fax machine
+  name: факс-апарат БКМ
   suffix: CMB
   components:
   - type: FaxMachine
-    name: "Colony Marshal Bureau"
+    name: "Бюро Колоніальних Маршалів"
     notifyAdmins: true
 
 - type: entity
   parent: CMFax
   id: CMFaxWY
-  name: we-ya fax machine
+  name: факс-апарат Ве-Я
   suffix: WEYA
   components:
   - type: FaxMachine
-    name: "We-Ya"
+    name: "Вестон-Ямада"
     notifyAdmins: true
 
 - type: entity
   parent: CMFax
   id: CMFaxHighCom
-  name: marine high command fax machine
+  name: факс-апарат ВК-КМПОН
   suffix: Marine HC
   components:
   - type: FaxMachine
-    name: "Marine High Command"
+    name: "Вище Командування Морпіхоти"
     notifyAdmins: true
 
 - type: entity
@@ -68,7 +68,7 @@
   suffix: Provost
   components:
   - type: FaxMachine
-    name: "Marine Provost Office"
+    name: "Офіс Провосту Морпіхоти"
     notifyAdmins: true
 
 - type: entity
@@ -77,7 +77,7 @@
   suffix: Press
   components:
   - type: FaxMachine
-    name: "Various Press Organizations"
+    name: "Пресслужби Вільних Медіа"
     notifyAdmins: true
 
 - type: entity
@@ -86,7 +86,7 @@
   suffix: CLF
   components:
   - type: FaxMachine
-    name: "Colony Liberation Front"
+    name: "Фронт Визволення Колоній"
     notifyAdmins: true
 
 - type: entity
@@ -95,7 +95,7 @@
   suffix: SPP
   components:
   - type: FaxMachine
-    name: "Socialist Progressive Peoples"
+    name: "Соціалістичні Прогресивні Народи"
     notifyAdmins: true
 
 - type: entity
@@ -104,5 +104,5 @@
   suffix: TSE
   components:
   - type: FaxMachine
-    name: "Three Suns Empire"
+    name: "Імперія Трьох Сонць"
     notifyAdmins: true
