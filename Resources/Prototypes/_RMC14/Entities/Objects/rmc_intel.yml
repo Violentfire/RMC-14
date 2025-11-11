@@ -192,7 +192,7 @@
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_req
-        - name: Покращення фабрикатора деталей
+        - name: Додаткові очки для фабрикатора деталей
           description: Розподіляє ресурси до фабрикатора деталей шатлів.
           cost: 6
           increase: 1
@@ -202,7 +202,7 @@
             amount: 2000
           - !type:TechAnnounceEvent
             author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Для цієї операції надано додаткові очки фабрикатора деталей для шатлів.
+            message: Для цієї операції надано додаткові ресурси фабрикатору деталей шатлів.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_ds
