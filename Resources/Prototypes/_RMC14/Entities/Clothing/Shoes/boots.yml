@@ -8,7 +8,7 @@
 - type: entity
   abstract: true
   id: RMCItemSlotM5Bayonet
-  suffix: Заповнено
+  suffix: Filled
   components:
   - type: ContainerContainer
     containers:
@@ -74,7 +74,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: CMBootsBlackFilled
-  suffix: Заповнено
+  suffix: Filled
 
 - type: entity
   parent: CMBootsBlackFilled
@@ -114,7 +114,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBrown]
   id: CMBootsBrownFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Urban Boots
 - type: entity
@@ -131,7 +131,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsUrban]
   id: CMBootsUrbanFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Grey Boots
 - type: entity
@@ -148,7 +148,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsGrey]
   id: CMBootsGreyFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Jungle Boots
 - type: entity
@@ -165,7 +165,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsJungle]
   id: CMBootsJungleFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Corporate
 - type: entity
@@ -184,7 +184,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsSPP] # TODO RMC14 SPP Bayonet
   id: RMCBootsSPPFilled
-  suffix: Заповнено
+  suffix: Filled
 
 - type: entity
   parent: CMBootsBlack
@@ -194,7 +194,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsSPPBlack] # TODO RMC14 SPP Bayonet
   id: RMCBootsSPPBlackFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # PMC
 - type: entity
@@ -211,7 +211,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsPMCFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # PMC Commando
 - type: entity
@@ -223,7 +223,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsPMCCommandoFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Van Bandolier
 - type: entity
@@ -261,4 +261,4 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsRoyal]
   id: RMCBootsRoyalFilled
-  suffix: Заповнено # TODO RMC14 L5 bayonet
+  suffix: Filled # TODO RMC14 L5 bayonet
