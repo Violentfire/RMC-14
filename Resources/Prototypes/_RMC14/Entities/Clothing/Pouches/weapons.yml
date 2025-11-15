@@ -4,7 +4,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed]
   id: RMCPouchBayonet
-  name: чохол для ножів
+  name: підсумок для ножів
   description: Бери ніж, ворогів ріж!
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCPouch
   id: RMCPouchPistol
-  name: пістолетний чохол
+  name: підсумок для пістолету
   description: Чохол призначений для зберігання пістолету. Захищає пістолет від потрапляння бруду й вологи, а також зберігає можливість швидко ним скористатися.
   components:
   - type: Sprite
@@ -148,8 +148,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCPouchMachete
-  name: чохол для мачете H6B моделі M2132 
-  description: Великий шкіряний чохол призначений для зберігання мачете моделі M2132. Може бути прикріплений до кишені.
+  name: підсумок для мачете H6B моделі M2132 
+  description: Великий шкіряний чохол призначений для зберігання мачете моделі M2132. Може бути одягнений, як будь-який інший підсумок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/machete.rsi

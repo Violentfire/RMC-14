@@ -240,8 +240,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchSyringe
-  name: syringe pouch
-  description: It can carry syringes.
+  name: підсумок для шприців
+  description: Він може переносити шприци.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/syringe.rsi
