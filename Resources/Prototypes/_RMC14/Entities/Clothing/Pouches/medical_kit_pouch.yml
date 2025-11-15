@@ -1,4 +1,4 @@
-﻿# MedKit Pouch
+# MedKit Pouch
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedkit
