@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: Автоматизована стійка зброї КолМорТех
+  name: автоматизована стійка зброї КолМорТех
   description: Автоматизована стійка з видачі зброї, боєприпасів і спорядження для морпіхів.
   components:
   - type: AccessReader
@@ -87,7 +87,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: Стійка надлишкового одягу КолМорТех
+  name: стійка додаткового спорядження КолМорТех
   description: Стійка з одягом і спорядженням для морпіхів.
   components:
   - type: AccessReader
@@ -324,8 +324,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: Стійка боєприпасів КолМорТех
-  description: Стійка з різними видами боєприпасів. Доступна кожному морпіху.
+  name: стійка амуніції КолМорТех
+  description: Стійка з різними видами спеціальної амуніції. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -395,7 +395,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: Стійка спорядження КолМорТех
+  name: стійка спорядження КолМорТех
   description: Стійка з базовим оснащенням та інструментами загального призначення. Доступна кожному морпіху.
   components:
   - type: AccessReader
@@ -473,7 +473,7 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: Стійка обвісів Егіда
+  name: стійка обвісів АЕГІС
   description: Стійка з видачі обвісів для зброї. Доступна кожному морпіху.
   components:
   - type: AccessReader
