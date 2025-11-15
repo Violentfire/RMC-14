@@ -29,8 +29,8 @@
 - type: entity
   parent: [ RMCRollerBedDestruction, RollerBed ]
   id: CMRollerBed
-  name: Складне ліжко на роликах
-  description: Складне ліжко на роликах, яке можна переносити.
+  name: каталка
+  description: Складне ліжко на роликах, яке можна возити або нести у руках, якщо скласти.
   components:
   - type: Tag
     tags:
