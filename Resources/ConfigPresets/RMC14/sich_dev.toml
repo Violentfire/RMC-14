@@ -10,4 +10,3 @@ round_restart_time = 180000
 distress_xenos_minimum = 0
 dropship_cas_debug = true
 dropship_initial_delay_minutes = 0
-marines_per_survivor = 1
