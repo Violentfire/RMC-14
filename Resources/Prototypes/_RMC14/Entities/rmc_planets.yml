@@ -287,11 +287,11 @@
       - RMCSurvivorForeconCommander: 1
       RMCSurvivorForeconBase:
       - RMCSurvivorForeconSupportTech: 1
-      - RMCSurvivorForeconSquadLeader: 1
-      - RMCSurvivorForeconSniper: 1
-      - RMCSurvivorForeconSmartgunOperator: 1
+#      - RMCSurvivorForeconSquadLeader: 1 - всі ролі під коментаром, зміна білду Січі. З нашими 1-2 сурвами воно просто не має сенсу
+#      - RMCSurvivorForeconSniper: 1
+#      - RMCSurvivorForeconSmartgunOperator: 1
       - RMCSurvivorForeconMarksman: 1
-      - RMCSurvivorForeconRifleman: 3
+#      - RMCSurvivorForeconRifleman: 3
     survivorJobOverrides:
       CMSurvivor: RMCSurvivorForeconBase
       CMSurvivorCorporate: RMCSurvivorForeconBase

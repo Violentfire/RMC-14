@@ -1,7 +1,7 @@
 # Auxiliary Support
 - type: roleLoadout
   id: JobCMAuxiliarySupportOfficer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -24,7 +24,7 @@
 
 - type: roleLoadout
   id: JobCMDropshipCrewChief
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -47,7 +47,7 @@
 
 - type: roleLoadout
   id: JobCMPilotDropship
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -70,7 +70,7 @@
 
 - type: roleLoadout
   id: JobCMPilotGunship
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -93,7 +93,7 @@
 
 - type: roleLoadout
   id: JobCMIntelOfficer
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -117,7 +117,7 @@
 # Command
 - type: roleLoadout
   id: JobCMCommandingOfficer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - CommandingOfficerIDRMC
   - MarineLeatherBackpack
@@ -142,7 +142,7 @@
 
 - type: roleLoadout
   id: JobCMExecutiveOfficer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -165,7 +165,7 @@
 
 - type: roleLoadout
   id: JobCMStaffOfficer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -189,7 +189,7 @@
 # Engineering
 - type: roleLoadout
   id: JobCMChiefEngineer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -212,7 +212,7 @@
 
 - type: roleLoadout
   id: JobCMMaintTech
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -235,7 +235,7 @@
 
 - type: roleLoadout
   id: JobCMOrdnanceTech
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -259,7 +259,7 @@
 # Squad Roles
 - type: roleLoadout
   id: JobCMCombatTech
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -282,7 +282,7 @@
 
 - type: roleLoadout
   id: JobCMFireteamLeader
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -305,7 +305,7 @@
 
 - type: roleLoadout
   id: JobCMHospitalCorpsman
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineMedicBackpack
   - HeadwearRMC
@@ -351,7 +351,7 @@
 
 - type: roleLoadout
   id: JobCMSmartGunOperator
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -374,7 +374,7 @@
 
 - type: roleLoadout
   id: JobCMSquadLeader
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -397,7 +397,7 @@
 
 - type: roleLoadout
   id: JobCMWeaponsSpecialist
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -421,7 +421,7 @@
 # Medical
 - type: roleLoadout
   id: JobCMCMO
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -444,7 +444,7 @@
 
 - type: roleLoadout
   id: JobCMDoctor
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -467,7 +467,7 @@
 
 - type: roleLoadout
   id: JobCMNurse
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -490,7 +490,7 @@
 
 - type: roleLoadout
   id: JobCMResearcher
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -514,7 +514,7 @@
 # Military Police
 - type: roleLoadout
   id: JobCMChiefMP
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineSecurityBackpack
   - HeadwearRMC
@@ -538,7 +538,7 @@
 
 - type: roleLoadout
   id: JobCMMilitaryPolice
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineSecurityBackpack
   - HeadwearRMC
@@ -561,7 +561,7 @@
 
 - type: roleLoadout
   id: JobCMMilitaryWarden
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineSecurityBackpack
   - HeadwearRMC
@@ -585,7 +585,7 @@
 # Other
 - type: roleLoadout
   id: JobCMCorrespondent
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - HeadwearRMC
@@ -608,7 +608,7 @@
 
 - type: roleLoadout
   id: JobCMLiaison
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineLeatherBackpack
   - LiaisonRoleSpecificRMC
@@ -632,7 +632,7 @@
 
 - type: roleLoadout
   id: JobCMMessTech
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -655,7 +655,7 @@
 
 - type: roleLoadout
   id: JobCMSeniorEnlistedAdvisor
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
   - HeadwearRMC
@@ -678,7 +678,7 @@
 
 - type: roleLoadout
   id: JobRMCJobSynthetic
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - SynthBackpackRMC
   - SynthHeadwearRMC
@@ -699,7 +699,7 @@
 # Requsitions
 - type: roleLoadout
   id: JobCMCargoTech
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -722,7 +722,7 @@
 
 - type: roleLoadout
   id: JobCMQuartermaster
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - MarineTechnicianBackpack
   - HeadwearRMC
@@ -747,7 +747,7 @@
 # They don't have access to some loadout categories
 - type: roleLoadout
   id: JobCMSurvivor
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -764,7 +764,7 @@
 
 - type: roleLoadout
   id: JobRMCJobSyntheticColony
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -781,7 +781,7 @@
 
 - type: roleLoadout
   id: JobCMSurvivorCorporate
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -798,7 +798,7 @@
 
 - type: roleLoadout
   id: JobCMSurvivorDoctor
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -815,7 +815,7 @@
 
 - type: roleLoadout
   id: JobCMSurvivorEngineer
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -832,7 +832,7 @@
 
 - type: roleLoadout
   id: JobCMSurvivorScientist
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -849,7 +849,7 @@
 
 - type: roleLoadout
   id: JobCMSurvivorSecurity
-  points: 7
+  points: 9 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
@@ -866,7 +866,7 @@
 
 - type: roleLoadout
   id: JobRMCSurvivorCommandingOfficer
-  points: 7
+  points: 11 # 7 в РМС, зміна білду Січі
   groups:
   - EyewearRMC
   - MasksRMC
