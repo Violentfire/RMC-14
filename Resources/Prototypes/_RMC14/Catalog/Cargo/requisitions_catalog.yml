@@ -18,6 +18,8 @@
         crate: RMCCrateBoxBulletsRifleAP
       - cost: 4000
         crate: RMCCrateBoxAmmo458
+      - cost: 6000
+        crate: SichRMCCrateBoxBulletsSmartGun # Sich
       - cost: 2000
         crate: RMCCrateBoxMagazineRifleM54C
       - cost: 4000
