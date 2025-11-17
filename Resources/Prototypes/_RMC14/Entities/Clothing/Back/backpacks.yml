@@ -247,7 +247,7 @@
 - type: entity
   parent: CMBackpack
   id: RMCBackpackAmmo
-  name: LCF загального призначення
+  name: ВРС загального призначення
   description: Поєднання ременів та пласталевого каркасу що дозволяє переносити громіздкі коробки. Незважаючи на скромність конструкції, далеко не кожен зможе нести цей тягар.
   components:
   - type: SichSherpaItem # Sich

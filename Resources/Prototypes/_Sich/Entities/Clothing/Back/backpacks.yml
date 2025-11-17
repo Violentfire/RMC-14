@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: SichRMCBackpackAmmoFolded
-  name: LCF загального призначення 
+  name: ВРС загального призначення 
   description: Згорнута вантажна рама для спорядження. Розгорніть перед використанням.
-  suffix: folded
+  suffix: згонута
   components:
   - type: Item
     size: Huge
