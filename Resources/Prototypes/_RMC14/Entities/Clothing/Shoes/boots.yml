@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: ніж
+        name: cm-knife
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
         whitelist:
@@ -57,7 +57,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: ніж 
+        name: cm-knife 
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
         whitelist:
@@ -172,7 +172,7 @@
   parent: CMBootsBlack
   id: RMCBootsCorporate
   name: міцні чоботи
-  description: Ці синтетичні чоботи спершу справляють враження якісного взуття, однак вже скоро вони починають бути схожі на сміття яке тримається лише на божій силі і суперклеї. Проте це краще ніж нічого.
+  description: Ці синтетичні чоботи спершу справляють враження якісного взуття, однак вже скоро вони починають бути схожі на сміття яке тримається лише на божій силі і суперклеї. Проте це краще cm-knife нічого.
 
 
 # SPP
