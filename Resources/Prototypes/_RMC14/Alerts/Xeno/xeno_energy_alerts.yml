@@ -60,8 +60,8 @@
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyHealer
-  name: Збережене здоров'я
-  description: Ваше збережене здоров'я. Якщо воно повне ви відновитеся після використання пожертви.
+  name: Енергія лікування
+  description: Ваша енергія, яку ви отримуєте при лікуванні ксестер. Якщо її шкала повна - після пожертви ви відродитеся
 
 - type: alert
   parent: XenoEnergyBase
