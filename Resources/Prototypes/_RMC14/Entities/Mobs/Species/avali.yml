@@ -12,6 +12,7 @@
     - HeadSide
   - type: Sprite
     drawdepth: Mobs
+    scale: 0.8, 0.8
   - type: TypingIndicator
     proto: avali
   - type: Vocal
