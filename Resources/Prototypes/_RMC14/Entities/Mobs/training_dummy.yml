@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: RMCTrainingDummy
-  name: training dummy
-  description: A training dummy used by the UNMC to simulate a humanoid body. Feels almost too lifelike.
+  name: тренувальний манекен
+  description: "Тренувальний манікен, який КМПОН використовують для тренування. Виглядає, ніби жива людина! Має маленьку бірку на формі з написом: \"Ім'я\"."
   suffix: RMC14
   components:
   - type: Loadout
@@ -31,7 +31,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnRMCTrainingDummy
-  name: RMC Training Dummy Spawner
+  name: РМС спавнер тренувального манекена
   components:
   - type: Sprite
     layers:

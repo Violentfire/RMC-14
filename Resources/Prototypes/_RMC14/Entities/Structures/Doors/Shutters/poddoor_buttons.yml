@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCPodDoorButton
-  name: button
-  description: A remote control-switch for a door.
+  name: кнопка
+  description: Дистанційний вимикач для дверей чи ще чогось, що можна перемикати.
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonBigRed
-  name: button
-  description: A remote control-switch for a door.
+  name: кнопка
+  description: Дистанційний вимикач для дверей чи ще чогось, що можна перемикати. Ця виглядає важливішою та потужнішою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/door_button_br.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeDoor
-  name: Office Door Shutter
+  name: Ролети Дверей Офісу
   components:
   - type: RMCDoorButton
     id: cl_office_door
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeWindows
-  name: Office Windows Shutters
+  name: Ролети Вікон Офісу
   components:
   - type: RMCDoorButton
     id: cl_office_windows
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeRoomDivider
-  name: Room Divider
+  name: Розділитель Кімнати
   components:
   - type: RMCDoorButton
     id: RoomDivider
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeEvacPod
-  name: Evac Pod Door Control
+  name: Керування Ролетами Поду Евакуації
   components:
   - type: RMCDoorButton
     id: cl_evac
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterDoor
-  name: Quarter Door Shutter
+  name: Ролети Інших Дверей Офісу
   components:
   - type: RMCDoorButton
     id: cl_quarter_door
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeMaintenanceDoor
-  name: Maintenance Door Shutter
+  name: Ролети Технічний Дверей Офісу
   components:
   - type: RMCDoorButton
     id: cl_quarter_maintenance
@@ -109,7 +109,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterWindows
-  name: Quarter Windows Shutters
+  name: Ролети Інших Вікон Офісу
   components:
   - type: RMCDoorButton
     id: cl_quarter_windows
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonHybrisaCavesLockdown
-  name: Caves Lockdown
+  name: Блокування Печер
   suffix: Hybrisa
   components:
   - type: RMCDoorButton

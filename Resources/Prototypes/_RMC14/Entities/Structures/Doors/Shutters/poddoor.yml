@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorIndestructible
-  name: podlock
-  description: That looks like it doesn't open easily.
+  name: гермобар'єр
+  description: Здається, що його зовсім не легко відчинити. Як мінімум, поки є світло.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -49,8 +49,8 @@
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorNonOccluderIndestructible
   abstract: true
-  name: podlock
-  description: That looks like it doesn't open easily.
+  name: гермобар'єр
+  description: Здається, що його зовсім не легко відчинити. Як мінімум, поки є світло.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -96,7 +96,7 @@
   - RMCPodDoorIndestructible
   - RMCShutterBase
   id: RMCPodDoor
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
+  description: Здається, що його зовсім не легко відчинити. Може краще пошукати якусь кнопку чи щось типу того?
   components:
   - type: Door
     canPry: true
@@ -159,8 +159,8 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorAlmayerContainmentIndestructible
-  name: cell wall
-  description: A metal wall used to separate rooms and make up the ship.
+  name: стіна
+  description: Металева стіна, що використовується для розділення кімнат на суднах. Здається, воно може рухатися...
   suffix: Indestructible
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
-  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
+  description: Здається, що його зовсім не легко відчинити. Може краще пошукати якусь кнопку чи щось типу того?
   suffix: Locked
   components:
   - type: Door
