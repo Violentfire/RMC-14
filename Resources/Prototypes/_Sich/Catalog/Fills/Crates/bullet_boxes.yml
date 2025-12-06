@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: SichRMCCrateBoxBulletsSmartGun
-  name: Ящик з коробкою набоїв для смарт-гану 10х30мм (3000шт.)
+  name: Ящик з коробкою набоїв для СмартГану 10х30мм (3000шт.)
   components:
   - type: StorageFill
     contents:
