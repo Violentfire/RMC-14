@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCAttachmentRecoilCompensatorM13
   id: RMCAttachmentRecoilCompensatorM13Spiked
-  name: M13 шипований компенсатор
+  name: М13 шипований компенсатор
   description: Надзвичайно важкий та гарно спроєктований подовжувач ствола для пістолета M13, оснащений загартованим наконечником із шипами. Значно покращує контроль віддачі під час автоматичної стрільби та перетворює пістолет на небезпечну зброю ближнього бою. Компенсує щось - і робить брутально.
   components:
   - type: Sprite
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentShotgunChoke # choke
-  name: shotgun choke
+  name: глушник рушниці
   description: «Різьбовий глушник який можна встановити на рушницю M42A2.
     Покращує точність, швидкість, зменшує розкид і збільшує інтенсивність стрільби.
     Натомість зменшує силу та шкоду від пострілу. Також збільшує віддачу. Не рекомендується для куль».
@@ -277,7 +277,7 @@
 - type: entity
   parent: RMCAttachmentSuppressor
   id: RMCAttachmentSuppressorXM40
-  name: XM40 глушник
+  name: ТМ40 глушник
   description: «Невелика трубка з отворами для виведення шуму та газів.
     Не повністю глушить зброю, але робить її набагато тихішою за рахунок незначного зниження шкоди».
   components:
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressorNPZ92
-  name: NPZ92 інтегрований глушник
+  name: НПЗ92 інтегрований глушник
   description: Ви не повинні мати це.
   components:
   - type: Sprite
