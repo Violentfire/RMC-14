@@ -41,7 +41,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
   name: звіт про прогрес
-  description: Письмовий звіт до керівника про хід виконання якогось проекту.
+  description: Письмовий звіт до керівника про хід виконання якогось проєкту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
