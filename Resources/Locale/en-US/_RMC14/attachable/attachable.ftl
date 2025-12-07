@@ -39,8 +39,8 @@ rmc-attachable-examinable-verb-message = Оглянути модифікатор
 
 rmc-attachable-examine-condition-always = [bold]Постійно:[/bold]
 rmc-attachable-examine-condition-when = Коли
-rmc-attachable-examine-condition-wielded = [bold]використовується[/bold]
-rmc-attachable-examine-condition-unwielded = [bold]не використовується[/bold]
+rmc-attachable-examine-condition-wielded = [bold]тримається у двох руках[/bold]
+rmc-attachable-examine-condition-unwielded = [bold]не тримається у двох руках[/bold]
 rmc-attachable-examine-condition-active = {$attachable} [bold]активно[/bold]
 rmc-attachable-examine-condition-inactive = {$attachable} [bold]неактивно[/bold]
 
