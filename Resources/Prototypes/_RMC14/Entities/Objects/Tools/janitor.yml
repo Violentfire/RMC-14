@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseItem
   id: RMCLightReplacer
-  name: light replacer
-  description: A device to automatically replace lights. Refill with working lightbulbs.
+  name: пристрій для заміни ламп
+  description: Пристрій для автоматичної заміни ламп. Поповнюється справними лампами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/light_replacer.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCEngineerKit
-  name: engineer kit
-  description: A combat engineering toolkit intended to carry electrical and mechanical supplies into combat. With engineering training you can fit this in a backpack.
+  name: інженерний набір
+  description: Інженерний бойовий набір, призначений для перенесення інженерного обладнання у бойових умовах. За наявності інженерної підготовки його можна вмістити в рюкзак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/engineer_kit.rsi

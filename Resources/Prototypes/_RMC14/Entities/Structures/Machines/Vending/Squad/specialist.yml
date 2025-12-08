@@ -224,7 +224,7 @@
         name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchFlareFilled
-        name: підсумок з фаєрами (Повний)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchMagazine
         recommended: true
       - id: RMCPouchShotgun

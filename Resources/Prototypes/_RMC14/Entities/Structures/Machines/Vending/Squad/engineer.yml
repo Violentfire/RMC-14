@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTGear
-  name: ColMarTech squad comtech gear rack
-  description: An automated gear rack for combat technicians.
+  name: КолМорТех стійка для обладнання Бойового Техніка
+  description: Автоматизована стійка обладнання для Бойового Техніка.
   components:
   - type: AccessReader
     access:
@@ -15,11 +15,11 @@
     jobs:
     - CMCombatTech
     sections:
-    - name: Engineer Set (Mandatory)
+    - name: Набір Інженера (Обов'язково)
       takeAll: CMEngineerSet
       entries:
       - id: CMVendorBundleCombatTechnicianEssentials
-    - name: Handheld Defense
+    - name: Переносна Турель
       takeOne: CMHandheldDefense
       entries:
     #    CMJIMAPlantedFlag
@@ -27,12 +27,12 @@
       - id: RMCSentry
       - id: RMCTesla
       - id: RMCSentryFire
-    - name: Handheld Defense Upgrade
+    - name: Покращення Переносної Турелі
       choices: { CMHandheldDefenseUpgrade: 1 }
       entries:
       - id: RMCEngineeringUpgrade
         points: 15
-    - name: Engineering Supplies
+    - name: Інженерне Обладнання
       entries:
     #- id: CMAirlockCircuitBoard
     #  points: 2
@@ -43,11 +43,11 @@
       - id: RMCPowerCellHigh
         points: 3
       - id: CMSheetMetal10
-        name: metal x10
+        name: металеві листи x10
         points: 5
         recommended: true
       - id: CMSheetPlasteel10
-        name: plasteel x10
+        name: пласталь x10
         points: 7
         recommended: true
       - id: RMCExplosivePlastic
@@ -56,14 +56,14 @@
         points: 5
         recommended: true
       - id: CMSandbagEmpty25
-        name: sandbags x25
+        name: мішки для піску x25
         points: 10
         recommended: true
       - id: RMCPowerCellSuper
         points: 10
     #- id: CMES11MobileFuelCanister
     #  points: 4
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 18
@@ -85,7 +85,7 @@
     #  points: 18
     #- id: CMM40MFHSMetalFoamGrenade
     #  points: 5
-    - name: Ammunition
+    - name: Особливі Набої
       entries:
       - id: CMMagazineRifleM4SPRAP
         points: 6
@@ -103,7 +103,7 @@
         points: 6
       - id: CMMagazineRifleM54CExt
         points: 6
-    - name: Sidearm Ammunition
+    - name: Набої Для Пістолету
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -119,13 +119,13 @@
         points: 3
       - id: RMCMagazinePistolSU6
         points: 6
-    - name: Armors
+    - name: Особлива Броня
       entries:
       - id: CMArmorB12
         points: 24
       - id: CMArmorM4
         points: 16
-    - name: Restricted Firearms
+    - name: Додаткова Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 8
@@ -137,13 +137,13 @@
         points: 24
     #- id: CMM56DHeavyMachineGun
     #  points: 24
-    - name: Clothing Items
+    - name: Предмети Одягу
       entries:
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         points: 6
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
         points: 8
       - id: RMCBackpackRTO
         points: 15
@@ -155,7 +155,7 @@
         points: 6
       - id: CMBeltUtilityCombat
         points: 15
-    - name: Utilities
+    - name: Додаткове Обладнання
       entries:
       - id: CMRollerBedSpawnFolded
         points: 5
@@ -169,7 +169,7 @@
         points: 3
       - id: RMCSynthResetKey
         points: 10
-    - name: Binoculars
+    - name: Біноклі
       entries:
       - id: RMCBinoculars
         points: 5
@@ -177,17 +177,17 @@
         points: 10
       - id: RMCLaserDesignator
         points: 15
-    - name: Helmet Optics
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorMedical
         points: 12
       - id: RMCVisorWelding
         points: 5
-    - name: Pamphlets
+    - name: Довідники
       entries:
       - id: CMPamphletJTAC
         points: 15
-    - name: Radio Keys
+    - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyIntel
         points: 3
@@ -199,8 +199,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTEquipment
-  name: ColMarTech squad comtech equipment rack
-  description: An automated rack hooked up to a colossal storage of combat technician standard-issue equipment.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Бойового Техніка
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Бойового Техніка морської піхоти.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
@@ -211,38 +211,38 @@
     jobs:
     - CMCombatTech
     sections:
-    - name: Standard Equipment
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleCombatTechnicianApparel
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Gloves
+    - name: Рукавички
       choices: { CMHands: 1 }
       entries:
       - id: CMHandsInsulated
       - id: CMHandsBlackInsulated
-    - name: Helmet
+    - name: Шолом
       choices: { CMHelmet: 1 }
       entries:
       - id: CMArmorHelmetM10Tech
       - id: RMCArmorHelmetM10Welding
-    - name: Armor
+    - name: Броня
       choices: { CMArmor: 1 }
       entries:
       - id: RMCArmorVestCombatTechnician
       - id: RMCArmorM3LightVariants
-        name: light armor
+        name: легка броня
       - id: RMCArmorM3MediumVariants
-        name: medium armor
+        name: середня броня
         recommended: true
       - id: RMCArmorM3HeavyVariants
-        name: heavy armor
-    - name: Backpack
+        name: важка броня
+    - name: Рюкзак
       choices: { CMBackpack: 1 }
       entries:
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
       - id: CMBackpackMarineTech
       - id: CMSatchelMarineTech
       - id: CMBackpackWelder
@@ -250,7 +250,7 @@
       - id: RMCSatchelWelder
       - id: RMCSatchelWelderChestrig
         recommended: true
-    - name: Belt
+    - name: Ремінь
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -262,12 +262,12 @@
       - id: RMCM82FHolster
       - id: RMCM276ShotgunShellLoadingRig
       - id: CMBeltUtilityFilled
-        name: M276 pattern toolbelt rig (Full)
+        name: ремінь для інструментів зразка М276 (Повний)
         # mandatory: true, TODO allow vendors to mark entries as mandatory
       - id: RMCBeltGrenade
       - id: RMCBeltConstruction
         recommended: true
-    - name: Pouches
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchConstruction
@@ -282,19 +282,19 @@
         name: first-aid pouch (pills)
         recommended: true
       - id: RMCPouchElectronicsFill
-        name: electronics pouch (Full)
+        name: підсумок для електроніки (Повний)
       - id: RMCPouchExplosive
       - id: RMCPouchFlareFilled
-        name: Flare pouch (Full)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchMagazine
       - id: RMCPouchShotgun
       - id: RMCPouchGeneralMedium
       - id: RMCPouchPistol
       - id: RMCPouchToolsFill
-        name: Tools pouch (Full)
+        name: підсумок для інструментів (Повний)
       - id: RMCPouchEngineerKit
-    - name: Accessories
+    - name: Розвантажувальний Жилет
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -310,7 +310,7 @@
       - id: RMCWebbingHolsterBlack
       - id: RMCToolWebbingSmallFilled
         name: small tool webbing (Full)
-    - name: Mask
+    - name: Маска
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas
@@ -320,8 +320,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSCTTools
-  name: ColMarTech squad comTech tools vendor
-  description: A vending machine that stores various extra tools that are useful on the field.
+  name: КолМорТех стійка для інструментів Бойового Техніка
+  description: Автоматизована стійка інструментів Бойового Техніка. Містить додаткові інструменти що можуть стати в нагоді під час операції.
   components:
   - type: AccessReader
     access:
@@ -340,10 +340,10 @@
     jobs:
     - CMCombatTech
     sections:
-    - name: Equipment
+    - name: Обладнання
       entries:
       - id: CMBeltUtility
-        name: utility tool belt
+        name: реміньля інструментів зразка М276
         amount: 4
       - id: RMCCableCoil
         amount: 4
@@ -351,7 +351,7 @@
         amount: 2
       - id: RMCEngineerKit
         amount: 2
-    - name: Tools
+    - name: Інструменти
       entries:
       - id: CMWelder
         amount: 4

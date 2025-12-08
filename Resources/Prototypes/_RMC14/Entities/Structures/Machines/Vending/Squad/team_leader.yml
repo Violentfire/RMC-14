@@ -216,7 +216,7 @@
         name: підсумок першої допомоги (пігулки)
       - id: RMCPouchFirstResponder
       - id: RMCPouchFlareFilled
-        name: підсумок з фаєрами (Повний)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchFuelTank
       - id: RMCPouchGeneralLarge
       #- id: CMSlingPouch

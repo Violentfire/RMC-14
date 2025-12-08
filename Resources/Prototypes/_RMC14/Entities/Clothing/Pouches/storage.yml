@@ -376,8 +376,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: флаєрний підсумок
-  description: Підсумок призначений для зберігання флаєрів. Переспоряджається упаковкою М94 флаєрів.
+  name: підсумок для фаєрів
+  description: Підсумок призначений для зберігання фаєрів. Переспоряджається упаковкою маркувальних фаєрів М94.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi

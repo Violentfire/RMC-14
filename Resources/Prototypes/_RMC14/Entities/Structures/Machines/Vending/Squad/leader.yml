@@ -281,7 +281,7 @@
         name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchFlareFilled
-        name: підсумок з фаєрами (Повний)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchFuelTank
       - id: RMCPouchGeneralLarge
         recommended: true

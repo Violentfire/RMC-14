@@ -148,7 +148,7 @@
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchFlareFilled
-        name: підсумок з фаєрами (Повний)
+        name: підсумок для фаєрів (Повний)
 #      - id: RMCPouchElectronics # TODO RMC14
       - id: RMCPouchFirstAidInjectors
         name: підсумок першої допомоги (багаторазові автоінжектори)
