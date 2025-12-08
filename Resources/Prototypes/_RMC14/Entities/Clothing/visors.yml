@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCVisorMedical
   id: RMCVisorMedicalAdvanced
-  name: advanced medical optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display that shows data about nearby humanoids health status and research notes.
+  name: просунутий медичний візор
+  description: Вставний візор для стандартного шолома КМПОН. Цей тип забезпечує проекційний дисплей, що показує дані про стан здоров’я навколишніх гуманоїдів та дозволяє сканувати наукові записи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVisorSquad
-  name: squad optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display of marine squads.
+  name: візор загону
+  description: Вставний візор для стандартного шолома КМПОН. Цей тип дозволяє відображати інформацію про членів загону.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/helmet_visors.rsi

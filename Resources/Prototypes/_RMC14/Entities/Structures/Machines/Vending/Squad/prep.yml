@@ -2,8 +2,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: автоматизована стійка зброї КолМорТех
-  description: Автоматизована стійка з видачі зброї, боєприпасів і спорядження для морпіхів.
+  name: КолМорТех стійка для зброї та боєприпасів КМПОН.
+  description: Автоматизована стійка з видачі зброї та боєприпасів для морських піхотинців КМПОН.
   components:
   - type: AccessReader
     access:
@@ -26,7 +26,7 @@
       - id: RMCWeaponRifleM54C
         amount: 30
         recommended: true
-    - name: Боєприпаси до основної зброї
+    - name: Набої Для Основної Зброї
       entries:
       - id: RMCBoxShotgunFlechette
         amount: 4
@@ -40,7 +40,7 @@
         amount: 25
       - id: CMMagazineRifleM54C
         amount: 25
-    - name: Додаткова зброя
+    - name: Пістолет
       entries:
       - id: RMCWeaponPistolM77Empty
         amount: 25
@@ -52,7 +52,7 @@
         amount: 25
       - id: RMCWeaponPistolM82F
         amount: 10
-    - name: Боєприпаси до додаткової зброї
+    - name: Набої Для Пістолета
       entries:
       - id: CMMagazinePistolM77AP
         amount: 25
@@ -62,7 +62,7 @@
         amount: 25
       - id: RMCMagazinePistolM13
         amount: 25
-    - name: Обвіси
+    - name: Оснащення Для Зброї
       entries:
       - id: RMCAttachmentM63StockCollapsible
         amount: 10
@@ -76,7 +76,7 @@
         recommended: true
       - id: RMCAttachmentU1GrenadeLauncher
         amount: 25
-    - name: Допоміжне спорядження
+    - name: Додаткове
       entries:
       - id: RMCM5Bayonet
         amount: 25
@@ -87,8 +87,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: стійка додаткового спорядження КолМорТех
-  description: Стійка з одягом і спорядженням для морпіхів.
+  name: КолМорТех стійка для додаткового спорядження КМПОН.
+  description: Автоматизована стійка з видачі додаткового спорядження для морських піхотинців КМПОН.
   components:
   - type: AccessReader
     access:
@@ -100,7 +100,7 @@
     - "CMAccessMarinePrep"
     hackable: true
     sections:
-    - name: Стандартне спорядження
+    - name: Стандартне Спорядження
       entries:
       - id: CMBootsBlack
         amount: 15
@@ -120,7 +120,7 @@
         amount: 15
       - id: ArmorHelmetM10
         amount: 15
-    - name: Жилети
+    - name: Розвантажувальний Жилет
       entries:
       - id: CMWebbingBrown
         amount: 1
@@ -162,7 +162,7 @@
         amount: 10
       - id: RMCArmorM3LightPadded
         amount: 10
-    - name: Рюкзаки
+    - name: Рюкзак
       entries:
       - id: CMBackpackMarine
         amount: 15
@@ -182,7 +182,7 @@
         amount: 15
       - id: RMCScabbardShotgun
         amount: 5
-    - name: Спеціальні рюкзаки
+    - name: Особливі рюкзак
       entries:
       - id: CMBackpackWelder
         amount: 1
@@ -190,7 +190,7 @@
         amount: 2
       - id: RMCBackpackRTO
         amount: 1
-    - name: Поясне спорядження
+    - name: Ремінь
       entries:
       - id: CMBeltMarine
         amount: 15
@@ -211,23 +211,23 @@
       - id: RMCM82FHolster
         amount: 5
       - id: CMBeltKnifeFilled
-        name: M276 Knife Rig (Full)
+        name: ремінь для ножів зразка М276 (Повний)
         amount: 15
       - id: RMCBeltUtilityGeneral
         amount: 15
-    - name: Підсумки
+    - name: Підсумок
       entries:
       - id: RMCPouchBayonetFill
-        name: Bayonet Sheath (Full)
+        name: підсумок для ножів (Повний)
         amount: 15
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: First-Aid Pouch (Splints, Gauze, Ointment)
+        name: підсумок першої допомоги (марля, мазь)
         amount: 15
       - id: RMCPouchFirstAidPills
-        name: First-Aid Pouch (Pill Packets)
+        name: підсумок першої допомоги (пігулки)
         amount: 15
       - id: RMCPouchFlareFilled
-        name: Flare Pouch (Full)
+        name: підсумок для фаєрів (Повний)
         amount: 15
       - id: RMCPouchDocumentSmall
         amount: 15
@@ -248,7 +248,7 @@
       - id: RMCPouchExplosive
         amount: 1
       - id: RMCPouchFirstResponder
-        name: First Responder Pouch (Empty)
+        name: допоміжний медичний підсумок (Порожній)
         amount: 2
       - id: RMCPouchMagazinePistolLarge
         amount: 2
@@ -256,7 +256,7 @@
         amount: 1
 #      - id: Sling Pouch
 #        amount: 1
-    - name: Маски
+    - name: Маска
       entries:
       - id: CMMaskGas
         amount: 15
@@ -264,7 +264,7 @@
         amount: 10
       - id: RMCMaskRebreather
         amount: 10
-    - name: Різне
+    - name: Аксесуари
       entries:
       - id: RMCGogglesBallistic
         amount: 10
@@ -295,28 +295,28 @@
       - id: RMCPatchFallingFalcons
         amount: 15
       - id: RMCPatchFallingFalconsAlt
-        name: Falling Falcons UN shoulder patch
+        name: нашивка ОН 'Пікуючі Соколи'
         amount: 15
       - id: RMCPatchFallingFalconsLarge
-        name: Falling Falcons large chest patch
+        name: велика нагрудна нашивка 'Пікуючі Соколи'
         amount: 15
       - id: RMCPatchUNMC
-        name: UNMC shoulder patch
+        name: нашивка КМПОН
         amount: 15
       - id: RMCPatchUnitedNations
-        name: United Nations shoulder patch
+        name: нашивка ОН
         amount: 15
       - id: RMCPatchUnitedNationsSquare
-        name: United Nations flag shoulder patch
+        name: нашивка прапора ОН
         amount: 15
       - id: BedrollFolded
         amount: 20
       - id: RMCM5CameraGear
         amount: 10
-    - name: Optics
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorMedicalAdvanced
-        name: advanced medical optic (CORPSMAN ONLY)
+        name: просунутий медичний візор (ТІЛЬКИ ДЛЯ МЕДИКІВ)
         amount: 4
       - id: RMCVisorSquad
         amount: 15
@@ -324,8 +324,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: стійка амуніції КолМорТех
-  description: Стійка з різними видами спеціальної амуніції. Доступна кожному морпіху.
+  name: КолМорТех стійка для особливої додаткової амуніції КМПОН.
+  description: Автоматизована стійка для особливої та додаткової амунції.
   components:
   - type: AccessReader
     access:
@@ -339,7 +339,7 @@
     - "CMAccessRequisitions"
     hackable: true
     sections:
-    - name: Бронебійні боєприпаси
+    - name: Бронебійні Набої
       entries:
       - id: CMMagazineRifleM4SPRAP
         amount: 4
@@ -351,7 +351,7 @@
         amount: 3
       - id: CMMagazineRifleM54CAP
         amount: 3
-    - name: Збільшені магазини
+    - name: Збільшені Магазини
       entries:
       - id: CMMagazineRifleM4SPRExt
         amount: 2
@@ -361,7 +361,7 @@
         amount: 2
       - id: RMCMagazinePistolM13Ext
         amount: 4
-    - name: Спеціальні боєприпаси
+    - name: Спеціальні Набої
       entries:
       - id: RMCMagazineSmartGun
         amount: 1
@@ -371,7 +371,7 @@
         amount: 2
       - id: RMCMagazinePistolM1984AP
         amount: 2
-    - name: Обмежені боєприпаси
+    - name: Додадкові Набої
       entries:
       - id: CMMagazinePistolMK80
         amount: 6
@@ -432,7 +432,7 @@
         amount: 1
       - id: CMWelderSmall
         amount: 1
-    - name: Флаєри і освітлення
+    - name: Ліхтарі Та Фаєри
       entries:
       - id: RMCFlashlight # Combat Flashlight
         amount: 5
@@ -444,7 +444,7 @@
         amount: 10
       - id: RMCPackFlareCAS
         amount: 1
-    - name: Різне
+    - name: Додаткове Спорядження
       entries:
       - id: RMCEngineerKit
         amount: 1
@@ -457,7 +457,7 @@
       - id: CMRollerBedSpawnFolded
         amount: 1
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         amount: 5
       - id: RMCBinoculars
         amount: 1
@@ -473,8 +473,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: стійка обвісів АЕГІС
-  description: Стійка з видачі обвісів для зброї. Доступна кожному морпіху.
+  name: стійка оснащення для зброї ЕГІДА
+  description: Автоматизована стійка з оснащеннями для зброї від компанії ЕГІДА. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -504,7 +504,7 @@
         amount: 3
       - id: RMCAttachmentShotgunChoke
         amount: 2
-    - name: Рейкова планка
+    - name: Рейкова Планка
       entries:
       - id: RMCAttachmentB8SmartScope
         amount: 2
@@ -520,7 +520,7 @@
         amount: 3
       - id: RMCAttachmentS84xTelescopicScope
         amount: 2
-    - name: Підствольне кріплення
+    - name: Підствольне Кріплення
       entries:
       - id: RMCAttachmentAngledGrip
         amount: 3

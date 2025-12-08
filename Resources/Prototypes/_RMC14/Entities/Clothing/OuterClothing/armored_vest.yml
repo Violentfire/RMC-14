@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCArmorVestSquad
   id: RMCArmorVestMedic
-  name: M3-XL pattern corpsman armor vest
-  description: A type of M3-XL body armor, made specially for UNMC Corpsmen. The shoulder pads have been taken off for ease of movement. Not recommended for direct combat or for deployment use against hostiles.
+  name: захисний жилет бойового медика зразка М3-ЕЛ
+  description: Стандартний захисний жилет зразка М3-ЕЛ. Ця модель призначена для бойових медиків КМПОН. Наплічники зняті для зручності рухів. Не рекомендований для безпосередніх бойових дій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/corpsman.rsi

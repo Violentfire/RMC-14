@@ -138,7 +138,7 @@
   parent: CMBootsBlack
   id: CMBootsGrey
   name: grey boots
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time. These are grey.
+  description: Стандартні бойові чоботи, гарно показують себе в усіх сценаріях. Завжди сірі, ЗАВЖДИ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/grey.rsi

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR бойова гвинтівка
   id: WeaponRifleM4SPR
@@ -256,7 +256,7 @@
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
   name: "M4SPR магазин (10x24мм)"
-  description: "Магазин зі стандартними патронами 10х24 мм для бойової гвинтівки M4SPR."
+  description: "Магазин зі стандартними набоями 10х24 мм для бойової гвинтівки M4SPR."
   components:
   - type: Tag
     tags:
@@ -313,8 +313,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "M4SPR розширений магазин (10x24mm)"
-  description: "An extended magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  name: "M4SPR розширений магазин (10x24мм)"
+  description: "Розширений магазин набоїв 10х24мм для бойової гвинтівки M4SPR."
   components:
   - type: BallisticAmmoProvider
     capacity: 35

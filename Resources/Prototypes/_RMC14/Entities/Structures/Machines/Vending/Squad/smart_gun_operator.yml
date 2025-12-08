@@ -45,7 +45,7 @@
         points: 20
     #- id: CMM20MineBox4
     #  points: 20
-    - name: Набої Для Пістолету
+    - name: Набої Для Пістолета
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6

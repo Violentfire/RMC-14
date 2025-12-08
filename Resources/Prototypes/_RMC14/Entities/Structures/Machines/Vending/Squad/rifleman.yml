@@ -90,13 +90,13 @@
       - id: CMEntrenchingTool
         points: 5
       - id: CMSandbagEmpty25
-        name: мішки з піском x25
+        name: мішки для піску x25
         points: 20
 #      - id: ES-11 Mobile Fuel Canister
 #        points: 5
       - id: CMWelderSmall
         points: 5
-    - name: Обмежена Зброя
+    - name: Додаткова Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 15
@@ -142,7 +142,7 @@
         points: 10
       - id: CMMagazineRifleM54CExt
         points: 10
-    - name: Набої Для Пістолету
+    - name: Набої Для Пістолета
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
