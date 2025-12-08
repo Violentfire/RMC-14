@@ -45,7 +45,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: розвантажка
+  name:  коричнева розвантажка
   description: Міцна плутанина ременів й пряжок, зроблених з синтетичної бавовни, готова розділити ваш тягар.
   components:
   - type: Sprite
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouch
-  name: leg pouch
-  description: A camo conforming leg pouch usually worn by hunters, military and people who dream of being military.
+  name: підсумок на ногу
+  description: Камуфльований підсумок, що кріпиться на ногу. Такий носять мисливці, військові та люди, що мріють бути військовими.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/classic.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouchBlack
-  name: black leg pouch
-  description: A black leg pouch usually worn by hunters, military and people who dream of being military.
+  name: чорний підсумок на ногу
+  description: Чорний підсумок, що кріпиться на ногу. Такий носять мисливці, військові та люди, що мріють бути військовими.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/black.rsi
@@ -124,7 +124,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingBlackSmall
-  name: black webbing
+  name: чорна розвантажка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black_small.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: плечова кобура
+  name: коричнева плечова кобура
   description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
   components:
   - type: Sprite
@@ -295,8 +295,8 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
-  name: black shoulder holster
-  description: A black handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: чорна плечова кобура
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi
@@ -305,7 +305,7 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingDropPouch
-  name: сумка скиду
+  name: коричнева сумка скиду
   description: Оскільки відпрацьовані магазини в КМПОН нікому не потрібні, сюди можна скидувати будь-які інші речі.
   components:
   - type: Sprite
@@ -354,8 +354,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchBlack
-  name: black drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: чорна сумка скиду
+  description: Оскільки відпрацьовані магазини в КМПОН нікому не потрібні, сюди можна скидувати будь-які інші речі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch_black.rsi

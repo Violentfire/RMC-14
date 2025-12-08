@@ -46,7 +46,7 @@
       - id: CMBeltMarine
         recommended: true
       - id: CMBeltKnifeFilled
-        name: M276 knife rig (Full)
+        name: ремінь для ножів зразка М276 (Повний)
       - id: RMCBeltHolsterPistol
       - id: RMCBeltHolsterRevolver
       - id: RMCBeltHolsterSMG
@@ -60,7 +60,7 @@
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchBayonetFill
-        name: bayonet sheath (Full)
+        name: підсумок для ножів (Повний)
       - id: RMCPouchFirstAidInjectors
         name: підсумок першої допомоги (багаторазові автоінжектори)
         recommended: true
@@ -187,10 +187,10 @@
       - id: RMCWebbingHolsterBlack
         points: 15
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         points: 15
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
         points: 15
       - id: RMCBackpackRTO
         points: 15
@@ -224,13 +224,13 @@
         points: 10
       - id: RMCLaserDesignator
         points: 15
-    - name: Helmet Optics
+    - name: Візори для шолому
       entries:
       - id: RMCVisorMedical
         points: 15
       - id: RMCVisorWelding
         points: 5
-    - name: Pamphlets
+    - name: Довідники
       entries:
       - id: CMPamphletJTAC
         points: 15

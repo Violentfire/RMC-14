@@ -1763,8 +1763,8 @@
 - type: entity
   parent: RMCBeltBaseStorageNoVisuals
   id: RMCM82FHolster
-  name: M276 pattern M82F flare gun holster rig
-  description: he M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is for the M82F flare gun and can additionally store up to 16 flares.
+  name: ремінь для сигнальної ракетниці М82Ф зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія спроєктована для носіння сигнальної ракетниці М82Ф та 16 додаткових фаєрів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_flaregun.rsi

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorVest
   name: armor vest
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCArmorVestMP
   id: RMCArmorVestSquad
-  name: M3-XL pattern marine armor vest
-  description: A type of M3-XL body armor, standard issue for UNMC marines. The shoulder pads have been taken off for ease of movement. Not recommended for direct combat or for deployment use against hostiles.
+  name: захисний жилет зразка М3-XL 
+  description: Стандартний захисний жилет зразка М3-XL. Наплічники зняті для зручності рухів. Не рекомендований для безпосередніх бойових дій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/corpsman.rsi
