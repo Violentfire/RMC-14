@@ -634,7 +634,7 @@
   parent: RMCGunCaseBase
   id: RMCM85A1Case
   name: кейс для гранатомета М85А1
-  description: Кейс із 40‑мм гранатометом М85А1. У комплект також входять три різні упаковки гранат.
+  description: Кейс із 40-мм гранатометом М85А1. У комплект також входять три різні упаковки гранат.
   components:
   - type: Storage
     maxItemSize: Ginormous

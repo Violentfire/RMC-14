@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipment
-  name: КолМорСпор автоматизований стелаж морпіхотного спорядження
-  description: Автоматизований стелаж, під'єднаний до величезного сховища зі стандартним спорядженням стрільців морської піхоти.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження стрільця
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням стрільця морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -71,7 +71,7 @@
         name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchFlareFilled
-        name: Підсумок з фаєрами (Повний)
+        name: підсумок з фаєрами (Повний)
         recommended: true
       - id: RMCPouchDocumentSmall
       - id: RMCPouchMagazine
@@ -85,7 +85,7 @@
       - id: CMMaskGas
       - id: CMMaskCoif
       - id: RMCMaskRebreather
-    - name: Інженерні Матеріали
+    - name: Інженерне Обладнання
       entries:
       - id: CMEntrenchingTool
         points: 5
@@ -96,7 +96,7 @@
 #        points: 5
       - id: CMWelderSmall
         points: 5
-    - name: Додаткова Зброя
+    - name: Обмежена Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 15
@@ -142,7 +142,7 @@
         points: 10
       - id: CMMagazineRifleM54CExt
         points: 10
-    - name: Набої На Додаткову Зброю
+    - name: Набої Для Пістолету
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -158,7 +158,7 @@
         points: 5
       - id: RMCMagazinePistolSU6
         points: 10
-    - name: Покращена Броня
+    - name: Особлива Броня
       entries:
       - id: CMArmorB12
         points: 30
@@ -202,7 +202,7 @@
     #  points: 15
       - id: RMCPouchGeneralLarge
         points: 15
-    - name: Додаткове
+    - name: Додаткове Обладнання
       entries:
       - id: CMRollerBedSpawnFolded
         points: 5
@@ -224,7 +224,7 @@
         points: 10
       - id: RMCLaserDesignator
         points: 15
-    - name: Візори для шолому
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorMedical
         points: 15
