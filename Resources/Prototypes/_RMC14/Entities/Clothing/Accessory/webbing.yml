@@ -45,7 +45,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name:  коричнева розвантажка
+  name: коричнева розвантажка
   description: Міцна плутанина ременів й пряжок, зроблених з синтетичної бавовни, готова розділити ваш тягар.
   components:
   - type: Sprite
@@ -222,7 +222,7 @@
   parent: CMWebbingBase
   id: CMWebbingHolster
   name: коричнева плечова кобура
-  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -296,7 +296,7 @@
   parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
   name: чорна плечова кобура
-  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi

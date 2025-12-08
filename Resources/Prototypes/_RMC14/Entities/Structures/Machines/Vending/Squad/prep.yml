@@ -52,7 +52,7 @@
         amount: 25
       - id: RMCWeaponPistolM82F
         amount: 10
-    - name: Набої Для Пістолета
+    - name: Набої Для Пістолетів
       entries:
       - id: CMMagazinePistolM77AP
         amount: 25
