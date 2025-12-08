@@ -186,7 +186,7 @@
       - id: CMArmorM4
         recommended: true
       - id: RMCArmorVestFireteamLeader
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -227,7 +227,7 @@
       - id: RMCPouchToolsFill
         recommended: true
         name: підсумок для інструментів (Повний)
-    - name: Розвантажувальний Жилет
+    - name: Розвантажувальні Жилети
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -241,7 +241,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

@@ -19,7 +19,7 @@
       takeAll: CMEngineerSet
       entries:
       - id: CMVendorBundleCombatTechnicianEssentials
-    - name: Переносна Турель
+    - name: Переносні Установки
       takeOne: CMHandheldDefense
       entries:
     #    CMJIMAPlantedFlag
@@ -27,7 +27,7 @@
       - id: RMCSentry
       - id: RMCTesla
       - id: RMCSentryFire
-    - name: Покращення Переносної Турелі
+    - name: Покращення Переносної Установки
       choices: { CMHandheldDefenseUpgrade: 1 }
       entries:
       - id: RMCEngineeringUpgrade
@@ -222,7 +222,7 @@
       entries:
       - id: CMHandsInsulated
       - id: CMHandsBlackInsulated
-    - name: Шолом
+    - name: Шоломи
       choices: { CMHelmet: 1 }
       entries:
       - id: CMArmorHelmetM10Tech
@@ -238,7 +238,7 @@
         recommended: true
       - id: RMCArmorM3HeavyVariants
         name: важка броня
-    - name: Рюкзак
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: RMCScabbardMacheteFilled
@@ -250,7 +250,7 @@
       - id: RMCSatchelWelder
       - id: RMCSatchelWelderChestrig
         recommended: true
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -294,7 +294,7 @@
       - id: RMCPouchToolsFill
         name: підсумок для інструментів (Повний)
       - id: RMCPouchEngineerKit
-    - name: Розвантажувальний Жилет
+    - name: Розвантажувальні Жилети
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -310,7 +310,7 @@
       - id: RMCWebbingHolsterBlack
       - id: RMCToolWebbingSmallFilled
         name: small tool webbing (Full)
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas
@@ -343,7 +343,7 @@
     - name: Обладнання
       entries:
       - id: CMBeltUtility
-        name: реміньля інструментів зразка М276
+        name: ремінь для інструментів зразка М276
         amount: 4
       - id: RMCCableCoil
         amount: 4

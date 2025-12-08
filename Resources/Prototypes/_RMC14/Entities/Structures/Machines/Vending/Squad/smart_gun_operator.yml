@@ -139,7 +139,7 @@
       - id: CMVendorBundleRiflemanApparel
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: CMBeltSmartGunOperatorFilled
@@ -168,7 +168,7 @@
       - id: RMCPouchMacheteFilled
         name: підсумок для мачете (Повний)
     #- id: CMSlingPouch
-    - name: Розвантажувальний Жилет
+    - name: Розвантажувальні Жилети
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown
@@ -182,7 +182,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

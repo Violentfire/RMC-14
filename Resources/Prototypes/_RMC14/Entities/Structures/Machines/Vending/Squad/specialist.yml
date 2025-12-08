@@ -193,13 +193,13 @@
       - id: CMVendorBundleWeaponsSpecialistApparel
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Рюкзак
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine
       - id: CMSatchelMarine
         recommended: true
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -247,7 +247,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

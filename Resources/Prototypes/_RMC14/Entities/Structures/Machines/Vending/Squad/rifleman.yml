@@ -31,7 +31,7 @@
       - id: RMCArmorM3HeavyVariants
         name: важка броня
       - id: RMCArmorVestRifleman
-    - name: Рюкзак
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine
@@ -40,7 +40,7 @@
         name: сумка
         recommended: true
       - id: RMCScabbardShotgun
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: CMBeltMarine
@@ -56,7 +56,7 @@
       - id: CMBeltUtility
       - id: RMCBeltUtilityGeneral
       - id: RMCBeltGrenade
-    - name: Підсумок
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchBayonetFill
@@ -79,7 +79,7 @@
       - id: RMCPouchGeneral
       - id: RMCPouchMagazinePistol
       - id: RMCPouchPistol
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

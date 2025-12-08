@@ -243,14 +243,14 @@
         name: броня лідера загону зразка М4 (Стяжки)
       - id: RMCArmorVestSquadLeader
         name: захисний жилет лідера загону зразка М3-ЕЛ (Стяжки)
-    - name: Рюкзак
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine
       - id: RMCScabbardMacheteFilled
       - id: CMSatchelMarine
         recommended: true
-    - name: Ремінь
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -290,7 +290,7 @@
       - id: RMCPouchShotgunLarge
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchPistol
-    - name: Розвантажувальний Жилет
+    - name: Розвантажувальні Жилети
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -304,7 +304,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Маска
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

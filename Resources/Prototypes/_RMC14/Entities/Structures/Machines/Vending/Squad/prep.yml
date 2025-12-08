@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: КолМорТех стійка для зброї та боєприпасів КМПОН.
+  name: КолМорТех стійка для зброї та боєприпасів КМПОН
   description: Автоматизована стійка з видачі зброї та боєприпасів для морських піхотинців КМПОН.
   components:
   - type: AccessReader
@@ -15,7 +15,7 @@
     - "CMAccessMarinePrep"
     hackable: true
     sections:
-    - name: Основна зброя
+    - name: Основна Зброя
       entries:
       - id: WeaponRifleM4SPR
         amount: 10
@@ -40,7 +40,7 @@
         amount: 25
       - id: CMMagazineRifleM54C
         amount: 25
-    - name: Пістолет
+    - name: Пістолети
       entries:
       - id: RMCWeaponPistolM77Empty
         amount: 25
@@ -87,7 +87,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: КолМорТех стійка для додаткового спорядження КМПОН.
+  name: КолМорТех стійка для додаткового спорядження КМПОН
   description: Автоматизована стійка з видачі додаткового спорядження для морських піхотинців КМПОН.
   components:
   - type: AccessReader
@@ -120,7 +120,7 @@
         amount: 15
       - id: ArmorHelmetM10
         amount: 15
-    - name: Розвантажувальний Жилет
+    - name: Розвантажувальні Жилети
       entries:
       - id: CMWebbingBrown
         amount: 1
@@ -162,7 +162,7 @@
         amount: 10
       - id: RMCArmorM3LightPadded
         amount: 10
-    - name: Рюкзак
+    - name: Рюкзаки
       entries:
       - id: CMBackpackMarine
         amount: 15
@@ -190,7 +190,7 @@
         amount: 2
       - id: RMCBackpackRTO
         amount: 1
-    - name: Ремінь
+    - name: Ремені
       entries:
       - id: CMBeltMarine
         amount: 15
@@ -215,7 +215,7 @@
         amount: 15
       - id: RMCBeltUtilityGeneral
         amount: 15
-    - name: Підсумок
+    - name: Підсумки
       entries:
       - id: RMCPouchBayonetFill
         name: підсумок для ножів (Повний)
@@ -241,7 +241,7 @@
         amount: 15
       - id: RMCPouchPistol
         amount: 15
-    - name: Спеціальні підсумки
+    - name: Спеціальні Підсумки
       entries:
       - id: RMCPouchConstruction
         amount: 1
@@ -256,7 +256,7 @@
         amount: 1
 #      - id: Sling Pouch
 #        amount: 1
-    - name: Маска
+    - name: Маски
       entries:
       - id: CMMaskGas
         amount: 15
@@ -324,7 +324,7 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: КолМорТех стійка для особливої додаткової амуніції КМПОН.
+  name: КолМорТех стійка для особливої додаткової амуніції КМПОН
   description: Автоматизована стійка для особливої та додаткової амунції.
   components:
   - type: AccessReader
@@ -395,8 +395,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: стійка спорядження КолМорТех
-  description: Стійка з базовим оснащенням та інструментами загального призначення. Доступна кожному морпіху.
+  name: КолМорТех стійка для додаткового обладнання КМПОН
+  description: Автоматизована стійка для додаткового обладнання. Доступна кожному морпіху.
   components:
   - type: AccessReader
     access:
@@ -444,7 +444,7 @@
         amount: 10
       - id: RMCPackFlareCAS
         amount: 1
-    - name: Додаткове Спорядження
+    - name: Додаткове Обладнання
       entries:
       - id: RMCEngineerKit
         amount: 1
