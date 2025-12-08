@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipment
-  name: КолМорТех автоматизована стійка морпіхотного спорядження стрільця
-  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням стрільця морської піхоти.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Стрільця
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Стрільця морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -31,7 +31,7 @@
       - id: RMCArmorM3HeavyVariants
         name: важка броня
       - id: RMCArmorVestRifleman
-    - name: Наплічник
+    - name: Рюкзак
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine

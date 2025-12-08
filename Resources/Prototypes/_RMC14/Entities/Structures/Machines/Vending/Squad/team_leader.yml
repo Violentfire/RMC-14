@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLGear
-  name: КолМорТех стійка для обладнання лідера вогневої групи
-  description: Автоматизована стійка обладнання для лідера вогневої групи.
+  name: КолМорТех стійка для обладнання Лідера Вогневої Групи
+  description: Автоматизована стійка обладнання для Лідера Вогневої Групи.
   components:
   - type: AccessReader
     access:
@@ -55,7 +55,7 @@
         points: 10
       - id: CMMagazineRifleM54CExt
         points: 10
-    - name: Набої для Пістолету
+    - name: Набої Для Пістолету
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -156,8 +156,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLEquipment
-  name: КолМорТех автоматизована стійка морпіхотного спорядження лідера вогневої групи
-  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням лідера вогневої групи морської піхоти.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Лідера Вогневої Групи
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Лідера Вогневої Групи морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -168,7 +168,7 @@
     jobs:
     - CMFireteamLeader
     sections:
-    - name: Стандартне спорядження
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleFireteamLeaderApparel

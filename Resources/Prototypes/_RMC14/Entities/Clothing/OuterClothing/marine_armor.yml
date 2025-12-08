@@ -130,7 +130,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorB12
-  name: броня морпіха зразка B12
+  name: броня морпіха зразка Б12
   description: Легка броня, створена з вуглецевого волокна, що дозволяє носієві швидко пересуватися. Пофарбована у прекрасний лісисто-зелений колір. #cm13 calls all camo variants forest green. parity.
   components:
   - type: Sprite
@@ -660,8 +660,8 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM4
-  name: броня морпіха зразка M4 
-  description: Добре продуманий та якісно виготовлений гібрид кріплення для Смартгану та пластин M3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для ваших речей.
+  name: броня морпіха зразка М4 
+  description: Добре продуманий та якісно виготовлений гібрид кріплення для Смартгану та пластин М3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для ваших речей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m4/jungle.rsi
