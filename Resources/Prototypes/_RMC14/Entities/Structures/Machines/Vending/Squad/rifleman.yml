@@ -56,7 +56,7 @@
       - id: CMBeltUtility
       - id: RMCBeltUtilityGeneral
       - id: RMCBeltGrenade
-    - name: Підсумки
+    - name: Підсумок
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchBayonetFill

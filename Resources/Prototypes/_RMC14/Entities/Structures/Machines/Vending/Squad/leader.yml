@@ -349,8 +349,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitCM54C
-  name: набір M54C 
-  description: Містить M54C, кутовий хват, глушник, подовжений ствол та 2 ББ магазини.
+  name: набір М54С
+  description: Містить штурмову гвинтівку М54С, кутовий хват, глушник, подовжений ствол та 2 ББ магазини.
   components:
   - type: Storage
     maxItemSize: Huge
