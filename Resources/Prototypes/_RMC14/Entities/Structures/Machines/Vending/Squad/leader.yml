@@ -242,7 +242,7 @@
       - id: RMCArmorM4Zipties
         name: броня лідера загону зразка М4 (Стяжки)
       - id: RMCArmorVestSquadLeader
-        name: захисний жилет лідера загону зразка М3-XL (Стяжки)
+        name: захисний жилет лідера загону зразка М3-ЕЛ (Стяжки)
     - name: Рюкзак
       choices: { CMBackpack: 1 }
       entries:
