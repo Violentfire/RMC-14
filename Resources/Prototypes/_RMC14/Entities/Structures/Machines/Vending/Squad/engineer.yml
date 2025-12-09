@@ -47,7 +47,7 @@
         points: 5
         recommended: true
       - id: CMSheetPlasteel10
-        name: пласталь x10
+        name: пласталеві листи x10
         points: 7
         recommended: true
       - id: RMCExplosivePlastic
@@ -273,13 +273,13 @@
       - id: RMCPouchConstruction
         recommended: true
       - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
+        name: підсумок першої допомоги (багаторазові автоінжектори)
         recommended: true
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
+        name: підсумок першої допомоги (марля, мазь) # TODO RMC14 splints comma
         recommended: true
       - id: RMCPouchFirstAidPills
-        name: first-aid pouch (pills)
+        name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchElectronicsFill
         name: підсумок для електроніки (Повний)
@@ -309,7 +309,7 @@
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
       - id: RMCToolWebbingSmallFilled
-        name: small tool webbing (Full)
+        name: маленький жилет для інструментів (Повний)
     - name: Маски
       choices: { CMMask: 1 }
       entries:

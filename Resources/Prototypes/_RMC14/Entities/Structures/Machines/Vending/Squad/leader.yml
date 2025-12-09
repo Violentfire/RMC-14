@@ -82,7 +82,7 @@
         points: 5
         recommended: true
       - id: CMSheetPlasteel10
-        name: пласталь x10
+        name: пласталеві листи x10
         points: 7
         recommended: true
       - id: RMCExplosivePlastic
@@ -369,7 +369,7 @@
   parent: RMCKitBase
   id: RMCKitEngineering
   name: набір інженерного обладнання
-  description: Містить підсумок для матеріалів (50 металевих листів, 50 пласталі та 15 колючого дроту) та пісумок для електроніки (3 модулі контролю потужності та 3 батареї великої ємності).
+  description: Містить підсумок для матеріалів (50 металевих листів, 50 пласталевих листів та 15 колючого дроту) та пісумок для електроніки (3 модулі контролю потужності та 3 батареї великої ємності).
   components:
   - type: Storage
     maxItemSize: Huge
