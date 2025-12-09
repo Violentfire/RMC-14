@@ -55,7 +55,7 @@
         points: 10
       - id: CMMagazineRifleM54CExt
         points: 10
-    - name: Набої Для Пістолета
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6

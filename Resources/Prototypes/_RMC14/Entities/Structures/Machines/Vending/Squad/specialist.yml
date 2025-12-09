@@ -259,7 +259,7 @@
         points: 15
       - id: RMCGunCasePistolSmart
         points: 15
-    - name: Набої Для Пістолета
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
