@@ -182,7 +182,7 @@
         amount: 15
       - id: RMCScabbardShotgun
         amount: 5
-    - name: Особливі рюкзак
+    - name: Особливі Рюкзаки
       entries:
       - id: CMBackpackWelder
         amount: 1
