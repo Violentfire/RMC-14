@@ -168,7 +168,7 @@
       - id: RMCPouchMacheteFilled
         name: підсумок для мачете (Повний)
     #- id: CMSlingPouch
-    - name: Розвантажувальні Жилети
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown

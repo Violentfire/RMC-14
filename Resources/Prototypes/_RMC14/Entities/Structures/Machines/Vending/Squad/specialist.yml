@@ -233,7 +233,7 @@
       - id: RMCPouchGeneralMedium
       - id: RMCPouchPistol
       #- id: CMSlingPouch
-    - name: Розвантажувальний Жилет
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown

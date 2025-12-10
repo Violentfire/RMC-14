@@ -290,7 +290,7 @@
       - id: RMCPouchShotgunLarge
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchPistol
-    - name: Розвантажувальні Жилети
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack

@@ -227,7 +227,7 @@
       - id: RMCPouchToolsFill
         recommended: true
         name: підсумок для інструментів (Повний)
-    - name: Розвантажувальні Жилети
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
