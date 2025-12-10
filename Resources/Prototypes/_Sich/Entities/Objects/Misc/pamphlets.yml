@@ -19,7 +19,7 @@
         sprite: _Sich/Interface/cm_job_icons.rsi
         state: hudsquad_sherpa
       giveMapBlip:
-        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        sprite: /Textures/_Sich/Interface/map_blips.rsi
         state: sherpa
       jobWhitelists:
         - popup: rmc-pamphlets-rifleman-warning
