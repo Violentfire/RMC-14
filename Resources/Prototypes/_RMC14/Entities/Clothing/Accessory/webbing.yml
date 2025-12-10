@@ -96,7 +96,7 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouch
-  name: підсумок на ногу
+  name: камуфльований підсумок на ногу
   description: Камуфльований підсумок, що кріпиться на ногу. Такий носять мисливці, військові та люди, що мріють бути військовими.
   components:
   - type: Sprite
