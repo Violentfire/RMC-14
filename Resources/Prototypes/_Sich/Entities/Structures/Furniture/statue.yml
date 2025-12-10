@@ -1,0 +1,54 @@
+- type: entity
+  parent: MarkerBase
+  id: SichStatueSpawner
+  name: спавнер статуй Січі
+  components:
+  - type: Sprite
+    state: red
+  - type: RandomSpawner
+    prototypes:
+    - SichStatueNich
+    - SichStatueNyavka
+    - SichStatueSyrena
+
+- type: entity
+  parent: BaseStructure
+  id: SichStatueNich
+  name: статуя героя
+  suffix: Ніч
+  description: "Кам'яна статуя на честь героя КМПОН. Золотими літерами викарбувано ім'я: Еікіі 'Ніч' та перераховано всіх паразитів вбитих трубою"
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Furniture/statues.rsi
+    state: nich
+    drawdepth: Mobs
+    noRot: true
+    offset: "0.0,0.5"
+
+- type: entity
+  parent: BaseStructure
+  id: SichStatueNyavka
+  name: статуя героя
+  suffix: Нявка
+  description: "Кам'яна статуя на честь героя КМПОН. Золотими літерами викарбувано ім'я: Куроме 'Нявка' Нявковська та зазначено її виразну любов до міномету"
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Furniture/statues.rsi
+    state: nyavka
+    drawdepth: Mobs
+    noRot: true
+    offset: "0.0,0.5"
+
+- type: entity
+  parent: BaseStructure
+  id: SichStatueSyrena
+  name: статуя героя
+  suffix: Сирена
+  description: "Кам'яна статуя на честь героя КМПОН. Золотими літерами викарбувано ім'я: Джек 'Сирена' Картер та слова  «ОБ...Куд.- ПОБ?!»"
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Furniture/statues.rsi
+    state: syrena
+    drawdepth: Mobs
+    noRot: true
+    offset: "0.0,0.5"

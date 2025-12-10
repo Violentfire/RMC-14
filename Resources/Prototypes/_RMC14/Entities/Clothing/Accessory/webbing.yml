@@ -395,8 +395,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingClipOnPouch
-  name: clip-on pouch
-  description: A clip on synth-leather pouch designed to house a small collection of items for ML66A weapon operators.
+  name: кліпсовий підсумок
+  description: Кліпосовий підсумок з синтетичної шкіри, призначений для носіння додаткових дрібниць операторів важкого кулемету підтримки МЛ66А.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/ml66a_pouch.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingGrenade
-  name: clip-on grenade band
-  description: A sturdy mess of synth-leather band designed to store a few grenades for ML66A weapon operators.
+  name: кліпсова стрічка для гранат
+  description: Кліпсова стрічка для гранат, призначена для носіння додаткових гранат операторів важкого кулемету підтримки МЛ66А.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/grenade_pouch.rsi

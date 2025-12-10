@@ -1,5 +1,5 @@
 - type: gamePreset
-  id: SichEvent
+  id: SichEventSunRiders
   alias:
   - event
   - Event
@@ -7,4 +7,15 @@
   description: sich-event-preset-description
   showInVote: false
   rules:
-  - SichEvent
+  - SichEventSunRiders
+
+- type: gamePreset
+  id: SichCalmed
+  alias:
+  - calmed
+  - Calmed
+  name: sich-calmed-preset-title
+  description: sich-calmed-preset-description
+  showInVote: false
+  rules:
+  - SichCalmed

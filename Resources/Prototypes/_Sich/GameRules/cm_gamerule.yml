@@ -1,5 +1,5 @@
 - type: entity
-  id: SichEvent
+  id: SichEventSunRiders
   parent: CMDistressSignal
   categories: [ HideSpawnMenu ]
   components:
@@ -8,4 +8,18 @@
     spawnXenos: false         # готових ксено не заспавнить
     spawnSurvivors: false     # готових виживших не заспавнить
     roundEndCheckDelay: 10800 # перша перевірка чи виконано умови для завершення раунду відбудеться 3 години після старту раунду
-    squadIds: ["SquadAlpha"] # один загін
+    bioscan: false            # без біоскану
+    startARESAnnouncements: false # АРЕС не вітає морпіхів
+    squadIds: ["SquadSunRiders"] # загін "Сонячні вершники" з івентового корабля
+    extraSquadIds: []         # без інтелу й форкону(сурви не спавняться)
+
+- type: entity
+  id: SichCalmed
+  parent: CMDistressSignal
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: CMDistressSignalRule
+    requireXenoPlayers: false 
+    spawnXenos: false         
+    spawnSurvivors: false     
+    roundEndCheckDelay: 10800 # 3 години

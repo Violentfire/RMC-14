@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseItem
   id: RMCIntelBase
@@ -25,7 +25,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelPaperScrap
   name: паперовий клаптик
-  description: Клаптик паперу, ви думаєте, що деякі слова можливо прочитати.
+  description: Клаптик паперу, вам здається, що деякі слова все ще можливо прочитати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -41,7 +41,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
   name: звіт про прогрес
-  description: Письмовий звіт працівника своєму керівнику про хід виконання якогось проекту
+  description: Письмовий звіт до керівника про хід виконання якогось проєкту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -89,7 +89,7 @@
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
   name: технічний посібник
-  description: Технічний посібник з детальним описом, який може бути корисним для тих, хто має відношення до відповідної галузі.
+  description: Детальний технічний посібник, вам здається, що він може бути корисним для тих хто має відношення до цієї галузі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsole
-  name: консоль дерева технологій
+  name: консоль авторизації активів
   description: Консоль для відкриття технологій.
   components:
   - type: Sprite
@@ -179,7 +179,7 @@
             state: upgrade
       -
         - name: Збільшення Бюджету Запитів
-          description: Розподіляє ресурси до заявок для витрат.
+          description: Збільшує бюджет постачання для закупівлі оснащення.
           cost: 7
           increase: 1
           repurchasable: true
@@ -192,8 +192,8 @@
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_req
-        - name: Збільшення ресурсів десантного корабля
-          description: Розподіляє ресурси до фабрикатора десантного корабля.
+        - name: Додаткові очки для фабрикатора деталей
+          description: Розподіляє ресурси до фабрикатора деталей шатлів.
           cost: 6
           increase: 1
           repurchasable: true
@@ -202,7 +202,7 @@
             amount: 2000
           - !type:TechAnnounceEvent
             author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Для цієї операції дозволено додаткові очки фабрикатора деталей десантного корабля.
+            message: Для цієї операції надано додаткові ресурси фабрикатору деталей шатлів.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_ds
@@ -222,8 +222,8 @@
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Додаткові орбітальні боєголовки.
-          description: Боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
+        - name: Додаткова орбітальна боєголовка.
+          description: Боєприпас для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -232,12 +232,12 @@
             object: RMCOrbitalCannonWarheadExplosive
           - !type:TechAnnounceEvent
             author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Додаткові боєголовки орбітального бомбардування були доставлені до постачання.
+            message: Додаткова боєголовка орбітального бомбардування була доставлена до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_he
-        - name: Додаткові запалювальні снаряди для ОБ
-          description: Запальні боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
+        - name: Додаткова запалювальна боєголовка для ОБ
+          description: Запальна боєголовка для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -246,12 +246,12 @@
             object: RMCOrbitalCannonWarheadIncendiary
           - !type:TechAnnounceEvent
             author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Додаткові запальні боєголовки для орбітального бомбардування були доставлені до постачання.
+            message: Додаткова запальна боєголовка для орбітального бомбардування була доставлена до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_incend
-        - name: Додаткові кластерні снаряди для ОБ
-          description: Кластерні боєприпаси для орбітального бомбардування, що заряджаються в орбітальну гармату.
+        - name: Додаткова кластерна боєголовка для ОБ
+          description: Кластерна боєголовка для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -260,7 +260,7 @@
             object: RMCOrbitalCannonWarheadCluster
           - !type:TechAnnounceEvent
             author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ 
-            message: Додаткові кластерні боєголовки для орбітального бомбардування були доставлені до постачання.
+            message: Додаткова кластерна боєголовка для орбітального бомбардування була доставлена до постачання.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_cluster

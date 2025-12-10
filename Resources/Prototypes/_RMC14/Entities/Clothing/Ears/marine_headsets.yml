@@ -418,8 +418,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetGoldenArrow
-  name: sun riders radio headset
-  description: This is used by the UNMC Sun Riders Platoon.
+  name: морпіхотна гарнітура сонячних вершників
+  description:  Використовується для радіоперемовин взводом Сонячних Вершників.
   components:
   - type: Sprite
     state: delta_headset

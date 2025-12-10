@@ -10,7 +10,7 @@
     time: 10800 # 3 hours
   ranks:
     RMCRankLanceCorporal: []
-  spawnMenuRoleName: Sun Rider Hospital Corpsman (PVE)
+  spawnMenuRoleName: Бойовий Медик Сонячних Вершників (PVE)
   startingGear: RMCGearPVEHospitalCorpsman
   dummyStartingGear: CMGearHospitalCorpsmanEquipped
   icon: "CMJobIconHospitalCorpsman"

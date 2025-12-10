@@ -1,9 +1,9 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunPVENoCamo
   abstract: true
-  name: ML66A heavy support gun
-  description: The actual firearm in the Support Gun System. Essentially a heavy, mobile machinegun.
+  name: МЛ66A важкий кулемет підтримки
+  description: Важкий мобільний кулемет підтримки МЛ66А, оснащений системою УДВ та спеціальним кріпленням.
   suffix: PVE
   components:
   - type: Wieldable
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentSmartgunHarness # TODO RMC14 - This should remove GunRequiresWield when active
-  name: ML66A heavy support gun harness
-  description: A specialized harness for the ML66A heavy support gun, assisting with recoil control and stability, while also allowing for easy manuvering of the weapon and even suspending it without a grip.
+  name: кріплення важкого кулемету підтримки МЛ66А
+  description: Спеціальне кріплення для МЛ66А, дозволяє закріпити кулемет до вашого спорядження для покращеної маневреності та стабільності при стрільбі.
   suffix: PVE, DO NOT MAP FOR PVP.
   components:
   - type: Sprite
@@ -240,8 +240,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
       state: smartgun_harness
-    actionName: Toggle ML66A Heavy Support Gun Harness
-    actionDesc: Lock the harness to your rig.
+    actionName: Закріпити МЛ66А
+    actionDesc: Закріплює МЛ66А до бойового кріплення
   - type: AttachablePreventDropToggleable
   - type: AttachableWeaponRangedMods
     modifiers:

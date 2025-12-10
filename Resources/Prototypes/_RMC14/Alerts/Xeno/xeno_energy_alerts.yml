@@ -48,23 +48,23 @@
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyAcider
-  name: Acid reserves
-  description: Your stored acid. Used by different abilities. You can only passively generate up to 400.
+  name: Запас кислоти
+  description: Ваша накопичена кислота. Використовується різними здібностями. Ви можете пасивно генерувати до 400 одиниць.
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyValkyrie
-  name: Fury
-  description: Your built-up rage. Used by different abilities.
+  name: Лють
+  description: Ваша накопичена лють. Використовується різними здібностями.
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyHealer
-  name: Transferred health
-  description: Your total health transferred. If full you'll revive after using sacrifice.
+  name: Енергія лікування
+  description: Ваша енергія, яку ви отримуєте при лікуванні ксестер. Якщо її шкала повна - після пожертви ви відродитеся
 
 - type: alert
   parent: XenoEnergyBase
   id: XenoEnergyShards
-  name: Shards
-  description: Your built-up shards. Used by different abilities. You gain more armor with more shards.
+  name: Голки
+  description: Ваші накопичені голки. Використовуються різними здібностями. Чим більше голок, тим більше броні ви маєте.

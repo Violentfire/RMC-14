@@ -63,7 +63,7 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletSpotter
-  name: довідник розвідника
+  name: довідник навідника
   description: Він навчить вас правильно дивитися в бінокль.
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
   parent: CMPamphlet
   id: CMPamphletPowerloader
   name: довідник по навантажувачу
-  description: A pamphlet used to quickly impart vital knowledge. This one has a powerloader insignia. The title reads 'Moving freight and squishing heads - a practical guide to a Work Loader'.
+  description: На обгордці довідника написано 'Перевезення вантажів і розчавлювання голів - практичний посібник для оператора навантажувача'.
   components:
     - type: Sprite
       state: pamphlet_powerloader
@@ -174,8 +174,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletMortarOperator
-  name: mortar operator instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a mortar on it.
+  name: довідник оператора міномета
+  description: Навчить вас як швидко закидати міну в ствол міномета і не втратити декілька пальців.
   components:
   - type: Sprite
     state: pamphlet_mortar

@@ -6,7 +6,7 @@
   playTimeTracker: CMJobPVESmartGunOperator
   ranks:
     RMCRankCorporal: []
-  spawnMenuRoleName: Sun Rider Smart Gun Operator (PVE)
+  spawnMenuRoleName: Оператор СмартГану Сонячних Вершників (PVE)
   supervisors: cm-job-supervisors-secserg
   startingGear: RMCGearPVESmartGunOperator
   dummyStartingGear: CMGearSmartGunOperatorEquipped

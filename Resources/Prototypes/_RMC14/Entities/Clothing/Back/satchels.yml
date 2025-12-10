@@ -556,8 +556,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCBackpackRTO
-  name: UNMC radio telephone pack
-  description: A heavy-duty pack, used for telecommunications between central command. Commonly carried by RTOs.
+  name: радіотелефонний рюкзак КМПОН
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншим телефоном.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/rto.rsi

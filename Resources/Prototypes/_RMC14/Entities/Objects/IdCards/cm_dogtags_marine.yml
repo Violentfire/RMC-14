@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: CMIDCardStandardDogtag
   id: CMDogtagRifleman
   name: Жетони Стрільця
@@ -94,7 +94,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagPVEHospitalCorpsman
-  name: Hospital Corpsman's dogtags
+  name: жетони Бойового Медика
+  suffix: PVE #Sich
   components:
   - type: PresetIdCard
     job: CMPVEHospitalCorpsman
@@ -107,7 +108,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagPVERifleman
-  name: Rifleman's dogtags
+  name: жетони Стрільця
+  suffix: PVE #Sich
   components:
   - type: PresetIdCard
     job: CMPVERifleman
@@ -120,7 +122,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagPVESmartGunOperator
-  name: Smart Gun Operator's dogtags
+  name: жетони Оператора Смартгана
+  suffix: PVE #Sich
   components:
   - type: PresetIdCard
     job: CMPVESmartGunOperator
@@ -133,7 +136,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagPVESquadLeader
-  name: Squad Leader's dogtags
+  name: жетони Лідера Загону
+  suffix: PVE #Sich
   components:
   - type: PresetIdCard
     job: CMPVESquadLeader
@@ -146,7 +150,8 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagPVESectionSergeant
-  name: Section Sergeant's dogtags
+  name: жетони Сержанта Відділення
+  suffix: PVE #Sich
   components:
   - type: PresetIdCard
     job: CMPVESectionSergeant

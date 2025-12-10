@@ -50,9 +50,9 @@ cm-burns-already-treated-target-popup = Опіки {$target} вже обробл
 
 cm-wounds-brackets-translators-note = {"{ }"} = Не оброблено
 
-cm-wounds-failed-unskilled = Ви навіть не здогадуєтеся, як використовувати {THE($treater)}!
+cm-wounds-failed-unskilled = Ви навіть не здогадуєтеся, як використовувати {$treater}!
 cm-wounds-failed-not-enough = У вас недостатньо {$treater}!
 cm-wounds-open-cut = {$target} розрізано, вам треба щось більше ніж {$treater}!
-cm-wounds-cannot-treat = {THE($treater)} не лікує такі рани!
+cm-wounds-cannot-treat = {$treater} не лікує такі рани!
 cm-wounds-already-treated = Рани {$target} вже оброблені!
-cm-wounds-start-fumbling = Ви починаєте лікувати за допомогою {THE($name)}.
+cm-wounds-start-fumbling = Ви починаєте лікувати за допомогою {$name}.

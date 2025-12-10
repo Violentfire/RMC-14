@@ -1,0 +1,24 @@
+- type: gameMap
+  id: SichUNSTundra
+  mapName: Наполеон
+  mapPath: /Maps/_Sich/tundra.yml
+  minPlayers: 0
+  maxRandomOffset: 0
+  randomRotation: false
+  stations:
+    UNSTundra:
+      stationProto: StandardUNMCWarship
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'ДКП-Тундра "Наполеон"'
+        - type: StationJobs
+          availableJobs:
+            # Command
+            CMPVEPlatoonCommander: [1, 1]
+
+            # Marines
+            CMPVESectionSergeant: [1, 1]
+            CMPVESquadLeader: [2, 2]
+            CMPVESmartGunOperator: [2, 2]
+            CMPVEHospitalCorpsman: [2, 2]
+            CMPVERifleman: [ 10, 10 ]

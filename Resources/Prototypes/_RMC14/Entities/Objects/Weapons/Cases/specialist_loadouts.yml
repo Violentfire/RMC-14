@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
   name: набір снайпера
@@ -32,8 +32,8 @@
 - type: entity
   parent: CMSniperEquipmentCase
   id: RMCAntiMaterielEquipmentCase
-  name: anti-materiel sniper equipment case
-  description: "A large case containing your very own long-range XM43E1 anti-materiel sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
+  name: набір антиматеріального снайпера
+  description: "Великий кейс що містить снайперську гвинтівку XM43E1, масхалат, маскувальний шолом M45, набої, обладнання для спостереження та додаткове спорядження. \n\nПРИМІТКА: Ви не можете покласти предмети назад у цей кейс."
   components:
   - type: StorageFill
     contents:
@@ -223,7 +223,7 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitSpotter
-  name: spotter kit
+  name: набір навідника
   components:
   - type: Storage
     maxItemSize: Huge
