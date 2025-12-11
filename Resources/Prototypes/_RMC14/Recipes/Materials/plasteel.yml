@@ -1,6 +1,6 @@
 - type: rmcConstruction
   id: RMCPlasteelBarricadeFoldableBuild
-  name: folding plasteel barricade
+  name: підйомна пласталева барикада
   prototype: CMBarricadePlasteelDoor
   doAfterTime: 4
   doAfterTimeMin: 2
@@ -10,7 +10,7 @@
 
 - type: rmcConstruction
   id: RMCPlasteelBarricadeBuild
-  name: plasteel barricade
+  name: пласталева барикада
   prototype: RMCBarricadePlasteel
   doAfterTime: 8
   doAfterTimeMin: 2
@@ -20,7 +20,7 @@
 
 - type: rmcConstruction
   id: RMCReinforcedWindowFrameBuild
-  name: reinforced window frame
+  name: армована віконна рама
   prototype: RMCWindowFrameColonyReinforced
   noRotate: true
   doAfterTime: 4
@@ -30,7 +30,7 @@
 
 - type: rmcConstruction
   id: RMCPlasteelRodBuild
-  name: plasteel rod
+  name: пласталевий прут
   prototype: CMRodPlasteel1
   doAfterTime: 0
   doAfterTimeMin: 0
@@ -43,7 +43,7 @@
 
 - type: rmcConstruction
   id: RMCMetalCrateBuild
-  name: metal crate
+  name: сталевий ящик
   prototype: RMCCrateMetalBuildable
   restrictedCollisionGroup: MidImpassable
   noRotate: true

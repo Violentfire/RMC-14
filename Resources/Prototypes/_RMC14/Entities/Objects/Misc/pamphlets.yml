@@ -147,8 +147,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletLoader
-  name: довідник помічника підривника
-  description: Навчить вас як правильно запихувати ракету в трубу, щоб та не вибухнула.
+  name: довідник заряджаючого
+  description: Навчить вас як правильно запихувати ракету в гранатомет, щоб та не вибухнула.
   components:
   - type: Sprite
     state: pamphlet_loader

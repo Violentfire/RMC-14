@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseItem
+  id: SichRMCBackpackAmmoFolded
+  name: ВРС загального призначення 
+  description: Згорнута вантажна рама для спорядження. Розгорніть перед використанням.
+  suffix: згонута
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Back/Backpacks/Marines/ammo_rack.rsi
+    state: ammo_pack-0
+  - type: SpawnItemsOnUse
+    items:
+    - id: RMCBackpackAmmo
+      amount: 1

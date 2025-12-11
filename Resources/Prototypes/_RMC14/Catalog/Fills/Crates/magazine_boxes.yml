@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBatterySmartGun
-  name: Ящик з батареями для смарт-кулемету МЛ66A (4 шт.)
+  name: Ящик з батареями для СмартГану МЛ66A (4 шт.)
   components:
   - type: StorageFill
     contents:
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineSmartGun
-  name: Ящик з барабанними магазинами для смарт-кулемету МЛ66A (2 шт.)
+  name: Ящик з барабанними магазинами для СмартГану МЛ66A (2 шт.)
   components:
   - type: StorageFill
     contents:

@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCExplosiveUpgrade
-  name: composite upgrade (++Explosive, ++Projectile, ++Fire)
+  name: вибухостійке покращення (++Вибухи, ++Снаряди, ++Вогонь)
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-explosive
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCBiohazardUpgrade
-  name: biohazard upgrade (+Burn)
+  name: антикислотне покращення (+Кислота)
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-burn
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCBarricadeUpgradeBase
   id: RMCBruteUpgrade
-  name: reinforced upgrade (+Brute)
+  name: ударостійке покращення (+Фізична шкода)
   components:
   - type: RMCConstructionUpgrade
     upgradedPopup: rmc-construction-upgrade-brute
@@ -189,7 +189,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBurn
-  suffix: Біозахисна
+  suffix: Biohazard
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -212,7 +212,7 @@
 - type: entity
   parent: CMBarricadeMetal
   id: CMBarricadeBrute
-  suffix: Посилена
+  suffix: Reinforced
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi

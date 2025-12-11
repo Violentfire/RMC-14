@@ -6,7 +6,7 @@
 
 - type: rmcConstruction
   id: RMCBarbedWireBuild
-  name: barbed wire
+  name: колючий дріт
   prototype: BarbedWire1
   doAfterTime: 1
   doAfterTimeMin: 1
@@ -20,7 +20,7 @@
 
 - type: rmcConstruction
   id: RMCMetalBarricadeBuild
-  name: metal barricade
+  name: сталева барикада
   prototype: CMBarricadeMetal
   doAfterTime: 2
   doAfterTimeMin: 1
@@ -28,7 +28,7 @@
 
 - type: rmcConstruction
   id: RMCMetalBarricadeFoldableBuild
-  name: folding metal barricade
+  name: підйомна сталева барикада
   prototype: CMBarricadeMetalDoor
   doAfterTime: 3
   doAfterTimeMin: 1.5
@@ -38,7 +38,7 @@
 
 - type: rmcConstruction
   id: RMCHandrailBuild
-  name: handrail
+  name: перила
   prototype: RMCBarricadeHandrail
   doAfterTime: 2
   doAfterTimeMin: 1
@@ -46,7 +46,7 @@
 
 - type: rmcConstruction
   id: RMCFloorTileBuild
-  name: floor tile (x4)
+  name: металева підлога (x4)
   prototype: CMTileItemSteel
   doAfterTime: 0
   doAfterTimeMin: 0
@@ -59,7 +59,7 @@
 
 - type: rmcConstruction
   id: RMCMetalRodBuild
-  name: metal rod (x2)
+  name: металевий прут (x2)
   prototype: CMRodMetal1
   doAfterTime: 0
   doAfterTimeMin: 0
@@ -75,7 +75,7 @@
 
 - type: rmcConstruction
   id: RMCWallGirderBuild
-  name: wall girder
+  name: балка
   prototype: CMGirder
   noRotate: true
   doAfterTime: 5
@@ -85,7 +85,7 @@
 
 - type: rmcConstruction
   id: RMCWindowFrameBuild
-  name: window frame
+  name: віконна рама
   prototype: RMCWindowFrameAlmayer
   noRotate: true
   doAfterTime: 5
@@ -96,7 +96,7 @@
 # Bed
 - type: rmcConstruction
   id: RMCBedBuild
-  name: bed
+  name: ліжко
   prototype: CMBed
   noRotate: true
   doAfterTime: 0.5
@@ -106,7 +106,7 @@
 # Foldable Chair
 - type: rmcConstruction
   id: RMCChairBuild
-  name: chair
+  name: стілець
   prototype: CMChair
   materialCost: 1
   restrictedTags: [RMCSeat]
@@ -114,7 +114,7 @@
 # Comfy Chairs
 - type: rmcConstruction
   id: RMCComfyChairList
-  name: comfy chairs (2 metal sheets) #material cost written manually since the lists won't show costs
+  name: зручний стілець (2 металеві листи) #material cost written manually since the lists won't show costs
   prototype: CMChairComfy
   listed:
   - RMCComfyChairBeigeBuild
@@ -125,35 +125,35 @@
 
 - type: rmcConstruction
   id: RMCComfyChairBeigeBuild
-  name: beige comfy chair
+  name: бежевий зручний стілець
   prototype: CMChairComfyBeige
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBlackBuild
-  name: black comfy chair
+  name: чорний зручний стілець
   prototype: CMChairComfyBlack
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBrownBuild
-  name: brown comfy chair
+  name: коричневий зручний стілець
   prototype: CMChairComfy
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairLimeBuild
-  name: lime comfy chair
+  name: лаймовий зручний стілець
   prototype: CMChairComfyLime
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairTealBuild
-  name: teal comfy chair
+  name: бірюзовий зручний стілець
   prototype: CMChairComfyTeal
   materialCost: 2
   restrictedTags: [RMCSeat]
@@ -161,7 +161,7 @@
 # Squad Chairs
 - type: rmcConstruction
   id: RMCSquadChairList
-  name: squad chairs (2 metal sheets) #material cost written manually since the lists won't show costs
+  name: зручні стільці загонів (2 металеві листи) #material cost written manually since the lists won't show costs
   prototype: CMChairComfy
   listed:
   - RMCComfyChairAlphaBuild
@@ -171,28 +171,28 @@
 
 - type: rmcConstruction
   id: RMCComfyChairAlphaBuild
-  name: alpha squad chair
+  name: зручний стілець альфи
   prototype: CMChairComfyAlpha
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairBravoBuild
-  name: bravo squad chair
+  name: зручний стілець браво
   prototype: CMChairComfyBravo
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairCharlieBuild
-  name: charlie squad chair
+  name: зручний стілець чарлі
   prototype: CMChairComfyCharlie
   materialCost: 2
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCComfyChairDeltaBuild
-  name: delta squad chair
+  name: зручний стілець дельти
   prototype: CMChairComfyDelta
   materialCost: 2
   restrictedTags: [RMCSeat]
@@ -200,7 +200,7 @@
 # Office Chairs
 - type: rmcConstruction
   id: RMCOfficeChairList
-  name: office chairs (5 metal sheets) #material cost written manually since the lists won't show costs
+  name: офісне крісло (5 металевих листів) #material cost written manually since the lists won't show costs
   prototype: CMChairOfficeDark
   listed:
   - RMCOfficeChairDarkBuild
@@ -208,21 +208,21 @@
 
 - type: rmcConstruction
   id: RMCOfficeChairDarkBuild
-  name: dark office chair
+  name: темне офісне крісло
   prototype: CMChairOfficeDark
   materialCost: 5
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCOfficeChairWhiteBuild
-  name: white office chair
+  name: біле офісне крісло
   prototype: CMChairOfficeWhite
   materialCost: 5
   restrictedTags: [RMCSeat]
 
 - type: rmcConstruction
   id: RMCMachineFrameBuild
-  name: machine frame
+  name: корпус машини
   prototype: CMMachineFrameUnfinished
   noRotate: true
   doAfterTime: 2.5

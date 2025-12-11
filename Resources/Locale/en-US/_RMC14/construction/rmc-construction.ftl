@@ -6,7 +6,7 @@ rmc-construction-failure = Ви не навчені будувати {$ent}!
 rmc-construction-melted = Ви не можете підійти близько - воно плавиться!
 
 rmc-construction-upgrade-explosive = Ви звели вибухостійке покращення.
-rmc-construction-upgrade-burn = Ви звели біозахистне покращення.
+rmc-construction-upgrade-burn = Ви звели антикислотне покращення.
 rmc-construction-upgrade-brute = Ви додали кілька металевих пластин до барикади.
 
 rmc-construction-untrained-build = Ви не навчені щоб будувати це...

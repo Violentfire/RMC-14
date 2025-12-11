@@ -43,10 +43,10 @@ rmc-job-prefix-loader = ЗРД
 rmc-job-name-spotter = Навідник
 rmc-job-prefix-spotter = НВД
 
-rmc-job-name-weapons-specialist-demo = Спеціаліст-Підривник
-rmc-job-prefix-weapons-specialist-demo = ПДР
+rmc-job-name-weapons-specialist-demo = Спеціаліст-Ракетник
+rmc-job-prefix-weapons-specialist-demo = РК
 
-rmc-job-name-weapons-specialist-grenadier = Спеціаліст-Гренадер
+rmc-job-name-weapons-specialist-grenadier = Спеціаліст-Гранатометник
 rmc-job-prefix-weapons-specialist-grenadier = ГРН
 
 rmc-job-name-weapons-specialist-sniper = Спеціаліст-Снайпер

@@ -131,8 +131,8 @@
 - type: entity
   parent: CMArmorM4PMHeavy
   id: CMArmorM4PMCSmartGunHarness
-  name: PMC gun operator armor
-  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
+  name: броня оператора СмартГана ПВК
+  description: Модифікація стандартної броні М3, оснащена підсиленими ременями та стропами, що дозволяють користувачу носити СмартГан МЛ66A.
   components:
   - type: RMCArmorSpeedTier
     speedTier: light
@@ -148,8 +148,8 @@
 - type: entity
   parent: CMArmorM4PMCSmartGunHarness
   id: CMArmorM4PMCSmartGunHarnessCommando
-  name: M5Xg exoskeleton gun operator armor
-  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
+  name: екзоскелетна броня оператора СмартГана М5П
+  description: Складна система накладених одна на одну пластин, призначена для того, щоб зробити власника практично невразливим до стрілецької зброї. Пасивний екзоскелет підтримує вагу броні, дозволяючи користувачу переносити її масивний об'єм. Цей варіант розроблений для роботи зі СмартГаном МЛ66A
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi

@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: RMCGlassesM4SPRBattleSight
-  name: налобний візор M4SPR
-  description: "Налобний візор для M4SPR. Оснащений системою нічного бачення і показує стан здоров’я союзників через сенсори їхнього спорядження."
+  name: налобний візор М4СПГ
+  description: Налобний візор для М4СПГ. Оснащений системою нічного бачення і показує стан здоров'я союзників через сенсори їхнього спорядження.
   components:
   - type: Item
     storedRotation: 0
@@ -92,7 +92,7 @@
   parent: ClothingEyesBase
   id: RMCGlassesSmartGunSight
   name: налобний візор МЛ66A # TODO RMC14 meson tile vision see description below
-  description: Налобний візор для смартгана МЛ66A. Оснащений системою нічного бачення. # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
+  description: Налобний візор для СмартГана МЛ66A. Оснащений системою нічного бачення. # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
   components:
   - type: Item
     storedRotation: 0

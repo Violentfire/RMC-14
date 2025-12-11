@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: RMCParachute
-  name: parachute
-  description: A surprisingly small yet bulky pack with just enough safety straps to make RnD pass health and safety. The label says the pack comes with two parachutes - main and reserve, but you doubt the pack can fit even one.
+  name: парашут
+  description: На диво невеликий, але масивний рюкзак із достатньою кількістю страхувальних ременів, аби пройти перевірку з охорони праці та безпеки. Етикетка стверджує, що в комплекті є два парашути – основний і запасний, але ви сумніваєтеся, що в цей рюкзак поміститься хоча б один.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/Parachute/parachute.rsi

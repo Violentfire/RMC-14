@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCRangefinder
   id: RMCLaserDesignatorSpotter
-  name: spotter's laser designator
-  description: "A specially-designed laser designator, issued to UNMC spotters, with two modes: target marking for CAS with IR laser and rangefinding. Click a tile to target something. Additionally, a trained spotter can laze targets for a UNMC marksman, increasing the speed of target acquisition. A targeting beam will connect the binoculars to the target, but it may inherit the user's cloak, if possible."
+  name: лазерний цілевказівник навідника
+  description: "Спеціально розроблений лазерний цілевказівник, виданий Навідникам КМПОН, з двома режимами: маркування цілі для БАП за допомогою ІЧ-лазера та визначення коорданат. Клацніть на плитку, щоб націлити щось. Крім того, навчений Навідник може позначати цілі для снайпера КМПОН, збільшуючи швидкість підготовки прицільного пострілу. Промінь наведення з'єднає бінокль з ціллю, але якщо це можливо, він може успадкувати маскування користувача."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi

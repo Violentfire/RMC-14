@@ -161,6 +161,9 @@
   name: коробка з упаковками фаєрів М94 (x10)
   description: Коробка з упаковками маркувальних фаєрів М94, щоб зробити твій день яскравішим.
   components:
+  - type: Tag      #Sich
+    tags:
+    - RMCFlareBox
   - type: Construction
     graph: RMCBoxMagazine
     node: RMCBoxPackFlareEmpty
@@ -416,3 +419,6 @@
 
 - type: Tag
   id: RMCPackFlareCAS
+
+- type: Tag       #Sich
+  id: RMCFlareBox

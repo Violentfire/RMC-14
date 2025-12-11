@@ -1,113 +1,124 @@
 <Document>
-  # Sniper Specialist: The Long-Range Solution
+  # Снайпер: "Соколине око"
 
-  ## Precision, Patience, Power
-  Difficulty: [color=#4CAF50]Medium to Hard[/color]
+  ## Один постріл – один паразит
+  Складність: [color=#4CAF50]Середня[/color]
 
-  This guide covers both the Anti-material Sniper and Sniper specialist
+  У цьому посібнику розглянуто обидві ролі – анти-матеріальний снайпер та стандартний снайпер.
 
-  So, you've picked the Sniper specialist, or you're stepping up as their vital Spotter? Wonderful! You're about to become a critical asset on the battlefield, capable of halting Xenomorph advances, eliminating high-value targets, and instilling a healthy dose of fear into the enemy. Let’s get started, shall we?
+  Отже, ви стали Снайпером чи його незамінним Навідником? Чудово. Ви отримуєте одну з найважливіших ролей на полі бою, здатну зупиняти прориви ксеноморфів, ліквідовувати пріоритетні цілі та створювати постійний тиск на ворога.
 
-  # The Sniper's Equipment
-  When you open your specialist kit, you'll find several key pieces of gear:
+  # Стандартний набір
+  Снайпер володіє наступним оснащенням:
   <Box><GuideEntityEmbed Entity="CMM96SSniperRifle"/> <GuideEntityEmbed Entity="RMCXM43E1AntiMaterielRifle"/> <GuideEntityEmbed Entity="CMGlassesM42ScoutSight"/></Box>
 
-  # The Spotter's Equipment
+  # Набір Навідника
   <GuideEntityEmbed Entity="RMCKitSpotter"/>
-  <Box>If you're taking on the crucial role of the Spotter, your kit will contain these important equipment:</Box>
+  <Box>Якщо ви берете на себе важливу роль Навідника, у вашому наборі повинні бути наступні предмети:</Box>
   <Box><GuideEntityEmbed Entity="CMPamphletSpotter"/> <GuideEntityEmbed Entity="RMCLaserDesignatorSpotter"/> <GuideEntityEmbed Entity="CMGlassesM42ScoutSight"/></Box>
 
-  ## Understanding Aimed Shot & Enhancements: The Core of Your Craft
+  ## Усвідомлення прицільного пострілу та його впливу: основа вашої майстерності
+  <Box> <GuideEntityEmbed Entity="RMCGuidebookActionAimedShot" Caption="Прицільний постріл"/> </Box>
 
-  The Aimed Shot is your signature ability. When successfully channeled and fired, it deals significant damage and, crucially, applies a [color=#ADD8E6][bold]debuff[/bold][/color] to the target depending on ammo. This debuff works on [italic]ANY[/italic] target, including Queens and Tier 3 Xenomorphs.
+  Прицільний постріл – ваша ключова здібність. Якщо ви успішно навелися й здійснили постріл, він завдає значної шкоди та що ще важливіше, накладає на ціль [color=#ADD8E6][bold]дебаф[/bold][/color] залежно від типу набоїв. Цей ефект працює на [italic]БУДЬ-ЯКУ[/italic] ціль, включно з Королевою та ксеноморфами третього тиру.
 
-  Both the Sniper's Targeting Laser and the Spotter's "Spot" ability enhance the Aimed Shot by reducing its channel time, along with the distance to the target:
+  І лазерний приціл снайпера, і здібність "Позначити ціль" від Навідника покращують Прицільний постріл, скорочуючи його час підготовки та впливаючи на дистанцію до цілі:
 
-  <Box>[bold]Sniper's Targeting Laser[/bold]:</Box>
-  -   Toggling this on creates a [color=#FF0000]highly visible red laser beam[/color] tethering you to your target.
-  -   [italic]Benefit[/italic]: Reduces Aimed Shot channel time by 50% (halves it).
-  -   [italic]Downside[/italic]: Clearly reveals your position and target to the enemy.
+  <Box>[bold]Лазерний приціл снайпера[/bold]:</Box>
+  <Box> <GuideEntityEmbed Entity="RMCGuidebookActionToggleLaserOn" Caption="Перемикач лазера, включений"/> <GuideEntityEmbed Entity="RMCGuidebookActionToggleLaserOff" Caption="Перемикач лазера, вимкнений"/> </Box>
+  -   Увімкнення створює [color=#FF0000]добре помітний червоний лазерний промінь[/color], що вказує на вашу ціль.
+  -   [italic]Перевага[/italic]: Скорочує час підготовки Прицільного пострілу на 50%.
+  -   [italic]Недолік[/italic]: Чітко розкриває вашу позицію та напрямок атаки ворогові.
 
-  <Box>[bold]Spotter's "Spot" Ability[/bold]:</Box>
-  -   When a Spotter "spots" a target, a [color=#FFA500]orange line[/color] tethers the Spotter to the target if the Spotter is visible.
-  -   [color=#00FF00]Crucially, if the Spotter is cloaked, the spotting laser inherits the cloaker's transparency, making it invisible and not revealing the Spotter's position.[/color]
+  <Box>[bold]Здатність Навідника "Позначити ціль"[/bold]:</Box>
+  <Box> <GuideEntityEmbed Entity="RMCGuidebookActionSpotTarget" Caption="Позначити ціль"/> </Box>
+  -   Після "Позначення" цілі Навідником, до неї з'являється [color=#FFA500]помаранчева лінія[/color] якщо сам Навідник знаходиться у полі зору.
+  -   [color=#00FF00]Якщо ж Навідник перебуває у прихованому стані, лінія успадковує його прозорість і стає невидимою, не видаючи позицію Навідника.[/color]
 
-  ### Sniper Controls
+  ### Використання снайперської гвинтівки
 
-  When you have your Sniper Rifle in hand, you'll have access to two additional UI buttons:
-  -   [italic]Aimed Shot[/italic]: This initiates the powerful, focused shot that is your primary damage and debuff tool.
-  -   [italic]Toggle Laser[/italic]: Activates a visible laser beam from your rifle to the target, significantly speeding up your Aimed Shot.
-  -   Once Aimed shot is active on your hotbar use [color=#FFA500][keybind="CMUniqueAction"][/color] to begin channeling, speed of which depends on if the target was being spotted or if you had your laser toggled on, once finished, you will fire a homing round at the target
+  Коли у ваших руках снайперська гвинтівка, на інтерфейсі з'являються дві додаткові кнопки:
+  -   [italic]Прицільний постріл[/italic]: Запускає потужний цільоспрямований постріл – ваш основний інструмент для нанесення шкоди та накладання дебафів.
+  -   [italic]Перемикач лазера[/italic]: Активує видимий лазерний промінь, який тягнеться до цілі та суттєво прискорює підготовку Прицільного пострілу.
+  -   Після активації Прицільного пострілу на панелі швидкого доступу натисніть [color=#FFA500][keybind="CMUniqueAction"][/color], щоб почати підготовку. Швидкість підготовки залежить від того, чи була ціль "помічена" Навідником, або чи ввімкнено ваш лазер. Після завершення підготовки буде здійснено постріл самонавідним набоєм.
 
-  ### Spotter Controls
+  ### Допомога від Навідника
 
-  As a Spotter using your designator, you have one key ability:
-  -   [italic]Spot Target[/italic]: This marks an enemy target, providing benefits to your Sniper by allowing them to use aimed shot faster
-  -   Once Spot Target is active on your hotbar use [color=#FFA500][keybind="CMUniqueAction"][/color] to begin spotting it for you sniper.
+  Використовуючи цілевказівник Навідника, ви маєте одну ключову здатність:
+  -   [italic]Позначити ціль[/italic]: Позначає ворожу ціль та дає вашому снайперу можливість значно швидше підготувати Прицільний постріл.
+  -   Після активації "Позначити ціль" на панелі швидкого доступу натисніть [color=#FFA500][keybind="CMUniqueAction"][/color], щоб розпочати позначення цілі для вашого снайпера.
 
-  ## The Ghillie Suit: Become the Unseen Anchor!
+  ## Маскхалатний костюм: станьте невидимою опорою
   <GuideEntityEmbed Entity="CMArmorM45"/>
-  Both Sniper and Spotter can utilize the Ghillie Suit, advanced camouflage that's more than just a pretty outfit!
+  Снайпер і Навідник можуть використовувати маскхалатний костюм – це не просто камуфляж, а високотехнологічна система маскування з потужними тактичними можливостями.
 
-  -   [bold]Stationary Stealth Mode[/bold]: After a [color=#FFA500]brief channel time[/color], if you stay [color=#ADD8E6]perfectly still[/color], you become [italic]invisible[/italic] to everyone! Move, and you're visible again.
-  -   [color=#00FF00][bold]Ghostly Passthrough![/bold][/color]: While invisible and stationary, bullets [italic]pass right through you[/italic] as if you weren't there! No more blocking shots from your forward perch!
-  -   [bold]Tactical Uses[/bold]:
-  -   Set up [color=#DAA520]daring forward positions[/color] for sniping/spotting.
-  -   Become an [color=#FF6347]unseen lynchpin[/color] in an ambush.
-  -   Hold [color=#ADD8E6]unexpected angles[/color] in defense.
-  -   [bold]Heads Up![/bold]: You're stuck if found while still. This isn't an instant escape tool!
+  -   [bold]Здібність "Підготувати позицію"[/bold]: Після [color=#FFA500]короткого часу підготовки[/color], якщо ви залишаєтеся [color=#ADD8E6]повністю нерухомими[/color], ви стаєте [italic]невидимими[/italic] для всіх. Будь-який рух одразу робить вас видимими.
+  <Box> <GuideEntityEmbed Entity="RMCGuidebookActionGhilliePreparePosition" Caption="Підготувати позицію"/> </Box>
+  -   [color=#00FF00][bold]Примарна невразливість[/bold][/color]: У стані невидимості та нерухомості, кулі [italic]проходять крізь вас[/italic] не завдаваючи шкоди та не блокуючи лінію вогню.
+  -   [bold]Тактичні переваги[/bold]:
+  -   Можливість займати [color=#DAA520]передові позиції[/color] для стрільби або спостереження
+  -   Виконання ролі [color=#FF6347]невидимої опори[/color] під час засідок
+  -   Утримання [color=#ADD8E6]нетипових кутів[/color] в обороні.
+  -   [bold]Увага[/bold]: Якщо вас виявлять, перебуваючи нерухомими, маневру у відповідь у вас немає. Це інструмент для маскування, а не спосіб уникнути небезпеки миттєво.
 
-  ## The M96S Sniper Rifle & Ammunition
+  ## Снайперська гвинтівка М96С та його оснащення
 
-  The Standard Sniper, a weapon designed for accurate, debilitating shots from afar using specialized ammunition. This weapon excels at controlling enemy movement and applying potent status effects to key targets.
+  Стандартна снайперська гвинтівка – це зброя для точних і виснажливих пострілів із великої дистанції, що використовує спеціалізовані типи набоїв. Вона чудово підходить для контролю пересування ворогів та накладення сильних статус-ефектів на пріоритетні цілі.
 
-  <Box> Ammunition Types & Their Aimed Shot Effects: </Box>
-  <Box>[bold]Flak Ammo[/bold]</Box>
-  -Normal Shot: Deals direct damage and AoE spread damage to nearby entities, especially effective against groups or Xenonids.
-  -Aimed Shot Effect: If it hits the designated target, it deals increased damage and applies a [color=#ADD8E6]powerful SUPERSLOW[/color] debuff, crippling their movement.
-  <Box>[bold]Incendiary Ammo[/bold]</Box>
-  -Normal Shot: Deals direct damage and ignites targets with [color=#FFA500]intense fire[/color].
-  -Aimed Shot Effect: Inflicts additional fire effects on the target and will [color=#B0B0B0]temporarily impair their vision[/color].
-  <Box>[bold]Marskman Ammo[/bold]</Box>
-  -Normal Shot: Delivers reliable piercing damage.
-  -Aimed Shot Effect: Enhances damage output to amazing levels, capable of removing any threat with ease.
+  <Box> Типи боєприпасів та ефекти прицільного пострілу: </Box>
+  <Box>[bold]Зенітний набій[/bold]</Box>
+  <Box> <GuideEntityEmbed Entity="CMMagazineSniperM96SFlak"/> </Box>
+  -Звичайний постріл: Завдає прямої шкоди та наносить урон навколишнім цілям. Особливо ефективний проти скупчення ворогів в одному місці.
+  -Ефект прицільного пострілу: При влучанні у визначену ціль завдає підвищеної шкоди та накладає [color=#ADD8E6]дуже сильне сповільнення[/color], різко обмежуючи її мобільність.
+  <Box>[bold]Запальний набій[/bold]</Box>
+  <Box> <GuideEntityEmbed Entity="CMMagazineSniperM96SIncendiary"/> </Box>
+  -Звичайний постріл: Завдає прямої шкоди та підпалює ціль [color=#FFA500]інтенсивним вогнем[/color].
+  -Ефект прицільного пострілу: Підсилює дію вогню та [color=#B0B0B0]тимчасово погіршує зір[/color] цілі.
+  <Box>[bold]Снайперський набій[/bold]</Box>
+  <Box> <GuideEntityEmbed Entity="CMMagazineSniperM96S"/></Box>
+  -Звичайний постріл: Завдає стабільної пробивної шкоди.
+  -Ефект прицільного пострілу: Значно підвищує шкоду, дозволяючи завдати високий урон навіть проти "товстих" цілей.
 
-  ## XM43E1 Anti Materiel Rifle & Ammunition
+  ## Анти-матеріальна гвинтівка ТМ43Е1 та його оснащення
 
-  An anti-materiel rifle designed to penetrate obstacles and multiple foes, delivering devastating blows particularly effective against the largest and most durable threats.
+  Анти-матеріальна гвинтівка призначена для пробивання перешкод і ураження кількох цілей одним пострілом. Вона наносить надзвичайно сильну шкоду й особливо ефективна проти найбільших і найвитриваліших загроз.
 
-  <Box>Marksman Ammo & Effects:</Box>
-  <Box>[bold]Normal Shot[/bold]:</Box>
-  -Delivers a very high damage shot with significant armor penetration.
-  -Rounds can pass through multiple targets and cover. Each entity or obstacle hit reduces the projectile's subsequent damage and effective range.
-  -Larger/tougher targets and denser obstacles will reduce damage and range more significantly.
-  <Box>[bold]Aimed Shot Effect[/bold]:</Box>
-  -On top of its powerful base damage (factoring in penetration), an Aimed Shot inflicts [italic]substantial bonus damage[/italic].
-  -This bonus damage often scales with the target's size and current health, making it exceptionally effective against large, high-health enemies like T3 Xenomorphs or Queens, often dealing a significant percentage of their current health as additional damage.
-  -[bold]Consecutive Hit Bonus:[/bold] Repeatedly hitting the [italic]same target[/italic] with Aimed Shots can increase the potency of this bonus damage, rewarding sustained focus on a single, high-value enemy. Hitting a different target will reset this damage ramp-up.
+  <Box>Боєприпаси та ефекти:</Box>
+  <Box>Анти-матеріальна гвинтівка має лише один тип набоїв, проте він вирізняється колосальною пробивною силою, здатною прошити майже будь-яку ціль чи перешкоду.</Box>
+  <Box>
+    <GuideEntityEmbed Entity="RMCMagazineSniperXM43E1AntiMateriel"/>
+  </Box>
+  <Box>[bold]Звичайний постріл[/bold]:</Box>
+  -Завдає дуже високої шкоди з вираженим пробиванням броні.
+  -Куля може проходити крізь декілька цілей та укриттів. Кожна пробита ціль або перешкода зменшує подальшу шкоду та ефективну дальність.
+  -Чим більша або міцніша ціль, а також чим щільніша перешкода, тим сильніше зменшуються ці показники.
+  <Box>[bold]Ефект прицільного пострілу[/bold]:</Box>
+  -На додачу до базового (вже дуже високого) ушкодження з урахуванням пробиття, прицільний постріл завдає [italic]значної додаткової шкоди[/italic].
+  -Ця додаткова шкода часто масштабується від розміру цілі та її поточного запасу здоров’я. Завдяки цьому зброя надзвичайно ефективна проти великих та "товстих" цілей, таких як T3-ксеноморфи або Королева, завдаючи значний відсоток їхнього поточного здоров’я.
+  -[bold]Бонус за послідовні влучання:[/bold] Повторні прицільні постріли по [italic]одній і тій самій цілі[/italic] збільшують ефективність цього бонусного ушкодження, винагороджуючи зосереджений вогонь по важливій цілі. Перехід на іншу ціль скидає накопичений бонус.
 
-  ## General Sniper & Spotter Tactics
+  ## Загальні тактики Снайпера та Навідника
 
-  -   [bold]Homing Aids Accuracy, Positioning Remains Key[/bold]: While Aimed Shots [color=#00FF00]guide themselves to the target[/color], good initial positioning for clear lines of sight and to manage the aim time (influenced by distance) is still [color=#ADD8E6]vital for effective engagement[/color].
-  -   [bold]Understand Your Ammunition's Purpose[/bold]:
-  -   Standard Sniper: [color=#FFA500]Use Flak for its powerful slowing effect on key targets, or Incendiary for sustained fire damage and visual impairment. Choose based on the desired tactical outcome.[/color]
-  -   Heavy Sniper: [color=#FF6347]Your Aimed Shot is designed to cripple or eliminate the toughest enemies. Focus on building the consecutive hit bonus against these targets. Understand how penetration affects your shots when dealing with groups or cover.[/color]
-  -   [bold]Patience & Opportunity ("The WAIT Strategy")[/bold]: [color=#ADD8E6]Allowing enemies to over-extend and then striking with a debilitating Aimed Shot remains a core, highly effective tactic.[/color] Homing projectiles make these crucial opportunities more reliable.
-  -   [bold]Strategic Target Prioritization[/bold]:
-  -   Standard Sniper: [color=#FFA500]Which debuff (Superslow, Fire/Blur) is most tactically valuable for your team right now?[/color]
-  -   Heavy Sniper: [color=#FF6347]Is it better to continue focusing fire on a damaged T3 to maximize the consecutive hit bonus, or switch to a new, immediate threat? Evaluate when to fire through lesser enemies to hit a target behind them.[/color]
-  -   [bold]Judicious Use of the Sniper's Targeting Laser[/bold]: The Sniper's own laser [color=#FFD700]greatly speeds up Aimed Shots but reveals their position with a clear beam[/color]. Use it when speed is more critical than stealth, or if the enemy is already aware of your general location.
-  -   [bold]The Power of a Cloaked Spotter[/bold]: If your Spotter can remain concealed, their ability to reduce the Sniper's aim time [color=#00FF00]without revealing their own position is a significant tactical advantage[/color].
+  -   [bold]Точність наведення: Позиціонування залишається ключовим.[/bold] Хоча прицільні постріли [color=#00FF00]самостійно наводяться на ціль[/color], правильне початкове розташування – для чіткої лінії вогню та оптимального часу наведення (який залежить від дистанції) – залишається [color=#ADD8E6]критично важливим[/color].
+  -   [bold]Розуміння призначення боєприпасів[/bold]:
+  -   Стандартний снайпер: [color=#FFA500]Використовуйте зенітні набої для сильного сповільнення ключових цілей, а запальні – для тривалого вогневого ураження та погіршення зору. Обирайте тип боєприпасів відповідно до ситуації[/color]
+  -   Антиматеріальний снайпер: [color=#FF6347]Прицільний постріл призначений для виведення з ладу найвитриваліших ворогів. Зосередьтеся на накопиченні бонусу за послідовні влучання та враховуйте вплив пробивання при стрільбі через групи або укриття.[/color]
+  -   [bold]Терпіння та можливість "Стратегія очікування"[/bold]: [color=#ADD8E6]Дочекайтеся, коли ворог зайде надто далеко, а потім завдайте прицільного пострілу, що зупинить або ослабить його.[/color] Самонавідні набої роблять це більш ефективно.
+  -   [bold]Пріоритетність цілей[/bold]:
+  -   Стандартний снайпер: [color=#FFA500]Який дебаф (Сповільнення/Підпал/Погіршення зору) зараз принесе найбільшу користь вашому загону?[/color]
+  -   Антиматеріальний снайпер: [color=#FF6347]Чи варто продовжити атакувати пошкодженого T3, щоб зберегти бонус за послідовні попадання, чи перейти до нової загрози? Коли доцільно пробити слабших ворогів, щоб уразити важливу ціль позаду?[/color]
+  -   [bold]Розумне використання лазерного прицілу[/bold]: Лазер снайпера [color=#FFD700]значно пришвидшує прицільний постріл, але водночас чітко видає вашу позицію[/color]. Використовуйте його, коли швидкість важливіша за скритність або коли ворог уже приблизно знає, де ви знаходитеся.
+  -   [bold]Перевага прихованого Навідника[/bold]: Навідник, що залишається непоміченим, може скорочувати час прицілювання снайпера [color=#00FF00]не розкриваючи власне положення[/color]. Це дає вам значну тактичну перевагу.
 
-  ## Concluding Thoughts: The Distant Death-Dealer
+  ## Висновок
 
-  Mastering the Sniper role, whether as the versatile Standard Sniper or the devastating Heavy Sniper, is a journey of precision, patience, and acute tactical awareness. These are not roles for the impulsive; they reward methodical approaches, careful target selection, and seamless coordination with your Spotter and the wider team.
+  Опанування ролі снайпера (стандартного чи антиматеріального) це шлях, що вимагає точності, терпіння та відточеного тактичного мислення. Це не роль для імпульсивних рішень: вона винагороджує методичність, зважений вибір цілей і чітку координацію з Навідником та рештою загону.
 
-  The ability to cripple an enemy advance with a well-placed Flak shot, to melt hostiles with an Incendiary payload, or to vaporize a high-value target with a penetrating Marksman round from the XM43E1, can single-handedly turn the tide of an engagement. Remember the value of your Spotter – they are your force multiplier, your second pair of eyes, and the key to unlocking your rifle's fastest engagement potential.
+  Влучно випущений зенітний набій, що зупиняє наступ; запальний набій, який підпалює ворога та погіршує йому зір; чи проникний снайперський постріл з ТМ43Е1, що ліквідовує ціль високого пріоритету – кожен з них здатен самостійно змінити перебіг бою. І завжди пам'ятайте, Навідник – ваш множник сили, ваша друга пара очей і ключ до найшвидшої роботи вашої гвинтівки.
 
-  So, take up your rifle, calibrate your sights, and communicate with your team. Whether you're providing overwatch, eliminating critical threats, or acting as a powerful psychological deterrent, your impact from afar will be undeniable. Stay sharp, stay patient, and make every shot count.
+  Тож беріть гвинтівку, налаштовуйте приціл і підтримуйте зв'язок з загоном. Чи то забезпечення прикриття, усунення критичних цілей, чи створення психологічного тиску на ворога – ваш вплив на бій з відстані буде відчутним.
 
-  Good hunting, Sniper.
+  Вдалого полювання, снайпере.
 
 
 </Document>

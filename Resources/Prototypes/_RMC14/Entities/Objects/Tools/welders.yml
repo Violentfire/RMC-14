@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCWelderBase
-  name: blowtorch
-  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
+  name: зварювальний апарат
+  description: "Зварює все, якщо заправлений. Не забудьте про захист очей!"
   abstract: true
   components:
   - type: EmitSoundOnLand

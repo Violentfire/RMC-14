@@ -107,3 +107,35 @@
   components:
     - type: Sprite
       state: motion_detector
+
+- type: entity
+  parent: RMCGuidebookActionSmartGunBase
+  id: RMCGuidebookActionToggleAmmoOff
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: ammo_swap_normal
+
+- type: entity
+  parent: RMCGuidebookActionSmartGunBase
+  id: RMCGuidebookActionToggleAmmoOn
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: ammo_swap_ap
+
+- type: entity
+  parent: RMCGuidebookActionSmartGunBase
+  id: RMCGuidebookActionToggleRecoil
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: recoil_compensation
+
+- type: entity
+  parent: RMCGuidebookActionSmartGunBase
+  id: RMCGuidebookActionToggleAutoFire
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: autofire

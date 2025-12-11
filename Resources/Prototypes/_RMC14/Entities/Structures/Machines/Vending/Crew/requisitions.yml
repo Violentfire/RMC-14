@@ -152,8 +152,8 @@
         amount: 1
       - id: RMCSatchelWelder
         amount: 5
-      - id: RMCBackpackAmmo
-        amount: 2
+     # - id: RMCBackpackAmmo Sich
+     #   amount: 2
       - id: RMCBackpackRTO
         amount: 2
       - id: RMCParachute
@@ -286,6 +286,8 @@
         amount: 10
       - id: RMCMagazineSMGNailgun
         amount: 4
+      - id: SichRMCKitSherpa # Sich
+        amount: 2
     - name: Pamphlets
       entries:
       - id: CMPamphletJTAC

@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseItem
   id: RMCEngineeringUpgrade
-  name: покращувальний набір турелі
-  description: Набір, що дозволяє покращити вашу турель. Повертаючись в 1980, коли єдина покращена турель змогла зупинити повстання машин, можна зробити висновок про необхідність цього. А зараз такі технології використовуються повсякчас.
+  name: покращувальний набір установки
+  description: Набір, що дозволяє покращити вашу бойову стаціонарну установку. Повертаючись в 1980, коли єдина покращена турель змогла зупинити повстання машин, можна зробити висновок про необхідність цього. А зараз такі технології використовуються повсякчас.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/engineering_kit.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCBaseSentry
   id: RMCSentry
-  name: ОН 571-C вартова турель
-  description: Напівавтоматична турель, яку можна розмістити, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою M30 і 500-набійним барабанним магазином.
+  name: ОН 571-С вартова турель
+  description: Напівавтоматична турель, яку можна розмістити, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою М30 і 500-набійним барабанним магазином.
   components:
   - type: Icon
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMini
-  name: ОН 512-M міні-турель вартовий
-  description: Компактна версія стандартної турелі. Створена для швидкого розгортання в польових умовах.
+  name: ОН 512-М вартова міні-турель
+  description: Компактна версія стандартної турелі. Створена для швидкого розгортання в польових умовах. Відрізняється високою скорострільністю, однак ослаблений корпус робить її вразливою до ударів. Регулярно перевіряйте стан і своєчасно ремонтуйте.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniper
-  name: ОН 725-D снайперська вартова турель
-  description: Повністю автономна турель, яка може вражати цілі на далекій дистанції. Оснащенна модифікованою автогарматою M32-S і внутрішньою стрічкою набоїв.
+  name: ОН 725-Д снайперська вартова турель
+  description: Повністю автономна турель, яка може вражати цілі на далекій дистанції. Оснащенна модифікованою автогарматою М32-С і внутрішньою стрічкою набоїв.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryOmni
-  name: ОН 571-D всюдиглядна вартова турель
-  description: Напівавтоматична турель, яка може крутити гармату на 360 градусів, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою M30 і 500-набійним барабанним магазином.
+  name: ОН 571-В всюдиглядна вартова турель
+  description: Напівавтоматична турель, яка може крутити гармату на 360 градусів, має вбудований ШІ, що допомагає їй розпізнавати ворогів. Оснащенна автогарматою М30 і 500-набійним барабанним магазином.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryShotgun
-  name: ОН 12-G вартова турель-дробовик
-  description: Розміщувана, напівавтоматична турель, що спеціалізована на ближній дистанції. Захищена міцним покриттям, і сталевими іклами.
+  name: ОН 12-Р вартова турель-дробовик
+  description: Розміщувана, напівавтоматична турель, що спеціалізована на ближній дистанції. Захищена міцним покриттям, і сталевими шипами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/sentry.rsi
@@ -388,8 +388,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentryMiniFire
-  name: UN 45-FM mini sentry
-  description: The Mini Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UN 571-C Sentry gun, this sentry has IFF but the fire that lingers doesn't.
+  name: ОН 45-ВМ вартова міні-вогнеметна турель
+  description: Міні-вогнеметна турель автоматично відслідковує та відкриває вогонь по будь-якій цілі, яка не входить до персоналу Саванни. Як і вартова турель ОН 571-С, ця установка підтримує УДВ. Однак полум'я, що залишається після пострілу – ні. Відрізняється високою скорострільністю, однак ослаблений корпус робить її вразливою до ударів. Регулярно перевіряйте стан і своєчасно ремонтуйте.
   components:
   - type: RMCFireProjectile
   - type: Sprite
@@ -456,8 +456,8 @@
 - type: entity
   parent: RMCBaseSentry
   id: RMCSentryFire
-  name: UN 55-FA assault sentry flamer
-  description: The Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UA 571-C Sentry gun, this sentry has IFF but the fire that lingers doesn't.
+  name: ОН 55-ВТ штурмова вогнеметна турель
+  description: Штурмова вогнеметна турель автоматично відслідковує та відкриває вогонь по будь-якій цілі, яка не входить до персоналу Саванни. Як і вартова турель ОН 571-С, ця установка підтримує УДВ. Однак полум'я, що залишається після пострілу – ні.
   components:
   - type: RMCFireProjectile
   - type: Gun
@@ -491,8 +491,8 @@
 - type: entity
   parent: RMCSentry
   id: RMCSentrySniperFire
-  name: UN 60-FP plasma sentry
-  description: The Plasma Flamethrower Sentry Gun automatically tracks and fires upon any target that is wearing an ID not hooked up to the Almayer's systems. Just like the UA 571-C Sentry gun, this sentry has IFF but the phosphorus that lingers doesn't.
+  name: ОН 60-ВП плазмова-вогнеметна турель вартовий
+  description: Плазмова-вогнеметна турель автоматично відслідковує та відкриває вогонь по будь-якій цілі, яка не входить до персоналу Саванни. Як і вартова турель ОН 571-С, ця установка підтримує УДВ. Однак полум'я, що залишається після пострілу – ні.
   components:
   - type: RMCFireProjectile
   - type: Sprite

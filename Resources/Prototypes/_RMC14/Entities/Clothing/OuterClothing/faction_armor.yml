@@ -212,9 +212,9 @@
 - type: entity
   parent: RMCCoatMilitia
   id: RMCCoatMilitiaHarness
-  name: colonial militia harness
+  name: колоністське бойове кріплення
   suffix: smart gun harness
-  description: The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops. This one has straps interweaved with the plates, that allow the user to fire a captured smart gun, if a bit uncomfortably.
+  description: Кольчуга ополченця-колоніста, створений із кип'яченої шкіри та кількох сучасних бронепластин. Хоча він поступається більшості сучасних видів броні і не забезпечує високого рівня захисту, цей обладунок дарує власникові майже ідеальну рухливість, що відповідає потребам місцевих колоністів. Його також швидко вдягати, легко сховати та дешево виготовляти у великих майстернях. Цей екземпляр має додаткові ремені, переплетені з пластинами, які дозволяють користувачу стріляти зі здобутого СмартГана, хоч і дещо незручно.
   components:
   - type: SmartGunArmor
 

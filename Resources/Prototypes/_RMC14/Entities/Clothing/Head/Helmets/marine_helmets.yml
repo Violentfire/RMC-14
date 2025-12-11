@@ -162,8 +162,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10Welding
-  name: M10 welding helmet
-  description: A modified M10 marine helmet, Features a toggleable welding screen for eye protection. Completely invisible while toggled off as opposed to the technician helmet.
+  name: зварювальний шолом М10
+  description: Модифікований шолом М10. Оснащенний перемикальним зварювальним екраном для захисту очей. У вимкненому стані екран повністю непомітний, на відміну від шолома бойового техніка.
   components:
   - type: CycleableVisor
     containers:
@@ -322,7 +322,7 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3Scout
-  name: шолом M3-S 
+  name: шолом М3-Р 
   description: Полегшений шолом серії M3 сконструйований спеціально для використання розвідниками.
   components:
   - type: Sprite
@@ -341,8 +341,8 @@
 - type: entity
   parent: RMCArmorHelmetM3Scout
   id: RMCArmorHelmetM3G4
-  name: шолом M3-G4 
-  description: Поєднується з важкою гренадерською бронею M3-G4. Далекий родич захисного шолому B18. # As such, it also resists some parasite latching attempts.
+  name: шолом М3-Г4 
+  description: Поєднується з важкою бронею гранатометника М3-Г4. Далекий родич захисного шолому В18. # As such, it also resists some parasite latching attempts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/g4/jungle.rsi
@@ -430,8 +430,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM3TDemo
-  name: M3-T шолом підривника
-  description: Кастомний шолом для поціновувачів ВИБУХІВ і зброї яка з ними пов'язана. Поставляється з вбудованим захистом вух носія від гучних звуків, стріляти з труби без нього не рекомендується.
+  name: шолом ракетника М3-РК
+  description: Індивідуальний шолом для поціновувачів ВИБУХІВ і зброї яка з ними пов'язана. Поставляється з вбудованим захистом вух носія від гучних звуків, стріляти з ПТГ-М5 без нього не рекомендується.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/jungle.rsi

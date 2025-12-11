@@ -589,8 +589,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDrumPMC
-  name: підсумок для барабанів смартгану
-  description: Важкий підсумок, призначентй для перенесення додаткових барабанів до смартгану.
+  name: підсумок для барабанів СмартГану
+  description: Важкий підсумок, призначений для перенесення додаткових барабанів СмартГану.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_sgdrums_ammo.rsi

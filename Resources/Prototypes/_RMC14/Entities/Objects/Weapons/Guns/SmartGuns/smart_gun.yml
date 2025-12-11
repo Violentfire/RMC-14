@@ -2,7 +2,7 @@
   abstract: true
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunNoCamo
-  name: МЛ66A смарт-кулемет
+  name: МЛ66A СмартГан
   description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. По суті, це важкий, мобільний кулемет."
   components:
   - type: Wieldable
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCSmartGunNoCamo
   id: RMCSmartGunPMC
-  name: ML79A smart gun
-  description: The actual firearm in the 4-piece ML79A Smartgun System. If you have this, you're about to bring some serious pain to anyone in your way. You may toggle firing restrictions by using a special action.
+  name: МЛ79A СмартГан
+  description: Справжня кулеметна гармата чотирьохмпонентної системи 'Система Розумного Кулемета'. Якщо вона у вас в руках – ворогу буде не солодко. За допомогою спеціальної дії можна перемикати режими обмеження стрільби.
   suffix: PMC
   components:
   - type: Sprite
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCSmartGunPMC
   id: RMCSmartGunWhiteOut
-  name: "ML79A 'Breaker' smart gun"
-  description: The actual firearm in the 4-piece ML79A Smartgun System, modified for extra power. If you have this, you're about to bring some serious pain to anyone in your way. You may toggle firing restrictions by using a special action.
+  name: "МЛ79A 'Шквал' СмартГан"
+  description: Справжня кулеметна гармата чотирьохмпонентної системи 'Система Розумного Кулемета' з модифікацією, яка значно підвищує темп вогню. Якщо вона у вас в руках – попереду ніщо не встоїть. За допомогою спеціальної дії можна перемикати режими обмеження стрільби.
   suffix: Whiteout
   components:
   - type: RMCSelectiveFire
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCSmartGunNoCamo
   id: RMCSmartGunCO
-  name: "МЛ66Б 'кавалерійський' смарт-кулемет"
+  name: "МЛ66Б 'кавалерійський' СмартГан"
   description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. Окрім міцнішого корпусу, системи ідентифікаційного замка та фантазійного фарбування, зброя ідентична стандартній моделі МЛ66A."
   components:
   - type: Sprite
@@ -299,14 +299,14 @@
 - type: entity
   parent: RMCSmartGun
   id: RMCSmartGunCLF
-  name: ML66B 'freedom' smart gun
-  description: The actual firearm in the 4-piece ML66B Smartgun System. Essentially a heavy, mobile machinegun. This one has the CLF logo carved over the manufacturing stamp.
+  name: МЛ66Б 'свобода' СмартГан
+  description: Справжня кулеметна гармата чотирьохмпонентної системи 'Система Розумного Кулемета'. По суті, це важкий мобільний кулемет. На цьому екземплярі над штампом виробника викарбувано логотип ФВК.
 
 - type: entity
   parent: RMCSmartGunNoCamo
   id: RMCSmartGunRoyal
-  name: ML66C 'royal' smart gun
-  description: The actual firearm in the 2-piece ML66C Smart Gun System. This variant is used by the Three Sun Empires Royal Marines Commando units. You may toggle firing restrictions by using a special action.
+  name: МЛ66С 'королівський' СмартГан
+  description: Справжня кулеметна гармата двокомпонентної системи 'Система Розумного Кулемета'. Цей варіант використовується підрозділами Коммандо Королівської Морської Піхоти Імперії Трьох Сонць. За допомогою спеціальної дії можна перемикати режими обмеження стрільби.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a_royal.rsi
@@ -340,7 +340,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "МЛ66A барабанний магазин (10x30мм)"
+  name: "МЛ66A барабанний магазин (10x30 мм)"
   components:
   - type: Tag
     tags:
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCMagazineSmartGun
   id: RMCMagazineSmartGunirradiated
-  name: "ML79A drum magazine irradiated (10x30mm)"
+  name: "МЛ79A барабанний магазин зі збідненим ураном (10x30 мм)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCMagazineSmartGun
   id: RMCMagazineSmartGunHT
-  name: "holotargeting smart gun drum (10x30mm)"
+  name: "барабан СмартГану з голографічним наведенням (10х30 мм)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -391,7 +391,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeSmartGun10x30mm
-  name: гільза (10x30мм)
+  name: гільза (10х30 мм)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -407,7 +407,7 @@
 - type: entity
   parent: CMCartridgeSmartGun10x30mm
   id: RMCCartridgeSmartGun10x30mmirradiated
-  name: irradiated cartridge (10x30mm)
+  name: гільза ЗУ (10х30 мм)
   components:
   - type: CartridgeAmmo
     proto: RMCBulletSmartGun10x30mmirradiated
@@ -418,7 +418,7 @@
 - type: entity
   parent: CMCartridgeSmartGun10x30mm
   id: RMCCartridgeSmartGun10x30mmHT
-  name: ht cartridge (10x30mm)
+  name: гільза ГН (10x30mm)
   components:
   - type: CartridgeAmmo
     proto: RMCBulletSmartGun10x30mmHT
@@ -459,7 +459,7 @@
 - type: entity
   parent: CMBulletSmartGun10x30mm
   id: RMCBulletSmartGun10x30mmirradiated
-  name: irradiated bullet (10x30mm)
+  name: куля ЗУ (10х30 мм)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -470,7 +470,7 @@
 - type: entity
   parent: CMBulletSmartGun10x30mm
   id: RMCBulletSmartGun10x30mmHT
-  name: ht bullet (10x30mm)
+  name: куля ГН (10х30 мм)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
