@@ -24,6 +24,7 @@
             CMChiefMP: [1, 1]
             CMMilitaryWarden: [1, 1]
             CMMilitaryPolice: [3, 3]
+            CMProvostInspector: [1, 1]
 
              #Підтримка
             CMAuxiliarySupportOfficer: [1, 1]
