@@ -49,9 +49,9 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerTrainingDummy
-  name: training dummy cabinet
+  name: кабінет тренувального манекена
   suffix: South, Empty
-  description: An ultrasafe cabinet containing a training dummy. Only accessible by Chief Medical Officers and Senior Enlisted Advisors.
+  description: Ультрабезпечна шафа з тренувальним манекеном. Для відкриття необхідний доступ медика.
   # description: An ultrasafe cabinet containing Professor DUMMY and its tablet. Only accessible by Chief Medical Officers and Senior Listed Advisors.
   placement:
     mode: SnapgridCenter
@@ -78,7 +78,7 @@
       components:
       - RMCTrainingDummy
   - type: AccessReader
-    access: [["CMAccessCMO"], ["CMAccessSEA"]]
+    access: [ ["CMAccessMedical"] ] # Sich. В оригіналі тут ГЛ та Інструктор
   - type: RMCMesonsNonviewable
 
 - type: entity

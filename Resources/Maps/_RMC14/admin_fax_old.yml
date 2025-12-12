@@ -597,7 +597,7 @@ entities:
         actions: !type:Container
           ents:
           - 8
-- proto: RMCRotaryPhone
+- proto: RMCRotaryPhoneAdmin
   entities:
   - uid: 75
     components:
