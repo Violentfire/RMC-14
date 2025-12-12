@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCPyroSpecEquipmentCase
-  name: pyrotechnician equipment case
-  description: "A large case containing M34-T incinerator unit, M35 pyrotechnician armor and helmet, Broiler-T flexible refueling system and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
+  name: набір піротехніка
+  description: "Великий ящик, що містить вогнемет М34-Т, броню та шолом піротехніка М35, спеціалізовану паливну систему Бройлер-Т та інше додаткове спорядження.\nПРИМІТКА: Ви не можете покласти предмети назад у цей ящик."
   components:
   - type: Sprite
     layers:

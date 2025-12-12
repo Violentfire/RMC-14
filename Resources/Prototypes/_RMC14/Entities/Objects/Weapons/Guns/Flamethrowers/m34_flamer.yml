@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: M34 вогнемет
-  description: M34 - один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають - настільки вона смертоносна.
+  name: вогнемет М34
+  description: М34 – один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають – настільки вона смертоносна, як для ворогів, так й для побратимів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/m34.rsi
@@ -129,7 +129,7 @@
   parent: BaseItem
   id: RMCTankFlamer
   name: паливний бак М34
-  description: Бак з пальним для вогнемета M34. Використовується виключно для її заправки. Поводьтесь обережно.
+  description: Бак з пальним для вогнемета М34. Може використовуватися для підствольних вогнеметів також.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerCustom
-  name: M34 custom incinerator tank
-  description: A fuel tank for use in the M34 incinerator unit.
+  name: кастомний паливний бак М34
+  description: Паливний бак для використання вогнеметом М34 та йому подібним.
   # description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a pressure regulator and an internal propellant tank.
   components:
   - type: RMCFlamerTank
@@ -197,8 +197,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerBGel
-  name: M34 incinerator tank (B-Gel)
-  description: A fuel tank full of specialized Ultra Thick Napthal Fuel type B-Gel, a gelled variant of napalm that is easily extinguished, but shoots further and lingers for longer. Handle with exceptional care.
+  name: паливний бак М34 (Бі-Гель)
+  description: Паливний бак, заповнений спеціалізованим надгустим нафталевим паливом типу Бі-Гель, гелеподібним варіантом напалму. Легко гаситься, але при цьому діє на більшій відстані та довше горить. Поводьтеся з надзвичайно обережно.
   components:
   - type: RMCFlamerTank
     maxRange: 7
@@ -214,8 +214,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerUpgraded
-  name: M34 upgraded incinerator tank
-  description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a larger and more sophisticated internal propellant tank, allowing for larger capacity and stronger fuels.
+  name: покращений паливний бак М34
+  description: Паливний бак для використання вогнеметом М34. Цей бак був модифікований, завдяки чому має більший об'єм й здатен використовувати потужніші суміші.
   components:
   - type: RMCFlamerTank
     maxIntensity: 60
@@ -234,7 +234,7 @@
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
   name: набір вогнемета М34
-  description: Зброя комплектується вогнеметом M34 та баком з пальним. Постачається зарядженою, але додаткові баки доведеться шукати самостійно.
+  description: Комлпект має вогнемет М34 та баки з пальним.
   components:
   - type: Storage
     maxItemSize: Huge

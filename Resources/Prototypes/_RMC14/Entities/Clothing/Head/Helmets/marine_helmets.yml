@@ -369,8 +369,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM35
-  name: M35 pyrotechnician helmet
-  description: A helmet designed for UNMC Pyrotechnicians.
+  name: піротехнічний шолом М35
+  description: Шолом створений спеціально для піротехніків КМПОН.
   components:
   - type: Corrodible
     isCorrodible: false
