@@ -89,7 +89,7 @@
   abstract: true
   parent: BaseItem
   id: CMBaseMagazinePistol
-  description: A pistol magazine.
+  description: Пістолетний магазин.
   components:
   - type: MagazineVisuals
     magState: mag

@@ -8,7 +8,7 @@
 - type: entity
   abstract: true
   id: RMCItemSlotM5Bayonet
-  suffix: Заповнено
+  suffix: Filled
   components:
   - type: ContainerContainer
     containers:
@@ -44,9 +44,16 @@
     - state: icon
     - state: filled
       map: [ "enum.CMItemSlotsLayers.Fill" ]
+  - type: EmitSoundOnDrop
+    sound:
+      collection: RMCEquipArmor
+      params:
+        volume: -4
   - type: EmitSoundOnLand
     sound:
       collection: RMCEquipArmor
+      params:
+        volume: -4
   - type: Clothing
     unequipSound:
       collection: RMCEquipArmor
@@ -74,7 +81,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsBlack]
   id: CMBootsBlackFilled
-  suffix: Заповнено
+  suffix: Filled
 
 - type: entity
   parent: CMBootsBlackFilled
@@ -92,8 +99,8 @@
 - type: entity
   parent: CMBootsBlack
   id: RMCShoesCombat
-  name: combat boots
-  description: When you REALLY want to turn up the heat
+  name: бойові чоботи
+  description: Коли ДУЖЕ хочеш підвищити градус.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/swat.rsi
@@ -120,8 +127,8 @@
 - type: entity
   parent: CMBootsBlack
   id: CMBootsUrban
-  name: urban boots
-  description: Don't go walkin' slow, the devil's on the loose.
+  name: міські чоботи
+  description: Не ходи поволі - скажений біс на волі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/urban.rsi
@@ -137,8 +144,8 @@
 - type: entity
   parent: CMBootsBlack
   id: CMBootsGrey
-  name: grey boots
-  description: Standard issue combat boots for combat scenarios or combat situations. All combat, all the time. These are grey.
+  name: бойові чоботи морпіхів
+  description: Стандартні бойові чоботи, гарно показують себе в усіх сценаріях. Завжди сірі, ЗАВЖДИ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/grey.rsi
@@ -165,7 +172,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, CMBootsJungle]
   id: CMBootsJungleFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Corporate
 - type: entity
@@ -179,29 +186,63 @@
 - type: entity
   parent: CMBootsBrown
   id: RMCBootsSPP
-  name: military combat boots
+  name: військові бойові чоботи
 
 - type: entity
-  parent: [RMCItemSlotM5Bayonet, RMCBootsSPP] # TODO RMC14 SPP Bayonet
+  parent: [RMCItemSlotM5Bayonet, RMCBootsSPP]
   id: RMCBootsSPPFilled
   suffix: Filled
+  components:
+  - type: ItemSlots
+    slots:
+      item:
+        name: cm-knife
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        whitelist:
+          tags:
+          - Knife
+          - Holdout
+          - Screwdriver
+          - RMCScalpel
+          - ThrowingKnife
+        startingItem: RMCCombatUtilityKnifeA
+  - type: CMItemSlots
+    startingItem: RMCCombatUtilityKnifeA
 
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsSPPBlack
-  name: military combat boots
+  name: військові бойові чоботи
 
 - type: entity
-  parent: [RMCItemSlotM5Bayonet, RMCBootsSPPBlack] # TODO RMC14 SPP Bayonet
+  parent: [RMCItemSlotM5Bayonet, RMCBootsSPPBlack]
   id: RMCBootsSPPBlackFilled
   suffix: Filled
+  components:
+  - type: ItemSlots
+    slots:
+      item:
+        name: cm-knife
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        whitelist:
+          tags:
+          - Knife
+          - Holdout
+          - Screwdriver
+          - RMCScalpel
+          - ThrowingKnife
+        startingItem: RMCCombatUtilityKnifeA
+  - type: CMItemSlots
+    startingItem: RMCCombatUtilityKnifeA
 
 # PMC
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsPMC
   name: начищені туфлі
-  description: Модні туфелькі, та й до того ж непогано захищають.
+  description: Модні туфлі щой до того ж непогано захищають.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jackboots.rsi
@@ -211,7 +252,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMC]
   id: RMCBootsPMCFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # PMC Commando
 - type: entity
@@ -223,7 +264,7 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsPMCCommando]
   id: RMCBootsPMCCommandoFilled
-  suffix: Заповнено
+  suffix: Filled
 
 # Van Bandolier
 - type: entity
@@ -244,12 +285,23 @@
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/cbrn.rsi
 
+- type: entity
+  parent: ClothingShoesBase
+  id: RMCShoesTychoBoots
+  name: Tycho 4000 radiation protection boots
+  description: The burn-resistant boots for the Weston-Yamada Tycho 4000 Radiation Protection Suit. It's lined with lead, and the boot is steel-toed, perfect for trouncing around detonated nuclear reactors and avoiding radiation poisoning.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Shoes/Boots/rad_boots_weya.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Shoes/Boots/rad_boots_weya.rsi
+
 
 # Royal Crown Marines
 - type: entity
   parent: CMBootsBlack
   id: RMCBootsRoyal
-  name: бойові чоботи зразка L10 
+  name: бойові чоботи зразка Л10 
   description: Звичайні бойові чоботи. Використовуються підрозділами королівської морської піхоти.
   suffix: TSE, RCM
   components:
@@ -261,4 +313,21 @@
 - type: entity
   parent: [RMCItemSlotM5Bayonet, RMCBootsRoyal]
   id: RMCBootsRoyalFilled
-  suffix: Filled # TODO RMC14 L5 bayonet
+  suffix: Filled
+  components:
+  - type: ItemSlots
+    slots:
+      item:
+        name: cm-knife
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        whitelist:
+          tags:
+          - Knife
+          - Holdout
+          - Screwdriver
+          - RMCScalpel
+          - ThrowingKnife
+        startingItem: RMCTantoA
+  - type: CMItemSlots
+    startingItem: RMCTantoA

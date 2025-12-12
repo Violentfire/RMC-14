@@ -1,86 +1,96 @@
 <Document>
-  # Demolitionist Specialist: "Anti-Everything" (SADAR)
+  # Ракетник: "Руйнівник"
+  
+  ###(Додаткові назви: Садар, демо, труба. Прохання не вживати їх занадто часто, щоб уникнути плутанини.)
 
-  ## The Ultimate Problem Solver
-  Difficulty: [color=#FF0000]Hard[/color]
+  ## Найкращий спосіб вирішення проблем
+  Складність: [color=#4CAF50]Середньо-Складно[/color]
 
 
-  When colossal threats like enemy armor or massive bio-forms appear on the horizon, the Demolitionist Specialist is the UNMC's definitive answer.
-  Wielding the devastating M5-ATL, this operative delivers the heaviest hand-portable ordnance available, capable of neutralizing the most formidable targets with well-placed rockets.
-  Their presence alone is a psychological weapon, striking fear into the heart of the enemy.
+  Коли на горизонті з'являються колосальні загрози – ворожа бронетехніка чи масивні біоформи – Ракетник є вирішальною відповіддю КМПОН.
+  Озброєний руйнівним ПТГ-М5, цей спеціаліст застосовує найпотужніше переносне озброєння, здатне виводити з ладу найміцніші цілі точними ракетними ударами.
+  Його поява сама по собі діє як психологічний тиск, стримуючи ворога.
 
-  ## Standard Issue Kit
-  The Demolitionist deploys equipped with the following important equipment:
+  ## Стандартний набір
+  Ракетник володіє наступним оснащенням:
   <Box> <GuideEntityEmbed Entity="RMCWeaponLauncherM5ATL"/> </Box>
 
   <Box> <GuideEntityEmbed Entity="RMCKitLoader"/> </Box>
 
-  ## Mastering the Arsenal
+  ## Освоєння арсеналу
 
-  ### The M5-ATL: Handheld Devastation
-  The M5-ATL (often referred to as the SADAR) is the Demolitionist's primary tool and the source of their fearsome reputation. It is designed for one purpose: extreme destruction.
+  ### ПТГ-М5: ручна зброя руйнування
+  ПТГ-М5 є основним інструментом Ракетника і джерелом його грізної репутації. Цей гранатомет створено для однієї мети – максимального руйнування.
 
-  -   [bold]Overwhelming Firepower[/bold]: The M5-ATL launches rockets that are among the strongest single-shot explosives in the game. A direct hit from any rocket type will kill most human targets and lower-caste Xenomorphs. Higher-caste Xenos will be knocked down or put into critical condition.
-  -   [bold]Psychological Impact[/bold]: The mere sight and sound of an ATL can cause panic and disarray among enemy ranks. Xenomorphs, in particular, are often wary of a Demolitionist's presence.
+  -   [bold]Переважна вогнева міць[/bold]: ПТГ-М5 запускає ракети, що є одними з найпотужніших однозарядних вибухових боєприпасів у грі. Пряме влучання будь-якого типу ракети вбиває більшість людських цілей і ксеноморфів нижчого тиру. Ксеноморфи вищого тиру будуть збиті з ніг або впадуть у критичний стан.
+  -   [bold]Психологічний тиск[/bold]: Сам лише звук і силует ПТГ-М5 здатні викликати паніку та дезорганізацію у ворога. Особливо це стосується ксеноморфів, які часто уникають прямого контакту з Ракетником.
 
-  [bold]Operational Considerations & Risks:[/bold]
+  [bold]Передові поради та ризики:[/bold]
 
-  -   [color=#FF0000][bold]NO IFF SYSTEM[/bold][/color]: Rockets are indiscriminate and will damage or kill anything in their blast radius, including friendly marines. Extreme caution is required.
-  -   [bold]Wield Delays[/bold]: The RPG has a noticeable wield delay when equipping it. Account for this delay in fast-paced combat.
-  -   [bold]Rockets Can Miss[/bold]: Despite their power, rockets are projectiles and can miss their intended target, especially at range or against agile foes.
+  -   [color=#FF0000][bold]ВІДСУТНІСТЬ СИСТЕМИ УДВ[/bold][/color]: Ракети не розрізняють цілей. Вони завдають шкоди або вбивають усе в радіусі вибуху – включно із союзними морпіхами. Необхідна максимальна обережність.
+  -   [bold]Затримка при взяті у обидві руки[/bold]: У ПТГ-М5 помітна затримка при взятті в руки. Враховуйте це під час боїв із частою зміною зброї.
+  -   [bold]Ракети можуть промахнутися[/bold]: Попри високу потужність, ракети – це все одно снаряди. Вони можуть не влучити в ціль на великій дистанції або проти швидких та маневрених ворогів.
 
-  ### Rocket Varieties & Effects
-  The M5-RPG utilizes two main types of rockets:
+  ### Різновиди ракет та їх ефекти
+  ПТГ-М5 використовує два основних типи ракет:
   <Box>   <GuideEntityEmbed Entity="RMCRocket84mm"/> </Box>
-  -Detonates with a large explosion (approx. 3-tile radius), dealing significant splash damage and inflicting additional damage to anything directly hit by the rocket.
-  - This rocket excels against unarmored Xenomorphs, using it against lower tiered Xenomorphs should not be taken out of the equation. HE rockets are excellent for crowd control.
+  - Детонує потужним вибухом (радіус приблизно 3 клітинки), завдаючи значної фугасної шкоди та додаткового ураження цілі при прямому попаданні.
+  - Цей тип ракети ефективний проти неброньованих ксеноморфів і не варто витрачати його проти блукаючих ксеноморфів нижчого тиру. ОФ-ракети чудово підходять для знищення натовпів.
   <Box>   <GuideEntityEmbed Entity="RMCRocket84mmAntiArmor"/> </Box>
-  -Features almost no splash damage but inflicts [italic]massive direct damage[/italic] with a long stun if the rocket physically strikes the target. Ideal for engaging heavily armored single targets like T3 Xenomorphs or enemy vehicles. Surprisingly viable at close ranges against specific targets due to its focused impact.
+  - Практично не має фугасного ураження, але завдає [italic]масивної прямої шкоди[/italic] з тривалим оглушенням, якщо ракета фізично влучає в ціль. Ідеально підходить для ураження важкоброньованих самотніх цілей – ксеноморфів Т3 або ворожої техніки. Неочікувано ефективна навіть на близькій дистанції проти окремих цілей завдяки концентрованому імпульсному удару.
 
-  ### The Loader: Multiplying Your Might
+  ### Заряджаючий: примноження вашої сили
 
-  A significant force multiplier for the Demolitionist is the effective utilization of a dedicated loader.
-  While [italic]any squadmate can perform an assisted reload[/italic] for the Demolitionist, the effective utilization of a dedicated and properly equipped loader significantly enhances both safety and the potential for sustained firepower.
+  Важливим фактором, що підсилює ефективність Ракетника - є Заряджаючий.
+  Хоча [italic]будь-який боєць загону може виконати допоміжне заряджання ракети[/italic], наявність виділеного й належно спорядженого та навченого Заряджаючого значно підвищує безпеку та дозволяє підтримувати високу інтенсивність вогню.
 
   <Box> <GuideEntityEmbed Entity="RMCKitLoader"/> </Box>
-  -   This specialized kit can be issued to a standard rifleman, transforming them into an ATL Loader. The Loader will have to have the rocket in hand while the operator wields the ATL and interacting with the operator, beginning the reload.
+  -   Цей спеціалізований набір можна видати звичайному стрільцю, перетворивши його на Заряджаючого вашого ПТГ. Спочатку Заряджаючий тримає ракету, поки Ракетник утримує ПТГ обома руками. Після пострілу він підходить й повзаємодіючи з Ракетником (кліком по ньому) ініціює процес зарядки ракети.
 
-  -   [bold]Drastic Reload Speed Increase[/bold]: When assisted by a Rifleman equipped with the Loader Kit, the M5-ATL's reload time is [italic]dramatically reduced[/italic]. This synergy converts the typically slow-firing ATL into a weapon capable of delivering a much more rapid succession of rockets.
-  -   [bold]Sustained Firepower[/bold]: The vastly decreased downtime between shots allows the Demolitionist to maintain pressure on targets, quickly follow up on initial hits, or engage multiple threats in shorter order.
-  <Box>[bold]The Loader as a Battle Buddy[/bold]:</Box>
-  To leverage this advantage, close coordination and clear communication between the Demolitionist and their Loader are absolutely essential.
-  The Loader must remain in close proximity-typically positioned safely behind the Demolitionist to facilitate an immediate reload after each shot.
-  Beyond just enabling faster reloads, a designated Loader should function as a true [bold]battle buddy[/bold]. Their role extends to:
-  - [color=#FFA500]Providing covering fire[/color] with their own primary weapon while the ATL operator is aiming or vulnerable.
-  - [color=#FFA500]Following up on the ATL operator's shots[/color], helping to finish off targets weakened or stunned by a rocket.
-  - [color=#FFA500]Actively watching the Demolitionist's back[/color] and flanks, crucial for preventing capture or ambush, as the ATL operator will often be focused downrange.
-  - The PPE from the RMC Kit Loader offers the designated assistant enhanced protection, making them more survivable as they fulfill these close-support duties. Their active engagement and protective oversight are crucial for maximizing the ATL's output and the Demolitionist's survival.
+  -   [bold]Значне прискорення заряджання ракети[/bold]: Якщо стрілець навчений набором заряджаючого, час зарядки ПТГ-М5 [italic]різко скорочується[/italic]. Така синергія перетворює повільнострільну ПТГ на зброю, здатну випускати ракети значно частіше.
+  -   [bold]Підтримувана вогнева міць[/bold]: Значно менші інтервали між пострілами дозволяють Ракетнику постійно тиснути на цілі, швидко добивати поранених ворогів або працювати по кількох загрозах у короткі проміжки часу.
+  <Box>[bold]Заряджаючий як бойовий побратим[/bold]:</Box>
+  Щоб повністю використати переваги цієї взаємодії, Ракетник і Заряджаючий мають діяти у тісній координації та підтримувати чітку комунікацію.
+  Заряджаючий повинен триматися поруч – зазвичай у безпечній позиції позаду Ракетника, щоб забезпечити негайне заряджання після кожного пострілу.
+  Окрім пришвидшеної зарядки, призначений Заряджаючий виконує роль повноцінного [bold]бойового побратима[/bold]. До його обов'язків входять:
+  - [color=#FFA500]Надання прикриття вогнем[/color] зі своєї основної зброї, коли Ракетник прицілюється або перебуває у вразливому положенні.
+  - [color=#FFA500]Добивання[/color] ослаблених або оглушених ракетним ударом ворогів, забезпечуючи швидке завершення атаки.
+  - [color=#FFA500]Контроль тилу та флангів[/color] Ракетника, що критично важливо для запобігання засідкам чи оточеню, оскільки Ракетник часто зосереджений на дальньому секторі.
+  - Засоби індивідуального захисту з набору Заряджаючого забезпечують йому посилений рівень захисту, підвищуючи живучість під час виконання цих обов'язків. Активна підтримка та постійна пильність й обачність Заряджаючого є ключовими для максимальної ефективності ПТГ-М5 і виживання Ракетника.
 
-  ## Tactical Application & Best Practices
+  ## Тактичні поради та найкращі практики
 
-  As a Demolitionist, your primary function is to neutralize the most dangerous threats on the battlefield. You are a high-priority target for the enemy due to your destructive potential.
+  Як Ракетник, ваша головна роль – нейтралізація найнебезпечніших загроз на полі бою. Через ваш руйнівний потенціал ви є однією з пріоритетних цілей для ворога.
 
-                                                                                    <Box> [bold]Key Considerations for Effective Operations:[/bold]</Box>
-  -  [bold]Ammunition is Gold[/bold]: [color=#FFD700]Your rockets are incredibly potent but also extremely scarce and difficult to resupply.[/color] Make every single shot count. Conserve your ammunition strictly for high-value targets or situations where no other asset can achieve the desired effect. You are effectively an "alpha strike" specialist.
-                                                                                       <Box>  [bold]Target Prioritization is Paramount[/bold]:</Box>
-  <Box> [color=#DAA520]Save your AP (Anti-Armor) rockets primarily for higher-tier Xenomorphs[/color] like T3s (Crushers, Praetorians, Ravagers, Queens) or other heavily armored singular threats.</Box>
-  <Box> [color=#FFA500]Utilize your HE (High Explosive) rockets against dangerous clusters of smaller Xenomorphs with inadequate armor[/color] (T1s-T2s such as Warriors, Drones, Runners), The HE rocket's splash damage is excellent for crowd control and disrupting these enemy groups.</Box>
+                                                                                    <Box> [bold]Ключові міркування для ефективних операцій:[/bold]</Box>
+  [bold]Боєприпаси – це золото[/bold]: 
+  -  [color=#FFD700]Ваші ракети надзвичайно потужні, але вкрай обмежені й дорогі.[/color] Кожен постріл має бути обґрунтованим. Використовуйте ракети лише проти високопріоритетних загроз або тоді, коли жоден інший засіб не забезпечить потрібний ефект. Ви фактично спеціаліст з "контр-ударів".
+  
+  [bold]Уміння навадавати пріорітет цілей – критично важлива[/bold]:
+  -  [color=#DAA520]Зберігайте бронебійні ракети (ББ) для ксеноморфів вищого тиру[/color] – таких як Т3 (Руйнівник, Преторіанець, Спустошувач, Королева) або інших сильно броньованих цілей.
+  -  [color=#FFA500]Застосовуйте осколково-фугасні (ОФ) ракети проти скупчень легкоброньованих ксеноморфів[/color] – T1–T2 (Воїни, Дрони). Значний фугасний радіус ОФ-ракети ідеально підходить для знищення натовпу та дезорганізації таких груп.
 
-  -  [bold]Anticipate Being Hunted[/bold]: [color=#FF0000]Hostiles will go to extreme lengths to eliminate you.[/color] Maintain high situational awareness, work closely with your squad for protection, and avoid isolated positions.
-  -  [bold]Mind Your Trajectory[/bold]: Ensure a clear line of fire. Rockets, like grenades, can be blocked by terrain. Do not fire if marines are between you and the target.
-  -  [bold]Inventory Management[/bold]: Rockets are bulky. Utilize your Rocket Bags or consider a Loader for alternative storage if needed. Keep track of your secondary weapon ammo as well.
+  [bold]Готуйтеся бути мішенню[/bold]: 
+  -  [color=#FF0000]Ворог робитиме все можливе, щоб вас вбити.[/color] Будьте дуже обачними, працюйте поруч зі своїм загоном і уникайте ізольованих позицій.
+  
+  [bold]Стежте за траєкторією пострілу[/bold]: 
+  -  Переконайтеся, що між вами й ціллю немає перешкод. Ракети, як і гранати, можуть зачепити рельєф або споруди. Не стріляйте, якщо між вами та противником стоять морпіхи.
+  
+  [bold]Розпоряжайтеся інвентарем грамотно[/bold]: 
+  -  Ракети великі. Використовуйте сумки для ракет або покладіться на Заряджаючого як альтернативне сховище. Водночас уважно стежте за боєзапасом вашої другої зброї.
 
-  ## Specific Tactics
+  ## Найкращі тактики та поради
 
-  Since the M5-ATL lacks an IFF system, you [italic]must[/italic] have direct, unobstructed vision of your target. Here are some approaches:
+  Оскільки ПТГ-М5 не має системи УДВ, ви [italic]повинні[/italic] мати прямий і вільний огляд цілі. Ось кілька актуальних підходів:
 
-  - [bold]Capitalize on Queen Screeches[/bold]: One of the best opportunities to fire a rocket is when the Queen screeches, stunning nearby marines and forcing them on the ground. If you can anticipate her screech (e.g. by hearing her distinct footsteps approaching for such an attack), try to position yourself to avoid the stun (e.g by briefly moving out of range or breaking line of sight).
-    Immediately after the screech immobilizes the marines, rush in (or reposition) to deliver a well-aimed shot into the vulnerable, clueless targets. This can be a highly effective way to secure critical kills or inflict massive damage.
-  - [bold]Mobility is Key[/bold]: Being fast and mobile as a SADAR operator is crucial. Your light armor aids this. Constantly reposition to find clear lines of sight, flank entrenched enemies or escape retaliation after firing. Don't be a static target. Your ability to quickly get into an optimal firing position and then relocate can secure many successful rocket attacks.
-  - [bold]Secondary Weapon for Follow-Ups[/bold]: After launching a rocket, especially if it doesn't outright kill a high-health target (like a T3 that's now stunned or injured) quickly switch to a reliable secondary weapon to secure the kill. The M63 is an excellent choice for this with its belt holster, allowing you to finish off weakened targets without expending another precious rocket.
+  - [bold]Використовуйте крик Королеви[/bold]: Одним із найкращих моментів для запуску ракети є крик Королеви, який оглушує морпіхів навколо й змушує їх падати на землю. Якщо ви можете передбачити крик (наприклад, почувши характерні важкі кроки перед атакою), спробуйте завчасно змінити позицію, щоб уникнути оглушення – відійдіть за межі радіуса чи на мить десь сховайтеся.
+    Одразу після того, як крик знерухомить морських піхотинців, просувайтесь уперед (або переміщайтесь збоку) й робіть прицільний постріл у вразливі, дезорієнтовані цілі. Це надзвичайно ефективний спосіб завдати критичної шкоди або добити ключові цілі.
+  - [bold]Мобільність – ключова[/bold]: Ракетник повинен бути швидким і постійно рухатися. Легка броня цьому сприяє. Часто змінюйте позиції, шукайте чисті лінії вогню, атакуйте укріплених ворогів або швидко відходьте одразу після пострілу. Не перетворюйтесь на статичну мішень. Ваше вміння швидко виходити на вигідну позицію і так само швидко з неї відходити – основа успішних ракетних атак.
+  - [bold]Додаткова зброя для добивання[/bold]: Після запуску ракети, особливо якщо вона не ліквідувала ціль із високим запасом здоров’я (наприклад Т3, який тепер оглушений або поранений), швидко переходьте на надійну додаткову зброю, щоб завершити атаку. Пістолет-кулемет M63 – чудовий варіант: кобура на ремені дозволяє миттєво перейти до добивання ослабленої цілі, не витрачаючи ще одну дорогоцінну ракету.
+  <Box> <GuideEntityEmbed Entity="WeaponSMGM63" Context=""/> <GuideEntityEmbed Entity="RMCBeltHolsterSMGPouch" Context=""/> </Box>
 
-  ## The Weight of Expectation
-  The Demolitionist carries the heaviest firepower and, with it, immense responsibility. Your ability to eliminate game-changing threats can be the difference between victory and defeat.
-  However, the scarcity of your ammunition, the inherent dangers of your weapon and the enemy's determination to neutralize you make this a challenging role requiring precision, patience and nerves of steel.
+  ## Вага очікувань
+  Ракетник має найпотужнішу переносну вогневу міць й разом із нею несе величезну відповідальність. Ваша здатність знищувати загрози, що здатні переламати хід бою, може стати ключем як до перемоги, так і до поразки.
+  Втім, обмеженість боєприпасів, небезпеки, пов’язані з використанням ПТГ-М5, та постійна рішучість ворога вас усунути роблять цю роль дуже складною. Вона вимагає точності, терпіння та справжніх сталевих нервів.
 
 </Document>

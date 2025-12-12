@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralLarge
-  name: large general pouch
-  description: A general-purpose pouch used to carry more differently sized items.
+  name: великий загальний підсумок
+  description: Універсальна міні-сумка, що використовується для перенесення предметів будь-якого розміру (поки вони в неї влазять).
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_drop.rsi

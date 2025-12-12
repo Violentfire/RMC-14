@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLGear
-  name: ColMarTech squad leader gear rack
-  description: An automated gear rack for Squad Leaders.
+  name: КолМорТех стійка для обладнання Лідера Загону
+  description: Автоматизована стійка обладнання для Лідера Загону.
   components:
   - type: AccessReader
     access:
@@ -15,11 +15,11 @@
     jobs:
     - CMSquadLeader
     sections:
-    - name: Squad Leader Kit
+    - name: Набір Лідера Загону
       takeAll: CMStandard
       entries:
       - id: RMCVendorBundleCrewLeader
-    - name: Squad Kit (for yourself or your squad)
+    - name: набір обладнання (для себе або свого загону)
       choices: { RMCKitBase: 1 }
       entries:
       - id: RMCKitEngineering
@@ -32,20 +32,19 @@
       - id: RMCM85A1Case
       - id: RMCMOU53Case
       - id: RMCCaseXM88
-    - name: Clothing Items
+    - name: Предмети Одягу
       entries:
       - id: RMCBackpackRTO
-        recommended: true
         points: 5
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         points: 4
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
         points: 4
       - id: CMBeltUtilityCombat
         points: 15
-    - name: Utilities
+    - name: Додаткове Обладнання
       entries:
       - id: RMCWhistle
         points: 3
@@ -55,13 +54,13 @@
         points: 5
       - id: RMCFulton20
         points: 5
-    - name: Binoculars
+    - name: Біноклі
       entries:
       - id: RMCRangefinder
         points: 3
       - id: RMCLaserDesignator
         points: 5
-    - name: Helmet Optics
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorWelding
         points: 5
@@ -71,18 +70,18 @@
       - id: RMCVisorNightVision
         points: 25
         recommended: true
-    - name: Engineering Supplies
+    - name: Інженерне Обладнання
       entries:
       - id: CMHandsInsulated
         points: 3
       - id: CMHandsBlackInsulated
         points: 3
       - id: CMSheetMetal10
-        name: metal x10
+        name: металеві листи x10
         points: 5
         recommended: true
       - id: CMSheetPlasteel10
-        name: plasteel x10
+        name: пласталеві листи x10
         points: 7
         recommended: true
       - id: RMCExplosivePlastic
@@ -92,7 +91,7 @@
         points: 7
         recommended: true
       - id: CMSandbagEmpty25
-        name: sandbags x25
+        name: мішки для піску x25
         points: 10
         recommended: true
       - id: RMCPackFlareCAS
@@ -101,7 +100,7 @@
         points: 5
       - id: RMCWeldingGoggles
         points: 5
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 18
@@ -112,18 +111,20 @@
       - id: RMCPacketGrenadeSmokeFilled
         points: 9
       - id: RMCPacketGrenadeM74AGMFFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMIFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMSFilled
-        points: 10
+        points: 9
       - id: RMCPacketGrenadeM74AGMSHornetFilled
-        points: 20
-    #- id: CMM20MineBoxx4mines
-    #  points: 20
-    #- id: CMM40MFHSMetalFoamGrenade
-    #  points: 5
-    - name: Medical Supplies
+        points: 13
+    # - id: CMM20MineBoxx4mines
+    #   points: 20
+    # - id: CMM40MFHSMetalFoamGrenade
+    #   points: 5
+    # - id: RMCElectroshockGrenadex3
+    #   points: 16
+    - name: Медичне Обладнання
       entries:
       - id: CMBurnKit10
         points: 2
@@ -142,7 +143,7 @@
       - id: CMKelotaneAutoInjector
         points: 1
 #      - id: CMInjectorOxycodone
-#        points: 2
+#        points: 1
 #      - id: CMInjectorTramadol
 #        points: 1
       - id: CMTricordrazineAutoInjector
@@ -151,7 +152,7 @@
         points: 4
       - id: CMRollerBedSpawnFolded
         points: 2
-    - name: Primary Ammunition
+    - name: Особливі Набої
       entries:
       - id: CMMagazineRifleM4SPRAP
         points: 6
@@ -169,7 +170,7 @@
         points: 6
       - id: CMMagazineRifleM54CExt
         points: 6
-    - name: Sidearm Ammunition
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -185,13 +186,15 @@
         points: 3
       - id: RMCMagazinePistolSU6
         points: 6
-    - name: Special Ammunition
+    - name: Обмежені Боєприпаси
       entries:
       - id: RMCTankFlamer
         points: 3
-    #- id: CMM240IncineratorTankB-Gel
-    #  points: 3
-    - name: Restricted Firearms
+        name: incinerator tank (UT-Napthal)
+      - id: RMCTankFlamerBGel
+        points: 3
+        name: incinerator tank (B-Gel)
+    - name: Додаткова Зброя
       entries:
       - id: RMCCaseFlamer
         points: 18
@@ -201,7 +204,7 @@
         points: 12
       - id: RMCM85A1Case
         points: 18
-    - name: Radio Keys
+    - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyEngineer
         points: 3
@@ -211,12 +214,14 @@
         points: 3
       - id: CMEncryptionKeyRequisition
         points: 3
+      - id: CMEncryptionKeyMedical
+        points: 3
 
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSLEquipment
-  name: ColMarTech squad leader equipment rack
-  description: An automated rack hooked up to a colossal storage of Squad Leader standard-issue equipment.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Лідера Загону
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Лідера Загону морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -227,30 +232,32 @@
     jobs:
     - CMSquadLeader
     sections:
-    - name: Standard Equipment
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleSquadLeaderApparel
+      - id: RMCBackpackRTO
+        replaceSlot: back
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Armor
+    - name: Броня
       choices: { CMArmour: 1 }
       entries:
       - id: RMCArmorB12Zipties
-        name: leader B12 pattern marine armor (zipties)
+        name: броня лідера загону зразка Б12 (Стяжки)
         recommended: true
       - id: RMCArmorM4Zipties
-        name: leader M4 pattern marine armor (zipties)
+        name: броня лідера загону зразка М4 (Стяжки)
       - id: RMCArmorVestSquadLeader
-        name: leader M3-XL pattern armor vest (zipties)
-    - name: Backpack
+        name: захисний жилет лідера загону зразка М3-ЕЛ (Стяжки)
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarine
       - id: RMCScabbardMacheteFilled
       - id: CMSatchelMarine
         recommended: true
-    - name: Belt
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -266,22 +273,22 @@
       - id: RMCM82FHolster
       - id: RMCM276ShotgunShellLoadingRig
       - id: CMBeltUtilityFilled
-        name: M276 pattern toolbelt rig (Full)
+        name: ремінь для інструментів зразка М276 (Повний)
       - id: RMCBeltGrenade
-    - name: Pouches
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchAutoinjectorFill
         recommended: true
       - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
+        name: підсумок першої допомоги (багаторазові автоінжектори)
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
+        name: підсумок першої допомоги (марля, мазь) # TODO RMC14 splints comma
       - id: RMCPouchFirstAidPills
-        name: first-aid pouch (pills)
+        name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchFlareFilled
-        name: Flare pouch (Full)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchFuelTank
       - id: RMCPouchGeneralLarge
         recommended: true
@@ -290,7 +297,7 @@
       - id: RMCPouchShotgunLarge
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchPistol
-    - name: Accessories
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -304,7 +311,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Mask
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas
@@ -314,8 +321,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewLeader
-  name: essential SL kit
-  description: Contains a laser designator, a pack of signal flares, a breaching charge and a fire extinguisher.
+  name: необхідний набір лідера загону
+  description: Містить лазерний цілевказівник, упаковку сигнальних фаєрів М89-С, пластикову бомбу та вогнегасник.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/plastic_explosives.rsi
@@ -325,13 +332,13 @@
     - RMCExplosivePlastic
     - RMCPackFlareCAS
     - RMCLaserDesignator
-    - CMFireExtinguisher
+    - CMFireExtinguisherPortable
 
 - type: entity
   parent: RMCKitBase
   id: RMCKitRifleM4SPR
-  name: M4SPR marksman kit
-  description: Contains a M4SPR rifle, a 4x telescopic scope, a suppressor, an extended barrel and 2 AP magazines.
+  name: стрілецький набір M4SPR
+  description: Містить бойову гвинтівку M4SPR, 4х телескопічний приціл, глушник, подовжений ствол та 2 ББ магазини.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -349,8 +356,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitCM54C
-  name: M54C rifle kit
-  description: Contains a M54C rifle, an angled grip, a suppressor, an extended barrel and 2 AP magazines.
+  name: набір М54С
+  description: Містить штурмову гвинтівку М54С, кутовий хват, глушник, подовжений ствол та 2 ББ магазини.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -368,8 +375,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitEngineering
-  name: engineering supply kit
-  description: Contains a construction pouch with 50 metal, 30 plasteel and 15 barbed wire, and an electronics pouch with three high-capacity power cells.
+  name: набір інженерного обладнання
+  description: Містить підсумок для матеріалів (50 металевих листів, 50 пласталевих листів та 15 колючого дроту) та пісумок для електроніки (3 модулі контролю потужності та 3 батареї великої ємності).
   components:
   - type: Storage
     maxItemSize: Huge
@@ -383,13 +390,13 @@
     contents:
     - id: RMCPouchConstructionFillLowGrade
     - id: RMCPouchElectronicsFill
-#    - id: RMCGogglesWelding # TODO RMC14 welding goggles
+    - id: RMCWeldingGoggles
 
 - type: entity
   parent: RMCKitBase
   id: RMCKitPyroMini
-  name: M34 pyrotechnician support kit
-  description: Contains a M34 incinerator unit, a G4-1 fueltank, 3 incinerator tanks, and a portable fire extinguisher.
+  name: комплект вогнеметника підтримки М34
+  description: Містить вогнемет М34, переносний паливний бак В4-1, 3 паливні баки та портативний вогнегасник.
   components:
   - type: Storage
     maxItemSize: Huge
@@ -403,15 +410,16 @@
     contents:
     - id: RMCBackpackFlamer
     - id: RMCWeaponFlamer
-    - id: RMCTankFlamer # TODO RMC14 +1 b gel, -1 regular
-      amount: 3 # TODO RMC14 projectile nozzle
+    - id: RMCTankFlamer
+      amount: 2 # TODO RMC14 projectile nozzle
+    - id: RMCTankFlamerBGel
     - id: CMFireExtinguisherPortable
 
 - type: entity
   parent: CMArmorB12
   id: RMCArmorB12Zipties
-  name: leader B12 pattern marine armor
-  description: A lightweight suit of carbon fiber body armor built for quick movement. Designed in a lovely forest green. Use it to toggle the built-in flashlight. This one has a separate pouch for a ziptie box.
+  name: броня лідера загону зразка Б12
+  description: Легка броня, створена з вуглецевого волокна, що дозволяє носієві швидко пересуватися. Ця модель була спроєктована для використання лідерами загонів КМПОН та містить окремий підсумок для стяжок.
   suffix: Zipties
   components:
   - type: Storage
@@ -432,8 +440,8 @@
 - type: entity
   parent: CMArmorM4
   id: RMCArmorM4Zipties
-  name: leader M4 pattern marine armor
-  description: A well tinkered and crafted hybrid of Smart-Gunner mesh and M3 pattern plates. Robust, yet nimble, with room for all your pouches. This one has a separate pouch for a ziptie box.
+  name: броня лідера загону зразка М4
+  description: Добре продуманий та якісно виготовлений гібрид кріплення для Смартгану та пластин М3. Втілює в собі поєднання міцності та маневреності, а також має більше місця для ваших речей. Ця модель була спроєктована для використання лідерами загонів КМПОН та містить окремий підсумок для стяжок.
   suffix: Zipties
   components:
   - type: Storage

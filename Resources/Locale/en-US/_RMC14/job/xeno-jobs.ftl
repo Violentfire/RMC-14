@@ -20,7 +20,7 @@ cm-job-name-xeno-hivelord = Володар вулика
 CMJobXenoHivelord = Володар  вулика
 
 cm-job-name-xeno-parasite = Паразит
-cm-job-name-xeno-parasite-xeno = Child
+cm-job-name-xeno-parasite-xeno = Дитина
 CMJobXenoParasite = Паразит
 
 cm-job-name-xeno-larva = Лярва
@@ -52,6 +52,9 @@ CMJobXenoSpitter = Плювака
 
 cm-job-name-xeno-warrior = Воїн
 CMJobXenoWarrior = Воїн
+
+rmc-job-name-xeno-king = King
+RMCJobXenoKing = King
 
 # TODO RMC14
 department-CMXeno = Ксеноїди

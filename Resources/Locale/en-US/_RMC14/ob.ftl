@@ -1,31 +1,31 @@
-﻿### OB Warnings
-rmc-ob-warning-one = The sky erupts into flames to the {$direction}!
-rmc-ob-warning-above-one = The sky erupts into flames right above you!
-rmc-ob-warning-two = The sky roars louder to the {$direction}!
-rmc-ob-warning-above-two = The sky roars louder right above you!
-rmc-ob-warning-three = OH GOD THE SKY WILL EXPLODE!!!
-rmc-ob-warning-above-three = YOU SHOULDN'T BE HERE!
+### OB Warnings
+rmc-ob-warning-one = Небо спалахує вогнем на {$direction}!
+rmc-ob-warning-above-one = Небо спалахує вогнем просто над вами!
+rmc-ob-warning-two = Небо гуркоче дедалі сильніше на {$direction}!
+rmc-ob-warning-above-two = Небо гуркоче дедалі сильніше просто над вами!
+rmc-ob-warning-three = О КОРОЛЕВА, НЕБО ЗАРАЗ ВПАДЕ!!!
+rmc-ob-warning-above-three = ВАМ НЕ СЛІД ТУТ БУТИ!
 
 ### Orbital Cannon Console
-rmc-ui-ob-console-name = Orbital Cannon Console
-rmc-ui-ob-console-title = ORBITAL CANNON CONTROL
+rmc-ui-ob-console-name = Консоль Орбітальної Гармати
+rmc-ui-ob-console-title = КЕРУВАННЯ ОРБІТАЛЬНОЮ ГАРМАТОЮ
 
 ### Status Sections
-rmc-ui-ob-warhead-status = WARHEAD STATUS
-rmc-ui-ob-fuel-status = FUEL STATUS
-rmc-ui-ob-tray-status = TRAY STATUS
+rmc-ui-ob-warhead-status = СТАН БОЄГОЛОВКИ
+rmc-ui-ob-fuel-status = СТАН ПАЛИВА
+rmc-ui-ob-tray-status = СТАН ЗАВАНТАЖЕННЯ
 
 ### Button Labels
-rmc-ui-ob-load-tray = Load Tray
-rmc-ui-ob-unload-tray = Unload Tray
-rmc-ui-ob-chamber-tray = Chamber Tray
+rmc-ui-ob-load-tray = Завантажити
+rmc-ui-ob-unload-tray = Розрядити
+rmc-ui-ob-chamber-tray = Зарядити
 
 ### Status Messages
-rmc-ui-ob-warhead-none = No warhead loaded!
-rmc-ui-ob-warhead-loaded = { $warhead } loaded!
-rmc-ui-ob-fuel-count = { $count } Fuel Blocks loaded
-rmc-ui-ob-tray-chambered = The tray is chambered, you cannot unchamber it.
+rmc-ui-ob-warhead-none = Боєголовку не завантажено!
+rmc-ui-ob-warhead-loaded = {$warhead} завантажена!
+rmc-ui-ob-fuel-count = Завантажено {$count} паливних баків
+rmc-ui-ob-tray-chambered = Гармату вже заряджено, ви не можете її розрядити.
 
-rmc-ui-ob-fuel-instruction-title = WARHEAD FUEL REQUIREMENTS
+rmc-ui-ob-fuel-instruction-title = ВИМОГИ ДО ПАЛИВА
 
-rmc-ui-ob-fuel-requirement = {$warhead}: {$fuel} Fuel blocks.
+rmc-ui-ob-fuel-requirement = {$warhead}: {$fuel} паливних баків.

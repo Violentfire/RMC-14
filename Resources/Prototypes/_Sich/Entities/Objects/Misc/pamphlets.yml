@@ -1,0 +1,26 @@
+- type: entity
+  parent: CMPamphlet
+  id: SichCMPamphletSherpa
+  name: довідник шерпи
+  description: Він навчить вас переносити важкі речі.
+  components:
+    - type: Sprite
+      sprite: _Sich/Objects/Misc/pamphlets.rsi
+      state: pamphlet_sherpa
+    - type: SkillPamphlet
+      addComps:
+        - type: SichSherpaRifleman
+      addSkills:
+        RMCSkillFireman: 1
+      giveJobTitle: sich-rmc-job-name-sherpa
+      givePrefix: sich-rmc-job-prefix-sherpa
+      isAppendPrefix: false
+      giveIcon:
+        sprite: _Sich/Interface/cm_job_icons.rsi
+        state: hudsquad_sherpa
+      giveMapBlip:
+        sprite: /Textures/_Sich/Interface/map_blips.rsi
+        state: sherpa
+      jobWhitelists:
+        - popup: rmc-pamphlets-rifleman-warning
+          jobProto: CMRifleman

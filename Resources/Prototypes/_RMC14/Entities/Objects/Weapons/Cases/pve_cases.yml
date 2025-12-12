@@ -286,8 +286,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseFlamerFuel
-  name: M34 fuel canister case
-  description: A heavy case containing six fuel canisters for the M34 incinerator unit.
+  name: кейс для баків з пальним для М34
+  description: Громіздкий кейс що вміщує шість баків з пальним для вогнемету М34.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/flamer_fuel.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseMotionDetector
-  name: motion detectors case
-  description: A case containing four individual handheld motion detectors.
+  name: кейс для детекторів руху
+  description: Кейс що вміщує чотири детектори руху.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/md.rsi

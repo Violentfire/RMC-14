@@ -1,7 +1,7 @@
 - type: entity
-  id: RMCOrbitalCannon
-  name: орбітальна гармата
-  description: "Орбітальна гарматна КМПОН. Використовується для ураження великої площі на планеті, навколо якої обертається корабель. Прискорює боєголовку за допомогою рідкого палива, завдаючи руйнівного удару при зіткненні."
+  id: RMCOrbitalCannonDerelict
+  name: стара орбітальна гармата
+  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Ця, схоже, непрацездатна..."
   placement:
     mode: SnapgridCenter
   components:
@@ -28,12 +28,6 @@
       map: [ "base" ]
   - type: Clickable
   - type: InteractionOutline
-  - type: OrbitalCannon
-    warheadTypes:
-    - RMCOrbitalCannonWarheadExplosive
-    - RMCOrbitalCannonWarheadCluster
-    - RMCOrbitalCannonWarheadIncendiary
-    - RMCOrbitalCannonWarheadAegis
   - type: Appearance
   - type: GenericVisualizer # TODO RMC14 animations
     visuals:
@@ -47,8 +41,21 @@
   - type: RMCMesonsNonviewable
 
 - type: entity
+  parent: RMCOrbitalCannonDerelict
+  id: RMCOrbitalCannon
+  name: орбітальна гармата
+  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Задіює тверде паливо для сильного пришвидшення боєголовки перед запуском тієї по цілі, завдаючи руйнівного удару."
+  components:
+  - type: OrbitalCannon
+    warheadTypes:
+    - RMCOrbitalCannonWarheadExplosive
+    - RMCOrbitalCannonWarheadCluster
+    - RMCOrbitalCannonWarheadIncendiary
+    - RMCOrbitalCannonWarheadAegis
+
+- type: entity
   id: RMCOrbitalCannonFuel
-  name: Рідке пальне
+  name: тверде паливо
   placement:
     mode: SnapgridCenter
   components:
@@ -72,7 +79,7 @@
 - type: entity
   abstract: true
   id: RMCOrbitalCannonWarheadBase
-  name: Орбітальна боєголовка
+  name: орбітальна боєголовка
   placement:
     mode: SnapgridCenter
   components:
@@ -96,8 +103,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in heavily-fortified areas, and causes a large circular explosion if it manages to reach the ground."
-  name: Фугасна орбітальна боєголовка
+  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньої кількості твердого палива. Ця конкретна модель призначена для використання в сильно укріплених районах й викликає великий круговий вибух при ударі."
+  name: фугасна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -107,8 +114,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for cutting off enemy forces, and creates a large diamond of ultra-hot blue fire."
-  name: Запалювальна орбітальна боєголовка
+  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для відсікання ворожих сил й створює велике коло надгарячого блакитного вогню."
+  name: запальна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -118,8 +125,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in cramped heavily-fortified areas, and causes multiple explosions in a vaguely rectangular shape."
-  name: Кластерна орбітальна боєголовка
+  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для використання у тісних добре укріплених районах та викликає численні кругові вибухи."
+  name: кластерна орбітальна боєголовка
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -129,8 +136,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок AEGIS. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
-  name: Орбітальна боєголовка AEGIS
+  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок АЕГІС. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
+  name: орбітальна боєголовка АЕГІС
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -203,7 +210,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionAegis
-  name: explosive Aegis OB explosion
+  name: вибух орбітального бомбардування АЕГІС
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter

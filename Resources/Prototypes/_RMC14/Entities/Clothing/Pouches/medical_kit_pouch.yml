@@ -1,9 +1,9 @@
-﻿# MedKit Pouch
+# MedKit Pouch
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedkit
-  name: medical kit pouch
-  description: It's specifically made to hold medical items.
+  name: великий медичний підсумок
+  description: Він спеціально призначений для зберігання медичного приладдя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medkit.rsi

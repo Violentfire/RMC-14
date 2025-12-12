@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCBaseTesla
   id: RMCTesla
-  name: UN 21S tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock.
+  name: ОН 21Ш електрошокова котушка Тесли
+  description: Відточений спосіб генерування високовольтної, низькострумової та високочастотної електроенергії. Невеликі модифікації дозволяють установці вражати лише ворожі цілі потужним електричним розрядом.
   components:
   - type: Icon
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCTesla
   id: RMCTeslaMicro
-  name: UN 25S micro tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock. This one is smaller and more lightweight.
+  name: ОН 25Ш міні-електрошокова котушка Тесли
+  description: Відточений спосіб генерування високовольтної, низькострумової та високочастотної електроенергії. Невеликі модифікації дозволяють установці вражати лише ворожі цілі потужним електричним розрядом. Ця котушка є меншою, легшою та володіє найвищою частотою випуску електричних імпульсів, однак ослаблений корпус робить її вразливою до ударів. Регулярно перевіряйте стан і проводьте ремонт.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCTesla
   id: RMCTeslaOverclocked
-  name: UN 21S overclocked tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock. This one is significantly overclocked, providing a lot more voltage at the cost of speed.
+  name: ОН 21Ш розігнана-електрошокова котушка Тесли
+  description: Відточений спосіб генерування високовольтної, низькострумової та високочастотної електроенергії. Невеликі модифікації дозволяють установці вражати лише ворожі цілі потужним електричним розрядом. У цій модифікації котушку суттєво розігнано, що забезпечує значно вищу напругу ціною зниження швидкодії.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi

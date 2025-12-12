@@ -23,7 +23,7 @@
 - type: guideEntry
   parent: RMC
   id: RMCGuideNewPlayer
-  name: "New Player Guide"
+  name: "Посібник для нових гравців"
   priority: 1
   text: "/ServerInfo/Guidebook/_RMC14/RMCGuideNewPlayer.xml"
   children:
@@ -34,21 +34,21 @@
   parent: RMC
   id: RMCGuideRoleRifleman
   priority: 1
-  name: "Rifleman Guide"
+  name: "Посібник Стрільця"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleRifleman.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleDrone
   priority: 2
-  name: "Drone Guide"
+  name: "Посібник Дрона"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCGuideRoleDrone.xml"
 
 # Humanoid Roles
 - type: guideEntry
   parent: RMC
   id: RMCGuideMarineRoles
-  name: "Humanoid Roles"
+  name: "Гуманоїдні ролі"
   priority: 2
   text: "/ServerInfo/Guidebook/_RMC14/RMC14.xml"
   children:
@@ -71,63 +71,63 @@
   parent: RMC
   id: RMCSurvivor
   priority: 1
-  name: "Survivor"
+  name: "Виживші"
   text: "/ServerInfo/Guidebook/_RMC14/NewPlayerGuide/RMCSurvivor.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCMedical
   priority: 2
-  name: "Medical"
+  name: "Медичний"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCMedical.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCRequisitions
   priority: 3
-  name: "Requisitions"
+  name: "Постачання"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCRequisitions.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCIntel
   priority: 4
-  name: "Intel"
+  name: "Розвідка"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCIntel.xml"
 
 - type: guideEntry  # made by WithinElysium
   parent: RMC
   id: RMCGuideRoleMilitaryPolice
   priority: 5
-  name: "Military Police"
+  name: "Військова Служба Правопорядку"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleMilitaryPolice.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleCombatTechnician
   priority: 6
-  name: "Combat Technician"
+  name: "Бойовий Технік"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleCombatTechnician.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleMaintenanceTechnician
   priority: 7
-  name: "Maintenance Technician"
+  name: "Обслуговуючий Інженер"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleMaintenanceTechnician.xml"
 
 - type: guideEntry # made by GoodShowOldChap
   parent: RMC
   id: RMCGuideRoleSGO
   priority: 8
-  name: "Smart Gun Operator"
+  name: "Оператор СмартГану"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSGO.xml"
 
 - type: guideEntry # made by teatotaltemplar
   parent: RMC
   id: RMCGuideCommandRoles
   priority: 9
-  name: "Who is in Command?"
+  name: "Знай своє командування"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideCommandRoles.xml"
 
 # Humanoid Roles - Specialists
@@ -135,67 +135,67 @@
   parent: RMC
   id: RMCGuideRoleSpec
   priority: 10
-  name: "Specialists"
+  name: "Збройні спеціалісти"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpec.xml"
   children:
-  - RMCGuideRoleSpecDemo
-  - RMCGuideRoleSpecGrenadier
   - RMCGuideRoleSpecScout
+  - RMCGuideRoleSpecGrenadier
+  - RMCGuideRoleSpecDemo
   - RMCGuideRoleSpecSniper
 
 - type: guideEntry
   parent: RMC
-  id: RMCGuideRoleSpecDemo
+  id: RMCGuideRoleSpecScout
   priority: 1
-  name: "Demolitionist Specialist"
-  text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecDemo.xml"
+  name: "Розвідник"
+  text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecScout.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleSpecGrenadier
   priority: 2
-  name: "Heavy Grenadier Specialist"
+  name: "Гранатометник"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecGrenadier.xml"
 
 - type: guideEntry
   parent: RMC
-  id: RMCGuideRoleSpecScout
+  id: RMCGuideRoleSpecDemo
   priority: 3
-  name: "Scout Specialist"
-  text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecScout.xml"
+  name: "Ракетник"
+  text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecDemo.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleSpecSniper
   priority: 4
-  name: "Sniper Specialist"
+  name: "Снайпер"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleSpecSniper.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleCAS
   priority: 11
-  name: "Dropships and CAS"
+  name: "Десантування та БАП"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleCAS.xml"
 
 - type: guideEntry # made by Gabrote42
   parent: RMC
   id: RMCGuideMarineCommunications
   priority: 12
-  name: "Marine Communications"
+  name: "Комунікація Морської Піхоти"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideMarineCommunications.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideCorporateLiaison
-  name: "Corporate Liaison"
+  name: "Представник Корпорації"
   priority: 13
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideCorporateLiaison.xml"
 
 - type: guideEntry # made by UnicornOnLSD (GitHub)
   parent: RMC
   id: RMCGuideSquadLeader
-  name: "Squad Leading 101"
+  name: "Керування Загоном 101"
   priority: 14
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideSquadLeader.xml"
 
@@ -203,7 +203,7 @@
 - type: guideEntry
   parent: RMC
   id: RMCGuideMarineStructures
-  name: "Marine Structures"
+  name: "Структури Морської Піхоти"
   text: "/ServerInfo/Guidebook/_RMC14/RMC14.xml"
   priority: 3
   children:
@@ -214,14 +214,14 @@
   parent: RMC
   id: RMCGuideCommunicationsTowers
   priority: 1
-  name: "Comms and Sensors"
+  name: "Телекомунікаційні та Сенсорні вежі"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideCommunicationsTowers.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCGuideRoleMortar
   priority: 2
-  name: "Mortar"
+  name: "Міномет"
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideRoleMortar.xml"
 
 # Xenonid roles
@@ -471,6 +471,7 @@
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideFood.xml"
   children:
   - RMCGuideDrinks
+  filterEnabled: True
 
 - type: guideEntry
   parent: RMC
@@ -478,6 +479,7 @@
   name: "Drink Recipes"
   priority: 1
   text: "/ServerInfo/Guidebook/_RMC14/Guides/RMCGuideDrinks.xml"
+  filterEnabled: True
 
 # Chemistry stuff
 - type: guideEntry
@@ -496,6 +498,7 @@
   #  - RMCBotanical
   #  - RMCBiological
   #  - RMCOthers
+  - RMCOrdinanceChemicals
   filterEnabled: True
 
 - type: guideEntry
@@ -506,4 +509,10 @@
   text: "/ServerInfo/Guidebook/_RMC14/Chemicals/Medicine.xml"
   filterEnabled: True
 
-
+- type: guideEntry
+  parent: RMC
+  id: RMCOrdinanceChemicals
+  name: "OT Chemicals"
+  priority: 2
+  text: "/ServerInfo/Guidebook/_RMC14/Chemicals/OT.xml"
+  filterEnabled: True

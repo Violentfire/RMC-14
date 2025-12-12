@@ -1,50 +1,50 @@
-﻿<Document>
+<Document>
 
-  # Microwave Recipes
+  # Рецепти у мікрохвильовці
 
-  ## Pizza Pies
+  ## Піци
   <GuideMicrowaveGroupEmbed Group="Pizza"/>
 
-  ## Savory Cooking
+  ## Пікантна їжа
   <GuideMicrowaveGroupEmbed Group="Savory"/>
 
-  ## Breads
+  ## Хлібна випічка
   <GuideMicrowaveGroupEmbed Group="Breads"/>
 
-  ## Breakfast Foods
+  ## Сніданки
   <GuideMicrowaveGroupEmbed Group="Breakfast"/>
 
-  ## Moth Foods
+  ## Їжа ніан
   <GuideMicrowaveGroupEmbed Group="Moth"/>
 
-  ## Pastas & Noodles
+  ## Макарони та локшина
   <GuideMicrowaveGroupEmbed Group="Pasta"/>
 
-  ## Pastries & Desserts
+  ## Випічка та десерти
   <GuideMicrowaveGroupEmbed Group="Dessert"/>
 
-  ## Soups & Stews
+  ## Супи та рагу
   <GuideMicrowaveGroupEmbed Group="Soup"/>
 
-  ## Pies & Tarts
+  ## Пироги та тістечка
   <GuideMicrowaveGroupEmbed Group="Pie"/>
 
-  ## Bars & Cookies
+  ## Батончики та печиво
   <GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
 
-  ## Cakes
+  ## Торти
   <GuideMicrowaveGroupEmbed Group="Cake"/>
 
-  ## Salads
+  ## Салати
   <GuideMicrowaveGroupEmbed Group="Salad"/>
 
-  ## Medicinal
+  ## Лікарські
   <GuideMicrowaveGroupEmbed Group="Medicinal"/>
 
-  ## Other
+  ## Інше
   <GuideMicrowaveGroupEmbed Group="Other"/>
 
-  ## Secret
+  ## Секретне
   <GuideMicrowaveGroupEmbed Group="Secret"/>
 
 </Document>

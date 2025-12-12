@@ -1,7 +1,7 @@
-﻿- type: entity
+- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFuelTank
-  name: напалмовий підсумок
+  name: підсумок для напалму
   description: Дві стрічки, що тримають напалмові баки зразка М34. Не паліть біля них.
   components:
   - type: Sprite

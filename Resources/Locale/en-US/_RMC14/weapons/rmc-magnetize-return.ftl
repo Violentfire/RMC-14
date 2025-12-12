@@ -1,1 +1,1 @@
-﻿rmc-magnetize-return = {CAPITALIZE(THE($item))} фіксується на {$magnetizer}.
+﻿rmc-magnetize-return = {CAPITALIZE($item)} фіксується на {$magnetizer}.

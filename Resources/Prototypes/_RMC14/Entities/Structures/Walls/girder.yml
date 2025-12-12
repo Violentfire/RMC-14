@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructure
   id: CMGirder
-  name: girder
+  name: балка
   components:
   - type: Transform
     anchored: true

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseSlideMagazineVisualsBallistic, CMBaseWeaponGun, RMCBaseAttachableHolder ]
   id: RMCWeaponPistolM82F
-  name: M82-F flare gun
-  description: A flare gun issued to JTAC operators to use with flares. Comes with a miniscope. One shot, one... life saved?
+  name: сигнальний пістолет М82Ф
+  description: Сигнальний пістолет операторів КАТА. Має вбудований приціл.
   components:
   - type: AmmoCounter
   - type: Sprite

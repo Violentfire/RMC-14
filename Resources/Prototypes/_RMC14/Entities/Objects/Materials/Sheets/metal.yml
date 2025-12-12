@@ -188,7 +188,7 @@
 - type: entity
   parent: CMSheetMetalBase
   id: CMSheetPlasteel
-  name: пласталевий лист
+  name: пласталеві листи
   description: Пласталь - це дорогий, міцний матеріал, виготовлений шляхом поєднання платини, сталі та сучасних полімерів для створення металу, стійкого до корозії, дуже міцного та легкого. Єдина причина, чому його не використовують частіше, - це те, що він до біса дорогий».
   suffix: Заповнене
   components:
@@ -230,7 +230,7 @@
 - type: entity
   parent: CMSheetPlasteel
   id: CMSheetPlasteel10
-  name: пласталь
+  name: пласталеві листи
   suffix: "10"
   components:
     - type: Sprite

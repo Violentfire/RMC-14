@@ -12,6 +12,7 @@
     - HeadSide
   - type: Sprite
     drawdepth: Mobs
+    scale: 0.8, 0.8 # Sich. Чому? Бо вони малі пташки.
   - type: TypingIndicator
     proto: avali
   - type: Vocal
@@ -19,6 +20,8 @@
       Male: RMCMaleAvali
       Unsexed: RMCMaleAvali
       Female: RMCFemaleAvali
+  - type: Wagging 
+    action: ActionToggleAvaliWagging
   - type: Speech
     speechVerb: Parrot # Didn't come with one
     speechSounds: MaleAvali
@@ -26,7 +29,9 @@
     damageOverlayGroups:
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
-        color: "#7a8bf2"
+        color: "#E6C4FF"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/pierce.ogg

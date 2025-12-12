@@ -45,7 +45,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: розвантажка
+  name: коричнева розвантажка
   description: Міцна плутанина ременів й пряжок, зроблених з синтетичної бавовни, готова розділити ваш тягар.
   components:
   - type: Sprite
@@ -61,6 +61,7 @@
       - CMMagazineSmg
       - CMMagazinePistol
       - CMMagazineRifle
+      - RMCMagazineShotgun
       - CMMagazineSniper
       - MRE
       - PillPacket
@@ -80,6 +81,7 @@
         - CMMagazineSmg
         - CMMagazinePistol
         - CMMagazineRifle
+        - RMCMagazineShotgun
         - CMMagazineSniper
         - MRE
         - PillPacket
@@ -96,8 +98,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouch
-  name: leg pouch
-  description: A camo conforming leg pouch usually worn by hunters, military and people who dream of being military.
+  name: камуфльований підсумок на ногу
+  description: Камуфльований підсумок, що кріпиться на ногу. Такий носять мисливці, військові та люди, що мріють бути військовими.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/classic.rsi
@@ -114,8 +116,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouchBlack
-  name: black leg pouch
-  description: A black leg pouch usually worn by hunters, military and people who dream of being military.
+  name: чорний підсумок на ногу
+  description: Чорний підсумок, що кріпиться на ногу. Такий носять мисливці, військові та люди, що мріють бути військовими.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/black.rsi
@@ -124,7 +126,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingBlackSmall
-  name: black webbing
+  name: чорна розвантажка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black_small.rsi
@@ -221,8 +223,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: плечова кобура
-  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазини.
+  name: коричнева плечова кобура
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -295,8 +297,8 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
-  name: black shoulder holster
-  description: A black handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: чорна плечова кобура
+  description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi
@@ -305,7 +307,7 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingDropPouch
-  name: сумка скиду
+  name: коричнева сумка скиду
   description: Оскільки відпрацьовані магазини в КМПОН нікому не потрібні, сюди можна скидувати будь-які інші речі.
   components:
   - type: Sprite
@@ -354,8 +356,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchBlack
-  name: black drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: чорна сумка скиду
+  description: Оскільки відпрацьовані магазини в КМПОН нікому не потрібні, сюди можна скидувати будь-які інші речі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch_black.rsi
@@ -395,8 +397,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingClipOnPouch
-  name: clip-on pouch
-  description: A clip on synth-leather pouch designed to house a small collection of items for ML66A weapon operators.
+  name: кліпсовий підсумок
+  description: Кліпосовий підсумок з синтетичної шкіри, призначений для носіння додаткових дрібниць операторів важкого кулемету підтримки МЛ66А.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/ml66a_pouch.rsi
@@ -433,8 +435,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingGrenade
-  name: clip-on grenade band
-  description: A sturdy mess of synth-leather band designed to store a few grenades for ML66A weapon operators.
+  name: кліпсова стрічка для гранат
+  description: Кліпсова стрічка для гранат, призначена для носіння додаткових гранат операторів важкого кулемету підтримки МЛ66А.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/grenade_pouch.rsi
@@ -468,6 +470,9 @@
   name: маленький жилет для інструментів
   description: Коричнева розвантажка зроблена з синтетичної бавовни, більш міцна за цивільні аналоги. Саме ця являє собою зменшену версію.
   components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
+    state: webbing
   - type: Storage
     grid:
     - 0,0,11,1 #6 slots
@@ -519,6 +524,8 @@
         components:
         - EntrenchingTool
         - LightReplacer
+    - type: RMCStorageEjectHand
+      state: Open
     - type: ExplosionResistance
       damageCoefficient: 0
       worn: false
@@ -540,26 +547,65 @@
 
 - type: entity
   parent: RMCToolWebbingSmall
-  id: RMCToolWebbingSmallERT
-  suffix: Filled
+  id: RMCToolWebbing
+  name: tool webbing
+  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
   components:
   - type: Storage
-    maxItemSize: Small
     grid:
-    - 0,0,13,1 # 7 slots
+    - 0,0,13,1 #7 slots
+    whitelist:
+      tags:
+      - Crowbar
+      - Screwdriver
+      - Wirecutter
+      - Wrench
+      - CableCoil
+      - Multitool
+      - PowerCell
+      - RMCNailgunCompact
+      - RMCNailgunTactical
+      components:
+      - Welder
+      - PowerCell
+      - EntrenchingTool
   - type: Webbing
     components:
     - type: Storage
       maxItemSize: Small
       grid:
-      - 0,0,13,1 # 7 slots
+      - 0,0,13,1 #7 slots
+      whitelist:
+        tags:
+        - Crowbar
+        - Screwdriver
+        - Wirecutter
+        - Wrench
+        - CableCoil
+        - Multitool
+        - PowerCell
+        - RMCNailgunCompact
+        - RMCNailgunTactical
+        components:
+        - Welder
+        - PowerCell
+        - EntrenchingTool
     - type: FixedItemSizeStorage
+    - type: IgnoreContentsSize
+      items:
+        components:
+        - EntrenchingTool
+        - LightReplacer
+    - type: RMCStorageEjectHand
+      state: Open
+    - type: ExplosionResistance
+      damageCoefficient: 0
+      worn: false
     - type: StoreAfterFailedInteract
-  - type: FixedItemSizeStorage
 
 - type: entity
-  parent: RMCToolWebbingSmallERT
-  id: RMCToolWebbingSmallERTFilled
+  parent: RMCToolWebbing
+  id: RMCToolWebbingFilled
   suffix: Filled
   components:
   - type: StorageFill
@@ -683,7 +729,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: CMMRE # TODO RMC14: PMC CFR ration
+    - id: RMCMREWeYa
     - id: RMCRangefinder
     - id: RMCGrenadeBlastM12
     - id: RMCTelescopicBaton
@@ -696,8 +742,8 @@
   components:
   - type: StorageFill
     contents:
-    - id: CMMRE # TODO RMC14: PMC CFR ration
-    - id: CMMRE # TODO RMC14: PMC CFR ration
+    - id: RMCMREWeYa
+    - id: RMCMREWeYa
     - id: CMCrowbar # TODO RMC14: tactical prybar
     - id: RMCGrenadeBlastM12
     - id: RMCExplosivePlastic
@@ -711,7 +757,7 @@
     contents:
     # - id: CMSplint5
     - id: CMFireExtinguisherPortable
-    - id: CMMRE # TODO RMC14: PMC CFR ration
+    - id: RMCMREWeYa
     - id: RMCGrenadeBlastM12
     - id: RMCPowerCellSmartgun
 
@@ -744,7 +790,7 @@
     contents:
       - id: CMMaskGas # TODO RMC14 l7 gasmask
       - id: RMCHeadRoyalBeret
-      - id: CMMRE # TODO RMC14 TSE ORP ration
+      - id: RMCMRETSE
 
 - type: entity
   parent: RMCWebbingDropPouch
@@ -755,7 +801,7 @@
     contents:
       - id: CMMaskGas # TODO RMC14 l7 gasmask
       - id: RMCHeadRoyalHelmetBallistic
-      - id: CMMRE # TODO RMC14 TSE ORP ration
+      - id: RMCMRETSE
 
 - type: entity
   parent: RMCWebbingDropPouch

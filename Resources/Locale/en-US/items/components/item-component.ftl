@@ -6,7 +6,7 @@ pick-up-verb-get-data-text = Підняти
 
 pick-up-verb-get-data-text-inventory = Взяти в руку
 
-item-component-on-examine-size = Це {INDEFINITE($size)} [bold]{$size}[/bold] предмет.
+item-component-on-examine-size = Це [bold]{$size}[/bold] предмет.
 
 item-component-size-Tiny = крихітний
 item-component-size-Small = маленький

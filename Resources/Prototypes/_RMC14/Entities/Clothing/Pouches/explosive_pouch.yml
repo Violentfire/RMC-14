@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchExplosive
-  name: вибухостійкий підсумок
-  description: Може вміщати гранати, пластикову вибухівку, ящики з мінами, і інші вибухові речі.
+  name: підсумок для вибухівки
+  description: Може вміщати гранати, вибухові заряди, пластикову вибухівку та інші вибухові штучки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_explosive.rsi

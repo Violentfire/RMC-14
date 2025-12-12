@@ -9,8 +9,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionGhilliePreparePosition
-  name: Prepare Position
-  description: Use the ghillie suit and the nearby environment to become near invisible.
+  name: Підготувати позицію
+  description: Використовуйте маскувальний костюм і навколишнє середовище, щоб стати майже невидимим.
   components:
   - type: Action
     icon:

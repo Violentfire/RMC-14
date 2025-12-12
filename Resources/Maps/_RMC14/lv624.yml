@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 10/20/2025 01:55:08
+  time: 10/25/2025 14:43:06
   entityCount: 23920
 maps:
 - 1
@@ -176,7 +176,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: LV-624
+      name: LV-624 Lazarus Landing
     - type: Transform
     - type: Map
       mapPaused: True
@@ -44709,7 +44709,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -18024.258
+      secondsUntilStateChange: -18070.414
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -44727,7 +44727,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -18024.258
+      secondsUntilStateChange: -18070.414
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -57389,11 +57389,15 @@ entities:
     - type: Transform
       pos: -2.5,-94.5
       parent: 1
+    missingComponents:
+    - Climbable
   - uid: 2918
     components:
     - type: Transform
       pos: 2.5,-94.5
       parent: 1
+    missingComponents:
+    - Climbable
 - proto: CMPottedPlant1
   entities:
   - uid: 2919
@@ -155733,12 +155737,16 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,-94.5
       parent: 1
+    missingComponents:
+    - Climbable
   - uid: 21840
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -1.5,-94.5
       parent: 1
+    missingComponents:
+    - Climbable
   - uid: 21841
     components:
     - type: Transform
@@ -160860,7 +160868,7 @@ entities:
     - type: Transform
       pos: 65.530136,-54.531055
       parent: 1
-- proto: RMCWeaponFlamerImprovised
+- proto: RMCWeaponFlamerColony
   entities:
   - uid: 22722
     components:
@@ -164732,7 +164740,7 @@ entities:
   - uid: 23482
     components:
     - type: MetaData
-      name: LV-624
+      name: LV-624 Lazarus Landing
     - type: Transform
       pos: 1.5,-36.5
       parent: 1

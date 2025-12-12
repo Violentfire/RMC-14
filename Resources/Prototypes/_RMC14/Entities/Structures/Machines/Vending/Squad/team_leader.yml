@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLGear
-  name: ColMarTech fireteam leader gear rack
-  description: An automated gear rack for fireteam leaders.
+  name: КолМорТех стійка для обладнання Лідера Вогневої Групи
+  description: Автоматизована стійка обладнання для Лідера Вогневої Групи.
   components:
   - type: AccessReader
     access:
@@ -15,7 +15,7 @@
     jobs:
     - CMFireteamLeader
     sections:
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 18
@@ -26,18 +26,20 @@
       - id: RMCPacketGrenadeSmokeFilled
         points: 9
       - id: RMCPacketGrenadeM74AGMFFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMIFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMSFilled
-        points: 10
+        points: 9
       - id: RMCPacketGrenadeM74AGMSHornetFilled
-        points: 20
+        points: 13
     #- id: CMM20MineBoxx4
     #  points: 20
     #- id: CMM40MFHSMetalFoamGrenade
     #  points: 5
-    - name: Primary Ammunition
+    # -id: RMCElectroshockGrenadex3
+    #  points: 16
+    - name: Особливі Набої
       entries:
       - id: CMMagazineRifleM4SPRAP
         points: 10
@@ -55,7 +57,7 @@
         points: 10
       - id: CMMagazineRifleM54CExt
         points: 10
-    - name: Sidearm Ammunition
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -71,7 +73,7 @@
         points: 5
       - id: RMCMagazinePistolSU6
         points: 10
-    - name: Restricted Firearms
+    - name: Обмежена Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 10
@@ -79,32 +81,32 @@
         points: 15
       - id: RMCM85A1Case
         points: 30
-    - name: Armors
+    - name: Особлива Броня
       entries:
       - id: CMArmorB12
         points: 30
-    - name: Clothing Items
+    - name: Предмети Одягу
       entries:
       - id: RMCBackpackRTO
         points: 5
       - id: RMCScabbardMacheteFilled
-        name: machete scabbard (Full)
+        name: чохол для мачете (Повний)
         points: 5
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
         points: 15
       - id: RMCWeldingGoggles
         points: 3
       - id: CMBeltUtilityCombat
         points: 15
       - id: RMCPouchAutoinjectorFill
-        name: autoinjector pouch (Full)
+        name: автоінжекторний підсумок (Повний)
         points: 15
       - id: CMHandsInsulated
         points: 3
       - id: CMHandsBlackInsulated
         points: 3
-    - name: Engineering Supplies
+    - name: Інженерне Обладнання
       entries:
       - id: RMCExplosivePlastic
         points: 10
@@ -116,7 +118,7 @@
 #        points: 10
       - id: CMWelderSmall
         points: 5
-    - name: Utilities
+    - name: Додаткове Обладнання
       entries:
       - id: RMCMotionDetector
         points: 15
@@ -129,11 +131,15 @@
         points: 5
       - id: RMCWhistle
         points: 5
-    - name: Binoculars
+    - name: Біноклі
       entries:
       - id: RMCBinoculars
         points: 5
-    - name: Helmet Optics
+      - id: RMCRangefinder
+        points: 10
+      - id: RMCLaserDesignator
+        points: 15
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorNightVision
         points: 30
@@ -142,7 +148,7 @@
         points: 15
       - id: RMCVisorWelding
         points: 5
-    - name: Radio Keys
+    - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyEngineer
         points: 5
@@ -152,12 +158,14 @@
         points: 5
       - id: CMEncryptionKeyRequisition
         points: 5
+      - id: CMEncryptionKeyMedical
+        points: 5
 
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFLEquipment
-  name: ColMarTech fireteam leader equipment rack
-  description: An automated rack hooked up to a colossal storage of fireteam leader standard-issue equipment.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Лідера Вогневої Групи
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Лідера Вогневої Групи морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -168,25 +176,27 @@
     jobs:
     - CMFireteamLeader
     sections:
-    - name: Standard Equipment
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleFireteamLeaderApparel
+      - id: RMCBackpackRTO
+        replaceSlot: back
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
       - id: RMCVendorBundleCrewFireteamLeader
-    - name: Gloves
+    - name: Рукавички
       choices: { CMHands: 1 }
       entries:
       - id: CMHandsInsulated
       - id: CMHandsBlackInsulated
-    - name: Armor
+    - name: Броня
       choices: { CMArmor: 1 }
       entries:
       - id: CMArmorM4
         recommended: true
-      - id: RMCArmorVestFireteamLeader
-    - name: Belt
+      - id: RMCArmorVestSquad
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: RMCBeltUtilityGeneral
@@ -200,23 +210,23 @@
       - id: RMCM82FHolster
       - id: RMCM276ShotgunShellLoadingRig
       - id: CMBeltUtilityFilled
-        name: M276 pattern toolbelt rig (Full)
+        name: ремінь для інструментів зразка М276 (Повний)
         recommended: true
       - id: RMCBeltGrenade
-    - name: Pouches
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
+        name: підсумок першої допомоги (багаторазові автоінжектори)
         recommended: true
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
+        name: підсумок першої допомоги (марля, мазь) # TODO RMC14 splints comma
         recommended: true
       - id: RMCPouchFirstAidPills
-        name: first-aid pouch (pills)
+        name: підсумок першої допомоги (пігулки)
       - id: RMCPouchFirstResponder
       - id: RMCPouchFlareFilled
-        name: Flare pouch (Full)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchFuelTank
       - id: RMCPouchGeneralLarge
       #- id: CMSlingPouch
@@ -226,8 +236,8 @@
       - id: RMCPouchPistol
       - id: RMCPouchToolsFill
         recommended: true
-        name: Tools pouch (Full)
-    - name: Accessories
+        name: підсумок для інструментів (Повний)
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBlack
@@ -241,7 +251,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Mask
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas
@@ -251,8 +261,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: RMCVendorBundleCrewFireteamLeader
-  name: essential fireteam leader utilities
-  description: Contains a laser designator, two packs of signal flares and a Radio Telephone pack.
+  name: необхідний набір лідера вогневої групи
+  description: Містить лазерний цілевказівник та дві упаковки сигнальних фаєрів М89-С.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -261,7 +271,6 @@
     - state: laser_cas
   - type: CMVendorBundle
     bundle:
-    - RMCBackpackRTO
     - RMCPackFlareCAS
     - RMCPackFlareCAS
     - RMCLaserDesignator

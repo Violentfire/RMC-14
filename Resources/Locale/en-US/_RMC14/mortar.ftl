@@ -1,16 +1,16 @@
-﻿rmc-mortar-deploy-start = Ви починаєте розгортати {THE($mortar)}.
+rmc-mortar-deploy-start = Ви починаєте розгортати {$mortar}.
 rmc-mortar-deploy-end-not-planet = Ви розгорнули комплект портативного міномета M402. Це вибухова ідея.
-rmc-mortar-shell-busy = Хтось інший вже використовує {THE($mortar)}
-rmc-mortar-not-aimed = {CAPITALIZE(THE($mortar))} має бути наведеним.
-rmc-mortar-covered = Ймовірно, вам не варто розгортати {THE($mortar)} у приміщенні.
-rmc-mortar-target-invalid = Ви не можете дати постріл з {THE($mortar)} по цій цілі.
+rmc-mortar-shell-busy = Хтось інший вже використовує {$mortar}
+rmc-mortar-not-aimed = {CAPITALIZE($mortar)} має бути наведеним.
+rmc-mortar-covered = Ймовірно, вам не варто розгортати {$mortar} у приміщенні.
+rmc-mortar-target-invalid = Ви не можете дати постріл з {$mortar} по цій цілі.
 rmc-mortar-target-not-area = Ця зона поза досяжністю!
 rmc-mortar-target-covered = Ви не почете поцілити по цій цілі. Певно, тому, що вона під землею.
-rmc-mortar-target-is-lz = БОМБИТИ ЗОНУ ПОСАДКИ ДУРНА ІДЕЯ!
+rmc-mortar-target-is-lz = БОМБИТИ ПОСАДКОВУ ЗОНУ ДУРНА ІДЕЯ!
 rmc-mortar-bad-idea = Ви зрозуміли наскільки це дурна ідея, і миттєво припинили.
-rmc-mortar-cant-insert = Ви не можете всунути {THE($shell)} в {THE($mortar)}!
-rmc-mortar-not-deployed = Спочатку розгорніть {THE($mortar)}!
-rmc-mortar-fire-cooldown = Ствол {CAPITALIZE(THE($mortar))} все ще перегрітий. Зачекайте кілька секунд давши йому охолонути.
+rmc-mortar-cant-insert = Ви не можете всунути {$shell} в {$mortar}!
+rmc-mortar-not-deployed = Спочатку розгорніть {$mortar}!
+rmc-mortar-fire-cooldown = Ствол {CAPITALIZE($mortar)} все ще перегрітий. Зачекайте кілька секунд давши йому охолонути.
 rmc-mortar-less-accurate-with-range = [color=red]ЧИМ ДАЛІ ЗНАХОДИТЬСЯ ЦІЛЬ, ТИМ МЕНШЕ ТОЧНІСТЬ![/color]
 rmc-mortar-target-start-self = Ви починаєте коригувати кут і відстань стрільби {$mortar} відповідно до заданих координат.
 rmc-mortar-target-start-others = {$user} починає коригувати {$mortar}.
@@ -31,14 +31,14 @@ rmc-mortar-shell-impact-warning = МІНА ПРЯМО ЗАРАЗ ВЛУЧИТЬ 
 rmc-mortar-shell-impact-warning-above = МІНА ПРЯМО ЗАРАЗ ВЛУЧИТЬ У ВАС
 
 rmc-mortar-interface = Мінометний Інтерфейс
-rmc-mortar-target-title = Target Coordinates
-rmc-mortar-offset-title = Target Offset
+rmc-mortar-target-title = Координати цілі
+rmc-mortar-offset-title = Зміщення
 
 rmc-mortar-target-x = Ціль по X:
 rmc-mortar-target-y = Ціль по Y:
 rmc-mortar-target-set = Навестися
 rmc-mortar-target-too-close = Ви не можете навестися на ці координати, занадто близько до міномета.
-rmc-mortar-target-too-far = You cannot aim at this coordinate, it is too far from your mortar.
+rmc-mortar-target-too-far = Ви не можете націлитися на ці координати, вони занадто далеко. 
 
 rmc-mortar-offset-x = Зсув по X:
 rmc-mortar-offset-y = Зсув по Y:
@@ -55,32 +55,32 @@ rmc-mortar-camera-title = Інтерфейс Мінометної Камери
 rmc-mortar-camera-name = Пара-Кам ({$x}):({$y})
 
 # Targeting mode
-rmc-mortar-toggle-mode = Toggle Targeting Mode
-rmc-mortar-toggle-mode-message = Switch between coordinate and laser targeting modes
+rmc-mortar-toggle-mode = Перемкнути режим націлювання
+rmc-mortar-toggle-mode-message = Перемкнути між режимами наведення за координатами та лазером
 
-rmc-mortar-coordinates-mode-switched-self = You switch {THE($mortar)} to coordinates targeting mode.
-rmc-mortar-laser-mode-switched-self = You switch {THE($mortar)} to laser targeting mode.
+rmc-mortar-coordinates-mode-switched-self = Ви перемикаєте {$mortar} у режим наведення за координатами.
+rmc-mortar-laser-mode-switched-self = Ви перемикаєте {$mortar} у режим лазерного наведення.
 
-rmc-mortar-coordinates-mode-switched-others = {$user} switches {THE($mortar)} to coordinates targeting mode.
-rmc-mortar-laser-mode-switched-others = {$user} switches {THE($mortar)} to laser targeting mode.
+rmc-mortar-coordinates-mode-switched-others = {$user} перемикає {$mortar} у режим наведення за координатами.
+rmc-mortar-laser-mode-switched-others = {$user} перемикає {$mortar} у режим лазерного наведення.
 
-rmc-mortar-linking-start = You start linking {THE($laserDesignator)} to {THE($mortar)}.
-rmc-mortar-laser-linked-self = You successfully link {THE($laserDesignator)} to {THE($mortar)}.
-rmc-mortar-laser-linked-others = {$user} successfully links {THE($laserDesignator)} to {THE($mortar)}.
-rmc-mortar-already-linking = {CAPITALIZE(THE($mortar))} is already being linked to a laser designator.
+rmc-mortar-linking-start = "Ви починаєте з'єднання {$laserDesignator} з {$mortar}."
+rmc-mortar-laser-linked-self = "Ви успішно з'єднали {$laserDesignator} з {$mortar}."
+rmc-mortar-laser-linked-others = "{$user} успішно з'єднав {$laserDesignator} з {$mortar}."
+rmc-mortar-already-linking = "{CAPITALIZE($mortar)} вже з'єднується з лазерним цілевказівником."
 
-rmc-mortar-no-laser-target = {CAPITALIZE(THE($mortar))} has no laser target to fire at!
-rmc-mortar-no-laser-designator = {CAPITALIZE(THE($mortar))} has no linked laser designator!
+rmc-mortar-no-laser-target = {CAPITALIZE($mortar)} не має лазерного наведення для пострілу!
+rmc-mortar-no-laser-designator = "{CAPITALIZE($mortar)} не має під'єднаного лазерного цілевказувача!"
 
-rmc-mortar-in-coordinates-mode = {CAPITALIZE(THE($mortar))} is currently set to coordinates targeting mode.
-rmc-mortar-in-laser-mode = {CAPITALIZE(THE($mortar))} is currently set to laser targeting mode.
+rmc-mortar-in-coordinates-mode = {CAPITALIZE($mortar)} зараз у режимі наведення за координатами.
+rmc-mortar-in-laser-mode = {CAPITALIZE($mortar)} зараз у режимі лазерного наведення.
 
-rmc-mortar-laser-aimed = {CAPITALIZE(THE($mortar))} is aimed on target and ready to fire!
+rmc-mortar-laser-aimed = {CAPITALIZE($mortar)} наведено на ціль і готовий до пострілу!
 
-rmc-mortar-toggle-mode-hint = [color=cyan]Alt + Click mortar to switch targeting modes.[/color]
+rmc-mortar-toggle-mode-hint = [color=cyan]Alt + Клік по міномету, щоб перемкнути режими наведення.[/color]
 
-rmc-mortar-dial-coordinates = {CAPITALIZE(THE($mortar))} is set to laser targeting mode, switch to coordinate targeting in order to dial coordinates!
+rmc-mortar-dial-coordinates = {CAPITALIZE($mortar)} зараз у режимі лазерного наведення. Перемкніть на режим за координатами, щоб ввести їх вручну!
 
-rmc-mortar-beeping = beeping!
-rmc-mortar-beeping-warning = beeping warningly!
-rmc-mortar-targeting = {CAPITALIZE(THE($mortar))} is still targeting.
+rmc-mortar-beeping = пищить!
+rmc-mortar-beeping-warning = тривожно пищить!
+rmc-mortar-targeting = {CAPITALIZE($mortar)} ще наводиться.

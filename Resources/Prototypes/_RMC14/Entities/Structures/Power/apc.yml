@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: CMApcBase
-  name: зональний контроль живлення
-  description: Термінал керування зональних електросистем.
+  name: зональний контролер живлення
+  description: Термінал керування електросистемою у цій зоні.
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform

@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchFirstAid
   name: підсумок першої допомоги
-  description: За стандартом містить, автоінжектори. Але також може містити мазь, марлю, і упаковки з пігулками.
+  description: За стандартом містить автоінжектори. Але також може містити мазь, марлю, і упаковки з пігулками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/firstaid.rsi
@@ -26,7 +26,7 @@
   parent: RMCPouchFirstAid
   id: RMCPouchFirstAidInjectors
   suffix: Injectors
-  description: Contains a variety of autoinjectors for quickly treating injuries.
+  description: Містить різноманітні автоінжектори для швидкого лікування травм.
   components:
   - type: StorageFill
     contents:
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCPouchFirstAid
   id: RMCPouchFirstAidPMC
-  name: We-Ya first-aid pouch
-  description: Contains a variety of autoinjectors for quickly treating injuries.
+  name: підсумок першої допомоги Ве-Я
+  description: Містить різноманітні автоінжектори для швидкого лікування травм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_firstaid.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: RMCPouchFirstAidPMC
   id: RMCPouchFirstAidSPPArmyFill
-  name: first-aid pouch
+  name: підсумок першої допомоги
   suffix: Filled
   components:
   - type: StorageFill

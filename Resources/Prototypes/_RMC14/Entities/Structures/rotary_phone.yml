@@ -122,3 +122,24 @@
   components: #Ця та 2 строки нижче - додавання білду Січі
   - type: RotaryPhone
     category: Земля
+
+# Admin
+- type: entity
+  parent: RMCRotaryPhone
+  id: RMCRotaryPhoneAdmin
+  suffix: Admin
+  components:
+  - type: RotaryPhone
+    canDnd: true
+    category: Ретранслятори
+    notifyAdmins: true
+
+- type: entity
+  parent: RMCRotaryPhoneWallmount
+  id: RMCRotaryPhoneWallmountAdmin
+  suffix: Admin
+  components:
+  - type: RotaryPhone
+    canDnd: true
+    category: Ретранслятори
+    notifyAdmins: true

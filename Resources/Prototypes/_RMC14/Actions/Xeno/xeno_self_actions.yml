@@ -2,7 +2,7 @@
   id: ActionXenoRest
   parent: ActionXenoBase
   name: Відпочити
-  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
+  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві. [color=red]Ваша комбінація клавіш для відпочинку також активує цю дію, Шифт+К за замовчуванням.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -17,7 +17,7 @@
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoRest
   name: Відпочити
-  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві.
+  description: Лягти й відпочити. Пришвидшує відновлення здоров'я й плазми якщо ви лежите на траві. [color=red]Ваша комбінація клавіш для відпочинку також активує цю дію, Шифт+К за замовчуванням.[/color]
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

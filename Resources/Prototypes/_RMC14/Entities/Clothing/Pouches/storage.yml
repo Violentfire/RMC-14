@@ -2,7 +2,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchGeneral
-  name: маленький підсумок
+  name: маленький загальний підсумок
   description: Підсумок в який можна покласти будь-який маленький предмет, або два крихітних.
   components:
   - type: Storage
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCPouchGeneral
   id: RMCPouchGeneralMedium
-  name: середній підсумок
+  name: середній загальний підсумок
   description: Універсальний підсумок, що використовується для перенесення різних предметів, різного розміру.
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
   description: Підсумок який видається усім колоністам у разі надзвичайної ситуації.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_brown.rsi
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -61,7 +61,7 @@
   id: RMCPouchSurvivalBlack
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_black.rsi
 
 # Survival Synth Pouch
 - type: entity
@@ -70,6 +70,8 @@
   name: підсумок вцілілого синтетика
   description:  Підсумок який видається усім синтетичним колоністам у разі надзвичайної ситуації.
   components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_grey.rsi
   - type: Storage
     grid:
     - 0,0,11,1 #6 slots
@@ -165,8 +167,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMagazine
-  name: магазинний підсумок
-  description: В ньому можна переносити магазини.
+  name: підсумок для магазинів
+  description: В ньому можна переносити магазини для гвинтівок, а також швидкозарядники для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_ammo_mag.rsi
@@ -179,6 +181,7 @@
       - CMMagazinePistol
       - RMCMagazineRevolver
       - CMMagazineRifle
+      - RMCMagazineShotgun
       - CMMagazineSmg
       - CMMagazineSniper
       - RMCShellShotgun
@@ -189,8 +192,8 @@
 - type: entity
   parent: RMCPouchMagazine
   id: RMCPouchMagazineLarge
-  name: великий магазинний підсумок
-  description: В ньому можна переносити ще більше магазинів.
+  name: великий підсумок для магазинів
+  description: В ньому можна переносити ще більше магазинів для гвинтівок чи швидкозарядники для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_ammo_mag.rsi
@@ -221,7 +224,7 @@
   parent: RMCPouchMagazine
   id: RMCPouchMagazinePistol
   name: підсумок для пістолетних магазинів
-  description: В ньому можна носити пістолетні магазини й швидкі завантажувачі для револьвера.
+  description: В ньому можна носити пістолетні магазини й швидкозарядники для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pistol_mag.rsi
@@ -238,7 +241,7 @@
   parent: RMCPouchMagazinePistol
   id: RMCPouchMagazinePistolLarge
   name: великий підсумок для пістолетних магазинів
-  description: В ньому можна носити ще більше пістолетних магазинів й швидких завантажувачів для револьвера.
+  description: В ньому можна носити ще більше пістолетних магазинів й швидкозарядники для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_pistol_mag.rsi
@@ -246,12 +249,22 @@
     grid:
     - 0,0,11,1 #6 slots
 
+- type: entity
+  parent: RMCPouchMagazinePistolLarge
+  id: RMCPouchMagazinePistolLargeFilledHighCommand
+  suffix: Filled, High Command
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCSpeedLoaderMatebaHighImpact
+      amount: 6
+
 # Shotgun Shell Pouch
 - type: entity
   parent: [RMCPouchStorage]
   id: RMCPouchShotgun
-  name: дробовий підсумок
-  description: В нього можна покласти набої на дробовик... не дивно. #, or bullets if you choose to for some reason. # TODO RMC14          Просто лишу це тут: "У ньому можуть бути жмені черепашок"
+  name: підсумок для дробі
+  description: В нього можна покласти набої на дробовик... не дивно. #, or bullets if you choose to for some reason. # TODO RMC14          Просто лишу це тут: "У ньому можуть бути жмені черепашок"     Ще одна людина це побачила, й, це геніально.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medium_shotshells.rsi
@@ -296,8 +309,8 @@
 - type: entity
   parent: RMCPouchShotgun
   id: RMCPouchShotgunLarge
-  name: великий дробовий підсумок
-  description: В нього можна покласти набої на дробовик... не дивно. #, or bullets if you choose to for some reason. TODO RMC14
+  name: великий підсумок для дробі
+  description: В нього можна покласти ще більше набоїв на дробовик... не дивно. #, or bullets if you choose to for some reason. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/large_shotshells.rsi
@@ -341,7 +354,7 @@
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDocument
   name: великий підсумок для документів
-  description: Може вмістити папери, папки, диски, технічні довідники, та іншу нудну всячину.
+  description: Може вмістити папери, папки, диски, технічні довідники та іншу нудну всячину.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/document.rsi
@@ -366,7 +379,7 @@
   parent: RMCPouchDocument
   id: RMCPouchDocumentSmall
   name: маленький підсумок для документів
-  description: Зменшена версія підсумка для документів. Може вмістити папери, папки, диски, технічні довідники, та іншу нудну всячину.
+  description: Зменшена версія підсумка для документів. Може вмістити папери, папки, диски, технічні довідники та іншу нудну всячину.
   components:
   - type: Storage
     grid:
@@ -376,8 +389,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: фаєрний підсумок
-  description: Підсумок призначений для зберігання фаєрів. Переспоряджається упаковкою фаєрів M94.
+  name: підсумок для фаєрів
+  description: Підсумок призначений для зберігання фаєрів. Переспоряджається упаковкою маркувальних фаєрів М94.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi
@@ -401,7 +414,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchRadio
-  name: радіо підсумок
+  name: підсумок для рацій
   description: Може вмістити дві ручні рації.
   components:
   - type: Sprite
@@ -419,7 +432,7 @@
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchElectronics
   name: підсумок для електроніки
-  description: В нього можна покласти більшість електроніки, наприклад акамулятори чи плати.
+  description: В нього можна покласти більшість електроніки, наприклад, акумулятор чи плати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/electronics.rsi
@@ -441,8 +454,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchEngineerKit
-  name: engineer kit pouch
-  description: It's specifically made to hold engineering items. Requires engineering skills to use effectively.
+  name: великий інженерний підсумок
+  description: Він спеціально розроблений для зберігання інженерних предметів. Для ефективного використання потрібні інженерні навички.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/engineerpouch.rsi
@@ -497,7 +510,7 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchTools
-  name: інструментний підсумок
+  name: підсумок для інструментів
   description: Призначений для зберігання інструментів, таких як - викрутка, гайковий ключ, котушка кабелю, тощо. Також має два гачки для саперних лопат та замінювач ламп.
   components:
   - type: Sprite
@@ -531,7 +544,7 @@
 - type: entity
   parent: RMCPouchTools
   id: RMCPouchToolsSoc
-  name: тактичний інструментний підсумок
+  name: тактичний підсумок для інструментів
   description: Цей інструментний набір, був створений для того, щоб ламати речі, а не лагодити їх. Проте, з останнім він всеодно непогано вправляється.
   components:
   - type: Sprite
@@ -560,8 +573,8 @@
 - type: entity
   parent: [RMCPouchClosed, RMCPouchStorage]
   id: RMCPouchSling
-  name: sling strap # TODO RMC14 implement this
-  description: Keeps a single item attached to a strap.
+  name: ремінь для предмету # TODO RMC14 implement this
+  description: Утримує один предмет прикріпленим до ремінця.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/sling.rsi
@@ -570,27 +583,28 @@
 
 
 # Cassetes Pouch
-#- type: entity
-#  parent: [RMCPouchStorage, RMCPouchOpenClosed]
-#  id: RMCPouchCassette
-#  name: cassette pouch
-#  description: A finely crafted pouch, made specifically to keep cassettes safe during wartime.
-#  components:
-#  - type: Sprite
-#    sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
-#  - type: Item
-#    size: small
-#  - type: Storage
-#    grid:
-#    - 0,0,2,1 #3 slots
-#whitelist: # TODO RMC14 add cassettes
+- type: entity
+  parent: [RMCPouchOpenClosed, RMCPouchStorage]
+  id: RMCPouchCassette
+  name: cassette pouch
+  description: A finely crafted pouch, made specifically to keep cassettes safe during wartime.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,5,1 #3 slots
+    whitelist: 
+      components:
+      - CassetteTape
 
 # Drum Pouch
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDrumPMC
-  name: smartgun drum pouch
-  description: A heavy pouch designed for carrying a surplus of smargun drums.
+  name: підсумок для барабанів СмартГану
+  description: Важкий підсумок, призначений для перенесення додаткових барабанів СмартГану.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_sgdrums_ammo.rsi

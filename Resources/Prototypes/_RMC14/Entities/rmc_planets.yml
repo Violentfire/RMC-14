@@ -57,6 +57,37 @@
       scenarioProbability: 0.1
     - scenarioName: crashlanding_offices
       scenarioProbability: 0.2
+    survivorJobs:
+    - RMCSurvivorCommandingOfficer: 1
+    - CMSurvivor: -1
+    - CMSurvivorCorporate: 2
+    - CMSurvivorDoctor: 3
+    - CMSurvivorEngineer: 4
+    - CMSurvivorSecurity: 2
+    - CMSurvivorScientist: 2
+    survivorJobInserts:
+      RMCSurvivorCommandingOfficer:
+      - CMSurvivorSolarisCMBMarshal: 1
+      CMSurvivor:
+      - CMSurvivor: -1
+      - CMSurvivorSolarisChaplain: -1
+      - CMSurvivorUNMCRecruiter: -1
+      - RMCSurvivorHybrisaTMCCMiner: -1
+      - RMCSurvivorHybrisaFireProtectionSpecialist: -1
+      - CMSurvivorFlightOperator: -1
+      CMSurvivorCorporate:
+      - CMSurvivorSolarisCorporateLiaison: -1
+      CMSurvivorDoctor:
+      - CMSurvivorSolarisDoctor: -1
+      - RMCSurvivorHybrisaEMTParamedic: -1
+      CMSurvivorEngineer:
+      - CMSurvivorSolarisTrucker: -1
+      - CMSurvivorSolarisEngineer: -1
+      CMSurvivorSecurity:
+      - CMSurvivorSolarisCMBDeputy: -1
+      - CMSurvivorSolarisUNPeacekeeper: -1
+      CMSurvivorScientist:
+      - CMSurvivorSolarisScientist: -1
 #    survivorJobScenarios:
 #      clfmining:
 #        CMSurvivor:
@@ -103,6 +134,18 @@
     map: /Maps/_RMC14/shiva.yml
     camouflage: Snow
     announcement: "Автоматичний сигнал лиха було отримано з місця археологічних розкопок \"Шивас Сніжка\", на кордоні льодяного світу \"Іфрит\" (ЖЗ-52). Вночі температура в колонії може досягати -50°C, основною її ціллю наразі є дослідження ██████████. Для встановлення причин сигналу СОС, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
+    survivorJobInserts: # Civ survivor is default one
+      CMSurvivorCorporate:
+      - RMCSurvivorShivasCorporateLiaison: -1
+      CMSurvivorDoctor:
+      - RMCSurvivorShivasDoctor: -1
+      CMSurvivorEngineer:
+      - RMCSurvivorShivasEngineer: -1
+      CMSurvivorSecurity:
+      - RMCSurvivorShivasCMBDeputy: -1
+      - RMCSurvivorShivasUNPeacekeeper: -1
+      CMSurvivorScientist:
+      - RMCSurvivorShivasResearcher: -1
 
 - type: entity
   id: RMCPlanetFiorina
@@ -140,26 +183,22 @@
     camouflage: Desert
     minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     announcement: "Ми втратили контакт з позасонячною колонією Вестон-Ямади, \"Дамба Тріджент\", що на планеті \"Райжин\" (в минулому ЖЗ-670). Вона відома своїми великими запасами та видобутком Літію-6 (компонент для Тритію, палива термоядерних реакторів), який активно відправляється на експорт по всім системам. На допомогу було надіслано ДКП-Саванна \"Січ\"."
-    survivorJobs:
-    - CMSurvivor: -1
-    - CMSurvivorCorporate: 2
-    - CMSurvivorDoctor: 3
-    - CMSurvivorEngineer: 4
-    - CMSurvivorSecurity: 2
-    - CMSurvivorScientist: 2
     survivorJobInserts:
       CMSurvivor:
-      - CMSurvivorTrijentTrucker: -1
+      - CMSurvivor: -1
       - CMSurvivorMiner: -1
       - CMSurvivorTrijentChaplain: 1
+      - RMCSurvivorHybrisaFireProtectionSpecialist: 1
       CMSurvivorCorporate:
       - CMSurvivorICB: 1
       - CMSurvivorTrijentCorporate: 1
       CMSurvivorDoctor:
+      - RMCSurvivorHybrisaEMTParamedic: 3
       - CMSurvivorTrijentDoctor: 3
       CMSurvivorEngineer:
       - CMSurvivorTrijentEngiHydro: 2
       - CMSurvivorTrijentDamTech: 2
+      - CMSurvivorTrijentTrucker: 2
       CMSurvivorSecurity:
       - CMSurvivorTrijentGoon: 1
       - CMSurvivorCMBDeputy: 1
@@ -256,14 +295,15 @@
     announcement: "Автоматичний сигнал лиха отримано з планети Дікума-І (ЖЗ-686), колонії Вестон-Ямади, Заводи з Розливу Води Кутєво. Він відомий своїми біологічними дослідженнями та експортом фасованої води для всього сектору Нейроїд. Для встановлення причин, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
     survivorJobInserts:
       CMSurvivor:
+      - CMSurvivor: -1
       - RMCSurvivorKutjevoChaplain: 1
-      - RMCSurvivorKutjevoTrucker: -1
       CMSurvivorCorporate:
       - RMCSurvivorKutjevoCorporate: 2
       CMSurvivorDoctor:
       - RMCSurvivorKutjevoDoctor: 3
       CMSurvivorEngineer:
       - RMCSurvivorKutjevoEngineer: 4
+      - RMCSurvivorKutjevoTrucker: 4
       CMSurvivorSecurity:
       - RMCSurvivorKutjevoCMBDeputy: 1
       - RMCSurvivorKutjevoGoon: 1
@@ -287,11 +327,11 @@
       - RMCSurvivorForeconCommander: 1
       RMCSurvivorForeconBase:
       - RMCSurvivorForeconSupportTech: 1
-      - RMCSurvivorForeconSquadLeader: 1
-      - RMCSurvivorForeconSniper: 1
-      - RMCSurvivorForeconSmartgunOperator: 1
+#      - RMCSurvivorForeconSquadLeader: 1 - всі ролі під коментаром, зміна білду Січі. З нашими 1-2 сурвами воно просто не має сенсу
+#      - RMCSurvivorForeconSniper: 1
+#      - RMCSurvivorForeconSmartgunOperator: 1
       - RMCSurvivorForeconMarksman: 1
-      - RMCSurvivorForeconRifleman: 3
+#      - RMCSurvivorForeconRifleman: 3
     survivorJobOverrides:
       CMSurvivor: RMCSurvivorForeconBase
       CMSurvivorCorporate: RMCSurvivorForeconBase

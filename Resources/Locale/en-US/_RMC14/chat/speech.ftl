@@ -18,6 +18,12 @@ chat-speech-verb-feroxi-2 = свистить
 chat-speech-verb-feroxi-3 = скрегоче
 chat-speech-verb-feroxi-4 = гарчить
 
+chat-speech-verb-name-skrell = Скрели
+chat-speech-verb-skrell-1 = треллить
+chat-speech-verb-skrell-2 = булькає
+chat-speech-verb-skrell-3 = інтонує
+chat-speech-verb-skrell-4 = цвірінькає
+
 chat-speech-verb-name-megaphone = Мегафон
 chat-speech-verb-megaphone-1 = віщає
 chat-speech-verb-megaphone-2 = анонсує

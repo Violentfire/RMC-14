@@ -25,13 +25,13 @@ rmc-bioscan-ares = Біосканування завершено.
     *[other], зокрема в {$planetLocation}
   }
 
-rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]Королева-мати проникає в ваш розум з далеких світів.
+rmc-bioscan-xeno-announcement = [color=#318850][font size=14][bold]Королева-мати проникає в наш розум з далеких світів.
     {$message}[/bold][/font][/color]
 
-rmc-bioscan-xeno = До моїх дітей і їх Королеви: я відчуваю { $onShip ->
+rmc-bioscan-xeno = До моїх дітей і їхньої Королеви: я відчуваю { $onShip ->
   [0] що інкубаторів більше не залишилося
   [1] приблизно одного інкубатора
-  *[other] близька {$onShip} інкубаторів
+  *[other] близько {$onShip} інкубаторів
 } в металевому вулику{ $shipLocation ->
   [none] {""}
   *[other], зокрема в {$shipLocation},

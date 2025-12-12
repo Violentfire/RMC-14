@@ -17,6 +17,10 @@ cm-distress-signal-marine = {$player}
 rmc-distress-signal-next-map-title = Наступна мапа планети
 rmc-distress-signal-next-map-tie = Нічия у голосуванні за мапу! Обираю... {$picked}
 rmc-distress-signal-next-map-win = {$winner} перемогла у голосуванні за мапу!
+rmc-distress-signal-next-map-header = Результати у голосуванні за мапу
+rmc-distress-signal-next-map-votes = {$map}: {$votes} голосів
+rmc-distress-signal-next-map-votes-new = {$map}: {$votes} голосів ({$newVotes} new)
+rmc-distress-signal-next-map-tiebreaker = Однакова кількість голосів:
 
 rmc-distress-signal-fallen = В пам'ять про наших загиблих воїнів:
  {$fallen}

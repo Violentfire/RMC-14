@@ -98,8 +98,8 @@
 - type: entity
   parent: CMHandsInsulated
   id: CMHandsBlackInsulated
-  name: black insulated gloves
-  description: These gloves will protect the wearer from electric shocks. Now in black.
+  name: чорні ізоляційні рукавички
+  description: Рукавички чорного кольору, що забезпечують захист від ударів струмом. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_black.rsi

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: SquadBase
   abstract: true
   components:
@@ -9,8 +9,8 @@
     maxRoles:
       CMSquadLeader: 1
       CMFireteamLeader: 2
-      CMWeaponsSpecialist: 1
-      CMSmartGunOperator: 1
+#      CMWeaponsSpecialist: 1 - строки під коментарями зміна білду Січі
+#      CMSmartGunOperator: 1
       CMCombatTech: 3
       CMHospitalCorpsman: 4
 
@@ -125,13 +125,13 @@
      sprite: /Textures/_RMC14/Interface/map_blips.rsi
      state: background_intel
     canSupplyDrop: false
-    maxRoles:
-      CMCombatTech: 3
-      CMHospitalCorpsman: 4
-      CMSmartGunOperator: 1 # for astor
-      CMWeaponsSpecialist: 1
-      CMFireteamLeader: 1
-      CMSquadLeader: 0
+#    maxRoles: - строки під коментарями зміна білду Січі
+#      CMCombatTech: 3
+#      CMHospitalCorpsman: 4
+#      CMSmartGunOperator: 1 # for astor
+#      CMWeaponsSpecialist: 1
+#      CMFireteamLeader: 1
+#      CMSquadLeader: 0
   - type: Tag
     tags:
     - RMCSquadIntel

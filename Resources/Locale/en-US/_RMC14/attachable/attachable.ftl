@@ -4,45 +4,45 @@ rmc-attachable-holder-strip-ui-empty-slot = нічого
 rmc-verb-strip-attachables = Додати обвіси
 
 rmc-aslot-barrel = Ствол
-rmc-bslot-barrel = Mateba Barrel
+rmc-bslot-barrel = Ствол Матеби
 rmc-aslot-rail = Рейка
 rmc-aslot-stock = Приклад
 rmc-aslot-underbarrel = Підствольна частина
 rmc-aslot-harness = Harness
 
-rmc-attachable-activation-fail-not-wielded = {CAPITALIZE(THE($holder))} треба тримати в двох руках, щоб активувати {THE($attachable)}!
-rmc-attachable-activation-fail-not-held = {CAPITALIZE(THE($holder))} потрібно тримати, щоб активувати {THE($attachable)}!
-rmc-attachable-activation-fail-not-owned = {CAPITALIZE(THE($holder))} треба тримати або екіпірувати щоб активувати {THE($attachable)}!
+rmc-attachable-activation-fail-not-wielded = {CAPITALIZE($holder)} треба тримати в двох руках, щоб активувати {$attachable}!
+rmc-attachable-activation-fail-not-held = {CAPITALIZE($holder)} потрібно тримати, щоб активувати {$attachable}!
+rmc-attachable-activation-fail-not-owned = {CAPITALIZE($holder)} треба тримати або екіпірувати щоб активувати {$attachable}!
 
-rmc-attachable-shoot-fail-not-wielded = {CAPITALIZE(THE($holder))} потрібно тримати в руках, щоб стріляти {THE($attachable)}!
+rmc-attachable-shoot-fail-not-wielded = {CAPITALIZE($holder)} потрібно тримати в руках, щоб стріляти {$attachable}!
 
-rmc-attachable-verb-toggle = Перемикання {THE($attachable)}
+rmc-attachable-verb-toggle = Перемикання {$attachable}
 
-attachable-popup-activate-generic = Ви активували {THE($attachable)}.
-attachable-popup-deactivate-generic = Ви деактивували {THE($attachable)}.
+attachable-popup-activate-generic = Ви активували {$attachable}.
+attachable-popup-deactivate-generic = Ви деактивували {$attachable}.
 
-attachable-popup-activate-deploy-on-generic = Ви розгорнули {THE($attachable)} на {THE($surface)}.
-attachable-popup-activate-deploy-on-ground = Ви розгорнули {THE($attachable)} на землі.
-attachable-popup-deactivate-retract = Ви склали {THE($attachable)}.
+attachable-popup-activate-deploy-on-generic = Ви розгорнули {$attachable} на {$surface}.
+attachable-popup-activate-deploy-on-ground = Ви розгорнули {$attachable} на землі.
+attachable-popup-deactivate-retract = Ви склали {$attachable}.
 
-attachable-popup-activate-unfold = Ви розгорнули {THE($attachable)}.
-attachable-popup-deactivate-collapse = Ви згорнули {THE($attachable)}.
+attachable-popup-activate-unfold = Ви розгорнули {$attachable}.
+attachable-popup-deactivate-collapse = Ви згорнули {$attachable}.
 
-attachable-popup-activate-lock = Ви закріпили {THE($attachable)}.
-attachable-popup-deactivate-unlock = Ви відкріпили {THE($attachable)}.
+attachable-popup-activate-lock = Ви закріпили {$attachable}.
+attachable-popup-deactivate-unlock = Ви відкріпили {$attachable}.
 
-attachable-popup-switch-to-generic = Ви перемкнулися на використання {THE($attachable)}.
-attachable-popup-switch-from-generic = Ви перестали використовувати {THE($attachable)}.
+attachable-popup-switch-to-generic = Ви перемкнулися на використання {$attachable}.
+attachable-popup-switch-from-generic = Ви перестали використовувати {$attachable}.
 
 rmc-attachable-examinable-verb-text = Прикріпити обвіс
 rmc-attachable-examinable-verb-message = Оглянути модифікатори які надає цей обвіс.
 
-rmc-attachable-examine-condition-always = [bold]Always:[/bold]
+rmc-attachable-examine-condition-always = [bold]Постійно:[/bold]
 rmc-attachable-examine-condition-when = Коли
-rmc-attachable-examine-condition-wielded = [bold]використовується[/bold]
-rmc-attachable-examine-condition-unwielded = [bold]не використовується[/bold]
-rmc-attachable-examine-condition-active = {THE($attachable)} [bold]активно[/bold]
-rmc-attachable-examine-condition-inactive = {THE($attachable)} [bold]неактивно[/bold]
+rmc-attachable-examine-condition-wielded = [bold]тримається у двох руках[/bold]
+rmc-attachable-examine-condition-unwielded = [bold]не тримається у двох руках[/bold]
+rmc-attachable-examine-condition-active = {$attachable} [bold]активно[/bold]
+rmc-attachable-examine-condition-inactive = {$attachable} [bold]неактивно[/bold]
 
 rmc-attachable-examine-condition-whitelist-comps = [bold]має {$compNumber}[/bold] з таких компонентів: [bold]{$comps}[/bold]
 rmc-attachable-examine-condition-whitelist-sizes = [bold]має[/bold] один з наступних розмірів: [bold]{$sizes}[/bold]
@@ -61,8 +61,8 @@ rmc-attachable-examine-ranged-recoil = [color={$colour}]{$sign}{$recoil}[/color]
 rmc-attachable-examine-ranged-damage = [color={$colour}]{$sign}{$damage}[/color] множник дальності ураження.
 rmc-attachable-examine-ranged-projectile-speed = [color={$colour}]{$sign}{$projectileSpeed}[/color] швидкість кулі.
 rmc-attachable-examine-ranged-damage-falloff = [color={$colour}]{$sign}{$falloff}[/color] мультиплікатор падіння.
-rmc-attachable-examine-ranged-range = [color={$colour}]{$sign}{$falloff}[/color] projectile range.
-rmc-attachable-examine-ranged-projectile-stun-duration = [color={$colour}]{$sign}{$stunDurationMult}[/color] stun duration multiplier.
+rmc-attachable-examine-ranged-range = [color={$colour}]{$sign}{$falloff}[/color] польоту кулі.
+rmc-attachable-examine-ranged-projectile-stun-duration = [color={$colour}]{$sign}{$stunDurationMult}[/color] множник тривалості приголомшлення.
 
 rmc-attachable-examine-melee-damage = [color={$colour}]{$sign}{$damage}[/color] шкоди від удару.
 

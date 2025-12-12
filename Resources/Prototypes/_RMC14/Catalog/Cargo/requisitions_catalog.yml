@@ -18,6 +18,8 @@
         crate: RMCCrateBoxBulletsRifleAP
       - cost: 4000
         crate: RMCCrateBoxAmmo458
+      - cost: 6000
+        crate: SichRMCCrateBoxBulletsSmartGun # Sich
       - cost: 2000
         crate: RMCCrateBoxMagazineRifleM54C
       - cost: 4000
@@ -70,6 +72,10 @@
         crate: RMCCrateBoxMagazineSentry
       - cost: 4000
         crate: RMCCrateMagazineNapthalUT
+      - cost: 4000
+        crate: RMCCrateMagazineBGel
+      - cost: 4000
+        crate: RMCCrateMagazineFlamerMixed
       - cost: 4000
         crate: RMCCrateBoxMagazineSentryShotgun
       - cost: 4000
@@ -168,8 +174,8 @@
         crate: RMCCrateElectricalMaintenance
       - cost: 2000
         crate: RMCCrateMechanicalMaintenance
-#      - cost: 2000
-#        crate: RMCCrateInflatableBarriers
+      - cost: 2000
+        crate: RMCCrateInflatableBarriers
       - cost: 2000
         crate: RMCCrateReplacementLights
       - cost: 3000
@@ -267,8 +273,10 @@
         crate: RMCCrateMortarShellFlare
 #    - name: Operations
 #      entries: []
-#    - name: Reagent tanks
-#      entries: []
+    - name: Танкери з рідинами
+      entries:
+      - cost: 2000
+        crate: RMCTankReagentFuel
     - name: Наука
       entries:
       - cost: 3000
@@ -287,8 +295,8 @@
       entries:
       - cost: 2000
         crate: RMCCrateSupplyInternals
-#      - cost: 1000
-#        crate: RMCCrateSupplyEvacuation
+      - cost: 1000
+        crate: RMCCrateSupplyEvacuation
       - cost: 1000
         crate: RMCCrateSuppliesBoxes
       - cost: 1000
@@ -345,6 +353,14 @@
         crate: RMCCrateMagazineM4SPRCustomImpact
       - cost: 3000
         crate: RMCCrateMagazineM4SPRCustomIncendiary
+      - cost: 6000
+        crate: RMCCratePyroTankMixed
+      - cost: 3000
+        crate: RMCCratePyroTankExtended
+      - cost: 3000
+        crate: RMCCratePyroTankTypeB
+      - cost: 4000
+        crate: RMCCratePyroTankTypeX
 
 
 

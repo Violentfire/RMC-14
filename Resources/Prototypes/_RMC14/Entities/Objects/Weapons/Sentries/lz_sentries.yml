@@ -65,11 +65,11 @@
   name: ОН-577 десантна вартова турель
   description: Повністю автономна оборонна турель, що здатна ефективно знищувати ворогів на близько-середній дистанції. Оснащена модифікованою автогарматою M32-S та внутрішньою стрічкою з набоями.
   components:
-  - type: Gun
-    fireRate: 15
-    selectedMode: FullAuto
-    availableModes:
-    - FullAuto
+#  - type: Gun - відкат змін РМС, всі строки під коментарм зміна білду Січі
+#    fireRate: 15
+#    selectedMode: FullAuto
+#    availableModes:
+#    - FullAuto
   - type: InteractionPopup
     interactDelay: 0.2
     successChance: 0.8

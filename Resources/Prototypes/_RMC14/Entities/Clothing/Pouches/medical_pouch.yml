@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedical
-  name: medical pouch
-  description: It can carry small medical supplies.
+  name: медичний підсумок
+  description: Він може переносити трохи медичного приладдя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medical.rsi

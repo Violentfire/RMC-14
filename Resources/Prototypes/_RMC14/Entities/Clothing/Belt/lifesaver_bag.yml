@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltMedical
   id: CMBeltMedicBag
-  name: M276 pattern lifesaver bag
-  description: The M276 is the standard load-bearing equipment of the UNMC. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
+  name: сумка рятувальника зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія має містку сумку для інжекторів, медичних наборів та приладдя. Поширена серед медиків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medicbag/jungle-classic.rsi

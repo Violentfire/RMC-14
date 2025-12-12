@@ -2,7 +2,7 @@
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
   name: тактичні рукавиці
-  description: "Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'Зв'язано Асоціацією Вдів Морських Піхотинців'."
+  description: Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'Зв'язано Асоціацією Вдів Морських Піхотинців'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsM3G4
-  name: броньовані рукавиці M3-G4 
+  name: броньовані рукавиці М3-Г4 
   description: Пара броньованих, але гнучких рукавиць.
   components:
   - type: Sprite
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsBrownMarine
-  name: marine brown combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'. These are brown instead of the classic black."
+  name: коричневі тактичні рукавиці
+  description: Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'Зв'язано Асоціацією Вдів Морських Піхотинців'. Цей варіант виконано в коричневому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsGreyMarine
-  name: marine grey combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'. These are a shade of grey instead of the classic black."
+  name: сірі тактичні рукавиці
+  description: Стандартні рукавиці, які використовує морська піхота. На ярлику написано 'Зв'язано Асоціацією Вдів Морських Піхотинців'. Цей варіант виконано в сірому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grey.rsi

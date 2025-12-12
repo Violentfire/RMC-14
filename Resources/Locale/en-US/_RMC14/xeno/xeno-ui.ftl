@@ -24,6 +24,6 @@ rmc-xeno-tracker-target-HiveLeader = Лідер Вулика
 rmc-xeno-tracker-target-Tunnel = Тунель
 rmc-xeno-tracker-target-HiveCore = Ядро Вулика
 
-rmc-xeno-ui-ovi-needed-label = [bold][color=red]Королева має бути у своєму\novipositor щоб ви отримали очки![/color][/bold]
+rmc-xeno-ui-ovi-needed-label = [bold][color=red]Королева має бути у кладці щоб ви отримали очки![/color][/bold]
 rmc-xeno-ui-evolution-points = Очки еволюції: { $points } / { $maxPoints }
 rmc-ui-xeno-strain-confirm = Підтвердити

@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalGear
-  name: ColMarTech squad medical gear rack
-  description: An automated gear rack for hospital corpsmen.
+  name: КолМорТех стійка для обладнання Бойового Медика
+  description: Автоматизована стійка обладнання для Бойового Медика.
   components:
   - type: AccessReader
     access:
@@ -15,11 +15,11 @@
     jobs:
     - CMHospitalCorpsman
     sections:
-    - name: Medical Set (Mandatory)
+    - name: Набір Медика (Обов'язково)
       takeAll: CMMedicalSet
       entries:
       - id: CMVendorBundleSquadMedicalEssentials
-    - name: Field Supplies
+    - name: Польові Лікувальні Засоби
       entries:
       - id: CMBurnKit10
         points: 2
@@ -30,9 +30,9 @@
     #    CMMedicalSplints: 1P
 #        recommended: true
       - id: CMBloodPackFull # TODO RMC14 O-
-        name: blood bag (O-)
+        name: пакет з кров'ю (О-)
         points: 4
-    - name: Firstaid Kits
+    - name: Аптечки Першої Допомоги
       entries:
       - id: CMAdvFirstAidKitFilled
         points: 12
@@ -47,7 +47,7 @@
         points: 6
       - id: RMCRadiationAidKitFilled
         points: 6
-    - name: Pill Bottles
+    - name: Пляшечки Пігулок
       entries:
       - id: CMPillCanisterBicaridine
         points: 5
@@ -66,7 +66,7 @@
 #      - id: CMPillCanisterTramadol
 #        points: 5
 #        recommended: true
-    - name: Autoinjectors
+    - name: Автоінжектори
       entries:
       - id: CMBicaridineAutoInjector
         points: 1
@@ -84,7 +84,7 @@
 #        points: 1
       - id: CMTricordrazineAutoInjector
         points: 1
-    - name: Medical Utilities
+    - name: Медичне Приладдя
       entries:
      #    CMMS11SmartRefillTank: 6P
      # FixOVien: 7P
@@ -94,7 +94,7 @@
         points: 4
       - id: CMStasisBagFolded
         points: 6
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 18
@@ -104,14 +104,18 @@
       - id: RMCPacketGrenadeSmokeFilled
         points: 9
       - id: RMCPacketGrenadeM74AGMFFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMIFilled
-        points: 20
+        points: 13
       - id: RMCPacketGrenadeM74AGMSFilled
-        points: 10
+        points: 9
       - id: RMCPacketGrenadeM74AGMSHornetFilled
-        points: 20
-    - name: Primary Ammunition
+        points: 13
+    # - id: CMM20MineBox4
+    #   points: 20
+    # - id: RMCElectroshockGrenadex3
+    #   points: 16
+    - name: Особливі Набої
       entries:
       - id: CMMagazineRifleM4SPRAP
         points: 6
@@ -129,7 +133,7 @@
         points: 6
       - id: CMMagazineRifleM54CExt
         points: 6
-    - name: Sidearm Ammunition
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -145,28 +149,29 @@
         points: 3
       - id: RMCMagazinePistolSU6
         points: 6
-    - name: Armors
+    - name: Особлива Броня
       entries:
       - id: CMArmorB12
-        points: 28
+        points: 24
       - id: CMArmorM4
         points: 16
-    - name: Restricted Firearms
+    - name: Додаткова Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 8
       - id: RMCGunCasePistolSmart
         points: 12
-    - name: Clothing Items
+    - name: Предмети Одягу
       entries:
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
         points: 8
       - id: RMCBackpackRTO
+        replaceSlot: back
         points: 15
       - id: RMCWeldingGoggles
         points: 3
-    - name: Utilities
+    - name: Додаткове Обладнання
       entries:
       - id: CMFireExtinguisherPortable
         points: 3
@@ -174,7 +179,7 @@
         points: 8
       - id: RMCWhistle
         points: 3
-    - name: Binoculars
+    - name: Біноклі
       entries:
       - id: RMCBinoculars
         points: 5
@@ -182,15 +187,15 @@
         points: 10
       - id: RMCLaserDesignator
         points: 15
-    - name: Helmet Optics
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorWelding
         points: 5
-    - name: Pamphlets
+    - name: Довідники
       entries:
       - id: CMPamphletEngineer
         points: 15
-    - name: Radio Keys
+    - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyEngineer
         points: 3
@@ -204,8 +209,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalEquipment
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Бойового Медика
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Бойового Медика морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -217,49 +222,51 @@
     - CMHospitalCorpsman
     - CMPVEHospitalCorpsman
     sections:
-    - name: Standard Equipment
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleSquadMedicalApparel
       - id: RMCHandsLatexMarine
-        name: combat sterile gloves
+        name: бойові стерильні рукавички
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Armor
+    - name: Броня
       choices: { CMArmor: 1 }
       entries:
-      - id: RMCArmorVestMedic
+      - id: RMCArmorVestSquad
       - id: RMCArmorM3LightVariants
-        name: light armor
+        name: легка броня
       - id: RMCArmorM3MediumVariants
-        name: medium armor
+        name: середня броня
         recommended: true
       - id: RMCArmorM3HeavyVariants
-        name: heavy armor
-    - name: Helmet
+        name: важка броня
+    - name: Шоломи
       choices: { CMHelmet: 1 }
       entries:
       - id: CMArmorHelmetM10Medic
       - id: RMCArmorHelmetM10MedicWhite
         recommended: true
-    - name: Backpack
+    - name: Рюкзаки
       choices: { CMBackpack: 1 }
       entries:
       - id: CMBackpackMarineMedic
+        replaceSlot: back
       - id: CMSatchelMarineMedic
+        replaceSlot: back
         recommended: true
-    - name: Belt
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: CMBeltMedicBagFilled
-        name: M276 lifesaver bag (Full)
+        name: сумка рятувальника зразка М276 (Повна)
       - id: CMBeltMedicalFilled
-        name: M276 medical storage rig (Full)
-    - name: Pouches
+        name: ремінь для мед. оснащення зразка М276 (Повний)
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchReagentCanisterTricordrazineRevival
-        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+        name: підсумок з герметичною каністрою\n(Суміш для реанімації - Трикодразин)
         recommended: true
       - id: RMCPouchMedkit
         recommended: true
@@ -269,31 +276,31 @@
       - id: RMCPouchAutoinjector
       - id: RMCPouchFirstResponder
       - id: RMCPouchReagentCanisterBicaridine
-        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
+        name: підсумок з герметичною каністрою\n(Бікаридин)
       - id: RMCPouchReagentCanisterKelotane
-        name: Pressurized Reagent Canister Pouch\n(Kelotane)
+        name: підсумок з герметичною каністрою\n(Келотан)
       - id: RMCPouchReagentCanisterTricordrazine
-        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+        name: підсумок з герметичною каністрою\n(Трикодразин)
       - id: RMCPouchReagentCanister
-        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+        name: підсумок з герметичною каністрою\n(Порожній)
       - id: RMCPouchVialFill
-        name: vial pouch (Full)
+        name: підсумок для пробірок (Повний)
       - id: RMCPouchMedical
       - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
+        name: підсумок першої допомоги (багаторазові автоінжектори)
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
+        name: підсумок першої допомоги (марля, мазь) # TODO RMC14 splints comma
       - id: RMCPouchFirstAidPills
-        name: first-aid pouch (pills)
+        name: підсумок першої допомоги (пігулки)
       - id: RMCPouchFlareFilled
-        name: Flare pouch (Full)
+        name: підсумок для фаєрів (Повний)
       - id: RMCPouchGeneralLarge
      #- id: CMSlingPouch
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchMagazine
       - id: RMCPouchShotgun
       - id: RMCPouchPistol
-    - name: Accessories
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown
@@ -308,7 +315,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Mask
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskSterile
@@ -451,3 +458,50 @@
         name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
       - id: RMCPouchFirstAidPills
         name: first-aid pouch (pills)
+
+- type: entity
+  parent: RMCColMarTechMedicalEquipmentPVE
+  id: ColMarTechMedicalChemicalPVE
+  suffix: PVE
+  name: ColMarTech squad medical chemical rack
+  description: An automated gear rack for specialized chemicals for the hospital corpsman.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_chemical.rsi
+  - type: CMAutomatedVendor
+    pointsType: Chemicals
+    sections:
+    # TODO RMC14: newmed
+    # - name: Essential Medication
+    #   choices: { RMCEssentialChemical: 1 }
+    #   entries:
+    #   - id: RMCPillCanisterImidazolineAlkysine
+    #     recommended: true
+    #   - id: RMCLargeBottleImidazolineAlkysine
+    #     recommended: true
+    - name: Pill Bottles
+      entries:
+      - id: RMCPillCanisterMeralyneBicaridine
+        points: 60
+      - id: CMPillCanisterKelotaneDermaline
+        points: 60
+      # TODO RMC14: newmed
+      # - id: RMCPillCanisterNitrogenWater
+      #   points: 30
+      - id: RMCPillCanisterDexalinPlus
+        points: 30
+      - id: RMCPillCanisterIron
+        points: 30
+    - name: Liquid Bottles
+      entries:
+      - id: RMCLargeBottleMeralyneBicaridine
+        points: 40
+      - id: RMCLargeBottleKelotaneDermaline
+        points: 40
+      - id: RMCLargeBottleDexalinPlus
+        points: 30
+    # TODO RMC14: the minitank is currently non functional
+    # - name: Injectors
+    #   entries:
+    #   - id: CMMiniTank
+    #     points: 40
