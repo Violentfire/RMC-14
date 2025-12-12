@@ -1,11 +1,13 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCAutomatedPersonalUniformCloset
-  name: automated personal uniform closet
-  description: An automated closet hooked up to a colossal storage of standard-issue dress uniform variants.
+  name: стійка для персональної уніформи
+  description: Автоматизована стійка, підключена до колосального сховища стандартних варіантів форми під будь-які ситуації. Час морпіхам виглядати стильно.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/dress.rsi
+  - type: WallMount # Sich. Для Саванни
+    arc: 0
   - type: CMAutomatedVendor
     sections:
     # Auxiliary
