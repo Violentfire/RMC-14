@@ -378,7 +378,7 @@
 
 - type: entity
   id: RMCPlanetSorokyne
-  name: ЖЗ-976 Сорокіне Страта # Комуністи (СПП). . . "Сорокина Срака", наврядч ми її будемо задіювати.
+  name: ЖЗ-976 Сорокіна Страта # Комуністи (СПП). . . "Сорокина Срака", наврядч ми її будемо задіювати.
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/sorokyne.yml
@@ -424,7 +424,7 @@
 # PVE Maps Below
 - type: entity
   id: RMCPlanetArcticValley
-  name: Arctic Valley
+  name: Арктична Долина
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/arctic_valley.yml
@@ -433,7 +433,7 @@
 
 - type: entity
   id: RMCPlanetJungleDelta
-  name: Jungle Delta
+  name: Джунглі Дельта
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/jungle_delta.yml
@@ -442,7 +442,7 @@
 
 - type: entity
   id: RMCPlanetCorsat
-  name: CORSAT
+  name: КОРСАТ
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/corsat.yml
@@ -451,7 +451,7 @@
 
 - type: entity
   id: RMCPlanetHybrisaRepaired
-  name: LV-759 Hybrisa Prospera (Repaired)
+  name: ЖЗ-759 Процвітаюча Гібріса (Відновлена)
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/hybrisa_greenshift.yml
@@ -460,7 +460,7 @@
 
 - type: entity
   id: RMCPlanetSorokyneRepaired
-  name: LV-976 - Sorokyne Strata (Repaired)
+  name: ЖЗ-976 Сорокіна Страта (Відновлена)
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/sorokyne_repaired.yml

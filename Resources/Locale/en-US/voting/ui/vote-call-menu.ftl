@@ -15,18 +15,18 @@ ui-vote-create-title = Почати голосування
 ui-vote-create-button = Почати голосування
 
 # Follow button in the vote create menu
-ui-vote-follow-button = Follow User
+ui-vote-follow-button = Слідкувати за гравцем
 
 # Timeout text if a standard vote type is currently on timeout.
-ui-vote-type-timeout = Це голосування вже було ініційоване недавно ({$remaining})!
+ui-vote-type-timeout = Це голосування вже було ініційоване нещодавно ({$remaining} до нового)!
 
 # Unavailable text if a vote type has been disabled manually.
 ui-vote-type-not-available = Цей тип голосування було вимкнено
 
 # Vote option only available for specific users.
 ui-vote-trusted-users-notice =
-  Цей варіант голосування доступний лише гравцям з достатнім ігровим часом або тим, хто внесений до вайт-листу.
-  Крім того, ви повинні перебувати в стані привида щонайменше { $timeReq } секунд.
+  Цей варіант голосування доступний лише гравцям з достатнім ігровим часом.
+  У випадку успіху – гравця буде забанено на 3 години. Не забудьте про це повідомити адміністрації.
 
 # Warning to not abuse a specific vote option.
 ui-vote-abuse-warning =
@@ -34,7 +34,7 @@ ui-vote-abuse-warning =
   Зловживання системою голосування за вигнання може призвести до безстрокового бану!
 
 # Hue hue hue
-ui-vote-fluff = Запущено з використанням технології Robust™ для захисту від втручання
+ui-vote-fluff = Запущено з використанням технології Потужно™ для захисту від втручання
 
 ## Vote menu command
 
