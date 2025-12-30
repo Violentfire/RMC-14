@@ -1,18 +1,18 @@
 ### Інтерфейс
 
-chat-manager-max-message-length = Ваше повідомлення перевищує {$maxMessageLength} ліміт по символах
+chat-manager-max-message-length = Ваше повідомлення перевищує ліміт у {$maxMessageLength} символів
 chat-manager-ooc-chat-enabled-message = Чат ООС було увімкнено.
 chat-manager-ooc-chat-disabled-message = Чат ООС було вимкнено.
 chat-manager-looc-chat-enabled-message = Чат ЛООС було увімкнено.
 chat-manager-looc-chat-disabled-message = Чат ЛООС було вимкнено.
 chat-manager-dead-looc-chat-enabled-message = Мертві гравці тепер можуть використовувати ЛООС.
 chat-manager-dead-looc-chat-disabled-message = Мертві гравці більше не можуть використовувати ЛООС.
-chat-manager-crit-looc-chat-enabled-message = Персонажи у крит. стані тепер можуть використовувати ЛООС.
-chat-manager-crit-looc-chat-disabled-message = Персонажи у крит. стані більше не можуть використовувати ЛООС.
+chat-manager-crit-looc-chat-enabled-message = Персонажі у крит. стані тепер можуть використовувати ЛООС.
+chat-manager-crit-looc-chat-disabled-message = Персонажі у крит. стані більше не можуть використовувати ЛООС.
 chat-manager-admin-ooc-chat-enabled-message = Чат Адмін ООС було увімкнено.
 chat-manager-admin-ooc-chat-disabled-message = Чат Адмін ООС було вимкнено.
 
-chat-manager-max-message-length-exceeded-message = Ваше повідомлення перевищує {$limit} ліміт по символах
+chat-manager-max-message-length-exceeded-message = Ваше повідомлення перевищує ліміт у {$limit} символів
 chat-manager-no-headset-on-message = Ви не маєте гарнітуру на собі!
 chat-manager-no-radio-key = Не вказано радіоключ!
 chat-manager-no-such-channel = Не існує каналу з ключем '{$key}'!
@@ -25,8 +25,8 @@ chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} О
 chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
 chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепче,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Хтось[/BubbleHeader] шепче, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
 chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->

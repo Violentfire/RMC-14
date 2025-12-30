@@ -12,7 +12,7 @@
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTape
   name: запальна касета
-  description: Касета з композиціями, під які ваша смерть буде виглядати красиво. Спеціально для українського полку КМПОН!
+  description: Касета з композиціями, під які ваша смерть буде виглядати красиво. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_hellfire
@@ -30,7 +30,7 @@
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTapeManSoldWorld
   name: касета продавшого світ
-  description: Касета від того, хто продав світ. Спеціально для українського полку КМПОН!
+  description: Касета від того, хто продав світ. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_who_sold_world
@@ -43,7 +43,7 @@
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTapeUa
   name: українська касета
-  description: Касета з збірником українських композицій. Спеціально для українського полку КМПОН!
+  description: Касета з збірником українських композицій. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_ua
