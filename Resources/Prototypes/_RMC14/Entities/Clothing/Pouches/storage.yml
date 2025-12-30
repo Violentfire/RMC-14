@@ -586,8 +586,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchCassette
-  name: cassette pouch
-  description: A finely crafted pouch, made specifically to keep cassettes safe during wartime.
+  name: підсумок для касет
+  description: Високоякісний чохол, спеціально розроблений для безпечного зберігання касет навіть під обстрілами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
