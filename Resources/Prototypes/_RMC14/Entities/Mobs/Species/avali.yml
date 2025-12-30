@@ -15,11 +15,11 @@
     scale: 0.8, 0.8 # Sich. Чому? Бо вони малі пташки.
   - type: TypingIndicator # Sich
     proto: avali
-  - type: Vocal
+  - type: Vocal # Sich
     sounds:
-      Male: SichMaleAvali # Sich
-      Unsexed: SichMaleAvali # Sich
-      Female: SichFemaleAvali # Sich
+      Male: SichMaleAvali
+      Unsexed: SichMaleAvali
+      Female: SichFemaleAvali
   - type: Wagging 
     action: ActionToggleAvaliWagging
   - type: Speech

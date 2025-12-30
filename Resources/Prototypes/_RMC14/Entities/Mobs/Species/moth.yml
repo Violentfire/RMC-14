@@ -14,14 +14,15 @@
     accent: zombieMoth
   - type: Speech
     speechVerb: Moth
-    allowedEmotes: ['Chitter', 'Squeak']
+    speechSounds: Moth # Sich. Перенесено з КД
+    allowedEmotes: ['Chitter', 'Squeak', 'Flap'] # Sich додала Flap. Перенесено з Губа
   - type: TypingIndicator
     proto: moth
-  - type: Vocal
+  - type: Vocal # Sich
     sounds:
-      Male: RMCMaleMoth
-      Female: RMCFemaleMoth
-      Unsexed: UnisexMoth
+      Male: SichMaleMoth
+      Female: SichFemaleMoth
+      Unsexed: SichMaleMoth
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
