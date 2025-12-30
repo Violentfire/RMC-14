@@ -13,13 +13,13 @@
   - type: Sprite
     drawdepth: Mobs
     scale: 0.8, 0.8 # Sich. Чому? Бо вони малі пташки.
-  - type: TypingIndicator
+  - type: TypingIndicator # Sich
     proto: avali
   - type: Vocal
     sounds:
-      Male: RMCMaleAvali
-      Unsexed: RMCMaleAvali
-      Female: RMCFemaleAvali
+      Male: SichMaleAvali # Sich
+      Unsexed: SichMaleAvali # Sich
+      Female: SichFemaleAvali # Sich
   - type: Wagging 
     action: ActionToggleAvaliWagging
   - type: Speech
