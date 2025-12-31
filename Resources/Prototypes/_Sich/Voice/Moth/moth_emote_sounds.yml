@@ -32,4 +32,4 @@
 
 - type: emoteSounds
   parent: [RMCBaseFemaleSounds, SichUnisexMoth]
-  id: SichemaleMoth
+  id: SichFemaleMoth
