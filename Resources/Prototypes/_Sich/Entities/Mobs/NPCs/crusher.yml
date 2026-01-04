@@ -1,13 +1,13 @@
 - type: entity
   abstract: true
   parent:
-  - CMSichXenoAIDeveloped
+  - SichXenoAIDeveloped
   - CMXenoTail
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
-  id: CMSichXenoAICrusherBase
+  id: SichXenoAICrusherBase
   name: Руйнівник
   description: Гігантська чужопланетна істота з масивним броньованим гребенем.
   components:
@@ -108,8 +108,8 @@
     item: RMCOrganXenoHeartT3
 
 - type: entity
-  parent: CMSichXenoAICrusherBase
-  id: RMCSichXenoAICrusher
+  parent: SichXenoAICrusherBase
+  id: SichXenoAICrusher
   components:
   - type: Xeno
     actionIds:

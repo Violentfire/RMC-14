@@ -1,14 +1,14 @@
 - type: entity
   abstract: true
   parent:
-  - CMSichXenoAIDeveloped
+  - SichXenoAIDeveloped
   - CMXenoTail
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
-  id: CMSichXenoAIDroneBase
+  id: SichXenoAIDroneBase
   name: Дрон
   description: Чужопланетний дрон.
   components:
@@ -92,8 +92,8 @@
     item: RMCOrganXenoHeartT1
 
 - type: entity
-  parent: CMSichXenoAIDroneBase
-  id: CMSichXenoAIDrone
+  parent: SichXenoAIDroneBase
+  id: SichXenoAIDrone
   components:
   - type: GuideHelp
     guides:

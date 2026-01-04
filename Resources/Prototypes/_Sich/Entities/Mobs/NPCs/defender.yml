@@ -1,13 +1,13 @@
 - type: entity
   abstract: true
   parent:
-  - CMSichXenoAIDeveloped
+  - SichXenoAIDeveloped
   - CMXenoTail
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
-  id: CMSichXenoAIDefenderBase
+  id: SichXenoAIDefenderBase
   name: Захисник
   description: Ксеноїд з панцирним гребенем.
   components:
@@ -96,8 +96,8 @@
     item: RMCOrganXenoHeartT1
 
 - type: entity
-  parent: CMSichXenoAIDefenderBase
-  id: CMSichXenoAIDefender
+  parent: SichXenoAIDefenderBase
+  id: SichXenoAIDefender
   components:
   - type: GuideHelp
     guides:

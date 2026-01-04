@@ -1,6 +1,6 @@
 - type: entity
   parent:
-  - CMSichXenoAIDeveloped
+  - SichXenoAIDeveloped
   - CMXenoTail
   - CMXenoFlammable
   - RMCXenoSpeechSounds
@@ -149,7 +149,7 @@
 
 - type: entity
   parent: RMCSichXenoAIRavagerBase
-  id: CMSichXenoAIRavager
+  id: SichXenoAIRavager
   components:
   - type: XenoShield
   - type: XenoLeap

@@ -1,18 +1,18 @@
 # Runner AI
 
 - type: htnCompound
-  id: CMSichXenoRunnerCompound
+  id: SichXenoRunnerCompound
   branches:
   - tasks:
     - !type:HTNCompoundTask
-      task: CMSichXenoRunnerCombatCompound
+      task: SichXenoRunnerCombatCompound
   - tasks:
     - !type:HTNCompoundTask
       task: IdleCompound
 
 # Selects a target in melee and tries to attack it.
 - type: htnCompound
-  id: CMSichXenoRunnerCombatCompound
+  id: SichXenoRunnerCombatCompound
   branches:
   # Melee combat (unarmed or otherwise)
   - tasks:
@@ -20,12 +20,12 @@
       operator: !type:UtilityOperator
         proto: NearbyMeleeTargets
     - !type:HTNCompoundTask
-      task: RMCSichRunnerLeap
+      task: SichRunnerLeap
     - !type:HTNCompoundTask
       task: MeleeAttackTargetCompound
 
 - type: htnCompound
-  id: RMCSichRunnerLeap
+  id: SichRunnerLeap
   branches:
   - tasks:
     - !type:HTNPrimitiveTask
@@ -68,14 +68,14 @@
 - type: entity
   abstract: true
   parent:
-  - CMSichXenoAIDeveloped
+  - SichXenoAIDeveloped
   - CMXenoTail
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
-  id: CMSichXenoAIRunnerBase
+  id: SichXenoAIRunnerBase
   name: Бігун
   description: Малий червоний ксеноїд, схоже він здатен бігати доволі швидко... 
   components:
@@ -177,12 +177,12 @@
     item: RMCOrganXenoHeartT1
 
 - type: entity
-  parent: CMSichXenoAIRunnerBase
-  id: CMSichXenoAIRunner
+  parent: SichXenoAIRunnerBase
+  id: SichXenoAIRunner
   components:
   - type: HTN # TODO RMC14 needs to not target nested marines
     rootTask:
-      task: CMSichXenoRunnerCompound
+      task: SichXenoRunnerCompound
   - type: GuideHelp
     guides:
     - RMCGuideRoleRunner
@@ -219,13 +219,13 @@
     id: CMXenoRunner
 
 - type: entity
-  parent: CMSichXenoAIRunnerBase
+  parent: SichXenoAIRunnerBase
   id: RMCSichXenoAIRunnerAcider
   suffix: Acider
   components:
   - type: HTN # TODO RMC14 needs to not target nested marines
     rootTask:
-      task: CMSichXenoCompound
+      task: SichXenoCompound
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Runner/acider_runner.rsi
     layers:

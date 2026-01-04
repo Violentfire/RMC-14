@@ -1,17 +1,17 @@
 # Xeno AI
 - type: htnCompound
-  id: CMSichXenoCompound
+  id: SichXenoCompound
   branches:
   - tasks:
     - !type:HTNCompoundTask
-      task: CMSichXenoMeleeCombatCompound
+      task: SichXenoMeleeCombatCompound
   - tasks:
     - !type:HTNCompoundTask
       task: IdleCompound
 
 # Selects a target in melee and tries to attack it.
 - type: htnCompound
-  id: CMSichXenoMeleeCombatCompound
+  id: SichXenoMeleeCombatCompound
   branches:
 
   # PRIMARY: attack barricades
@@ -99,14 +99,14 @@
       curve: !type:BoolCurve
 
 - type: entity
-  id: CMSichXenoAIBase
+  id: SichXenoAIBase
   suffix: ШІ
   abstract: true
   save: false
   components: # TODO RMC14 camera recoil from large explosions? check 13
   - type: HTN # TODO RMC14 needs to not target nested marines
     rootTask:
-      task: CMSichXenoCompound
+      task: SichXenoCompound
     blackboard:
       NavClimb: !type:Bool
         true
@@ -461,9 +461,9 @@
     xenoVisible: true
 
 - type: entity
-  id: CMSichXenoAIDeveloped
+  id: SichXenoAIDeveloped
   parent:
-  - CMSichXenoAIBase
+  - SichXenoAIBase
   - CMXenoPrying
   - CMXenoPuller
   - CMXenoMelee
