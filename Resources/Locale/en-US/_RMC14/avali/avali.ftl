@@ -1,4 +1,4 @@
-species-name-avali = Avali
+species-name-avali = Авалі
 
 marking-AvaliHairBigPonytail = Big Ponytail
 marking-AvaliHairBigPonytail-avali_crest_bigponytail_primary = Primary

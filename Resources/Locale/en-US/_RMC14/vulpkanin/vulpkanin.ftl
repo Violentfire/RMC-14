@@ -1,4 +1,4 @@
-species-name-vulpkanin = Vulpkanin
+species-name-vulpkanin = Вульпканін
 
 marking-VulpEar-vulp = Vulpkanin ears (base)
 marking-VulpEar-vulp-inner = Vulpkanin ears (inner)

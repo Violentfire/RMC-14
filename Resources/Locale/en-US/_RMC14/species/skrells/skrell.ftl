@@ -1,4 +1,4 @@
-species-name-skrell = Skrell
+species-name-skrell = Скрел
 
 marking-RMCHairSkrellLong = Long Skrell Hair
 marking-RMCHairSkrellShort = Short Skrell Hair
