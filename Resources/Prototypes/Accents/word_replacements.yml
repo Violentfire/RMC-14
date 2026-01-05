@@ -25,7 +25,7 @@
     accent-mobster-words-17: accent-mobster-words-replace-17
 
 - type: accent
-  id: italian
+  id: italian # Sich. У нас він став Одеським
   wordReplacements:
     accent-italian-words-1: accent-italian-words-replace-1
     accent-italian-words-2: accent-italian-words-replace-2
@@ -454,8 +454,8 @@
 
 - type: accent
   id: liar
-  replacementChance: 0.30
-  wordReplacements:
+  replacementChance: 0.30 # Sich. 0.15 в оригіналі
+  wordReplacements: # Sich. Частина замін змінена заради перекладу
     liar-word-1: liar-word-replacement-1
     liar-word-2: liar-word-replacement-2
     liar-word-3: liar-word-replacement-3

@@ -6,7 +6,7 @@
   - cmds
   name: rmc-distress-signal-title
   description: rmc-distress-signal-description
-  showInVote: true
+  showInVote: true # Sich. Нам треба
   rules:
   - CMDistressSignal
 
