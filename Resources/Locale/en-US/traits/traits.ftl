@@ -10,7 +10,7 @@ trait-narcolepsy-desc = Ви час від часу засинаєте.
 trait-pacifist-name = Пацифізм
 trait-pacifist-desc = Ви не можете нападати на жодну живу істоту або завдавати їй шкоди.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні, не фокусуються. Не схоже, що {SUBJECT($target)} вас бачить.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні та не фокусуються. Не схоже, що {SUBJECT($target)} вас бачить.[/color]
 
 trait-lightweight-name = Легкий алкоголізм
 trait-lightweight-desc = Алкоголь впливає на вас набагато сильніше.
@@ -25,7 +25,7 @@ trait-paracusia-name = Паракузія
 trait-paracusia-desc = Ви чуєте звуки яких насправді немає.
 
 trait-unrevivable-name = Невідроджуваний
-trait-unrevivable-desc = Вас не можна оживити за допомогою дефібриляторів.
+trait-unrevivable-desc = Вас не можна реанімувати за допомогою дефібриляторів.
 
 trait-pirate-accent-name = Піратський акцент (частковий переклад)
 trait-pirate-accent-desc = Ти не можеш перестати говорити як справжній пірат!
@@ -55,13 +55,13 @@ trait-german-name = Німецький акцент (відсутній пере
 trait-german-desc = Здається, ви приїхали з космічної Німеччини.
 
 trait-italian-name = Одеський акцент (повний переклад)
-trait-italian-desc = Таки так, з легким присмаком Чорного моря та нотками «йо-майо».
+trait-italian-desc = Таки так, з легким присмаком Чорного моря та нотками «йо-майо». Космічна Одеса, а може справжня? Все може бути.
 
 trait-french-name = Французький акцент (відсутній переклад)
-trait-french-desc = Здається, у вашому акценті є певна «je ne sais quoi».
+trait-french-desc = Здається, у вашому акценті є певна «je ne sais quoi». Вітання з космічної Франції!
 
 trait-spanish-name = Іспанський акцент (повний переклад)
-trait-spanish-desc = ¿Хола сеньоріта, чи не знаєте де тут ля бібліотека?
+trait-spanish-desc = ¿Хола сеньоріта, чи не знаєте, де тут ля бібліотека? Вітання з космічної Іспанії!
 
 trait-painnumbness-name = Знечулення
-trait-painnumbness-desc = Ви не відчуваєте болю, не усвідомлюючи наскільки сильно можете бути поранені.
+trait-painnumbness-desc = Ви не відчуваєте болю, через це не усвідомлюючи наскільки сильно можете бути поранені.
