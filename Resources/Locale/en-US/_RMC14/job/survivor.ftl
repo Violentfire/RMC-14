@@ -85,7 +85,7 @@ cm-job-name-survivor-gang-leader = Лідер Банди
 CMSurvivorGangLeader = Лідер Банди
 
 # You are a survivor of the attack on the colony. You worked or lived in the colony, and managed to avoid the alien attacks... until now.
-rmc-job-greeting-survivor = Ви пережили напад на колонію. Ви працювали або жили в колонії та вам вдавалося уникати атак чужих... До цього моменту.
+rmc-job-greeting-survivor = Ви пережили напад на колонію. Ви працювали або жили на ній та вам вдавалося уникати атак чужих... До цього моменту.
 
   Ви повністю усвідомлюєте загрозу ксенонідів і можете використовувати ці знання на свій розсуд.
 
