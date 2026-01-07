@@ -9,7 +9,7 @@
   id: SichSnowball
   name: сніжка
   icon: { sprite: /Textures/_Sich/Objects/Materials/snowball.rsi, state: snowball }
-  spawn: CMSheetSnowball
+  spawn: SichSheetSnowball
   maxCount: 3
 
 - type: entity
