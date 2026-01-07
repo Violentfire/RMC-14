@@ -29,4 +29,4 @@ rmc-job-name-hybrisa-civilian = Колоніст Процвітаючої Гіб
 rmc-job-description-hybrisa-civilian = Проживи своє життя в Провцітаючій Гібрсі.
 
 rmc-job-name-corp-synthetic = Синтетик Корпорації
-rmc-job-description-corp-synthetic = Підтримуйте інтереси Вестон-Ямада та персонал де потрібно.
+rmc-job-description-corp-synthetic = Підтримуйте інтереси Вестон-Ямада та їх персонал всюди, де це потрібно.
