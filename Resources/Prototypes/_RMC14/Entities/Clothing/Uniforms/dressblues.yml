@@ -3,7 +3,7 @@
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressEnlisted
   name: рядовий парадний морпіхотний мундир
-  description: Сорочка та брюки легендарного Морпіхотного парадного мундиру, майже незмінного з ХІХ століття. Цей неоздоблений варіант призначений для рядового складу, Е1 до Е3.
+  description: Сорочка та брюки легендарного Морпіхотного парадного мундиру, майже незмінного з ХІХ століття. Цей неоздоблений варіант призначений для рядового складу, від Е1 до Е3.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/enlisted.rsi

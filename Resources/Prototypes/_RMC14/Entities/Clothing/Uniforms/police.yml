@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCScrubsPrisonMedsec
-  name: середня форма в'язня
+  name: форма в'язня середнього рівня
   description: Помаранчева форма, яку носять в'язні, як і зазначено в Морському Праві. Промарковано жовтим - для ув'язнених середнього рівня безпеки.
   components:
   - type: Sprite
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCScrubsPrisonMaxsec
-  name: максимальна форма в'язня
+  name: форма в'язня максимального рівня
   description: Помаранчева форма, яку носять в'язні, як і зазначено в Морському Праві. Промарковано червоним - для ув'язнених максимального рівня безпеки.
   components:
   - type: Sprite

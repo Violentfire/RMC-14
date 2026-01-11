@@ -13,7 +13,7 @@
   parent: [RMCUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitBlueWorkwear
   name: синє робоче вбрання
-  description: Пара коричневий парусинових робочих штанів з темно-синьою сорочкою. Поширене поєднання серед робітників.
+  description: Пара коричневих парусинових робочих штанів з темно-синьою сорочкою. Поширене поєднання серед робітників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_workwear.rsi

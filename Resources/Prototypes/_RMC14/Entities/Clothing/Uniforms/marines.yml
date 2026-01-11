@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitQM
-  name: уніформа квартермейстра
-  description: Добре підігнаний костюм для Логістичних Офіцерів. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль.
+  name: уніформа офіцера логістики
+  description: Добре підігнаний костюм для Офіцерів Логістики. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/ro.rsi

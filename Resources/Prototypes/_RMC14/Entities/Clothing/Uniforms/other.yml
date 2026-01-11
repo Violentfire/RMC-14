@@ -510,7 +510,7 @@
   parent: [RMCUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitCivilianJanitor
   name: комбінезон прибиральника
-  description: Це офіційна уніформа колонійного прибиральника. Носіть з гордістю.
+  description: Це офіційна уніформа прибиральника колонії. Носіть з гордістю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/janitor.rsi
