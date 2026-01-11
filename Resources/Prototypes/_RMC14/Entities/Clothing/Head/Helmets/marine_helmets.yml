@@ -58,7 +58,7 @@
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10SO
   name: офіцерський шолом зразка М10
-  description: Варіація шолому М10, яку носять офіцери КМПООН, що звісно привертає увагу військових, і своїх, і ворожих.
+  description: Варіація шолому М10, яку носять офіцери КМПОН, що звісно привертає увагу військових, і своїх, і ворожих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/officer/jungle.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11CCO
-  name: M11C pattern commanding officer helmet
-  description: A special M11 Pattern Helmet worn by Commanding Officers of the UNMC. It reads on the label, 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'.
+  name: шолом командуючого офіцера зразка М11С
+  description: Спеціальний шолом зразка М11, який носять Командуючі Офіцери КМПОН. Всередині на записці, поруч з інформацією про прання, написано, 'Якщо носити на голові вас поховають в відкритій труні.'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11/co.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11CGeneral
-  name: M11C pattern ceremonial helmet
-  description: A special M11 pattern ceremonial helmet worn occasionally by general officers of the UNMC.
+  name: церемоніальний шолом зразка М11С
+  description: Спеціальний церемоніальний шолом зразка М11, який час від часу носять генерали КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11/ceremonial.rsi
@@ -451,5 +451,5 @@
 - type: entity
   parent: CMArmorHelmetM12
   id: RMCArmorHelmetM12Intel
-  name: XM12 pattern intelligence helmet
-  description: An experimental brain-bucket. A dust ruffle hangs from back. Moderately better at deflecting blunt objects at the cost of humiliation, can also hold a second visor optic. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your intel work.
+  name: шолом розвідки зразка ХМ12
+  description: Експериментальне відро для вашого казанку. Ззаду звисає завіса від пилу. Помірно краще відбиває удари тупими предметами, але ціною певного приниження. Може також вміщувати другий оптичний візор. Хто сміятиметься на меморіалі? Не ви – ви будете зайняті отриманням медалей за свою розвідувальну роботу.

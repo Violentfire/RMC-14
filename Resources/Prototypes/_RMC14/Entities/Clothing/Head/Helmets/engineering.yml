@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHatWelding
   id: RMCHelmetWelding
-  name: welding helmet # TODO RMC14 impairs vision when on
+  name: зварювальний шолом # TODO RMC14 impairs vision when on
   description: A head-mounted face cover designed to protect the wearer completely from space-arc eye
   components:
   - type: Sprite
