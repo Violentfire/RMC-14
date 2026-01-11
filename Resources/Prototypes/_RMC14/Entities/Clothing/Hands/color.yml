@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsBlack
-  name: black gloves
-  description: A simple pair of black gloves.
+  name: чорні рукавиці
+  description: Проста пара чорних рукавиці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -14,16 +14,16 @@
 - type: entity
   parent: RMCHandsBlack
   id: RMCHandsCombat
-  name: combat gloves
-  description: These tactical gloves are somewhat fire and impact resistant.
+  name: бойові рукавиці
+  description: Ці тактичні рукавиці забезпечують обмежений захист від вогню та ударів.
   components:
   - type: Insulated
 
 - type: entity
   parent: CMHandsBlackMarine
   id: CMHandsInsulated
-  name: ізоляційні рукавички
-  description: Рукавички, що забезпечують захист від ударів струмом.
+  name: ізоляційні рукавиці
+  description: Рукавиці, що забезпечують захист від ударів струмом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsBrown
-  name: коричневі рукавички
+  name: коричневі рукавиці
   description: Пара коричневих рукавичок.
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsLightBrown
-  name: світло-коричневі рукавички
+  name: світло-коричневі рукавиці
   description: Пара світло-коричневих рукавичок.
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsWhite
-  name: білі рукавички
+  name: білі рукавиці
   description: Можливо зараз вони і білі, але вже після першого бойового вони стануть колейдоском з чорного, червоного, зеленого... і, певно коричневого.
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMHandsWhite
   id: CMHandsWhiteDress
-  name: парадні рукавички
+  name: парадні рукавиці
   description: Пара модних рукавичок, які морпіхи вдягають на урочисті заходи.
   components:
   - type: Sprite
@@ -87,8 +87,8 @@
 - type: entity
   parent: CMHandsWhite
   id: RMCHandsPurple
-  name: purple gloves
-  description: A pair of gloves, they don't look special in any way.
+  name: фіолетові рукавиці
+  description: Пара рукавичок, які не виглядають незвично.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi
@@ -98,7 +98,7 @@
 - type: entity
   parent: CMHandsInsulated
   id: CMHandsBlackInsulated
-  name: чорні ізоляційні рукавички
+  name: чорні ізоляційні рукавиці
   description: Рукавички чорного кольору, що забезпечують захист від ударів струмом. 
   components:
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   parent: RMCHandsBlack
   id: RMCHandsLeatherBlack
-  name: black leather gloves
-  description: Supple, black leather gloves crafted from the finest leather. Stylish, durable, and ready for work or play.
+  name: чорні шкіряні рукавиці
+  description: Гнучкі, чорні шкіряні рукавички зроблені зі шкіри найвищої якості. Стильні, витривали та готові до роботи чи ігор.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/leather_black.rsi
