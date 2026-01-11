@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitTSEPA
-  name: tsepa uniform
-  description: The standard uniform of a TSEPA officer.
+  name: уніформа ІТСПА
+  description: Стандартна уніформа офіцерів ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/TSEPA/standard.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarineRoyal
-  name: royal crown marine uniform
-  description: The field uniform of the royal crown marines. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar UNMC equipment.
+  name: уніформа морпіхоти корони
+  description: Польова уніформа морпіхів королівської корони. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль. На рівні зі схожим спорядженням КМПОН.
   suffix: Filled, Royal
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 - type: entity
   parent: RMCJumpsuitTSEPA
   id: RMCJumpsuitMarineRoyalTeamlead
-  name: royal crown marine uniform
-  description: The field uniform of the royal crown marines. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar UNMC equipment.
+  name: уніформа морпіхоти корони
+  description: Польова уніформа морпіхів королівської корони. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль. На рівні зі схожим спорядженням КМПОН.
   suffix: Filled, Royal, Teamlead
   components:
   - type: Sprite
