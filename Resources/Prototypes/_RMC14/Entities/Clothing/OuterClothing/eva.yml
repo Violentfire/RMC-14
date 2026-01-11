@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseArmor
   id: RMCSuitEVAUNMC # TODO make into a base
-  name: UNMC MK.35 pressure suit
-  description: A heavy, bulky military-grade space suit utilized by the United Nations Marine Corps and a few other UN organizations.
+  name: космічний костюм МК.35 КМПОН
+  description: Важкий, незручний військовий космічний костюм, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
@@ -33,8 +33,8 @@
   parent: RMCHardHat
   id: RMCHelmetEVAUNMC # TODO make into a base
   categories: [ HideSpawnMenu ]
-  name: UNMC MK.35 pressure helmet
-  description: A heavy space helmet, designed to be coupled with the MK.35 pressure suit utilized by the United Nations Marine Corps and a few other UN organizations. Feels like you could hotbox in here.
+  name: космічний шолом МК.35 КМПОН
+  description: Важкий космічний шолом, створений в парі з космічним костюмом МК.35, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН. Відчувається наче ви можете тут зваритися.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi

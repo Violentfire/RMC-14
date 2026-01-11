@@ -247,8 +247,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatChiefMP
-  name: chief military police service jacket
-  description: A marine service jacket adopted for use by Military Police personnel on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty MPs. Very popular among those who want to inexplicably smell like donuts.
+  name: службова куртка голови служби правопорядку
+  description: Морпіхотна службова куртка прийнята для використання головами Військової Служби Правопорядку на борту кораблів КМПОН. Іронічно, більшість кораблів вимагають від їхніх ВСП носіння броні увесь час, через що ці куртки рідко носять ГВСП на службі. Дуже популярні серед тих, хто хоче пахнути пончиками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/cmp.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatWarden
-  name: military warden service jacket
-  description: A marine service jacket adopted for use by Military Wardens on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty Wardens. The jacket of choice for looking all night at a set of monitors, while cigarette butts pile around you.
+  name: службова куртка військового наглядача
+  description: Морпіхотна службова куртка прийнята для використання військових наглядачів Військової Служби Правопорядку на борту кораблів КМПОН. Іронічно, більшість кораблів вимагають від їхніх ВСП носіння броні увесь час, через що ці куртки рідко носять наглядачі на службі. Куртка це вибір для тих, хто усю ніч сидить за моніторами, поки бички з цигарок створюють горні хребти довколо нього.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/warden.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: [RMCBaseJacketButtonable, RMCBaseJacket]
   id: CMCoatMP
-  name: military police service jacket
-  description: A marine service jacket adopted for use by Military Police personnel on board Marine ships. Ironically most ships require their MP departments to use full armor, making these barely used by on duty MPs. This variant is also available to regular Marines, if they are willing to bear the shame.
+  name: службова куртка служби правопорядку
+  description: Морпіхотна службова куртка прийнята для використання персоналом Військової Служби Правопорядку на борту кораблів КМПОН. Іронічно, більшість кораблів вимагають від їхніх ВСП носіння броні увесь час, через що ці куртки рідко носять ВСП на службі. Цей варіант також доступний звичайним морпіхам, якщо вони, звісно, винесуть цю ганьбу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/mp.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCQuartermasterJacket
-  name: Logistics Officer jacket
-  description: A green jacket worn by UNMC personnel. The back has the flag of the United Nations on it.
+  name: куртка офіцера логістики
+  description: Зелена куртка, яку носить персонал КМПОН. На спині зображен прапор Об'єднаних Націй.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/qm.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatMessTech
-  name: mess technician jacket
-  description: Smells like vanilla. Signifies prestige and power, if a little flashy.
+  name: куртка кока
+  description: Пахне ваніллю. Означає престиж та владу, хоч і трохи помпезно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/chef.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatASO
-  name: auxiliary support officer jacket
-  description: A comfortable vest for officers who are expected to work long hours staring at rows of numbers and inspecting equipment from knives to torpedos to entire dropships.
+  name: куртка офіцера підтримки
+  description: Приємна жилетка для офіцерів, від яких очікують годинами дивитися на рядки цифер та проводити інспекції екіпірування від ножів до торпед та цілих шатлів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/jungle.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatASOBlack
-  name: auxiliary support officer black jacket
-  description: A black jacket worn by officers that want to look stylish while looking at paperwork.
+  name: чорна куртка офіцера підтримки
+  description: Чорна куртка яку носять офіцери, що хочуть виглядати стильно, поки вони зайняті паперологією.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/black.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatASOWhite
-  name: auxiliary support officer white jacket
-  description: A white jacket worn by officers that want to look stylish while looking at paperwork.
+  name: біла куртка офіцера підтримки
+  description: Біла куртка яку носять офіцери, що хочуть виглядати стильно, поки вони зайняті паперологією.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/white.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatASOBlackAlt
-  name: auxiliary support officer black coat
-  description: A black coat perfect for sorting papers in colder weather.
+  name: чорне пальто офіцера підтримки
+  description: Ідеальне чорне пальто для сортування папірців у холодну погоду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/black_alt.rsi
@@ -377,8 +377,8 @@
 - type: entity
   parent: RMCCoatASOBlackAlt
   id: RMCCoatASOWhiteAlt
-  name: auxiliary support officer white coat
-  description: A white coat perfect for sorting papers in colder weather.
+  name: біле пальто офіцера підтримки
+  description: Ідеальне біле пальто для сортування папірців у холодну погоду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/aso/white_alt.rsi
@@ -389,8 +389,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMCoatCO
-  name: marine officer dress jacket
-  description: Dress Jacket worn by Commanding Officers of the UNMC.
+  name: парадна морпіхотна офіцерська куртка
+  description: Парадна куртка, яку носять Командуючі Офіцери КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/jacket.rsi
@@ -402,8 +402,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOBomber
-  name: commanding officer bomber jacket
-  description: A bomber jacket resembling those worn by airmen of old. A classic, stylish choice for those in the higher ranks.
+  name: бомбер командуючого офіцера
+  description: Куртрка-бомбер, що нагадує куртки пілотів старих часів. Класика, стильний вибір для людей зі званням.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/bomber.rsi
@@ -422,8 +422,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatBomber
-  name: brown bomber jacket
-  description: A well-worn leather bomber jacket.
+  name: коричневий бомбер
+  description: Зношений шкіряний бомбер.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/bomber.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatBomberRed
-  name: red bomber jacket
-  description: A well-worn leather bomber jacket.
+  name: червоний бомбер
+  description: Зношений шкіряний бомбер.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/bomber_red.rsi
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCCoatBomberRed
   id: RMCCoatBomberGrey
-  name: grey bomber jacket
+  name: сірий бомбер
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/bomber_grey.rsi
@@ -461,7 +461,7 @@
 - type: entity
   parent: RMCCoatBomberRed
   id: RMCCoatBomberKhaki
-  name: khaki bomber jacket
+  name: бомбер кольору хакі
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/bomber_khaki.rsi
@@ -471,7 +471,7 @@
 - type: entity
   parent: RMCCoatBomberRed
   id: RMCCoatBomberBlack
-  name: black bomber jacket
+  name: чорний бомбер
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/bomber_black.rsi
@@ -481,8 +481,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOFormalBlack
-  name: commanding officer gray dress jacket
-  description: A gray dress tunic for those occasions that mandate darker, more subdued colors. Combines sleek and subdued with gold accents.
+  name: сіра парадна куртка командуючого офіцера
+  description: Сіра парадна туніка для тих ситуацій, що потребують більш темних, приглушених кольорів. Поєднує елегантність та стриманість із золотими акцентами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/formal_black.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: CMCoatCO
   id: CMCoatCOFormalWhite
-  name: commanding officer white dress jacket
-  description: A white dress tunic for hot-weather parades. Bright, unstained, and immaculate with gold accents.
+  name: біла парадна куртка командуючого офіцера
+  description: Біла парадна туніка для парадів у теплу погоду. Яскрава, бездоганна та чиста із золотими акцентами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/formal_white.rsi
@@ -507,8 +507,8 @@
 - type: entity
   parent: CMCoatCO
   id: RMCCoatCOServiceJacketStandard
-  name: Standard commanding officer standard issue jacket
-  description: A jacket complement to the standard-issue CO uniform. Smells synthetic, but at least it's stylish.
+  name: стандартна службова куртка командуючого офіцера
+  description: Куртка, що доповнює стандартну уніформу командувача. Має синтетичний запах, але принаймні стильна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/standardissuejackets/cojacketstandard.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: CMCoatCO
   id: RMCCoatCOServiceJacketPurple
-  name: Purple commanding officer standard issue jacket
-  description: A purple jacket complement to the standard-issue CO uniform. Smells synthetic, but at least it's stylish.
+  name: фіолетова службова куртка командуючого офіцера
+  description: Фіолетова куртка, що доповнює стандартну уніформу командувача. Має синтетичний запах, але принаймні стильна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/standardissuejackets/cojacketpurple.rsi
@@ -529,8 +529,8 @@
 - type: entity
   parent: CMCoatCO
   id: RMCCoatCOServiceJacketGreen
-  name: Green commanding officer standard issue jacket
-  description: A green jacket complement to the standard-issue CO uniform. Smells synthetic, but at least it's stylish.
+  name: зелена службова куртка командуючого офіцера
+  description: Зелена куртка, що доповнює стандартну уніформу командувача. Має синтетичний запах, але принаймні стильна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/standardissuejackets/cojacketgreen.rsi
@@ -540,8 +540,8 @@
 - type: entity
   parent: CMCoatCO
   id: RMCCoatCOServiceJacketGrey
-  name: Grey commanding officer standard issue jacket
-  description: A grey jacket complement to the standard-issue CO uniform. Smells synthetic, but at least it's stylish.
+  name: сіра службова куртка командуючого офіцера
+  description: Сіра куртка, що доповнює стандартну уніформу командувача. Має синтетичний запах, але принаймні стильна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/CO/standardissuejackets/cojacketgrey.rsi
@@ -553,8 +553,8 @@
 - type: entity
   parent: [RMCBaseJacketButtonable, CMCoatCO]
   id: CMCoatXOFormal
-  name: marine formal service jacket
-  description: Smells like vanilla. Signifies prestige and power, if a little flashy.
+  name: морпіхота формальна службова куртка
+  description: Пахне ваніллю. Означає престиж та владу, хоч і трохи помпезно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/coat_formal.rsi
@@ -578,8 +578,8 @@
 - type: entity
   parent: [CMCoatOfficer, RMCBaseJacketButtonable]
   id: RMCCoatService
-  name: marine service jacket
-  description: A service jacket typically worn by officers of the UNMC.
+  name: морпіхотна службова куртка
+  description: Службова куртка, яку зазвичай носять офіцери КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/service/jungle.rsi
@@ -599,15 +599,15 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCCoatService]
   id: RMCCoatServiceFolded
-  name: marine service jacket
-  description: A service jacket typically worn by officers of the UNMC.
+  name: морпіхотна службова куртка
+  description: Службова куртка, яку зазвичай носять офіцери КМПОН.
   suffix: Unbuttoned
 
 - type: entity
   parent: CMCoatOfficer
   id: RMCProvostCoat
-  name: Provost Coat
-  description: The crisp coat of a Provost Officer.
+  name: пальто провосту
+  description: Елегантне пальто офіцера Провосту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Provost/provost_coat.rsi
@@ -628,8 +628,8 @@
 - type: entity
   parent: CMCoatOfficer
   id: RMCProvostCoatMarshal
-  name: Provost Marshal Coat
-  description: The crisp coat of a Provost Officer.
+  name: пальто маршала провосту
+  description: Елегантне пальто офіцера Провосту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Provost/provost_coat_marshal.rsi
@@ -639,8 +639,8 @@
 - type: entity
   parent: CMCoatOfficer
   id: RMCProvostJacket
-  name: Provost Jacket
-  description: A crisp jacket with the Provost sigil.
+  name: куртка провосту
+  description: Елегантна куртка із сигілом Провосту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Provost/provost_jacket.rsi
@@ -650,8 +650,8 @@
 - type: entity
   parent: CMCoatOfficer
   id: RMCProvostCommandJacket
-  name: Provost Command Jacket
-  description: A crisp jacket with the Provost sigil.
+  name: командна куртка провосту
+  description: Елегантна куртка із сигілом Провосту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Provost/provostci_jacket.rsi
@@ -692,8 +692,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMUtilityVestSynth
-  name: synthetic utility vest
-  description: A leather utility vest worn by synthetic UNMC personnel. The vest is rather lightweight but has a few pockets for carrying small items. It is not very protective, but it is a good choice for the Synthetics who want to look stylish while working.
+  name: службовий жилет синтетика
+  description: Шкіряний службовий жилет, який носить синтетичний персонал КМПОН. Цей жилет досить легкий, проте має кілька кишень для носіння малих предметів. Він не має високого рівня захисту, але далі є гарним вибором для Синтетика, що хоче виглядати стильно підчас праці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Synthetic/synth_utility.rsi
@@ -707,8 +707,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: CMUtilityVest
-  name: utility vest
-  description: A leather utility vest, often used to hold tools.
+  name: службовий жилет
+  description: Шкіряний службовий жилет, часто використовується для перенесення інструментів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Synthetic/synth_utility.rsi
@@ -719,8 +719,8 @@
 - type: entity
   parent: [RMCOuterClothingExternalWebbing, BaseFoldable]
   id: RMCJacketWindbreaker
-  name: green windbreaker
-  description: A green windbreaker.
+  name: зелена вітровка
+  description: Зелена вітровка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker.rsi
@@ -745,8 +745,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCJacketWindbreakerFirstResponder
-  name: first responder windbreaker
-  description: A brown windbreaker with reflective strips commonly worn by first responders.
+  name: вітрівка екстрених служб
+  description: Коричнева вітрівка з світловідбивними стрічками, яку зазвичай носять працівники екстрених служб.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/first_responder_windbreaker.rsi
@@ -756,8 +756,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCJacketWindbreakerBrown
-  name: brown windbreaker
-  description: A brown windbreaker.
+  name: коричнева вітрівка
+  description: Коричнева вітрівка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_brown.rsi
@@ -767,8 +767,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCJacketWindbreakerGrey
-  name: grey windbreaker
-  description: A grey windbreaker.
+  name: сіра вітрівка
+  description: Сіра вітрівка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_grey.rsi
@@ -778,8 +778,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCJacketWindbreakerExpedition
-  name: expedition windbreaker
-  description: A brown windbreaker with various patches tying it to one of the first explorations into this sector.
+  name: експедиційна вітрівка
+  description: Коричнева вітрівка з безліччю патчів, які свідчать про належлість до одних з перших експедицій до цього сектору.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_expedition.rsi
@@ -791,8 +791,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCClothingPriestRobes
-  name: priest robes
-  description: A long dress with a purple scarf, often worn by religious folk.
+  name: ризи св'ященника
+  description: Довгий наряд із фіолетовим шарфом, який часто носять релігійні чуваки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/chaplain_robes.rsi
@@ -802,8 +802,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCClothingNunRobes
-  name: nun robes
-  description: Maximum piety in this star system
+  name: ризи св'ященниці
+  description: Максимальна побожність у цій зоряній системі.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/nunrobe.rsi
@@ -813,8 +813,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCClothingHolidayRobes
-  name: holiday priest
-  description: This is a nice holiday, my son.
+  name: святковий св'ященник
+  description: Це гарне свято, сину мій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/holiday_robes.rsi
@@ -826,8 +826,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboBlue
-  name: dark blue worn parka
-  description: An old worn blue Parka, has seen better days...
+  name: темно синя зношена парка
+  description: Стара та зношена синя парка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_blue.rsi
@@ -837,8 +837,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboGreen
-  name: dark green worn parka
-  description: An old worn green Parka, has seen better days...
+  name: темно зелена зношена парка
+  description: Стара та зношена зелена парка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_green.rsi
@@ -848,8 +848,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboBrown
-  name: dark brown worn polyester jacket
-  description: An old worn brown polyester jacket, has seen better days...
+  name: темно коричнева зношена поліестрова куртка
+  description: Стара та зношена коричнева поліестрова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_brown.rsi
@@ -859,8 +859,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboDarkBlue
-  name: dark blue worn polyester jacket
-  description: An old worn blue polyester jacket, has seen better days...
+  name: темно синя зношена поліестрова куртка
+  description: Стара та зношена синя поліестрова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_dark_blue.rsi
@@ -870,8 +870,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboRed
-  name: dark red worn polyester jacket
-  description: An old worn blue polyester jacket, has seen better days...
+  name: темно червона зношена поліестрова куртка
+  description: Стара та зношена червона поліестрова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_red.rsi
@@ -881,8 +881,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatWaistcoat
-  name: waistcoat
-  description: For some classy, murderous fun.
+  name: скуонний жилет
+  description: Для витонченої, смертельної розваги.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/waistcoat.rsi
@@ -892,8 +892,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCCoatSanitation
-  name: sanitation utility uniform
-  description: A Sanitation utility uniform, used by the clean-up crews of the more prosperous colonies.
+  name: санітарна робоча уніформа
+  description: Робоча уніформа для санітарних бригад більш заможних колоній.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/sanitation.rsi
@@ -903,8 +903,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCCoatParamedic
-  name: EMT - Paramedic utility fatigues
-  description: A set of EMT - Paramedic utility fatigues, this one is red.
+  name: службовий одяг парамедика - ЕМТ
+  description: Комплекс службового одягу парамедика - ЕМТ, цей має червоний колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/EMT.rsi
@@ -914,7 +914,7 @@
 - type: entity
   parent: RMCCoatParamedic
   id: RMCCoatParamedicGreen
-  description: A set of EMT - Paramedic utility fatigues, this one is green.
+  description: Комплекс службового одягу парамедика - ЕМТ, цей має зелений колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/EMT_green.rsi
@@ -926,8 +926,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCBrownWEYACoat
-  name: brown WEYA coat
-  description: A long, tough coat with the company logo on the back. Popular on colonies which require function over form.
+  name: коричневе пальто ВЕЯ
+  description: Довге, міцне пальто з логотипом компанії на спині. Популярне на колоніях, де вимагають функціональність над презентацією.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/brown_iconcoat.rsi
@@ -937,8 +937,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWEYARainCoat
-  name: WEYA rain coat
-  description: A bright, yellow raincoat with the Company logo. It's gaudy, sure, but it keeps the rain off well. Typically distributed to frontier colonies with heavy rain.
+  name: дощовик ВЕЯ
+  description: Яскравий жовтий дощовик з логотипом компанії. Він, звичайно, помпезний, але добре захищає від дощу. Зазвичай видається відлеглим колоніям з частими сильними дощами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/yellow_raincoat.rsi
@@ -950,8 +950,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatSnow
-  name: snow suit
-  description: A standard snow suit. It can protect the wearer from extreme cold.
+  name: зимовий костюм
+  description: Стандартний зимовий костюм. Він може захистити носія від екстремального холоду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/normal.rsi
@@ -968,8 +968,8 @@
 - type: entity
   parent: RMCCoatSnow
   id: RMCCoatSnowSurvivor
-  name: robust snow suit
-  description: A snow suit. It can protect the wearer from extreme cold. This one seems to have been modified somewhat, and can both holster a gun and fit magazines.
+  name: міцний зимовий костюм
+  description: Зимовий костюм. Він може захистити носія від екстремального холоду. Цей, здається, трохи модифікований, і може одночасно вміщувати пістолет та магазини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/normal.rsi
@@ -983,20 +983,20 @@
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorSecurity
-  name: security parka
+  name: парка охорони
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/security.rsi
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Ssuits/security.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/security.rsi
 
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorCMBDeputy
-  name: CMB deputy parka
-  description: A snow suit tailored to the CMB's needs. It can protect the wearer from extreme cold. The back is enscribed with the powerful letters of 'DEPUTY' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: парка помічника БКМ
+  description: Зимовий костюм, адаптований до потреб БКМ. Він захищає носія від екстремального холоду. На спині написані потужні літери 'ПОМІЧНИК', що символізують справедливість, владу та захист на зовнішньому краю. Права Землі поширюються далеко поза Сол.
   components:
-  - type: Sprite
+  - type: Spritenow
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/cmb.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/cmb.rsi
@@ -1004,7 +1004,7 @@
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorNavy
-  name: navy parka
+  name: морська парка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/navy.rsi
@@ -1014,7 +1014,7 @@
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorYellow
-  name: yellow parka
+  name: жовта парка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/yellow.rsi
@@ -1024,7 +1024,7 @@
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorGreen
-  name: green parka
+  name: зелена парка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/green.rsi
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorPurple
-  name: purple parka
+  name: фіолетова парка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/purple.rsi
@@ -1044,8 +1044,8 @@
 - type: entity
   parent: RMCCoatSnow
   id: RMCCoatSnowSoviet
-  name: soviet snowcoat
-  description: A winter coat made in some desolate snowplanet. This wintercoat was made from the fur of local wildlife which donated their fur for the greater good of SPP!
+  name: шуба
+  description: Зимовий плащ, виготовлений на якійсь віддаленій сніговій планеті. Цей плащ зроблений із хутра місцевої фауни, яка віддала його заради загального блага СПН!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/soviet.rsi
@@ -1060,8 +1060,8 @@
 - type: entity
   parent: RMCCoatSnow
   id: RMCCoatSnowLiaison
-  name: liaison's wintercoat
-  description: A Weston-Yamada winter coat. Only the best comfort for the liaison in a cold environment.
+  name: зимовий плащ представника
+  description: Зимовий плащ Вестон-Ямада. Лише найкращий комфорт для представника у холодному кліматі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/liaison.rsi

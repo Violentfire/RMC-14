@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCBaseBioSuit
   id: RMCSuitBioGeneral
-  name: bio suit
-  description: A suit that protects against biological contamination.
+  name: біокостюм
+  description: Костюм, що захищає проти біологічних загроз.
   suffix: Generic, RMC
   components:
   - type: Sprite
@@ -31,8 +31,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorFirefighter
-  name: PT-LT firesuit
-  description: The 'PyroTex LT' is an advanced, lightweight firesuit developed by 'Fujin'. It provides protection against fire and heat, while also offering a degree of protection from blunt force trauma.
+  name: пожежний костюм ПТ-ЛТ
+  description: "'ПайроТекс ЛТ' це просунутий, легкий пожежний костюм розроблений компанією 'Фуджин'. Він забезпечує охорону перед вогнем та жаром, і одночасно дає обмежений захист від тупої сили."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/firefighter.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCArmorFirefighter
   id: RMCArmorSPPFirefighter
-  name: T-20 fire response coat
-  description: A rugged, no-frills fire-resistant overcoat issued to SPP industrial and emergency crews. Based on the PyroTex LT design but using cheaper, domestically produced materials, it offers basic protection against heat and debris at the cost of weight and comfort.
+  name: пожежне захисне пальто Т-20
+  description: Міцне, без зайвих деталей вогнестійке пальто, що видається промисловим і аварійним бригадам СПН. Засноване на дизайні ПайроТекс ЛТ, але виготовлене з дешевших вітчизняних матеріалів, воно забезпечує базовий захист від тепла та уламків, жертвуючи вагою та комфортом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/firefighter.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCBaseBioSuit
   id: RMCSuitBioWeYa
-  name: WeYa-TSS MK I - bio suit
-  description: The 'Weston-Yamada TerraScientia bio-suit MK I'. An advanced light-weight bio-suit developed in-house by Weston-Yamada. It's a suit that protects against biological contamination.
+  name: біокостюм ВеЯ-ТСС МК 1
+  description: "'Біокостюм Вестон-Ямада ТерраСаєнтія Марк 1'. Просунутий та легкий біокостюм розроблений Вестон-Ямада. Костюм, що захищає проти біологічних загроз."
   suffix: Generic, WeYa
   components:
   - type: Sprite

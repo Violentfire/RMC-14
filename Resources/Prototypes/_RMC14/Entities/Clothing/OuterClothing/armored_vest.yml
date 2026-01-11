@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorVest
-  name: armor vest
-  description: An armored vest that protects against some damage.
+  name: захисний жилет
+  description: Броньований жилет, що захищає проти деяких загроз.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armored_vest.rsi
@@ -23,13 +23,13 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestWeYa
-  name: We-Ya security armor vest
-  description: An armored vest that protects against some damage. This one has a Weston-Yamada corporate badge.
+  name: захисний жилет охорони Ве-Я
+  description: Броньований жилет, що захищає проти деяких загроз. Цей має бейджик Вестон-Ямада.
 
 - type: entity
   parent: RMCArmorVestWeYa
   id: RMCArmorSecurity
-  name: security armor vest
+  name: захисний жилет охорони
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/security_armor.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestCivilian
-  name: armored vest
-  description: An general-use, unmarked armored vest that protects against some damage.
+  name: захисний жилет
+  description: Загального використання, нефірмовий захисний жилет, що захищає від деяких загроз.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/security_armor.rsi
@@ -47,8 +47,8 @@
   parent: [ClothingOuterBase, RMCAllowSuitStorageClothingArmorMP, BaseStorageItem, RMCBaseUniformAccessoryItemOuterClothing]
   id: RMCArmorVestXLBase
   abstract: true
-  name: M3-XL pattern armor vest
-  description: A type of body armor designed for protection against internal threats. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against cuts, explosions or bio-threats. Not recommended for direct combat.
+  name: захисний жилет зразка М3-ЕЛ
+  description: Тип захисного жилета — поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів, порізів і біологічних небезпек. Не для фронтового бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/standard/jungle.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: RMCArmorVestXLBase
   id: RMCArmorVestMP
-  name: M3-XL pattern MP armor vest
-  description: A type of body armor designed for protection against internal threats. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against cuts, explosions or bio-threats. Not recommended for direct combat or for deployment use against hostiles.
+  name: захисний жилет ВСП зразка М3-ЕЛ
+  description: Тип захисного жилета — поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів, порізів і біологічних небезпек. Не для фронтового бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/mp.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCArmorVestXLBase
   id: RMCArmorVestIntel
-  name: M3-XL pattern intel armor vest
-  description: A type of body armor designed for mobility. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions, or bio-threats. Not recommended for direct combat.
+  name: захисний жилет розвідки зразка М3-ЕЛ
+  description: Тип захисного жилета — поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів, порізів і біологічних небезпек. Не для фронтового бою.
   components:
   - type: CMArmor
     melee: 10
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCArmorVestIntel
   id: RMCArmorVestOfficer
-  name: M3-XL pattern officer armor vest
+  name: захисний жилет офіцера зразка М3-ЕЛ
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/officer/classic-jungle.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCArmorVestOfficer
   id: RMCArmorVestSeniorOfficer
-  name: M3-XL pattern senior officer armor vest
-  description: A type of body armor designed for mobility with additional padding for senior officers. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions. Not recommended for direct combat.
+  name: захисний жилет старшого офіцера зразка М3-ЕЛ
+  description: Захисний жилет із додатковими вставками для старших офіцерів. Поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів. Не для фронтового бою.
   components:
   - type: CMArmor
     melee: 10
@@ -164,8 +164,8 @@
 - type: entity
   parent: RMCArmorVestSeniorOfficer
   id: RMCArmorVestCommandingOfficer
-  name: M3-XL pattern commanding officer armor vest
-  description: A type of body armor designed for mobility with additional padding for commanding officers. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions. Not recommended for direct combat.
+  name: захисний жилет командуючого офіцера зразка М3-ЕЛ
+  description: Захисний жилет із додатковими вставками для командуючого офіцера. Поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів. Не для фронтового бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/commanding_officer/jungle.rsi
@@ -182,7 +182,7 @@
   parent: RMCArmorVestXLBase
   id: RMCArmorVestSquad
   name: захисний жилет зразка М3-ЕЛ
-  description: Стандартний захисний жилет зразка М3-ЕЛ. Наплічники зняті для зручності рухів. Не рекомендований для безпосередніх бойових дій.
+  description: Тип захисного жилета — поглинає кулі та дозволяє легко рухатися. Не забезпечує захисту від вибухів, порізів і біологічних небезпек. Не для фронтового бою.
   components:
   - type: CMArmor
     melee: 0
@@ -199,7 +199,7 @@
   parent: RMCArmorVestSquad
   id: RMCArmorVestSquadLeader
   name: захисний жилет лідера загону зразка М3-ЕЛ
-  description: Стандартний захисний жилет зразка М3-ЕЛ. Ця модель була спроєктована для використання лідерами загонів КМПОН та містить окремий підсумок для стяжок. Наплічники зняті для зручності рухів. Не рекомендований для безпосередніх бойових дій.
+  description: Тип захисного жилета — поглинає кулі та дозволяє легко рухатися. Ця модель була спроєктована для використання лідерами загонів КМПОН та містить окремий підсумок для стяжок. Не забезпечує захисту від вибухів, порізів і біологічних небезпек. Не для фронтового бою.
   suffix: Zipties
   components:
   - type: Storage

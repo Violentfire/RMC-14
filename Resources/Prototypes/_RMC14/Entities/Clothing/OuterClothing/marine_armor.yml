@@ -3,7 +3,7 @@
   parent: RMCBaseMarineArmorLight
   id: CMArmorM3Medium
   name: морпіхотна броня зразка М3
-  description: Стандартна броня морпіхів КОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
+  description: Стандартна броня морпіхів КМПОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -31,7 +31,7 @@
 - type: entity
   id: RMCArmorM3MediumVariants
   name: морпіхотна броня зразка М3
-  description: Стандартна броня морпіхів КОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
+  description: Стандартна броня морпіхів КМПОН зразка М3. Захищає тіло від куль, ударів й кислоти. Має невелику нагрудну сумку. 
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -149,7 +149,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3Heavy
-  name: важка броня зразка M3-EOD
+  name: важка броня зразка М3-РВП # EOD - Explosive Ordnance Disposal РВП - Розмінування вибухонебезпечних предметів
   description: Важкий варіант стандартної броні М3. Спеціально спроєктована так, щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   components:
   - type: Sprite
@@ -179,7 +179,7 @@
 
 - type: entity
   id: RMCArmorM3HeavyVariants
-  name: важка броня зразка М3-EOD
+  name: важка броня зразка М3-РВП
   description: Важкий варіант стандартної броні М3. Спеціально спроєктована так, щоб зменшити шкоду від куль, вибухів, а також зменшити ймовірність внутрішніх пошкоджень. Але платою за це стало зменшення швидкості пересування через збільшення розміру броні. Дозволяє без болю бити себе в груди.
   categories: [ HideSpawnMenu ]
   components:
@@ -273,8 +273,8 @@
 - type: entity
   parent: CMArmorM2MP
   id: CMArmorM3Warden
-  name: броня військового наглядача зразка M3
-  description: Якісно виготовлена броня зразка M3, що зазвичай видається наглядачам. Показує хто тут головний і що найважливіше, не заважає під час сидіння.
+  name: броня військового наглядача зразка М3
+  description: Якісно виготовлена броня зразка М3, що зазвичай видається наглядачам. Показує хто тут головний і що найважливіше, не заважає під час сидіння.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/warden/jungle.rsi
@@ -453,7 +453,7 @@
 - type: entity
   parent: CMArmorM3Medium
   id: CMArmorM3Light
-  name: легка броня зразка M3-L
+  name: легка броня зразка М3-Л
   description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
   components:
   - type: Sprite
@@ -474,7 +474,7 @@
 
 - type: entity
   id: RMCArmorM3LightVariants
-  name: легка броня зразка M3-L
+  name: легка броня зразка М3-Л
   description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
   categories: [ HideSpawnMenu ]
   components:
@@ -620,7 +620,7 @@
 - type: entity
   parent: CMArmorM3Light
   id: CMArmorM3VLBallistics
-  name:  балістичний бронежилет зразка M3-VL
+  name:  балістичний бронежилет зразка М3-ВЛ
   description: До 2182 року небойовий персонал морської піхоти отримував нестандартні балістичні жилети, проте несумісність з IMС та відсутність вбудованих ліхтариків у костюмах знову і знову доводила їхню непрактичність. Цей модифікований бронежилет M3-L був розроблений в результаті 6-річної програми досліджень; він забезпечує світло, захист і комфорт для всього небойового персоналу морської піхоти.
   components:
   - type: Sprite
@@ -641,8 +641,8 @@
 - type: entity
   parent: CMArmorM3VLBallistics
   id: CMArmorM3VLFlakVest
-  name: пілотна броня зразка M3-VL 
-  description: Комбінація небойового броніка M3-VL і бронежилета M70, зроблений спеціально для пілотів, щоб захистити їх ззовні і зсередини...
+  name: пілотна броня зразка М3-ВЛ 
+  description: Комбінація небойового захисного жилета М3-ВЛ і бронежилета M70, зроблений спеціально для пілотів, щоб захистити їх ззовні і зсередини...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl_flak.rsi
@@ -692,7 +692,7 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: CMArmorM3VLSynthJungle
-  name: M3A1 synthetic utility vest (Jungle)
+  name: Синтетичний Службовий Жилет зразка М3А1 (Джунглевий)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/jungle.rsi
@@ -702,7 +702,7 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: CMArmorM3VLSynthDesert
-  name: M3A1 synthetic utility vest (Desert)
+  name: Синтетичний Службовий Жилет зразка М3А1 (Пустельний)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/desert.rsi
@@ -712,7 +712,7 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: CMArmorM3VLSynthSnow
-  name: M3A1 synthetic utility vest (Snow)
+  name: Синтетичний Службовий Жилет зразка М3А1 (Сніжний)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/snow.rsi
@@ -722,7 +722,7 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: CMArmorM3VLSynthClassic
-  name: M3A1 synthetic utility vest (Classic)
+  name: Синтетичний Службовий Жилет зразка М3А1 (Класичний)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/classic.rsi
@@ -732,7 +732,7 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: CMArmorM3VLSynthUrban
-  name: M3A1 synthetic utility vest (Urban)
+  name: Синтетичний Службовий Жилет зразка М3А1 (Міський)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/vl-synth/urban.rsi

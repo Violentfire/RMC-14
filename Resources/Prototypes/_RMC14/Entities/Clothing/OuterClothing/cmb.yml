@@ -12,8 +12,8 @@
 - type: entity
   parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
   id: RMCArmorM4RLight
-  name: M4R pattern CMB light armor
-  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. Designed for riot control and protest suppression in mind. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it. The laws of the Earth stretch beyond the Sol.
+  name: легка броня БКМ зразка М4Р
+  description: Темний комплект броні, яка є модифікацією броні М3 від АЕГІС Армаментс. Створена для контролю заворушень і придушення протестів у задумі. На боку має металеву відзнаку з написом 'БКМ СПЕЦНАЗ'. Права Землі поширюються далеко поза Сол.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_light_armor.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
   id: RMCArmorM4RMedium
-  name: M4R pattern CMB armor
-  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. Designed for riot control and protest suppression in mind. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it. The laws of the Earth stretch beyond the Sol.
+  name: броня БКМ зразка М4Р
+  description: Темний комплект броні, яка є модифікацією броні М3 від АЕГІС Армаментс. Створена для контролю заворушень і придушення протестів у задумі. На боку має металеву відзнаку з написом 'БКМ СПЕЦНАЗ'. Права Землі поширюються далеко поза Сол.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_heavy_armor.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
   id: RMCArmorM4RMarshallMedium
-  name: M4R pattern CMB Marshal armor
-  description: A custom fit variation of the CMB Riot armor, intended to be worn the Marshals themselves, has a golden lining with rank insignia. Has additional layer of lightweigh protective materials.
+  name: броня Маршала БКМ зразка М4Р
+  description: Спеціально підігнана броня, створеня для викоритання маршалами. Має золоте підбиття зі знаками звання. Оснащена додатковим шаром легких захисних матеріалів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_sheriff_armor.rsi

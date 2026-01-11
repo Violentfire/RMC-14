@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlack
-  name: black suit jacket
-  description: A black suit jacket.
+  name: чорний піджак
+  description: Чорний піджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_black_jacket.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBlue
-  name: blue suit jacket
-  description: A blue suit jacket.
+  name: блакитний піджак
+  description: Блакитний піджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_blue_jacket.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateBrown
-  name: brown suit jacket
-  description: A brown suit jacket.
+  name: коричневий піджак
+  description: Коричневий піджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_brown_jacket.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateFormal
-  name: formal suit jacket
-  description: A formal suit jacket.
+  name: формальний піджак
+  description: Формальний піджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_formal_jacket.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateKhaki
-  name: khaki jacket
-  description: A khaki suit jacket.
+  name: куртка кольору хакі
+  description: Куртка кольору хакі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_ivy_jacket.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWeYaBrownVest
-  name: WeYa brown vest
-  description: A brown puffer vest.
+  name: коричнева жилетка Ве-Я
+  description: Коричневий пуховий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/weya_brown_vest.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWeYaBlueVest
-  name: WeYa blue vest
-  description: A blue puffer vest.
+  name: синя жилетка Ве-Я
+  description: Синій пуховий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/weya_blue_vest.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWeYaRedVest
-  name: WeYa red vest
-  description: A red puffer vest.
+  name: червона жилетка Ве-Я
+  description: Червоний пуховий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/weya_red_vest.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWeYaWhiteVest
-  name: WeYa white vest
-  description: A white puffer vest.
+  name: біла жилетка Ве-Я
+  description: Білий пуховий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/weya_white_vest.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCVestTan
-  name: tan vest
-  description: A casual tan vest.
+  name: пісчана жилетка
+  description: Повсякденний пісчаний жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/tan_vest.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCVestGrey
-  name: grey vest
-  description: A casual grey vest.
+  name: сіра жилетка
+  description: Повсякденний сірий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/grey_vest.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWeYaFurCoat
-  name: WeYa fur coat
-  description: "An old, unmarked fur coat once issued to corporate liaisons stationed in harsh climates. It has clearly changed hands many times — the fabric is worn, it carries a distinct smell, and any manufacturer tags have long since faded. A faint corporate insignia remains, stitched above a yellowing label that simply reads: \"Dry clean only.\""
+  name: шуба Ве-Я
+  description: "Старе, нефірмове хутряне пальто, колись видане корпоративним представникам, що перебували в суворих кліматичних умовах. Очевидно, що воно багато разів переходило з рук у руки — тканина зношена, є характерний запах, а всі ярлики виробника давно зникли. Ледь помітна корпоративна емблема збереглася, вишита над пожовклою етикеткою з написом: \"Тільки сухе чищення\""
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/cl_fur_coat.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCVestBrown
-  name: brown vest
-  description: A casual brown vest.
+  name: коричнева жилетка
+  description: Повсякденний коричневий жилет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/brown_vest.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCorporateLogisticsJacket
-  name: corporate logistics jacket
-  description: A white jacket with brown accents. A popular choice among WEYA Logistic Managers.
+  name: куртрка корпоративного логістика
+  description: Біла куртка з коричневими акцентами. Популярний вибір серед Менедженрів Логістики Ве-Я.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/logistics_jacket.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCorporateDutyJacket
-  name: corporate duty jacket
-  description: A brown coat, built to withstand the conditions of the frontier, to orbital space stations, ships, and colonies. Surprisingly comfortable and warm.
+  name: службова корпоративна куртрка
+  description: Коричневе пальто, створене для виживання в умовах віддалених колоній, на орбітальних станціях, кораблях та колоніях. Дивовижно зручне та тепле.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_duty_jacket.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCFancySuitJacketBlack
-  name: black fancy suit jacket
-  description: A snappy dress jacket.
+  name: чорний модний піджак
+  description: Діловий піджак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/black_fancy.rsi
@@ -178,7 +178,7 @@
 - type: entity
   parent: RMCFancySuitJacketBlack
   id: RMCFancySuitJacketBlue
-  name: blue fancy suit jacket
+  name: синій модний піджак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/blue_fancy.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: RMCFancySuitJacketBlack
   id: RMCFancySuitJacketPurp
-  name: purple fancy suit jacket
+  name: фіолетовий модний піджак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/purp_fancy.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCFancySuitJacketBlack
   id: RMCFancySuitJacketRed
-  name: red fancy suit jacket
+  name: червоний модний піджак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/red_fancy.rsi
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCFancySuitJacketBlack
   id: RMCFancySuitJacketBrown
-  name: brown fancy suit jacket
+  name: коричневий модний піджак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/brown_fancy.rsi
@@ -218,7 +218,7 @@
 - type: entity
   parent: RMCFancySuitJacketBlack
   id: RMCFancySuitJacketLightBrown
-  name: light-brown fancy suit jacket
+  name: світло-коричневий модний піджак
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/lightbrown_fancy.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCJacketCorporateManager
-  name: manager's outfit
-  description: A jacket that belongs to someone very important. It is made of insulating material and offers minor protection from all forms of damage.
+  name: куртка менеджера
+  description: Куртка, що належить дуже важливій особі. Виготовлена з ізоляційного матеріалу та забезпечує незначний захист від усіх видів ушкоджень.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Corporate/corporate_manager.rsi
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCJacketWindbreaker
   id: RMCJacketWindbreakerWEYA
-  name: Weston-Yamada windbreaker
-  description: A corporate windbreaker, distributed to important executives at corporate events and conferences. A jacket so good it needs two logos!
+  name: вітрівка Вестон-Ямада
+  description: Корпоративна вітрівка, що видається важливим керівникам на корпоративних заходах і конференціях. Куртка настільки крута, що потребує два логотипи!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/weya_windbreaker.rsi

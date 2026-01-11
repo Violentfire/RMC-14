@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatCorrespondent
-  name: combat correspondent jacket
-  description: A jacket for the most fashionable war correspondents.
+  name: куртка військового кореспондента
+  description: Куртка для найбільш модних військових кореспондентів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Correspondent/brown.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
   id: RMCHazardVest
-  name: orange hazard vest
-  description: An orange high-visibility vest used in work zones.
+  name: помаранчевий сигнальний жилет
+  description: Помаранчевий жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/orange.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlue
-  name: blue hazard vest
-  description: A blue high-visibility vest used in work zones.
+  name: блакитний сигнальний жилет
+  description: Блакитний жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/blue.rsi
@@ -64,7 +64,7 @@
   parent: RMCHazardVest
   name: yellow hazard vest
   id: RMCHazardVestYellow
-  description: A yellow high-visibility vest used in work zones.
+  description: Жовтий жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/yellow.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestBlack
-  name: black hazard vest
-  description: A niche-market, black, allegedly high-visibility vest supposedly used in work zones. Features extra-reflective tapes. The etiquette on the vest insists that it's fully compliant with all the United Nations workplace safety standards.
+  name: чорний сигнальний жилет
+  description: Чорний жилет для нішевого ринку, нібито високої видимості, із додатковими світловідбивними смугами. Виробник гарантує повну відповідність стандартам ОН із безпеки праці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/black.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestGreen
-  name: green hazard vest
-  description: A green and white high-visibility vest used in work zones.
+  name: зелений сигнальний жилет
+  description: Зелений жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/green.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestWeyamart
-  name: weyamart vest
-  description: A blue 'Weymart' employee vest, with name tag and all.
+  name: жилет веямарта
+  description: Блакитний жилет працівника 'Веямарта', з іменем і так далі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/weyamart.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestTMCC
-  name: Tartarus-Mining hazard vest
-  description: A black high-visibility vest used in work zones.
+  name: сигнальний жилет Тартарус-Майнінг
+  description: Чорнй жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/tmcc.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestEMT
-  name: EMT - red hazard vest
-  description: A red and white EMT high-visibility hazard vest used in work zones.
+  name: ЕМТ - червоний сигнальний жилет
+  description: Червоно-білий ЕМТ жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/emt.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCHazardVest
   id: RMCHazardVestEMTGreen
-  name: EMT - green hazard vest
-  description: A green and white EMT high-visibility hazard vest used in work zones.
+  name: ЕМТ - зелений сигнальний жилет
+  description: Зелено-білий ЕМТ жилет підвищеної видимості, що використовується на робочих ділянках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/HazardVests/emt_green.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingLabcoat, RMCBaseJacketButtonable]
   id: RMCLabcoat
-  name: labcoat
-  description: A suit that protects against minor chemical spills.
+  name: лабораторний халат
+  description: Костюм, що захищає від незначних хімічних розливів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/labcoat.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatCMO
-  name: chief medical officer's labcoat
-  description: A green sleek long labcoat, designed to distinguish a higher ranking medical personnel. Fabric has a better protection against chemical hazards.
+  name: лабораторний халат головного лікаря
+  description: Зелений, стильний, довгий лабораторний халат, призначений для розрізнення медичного персоналу високого рангу. Тканина забезпечує покращений захист від хімічних небезпек.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/cmolabcoat.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatCMO]
   id: RMCLabcoatCMOOpened
-  name: chief medical officer's labcoat
+  name: лабораторний халат головного лікаря
 
 - type: entity
   parent: RMCLabcoat
@@ -187,7 +187,7 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatLong]
   id: RMCLabcoatLongOpened
-  name: labcoat
+  name: лабораторний халат
 
 - type: entity
   parent: RMCLabcoat
@@ -202,7 +202,7 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatShort]
   id: RMCLabcoatShortOpened
-  name: labcoat
+  name: лабораторний халат
 
 - type: entity
   parent: RMCLabcoat
@@ -217,14 +217,14 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatBrown]
   id: RMCLabcoatBrownOpened
-  name: labcoat
+  name: лабораторний халат
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatVirology
   suffix: Virology
-  name: Virologist labcoat
-  description: A suit that protects against minor chemical spills. Offers slightly more protection against biohazards than the standard model. Has a green stripe on the shoulder.
+  name: лабораторний халат вірусолога
+  description: Костюм, що захищає від незначних хімічних розливів. Забезпечує трохи кращий захист від біологічних загроз, ніж стандартна модель. Має зелену смугу на плечі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/virology.rsi
@@ -234,13 +234,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatVirology]
   id: RMCLabcoatVirologyOpened
-  name: labcoat
+  name: лабораторний халат вірусолога
 
 - type: entity
   parent: RMCLabcoat
   id: RMCLabcoatScience
-  name: researcher's labcoat
-  description: A high-quality labcoat, seemingly worn by scholars and researchers alike. It has a distinct leathery feel to it, and goads you towards adventure.
+  name: лабораторний халат науковця
+  description: Високоякісний лабораторний халат, який, здається, носили як учені, так і дослідники. Має відчутний шкіряний дотик і ніби підштовхує до пригод.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/sciencecoat.rsi
@@ -252,13 +252,13 @@
 - type: entity
   parent: [RMCBaseJacketButtonableOpened, RMCLabcoatScience]
   id: RMCLabcoatScienceOpened
-  name: researcher's labcoat
+  name: лабораторний халат науковця
 
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCMedicalApron
-  name: medical apron
-  description: A basic and sterile white apron, good for surgical and, of course, other medical practices.
+  name: медичний фартух
+  description: Простий і стерильний білий фартух, підходить для хірургічних та, звісно, інших медичних процедур.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/medicalapron.rsi
@@ -268,8 +268,8 @@
 - type: entity
   parent: RMCMedicalApron
   id: RMCHydroApron
-  name: apron
-  description: A basic blue apron.
+  name: фартух
+  description: Звичайний блакитний фартух.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbotanist.rsi
@@ -279,14 +279,14 @@
 - type: entity
   parent: RMCMedicalApron
   id: RMCChefApron
-  name: A classic chef's apron
-  description: A basic, dull, white chef's apron.
+  name: класичний фартух шефа
+  description: Простий, нудний, білий кухарський фартух.
 
 - type: entity
   parent: RMCMedicalApron
   id: RMCDailyGrindApron
-  name: red apron
-  description: A basic red apron.
+  name: червоний фартух
+  description: Звичайний червоний фартух.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Labcoats/apron_daily_grind.rsi
@@ -296,8 +296,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCOuterEngineeringUtilityOversuit
-  name: Weston-Yamada engineer utility oversuit
-  description: A Weston-Yamada engineer utility uniform. Used as a general purpose utility oversuit by Weston-Yamada colony engineers.
+  name: службовий комбінезон інженера Вестон-Ямада
+  description: Службова форма інженера Вестон-Ямада, використовується як універсальний робочий комбінезон інженерами колоній Вестон-Ямада.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/weya_engineer_jacket.rsi
