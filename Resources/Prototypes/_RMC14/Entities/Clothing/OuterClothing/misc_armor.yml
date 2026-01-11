@@ -1,8 +1,8 @@
 - type: entity
   parent: CMArmorM3VLBallistics
   id: RMCArmorTMCC
-  name: Tartarus-Mining utility uniform
-  description: A set of standard issue Tartarus-Mining utility fatigues, a yellow pair of utility work slacks and a black collard heavy padded jacket, which protects against various environmental hazards.
+  name: службова уніформа тартарус-майнінг
+  description: Комплект одягу від компанії 'Тартарус-Майнінг', з жовтими робочими штанями та щільною чорною курткою з коміром, забезпечує захист від різних небезпечних впливів навколишнього середовища.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/TMCC.rsi

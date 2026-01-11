@@ -4,7 +4,7 @@
   parent: [RMCBaseTSEArmor, RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight, RMCAllowSuitStorageClothingArmorRoyal]
   id: RMCArmorRoyal
   name: бронежилет 'Кестрел'
-  description: Налаштовувана персональна система бронезахисту, яку використовує Королівська морська піхота. # TODO: write new, legally distinct description
+  description: Налаштовувана персональна система бронезахисту, яку використовує Морська Піхота Королівської Корони. # TODO: write new, legally distinct description
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalHarness
-  name: броньоване кріплення оператора СмартГана 'Кестрел'
+  name: броньоване кріплення СмартГану 'Кестрел'
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPointman
-  name: передова броня 'Кестрел'
+  name: штурмова броня 'Кестрел'
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/pointman.rsi

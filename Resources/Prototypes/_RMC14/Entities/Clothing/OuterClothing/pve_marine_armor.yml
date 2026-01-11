@@ -3,8 +3,8 @@
   parent: [RMCBaseMarineArmorLightNoAccessory, RMCBaseUniformAccessoryItemArmorPVE]
   id: RMCArmorM3PVE
   suffix: PVE, Standard
-  name: M3 pattern marine armor
-  description: Standard UNMC issue M3 Pattern Personal Armor. Composite ballistic armor, integral biomonitoring system, and brackets for the IMP system as well as the TNR Shoulder Lamp.
+  name: морпіхотна броня зразка М3
+  description: Стандартна броня зразка М3. Композитна балістична броня, вбудована біомоніторингова система та кронштейни для системи ІМС і плечової лампи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/standard/jungle.rsi
@@ -65,8 +65,8 @@
   parent: RMCArmorM3PVE
   id: RMCArmorB12PVE
   suffix: PVE, B12
-  name: B12 pattern marine armor
-  description: Semi-experimental body armor system similar to M3, incorporating primarily carbon fiber instead of boron carbide.
+  name: морпіхотна броня зразка Б12
+  description: Напів-експереминтальний зразок броні схожий до М3, який використовує вуглецеве волокно замість карбіду бору.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/b12/jungle.rsi
@@ -90,8 +90,8 @@
   parent: RMCArmorM3PVE
   id: RMCArmorM3PVESGO
   suffix: PVE, Smart Gun harness
-  name: ML66A combat harness
-  description: Lightweight vest composed of ballistic micromesh and a ceramic composite chestplate for practical protection, as well as the computers, straps, and armature required for operating the ML66A Smart Gun itself.
+  name: бойове кріплення МЛ66А
+  description: Легкий жилет, виготовлений з балістичної мікросітки та композитної керамічної нагрудної плити, що забезпечує практичний захист, а також оснащений комп’ютерними модулями, ремінною системою та силовим каркасом, необхідними для експлуатації СмартГана МЛ66А.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PVE/Marines/sg/jungle.rsi

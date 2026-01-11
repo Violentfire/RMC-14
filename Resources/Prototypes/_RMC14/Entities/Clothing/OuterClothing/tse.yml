@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestTSEPA
-  name: TSEPA armored vest
-  description: An TSEPA armored vest that protects against some damage.
+  name: захисний жилет ІТСПА
+  description: Захисний жилет ІТСПА який захищає від деяких загроз.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/tsepa_police_vest.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: [RMCBaseTSEArmor, RMCBaseMarineArmorLight]
   id: RMCArmourM4TSEPA
-  name: M4 pattern light TSEPA armour
-  description: A modified variant of the M4R armor, stripped of additional riot plating for civilian officer use. A 'TSEPA' badge is sewn into the chestplate.
+  name: легка броня ІТСПА зразка М4
+  description: Модифікована версія броні М4Р, зі знятими додатковими плитами для використання звичайними офіцерами. Бейджик 'ІТСПА' вшитий на грудині.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/standard.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [RMCBaseTSEArmor, RMCBaseMarineArmorLight]
   id: RMCArmourM4TSEPAChief
-  name: M4 pattern inspector TSEPA armour
-  description: A modified variant of the M4 TSEPA armour to have the additional riot plating returned, feauturing a golden insignia on the chestplate.
+  name: броня інспектора ІТСПА зразка М4
+  description: Модифікована версія броні ІТСПА М4, якій повернули додаткові плити. Має золоту нашивку на грудині.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/marshal.rsi

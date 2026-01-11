@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCCoatBureauTrenchCoatBrown
   id: RMCCoatBureauTrenchCoatGrey
-  name: grey trench-coat
-  description: A worn, grey, old style trench-coat. When a bum sees a cop coming, he don't stick around.
+  name: коричневий довгий плащ
+  description: Зношений, сірий та старомодний довгий плащ. Як тільки бомж бачить копа — одразу злиняє.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/trench_grey.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCCoatBureauTrenchCoatBrown
   id: RMCCoatBureauTrenchCoatBeige
-  name: beige trench-coat
-  description: A worn, tan, old style trench-coat. A classic of noir-style apparel.
+  name: бежений довгий плащ
+  description: Зношений, пісчаний та старомодний довгий плащ. Класика стилю нуар.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/trench_beige.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingJacketMB, RMCBaseJacket]
   id: RMCCoatBureauDeputy
-  name: CMB deputy jacket
-  description: A thick and stylish black leather jacket with a Marshal's Deputy badge pinned to it. The back is enscribed with the powerful letters of 'DEPUTY' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: куртка помічника БКМ
+  description: Товста й стильна чорна шкіряна куртка з прикріпленим значком помічника маршала. На спині викарбувані могутні літери 'ПОМІЧНИК', що уособлюють справедливість, владу та захист на зовнішніх рубежах. Права Землі поширюються далеко поза Сол.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/deputy.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatBureauMarshal
-  name: CMB marshal jacket
-  description: A thick and stylish black leather jacket with a Marshal's badge pinned to it. The back is enscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: куртрка маршала БКМ
+  description: Товста й стильна чорна шкіряна куртка з прикріпленим значком  маршала. На спині викарбувані могутні літери 'МАРШАЛ', що уособлюють справедливість, владу та захист на зовнішніх рубежах. Права Землі поширюються далеко поза Сол.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/marshal.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatExpensiveFur
-  name: expensive fur-lined trench-coat
-  description: A luxurious fur-lined, antique-styled trench coat that exudes classic noir elegance. This exquisite garment is far beyond the average person's budget, accessible only to high-level executives and elite military personnel.
+  name: дорогий довгий плащ із хутряною підкладкою
+  description: Розкішний довгий плащ у вінтажному стилі з хутряною підкладкою, що випромінює класичну нуарну елегантність. Цей вишуканий одяг значно перевищує бюджет пересічної людини й доступний лише високопосадовцям та елітному військовому персоналу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/FurCoat/fur_coat.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatJacketGeneral
-  name: general's jacket
-  description: A black trench coat with gold metallic trim. Flashy, highly protective, and over-the-top. Fit for a king - or, in this case, a General. Has quite a few pockets.
+  name: плащ генерала
+  description: Чорний довгий плащ із золотистою металевою окантовкою. Яскравий, надзвичайно захисний і показний. Гідний короля — або, в цьому випадку, генерала. Має чимало кишень.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/jacket_general.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingJacketMB, RMCBaseJacket]
   id: RMCCoatTSEPA
-  name: TSEPA police jacket
-  description: A black polyester jacket with a silver Sakura emblem of the TSEPA pinned to it. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
+  name: поліцейська куртка ІТСПА
+  description: Чорна поліестрова куртка прікріпленою серебряною Сакурої ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/jacket.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAFormal
-  name: TSEPA police formal jacket
-  description: A heavy woolen formal coat commonly used by TSEPA Constables. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
+  name: формальна поліцейська куртка ІТСПА
+  description: Важке вовняне парадне пальто, яке зазвичай носять констеблі TSEPA. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/formal_jacket.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAHighVis
-  name: TSEPA high-vis jacket
-  description: A green and white striped (high-visibility) polyester vest commonly used by TSEPA personnel.
+  name: світловідбивна куртка ІТСПА
+  description: Зелено-біла смугаста (світловідбивна) поілестрова куртка, яку часто використовує персонал ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/highvis_jacket.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAHighVisVest
-  name: TSEPA hazard vest
-  description: A green and white striped (high-visibility) polyester vest commonly used by TSEPA personnel.
+  name: сигнальний жилет ІТСПА
+  description: Зелено-білий смугастий (світловідбивний) поілестровий жилет, яку часто використовує персонал ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/highvis_vest.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatPaP
-  name: PaP uniform jacket
-  description: A People's Armed Police service jacket featuring small dispersed para-aramid inserts providing the barest of defensive functionality, and a Personal Light Unit rig.
+  name: куртка НоП
+  description: Службова куртка Народної Озброєної Поліції з дрібними розосередженими вставками з пара-арамідного волокна, що забезпечують мінімальний рівень захисту, а також із кріпленням для персонального світлового модуля.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/pap.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatWeYaPilot
-  name: Weston-Yamada Pilot formal-jacket
-  description: A suit-style jacket with a fur lined collar and golden epaulettes signifying rank. Worn by Weston-Yamada qualified civillian Pilots, akin to old Earth formal Pilots-wear.
+  name: піджак пілота Вестон-Ямада
+  description: Піджак у стилі костюма з хутряним коміром і золотими еполетами, що позначають звання. Носиться цивільними пілотами Вестон-Ямада, подібно до формального пілотського одягу старої Землі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/weya_pilot.rsi

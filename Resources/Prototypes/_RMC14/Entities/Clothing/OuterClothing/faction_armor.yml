@@ -83,7 +83,7 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorDutchJacket
-  name: куртрка сафарі
+  name: куртка сафарі
   description: Пошитий на замовлення мисливський піджак, хитро підбитий сегментованими броньованими пластинами. Іноді здобич стріляє у відповідь.
   components:
   - type: Sprite
@@ -329,7 +329,7 @@
 - type: entity
   parent: RMCArmorPMCRiot
   id: RMCArmorPMCRiotSynth
-  name: UN-M1S synthetic body armor
+  name: броня синтетика ОН-М1С
   description: Створена на основі броні зразка М3, який використовується UNMC, броня ОН-М1 застосовується командами безпеки, для контролю заворушень та придушення профспілок. Модифікація ОН-1МС відповідає програмуванню синтетиків, жертвуючи захистом заради швидкості та вантажопідйомності.
   components:
   - type: CMArmor

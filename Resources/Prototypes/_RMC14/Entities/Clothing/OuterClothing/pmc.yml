@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCBaseMarineArmor, RMCAllowSuitStorageClothingArmorPMC]
   id: RMCArmorM4PMCNoLight
-  name: M4 pattern PMC armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind.
+  name: броня ПВК зразка М4
+  description: Модифікація стандартної броні М3, розроблена з урахуванням потреб операторів охорони високого рівня та корпоративних найманців.
   suffix: No Suitlamp
   components:
   - type: RMCArmorSpeedTier
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLight
-  name: M4 pattern light PMC armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility.
+  name: легка броня ПВК зразка М4
+  description: Модифікація стандартної броні М3, розроблена з урахуванням потреб операторів охорони високого рівня та корпоративних найманців. Деякі частини було знято задля додаткової мобільності.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight]
   id: CMArmorM4PMCCorporate
-  name: M1 pattern corporate security armor
-  description: A basic vest with a We-Ya badge on the right breast. This is commonly worn by low-level guards protecting We-Ya facilities.
+  name: броня корпоративної охорони зразка М1
+  description: Звичайний жилет з відзнакою Ве-Я на правій грудині. Зазвичай використовується охоронцями нижчого рівня на об'єктах Вестон-Ямада.
   suffix: ""
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: CMArmorM4PMCCorporate
   id: CMArmorM4PMCCorporateLead
-  description: A basic vest with a We-Ya badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
+  description: Звичайний жилет з відзнакою Ве-Я на правій грудині. Зазвичай використовується охоронцями нижчого рівня, що заслужили підвищення за 'гарні заслуги у праці', також відомі як дуполизання.
   suffix: Leader
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLeader
-  name: M4 pattern PMC leader armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
+  name: броня лідера ПВК зразка М4
+  description: Модифікація стандартної броні М3, розроблена з урахуванням потреб операторів охорони високого рівня та корпоративних найманців. Конкретно ця модель виглядає, наче вона належить високо поставленому офіцеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/officer.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCSniper
-  name: M4 pattern PMC sniper armor
-  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
+  name: броня снайпера ПВК зразка М4
+  description: Модифікація стандартної броні М3, розроблена з урахуванням потреб операторів охорони високого рівня та корпоративних найманців. Конкретно ця модель виглядає, наче вона належить високо поставленому офіцеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -107,7 +107,7 @@
   parent: CMArmorM4PMCLight
   id: CMArmorM4PMCSynth
   name: M4 pattern PMC synthetic armor
-  description: A serious modification of the standard M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind.
+  description: Модифікація стандартної броні М3. Цей варіант розроблений для синтетиків підтримки ПВК, з витягнутою усією бронею. Створено з думкою, що швидкість понад усе.
   components:
   - type: Clothing
     equipDelay: 1
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMHeavy
-  name: PMC heavy armor
-  description: A modification of the standard M3 armor. Featuring additional plating and straps to provide superior protection.
+  name: важка броня ПВК
+  description: Модифікація стандартної броні М3. Оснащена додатковим бронюванням для кращого захисту.
 
 - type: entity
   parent: CMArmorM4PMHeavy
@@ -187,8 +187,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCCommando
-  name: M5X exoskeleton armor
-  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk.
+  name: екзоскелетна броня М5Х
+  description: Складна система накладених одна на одну пластин, призначена для того, щоб зробити власника практично невразливим до стрілецької зброї. Пасивний екзоскелет підтримує вагу броні, дозволяючи користувачу переносити її масивний об'єм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: RMCArmorM4PMCEngineer
-  name: M4 pattern engineer PMC armor
-  description: A modification of the standard M3 armor. Designed for high elemental protection, like shock, fire and fragments, lacks in terms of kevlar for bullet protection.
+  name: броня інженера ПВК зразка М4
+  description: Модифікація стандартної броні М3. Захищає від електричного розряду, вогню та уламків, але майже не забезпечує кулезахист завдяки нестачі кевлару.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/engineer.rsi
@@ -226,8 +226,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCArmorPMCDirector
-  name: director's jacket
-  description: A jacket that belongs to someone very important. It is made of insulating material and offers minor protection from all forms of damage.
+  name: куртка директора
+  description: Куртка, що належить дуже важливій особі. Виготовлена з ізоляційного матеріалу та забезпечує незначний захист від усіх видів ушкоджень.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/director.rsi
