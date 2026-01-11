@@ -66,7 +66,7 @@
   parent: RMCShoesBlack
   id: RMCShoesYellow
   name: жовті туфлі
-  description: AПара жовтих туфель.
+  description: Пара жовтих туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/yellow.rsi
@@ -126,7 +126,7 @@
   parent: RMCShoesBlack
   id: RMCShoesLeather
   name: шкіряні туфлі
-  description: Витривала пара шкіранях туфель.
+  description: Витривала пара шкіряних туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/leather.rsi
