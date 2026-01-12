@@ -736,7 +736,7 @@
 - type: entity
   parent: RMCGlassesAviators
   id: RMCGlassesAviatorsSilver
-  description: Пара серебристо тонованих окулярів. Ви ледве можете почути музику 80-х, коли носите ці окуляри.
+  description: Пара сріблясто тонованих окулярів. Ви чуєте відлуння музики 80-х, коли носите їх.
   suffix: Silver
   components:
   - type: Sprite
