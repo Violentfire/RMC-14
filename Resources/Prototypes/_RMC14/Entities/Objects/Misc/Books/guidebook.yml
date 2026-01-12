@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCGuidebookBase
   id: RMCGuidebookSOP
-  name: standard operating procedure
-  description: One of the most important books onboard any United Nations Marine Corps vessel, or at least that's how you are supposed to feel about it. The book carries within it's pages the UNMC guidelines and procedures regarding all kinds of situations.
+  name: стандартні операційні процедури
+  description: Одна з найважливіших книг на борту будь-якого судна Корпусу Морської Піхоти Об’єднаних Націй, або принаймні так вам повинно здаватися. Книга містить у своїх сторінках настанови та процедури КМПОН щодо всіх видів ситуацій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/SOP.rsi

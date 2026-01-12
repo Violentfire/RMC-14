@@ -12,19 +12,18 @@
   - Стандартне спорядження, яке морпіхи отримують в кімнатах загонів та у постачанні ніяк не може бути обмежено. Морпіхи можуть вільно носити спорядження зі вказаних джерел.
 
  ## Категорії
-  - [textlink="Загальний статут" link="SichMarineSOPGeneral"]
-  - [textlink="Спорядження" link="SichMarineSOPEquipment"]
-  - [textlink="Відділи" link="SichMarineSOPDepartment"]
-  - [textlink="НЕ-змінне; СОП" link="SichMarineSOPNONMod"]
+  - [textlink="Загальні положення" link="RMCMarineSOPGeneral"]
+  - [textlink="Спорядження" link="RMCMarineSOPEquipment"]
+  - [textlink="Відділи" link="RMCMarineSOPDepartment"]
 
   ##  НЕ-змінний СОП
 
   Частина СОП, записана в категоріях нижче може бути змінена лише з дозволу [color=#ffa500][bold]Офісу Маршалів Провосту[/bold][/color].
 
-  - [textlink="НЕ-змінне; Відділи" link="SichMarineSOPNONModDepartment"]
-  - [textlink="НЕ-змінне; СОП Командування" link="SichMarineSOPNONModCommand"]
-  - [textlink="НЕ-змінне; Регламент висадок" link="SichMarineSOPNONModDeployment"]
-  - [textlink="НЕ-змінне; Сторонній персонал" link="SichMarineSOPNONModThirdparty"]
+  - [textlink="НЕ-змінне; Відділи" link="RMCMarineSOPNONModDepartment"]
+  - [textlink="НЕ-змінне; Регламент командування" link="RMCMarineSOPNONModCommand"]
+  - [textlink="НЕ-змінне; Регламент висадок" link="RMCMarineSOPNONModDeployment"]
+  - [textlink="НЕ-змінне; Сторонній персонал" link="RMCMarineSOPNONModThirdparty"]
 
 
 </Document>
