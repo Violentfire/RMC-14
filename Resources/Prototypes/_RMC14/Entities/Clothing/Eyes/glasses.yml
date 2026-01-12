@@ -208,7 +208,7 @@
   parent: [ClothingEyesHudMedical, BaseToggleClothing]
   id: RMCGlassesHUDSecurity
   name: візор ДругПатруля
-  description: Налобний дісплей, що сканує усі гуманоїдні види та показує дійсну інформацію про їхній статус та записи охорони.
+  description: Налобний дисплей, що сканує осіб навколо та показує дійсну інформацію про їхній статус та записи охорони.
   components:
   - type: Item
     storedRotation: 0
