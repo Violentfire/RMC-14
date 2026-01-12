@@ -662,7 +662,7 @@
 - type: entity
   parent: RMCGlassesTriMaxYellow
   id: RMCGlassesTriMaxBlack
-  name: тактичні окуляри ТріМекс
+  name: тактичні окуляри ТріМакс
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_black_glasses.rsi
