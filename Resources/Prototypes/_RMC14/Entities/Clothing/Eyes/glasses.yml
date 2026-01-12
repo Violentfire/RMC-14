@@ -55,7 +55,7 @@
 - type: entity
   parent: CMGlassesM42ScoutSight
   id: RMCGlassesSPPCommandoNightVision
-  name: окуляри командос Тайп 9
+  name: окуляри командос Тип 9
   description: Система, що перебуває на озброєнні СПН, поєднує в собі рацію та окуляри нічного бачення. Дозволяє підсвічувати оточення.
   components:
   - type: Sprite
