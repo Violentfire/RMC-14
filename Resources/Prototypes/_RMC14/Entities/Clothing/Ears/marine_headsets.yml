@@ -316,8 +316,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetEcho
-  name: marine echo radio headset
-  description: This is used by Echo squad members.
+  name: морпіхотна гарнітура ехо
+  description: Використовується для радіоперемовин загоном Ехо.
   components:
   - type: Sprite
     state: echo_headset
@@ -329,8 +329,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoLeader
-  name: marine echo leader radio headset
-  description: This is used by the marine Echo squad leader.
+  name: морпіхотна гарнітура лідера ехо
+  description: Гарнітура лідера Ехо, не має особливих деталей.
   components:
   - type: ContainerFill
     containers:
@@ -343,8 +343,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoTeamLeader
-  name: marine echo team leader radio headset
-  description: This is used by the marine Echo team leader.
+  name: морпіхотна гарнітура лідера вогневої групи ехо
+  description: Гарнітура лідера вогневої групи Ехо, на вигляд звичайна.
   components:
   - type: ContainerFill
     containers:
@@ -365,8 +365,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoEngineer
-  name: marine echo engineer radio headset
-  description: This is used by the marine Echo combat engineers.
+  name: морпіхотна гарнітура техніка ехо
+  description: Звичайнісінька гарнітура, окрім тієї деталі що її вдягають техніки Ехо.
   components:
   - type: ContainerFill
     containers:
@@ -377,8 +377,8 @@
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoMedic
-  name: marine echo corpsman radio headset
-  description: This is used by the marine Echo combat medics.
+  name: морпіхотна гарнітура медика ехо
+  description: Стандартна гарнітура, янгольський власник.
   components:
   - type: ContainerFill
     containers:
@@ -391,8 +391,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetFoxtrot
-  name: marine foxtrot radio headset
-  description: This is used by Foxtrot squad members.
+  name: морпіхотна гарнітура фокстроту
+  description: Використовується для радіоперемовин загоном Ехо.
   components:
   - type: Sprite
     state: cryo_headset
@@ -404,8 +404,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotLeader
-  name: marine foxtrot leader radio headset
-  description: This is used by the marine Foxtrot squad leader.
+  name: морпіхотна гарнітура лідеру фокстроту
+  description: Гарнітура лідера Фокстрот, не має особливих деталей.
   components:
   - type: ContainerFill
     containers:
@@ -418,8 +418,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotTeamLeader
-  name: marine foxtrot team leader radio headset
-  description: This is used by the marine Foxtrot team leader.
+  name: морпіхотна гарнітура лідеру вогневої групи фокстроту
+  description: Гарнітура лідера вогневої групи Ехо, на вигляд звичайна.
   components:
   - type: ContainerFill
     containers:
@@ -440,8 +440,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotEngineer
-  name: marine foxtrot engineer radio headset
-  description: This is used by the marine Foxtrot combat engineers.
+  name: морпіхотна гарнітура техніка фокстроту
+  description: Звичайнісінька гарнітура, окрім тієї деталі що її вдягають техніки Фокстроту.
   components:
   - type: ContainerFill
     containers:
@@ -452,8 +452,8 @@
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotMedic
-  name: marine foxtrot corpsman radio headset
-  description: This is used by the marine Foxtrot combat medics.
+  name: морпіхотна гарнітура медика фокстроту
+  description: Стандартна гарнітура, янгольський власник.
   components:
   - type: ContainerFill
     containers:
