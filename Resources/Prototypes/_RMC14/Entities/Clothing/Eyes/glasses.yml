@@ -640,7 +640,7 @@
 - type: entity
   parent: RMCSunglassesBig
   id: RMCGlassesTriMaxYellow
-  name: поляризовані окуляри ТріМекс
+  name: поляризовані окуляри ТріМакс
   description: Елегантні, кутасті окуляри спроєктовані для сучасних операторів.
   components:
   - type: Sprite
