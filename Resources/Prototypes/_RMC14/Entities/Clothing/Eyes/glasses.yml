@@ -243,7 +243,7 @@
 - type: entity
   parent: [ClothingEyesBase, BaseToggleClothing]
   id: RMCGlassesReagentHUDGlasses
-  name: окуляри зі встроєним сканером реагентів
+  name: окуляри зі вбудованим сканером реагентів
   description: Ці окуляри скоріше за все у використанні когось, хто тримає гвинтівку та активно хоче скоротити свою очікувану тривалість життя.
   components:
   - type: Item
