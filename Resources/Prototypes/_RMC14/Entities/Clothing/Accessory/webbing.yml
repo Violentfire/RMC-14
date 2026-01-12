@@ -548,8 +548,8 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbing
-  name: tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
+  name: інструментальна розвантажка
+  description: Коричнева розвантажка з синтетичної бавовни, схожа за функціями на цивільні фартухи для інструментів, але більш міцна для польового використання.
   components:
   - type: Storage
     grid:
@@ -665,7 +665,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: жилет для ножів зразка M272 
+  name: жилет для ножів зразка М272 
   description: Розвантажувальний жилет, який колись використовував КМПОН. Може вміщувати до п'яти ножів. Зроблений з синтетичної бавовни.
   components:
   - type: Sprite
@@ -817,8 +817,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalGreen
-  name: surgical webbing vest
-  description: A robust webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -870,8 +870,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalBlue
-  name: surgical webbing vest
-  description: A robust blue webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite
