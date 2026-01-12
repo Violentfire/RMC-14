@@ -641,7 +641,7 @@
   parent: RMCSunglassesBig
   id: RMCGlassesTriMaxYellow
   name: поляризовані окуляри ТріМакс
-  description: Елегантні, кутасті окуляри спроєктовані для сучасних операторів.
+  description: Елегантні, кутасті окуляри, спроєктовані для сучасних операторів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_yellow_glasses.rsi
