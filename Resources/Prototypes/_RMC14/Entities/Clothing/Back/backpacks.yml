@@ -302,8 +302,8 @@
 - type: entity
   parent: CMBackpackWelder
   id: RMCBackpackWelderPMC
-  name: pmc technician welderpack
-  description: Ergonomic, protected, high capacity backpack, designed for Weston-Yamada PMCs. Features a small fueltank for quick blowtorch refueling.
+  name: наплічник техніка ПВК з паливом для зварки
+  description: Ергономічний, захищений, з високою ємністю, створений для найманців Вестон-Ямада. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/welder.rsi
