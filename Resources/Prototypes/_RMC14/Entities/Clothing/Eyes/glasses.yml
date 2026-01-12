@@ -887,7 +887,7 @@
 - type: entity
   parent: RMCWeldingGoggles
   id: RMCWeldingGogglesSuperior # TODO RMC14 less vision impairment then regular goggles
-  name: потужніші зварювальні окуляри
+  name: якісні зварювальні окуляри
   description: Зварювальні окуляри зроблені з кращих матеріалів, на диво пахнуть картоплею.
   components:
   - type: Sprite
