@@ -129,7 +129,8 @@
   parent: RMC
   id: RMCMarineLawCrimesMinor
   name: rmc-guide-entry-marine-law-crimes-minor
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMinor.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMinor.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesMinor.xml"
   priority: 1
 
 - type: guideEntry

@@ -1,193 +1,193 @@
 ﻿<Document>
-  # Major Crimes
-  - These crimes are high severity.
+  # Важкі злочини
+  - Ці злочини мають високу тяжкість.
   <Table Columns="3">
     <ColorBox>
       <Box>
-        Charge
+        Звинувачення
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Description
+        Опис
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Punishment
+        Покарання
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Disorderly Conduct
+        Порушення порядку
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Directly and intentionally disrupting primary operations of the ship. Fighting in the requisitions line, extensively or repeatedly disrupting the briefing.
+        Пряме та навмисне зривання основних операцій корабля. Бійки у чергі постачання, значне або неодноразове зривання брифінгу.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]10 Minutes.[/bold]
-      </Box>
-    </ColorBox>
-
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Subterfuge
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Carrying out objectives or being tied to material that describe planned actions that go against the UNMC. Strong proof is required that the individual is working against UNMC.\n[italic]A major charge of Unauthorized use of a Listening Device when such a device is also tied to a foreign government or terror organisation is additionally considered Subterfuge.[/italic]
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]15 Minutes, removal of ID, and discharge to planet.[/bold]
+        [bold]10 хвилин.[/bold]
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Neglect of Duty
+        Саботаж
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Failure to perform one’s role to an acceptable standard.\n[italic]For example, a [color=#008000][bold]Commander[/bold][/color] failing to properly organize and ensure their personnel are given orders, failing to follow proper procedure in detriment of one’s duties, or ship crew leaving the ship or their post without authorization from the [color=#008000][bold]Commander[/bold][/color] or their Department Head.[/italic]
+        Виконання завдань або наявність доказів, що описують заплановані дії, спрямовані проти КМПОН. Потрібні переконливі докази того, що особа діє на шкоду КМПОН.\n[italic]Тяжке обвинувачення у Несанкціонованjve використаннs підслуховуючих пристроїв, якщо такий пристрій також пов`язаний з іноземним урядом або терористичною організацією, додатково кваліфікується як Саботаж.[/italic]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]15 Minutes.[/bold]
-      </Box>
-    </ColorBox>
-
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Assault
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        To threaten or use physical force against someone with ill intent, but without intent to kill.
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]15 Minutes.[/bold]
+        [bold]15 хвилин, видалення особистості та видалення на планету.[/bold]
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Prevarication
+        Невиконання службових обов'язків
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        To intentionally arrest a person on false charges, on ones own initiative. To apply an improper or abusive NJP.
+        Невиконання або неналежне виконання своїх службових обов'язків на прийнятному рівні. [italic]Наприклад, [color=#008000][bold]Командувач[/bold][/color], який не забезпечує належної організації та доведення наказів до підлеглого персоналу; невиконання встановлених процедур на шкоду службовим обов'язкам; або члени екіпажу корабля, які залишають корабель чи своє робоче місце без дозволу [color=#008000][bold]Командувача[/bold][/color] або голови свого відділу.[/italic]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]20 Minutes.[/bold]
-      </Box>
-    </ColorBox>
-
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Manslaughter
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Killing someone without malicious intent. Manslaughter may be applied if someone dies as a result of a fight where the intent was not to kill.
-        \nThis also includes failing to revive someone without a reasonable attempt, not executed by the execution procedure.
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]20 Minutes, and/or demotion.[/bold]
+        [bold]15 хвилин.[/bold]
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Assault with a deadly weapon
+        Напад
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        To threaten or use physical force against someone with ill intent and with a lethal weapon such as a sidearm, blade, or rifle but not attempting to murder them.
+        Погроза застосування або застосування фізичної сили щодо іншої особи зі злим наміром, але без наміру вбивства.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]20 Minutes.[/bold]
-      </Box>
-    </ColorBox>
-
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Illegal Confinement
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Unlawfully detaining a person against their will. Includes, kidnapping, hostage-taking, and confining people in cells without charging them for a crime. It does not apply to Prisoners of War.
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]20 Minutes.[/bold]
+        [bold]15 хвилин.[/bold]
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Cruelty to Animals
+        Свавілля
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Injuring or killing any domestic animal or wild life with malicious intent. Research monkeys used for chemical research, scientific purposes or hostile wildlife are exempt.
+        Умисне затримання або арешт особи за завідомо неправдивими обвинуваченнями з власної ініціативи. Застосування неправомірного ПП.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]30 Minutes.[/bold]
-      </Box>
-    </ColorBox>
-
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Misuse of Authority
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        The exercising of power to a [bold]malicious extent[/bold] by [color=#ff000d][bold]MP[/bold][/color].
-        \n[italic]Examples include beating a downed prisoner, excessive use of harmful or non-lethal force, or other abusive actions that led to the harm of a person in custody.[/italic]\nDetained suspects should not have more force used on them than necessary in order to pacify them.
-      </Box>
-    </ColorBox>
-    <ColorBox>
-      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]20 Minutes.[/bold]
+        [bold]20 хвилин.[/bold]
       </Box>
     </ColorBox>
 
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Unauthorised Deployment
+        Ненамисне вбивство
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        To deploy into the area of operations without permission of the relevant head of department or [color=#008000][bold]Commander[/bold][/color] where appropriate whilst still performing assigned duties. (I.E A doctor deploying without permission, with the intentions to perform field surgery.) Deploying without intent to perform assigned duties remains desertion.
+        Вбивство без злих намірів. Звинувачення у ненавмивствому вбивстві можуть бути висунуті, у разі смерті як результат бійки, де не було наміру вбити.
+        \nЦе також включає ігнорування спроб реанімувати особу без явних причин, якщо її попередньо не було страчено.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин, та/або пониження.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Озброєний напад
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Погроза застосування або застосування фізичної сили проти іншої особи зі злим наміром із використанням зброї, такої як пістолет, клинок або гвинтівка, але без наміру вбивства.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне ув'язнення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне затримання особи проти її волі. Включає викрадення, взяття у заручники та ув'язнення до камер без жодних звинувачень. Це не стосується військовополонених.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Жорстоке поводження з тваринами
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Завдання шкоди або вбивство домових або диких тварин зі злими намірами. Мавпи, які використовуються для досліджень хімікатів, наукових цілей чи ворожа фауна є виключенням.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]30 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Зловживання владою
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Зловживання владою [color=#ff000d][bold]ВСП[/bold][/color] у злочинних цілях.
+        \n[italic]Прикладами є побиття поваленого ув'язненого, надмірне застосування шкідливої або несмертельної сили, або інші зловживання, які призвели до шкоди особі під вартою.[/italic]. До затриманих підозрюваних не слід застосовувати більше сили, ніж необхідно для їхньої нейтралізації.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Неавторизована висадка
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Розгортання в зону операцій без дозволу чинного голови відділу або [color=#008000][bold]Командувача[/bold][/color], де це доречно, продовжуючи виконувати свої обов'язки. (наприклад, лікар, що висадився для виконання операції.) Розгортання без мети виконання обов'язків є Дезертирством.
         \n- The relevant Head of Department or the [color=#008000][bold]Commander[/bold][/color] where appropriate may retroactively authorize deployment. The [color=#008000][bold]Commander[/bold][/color] may overrule the Head of Department on this.
         \n- The relevant Head of Department or the [color=#008000][bold]Commander[/bold][/color] may designate an alternate person to deploy in the stead of an unauthorized person, in which case [color=#ff000d][bold]MP[/bold][/color]s should coordinate with the designated person to reduce disruption in the field. The maximum delay for this period is five minutes.
       </Box>
