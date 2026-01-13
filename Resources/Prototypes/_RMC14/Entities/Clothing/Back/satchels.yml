@@ -130,7 +130,7 @@
   parent: RMCBackpackScout
   id: RMCBackpackSPPCommando
   name: термоплащ В86
-  description: Термо-оптичний камуфляжний плащ, який використовується підрозділами командо СПН.
+  description: Термо-оптичний камуфляжний плащ, який використовується підрозділами командос СПН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/SPP/scout_cloak.rsi
@@ -185,7 +185,7 @@
   parent: CMSatchel
   id: RMCSatchelVirology
   name: сумка науковця
-  description: Корисний для перенесення наукових матеріалів.
+  description: Корисна для перенесення наукових матеріалів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/virology.rsi
@@ -664,7 +664,7 @@
   parent: RMCBackpackRTO
   id: RMCBackpackRTOSPP
   name: радіотелефонний рюкзак СПН
-  description: Міцний переносний рюкзак, призначений для зв'язку з іншим телефоном. Зазвичай використовується зв'язківцями. Конкретно ця модель має знаки розрізнення Соціалістичних Прогресивних Націй.
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншим телефоном. Зазвичай використовується зв'язківцями. Конкретно ця модель має знаки розрізнення Соціалістичних Прогресивних Народів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/SPP/rto.rsi
@@ -845,7 +845,7 @@
   parent: RMCSatchelLightpack
   id: RMCSatchelPMC
   name: бойова сумка ПВК
-  description: Сумка Вестон-Ямада, що має кілька підсумок та відділів для легкого доступу, запобігаючи уповільненню у бою.
+  description: Сумка Вестон-Ямада, що має кілька підсумків та відділів для легкого доступу, запобігаючи уповільненню у бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/standard.rsi
