@@ -2,7 +2,8 @@
   parent: RMC
   id: RMCMarineLaw
   name: rmc-guide-entry-rules-marine-law
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLaw.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLaw.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLaw.xml"
   priority: 3
   children:
   - RMCCommandChain
@@ -35,7 +36,8 @@
   parent: RMC
   id: RMCMarineLawDefinitions
   name: rmc-guide-entry-marine-law-definitions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDefinitions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDefinitions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawDefinitions.xml"
   priority: 1
 
 # Procedures
@@ -43,7 +45,8 @@
   parent: RMC
   id: RMCMarineLawProcedures
   name: rmc-guide-entry-marine-law-procedures
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawProcedures.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawProcedures.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawProcedures.xml"
   priority: 2
   children:
   - RMCMarineLawArresting
@@ -58,49 +61,56 @@
   parent: RMC
   id: RMCMarineLawArresting
   name: rmc-guide-entry-marine-law-arresting
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawArresting.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawArresting.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawArresting.xml"
   priority: 1
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCharging
   name: rmc-guide-entry-marine-law-charging
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCharging.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCharging.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCharging.xml"
   priority: 2
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawNJP
   name: rmc-guide-entry-marine-law-njp
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawNJP.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawNJP.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawNJP.xml"
   priority: 3
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawLethal
   name: rmc-guide-entry-marine-law-lethal
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawLethal.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawLethal.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawLethal.xml"
   priority: 4
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawSearches
   name: rmc-guide-entry-marine-law-searches
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSearches.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSearches.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawSearches.xml"
   priority: 5
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawDemotions
   name: rmc-guide-entry-marine-law-demotions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDemotions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDemotions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawDemotions.xml"
   priority: 6
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawExecutions
   name: rmc-guide-entry-marine-law-executions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawExecutions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawExecutions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawExecutions.xml"
   priority: 7
 
 # Crimes
@@ -108,7 +118,8 @@
   parent: RMC
   id: RMCMarineLawCrimes
   name: rmc-guide-entry-marine-law-crimes
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimes.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimes.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimes.xml"
   priority: 3
   children:
   - RMCMarineLawCrimesVariable
@@ -137,14 +148,16 @@
   parent: RMC
   id: RMCMarineLawCrimesMajor
   name: rmc-guide-entry-marine-law-crimes-major
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMajor.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMajor.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesMajor.xml"
   priority: 2
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCrimesCapital
   name: rmc-guide-entry-marine-law-crimes-capital
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesCapital.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesCapital.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesCapital.xml"
   priority: 3
 
 - type: guideEntry

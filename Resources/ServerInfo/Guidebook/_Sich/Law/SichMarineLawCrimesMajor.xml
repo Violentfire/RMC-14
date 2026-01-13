@@ -1,5 +1,5 @@
 ﻿<Document>
-  # Важкі злочини
+  # Тяжкі злочини
   - Ці злочини мають високу тяжкість.
   <Table Columns="3">
     <ColorBox>
@@ -188,13 +188,13 @@
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
         Розгортання в зону операцій без дозволу чинного голови відділу або [color=#008000][bold]Командувача[/bold][/color], де це доречно, продовжуючи виконувати свої обов'язки. (наприклад, лікар, що висадився для виконання операції.) Розгортання без мети виконання обов'язків є Дезертирством.
-        \n- The relevant Head of Department or the [color=#008000][bold]Commander[/bold][/color] where appropriate may retroactively authorize deployment. The [color=#008000][bold]Commander[/bold][/color] may overrule the Head of Department on this.
-        \n- The relevant Head of Department or the [color=#008000][bold]Commander[/bold][/color] may designate an alternate person to deploy in the stead of an unauthorized person, in which case [color=#ff000d][bold]MP[/bold][/color]s should coordinate with the designated person to reduce disruption in the field. The maximum delay for this period is five minutes.
+        \n- Голова відділу або [color=#008000][bold]Командувач[/bold][/color] можуть заднім числом дозволити розгортання, де це доречно. [color=#008000][bold]Командувач[/bold][/color] має останній голос щодо цього.
+        \n- Відповідний Голова відділу [color=#008000][bold]Командувач[/bold][/color] можуть назначити іншу особу на розгортання для заміни неавторизованої, в такому випадку [color=#ff000d][bold]ВСП[/bold][/color] повинні кооридинуватися з вибраною особою, щоби запобігти непорозумінь. Максимальний термін цього періоду становить п'ять хвилин.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        [bold]10 Minutes.[/bold]
+        [bold]10 хвилин.[/bold]
       </Box>
     </ColorBox>
 

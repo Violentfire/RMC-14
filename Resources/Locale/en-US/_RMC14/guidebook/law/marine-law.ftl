@@ -1,5 +1,5 @@
 ﻿rmc-guide-entry-marine-law-definitions = Визначення
-rmc-guide-entry-marine-law-charging = Звинувачення та вироки
+rmc-guide-entry-marine-law-charging = Винесення вироків
 rmc-guide-entry-marine-law-arresting = Арешти та Польові арешти
 rmc-guide-entry-marine-law-procedures = Процедури
 rmc-guide-entry-marine-law-njp = Позасудове покарання

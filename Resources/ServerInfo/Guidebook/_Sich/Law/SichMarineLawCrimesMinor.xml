@@ -1,6 +1,6 @@
 ﻿<Document>
-  # Minor Crimes
-  - These crimes are low severity, and can be instead punished with an NJP, or a warning.
+  # Дрібні злочини
+  - Ці злочини є незначними та можуть каратися ПП або попередженням.
   <Table Columns="3">
     <ColorBox>
       <Box>
@@ -25,7 +25,7 @@
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
-        Недотримання регламентів  Стандартний Операційних Процедур.
+        Недотримання регламентів Стандартний Операційних Процедур.
       </Box>
     </ColorBox>
     <ColorBox>
