@@ -2,7 +2,7 @@
   parent: CMHandsBlackMarine
   id: RMCHandsBlack
   name: чорні рукавиці
-  description: Проста пара чорних рукавиці.
+  description: Проста пара чорних рукавиць.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -88,7 +88,7 @@
   parent: CMHandsWhite
   id: RMCHandsPurple
   name: фіолетові рукавиці
-  description: Пара рукавичок, які не виглядають незвично.
+  description: Пара рукавичок, які нічим не вирізняються.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi
@@ -114,7 +114,7 @@
   parent: RMCHandsBlack
   id: RMCHandsLeatherBlack
   name: чорні шкіряні рукавиці
-  description: Гнучкі, чорні шкіряні рукавички зроблені зі шкіри найвищої якості. Стильні, витривали та готові до роботи чи ігор.
+  description: Гнучкі чорні шкіряні рукавички виготовлені зі шкіри найвищої якості. Стильні, витривалі та готові до роботи чи ігор.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/leather_black.rsi
