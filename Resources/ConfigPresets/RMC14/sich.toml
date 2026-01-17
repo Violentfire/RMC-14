@@ -95,7 +95,7 @@ preload = false
 
 [server]
 #Базові налаштування для відображення гайдів та правил РМСних.
-rules_file = "RMCOverview"
+rules_file = "SichOverview"
 default_guide = "RMC14"
 
 [shuttle]
