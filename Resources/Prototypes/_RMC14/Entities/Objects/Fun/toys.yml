@@ -9,7 +9,7 @@
     sprite: _RMC14/Objects/Fun/plushies.rsi
     state: debug
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -23,7 +23,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -37,7 +37,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -51,7 +51,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -65,7 +65,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
