@@ -18,13 +18,20 @@
     tags:
     - RMCSeat
   - type: RMCMesonsNonviewable
+  - type: Rotatable # Sich. Крутити стільці.
 
 - type: entity
   parent: [ CMSeatBase, ChairFolding ]
   id: CMChair
   name: стілець
   description: Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Призначений для більш-менш зручного сидячого положення.
-  components: # Видалені локальні компоненти прототипу Foldable, Physics та Transform, щоб їх знова можна було крутити та тягати. Зміна білду Січі
+  components: 
+#  - type: Transform - Sich. Крутити та тягати стільці.
+#    anchored: true
+#  - type: Physics
+#    bodyType: Static
+#  - type: Foldable
+#    anchorOnUnfold: true
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/folding_chair.rsi
     layers:
@@ -73,8 +80,8 @@
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/chairs.rsi
     state: chair
-  - type: Physics
-    bodyType: Static
+#  - type: Physics - Sich. Тягати стільці.
+#    bodyType: Static
   - type: Rotatable
   - type: Construction
     graph: CMSeat
