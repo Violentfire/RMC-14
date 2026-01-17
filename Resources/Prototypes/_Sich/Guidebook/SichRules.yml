@@ -100,7 +100,7 @@
   priority: 6
   text: "/ServerInfo/Guidebook/_Sich/Rules/RulesCore.xml"
   children:
-  - SichLanguage
+  - RMCLanguage
   - SichKindness
   - SichEscalation
   - SichCommand
@@ -111,7 +111,7 @@
 
 - type: guideEntry
   parent: RMC
-  id: SichLanguage
+  id: RMCLanguage # RMC замість Sich, бо воно прив'язано як гайд до гарнітур
   name: sich-guide-entry-rules-language
   priority: 1
   text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Language.xml"
