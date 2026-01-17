@@ -98,6 +98,7 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: spotter
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
@@ -184,7 +185,7 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: loader
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
@@ -215,7 +216,7 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: mortar
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
