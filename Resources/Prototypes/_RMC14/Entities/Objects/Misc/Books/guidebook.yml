@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCGuidebookBase
   id: RMCGuidebookLawMarine
-  name: Marine Law
-  description: "Usually being the favorite read of any member of the Military Police of the UNMC, it's whole meaning is to work as the scales for the sword of justice that brandishes onboard the vessels of the United Nations Marine Corps, so peace and order can be maintained. It's nicknames may include but are not limited to: Devil's Red Book, Bible of All Sinners, THE Book, ML, Red Brick, Provost's Torture Manual, Provost's Red Devil's Torture Bible of All Sinners."
+  name: Морське Право
+  description: "Зазвичай найулюбленіша книга кожного офіцера Військової Служби Правоворядку КМПОН, її сенс, це бути терезами меча правосуддя, який дивиться за кожним кораблем Корпусу Морськох Піхоти Об'єднаних Націй, задля підтримки миру та порядку. Її прізвиська можуть включати, але не обмежуються: Червона книга диявола, Біблія всіх грішників, ТА книга, МП, Червона цегла, Посібник з тортур Провоста, Біблія тортур Червоного диявола всіх грішників Провоста.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/marine_law.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCGuidebookLawMarine
   id: RMCGuidebookLawMarineProvost
-  name: "Marine Law: limited provost edition"
+  name: "Морське Право: лімітована едиція провосту"
   suffix: Guidebook, Admeme
   components:
   - type: RMCStaminaDamageOnHit
