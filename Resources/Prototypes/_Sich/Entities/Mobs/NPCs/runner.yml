@@ -14,15 +14,18 @@
 - type: htnCompound
   id: SichXenoRunnerCombatCompound
   branches:
-  # Melee combat (unarmed or otherwise)
   - tasks:
     - !type:HTNPrimitiveTask
       operator: !type:UtilityOperator
-        proto: NearbyMeleeTargets
+        proto: SichNearbyBarricade
+    - !type:HTNCompoundTask
+      task: SichXenoBarricadeAttackTargetCompound
+  - tasks:
+    - !type:HTNPrimitiveTask
+      operator: !type:UtilityOperator
+        proto: SichNearbyLeapEnemy
     - !type:HTNCompoundTask
       task: SichRunnerLeap
-    - !type:HTNCompoundTask
-      task: MeleeAttackTargetCompound
 
 - type: htnCompound
   id: SichRunnerLeap
@@ -30,7 +33,7 @@
   - tasks:
     - !type:HTNPrimitiveTask
       operator: !type:UtilityOperator
-        proto: RMCSichNearbyLeapEnemy
+        proto: SichNearbyLeapEnemy
 
     - !type:HTNPrimitiveTask
       preconditions:
@@ -41,15 +44,14 @@
         rangeKey: VisionRadius
       operator: !type:LeapOperator
         targetKey: Target
-
       services:
       - !type:UtilityService
         id: LeapService
-        proto: RMCSichNearbyLeapEnemy
+        proto: SichNearbyLeapEnemy
         key: Target
 
 - type: utilityQuery
-  id: RMCSichNearbyLeapEnemy
+  id: SichNearbyLeapEnemy
   query:
   - !type:NearbyHostilesQuery
   considerations:

@@ -13,8 +13,6 @@
 - type: htnCompound
   id: SichXenoMeleeCombatCompound
   branches:
-
-  # PRIMARY: attack barricades
   - tasks:
     - !type:HTNPrimitiveTask
       operator: !type:UtilityOperator
@@ -80,11 +78,65 @@
             - !type:TargetInRangePrecondition
               targetKey: Target
               rangeKey: MeleeRange
+          services:
+            - !type:UtilityService
+              id: MeleeService
+              proto: SichNearbyBarricadeOrEnemy
+              key: Target
 
 - type: utilityQuery
   id: SichNearbyBarricadeOrEnemy
   query:
     - !type:NearbyHostilesQuery
+    - !type:ComponentQuery
+      components:
+        - type: Barricade
+        - type: Entity
+  considerations:
+    - !type:TargetDistanceCon
+      curve: !type:PresetCurve
+        preset: TargetDistance
+    - !type:TargetAccessibleCon
+      curve: !type:BoolCurve
+    - !type:TargetInLOSOrCurrentCon
+      curve: !type:BoolCurve
+
+- type: htnCompound
+  id: SichXenoBarricadeAttackTargetCompound
+  branches:
+    - preconditions:
+      - !type:KeyExistsPrecondition
+        key: Target
+      tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:MoveToOperator
+            shutdownState: PlanFinished
+            pathfindInPlanning: true
+            removeKeyOnFinish: false
+            targetKey: TargetCoordinates
+            pathfindKey: TargetPathfind
+            rangeKey: MeleeRange
+        - !type:HTNPrimitiveTask
+          operator: !type:JukeOperator
+            jukeType: Away
+        - !type:HTNPrimitiveTask
+          operator: !type:MeleeOperator
+            targetKey: Target
+          preconditions:
+            - !type:KeyExistsPrecondition
+              key: Target
+            - !type:TargetInRangePrecondition
+              targetKey: Target
+              rangeKey: MeleeRange
+          services:
+            - !type:UtilityService
+              id: MeleeService
+              proto: SichNearbyBarricade
+              key: Target
+
+- type: utilityQuery
+  id: SichNearbyBarricade
+  query:
     - !type:ComponentQuery
       components:
         - type: Barricade
