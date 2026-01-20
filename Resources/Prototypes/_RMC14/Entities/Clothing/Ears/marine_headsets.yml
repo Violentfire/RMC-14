@@ -419,7 +419,7 @@
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotTeamLeader
   name: морпіхотна гарнітура лідеру вогневої групи фокстроту
-  description: Гарнітура лідера вогневої групи Ехо, на вигляд звичайна.
+  description: Гарнітура лідера вогневої групи Фокстроту, на вигляд звичайна.
   components:
   - type: ContainerFill
     containers:

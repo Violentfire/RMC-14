@@ -58,7 +58,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetCE
   name: гарнітура головного інженера
-  description: Гарнітура того, хто відповідає за марнування палива, керування ОІ та розбирання підлоги задля металу. Міцної та стійкої конструкції.
+  description: Гарнітура того, хто відповідає за марнування палива, керування ОІ та розбирання підлоги задля металу, міцної та стійкої конструкції.
   components:
   - type: Sprite
     state: ce_headset
@@ -89,7 +89,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetCMO
   name: гарнітура головного лікаря
-  description: Гарнітура, яку видають вищому керівницству медичних працівників.
+  description: Гарнітура, яку видають керівникам медичного персоналу.
   components:
   - type: Sprite
     state: cmo_headset
@@ -115,7 +115,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetEngineer
   name: гарнітура інженерного
-  description: Придатна для координації реновацій та орбітальних бомбардувань. Міцної та стійкої конструкції.
+  description: Придатна для координації реновацій та орбітальних бомбардувань, міцної та стійкої конструкції.
   components:
   - type: Sprite
     state: eng_headset
@@ -167,7 +167,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetMedical
   name: гарнітура медичного
-  description: Гарнітура, яка використовується найбільш досвідченим персоналом медичного відділку.
+  description: Гарнітура, яка використовується досвідченим персоналом медичного відділку.
   components:
   - type: Sprite
     state: med_headset
@@ -185,7 +185,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetResearcher
   name: гарнітура науковця
-  description: Гарнітура, яка використовується найбільш досвідченими науковцями медичного відділку.
+  description: Гарнітура, яка використовується досвідченими науковцями медичного відділку.
   components:
   - type: Sprite
     state: med_headset
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCHeadsetShip
   id: CMHeadsetReporter
-  name: гарнітура репортера
+  name: гарнітура кореспондента
   description: Використовується військовим кореспондентом для отримання інформації.
   components:
   - type: ContainerFill
@@ -450,7 +450,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetHighCommand
   name: гарнітура вищого командування КМПОН
-  description: Видається виключно персоналу вищого командування.
+  description: Видається виключно персоналу Вищого Командування.
   components:
   - type: Sprite
     state: mco_headset

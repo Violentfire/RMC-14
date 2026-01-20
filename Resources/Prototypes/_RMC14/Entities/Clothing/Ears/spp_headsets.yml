@@ -163,8 +163,8 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPPCommando
-  name: гарнітура командо СПН
-  description: Спеціальна гарнітура, яку використовують командоси СПН.
+  name: гарнітура командос СПН
+  description: Спеціальна гарнітура, яку використовують командос СПН.
   components:
   - type: ContainerFill
     containers:
