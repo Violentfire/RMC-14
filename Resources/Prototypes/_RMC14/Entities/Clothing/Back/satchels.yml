@@ -862,7 +862,7 @@
 - type: entity
   parent: [RMCSatchelLightpack, RMCSatchelWelder]
   id: RMCSatchelLightpackWelder
-  name: легка сумка техніка для зварки
+  name: легка сумка техніка з паливом для зварки
   description: Ергономічний, захищений, рюкзак з високою ємністю. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
