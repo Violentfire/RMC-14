@@ -77,7 +77,7 @@
   parent: CMHandsWhite
   id: CMHandsWhiteDress
   name: парадні рукавиці
-  description: Пара модних рукавичок, які морпіхи вдягають на урочисті заходи.
+  description: Пара модних рукавиць, які морпіхи вдягають на урочисті заходи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
