@@ -44,7 +44,7 @@
   parent: RMCScabbardBase
   id: RMCScabbardMachete
   name: піхви Н5 для мачете моделі М2132 
-  description: Великий шкіряний чохол, створений для безпечного носіння мачете М2132. Можна носити на спині, або на поясі.
+  description: Великі шкіряні піхви, створені для безпечного носіння мачете М2132. Можна носити на спині, поясі або броні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_h5.rsi
