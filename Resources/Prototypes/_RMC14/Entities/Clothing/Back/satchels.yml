@@ -596,7 +596,7 @@
   parent: CMSatchel
   id: RMCBackpackRTO
   name: радіотелефонний рюкзак КМПОН
-  description: Міцний переносний рюкзак, призначений для зв'язку з іншим телефоном. Зазвичай використовується зв'язківцями.
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншими радіостанціями. Зазвичай використовується зв'язківцями.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/rto/jungle-desert-classic.rsi
