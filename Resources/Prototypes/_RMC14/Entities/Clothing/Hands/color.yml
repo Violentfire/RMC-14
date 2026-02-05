@@ -114,7 +114,7 @@
   parent: RMCHandsBlack
   id: RMCHandsLeatherBlack
   name: чорні шкіряні рукавиці
-  description: Гнучкі чорні шкіряні рукавички виготовлені зі шкіри найвищої якості. Стильні, витривалі та готові до роботи чи ігор.
+  description: Гнучкі чорні шкіряні рукавиці виготовлені зі шкіри найвищої якості. Стильні, витривалі та готові до роботи чи ігор.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/leather_black.rsi
