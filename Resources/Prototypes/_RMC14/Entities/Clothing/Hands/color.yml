@@ -64,7 +64,7 @@
   parent: ClothingHandsBase
   id: CMHandsWhite
   name: білі рукавиці
-  description: Можливо зараз вони і білі, але вже після першого бойового вони стануть колейдоском з чорного, червоного, зеленого... і, певно коричневого.
+  description: Можливо зараз вони і білі, але вже після першого бойового вони стануть колейдоскопом з чорного, червоного, зеленого... Й, певно коричневого.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
