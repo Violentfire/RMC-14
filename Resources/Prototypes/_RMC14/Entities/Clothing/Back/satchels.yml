@@ -421,7 +421,7 @@
   parent: CMSatchelMarineIntel # Reskin for FORECON
   id: RMCSatchelMarineLogisticsBig
   name: логістичний ІМС наплічник КМПОН
-  description: Зазвичай використовується логістичним персоналом. Інколи його видають комбатантам для довготривалих вторгнень глибоко у космос.
+  description: Зазвичай використовується логістичним персоналом. Інколи його видають комбатантам для довготривалих експедицій в глибокий космос.
 
 - type: entity
   parent: CMSatchelMarineIntel
