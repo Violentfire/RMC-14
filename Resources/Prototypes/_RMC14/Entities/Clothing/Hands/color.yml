@@ -51,7 +51,7 @@
   parent: ClothingHandsBase
   id: CMHandsLightBrown
   name: світло-коричневі рукавиці
-  description: Пара світло-коричневих рукавичок.
+  description: Пара світло-коричневих рукавиць.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/light_brown.rsi
