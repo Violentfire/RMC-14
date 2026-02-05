@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteSG
-  name: піхви для МЛ66A
+  name: піхви МЛ66А для мачете
   description: "Піхви для мачете моделі М2132, що під'єднується до бойового кріплення МЛ66A."
   components:
   - type: Sprite
