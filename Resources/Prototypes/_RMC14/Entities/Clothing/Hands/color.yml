@@ -99,7 +99,7 @@
   parent: CMHandsInsulated
   id: CMHandsBlackInsulated
   name: чорні ізоляційні рукавиці
-  description: Рукавички чорного кольору, що забезпечують захист від ударів струмом. 
+  description: Рукавиці чорного кольору, що забезпечують захист від ударів струмом. 
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_black.rsi
