@@ -342,7 +342,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetPilot
   name: гарнітура морпіхотного пілота
-  description: Використовується Бойовими та Транспортними Пілотами.
+  description: Використовується Пілотами та їх Помічниками.
   components:
   - type: ContainerFill
     containers:
