@@ -66,7 +66,7 @@
   parent: RMCHandsVeteran
   id: RMCHandsVeteranRoyalMarine
   name: бойові рукавиці зразка Л6
-  description: Стандартні тактичні рукавиці на руках Морпіхів Королівської Корони.
+  description: Стандартні тактичні рукавиці на руках Морпіхів Корони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/royal_marine.rsi
