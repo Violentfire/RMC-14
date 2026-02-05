@@ -853,7 +853,7 @@
 - type: entity
   parent: [RMCSatchelPMC, RMCSatchelWelder]
   id: RMCSatchelWelderPMC
-  name: сумка техніка для зварки
+  name: сумка техніка з паливом для зварки
   description: Ергономічний, захищений, з високою ємністю, рюкзак створений для найманців Вестон-Ямада. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
