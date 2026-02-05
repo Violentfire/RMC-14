@@ -203,7 +203,7 @@
   parent: CMSatchel
   id: RMCSatchelChemistry
   name: сумка хіміка
-  description: Стерильна сумка з кольорами хіміка.
+  description: Стерильна сумка в кольорах хіміка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/chemist.rsi
