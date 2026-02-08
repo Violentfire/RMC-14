@@ -228,8 +228,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletHonorGuard
-  name: honor guard instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one details the responsibilities of an Honor Guard.
+  name: довідник почесного вартового
+  description: Навчить вас завжди бути поряд з Командувачем та красиво виглядати на спільних знімках. В обов'язки Почесного Вартового входить захист життя Командувача операції, можливо, навіть ціною свого. 
   components:
   - type: Sprite
     state: pamphlet_honorguard

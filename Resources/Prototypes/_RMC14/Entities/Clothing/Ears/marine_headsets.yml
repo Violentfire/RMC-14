@@ -7,6 +7,8 @@
     trackerModes:
     - SquadLeader
     - FireteamLeader
+    - CommandingOfficer # Sich
+    - ExecutiveOfficer # Sich
     - SeniorEnlistedAdvisor
     - PrimaryLandingZone
   - type: GrantTacMapAlert
@@ -46,6 +48,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -121,6 +129,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -196,6 +210,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -271,6 +291,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -360,6 +386,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -435,6 +467,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
