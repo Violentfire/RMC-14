@@ -58,7 +58,6 @@
     trackerModes:
     - CommandingOfficer
     - ExecutiveOfficer
-    - SquadLeader
     - PrimaryLandingZone
 
 - type: entity
@@ -238,7 +237,6 @@
     - ChiefMedicalOfficer
     - CommandingOfficer # Sich
     - ExecutiveOfficer # Sich
-    - SquadLeader # Sich
     - PrimaryLandingZone # Sich
 
 - type: entity
@@ -391,7 +389,6 @@
     - ChiefEngineer
     - ChiefMedicalOfficer
     - Quartermaster
-    - SquadLeader
     - PrimaryLandingZone
 
 - type: entity
@@ -526,7 +523,6 @@
     - ChiefEngineer # Sich
     - ChiefMedicalOfficer # Sich
     - Quartermaster # Sich
-    - SquadLeader # Sich
     - PrimaryLandingZone # Sich
 
 - type: entity

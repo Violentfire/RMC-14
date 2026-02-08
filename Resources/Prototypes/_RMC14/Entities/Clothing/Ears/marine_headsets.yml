@@ -365,6 +365,20 @@
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker # Sich
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - AuxiliarySupportOfficer
+    - StaffOfficer
+    - ChiefMilitaryPolice
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+    - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetEcho
@@ -446,6 +460,20 @@
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker # Sich
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - AuxiliarySupportOfficer
+    - StaffOfficer
+    - ChiefMilitaryPolice
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+    - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetFoxtrot
