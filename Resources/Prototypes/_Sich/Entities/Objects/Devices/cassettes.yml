@@ -37,7 +37,8 @@
   - type: CassetteTape
     songs:
     - /Audio/_Sich/Jukebox/the_man_who_sold_the_world.ogg
-
+    - /Audio/_Sich/Jukebox/invinsible.ogg
+    - /Audio/_Sich/Jukebox/snake_eater.ogg
 
 - type: entity
   parent: RMCSichCassetteTapeBase

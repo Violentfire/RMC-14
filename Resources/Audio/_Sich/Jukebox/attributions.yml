@@ -15,11 +15,6 @@
   copyright: "The Mamas & The Papas – California Dreamin'."
   source: "https://www.youtube.com/watch?v=N-aK6JnyFmk"
 
-- files: ["the_man_who_sold_the_world.ogg"]
-  license: "CC0-1.0"
-  copyright: "The Man Who Sold the World (2010 Remaster) made by Midge Ure. Original by David Bowie."
-  source: "https://www.youtube.com/watch?v=mXHKjFKBC0g"
-
 - files: ["paint_it_black.ogg"]
   license: "CC0-1.0"
   copyright: "The Rolling Stones – Paint It, Black."
@@ -39,6 +34,21 @@
   license: "CC0-1.0"
   copyright: "Guns N' Roses – Welcome To The Jungle."
   source: "https://www.youtube.com/watch?v=CP3sn7T0rxY"
+
+- files: ["the_man_who_sold_the_world.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Man Who Sold the World (2010 Remaster) made by Midge Ure. Original by David Bowie."
+  source: "https://www.youtube.com/watch?v=mXHKjFKBC0g"
+
+- files: ["invinsible.ogg"]
+  license: "CC0-1.0"
+  copyright: "Duran Duran – INVISIBLE."
+  source: "https://www.youtube.com/watch?v=NRtnUVaRwXM"
+
+- files: ["snake_eater.ogg"]
+  license: "CC0-1.0"
+  copyright: "Snake Eater written by Norihiko Hibino and performed by Cynthia Harrell."
+  source: "https://www.youtube.com/watch?v=m2OR_JaXDaM"
 
 - files: ["vulytsia_skhid.ogg"]
   license: "CC0-1.0"
