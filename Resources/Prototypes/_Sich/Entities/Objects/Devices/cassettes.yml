@@ -7,7 +7,6 @@
     sprite: _Sich/Objects/Devices/cassette_player.rsi
 
 # Січ
-
 - type: entity
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTape
