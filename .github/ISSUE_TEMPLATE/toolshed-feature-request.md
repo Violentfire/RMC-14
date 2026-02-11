@@ -1,4 +1,5 @@
----
+<!-- Sich. Нам воно не треба.
+--- 
 name: Toolshed feature request
 about: Suggest a feature for Toolshed (for game admins/developers)
 title: "[TOOLSHED REQUEST]"
@@ -15,4 +16,4 @@ A clear and concise description of what you want and what it should do.
 If you're a technical user (i.e. programmer) including type signatures is helpful.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Add any other context or screenshots about the feature request here. -->
