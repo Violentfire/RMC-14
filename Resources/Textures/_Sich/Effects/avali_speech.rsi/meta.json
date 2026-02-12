@@ -5,7 +5,7 @@
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
-    "copyright": "Sprites by HITAroko, adapted and installed by 2Sensei2",
+    "copyright": "Sprites by HITAroko, adapted and installed by 2Sensei2. Updated by Pgriha",
     "states": [
         {
             "name": "avali0",
@@ -19,22 +19,23 @@
             ]
         },
         {
-            "name": "idle",
-            "delays": [
-                    [
-                        0.2,
-                        0.3,
-                        0.3,
-                        0.5,
-                        0.5
-                    ]
-                ]
-        },
-        {
             "name": "avali1"
         },
         {
             "name": "avali2"
+        },
+        {
+            "name": "avali3",
+            "delays": [
+                    [
+                        0.2,
+                        0.2,
+                        0.2,
+                        0.3,
+                        0.3,
+                        0.3
+                    ]
+                ]
         }
         
     ]
