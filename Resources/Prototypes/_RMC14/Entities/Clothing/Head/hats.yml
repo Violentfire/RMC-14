@@ -1012,7 +1012,7 @@
 - type: entity
   parent: ClothingHeadHatHoodNunHood
   id: RMCHeadNunHood
-  name: каптур св'ященниці
+  name: каптур священниці
   description: Максимальна побожність у цій зоряній системі.
   components:
   - type: Sprite
