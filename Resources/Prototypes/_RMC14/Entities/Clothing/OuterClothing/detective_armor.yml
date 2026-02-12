@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseArmor
   id: RMCArmorDetective
-  name: броня детектика
+  name: броня детектива
   description: Броньований жилет з відзнакою детектива.
   components:
   - type: Sprite

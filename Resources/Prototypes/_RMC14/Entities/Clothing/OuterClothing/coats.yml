@@ -693,7 +693,7 @@
   parent: RMCBaseJacket
   id: CMUtilityVestSynth
   name: службовий жилет синтетика
-  description: Шкіряний службовий жилет, який носить синтетичний персонал КМПОН. Цей жилет досить легкий, проте має кілька кишень для носіння малих предметів. Він не має високого рівня захисту, але далі є гарним вибором для Синтетика, що хоче виглядати стильно підчас праці.
+  description: Шкіряний службовий жилет, який носить синтетичний персонал КМПОН. Він досить легкий та має кілька кишень для носіння малих предметів. Жилет не має високого рівня захисту, але є гарним вибором для Синтетика, що хоче виглядати стильно під час праці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Synthetic/synth_utility.rsi
@@ -802,7 +802,7 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCClothingNunRobes
-  name: ризи св'ященниці
+  name: ризи священниці
   description: Максимальна побожність у цій зоряній системі.
   components:
   - type: Sprite
@@ -813,7 +813,7 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCClothingHolidayRobes
-  name: святковий св'ященник
+  name: святкова роба священика
   description: Це гарне свято, сину мій.
   components:
   - type: Sprite
@@ -848,8 +848,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboBrown
-  name: темно коричнева зношена поліестрова куртка
-  description: Стара та зношена коричнева поліестрова куртка, яка бачила кращі дні...
+  name: темно коричнева зношена поліестерова куртка
+  description: Стара та зношена коричнева поліестерова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_brown.rsi
@@ -859,8 +859,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboDarkBlue
-  name: темно синя зношена поліестрова куртка
-  description: Стара та зношена синя поліестрова куртка, яка бачила кращі дні...
+  name: темно синя зношена поліестерова куртка
+  description: Стара та зношена синя поліестерова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_dark_blue.rsi
@@ -870,8 +870,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatHoboRed
-  name: темно червона зношена поліестрова куртка
-  description: Стара та зношена червона поліестрова куртка, яка бачила кращі дні...
+  name: темно червона зношена поліестерова куртка
+  description: Стара та зношена червона поліестерова куртка, яка бачила кращі дні...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/hobocoat_red.rsi
@@ -881,7 +881,7 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCCoatWaistcoat
-  name: скуонний жилет
+  name: суконний жилет
   description: Для витонченої, смертельної розваги.
   components:
   - type: Sprite
@@ -904,7 +904,7 @@
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCCoatParamedic
   name: службовий одяг парамедика - ЕМТ
-  description: Комплекс службового одягу парамедика - ЕМТ, цей має червоний колір.
+  description: Комплект службового одягу парамедика - ЕМТ, цей має червоний колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/EMT.rsi
@@ -914,7 +914,7 @@
 - type: entity
   parent: RMCCoatParamedic
   id: RMCCoatParamedicGreen
-  description: Комплекс службового одягу парамедика - ЕМТ, цей має зелений колір.
+  description: Комплект службового одягу парамедика - ЕМТ, цей має зелений колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/EMT_green.rsi
@@ -926,8 +926,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCBrownWEYACoat
-  name: коричневе пальто ВЕЯ
-  description: Довге, міцне пальто з логотипом компанії на спині. Популярне на колоніях, де вимагають функціональність над презентацією.
+  name: коричневе пальто Ве-Я
+  description: Довге, міцне пальто з логотипом компанії на спині. Популярне на колоніях, де функціональність стоїть вище за презентабельність.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/brown_iconcoat.rsi
@@ -937,8 +937,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCWEYARainCoat
-  name: дощовик ВЕЯ
-  description: Яскравий жовтий дощовик з логотипом компанії. Він, звичайно, помпезний, але добре захищає від дощу. Зазвичай видається відлеглим колоніям з частими сильними дощами.
+  name: дощовик Ве-Я
+  description: Яскравий жовтий дощовик з логотипом компанії. Він, звісно, помпезний, але й добре захищає від води. Зазвичай розповсюджений в колоніях з частими дощами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/yellow_raincoat.rsi
@@ -986,7 +986,7 @@
   name: парка охорони
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Ssuits/security.rsi
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/security.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/security.rsi
 
@@ -994,9 +994,9 @@
   parent: RMCCoatSnowSurvivor
   id: RMCCoatSnowSurvivorCMBDeputy
   name: парка помічника БКМ
-  description: Зимовий костюм, адаптований до потреб БКМ. Він захищає носія від екстремального холоду. На спині написані потужні літери 'ПОМІЧНИК', що символізують справедливість, владу та захист на зовнішньому краю. Права Землі поширюються далеко поза Сол.
+  description: Зимовий костюм, адаптований до потреб БКМ. Він захищає носія від екстремального холоду. На спині написані потужні літери 'ПОМІЧНИК', що символізують справедливість, владу та захист на зовнішніх рубежах. Закони Землі поширюються далеко за межі сонячної системи.
   components:
-  - type: Spritenow
+  - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/cmb.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/cmb.rsi

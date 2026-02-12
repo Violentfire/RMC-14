@@ -32,7 +32,7 @@
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorFirefighter
   name: пожежний костюм ПТ-ЛТ
-  description: "'ПайроТекс ЛТ' це просунутий, легкий пожежний костюм розроблений компанією 'Фуджин'. Він забезпечує охорону перед вогнем та жаром, і одночасно дає обмежений захист від тупої сили."
+  description: "'ПайроТекс ЛТ' це просунутий, легкий пожежний костюм розроблений компанією 'Фуджин'. Він здатен вберегти власника від вогню та високих температур, одночасно забезпечуючи захист від тупих пошкоджень."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/firefighter.rsi
