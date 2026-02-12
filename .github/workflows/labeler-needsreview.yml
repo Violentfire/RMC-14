@@ -4,13 +4,16 @@ on:
   pull_request_target:
     types: [review_requested, opened]
 
+permissions:
+  pull-requests: write
+
 jobs:
   add_label:
     runs-on: ubuntu-latest
     steps:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
-        labels: "S: Needs Review"
+        labels: "С: Потребує Огляду"
     - uses: actions-ecosystem/action-remove-labels@v1
       with:
-        labels: "S: Awaiting Changes"
+        labels: "С: Очікує Змін"
