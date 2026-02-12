@@ -285,7 +285,7 @@
   parent: RMCPatchBase
   id: RMCPatchSolarDevils
   name: нашивка Соняшних Демонів КМПОН
-  description: Вогнестійка нашивка на плече, яку носять чоловіки та жінки третього батальйону 'Сошяні Демони', які є частиною першого полку, другої дивізії КМПОН.
+  description: Вогнестійка нашивка на плече, яку носять чоловіки та жінки третього батальйону 'Сонячні Демони', які є частиною першого полку, другої дивізії КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/solar_devil_patch.rsi
@@ -487,8 +487,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchTSEMarines
-  name: нашивка Морської Піхоти Королівської Корони ІТС
-  description: Вогнетривка нашивка на плече, яку носять чоловіки та жінки Морської Піхоти Королівської Корони.
+  name: нашивка Морської Піхоти Корони ІТС
+  description: Вогнетривка нашивка на плече, яку носять чоловіки та жінки Морської Піхоти Корони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/TSE/crown_patch.rsi

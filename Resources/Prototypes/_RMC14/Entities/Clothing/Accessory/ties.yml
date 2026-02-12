@@ -14,7 +14,7 @@
   parent: RMCTieBase
   id: RMCTie
   name: синя краватка
-  description: Краватка-кліпса з неосилку.
+  description: Краватка-кліпса з неошовку.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/blue.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTiePurple
-  name: фіолетва краватка
+  name: фіолетова краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/purple.rsi
