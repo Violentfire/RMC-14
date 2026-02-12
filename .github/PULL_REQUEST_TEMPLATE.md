@@ -1,35 +1,30 @@
-<!-- Guidelines: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
+<!-- Тут лише приклад зручного формату. Можете змінювати, як забажаєте -->
 
-## About the PR
-<!-- What did you change? -->
+## Про ПР
+<!-- Що змінює ПР? Опишіть це. -->
 
-## Why / Balance
-<!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->
+## Чому
+<!-- Дискусія, аргументи чому та навіщо ці зміни в білді. -->
 
-## Technical details
-<!-- Summary of code changes for easier review. -->
+## Тех. деталі
+<!-- Загальна інформація про те де та як був змінений код. Для легшої перевірки. -->
 
-## Media
-<!-- Attach media if the PR makes ingame changes (clothing, items, features, etc).
-Small fixes/refactors are exempt. Media may be used in RMC14 progress reports with credit. -->
+## Демонстрація
+<!-- Світлини чи відео, які показують зміни ПРу в дії. Якщо це щось технічне чи важке до демонстрації – можете без них.
+Також, ці світлини можуть використовуватися у оголошеннях про оновлення з посиланням на вас, як автора. -->
 
-## Requirements
-<!-- Confirm the following by placing an X in the brackets [X]: -->
-- [ ] I have read and am following the [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
-- [ ] I have added media to this PR or it does not require an ingame showcase.
-<!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
-- [ ] By submitting this code and/or assets, I confirm that I either own them or have provided the correct necessary licenses to use and distribute them. I agree to be fully responsible for any legal claims or issues arising from the use of these materials.
+## Чекліст
+<!-- Пункти представленні нижче обов'язкові для готовності ПРу (якщо вам потрібна допомога з виконанням – звертайтеся в ДС). Відмітьте їх виконання за допомогою англійської X.
+За бажанням ви можете додати ще власні, які будуть допомагати відстежувати прогрес чи щось подібне. -->
+- [ ] Код який додає цей ПР 100% працюючий, не викликає помилок та не потребує технічного допрацювання.
+- [ ] До ПРу додано демонстрацію того, що він змінює або ця демонстрація не потрібна.
 
-**Changelog**
-<!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
-Admin changes may be listed for admins to see with admin:
-Coding changes with no changes visible in-game may be listed for other contributors with code:
-Make sure to read the guidelines.
-Changelog must have a :cl: symbol, so the bot recognizes the changes and adds them to the game's changelog. -->
+**Список змін**
+<!-- У нас автоматично не працює, але все ще корисно для легшого складання ручного ченджлогу. Приклад:
 :cl:
-- add: Added fun!
-- remove: Removed fun!
-- tweak: Changed fun!
-- fix: Fixed fun!
-- admin: Admin related change!
-- code: Code related change for contributors!
+- add: Додано веселощі!
+- remove: Прибрано веселощі!
+- tweak: Змінено веселощі!
+- fix: Виправлено веселощі!
+- admin: Адміністрації додано власні веселощі!
+- code: Кодерам додано власні веселощі! -->
