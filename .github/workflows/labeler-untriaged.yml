@@ -6,6 +6,9 @@ on:
   pull_request_target:
     types: [opened]
 
+permissions:
+  pull-requests: write
+
 jobs:
   add_label:
     runs-on: ubuntu-latest
@@ -13,4 +16,4 @@ jobs:
     - uses: actions-ecosystem/action-add-labels@v1
       if: join(github.event.issue.labels) == ''
       with:
-        labels: "S: Untriaged"
+        labels: "С: Несортований"
