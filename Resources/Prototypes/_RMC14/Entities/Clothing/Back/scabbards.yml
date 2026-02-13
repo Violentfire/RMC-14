@@ -75,7 +75,7 @@
   parent: RMCScabbardBase
   id: RMCScabbardMacheteM2100
   name: піхви для індивідуального мачете М2100 зразка КН20
-  description: Великі шкіряні піхви, які використовуються для носіння мачете М2100 'Нґайхе'. Можна носити на спині або на броні.
+  description: Великі шкіряні піхви, які використовуються для носіння мачете М2100 'Нґайхе'. Можна носити на спині, поясі або броні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_qh20.rsi
