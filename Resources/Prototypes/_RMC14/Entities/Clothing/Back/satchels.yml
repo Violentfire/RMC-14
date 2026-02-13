@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSatchel
   id: CMBackpackSniper
-  name: снайперська сумка M3 
+  name: снайперська сумка M3
   description: Спеціально розроблений халат з кишенями, не шумить, і покриває всі снайперські потреби.
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSatchel
   id: RMCBackpackScout
-  name: термоплащ M68 
+  name: термоплащ M68
   description: Легкі термальні приглушувачі та оптичний камуфляж, що пропонує цей плащ, слабші ніж у стандартних костюмах Гіллі. Але, натомість, його можна носити поверх броні, до того ж, він забезпечує високу маневреність, та кращу пристосованість до навколишніх умов.
   components:
   - type: Sprite
@@ -543,7 +543,7 @@
 - type: entity
   parent: RMCSatchelWelder
   id: RMCSatchelWelderChestrig
-  name: нагрудний технічний жилет для зварки 
+  name: нагрудний технічний жилет для зварки
   description: Спеціалізований нагрудний жилет, який носять техніки та інженери. Цей варіант оснащений одним середнім баком для швидкої заправки зварювального апарату.
   components:
   - type: Sprite
@@ -862,7 +862,7 @@
 - type: entity
   parent: [RMCSatchelLightpack, RMCSatchelWelder]
   id: RMCSatchelLightpackWelder
-  name: легка сумка техніка з паливом для зварки
+  name: легка сумка техніка ПВК з паливом для зварки
   description: Ергономічний, захищений, рюкзак з високою ємністю. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
