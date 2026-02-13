@@ -980,7 +980,7 @@
   parent: RMCHeadFedoraBrown
   id: RMCHeadFedoraGrey
   name: сіра федора
-  description: Класична піщана федора.
+  description: Класична сіра федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/grey_fedora.rsi
