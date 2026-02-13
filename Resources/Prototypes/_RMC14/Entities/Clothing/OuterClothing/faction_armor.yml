@@ -41,7 +41,7 @@
   parent: CMArmorM4PMC
   id: CMArmorIronBear
   name: жилет залізних ведмедів Н1
-  description: Захисний жилет, який носять найманці Залізного Ведмедя..
+  description: Захисний жилет, який носять найманці Залізного Ведмедя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/bear.rsi
