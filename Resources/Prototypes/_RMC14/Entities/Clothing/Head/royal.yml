@@ -9,7 +9,7 @@
   parent: RMCHeadRoyalBeanie
   id: RMCHeadRoyalTurban
   name: турбан королівської морпіхоти
-  description: Стандартний військовий турбан Морської Піхоти Королевської Корони. Вважається рідким, колекціонери шаленіють від цих турбанів.
+  description: Стандартний військовий турбан Морської Піхоти Корони. Вважається рідким, колекціонери шаленіють від цих турбанів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/turban.rsi
@@ -20,7 +20,7 @@
   parent: CMHeadBeret
   id: RMCHeadRoyalBeret
   name: берет королівської морпіхоти
-  description: Зелений берет, який належить Морпіхам Королівської Корони.
+  description: Зелений берет, який належить Морпіхам Корони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret.rsi
@@ -31,7 +31,7 @@
   parent: RMCHeadRoyalBeret
   id: RMCHeadRoyalBeretLead
   name: берет лідера королівської морпіхоти
-  description: A green beret belonging to the Royal Crown Marines.
+  description: Зелений берет, який належить Морпіхам Корони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret_tl.rsi
@@ -43,7 +43,7 @@
   parent: ArmorHelmetPMC
   id: RMCHeadRoyalHelmet
   name: королівський балістичний шолом Л5А2
-  description: Балістичний шолом з високим профілем. Створений для Морпіхів Королівської Корони як частина комплекту броні 'Кестрел'.
+  description: Балістичний шолом з високим профілем. Створений для Морпіхів Корони як частина комплекту броні 'Кестрел'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/helmet.rsi
@@ -54,7 +54,7 @@
   parent: ArmorHelmetPMC
   id: RMCHeadRoyalHelmetBallistic
   name: королівський балістичний шолом Л5А3
-  description: Балістичний шолом з високим профілем з від'ємним піддзьобком. Створений для Морпіхів Королівської Корони як частина комплекту броні 'Кестрел'.
+  description: Балістичний шолом з високим профілем з від'ємним піддзьобком. Створений для Морпіхів Корони як частина комплекту броні 'Кестрел'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi
