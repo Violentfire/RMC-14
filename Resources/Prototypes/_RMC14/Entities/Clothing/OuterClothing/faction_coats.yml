@@ -132,7 +132,7 @@
   parent: [RMCAllowSuitStorageClothingJacketMB, RMCBaseJacket]
   id: RMCCoatTSEPA
   name: поліцейська куртка ІТСПА
-  description: Чорна поліестрова куртка прікріпленою серебряною Сакурої ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
+  description: Чорна поліестерова куртка з прікріпленою серебряною Сакурою ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/jacket.rsi
