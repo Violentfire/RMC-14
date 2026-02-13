@@ -148,7 +148,7 @@
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAFormal
   name: формальна поліцейська куртка ІТСПА
-  description: Важке вовняне парадне пальто, яке зазвичай носять констеблі TSEPA. Імперія і честь. Обов’язок без меж. Справедливість між світами.
+  description: Важке вовняне парадне пальто, яке зазвичай носять констеблі ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/formal_jacket.rsi
