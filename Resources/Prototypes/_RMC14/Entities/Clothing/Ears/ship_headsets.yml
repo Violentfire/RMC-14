@@ -58,7 +58,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetCE
   name: гарнітура головного інженера
-  description: Гарнітура того, хто відповідає за марнування палива, керування ОІ та розбирання підлоги задля металу, міцної та стійкої конструкції.
+  description: Гарнітура того, хто відповідає за марнування палива, керування ОІ та розбирання підлоги задля металу. Міцної та надійної конструкції.
   components:
   - type: Sprite
     state: ce_headset
@@ -115,7 +115,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetEngineer
   name: гарнітура інженерного
-  description: Придатна для координації реновацій та орбітальних бомбардувань, міцної та стійкої конструкції.
+  description: Придатна для координації реновацій та орбітальних бомбардувань. Міцної та надійної конструкції.
   components:
   - type: Sprite
     state: eng_headset
@@ -266,7 +266,7 @@
   parent: RMCHeadsetShip
   id: CMHeadsetCMP
   name: гарнітура голови всп
-  description: Для дискусій на тему купівлі пончиків та аресту хуліганів.
+  description: Для дискусій на тему купівлі пончиків та арешту хуліганів.
   components:
   - type: Sprite
     state: sec_headset
