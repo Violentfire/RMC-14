@@ -159,7 +159,7 @@
   parent: RMCCoatTSEPA
   id: RMCCoatTSEPAHighVis
   name: світловідбивна куртка ІТСПА
-  description: Зелено-біла смугаста (світловідбивна) поілестрова куртка, яку часто використовує персонал ІТСПА.
+  description: Зелено-біла смугаста (світловідбивна) поліестерова куртка, яку часто використовує персонал ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/highvis_jacket.rsi
