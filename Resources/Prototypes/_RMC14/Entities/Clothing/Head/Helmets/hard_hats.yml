@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCHardHat
   id: RMCHardhatWhiteAlt
-  name: "шахтарський шолом комбінату Чаньє"
+  name: шахтарський шолом комбінату Чаньє
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/Hardhats/white_alt.rsi

@@ -488,7 +488,7 @@
   parent: CMHeadCapMP
   id: RMCHeadBlueSoftCap
   name: синя кепка
-  description: Це бейсболка в несмачному жовтому кольорі.
+  description: Це бейсболка в несмачному синьому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/softcap/blue_cap.rsi
@@ -758,7 +758,7 @@
   parent: RMCHeadBeanie
   id: RMCHeadBeanieTSE
   name: шапка королівського морпіха
-  description: A standard military beanie.
+  description: Стандартна військова шапка.
   suffix: TSE
   components:
   - type: Sprite
