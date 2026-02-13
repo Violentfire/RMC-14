@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCPVEArmorPadsBase
   id: RMCPVEArmorPads
-  name: наплечники М3
+  name: наплічники М3
   description: Додаткова броня, що прикріплюється до броні М3. Захищає від прямих влучань та закриває отвори для рук в броні від шрапнелі.
   components:
   - type: Sprite
