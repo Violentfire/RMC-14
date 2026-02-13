@@ -106,7 +106,7 @@
 - type: entity
   parent: CMArmorM4PMCLight
   id: CMArmorM4PMCSynth
-  name: M4 pattern PMC synthetic armor
+  name: броня синтетика ПВК зразка М4
   description: Модифікація стандартної броні М3. Цей варіант розроблений для синтетиків підтримки ПВК, з витягнутою усією бронею. Створено з думкою, що швидкість понад усе.
   components:
   - type: Clothing
