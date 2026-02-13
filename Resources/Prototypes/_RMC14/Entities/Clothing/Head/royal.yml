@@ -9,7 +9,7 @@
   parent: RMCHeadRoyalBeanie
   id: RMCHeadRoyalTurban
   name: турбан королівської морпіхоти
-  description: Стандартний військовий турбан Морської Піхоти Корони. Вважається рідким, колекціонери шаленіють від цих турбанів.
+  description: Стандартний військовий турбан Королівської Морської Піхоти. Вважається рідким, колекціонери шаленіють від цих турбанів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/turban.rsi
@@ -20,7 +20,7 @@
   parent: CMHeadBeret
   id: RMCHeadRoyalBeret
   name: берет королівської морпіхоти
-  description: Зелений берет, який належить Морпіхам Корони.
+  description: Зелений берет, який належить Королівським Морпіхам.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret.rsi
@@ -31,7 +31,7 @@
   parent: RMCHeadRoyalBeret
   id: RMCHeadRoyalBeretLead
   name: берет лідера королівської морпіхоти
-  description: Зелений берет, який належить Морпіхам Корони.
+  description: Зелений берет, який належить Королівським Морпіхам.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret_tl.rsi
