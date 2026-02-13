@@ -454,7 +454,7 @@
   parent: CMArmorM3Medium
   id: CMArmorM3Light
   name: легка броня зразка М3-Л
-  description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди. Більше захищає від кислоти.
+  description: Полегшена, урізана версія броні М3. Вона ставить швидкість над захистом, тому не дуже сподівайтеся пережити щось сильніше моральної шкоди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/light/padded/jungle.rsi
