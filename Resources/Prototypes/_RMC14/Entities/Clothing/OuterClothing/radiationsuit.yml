@@ -22,7 +22,7 @@
   parent: RMCSuitRadiation
   id: RMCSuitTychoRadiationSuit
   name: радіаційний костюм Тичо 4000
-  description: Вогнетривкий радіаційний захисний костюм Тичо 4000 Вестон-Ямада. Підбитий свинцем, цей важкий костюм повинен бути у комплекті з рукавицями вхуттям та капюшоном.
+  description: Вогнетривкий радіаційний захисний костюм Тичо 4000 Вестон-Ямада. Підбитий свинцем, цей важкий костюм повинен бути у комплекті з рукавицями, взуттям та капюшоном.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/radsuit_weya.rsi
