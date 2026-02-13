@@ -30,7 +30,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, RMCAllowSuitStorageClothingExternalWebbing]
   id: RMCOuterClothingExternalWebbing
-  name: ровнішня розвантажка
+  name: зовнішня розвантажка
   description: Створеня для носіння на комбінезоні, а не на голе тіло. Колись її одягали замість захисного жилету М3-ЕЛ, хоча вона й досі стильніша.
   components:
   - type: Sprite
