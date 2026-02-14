@@ -29,6 +29,6 @@ public sealed class CharacterInfoEvent : EntityEventArgs
         JobTitle = jobTitle;
         Objectives = objectives;
         Briefing = briefing;
-        JobId = jobId;
+        JobId = jobId; // Sich
     }
 }
