@@ -147,7 +147,7 @@ public sealed partial class ChatUIController : IOnSystemChanged<CharacterInfoSys
         // last name eg. "Eats-The-Food" -> "@Eats" "@Food"
         if (newHighlights.Count(c => c == '-') > 1)
             newHighlights = newHighlights.Split('-')[0] + "\n@" + newHighlights.Split('-')[^1];
-        // Use the jobId if available, otherwise fallback to the job title. For PAI as example.
+        // Sich. Use the jobId if available, otherwise fallback to the job title. For PAI as example.
         string jobIdNonNull = jobId ?? job;
         // Convert the job title to kebab-case and use it as a key for the loc file.
         var jobKey = jobIdNonNull.Replace(' ', '-').ToLower(); // Sich
