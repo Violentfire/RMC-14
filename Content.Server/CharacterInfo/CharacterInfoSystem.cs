@@ -50,7 +50,7 @@ public sealed class CharacterInfoSystem : EntitySystem
                 objectives[issuer].Add(info.Value);
             }
 
-            if (_jobs.MindTryGetJob(mindId, out var job))
+            if (_jobs.MindTryGetJob(mindId, out var job)) // Sich
             {
                 jobTitle = job.LocalizedName;
                 jobId = job.ID;
