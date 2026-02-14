@@ -50,7 +50,7 @@
     - FullAuto
     recoilUnwielded: 0
     scatterUnwielded: 0
-    baseFireRate: 10
+    baseFireRate: 5 # Sich. Імба зброя нам не треба
     modifiers:
       FullAuto:
         maxScatterModifier: 0
