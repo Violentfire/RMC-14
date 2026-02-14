@@ -49,7 +49,7 @@ public sealed class CharacterInfoSystem : EntitySystem
         string Job,
         Dictionary<string, List<ObjectiveInfo>> Objectives,
         string? Briefing,
-        string? JobID,
+        string? JobID, // Sich
         string EntityName
     );
 
