@@ -5,7 +5,7 @@
   parent: CMArmorM3Medium
   id: RMCArmorMARSOC
   name: броня морського рейдера
-  description: Глибоко  індивідуально модифікована броня М3. Використовується морськими рейдерами.
+  description: Сильно модифікована броня М3. Використовується Морськими Рейдерами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/marsoc.rsi
