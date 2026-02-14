@@ -1,11 +1,11 @@
 markings-used = Використані маркування
-markings-unused = Невикористані маркування
+markings-unused = Маркування
 markings-add = Додати маркування
 markings-remove = Видалити маркування
 markings-rank-up = Вгору
 markings-rank-down = Вниз
 markings-search = Пошук
-marking-points-remaining = Маркувань лишилось: {$points}
+marking-points-remaining = Лишилось: {$points}
 marking-used = {$marking-name}
 marking-used-forced = {$marking-name} (Forced)
 marking-slot-add = Додати

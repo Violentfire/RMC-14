@@ -268,9 +268,12 @@
     layers:
     - state: ammo_pack-0
       map: ["enum.StorageFillLayers.Fill"]
-  - type: HeldSpeedModifier
-    walkModifier: 0.600
-    sprintModifier: 0.600
+#  - type: ClothingSpeedModifier - Sich
+#    walkModifier: 0.910
+#    sprintModifier: 0.850
+#  - type: HeldSpeedModifier
+#    walkModifier: 0.600
+#    sprintModifier: 0.600
   - type: StorageFillVisualizer
     fillBaseName: ammo_pack
     maxFillLevels: 4
@@ -300,10 +303,29 @@
     storageOpen: null
 
 - type: entity
+  parent: RMCBackpackAmmo
+  id: RMCBackpackAmmoRCM
+  name: RCM carry frame
+  description: A backpack specifically designed to hold equipment for RCM commandos.
+  components:
+  - type: Storage
+    grid:
+    - 0,0,13,1 # 7 slots
+    whitelist:
+      tags:
+      - RMCAmmoBox
+      - CMFirstAidKit
+      - RMCPacketGrenade
+      components:
+      - EmptySandbag
+      - FullSandbag
+      - MortarShell
+
+- type: entity
   parent: CMBackpackWelder
   id: RMCBackpackWelderPMC
-  name: pmc technician welderpack
-  description: Ergonomic, protected, high capacity backpack, designed for Weston-Yamada PMCs. Features a small fueltank for quick blowtorch refueling.
+  name: наплічник техніка ПВК з паливом для зварки
+  description: Ергономічний, захищений, з високою ємністю, створений для найманців Вестон-Ямада. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/welder.rsi

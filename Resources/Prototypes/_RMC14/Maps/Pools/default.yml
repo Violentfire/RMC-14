@@ -1,10 +1,11 @@
 - type: gameMapPool
   id: RMCDefaultMapPool
   maps:
-  # - Savannah # Ship for downstreams and events
-  - Almayer
+  - Savannah # Ship for downstreams and events
+#  - Almayer - Sich, всеодно проп
 
 - type: gameMapPool
   id: RMCDefaultMapPoolAlmayer
   maps:
-  - Almayer
+#  - Almayer - Sich, всеодно проп
+  - Savannah # Sich

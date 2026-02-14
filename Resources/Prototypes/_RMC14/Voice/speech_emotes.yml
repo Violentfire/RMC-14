@@ -99,8 +99,6 @@
     - growled
     - гарчить # Це та все нижче (до кінця прототипу) - з білду Січі
     - гарчать
-    - ричить
-    - ричать
 
 - type: emote
   id: Purr
@@ -214,6 +212,31 @@
     - скиглять
     - скавчить
     - скавчать
+
+- type: emote
+  id: Yip
+  name: rmc-emote-name-yip
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/bark.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+      - BorgChassis
+  chatMessages: ["rmc-emote-yip"]
+  chatTriggers:
+    - yip
+    - yip.
+    - yip?
+    - yip!
+    - yips
+    - yips.
+    - yips?
+    - yips!
+    - їпає # Це та все нижче (до кінця прототипу) - з білду Січі
+    - їпають
 
 - type: emote
   id: Gnash
@@ -345,8 +368,8 @@
     - warbles
     - warbles.
     - warbles!
-    - співає # білд Січі
-    - співають # білд Січі
+    - співає # Це та все нижче (до кінця прототипу) - з білду Січі
+    - співають
 
 # Reptilian
 
@@ -374,3 +397,70 @@
     - rattles her tail
     - rattles his tail
     - rattles its tail
+    - брязкає хвостом # Це та все нижче (до кінця прототипу) - з білду Січ
+    - брязкають хвостом
+    - гримить хвостом
+    - гримлять хвостом
+
+# Slime
+
+- type: emote
+  id: RMCSlimeBubble
+  name: rmc-emote-name-slime-bubble
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-bubble"]
+  chatTriggers:
+  - bubbles
+  - bubbling
+  - булькає # Це та все нижче (до кінця прототипу) - з білду Січі
+  - булькають
+
+- type: emote
+  id: RMCSlimePop
+  name: rmc-emote-name-slime-pop
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-pop"]
+  chatTriggers:
+  - pops
+  - popping
+  - попає # Це та все нижче (до кінця прототипу) - з білду Січі
+  - попають
+
+- type: emote
+  id: RMCSlimeWobble
+  name: rmc-emote-name-slime-wobble
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-wobble"]
+  chatTriggers:
+  - wobbles
+  - wobbling
+  - wibbles 
+  - wibbling
+  - дрижжить # Це та все нижче (до кінця прототипу) - з білду Січі
+  - дрижжать
+  - коливається
+  - коливаються

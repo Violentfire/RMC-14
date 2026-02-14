@@ -211,7 +211,7 @@
 - type: entity
   id: RMCCrateAttachmentSmgStock
   parent: RMCCrateBase
-  name: Ящик прикладів для пістолета-кулемета (4 шт.)
+  name: Ящик цільних прикладів для пістолета-кулемета (4 шт.)
   components:
   - type: StorageFill
     contents:

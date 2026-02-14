@@ -1,0 +1,61 @@
+# Думаю не варто питати про ліцензії на ці файли. . . Але хоча б трохи структуризації та посиланна на авторів.
+
+- files: ["paranoid.ogg"]
+  license: "CC0-1.0"
+  copyright: "Black Sabbath – Paranoid."
+  source: "https://www.youtube.com/watch?v=0qanF-91aJo"
+
+- files: ["fortunate_son.ogg"]
+  license: "CC0-1.0"
+  copyright: "Creedence Clearwater Revival – Fortunate Son."
+  source: "https://www.youtube.com/watch?v=ZWijx_AgPiA"
+
+- files: ["california_dreamin'.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Mamas & The Papas – California Dreamin'."
+  source: "https://www.youtube.com/watch?v=N-aK6JnyFmk"
+
+- files: ["paint_it_black.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Rolling Stones – Paint It, Black."
+  source: "https://www.youtube.com/watch?v=O4irXQhgMqg"
+
+- files: ["seven_nation_army.ogg"]
+  license: "CC0-1.0"
+  copyright: "The White Stripes – Seven Nation Army."
+  source: "https://www.youtube.com/watch?v=0J2QdDbelmY"
+
+- files: ["this_fire.ogg"]
+  license: "CC0-1.0"
+  copyright: "Franz Ferdinand – This Fire."
+  source: "https://www.youtube.com/watch?v=DkWML41wUCo"
+
+- files: ["welcome_to_the_jungle.ogg"]
+  license: "CC0-1.0"
+  copyright: "Guns N' Roses – Welcome To The Jungle."
+  source: "https://www.youtube.com/watch?v=CP3sn7T0rxY"
+
+- files: ["the_man_who_sold_the_world.ogg"]
+  license: "CC0-1.0"
+  copyright: "The Man Who Sold the World (2010 Remaster) made by Midge Ure. Original by David Bowie."
+  source: "https://www.youtube.com/watch?v=mXHKjFKBC0g"
+
+- files: ["invinsible.ogg"]
+  license: "CC0-1.0"
+  copyright: "Duran Duran – INVISIBLE."
+  source: "https://www.youtube.com/watch?v=NRtnUVaRwXM"
+
+- files: ["snake_eater.ogg"]
+  license: "CC0-1.0"
+  copyright: "Snake Eater written by Norihiko Hibino and performed by Cynthia Harrell."
+  source: "https://www.youtube.com/watch?v=m2OR_JaXDaM"
+
+- files: ["vulytsia_skhid.ogg"]
+  license: "CC0-1.0"
+  copyright: "ДК Енергетик – Вулиця Схід."
+  source: "https://www.youtube.com/watch?v=lSmaS3p9w7Y"
+
+- files: ["shybenyk.ogg"]
+  license: "CC0-1.0"
+  copyright: "Харцизи – Шибеник."
+  source: "https://www.youtube.com/watch?v=NwuV3W4oFVU"

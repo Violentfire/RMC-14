@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitDispatcherUniform
-  name: dispatchers uniform
-  description: A blue dress shirt and khakis with a small red security patch sewn on.
+  name: уніформа диспетчера
+  description: Синя сорочка та штані кольору хакі з невеличкою нашивкою охорони.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/dispatcher_uniform.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [RMCUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitBlueWorkwear
-  name: blue workwear
-  description: A pair of brown canvas workpants paired with a dark blue workshirt. A common pairing among blue-collar workers.
+  name: синє робоче вбрання
+  description: Пара коричневих парусинових робочих штанів з темно-синьою сорочкою. Поширене поєднання серед робітників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_workwear.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCJumpsuitBlueWorkwear
   id: RMCJumpsuitKhakiWorkwear
-  name: khaki workwear
-  description: A pair of jeans paired with a khaki workshirt. A common pairing among blue-collar workers due to its drab look.
+  name: робоче вбрання кольору хакі
+  description: Пара джинсів разом з сорочкою кольору хакі. Поширенне поєднання серед робітників через свій похмурий вигляд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/khaki_workwear.rsi

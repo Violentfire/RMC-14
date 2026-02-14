@@ -31,6 +31,9 @@
       path: /Audio/_RMC14/Handling/paper_drop.ogg
       params:
         volume: -5
+  - type: Tag
+    tags:
+    - RMCSkillPamphlet
 
 # SKILLS
 
@@ -98,6 +101,7 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: spotter
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
@@ -184,7 +188,7 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: loader
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
@@ -215,12 +219,25 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: mortar
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMPVERifleman
+
+- type: entity
+  parent: CMPamphlet
+  id: RMCPamphletHeavyMachineGunner
+  name: heavy machinegunner instructional pamphlet
+  description: A pamphlet used to quickly impart vital knowledge. This one has an engineering and a machinegun insignia
+  components:
+  - type: Sprite
+    state: pamphlet_machinegunner
+  - type: SkillPamphlet
+    addSkills:
+      RMCSkillEngineer: 1
+    bypassLimit: true
 
 # OTHER
 
@@ -228,8 +245,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletHonorGuard
-  name: honor guard instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one details the responsibilities of an Honor Guard.
+  name: довідник почесного вартового
+  description: Навчить вас завжди бути поряд з Командувачем та красиво виглядати на спільних знімках. В обов'язки Почесного Вартового входить захист життя Командувача операції, можливо, навіть ціною свого. 
   components:
   - type: Sprite
     state: pamphlet_honorguard
@@ -312,3 +329,6 @@
   id: CMPamphletLanguageMonkey
   name: мальовані каракулі
   description: Шматок паперу розмальований бананами і приматами різних видів. Напевно його намалювала трирічна дитина... або ж не обділений розумом морпіх.
+
+- type: Tag
+  id: RMCSkillPamphlet

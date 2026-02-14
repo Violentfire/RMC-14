@@ -232,8 +232,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadBandRebel
-  name: rebel headband
-  description: A headband made from a simple strip of cloth. The words "DOWN WITH TYRANTS" are emblazoned on the front.
+  name: пов'язка на голову повстанця
+  description: Пов'язка з простої смуги тканини. Слова 'В ДУПУ ТИРАНІВ' написано спереду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/rebel.rsi

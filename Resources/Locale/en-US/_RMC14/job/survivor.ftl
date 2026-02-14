@@ -1,66 +1,91 @@
 ﻿# загальні вижививші
 
+# Civilian Colinist
+# You are a survivor of the attack on a corporate facility. You worked or lived in the colony/station, and managed to avoid the alien attacks... until now.
 cm-job-name-survivor = Цивільний Колоніст
-cm-job-description-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
+cm-job-description-survivor = Ви пережили напад на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак чужих... До цього моменту.
 
-cm-job-name-survivor-doctor = Колоніст-Лікар
+# Doctor Colonist
+cm-job-name-survivor-doctor = Лікар Колоніст
 
-cm-job-name-survivor-engineer = Колоніст-Інженер
+# Engineer Colonistt
+cm-job-name-survivor-engineer = Інженер Колоніст
 
-cm-job-name-survivor-security = Колоніст-Охоронець
+# Security Colonist
+cm-job-name-survivor-security = Охоронець Колоніст
 
-cm-job-name-survivor-corporate = Колоніст-Корпорат
+# Corporate Colonist
+cm-job-name-survivor-corporate = Корпорат Колоніст
 
-cm-job-name-survivor-scientist = Колоніст-Науковець
+# Scientist Colonist
+cm-job-name-survivor-scientist = Науковець Колоніст
 
-rmc-job-name-survivor-co = Survivor Commander
-rmc-job-description-survivor-co = You are a Major of the UNMC.
+# Survivor Commander
+# You are a Major of the UNMC.
+rmc-job-name-survivor-co = Уцілілий Командувач
+rmc-job-description-survivor-co = Ви є майором КМПОН
 
-rmc-job-name-survivor-synth = Survivor Synthetic
-rmc-job-description-survivor-synth = You are a synthetic survivor of the attack on a corporate facility.
+# Survivor Synthetic
+# You are a synthetic survivor of the attack on a corporate facility.
+rmc-job-name-survivor-synth = Уцілілий Синтетик
+rmc-job-description-survivor-synth = Ви є синтетиком пережившим атаку на об'єкт корпорації.
 
-rmc-job-name-survivor-military = Military Survivor
-rmc-job-description-survivor-military = You are a survivor of the xenonid infestation on the colony, apart of some kind of military organization.
+# Military Survivor
+# You are a survivor of the xenonid infestation on the colony, apart of some kind of military organization.
+rmc-job-name-survivor-military = Уцілілий Військовий
+rmc-job-description-survivor-military = Ви пережили інфестацію ксенонідів на колонії, будучи частиною якоїсь військової організації.
 
 # Playtime trackers
-rmc-playtime-tracker-job-name-survivor = Civilian Survivor
-rmc-playtime-tracker-job-name-survivor-doctor = Doctor Survivor
-rmc-playtime-tracker-job-name-survivor-engineer = Engineer Survivor
-rmc-playtime-tracker-job-name-survivor-security = Security Survivor
-rmc-playtime-tracker-job-name-survivor-corporate = Corporate Survivor
-rmc-playtime-tracker-job-name-survivor-scientist = Scientist Survivor
-rmc-playtime-tracker-job-name-survivor-military = Military Survivor
-rmc-playtime-tracker-job-name-survivor-co = Survivor CO
-rmc-playtime-tracker-job-name-survivor-synth = Survivor Synthetic
+rmc-playtime-tracker-job-name-survivor = Уцілілий Цивільний
+rmc-playtime-tracker-job-name-survivor-doctor = Уцілілий Лікар
+rmc-playtime-tracker-job-name-survivor-engineer = Уцілілий Інженер
+rmc-playtime-tracker-job-name-survivor-security = Уцілілий Охоронець
+rmc-playtime-tracker-job-name-survivor-corporate = Уцілілий Корпорат
+rmc-playtime-tracker-job-name-survivor-scientist = Уцілілий Науковець
+rmc-playtime-tracker-job-name-survivor-military = Уцілілий Військовий
+rmc-playtime-tracker-job-name-survivor-co = Уцілілий КО
+rmc-playtime-tracker-job-name-survivor-synth = Уцілілий Синтетик
 
-cm-job-name-survivor-trucker = Колоніст-Далекобійник
+# Trucker Colonist
+cm-job-name-survivor-trucker = Далекобійник Колоніст
 
-cm-job-name-survivor-icb = Interstellar Commerce Bureau Liaison
-CMJobSurvivorICB = Interstellar Commerce Bureau Liaison
-cm-job-prefix-survivor-icb = ICB Rep.
+# Interstellar Commerce Bureau Liaison x2
+# ICB Rep.
+cm-job-name-survivor-icb = Представник Бюро Міжзоряної Торгівлі
+CMJobSurvivorICB = Представник Бюро Міжзоряної Торгівлі
+cm-job-prefix-survivor-icb = Пред. ПБМ
 
-cm-job-name-survivor-isr = Interstellar Life Rights Observer
-CMJobSurvivorISR = Interstellar Life Rights Observer
+# Interstellar Life Rights Observer x2
+cm-job-name-survivor-isr = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі
+CMJobSurvivorISR = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі
 
-rmc-job-name-survivor-cmb-deputy = Представник БКМ
-CMSurvivorCMBDeputy = Представник БКМ
+# CMB Deputy x2
+rmc-job-name-survivor-cmb-deputy = Помічник БКМ
+CMSurvivorCMBDeputy = Помічник БКМ
 
-rmc-job-name-survivor-bureau-marshal = CMB Marshal
-cm-job-prefix-survivor-cmb-marshal = CMB MAR
+# CMB Marshal
+# CMB MAR
+rmc-job-name-survivor-bureau-marshal = Маршал БКМ
+cm-job-prefix-survivor-cmb-marshal = МАР БКМ
 
-cm-job-name-survivor-flight-control-operator = Flight Control Operator
+# Flight Control Operator
+cm-job-name-survivor-flight-control-operator = Диспетчер УПР
 
-cm-job-name-survivor-unmc = UNMC Remnant
+# UNMC Remnant
+cm-job-name-survivor-unmc = Уцілилий КМПОН
 
 # misc survs
 
-cm-job-name-survivor-prisoner = Prisoner
-CMSurvivorPrisoner = Prisoner
+# Prisoner x2
+cm-job-name-survivor-prisoner = В'язень
+CMSurvivorPrisoner = В'язень
 
-cm-job-name-survivor-gang-leader = Gang Leader
-CMSurvivorGangLeader = Gang Leader
+# Gang Leader x2
+cm-job-name-survivor-gang-leader = Лідер Банди
+CMSurvivorGangLeader = Лідер Банди
 
-rmc-job-greeting-survivor = Ви вижили під час нападу на об'єкт корпорації. Ви працювали або жили в колонії/станції та вам вдавалося уникати атак інопланетян... До цього часу.
+# You are a survivor of the attack on the colony. You worked or lived in the colony, and managed to avoid the alien attacks... until now.
+rmc-job-greeting-survivor = Ви пережили напад на колонію. Ви працювали або жили на ній та вам вдавалося уникати атак чужих... До цього моменту.
 
   Ви повністю усвідомлюєте загрозу ксенонідів і можете використовувати ці знання на свій розсуд.
 
@@ -69,9 +94,10 @@ rmc-job-greeting-survivor = Ви вижили під час нападу на о
   Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
 # Misc variants
-cm-job-name-survivor-miner = Колоніст-Шахтар
+# Miner Colonist
+cm-job-name-survivor-miner = Шахтар Колоніст
 
-cm-job-name-surivor-priest = Колоніст-Священик
+cm-job-name-surivor-priest = Священник Колоніст
 
 # FORECON survs
 
@@ -87,112 +113,116 @@ rmc-job-name-forecon = Виживший ФОРКОНа
 rmc-job-description-forecon = Ви — морський піхотинець КМПОН ФОРКОН, який застряг на планеті. Ваш корабель ОНК Хануют, зазнав аварії і ви опинилися на ній. Зробіть усе можливе, щоб вижити!
 
 rmc-job-name-forecon-sniper = Снайпер
-rmc-job-name-forecon-marksman = Снайпер піхоти
+rmc-job-name-forecon-marksman = Марксмен
 rmc-job-name-forecon-support-tech = Технік Підтримки
 rmc-job-name-forecon-synth = Синтетик
-rmc-job-name-forecon-commander = Командир
+rmc-job-name-forecon-commander = Командувач
 
-# Виживші ЛВ-624
+# Виживші ЖЗ-624
 
 rmc-job-name-survivor-lv624-archeologist = Археолог
 rmc-job-name-survivor-lv624-cargo-technician = Вантажник
-rmc-job-name-survivor-lv624-corporate-liaison = Представник Корпорації ЛВ-624
+rmc-job-name-survivor-lv624-corporate-liaison = Представник Корпорації ЖЗ-624
 rmc-job-name-survivor-lv624-security-guard = Охоронець Ве-Я
-rmc-job-name-survivor-lv624-medical-technician = Технік Швидкої Мед. Допомоги
+# Emergency Medical Technician
+# так, я знаю що це звучить тупо і як калька, АЛЕ ЦЕ ОФІЦІЙНИЙ ТЕРМІН!!
+rmc-job-name-survivor-lv624-medical-technician = Екстрений Медичний Технік
 rmc-job-name-survivor-lv624-engineer = Інженер
 
-rmc-job-greeting-corporate-dome-cl = You are the last alive Executive of Lazarus Landing!
+# You are the last alive Executive of Lazarus Landing!
+rmc-job-greeting-corporate-dome-cl = Ви є останнім живим Представником на Посадці Лазаруса!
 
-  You are aware of the xenonid threat.
+  Ви усвідомлюєте загрозу ксенонідів.
+  
+  Ваше основне завдання це пережити інфестацію.
 
-  Your primary objective is to survive the outbreak.
+  Ви є Представником Корпорації розташованим на ЖЗ-624 від Вестон-Ямада. Вам повідомили про деякі дуже дивні яйця, знайдені в інопланетному храмі на північний схід від колонії. Будучи розумним Представником, якого Компанія і найняла, ви вирішили підготувати власний офіс до найгіршого, коли перший 'паразит' народився в резервуарах Дослідницького Купола. Як виявилося, ви мали рацію, і усі хто кликали вас шаленим і називали цих новими 'синтетиками' тепер мертві, а ви напару з вашою Корпоративною Охороною є єдиними вцілілими завдячуючи вашій параної. Навала ксенонідів була завзята, контейнер з паливом був прострілений одним з Офіцерів, через що частина копули була знищена, разом з купою розплавлених барикад. Ви повинні вижити та знайти спосіб зв'язатися з Вестон-Ямада.
 
-  You are a Corporate Liaison stationed on LV-624 from Weston-Yamada. You were tipped off about some very peculiar looking eggs recovered from the alien temple North-East of the colony. Being the smart Executive the Company hired you to be, you decided to prepare your office for the worst when the first 'parasite' was born in the vats of the Research Dome. Turned out, you were right, everyone who called you crazy and called these the new 'synthetics' is now dead, you along with your Corporate Security detail are the only survivors due to your paranoia. The xenonid onslaught was relentless, a fuel tank was shot by one of the Officers, leading to the destruction of a part of the dome, along with a lot of the defences being melted. You must survive and find a way to contact Weston-Yamada.
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+rmc-job-greeting-corporate-dome-goon = Ви є Офіцером Корпоративної Охорони!
 
-rmc-job-greeting-corporate-dome-goon = You are a Corporate Security Officer!
+  Ви усвідомлюєте загрозу ксенонідів.
+  
+  Ваше основне завдання це пережити інфестацію.
 
-  You are aware of the xenonid threat.
+  Ви є Офіцером Корпоративної Охорони розташованим на ЖЗ-624 від Вестон-Ямада. Одного дня, раптом вас відтягнув в сторону Представник Корпорації і казав принести припаси з Офісів Маршалів до їхнього офісу, та швидко. Ви почали фортифікувати Корпоративний Купрол та вам було сказано що щось потужне спустошить колонію, виключаючі вас. Як виявилося, Представник був правий, і так звані 'ксеноніди' вирвалися на волю з Дослідницького Купола та почали знищення усієї колонії. Коли вони дійшли до Купола і спробували вбити усіх вас, вам ледве вдалося їх стримати навіть після втрати одного Офіцера та купи барикад. Корпорат сказав вам, що скоро вони знайдуть спосіб зв'язатися з Вестон-Ямада та стояти непохитно допоки порятунок не прийде.
 
-  Your primary objective is to survive the outbreak.
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-  You are a Corporate Security Officer stationed on LV-624 from Weston-Yamada. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from the Marshals Offices to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenonids' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weston-Yamada and to remain steadfast until rescue arrives.
+rmc-job-greeting-corporate-dome-goon-lead = Ви є Лідером Корпоративної Охорони!
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+  Ви усвідомлюєте загрозу ксенонідів.
+  
+  Ваше основне завдання це пережити інфестацію.
 
-rmc-job-greeting-corporate-dome-goon-lead = You are a Corporate Security Lead!
+  Ви є Лідером Корпоративної Охорони розташованим на ЖЗ-624 від Вестон-Ямада. Одного дня, раптом вас відтягнув в сторону Представник Корпорації і казав зібрати усіх охоронів, та швидко. Ви почали фортифікувати Корпоративний Купрол та вам було сказано що щось потужне спустошить колонію, виключаючі вас. Як виявилося, Представник був правий, і так звані 'ксеноніди' вирвалися на волю з Дослідницького Купола та почали знищення усієї колонії. Коли вони дійшли до Купола і спробували вбити усіх вас, вам ледве вдалося їх стримати навіть після втрати одного Офіцера та купи барикад. Корпорат сказав вам, що скоро вони знайдуть спосіб зв'язатися з Вестон-Ямада та стояти непохитно допоки порятунок не прийде.
 
-  You are aware of the xenonid threat.
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-  Your primary objective is to survive the outbreak.
+rmc-job-greeting-corporate-dome-goon-medic = Ви є Медиком Корпоративної Охорони!
 
-  You are a Corporate Security Lead stationed on LV-624 from Weston-Yamada. Suddenly one day you were pulled aside by the Corporate Liaison and told to organize the security forces present, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenonids' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weston-Yamada and to remain steadfast until rescue arrives.
+  Ви усвідомлюєте загрозу ксенонідів.
+  
+  Ваше основне завдання це пережити інфестацію.
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+  Ви є Медиком Корпоративної Охорони розташованим на ЖЗ-624 від Вестон-Ямада. Одного дня, раптом вас відтягнув в сторону Представник Корпорації і казав зібрати усі припаси з Медичного до їхнього офісу, та швидко. Ви почали фортифікувати Корпоративний Купрол та вам було сказано що щось потужне спустошить колонію, виключаючі вас. Як виявилося, Представник був правий, і так звані 'ксеноніди' вирвалися на волю з Дослідницького Купола та почали знищення усієї колонії. Коли вони дійшли до Купола і спробували вбити усіх вас, вам ледве вдалося їх стримати навіть після втрати одного Офіцера та купи барикад. Корпорат сказав вам, що скоро вони знайдуть спосіб зв'язатися з Вестон-Ямада та стояти непохитно допоки порятунок не прийде.
 
-rmc-job-greeting-corporate-dome-goon-medic = You are a Corporate Security Medic!
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
-  You are aware of the xenonid threat.
+rmc-job-greeting-corporate-dome-goon-engi = Ви є Техніком Корпоративної Охорони!
 
-  Your primary objective is to survive the outbreak.
+  Ви усвідомлюєте загрозу ксенонідів.
+  
+  Ваше основне завдання це пережити інфестацію.
 
-  You are a Corporate Security Medic stationed on LV-624 from Weston-Yamada. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from the Medbay to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenonids' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weston-Yamada and to remain steadfast until rescue arrives.
+    Ви є Медиком Корпоративної Охорони розташованим на ЖЗ-624 від Вестон-Ямада. Одного дня, раптом вас відтягнув в сторону Представник Корпорації і казав зібрати усі припаси з Інженерного до їхнього офісу, та швидко. Ви почали фортифікувати Корпоративний Купрол та вам було сказано що щось потужне спустошить колонію, виключаючі вас. Як виявилося, Представник був правий, і так звані 'ксеноніди' вирвалися на волю з Дослідницького Купола та почали знищення усієї колонії. Коли вони дійшли до Купола і спробували вбити усіх вас, вам ледве вдалося їх стримати навіть після втрати одного Офіцера та купи барикад. Корпорат сказав вам, що скоро вони знайдуть спосіб зв'язатися з Вестон-Ямада та стояти непохитно допоки порятунок не прийде.
 
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
-
-rmc-job-greeting-corporate-dome-goon-engi = You are a Corporate Security Technician!
-
-  You are aware of the xenonid threat.
-
-  Your primary objective is to survive the outbreak.
-
-  You are a Corporate Security Technician stationed on LV-624 from Weston-Yamada. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from Engineering to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenonids' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weston-Yamada and to remain steadfast until rescue arrives.
-
-  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+  Ви [bold][color=#51A16C][font size=16]НЕ ВОРОЖІ до КМПОН![/font][/color][/bold]
 
 # Виживші Нью-Варадеро
 
-rmc-job-name-survivor-commander-new-varadero = Командер
+rmc-job-name-survivor-commander-new-varadero = Командувач
 
 cm-job-name-surivor-beach-bum = Пляжний Тусовщик
 
-cm-job-name-survivor-cargo-technician = Працівник Складу Нью-Варадеро
+cm-job-name-survivor-cargo-technician = Вантажник Нью-Варадеро
 
-cm-job-name-survivor-medical-technician = Працівник Медичного Ньо-Варадеро
+cm-job-name-survivor-medical-technician = Медичний Технік Нью-Варадеро
 
 cm-job-name-survivor-technician = Технік Нью-Варадеро
 
-cm-job-name-survivor-un-peacekeeper = Миротворець ООН
+cm-job-name-survivor-un-peacekeeper = Миротворець Об'єднаних Націй
 
-cm-job-name-survivor-new-varadero-researcher = Науковець Нью-Варадеро
+cm-job-name-survivor-new-varadero-researcher = Дослідник Нью-Варадеро
 
 # Виживші Процвітаючої Гібріси
 
 rmc-job-name-survivor-hybrisa-civilian = Цивільний
 
-rmc-job-name-survivor-hybrisa-office-worker = Цивільний - Працівник Офісу
+rmc-job-name-survivor-hybrisa-office-worker = Цивільний - Офісний Працівник
 
-rmc-job-name-survivor-hybrisa-weyamart-employee = Цивільний - Працівник Веймарта
+rmc-job-name-survivor-hybrisa-weyamart-employee = Цивільний - Працівник Веямарта
 
-rmc-job-name-survivor-material-reprocessing-technician = Цивільний - Технік з Переробки Матеріалів
+rmc-job-name-survivor-material-reprocessing-technician = Цивільний - Технік Переробки Матеріалів
 
-rmc-job-name-survivor-fire-protection-specialist-hybrisa = Цивільний - Спеціаліст з Пожежної Безпеки
+rmc-job-name-survivor-fire-protection-specialist-hybrisa = Цивільний - Спеціаліст Пожежної Безпеки
 rmc-job-prefix-fire-protection-specialist-hybrisa = СПБ
 
-rmc-job-name-survivor-grind-barista = Цивільний - Бариста
+# The Daily Grind Barista
+rmc-job-name-survivor-grind-barista = Цивільний - Бариста Щоденної Рутини
 
 rmc-job-name-survivor-tmcc-miner = TMCC - Шахтар
 
 rmc-job-name-survivor-medical-doctor = Лікар
 
-rmc-job-name-survivor-emt-paramedic = ТШМД - Парамедик 
+rmc-job-name-survivor-emt-paramedic = ЕМТ - Парамедик 
 
 rmc-job-name-survivor-xenoarchaeologist = Ксеноархеолог
 
 rmc-job-name-survivor-xenobiologist = Ксенобіолог
 
-rmc-job-name-survivor-pizza-galaxy = Цивільний - Водій Доставки Галактики Піци
+rmc-job-name-survivor-pizza-galaxy = Цивільний - Кур'єр Галактики Піци
 
 # Виживші Сорокіна. Комуняки, поки не чипаю
 
@@ -234,64 +264,128 @@ cm-job-name-survivor-trijent-engi-hydro = Інженер-Гідроелектр�
 
 cm-job-name-survivor-trijent-dam-tech = Технік з Обслуговування Дамби
 
-cm-job-name-survivor-trijent-corporate = Представник Корпорації Трідженту
-CMSurvivorTrijentCorporate = Trijent Corporation Liaison
+cm-job-name-survivor-trijent-corporate = Представник Корпорації на Трідженті
+CMSurvivorTrijentCorporate = Представник Корпорації на Трідженті
 
 # Fiorina Science Annex Survs
 
-cm-job-name-survivor-fiorina-corporate-liaison = Fiorina Corporate Liaison
-CMSurvivorFiorinaCorporateLiaison = Fiorina Corporate Liaison
+cm-job-name-survivor-fiorina-corporate-liaison = Представник Корпорації на Фіоріні
+CMSurvivorFiorinaCorporateLiaison = Представник Корпорації на Фіоріні
 
-cm-job-name-survivor-fiorina-doctor = Fiorina Doctor
-CMSurvivorFiorinaDoctor = Fiorina Doctor
+cm-job-name-survivor-fiorina-doctor = Лікар Фіоріни
+CMSurvivorFiorinaDoctor = Лікар Фіоріни
 
-cm-job-name-survivor-fiorina-engineer = Fiorina Engineer
-CMSurvivorFiorinaEngineer = Fiorina Engineer
+cm-job-name-survivor-fiorina-engineer = Інженер Фіоріни
+CMSurvivorFiorinaEngineer = Інженер Фіоріни
 
-cm-job-name-survivor-fiorina-researcher = Fiorina Researcher
-CMSurvivorFiorinaResearcher = Fiorina Researcher
+cm-job-name-survivor-fiorina-researcher = Дослідник Фіоріни
+CMSurvivorFiorinaResearcher = Дослідник Фіоріни
 
-cm-job-name-survivor-riot-officer = United Nations Riot Officer
-CMSurvivorFiorinaRiotOfficer = United Nations Riot Officer
-cm-job-prefix-survivor-riot-officer = UN RO
+# у нас в мові немає аналога riot одним словом - мається на увазі підрозділ до заворушень. Поліцейський спецназ дуже розмите поняття, але підходить
+cm-job-name-survivor-riot-officer = Офіцер Поліцейського Спецназу Об'єднаних Націй
+CMSurvivorFiorinaRiotOfficer = Офіцер Поліцейського Спецназу Об'єднаних Націй
+cm-job-prefix-survivor-riot-officer = ОПС ОН
 
-CMSurvivorFiorinaPrisonGuard = We-Ya Corporate Security
+CMSurvivorFiorinaPrisonGuard = Корпоративний Охоронець Ве-Я
 
 # Kutjevo Refinery Survs
 
-rmc-job-name-survivor-kutjevo-chaplain = Kutjevo Chaplain
+rmc-job-name-survivor-kutjevo-chaplain = Священик Кутєво
 
-rmc-job-name-survivor-kutjevo-corporate = Kutjevo Corporate Liaison
+rmc-job-name-survivor-kutjevo-corporate = Представник Корпорації на Кутєво
 
-rmc-job-name-survivor-kutjevo-doctor = Kutjevo Doctor
+rmc-job-name-survivor-kutjevo-doctor = Лікар Кутєво
 
-rmc-job-name-survivor-kutjevo-engineer = Kutjevo Engineer
+rmc-job-name-survivor-kutjevo-engineer = Інженер Кутєво
 
-rmc-job-name-survivor-kutjevo-goon = Kutjevo Security
+rmc-job-name-survivor-kutjevo-goon = Охоронець Кутєво
 
-rmc-job-name-survivor-kutjevo-researcher = Kutjevo Researcher
+rmc-job-name-survivor-kutjevo-researcher = Дослідник Кутєво
 
-rmc-job-name-survivor-kutjevo-trucker = Kutjevo Heavy Vehicle Operator
+rmc-job-name-survivor-kutjevo-trucker = Водій Важкого Транспорту Кутєво
 
 # Solaris Ridge Survs
 
-rmc-job-name-survivor-solaris-chaplain = Solaris Chaplain
+rmc-job-name-survivor-solaris-chaplain = Священник Солярісу
 
-rmc-job-name-survivor-solaris-corporate-liaison = Solaris Corporate Liaison
+rmc-job-name-survivor-solaris-corporate-liaison = Представник Корпорації на Солярісі
 
-rmc-job-name-survivor-solaris-doctor = Solaris Doctor
+rmc-job-name-survivor-solaris-doctor = Лікар Солярісу
 
-rmc-job-name-survivor-solaris-engineer = Solaris Engineer
+rmc-job-name-survivor-solaris-engineer = Інженер Солярісу
 
-rmc-job-name-survivor-solaris-scientist = Solaris Scientist
+rmc-job-name-survivor-solaris-scientist = Науковець Солярісу
 
-rmc-job-name-survivor-solaris-trucker = Solaris Heavy Vehicle Operator
+rmc-job-name-survivor-solaris-trucker = Водій Важкого Транспорту Солярісу
 
-rmc-job-name-survivor-unmc-recruiter = UNMC Recruiter
+rmc-job-name-survivor-unmc-recruiter = Рекрутер КМПОН
+
+rmc-job-name-survivor-solaris-corporate-supervisor = Colony Supervisor
+rmc-job-prefix-survivor-solaris-corporate-supervisor = Supervisor
+
+rmc-job-greeting-solaris-pmc = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are a PMC from Weston-Yamada. Your ship was enroute to Solaris Ridge to escort an Assistant Manager. On the way, your ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, your pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your squadmates lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You need to find out what happened to the colony, see if you can find any of your squadmates, and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-solaris-pmc-medic = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are a PMC medic from Weston-Yamada. Your ship was enroute to Solaris Ridge to escort an Assistant Manager. On the way, your ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, your pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your squadmates lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You need to find out what happened to the colony, see if you can find any of your squadmates, and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-solaris-pmc-engineer = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are a PMC engineer from Weston-Yamada. Your ship was enroute to Solaris Ridge to escort an Assistant Manager. On the way, your ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, your pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your squadmates lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You need to find out what happened to the colony, see if you can find any of your squadmates, and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-solaris-pmc-leader = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are a PMC team leader from Weston-Yamada. Your ship was enroute to Solaris Ridge to escort an Assistant Manager. On the way, your ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, your pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your squadmates lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You need to find out what happened to the colony, see if you can find any of your squadmates, and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-solaris-pmc-commander = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are a PMC field operations leader from Weston-Yamada. Your ship was enroute to Solaris Ridge to escort an Assistant Manager. On the way, your ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, your pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your squadmates lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You need to find out what happened to the colony, see if you can find any of your squadmates, and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-solaris-pmc-supervisor = You are a survivor of a crash landing!
+
+  You are NOT aware of the xenomorph threat.
+
+  Your primary objective is to survive. You believe a second dropship crashed somewhere to the north, which was carrying additional supplies.
+
+  You are an Assistant Manager from Weston-Yamada. You were being escorted onboard a PMC ship to Solaris Ridge. On the way, the ship received a distress signal from the colony about an attack. Worried that it might be a CLF attack, the pilot set full speed for the colony. However, during atmospheric entry the engine failed and you fell unconscious from the G-Forces. You wake up wounded... and see that the ship has crashed onto the colony. Your PMC escorts lie dead beside you, but there's some missing. Perhaps they survived and moved elsewhere? You must get up and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
 
 # Shivas survs
 
-rmc-job-name-survivor-shivas-liaison = Shivas Corporate Liaison
-rmc-job-name-survivor-shivas-doctor = Shivas Doctor
-rmc-job-name-survivor-shivas-researcher = Shivas Researcher
-rmc-job-name-survivor-shivas-engineer = Shivas Engineer
+rmc-job-name-survivor-shivas-liaison = Представник Корпорації на Шивасі
+rmc-job-name-survivor-shivas-doctor = Лікар Шивасу
+rmc-job-name-survivor-shivas-researcher = Дослідник Шивасу
+rmc-job-name-survivor-shivas-engineer = Інженер Шивасу

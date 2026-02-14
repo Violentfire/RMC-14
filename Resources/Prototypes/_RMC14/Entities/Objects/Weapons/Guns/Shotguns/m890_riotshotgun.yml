@@ -1,61 +1,16 @@
-- type: entity
-  parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
+﻿- type: entity
+  parent: WeaponShotgunM890
   name: M890 протибунтівний дробовик
   id: RMCWeaponShotgunM890Riot
-  description: Унікальний напівавтоматичний дробовик корпоративного виробництва з високою скорострільністю. Вміщує 8 травматичних набоїв у трубчастий магазин. Розроблений спеціально для контролю натовпу в екстремальних ситуаціях.
+  description: Унікальний напівавтоматичний дробовик виробництва Вестон-Ямада з високою скорострільністю. Вміщує 8 травматичних набоїв у трубчастий магазин. Розроблений спеціально для придушення бунтів.
+  suffix: Riot, Beanbags
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_riot.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_riot.rsi
-  - type: Gun
-    shotsPerBurst: 1
-    soundGunshot:
-      collection: RMCTacticalShotgunShoot
-  - type: ShootUseDelay
-  - type: RMCSelectiveFire
-    baseFireModes:
-    - SemiAuto
-    recoilWielded: 2
-    recoilUnwielded: 4
-    scatterWielded: 5
-    scatterUnwielded: 10
-    baseFireRate: 0.7
-    burstScatterMult: 5
   - type: BallisticAmmoProvider
-    cycleable: false
     whitelist:
       tags:
       - RMCShellShotgunBeanbag
-    capacity: 8
-  - type: AttachableHolder
-    slots:
-      rmc-aslot-barrel:
-        whitelist:
-          tags:
-          - RMCAttachmentExtendedBarrel
-          - RMCAttachmentRecoilCompensator
-      rmc-aslot-rail:
-        whitelist:
-          tags:
-          - RMCAttachmentRailFlashlight
-          - RMCAttachmentMagneticHarness
-          - RMCAttachmentS5RedDotSight
-          - RMCAttachmentS6ReflexSight
-      rmc-aslot-stock:
-        startingAttachable: RMCAttachmentM890Stock
-        whitelist:
-          tags:
-          - RMCAttachmentM890Stock
-      rmc-aslot-underbarrel:
-        locked: true
-        startingAttachable: RMCAttachmentU1GrenadeLauncher
-        whitelist:
-          tags:
-          - RMCAttachmentU1GrenadeLauncher
-  - type: AttachableHolderVisuals
-    offsets:
-      rmc-aslot-barrel: 0.825, 0.06
-      rmc-aslot-rail: -0.025, 0.125
-      rmc-aslot-stock: -0.50, 0.065
-      rmc-aslot-underbarrel: 0.30, -0.31
+    proto: CMShellShotgunBeanbag

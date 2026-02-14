@@ -2,8 +2,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMP
-  name: military police jumpsuit
-  description: Standard-issue Military Police uniform. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: комбінезон військової служби правопорядку
+  description: Стандартна уніформа Військової Служби Правопорядку. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/standard/jungle.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMPCorporate
-  name: corporate security officer's jumpsuit
-  description: It's made of a slightly sturdier material than standard jumpsuits, to allow for robust protection.
+  name: комбінезон офіцера корпоративної охорони
+  description: Він зроблений з трошки більш витривалого матеріалу, аніж звичайні комбінезони, задля кращої захищенності.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/standard/corporate.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitWarden
-  name: military warden uniform
-  description: Standard-issue Military Warden uniform. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: уніформа військового наглядача
+  description: Стандартна уніформа Військового Наглядача. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/warden/jungle.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWardenBlue
-  name: blue warden uniform
-  description: The insignia on this uniform tells you that this uniform belongs to the Warden..
+  name: синя уніформа військового наглядача
+  description: Знаки розрізнення на цій формі вказують вам, що вона належить Військовому Наглядачу...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/Warden/blue.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWardenRed
-  name: red warden uniform
-  description: A standard-issue warden uniform.
+  name: червона уніформа військового наглядача
+  description: Стандартна уніформа Військового Наглядача.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/Warden/red.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWardenCorporate
-  name: corporate warden uniform
-  description: A standard-issue warden uniform.
+  name: уніформа корпоративного наглядача
+  description: Стандартна уніформа Наглядача.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/Warden/corporate.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWardenNavy
-  name: navy warden uniform
-  description: A navy variant of warden uniform.
+  name: морська уніформа військового наглядача
+  description: Морський варіант уніформи Військового Наглядача.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/Warden/navy.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWardenTan
-  name: tan warden uniform
-  description: A standard-issue warden uniform.
+  name: пісчана уніформа військового наглядача
+  description: Стандартна уніформа Військового Наглядача.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/Warden/tan.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitWO
-  name: chief MP uniform
-  description: A uniform typically worn by a Chief MP of the UNMC. It has shards of light Kevlar to help protect against stabbing weapons, bullets, and shrapnel from explosions. This uniform includes a small EMF distributor to help nullify energy-based weapon fire, along with a hazmat chemical filter woven throughout the material to ward off biological and radiation hazards.
+  name: уніформа голови ВСП
+  description: Уніформа, яку, зазвичай, носять голови ВСП КМПОН. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї, куль та шрапнелі від вибухів. Ця форма оснащена невеликим розподільником ЕМП для нейтралізації вогню енергетичної зброї, а також хімічним фільтром, вплетеним у матеріал, щоб захищати від біологічних та радіаційних загроз.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/wo/jungle.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCScrubsPrisonMedsec
-  name: prisoner medium custody scrubs
-  description: Orange scrubs worn by prisoners as directed by Marine Law. Marked with yellow for medium custody prisoners.
+  name: форма в'язня середнього рівня
+  description: Помаранчева форма, яку носять в'язні, як і зазначено в Морському Праві. Промарковано жовтим - для ув'язнених середнього рівня безпеки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/prisoner/medsec.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCScrubsPrisonMaxsec
-  name: prisoner maximum custody scrubs
-  description: Orange scrubs worn by prisoners as directed by Marine Law. Marked with red for maximum custody prisoners.
+  name: форма в'язня максимального рівня
+  description: Помаранчева форма, яку носять в'язні, як і зазначено в Морському Праві. Промарковано червоним - для ув'язнених максимального рівня безпеки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/MP/prisoner/maxsec.rsi

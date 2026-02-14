@@ -1,0 +1,20 @@
+- type: emote 
+  id: Flap
+  name: chat-emote-name-flap
+  category: Vocal
+  available: false
+  icon: _Sich/Interface/Emotes/flap.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-flap"]
+  chatTriggers:
+   - маше крилами
+   - машуть крилами
+   - трепушить крилами
+   - трепушать крилами
+   - тріпотить крилами
+   - тріпотять крилами

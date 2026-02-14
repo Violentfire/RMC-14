@@ -1,13 +1,13 @@
-main-menu-invalid-username-with-reason = Invalid username:
+main-menu-invalid-username-with-reason = Недійсне ім'я користувача:
                                          {$invalidReason}
-main-menu-invalid-username = Invalid username
-main-menu-failed-to-connect = Failed to connect:
+main-menu-invalid-username = Недійсне ім'я користувача
+main-menu-failed-to-connect = Не вдалося підключитися:
                               {$reason}
-main-menu-username-label = Username:
-main-menu-username-text = Username
-main-menu-address-label = Server Address:
-main-menu-join-public-server-button = Join Public Server
-main-menu-join-public-server-button-tooltip = Cannot connect to public server with a debug build.
-main-menu-direct-connect-button = Direct Connect
-main-menu-options-button = Options
-main-menu-quit-button = Quit
+main-menu-username-label = Ім'я користувача:
+main-menu-username-text = Ім'я користувача
+main-menu-address-label = Айпі сервера:
+main-menu-join-public-server-button = Підключитися до публічного сервера
+main-menu-join-public-server-button-tooltip = Неможливо підключитися до публічного сервера з дебаг білдом.
+main-menu-direct-connect-button = Пряме підключення
+main-menu-options-button = Налаштування
+main-menu-quit-button = Вийти

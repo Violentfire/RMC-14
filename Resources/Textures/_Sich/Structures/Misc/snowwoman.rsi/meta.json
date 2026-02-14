@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made by potatoed6, beret by noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+    "states": [
+        {
+            "name": "snowwoman"
+        },
+        {
+          "name":"snowwoman_beret"
+        },
+        {
+          "name":"snowwoman_scarf"
+        },
+        {
+          "name":"snowwoman_nose"
+        }
+    ]
+}

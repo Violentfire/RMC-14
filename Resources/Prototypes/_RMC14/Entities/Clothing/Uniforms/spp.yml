@@ -1,14 +1,43 @@
+# Sleeves Only
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
-  id: CMJumpsuitSPP
-  name: SPP fatigues
-  description: A set of SPP fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
+  id: CMJumpsuitSPPOfficer
+  name: лахи офіцера СПН
+  description: Комплект одягу СПН, у масовому виробницстві для збройних сил Соціалістичних Прогресивних Народів.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/uniform.rsi
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/officer.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchSPP
   - type: Foldable
     unfoldVerbText: rmc-sleeves-verb-unfold
     foldVerbText: rmc-sleeves-verb-fold
+  - type: FoldableClothing
+    foldedEquippedPrefix: sleeves
+  - type: Tag
+    tags:
+    - RMCUniformSPP
+
+- type: entity
+  parent: CMJumpsuitSPPOfficer
+  id: CMJumpsuitSPPMP
+  name: лахи військової поліції СПН
+  description: Комплект одягу військової поліції СПН, у масовому виробницстві для збройних сил Соціалістичних Прогресивних Народів.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/mp.rsi
+
+# Sleeves and Jacket
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: RMCJumpsuitSPPPaP
+  name: службові лахи НоП # PaP - People's armed Police
+  description: Пара блакитно-сірих брюк поєднана з блакитною сорочкою, оснащена вставками з венлару у критичних зонах для захисту від колючо-ріжучої зброї та куль малого калібру.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/pap.rsi
   - type: UniformAccessoryHolder
     startingAccessories:
     - RMCPatchSPP
@@ -17,76 +46,10 @@
     - RMCUniformSPP
 
 - type: entity
-  parent: CMJumpsuitSPP
-  id: RMCJumpsuitSPPWebbing
-  components:
-  - type: WebbingClothing
-    startingWebbing: CMWebbing
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: RMCJumpsuitSPPWebbingVestBlack
-  components:
-  - type: WebbingClothing
-    startingWebbing: CMWebbingBlack
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: RMCJumpsuitSPPWebbingTools
-  components:
-  - type: WebbingClothing
-    startingWebbing: RMCToolWebbingFilled
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: CMJumpsuitSPPMedic
-  name: SPP medic fatigues
-  description: A set of SPP medic fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/medic.rsi
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: CMJumpsuitSPPEngi
-  name: SPP engineer fatigues
-  description: A set of SPP engineer fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/engi.rsi
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: CMJumpsuitSPPMP
-  name: SPP military police fatigues
-  description: A set of SPP military police fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/mp.rsi
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: CMJumpsuitSPPOfficer
-  name: SPP officer fatigues
-  description: A set of SPP officer fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/officer.rsi
-
-- type: entity
-  parent: CMJumpsuitSPP
-  id: RMCJumpsuitSPPPaP
-  name: PaP service uniform
-  description: A pair of blue-grey slacks coupled with a blue shirt, featuring venlar armor inserts at critical areas to protect from blades and low caliber ballistics.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/pap.rsi
-
-- type: entity
-  parent: CMJumpsuitSPP
+  parent: RMCJumpsuitSPPPaP
   id: RMCJumpsuitSPPArmy
-  name: SPP army fatigues
-  description: A set of SPP fatigues, mass produced for the Armed Collective of the Socialitsts Progressive Peoples. A rare sight, especially in 3WE zones. This particular set sports the standard SPP pattern of the SPP Army's 202nd Infantry Regiment.
+  name: лахи армії СПН
+  description: Комплект одягу СПН, у масовому виробницстві для Озброєнних Колективів Соціалістичних Прогресивних Народів. Рідкість, особливо в зонах 3WE. Цей набір демонструє стандартну камуфляжну схему 202-го піхотного полку армії СПН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/army.rsi
@@ -98,12 +61,73 @@
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/army_alt.rsi
 
+# Sleeves and Jacket (hides undergarment top)
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: CMJumpsuitSPP
+  name: SPP fatigues
+  description: A set of SPP fatigues, mass produced for the armed-forces of the Socialist Progressive Peoples.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/uniform.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchSPP
+  - type: HideLayerClothing
+    slots:
+    - UndergarmentTop
+  - type: Tag
+    tags:
+    - RMCUniformSPP
+
+- type: entity
+  parent: CMJumpsuitSPP
+  id: RMCJumpsuitSPPWebbing
+  suffix: Webbing
+  components:
+  - type: WebbingClothing
+    startingWebbing: CMWebbing
+
+- type: entity
+  parent: CMJumpsuitSPP
+  id: RMCJumpsuitSPPWebbingVestBlack
+  suffix: Webbing, Black
+  components:
+  - type: WebbingClothing
+    startingWebbing: CMWebbingBlack
+
+- type: entity
+  parent: CMJumpsuitSPP
+  id: RMCJumpsuitSPPWebbingTools
+  suffix: Filled, Tool Webbing
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCToolWebbingFilled
+
+- type: entity
+  parent: CMJumpsuitSPP
+  id: CMJumpsuitSPPMedic
+  name: лахи медика СПН
+  description: Комплект одягу медика СПН, у масовому виробницстві для збройних сил Соціалістичних Прогресивних Народів.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/medic.rsi
+
+- type: entity
+  parent: CMJumpsuitSPP
+  id: CMJumpsuitSPPEngi
+  name: лахи інженера СПН
+  description: Комплект одягу інженера СПН, у масовому виробницстві для збройних сил Соціалістичних Прогресивних Народів.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/engi.rsi
+
 # Civilians
 - type: entity
   parent: RMCUniformBase
   id: CMJumpsuitSPPCiv1
-  name: SPP civilian-style orange overalls
-  description: A set of civilian-style orange overalls with a dark tan undershirt. The material is of a poor quality, however it's better than nothing. Clothing of this style is typically given out to those who work laborious jobs.
+  name: цивільні помаранчеві лахи СПН
+  description: Помаранчевий комбінезон з темно-бежевою підсорочкою. Тканина недовговічна, але краще, ніж нічого. Такий одяг зазвичай отримують ті, хто займаються важкою фізичною працею.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ1.rsi
@@ -111,8 +135,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv2
-  name: SPP civilian-style tan overalls
-  description: A set of Civilian-style Tan Overalls with a Blue undershirt. The material is of a poor quality, however it's better than nothing. Clothing of this style is typically given to those who work laborious jobs.
+  name: цивільні пісочні лахи СПН
+  description: Пісочний комбінезон з блакитною підсорочкою. Тканина недовговічна, але краще, ніж нічого. Такий одяг зазвичай отримують ті, хто займаються важкою фізичною працею.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ2.rsi
@@ -120,8 +144,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv3
-  name: SPP civilian-style shirt and pants
-  description: A set of civilian-style tan shirt and jeans. The material, while poor, is comfortable enough to be worn during all periods of the day.
+  name: цивільні футболка та штані СПН
+  description: Комплект цивільного одягу з пісчаної футболки та джинсів. Матеріал, звісно, поганої якості, проте достатньо зручний, щоби носити цілий день.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ3.rsi
@@ -129,8 +153,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: CMJumpsuitSPPCiv4
-  name: SPP civilian-style vest and pants
-  description: A set of civilian-style brown vest and orange pants. The material is surprisingly decent, something not often worn by the civilians of the SPP for two reasons. They typically can't afford such clothing, and if they can, it paints a target on their back.
+  name: цивільні жилетка та штані СПН
+  description: Комплект цивільного одягу з коричневої жилетки та помаранчевих штанів. Матеріал на диво гарний - щось, що цивільні СПН не часто носять по двом причинам. Зазвичай, вони не можуть собі дозволити таке вбрання, а якщо й можуть, це робить їх мішенню.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ4.rsi
@@ -138,8 +162,8 @@
 - type: entity
   parent: CMJumpsuitSPPCiv1
   id: RMCJumpsuitSPPCiv5
-  name: "Chǎnyè Combine mining overalls"
-  description: "A durable, olive-green jumpsuit worn beneath a sleeveless, puffy orange work vest—standard issue for Chǎnyè Combine laborers. The vest's faded fabric is lined with reinforced padding, offering minimal protection against workplace hazards. A red star insignia is stamped on the back, marking its wearer as part of the Combine’s industrial workforce. Stiff, uncomfortable, and mass-produced, but better than nothing in the unforgiving conditions of deep-space labor."
+  name: "шахтарні лахи комбінату Чаньє"
+  description: "Міцний оливково-зелений комбінезон, який носять під безрукавним, пухким помаранчевим робочим жилетом — стандартна форма робітників об’єднання комбінат Чаньє. Вицвілий матеріал жилета підбитий посиленими вставками, що забезпечують мінімальний захист від виробничих небезпек. На спині штампована червона зірка, що позначає його носія як частину промислового персоналу комбінату. Жорсткий, незручний і масово виготовлений, але краще, ніж нічого в суворих умовах праці у глибокому космосі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/civ5.rsi

@@ -21,6 +21,7 @@
       giveMapBlip:
         sprite: /Textures/_Sich/Interface/map_blips.rsi
         state: sherpa
+      bypassLimit: false # Sich. Особливі ролі лише один раз
       jobWhitelists:
         - popup: rmc-pamphlets-rifleman-warning
           jobProto: CMRifleman

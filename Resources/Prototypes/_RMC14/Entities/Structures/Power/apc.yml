@@ -5,6 +5,9 @@
   description: Термінал керування електросистемою у цій зоні.
   categories: [ HideSpawnMenu ]
   components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideRoleCombatTechnician
   - type: Transform
     anchored: true
   - type: AccessReader
@@ -171,7 +174,7 @@
 - type: entity
   parent: CMApcBase
   id: CMApc
-  suffix: Немає Живлення
+  suffix: Power
   components:
   - type: RMCApc
     startingCell: RMCPowerCellAPC

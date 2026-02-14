@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitPizza
-  name: pizza delivery uniform
-  description: An ill-fitting, slightly stained uniform for a pizza delivery pilot. Smells of cheese.
+  name: уніформа доставки піци
+  description: Непідігнана і трохи брудна форма пілота доставки піци. Пахне сиром.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/pizza.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitCorrespondent
-  name: correspodent uniform
-  description: Standard-issue correspodents's uniform.
+  name: уніформа кореспондента
+  description: Стандартна уніформа кореспондента. Йдіть знімати трупи та героїчних морпіхів, хворі на голову!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Correspondent/white.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitDutch # This is technically originally split into two items, but only the sprites are different between them
-  name: Dutch's Dozen uniform
-  description: A comfortable uniform worn by the Dutch's Dozen mercenaries. It's seen some definite wear and tear, but is still in good condition.
+  name: уніформа Датчз Дозен
+  description: Комфортна уніформа, яку використовують найманці Датчз Дозен. Видно, що вона пережила чимало, проте досі зберігає пристойний вигляд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/jumpsuit.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitDutchBandolier
-  name: hunting clothes
-  description: A set of tailored clothes, made from fine but sturdy reinforced fabrics. Protects from thorns, weather, and the cuts and scrapes that forever bedevil outdoorsmen.
+  name: мисливський одяг
+  description: Комплект одягу на замовлення, зробленого з тонкої, але міцно посиленої тканини. Захищає від колючок, негоди та порізів і подряпин, що постійно дошкуляють любителям відкритого простору.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Dutch/bandolier.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryHeavy
-  name: mercenary fatigues
-  description: A thick, beige suit with a red armband. There is an unknown symbol is emblazed on the suit.
+  name: форма найманця
+  description: Товстий бежевий костюм із червоною пов’язкою на рукаві. На костюмі зображено невідомий символ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/heavy.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryMiner
-  name: mercenary miner fatigues
-  description: A beige suit with a red armband. It looks a little thin, like it wasn't designed for protection. There is an unknown symbol is emblazed on the suit.
+  name: форма найманця-шахтаря
+  description: Товстий бежевий костюм із червоною пов’язкою на рукаві. Виглядає досить тонким, наче він не був зроблений для захисту. На костюмі зображено невідомий символ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/miner.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitMercenaryEngineer
-  name: mercenary engineer fatigues
-  description: A blue suit with yellow accents, used by engineers. There is an unknown symbol is emblazed on the suit.
+  name: форма найманця-інженера
+  description: Блакитний костюм з жовтими акцентами, який використовують інженери. На костюмі зображено невідомий символ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Mercenary/engi.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitMarsoc
-  name: special operative uniform # TODO: find more appropriate name
-  description: A black uniform for elite Marine personnel. Designed to be comfortable and help blend into dark environments.
+  name: уніформа спецназу морпіхоти # TODO: find more appropriate name
+  description: Чорна інформа для елітного персоналу Морпіхів. Створена для зручності та непомітності в темних умовах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/marsoc.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitFreelancer
-  name: freelancer fatigues
-  description: A set of loose-fitting fatigues, perfect for an informal mercenary. Smells like gunpowder, apple pie, and covered in grease and sake stains.
+  name: форма фрілансера
+  description: Вільна польова форма для невибагливого найманця. Запах пороху й сала, плями мастила та горілки — у комплекті.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/freelancer.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: [RMCUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitCivilian
-  name: gray utility uniform
-  description: A stylish gray jumpsuit, popularly issued to UN contract workers on the frontier.
+  name: сіра службова уніформа
+  description: Стильний сірий комбінезон, який часто видається робітникам ОН на віддалених колоніях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/gray_utility.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBrown
-  name: brown utility uniform
-  description: A stylish brown jumpsuit, popularly issued to UN contract workers on the frontier.
+  name: коричнева службова уніформа
+  description: Стильний коричневий комбінезон, який часто видається робітникам ОН на віддалених колоніях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/brown_utility.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianGreen
-  name: green utility uniform
-  description: A stylish green jumpsuit, popularly issued to UN contract workers on the frontier.
+  name: зелена службова уніформа
+  description: Стильний зелений комбінезон, який часто видається робітникам ОН на віддалених колоніях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/green_utility.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBlue
-  name: blue utility uniform
-  description: A blue utility uniform with teal suspenders and rugged pants.
+  name: синя службова уніформа
+  description: Синя службова форма з бірюзовими підтяжками та міцними штанами
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_utility.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianRed
-  name: red utility uniform
-  description: A grey utility uniform with red suspenders and blue jeans, the sign of a veteran laborer, or someone not paid by the hour.
+  name: червона службова уніформа
+  description: Сіра службова форма з червоними підтяжками та синіми джинсами — ознака досвідченого робітника або того, кому платять не погодинно
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianYellow
-  name: yellow utility uniform
-  description: A grey utility uniform with yellow suspenders, made for shipside crew.
+  name: жовта службова уніформа
+  description: Сіра службова форма з жовтими підтяжками, зроблена для екіпажу судів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/yellow_utility.rsi
@@ -217,8 +217,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianWhiteAlt
-  name: white jumpsuit
-  description: A white jumpsuit.
+  name: білий комбінезон
+  description: Білий комбінезон. Як молоко.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/white_jumpsuit_alt.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianBrown
-  name: brown jumpsuit
-  description: A brown jumpsuit.
+  name: коричневий комбінезон
+  description: Коричневий комбінезон. Як дерево.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/brown_jumpsuit.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianLightBrown
-  name: light brown jumpsuit
-  description: A light brown jumpsuit.
+  name: світло-коричневий комбінезон
+  description: Світло-коричневий комбінезон. Як світле дерево.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/lightbrown_jumpsuit.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianGrey
-  name: grey jumpsuit
-  description: A grey jumpsuit.
+  name: сірий комбінезон
+  description: Сірий комбінезон. Як коала.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/grey_jumpsuit.rsi
@@ -261,8 +261,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianYellow
-  name: yellow jumpsuit
-  description: A yellow jumpsuit.
+  name: жовтий комбінезон
+  description: Жовтий комбінезон. Як сонечко. Або пшениця.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/yellow_jumpsuit.rsi
@@ -279,8 +279,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitNormCivilianBlue
-  name: blue jumpsuit
-  description: A blue jumpsuit.
+  name: синій комбінезон
+  description: Синій комбінезон. Як небо.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/blue_jumpsuit.rsi
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitRedShorts
-  name: red shorts
-  description: A ratty pair of red shorts. Smells of ciggarettes.
+  name: червоні шорти
+  description: Зношені червоні шорти. Пахнуть цигарками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/varadero_shorts.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitChaplain
-  name: chaplain's jumpsuit
-  description: It's a black jumpsuit, often worn by religious folk.
+  name: комбінезон св'ященника
+  description: Це чорний комбінезон, який зазвичай носять релігіозні чуваки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/chaplain_uniform.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianVirologist
-  name: virologist's uniform
-  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+  name: уніформа вірусолога
+  description: Вона зроблена із спеціального матеріалу, що забезпечує малий захист проти біологічних загроз. Уніформа має позначки, що окреслюють носія як вірусолога.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/virologists_jumpsuit.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianScientist
-  name: scientist's utility jumpsuit
-  description: It's made of a special fiber that provides minor protection against biohazards. It has markings that denote the wearer as a scientist.
+  name: службовий комбінезон науковця
+  description: Вона зроблена із спеціального матеріалу, що забезпечує малий захист проти біологічних загроз. Уніформа має позначки, що окреслюють носія як науковця.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/scientist_jumpsuit.rsi
@@ -334,8 +334,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitOrange
-  name: orange jumpsuit
-  description: "It's standardised prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
+  name: помаранчевий комбінезон
+  description: "Стандартний одяг в'язня. Сенсори комбінезону завжди в позиції \"Завжди увімкнені\"."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/orange.rsi
@@ -345,8 +345,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitSteward
-  name: steward utilities
-  description: A stylish brown vest and shorts - uniforms like this are often worn by clerks and shop stewards
+  name: службова форма стюарда
+  description: Стильна коричнева жилетка з шортами — звичайна форма клерків і стюардів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/steward.rsi
@@ -356,8 +356,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitWeyamart
-  name: Weyamart uniform
-  description: A pair of dark-grey slacks and an orange button-down shirt; a standard uniform for the Weston-Yamada branded supermarket 'Weyamart'.
+  name: уніформа Веямарта
+  description: Темно-сірі штани та помаранчева сорочка на ґудзиках — стандартна форма для супермаркету 'Веямарт' бренду Вестон-Ямада.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/weyamart.rsi
@@ -367,8 +367,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitSanitation
-  name: Weston-Yamada RFF - sanitation uniform
-  description: A set of Weston-Yamada RFF - Sanitation fatigues, a green pair of work slacks and a grey polo-shirt with green reflecting stripes.
+  name: санітарна уніформа Вестон-Ямада ШОП # Weston-Yamada RFF – sanitation uniform, мейбі RFF це Rapid Facilities Force, ШОП у цьому випадку це Швидкий Оперативний Підрозділ, але насправді мені байдуже, просто ШОП звучить прикольно
+  description: Комплект санітарної уніформи Вестон-Ямада ШОП, зелені робочи штані та сіра футболка-поло із зеленими світловідбивними смужками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/sanitation.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitPizzaGalaxy
-  name: Pizza-Galaxy uniform
-  description: A pair of red slacks and a white button-down shirt with a large 'Pizza-Galaxy' logo on the back; a standard uniform for a Pizza-Galaxy employee. Pizza-Galaxy! To infinity and beyond!
+  name: уніформа Галактики Піци
+  description: Пара червоний штанів та білою сорочки на ґудзиках з великим логотипом 'Галактики Піци' на спині — стандартна уніформа для працівників Галактики Піци. Галактика Піци! До нескінченності й далі!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/pizza_galaxy.rsi
@@ -389,8 +389,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitDailyGrind
-  name: The Daily Grind uniform
-  description: A pair of black slacks and a white short-sleeved button-down shirt; a standard uniform for a 'The Daily Grind' employee. Are you ready for the daily grind?
+  name: уніформа Щоденної Метушні # The Daily Grind - бар на гібрісі
+  description: Пара чорних штанів та білої сорочки з коротким рукавом — стандартна уніформа для працівників Щоденної Метушні. А ви готові до щоденної метушні?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/daily_grind.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitTMCC
-  name: tartarus-mining uniform
-  description: A set of Tartarus-Mining fatigues, a yellow pair of utility work slacks and a light-grey polo-shirt with red reflecting stripes.
+  name: уніформа тартарус-майнінг
+  description: Комплект одягу від компанії 'Тартарус-Майнінг', з жовтими робочими штанями та світло-сірою футболкою-поло з червоними світловідбивними стрічками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/tartarus_mining.rsi
@@ -411,8 +411,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitDoctor
-  name: medical doctor's uniform
-  description: They're made of a special fiber that provides minor protection against biohazards. They have a cross on the chest denoting that the wearer is trained medical personnel.
+  name: уніформа лікаря
+  description: Вона зроблена із спеціального матеріалу, що забезпечує малий захист проти біологічних загроз. Уніформа має хрест на грудині, що окреслює носія як медичний персонал.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/doctor.rsi
@@ -422,8 +422,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitEMT
-  name: EMT - Paramedic uniform
-  description: A set of EMT - Paramedic fatigues, this one is red.
+  name: уніформа парамедика - ЕМТ
+  description: Комплект одягу парамедика - ЕМТ, цей має червоний колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/emt.rsi
@@ -433,7 +433,7 @@
 - type: entity
   parent: RMCJumpsuitEMT
   id: RMCJumpsuitEMTGreen
-  description: A set of EMT - Paramedic fatigues, this one is green.
+  description: Комплект одягу парамедика - ЕМТ, цей має червоний колір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/emt_green.rsi
@@ -443,8 +443,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitLaborersOveralls
-  name: laborer's overalls
-  description: A set of durable overalls for getting the job done.
+  name: робочий комбінезон робітника
+  description: Комплект витривалого одягу для справжної праці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/laborers_overalls.rsi
@@ -455,8 +455,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitKutjevoJumper
-  name: kutjevo jumper
-  description: A heavy-duty jumpsuit worn by the workers on Kutjevo.
+  name: комбінезон кутєво
+  description: Міцний комбінезон, який носять працівники на Кутєво.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/kutjevo_jumper.rsi
@@ -466,8 +466,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitKutjevoDrysuit
-  name: kutjevo drysuit
-  description: A heavy-duty drysuit worn by the workers on Kutjevo.
+  name: гідрокостюм кутєво
+  description: Міцний гідрокостюм, який носять працівники на Кутєво.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/kutjevo_drysuit.rsi
@@ -478,8 +478,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitCivilianSecurity
-  name: security officer's jumpsuit
-  description: It's made of a slightly sturdier material than standard jumpsuits, to allow for robust protection.
+  name: комбінезон офіцера охорони
+  description: Він зроблений з трошки більш витривалого матеріалу, аніж звичайні комбінезони, задля кращої захищенності.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/security.rsi
@@ -493,9 +493,9 @@
 
 - type: entity
   parent: RMCMarineUniformBase
-  id: RMCJumpsuitUNSecurity
-  name: United Nations Security uniform
-  description: Overalls made of kevlar cover a snazzy blue dress shirt. Often utilized by United Nations security personnel in riot control situations.
+  id: RMCJumpsuitRiotControl
+  name: уніформа Безпеки Об'єднаний Націй
+  description: Міцний комбінезон з кевлару на синій сорочці, типовий для співробітників Безпеки ОН під час заворушень
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/varadero_riot.rsi
@@ -509,8 +509,8 @@
 - type: entity
   parent: [RMCUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitCivilianJanitor
-  name: janitor's jumpsuit
-  description: It's the official uniform of the colony's janitor.
+  name: комбінезон прибиральника
+  description: Це офіційна уніформа прибиральника колонії. Носіть з гордістю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/janitor.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitCivilianEngineerWorker
-  name: Weston-Yamada engineering utility uniform
-  description: A set of Weston-Yamada engineering utility workers uniform, a orange pair of work slacks and a grey polo-shirt with orange reflecting stripes.
+  name: службова інженерна уніформа Вестон-Ямада
+  description: Комплект службової інженерної уніформи Вестон-Ямада, пара помаранченевих робочих штанів та сіра футболка-поло з помаранчевими світловідбивними стрічками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/engineer_worker.rsi
@@ -531,7 +531,7 @@
 - type: entity
   parent: RMCJumpsuitCivilianEngineerWorker
   id: RMCJumpsuitCivilianEngineerWorkerAlt
-  description: A set of Weston-Yamada engineering utility workers uniform, a blue pair of work slacks and a grey polo-shirt with yellow reflecting stripes.
+  description: Комплект службової інженерної уніформи Вестон-Ямада, пара блакитних робочих штанів та сіра футболка-поло з помаранчевими світловідбивними стрічками.
   suffix: Alternative
   components:
   - type: Sprite
@@ -543,8 +543,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitCLFSoldier
-  name: Colonial Liberation Front uniform
-  description: A stylish grey-green jumpsuit - standard issue for colonists. This version appears to have the symbol of the Colonial Liberation Front emblazoned in select areas.
+  name: уніформа Фронту Визволення Колоній
+  description: Стильний сіро-зелений комбінезон - стандартний для колоністів. Ця модель має символику Фронту Визволення Колоній нанесену на деяких частинах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/clf.rsi
@@ -592,8 +592,8 @@
 - type: entity
   parent: RMCUniformBase
   id: RMCJumpsuitCivilianFrontier
-  name: frontier jumpsuit
-  description: A cargo jumpsuit dressed down for full range of motion and state-of-the-art frontier temperature control. It's the best thing an engineer can wear in the Outer Veil.
+  name: комбінезон віддалених колоній
+  description: Грузовий комбінезон, оптимізований для повної свободи рухів та оснащений сучасною системою контролю температури на фронтирі. Це найкращий одяг, який може носити інженер у Зовнішньому Покриві.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: RMCHeadCapTSEPA
-  name: tsepa cap
-  description: A cap for TSEPA constables. Wots all this then?
+  name: кепка ітспа
+  description: Кепка для констеблів ІТСПА. Уотс олл зис зен?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/TSE/tsepa_cap.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretTSE
-  name: tse beret
+  name: берет ітс
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/TSE/tse_beret.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretTSEPA
-  name: tsepa beret
+  name: берет ітспа
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/TSE/tsepa_beret.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCHeadCapTSEPA
   id: RMCHeadCapTSEPAPeaked
-  name: peaked tsepa cap
-  description: A dark peaked cap enscribed with the powerful silver & red Sakura flower shaped emblem of the TSEPA. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
+  name: кашкет ітспа
+  description: Темний кашкет з потужною серебристо-червоною квіткою Сакури - емблемою ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   suffix: Silver and Red
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCHeadCapTSEPAPeaked
   id: RMCHeadCapTSEPAPeakedGoldSilver
-  description: A dark peaked cap enscribed with the powerful silver & gold Sakura flower shaped emblem of the TSEPA. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
+  description: Темний кашкет з потужною серебристо-золотою квіткою Сакури - емблемою ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   suffix: Silver and Gold
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCHeadCapTSEPAPeaked
   id: RMCHeadCapTSEPAPeakedGold
-  description: A dark peaked cap enscribed with the powerful red & gold Sakura flower shaped emblem of the TSEPA, more commonly used by higher ranking Constables & TSEPA personnel. Empire and Honor, Bound by Duty. Duty Beyond Borders, Justice Across Worlds.
+  description: Темний кашкет з потужною червоно-золотою квіткою Сакури - емблемою ІТСПА. Зазвичай цей убір носять високо поставлені Констеблі та персонал ІТСПА. Імперія і честь. Обов’язок без меж. Справедливість між світами.
   suffix: Gold
   components:
   - type: Sprite

@@ -1,0 +1,23 @@
+- type: emoteSounds
+  id: SichUnisexAvali
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: AvaliScreams
+    Laugh:
+      collection: AvaliLaugh
+    Cough:
+      path: /Audio/_Sich/Voice/Avali/avali_cough.ogg
+    Crying:
+      collection: AvaliCry
+    Whistle:
+      path: /Audio/_Sich/Voice/Avali/avali_whistle.ogg
+
+- type: emoteSounds
+  parent: [SichUnisexAvali, RMCMaleHuman]
+  id: SichMaleAvali
+
+- type: emoteSounds
+  parent: [SichUnisexAvali, RMCFemaleHuman]
+  id: SichFemaleAvali

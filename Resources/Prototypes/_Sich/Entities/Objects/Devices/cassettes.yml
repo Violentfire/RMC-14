@@ -7,47 +7,47 @@
     sprite: _Sich/Objects/Devices/cassette_player.rsi
 
 # Січ
-
 - type: entity
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTape
   name: запальна касета
-  description: Касета з композиціями, під які ваша смерть буде виглядати красиво. Спеціально для українського полку КМПОН!
+  description: Касета з композиціями, під які ваша смерть буде виглядати красиво. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_hellfire
   - type: CassetteTape
     songs:
-    - /Audio/_Sich/Jukebox/californiaDream.ogg
-    - /Audio/_Sich/Jukebox/fortunaSon.ogg
-    - /Audio/_Sich/Jukebox/welcomeToTheJungle.ogg
-    - /Audio/_Sich/Jukebox/thisfire.ogg
-    - /Audio/_Sich/Jukebox/sevenNationArmy.ogg
+    - /Audio/_Sich/Jukebox/california_dreamin'.ogg
+    - /Audio/_Sich/Jukebox/fortunate_son.ogg
+    - /Audio/_Sich/Jukebox/welcome_to_the_jungle.ogg
+    - /Audio/_Sich/Jukebox/this_fire.ogg
+    - /Audio/_Sich/Jukebox/seven_nation_army.ogg
     - /Audio/_Sich/Jukebox/paranoid.ogg
-    - /Audio/_Sich/Jukebox/paintInBlack.ogg
+    - /Audio/_Sich/Jukebox/paint_it_black.ogg
 
 - type: entity
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTapeManSoldWorld
   name: касета продавшого світ
-  description: Касета від того, хто продав світ. Спеціально для українського полку КМПОН!
+  description: Касета від того, хто продав світ. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_who_sold_world
   - type: CassetteTape
     songs:
-    - /Audio/_Sich/Jukebox/theManWhoSoldTheWorld.ogg
-
+    - /Audio/_Sich/Jukebox/the_man_who_sold_the_world.ogg
+    - /Audio/_Sich/Jukebox/invinsible.ogg
+    - /Audio/_Sich/Jukebox/snake_eater.ogg
 
 - type: entity
   parent: RMCSichCassetteTapeBase
   id: RMCSichCassetteTapeUa
   name: українська касета
-  description: Касета з збірником українських композицій. Спеціально для українського полку КМПОН!
+  description: Касета з збірником українських композицій. Спеціально для роти "Січові Стрільці" КМПОН!
   components:
   - type: Sprite
     state: cassette_ua
   - type: CassetteTape
     songs:
-    - /Audio/_Sich/Jukebox/dkEnergetikStreetEast.ogg
-    - /Audio/_Sich/Jukebox/shubenuk.ogg
+    - /Audio/_Sich/Jukebox/vulytsia_skhid.ogg
+    - /Audio/_Sich/Jukebox/shybenyk.ogg

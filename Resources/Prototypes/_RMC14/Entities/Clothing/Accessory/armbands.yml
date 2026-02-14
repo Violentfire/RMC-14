@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCAlphaArmband
-  name: alpha armband
-  description: An armband in squad colors, worn for ease of idenfication.
+  name: пов'язка альфи
+  description: Пов'язка в кольорах загону, щоби полегшити розрізнення.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/alpha_armband.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCBravoArmband
-  name: bravo armband
+  name: пов'язка браво
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/bravo_armband.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCCharlieArmband
-  name: charlie armband
+  name: пов'язка чарлі
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/charlie_armband.rsi
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCDeltaArmband
-  name: delta armband
+  name: пов'язка дельти
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/delta_armband.rsi
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCEchoArmband
-  name: echo armband
+  name: пов'язка ехо
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/echo_armband.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCFoxtrotArmband
-  name: foxtrot armband
+  name: пов'язка фокстроту
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/foxtrot_armband.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCAlphaArmband
   id: RMCSquadArmband
-  name: squad armband
+  name: пов'язка загону
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/squad_armband.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCMPArmband
-  name: MP armband
-  description: An armband worn by UNMC Military Police officers on military installations. It is usually also worn by those from the provost office.
+  name: пов'язка ВСП
+  description: Пов'язка, яку носять офіцери Військової Служби Правопорядку КМПОН. Також, її часто носять співробітники офісу провосту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/mp_armband.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCNurseArmband
-  name: nurse armband
-  description: An armband, worn by the rookie nurses to display they are still not doctors. This one is dark red.
+  name: пов'язка медичного помічника
+  description: Пов'язка, яку носять недосвідчені медичні помічники, щоби показати, що вони досі не лікарі. Конкретно ця темно-червона.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/nurse_armband.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCCLFArmband
-  name: CLF armband
-  description: A crudely sewn armband. It's dyed in the colors of the Colonial Liberation Front.
+  name: пов'язка ФВК
+  description: Грубо пошита пов'язка. Вона пофарбована в кольори Фронту Визволення Колоній.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCHEFAArmband
-  name: HEFA Order milita armband
-  description: Sworn to the shrapnel and the shards therein. So sayeth her command when the first detonation occured.
+  name: пов'язка міліції Ордену ХЄФА
+  description: Присягнись шрапнелі та осколкам у ній. Так говорить її наказ, після того як стався перший вибух.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/hefa_armband.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCRedArmband
-  name: red armband
-  description: A fancy red armband!
+  name: червона пов'язка
+  description: Гарна червона пов'язка!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/red_armband.rsi
@@ -194,14 +194,14 @@
 - type: entity
   parent: RMCHEFAArmband
   id: RMCCargoArmband
-  name: cargo armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is brown.
+  name: пов'язка логістики
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця коричнева.
 
 - type: entity
   parent: RMCArmbandBase
   id: RMCScienceArmband
-  name: science armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is purple.
+  name: пов'язка науковця
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця фіолетова.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/rnd_armband.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCHydroArmband
-  name: hydroponics armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is green and blue.
+  name: пов'язка гідропоніки
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця зелена та синя.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/hydro_armband.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCMedArmband
-  name: medical armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is white.
+  name: пов'язка медичного
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця біла.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/med_armband.rsi
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCMedEMTArmband
-  name: EMT armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is white and green.
+  name: пов'язка ЕМТ
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця біла та зелена.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/med_green_armband.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: RMCArmbandBase
   id: RMCEngiArmband
-  name: engineering armband
-  description: An armband, worn by the crew to display which department they're assigned to. This one is orange with a reflective strip!
+  name: пов'язка інженерного
+  description: Пов'язка, яку носить екіпаж, щоби показати приналежність до відділку. Ця помаранчева та має світловідбивну смужку!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/engi_armband.rsi

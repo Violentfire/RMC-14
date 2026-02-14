@@ -28,6 +28,10 @@
 
 КМПОН має два основні типи засобів зв'язку, до яких мають доступ усі керівні посади: радіосистема та телефонна система.
 
+<Box>
+  <GuideEntityEmbed Entity="CMHeadsetAlphaTeamLeader" Caption="Alpha Headset"/>
+  <GuideEntityEmbed Entity="RMCBackpackRTO" Caption="Radio Backpack"/>
+</Box>
 
 ###Радіосистема
 

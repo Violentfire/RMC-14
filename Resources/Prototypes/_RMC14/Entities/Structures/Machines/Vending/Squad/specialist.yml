@@ -233,7 +233,7 @@
       - id: RMCPouchMagazinePistolLarge
       - id: RMCPouchGeneralMedium
       - id: RMCPouchPistol
-      #- id: CMSlingPouch
+      - id: RMCPouchSling
     - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:

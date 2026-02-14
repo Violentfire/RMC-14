@@ -3,6 +3,7 @@
   id: CMStaffOfficer
   name: cm-job-name-staff-officer
   description: cm-job-description-staff-officer
+  newToJobInfo: rmc-new-to-job-staff-officer
   playTimeTracker: CMJobStaffOfficer
   requirements:
   - !type:RoleTimeRequirement
@@ -62,7 +63,9 @@
       background:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_command
+    - type: RMCTrackable # Sich
     - type: MutinyEligible
+    - type: RMCAwardRecommendation
 
 - type: startingGear
   id: CMGearStaffOfficer
@@ -71,7 +74,7 @@
     shoes: RMCShoesLaceup
     head: CMHeadCapOfficer
     id: CMIDCardStaffOfficer
-    ears: RMCHeadsetMarineCommand
+    ears: CMHeadsetSeniorCommand # Sich. RMCHeadsetMarineCommand в оригіналі
     pocket1: RMCPouchGeneralLarge
     pocket2: RMCPouchGeneralLarge
   inhand:

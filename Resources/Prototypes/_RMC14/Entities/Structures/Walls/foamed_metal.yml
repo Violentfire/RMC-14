@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedAluminiumMetal
-  name: foamed aluminium metal
-  description: A lightweight foamed metal wall.
+  name: сугроб # Sich. "foamed aluminium metal в оригіналі", тимчасова зміна. Це все одно плейсхолдер сугробів.
+  description: Сніговий сугроб, точно не алюміній. #Sich. "A lightweight foamed metal wall" в оригіналі.
   suffix: RMC
   components:
   - type: Sprite
@@ -96,6 +96,22 @@
       state: metal_foam-north
     - map: [ "enum.EdgeLayer.West" ]
       state: metal_foam-west
+  - type: Destructible # Sich. Додано заради снігової баби
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 45
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/Footsteps/snowstep1.ogg
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SichSheetSnowball1:
+            min: 1
+            max: 2
 
 - type: entity
   parent: RMCBaseFoamedMetal

@@ -497,8 +497,8 @@
   - type: GhostTakeoverAvailable
   - type: Speech
     speechVerb: Moth
-    speechSounds: Squeak
-    allowedEmotes: ['Chitter', 'Squeak']
+    speechSounds: Moth # Sich. Перенесено з КД
+    allowedEmotes: ['Chitter', 'Squeak', 'Flap'] # Sich додала Flap. Перенесено з Губа
   - type: FaxableObject
     insertingState: inserting_mothroach
   - type: MothAccent

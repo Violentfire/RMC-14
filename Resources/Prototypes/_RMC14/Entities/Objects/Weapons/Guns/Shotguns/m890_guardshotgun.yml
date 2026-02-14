@@ -1,13 +1,15 @@
 - type: entity
   parent: WeaponShotgunM890
   id: WeaponShotgunM890Guard
-  description: Унікальний напівавтоматичний дробовик корпоративного виробництва з високою скорострільністю. Вміщує 8 дробових набоїв у трубчастий магазин. Оснащений червоною рукояткою, що вказує на його використання почесною вартою Військової Поліції.
+  description: Унікальний напівавтоматичний дробовик виробництва Вестон-Ямада з високою скорострільністю. Вміщує 8 дробових набоїв у трубчастий магазин. Оснащений червоною рукояткою, що вказує на його використання почесною вартою Військової Поліції.
   suffix: Honor Guard
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_guard.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890_guard.rsi
+  - type: BallisticAmmoProvider
+    proto: CMShellShotgunBuckshot
   - type: AttachableHolder
     slots:
       rmc-aslot-barrel:

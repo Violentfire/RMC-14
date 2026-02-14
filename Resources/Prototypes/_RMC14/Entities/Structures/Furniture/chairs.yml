@@ -7,6 +7,7 @@
   parent: SeatBase
   id: CMSeatBase
   name: абстрактний стілець
+  suffix: RMC
   components:
   - type: Corrodible
     timeToApply: 4
@@ -18,13 +19,44 @@
     tags:
     - RMCSeat
   - type: RMCMesonsNonviewable
+  - type: Rotatable # Sich. Крутити стільці.
+  - type: Damageable
+    damageContainer: StructuralMarine
+    damageModifierSet: StructuralMarine
+  - type: MeleeReceivedMultiplier
+    xenoDamage:
+      types:
+        Slash: 51
+    otherMultiplier: 1
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          CMSheetMetal1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   parent: [ CMSeatBase, ChairFolding ]
   id: CMChair
   name: стілець
   description: Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Призначений для більш-менш зручного сидячого положення.
-  components: # Видалені локальні компоненти прототипу Foldable, Physics та Transform, щоб їх знова можна було крутити та тягати. Зміна білду Січі
+  components: 
+#  - type: Transform - Sich. Крутити та тягати стільці.
+#    anchored: true
+#  - type: Physics
+#    bodyType: Static
+#  - type: Foldable
+#    anchorOnUnfold: true
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/folding_chair.rsi
     layers:
@@ -54,7 +86,7 @@
 - type: entity
   parent: CMChair
   id: CMChairFolded
-  suffix: folded
+  suffix: RMC|folded
   components:
   - type: Foldable
     folded: true
@@ -73,8 +105,8 @@
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/chairs.rsi
     state: chair
-  - type: Physics
-    bodyType: Static
+#  - type: Physics - Sich. Тягати стільці.
+#    bodyType: Static
   - type: Rotatable
   - type: Construction
     graph: CMSeat
@@ -125,7 +157,7 @@
   parent: CMChairComfy
   id: CMChairComfyARES
   description: Функціональне крісло, призначене для комфортного сидіння однієї людини з метою полегшення взаємодії з корабельним штучним інтелектом.
-  suffix: АРЕС
+  suffix: RMC|ARES
   components:
   - type: Sprite
     state: comfychair_ares
@@ -134,7 +166,7 @@
   parent: CMChairComfyARES
   id: RMCChairComfyAI
   name: AI interface chair
-  suffix: AI
+  suffix: RMC|AI
   components:
   - type: Sprite
     state: ai_interface_chair
@@ -142,7 +174,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBeige
-  suffix: Бежевий
+  suffix: RMC|Beige
   components:
   - type: Sprite
     state: comfychair_beige
@@ -150,7 +182,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBlack
-  suffix: Чорний
+  suffix: RMC|Black
   components:
   - type: Sprite
     state: comfychair_black
@@ -158,7 +190,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBlue
-  suffix: Блакитний
+  suffix: RMC|Blue
   components:
   - type: Sprite
     state: comfychair_blue
@@ -166,7 +198,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyLime
-  suffix: Лаймовий
+  suffix: RMC|Lime
   components:
   - type: Sprite
     state: comfychair_lime
@@ -174,7 +206,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyOrange
-  suffix: Помаранчевий
+  suffix: RMC|Orange
   components:
   - type: Sprite
     state: comfychair_orange
@@ -182,7 +214,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyTeal
-  suffix: Бірюзовий
+  suffix: RMC|Teal
   components:
   - type: Sprite
     state: comfychair_teal
@@ -190,8 +222,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyAlpha
-  description: Простий стілець, намертво прикріплений до підлоги, без обертових механізмів – щоб солдати з низькою концентрацією уваги не крутилися під час брифінгів. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у червоний колір загону Альфа. Тільки для найсміливіших і найзеленіших новобранців Морської піхоти.
-  suffix: Альфа
+  description: Простий стілець, виглядає так, ніби з нього віддирали клей. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у червоний колір загону Альфа. Тільки для найсміливіших і найзеленіших новобранців Морської піхоти.
+  suffix: RMC|Alpha
   components:
   - type: Sprite
     state: comfychair_alpha
@@ -199,8 +231,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBravo
-  description: Простий стілець, намертво прикріплений до підлоги, без обертових механізмів – щоб солдати з низькою концентрацією уваги не крутилися під час брифінгів. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у коричневий колір загону Браво. Сертифіковано укріплений з усіх боків від ворожих вторгнень.
-  suffix: Браво
+  description: Простий стілець, виглядає так, ніби з нього віддирали клей. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у коричневий колір загону Браво. Сертифіковано укріплений з усіх боків від ворожих вторгнень.
+  suffix: RMC|Bravo
   components:
   - type: Sprite
     state: comfychair_bravo
@@ -208,8 +240,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyCharlie
-  description: Простий стілець, намертво прикріплений до підлоги, без обертових механізмів – щоб солдати з низькою концентрацією уваги не крутилися під час брифінгів. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у фіолетовий колір загону Чарлі. Без повноцінного сніданку він почувається недоречно.
-  suffix: Чарлі
+  description: Простий стілець, виглядає так, ніби з нього віддирали клей. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у фіолетовий колір загону Чарлі. Без повноцінного сніданку він почувається недоречно.
+  suffix: RMC|Charlie
   components:
   - type: Sprite
     state: comfychair_charlie
@@ -217,8 +249,8 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyDelta
-  description: Простий стілець, намертво прикріплений до підлоги, без обертових механізмів – щоб солдати з низькою концентрацією уваги не крутилися під час брифінгів. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у синій колір загону Дельта. Найімовірніше, саме цей стілець буде першим у бою і першим, хто загине.
-  suffix: Delta
+  description: Простий стілець, виглядає так, ніби з нього віддирали клей. Покритий скрипучою та надто жорсткою штучною шкірою, нерівномірно пофарбований у синій колір загону Дельта. Найімовірніше, саме цей стілець буде першим у бою і першим, хто загине.
+  suffix: RMC|Delta
   components:
   - type: Sprite
     state: comfychair_delta
@@ -227,7 +259,7 @@
   parent: CMChairComfy
   id: RMCChairComfyAlien
   name: alien chair
-  suffix: Alien
+  suffix: RMC|Alien
   components:
   - type: Sprite
     state: comfychair_alien
@@ -273,6 +305,27 @@
     - Wooden
   - type: StaticPrice
     price: 75
+  - type: MeleeReceivedMultiplier
+    xenoDamage:
+      types:
+        Slash: 51
+    otherMultiplier: 1
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          RMCPlankWood1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
 
 - type: entity
   parent: CMChairWood
