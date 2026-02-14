@@ -31,3 +31,20 @@
 
 - type: Tag
   id: RMCGlovesLatex
+
+- type: entity
+  parent: RMCHandsVeteran
+  id: RMCHandsTychoGloves
+  name: радіаційні захисні рукавиці Тичо 4000
+  description: Вогнетривкі рукавиці для радіаційного захисного костюму Тичо 4000 Вестон-Ямада. Підбиті свинцем і досить важкі, але забезпечать захист від радіаційного випромінення.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/rad_gloves_weya.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/rad_gloves_weya.rsi
+  - type: CMArmor
+    bio: 100
+    melee: 25
+    bullet: 15
+    explosionArmor: 10
+    #rad: 50

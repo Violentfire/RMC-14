@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SMixed
-  name: Ящик змішаних магазинів M96S (точні 2 шт., уповільнюючі 2 шт., запальні 2 шт.)
+  name: Ящик змішаних магазинів для М96С (снайперські 2 шт, зенітні 2 шт, запальні 2 шт)
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SStandard
-  name: Ящик стандартних магазинів M96S (5 шт.)
+  name: Ящик снайперських магазинів для М96С (5 шт)
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SFlak
-  name: Ящик уповільнюючих магазинів M96S (5 шт.)
+  name: Ящик зенітних магазинів для М96С (5 шт)
   components:
   - type: StorageFill
     contents:
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM96SIncendiary
-  name: Ящик запальних магазинів M96S (5 шт.)
+  name: Ящик запальних магазинів для М96С (5 шт)
   components:
   - type: StorageFill
     contents:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineXM43E1Standard
-  name: Ящик стандартних магазинів XM43E1 антиматеріального снайпера (3 шт.)
+  name: Ящик стандартних магазинів для ТМ43Е1 (3 шт)
   components:
   - type: StorageFill
     contents:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecMixed
-  name: Змішаний ящик ПТГ-М5 (ОФ 2 шт., ББ 1 шт.) # TODO RMC14 replace 1 HE with WP
+  name: Ящик змішаних ракет для ПТГ-М5 (ОФ 2 шт, ББ 1 шт) # TODO RMC14 replace 1 HE with WP
   components:
   - type: StorageFill
     contents:
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecHighExplosive
-  name: Ящик осколково-фугасних боєприпасів ПТГ-М5 (3 шт.)
+  name: Ящик осколково-фугасних ракет для ПТГ-М5 (3 шт)
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateM5DemoSpecAntiArmor
-  name: Ящик бронебійних боєприпасів ПТГ-М5 (3 шт.)
+  name: Ящик бронебійних ракет для ПТГ-М5 (3 шт)
   components:
   - type: StorageFill
     contents:
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomMixed
-  name: Ящик змішаних магазинів M4SPR розвідника (звичайні 2 шт., запальні 2 шт., ударні 2 шт.)
+  name: Ящик змішаних магазинів для М4СПГ розвідника (ВШ 2 шт, запальні 2 шт, ПУД 2 шт)
   components:
   - type: StorageFill
     contents:
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomStandard
-  name: Ящик магазинів M4SPR розвідника (5 шт.)
+  name: Ящик магазинів ВШ для М4СПГ розвідника (5 шт)
   components:
   - type: StorageFill
     contents:
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomImpact
-  name: Ящик ударних магазинів M4SPR розвідника (3 шт.)
+  name: Ящик магазинів ПУД для М4СПГ розвідника (3 шт)
   components:
   - type: StorageFill
     contents:
@@ -132,9 +132,48 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineM4SPRCustomIncendiary
-  name: Ящик запальних магазинів M4SPR розвідника (3 шт.)
+  name: Ящик запальних магазинів для М4СПГ розвідника (3 шт)
   components:
   - type: StorageFill
     contents:
     - id: RMCMagazineRifleM4SPRA19Incendiary
       amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankMixed
+  name: Ящик змішаних паливних баків для М34-Т (великий 1 шт, тип-Бі 1 шт, тип-Ікс 1 шт)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLarge
+    - id: RMCTankFlamerLargeB
+    - id: RMCTankFlamerLargeX
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankExtended
+  name: Ящик великих паливних баків для М34-Т (3 шт)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLarge
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankTypeB
+  name: Ящик з великим паливним баком типу-Бі для М34-Т (1 шт)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLargeB
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankTypeX
+  name: Ящик з великим паливним баком типу-Ікс для М34-Т (1 шт)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLargeX

@@ -9,6 +9,7 @@ cm-xeno-devour-start-observer = {$user} намагається з'їсти {$tar
 cm-xeno-devour-regurgitate = Ми збираємося виплюнути {$target}...
 cm-xeno-devour-hurl-out = Ми вивергаємо вміст свого шлунка!
 
+cm-xeno-devour-fake-host = Це не має сенсу.
 cm-xeno-devour-success = Це не буде дуже смачно.
 
 cm-xeno-devour-failed = Ви не можете з'їсти {$target}!

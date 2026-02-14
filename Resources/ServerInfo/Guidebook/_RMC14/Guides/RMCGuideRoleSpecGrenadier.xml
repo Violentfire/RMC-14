@@ -1,45 +1,47 @@
 <Document>
-  # Heavy Grenadier Specialist: "Michael Bay Fan"
+  # Гранатометник: "Любитель вибухівки"
 
-  ## Ordnance Dominance
-  Difficulty: [color=#FF8C00]Hard[/color]
+  ## Вибухове озброєння
+  Складність: [color=#FF8C00]Складно[/color]
 
-  When the marines need a rapid, explosive push or fortified positions cleared, the Heavy Grenadier Specialist is the premier choice.
-  Wielding the M83 Grenade Launcher, this specialist delivers a versatile payload of grenades with greater precision and range than standard methods, capable of turning the tide with overwhelming explosive force.
+  Коли морські піхотинці потребують швидкого вибухового прориву або очищення укріплених позицій, Гранатометник є оптимальним вибором.
+  Озброєний гранатометом M83, цей спеціаліст застосовує широкий спектр гранат з точністю і дальністю, що перевищують стандартні засоби, забезпечуючи вирішальну перевагу завдяки потужній вибуховій дії.
 
-  ## Standard Issue Kit
-  The standard issue for a Heavy Grenadier includes:
+  ## Стандартний набір
+  Гранатометник володіє наступний оснащенням:
   <Box> <GuideEntityEmbed Entity="WeaponLauncherM83"/> </Box>
-  The M83 Grenade Launcher is an advanced ordnance delivery system, distinguished by its [bold]six-shot capacity[/bold] coupled with [color=#00FF00]IFF feature[/color].
-  This IFF system allows grenade projectiles fired from the M83 to [italic]safely pass through friendly marines[/italic] without hitting any, ensuring the ordnance can reach its intended target point even in crowded friendly engagements.
+  Гранатомет M83 – це сучасна зброя досилання вибухівки, що поєднує [bold]шестизарядний барабан[/bold] із [color=#00FF00]системою УДВ[/color].
+  Система УДВ дозволяє гранатам, випущеним з M83, [italic]безпечно проходити крізь морпіхів[/italic] без ризику завдати їм ушкоджень, що гарантує досягнення цілі навіть у щільних бойових умовах.
   <Box>  <GuideEntityEmbed Entity="RMCArmorM3G4"/> <GuideEntityEmbed Entity="RMCArmorHelmetM3G4"/></Box>
-  This specialized combat ensemble grants the Grenadier [italic]heavy-class armor protection[/italic], effectively mitigating ballistic, explosive, and general trauma damage.
-  Crucially, it achieves this robust defense while imposing only [italic]medium armor movement speed penalties[/italic], maintaining good battlefield agility. The included Helmet also allows the user to deflect 6 parasites.
+  Цей спеціалізований комплект забезпечує Гранатометнику [italic]бронезахист високого класу[/italic], ефективно знижуючи балістичні, вибухові та загальні травматичні ушкодження.
+  При цьому комплект накладає лише [italic]середні штрафи до швидкості руху[/italic], дозволяючи зберігати належну мобільність на полі бою. Шолом у складі набору також дає можливість відбити до шести паразитів.
 
-  ## Tactical Employment: The Resilient Nuisance
+  ## Тактичне застосування: стійка загроза
 
-  The  Grenadier operates as a heavily armored point man or a durable fire support element. Your incredible survivability allows you to draw fire and hold positions others cannot, while your Grenade Launcher provides crucial stun and burst damage against priority targets.
+  Гранатометник діє як важкоброньований передовий боєць або надійний елемент вогневої підтримки. Високий рівень живучості дозволяє вам приймати на себе вогонь та утримувати позиції, недоступні для інших, тоді як гранатомет забезпечує оглушення та вибуховий урон по пріоритетних цілях.
 
-  <Box>[bold]Playing to Your Strengths:[/bold]</Box>
-  -   [bold]Anti-Carrier Operations[/bold]: Leverage your helmet's facehugger resistance to aggressively engage.
-  -   [bold]High-Value Target Disruption[/bold]: Focus your Grenade Launcher fire on high-priority threats like Prae's, Ravagers, or dense packs of warriors. The ability to stunlock these targets can create critical openings for your team.
-  -   [bold]Breaching and Spearheading Pushes[/bold]: Your grenades are not just for engaging hostiles; they are potent tools for reshaping the battlefield. Utilize your explosive ordnance to [italic]breach enemy fortifications, destroy barricades, and blow open new pathways.[/italic] allowing your squad to push through the opening, creating space for your squadmates to follow and exploit the new access point.
-  -   [bold]Resin Clearing Specialist[/bold]: HEDP grenades excel at clearing vast amounts of sticky resin. Use this capability to pave the way for swift marine advances.
+  <Box>[bold]Використовуйте свої сильні сторони:[/bold]</Box>
+  -   [bold]Операції проти паразитів[/bold]: Використовуйте стійкість шолома до паразитів, щоб агресивно вступати у зіткнення.
+  -   [bold]Ураження високопріоритетних цілей[/bold]: Зосереджуйте вогонь гранатомета по найбільш небезпечних загрозах – таких як Преторіанець, Спустошувач або щільні групи воїнів. Можливість тримати їх у стані оглушення відкриває критичні можливості для вашого загону.
+  -   [bold]Прорив і наступальні дії[/bold]: Гранати – це не лише засіб боротьби з ворогом – це ефективний інструмент для зміни конфігурації поля бою. Використовуйте вибухові заряди, щоб [italic]проривати ворожі укріплення, руйнувати барикади та створювати нові маршрути просування.[/italic] Це дає змогу вашому загону прорватися вперед і закріпитися в утвореному проході.
+  -   [bold]Фахівець з очищення смоли[/bold]: ФПП-гранати ідеально підходять для швидкого очищення великих ділянок смоли. Використовуйте їх, щоб забезпечити швидке просування морської піхоти.
+  <Box> <GuideEntityEmbed Entity="CMGrenadeHighExplosive" Context=""/> </Box>
 
-  <Box>[bold]Mitigating Weaknesses & Conserving Fire:[/bold]</Box>
-  -   [color=#FFD700][bold]HIGH-TIER RESISTANCE[/bold]: Be aware that formidable Xenomorphs like [bold]Crushers and the Queen possess significant resistance to explosive damage and effects[/bold]. Do not expect standard HEDP spam to be highly effective against these elite threats. They will likely shrug off much of the damage and head for you.[/color]
-  -   [bold]Extreme Ammunition Conservatism[/bold]: Every grenade must count. Do not expend ordnance on trivial targets or situations where other marines can effectively engage. Your grenades are a precious resource best saved for critical moments or high-value targets that *only you* can effectively stun or burst down.
-  -   [bold]Friendly Fire is Critical[/bold]: [color=#FF0000]Your grenades are indiscriminate and can easily wipe out a friendly push.[/color] Never fire into groups of marines. Careful shot placement is paramount.
-  -   [bold]Strategic Combinations[/bold]: Don't rely on a single grenade type. Alternate between HEDP for stuns, HIDP for area denial, and HEFA for specific, clear high-damage opportunities. Stunning xenos with HEDP can create openings for more devastating follow-ups.
-  -   [color=#FF0000][bold]BEWARE GRENADES BOUNCE![/bold][/color] [bold]Always ensure a clear line of sight for your grenades. Firing at an awkward angle near a wall or obstacle can cause your grenade to bounce back towards your position or, even worse, directly into your advancing squadmates. Double-check your trajectory before every shot, especially in confined spaces.[/bold]
+  <Box>[bold]Пом’якшення слабких місць і економія боєприпасів:[/bold]</Box>
+  -   [color=#FFD700][bold]ВИСОКИЙ РІВЕНЬ СТІЙКОСТІ[/bold]: Пам’ятайте, що такі сильні ксеноморфи, як [bold]Руйнівник та Королева, мають високу стійкість до вибухового ураження та його ефектів[/bold]. Не очікуйте, що стандартні ФПП-гранати дадуть хороший результат проти цих елітних загроз – більшу частину шкоди вони просто проігнорують і продовжать наступ.[/color]
+  -   [bold]Екстремальна економія боєприпасів[/bold]: Кожна граната має вагу. Не витрачайте їх на незначні цілі або ситуації, де інші морські піхотинці можуть ефективно впоратися самі. Ваш боєкомплект – це ресурс, який варто берегти для критичних моментів або для цілей високої цінності, які [italic]лише ви[/italic] здатні ефективно оглушити або знешкодити.
+  -   [bold]Дружній вогонь є критичним[/bold]: [color=#FF0000]Ваші гранати не розрізняють цілей і здатні миттєво вбити своїх побратимів.[/color] Ніколи не відкривайте вогонь по скупченню морпіхів. Точність ведення пострілу у ваших ж інтересах.
+  -   [bold]Стратегічні комбінації[/bold]: Не покладайтеся на один тип гранат. Чергуйте ФПП для оглушення, ВІРЗ для підпалу території та ОФ для моментів, де є чітка можливість завдати максимальної шкоди.
+  <Box> <GuideEntityEmbed Entity="CMGrenadeHighExplosive" Context=""/> <GuideEntityEmbed Entity="RMCGrenadeIncendiary" Context=""/> <GuideEntityEmbed Entity="CMGrenadeFrag" Context=""/> </Box>
+  -   [color=#FF0000][bold]БУДЬТЕ ОБЕРЕЖНІ: ГРАНАТИ ВІДСКОКУЮТЬ![/bold][/color] [bold]Завжди переконуйтеся у наявності прямої траєкторії польоту. Постріл під неправильним кутом поблизу стіни чи перешкоди може спричинити рикошет назад у ваш бік або (що ще гірше) у ваших побратимів які наступають. Перевіряйте траєкторію перед кожним пострілом, особливо у вузьких коридорах.[/bold]
 
-  ## The Enduring Challenge: Vigilance & Adaptability
+  ## Постійний виклик: пильність і адаптивність
 
-  The Grenadier's greatest long-term threats are complacency and a static battlefield. While initially feeling god like in your resilience, remember that Xenomorphs adapt and the nature of warfare evolves.
+  Найбільші довгострокові загрози для Гранатометника – це самовпевненість і незмінність тактики. Попри те, що на початку ви можете відчувати себе майже невразливим завдяки високій живучості, важливо пам’ятати: ксеноморфи пристосовуються, а характер бою постійно змінюється.
 
-  Overconfidence, bred from shrugging off early encounters, can lead to reckless positioning-exposing your known vulnerabilities or underestimating coordinated assaults.
-  True mastery of this kit lies not in its raw tankiness, but in disciplined play, respecting your limitations (especially ammunition) and constantly adapting your tactics.
+  Надмірна впевненість, яка виникає після кількох легких сутичок, часто призводить до необережних позицій, відкриття власних слабких місць або недооцінки скоординованих атак противника.
+  Справжнє опанування цього спорядження ґрунтується не на "танкуваню", а на дисциплінованій грі: вмінні поважати власні обмеження (особливо боєкомплект) та постійно коригувати тактику відповідно до ситуації.
 
-  The Grenadier is a powerful role, but even "gods" can fall if they believe their own legend too much and fail to see the shifting sands of the battlefield. Stay vigilant, play smart, and your legend might just endure.
+  Гранатометник – сильна роль, але навіть "богів" збивають із ніг, якщо вони занадто вірять у власну непохитність і не помічають змін на полі бою. Будьте уважні, дійте розумно і ваша легенда справді матиме шанс залишитися в історії.
 
 </Document>

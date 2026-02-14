@@ -26,25 +26,26 @@
   prefix: ПвЗМ.
   paygrade: O6
 
-# Fax responder
-- type: rank
-  id: RMCRankProvostCommunicationsOfficer
-  name: Communications Officer
-  prefix: ComOff.
-
 # Any player with high law understanding
 - type: rank
   id: RMCRankProvostChiefInspector
   name: Головний Інспектор
-  prefix: ПвГІ.
-  paygrade: CI
+  prefix: ГІПв.
+  paygrade: O6
 
 # Any player with medium-low law understanding
 - type: rank
   id: RMCRankProvostInspector
-  name: Інспектор
-  prefix: ПвІ.
-  paygrade: I
+  name: Інспектор Провосту
+  prefix: ІПв.
+  paygrade: O4
+
+# Fax responder
+- type: rank
+  id: RMCRankProvostCommunicationsOfficer
+  name: Офіцер Комунікацій
+  prefix: ОфКом
+  paygrade: O2
 
 # Any player with low law understanding, with guidance
 - type: rank

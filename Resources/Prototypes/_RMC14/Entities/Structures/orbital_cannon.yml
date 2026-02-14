@@ -1,7 +1,7 @@
 - type: entity
-  id: RMCOrbitalCannon
-  name: орбітальна гармата
-  description: "Орбітальна гарматна КМПОН. Використовується для ураження великої площі на планеті, навколо якої обертається корабель. Прискорює боєголовку за допомогою рідкого палива, завдаючи руйнівного удару при зіткненні."
+  id: RMCOrbitalCannonDerelict
+  name: стара орбітальна гармата
+  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Ця, схоже, непрацездатна..."
   placement:
     mode: SnapgridCenter
   components:
@@ -28,12 +28,6 @@
       map: [ "base" ]
   - type: Clickable
   - type: InteractionOutline
-  - type: OrbitalCannon
-    warheadTypes:
-    - RMCOrbitalCannonWarheadExplosive
-    - RMCOrbitalCannonWarheadCluster
-    - RMCOrbitalCannonWarheadIncendiary
-    - RMCOrbitalCannonWarheadAegis
   - type: Appearance
   - type: GenericVisualizer # TODO RMC14 animations
     visuals:
@@ -45,6 +39,19 @@
   - type: RMCLoreExaminable
     content: rmc-lore-examniable-orbital-cannon
   - type: RMCMesonsNonviewable
+
+- type: entity
+  parent: RMCOrbitalCannonDerelict
+  id: RMCOrbitalCannon
+  name: орбітальна гармата
+  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Задіює тверде паливо для сильного пришвидшення боєголовки перед запуском тієї по цілі, завдаючи руйнівного удару."
+  components:
+  - type: OrbitalCannon
+    warheadTypes:
+    - RMCOrbitalCannonWarheadExplosive
+    - RMCOrbitalCannonWarheadCluster
+    - RMCOrbitalCannonWarheadIncendiary
+    - RMCOrbitalCannonWarheadAegis
 
 - type: entity
   id: RMCOrbitalCannonFuel

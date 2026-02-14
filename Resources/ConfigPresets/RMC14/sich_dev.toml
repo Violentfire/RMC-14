@@ -10,3 +10,5 @@ round_restart_time = 180000
 distress_xenos_minimum = 0
 dropship_cas_debug = true
 dropship_initial_delay_minutes = 0
+boons_live_marine_requirement = 0
+communication_tower_xeno_takeover_minutes = 0

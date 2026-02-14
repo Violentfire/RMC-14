@@ -1,10 +1,69 @@
 # TSEPA
 
 - type: entity
-  parent: RMCMarineUniformBase
+  parent: RMCArmoredUniformBase
   id: RMCJumpsuitTSEPA
-  name: tsepa uniform
-  description: The standard uniform of a TSEPA officer.
+  name: уніформа ІТСПА
+  description: Стандартна уніформа офіцерів ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/TSEPA/standard.rsi
+  - type: Tag
+    tags:
+    - RMCUniformTSE
+
+# Royal
+- type: entity
+  parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
+  id: RMCJumpsuitMarineRoyal
+  name: уніформа морпіхоти корони
+  description: Польова уніформа морпіхів корони. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль. На рівні зі схожим спорядженням КМПОН.
+  suffix: Filled, Royal
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/standard.rsi
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingDropPouchRoyal
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchTSEMarines
+    - RMCPatchTSE
+  - type: ItemCamouflage
+    camouflageVariations: {}
+  - type: Foldable
+    unfoldVerbText: rmc-sleeves-verb-unfold
+    foldVerbText: rmc-sleeves-verb-fold
+  - type: FoldableClothing
+    foldedEquippedPrefix: sleeves
+
+- type: entity
+  parent: RMCJumpsuitMarineRoyal
+  id: RMCJumpsuitMarineRoyalMK80
+  suffix: Filled, Royal, MK80
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCShoulderHolsterMK80
+
+- type: entity
+  parent: RMCJumpsuitMarineRoyal
+  id: RMCJumpsuitMarineRoyalMedic
+  suffix: Filled, Royal, Medic
+  components:
+  - type: WebbingClothing
+    startingWebbing: CMWebbingSurgicalBlue
+
+- type: entity
+  parent: RMCJumpsuitTSEPA
+  id: RMCJumpsuitMarineRoyalTeamlead
+  name: уніформа морпіхоти корони
+  description: Польова уніформа морпіхів корони. Вона містить вставки легкого кевлару, що захищає від колючо-ріжучої зброї та куль. На рівні зі схожим спорядженням КМПОН.
+  suffix: Filled, Royal, Teamlead
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/TSE/RCM/team_lead.rsi
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingDropPouchRoyalTeamlead
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchTSEMarines
+    - RMCPatchTSE

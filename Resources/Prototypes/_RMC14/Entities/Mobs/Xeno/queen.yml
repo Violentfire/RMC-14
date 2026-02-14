@@ -28,6 +28,9 @@
       visible: false
     - map: [ "enum.XenoInhandVisualLayers.Right" ]
       visible: false
+    - map: [ "enum.RMCShieldVisuals.Base" ]
+      sprite: _RMC14/Effects/xeno_shields.rsi
+      visible: false
     - map: [ "focused" ]
       sprite: _RMC14/Interface/xeno_hud.rsi
       state: hudeye
@@ -269,6 +272,16 @@
   - type: RMCSurgeryXenoHeart
     item: RMCOrganXenoHeartTQ
   - type: RMCTrackable
+  - type: ExcludedFromKingVote
+    canVote: true
+  - type: XenoRankNames
+    rankNames:
+      0: sich-xeno-young-queen
+      2: sich-xeno-mature-queen
+      3: sich-xeno-elder-queen
+      4: sich-xeno-ancient-queen
+      5: sich-xeno-prime-queen
+      6: sich-xeno-prime-queen
 
 - type: entity
   parent: RMCXenoQueenBase
@@ -311,8 +324,8 @@
 - type: entity
   parent: StationAiHolo
   id: RMCQueenEye
-  name: queen eye
-  description: It seems to be a visual projection of someone.
+  name: око королеви
+  description: Це виглядає наче чиясь візуальна проєкція.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Sprite

@@ -19,3 +19,9 @@ rmc-xeno-mature-king = Безжальний {$baseName}
 rmc-xeno-young-larva = Мала {$baseName}
 rmc-xeno-mature-larva = Зріла {$baseName}
 rmc-xeno-elder-larva = Велика {$baseName}
+
+sich-xeno-young-queen = Молода {$baseName}
+sich-xeno-mature-queen = Зріла {$baseName}
+sich-xeno-elder-queen = Старша {$baseName}
+sich-xeno-ancient-queen = Давня {$baseName}
+sich-xeno-prime-queen = Первісна {$baseName}

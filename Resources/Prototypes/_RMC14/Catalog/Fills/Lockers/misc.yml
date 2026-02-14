@@ -25,12 +25,16 @@
 - type: entity
   parent: CMLockerCommanderSecure
   id: CMLockerCommanderSecureFilled
+  name: сейф командувача # Sich
+  description: "Сейф Командувача операції, в якому зберігаються комплекти Почесних Вартових.\nНа ньому вигравіювано напис: \"Розпоряджатися вмістом можуть особи, які є актуальним Командувачем операції. Не зважаючи на їх посаду чи звання\"." # Sich
   suffix: Filled
   components:
   - type: StorageFill
     contents:
       - id: RMCKitHonorGuard
       - id: RMCKitHonorGuard
+  - type: AccessReader
+    access: [["RMCAccessSeniorCommand"]] # Sich. CMAccessCO в перент прототипа
 
 - type: entity
   parent: CMLockerStaff

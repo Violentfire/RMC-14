@@ -67,14 +67,82 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
-      - !type:DoActsBehavior # TODO RMC14 spawn wreckage
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          RMCPowerCellAPC:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
         acts: ["Destruction"]
+
+- type: entity
+  id: RMCMechPowerLoaderWreckage
+  name: залишки Завантажувача ВР-50
+  description: Все, що залишилося від Завантажувача моделі ВР-50.
+  components:
+  - type: Corrodible
+    isCorrodible: true
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _RMC14/Objects/power_loader.rsi
+    layers:
+    - state: wreck
+  - type: Clickable
+  - type: InputMover
+  - type: InteractionOutline
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Strap
+    blacklist:
+      components:
+      - Xeno
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: RMCMechPowerLoaderWreckage
+  id: RMCMechPowerLoaderWreckageGreen
+  name: залишки Завантажувача ВР-43
+  description: Все, що залишилося від Завантажувача моделі ВР-43.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _RMC14/Objects/power_loader.rsi
+    layers:
+    - state: wreck_jd
+
+- type: entity
+  parent: RMCMechPowerLoaderWreckage
+  id: RMCMechPowerLoaderWreckageBlue
+  name: залишки Завантажувача ВР-52
+  description: Все, що залишилося від Завантажувача моделі ВР-52.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _RMC14/Objects/power_loader.rsi
+    layers:
+    - state: wreck_ft
 
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: завантажувач # TODO RMC14 name
-  description: Старий, але надійний завантажувач, що використовується всюди де тільки можна уявити. # TODO RMC14 description
+  name: Завантажувач ВР-50
+  description: Стара машина проєктування та виробництво маловідомої корпорації Фудзін, відремонтована компанією Вестон-Ямада. Зазвичай використовується на складах, будівництвах та військових кораблях по всьому сектору Нейроїд. # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: RMCAllowStrapMovement
   - type: PowerLoader
@@ -93,3 +161,35 @@
       tags:
       - RMCDropshipEnginePoint
     range: 2
+  - type: SpawnOnTerminate
+    spawn: RMCMechPowerLoaderWreckage
+
+- type: entity
+  parent: RMCMechPowerLoader
+  id: RMCMechPowerLoaderGreen
+  name: Завантажувач ВР-43
+  description: Дійсно старий, але перевірений дизайн, який використовується на складах, будівництвах та військових кораблях по всьому сектору Нейроїд. Цей має фірмову зелено-жовту ліврею корпорації Фудзін. На етикетці стверджується, що вони виробляють електроніку та обладнання, хоча ви ніколи раніше про них не чули. # TODO RMC14 BETTER DESCRIPTION
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _RMC14/Objects/power_loader.rsi
+    layers:
+    - state: powerloader_jd
+  - type: SpawnOnTerminate
+    spawn: RMCMechPowerLoaderWreckageGreen
+
+- type: entity
+  parent: RMCMechPowerLoader
+  id: RMCMechPowerLoaderBlue
+  name: Завантажувач ВР-52
+  description: Модернізований варіант інших Вантажних Роботів, створений для того, щоб перевершити старіші моделі, що колись використовувалися у портах вищої категорії та подібниї їм об'єктах. Його було виготовлено компанією Феррет Хеві Індастріз до її банкрутства. Зараз їх досить легко придбати БВ чи знайти на закинутих складах. # TODO RMC14 BETTER DESCRIPTION
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _RMC14/Objects/power_loader.rsi
+    layers:
+    - state: powerloader_ft
+  - type: SpawnOnTerminate
+    spawn: RMCMechPowerLoaderWreckageBlue

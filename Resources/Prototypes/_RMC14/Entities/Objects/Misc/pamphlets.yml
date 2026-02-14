@@ -10,11 +10,27 @@
   - type: Item
     size: Tiny
   - type: SkillPamphlet
+    bypassLimit: true # Sich. Дайте читати довідники скільки лізе
     whitelists:
     - popup: rmc-pamphlets-cant-use
       restrictions:
         components:
         - Marine
+  - type: EmitSoundOnPickup
+    sound:
+      path: /Audio/_RMC14/Handling/paper_pickup.ogg
+      params:
+        volume: -4
+  - type: EmitSoundOnDrop
+    sound:
+      path: /Audio/_RMC14/Handling/paper_drop.ogg
+      params:
+        volume: -5
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_RMC14/Handling/paper_drop.ogg
+      params:
+        volume: -5
 
 # SKILLS
 
@@ -82,9 +98,12 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: spotter
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
+    - popup: rmc-pamphlets-rifleman-warning
+      jobProto: CMPVERifleman
 
 # gives powerloader skill / bypasses limit
 - type: entity
@@ -147,8 +166,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletLoader
-  name: довідник помічника підривника
-  description: Навчить вас як правильно запихувати ракету в трубу, щоб та не вибухнула.
+  name: довідник заряджаючого
+  description: Навчить вас як правильно запихувати ракету в гранатомет, щоб та не вибухнула.
   components:
   - type: Sprite
     state: pamphlet_loader
@@ -166,10 +185,12 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: loader
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
+    - popup: rmc-pamphlets-rifleman-warning
+      jobProto: CMPVERifleman
 
 - type: entity
   parent: CMPamphlet
@@ -195,10 +216,39 @@
     giveMapBlip:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: mortar
-    bypassLimit: true
+    bypassLimit: false # Sich. Особливі ролі лише один раз
     jobWhitelists:
     - popup: rmc-pamphlets-rifleman-warning
       jobProto: CMRifleman
+    - popup: rmc-pamphlets-rifleman-warning
+      jobProto: CMPVERifleman
+
+# OTHER
+
+# Honor Guard
+- type: entity
+  parent: CMPamphlet
+  id: RMCPamphletHonorGuard
+  name: довідник почесного вартового
+  description: Навчить вас завжди бути поряд з Командувачем та красиво виглядати на спільних знімках. В обов'язки Почесного Вартового входить захист життя Командувача операції, можливо, навіть ціною свого. 
+  components:
+  - type: Sprite
+    state: pamphlet_honorguard
+  - type: SkillPamphlet
+    bypassSkill: true
+    giveJobTitle: rmc-job-name-honor-guard
+    givePrefix: rmc-job-prefix-honor-guard
+    isAppendPrefix: false
+    giveIcon:
+      sprite: _RMC14/Interface/cm_job_icons.rsi
+      state: hudsquad_hgmp
+    giveMapBlip:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: honorguard
+    bypassLimit: true
+    jobWhitelists:
+    - popup: rmc-pamphlets-mp-warning
+      jobProto: CMMilitaryPolice
 
 # LANGUAGE / bypasses limit
 

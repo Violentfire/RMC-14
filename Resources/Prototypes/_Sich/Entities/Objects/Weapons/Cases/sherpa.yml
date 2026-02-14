@@ -1,0 +1,24 @@
+- type: entity
+  parent: RMCKitBase
+  id: SichRMCKitSherpa
+  name: набір шерпи
+  description: Набір всього необхідного для транспортування громіздких вантажів на полі бою.
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,5,1
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+    layers:
+    - state: closed
+      map: [ base ]
+    - state: loader
+      map: [ label ]
+  - type: StorageFill
+    contents:
+    - id: SichRMCBackpackAmmoFolded
+    - id: SichCMPamphletSherpa
+    - id: RMCRangefinder

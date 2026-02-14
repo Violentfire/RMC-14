@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSGGear
-  name: ColMarTech squad smart gun operator gear rack
-  description: An automated gear rack for Squad Smart Gun Operators.
+  name: КолМорТех стійка для обладнання Оператора СмартГану
+  description: Автоматизована стійка обладнання для Оператора СмартГану.
   components:
   - type: AccessReader
     access:
@@ -15,17 +15,18 @@
     jobs:
     - CMSmartGunOperator
     sections:
-    - name: Smart Gun Set (Mandatory)
+    - name: Система СмартГану (Обов'язково)
       takeAll: CMSmartGunSet
       entries:
       - id: CMSmartGunOperatorEquipmentCase
-    - name: Gun Attachments
+    - name: Оснащення Для Зброї
       choices: { CMGunAttachments: 1 }
       entries:
       - id: RMCAttachmentLaserSight
       - id: RMCAttachmentS5RedDotSight
+      - id: RMCAttachmentS5MicroRedDotSight
       - id: RMCAttachmentS6ReflexSight
-    - name: Explosives
+    - name: Вибухівка
       entries:
       - id: CMPacketGrenadeHighExplosiveFilled
         points: 30
@@ -45,7 +46,7 @@
         points: 20
     #- id: CMM20MineBox4
     #  points: 20
-    - name: Sidearm Ammunitions
+    - name: Набої Для Пістолетів
       entries:
       - id: RMCMagazinePistolM13Ext
         points: 6
@@ -61,13 +62,13 @@
         points: 5
       - id: RMCMagazinePistolSU6
         points: 10
-    - name: Restricted Firearms
+    - name: Додаткова Зброя
       entries:
       - id: RMCGunCasePistolMK80
         points: 15
       - id: RMCGunCasePistolSmart
         points: 15
-    - name: Clothing Items
+    - name: Предмети Одягу
       entries:
       - id: RMCScabbardMacheteSGFilled
         points: 15
@@ -75,7 +76,7 @@
         points: 5
       - id: RMCPouchGeneralLarge
         points: 6
-    - name: Utilities
+    - name: Додаткове Обладнання
       entries:
       - id: CMFireExtinguisherPortable
         points: 5
@@ -87,7 +88,7 @@
         points: 5
       - id: RMCPowerCellSmartgun
         points: 15
-    - name: Binoculars
+    - name: Біноклі
       entries:
       - id: RMCBinoculars
         points: 5
@@ -95,19 +96,19 @@
         points: 10
       - id: RMCLaserDesignator
         points: 15
-    - name: Helmet Optics
+    - name: Візори Для Шолома
       entries:
       - id: RMCVisorMedical
         points: 15
       - id: RMCVisorWelding
         points: 5
-    - name: Pamphlets
+    - name: Довідники
       entries:
       - id: CMPamphletJTAC
         points: 15
       - id: CMPamphletEngineer
         points: 15
-    - name: Radio Keys
+    - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyEngineer
         points: 5
@@ -117,12 +118,14 @@
         points: 5
       - id: CMEncryptionKeyRequisition
         points: 5
+      - id: CMEncryptionKeyMedical
+        points: 5
 
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSGEquipment
-  name: ColMarTech squad Smart Gun equipment rack
-  description: An automated rack hooked up to a colossal storage of Squad Smart Gun standard-issue equipment.
+  name: КолМорТех автоматизована стійка морпіхотного спорядження Оператора СмартГану
+  description: Автоматизована стійка, під'єднана до величезного сховища зі стандартним спорядженням Оператора СмартГану морської піхоти.
   components:
   - type: AccessReader
     access:
@@ -133,31 +136,31 @@
     jobs:
     - CMSmartGunOperator
     sections:
-    - name: Standard Equipment
+    - name: Стандартне Спорядження
       takeAll: CMStandard
       entries:
       - id: CMVendorBundleRiflemanApparel
       - id: CMMRE
       #- id: CMMap # TODO: Make a map
-    - name: Belt
+    - name: Ремені
       choices: { CMBelt: 1 }
       entries:
       - id: CMBeltSmartGunOperatorFilled
       - id: RMCBeltSmartGunOperatorPistolFilled
-    - name: Pouches
+    - name: Підсумки
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchFlareFilled
-        name: Flare pouch (Full)
-#      - id: RMCPouchElectronics # TODO RMC14
+        name: підсумок для фаєрів (Повний)
+      - id: RMCPouchElectronics
       - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
+        name: підсумок першої допомоги (багаторазові автоінжектори)
         recommended: true
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints comma
+        name: підсумок першої допомоги (марля, мазь) # TODO RMC14 splints comma
         recommended: true
       - id: RMCPouchFirstAidPills
-        name: first-aid pouch (pills)
+        name: підсумок першої допомоги (пігулки)
         recommended: true
       - id: RMCPouchMagazinePistolLarge
         recommended: true
@@ -166,9 +169,9 @@
       - id: RMCPouchGeneralMedium
       - id: RMCPouchPistol
       - id: RMCPouchMacheteFilled
-        name: machete pouch (Full)
+        name: підсумок для мачете (Повний)
     #- id: CMSlingPouch
-    - name: Accessories
+    - name: Ремінно-Плечові Системи
       choices: { CMAccessories: 1 }
       entries:
       - id: CMWebbingBrown
@@ -182,7 +185,7 @@
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
       - id: RMCWebbingHolsterBlack
-    - name: Mask
+    - name: Маски
       choices: { CMMask: 1 }
       entries:
       - id: CMMaskGas

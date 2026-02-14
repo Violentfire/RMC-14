@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntel
-  name: "комп'ютер розвідки"
-  description: "Комп'ютер розвідки, для каталогізації та дистрибуції даних."
+  name: комп'ютер розвідки
+  description: Комп'ютер розвідки, для каталогізації та дистрибуції даних.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -161,7 +161,7 @@
 
 - type: entity
   id: RMCIntelTechTree
-  name: intel tech tree
+  name: дерево технологій розвідки
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -169,7 +169,7 @@
       options:
       -
         - name: Розблокувати рівень 1
-          description: Переводить технології на новий рівень.
+          description: Підвищує рівень авторизації активів.
           cost: 0
           events:
           - !type:TechUnlockTierEvent
@@ -178,52 +178,52 @@
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Збільшення Бюджету Запитів
-          description: Збільшує бюджет постачання для закупівлі оснащення.
-          cost: 7
+        - name: Додатковий бюджет для логістики
+          description: Збільшує бюджет постачання для закупівлі оснащення. Додаткові 10000 доларів.
+          cost: 6 # Sich. 7 в оригіналі
           increase: 1
           repurchasable: true
           events:
           - !type:TechRequisitionsBudgetEvent
-            amount: 5000
+            amount: 10000 # Sich. 5000 в оригіналі
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: На цю операцію було виділений додатковий бюджет для постачання.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: На цю операцію було виділено додатковий бюджет для логістики.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_req
         - name: Додаткові очки для фабрикатора деталей
-          description: Розподіляє ресурси до фабрикатора деталей шатлів.
-          cost: 6
+          description: Розподіляє ресурси до фабрикатора деталей шатлів. Додаткові 2000 очок.
+          cost: 5 # Sich. 6 в оригіналі
           increase: 1
           repurchasable: true
           events:
           - !type:TechDropshipBudgetEvent
             amount: 2000
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Для цієї операції надано додаткові ресурси фабрикатору деталей шатлів.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: Для цієї операції надано додаткові ресурси фабрикатора деталей шатлів.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: budget_ds
         - name: Розблокувати рівень 2
-          description: Переводить технології на новий рівень.
+          description: Підвищує рівень авторизації активів.
           cost: 5
           events:
           - !type:TechUnlockTierEvent
             tier: 2
           - !type:TechAnnounceEvent
-            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
-            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 2.
+            author: ПІДВИЩЕННЯ РІВНЯ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО ДРУГОГО РІВНЯ.
 
-              Активи РІВНЯ 2 були авторизовані для врегулювання ситуації."
+              Активи ДРУГОГО РІВНЯ були авторизовані для врегулювання ситуації."
             sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Додаткова орбітальна боєголовка.
-          description: Боєприпас для орбітального бомбардування, що заряджається в орбітальну гармату.
+        - name: Додаткова фугасна орбітальна боєголовка
+          description: Фугасний боєприпас для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -231,13 +231,13 @@
           - !type:TechLogisticsDeliveryEvent
             object: RMCOrbitalCannonWarheadExplosive
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Додаткова боєголовка орбітального бомбардування була доставлена до постачання.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: Додаткова фугасна боєголовка для орбітального бомбардування була передана логістиці через АТСС.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_he
-        - name: Додаткова запалювальна боєголовка для ОБ
-          description: Запальна боєголовка для орбітального бомбардування, що заряджається в орбітальну гармату.
+        - name: Додаткова запальна орбітальна боєголовка
+          description: Запальний боєприпас для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -245,13 +245,13 @@
           - !type:TechLogisticsDeliveryEvent
             object: RMCOrbitalCannonWarheadIncendiary
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Додаткова запальна боєголовка для орбітального бомбардування була доставлена до постачання.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: Додаткова запальна боєголовка для орбітального бомбардування була передана логістиці через АТСС.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_incend
-        - name: Додаткова кластерна боєголовка для ОБ
-          description: Кластерна боєголовка для орбітального бомбардування, що заряджається в орбітальну гармату.
+        - name: Додаткова кластерна орбітальна боєголовка
+          description: Кластерний боєприпас для орбітального бомбардування, що заряджається в орбітальну гармату.
           cost: 5
           increase: 2
           repurchasable: true
@@ -259,80 +259,80 @@
           - !type:TechLogisticsDeliveryEvent
             object: RMCOrbitalCannonWarheadCluster
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ 
-            message: Додаткова кластерна боєголовка для орбітального бомбардування була доставлена до постачання.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО 
+            message: Додаткова кластерна боєголовка для орбітального бомбардування була передана логістиці через АТСС.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: ob_cluster
         - name: Розблокувати рівень 3
-          description: Переводить технології на новий рівень.
+          description: Підвищує рівень авторизації активів.
           cost: 5
           events:
           - !type:TechUnlockTierEvent
             tier: 3
           - !type:TechAnnounceEvent
-            author: ПІДВИЩЕНИЙ РІВЕНЬ ГОТОВНОСТІ ЗАХИСТУ САВАНИ
-            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО РІВНЯ 3.
+            author: ПІДВИЩЕННЯ РІВНЯ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО ТРЕТЬОГО РІВНЯ.
 
-              Активи РІВНЯ 3 були авторизовані для врегулювання ситуації."
+              Активи ТРЕТЬОГО РІВНЯ були авторизовані для врегулювання ситуації."
             sound: /Audio/_RMC14/AI/commandreport.ogg
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: upgrade
       -
-        - name: Викликати додаткові війська
-          description: Пробуджує додаткові війська для боротьби з будь-якими загрозами.
+        - name: Пробудження додаткових бійців
+          description: Пробуджує додатковий загін бійців для боротьби з будь-якими загрозами.
           cost: 6
           increase: 6
           repurchasable: true
           events:
           - !type:TechCryoMarinesEvent
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
             message: З кріогенного сну виводяться додаткові бійці.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: cryotroops
         - name: Пробудження додаткового спеціаліста
-          description: Прокидається додатковий спеціаліст для боротьби з будь-якими загрозами.
+          description: Пробуджує додаткового спеціаліста для боротьби з будь-якими загрозами.
           cost: 8
           events:
           - !type:TechCryoSpecEvent
           - !type:TechAnnounceEvent
-            author: СПЕЦІАЛЬНІ АКТИВИ САВАНИ ДОЗВОЛЕНІ
-            message: Додаткового спеціаліста виводять з кріогенного сну.
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: З кріогенного сну виводиться додатковий спеціаліст.
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: overshield
-#        - name: Unlock Tier 4
-#          description: Transitions the tree to another tier.
-#          cost: 5
-#          events:
-#          - !type:TechUnlockTierEvent
-#            tier: 4
-#          - !type:TechAnnounceEvent
-#            author: ALMAYER DEFCON LEVEL INCREASED
-#            message: "THREAT ASSESSMENT LEVEL INCREASED TO LEVEL 4.
-#
-#              LEVEL 4 assets have been authorised to handle the situation."
-#            sound: /Audio/_RMC14/AI/commandreport.ogg
-#          icon:
-#            sprite: _RMC14/Interface/tech_tree.rsi
-#            state: upgrade
-#      -
-#        - name: Nuclear Device
-#          description: 	Purchase a nuclear device. Only purchasable 116 minutes into the operation. It's the only way to be sure.
-#          cost: 5
-#          timeLock: 3m
-#          events:
-#          - !type:TechLogisticsDeliveryEvent
-#            object: RMCNuke
-#          - !type:TechAnnounceEvent
-#            author: ALMAYER SPECIAL ASSETS AUTHORIZED
-#            message: The deployment of Nuclear Ordnance have been authorized and will be delivered to the Requisitions Department, via ASRS.
-#          icon:
-#            sprite: _RMC14/Interface/tech_tree.rsi
-#            state: nuke
+        - name: Розблокувати рівень 4
+          description: Підвищує рівень авторизації активів.
+          cost: 5
+          events:
+          - !type:TechUnlockTierEvent
+            tier: 4
+          - !type:TechAnnounceEvent
+            author: ПІДВИЩЕННЯ РІВНЯ ГОТОВНОСТІ ЗАХИСТУ САВАННИ
+            message: "РІВЕНЬ ОЦІНКИ ЗАГРОЗИ ПІДВИЩЕНО ДО ЧЕТВЕРТОГО РІВНЯ.
+
+              Активи ЧЕТВЕРТОГО РІВНЯ були авторизовані для врегулювання ситуації."
+            sound: /Audio/_RMC14/AI/commandreport.ogg
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: upgrade
+      -
+        - name: Ядерний Пристрій
+          description: Ядерна бомба. Її можна придбати лише через 90 хвилин після початку операції. Ви повинні бути справді впевнені, що вам це необхідно.
+          cost: 5
+          timeLock: 90m # Sich. 115m в оригіналі
+          events:
+          - !type:TechLogisticsDeliveryEvent
+            object: RMCNuke
+          - !type:TechAnnounceEvent
+            author: СПЕЦІАЛЬНІ АКТИВИ САВАННИ АВТОРИЗОВАНО
+            message: Розгортання ядерного заряду було санкціоновано, його буде передано логістиці через АТСС.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: nuke
 - type: Tag
   id: RMCIntelItem
 

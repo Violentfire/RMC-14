@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: RMCTrainingDummy
-  name: training dummy
-  description: A training dummy used by the UNMC to simulate a humanoid body. Feels almost too lifelike.
+  name: тренувальний манекен
+  description: "Тренувальний манікен, який КМПОН використовують для тренування. Виглядає, ніби жива людина! Має маленьку бірку на формі з написом: \"Богдан №2235 'Стиляга'\"."
   suffix: RMC14
   components:
   - type: Loadout
@@ -12,11 +12,15 @@
   - type: RMCTrainingDummy
     removeComponents:
     - type: CanEnterCryostorage
+    - type: CommendationReceiver
     - type: Hunger
     - type: Infectable
+    - type: Marine
+    - type: MarineMapTracked
     - type: MindContainer
     - type: NewPlayerLabel
     - type: Perishable
+    - type: RMCRevivable
     - type: SSDIndicator
     - type: TacticalMapTracked
     - type: Thirst
@@ -26,12 +30,12 @@
   id: RMCGearTrainingDummy
   equipment:
     jumpsuit: JumpsuitMarine
-    shoes: RMCShoesJackboots
+    shoes: CMBootsBlack
 
 - type: entity
   parent: MarkerBase
   id: SpawnRMCTrainingDummy
-  name: RMC Training Dummy Spawner
+  name: РМС спавнер тренувального манекена
   components:
   - type: Sprite
     layers:
@@ -41,3 +45,72 @@
   - type: ConditionalSpawner
     prototypes:
     - RMCTrainingDummy
+
+- type: entity
+  parent: CMLockerBase
+  id: RMCLockerTrainingDummy
+  name: кабінет тренувального манекена
+  suffix: South, Empty
+  description: Ультрабезпечна шафа з тренувальним манекеном. Для відкриття необхідний доступ медика.
+  # description: An ultrasafe cabinet containing Professor DUMMY and its tablet. Only accessible by Chief Medical Officers and Senior Listed Advisors.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Corrodible
+    isCorrodible: false
+  - type: Destructible
+    thresholds: [ ]
+  - type: WallMount
+    arc: 360
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: _RMC14/Structures/Wallmounts/surgical.rsi
+  - type: EntityStorage
+    capacity: 1
+    isCollidableWhenOpen: true
+    enteringOffset: 0, -0.6
+    enteringRange: 0.03
+    whitelist:
+      components:
+      - RMCTrainingDummy
+  - type: RMCEntityStorageWhitelist
+    whitelist:
+      components:
+      - RMCTrainingDummy
+  - type: AccessReader
+    access: [ ["CMAccessMedical"] ] # Sich. В оригіналі тут ГЛ та Інструктор
+  - type: RMCMesonsNonviewable
+
+- type: entity
+  parent: RMCLockerTrainingDummy
+  id: RMCLockerTrainingDummyFilled
+  suffix: South, Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: RMCLockerFillTrainingDummy
+
+- type: entity
+  parent: RMCLockerTrainingDummy
+  id: RMCLockerTrainingDummyNorth
+  suffix: North, Empty
+  components:
+  - type: EntityStorage
+    enteringOffset: 0, 0.6
+
+- type: entity
+  parent: RMCLockerTrainingDummyNorth
+  id: RMCLockerTrainingDummyNorthFilled
+  suffix: North, Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: RMCLockerFillTrainingDummy
+
+- type: entityTable
+  id: RMCLockerFillTrainingDummy
+  table: !type:AllSelector
+    children:
+    - id: RMCTrainingDummy

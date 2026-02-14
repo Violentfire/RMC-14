@@ -3,6 +3,8 @@
   parent: CMDistressSignal
   categories: [ HideSpawnMenu ]
   components:
+  - type: GameRule
+    minPlayers: 0
   - type: CMDistressSignalRule
     requireXenoPlayers: false # не треба готові ксено
     spawnXenos: false         # готових ксено не заспавнить
@@ -18,8 +20,10 @@
   parent: CMDistressSignal
   categories: [ HideSpawnMenu ]
   components:
+  - type: GameRule
+    minPlayers: 0
   - type: CMDistressSignalRule
     requireXenoPlayers: false 
     spawnXenos: false         
     spawnSurvivors: false     
-    roundEndCheckDelay: 10800 # 3 години
+    roundEndCheckDelay: 108000 # 30 годин

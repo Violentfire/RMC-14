@@ -13,3 +13,6 @@ cm-job-name-militarypolice = Військовий Поліціянт
 cm-job-description-militarypolice = Дотримуйтеся Морпіхотного Закону. Розслідуйте злочини. Забезпечте безпеку на кораблі. Будьте готові заспокоювати переляканого цивільного та навчати рядового.
 cm-job-prefix-militarypolice = ВП
 CMJobMilitaryPolice = Військовий Поліціянт
+
+rmc-job-name-honor-guard = Почесна Варта
+rmc-job-prefix-honor-guard = ПВ

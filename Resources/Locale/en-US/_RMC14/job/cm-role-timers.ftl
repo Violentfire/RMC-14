@@ -6,8 +6,8 @@ role-timer-dropship-pilot-roles = будь-яка роль пілоту шатл
 role-timer-corporate-roles = будь-яка корпоратська роль
 role-timer-survivor-roles = будь-яка роль вижившого
 
-role-timer-total-department-insufficient = Вам потрібно на [color=yellow]{TOSTRING($time, "0")}[/color] більше хвилин за [color={$rolesColor}]{$roles}[/color] щоб обрати це.
-role-timer-total-department-too-high = Вам потрібно на [color=yellow]{TOSTRING($time, "0")}[/color] менше хвилин за [color={$departmentColor}]{$rolesColor}[/color] щоб зіграти цю роль. (Ви реально намагаєтеся зіграти роль стажера?)
+role-timer-total-department-insufficient = Потрібно на [color=yellow]{TOSTRING($time, "0")}[/color] більше хвилин за [color={$rolesColor}]{$roles}[/color] щоб обрати це.
+role-timer-total-department-too-high = Потрібно на [color=yellow]{TOSTRING($time, "0")}[/color] менше хвилин за [color={$departmentColor}]{$rolesColor}[/color] щоб зіграти цю роль. (Ви реально намагаєтеся зіграти роль стажера?)
 
 # Виживші
 role-timer-civilian-survivor-roles = будь-яка роль цивільна вижившого

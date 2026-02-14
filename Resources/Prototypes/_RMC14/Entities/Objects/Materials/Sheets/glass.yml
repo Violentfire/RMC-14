@@ -71,6 +71,10 @@
   description: Скло - це некристалічна тверда речовина, виготовлена з силікату, основного компонента піску. Воно цінується за свою прозорість, хоча й не надто стійке до пошкоджень.
   suffix: Filled
   components:
+  - type: RMCConstructionItem
+    buildable:
+      - RMCWindowDirectionalBuild
+      # Full window
   - type: Material
   - type: PhysicalComposition
     materialComposition:
@@ -91,6 +95,10 @@
     layers:
       - state: glass_4
         map: ["base"]
+  - type: UserInterface
+    interfaces:
+      enum.RMCConstructionUiKey.Key:
+        type: RMCConstructionBui
 
 - type: entity
   parent: CMSheetGlass
@@ -161,6 +169,11 @@
   description: Лист армованого скла.
   suffix: Filled
   components:
+  - type: RMCConstructionItem
+    buildable:
+      - RMCWindowReinforcedDirectionalBuild
+      # Full window
+      - RMCWindoorBuild
   - type: Material
   - type: PhysicalComposition
     materialComposition:
@@ -185,6 +198,11 @@
   - type: Construction
     graph: CMGlass
     node: SheetGlassReinforced
+  - type: UserInterface
+    interfaces:
+      enum.RMCConstructionUiKey.Key:
+        type: RMCConstructionBui
+
 
 - type: entity
   parent: CMSheetGlassReinforced

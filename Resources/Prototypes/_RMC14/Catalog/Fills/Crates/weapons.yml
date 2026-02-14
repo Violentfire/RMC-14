@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateSmartGunSet
-  name: Набір системи смарт-кулемету МЛ66A
+  name: Набір системи СмартГану МЛ66A
   components:
   - type: StorageFill
     contents:

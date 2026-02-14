@@ -1,5 +1,5 @@
 - type: entity
-  name: M83 гранатомет
+  name: М83 гранатомет
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: WeaponLauncherM83
   description: Важкий шестизарядний гранатомет, що перебуває на озброєнні КМПОН для придушення живої сили противника та ураження відкритих позицій.

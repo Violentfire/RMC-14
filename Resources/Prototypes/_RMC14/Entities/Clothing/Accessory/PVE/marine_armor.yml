@@ -1,0 +1,305 @@
+# Base
+- type: entity
+  abstract: true
+  parent: RMCBaseUniformAccessory
+  id: RMCPVEArmorAccessoryBase
+  name: armor accessory
+  description: Abstract armor accessories.
+  suffix: PVE
+  components:
+  - type: Sprite
+    state: icon
+  - type: UniformAccessory
+    limit: 1
+    hasIconSprite: true
+  - type: Appearance
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorAccessoryBase
+  id: RMCPVEArmorPadsBase
+  components:
+  - type: UniformAccessory
+    category: Pads
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorBracersBase
+  components:
+  - type: UniformAccessory
+    category: Bracers
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorNeckGuardBase
+  components:
+  - type: UniformAccessory
+    category: NeckGuard
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorGroinPlateBase
+  components:
+  - type: UniformAccessory
+    category: GroinPlate
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorShinGuardBase
+  components:
+  - type: UniformAccessory
+    category: ShinGuard
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorKneeGuardBase
+  components:
+  - type: UniformAccessory
+    category: KneeGuard
+
+- type: entity
+  abstract: true
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorPaintBase
+  components:
+  - type: UniformAccessory
+    category: Paint
+
+# Pads
+- type: entity
+  parent: RMCPVEArmorPadsBase
+  id: RMCPVEArmorPads
+  name: наплічники М3
+  description: Додаткова броня, що прикріплюється до броні М3. Захищає від прямих влучань та закриває отвори для рук в броні від шрапнелі.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/pads/urban.rsi
+
+# Bracers
+- type: entity
+  parent: RMCPVEArmorBracersBase
+  id: RMCPVEArmorBracers
+  name: нарукавники М3
+  description: Додаткова броня, що прикріплюється до броні М3. Пара композитних наплічників для захисту передпліч.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/bracers/urban.rsi
+
+# Neck Guard
+- type: entity
+  parent: RMCPVEArmorNeckGuardBase
+  id: RMCPVEArmorNeckGuard
+  name: горжет М3
+  description: Додаткова броня, що прикріплюється до броні М3. Проста полимерна плита, що захищає шию від куль та шрапнелі.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/neckguard/urban.rsi
+
+# Groin Plate
+- type: entity
+  parent: RMCPVEArmorGroinPlateBase
+  id: RMCPVEArmorGroinPlate
+  name: плита на живіт М3
+  description: Додаткова броня, що прикріплюється до броні М3. Рідка броня з потовщенням від зсуву, що покриває живіт і пах, з додатковим посиленим карбідом бору. Застібки кріпляться до внутрішньої сторони броні М3.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/groinplate/urban.rsi
+
+# Shin Guard
+- type: entity
+  parent: RMCPVEArmorShinGuardBase
+  id: RMCPVEArmorShinGuard
+  name: наголінники М3
+  description: Додаткова броня, що прикріплюється до броні М3. Легкі полімерні пластини у формі черепахи, що закривають нижню частину ніг та забезпечуючи захист від осколків і пістолетних куль.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/shinguards/urban.rsi
+
+# Knee Guard
+- type: entity
+  parent: RMCPVEArmorKneeGuardBase
+  id: RMCPVEArmorKneeGuard
+  name: наколінники М3
+  description: Додаткова броня, що прикріплюється до броні М3. Має ударостійку міцну зовнішню оболонка та полімерні внутрішні елементи, якізахищають від осколків, а також від ударів малої сили.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/jungle.rsi
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/jungle.rsi
+      Desert: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/desert.rsi
+      Classic: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/classic.rsi
+      Snow: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/snow.rsi
+      Urban: _RMC14/Objects/Clothing/Accessory/PVE/Marine/thighguards/urban.rsi
+
+# Paint
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintSkull
+  name: малюнок черепа для броні
+  description: Набір фарби для гравіювання черепа на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/skull.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/skull.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintHeart
+  name: малюнок серця для броні
+  description: Набір фарби для гравіювання серця на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/heart.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/heart.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintMedic
+  name: малюнок медичного хреста для броні
+  description: Набір фарби для гравіювання блакитного хреста на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/medic.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/medic.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintUN
+  name: малюнок прапора ОН для броні
+  description: Набір фарби для гравіювання білого та синього на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/un.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/un.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintTarget
+  name: малюнок цілі для броні
+  description: Набір фарби для гравіювання символа цілі на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/target.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/target.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintSmileyFace
+  name: малюнок посмішки для броні
+  description: Набір фарби для гравіювання веселого лиця на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/smiley.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/smiley.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintNeutralFace
+  name: малюнок нейтрального лиця для броні
+  description: Набір фарби для гравіювання нейтрального лиця на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/neutral.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/neutral.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintCross
+  name: малюнок хреста для броні
+  description: Набір фарби для гравіювання релігійного символа на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/cross.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/cross.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintInscription
+  name: написи на броні
+  description: Набір фарби для гравіювання напису на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/inscription.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/inscription.rsi
+      state: equipped
+
+- type: entity
+  parent: RMCPVEArmorPaintBase
+  id: RMCPVEArmorPaintMixtape
+  name: малюнок вогню для броні
+  description: Набір фарби для гравіювання лютого жару на броні Морпіха.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/mixtape.rsi
+  - type: UniformAccessory
+    playerSprite:
+      sprite: _RMC14/Objects/Clothing/Accessory/PVE/Marine/paint/mixtape.rsi
+      state: equipped
+

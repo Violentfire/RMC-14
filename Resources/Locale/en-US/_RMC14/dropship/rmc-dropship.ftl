@@ -100,3 +100,7 @@ rmc-dropship-paradrop-target-screen-target-targeting = Зафіксовано н
 
 rmc-dropship-paradrop-lock-no-target = Ціль не обрано.
 rmc-dropship-paradrop-lock-target-not-flying = Модуль десантування можна увімкнути лише під час польоту.
+
+rmc-dropship-medevac-system-screen-text = RMU-4M Medevac System
+
+rmc-dropship-fulton-system-screen-text = RMU-19 Fulton Recovery System

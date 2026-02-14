@@ -169,8 +169,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpotTarget
-  description: Hover your mouse over a target and press the unique action key to start spotting.
-  name: Spot Target
+  description: Наведіть курсор миші на ціль і натисніть унікальну клавішу дії, щоб позначити її.
+  name: Позначити ціль
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -183,8 +183,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleLaser
-  name: Toggle Laser
-  description: Toggles your laser on or off
+  name: Перемикач лазера
+  description: Виключіть або включіть лазер
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -198,8 +198,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionAimedShot
-  name: Aimed Shot
-  description: While in combat mode and hovering your mouse over a target, press the unique action key to begin aiming.
+  name: Прицільний постріл
+  description: Перебуваючи в бойовому режимі та навівши курсор миші на ціль, натисніть унікальну клавішу дії, щоб почати прицілювання.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -208,3 +208,62 @@
       state: sniper_aim
   - type: InstantAction
     event: !type:AimedShotActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionBroiler
+  name: Змінити бак
+  description: Перемкнутися на інший бак з паливом.
+  components:
+  - type: Action
+  - type: InstantAction
+    event: !type:RMCBroilerActionEvent
+
+# Посібники
+
+- type: entity
+  id: RMCGuidebookActionSniperBase
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Actions/marine_sniper_actions.rsi
+
+- type: entity
+  parent: RMCGuidebookActionSniperBase
+  id: RMCGuidebookActionAimedShot
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: sniper_aim
+
+- type: entity
+  parent: RMCGuidebookActionSniperBase
+  id: RMCGuidebookActionToggleLaserOn
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: sniper_toggle_laser_on
+
+- type: entity
+  parent: RMCGuidebookActionSniperBase
+  id: RMCGuidebookActionToggleLaserOff
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: sniper_toggle_laser_off
+
+- type: entity
+  parent: RMCGuidebookActionSniperBase
+  id: RMCGuidebookActionSpotTarget
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: spotter_target
+
+- type: entity
+  parent: RMCGuidebookActionSniperBase
+  id: RMCGuidebookActionGhilliePreparePosition
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Sprite
+      state: prepare_position

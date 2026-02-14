@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHoodBioGeneral
-  name: bio hood
-  description: A hood that protects the head and face from biological contaminants.
+  name: біозахисний каптур
+  description: Каптур, що захищає лице та голову від біологічних загроз.
   suffix: Generic, RMC
   components:
   - type: Sprite
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCHoodBioGeneral
   id: RMCHoodBioWeYa
-  name: WeYa-TSS MK II - bio hood
-  description: The 'Weston-Yamada TerraScientia bio-suit MK II'. An advanced light-weight bio-suit developed in-house by Weston-Yamada. It's a hood that protects the head and face from biological contaminants, synthetic compliant. Offers no real protection.
+  name: біозахисний каптур Ве-Я-ТСС МК 2
+  description: "'Біокостюм Вестон-Ямада ТерраСаєнтія Марк 2'. Просунутий та легкий біокостюм розроблений Вестон-Ямада. Каптур, що захищає лице та голову від біологічних загроз, згідний з синтетичним програмуванням. Не дає реального захисту."
   suffix: Generic, WeYa
   components:
   - type: Sprite
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCHoodBioWeYa
   id: RMCHoodBioWeYaAlt
-  name: WeYa-TSS MK I - bio hood
-  description: The 'Weston-Yamada TerraScientia bio-suit MK I'. An advanced light-weight bio-suit developed in-house by Weston-Yamada. It's a hood that protects the head and face from biological contaminants.
+  name: біозахисний каптур Ве-Я-ТСС МК 1
+  description: "'Біокостюм Вестон-Ямада ТерраСаєнтія Марк 2'. Просунутий та легкий біокостюм розроблений Вестон-Ямада. Каптур, що захищає лице та голову від біологічних загроз."
   suffix: Generic, WeYa, Alt
   components:
   - type: Sprite

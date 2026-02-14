@@ -170,8 +170,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984HP
-  name: M1984 hollowpoint magazine (9mm)
-  description: A hollow-point 9mm pistol magazine for the M1984. These hollow-point bullets have noticeably higher stopping power on unarmored targets, and noticeably less on armored targets.
+  name: М1984 експансивний магазин (9мм)
+  description: Магазин з експансивними кулями для М1984. Ці кулі демонструють підвищену ефективність проти незахищених цілей, але менш ефективні проти броньованих цілей.
   components:
   - type: BallisticAmmoProvider
     whitelist:

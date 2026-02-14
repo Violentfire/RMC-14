@@ -1,5 +1,5 @@
 ---
-name: Report an Issue
+name: Повідомити про проблему
 about: "..."
 title: ''
 labels: ''
@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-## Description
-<!-- Explain your issue in detail. Issues without proper explanation are liable to be closed by maintainers. -->
+## Загальний опис
+<!-- Детально поясніть свою проблему. -->
 
-**Reproduction**
-<!-- Include the steps to reproduce if applicable. -->
+### Як відтворити
+<!-- Вкажіть кроки до відтворення проблеми, якщо знаєте, як це зробити. -->
 
-**Screenshots**
-<!-- If applicable, add screenshots to help explain your problem. -->
+### Демонстрація
+<!-- Якщо можете – додайте скріншоти чи відео з демонстрацією проблеми. -->
 
-**Additional context**
-<!-- Add any other context about the problem here. Anything you think is related to the issue. -->
+### Додатковий контекст
+<!-- Будь-що додаткове щодо проблеми. Можете додати сюди свої здогадки, чим вона викликана. -->

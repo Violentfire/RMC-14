@@ -4,8 +4,8 @@
 - type: entity
   parent: FireExtinguisher
   id: CMFireExtinguisher
-  name: fire extinguisher
-  description: A traditional red fire extinguisher.
+  name: вогнегасник
+  description: Традиційний червоний вогнегасник.
   components:
   - type: Item
     sprite: _RMC14/Objects/fire_extinguisher.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: CMFireExtinguisher
   id: CMFireExtinguisherPortable
-  name: portable fire extinguisher
-  description: A light and compact fibreglass-framed model fire extinguisher.
+  name: портативний вогнегасник
+  description: Легкий та компактний вогнегасник зі склопластиковим корпусом.
   components:
   - type: Item
     sprite: _RMC14/Objects/fire_extinguisher_mini.rsi
@@ -82,3 +82,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Undisposable
+
+- type: entity
+  parent: RMCExtinguisherSpray
+  id: RMCExtinguisherSpraySpec
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RMCExtinguisherPower
+    power: 48

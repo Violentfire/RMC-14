@@ -1,0 +1,35 @@
+- type: entity
+  parent: RMCBoxBulletsBase
+  id: SichRMCBoxBulletsSmartGun
+  name: коробка з набоями СмартГану (10x30мм)
+  description: Коробка з набоями 10х30мм. Використовується для поповнення магазинів СмартГану. Має шкіряну лямку, що дозволяє носити її на спині.
+  components:
+  - type: Tag
+    tags:
+    - SichBulletBoxSmartGun
+  - type: Sprite
+    layers:
+    - state: rifle_box
+      color: "#7b8246"
+    - state: rifle_box_marking
+      color: "#ffcb26"
+    - state: rifle_box_generic
+      color: "#ffcb26"
+    - state: rifle_ammo_full_rounds_base
+      map: [ "enum.BulletBoxLayers.Fill" ]
+    - state: rifle_ammo_full_rounds_color
+      map: [ "enum.BulletBoxLayers2.Fill" ]
+      color: "#ffc000"
+  - type: BulletBox
+    max: 3000
+    amount: 3000
+    bulletType: RMCBoxBulletsSmartGun
+  - type: ClothingSpeedModifier
+    walkModifier: 0.700
+    sprintModifier: 0.700
+  - type: HeldSpeedModifier
+    walkModifier: 0.700
+    sprintModifier: 0.700
+
+- type: Tag
+  id: SichBulletBoxSmartGun

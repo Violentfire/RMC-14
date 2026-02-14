@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "by github HorvatBG-gif",
+    "size": {
+      "x": 7,
+      "y": 7
+    },
+    "states": [
+        {
+            "name": "sherpa"
+        }
+    ]
+}

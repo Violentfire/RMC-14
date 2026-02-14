@@ -53,6 +53,9 @@ CMJobXenoSpitter = Плювака
 cm-job-name-xeno-warrior = Воїн
 CMJobXenoWarrior = Воїн
 
+rmc-job-name-xeno-king = Король
+RMCJobXenoKing = Король
+
 # TODO RMC14
 department-CMXeno = Ксеноїди
 cm-department-Xeno-description = ""

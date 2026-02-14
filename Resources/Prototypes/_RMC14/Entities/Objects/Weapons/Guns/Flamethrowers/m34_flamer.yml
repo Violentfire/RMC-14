@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: M34 вогнемет
-  description: M34 - один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають - настільки вона смертоносна.
+  name: вогнемет М34
+  description: М34 – один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають – настільки вона смертоносна, як для ворогів, так й для побратимів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/m34.rsi
@@ -46,8 +46,8 @@
         ejectSound: /Audio/_RMC14/Weapons/Handling/flamer_unload.ogg
         priority: 2
         whitelist:
-          components:
-          - RMCFlamerTank
+          tags:
+          - RMCTankFlamer
   - type: Wieldable
   - type: WieldableSpeedModifiers
     base: 0.5
@@ -128,8 +128,8 @@
 - type: entity
   parent: BaseItem
   id: RMCTankFlamer
-  name: паливний бак
-  description: Бак з пальним для вогнемета M34. Використовується виключно для її заправки. Поводьтесь обережно.
+  name: паливний бак М34
+  description: Бак з пальним для вогнемета М34. Може використовуватися для підствольних вогнеметів також.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -152,6 +152,8 @@
   - type: RMCSolutionTransferWhitelist
     popup: rmc-solution-transfer-whitelist-failed-not-reagent-tank
     targetWhitelist:
+      components:
+      - RMCFlamerBackpack
       tags:
       - RMCTankReagent
       - RMCBackpackFlamer
@@ -166,9 +168,64 @@
   - type: Appearance
   - type: SolutionStorageFillable
     solution: rmc_flamer_tank
+  - type: RMCFlushableSolution
+    solution: rmc_flamer_tank
+    flushTime: 1.5
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
   - type: Tag
     tags:
     - RMCTankFlamer
+
+- type: entity
+  parent: RMCTankFlamer
+  id: RMCTankFlamerCustom
+  name: кастомний паливний бак М34
+  description: Паливний бак для використання вогнеметом М34 та йому подібним.
+  # description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a pressure regulator and an internal propellant tank.
+  components:
+  - type: RMCFlamerTank
+    maxRange: 5
+  - type: SolutionContainerManager
+    solutions:
+      rmc_flamer_tank:
+        maxVol: 100
+        reagents: [ ]
+
+- type: entity
+  parent: RMCTankFlamer
+  id: RMCTankFlamerBGel
+  name: паливний бак М34 (Бі-Гель)
+  description: Паливний бак, заповнений спеціалізованим надгустим нафталевим паливом типу Бі-Гель, гелеподібним варіантом напалму. Легко гаситься, але при цьому діє на більшій відстані та довше горить. Поводьтеся з надзвичайно обережно.
+  components:
+  - type: RMCFlamerTank
+    maxRange: 7
+    maxDuration: 50
+  - type: SolutionContainerManager
+    solutions:
+      rmc_flamer_tank:
+        maxVol: 200
+        reagents:
+        - ReagentId: RMCBGel
+          Quantity: 200
+
+- type: entity
+  parent: RMCTankFlamer
+  id: RMCTankFlamerUpgraded
+  name: покращений паливний бак М34
+  description: Паливний бак для використання вогнеметом М34. Цей бак був модифікований, завдяки чому має більший об'єм й здатен використовувати потужніші суміші.
+  components:
+  - type: RMCFlamerTank
+    maxIntensity: 60
+    maxRange: 7
+    maxDuration: 50
+  - type: SolutionContainerManager
+    solutions:
+      rmc_flamer_tank:
+        maxVol: 200
+        reagents: [ ]
 
 - type: Tag
   id: RMCTankFlamer
@@ -177,7 +234,7 @@
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
   name: набір вогнемета М34
-  description: Зброя комплектується вогнеметом M34 та баком з пальним. Постачається зарядженою, але додаткові баки доведеться шукати самостійно.
+  description: Комлпект має вогнемет М34 та баки з пальним.
   components:
   - type: Storage
     maxItemSize: Huge

@@ -143,6 +143,7 @@
           tags:
           - RMCAttachmentRailFlashlight
       rmc-aslot-harness:
+        locked: true
         startingAttachable: RMCAttachmentSmartgunHarness
         whitelist:
           tags:
@@ -150,7 +151,7 @@
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-rail: -0.1875, 0.125
-      rmc-aslot-harness: -0.1875, 0.1
+      rmc-aslot-harness: -0.1475, 0.05
   - type: WieldedCrosshair
     rsi:
       sprite: _RMC14/Interface/MousePointer/smartgun_mouse.rsi
@@ -218,9 +219,10 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentSmartgunHarness # TODO RMC14 - This should remove GunRequiresWield when active
+  categories: [ HideSpawnMenu ]
   name: кріплення важкого кулемету підтримки МЛ66А
   description: Спеціальне кріплення для МЛ66А, дозволяє закріпити кулемет до вашого спорядження для покращеної маневреності та стабільності при стрільбі.
-  suffix: PVE, DO NOT MAP FOR PVP.
+  suffix: PVE
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi

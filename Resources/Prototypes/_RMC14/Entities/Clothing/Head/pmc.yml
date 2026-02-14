@@ -2,8 +2,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetPMC
-  name: PMC tactical cap
-  description: A protective cap made from flexible kevlar. Standard issue for most security forms in the place of a helmet.
+  name: тактична кепка ПВК
+  description: Захисна кепка зроблена з гнучкого кевлару. Стандартна для більшості охоронних організацій замість шолому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/cap.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: [ArmorHelmetPMC, RMCMarineHelmetWithLightBase]
   id: RMCArmorHelmetPMCTactical
-  name: tactical helmet
-  description: A contender for service with the Royal Crown Marines, it is presently, exclusively, field tested by Weston-Yamada mercenaries. Features a ballistic mask and integrated display connected to the visor.
+  name: тактичний шолом
+  description: Претендент на новий шолом Морської Піхоти Корони, який, наразі, лише проходить польові випробування у найманців Вестон-Ямада. Має балістичну маску та інтегрований дісплей, підключений до візору.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/helmet.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCOfficer
-  name: PMC beret
-  description: The pinnacle of fashion for any aspiring mercenary leader. Designed to protect the head from light impacts.
+  name: берет ПВК
+  description: Вершина моди для кожного прагнучого лідера найманців. Спроєктований захищати голову від легких ударів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/officer.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCGunner
-  name: PMC specialist operator helmet
-  description: A modification of the standard PMC tactical helmet, featuring a frontal shield to protect the user's from shrapnel and small arms fire while operating heavy weaponry.
+  name: шолом оператора-спеціаліста ПВК
+  description: Модифікація стандартного тактичного шолома ПВК, яка має щит спереду для захисту носія від шрапнелі та малокаліберної зброї під час використання важкого озброєння.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/heavy.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCCommando
-  name: PMC M5X helmet
-  description: A fully enclosed, armored helmet made to complete the M5X exoskeleton armor.
+  name: шолом ПВК М5Х
+  description: Повністю закритий, броньований шолом, зроблений для доповнення екзоскелету М5Х.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/commando.rsi
@@ -86,7 +86,7 @@
   parent: ArmorHelmetPMCCommando
   id: RMCArmorHelmetPMCCommandoAlt
   suffix: Alt
-  description: A fully enclosed, armored helmet made to complete the M5X exoskeleton armor. This one has had a skull scratched into the visor.
+  description: Повністю закритий, броньований шолом, зроблений для доповнення екзоскелету М5Х. Ця версія має череп вицарапаний на візорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/commando_alt.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCCorporate
-  name: We-Ya corporate security helmet
-  description: A basic skull-helm worn by corporate security assets, graded to protect your head from an unruly scientist armed with a crowbar.
+  name: шолом корпоративної охорони Ве-Я
+  description: Звичайний шолом, який носять співробітники корпоративної охорони, призначений для захисту голови від шаленого науковця з ломом.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: ArmorHelmetPMCCorporateLead
-  description: A basic skull-helm worn by corporate security assets. This variant is worn by low-level guards that have too much brainmatter to fit into the old one. Or so they say.
+  description: Звичайний шолом, який носять співробітники корпоративної охорони. Цю версію видають охоронцям, що мають надто багато сірої речовини, щоби влізти у попередній шолом. Ну, принаймні, вони так кажуть.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/corporate_lead.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCRiot
-  name: RC6 helmet
-  description: The standard UN Riot Control 6 helmet is of odd design, lacking a face shield by default (mounting points are available). The distinct white pattern and red emblem are synonymous with oppression throughout the rim.
+  name: шолом РС6
+  description: Стандартний шолом ОН РС6 це дивний дизайн, який базово не має балістичного щитка (проте є кріплення). Виразний білий візерунок та червона емблема є синонімом тиранії по всьому сектору.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/riot.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCKutjevo
-  name: kutjevo helmet
-  description: Standard issued helmet for the workers of Kutjevo. Contains a small webbing to hold small items like pens, oil or even a photo of a loved one.
+  name: шолом кутєво
+  description: Стандартний шолом для працівників на Кутєво. Має невеличку стрічку для малих предметів, наприклад, ручок, мастила чи навіть фотографії близьких.
   suffix: Kutjevo
   components:
   - type: Sprite
@@ -148,8 +148,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCKutjevoSecurity
-  name: We-Ya corporate security helmet
-  description: A basic skull-helm worn by corporate security assets. This variant comes with a wider brim to protect the user from the harsh climate of the desert.
+  name: шолом корпоративної охорони Ве-Я
+  description: Звичайний шолом, який носять співробітники корпоративної охорони. Цей варіант має більш широкі края, для захисту носія від умов пустелі.
   suffix: Kutjevo
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
   parent: ArmorHelmetPMC
   id: RMCArmorHelmetPMCKutjevoMedical
   name: We-Ya corporate medic helmet
-  description: A basic skull-helm worn by corporate security assets. This variant comes with a wider brim to protect the user from the harsh climate of the desert and has a medical cross across the front.
+  description: Звичайний шолом, який носять співробітники корпоративної охорони. Цей варіант має більш широкі края, для захисту носія від умов пустелі та медичний хрест спереду.
   suffix: Kutjevo
   components:
   - type: Sprite
@@ -172,8 +172,8 @@
 - type: entity
   parent: RMCArmorHelmetPMCTactical
   id: ArmorHelmetPMCEngineer
-  name: pmc engineer helmet
-  description: An advanced technician helmet with a black finish, including advanced welding protection and resistence to the potential industrial hazards, but has less kevlar against potential firefights.
+  name: шолом інженера ПВК
+  description: Просунутий технічний шолом з червоними елементами, включно з просунутим зварювальним захистом та стійкістю до потенційних промислових небезпек, проте має менше кевлару для прямих боїв.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/engineer.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: ArmorHelmetPMCDirector
-  name: director's hat
-  description: Belongs to someone very important. Has minor protection to all damage types.
+  name: шляпа директора
+  description: Належить комусь важливому. Має невеличкий захист усіх типів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/director.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: ArmorHelmetPMC
   id: RMCHeadCapManager
-  name: manager's hat
-  description: Belongs to someone very important. Has minor protection to all damage types.
+  name: шляпа менеджера
+  description: Належить комусь важливому. Має невеличкий захист усіх типів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/manager.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadCapWestonYamadaDark
-  name: Weston-Yamada cap
-  description: A dark cap enscribed with the Weston-Yamada 'Wings' logo, representing corporate justice.
+  name: кепка Вестон-Ямада
+  description: Темна кепка з логопипом 'Крила' Вестон-Ямада спереду, представляючи корпоративну справедливість.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/hybrisa_cap.rsi
@@ -226,7 +226,7 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: RMCArmorHelmetPMCCorporateHybrisa
-  description: A basic skull-helm with a orange saftey vison fitted. Worn by corporate security assets, graded to protect your head from an unruly scientist armed with a crowbar.
+  description: Базовий шолом із встановленим помаранчевим захисним візором. Носять співробітники корпоративної охорони, призначений для захисту голови від шаленого науковця з ломом.
   suffix: Hybrisa
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: ArmorHelmetPMCCorporate
   id: RMCArmorHelmetPMCCorporateLeadHybrisa
-  description: A basic skull-helm with a orange saftey vison fitted. Worn by corporate security assets. This variant is worn by low-level guards that have too much brainmatter to fit into the old one. Or so they say.
+  description: Базовий шолом із встановленим помаранчевим захисним візором. Носять співробітники корпоративної охорони. Цю версію видають охоронцям, що мають надто багато сірої речовини, щоби влізти у попередній шолом. Ну, принаймні, вони так кажуть.
   suffix: Hybrisa
   components:
   - type: Sprite
@@ -248,8 +248,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretWeYa
-  name: Weston-Yamada beret
-  description: Show off your megacorp pride with this stylish beret!
+  name: берет Вестон-Ямада
+  description: Похваліться своєю гордістю за мегакорпорацію з цим стильним беретом!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/PMC/weya_beret.rsi

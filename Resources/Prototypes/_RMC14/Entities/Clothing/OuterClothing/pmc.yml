@@ -26,6 +26,12 @@
     - 0,0,3,1 # 2 slots
   - type: ItemCamouflage
     camouflageVariations: { }
+  - type: ClothingRequireEquipped
+    autoUnequip: true
+    denyReason: rmc-armor-not-pmc-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformPMC
 
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBasePMCArmorLight]
@@ -50,13 +56,19 @@
     sprintModifier: 0.897
 
 - type: entity
-  parent: CMArmorM4PMCLight
+  parent: [RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight]
   id: CMArmorM4PMCCorporate
   name: M1 pattern corporate security armor
   description: A basic vest with a We-Ya badge on the right breast. This is commonly worn by low-level guards protecting We-Ya facilities.
+  suffix: ""
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 20 # CLOTHING_ARMOR_MEDIUM
+    bio: 20 # CLOTHING_ARMOR_MEDIUM
+    explosionArmor: 15 # CLOTHING_ARMOR_MEDIUMLOW
   - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
     walkModifier: 0.725
     sprintModifier: 0.725
@@ -65,6 +77,7 @@
   parent: CMArmorM4PMCCorporate
   id: CMArmorM4PMCCorporateLead
   description: A basic vest with a We-Ya badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
+  suffix: Leader
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/corporate_lead.rsi
@@ -131,8 +144,8 @@
 - type: entity
   parent: CMArmorM4PMHeavy
   id: CMArmorM4PMCSmartGunHarness
-  name: PMC gun operator armor
-  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
+  name: броня оператора СмартГана ПВК
+  description: Модифікація стандартної броні М3, оснащена підсиленими ременями та стропами, що дозволяють користувачу носити СмартГан МЛ66A.
   components:
   - type: RMCArmorSpeedTier
     speedTier: light
@@ -148,8 +161,8 @@
 - type: entity
   parent: CMArmorM4PMCSmartGunHarness
   id: CMArmorM4PMCSmartGunHarnessCommando
-  name: M5Xg exoskeleton gun operator armor
-  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
+  name: екзоскелетна броня оператора СмартГана М5П
+  description: Складна система накладених одна на одну пластин, призначена для того, щоб зробити власника практично невразливим до стрілецької зброї. Пасивний екзоскелет підтримує вагу броні, дозволяючи користувачу переносити її масивний об'єм. Цей варіант розроблений для роботи зі СмартГаном МЛ66A
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi

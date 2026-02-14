@@ -114,6 +114,7 @@
   - type: EncryptionKey
     channels:
     - MarineHighCommand
+    - Provost
     defaultChannel: MarineHighCommand
   - type: Sprite
     state: cap_key
@@ -433,7 +434,7 @@
     defaultChannel: WEYA
   - type: Sprite
     state: cap_key
-    
+
 # Combat Correspondent
 - type: entity
   parent: CMEncryptionKey
@@ -476,6 +477,12 @@
     - MarineJTAC
     - MarineMedical
     - MarineIntel
+    - MarineAlpha # Sich. До кінця цього компоненту
+    - MarineBravo
+    - MarineCharlie
+    - MarineDelta
+    - MarineEcho
+    - MarineFoxtrot
     defaultChannel: MarineCommand
   - type: Sprite
     state: cap_key

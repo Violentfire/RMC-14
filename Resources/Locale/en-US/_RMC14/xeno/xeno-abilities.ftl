@@ -77,8 +77,9 @@ rmc-xeno-weeds-blocked = Ми не можемо це зробити тут.
 
 # Corrosive acid
 cm-xeno-acid-not-corrodible = Ви не можете розчинити {$target}!
-cm-xeno-acid-already-corroding = {$target} вже піддається впливу кислоти!
+cm-xeno-acid-already-corroding = {CAPITALIZE($target)} вже піддається впливу кислоти!
 rmc-xeno-acid-structure-unmeltable = Ми можемо розплавляти лише барикади та предмети!
+rmc-xeno-acid-too-weak = {CAPITALIZE($target)} не розплавити нашою слабкою кислотою.
 
 # Paralyzing Slash
 cm-xeno-paralyzing-slash-activate = Наступний наш удар буде з нейротоксином!
@@ -396,3 +397,10 @@ rmc-shed-spikes-back = Ми можемо знову відновлювати г�
 rmc-spike-shield-self = Ми розпушуємо наші кісткові голки, утворюючи захисну оболонку!
 rmc-spike-shield-others = {$user} розпушує свої кісткові голки, утворюючи захисну оболонку!
 rmc-spike-shield-hit = {$user} розкидає кісткові голки навколо!
+
+# Doomed
+rmc-doomed-fail = Воно не працює...
+
+# Destroy
+rmc-destroy-cant-reach = Ми не можемо дістатися того місця!
+rmc-destroy-cant-area = Ми не можемо стрибнути туди!

@@ -1,0 +1,231 @@
+# Перероблені під нас правила. Заміняють звичайні РМСні
+## Все відразу
+- type: guideEntry
+  parent: RMC
+  id: SichOverview
+  name: sich-guide-entry-rules
+  priority: 0
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Overview.xml"
+  children:
+  - SichRuleChanges
+  - SichBanTypes
+  - SichAdmin
+  - SichRespawn
+  - SichZeroToleranceRules
+  - SichCoreRules
+  - SichRoleplayStandardsRules
+
+- type: guideEntry
+  parent: RMC
+  id: SichRuleChanges
+  name: sich-guide-entry-rules-changes
+  priority: 1
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Changes.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichBanTypes
+  name: sich-guide-entry-rules-ban-types
+  priority: 2
+  text: "/ServerInfo/Guidebook/_Sich/Rules/BanTypes.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichAdmin
+  name: sich-guide-entry-rules-admin
+  priority: 3
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Admin.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichRespawn
+  name: sich-guide-entry-rules-respawn
+  priority: 4
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Respawn.xml"
+
+## Правила нульової толерантності
+- type: guideEntry
+  parent: RMC
+  id: SichZeroToleranceRules
+  name: sich-guide-entry-rules-zero-tolerance
+  priority: 5
+  text: "/ServerInfo/Guidebook/_Sich/Rules/RulesZeroTolerance.xml"
+  children:
+  - SichAge
+  - SichSlurs
+  - SichERP
+  - SichBanEvasion
+  - SichMisinformation
+
+- type: guideEntry
+  parent: RMC
+  id: SichAge
+  name: sich-guide-entry-rules-age
+  priority: 1
+  text: "/ServerInfo/Guidebook/_Sich/Rules/ZeroTolerance/Age.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichSlurs
+  name: sich-guide-entry-rules-slurs
+  priority: 2
+  text: "/ServerInfo/Guidebook/_Sich/Rules/ZeroTolerance/Slurs.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichERP
+  name: sich-guide-entry-rules-erp
+  priority: 3
+  text: "/ServerInfo/Guidebook/_Sich/Rules/ZeroTolerance/ERP.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichBanEvasion
+  name: sich-guide-entry-rules-ban-evasion
+  priority: 4
+  text: "/ServerInfo/Guidebook/_Sich/Rules/ZeroTolerance/BanEvasion.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichMisinformation
+  name: sich-guide-entry-rules-misinformation
+  priority: 5
+  text: "/ServerInfo/Guidebook/_Sich/Rules/ZeroTolerance/Misinformation.xml"
+
+## Загальні правила
+- type: guideEntry
+  parent: RMC
+  id: SichCoreRules
+  name: sich-guide-entry-rules-core
+  priority: 6
+  text: "/ServerInfo/Guidebook/_Sich/Rules/RulesCore.xml"
+  children:
+  - RMCLanguage
+  - SichKindness
+  - SichEscalation
+  - SichCommand
+  - SichMutinies
+  - SichMetaknowledge
+  - SichMultikey
+  - SichExploits
+
+- type: guideEntry
+  parent: RMC
+  id: RMCLanguage # RMC замість Sich, бо воно прив'язано як гайд до гарнітур
+  name: sich-guide-entry-rules-language
+  priority: 1
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Language.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichKindness
+  name: sich-guide-entry-rules-kindness
+  priority: 2
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Kindness.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichEscalation
+  name: sich-guide-entry-rules-escalation
+  priority: 3
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Escalation.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichCommand
+  name: sich-guide-entry-rules-command
+  priority: 4
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Command.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichMetaknowledge
+  name: sich-guide-entry-rules-metaknowledge
+  priority: 5
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Metaknowledge.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichMultikey
+  name: sich-guide-entry-rules-multikey
+  priority: 6
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Multikey.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichMutinies
+  name: sich-guide-entry-rules-mutinies
+  priority: 7
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Mutinies.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichExploits
+  name: sich-guide-entry-rules-exploits
+  priority: 8
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Core/Exploits.xml"
+
+## Правила відіграшу
+- type: guideEntry
+  parent: RMC
+  id: SichRoleplayStandardsRules
+  name: sich-guide-entry-rules-roleplay-standards
+  priority: 7
+  text: "/ServerInfo/Guidebook/_Sich/Rules/RulesRoleplay.xml"
+  children:
+  - SichGeneralRoleplayStandards
+  - SichCharacterNames
+  - SichMarineRoleplay
+  - SichCommandRoleplay
+  - SichXenoRoleplay
+  - SichSurvivorRoleplay
+  - SichHostileFactionRoleplay
+
+- type: guideEntry
+  parent: RMC
+  id: SichGeneralRoleplayStandards
+  name: sich-guide-entry-rules-general-roleplay-standards
+  priority: 1
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/GeneralRoleplayStandards.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichCharacterNames
+  name: sich-guide-entry-rules-marine-character-names
+  priority: 2
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/CharacterNames.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichMarineRoleplay
+  name: sich-guide-entry-rules-marine-roleplay
+  priority: 3
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/MarineRoleplay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichCommandRoleplay
+  name: sich-guide-entry-rules-command-roleplay
+  priority: 4
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/CommandRoleplay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichXenoRoleplay
+  name: sich-guide-entry-rules-xeno-roleplay
+  priority: 5
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/XenoRoleplay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichSurvivorRoleplay
+  name: sich-guide-entry-rules-survivor-roleplay
+  priority: 6
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/SurvivorRoleplay.xml"
+
+- type: guideEntry
+  parent: RMC
+  id: SichHostileFactionRoleplay
+  name: sich-guide-entry-rules-hostile-faction-roleplay
+  priority: 7
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/HostileFactionRoleplay.xml"

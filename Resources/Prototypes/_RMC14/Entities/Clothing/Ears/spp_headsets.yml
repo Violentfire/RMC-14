@@ -50,7 +50,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeySPP
-  name: SPP radio encryption key
+  name: ключ СПН
   components:
   - type: Sprite
     state: upp_key
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPCommand
-  name: SPP command radio encryption key
+  name: ключ командування СПН
   components:
   - type: EncryptionKey
     channels:
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPEngineer
-  name: SPP engineering radio encryption key
+  name: ключ техніка СПН
   components:
   - type: EncryptionKey
     channels:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCEncryptionKeySPP
   id: RMCEncryptionKeySPPMedic
-  name: SPP medic radio encryption key
+  name: ключ медика СПН
   components:
   - type: EncryptionKey
     channels:
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyHalcyon
-  name: Halcyon radio encryption key
+  name: ключ Гальциона
   components:
   - type: Sprite
     state: upp_key
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPP
-  name: SPP headset
+  name: гарнітура СПН
   components:
   - type: ContainerFill
     containers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPPCommand
-  name: SPP-CMD headset
+  name: гарнітура командування СПН
   components:
   - type: ContainerFill
     containers:
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPPEngineer
-  name: SPP-CCT headset
+  name: гарнітура техніка СПН
   components:
   - type: ContainerFill
     containers:
@@ -153,7 +153,7 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPPMedic
-  name: SPP-MED headset
+  name: гарнітура медика СПН
   components:
   - type: ContainerFill
     containers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: RMCHeadsetSPPAbstract
   id: RMCHeadsetSPPCommando
-  name: SPP-KdoC headset
-  description: A specialist headset used by SPP kommandos.
+  name: гарнітура командос СПН
+  description: Спеціальна гарнітура, яку використовують командос СПН.
   components:
   - type: ContainerFill
     containers:
@@ -185,8 +185,8 @@
 - type: entity
   parent: RMCHeadsetDistressSPP
   id: RMCHeadsetSPPPaP
-  name: SPP PaP headset
-  description: A special headset used by the People's Armed Police of the SPP.
+  name: гарнітура НоП СПН
+  description: Спеціальна гарнітура, яку використовує персонал Народної озброєної Поліції СПН.
   components:
   - type: ContainerFill
     containers:
@@ -199,8 +199,8 @@
 - type: entity
   parent: RMCHeadsetDistressSPP
   id: RMCHeadsetDistressHalcyon
-  name: halcyon corporate headset
-  description: A headset commonly worn by Halcyon Dynamics corporate personnel.
+  name: корпоративна гарнітура гальцион
+  description: Гарнітура, яку, зазвичай, носить корпоративний персонал Гальцион Дайнамікс.
   components:
   - type: ContainerFill
     containers:

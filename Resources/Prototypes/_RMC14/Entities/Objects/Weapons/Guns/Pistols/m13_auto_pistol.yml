@@ -123,7 +123,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13
-  name: M13 ВШ магазин (10x20mm-APC)
+  name: M13 ВШ магазин (10x20мм)
   components:
   - type: Tag
     tags:
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCMagazinePistolM13
   id: RMCMagazinePistolM13AP
-  name: M13 AP Magazine (10x20mm-APC)
+  name: М13 ББ магазин (10x20мм)
   components:
   - type: Tag
     tags:
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Ext
-  name: M13 ВШ розширений магазин (10x20mm-APC)
+  name: M13 ВШ розширений магазин (10x20мм)
   components:
   - type: Tag
     tags:
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13ExtAP
-  name: M13 AP Extended Magazine (10x20mm-APC)
+  name: М13 ББ розширений магазин (10x20мм)
   components:
   - type: Tag
     tags:
@@ -233,7 +233,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Drum
-  name: M13 ВШ барабанний магазин (10x20mm-APC)
+  name: M13 ВШ барабанний магазин (10x20мм)
   components:
   - type: Tag
     tags:
@@ -259,7 +259,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13DrumAP
-  name: M13 AP Drum Magazine (10x20mm-APC)
+  name: М13 ББ барабанний магазин (10x20мм)
   components:
   - type: Tag
     tags:

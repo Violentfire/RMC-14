@@ -3,12 +3,13 @@
   id: CMPlushieBase
   name: універсальна плюшка
   description: Ідеальна універсальність
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/plushies.rsi
     state: debug
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -19,9 +20,10 @@
 - type: entity
   parent: PlushieMoth
   id: RMCPlushieMoth
+  suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -35,7 +37,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -49,7 +51,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -63,13 +65,30 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
   - type: EmitSoundOnCollide
     sound:
       collection: ToyFall
+
+- type: entity
+  parent: RMCPlushieSharkBlue
+  id: RMCShorkMedicalOfficer
+  name: Shork medical officer plushie
+  description: The Shork Medical Officer is dissapointed to see you in surgery yet again. Maybe you should take better care of yourself?
+  suffix: RMC
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Fun/smo.rsi
+    state: SMO
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: SMO-inhand-left
+      right:
+      - state: SMO-inhand-right
 
 - type: entity
   parent: CMPlushieBase

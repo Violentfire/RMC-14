@@ -2,8 +2,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetSPP
-  name: SPP UM4 helmet
-  description: Using highly skilled manufacturing techniques this UM4 helmet manages to be very resistant to ballistics damage, at the cost of its huge weight causing an extreme stress on the occupant's head that will most likely cause neck problems.
+  name: шолом СПН УМ4
+  description: Завдяки високотехнологічним методам виробництва, шолом УМ4 відрізняється дуже високим опором до балістичних пошкоджень, проте його велика вага створює значне навантаження на голову користувача, що, найімовірніше, призведе до проблем із шиєю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/helmet.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: CMArmorHelmetM10Tech
   id: ArmorHelmetSPPEngineer
-  name: SPP UM4-V helmet
-  description: This version of the UM4 helmet has a ballistic-glass visor, allowing for the SPP Engineers to safely weld, but by some reports hindering sight in the process.
+  name: шолом СПН УМ4-В
+  description: Ця версія шолому УМ4 має візор з балістичного скла, дозволяючи інженерам СПП безпечно зварювати, проте дехто звітує про зіпсований зір.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/engi.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ArmorHelmetSPP
   id: ArmorHelmetSPPHeavy
-  name: SPP UH7 helmet
-  description: Like the UM4, this helmet is very resistant to ballistic damage, but both its flaws and benefits have been doubled. The few SPP Zhergeants that have lived past age 30 have all needed to retire from terminal neck problems caused from the stress of wearing this helmet.
+  name: шолом СПН УН7
+  description: Наряду з УМ4 цей шолом має високим опором до балістичних пошкоджень, але його плюси й мінуси подвоєно. Кількох сержантів СПН, яким вдалося дожити до 30, було списано через проблеми з шиєю після носіння цього шолому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/heavy.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ArmorHelmetSPP
   id: RMCArmorHelmetSPPArmy
-  name: 6B82 combat helmet
-  description: An older version of the SPP Army's 6B92 combat helmet, still worn by certain units on planets the SPP deems less important
+  name: бойовий шолом 6Б82
+  description: Більш стара версія бойового шолому армії СПН 6Б92, яку досі використовують деякі підрозділи на планетах, які СПН вважає другорядними.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/army_helmet.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ArmorHelmetSPP
   id: RMCArmorHelmetSPPFirefighter
-  name: T-20 firefighter helmet
-  description: "A reinforced, heat-resistant helmet issued to SPP emergency responders. Its durable composite shell provides protection against falling debris and extreme heat, while the attached fire-resistant shroud shields the wearer’s neck and shoulders. A red star is emblazoned on the front, marking its service within the socialist's progressive peoples."
+  name: шолом пожежника Т-20
+  description: Зміцнений, вогнестійкий шолом, який видається пожежникам СПН. Його стійка композитна структура захищає від уламків та жару голову, а кожух шию та плечі. Червона зірка нанесена спереду, позначаючи службу в Соціалістичних Прогресивних Народах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/fire_helmet.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadCapSPP
-  name: UL2 cap
-  description: SPP headgear issued to soldiers when they're not expected to face combat, and may be requested by officers and above.
+  name: кепка УЛ2
+  description: Головний убір СПН, який видається солдатам, коли не очікується бойових дій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/cap.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: CMHeadCapSPP
   id: CMHeadCapSPPCivilian
-  name: SPP UL2 civilian cap
-  description: SPP civilian headgear. It's of poor quality, and isn't expected to last all that long, however for as long as it's whole, it appears quite stylish.
+  name: цивільна кепка СПН УЛ2
+  description: Цивільний головний убір СПН. Виконано з поганою якістю, через що ніхто не очікує довгої служби, проте, поки воно в одній купі, виглядає стильно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/civ.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: CMHeadCapSPPCivilian
   id: RMCHeadCapSPPCivilianPlantWorker
-  name: white worker cap
-  description: A simple white fabric cap, commonly worn by various SPP workers to keep hair contained and maintain cleanliness. Lightweight and practical, but not very durable.
+  name: біла кепка робітника
+  description: Проста тканинна кепка, яку часто носять різного роду робітники СПН, щоби не тримати волосся чистим. Легка та практичка, але недовговічна.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/white_cap.rsi
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMHeadCapSPP
   id: CMHeadCapSPPBeret
-  name: UL3 SPP beret
+  name: берет СПН УЛ3
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/beret.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMHeadCapSPPBeret
   id: RMCHeadCapSPPBeretArmy
-  name: SPP reservist beret
-  description: A well-made beret worn by reservists of the SPP armed forces. It signifies their continued commitment to the cause, even while not on active duty, and serves as a symbol of unity and service.
+  name: берет резервіста СПН
+  description: Гарно виконаний берет, який носять резервісти збройних сил СПН. Це символізує їхню незмінну відданість справі, навіть не перебуваючи на дійсній військовій службі, та служить символом єдності та служіння.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/army_beret.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMHeadCapSPP
   id: CMHeadCapSPPPeaked
-  name: SPP UL3 peaked cap
-  description: SPP headgear issued to Kapitans and above. It is made of high-quality materials, and has the officers rank in gold placed upon the front of the cap.
+  name: кашкет СПН УЛ3
+  description: Головне вбрання СПН, яке видається капітанам та вище. Виконано з матеріалів високої якості та має золоту позначку офіцера спереду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/peaked.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMHeadCapSPPPeaked
   id: CMHeadCapSPPPeakedPolice
-  name: UL3 PaP peaked cap
-  description: Standard issue peaked cap of the People's Armed Police.
+  name: кашкет НоП УЛ3
+  description: Стандартний кашкет Народної Озброєнної Поліції.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/peaked_police.rsi
@@ -142,7 +142,7 @@
 - type: entity
   parent: CMHeadCapSPP
   id: CMHeadCapSPPUshanka
-  name: SPP UL8 ushanka
+  name: вушанка СПН УЛ8
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/ushanka.rsi
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMHeadCapSPPUshanka
   id: CMHeadCapSPPUshankaCivilian
-  name: SPP UL8c ushanka
+  name: вушанка СПН УЛ8с
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/ushanka_civ.rsi

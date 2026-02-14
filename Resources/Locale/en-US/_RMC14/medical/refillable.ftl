@@ -8,3 +8,8 @@ rmc-bottle-remove-lid = Зняти кришку
 
 rmc-refillsolution-flush = Контейнер
 rmc-refillsolution-flush-start = Ви почали утримувати кнопку аварійного зливу. Зачекайте {$time} секунд...
+
+rmc-reagent-pouch-no-canister = Цей {$target} не має контейнеру всередині!
+rmc-reagent-pouch-unskilled = Ви не знаєте, що в ньому.
+rmc-reagent-pouch-examine-contains = Цей {$target} містить: {$reagents}
+rmc-reagent-pouch-examine-empty = Цей {$target} нічого не містить.

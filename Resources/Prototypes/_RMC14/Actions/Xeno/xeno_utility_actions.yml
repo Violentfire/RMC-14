@@ -2,7 +2,7 @@
   id: ActionXenoTransferPlasma
   parent: ActionXenoBase
   name: Передача плазми (50) # TODO RMC14 proper plasma costs
-  description: Передати частину плазми обраному ксеносу
+  description: Передати частину плазми обраному ксеноїду.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -25,8 +25,8 @@
 - type: entity
   id: ActionXenoHealerDroneTransferPlasma
   parent: ActionXenoBase
-  name: Transfer plasma (100) # TODO RMC14 proper plasma costs
-  description: Give plasma to a nearby xenonid.
+  name: Передача плазми (100) # TODO RMC14 proper plasma costs
+  description: Передати частину плазми обраному ксеноїду.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -42,8 +42,8 @@
 - type: entity
   id: ActionXenoTransferPlasmaHivelord
   parent: ActionXenoBase
-  name: Transfer plasma (200) # TODO RMC14 proper plasma costs
-  description: Give plasma to a xenonid.
+  name: Передача плазми (200) # TODO RMC14 proper plasma costs
+  description: Передати частину плазми обраному ксеноїду.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -59,8 +59,8 @@
 - type: entity
   id: ActionXenoResinSurge
   parent: ActionXenoBase
-  name: Resin Surge (75)
-  description: Instantly grows a fruit when used (cooldown will be proprotial to growth time), creates temporary walls when used on weeds or use on existing walls to reinforce them with 6000 hp for 15 seconds. Targeting anything else creates a 3x3 patch of weak sticky resin after a small doafter.
+  name: Посилення смоли (75)
+  description: При використанні на фрукті миттєво вирощує його, при використанні на траві моментально створює тимчасову стіну, при використанні на вже існуючій смолі робить їх фактично невразливими на 15 секунд. Використовуючи на будь-що інше створить поле з тимчасової липкої смоли 3х3.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -84,8 +84,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRetrieve
-  name: Retrieve (180 plasma, 100 fury)
-  description: Pulls a xenonid to you if they are still, with a 0.6 second doafter. You can't pull very big xenonids unless they are downed.
+  name: Порятунок (180 плазми, 100 люті)
+  description: Притягує до вас ксеноїда, якщо він нерухомий протягом 0,6 секунди. Не може притягувати великих ксеноїдів (королева), поки вони не в критичному стані.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -186,8 +186,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoLeader
-  name: Choose/Follow Xenonid Leaders
-  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
+  name: Обрати/Слідкувати за Лідерами
+  description: Дає чи знімає з ксеноїдів статус лідера або дає вам спостерігати за ними. Підвищення ксеноїда до лідера дасть йому випромінювати ваші активні наразі феромони, але тільки коли ви в кладці.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -202,8 +202,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoLeader
-  name: Choose Leaders
-  description: Promotes and demotes xenonid leaders, or watches them. Promoting a xeno to leader will make them emit your pheromones around themselves.
+  name: Обрати Лідерів
+  description: Дає чи знімає з ксеноїдів статус лідера або дає вам спостерігати за ними. Підвищення ксеноїда до лідера дасть йому випромінювати ваші активні наразі феромони, але тільки коли ви в кладці.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -212,8 +212,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeal
-  name: Heal Xenonid (600) # TODO RMC14 proper plasma costs
-  description: Heals xenonids in a 4 tile range around where you click for 30% of their health over 20 seconds.
+  name: Зцілення Ксеноїда (600) # TODO RMC14 proper plasma costs
+  description: Лікує ксеноїдів у радіусі 4 метрів навколо місця клацання, відновлюючи 30% їхнього здоров'я протягом 20 секунд.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -233,8 +233,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApplySalve
-  name: Apply Salve (200)
-  description: Apply a salve to use some of your health to heal allied Xenos up to 100 health over 5 seconds. You can stack multiple salves.
+  name: Надати Допомогу (200)
+  description: Надайте допомогу, використовуючи частину свого здоров'я для лікування союзних ксеноїдів. До 100 одиниць здоров'я протягом 5 секунд. Ви можете використовувати це декілька разів поспіль.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -252,8 +252,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSacrifice
-  name: Sacrifice
-  description: Sacrifice your life to heal a sister. [color=red]YOU WILL ONLY RESPAWN IF YOU MAXED OUT YOUR TRANSFERRED HEALTH BY HEALING SISTERS.[/color]
+  name: Пожертва
+  description: Пожертвуйте своїм життям, щоб допомогти сестрі. [color=red]ВИ ВІДРОДИТЕСЯ ЛИШЕ ЯКЩО У ВАС ПОВНА ШКАЛА ЕНЕРГІЇ ЛІКУВАНННЯ.[/color]
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -273,8 +273,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailFountain
-  name: Tail Fountain
-  description: Extinguishes fire from a nearby ally or foe. Uses up your melee attack.
+  name: Хвостовий Вогнегасник
+  description: Гасить вогонь на цілі. Вважається за використання хвоста, тому він також отримує затримку на використання.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -298,8 +298,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTantrum
-  name: Tantrum (100 plasma, 75 fury)
-  description: Give an ally and yourself temporary armor for a few seconds, which lasts longer on you. Crushers and Ravagers get a speed boost instead.
+  name: Підсилення (100 плазми, 75 люті)
+  description: Дайте собі та союзнику тимчасову броню на кілька секунд, у вас вона трохи довше. При цьому, Руйнівники та Спустошувачі отримують прискорення.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -324,8 +324,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFightOrFlight
-  name: Fight or Flight (300 plasma, 75 fury)
-  description: Remove ailments and stuns from all allies around you. The radius is longer if you have 75+ fury after paying the cost.
+  name: Бий або Тікай (300 плазми, 75 люті)
+  description: Знімає дебафи та оглушення з усіх ксеноїдів навколо вас. Радіус дії збільшується, якщо у вас більше 75 люті на момент використання.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -351,8 +351,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoQueenEye
-  name: Enter Eye Form
-  description: Look around any area with weeds remotely. You can use infinite range abilities while in this form, and build resin from afar.
+  name: Перейти у форму Ока
+  description: Огляньте будь-яку ділянку з травою дистанційно. У цій формі ви можете використовувати свої здібності на будівництво та лікування без обмеження по відстанні.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -366,8 +366,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSpikeShield
-  name: Spike Shield (150 shards)
-  description: Expend shards to gain a temporary shield that lasts for a short amount of time. Whenever the shield is damaged, spray bone shards around you in a 5x5 AoE centered on yourself. Shield lasts for 2 seconds. 
+  name: Голковий щит (150 голок)
+  description: Витрачайте голки, щоб отримати щит на короткий проміжок часу. Щоразу, коли щит пошкоджують – голки розпилюються навколо вас у радіусі 5 метрів. Щит діє 2 секунди.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -379,3 +379,35 @@
     event: !type:ActionXenoSpikeShieldEvent
   - type: ActionBlockIfResting
   - type: RMCDazeableAction
+
+- type: entity
+  parent: ActionXenoBase
+  id: ActionXenoBulwarkOfTheHive
+  name: Щит Вулика
+  description: Надає всім ксеноїдам навколо вас тимчасовий щит, який блокує 200 одиниць шкоди протягом 10 секунд. Поки щит увімкнений, члени колю можуть отримувати шкоду, але лише до 10% свого здоров'я за раз.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/xeno_actions.rsi
+      state: soak
+    useDelay: 60
+  - type: InstantAction
+    event: !type:XenoBulwarkOfTheHiveActionEvent
+
+- type: entity
+  parent: ActionXenoBase
+  id: ActionXenoDoom
+  name: Рев Смерті (50)
+  description: Вимикає світло навколо вас на 10 секунд, а також уповільнює та послаблює ворогів.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/xeno_actions.rsi
+      state: screech
+    useDelay: 45
+  - type: InstantAction
+    event: !type:XenoDoomActionEvent
+  - type: XenoActionPlasma
+    cost: 50

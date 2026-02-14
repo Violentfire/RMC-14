@@ -38,7 +38,7 @@
   description: Підсумок який видається усім колоністам у разі надзвичайної ситуації.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Pouches/tools.rsi
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_brown.rsi
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -61,7 +61,7 @@
   id: RMCPouchSurvivalBlack
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_black.rsi
 
 # Survival Synth Pouch
 - type: entity
@@ -70,6 +70,8 @@
   name: підсумок вцілілого синтетика
   description:  Підсумок який видається усім синтетичним колоністам у разі надзвичайної ситуації.
   components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Pouches/survivalpouch_grey.rsi
   - type: Storage
     grid:
     - 0,0,11,1 #6 slots
@@ -179,6 +181,7 @@
       - CMMagazinePistol
       - RMCMagazineRevolver
       - CMMagazineRifle
+      - RMCMagazineShotgun
       - CMMagazineSmg
       - CMMagazineSniper
       - RMCShellShotgun
@@ -245,6 +248,16 @@
   - type: Storage
     grid:
     - 0,0,11,1 #6 slots
+
+- type: entity
+  parent: RMCPouchMagazinePistolLarge
+  id: RMCPouchMagazinePistolLargeFilledHighCommand
+  suffix: Filled, High Command
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCSpeedLoaderMatebaHighImpact
+      amount: 6
 
 # Shotgun Shell Pouch
 - type: entity
@@ -376,8 +389,8 @@
 - type: entity
   parent: RMCPouchFill
   id: RMCPouchFlare
-  name: флаєрний підсумок
-  description: Підсумок призначений для зберігання флаєрів. Переспоряджається упаковкою М94 флаєрів.
+  name: підсумок для фаєрів
+  description: Підсумок призначений для зберігання фаєрів. Переспоряджається упаковкою маркувальних фаєрів М94.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/flare.rsi
@@ -570,27 +583,28 @@
 
 
 # Cassetes Pouch
-#- type: entity
-#  parent: [RMCPouchStorage, RMCPouchOpenClosed]
-#  id: RMCPouchCassette
-#  name: cassette pouch
-#  description: A finely crafted pouch, made specifically to keep cassettes safe during wartime.
-#  components:
-#  - type: Sprite
-#    sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
-#  - type: Item
-#    size: small
-#  - type: Storage
-#    grid:
-#    - 0,0,2,1 #3 slots
-#whitelist: # TODO RMC14 add cassettes
+- type: entity
+  parent: [RMCPouchOpenClosed, RMCPouchStorage]
+  id: RMCPouchCassette
+  name: підсумок для касет
+  description: Високоякісний чохол, спеціально розроблений для безпечного зберігання касет навіть під обстрілами.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Pouches/cassette.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,5,1 #3 slots
+    whitelist: 
+      components:
+      - CassetteTape
 
 # Drum Pouch
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchDrumPMC
-  name: підсумок для барабанів смартгану
-  description: Важкий підсумок, призначентй для перенесення додаткових барабанів до смартгану.
+  name: підсумок для барабанів СмартГану
+  description: Важкий підсумок, призначений для перенесення додаткових барабанів СмартГану.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/wy_sgdrums_ammo.rsi

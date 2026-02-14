@@ -1,5 +1,5 @@
 lobby-state-paused = Пауза
-lobby-state-soon = Round starting soon
+lobby-state-soon = Раунд почнеться скоро
 lobby-state-right-now-question = Саме Зараз?
 lobby-state-right-now-confirmation = Саме Зараз
 lobby-state-round-start-countdown-text = Раунд почнеться через: {$timeLeft}
@@ -10,22 +10,31 @@ lobby-state-player-status-ready = Готовий
 lobby-state-player-status-observer = Спостерігач
 lobby-state-player-status-round-not-started = Раунд ще не почався
 lobby-state-player-status-round-time =
-    Час раунду: {$hours} {$hours ->
-    [1]година
-    *[other]години
-    } and {$minutes} {$minutes ->
-    [1]хвилина
+    Раунд йде вже {$hours} {$hours ->
+    [1]годину
+    [2]години
+    [3]години
+    [4]години
+    *[other]годин
+    } та {$minutes} {$minutes ->
+    [1]хвилину
+    [2]хвилини
+    [3]хвилини
+    [4]хвилини
     *[other]хвилин
     }
-lobby-state-song-text = Грає: [color=white]{$songTitle}[/color] від [color=white]{$songArtist}[/color]
-lobby-state-song-no-song-text = Жодна пісня не грає.
+lobby-state-song-text = Грає пісня [color=white]{$songTitle}[/color] від [color=white]{$songArtist}[/color]
+lobby-state-song-no-song-text = Жодна пісня зараз не грає.
 lobby-state-song-unknown-title = [color=dimgray]Невідомий тайтл[/color]
 lobby-state-song-unknown-artist = [color=dimgray]Невідомий автор[/color]
 lobby-state-playtime-comment-normal =
-    You've spent {$hours} {$hours ->
-    [1]hour
-    *[other]hours
-    } ingame today. Remember to take breaks!
-lobby-state-playtime-comment-concerning = You've played for {$hours} hours today. Please take a break.
-lobby-state-playtime-comment-grasstouchless = {$hours} hours. Consider logging off to attend to your needs.
-lobby-state-playtime-comment-selfdestructive = {$hours} hours. Really?
+    Ви провели {$hours} {$hours ->
+    [1]годину
+    [2]години
+    [3]години
+    [4]години
+    *[other]годин
+    } у грі сьогодні. Не забувайте брати відпочинки!
+lobby-state-playtime-comment-concerning = Ви грали {$hours} годин сьодні. Будь ласка, візьміть відпочинок.
+lobby-state-playtime-comment-grasstouchless = {$hours} годин. Подумайте про те, щоб закрити гру та зайнятися хоч чимось іншим.
+lobby-state-playtime-comment-selfdestructive = {$hours} годин. Серйозно?

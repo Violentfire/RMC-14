@@ -1,6 +1,6 @@
 server-info-rules-button = Правила
-server-info-guidebook-button = Посібник
-server-info-discord-button = Діскорд
+server-info-guidebook-button = Посібники
+server-info-discord-button = Дискорд
 server-info-website-button = Сайт
 server-info-wiki-button = Вікі
 server-info-forum-button = Форум

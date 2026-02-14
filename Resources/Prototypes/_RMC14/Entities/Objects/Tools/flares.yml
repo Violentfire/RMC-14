@@ -1,8 +1,8 @@
 - type: entity
-  name: flare
+  name: маркувальний фаєр
   parent: BaseItem
   id: CMFlare
-  description: A red Marine issued flare. There are instructions on the side, it reads 'pull cord, make light'.
+  description: Червоний маркувальний фаєр. На боці є інструкція 'потягни за шнур, щоб активувати'.
   components:
   - type: Tag
     tags:
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMFlare
   id: RMCFlareCAS
-  name: signal flare
-  description: A green UNMC issued signal flare. The telemetry computer works on chemical reaction that releases smoke and light and thus works only while the flare is burning.
+  name: сигнальний фаєр
+  description: Зелений сигнальний фаєр КМПОН. Телеметричний комп'ютер реагує на хімічну реакцію, тому працює лише під час горіння.
   components:
   - type: Tag
     tags:
@@ -156,11 +156,14 @@
       endValue: 1.0
 
 - type: entity
-  parent: RMCBoxMagazineSupplyBase
+  parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxPackFlareEmpty
-  name: box of M94 flare packs (x10)
-  description: A box of M94 marking flare packs, to brighten up your day.
+  name: коробка з упаковками фаєрів М94 (x10)
+  description: Коробка з упаковками маркувальних фаєрів М94, щоб зробити твій день яскравішим.
   components:
+  - type: Tag      #Sich
+    tags:
+    - RMCFlareBox
   - type: Construction
     graph: RMCBoxMagazine
     node: RMCBoxPackFlareEmpty
@@ -175,17 +178,20 @@
         - CMFlarePack
   - type: Sprite
     layers:
-    - state: supply_box
+    - state: supply_box_small
       color: "#646a3c"
-    - state: supply_ammo_full
+    - state: supply_ammo_small_full
       map: [ "enum.CMItemSlotsLayers.Fill" ]
       color: "#867872"
-    - state: supply_box_flare
+    - state: supply_box_small_flare
       color: "#646a3c"
-    - state: supply_box_flare_colour
+    - state: supply_box_small_flare_colour
       color: "#f0c16f"
-    - state: supply_lid_closed
+    - state: supply_lid_small_closed
       map: [ "lid" ]
+      color: "#646a3c"
+    - state: supply_lid_small_closed_marking
+      map: [ "lid_marking" ]
       color: "#646a3c"
 
 - type: entity
@@ -197,10 +203,10 @@
     startingItem: CMPackFlare
 
 - type: entity
-  parent: RMCBoxMagazineSupplyBase
+  parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxPackFlareCASEmpty
-  name: box of M89-S flare packs (x10)
-  description: A box of M89 signal flare packs, to mark up the way.
+  name: коробка з упаковками фаєрів М89-С (x10)
+  description: Коробка з упаковками сигнальних фаєрів М89-С.
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -216,17 +222,20 @@
         - RMCPackFlareCAS
   - type: Sprite
     layers:
-    - state: supply_box
+    - state: supply_box_small
       color: "#646a3c"
-    - state: supply_ammo_full
+    - state: supply_ammo_small_full
       map: [ "enum.CMItemSlotsLayers.Fill" ]
       color: "#867872"
-    - state: supply_box_flare
+    - state: supply_box_small_flare
       color: "#646a3c"
-    - state: supply_box_flare_colour
+    - state: supply_box_small_flare_colour
       color: "#f06f6f"
-    - state: supply_lid_closed
+    - state: supply_lid_small_closed
       map: [ "lid" ]
+      color: "#646a3c"
+    - state: supply_lid_small_closed_marking
+      map: [ "lid_marking" ]
       color: "#646a3c"
 
 - type: entity
@@ -241,8 +250,8 @@
   abstract: true
   parent: BaseItem
   id: CMPackFlareBase
-  name: M94 marking flare pack
-  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
+  name: упаковка маркувальних фаєрів М94
+  description: Упаковка маркувальних фаєрів М94. Ідеально підходять для освітлення темних ділянок куди не можна дотягнутися наплічним ліхтарем.
   components:
   - type: Item
     size: Normal
@@ -291,8 +300,8 @@
 - type: entity
   parent: CMPackFlareBase
   id: RMCPackFlareCAS
-  name: M89-S signal flare pack
-  description: A packet of eight M89-S Signal Marking Flares.
+  name: упаковка сигнальних фаєрів М89-С
+  description: Упаковка сигнальних фаєрів зеленого кольору. Використовуйте їх для наведення БАП.
   suffix: Filled
   components:
   - type: Tag
@@ -386,27 +395,72 @@
   name: air flare
   categories: [ HideSpawnMenu ]
   components:
+  - type: ExpendableLight
+    startsActivated: true
+    glowDuration: 150
+    fadeOutDuration: 30
+    turnOnBehaviourID: turn_on
+    fadeOutBehaviourID: fade_out
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: turn_on
+        maxDuration: 5.0
+        startValue: 2.5
+        endValue: 7.0
+      - !type:FadeBehaviour
+        id: fade_out
+        maxDuration: 30
+        startValue: 7.0
+        endValue: 1.0
+  - type: Appearance
   - type: PointLight
-    enabled: true
+    enabled: false
+    netsync: false
     color: "#FFCCCC"
     radius: 8.0
     energy: 0.6
   - type: TimedDespawn
-    lifetime: 300
+    lifetime: 180
 
 - type: entity
+  parent: RMCAirFlare
   id: RMCAirFlareCAS
   name: air signal flare
   categories: [ HideSpawnMenu ]
   components:
+  - type: Tag
+    tags:
+    - RMCFlareCAS
+  - type: ExpendableLight
+    startsActivated: true
+    glowDuration: 150
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/air_flare.rsi
+    layers:
+    - map: [ "enum.ExpendableLightVisualLayers.Glow" ]
+      state: air_flame
+      color: "#A7FFA7"
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+       id: turn_on
+       maxDuration: 5.0
+       startValue: 2.5
+       endValue: 7.0
+      - !type:FadeBehaviour
+       id: fade_out
+       maxDuration: 30
+       startValue: 7.0
+       endValue: 1.0
   - type: PointLight
-    enabled: true
     color: "#A7FFA7"
     radius: 8.0
     energy: 0.6
   - type: FlareSignal
+  - type: RMCNightVisionVisibleOnIgnite
   - type: TimedDespawn
-    lifetime: 300
+    lifetime: 180
 
 - type: Tag
   id: RMCFlare
@@ -416,3 +470,6 @@
 
 - type: Tag
   id: RMCPackFlareCAS
+
+- type: Tag       #Sich
+  id: RMCFlareBox

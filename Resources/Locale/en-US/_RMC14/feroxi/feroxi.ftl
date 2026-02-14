@@ -1,4 +1,4 @@
-species-name-feroxi = Feroxi
+species-name-feroxi = Фероксі
 
 marking-FeroxiEars = Ears
 marking-FeroxiEars-feroxi-ears = Base Ears

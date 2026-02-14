@@ -94,19 +94,52 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneCommandTent
-  name: Command tent
+  name: Палатка Командування
+  components: #Ця та 2 строки нижче - додавання білду Січі
+  - type: RotaryPhone
+    category: Земля
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneReqTent
-  name: Requisitions Tent
+  name: Палатка Постачань
+  components: #Ця та 2 строки нижче - додавання білду Січі
+  - type: RotaryPhone
+    category: Земля
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneMessTent
-  name: Mess Tent
+  name: Польова Кухня
+  components: #Ця та 2 строки нижче - додавання білду Січі
+  - type: RotaryPhone
+    category: Земля
 
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneMPTent
-  name: Military Police Tent
+  name: Палатка ВСП
+  components: #Ця та 2 строки нижче - додавання білду Січі
+  - type: RotaryPhone
+    category: Земля
+
+# Admin
+- type: entity
+  parent: RMCRotaryPhone
+  id: RMCRotaryPhoneAdmin
+  suffix: Admin
+  components:
+  - type: RotaryPhone
+    canDnd: true
+    category: Ретранслятори
+    notifyAdmins: true
+
+- type: entity
+  parent: RMCRotaryPhoneWallmount
+  id: RMCRotaryPhoneWallmountAdmin
+  suffix: Admin
+  components:
+  - type: RotaryPhone
+    canDnd: true
+    category: Ретранслятори
+    notifyAdmins: true

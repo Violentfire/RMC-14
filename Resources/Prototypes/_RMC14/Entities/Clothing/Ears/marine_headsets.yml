@@ -7,6 +7,8 @@
     trackerModes:
     - SquadLeader
     - FireteamLeader
+    - CommandingOfficer # Sich
+    - ExecutiveOfficer # Sich
     - SeniorEnlistedAdvisor
     - PrimaryLandingZone
   - type: GrantTacMapAlert
@@ -21,6 +23,10 @@
   components:
   - type: Sprite
     state: alpha_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetAlpha
@@ -31,6 +37,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
@@ -41,6 +48,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -52,6 +65,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -66,6 +80,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetAlpha
@@ -77,6 +92,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 
 # Bravo
@@ -88,6 +104,10 @@
   components:
   - type: Sprite
     state: bravo_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetBravo
@@ -98,6 +118,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
@@ -108,6 +129,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -119,6 +146,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -133,6 +161,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetBravo
@@ -144,6 +173,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 
 # Charlie
@@ -155,6 +185,10 @@
   components:
   - type: Sprite
     state: charlie_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetCharlie
@@ -165,6 +199,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
@@ -175,6 +210,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -186,6 +227,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -200,6 +242,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetCharlie
@@ -211,6 +254,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 
 # Delta
@@ -222,6 +266,10 @@
   components:
   - type: Sprite
     state: delta_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetDelta
@@ -232,6 +280,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
@@ -242,6 +291,12 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
@@ -253,6 +308,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -267,6 +323,7 @@
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetDelta
@@ -278,40 +335,61 @@
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 
 # Echo
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetEcho
-  name: marine echo radio headset
-  description: This is used by Echo squad members.
+  name: морпіхотна гарнітура ехо
+  description: Використовується для радіоперемовин загоном Ехо.
   components:
   - type: Sprite
     state: echo_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoLeader
-  name: marine echo leader radio headset
-  description: This is used by the marine Echo squad leader.
+  name: морпіхотна гарнітура лідера ехо
+  description: Гарнітура лідера Ехо, не має особливих деталей.
   components:
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker # Sich
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - AuxiliarySupportOfficer
+    - StaffOfficer
+    - ChiefMilitaryPolice
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+    - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoTeamLeader
-  name: marine echo team leader radio headset
-  description: This is used by the marine Echo team leader.
+  name: морпіхотна гарнітура лідера вогневої групи ехо
+  description: Гарнітура лідера вогневої групи Ехо, на вигляд звичайна.
   components:
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -322,63 +400,91 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoEngineer
-  name: marine echo engineer radio headset
-  description: This is used by the marine Echo combat engineers.
+  name: морпіхотна гарнітура техніка ехо
+  description: Звичайнісінька гарнітура, окрім тієї деталі що її вдягають техніки Ехо.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetEcho
   id: CMHeadsetEchoMedic
-  name: marine echo corpsman radio headset
-  description: This is used by the marine Echo combat medics.
+  name: морпіхотна гарнітура медика ехо
+  description: Стандартна гарнітура, янгольський власник.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 
 # Foxtrot
 - type: entity
   parent: RMCHeadsetMarine
   id: CMHeadsetFoxtrot
-  name: marine foxtrot radio headset
-  description: This is used by Foxtrot squad members.
+  name: морпіхотна гарнітура фокстроту
+  description: Використовується для радіоперемовин загоном Ехо.
   components:
   - type: Sprite
     state: cryo_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotLeader
-  name: marine foxtrot leader radio headset
-  description: This is used by the marine Foxtrot squad leader.
+  name: морпіхотна гарнітура лідеру фокстроту
+  description: Гарнітура лідера Фокстрот, не має особливих деталей.
   components:
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeySquadLeader
   - type: RMCHeadset
     radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker # Sich
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - AuxiliarySupportOfficer
+    - StaffOfficer
+    - ChiefMilitaryPolice
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+    - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotTeamLeader
-  name: marine foxtrot team leader radio headset
-  description: This is used by the marine Foxtrot team leader.
+  name: морпіхотна гарнітура лідеру вогневої групи фокстроту
+  description: Гарнітура лідера вогневої групи Фокстроту, на вигляд звичайна.
   components:
   - type: ContainerFill
     containers:
       key_slots:
+      - CMEncryptionKeyCommon
       - CMEncryptionKeyJTAC
   - type: RMCHeadset
     radioTextIncrease: 2
@@ -389,29 +495,37 @@
     - ExecutiveOfficer
     - SquadLeader
     - FireteamLeader
+    - AuxiliarySupportOfficer # Sich
+    - StaffOfficer # Sich
+    - ChiefMilitaryPolice # Sich
+    - ChiefEngineer # Sich
+    - ChiefMedicalOfficer # Sich
+    - Quartermaster # Sich
     - PrimaryLandingZone
 
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotEngineer
-  name: marine foxtrot engineer radio headset
-  description: This is used by the marine Foxtrot combat engineers.
+  name: морпіхотна гарнітура техніка фокстроту
+  description: Звичайнісінька гарнітура, окрім тієї деталі що її вдягають техніки Фокстроту.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
 
 - type: entity
   parent: CMHeadsetFoxtrot
   id: CMHeadsetFoxtrotMedic
-  name: marine foxtrot corpsman radio headset
-  description: This is used by the marine Foxtrot combat medics.
+  name: морпіхотна гарнітура медика фокстроту
+  description: Стандартна гарнітура, янгольський власник.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
 
 # PVE
 
