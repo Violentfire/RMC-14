@@ -4,6 +4,7 @@
   id: CMArmorRiot
   name: протиударна броня зразка М5
   description: Сильно модифікований комплект броні ВСП зразка М2, який використовують для придушення заворушень інва.. Морпіхів. Значно сповільнює рухи.
+  suffix: Marine
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/riot.rsi
