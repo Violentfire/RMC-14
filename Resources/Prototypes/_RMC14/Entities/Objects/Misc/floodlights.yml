@@ -243,6 +243,7 @@
     softness: 1
     offset: "0, -0.5"
     enabled: false
+  - type: FTLSmashImmune # Sich. Для Саванни
 
 - type: entity
   parent: LandingZoneLightBase
