@@ -19,7 +19,7 @@ public sealed class CharacterInfoEvent : EntityEventArgs
 {
     public readonly NetEntity NetEntity;
     public readonly string JobTitle;
-    public readonly string? JobId;
+    public readonly string? JobId; // Sich
     public readonly Dictionary<string, List<ObjectiveInfo>> Objectives;
     public readonly string? Briefing;
 
