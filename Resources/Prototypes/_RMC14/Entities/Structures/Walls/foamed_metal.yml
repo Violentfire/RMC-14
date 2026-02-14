@@ -78,7 +78,7 @@
   parent: RMCBaseFoamedMetal
   id: RMCFoamedAluminiumMetal
   name: сугроб # Sich. "foamed aluminium metal в оригіналі", тимчасова зміна. Це все одно плейсхолдер сугробів.
-  description: Сніговий сугроб, точно не люміній. #Sich. "A lightweight foamed metal wall" в оригіналі.
+  description: Сніговий сугроб, точно не алюміній. #Sich. "A lightweight foamed metal wall" в оригіналі.
   suffix: RMC
   components:
   - type: Sprite
