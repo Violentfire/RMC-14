@@ -32,7 +32,7 @@ public sealed class CharacterInfoSystem : EntitySystem
 
         var objectives = new Dictionary<string, List<ObjectiveInfo>>();
         var jobTitle = Loc.GetString("character-info-no-profession");
-        string? jobId = null;
+        string? jobId = null; // Sich
         string? briefing = null;
         if (_minds.TryGetMind(entity, out var mindId, out var mind))
         {
