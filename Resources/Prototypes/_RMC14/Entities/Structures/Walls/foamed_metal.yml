@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedAluminiumMetal
-  name: сугроб #foamed aluminium metal, тимчасова зміна. Це все одно плейсхолдер сугробів.
-  description: Сніговий сугроб, точно не люміній. #A lightweight foamed metal wall.
+  name: сугроб # Sich. "foamed aluminium metal в оригіналі", тимчасова зміна. Це все одно плейсхолдер сугробів.
+  description: Сніговий сугроб, точно не люміній. #Sich. "A lightweight foamed metal wall" в оригіналі.
   suffix: RMC
   components:
   - type: Sprite
@@ -96,8 +96,7 @@
       state: metal_foam-north
     - map: [ "enum.EdgeLayer.West" ]
       state: metal_foam-west
-# нижче додано!!
-  - type: Destructible
+  - type: Destructible # Sich. Додано заради снігової баби
     thresholds:
     - trigger:
         !type:DamageTrigger

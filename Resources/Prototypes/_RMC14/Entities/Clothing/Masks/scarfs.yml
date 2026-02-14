@@ -20,7 +20,7 @@
     slots:
       - mask
       - neck
-  - type: Tag
+  - type: Tag # Sich
     tags:
     - SichScarf
 
@@ -246,7 +246,7 @@
     slots:
     - mask
     - neck
-  - type: Tag
+  - type: Tag # Sich
     tags:
     - SichScarf
 

@@ -1240,14 +1240,7 @@
 
 - type: Tag
   id: Shovel
-# sich
 
-- type: Tag
-  id: SichBeret
-
-- type: Tag
-  id: SichScarf
-# sich stop
 - type: Tag
   id: Sidearm
 
