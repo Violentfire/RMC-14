@@ -150,7 +150,7 @@ public sealed partial class ChatUIController : IOnSystemChanged<CharacterInfoSys
         // Use the jobId if available, otherwise fallback to the job title. For PAI as example.
         string jobIdNonNull = jobId ?? job;
         // Convert the job title to kebab-case and use it as a key for the loc file.
-        var jobKey = jobIdNonNull.Replace(' ', '-').ToLower();
+        var jobKey = jobIdNonNull.Replace(' ', '-').ToLower(); // Sich
 
         if (_loc.TryGetString($"highlights-{jobKey}", out var jobMatches))
             newHighlights += '\n' + jobMatches.Replace(", ", "\n");
