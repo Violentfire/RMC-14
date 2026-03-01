@@ -1,6 +1,8 @@
 - type: entity
   parent: KitchenMicrowave
   id: CMMicrowave
+  name: мікрохвильовка # Sich
+  description: Це магія. # Sich
   components:
   - type: Transform
     anchored: false

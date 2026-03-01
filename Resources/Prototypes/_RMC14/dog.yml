@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCDogLizard
-  name: dog
+  name: собака
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Animals/dog.rsi

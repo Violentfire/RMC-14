@@ -36,8 +36,8 @@
 - type: entity
   parent: [ CMBaseStructureCorrodible, CMCargoCatalog ]
   id: CMASRSConsole
-  name: ASRS console
-  description: A console for the Automated Storage Retrieval System.
+  name: консоль АТСС
+  description: Консоль керування Автоматичною Транспортно-Складською Системою.
   suffix: Requisitions
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 
 - type: entity
   id: CMCargoElevator
-  name: cargo elevator
+  name: вантажна платформа
   suffix: Lowered, Requisitions
   placement:
     mode: SnapgridCenter
@@ -173,8 +173,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMRailing
-  name: retractable railing
-  description: That looks like it doesn't open easily.
+  name: висувні поручні
+  description: Виглядають так, ніби просто так їх не зрушити з місця.
   suffix: Raised
   components:
   - type: Transform

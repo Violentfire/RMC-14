@@ -76,7 +76,7 @@
 - type: entity
   id: RMCCrateElectricalMaintenance
   parent: RMCCrateConstruction
-  name: Ящик з електрообслуговуванням
+  name: Ящик з обладнанням електрика
   components:
   - type: StorageFill
     contents:
@@ -92,7 +92,7 @@
 - type: entity
   id: RMCCrateMechanicalMaintenance
   parent: RMCCrateConstruction
-  name: Ящик з механічним обслуговуванням
+  name: Ящик з обладнанням механіка
   components:
   - type: StorageFill
     contents:
@@ -108,7 +108,7 @@
 - type: entity
   id: RMCCrateInflatableBarriers
   parent: RMCCrateConstruction
-  name: inflatable barriers crate
+  name: Ящик з надувними бар'єрами
   components:
   - type: StorageFill
     contents:
@@ -168,7 +168,7 @@
 - type: entity
   id: RMCCrateHighCapacityPowerCell
   parent: RMCCrateConstruction
-  name: Ящик з прото-батарейками
+  name: Ящик з акумуляторами високої ємності
   components:
   - type: StorageFill
     contents:

@@ -53,7 +53,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobMonkey, RMCSmallHost]
   id: CMMobMonkey
-  name: monkey
+  name: мавпа
+  description: Нова церква неодарвіністів вважає, що КОЖНА тварина еволюціонувала від мавпи... Якого біса вона тут робе?? # Sich
   suffix: CM
   components:
   - type: GhostRole
@@ -68,7 +69,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobKobold, RMCSmallHost]
   id: CMMobKobold
-  name: kobold
+  name: кобольд
+  description: Нова церква неодарвіністів вважає, що КОЖЕН унатх еволюціонувала від кобольда... Якого біса він тут робе?? # Sich
   suffix: CM
   components:
   - type: GhostRole
@@ -77,6 +79,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse]
   id: CMMobMouse
+  name: пацюк # Sich
+  description: Піп! # Sich
   suffix: CM
   components:
   - type: GhostRole
@@ -92,6 +96,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse1]
   id: CMMobMouse1
+  name: пацюк # Sich
+  description: Піп! # Sich
   suffix: CM
   components:
   - type: GhostRole
@@ -106,6 +112,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobMouse2]
   id: CMMobMouse2
+  name: пацюк # Sich
+  description: Піп! # Sich
   suffix: CM
   components:
   - type: GhostRole
@@ -120,14 +128,14 @@
 - type: entity
   parent: CMMobMouse
   id: RMCMobMouseDoc
-  name: Doc
-  description: "Senior mouse researcher of the Almayer. Likes: cheese, experiments, explosions."
+  name: Док
+  description: Старший мишачий дослідник з Альмаєра, який також працює на Саванні. Йому подобається сир, експерименти та вибухи!
 
 - type: entity
-  name: rat
+  name: пацюк
   parent: [RMCSimpleMob, SimpleMobBase]
   id: RMCMobRat
-  description: It's a small laboratory rat.
+  description: Це маленький лабораторний щур.
   suffix: RMC
   components:
   - type: Body
@@ -284,8 +292,8 @@
   parent: RMCMobRat
   id: RMCMobRatBrown
   suffix: RMC
-  name: rat
-  description: It's a big, disease-ridden rodent.
+  name: щур
+  description: Це великий, не дуже приємно пахнущий та ймовірно хворий гризун.
   components:
   - type: Sprite
     layers:
@@ -337,12 +345,12 @@
 - type: entity
   parent: [RMCSimpleMob, MobCorgiPuppy]
   id: CMMobWiggles
-  name: Mister Wiggles
-  description: It's a corgi puppy. MISTER WIGGLES!! HE IS THE GREATEST!
+  name: Містер Віґґлз
+  description: Це цуценя коргі. О БОЖЕ, МІСТЕР ВІГГЛЗ! ВІН НАЙКРАЩИЙ!!!
   components:
   - type: WarpPoint
     follow: true
-    location: Mister Wiggles
+    location: Містер Віґґлз # Sich, бо це назва
   - type: CrashLandable
   - type: PressureImmunity
   - type: Respirator
@@ -354,12 +362,12 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: CMMobJones
-  name: Jones
-  description: A tough, old stray whose origin no one seems to know.
+  name: Джонс
+  description: Старий, колись безпритульний кіт, походження якого ніхто й не згадає.
   components:
   - type: WarpPoint
     follow: true
-    location: Jones
+    location: Джонс # Sich, бо це назва
   - type: CrashLandable
   - type: PressureImmunity
   - type: Respirator
@@ -371,12 +379,12 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: RMCMobOrion
-  name: Orion
-  description: A domesticated, feline pet. The collar says 'Orion'.
+  name: Оріон
+  description: Одомашнений звичайний кіт. На нашийнику написано «Оріон».
   components:
   - type: WarpPoint
     follow: true
-    location: Orion
+    location: Оріон # Sich, бо це назва
   - type: CrashLandable
   - type: PressureImmunity
   - type: Respirator
@@ -388,12 +396,12 @@
 - type: entity
   parent: [RMCSimpleMob, MobCat]
   id: RMCMobGarry
-  name: Garry
-  description: Her fur has the look and feel of velvet, and her tail quivers occasionally.
+  name: Ґаррі
+  description: Її хутро на вигляд й дотик схоже на оксамит, а хвіст час від часу сіпається.
   components:
   - type: WarpPoint
     follow: true
-    location: Garry
+    location: Ґаррі # Sich, бо це назва
   - type: CrashLandable
   - type: PressureImmunity
   - type: Respirator

@@ -2,7 +2,7 @@
   id: RMCKitchenReagentGrinder
   parent: KitchenReagentGrinder
   name: Блендер Три-В-Одному
-  description: ""
+  description: Виробництва невідомої корпорації. Чи зможе воно подрібнити це? Давайте перевіримо!
   suffix: ""
   components:
   - type: Sprite
