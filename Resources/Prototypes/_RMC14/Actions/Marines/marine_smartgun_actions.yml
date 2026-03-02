@@ -20,7 +20,7 @@
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
   name: Перемкнути Тип Набоїв
-  description: Перемикання типу набоїв Смартгану.
+  description: Перемикання типу набоїв Смартгану. [color=red]Ви можете активувати це, натиснувши унікальну клавішу для дій зі зброєю, за замовчуванням пробіл![/color]
   components:
   - type: Action
     icon:

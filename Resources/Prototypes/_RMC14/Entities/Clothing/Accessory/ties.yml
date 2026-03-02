@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCTieBase
   id: RMCTie
-  name: blue tie
-  description: A neosilk clip-on tie.
+  name: синя краватка
+  description: Краватка-кліпса з неошовку.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/blue.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTieBlack
-  name: black tie
+  name: чорна краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/black.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTieGold
-  name: gold tie
+  name: золота краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/gold.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTieGreen
-  name: green tie
+  name: зелена краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/green.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTiePurple
-  name: purple tie
+  name: фіолетова краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/purple.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTieRed
-  name: red tie
+  name: червона краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/red.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCTie
   id: RMCTieHorrible
-  name: horrible tie
+  name: жахлива краватка
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Ties/horrible.rsi

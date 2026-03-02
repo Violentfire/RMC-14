@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCHelmetGarbToggleableBase
   id: RMCHelmetGarbNightVisionPVE
-  name: old M1 multi-spectrum visor
-  description: A failed prototype for next generation HUD optics for the Marine Corps that was surpased by the current issue integrated IR optic, this flip down visor offers a full visor suite with multi-spectrum capabilities. A really cool piece until you realize you are one headbang away from losing night capability.
+  name: старий багатоспектральний візор М1
+  description: Провальний прототип наступного покоління оптик для КМПОН, який був замінений на сьогоднішню інтегровану інфрачервону оптику. Цей відкидний візор забезпечує повну багатоспектровість. Дійсно крута штука, поки не усвідомлюєш, що від втрати нічних можливостей відділяє лише один удар головою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles_alt.rsi
@@ -486,8 +486,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbChaplainPatch
-  name: UNMC chaplain helmet patch
-  description: This patch is all that remains of the Chaplaincy of the UNS Almayer, along with the Chaplains themselves. Both no longer exist as a result of losses suffered during Tychon Tackle.
+  name: нашивка капелана КМПОН
+  description: Ця нашивка — це все, що залишилося від капеланства ДКП-Саванна Січ, разом із самими капеланами. Обидва більше не існують через втрати, понесені під час битви на Тайхоні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/chaplain_patch.rsi
@@ -502,8 +502,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbPeaceFlair
-  name: peace flair
-  description: Doesn't matter when it's Arcturian, baby..
+  name: шпилька покою
+  description: У тебе написано 'Народжений вбивати' біля символу покою. Що це має означати? Не знаю, сер. Мабуть щось про двоїстість людини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/peace_flair.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbIoFlair
-  name: io flair
-  description: The Arcturians might be our allies now, but Io is forever a stain on trans-species relations. Never forget those who gave their lives aboard the UNS Doramin..
+  name: шпилька іо
+  description: Арктуріанці може й стали нашими союзниками, проте Іо назавжди залишиться плямою на міжвидових стосунках. Ніколи не забудемо тих, хто віддав своє життя на борту КОН Дорамін.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/io_flair.rsi
@@ -534,8 +534,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbTerraTekFlair
-  name: TerraTek flair
-  description: Flair for some weird tech company back on Earth. How did they get promotional material this far out in the rim?.
+  name: шпилька ТерраТек
+  description: Чуття для якоїсь дивної технологічної компанії на Землі. Як їм вдалося розмістити рекламні матеріали так далеко?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/terratek_flair.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbUNMCFlair
-  name: UNMC flair
-  description: These pins get handed out like candy at enlistment offices. Wear it with pride marine.
+  name: шпилька КМПОН
+  description: Ці значки роздають, як цукерки, у призовних комісіях. Носіть їх з гордістю, морський піхотинець.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/unmc_flair.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbMovieTicket
-  name: movie ticket
-  description: A pair of red movie tickets. It reminds you of a time you could watch more then the same 5 or so VHS films the Almayer has.
+  name: квиток у кіно
+  description: Пара червоних квитків у кіно. Вони нагадують вам про часи, коли ви могли дивитися більше, ніж ті самі 5 фільмів на VHS-касетах, що є на Саванні..
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/movie_ticket.rsi

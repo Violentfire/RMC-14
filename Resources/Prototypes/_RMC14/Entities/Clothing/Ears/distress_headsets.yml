@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetColonyIcons
-  name: colony headset
-  description: A standard headset used by colonists.
+  name: гарнітура колонії
+  description: Зазвичай така використовується колоністами.
   suffix: With HUD Icons
   components:
   - type: ContainerFill
@@ -26,15 +26,15 @@
 - type: entity
   parent: [RMCHeadsetIconsCLF, CMHeadsetColony]
   id: RMCHeadsetDistressCLF
-  name: CLF headset
-  description: A special headset used by small groups of trained operatives. Or terrorists.
+  name: гарнітура ФВК
+  description: Спеціальна гарнітура для малих спеціальних груп. Або терористів.
 
 # For Bureau Marshals
 - type: entity
   parent: RMCHeadsetIconsCMB
   id: RMCHeadsetDistressBureau
-  name: навушник шерифа
-  description: Якісно зроблена гарнітура, яку використовують в Бюро Шерифів Колонії. Малогабаритна й зручна. Закон один для всіх.
+  name: навушник бюро
+  description: Якісно зроблена гарнітура, яку використовують в Бюро Колоніальних Маршалів. Малогабаритна й зручна. Закон один для всіх.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCHeadsetDistressBureau
   id: RMCHeadsetDistressBureauDamaged
-  name: damaged bureau earpiece
-  description: A sleek headset used by The Colony Marshal Bureau, crafted in Sol. Low profile and comfortable. No one is above the law. This one is pretty beat up, and seems to be missing a few frequencies.
+  name: пошкоджений навушник бюро
+  description: Якісно зроблена гарнітура, яку використовують в Бюро Колоніальних Маршалів, створена в сонячній системі. Малогабаритна й зручна. Закон один для всіх. Конкретно цей навушник досить пошкоджений і, схоже, деякі частоти відсутні.
   components:
   - type: ContainerFill
     containers:
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMCPVE
-  name: PMC headset
-  description: A special headset used by corporate personnel.
+  name: гарнітура ПВК
+  description: Гарнітура корпорації, але для дещо інших потреб.
   suffix: PVE
   components:
   - type: ContainerFill
@@ -126,8 +126,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMCDirector
-  name: PMC headset
-  description: A special headset used by corporate personnel.
+  name: гарнітура ПВК
+  description: Гарнітура корпорації, але для дещо інших потреб.
   suffix: Director
   components:
   - type: ContainerFill
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressGoon
-  name: We-Ya headset
-  description: A special headset used by corporate personnel.
+  name: гарнітура Ве-Я
+  description: Спеціальна гарнітура для персоналу Корпорації.
   components:
   - type: ContainerFill
     containers:
@@ -181,8 +181,8 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressLawyerWeYa
-  name: We-Ya headset
-  description: A special headset used by corporate personnel.
+  name: гарнітура Ве-Я
+  description: Спеціальна гарнітура для персоналу Корпорації.
   suffix: Director
   components:
   - type: ContainerFill
@@ -205,8 +205,8 @@
 - type: entity
   parent: RMCHeadsetIcons
   id: RMCHeadsetDistressDukes
-  name: Duke's Dozen headset
-  description: A special headset used by small groups of trained operatives. Or terrorists.
+  name: гарнітура Дюжини Дюка
+  description: Спеціальна гарнітура для малих спеціальних груп. Або терористів.
   components:
   - type: ContainerFill
     containers:
@@ -229,8 +229,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetForecon
-  name: UNMC SOF headset
-  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
+  name: гарнітура ССО КМПОН
+  description: Видається виключно Морським Рейдерам та членам Сил Розвідки КМПОН.
   suffix: Survivor
   components:
   - type: Sprite
@@ -244,17 +244,17 @@
     channels:
     - MarineSOF
   - type: GrantSquadLeaderTracker
-    defaultMode: FORECONCommandingOfficer
+    defaultMode: SquadLeader
     trackerModes:
-    - FORECONCommandingOfficer
     - SquadLeader
+    - FORECONCommandingOfficer
 
 #for UNMC personnel
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetMarineDistress
-  name: UNMC headset
-  description: A standard issue UNMC headset. This one is used by marines on colonial protection duties, and only comes equipped with civilian channels.
+  name: гарнітура КМПОН
+  description: Стандартна гарнітура КМПОН. Конкретно ця гарнітура використовується морпіхами на заходах колоніальної охорони, та має лише цивільні канали.
   components:
   - type: ContainerFill
     containers:
@@ -266,8 +266,8 @@
 - type: entity
   parent: RMCHeadsetForecon
   id: RMCHeadsetMARSOC
-  name: UNMC SOF headset
-  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
+  name: гарнітура ССО КМПОН
+  description: Видається виключно Морським Рейдерам та членам Сил Розвідки КМПОН.
   suffix: ERT
   components:
   - type: ContainerFill

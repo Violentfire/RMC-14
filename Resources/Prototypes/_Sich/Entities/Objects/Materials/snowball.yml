@@ -1,0 +1,94 @@
+- type: material
+  id: SichSnowball
+  stackEntity: SichSheetSnowball
+  name: сніжка
+  icon: { sprite: _Sich/Objects/Materials/snowball.rsi, state: snowball }
+  price: 0
+
+- type: stack
+  id: SichSnowball
+  name: сніжка
+  icon: { sprite: /Textures/_Sich/Objects/Materials/snowball.rsi, state: snowball }
+  spawn: SichSheetSnowball
+  maxCount: 3
+
+- type: entity
+  parent: SheetOtherBase
+  id: SichSheetSnowball
+  name: сніжки
+  description: Сніжки. Зі снігу. Круто!
+  suffix: Заповнені
+  components:
+    - type: RMCConstructionItem
+      buildable:
+      - SichSnowwomanBuild
+    - type: Material
+    - type: PhysicalComposition
+      materialComposition:
+        SichSnowball: 100
+    - type: Stack
+      count: 3
+      stackType: SichSnowball
+      baseLayer: base
+      layerStates:
+        - snowball
+        - snowball_2
+        - snowball_3
+        - snowball_4
+    - type: Sprite
+      sprite: _Sich/Objects/Materials/snowball.rsi
+      state: snowball_4
+      layers:
+        - state: snowball_4
+          map: ["base"]
+    - type: Item
+      sprite: _Sich/Objects/Materials/snowball.rsi
+      heldPrefix: сніжка
+      size: Normal
+    - type: Appearance
+    - type: Tag
+      tags:
+      - Sheet
+    - type: UserInterface
+      interfaces:
+        enum.RMCConstructionUiKey.Key:
+          type: RMCConstructionBui
+
+- type: entity
+  parent: SichSheetSnowball
+  id: SichSheetSnowball2
+  name: сніжки
+  description: Сніжки. Зі снігу. Круто!
+  suffix: "2"
+  components:
+    - type: Sprite
+      state: snowball_3
+    - type: Stack
+      stackType: SichSnowball
+      count: 2
+
+- type: entity
+  parent: SichSheetSnowball
+  id: SichSheetSnowball3
+  name: сніжки
+  description: Сніжки. Зі снігу. Круто!
+  suffix: "3"
+  components:
+    - type: Sprite
+      state: snowball_4
+    - type: Stack
+      stackType: SichSnowball
+      count: 3
+
+- type: entity
+  parent: SichSheetSnowball
+  id: SichSheetSnowball1
+  name: сніжка
+  description: Сніжка. Одна, самісінька.
+  suffix: Один
+  components:
+    - type: Sprite
+      state: snowball_2
+    - type: Stack
+      stackType: SichSnowball
+      count: 1

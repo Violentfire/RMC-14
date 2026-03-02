@@ -296,6 +296,17 @@
 
 - type: entity
   parent: CMWebbingHolster
+  id: RMCWebbingHolsterMK80
+  suffix: PMC FOL, Survivor, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMK80
+    - id: CMMagazinePistolMK80
+    - id: CMMagazinePistolMK80
+
+- type: entity
+  parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
   name: чорна плечова кобура
   description: Кобура для зброї, що кріпиться так само як і розвантажувальний жилет. Також має місце для двох магазинів.
@@ -487,6 +498,8 @@
       - PowerCell
       - RMCNailgunCompact
       - RMCNailgunTactical
+      - RMCSynthResetKey
+      - RodMetal1
       components:
       - Welder
       - PowerCell
@@ -514,6 +527,8 @@
         - PowerCell
         - RMCNailgunCompact
         - RMCNailgunTactical
+        - RMCSynthResetKey
+        - RodMetal1
         components:
         - Welder
         - PowerCell
@@ -547,9 +562,23 @@
 
 - type: entity
   parent: RMCToolWebbingSmall
+  id: RMCToolWebbingSmallFilledRCMPVEAssaultEngi
+  suffix: Filled, RCM, PVE
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMScrewdriver
+    - id: CMWrench
+    - id: RMCWelderIndustrial
+    - id: CMCrowbar
+    - id: RMCCableCoil30
+    - id: CMMultitool
+
+- type: entity
+  parent: RMCToolWebbingSmall
   id: RMCToolWebbing
-  name: tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
+  name: інструментальна розвантажка
+  description: Коричнева розвантажка з синтетичної бавовни, схожа за функціями на цивільні фартухи для інструментів, але більш міцна для польового використання.
   components:
   - type: Storage
     grid:
@@ -565,6 +594,8 @@
       - PowerCell
       - RMCNailgunCompact
       - RMCNailgunTactical
+      - RMCSynthResetKey
+      - RodMetal1
       components:
       - Welder
       - PowerCell
@@ -586,6 +617,8 @@
         - PowerCell
         - RMCNailgunCompact
         - RMCNailgunTactical
+        - RMCSynthResetKey
+        - RodMetal1
         components:
         - Welder
         - PowerCell
@@ -665,7 +698,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: жилет для ножів зразка M272 
+  name: жилет для ножів зразка М272 
   description: Розвантажувальний жилет, який колись використовував КМПОН. Може вміщувати до п'яти ножів. Зроблений з синтетичної бавовни.
   components:
   - type: Sprite
@@ -729,7 +762,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: RMCMREWeYa
+    - id: RMCMREWeYaPMC
     - id: RMCRangefinder
     - id: RMCGrenadeBlastM12
     - id: RMCTelescopicBaton
@@ -742,9 +775,9 @@
   components:
   - type: StorageFill
     contents:
-    - id: RMCMREWeYa
-    - id: RMCMREWeYa
-    - id: CMCrowbar # TODO RMC14: tactical prybar
+    - id: RMCMREWeYaPMC
+    - id: RMCMREWeYaPMC
+    - id: RMCTacticalPrybar
     - id: RMCGrenadeBlastM12
     - id: RMCExplosivePlastic
 
@@ -757,7 +790,7 @@
     contents:
     # - id: CMSplint5
     - id: CMFireExtinguisherPortable
-    - id: RMCMREWeYa
+    - id: RMCMREWeYaPMC
     - id: RMCGrenadeBlastM12
     - id: RMCPowerCellSmartgun
 
@@ -817,8 +850,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalGreen
-  name: surgical webbing vest
-  description: A robust webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -870,8 +903,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalBlue
-  name: surgical webbing vest
-  description: A robust blue webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite

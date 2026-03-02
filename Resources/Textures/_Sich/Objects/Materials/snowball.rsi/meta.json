@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made by potatoed6",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "snowball"
+    },
+    {
+      "name": "snowball_2"
+    },
+    {
+      "name": "snowball_3"
+    },
+    {
+      "name": "snowball_4"
+    }
+  ]
+}

@@ -8,18 +8,19 @@
   - type: HumanoidAppearance
     species: Avali
     hideLayersOnEquip:
+    - UndergarmentTop
     - HeadTop
     - HeadSide
   - type: Sprite
     drawdepth: Mobs
-    scale: 0.8, 0.8 # Sich. Чому? Бо вони малі пташки.
+    scale: 0.9, 0.9 # Sich. Чому? Бо вони малі пташки.
   - type: TypingIndicator
     proto: avali
-  - type: Vocal
+  - type: Vocal # Sich
     sounds:
-      Male: RMCMaleAvali
-      Unsexed: RMCMaleAvali
-      Female: RMCFemaleAvali
+      Male: SichMaleAvali
+      Unsexed: SichMaleAvali
+      Female: SichFemaleAvali
   - type: Wagging 
     action: ActionToggleAvaliWagging
   - type: Speech

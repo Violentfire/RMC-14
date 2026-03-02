@@ -49,6 +49,7 @@
     - type: LizardAccent
     - type: MothAccent
     - type: FelinidAccent
+    - type: VulpkaninAccent
     - type: ReplacementAccent
       accent: dwarf
 

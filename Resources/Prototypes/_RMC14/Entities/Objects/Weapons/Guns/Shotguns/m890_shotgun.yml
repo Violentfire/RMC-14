@@ -27,6 +27,7 @@
     whitelist:
       tags:
       - RMCShellShotgun
+    proto: CMShellShotgunSlugs
     capacity: 8
   - type: AttachableHolder
     slots:

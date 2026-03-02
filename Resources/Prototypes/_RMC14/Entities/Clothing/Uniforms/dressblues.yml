@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressEnlisted
-  name: marine enlisted dress blues uniform
-  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This unadorned variant is for enlisted personnel, E-1 thru E-3.
+  name: рядовий парадний морпіхотний мундир
+  description: Сорочка та брюки легендарного Морпіхотного парадного мундиру, майже незмінного з ХІХ століття. Цей неоздоблений варіант призначений для рядового складу, від Е1 до Е3.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/enlisted.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressSenior
-  name: marine senior dress blues uniform
-  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features the iconic Blood Stripe, worn by NCOs and officers.
+  name: старший парадний морпіхотний мундир
+  description: Сорочка та брюки легендарного Морпіхотного парадного мундиру, майже незмінного з ХІХ століття. Цей варіант оздоблений культовою Кривавою Стрічкою, призначений для унтер-офіцерського та офіцерського складу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/senior.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressGeneral
-  name: marine general dress blues uniform
-  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features black trousers and a large Blood Stripe, worn by general officers.
+  name: генеральский парадний морпіхотний мундир
+  description: Сорочка та брюки легендарного Морпіхотного парадного мундиру, майже незмінного з ХІХ століття. Цей варіант має чорні брюки та велику Криваву Стрічку, призначений для генеральского офіцерського складу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/general.rsi

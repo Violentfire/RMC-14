@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCHeadsetLiaison
   id: RMCHeadsetDistressICBLiaison
-  name: ICB liaison headset
+  name: гарнітура представника БМТ
   suffix: ICB, Colony
   components:
   - type: ContainerFill

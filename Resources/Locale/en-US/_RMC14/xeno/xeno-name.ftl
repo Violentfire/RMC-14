@@ -1,4 +1,5 @@
-rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})
+﻿rmc-xeno-name-number = {$baseName} ({$prefix}-{$number}{$postfix})
+rmc-xeno-name-leader = Лідер
 
 rmc-xeno-name = {$baseName} ({$prefix}{$postfix})
 rmc-xeno-young = Молодий {$baseName}
@@ -19,3 +20,9 @@ rmc-xeno-mature-king = Безжальний {$baseName}
 rmc-xeno-young-larva = Мала {$baseName}
 rmc-xeno-mature-larva = Зріла {$baseName}
 rmc-xeno-elder-larva = Велика {$baseName}
+
+sich-xeno-young-queen = Молода {$baseName}
+sich-xeno-mature-queen = Зріла {$baseName}
+sich-xeno-elder-queen = Старша {$baseName}
+sich-xeno-ancient-queen = Давня {$baseName}
+sich-xeno-prime-queen = Первісна {$baseName}

@@ -11,9 +11,9 @@ rmc-ghost-name-bureau-marshal = Маршал БКМ (Дружні)
 rmc-job-name-bureau-marshal = Маршал БКМ
 rmc-job-prefix-bureau-marshal = МАРШ БКМ
 
-rmc-ghost-name-bureau-deputy = Депутат БКМ (Дружні)
-rmc-job-name-bureau-deputy = Депутат БКМ
-rmc-job-prefix-bureau-deputy = ДЕП БКМ
+rmc-ghost-name-bureau-deputy = Помічник БКМ (Дружні)
+rmc-job-name-bureau-deputy = Помічник БКМ
+rmc-job-prefix-bureau-deputy = ПОМ БКМ
 
 rmc-ghost-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі (Дружні)
 rmc-job-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі

@@ -1,18 +1,10 @@
 - type: emoteSounds
-  id: RMCUnisexAvali # З білдом Січі
-  params:
-    variation: 0.125
+  id: RMCUnisexAvali
   sounds:
     Scream:
-      collection: AvaliScreams
+      path: /Audio/_RMC14/Voice/Avali/avali_scream.ogg
     Laugh:
-      collection: AvaliLaugh
-    Cough:
-      path: /Audio/_RMC14/Voice/Avali/avali_cough.ogg
-    Crying:
-      collection: AvaliCry
-    Whistle:
-      path: /Audio/_RMC14/Voice/Avali/avali_whistle.ogg
+      path: /Audio/_RMC14/Voice/Avali/avali_laugh.ogg
 
 - type: emoteSounds
   parent: [RMCUnisexAvali, RMCMaleHuman]

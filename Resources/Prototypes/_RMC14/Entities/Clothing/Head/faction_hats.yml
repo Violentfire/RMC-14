@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapBureau
-  name: bureau cap
-  description: A dark cap enscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim. The laws of the Earth stretch beyond the Sol.
+  name: кепка бюро
+  description: Темна кепка з викарбуваними могутніми літерами 'МАРШАЛ' що уособлюють справедливість, владу та захист на зовнішніх рубежах. Закони Землі поширюються далеко за межі сонячної системи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/bureau_cap.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMHeadBeretRed
   id: RMCHeadBeretProvost
-  name: UNMC provost beret
-  description: A beret with the UNMC Military Police insignia emblazoned on it.
+  name: берет провосту КМПОН
+  description: Берет із знаками розрізнення ВСП КМПОН на ньому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_wo.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCHeadBeretProvost
   id: RMCHeadBeretProvostSenior
-  name: UNMC senior provost beret
+  name: берет старшого провосту КМПОН
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_black.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCHeadBeretProvost
   id: RMCArmorCapProvost
-  name: provost marshal cap
-  description: The expensive headwear of a Provost Marshal. Contains shards of kevlar to keep its valuable contents safe.
+  name: кепка маршала провосту
+  description: Дорогий головний убір Маршала Провосту. Має вставки з кевлару для захисту важливого вмісту.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/provost.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMHeadBeretRed
   id: RMCHeadBeretAgent
-  name: special agent beret
-  description: A beret with the intelligence service insignia emblazoned on it.
+  name: берет спеціального агента
+  description: Берет із знаками розрізнення Розвідувальної Служби на ньому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_tis.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretAgentIvan
-  name: black beret
-  description: Worn by officers of special units.
+  name: чорний берет
+  description: Головний убір офіцерів спецпідрозділів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_ivan.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapFreelancer
-  name: armored freelancer cap
-  description: A sturdy freelancer's cap. More protective than it seems.
+  name: броньована кепка фрілансера
+  description: Міцна кепка фрілансера. Більш захищена, ніж здається.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_freelancer.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: RMCHeadCapFreelancer
   id: RMCHeadBeretFreelancer
-  name: armored freelancer beret
-  description: A sturdy freelancer's beret. More protective than it seems.
+  name: броньований берет фрілансера
+  description: Міцний берет фрілансера. Більш захищений, ніж здається.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadMilitiaHood
-  name: armored militia cowl
+  name: броньована ряса міліції
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/hood_rebel.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCHeadMilitiaHood
   id: RMCHeadMilitiaBucket
-  name: militia bucket
+  name: відро міліції
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/bucket.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadCapGeneral
-  name: armored general's cap
-  description: A sturdy general officer's cap. More protective than it seems. Please don't ditch this for a helmet like a punk.
+  name: броньована кепка генерала
+  description: Міцна генеральска кепка. Більш захищена, ніж виглядає. Будь ласка, не кидай її заради шолома, як гевал.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/general.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCHeadCapGeneral
   id: RMCHeadBeretGeneral
-  name: armored general's beret
-  description: A sturdy general officer's beret. More protective and stylish than it seems. Please don't ditch this for a helmet like a punk.
+  name: броньований берет генерала
+  description: Міцний берет генерала. Більш захищений, ніж здається. Будь ласка, не кидай її заради шолома, як гевал.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_general.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMHeadCapCargo
   id: RMCHeadCapQuartermaster
-  name: UNMC Logistics Officer cap
-  description: It's a fancy hat for a not-so-fancy military supply clerk.
+  name: кепка офіцера логістики КМПОН
+  description: Гарненька кепка для не дуже гарненького логістичного щура.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/quartermaster_cap.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretQuartermaster
-  name: UNMC Logistics Officer beret
-  description: A beret with the sergeant insignia emblazoned on it. It symbolizes hard work and shady business.
+  name: берет офіцера логістики КМПОН
+  description: Берет із знаками розрізнення другого лейтенанта на ньому. Символізує важку працю та сірі схеми.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_quartermaster.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadUNMCHeadset
-  name: UNMC headset
-  description: A headset typically found in use by radio-operators and officers. This one appears to be malfunctioning.
+  name: навушники КМПОН
+  description: Навушники, які зазвичай використовуються зв'язківцями та офіцерами. Конкретно ця модель не працює.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/unmc_headset.rsi

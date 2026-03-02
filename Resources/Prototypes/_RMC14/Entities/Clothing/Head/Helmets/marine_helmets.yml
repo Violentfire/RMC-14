@@ -58,7 +58,7 @@
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10SO
   name: офіцерський шолом зразка М10
-  description: Варіація шолому М10, яку носять офіцери КМПООН, що звісно привертає увагу військових, і своїх, і ворожих.
+  description: Варіація шолому М10, яку носять офіцери КМПОН, що звісно привертає увагу військових, і своїх, і ворожих.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m10/officer/jungle.rsi
@@ -120,6 +120,15 @@
 
 - type: entity
   parent: CMArmorHelmetM10Medic
+  id: RMCArmorHelmetM10FieldDoctor
+  name: M10-L field doctor helmet
+  description: A special variant of the M10 Pattern Helmet worn by the field doctors of the Marines. Comes with a built in medical display HUD.
+  components:
+  - type: RMCBulkyArmor
+    isBulky: false
+
+- type: entity
+  parent: CMArmorHelmetM10Medic
   id: RMCArmorHelmetM10MedicWhite
   name: М10 білий медичний шолом
   description: Особливий варіант шолому М10 створений для потреб бойових медиків. Цей варіант пофарбований у білий колір.
@@ -157,6 +166,7 @@
     visorsToAdd:
     - RMCVisorSquadIntegrated
     - RMCVisorWeldingIntegrated
+  - type: RMCEarProtection
 
 - type: entity
   parent: ArmorHelmetM10
@@ -173,6 +183,7 @@
     visorsToAdd:
     - RMCVisorSquadIntegrated
     - RMCVisorWeldingIntegrated
+  - type: RMCEarProtection
 
 # M11
 - type: entity
@@ -192,12 +203,14 @@
       Snow: _RMC14/Objects/Clothing/Head/Helmets/m11/snow.rsi
       Classic: _RMC14/Objects/Clothing/Head/Helmets/m11/classic.rsi
       Urban: _RMC14/Objects/Clothing/Head/Helmets/m11/urban.rsi
+  - type: CMArmor
+    bio: 25
 
 - type: entity
   parent: ArmorHelmetM10
   id: CMArmorHelmetM11CCO
-  name: M11C pattern commanding officer helmet
-  description: A special M11 Pattern Helmet worn by Commanding Officers of the UNMC. It reads on the label, 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'.
+  name: шолом командуючого офіцера зразка М11С
+  description: Спеціальний шолом зразка М11, який носять Командуючі Офіцери КМПОН. Всередині на записці, поруч з інформацією про прання, написано, 'Якщо носити на голові – вас поховають в відкритій труні'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11/co.rsi
@@ -207,7 +220,6 @@
     melee: 25
     bullet: 30
     bio: 25
-    explosionArmor: 10 #same as base m10 helmet
     #todo RMC: energy armor: 15
   - type: ItemCamouflage
     camouflageVariations:
@@ -227,21 +239,15 @@
     - RMCVisorMedicalAdvancedIntegrated
 
 - type: entity
-  parent: ArmorHelmetM10
+  parent: CMArmorHelmetM11CCO
   id: CMArmorHelmetM11CGeneral
-  name: M11C pattern ceremonial helmet
-  description: A special M11 pattern ceremonial helmet worn occasionally by general officers of the UNMC.
+  name: церемоніальний шолом зразка М11С
+  description: Спеціальний церемоніальний шолом зразка М11, який час від часу носять генерали КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11/ceremonial.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m11/ceremonial.rsi
-  - type: CMArmor
-    melee: 25
-    bullet: 30
-    bio: 25
-    explosionArmor: 10 #same as base m10 helmet
-    #todo RMC: energy armor: 15
   - type: ItemCamouflage
     camouflageVariations: { }
 
@@ -265,7 +271,6 @@
       Urban: _RMC14/Objects/Clothing/Head/Helmets/m12/urban.rsi
   - type: CMArmor
     melee: 25
-    bullet: 25
     bio: 25
   - type: CycleableVisor
     containers:
@@ -291,6 +296,10 @@
       Snow: _RMC14/Objects/Clothing/Head/Helmets/m30/snow.rsi
       Classic: _RMC14/Objects/Clothing/Head/Helmets/m30/classic.rsi
       Urban: _RMC14/Objects/Clothing/Head/Helmets/m30/urban.rsi
+  - type: CMArmor
+    melee: 15
+    explosionArmor: 15
+    # armor_internaldamage = 15
   - type: CycleableVisor
     containers:
     - rmc_visor_one
@@ -339,7 +348,7 @@
 
 # M3-G4 Grenadier Spec
 - type: entity
-  parent: RMCArmorHelmetM3Scout
+  parent: ArmorHelmetM10
   id: RMCArmorHelmetM3G4
   name: шолом М3-Г4 
   description: Поєднується з важкою бронею гранатометника М3-Г4. Далекий родич захисного шолому В18. # As such, it also resists some parasite latching attempts.
@@ -351,7 +360,10 @@
   - type: CMArmor
     melee: 25
     bullet: 25
+    bio: 25
     explosionArmor: 50
+    # armor_rad = 30
+    # armor_internaldamage = 30
   - type: ParasiteResistance
     maxCount: 6
   - type: ItemCamouflage
@@ -409,6 +421,10 @@
       Snow: _RMC14/Objects/Clothing/Head/Helmets/m45/snow.rsi
       Classic: _RMC14/Objects/Clothing/Head/Helmets/m45/classic.rsi
       Urban: _RMC14/Objects/Clothing/Head/Helmets/m45/urban.rsi
+  - type: CMArmor
+    bio: 10
+    explosionArmor: 20
+    # armor_internaldamage = 15
   - type: SquadArmor
     layer: Helmet
     slot: HEAD
@@ -439,7 +455,6 @@
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/jungle.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/jungle.rsi
-  - type: RMCEarProtection
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/jungle.rsi
@@ -447,9 +462,12 @@
       Snow: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/snow.rsi
       Classic: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/classic.rsi
       Urban: _RMC14/Objects/Clothing/Head/Helmets/m3/demo/urban.rsi
+  - type: CMArmor
+    explosionArmor: 30
+  - type: RMCEarProtection
 
 - type: entity
   parent: CMArmorHelmetM12
   id: RMCArmorHelmetM12Intel
-  name: XM12 pattern intelligence helmet
-  description: An experimental brain-bucket. A dust ruffle hangs from back. Moderately better at deflecting blunt objects at the cost of humiliation, can also hold a second visor optic. But who will be laughing at the memorial? Not you, you'll be busy getting medals for your intel work.
+  name: шолом розвідки зразка ХМ12
+  description: Експериментальне відро для вашого казанку. Ззаду звисає завіса від пилу. Помірно краще відбиває удари тупими предметами, але ціною певного приниження. Може також вміщувати другий оптичний візор. Хто сміятиметься на меморіалі? Не ви – ви будете зайняті отриманням медалей за свою розвідувальну роботу.
