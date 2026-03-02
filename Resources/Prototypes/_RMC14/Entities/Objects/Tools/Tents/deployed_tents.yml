@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: RMCTentBase
-  name: UNMC Field Tent
-  description: A standard UNMC Tent. This one is just a general purpose version. Unfold in a suitable location for micro-FOB vibes. ComTech not included. ENTRANCE TO THE SOUTH.
+  name: польовий намет КМПОН
+  description: Стандартний польовий намет КМПОН. Цей – малий та порожній, універсальний варіант. Встановіть для створення атмосфери міні-ПОБу. Прибирається за допомогою лопати, БТ в комплект не виходить. ВХІД З ПІВДНЯ.
   placement:
     mode: SnapgridCenter
     snap:
@@ -92,7 +92,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 400 # Sich. 200 в оригіналі. 20 замість 10 ударів лессера/бігуна
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCBig
-  name: UNMC Big Tent
-  description: A standard UNMC Field Tent. This one is just a general purpose, large version. Unfold in a suitable location for micro-FOB vibes. ComTech not included. ENTRANCE TO THE SOUTH.
+  name: великий польовий намет КМПОН
+  description: Стандартний польовий намет КМПОН. Цей – великий та порожній, універсальний варіант. Встановіть для створення атмосфери ПОБу. Прибирається за допомогою лопати, БТ в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tents/deployed_tents.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCStandardCommand
-  name: UNMC Command Tent
-  description: A standard UNMC Command Tent. This one comes equipped with a self-powered Overwatch Console and a Telephone. Unfold in a suitable location to maximize usefulness. Staff Officer not included. ENTRANCE TO THE SOUTH.
+  name: командний намет КМПОН
+  description: Стандартний командний намет КМПОН. Цей – оснащений консоллю спостереження з автономним живленням та телефоном. Розкладається у відповідному місці для максимальної корисності. Прибирається за допомогою лопати, ШО в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:
@@ -179,25 +179,34 @@
       map: [ "enum.ItemCamouflageLayers.Layer2", "standard_roof" ]
     - state: cmd_standard_canvas
 
-- type: entity
-  parent: RMCTentBase
+- type: entity # Sich. Він став великим
+  parent: RMCTentUNMCExtended
   id: RMCTentUNMCStandardMedical
-  name: UNMC Medical Tent
-  description: A standard UNMC Medical Tent. This one comes equipped with advanced field surgery facilities. Unfold in a suitable location to maximize health gains. Surgical Tray not included. ENTRANCE TO THE SOUTH.
+  name: медичний намет КМПОН
+  description: Стандартний медичний намет КМПОН. Цей – оснащений передовим мед. обладнанням, яке ви можете дозволити так легко переносити. Розкладається у відповідному місці для максимальної корисності. Прибирається за допомогою лопати, Лікар з хірургічним комплектом в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:
     - state: standard_frame
     - state: standard_canvas
       map: [ "enum.ItemCamouflageLayers.Layer" ]
+    - state: extension_frame
+    - state: extension_canvas
+      map: [ "enum.ItemCamouflageLayers.Layer2" ]
     - state: standard_roof
-      map: [ "enum.ItemCamouflageLayers.Layer2", "standard_roof" ]
+      map: [ "enum.ItemCamouflageLayers.Layer3", "standard_roof" ]
+    - state: extension_roof
+      map: [ "enum.ItemCamouflageLayers.Layer4", "extension_roof" ]
     - state: med_standard_canvas
     - state: med_standard_roof
       map: [ "med_standard_roof" ]
   - type: RMCSpriteFade
+    targetAlpha: 0.0
+    changeRate: 6.0
+    reactToMouse: false
     fadeLayers:
     - "standard_roof"
+    - "extension_roof"
     - "med_standard_roof"
 
 
@@ -205,8 +214,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCExtended
-  name: UNMC Extended Field Tent
-  description: A standard UNMC Tent. This one is just an extended general purpose version. Unfold in a suitable location for mega FOB vibes. Mess Tech not included. ENTRANCE TO THE SOUTH.
+  name: розширений польовий намет КМПОН
+  description: Стандартний польовий намет КМПОН. Цей – більший та все ще порожній, універсальний варіант. Встановіть для створення атмосфери ПОБу. Прибирається за допомогою лопати, БТ в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:
@@ -302,8 +311,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedReq
-  name: UNMC Requisitions Tent
-  description: A standard UNMC Requisitions Tent. Now, you can enjoy req line anywhere you go! Unfold in a suitable location to maximize resource distribution. ASRS not included. ENTRANCE TO THE SOUTH.
+  name: складений намет постачань КМПОН
+  description: Стандартний намет постачань КМПОН. Тепер ви можете насолоджуватися лінією постачань будь-де! Розкладіть у відповідному місці для максимальної корисності. Прибирається за допомогою лопати, АТСС в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:
@@ -331,8 +340,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedMess
-  name: UNMC Mess Tent
-  description: A standard UNMC Mess Tent. This one comes equipped with a kitchen and dining utilities. Unfold in a suitable location to maximize meal handouts. ENTRANCE TO THE SOUTH.
+  name: складений намет-кухня КМПОН
+  description: Стандартний намет-кухня КМПОН. Цей – обладнаний кухнею та інструментами для приготування повноцінної їжі навіть посеред поля бою. Розкладіть у відповідному місці для максимальної корисності. Прибирається за допомогою лопати, АТСС в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:
@@ -360,8 +369,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedMP
-  name: UNMC Military Police Tent
-  description: A standard UNMC Military Police Tent. This one comes equipped with a single detention cell and detainee handling equipment. Unfold in a suitable location to maximize order enforcement. ENTRANCE TO THE SOUTH.
+  name: складений поліцейський намет КМПОН
+  description: Стандартний поліцейський намет КМПОН. Цей – обладнаний однією камерою утримання та обладнанням для затримання. Розкладіть у відповідному місці для максимальної корисності. Прибирається за допомогою лопати, ВСП в комплект не виходить. ВХІД З ПІВДНЯ.
   components:
   - type: Sprite
     layers:

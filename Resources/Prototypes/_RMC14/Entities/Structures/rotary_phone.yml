@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneCommandTent
-  name: Палатка Командування
+  name: Намет Командування
   components: #Ця та 2 строки нижче - додавання білду Січі
   - type: RotaryPhone
     category: Земля
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneReqTent
-  name: Палатка Постачань
+  name: Намет Постачань
   components: #Ця та 2 строки нижче - додавання білду Січі
   - type: RotaryPhone
     category: Земля
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCRotaryPhone
   id: RMCRotaryPhoneMPTent
-  name: Палатка ВСП
+  name: Намет ВСП
   components: #Ця та 2 строки нижче - додавання білду Січі
   - type: RotaryPhone
     category: Земля
