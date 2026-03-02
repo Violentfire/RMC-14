@@ -13,3 +13,5 @@ rmc-reagent-pouch-no-canister = Цей {$target} не має контейнер�
 rmc-reagent-pouch-unskilled = Ви не знаєте, що в ньому.
 rmc-reagent-pouch-examine-contains = Цей {$target} містить: {$reagents}
 rmc-reagent-pouch-examine-empty = Цей {$target} нічого не містить.
+
+rmc-smart-refill-not-enough = {CAPITALIZE($tank)} не містить потрібних речовин.

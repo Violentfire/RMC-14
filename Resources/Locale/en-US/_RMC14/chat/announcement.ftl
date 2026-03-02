@@ -1,6 +1,7 @@
 rmc-announcement-author = Командування
 rmc-announcement-author-shipside = Command Ship
 rmc-announcement-author-highcommand = Вище Командування
+rmc-announcement-author-queen-mother = Королева Матір
 rmc-announcement-message = [font size=16][bold][color=#CECECE]Оголошення {$author}[/color][/bold][/font][font size=16][color=red]
 
     {$message}

@@ -5,39 +5,78 @@
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Wallmounts/banners.rsi
+  - type: Destructible # Sich. Бо чому ні?
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/_RMC14/Effects/laser_cannon.ogg # Схоже ж
+          params:
+            volume: -5
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerCLF
-  name: CLF flag
-  description: A flag of the Colony Liberation Front. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор ФВК
+  description: "Прапор Фронту Визволення Колоній (CLF). Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Анархісти, що з них взяти? Але це одна з останніх версій. Сіре полотно на якому 3 зірки – щось як пародія на ІТС, а ті палички та точки – CLF азбукою морзе. Збірник фішок інших прапорів\", – слова вашого Інструктора про символіку СПН відразу згадуються." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: clfflag
 
 - type: entity
+  parent: RMCBannerCLF
+  id: RMCBannerCLFAltDraw
+  suffix: Over Podlocks
+  components:
+  - type: Sprite
+    state: clfflag
+    drawdepth: BlastDoors
+
+- type: entity
   parent: RMCBannerBase
   id: RMCBannerCLFWorn
-  name: worn CLF flag
-  description: A very worn flag of the Colony Liberation Front. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: подертий прапор ФВК
+  description: "Сильно подертий та пошкоджений прапор Фронту Визволення Колоній (CLF), схоже він комусь не сподобався... Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Анархісти, що з них взяти? Але це одна з останніх версій. Сіре полотно на якому 3 зірки – щось як пародія на ІТС, а ті палички та точки – CLF азбукою морзе. Збірник фішок інших прапорів\", – слова вашого Інструктора про символіку СПН відразу згадуються." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: clfflag_worn
+  - type: Destructible # Sich. Далі буде як перент всім іншим подертим
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/_RMC14/Effects/laser_cannon.ogg
+          params:
+            volume: -5
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerCM
-  name: UNMC flag
-  description: A flag of the United Nations Marine Corps. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор КМПОН
+  description: "Прапор Корпусу Морської Піхоти Об'єднаних Націй (UNMC). Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Зелене полотно – немов планета Земля. По центру емблема, в її верхній частині зірка з крилами – Сонце та авіація, під ними коло, яке символізує планету-ціль, позаду неї проходить стріла – флот, а з краю видніється шифр – UNMC морзянкою\", – було як мантра, коли ви ще проходили БЗВП. ВІДДАТИ ЧЕСТЬ ПРАПОРУ!!!" # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: unmcflag
 
 - type: entity
-  parent: RMCBannerBase
+  parent: RMCBannerCLFWorn # Sich
   id: RMCBannerCMWorn
-  name: worn UNMC flag
-  description: A very worn flag of the United Nations Marine Corps. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: подертий прапор КМПОН
+  description: "Сильно подертий та пошкоджений прапор Корпусу Морської Піхоти Об'єднаних Націй (UNMC), схоже він комусь не сподобався... Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Зелене полотно – немов планета Земля. По центру емблема, в її верхній частині зірка з крилами – Сонце та авіація, під ними коло, яке символізує планету-ціль, позаду неї проходить стріла – флот, а з краю видніється шифр – UNMC морзянкою\", – було як мантра, коли ви ще проходили БЗВП. ВІДДАТИ ЧЕСТЬ ПРАПОРУ!!!" # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: unmcflag_worn
@@ -45,17 +84,19 @@
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerSPP
-  name: SPP flag
-  description: A flag of the Socialist Progressive Peoples. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор СПН
+  description: "Прапор Соціалістичних Прогресивних Народів (SPP). Може викликати тільки огиду. Це ж бісові росіянські комуняки!
+    \n\"Що могли придумати комуністи? Та як завжди – комуністичне лайно. Зірка, шматок шестерні та колоски на криваво-червоному тлі. Бачиш таке – до біса спали\", – слова одного старого Майора спливають у вашій голові." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: sppflag
 
 - type: entity
-  parent: RMCBannerBase
+  parent: RMCBannerCLFWorn # Sich
   id: RMCBannerSPPWorn
-  name: worn SPP flag
-  description: A very worn flag of the Socialist Progressive Peoples. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: подертий прапор СПН
+  description: "Сильно подертий та пошкоджений прапор Соціалістичних Прогресивних Народів (SPP). Хтось не завершив справу до кінця. Може викликати тільки огиду. Це ж бісові росіянські комуняки!
+    \n\"Що могли придумати комуністи? Та як завжди – комуністичне лайно. Зірка, шматок шестерні та колоски на криваво-червоному тлі. Бачиш таке – до біса спали\", – слова одного старого Майора спливають у вашій голові." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: sppflag_worn
@@ -63,17 +104,19 @@
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerTSE
-  name: TSE flag
-  description: A flag of the Three Suns Empire. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор ІТС
+  description: "Прапор Імперії Трьох Сонць (TSE). Родина Вестон-Ямада. Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Дві монархії й наближені до них країни об'єдналися, утворивши потужну міжгалактичну силу. Їх символіка – це свастика, яка символізує об'єднання Британії, Японії, Індії, Австралії, Індонезії та ще деяких держав\", – слова вашої Вчительки Історії, якщо ви все ще пам'ятаєте, що вона там казала." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: tseflag
 
 - type: entity
-  parent: RMCBannerBase
+  parent: RMCBannerCLFWorn # Sich
   id: RMCBannerTSEWorn
-  name: worn TSE flag
-  description: A very worn flag of the Three Suns Empire. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: подертий прапор ІТС
+  description: "Сильно подертий та пошкоджений прапор Імперії Трьох Сонць (TSE), схоже він комусь не сподобався... Родина Вестон-Ямада. Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Дві монархії й наближені до них країни об'єдналися, утворивши потужну міжгалактичну силу. Їх символіка – це свастика, яка символізує об'єднання Британії, Японії, Індії, Австралії, Індонезії та ще деяких держав\", – слова вашої Вчительки Історії, якщо ви все ще пам'ятаєте, що вона там казала." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: tseflag_worn
@@ -81,17 +124,19 @@
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerUN
-  name: UN flag
-  description: A flag of the United Nations. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор ОН
+  description: "Прапор Об'єднаних Націй (UN). Країна, за яку ви ймовірно воюєте прямо зараз. Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Темно-синє полотно – немов безкрайні простори космосу. По центру велика чотирикутна зірка, а навколо неї 13 менших шестикутних розташованих вздовж дуги – неначе Сонячна та інші 13 систем. Знизу цього всього шифр – UN абеткою морзе\", – це Вчитель Географії вас змусив ледь не завчити на пам'ять." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: unflag
 
 - type: entity
-  parent: RMCBannerBase
+  parent: RMCBannerCLFWorn # Sich
   id: RMCBannerUNWorn
-  name: worn UN flag
-  description: A very worn flag of the United Nations. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: подертий прапор ОН
+  description: "Сильно подертий та пошкоджений прапор Об'єднаних Націй (UN), схоже він комусь не сподобався... Країна, за яку ви ймовірно воюєте прямо зараз. Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Темно-синє полотно – немов безкрайні простори космосу. По центру велика чотирикутна зірка, а навколо неї 13 менших шестикутних розташованих вздовж дуги – неначе Сонячна та інші 13 систем. Знизу цього всього шифр – UN абеткою морзе\", – це Вчитель Географії вас змусив ледь не завчити на пам'ять." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: unflag_worn
@@ -100,8 +145,9 @@
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerWEYA
-  name: WEYA flag
-  description: A flag of the Weston-Yamada Corporation. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings.
+  name: прапор Ве-Я
+  description: "Прапор Вестон-Ямада (We-Ya). Всім відома мега-корпорація! Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Вестон та Ямада – дві великі корпорації, які об'єдналися заради забезпечення сталого розвитку всієї галактики. Майбутнє зараз\", – наче щось таке писалося у тій брошурі, яку давав вам Корпорат." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: weyaflag
@@ -109,8 +155,9 @@
 - type: entity
   parent: RMCBannerBase
   id: RMCBannerTSEAlt
-  name: old TSE flag
-  description: A flag of the Three-Sun Empire. Inspires patriotism, fear, or revulsion depending on the viewer's political leanings. This design was used years ago; apparently it's got a niche following.
+  name: старий прапор ІТС
+  description: "Стара версія прапора Імперії Трьох Сонць (TSE). Він використовувався багато років тому, але дехто все ще любить його. Все ще родина Вестон-Ямада! Викликає патріотизм, страх або огиду залежно від ваших політичних уподобань.
+    \n\"Три полоси – 3 частини Імперії. За ідеєю схоже на сучасний прапор ІТС, але простіше\", – щось таке вам підказала Базова Логіка." # Sich. Опис сильно розширено
   components:
   - type: Sprite
     state: tseflag_alt

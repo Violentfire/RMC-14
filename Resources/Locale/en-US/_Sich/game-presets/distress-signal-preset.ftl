@@ -1,5 +1,5 @@
-sich-event-preset-title = Івентний режим
-sich-event-preset-description = Проводиться івент! За подробицями читайте повідомлення дня чи запитайте в МХелп/АХелп.
+sich-event-preset-title = Івент
+sich-event-preset-description = Проводиться повноцінний івент! За подробицями читайте повідомлення дня чи запитайте в МХелп/АХелп.
 
-sich-calmed-preset-title = Спокійний режим
-sich-calmed-preset-description = Загрози ксеноїдів нема. . . Напевно!
+sich-calmed-preset-title = Спокій
+sich-calmed-preset-description = Все тихо, загрози нема. Саванна має можливість відпочити. . . Можливо!

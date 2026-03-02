@@ -477,6 +477,12 @@
     - MarineJTAC
     - MarineMedical
     - MarineIntel
+    - MarineAlpha # Sich. До кінця цього компоненту
+    - MarineBravo
+    - MarineCharlie
+    - MarineDelta
+    - MarineEcho
+    - MarineFoxtrot
     defaultChannel: MarineCommand
   - type: Sprite
     state: cap_key

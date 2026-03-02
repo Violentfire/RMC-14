@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSatchel
   id: CMBackpackSniper
-  name: снайперська сумка M3 
+  name: снайперська сумка M3
   description: Спеціально розроблений халат з кишенями, не шумить, і покриває всі снайперські потреби.
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSatchel
   id: RMCBackpackScout
-  name: термоплащ M68 
+  name: термоплащ M68
   description: Легкі термальні приглушувачі та оптичний камуфляж, що пропонує цей плащ, слабші ніж у стандартних костюмах Гіллі. Але, натомість, його можна носити поверх броні, до того ж, він забезпечує високу маневреність, та кращу пристосованість до навколишніх умов.
   components:
   - type: Sprite
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCBackpackScout
   id: RMCBackpackSPPCommando
-  name: V86 thermal cloak
-  description: A thermo-optic camouflage cloak commonly used by SPP commando units.
+  name: термоплащ В86
+  description: Термо-оптичний камуфляжний плащ, який використовується підрозділами командос СПН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/SPP/scout_cloak.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelVirology
-  name: scientist satchel
-  description: Useful for holding research materials.
+  name: сумка науковця
+  description: Корисна для перенесення наукових матеріалів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/virology.rsi
@@ -202,8 +202,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelChemistry
-  name: chemist satchel
-  description: A sterile satchel with chemist colors.
+  name: сумка хіміка
+  description: Стерильна сумка в кольорах хіміка.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Civilians/chemist.rsi
@@ -376,8 +376,8 @@
 - type: entity
   parent: CMSatchelMarineIntel
   id: RMCSatchelMarineIntelChestrig
-  name: UNMC expedition chestrig
-  description: A heavy-duty IMP based chestrig, can quickly be accessed with only one hand. Usually issued to UNMC intelligence officers.
+  name: експедиційний нагрудник КМПОН
+  description: Надміцна нагрудна сумка на базі ІМС, має швидкий доступ навіть з однією рукою. Зазвичай видається офіцерам розвідки КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Chestrigs/intel/desert.rsi
@@ -392,8 +392,8 @@
 - type: entity
   parent: CMSatchelMarine
   id: RMCSatchelMarineChestrigPVE # Reskin for PVE
-  name: UNMC IMP chestrig
-  description: A heavy-duty IMP based chestrig, can quickly be accessed with only one hand.
+  name: нагрудник ІМС КМПОН
+  description: Надміцна нагрудна сумка на базі ІМС, має швидкий доступ навіть з однією рукою.
   suffix: PVE
   components:
   - type: Sprite
@@ -409,8 +409,8 @@
 - type: entity
   parent: CMSatchelMarineIntel
   id: RMCSatchelMarineIntelSatchel
-  name: UNMC lightweight expedition satchel
-  description: A heavy-duty IMP based satchel, reinforced with kevlar so it doesn't rip. Can quickly be accessed with only one hand. Usually issued to UNMC intelligence officers.
+  name: легка експедиційна сумка КМПОН
+  description: Надміцна сумка на базі ІМС, посилена кевларом. Має швидкий доступ навіть з однією рукою. Зазвичай видається офіцерам розвідки КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/intel.rsi
@@ -420,8 +420,8 @@
 - type: entity
   parent: CMSatchelMarineIntel # Reskin for FORECON
   id: RMCSatchelMarineLogisticsBig
-  name: UNMC logistics IMP backpack
-  description: A standard-issue backpack worn by logistics personnel. It is occasionally issued to combat personnel for longer term expeditions and deep space incursions.
+  name: логістичний ІМС наплічник КМПОН
+  description: Зазвичай використовується логістичним персоналом. Інколи його видають комбатантам для довготривалих експедицій в глибокий космос.
 
 - type: entity
   parent: CMSatchelMarineIntel
@@ -543,7 +543,7 @@
 - type: entity
   parent: RMCSatchelWelder
   id: RMCSatchelWelderChestrig
-  name: нагрудний технічний жилет для зварки 
+  name: нагрудний технічний жилет для зварки
   description: Спеціалізований нагрудний жилет, який носять техніки та інженери. Цей варіант оснащений одним середнім баком для швидкої заправки зварювального апарату.
   components:
   - type: Sprite
@@ -552,8 +552,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelDemoSpec
-  name: рюкзак для ракет КМПОН ІМП М22
-  description: Спеціально розроблений рюкзак, сумісний із кріпильною рамою ІМП на основі стандартній піхотній броні КМПОН. Складається з двох легкодоступних водонепроникних армованих трубок і меншої сумки, закріпленої в нижній частині. Основне призначення цього рюкзака – перенесення ракет, але ніхто не заважає вам покласти всередину й інші речі.
+  name: рюкзак для ракет ІМС КМПОН М22
+  description: Спеціально розроблений рюкзак, сумісний із ІМС на основі стандартної піхотної броні КМПОН. Складається з двох легкодоступних водонепроникних армованих трубок і меншої сумки, закріпленої в нижній частині. Основне призначення цього рюкзака – перенесення ракет, але ніхто не заважає вам покласти всередину й інші речі.
   components:
   - type: ExplosionResistance
     damageCoefficient: 0
@@ -596,7 +596,7 @@
   parent: CMSatchel
   id: RMCBackpackRTO
   name: радіотелефонний рюкзак КМПОН
-  description: Міцний переносний рюкзак, призначений для зв'язку з іншим телефоном.
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншими радіостанціями. Зазвичай використовується зв'язківцями.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/rto/jungle-desert-classic.rsi
@@ -645,10 +645,29 @@
       Urban: _RMC14/Objects/Clothing/Back/Backpacks/Marines/rto/snow-urban.rsi
 
 - type: entity
+  parent: CMSatchel
+  id: RMCBackpackRTOPMCBroken
+  name: broken We-Ya radio telephone pack
+  description: A heavy-duty extended-pack, used for telecommunications between central command. Commonly carried by RTOs. This one bears the logo of Weston-Yamada and internal systems seem to be completely fried and broken.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/rto.rsi
+    layers:
+    - state: icon
+      map: [ "base" ]
+    - state: open
+      map: [ "openLayer" ]
+    - state: closed
+      map: [ "closedLayer" ]
+  - type: Storage
+    grid:
+    - 0,0,19,1 # 20
+
+- type: entity
   parent: RMCBackpackRTO
   id: RMCBackpackRTOPMC
-  name: We-Ya radio telephone pack
-  description: A heavy-duty extended-pack, used for telecommunications between central command. Commonly carried by RTOs. This one bears the logo of Weston-Yamada.
+  name: радіотелефонний рюкзак Ве-Я
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншими радіостанціями. Зазвичай використовується зв'язківцями. Конкретно ця модель має логотип Вестон-Ямада.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/rto.rsi
@@ -663,8 +682,8 @@
 - type: entity
   parent: RMCBackpackRTO
   id: RMCBackpackRTOSPP
-  name: SPP radio telephone pack
-  description: A heavy-duty extended-pack, used for telecommunications between central command. Commonly carried by RTOs. This one bears the Socialist Progressive People's insignia.
+  name: радіотелефонний рюкзак СПН
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншими радіостанціями. Зазвичай використовується зв'язківцями. Конкретно ця модель має знаки розрізнення Соціалістичних Прогресивних Народів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/SPP/rto.rsi
@@ -679,8 +698,8 @@
 - type: entity
   parent: RMCBackpackRTO
   id: RMCBackpackRTOTSE # TODO RMC14 - Different Sprites
-  name: TSE radio telephone pack
-  description: A heavy-duty extended-pack, used for telecommunications between central command. Commonly carried by RTOs. This one bears the Three Suns Empire's insignia.
+  name: радіотелефонний рюкзак ІТС
+  description: Міцний переносний рюкзак, призначений для зв'язку з іншими радіостанціями. Зазвичай використовується зв'язківцями. Конкретно ця модель має знаки розрізнення Імперії Трьох Сонць.
   components:
   - type: RotaryPhone
     category: Three Suns Empire
@@ -688,8 +707,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelLightpack #ERT pack
-  name: lightweight combat pack
-  description: A small, lightweight pack for expeditions and short-range operations.
+  name: легка бойова сумка
+  description: Мала, легка сумка для експедицій та коротких операцій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Other/lightpack.rsi
@@ -700,11 +719,11 @@
 - type: entity
   parent: RMCSatchelLightpack
   id: RMCSatchelLightpack5Slot
-  suffix: 5 Slot
+  suffix: 15 Slot
   components:
   - type: Storage
     grid:
-    - 0,0,9,1 # 15
+    - 0,0,14,1 # 15
 
 - type: entity
   parent: RMCSatchelLightpack
@@ -775,7 +794,6 @@
   - type: StorageFill
     contents:
     - id: RMCMagazineRifleL24AP
-    - id: RMCVisorNightVision # TODO RMC14 M42 NVGs
     - id: RMCPacketGrenadeIncendiaryFilled # TODO RMC14 R2175
     - id: CMPacketGrenadeHighExplosiveFilled # TODO RMC14 R2175
     - id: CMPackFlare
@@ -788,14 +806,44 @@
   - type: StorageFill
     contents:
     - id: CMAdvFirstAidKitFilled
+    - id: RMCDefibrillatorCompact
     - id: RMCPacketGrenadeIncendiaryFilled # TODO RMC14 R2175
     - id: CMPacketGrenadeHighExplosiveFilled # TODO RMC14 R2175 // Why the FUCK does the medic get nades?
     - id: RMCHeadRoyalBeret
     - id: CMMaskGas # TODO RMC14 royal marine gas masks
     - id: RMCSyringeCase
     - id: CMPortableSurgicalBedSpawnFolded
-    - id: CMCrowbar # TODO RMC14 tactical prybar
+    - id: RMCTacticalPrybar
     - id: RMCMRETSE
+
+- type: entity
+  parent: RMCSatchelLightpack
+  id: RMCSatchelLightpackFilledRoyalLieutenant
+  suffix: Filled, Royal Lieutenant
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMAdvFirstAidKitFilled
+    - id: RMCDefibrillatorCompact
+    - id: RMCPacketGrenadeIncendiaryFilled # TODO RMC14 R2175
+    - id: CMPacketGrenadeHighExplosiveFilled # TODO RMC14 R2175
+    - id: RMCSyringeCase
+    - id: CMPackFlare
+    - id: RMCMagazineRifleL24
+
+- type: entity
+  parent: RMCSatchelLightpack
+  id: RMCSatchelLightpackFilledRoyalMajor
+  suffix: Filled, Royal Major
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMAdvFirstAidKitFilled
+    - id: RMCDefibrillatorCompact
+    - id: RMCPacketGrenadeIncendiaryFilled # TODO RMC14 R2175
+    - id: CMPacketGrenadeHighExplosiveFilled # TODO RMC14 R2175
+    - id: RMCSyringeCase
+    - id: CMPackFlare
 
 - type: entity
   parent: RMCSatchelLightpack
@@ -842,10 +890,19 @@
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Other/lightpack_black.rsi
 
 - type: entity
+  parent: CMSatchel
+  id: RMCSatchelLightpackWeYa
+  name: We-Ya combat pack
+  description: A small, lightweight pack for expeditions and short-range operations, designed for Weston-Yamada security and private military personnel.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Back/Satchels/PMC/corporate.rsi
+
+- type: entity
   parent: RMCSatchelLightpack
   id: RMCSatchelPMC
-  name: PMC combat backpack
-  description: A Weston-Yamada field tested backpack, featuring multiple pouches and compartments for ease of access, preventing slowdown from operatives in the field.
+  name: бойова сумка ПВК
+  description: Сумка Вестон-Ямада, що має кілька підсумків та відділів для легкого доступу, запобігаючи уповільненню у бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/standard.rsi
@@ -853,8 +910,8 @@
 - type: entity
   parent: [RMCSatchelPMC, RMCSatchelWelder]
   id: RMCSatchelWelderPMC
-  name: pmc technician welderpack
-  description: Ergonomic, protected, high capacity backpack, designed for Weston-Yamada PMCs. Features a small fueltank for quick blowtorch refueling.
+  name: сумка техніка з паливом для зварки
+  description: Ергономічний, захищений, з високою ємністю, рюкзак створений для найманців Вестон-Ямада. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/PMC/welder.rsi
@@ -862,8 +919,8 @@
 - type: entity
   parent: [RMCSatchelLightpack, RMCSatchelWelder]
   id: RMCSatchelLightpackWelder
-  name: lightweight technician welderpack
-  description: A small, lightweight pack for expeditions and short-range operations. Features a small fueltank for quick blowtorch refueling.
+  name: легка сумка техніка ПВК з паливом для зварки
+  description: Ергономічний, захищений, рюкзак з високою ємністю. Цей містить бак з рідиною для заправки зварювальних апаратів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Other/lightpack_welder.rsi
@@ -871,8 +928,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelSPP
-  name: UCP3 combat pack
-  description: An SPP military standard-issue Union Combat Pack MK3.
+  name: бойова сумка УСР3
+  description: Стандартний Унійний Середній Рюкзак Марк 3 збройних сил СПН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/SPP/standard.rsi
@@ -904,8 +961,8 @@
 - type: entity
   parent: RMCSatchelWelder
   id: RMCSatchelSPPWelder
-  name: UCP3-E technician welderpack
-  description: A special version of the Union Combat Pack MK3 featuring a small fueltank for quick blowtorch refueling. Used by SPP Sappers.
+  name: сумка техніка УСР3-Е для зварки
+  description: Спеціальна версія Унійного Середнього Рюкзаку Марк 3, що містить бак з рідиною для заправки зварювальних апаратів. Використовуються саперами СПН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/SPP/welder.rsi
@@ -924,7 +981,7 @@
 - type: entity
   parent: CMSatchelMarineMedic
   id: RMCSatchelPMCMedic
-  name: pmc medic combat pack
+  name: бойова сумка медика ПВК
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/PMC/medic.rsi
@@ -934,8 +991,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelTSEPA
-  name: TSP-4 police pack
-  description: A TSEPA standard-issue Three Suns Pack MK4.
+  name: поліційна сумка ТСР-4
+  description: Стандартний Трьох Сонць Рюкзак Марк 4 на використанні ІТСПА.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/TSE/tsepa_standard.rsi
@@ -955,8 +1012,8 @@
 - type: entity
   parent: CMSatchel
   id: RMCSatchelMARSOC
-  name: UNMC SOF combat pack
-  description: A streamlined combat pack for UNMC SOF Raiders.
+  name: бойова сумка ССО КМПОН
+  description: Оптимізована бойова сумка для Рейдерів ССО КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/TSE/tsepa_standard.rsi

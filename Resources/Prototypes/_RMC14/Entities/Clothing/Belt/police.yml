@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltSecurity
-  name: M276 pattern security rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This configuration is commonly seen among Marine Military Police and peacekeepers, though it can hold some light munitions.
+  name: ремінь охорони зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця конфігурація найбільш поширена серед Військової Служби Правопорядку та миротворців, проте досі може вміщувати легкі магазини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/security.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: CMBeltSecurity
   id: CMBeltSecurityMP
-  name: M276 pattern military police rig
-  description: The M276 is the standard load-bearing equipment of the UNMC. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: ремінь військової служби правопорядку зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія має різноманітні малі підсумки для нелетального оснащення та кайданків.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -48,20 +48,20 @@
 - type: entity
   parent: CMBeltSecurity
   id: RMCBeltSecurityWeYa
-  name: M276-C corporate security rig
-  description: A Weston-Yamada adaptation of the M276 load-bearing equipment, designed for corporate security forces. This modular black rig features multiple pouches for carrying restraints, ammunition, and a mix of lethal and non-lethal equipment for maintaining order.
+  name: ремінь корпоративної охорони зразка М276-К
+  description: Адаптація ременю М276 від Вестон-Ямада, спроєктована для копроративних сил охорони. Цей модульний чорний ремінь має декілька підсумків для кайданків, магазинів, нелетального та летального оснащення для підтримки порядку.
 
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecuritySPP
-  name: Type 43 military police rig
-  description: The Type 43 is the standard load-bearing equipment of the SPP. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
+  name: ремінь військової поліції Тип 43
+  description: Тип 43 це стандартний елемент спорядження СПН. Складається з ременя з різноманітними кріпленнями. Ця версія має різноманітні малі підсумки для нелетального оснащення та кайданків.
 
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecurityMarshal
-  name: marshal duty belt
-  description: The black duty belt used to carry the instruments of a Marshals. It is a heavy police belt with several pouches to contain various law enforcement items.
+  name: пояс маршала
+  description: Чорний службовий пояс, який служить для перенесення оснащення Маршалів. Це важкий поліційний ремінь з кількома підсумками для різноманітних предметів правоохоронців.
   components:
   - type: Storage
     maxItemSize: Normal

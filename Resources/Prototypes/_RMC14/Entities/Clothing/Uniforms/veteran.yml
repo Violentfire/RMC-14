@@ -10,11 +10,30 @@
 - type: entity
   parent: [RMCVeteranUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitVeteranPMCNoWebbing
-  name: PMC fatigues
-  description: A white set of fatigues, designed for private security operators. The symbol of the Weston-Yamada corporation is emblazed on the suit.
+  name: уніформа ПВК
+  description: Білий комплект одягу, зроблений для операторів приватних охоронних компаній. Символіка корпорації Вестон-Ямада нанесена на костюм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/standard.rsi
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCNoWebbing
+  id: RMCJumpsuitVeteranPMCNoWebbingPatch
+  suffix: WY patch
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchWeYa
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCNoWebbing
+  id: RMCJumpsuitVeteranPMCNoWebbingPatchFolded
+  suffix: Folded
+  components:
+  - type: RMCClothingFoldable
+    activatedPrefix: jacket
+  - type: Clothing
+    equippedPrefix: jacket
 
 - type: entity
   parent: RMCJumpsuitVeteranPMCNoWebbing
@@ -53,20 +72,61 @@
 
 - type: entity
   parent: RMCVeteranUniformBase
-  id: RMCJumpsuitVeteranPMCEngineer
-  name: PMC engineer fatigues
-  description: A black set of fatigues, designed for private security engineers. The symbol of the Weston-Yamada corporation is emblazed on the suit.
+  id: RMCJumpsuitVeteranPMCEngineerNoWebbing
+  name: уніформа інженера ПВК
+  description: Чорний комплект одягу, зроблений для інженерів приватних охоронних компаній. Символіка корпорації Вестон-Ямада нанесена на костюм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/engineer.rsi
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCEngineerNoWebbing
+  id: RMCJumpsuitVeteranPMCEngineerNoWebbingPatch
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchWeYa
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCEngineerNoWebbing
+  id: RMCJumpsuitVeteranPMCEngineer
+  components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingPMCEngineer
 
 - type: entity
   parent: RMCVeteranUniformBase
-  id: RMCJumpsuitVeteranPMCLeader
+  id: RMCJumpsuitVeteranPMCLeaderNoWebbing
   name: PMC command fatigues
   description: A white set of fatigues, designed for private security operators. The symbol of the Weston-Yamada corporation is emblazed on the suit. This particular suit looks like it belongs to a high-ranking officer.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/PMC/officer.rsi
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCLeaderNoWebbing
+  id: RMCJumpsuitVeteranPMCLeaderNoWebbingPatch
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchWeYa
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCLeaderNoWebbingPatch
+  id: RMCJumpsuitVeteranPMCLeaderHolsterPatch
+  suffix: Holster, Patch, MK80
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchWeYa
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingHolsterMK80
+
+- type: entity
+  parent: RMCJumpsuitVeteranPMCLeaderNoWebbing
+  id: RMCJumpsuitVeteranPMCLeader
+  name: уніформа командира ПВК
+  description: Білий комплект одягу, зроблений для операторів приватних охоронних компаній. Символіка корпорації Вестон-Ямада нанесена на костюм.. Конкретно цей комплект виглядає, наче він належить високо поставленому офіцеру.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/officer.rsi
@@ -76,8 +136,8 @@
 - type: entity
   parent: RMCJumpsuitVeteranPMCLeader
   id: RMCJumpsuitVeteranPMCCommando
-  name: PMC commando uniform
-  description: An armored uniform worn by We-Ya elite commandos. It is well protected while remaining light and comfortable.
+  name: уніформа командос ПВК
+  description: Броньована уніформа, яку носять еліткі командос Ве-Я. Він гарно захищений, лишаючись легким та комфортним у носінні.
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingPMCWhiteout
@@ -85,8 +145,8 @@
 - type: entity
   parent: [RMCVeteranUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitVeteranPMCCorporate
-  name: We-Ya corporate security uniform
-  description: An armored uniform worn by We-Ya corporate security members. This variant is commonly worn by what are known as 'goons'.
+  name: уніформа корпоративної охорони Ве-Я
+  description: Броньована уніформа, яку носять члени корпоративної охорони Ве-Я. Цей варіант використовується тими, кого знають як "тітушки".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate.rsi
@@ -97,8 +157,8 @@
 - type: entity
   parent: [RMCVeteranUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitVeteranPMCCorporateLead
-  name: We-Ya corporate security uniform
-  description: An armored uniform worn by We-Ya corporate security members. This variant is commonly worn by the lead of the 'goonsquad', as they are colloquially known.
+  name: уніформа корпоративної охорони Ве-Я
+  description: Броньована уніформа, яку носять члени корпоративної охорони Ве-Я. Цей варіант використовується лідером "тітушок", як їх знають у народі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate_lead.rsi
@@ -109,7 +169,7 @@
 - type: entity
   parent: RMCJumpsuitVeteranPMCCorporate
   id: RMCJumpsuitVeteranPMCKutjevo
-  description: An armored uniform worn by We-Ya corporate security members. This variant is more breathable for use in hot, dry environments.
+  description: Броньована уніформа, яку носять члени корпоративної охорони Ве-Я. Цей варіант більш дихаючий, для використання у теплих, сухих умовах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/kutjevo.rsi
@@ -117,7 +177,7 @@
 - type: entity
   parent: RMCJumpsuitVeteranPMCCorporateLead
   id: RMCJumpsuitVeteranPMCKutjevoLead
-  description: An armored uniform worn by We-Ya corporate security members. This variant is more breathable for use in hot, dry environments and has gold armbands denoting the team leader
+  description: Броньована уніформа, яку носять члени корпоративної охорони Ве-Я. Цей варіант більш дихаючий, для використання у теплих, сухих умовах та має золоті нарукавні пов'язки, позначаючи лідера групи.
   suffix: Kutjevo
   components:
   - type: Sprite
@@ -142,8 +202,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCJumpsuitVeteranPMCDirector
-  name: director's suit
-  description: It's a suit that oozes with authority. Belongs to someone very important.
+  name: костюм директора
+  description: Цей костюм сочиться авторитетом. Належить комусь важливому.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/director.rsi

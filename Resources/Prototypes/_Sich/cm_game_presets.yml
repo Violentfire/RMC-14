@@ -16,6 +16,6 @@
   - Calmed
   name: sich-calmed-preset-title
   description: sich-calmed-preset-description
-  showInVote: false
+  showInVote: true
   rules:
   - SichCalmed

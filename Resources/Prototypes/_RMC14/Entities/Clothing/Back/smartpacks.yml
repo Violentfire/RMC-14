@@ -2,8 +2,8 @@
   parent: CMSatchel
   id: RMCSmartpackBase
   abstract: true
-  name: S-V42 backpack
-  description: A joint project between the UNMC and Weston-Yamada. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
+  name: рюкзак С-В42
+  description: Спільний проєкт КМПОН та Вестон-Ямада. Кажуть, що були задіяні першокласні інженери та найсучасніші технології для інтегрування плечового ліхтаря.
   components:
   - type: Item
     heldPrefix: off
@@ -92,8 +92,8 @@
   parent: RMCSmartpackBase
   id: RMCSmartpackA1Base
   abstract: true
-  name: S-V42A1 backpack
-  description: A revised joint project between the UNMC and Weston-Yamada. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
+  name: рюкзак С-В42А1
+  description: Перероблений спільний проєкт КМПОН та Вестон-Ямада. Кажуть, що були задіяні першокласні інженери та найсучасніші технології для інтегрування плечового ліхтаря.
 
 # V42
 

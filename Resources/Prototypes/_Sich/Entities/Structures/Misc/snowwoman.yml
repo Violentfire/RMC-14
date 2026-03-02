@@ -1,0 +1,105 @@
+- type: soundCollection
+  id: SichSnowBreak
+  files:
+  - /Audio/Effects/Footsteps/snowstep1.ogg
+
+- type: entity
+  parent: BaseStructureDynamic
+  id: SichSnowwoman
+  name: снігова баба
+  description: Генерал завітав до Соколів! Бажаю здоров'я, щасливого Різдва та Нового року!
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path:
+          "/Audio/Effects/Footsteps/snowstep1.ogg"
+  - type: Transform
+    noRot: true
+  - type: Sprite
+    sprite: _Sich/Structures/Misc/snowwoman.rsi
+    noRot: true
+    state: snowwoman
+  - type: InteractionOutline
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.29"
+        density: 50
+        mask:
+        - CrateMask
+        layer:
+        - MachineLayer
+  - type: PlaceableSurface
+    isPlaceable: false
+  - type: Damageable
+    damageContainer: StructuralInorganic
+  - type: Corrodible
+    timeToApply: 4
+    structure: true
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: SichSnowBreak
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Blunt: 0
+    throwRange: 2
+  - type: ItemSlots
+    slots:
+      beret_slot:
+        name: берет снігової баби
+        whitelist:
+          tags:
+            - SichBeret
+        priority: 1
+      scarf_slot:
+        name: шалик снігової баби
+        whitelist:
+          tags:
+            - SichScarf
+        priority: 2
+      nose_slot:
+        name: ніс снігової баби
+        whitelist:
+          tags:
+            - Carrot
+        priority: 3
+  - type: ItemMapper
+    sprite: _Sich/Structures/Misc/snowwoman.rsi
+    mapLayers:
+      snowwoman_beret:
+        whitelist:
+          tags:
+            - SichBeret
+      snowwoman_scarf:
+        whitelist:
+          tags:
+            - SichScarf
+      snowwoman_nose:
+        whitelist:
+          tags:
+            - Carrot
+  - type: Appearance
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      beret_slot: !type:ContainerSlot {}
+      scarf_slot: !type:ContainerSlot {}
+      nose_slot: !type:ContainerSlot {}

@@ -8,8 +8,12 @@
   - type: Sprite
     sprite: _RMC14/Objects/Fun/plushies.rsi
     state: debug
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - HEAD
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -18,12 +22,17 @@
       collection: ToyFall
 
 - type: entity
+  parent: CMPlushieBase
+  id: RMCPlushieBaseAdmin
+  suffix: RMC, DO NOT MAP.
+
+- type: entity
   parent: PlushieMoth
   id: RMCPlushieMoth
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -37,7 +46,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -51,7 +60,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -65,7 +74,7 @@
   suffix: RMC
   components:
   - type: UseDelay
-    delay: 120
+    delay: 5 # Sich. 120 в оригіналі
   - type: EmitSoundOnLand
     sound:
       collection: ToyFall
@@ -77,7 +86,7 @@
   parent: RMCPlushieSharkBlue
   id: RMCShorkMedicalOfficer
   name: Shork medical officer plushie
-  description: The Shork Medical Officer is dissapointed to see you in surgery yet again. Maybe you should take better care of yourself?
+  description: The Shork Medical Officer is disappointed to see you in surgery yet again. Maybe you should take better care of yourself?
   suffix: RMC
   components:
   - type: Sprite
@@ -161,14 +170,16 @@
     state: rouny_plushie
 
 - type: entity
-  parent: CMPlushieBase
+  parent: RMCPlushieBaseAdmin
   id: RMCPlushieAlec
   name: підозріла іграшка
   description: "Здається, ця іграшка пасивно тебе ненавидить. Її спина прикрашена біркою з переліком дивних і підозрілих матеріалів. У самому низу - ім’я виробника: Drake Industries"
-  suffix: DO NOT MAP
   components:
   - type: Sprite
-    state: alec_plushie
+    sprite: _RMC14/Objects/Fun/alec_plushie.rsi
+    state: icon
+  - type: Clothing
+    sprite: _RMC14/Objects/Fun/alec_plushie.rsi
   - type: EmitSoundOnUse
     sound:
       collection: bottleOpenSounds
@@ -177,11 +188,10 @@
       collection: bottleOpenSounds
 
 - type: entity
-  parent: CMPlushieBase
+  parent: RMCPlushieBaseAdmin
   id: RMCPlushieNyx
   name: проклята іграшка
   description: Кажуть, якщо прошепотіти "метал" у присутності цієї іграшки - опинишся в бездонній ямі постачання. Інші кажуть, вона зроблена на 99% з бавовни... І на 1% - з Нікси.
-  suffix: DO NOT MAP
   components:
   - type: Sprite
     state: plushie_moth
@@ -216,11 +226,10 @@
     state: plushie_wawa
 
 - type: entity
-  parent: CMPlushieBase
+  parent: RMCPlushieBaseAdmin
   id: RMCPlushieXippy
   name: ксіппі
   description: Кажуть, ця іграшка несе за собою хаос й насильство.
-  suffix: DO NOT MAP
   components:
   - type: Sprite
     state: xippy
@@ -260,11 +269,10 @@
     state: gnarp_alt
 
 - type: entity
-  parent: CMPlushieBase
+  parent: RMCPlushieBaseAdmin
   id: RMCPlushieProvost
   name: грозна іграшка
   description: Символ усіх, хто стоїть на варті закону й сумлінно платить податки. Принаймні, поки ніхто не дізнається, що вона сама в боргах перед податковою.
-  suffix: DO NOT MAP
   components:
   - type: Sprite
     state: provost
@@ -294,11 +302,10 @@
       path: /Audio/Items/Toys/weh.ogg
 
 - type: entity
-  parent: CMPlushieBase
+  parent: RMCPlushieBaseAdmin
   id: RMCPlushieCrow
   name: crow plushie
   description: hello cro
-  suffix: DO NOT MAP
   components:
   - type: Sprite
     state: crow

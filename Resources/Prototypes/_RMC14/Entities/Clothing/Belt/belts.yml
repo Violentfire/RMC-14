@@ -15,7 +15,7 @@
   parent: CMBeltBaseStorage
   id: CMBeltMarine
   name: ремінь для магазинів зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія стандартна, спроєктована для носіння великої кількості боєприпасів.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія стандартна, спроєктована для носіння великої кількості боєприпасів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/marine/jungle-classic.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltPMC
-  name: M305 pattern ammo load rig
-  description: The M305 is the standard load-bearing equipment of Weston-Yamada PMCs. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations.
+  name: ремінь для магазинів зразка М305
+  description: М305 це стандартний елемент спорядження ПВК Вестон-Ямада. Складається з ременя з різноманітними кріпленнями. Ця версія стандартна, спроєктована для носіння великої кількості боєприпасів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/pmc.rsi
@@ -182,7 +182,7 @@
   parent: CMBeltBaseStorage
   id: CMBeltUtility
   name: ремінь для інструментів зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія не забезпечує жодної бойової функціональності, та часто використовується інженерами для переноски важливих інструментів.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія не забезпечує жодної бойової функціональності, та часто використовується інженерами для переноски важливих інструментів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/utility.rsi
@@ -226,7 +226,7 @@
   parent: CMBeltUtility
   id: RMCBeltConstruction
   name: ремінь для будівництва зразка М277
-  description: М277 це популярний серед Бойових Техників для переноски матеріалів і іншого обладнання. Складається з ременя з різнородними кріпленнями. Ця версія жертвує місцем задля спеціалізованих кріплень.
+  description: М277 це популярний серед Бойових Техників для переноски матеріалів і іншого обладнання. Складається з ременя з різноманітними кріпленнями. Ця версія жертвує місцем задля спеціалізованих кріплень.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/construction.rsi
@@ -278,7 +278,7 @@
   parent: CMBeltUtility
   id: CMBeltUtilityCombat
   name: ремінь бойовий для інструментів зразка М276
-  description: М276 це бойовий ремінь для інструментів, виступаючий як компромісний вибір для Бойових Техників в зонах бойових дій. Складається з ременя з різнородними кріпленнями та подсумками, разом з кобурою для запасної зброї. Через розмір кобури, ремінь не здатен нести стільки ж інтрументів, скільки стандартна версія.
+  description: М276 це бойовий ремінь для інструментів, виступаючий як компромісний вибір для Бойових Техників в зонах бойових дій. Складається з ременя з різноманітними кріпленнями та подсумками, разом з кобурою для запасної зброї. Через розмір кобури, ремінь не здатен нести стільки ж інтрументів, скільки стандартна версія.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/combat_utility.rsi
@@ -343,7 +343,7 @@
   parent: CMBeltBase
   id: CMBeltKnife
   name: ремінь для ножів зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія спроєктована під зберіганна ножей. Рідко використовується, але досі на озброєнні.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія спроєктована під зберіганна ножей. Рідко використовується, але досі на озброєнні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/knife/jungle-classic.rsi
@@ -373,7 +373,7 @@
   parent: CMBeltBaseStorage
   id: CMBeltMedical
   name: ремінь для мед. оснащення зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія це менш часта конфігурація, спроєктована задля перенесення медичного оснащення.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія це менш часта конфігурація, спроєктована задля перенесення медичного оснащення.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medical.rsi
@@ -389,6 +389,7 @@
       - Dropper
       - GlassBeaker
       - Bottle
+      - PillPacket
       - PillCanister
       - Syringe
       - CMSurgicalLine
@@ -410,7 +411,7 @@
       - CigPack
       - RMCPenlight
       - Flare
-      #      - # TODO RMC14 minitank (needs full implementation and a tag to fit it in here, but the item exists as CMMiniTank)
+      - RMCMiniTank
       #      - # TODO RMC14 reagent analyzer
       #      - # TODO RMC14 plant analyzer
       components:
@@ -609,7 +610,7 @@
   parent: CMBeltMarine
   id: RMCBeltGrenade
   name: ремінь для гранат М40 зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія створена для носіння до 12 гранат зразка М40.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія створена для носіння до 12 гранат зразка М40.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/grenade.rsi
@@ -645,7 +646,7 @@
   parent: CMBeltMarine
   id: RMCBeltSmartPistol
   name: ремінь для смарт пістолету СП-6 зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія для смарт пістолета СП-6.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія для смарт пістолета СП-6.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_pistol.rsi
@@ -704,7 +705,7 @@
   parent: CMBeltMarine
   id: RMCBeltHolsterPistol
   name: ремінь з кобурою зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія має кобуру для носіння найбільш розповсюджених пістолетів. Також, має п'ять підсумків для зберіганя пістолетних магазинів.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія має кобуру для носіння найбільш розповсюджених пістолетів. Також, має п'ять підсумків для зберігання пістолетних магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol/classic-jungle.rsi
@@ -863,8 +864,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolWeYa
-  name: WY-TM892 pattern general pistol holster rig
-  description: The WY-TM892 is the standard load-bearing equipment of the W-Y security forces. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
+  name: ремінь з кобурою зразка ВЯ-ТМ892
+  description: ВЯ-ТМ892 це стандартний елемент спорядження сил охорони Ве-Я. Складається з ременя з різноманітними кріпленнями. Ця версія має кобуру для носіння найбільш розповсюджених пістолетів. Також, має п'ять підсумків для зберігання пістолетних магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_weya.rsi
@@ -886,9 +887,33 @@
 
 - type: entity
   parent: RMCBeltHolsterPistol
+  id: RMCBeltHolsterPistolEIAF
+  name: EIAF paratrooper belt
+  description: A sturdy belt fitted with a black leather holster designed for EIAF Paratroopers. A large utility pouch and several smaller compartments provide ample space for extra ammunition and field essentials—standard gear for Extrasolar Imperial Airborne Forces dropping into hostile territory.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_eiaf.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_eiaf.rsi
+  - type: ItemCamouflage
+    camouflageVariations: {}
+
+- type: entity
+  parent: RMCBeltHolsterPistolEIAF
+  id: RMCBeltHolsterPistolEIAFL54
+  suffix: Filled, L54
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponPistolL54
+    - id: RMCMagazinePistolL54
+      amount: 6
+
+- type: entity
+  parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolSPP
-  name: Type 47-S pistol holster rig
-  description: The Type 47-S is the standard load-bearing equipment of the SPP. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
+  name: ремінь з кобурою Тип 47-С
+  description: Тип 47-С це стандартний елемент екіпірування СПН. Складається з ременя з різноманітними кріпленнями. Ця версія має кобуру для носіння найбільш розповсюджених пістолетів. Також, має п'ять підсумків для зберігання пістолетних магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_spp.rsi
@@ -922,8 +947,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolTSE
-  name: pistol belt
-  description: A dark brown leather pistol belt commonly issued to TSEPA officers. Although designed for the L54 service pistol, it accommodates most sidearms along with spare magazines. Standard issue across TSE law enforcement, military, and security forces.
+  name: пістолетний ремінь
+  description: Темно-коричневий шкіряний пістолетний ремінь, який часто використовується офіцерами ІТСПА. Не зважаючи на те, що він спроєктований під службовий пістолет Л54, він вміщує більшість пістолетів разом з додатковими магазинами. Стандартне екіпірування серед силових структур ІТС, війська та сил охорони.
   suffix: TSE
   components:
   - type: Sprite
@@ -936,14 +961,14 @@
 - type: entity
   parent: RMCBeltHolsterPistolSPP
   id: RMCBeltHolsterPistolPMC
-  name: M301 pistol holster rig
-  description: The M301 is the standard load-bearing equipment of Weston-Yamada PMC. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
+  name: ремінь з кобурою зразка М301
+  description: М301 це стандартний елемент спорядження ПВК Вестон-Ямада. Складається з ременя з різноманітними кріпленнями. Ця версія має кобуру для носіння найбільш розповсюджених пістолетів. Також, має п'ять підсумків для зберігання пістолетних магазинів.
 
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterRevolver
   name: ремінь для револьверу зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія вміщує різні револьвери, та 6 спідлоадерів. Ледь чутно пахне сіном.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія вміщує різні револьвери, та 6 спідлоадерів. Ледь чутно пахне сіном.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_revolver.rsi
@@ -1195,8 +1220,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCMatebaBelt
-  name: ремінь для Матеба зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія для потужного револьвера Матеба маґнум, а також п'яти спідлоадерів. Він був у комплекті з поштовим замовленням авторевольвера Матеба для КМПОН в ранніх 2170х.
+  name: ремінь для Матеби зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія для потужного револьвера Матеба маґнум, а також п'яти спідлоадерів. Він був у комплекті з поштовим замовленням авторевольвера Матеба для КМПОН в ранніх 2170х.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mateba_belt.rsi
@@ -1243,8 +1268,8 @@
 - type: entity
   parent: RMCMatebaBelt
   id: RMCMatebaBeltLuxurious
-  name: ремінь люкс для Матеба зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Конкретно цей пофарбовано у чорний та гравірований золотом, сильно кастомізований для старших офіцерів.
+  name: люкс-ремінь для Матеби зразка М276
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Конкретно цей пофарбовано у чорний та гравірований золотом, сильно кастомізований для старших офіцерів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/amateba_belt.rsi
@@ -1351,6 +1376,17 @@
     - id: RMCMK80
 
 - type: entity
+  parent: RMCBeltHolsterPistolTSE
+  id: RMCMK80BeltRoyalFilled
+  suffix: Filled, MK80
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMagazinePistolMK80
+      amount: 6
+    - id: RMCMK80
+
+- type: entity
   parent: RMCBeltHolsterPistol
   id: RMCM1984BeltFilled
   suffix: Filled
@@ -1360,28 +1396,6 @@
     - id: CMMagazinePistolM1984
       amount: 6
     - id: CMWeaponPistolM1984
-
-- type: entity
-  parent: RMCBeltHolsterPistol
-  id: CMM77BeltFilled
-  suffix: Filled, M77
-  components:
-  - type: StorageFill
-    contents:
-    - id: CMMagazinePistolM77AP
-      amount: 6
-    - id: RMCWeaponPistolM77
-
-- type: entity
-  parent: RMCBeltHolsterPistolPMC
-  id: RMCM77BeltPMCFilled
-  suffix: Filled, M77
-  components:
-  - type: StorageFill
-    contents:
-    - id: CMMagazinePistolM77AP
-      amount: 6
-    - id: RMCWeaponPistolM77
 
 - type: entity
   parent: RMCBeltHolsterRevolver
@@ -1409,7 +1423,7 @@
   parent: CMBeltBaseStorage
   id: RMCBeltXM51
   name: ремінь для ТМД-51 зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія для штурмового дробовика ТМД-51, забезпечуючи легкий доступ до зброї. Додатково, розташовані підсумки для двох магазинів та запасних набоїв.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія для штурмового дробовика ТМД-51, забезпечуючи легкий доступ до зброї. Додатково, розташовані підсумки для двох магазинів та запасних набоїв.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm51.rsi
@@ -1462,8 +1476,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCM300SOCOMBelt
-  name: ремінь для патронів .458 SOCOM зразка М300
-  description: Ремінь створений для переноски потужного набою .458 SOCOM для важкої гвинтівки ТМГ-88.
+  name: ремінь для патронів .458 КОМСО зразка М300
+  description: Ремінь створений для переноски потужного набою .458 КОМСО для важкої гвинтівки ТМГ-88.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm88/jungle-classic.rsi
@@ -1542,7 +1556,7 @@
   parent: CMBeltMarine
   id: RMCBeltHolsterM13
   name: ремінь для М13 зразка М276
-  description: Special issue variant of the M276 - designed exclusively to securely hold an M13 Auto Pistol and seven spare magazines, allowing quick access in close-quarters situations. Ideal for defending against boarding threats, this belt supports rapid deployment of high-rate sidearms while maintaining stability in zero-G environments
+  description: Спеціальна версія М276 - спроєктована виключно для автоматичного пістолету М13 та семи додаткових магазинів, даючи швидкий доступ у ближньому бою. Цей пояс ідеально підходить для захисту від абордажу, забезпечує швидке розгортання скорострільної зброї, зберігаючи при цьому стабільність у умовах невагомості.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_autopistol.rsi
@@ -1689,7 +1703,7 @@
 - type: entity
   parent: RMCBeltSmartGunOperatorPistol
   id: RMCBeltSmartGunOperatorPistolPMC
-  name: ремінь СмартГанера з кобурою зразка ВеЯ-ТМ410
+  name: ремінь оператора СмартГана з кобурою зразка ВЯ-ТМ410
   description: Спеціальний зразок бойового ременю Ве-Я, створений для переноски боєприпасів до СмартГану та оснащений кобурою.
   components:
   - type: Sprite
@@ -1743,8 +1757,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterNailgun
-  name: customized nailgun holster
-  description: Combination of a M276 pistol holster and engineering toolbelt that have been cannibalized into a unique belt that can holster a compact nailgun and two spare nailgun magazines.
+  name: індивідуальна кобура цвяхостріла
+  description: Поєднання кобури для пістолета М276 та інженерного пояса для інструментів, об'єднаних в унікальний пояс, який може вмістити компактний цвяхостріл та два запасні магазини для нього.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_nailgun.rsi
@@ -1825,7 +1839,7 @@
   parent: RMCBeltBaseStorageNoVisuals
   id: RMCM82FHolster
   name: ремінь для сигнальної ракетниці М82Ф зразка М276
-  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різнородними кріпленнями. Ця версія спроєктована для носіння сигнальної ракетниці М82Ф та 16 додаткових фаєрів.
+  description: М276 це стандартний елемент спорядження КМПОН. Складається з ременя з різноманітними кріпленнями. Ця версія спроєктована для носіння сигнальної ракетниці М82Ф та 16 додаткових фаєрів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_flaregun.rsi
@@ -1895,8 +1909,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSPPBrown
-  name: 6B80 pattern ammo rig
-  description: The 6B80 is an outdated but reliable ammo rig, formerly standard for the SPP Army. Its modular belt holds various munitions, still used by SPP security forces and reserves for its rugged design.
+  name: ремінь для магазинів зразка 6Б80
+  description: 6Б80 це старий, проте надійний ремінь, який був стандартним для армії СПН. Цей модульний ремінь може переносити магазини різного роду, тому й досі використовується силами охорони СПН та резервістами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/spp_brown.rsi
@@ -1915,6 +1929,47 @@
     - id: RMCMagazineRifleAK4047
       amount: 2
 
+- type: entity
+  parent: CMBeltUtility
+  id: RMCBeltMachineGunner
+  name: M804 heavygunner storage rig
+  description: The M804 heavygunner storage rig is an M276 pattern toolbelt rig modified to carry ammunition for heavy machinegun systems, and engineering tools for the gunner.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Belt/machinegunner.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Belt/machinegunner.rsi
+  - type: Storage
+    grid:
+    - 0,0,13,1 # 7 slots
+    whitelist:
+      tags:
+      - Wrench
+      - Screwdriver
+      - Crowbar
+      - Wirecutter
+      - CMFireExtinguisherPortable
+      - RMCMagazineML66D
+      - RMCMagazineM2C
+      - CableCoil
+      - Multitool
+      - RMCExplosiveBreachingCharge
+      - RMCNailgunCompact
+      - RMCNailgunTactical
+      - RMCExplosiveClaymoreMine
+      components:
+      - Welder
+      - EntrenchingTool
+      - BarbedWire
+      - EmptySandbag
+  - type: IgnoreContentsSize
+    items:
+      components:
+      - EntrenchingTool
+  - type: Tag
+    tags:
+    - RMCMachineGunnerRig
+
 - type: Tag
   id: RMCNailgunHolster
 
@@ -1926,3 +1981,6 @@
 
 - type: Tag
   id: RMCM82FHolster
+
+- type: Tag
+  id: RMCMachineGunnerRig

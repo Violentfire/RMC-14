@@ -55,6 +55,8 @@ can_create_vacuum = false
 
 [game]
 #Налаштування самого серверу, в першу чергу щодо часу після кінця раунду та початкового режиму.
+hostname = "[UA][MRP]🟦🟦🟨🟨 СіЧ Колоніальні Морпіхи. Marine Corpse УКРАЇНСЬКОЮ" 
+desc = "СіЧ – перша українська спільнота на просторах СС14. Цей сервер базується на білді RMC (РМС).\nРМС – асиметрична ПВП-гра про боротьбу Морпіхів проти Ксеноморфів. Можливо бути за кожну з сторін!\nУ нас ви знайдете:\n- 💛 Свідому спільноту українців без толерації будь-яких ворожих елементів\n- 📝 Власна версія білду з українським перекладом та міні-додаваннями.\n- 🤝 Привітну адміністрацію та гравців, які завжди будуть раді допомогти\n- 🎭 Періодичні події. Від просто розбавлень звичайних раундів та до власного ПВЕ режиму\n-  🛡️ Бан окупантів по айпі\n\nБільшість заходить ввечері, але в інший час можна відіграти у Спокійних раундах (без загрози).\nЗавітайте у наш Дискорд, щоб бути в курсі всіх новин й обговорень та у Гітхаб, якщо маєте бажання щось змінити чи додати!"
 defaultpreset = "CMDistressSignal"
 fallbackenabled = false
 fallbackpreset = "CMDistressSignal"
@@ -64,6 +66,13 @@ panic_bunker.enabled = false
 round_end_pvs_overrides = false
 round_restart_time = 180
 lobbyduration = 230
+
+[infolinks]
+discord = "https://discord.gg/qKNsBbV22F"
+github = "https://github.com/Violentfire/RMC-14"
+patreon = "https://send.monobank.ua/jar/8nmcqa8vnz" #Патреон, але монобанка, бо підтримка серверу йде саме через неї
+website = "https://sich.me/"
+wiki = "https://wiki.rouny-ss14.com"
 
 [gateway]
 #Ще одна штука для стабільної праці РМС.
@@ -95,8 +104,9 @@ preload = false
 
 [server]
 #Базові налаштування для відображення гайдів та правил РМСних.
-rules_file = "RMCOverview"
+rules_file = "SichOverview"
 default_guide = "RMC14"
+lobby_name = "Колоніальна Морпіхота Січі"
 
 [shuttle]
 #Налаштування для нормальної праці шатлів.
@@ -116,14 +126,24 @@ auto_call_time = 0
 mob_pushing = true
 
 [tips]
-#Поради (вже тут)
+#Поради (вже тут, але не перекладені)
 dataset = "RMC_Tips"
 login_dataset = "RMC_Tips"
+out_of_game_frequency = 115
 
 [vote]
-#Приколи з голосуванням для РМС.
-preset_enabled = false
+#Приколи з голосуванням для РМС. Відредаговано під наші потреби
+preset_enabled = true
 restart_ghost_percentage = 75
+timerpreset = 60
+
+[votekick]
+eligible_number = 3
+initiator_ghost_requirement = false
+initiator_whitelist_requirement = false
+initiator_time_requirement = true
+voter_ghost_requirement = false
+voter_playtime = 72
 
 [admin]
 #Адмінські штучки + відображення нотаток гравцям

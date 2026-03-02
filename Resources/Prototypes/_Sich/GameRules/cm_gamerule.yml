@@ -3,6 +3,8 @@
   parent: CMDistressSignal
   categories: [ HideSpawnMenu ]
   components:
+  - type: GameRule
+    minPlayers: 0
   - type: CMDistressSignalRule
     requireXenoPlayers: false # не треба готові ксено
     spawnXenos: false         # готових ксено не заспавнить

@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCUniformBase
   id: CMJumpsuitLiaison
-  name: liaison's tan suit
-  description: A stiff, stylish tan suit commonly worn by businessmen from the We-Ya corporation. Expertly crafted to make you look like a prick.
+  name: пісочний костюм представника
+  description: Показний та стильний пісочний костюм, який зазвичай носять бізнесмени з корпорації Ве-Я. Пошитий з винятковою майстерністю — аби ви виглядали як повний бемба.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_regular.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonCharcoal
-  name: liaison's charcoal suit
-  description: A stiff, stylish charcoal suit commonly worn by businessmen from the We-Ya corporation. Expertly crafted to make you look like a prick.
+  name: вугільний костюм представника
+  description: Показний та стильний вугільний костюм, який зазвичай носять бізнесмени з корпорації Ве-Я. Пошитий з винятковою майстерністю — аби ви виглядали як повний капарник.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_charcoal.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonCharcoalSuitskirt
-  name: liaison's charcoal suitskirt
-  description: A stiff, stylish charcoal suit commonly worn by businesswomen from the We-Ya corporation. Expertly crafted to make you look like a prick.
+  name: вугільний костюм зі спідницею представниці
+  description: Показний та стильний вугільний костюм, який зазвичай носять бізнесвумен з корпорації Ве-Я. Пошитий з винятковою майстерністю — аби ви виглядали як повна бейдуля.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_charcoal_suitskirt.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonOuting
-  name: liaison's outfit
-  description: A casual outfit consisting of a collared shirt and a vest. Looks like something you might wear on the weekends, or on a visit to a derelict colony.
+  name: одяг корпората
+  description: Повсякденний одяг, що складається із сорочки з коміром та жилетки. Виглядає як щось, що можна одягти на вихідні, ну або на візит на покинуту колонію.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_outing.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonFormal
-  name: liaison's white suit
-  description: A formal, white suit. Looks like something you'd wear to a funeral, a We-Ya corporate dinner, or both. Stiff as a board, but makes you feel like rolling out of a Rolls-Royce.
+  name: білий костюм корпората
+  description: Формальний, білий костюм. Виглядає як щось, що можна одягти на похорон, корпоративну вечерю Ве-Я, або ж обидва. Жорсткий, як дошка, але почуваєтесь так, ніби сидите на золотому унітазі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_formal.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonSuspenders
-  name: liaison's attire
-  description: A collared shirt, complimented by a pair of suspenders. Worn by We-Ya employees who ask the tough questions. Smells faintly of cigars and bad acting.
+  name: убрання представника
+  description: Сорочка з коміром, доповнена парою підтяжок. Це носять співробітники Ве-Я, які ставлять складні питання. Ледь помітно тхне цигарами та поганою акторською грою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_suspenders.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlazer
-  name: liaison's blue blazer
-  description: A stiff but casual blue blazer. Similar can be found in any We-Ya office. Only the finest wear for the galaxy's most cunning.
+  name: блакитний блейзер представника
+  description: Показний, проте повсякденний блакитний блейзер. Схожий можна знайти в будь-якому офісі Ве-Я. Тільки найкращий одяг для найскупіших у галактиці.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_blue_blazer.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonField
-  name: corporate casual
-  description: A pair of dark brown slacks paired with a dark blue button-down shirt. A popular look among those in the corporate world that conduct the majority of their business from night clubs.
+  name: повсякденний корпоративний одяг
+  description: Пара темно-коричневих прямих штанів поєднаних темно-синьою сорочкою на ґудзиках. Популярний вигляд тих у корпоративному світі, що керують своїми справами з нічних клубів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_field.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonFieldSuitskirt
-  name: corporate field suitskirt
-  description: A black pencil skirt paired with a dark blue button-down shirt. A popular look among those in the corporate world that conduct the majority of their business from night clubs.
+  name: корпоративний польовий костюм із спідницею
+  description: Чорна спідниця-олівець поєднана з темно-синьою сорочкою на ґудзиках. Популярний вигляд тих у корпоративному світі, що керують своїми справами з нічних клубів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_field_suitskirt.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonIvy
-  name: country club outfit
-  description: A pair of khaki slacks paired with a light blue button-down shirt. A popular look with those in the corporate world that conduct the majority of their business from country clubs.
+  name: одяг гольф-клубу
+  description: Пара прямих штанів кольору хакі поєднана з блакитною сорочкою на ґудзиках. Популярний вигляд тих у корпоративному світі, що керують більшістю своїх справ з гольф-клубів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_ivy.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonCorporateFormal
-  name: white suit pants
-  description: A pair of ivory slacks paired with a white shirt. A popular pairing for formal corporate events.
+  name: білі брюки
+  description: Пара кремових брюк поєднана з білою сорочкою. Популярна комбінація для формальних корпоративних подій.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_formal.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlack
-  name: black suit pants
-  description: A pair of black slacks paired with a white shirt. The most common pairing among corporate workers.
+  name: чорні брюки
+  description: Пара чорний брюк поєднана з білою сорочкою. Найбільш поширена комбінація серед корпоративних працівників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_black.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonBlackSuitskirt
-  name: black suitskirt
-  description: A simple black pencil skirt paired with a white shirt. A common pairing among corporate workers.
+  name: чорна спідниця-олівець
+  description: Проста чорна спідниця-олівець поєднана з білою сорочкою. Поширена комбінація серед корпоративних працівниць.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_black_suitskirt.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBrown
-  name: brown suit pants
-  description: A pair of brown slacks paired with a white shirt. A common pairing among corporate workers.
+  name: коричневі брюки
+  description: Пара коричневих брюк поєднана з білою сорочкою. Поширена комбінація серед корпоративних працівників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_brown.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: CMJumpsuitLiaisonBlue
-  name: blue suit pants
-  description: A pair of blue slacks paired with a white shirt. A common pairing among corporate workers.
+  name: сині брюки
+  description: Пара синіх брюк поєднана з білою сорочкою. Поширена комбінація серед корпоративних працівників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/corporate_blue.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: [CMJumpsuitLiaison, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitLiaisonOrange
-  name: orange outfit
-  description: A pair of black pants paired with a very We-Ya orange shirt. A popular look with those in the corporate world that conduct the majority of their business from Weston Yamada offices.
+  name: помаранчевий одяг
+  description: Пара чорних штанів поєднана з фірмовою помаранчевою сорочкою Ве-Я. Поширений вигляд тих у корпоративному світі, що керують більшістю своїх справ з офісів Вестон-Ямада.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/orange.rsi
@@ -205,8 +205,8 @@
 - type: entity
   parent: [CMJumpsuitLiaison, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitLiaisonGreenWorkwear
-  name: green workwear
-  description: A pair of brown canvas workpants paired with a green workshirt. An common pairing among blue-collar workers.
+  name: зелене робоче вбрання
+  description: Пара коричневих парусинових робочих штанів поєднана з зеленою сорочкою. Поширене поєднання серед робітників.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/green_workwear.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonExpensiveSuit
-  name: expensive suit
-  description: A luxurious designer suit, beyond the reach of the average person. It's an exclusive choice for high-level executives and the affluent elite.
+  name: коштовний костюм
+  description: Розкішний дизайнерський костюм, поза досягом звичайної людини. Ексклюзивний вибір для вищого керівництва та фінансово впливової еліти.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/expensive_suit.rsi
@@ -315,8 +315,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonPilot
-  name: Weston-Yamada Pilot uniform
-  description: A pair of grey slacks and a white button-down shirt with a dark-grey tie and golden epaulettes signifying rank; a standard uniform for a commercial grade Weston-Yamada affiliated Pilot.
+  name: уніформа пілота Вестон-Ямада
+  description: Пара сірих брюк та біла сорочка на ґудзиках з темно-сірою краваткою та золотими погонами, що позначають звання — стандартна уніформа комерційних пілотів від Вестон-Ямада.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/pilot.rsi
@@ -326,8 +326,8 @@
 - type: entity
   parent: RMCJumpsuitLiaisonGreenWorkwear
   id: RMCJumpsuitLiaisonKhakiWorkwear
-  name: khaki workwear
-  description: A pair of jeans paired with a khaki workshirt. A common pairing among blue-collar workers due to its drab look.
+  name: робоче вбрання кольору хакі
+  description: Пара джинсів поєднана з сорочкою кольору хакі. Поширенне поєднання серед робітників через свій похмурий вигляд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/khaki_workwear.rsi
@@ -337,8 +337,8 @@
 - type: entity
   parent: RMCJumpsuitLiaisonGreenWorkwear
   id: RMCJumpsuitLiaisonPinkWorkwear
-  name: pink workwear
-  description: A pair of jeans paired with a khaki workshirt. A common pairing among blue-collar workers due to its drab look.
+  name: рожеве робоче вбрання
+  description: Пара джинсів поєднана з рожевою сорочкою. Поширенне поєднання серед робітників через свій похмурий вигляд.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/pink_workwear.rsi
@@ -348,8 +348,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonGreyWorkwear
-  name: grey workwear
-  description: A pair of black slacks and a short-sleeve grey workshirt. Standard uniform for Weston-Yamada employees working in colony operations and administration.
+  name: сіри робоче вбрання
+  description: Пара чорних брюк та сіра сорочка з коротким рукавом. Стандартна уніформа робітників Вестон-Ямада для роботи на колоніях та в адміністрації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/grey_workwear.rsi
@@ -359,8 +359,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonStowaway
-  name: dirty suit
-  description: A stiff, stylish tan suit commonly worn by businessmen from the Weston-Yamada corporation. Expertly crafted to make you look like a prick.
+  name: брудний костюм
+  description: Показний та стильний пісочний костюм, який зазвичай носять бізнесмени з корпорації Ве-Я. Пошитий з винятковою майстерністю — аби ви виглядали як повний підтумак.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/stowaway.rsi
@@ -370,8 +370,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonManager
-  name: manager's suit
-  description: It's a suit worn by those with the know-how to achieve the position of "Corporate Manager".
+  name: костюм менеджера
+  description: Це костюм, який носять ті, хто здатен досягти посаду "Корпоративного Менеджера".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/managers_uniform.rsi
@@ -381,8 +381,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonSkirt
-  name: liaison's skirt
-  description: A black cardigan with a red skirt, quite fancy!
+  name: спідниця представниці
+  description: Чорний кардиган з червоною спідницею, досить пишно!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/liaison_skirt.rsi
@@ -392,8 +392,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitWEYATrainee
-  name: trainee's uniform
-  description: It's a uniform with the WEYA insignia on it, with the words "Trainee" stamped below.
+  name: уніформа стажера
+  description: Це уніформа з означенням Ве-Я на ній та словом "СТАЖЕР" видрукованим під ним.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/trainee.rsi
@@ -403,8 +403,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitBlackTailored
-  name: black tailored suit
-  description: A black suit and red tie. Very formal.
+  name: чорний костюм на замовлення
+  description: Чорний костюм та червона краватка. Дуже офіційно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/black_tailored.rsi
@@ -414,8 +414,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitBurgundyTailored
-  name: burgundy tailored suit
-  description: A burgundy suit and black tie. Somewhat formal.
+  name: бургундовий костюм на замовлення
+  description: Бургундовий костюм та чорна краватка. Трошки формально.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/burgundy_tailored.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitCharcoalTailored
-  name: charcoal tailored suit
-  description: A charcoal suit and red tie. Very professional.
+  name: вугільний костюм на замовлення.
+  description: Вугільний костюм та червона краватка. Дуже професійно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/charcoal_tailored.rsi
@@ -436,8 +436,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitNavyTailored
-  name: navy tailored suit
-  description: A navy suit and red tie, intended for the ship's finest.
+  name: морський синій костюм на замовлення
+  description: Морський синій костюм та червона краватка, призначений для найкращих на кораблі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/navy_tailored.rsi
@@ -447,8 +447,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitCheckeredTailored
-  name: checkered tailored suit
-  description: That's a very nice suit you have there. Shame if something were to happen to it, eh?
+  name: клітчатий костюм на замовлення
+  description: На тобі дуже гарний костюм. Було б дуже погано, якби щось з ним сталося, егеж?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/checkered_tailored.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitJetblackExecutiveSuit
-  name: jet-black executive suit
-  description: A formal black suit and red tie, intended for the ship's finest.
+  name: смолисто-чорний костюм керівника
+  description: Формальний чорний костюм та червона краватка, призначений для найкращих на кораблі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/jetblack_suit.rsi
@@ -469,8 +469,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitFemJetblackExecutiveSuit
-  name: fem jet-black executive suit
-  description: A formal trouser suit for women, intended for the ship's finest.
+  name: жіночий смолисто-чорний костюм керівника
+  description: Класичний костюм зі штанями для жінок, призначений для найкращих на кораблі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/jetblack_suit_fem.rsi
@@ -480,8 +480,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitBlackPantsUniform
-  name: simple white shirt with black pants
-  description: It's a very simple looking white shirt and black pants.
+  name: проста біла сорочка з чорними штанями
+  description: Це дуже проста на вигляд сорочка та чорні штані.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/black_pants_uniform.rsi
@@ -491,8 +491,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitBluePantsUniform
-  name: simple white shirt with blue pants
-  description: A classy shirt and tie.
+  name: проста біла сорочка з синіми штанями
+  description: Стильна сорочка з краваткою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/blue_pants_uniform.rsi
@@ -502,8 +502,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitWornSuit
-  name: worn suit
-  description: A washed out white shirt with a black tie and brown slacks.
+  name: поношений костюм
+  description: Біла вицвіла сорочка з чорною краваткою та коричневими брюками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/detective_brown.rsi
@@ -513,8 +513,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitGreySuitPants
-  name: grey suit pants
-  description: A washed out white shirt with a red tie and black slacks.
+  name: сірі брюки
+  description: Біла вицвіла сорочка з червоною краваткою та чорними брюками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/detective_grey.rsi
@@ -524,8 +524,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonCargoShorts
-  name: cargo shorts
-  description: A pair of Khaki shorts, and a short-sleeve dress shirt. A common choice for Executives working on warmer colonies.
+  name: карго шорти
+  description: Пара шортів кольору хакі та костюмна сорочка з коротким рукавом. Звичайний вибір Представників на тепліших колоніях.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/cargo_shorts.rsi
@@ -535,8 +535,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonLegalUniform
-  name: legal division jumpsuit
-  description: A grey and white jumpsuit with blue accents, often distributed to Legal Executives working in the frontier. Puncture and slash resistant, this uniform is fit for all the nasty places lawyers need to be.
+  name: комбінезон юридичного відділу
+  description: Сіро-білий комбінезон з блакитними акцентами, який зазвичай видається Юристам працюючим на прикордонних колоніях. Стійка до проколів і порізів, ця форма підходить для всіх небезпечних місць, де доводиться працювати юристам.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/legal_uniform.rsi
@@ -546,8 +546,8 @@
 - type: entity
   parent: CMJumpsuitLiaison
   id: RMCJumpsuitLiaisonDisco
-  name: stylish dress shirt
-  description: A pink and purple dress shirt, coupled with grey dress pants. Makes a bold statement about the longevity of disco.
+  name: стильна костюмна сорочка
+  description: Рожево-фіолетова костюмна сорочка, поєднана з сірими костюмними штанями. Робить грубу заяву щодо довговічності діско.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/disco_uniform.rsi
@@ -558,8 +558,8 @@
 - type: entity
   parent: RMCJumpsuitLiaisonKhakiWorkwear
   id: RMCJumpsuitLiaisonBlueGreyAdmin
-  name: blue-grey administrative uniform
-  description: A pair of blue pants and a blue-grey shirt. A common look for colonial administration clerks.
+  name: блакитно-сіра адміністративна уніформа
+  description: Пара блакитних штанів та синьо-сіра сорочка. Поширений вигляд клерків колоніальної адміністрації.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/bluegrey_admin.rsi

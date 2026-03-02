@@ -58,6 +58,12 @@
   components:
   - type: GhostRole
     prob: 0
+  - type: WarpPoint # Sich. Для зручності
+    follow: true
+    location: Мавпа
+    blacklist:
+      tags:
+      - GhostOnlyWarp
 
 - type: entity
   parent: [RMCSimpleMob, MobKobold, RMCSmallHost]

@@ -41,6 +41,7 @@
              #Медичний
             CMCMO: [1, 1]
             CMDoctor: [3, 3]
+            RMCFieldDoctor: [1, 1]
             CMNurse: [3, 3]
 #            CMResearcher: [2, 2]
 

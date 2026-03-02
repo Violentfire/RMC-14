@@ -3,7 +3,7 @@
   parent: ClothingShoesBase
   id: RMCShoesBlack
   name: чорні туфлі
-  description: Пара чорних туфлів.
+  description: Пара чорних туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/black.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesBrown
-  name: brown shoes
-  description: A pair of brown shoes.
+  name: коричневі туфлі
+  description: Пара коричневих туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/brown.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesBlue
-  name: blue shoes
-  description: A pair of blue shoes.
+  name: сині туфлі
+  description: Пара синіх туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/blue.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesGreen
-  name: green shoes
-  description: A pair of green shoes.
+  name: зелені туфлі
+  description: Пара зелених туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/green.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesYellow
-  name: yellow shoes
-  description: A pair of yellow shoes.
+  name: жовті туфлі
+  description: Пара жовтих туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/yellow.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesPurple
-  name: purple shoes
-  description: A pair of purple shoes.
+  name: фіолетові туфлі
+  description: Пара фіолетових туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/purple.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesRed
-  name: red shoes
-  description: Stylish red shoes.
+  name: червоні туфлі
+  description: Стильні червоні туфлі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/red.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesOrange
-  name: orange shoes
-  description: A pair of orange shoes.
+  name: помаранчеві туфлі
+  description: Пара помаранчевих туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/orange.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesWhite
-  name: white shoes
-  description: A pair of white shoes.
+  name: білі туфлі
+  description: Пара білих туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Sneakers/white.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: RMCShoesBlack
   id: RMCShoesLeather
-  name: leather shoes
-  description: A sturdy pair of leather shoes.
+  name: шкіряні туфлі
+  description: Витривала пара шкіряних туфель.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/leather.rsi

@@ -180,7 +180,7 @@
       -
         - name: Додатковий бюджет для логістики
           description: Збільшує бюджет постачання для закупівлі оснащення. Додаткові 10000 доларів.
-          cost: 7
+          cost: 6 # Sich. 7 в оригіналі
           increase: 1
           repurchasable: true
           events:
@@ -194,7 +194,7 @@
             state: budget_req
         - name: Додаткові очки для фабрикатора деталей
           description: Розподіляє ресурси до фабрикатора деталей шатлів. Додаткові 2000 очок.
-          cost: 6
+          cost: 5 # Sich. 6 в оригіналі
           increase: 1
           repurchasable: true
           events:

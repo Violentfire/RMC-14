@@ -35,14 +35,15 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
 
     private MenuButton? EscapeButton => UIManager.GetActiveUIWidgetOrNull<GameTopMenuBar>()?.EscapeButton;
 
-    public override void Initialize()
-    {
-        _linkAccount.Updated += () =>
-        {
-            if (_escapeWindow != null)
-                _escapeWindow.PatronPerksButton.Visible = _linkAccount.CanViewPatronPerks();
-        };
-    }
+// Sich commented. Зайві кнопки
+//    public override void Initialize()
+//    {
+//        _linkAccount.Updated += () =>
+//        {
+//            if (_escapeWindow != null)
+//                _escapeWindow.PatronPerksButton.Visible = _linkAccount.CanViewPatronPerks();
+//        };
+//    }
 
     public void UnloadButton()
     {
@@ -85,12 +86,13 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
 
         _escapeWindow.CreditsButton.OnPressed += _ => new CreditsWindow().OpenCentered();
 
-        _escapeWindow.PatronPerksButton.Visible = _linkAccount.CanViewPatronPerks();
-        _escapeWindow.PatronPerksButton.OnPressed += _ =>
-        {
-            CloseEscapeWindow();
-            UIManager.GetUIController<LinkAccountUIController>().TogglePatronPerksWindow();
-        };
+// Sich commented. Зайві кнопки
+//        _escapeWindow.PatronPerksButton.Visible = _linkAccount.CanViewPatronPerks();
+//        _escapeWindow.PatronPerksButton.OnPressed += _ =>
+//        {
+//            CloseEscapeWindow();
+//            UIManager.GetUIController<LinkAccountUIController>().TogglePatronPerksWindow();
+//        };
 
         _escapeWindow.RoadmapButton.OnPressed += _ =>
         {

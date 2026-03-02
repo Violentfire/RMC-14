@@ -10,6 +10,10 @@ rmc-ghost-role-clf-cell-commander = Командир Ячейки ФВК (Вор
 rmc-clf-cell-commander = Командир Ячейки ФВК
 rmc-job-prefix-clf-cell-commander = КМНД
 
+rmc-ghost-role-clf-cell-leader = Лідер Ячейки ФВК (Ворожі)
+rmc-clf-cell-leader = Лідер Ячейки
+rmc-job-prefix-clf-cell-leader = КМНДР
+
 rmc-ghost-role-clf-soldier = Солдат ФВК (Ворожі)
 rmc-clf-soldier = Солдат ФВК
 rmc-job-prefix-clf-soldier = СЛД

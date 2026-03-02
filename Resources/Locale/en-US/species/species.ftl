@@ -9,7 +9,7 @@ species-name-arachnid = Арахнід
 species-name-moth = Ніан
 species-name-skeleton = Скелет
 species-name-vox = Вокс
-species-name-gingerbread = delicious baked good
+species-name-gingerbread = смачна випічка
 
 ## Misc species things
 
