@@ -70,7 +70,7 @@
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
   name: керування камерами
-  description: Консоль для моніторингу камер прив'язаних до шатла.
+  description: Консоль для моніторингу камер підключених до шатла.
   suffix: Alamo
   components:
   - type: GuideHelp
@@ -92,7 +92,7 @@
   parent: CMComputerDropshipCamerasAlamo
   id: RMCComputerDropshipCamerasNormandy
   name: керування камерами
-  description: Консоль для моніторингу камер прив'язаних до шатла.
+  description: Консоль для моніторингу камер підключених до шатла.
   suffix: Normandy
   components:
   - type: RMCCameraComputer

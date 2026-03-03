@@ -8,7 +8,7 @@
         <ui:BlueHorizontalSeparator />
         <Button Name="AlertButton" Access="Public" Text="{Loc rmc-alert-change-level}"
                 StyleClasses="OpenBoth" />
-        <Button Name="ShipAnnouncementButton" Access="Public" Text="Зробити оголошення для судна"
+        <Button Name="ShipAnnouncementButton" Access="Public" Text="Зробити оголошення для корабля"
                 StyleClasses="OpenBoth" />
         <Button Name="MedalButton" Access="Public" Text="Видати медаль"
                 StyleClasses="OpenBoth" />

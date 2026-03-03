@@ -49,7 +49,7 @@ rmc-overwatch-console-deployed = ВИСАДЖЕНО
 rmc-overwatch-console-total-living = Загально/Живих
 rmc-overwatch-console-total = ЗАГАЛЬНО
 rmc-overwatch-console-operator = Оператор – { $operator }
-rmc-overwatch-console-shown-planetside = Відображення планетних
+rmc-overwatch-console-shown-planetside = Відображення в ЗО
 rmc-overwatch-console-shown-shipside = Відображення суднових
 rmc-overwatch-console-show-hidden = Відображати схованих
 rmc-overwatch-console-hide-dead = Сховати мертвих
@@ -68,14 +68,14 @@ rmc-overwatch-console-no-warhead-loaded = [color=red][bold]Боєголовка 
 rmc-overwatch-console-squad-selection = Вибір Загону
 rmc-overwatch-console-choose-marine-squad = Оберіть новий загін морпіха
 rmc-overwatch-console-cant-transfer-squad = Ви не можете перевести морпіха в цей загін!
-rmc-overwatch-console-marine-kia = Цей морпіх мертвих.
+rmc-overwatch-console-marine-kia = Цей морпіх мертвий.
 rmc-overwatch-console-marine-is-kia = { $marineName } мертвий.
 rmc-overwatch-console-transfer-aborted-squad-leader = Переведення неможливо. { $squadName } не може мати іншого Лідера Загону.
 rmc-overwatch-console-marine-already-in-squad = { $marineName } вже в загоні { $squadName }!
 rmc-overwatch-console-transfer-aborted-job = Переведення неможливо. { $squadName } не може мати ще одного { $jobName }.
 rmc-overwatch-console-marine-transferred = { $marineName } було переведено з '{ $oldSquad }' до '{ $newSquad }'. Запис про це збережено.
 rmc-overwatch-console-you-transferred = Вас було переведено в { $squadName }!
-rmc-overwatch-console-transfer-marine-title = Переветси морпіха
+rmc-overwatch-console-transfer-marine-title = Перевести морпіха
 rmc-overwatch-console-choose-marine-transfer = Оберіть морпіха для переведення
 
 # Console messages
