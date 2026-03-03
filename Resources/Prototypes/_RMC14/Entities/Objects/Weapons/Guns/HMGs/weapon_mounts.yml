@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: RMCBaseWeaponMount
-  name: weapon mount
-  description: A mount to place a weapon on
+  name: кріплення для зброї
+  description: Кріплення для розміщення зброї.
   components:
   - type: Appearance
   - type: Corrodible
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCBaseWeaponMount
   id: RMCML66DNestSandbag
-  name: scoped ML66D heavy machine gun nest
-  description: A scoped ML66D heavy machine gun mounted upon a small reinforced post with sandbags to provide a small machine gun nest for all your defensive needs.
+  name: вогнева позиція МЛ66Д з прицілом
+  description: Версія з прицілом, встановлена на невеликій стійці з мішками з піском, що забезпечує кулеметне гніздо для всіх ваших оборонних потреб.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/HMGs/ML66D/mount.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCML66DNestSandbag
   id: RMCML66DNestMetal
-  name: scoped ML66D heavy machine gun
-  description: A scoped ML66D heavy machine gun mounted behind a metal shield.
+  name: МЛ66Д важкий кулемет з прицілом
+  description: Версія з прицілом, встановлена за металевим щитом. Ідеал для оборони.
   components:
   - type: Sprite
     state: towergun_folding
@@ -88,8 +88,8 @@
 - type: entity
   parent: [RMCBaseWeaponMount, BaseDeployFoldable, BaseItem]
   id: RMCML66DMount
-  name: ML66D mount
-  description: A foldable mount for the ML66D, provides stability to the ML66D.
+  name: МЛ66Д тринога
+  description: Складне кріплення для МЛ66Д, без встановлення на яке з нього неможливо стріляти.
   suffix: Folded
   components:
   - type: Item
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCML66DMount
   id: RMCML66DMountAssembled
-  name: ML66D heavy machine gun
-  description: A deployable, heavy machine gun. It fires specialized tungsten rounds for increased armor penetration.
+  name: МЛ66Д важкий кулемет
+  description: Важкий кулемет з можливістю його переміщення. Він стріляє спеціалізованими вольфрамовими патронами для підвищеного бронепробиття. Зазвичай використовується в обороні через свою не високу скорострільність та малорухливість, зате у нього величезні магазини!
   suffix: Folded, Assembled
   components:
   - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: [RMCBaseWeaponMount, BaseItem]
   id: RMCM2CMount
-  name: M2C heavy machine gun
-  description: The disassembled M2C HMG, with its telescopic tripods folded up and unable to fire.
+  name: М2С важкий кулемет
+  description: Важкий кулемет М2С зі складеними телескопічними триногами. Без їх розгортання не здатний вести вогонь.
   components:
   - type: Item
     size: Huge

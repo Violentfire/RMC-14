@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: прототип гвинтівки М59А
   id: RMCWeaponRifleM59A
-  description: Прототип M59A, побудований на оновленій платформі гвинтівок серії М54С. Наразі випускається поштучно та лише на замовлення. Здатен використовувати магазини від гвинтівок MK1 та MK2.
+  description: Прототип М59А, побудований на оновленій платформі гвинтівок серії М54С. Наразі випускається поштучно та лише на замовлення. Здатен використовувати магазини від гвинтівок МК1 та МК2.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m59a/desert.rsi

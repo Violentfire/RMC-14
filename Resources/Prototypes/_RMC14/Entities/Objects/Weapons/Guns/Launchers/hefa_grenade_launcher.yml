@@ -1,8 +1,8 @@
 - type: entity
-  name: M83 гранатомет
+  name: М83 гранатомет
   parent: WeaponLauncherM83
   id: WeaponLauncherM83HEFA
-  description: Важкий десятизарядний гранатомет, який використовується лицарями HEFA.
+  description: Важкий десятизарядний гранатомет, який використовується лицарями ХЄФА.
   suffix: HEFA Knight
   components:
   - type: BallisticAmmoProvider

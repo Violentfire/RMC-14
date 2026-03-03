@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок АЕГІС. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
-  name: орбітальна боєголовка АЕГІС
+  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок ЕГІДА. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
+  name: орбітальна боєголовка ЕГІДА
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -203,7 +203,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionAegis
-  name: вибух орбітального бомбардування АЕГІС
+  name: вибух орбітального бомбардування ЕГІДА
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter

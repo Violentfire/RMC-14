@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: MAR-50 ручний кулемет
+  name: МАР-50 ручний кулемет
   id: RMCWeaponMar50LMG
-  description: Дешевий, але надійний ручний кулемет під набій 7.62х39 мм. Зазвичай трапляється в руках злочинців, які мають трохи більше грошей.
+  description: Дешевий, але надійний ручний кулемет під набій 7.62х39 мм. Зазвичай трапляється в руках злочинців чи найманців, які мають трохи більше грошей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/LMGs/mar50.rsi

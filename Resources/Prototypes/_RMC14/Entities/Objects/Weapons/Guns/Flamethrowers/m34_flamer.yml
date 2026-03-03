@@ -1,7 +1,7 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: вогнемет М34
+  name: М34 вогнемет
   description: М34 – один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають – настільки вона смертоносна, як для ворогів, так й для побратимів.
   components:
   - type: Sprite

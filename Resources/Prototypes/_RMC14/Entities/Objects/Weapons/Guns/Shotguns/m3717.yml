@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: M37-17 pump shotgun
+  name: М37-17 помповий дробовик
   id: RMCWeaponShotgunM3717
-  description: A military version of the iconic HG 37-12, this design can fit one extra shell in each of its dual-tube internal magazines, and fires shells with increased velocity, resulting in more damage. Issued to select UNMC vessels and stations in the outer veil. # TODO RMC14 : A button on the side toggles the internal tubes.
+  description: Військова версія культового ХГ37-12, ця модель може вмістити один додатковий снаряд у кожен з її внутрішніх трубчастих магазинів та стріляє снарядами зі збільшеною швидкістю, що призводить до більшої шкоди. Випускається для окремих кораблів та станцій КМПОН у зовнішних секторах. # TODO RMC14 : A button on the side toggles the internal tubes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m3717/m3717_inhands.rsi

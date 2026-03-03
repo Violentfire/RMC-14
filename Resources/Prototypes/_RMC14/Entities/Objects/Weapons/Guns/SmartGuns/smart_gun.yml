@@ -3,7 +3,7 @@
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunNoCamo
   name: МЛ66A СмартГан
-  description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. По суті, це важкий, мобільний кулемет."
+  description: Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. По суті – це важкий, мобільний кулемет.
   components:
   - type: Wieldable
   - type: Item
@@ -242,7 +242,7 @@
 - type: entity
   parent: RMCSmartGunPMC
   id: RMCSmartGunWhiteOut
-  name: "МЛ79A 'Шквал' СмартГан"
+  name: МЛ79A 'Шквал' СмартГан
   description: Справжня кулеметна гармата чотирьохмпонентної системи 'Система Розумного Кулемета' з модифікацією, яка значно підвищує темп вогню. Якщо вона у вас в руках – попереду ніщо не встоїть. За допомогою спеціальної дії можна перемикати режими обмеження стрільби.
   suffix: Whiteout
   components:
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCSmartGunNoCamo
   id: RMCSmartGunCO
-  name: "МЛ66Б 'кавалерійський' СмартГан"
+  name: МЛ66Б 'Кавалерійський' СмартГан
   description: "Справжня кулеметна гармата з системою 'Система Розумного Кулемета'. Окрім міцнішого корпусу, системи ідентифікаційного замка та фантазійного фарбування, зброя ідентична стандартній моделі МЛ66A."
   components:
   - type: Sprite
@@ -299,13 +299,13 @@
 - type: entity
   parent: RMCSmartGun
   id: RMCSmartGunCLF
-  name: МЛ66Б 'свобода' СмартГан
+  name: МЛ66Б 'Свобода' СмартГан
   description: Справжня кулеметна гармата чотирьохмпонентної системи 'Система Розумного Кулемета'. По суті, це важкий мобільний кулемет. На цьому екземплярі над штампом виробника викарбувано логотип ФВК.
 
 - type: entity
   parent: RMCSmartGunNoCamo
   id: RMCSmartGunRoyal
-  name: МЛ66С 'королівський' СмартГан
+  name: МЛ66С 'Королівський' СмартГан
   description: Справжня кулеметна гармата двокомпонентної системи 'Система Розумного Кулемета'. Цей варіант використовується підрозділами Коммандо Королівської Морської Піхоти Імперії Трьох Сонць. За допомогою спеціальної дії можна перемикати режими обмеження стрільби.
   components:
   - type: Sprite
@@ -340,7 +340,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "МЛ66A барабанний магазин (10x30 мм)"
+  name: МЛ66A барабанний магазин (10x30 мм)
   components:
   - type: Tag
     tags:
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCMagazineSmartGun
   id: RMCMagazineSmartGunirradiated
-  name: "МЛ79A барабанний магазин зі збідненим ураном (10x30 мм)"
+  name: МЛ79A барабанний магазин зі збідненим ураном (10x30 мм)
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCMagazineSmartGun
   id: RMCMagazineSmartGunHT
-  name: "барабан СмартГану з голографічним наведенням (10х30 мм)"
+  name: МЛ66A барабанний магазин з голографічним наведенням (10х30 мм)
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -391,7 +391,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeSmartGun10x30mm
-  name: гільза (10х30 мм)
+  name: набій (10х30 мм)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -407,7 +407,7 @@
 - type: entity
   parent: CMCartridgeSmartGun10x30mm
   id: RMCCartridgeSmartGun10x30mmirradiated
-  name: гільза ЗУ (10х30 мм)
+  name: набій ЗУ (10х30 мм)
   components:
   - type: CartridgeAmmo
     proto: RMCBulletSmartGun10x30mmirradiated
@@ -418,7 +418,7 @@
 - type: entity
   parent: CMCartridgeSmartGun10x30mm
   id: RMCCartridgeSmartGun10x30mmHT
-  name: гільза ГН (10x30mm)
+  name: набій ГН (10x30 мм)
   components:
   - type: CartridgeAmmo
     proto: RMCBulletSmartGun10x30mmHT

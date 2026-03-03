@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: М54С штурмова гвинтівка МК2
   id: RMCWeaponRifleM54C
-  description: Стандартна штурмова гвинтівка КМПОН. Використовує безгільзові набої 10х24мм.
+  description: Стандартна штурмова гвинтівка КМПОН. Якщо існує синонім слову універсальність в світі зброї, то це саме вона. Використовує безгільзові набої 10х24 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/desert.rsi
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCWeaponRifleM54CSemiStripped
   id: RMCWeaponRifleM54CWhiteNoLock
-  description: A M54C Mk2 with a Weston-Yamada logo imprinted on the reciever. Used primarily by Weston-Yamada's corporate security forces, and comes equipped with a drab corproate white paint job.
+  description: М54 МК2 з логотипом Вестон-Ямада, нанесеним на ствольну коробку. Використовується переважно службами безпеки Ве-Я та має похмуре біле корпоративне забарвлення.
   suffix: Corporate, No UGL, No ID lock
   components:
   - type: Sprite
@@ -315,7 +315,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "M54C магазин (10x24 мм)"
+  name: М54С магазин (10x24 мм)
   components:
   - type: Tag
     tags:
@@ -342,7 +342,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "M54C ББ магазин (10x24 мм)"
+  name: М54С ББ магазин (10x24 мм)
   suffix: AP
   components:
   - type: Tag
@@ -371,7 +371,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
-  name: "M54C запальний магазин (10x24 мм)"
+  name: М54С запальний магазин (10x24 мм)
   suffix: Incendiary
   components:
   - type: Tag
@@ -398,7 +398,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
-  name: "M54C магазин із вибуховими бронебійними набоями (10x24 мм)"
+  name: М54С ВБ магазин (10x24 мм) # Sich. ВБ (HEAP) – ВибуховоБронебійні
   suffix: HEAP
   components:
   - type: Tag
@@ -433,7 +433,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CWP
-  name: "M54C WP magazine (10x24mm)"
+  name: М54С СП магазин (10x24mm) # Sich. СП(WP) – СтіноПробивні
   suffix: WP
   components:
   - type: Tag
@@ -460,7 +460,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "M54C розширений магазин (10x24 мм)"
+  name: М54С розширений магазин (10x24 мм)
   components:
   - type: Tag
     tags:
@@ -502,7 +502,7 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: ББ набій (10x24 мм)
+  name: бронебійний набій (10x24 мм)
   description: Бронебійний набій калібру 10х24 мм. Сумісний з бронебійними магазинами 10х24 мм.
   components:
   - type: Tag
@@ -541,8 +541,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmWP
-  name: WP cartridge (10x24mm)
-  description: An armor piercing wall-penetrating 10x24mm cartridge. Fits in 10x24mm WP magazines.
+  name: стінопробивний набій (10x24 мм)
+  description: Бронебійний стінопробивний набій калібру 10x24 мм. Сумісний з стінопробивними магазинами 10х24 мм.
   components:
   - type: Tag
     tags:

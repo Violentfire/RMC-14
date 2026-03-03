@@ -2,7 +2,7 @@
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
   name: саморобний дробовик
   id: WeaponShotgunCustomBuilt
-  description: Зліплена з усього, що трапилось під руку - уламки металу, дерево й трохи божевілля. Просто наведи дуло і стріляй. Має режим стрільби чергами... Ніби їй цього ще бракувало.
+  description: Зліплений з усього, що трапилось під руку – уламки металу, дерево й трохи божевілля. Просто наведи дуло і стріляй. Має режим стрільби чергами... Ніби їй цього ще бракувало.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/custombuilt.rsi
