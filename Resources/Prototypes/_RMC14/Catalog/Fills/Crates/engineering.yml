@@ -76,7 +76,7 @@
 - type: entity
   id: RMCCrateElectricalMaintenance
   parent: RMCCrateConstruction
-  name: Ящик з обладнанням електрика
+  name: Ящик з електричним обладнанням
   components:
   - type: StorageFill
     contents:
@@ -92,7 +92,7 @@
 - type: entity
   id: RMCCrateMechanicalMaintenance
   parent: RMCCrateConstruction
-  name: Ящик з обладнанням механіка
+  name: Ящик з механічним обладнанням
   components:
   - type: StorageFill
     contents:
