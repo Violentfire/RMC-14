@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseAttachableHolder, RMCBaseWeaponMagazineVisuals ]
-  name: Basira-Armstrong bolt-action hunting rifle
+  name: Басіра-Армстронг bolt-action hunting rifle
   id: RMCWeaponBoltActionRifle
   description: Named after its eccentric designers, the Basira-Armstrong is a cheap but reliable civilian bolt-action rifle frequently found in the outer colonies. Despite its legally-mandated limited magazine capacity, its light weight and legendary accuracy makes it popular among hunters and competitive shooters.
   suffix: Filled
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleHunting
-  name: "Basira-Armstrong magazine (6.5mm)"
+  name: Басіра-Армстронг магазин (6.5 мм)
   components:
   - type: Item
     size: Small
@@ -121,7 +121,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeBoltActionRifle
-  name: Cartridge (5.56x45)
+  name: набій (6.5 мм)
   description: A Cartridge for the Basira-Armstrong hunting rifle. Compliant with the 15-cartridge limit on civilian hunting rifles.
   components:
   - type: Tag

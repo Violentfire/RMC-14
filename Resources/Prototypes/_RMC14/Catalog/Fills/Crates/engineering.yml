@@ -39,7 +39,7 @@
 - type: entity
   id: RMCCrateGlassSheets
   parent: RMCCrateConstruction
-  name: Ящик скла
+  name: Ящик скляних листів
   components:
   - type: StorageFill
     contents:

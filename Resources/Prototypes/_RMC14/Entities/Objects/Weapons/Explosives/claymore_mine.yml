@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCShrapnel
-  name: шрапнель
+#  name: шрапнель – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

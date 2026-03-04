@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateM54CMK1
   parent: RMCCrateWeapons
-  name: Ящик гвинтівок M54C MK1 (2 гвинтівки, 2 магазини)
+  name: Ящик гвинтівок М54С МК1 (2 шт гвинтівки, 2 шт магазини)
   components:
   - type: StorageFill
     contents:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateSmartGunSet
-  name: Набір системи СмартГану МЛ66A
+  name: Набір системи СмартГану МЛ66А
   components:
   - type: StorageFill
     contents:
@@ -55,7 +55,7 @@
 - type: entity
   id: RMCCrateSU6
   parent: RMCCrateWeapons
-  name: Ящик смарт пістолетів СУ-6 (2 шт)
+  name: Ящик смарт пістолетів СП-6 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateM34
-  name: Ящик вогнеметів M34 (2 шт M34, 2 шт паливних ранців Г4-1)
+  name: Ящик вогнеметів М34 (2 шт М34, 2 шт паливних ранців В4-1)
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   id: RMCCrateMOU53
   parent: RMCCrateWeapons
-  name: Ящик рушниць УМО-53 з переламним стволом (2 шт)
+  name: Ящик рушниць УМО-53 (2 шт)
   components:
   - type: StorageFill
     contents:

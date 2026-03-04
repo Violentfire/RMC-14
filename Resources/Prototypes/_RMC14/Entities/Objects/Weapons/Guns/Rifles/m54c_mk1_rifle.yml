@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: М54С штурмова гвинтівка МК1
   id: RMCWeaponRifleM54CMK1
-  description: Старіша конструкція штурмової гвинтівки М54С, що зазвичай використовується КМПОН. Використовує безгільзові набої 10x24 мм, але потребує власних досить рідкісних магазинів.
+  description: Старіша конструкція штурмової гвинтівки М54С, що зазвичай використовується КМПОН. Використовує безгільзові набої 10х24 мм, але потребує власних досить рідкісних магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54CMK1
-  name: "М54С МК1 магазин (10x24 мм)"
+  name: М54С МК1 магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -173,7 +173,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: CMMagazineRifleM54CMK1AP
-  name: М54С МК1 ББ магазин (10x24 мм)
+  name: М54С МК1 ББ магазин (10х24 мм)
   suffix: AP
   components:
   - type: Tag
@@ -200,7 +200,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1Incendiary
-  name: М54С МК1 запальний магазин (10x24 мм)
+  name: М54С МК1 запальний магазин (10х24 мм)
   suffix: AP
   components:
   - type: Tag
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1HEAP
-  name: М54С МК1 ВБ магазин (10x24 мм)
+  name: М54С МК1 ВБ магазин (10х24 мм)
   suffix: HEAP
   components:
   - type: Tag

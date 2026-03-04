@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCProjectileTaser
   id: RMCBulletPistol9mmElectrostatic
-  name: електростатична куля (9 мм)
+#  name: електростатична куля (9 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

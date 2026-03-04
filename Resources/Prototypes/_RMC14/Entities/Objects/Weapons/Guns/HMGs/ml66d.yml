@@ -172,7 +172,7 @@
   parent: CMMagazineRifleBase
   id: RMCMagazineML66D
   name: МЛ66Д барабанний магазин (10x28 мм)
-  description: Барабан із 700 безгільзовими вольфрамовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д.
+  description: Барабан із 700 безгільзовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д.
   components:
   - type: Tag
     tags:
@@ -201,7 +201,7 @@
   parent: RMCMagazineML66D
   id: RMCMagazineML66DLarge
   name: МЛ66Д великий барабанний магазин (10x28 мм)
-  description: Барабан із 1500 безгільзовими вольфрамовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д. Нащо тобі так багато куль...
+  description: Барабан із 1500 безгільзовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д. Нащо тобі так багато куль...
   components:
   - type: Tag
     tags:
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mm
-  name: куля (10x28 мм)
+#  name: куля (10x28 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

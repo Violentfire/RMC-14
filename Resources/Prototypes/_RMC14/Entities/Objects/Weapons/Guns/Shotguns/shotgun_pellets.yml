@@ -2,6 +2,7 @@
   abstract: true
   parent: CMBulletBase
   id: CMPelletShotgunBase
+  name: снаряд # Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -14,7 +15,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunBuckshot
-  name: картеч
+#  name: картеч – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -56,7 +57,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunSlug
-  name: куля
+#  name: куля – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -99,7 +100,7 @@
 - type: entity
   parent: CMPelletShotgunSlug
   id: CMPelletShotgunIncendiary
-  name: запальна куля
+#  name: запальна куля – Sich
   components:
   - type: Projectile
     damage:
@@ -121,7 +122,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunBeanbag
-  name: травматичний набій
+#  name: травматичний набій – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -145,7 +146,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: CMPelletShotgunFlechette
-  name: флешетний набій
+#  name: флешетний набій – Sich
   components:
   - type: CMArmorPiercing
     amount: 35
@@ -173,7 +174,7 @@
 - type: entity
   parent: CMPelletShotgunBuckshot
   id: CMPelletShotgunIncendiaryBuckshot
-  name: запальний набій з картеччю
+#  name: запальний набій з картеччю – Sich
   components:
   - type: ProjectileSpread
     proto: CMPelletShotgunIncendiaryBuckshot
@@ -184,7 +185,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletShotgunBreaching
-  name: легкий штурмовий набій
+#  name: легкий штурмовий набій – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi

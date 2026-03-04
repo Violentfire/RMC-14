@@ -113,7 +113,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: куля (9 мм)
+#  name: куля (9 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -203,7 +203,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistol9mmHP
-  name: експансивна куля (9 мм)
+#  name: експансивна куля (9 мм) – Sich
   components:
   - type: Projectile
     damage:

@@ -119,7 +119,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRsh9
-  name: куля (9x39 мм)
+#  name: куля (9x39 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

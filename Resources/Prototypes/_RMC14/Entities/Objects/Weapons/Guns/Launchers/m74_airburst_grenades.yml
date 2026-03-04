@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCStarShellBullet
-  name: сяюча зірочка
+#  name: сяюча зірочка – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -338,7 +338,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCHornetRound
-  name: .22 шрапнель шершня
+#  name: .22 шрапнель шершня – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCShrapnelJagged
-  name: зазубрена шрапнель
+#  name: зазубрена шрапнель – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -393,7 +393,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCShrapnelIncendiary
-  name: розпечена шрапнель
+#  name: розпечена шрапнель – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -425,7 +425,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBatonSlugProjectile
-  name: ВІГС сповільнюючий
+#  name: ВІГС сповільнюючий – Sich
 #  description: Родич гумової М15. Був знятий з озброєння поліції через завелику смертність тих, в кого ним стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ. - Sich. Нащо проджектайлу опис?
   categories: [ HideSpawnMenu ]
   components:

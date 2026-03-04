@@ -126,7 +126,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver38
-  name: куля (.38)
+#  name: куля (.38) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

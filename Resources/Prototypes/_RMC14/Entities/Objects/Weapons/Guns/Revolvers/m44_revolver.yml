@@ -175,7 +175,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: куля (.44)
+#  name: куля (.44) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: куля (.44 для точної стрільби)
+#  name: куля (.44 для точної стрільби) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

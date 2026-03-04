@@ -119,7 +119,7 @@
   parent: RMCCrateBase
   id: RMCCrateAlpha
   name: ящик загону альфа
-  description: Ящик із символом загону Альфа. Тільки для справжніх самогубць.
+  description: Ящик в червоних кольорах з великою літерою 'А' на ньому, щоб це могло означати... Певно це для справжніх самогубць.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/alpha.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCCrateBase
   id: RMCCrateBravo
-  name: ящик загону Браво
-  description: Ящик із символом загону Браво. Тільки для справжніх сонь.
+  name: ящик загону браво
+  description: Ящик в жовтих кольорах з великою літерою 'Б' на ньому, щоб це могло означати... Певно це для справжніх сонь.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/bravo.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: RMCCrateBase
   id: RMCCrateCharlie
-  name: ящик загону Чарлі
-  description: Ящик із символом загону Чарлі. Тільки для справжніх диваків.
+  name: ящик загону чарлі
+  description: Ящик в фіолетових кольорах з великою літерою 'С', щоб це могло означати... Певно це для справжніх диваків.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/charlie.rsi
@@ -187,8 +187,8 @@
 - type: entity
   parent: RMCCrateBase
   id: RMCCrateDelta
-  name: ящик загону Дельта
-  description: Ящик із символом загону Дельта. Тільки для справжніх.
+  name: ящик загону дельта
+  description: Ящик в синіх кольорах з великою літерою 'Д' на ньому, щоб це могло означати... Певно це для справжніх.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/delta.rsi
@@ -234,7 +234,7 @@
   parent: RMCCrateBase
   id: RMCCrateGreen
   name: зелений ящик
-  description: Стандартний зелений ящик для зберігання, який використовують морські піхотинці. Він настільки поширений, що всередині може бути що завгодно.
+  description: Стандартний зелений ящик для зберігання, який використовують морські піхотинці. Він насПевно це поширений, що всередині може бути що завгодно.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/green.rsi

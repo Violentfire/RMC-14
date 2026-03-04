@@ -326,7 +326,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHIAP #High impact Armor Piercing
-  name: бронебійний ПУД набій (.454)
+  name: ББ ПУД набій (.454)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -351,7 +351,7 @@
 - type: entity
   parent: CMBulletBase #Base bullet
   id: RMCBulletMateba
-  name: куля (.454)
+#  name: куля (.454) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -366,7 +366,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighImpact #High impact
-  name: ПУД куля (.454)
+#  name: ПУД куля (.454) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -395,7 +395,7 @@
 - type: entity
   parent: RMCBulletMatebaHighImpact
   id: RMCBulletMatebaHighImpactArmorPiercing #HIAP
-  name: бронебійна ПУД куля (.454)
+#  name: бронебійна ПУД куля (.454) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -408,7 +408,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighExplosive #Explosive
-  name: вибухова куля (.454)
+#  name: вибухова куля (.454) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

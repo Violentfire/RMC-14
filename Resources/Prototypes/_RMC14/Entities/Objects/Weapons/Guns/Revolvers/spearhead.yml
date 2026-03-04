@@ -221,7 +221,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357
-  name: куля (.357)
+#  name: куля (.357)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -241,7 +241,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357Hollowpoint
-  name: експансивна куля (.357)
+#  name: експансивна куля (.357) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateGearBinoculars
-  name: Ящик з різними біноклями (2 шт кожного, всього 6 шт)
+  name: Ящик з різними біноклями (по 2 шт звичайних, далекомірів, навідників)
   components:
   - type: StorageFill
     contents:

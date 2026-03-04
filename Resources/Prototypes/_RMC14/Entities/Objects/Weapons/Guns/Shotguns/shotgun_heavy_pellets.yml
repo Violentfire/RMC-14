@@ -1,7 +1,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletHeavyShotgunBuckshot
-  name: важка картеч
+#  name: важка картеч – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletHeavyShotgunSlug
-  name: важка куля
+#  name: важка куля – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletHeavyShotgunBeanbag
-  name: важкий травматичний набій
+#  name: важкий травматичний набій – Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/shotgun_projectiles.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCPelletHeavyShotgunFlechette
-  name: важкий флешетний набій
+#  name: важкий флешетний набій – Sich
   components:
   - type: CMArmorPiercing
     amount: 50
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCPelletHeavyShotgunBuckshot
   id: RMCPelletHeavyShotgunIncendiaryBuckshot
-  name: набій 'Дихання дракона' з картеччю
+#  name: набій 'Дихання дракона' з картеччю – Sich
   components:
   - type: Projectile
     damage:

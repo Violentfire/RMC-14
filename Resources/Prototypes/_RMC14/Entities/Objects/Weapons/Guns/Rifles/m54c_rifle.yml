@@ -315,7 +315,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: М54С магазин (10x24 мм)
+  name: М54С магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -342,7 +342,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: М54С ББ магазин (10x24 мм)
+  name: М54С ББ магазин (10х24 мм)
   suffix: AP
   components:
   - type: Tag
@@ -371,7 +371,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
-  name: М54С запальний магазин (10x24 мм)
+  name: М54С запальний магазин (10х24 мм)
   suffix: Incendiary
   components:
   - type: Tag
@@ -398,7 +398,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
-  name: М54С ВБ магазин (10x24 мм) # Sich. ВБ (HEAP) – ВибуховоБронебійні
+  name: М54С ВБ магазин (10х24 мм) # Sich. ВБ (HEAP) – ВибуховоБронебійні
   suffix: HEAP
   components:
   - type: Tag
@@ -460,7 +460,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: М54С розширений магазин (10x24 мм)
+  name: М54С розширений магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -489,7 +489,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
-  name: набій (10x24 мм)
+  name: набій (10х24 мм)
   description: Набій калібру 10х24 мм. Сумісний з магазинами 10х24 мм.
   components:
   - type: Tag
@@ -502,7 +502,7 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: бронебійний набій (10x24 мм)
+  name: ББ набій (10х24 мм)
   description: Бронебійний набій калібру 10х24 мм. Сумісний з бронебійними магазинами 10х24 мм.
   components:
   - type: Tag
@@ -515,7 +515,7 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
-  name: запальний набій (10x24 мм)
+  name: запальний набій (10х24 мм)
   description: Запальний набій калібру 10х24 мм. Сумісний з запальними магазинами 10х24 мм.
   components:
   - type: Tag
@@ -528,7 +528,7 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
-  name: вибухово бронебійний набій (10x24 мм)
+  name: ВБ набій (10х24 мм)
   description: Вибухово бронебійний набій калібру 10х24 мм. Сумісний з вибухово бронебійними магазинами 10х24 мм.
   components:
   - type: Tag
@@ -541,8 +541,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmWP
-  name: стінопробивний набій (10x24 мм)
-  description: Бронебійний стінопробивний набій калібру 10x24 мм. Сумісний з стінопробивними магазинами 10х24 мм.
+  name: СП набій (10х24 мм)
+  description: Бронебійний стінопробивний набій калібру 10х24 мм. Сумісний з стінопробивними магазинами 10х24 мм.
   components:
   - type: Tag
     tags:

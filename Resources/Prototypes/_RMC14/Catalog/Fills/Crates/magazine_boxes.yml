@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM54C
-  name: Коробка з магазинами (М54С, 10 шт звичайних магазинів)
+  name: Коробка з магазинами (М54С, 10 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM54CAP
-  name: Коробка з магазинами (М54С, 10 шт ББ магазинів)
+  name: Коробка з магазинами (М54С, 10 шт ББ)
   components:
   - type: StorageFill
     contents:
@@ -20,7 +20,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM54CExt
-  name: Коробка з магазинами (М54С, 8 шт розширених магазинів)
+  name: Коробка з магазинами (М54С, 8 шт розширених)
   components:
   - type: StorageFill
     contents:
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineRifleM54CE2
-  name: Ящик магазинів М54СЕ2 (2 шт звичайних магазинів)
+  name: Ящик магазинів М54СЕ2 (2 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineRifleM54CE2HT
-  name: Ящик магазинів М54СЕ2 (2 шт магазинів з голографічним наведенням)
+  name: Ящик магазинів М54СЕ2 (2 шт з ГН)
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM4SPR
-  name: Коробка з магазинами (M4СПГ, 16 шт звичайних магазинів)
+  name: Коробка з магазинами (M4СПГ, 16 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM4SPRAP
-  name: Коробка з магазинами (M4СПГ, 16 шт ББ магазинів)
+  name: Коробка з магазинами (M4СПГ, 16 шт ББ)
   components:
   - type: StorageFill
     contents:
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRifleM4SPRExt
-  name: Коробка з магазинами (M4СПГ, 12 шт розширених магазинів)
+  name: Коробка з магазинами (M4СПГ, 12 шт розширених)
   components:
   - type: StorageFill
     contents:
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSMGM63
-  name: Коробка з магазинами (М63, 12 шт звичайних магазинів)
+  name: Коробка з магазинами (М63, 12 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSMGM63AP
-  name: Коробка з магазинами (М63, 12 шт ББ магазинів)
+  name: Коробка з магазинами (М63, 12 шт ББ)
   components:
   - type: StorageFill
     contents:
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSMGM63Ext
-  name: Коробка з магазинами (М63, 12 шт розширених магазинів)
+  name: Коробка з магазинами (М63, 12 шт розширених)
   components:
   - type: StorageFill
     contents:
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM1984
-  name: Коробка з магазинами (М1984, 16 шт звичайних магазинів)
+  name: Коробка з магазинами (М1984, 16 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM1984AP
-  name: Коробка з магазинами (М1984, 16 шт ББ магазинів)
+  name: Коробка з магазинами (М1984, 16 шт ББ)
   components:
   - type: StorageFill
     contents:
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM77AP
-  name: Коробка з магазинами (М77, 16 шт ББ магазинів)
+  name: Коробка з магазинами (М77, 16 шт ББ)
   components:
   - type: StorageFill
     contents:
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolMK80
-  name: Коробка з магазинами (МК80, 16 шт звичайних магазинів)
+  name: Коробка з магазинами (МК80, 16 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineM54CE2
-  name: Ящик магазинів М54СЕ2 (2 шт звичайних магазинів)
+  name: Ящик магазинів М54СЕ2 (2 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -220,7 +220,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineM44Revolver
-  name: Коробка з швидкозарядниками (М44, 16 шт швидкозарядників)
+  name: Коробка з швидкозарядниками (М44, 16 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -229,7 +229,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineRevolverM44Marksman
-  name: Коробка з швидкозарядниками (М44, 16 шт швидкозарядників для точної стрільби)
+  name: Коробка з швидкозарядниками (М44, 16 шт для точної стрільби)
   components:
   - type: StorageFill
     contents:
@@ -248,7 +248,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSentryShotgun
-  name: Ящик дробових боєприпасів для турелі ОН 12-Р (2 шт)
+  name: Ящик дробових набоїв для турелі ОН 12-Р (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -258,7 +258,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSentryFire
-  name: Ящик запальних боєприпасів для турелі ОН 45-ВМ (2 шт)
+  name: Ящик баків з паливом для турелі ОН 45-ВМ (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSentryFireBlue
-  name: Ящик запальних боєприпасів для турелі ОН 55-ВТ (2 шт)
+  name: Ящик баків з паливом для турелі ОН 55-ВТ (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -278,7 +278,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazineSentryFireSmoke
-  name: Ящик запальних боєприпасів для турелі ОН 60-ВП (2 шт)
+  name: Ящик баків з паливом для турелі ОН 60-ВП (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM13
-  name: Коробка з магазинами (М13, 22 шт звичайних магазинів)
+  name: Коробка з магазинами (М13, 22 шт звичайних)
   components:
   - type: StorageFill
     contents:
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM13Ext
-  name: Коробка з магазинами (М13, 14 шт розширених магазинів)
+  name: Коробка з магазинами (М13, 14 шт розширених)
   components:
   - type: StorageFill
     contents:
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxMagazinePistolM13Drum
-  name: Коробка з магазинами (М13, 12 шт барабанних магазинів)
+  name: Коробка з магазинами (М13, 12 шт барабанних)
   components:
   - type: StorageFill
     contents:
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateMagazineML66DDrum
-  name: Ящик з барабаном для МЛ66Д (1 шт)
+  name: Ящик з барабанним магазином для МЛ66Д (1 шт)
   components:
   - type: StorageFill
     contents:

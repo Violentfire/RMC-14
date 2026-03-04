@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 комплект переносного міномета
+  name: М402 комплект переносного міномета
   suffix: Classic
-  description: Переносна мінометна система, призначена для того, щоб обрушити 80-міліметровий, вибуховий дощ на будь-що, якщо ви звісно знаєте його координати. Спершу треба розгорнути.
+  description: Переносна мінометна система, призначена для того, щоб обрушити 80-міліметровий вибуховий дощ на будь-що в радіусі ураження, якщо ви звісно маєте координати. Спершу треба розгорнути.
   components:
   - type: GuideHelp
     guides:
@@ -72,7 +72,7 @@
       enum.MortarVisualLayers.State:
         mortar:
           Item: { state: mortar_m402_carry }
-          Deployed: { state: mortar_m402 }
+          Deployed: { state: mortar_M402 }
   - type: InteractedBlacklist
     blacklist:
       components:

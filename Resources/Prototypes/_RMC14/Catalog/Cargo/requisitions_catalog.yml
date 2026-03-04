@@ -239,7 +239,7 @@
         crate: RMCCrateFoodPizza
       - cost: 1000
         crate: RMCCrateFoodIngredients
-    - name: Додаткове Оснащення
+    - name: Оснащення
       entries:
       - cost: 2000
         crate: RMCCrateGearBinoculars

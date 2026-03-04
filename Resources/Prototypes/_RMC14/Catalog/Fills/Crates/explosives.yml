@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstFragBox
-  name: Ящик осколкових гранат М74 ПВГ-О 40 мм, гранатоментні (25 шт)
+  name: Ящик осколкових гранат М74 ПВГ-О 40 мм, гранатометні (25 шт)
   components:
   - type: StorageFill
     contents:
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: RMCCrateGrenadesAirburstFrag
-  name: Ящик осколкових гранат М74 ПВГ-О 40 мм, гранатоментні (6 шт)
+  name: Ящик осколкових гранат М74 ПВГ-О 40 мм, гранатометні (6 шт)
   components:
   - type: StorageFill
     contents:
