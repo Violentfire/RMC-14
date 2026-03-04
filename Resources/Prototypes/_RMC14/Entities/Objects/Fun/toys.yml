@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCPlushieSharkBlue
   id: RMCShorkMedicalOfficer
-  name: Shork medical officer plushie
-  description: The Shork Medical Officer is disappointed to see you in surgery yet again. Maybe you should take better care of yourself?
+  name: плюшка акулячого лікаря
+  description: Акулячий лікар здивована, що далеко не в перше бачить тебе на хірургійному столі за час цієї операції. Ти пробував бути обережніше?
   suffix: RMC
   components:
   - type: Sprite
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieFarwa
-  name: плюшева Farwa 
-  description: Плюшева іграшка Farwa. Вона м'якенька й гарненька!
+  name: плюшева Фарва 
+  description: Плюшева іграшка Фарва. Вона м'якенька й гарненька!
   components:
   - type: Sprite
     state: farwa
@@ -130,7 +130,7 @@
   parent: CMPlushieBase
   id: CMPlushieRock
   name: плюшевий камінь
-  description: Камінь, беземоційний камінь.
+  description: Камінь, беземоційний камінь. Чи ти краще каменя?
   components:
   - type: Sprite
     state: rock
@@ -153,7 +153,7 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRunnerBeret
-  name: XX-121 терапевтична плюшка
+  name: ХХ-121 терапевтична плюшка
   description: Не сумуй! Радій (що ти живий)!
   components:
   - type: Sprite
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RCMPlushieRounyLizard
-  name: silly rouny plushie
-  description: A silly rouny plushie produced by the UNMC to reduce stress in marines, shown to be highly effective when thrown into walls.
+  name: дурнувата плюша руні
+  description: Дурнувата плюша всім відомого та знайомого червоного ксеноїда! Жодного уявлення, хто вирішив зробити її саме такою, але що маємо...
   components:
   - type: Sprite
     state: rouny_plushie
@@ -173,7 +173,7 @@
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieAlec
   name: підозріла іграшка
-  description: "Здається, ця іграшка пасивно тебе ненавидить. Її спина прикрашена біркою з переліком дивних і підозрілих матеріалів. У самому низу - ім’я виробника: Drake Industries"
+  description: "Здається, ця іграшка пасивно тебе ненавидить. Краще жбурнути це в стінку. Її спина прикрашена біркою з переліком дивних і підозрілих матеріалів. У самому низу - ім’я виробника: Дрейк Індастріз"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/alec_plushie.rsi
@@ -191,7 +191,7 @@
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieNyx
   name: проклята іграшка
-  description: Кажуть, якщо прошепотіти "метал" у присутності цієї іграшки - опинишся в бездонній ямі постачання. Інші кажуть, вона зроблена на 99% з бавовни... І на 1% - з Нікси.
+  description: Кажуть, якщо прошепотіти "метал" у присутності цієї іграшки – опинишся в бездонній ямі постачання. Інші кажуть, вона зроблена на 99% з бавовни... І на 1% - з Нікси.
   components:
   - type: Sprite
     state: plushie_moth
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCPlushieNyx
   id: RMCPlushieMotivationalMoth
-  name: motivational marine moth
-  description: A soft, fluffy little marine companion for those who just need a little motivation to make it across the finish line. You can do it, yesyes! It chitters happily when squeezed!
+  name: мотиваційна іграшка молі
+  description: М'яке та пухнасте ззовні, мило пищить, коли її стискають! Схоже, задумувалося, що вона буде допомагати слабким... Більше відчувається, що вона вас ненавидить.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieXippy
   name: ксіппі
-  description: Кажуть, ця іграшка несе за собою хаос й насильство.
+  description: Кажуть, ця іграшка несе за собою хаос й насильство. Але ж вона така мила...
   components:
   - type: Sprite
     state: xippy
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieGnarpGnarp
-  name: gnarp plush
-  description: gnarp gnarp.
+  name: плюшевий гнарп
+  description: гнарп-гнарп.
   components:
   - type: Sprite
     state: gnarp
@@ -261,9 +261,9 @@
 - type: entity
   parent: RMCPlushieGnarpGnarp
   id: RMCPlushieGnarpGnarpAlt
-  name: gnarp plush
+  name: плюшевий гнарп
   suffix: Alternate
-  description: gnarp gnarp.
+  description: гнарп-гнарп.
   components:
   - type: Sprite
     state: gnarp_alt
@@ -304,8 +304,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieCrow
-  name: crow plushie
-  description: hello cro
+  name: плюшевий ворон
+  description: кро...
   components:
   - type: Sprite
     state: crow

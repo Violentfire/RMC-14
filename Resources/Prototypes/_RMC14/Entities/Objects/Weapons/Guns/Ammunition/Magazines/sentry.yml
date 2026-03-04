@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSentry
-  name: "М30 барабанний магазин (10x28мм Безгільзовий)"
-  description: "500-ти набійний магазин безгільзових набоїв калібру 10x28мм для UN 571-C Sentry Gun. Просто вставте його в патронний відсік."
+  name: М30 барабанний магазин (10x28 мм)
+  description: 500-ти набійний магазин безгільзових набоїв калібру 10x28мм для вартової турелі ОН 571-С. Просто вставте його в патронний відсік.
   components:
   - type: Item
     size: Normal
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSentryShotgun
-  name: "12g buckshot drum"
-  description: "An ammo drum of 50 12g buckshot shells for the UN 12-G Shotgun Sentry. Just feed it into the sentry gun's ammo port when its ammo is depleted."
+  name: барабан з картеччю 12 калібра
+  description: Барабан з 50 зарядами картечі 12 калібру для вартової турелі-дробовика ОН 12-Р. Просто вставте його в патронний відсік.
   components:
   - type: Tag
     tags:
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentryFire
-  name: sentry incinerator fuel tank
-  description: A fuel tank of Ultra Thick Napthal Fuel, used in the UN 45-FM. Contains 100 units of fuel.
+  name: паливний бак для запальної турелі
+  description: Паливний бак надгустого нафталевого палива, що використовується вогнеметною міні-вартовою туреллю ОН 45-ВМ. Містить палива на 100 нових пострілів.
   components:
   - type: Tag
     tags:
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentryFireBlue
-  name: sentry incinerator fuel tank
-  description: A fuel tank of usually Ultra Thick Napthal Fuel, a sticky combustible liquid chemical, used in the UN 55-FA.
+  name: паливний бак для запальної турелі
+  description: Паливний бак надгустого нафталевого палива, що використовується штурмовою вогнеметною вартовою туреллю ОН 55-ВТ. Містить палива на 100 нових пострілів.
   components:
   - type: Tag
     tags:
@@ -109,8 +109,8 @@
 - type: entity
   parent: BaseMagazineRifle
   id: RMCMagazineSentryFireSmoke
-  name: sentry incinerator fuel tank
-  description: A fuel tank of compressed Ultra Thick Napthal Fuel, used in the UN 60-FP.
+  name: паливний бак для запальної турелі
+  description: Паливний бак ультра надгустого нафталевого палива, що використовується штурмовою вогнеметною вартовою туреллю ОН 60-ВП. Містить палива на 100 нових пострілів.
   components:
   - type: Tag
     tags:

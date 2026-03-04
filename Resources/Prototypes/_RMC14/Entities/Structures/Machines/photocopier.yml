@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopier
-  name: Photocopier
+  name: копірувальний апарат
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
