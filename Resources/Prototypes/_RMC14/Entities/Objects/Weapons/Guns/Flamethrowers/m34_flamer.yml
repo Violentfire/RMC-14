@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
-  name: М34 набір вогнемета
-  description: Комлпект має вогнемет М34 та баки з пальним.
+  name: кейс вогнемета М34
+  description: Кейс із вогнеметом М34. У комплекті 2 додаткових баків з паливом та підствольний вогнегасник.
   components:
   - type: Storage
     maxItemSize: Huge

@@ -12,9 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: кутовий хват
-  description: "Кутовий хват покращує ергономіку зброї та пришвидшує час наведення на ціль.
-    Проте це також збільшує розмір зброї."
+  name: кутова рукоятка
+  description: Кутова рукоятка, покращує ергономіку зброї та пришвидшує час наведення на ціль. Проте, також, збільшує розмір зброї.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -35,7 +34,7 @@
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
   name: сошка
-  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність, скорострільність а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність."
+  description: Простий набір телескопічних опор для стабілізації зброї під час стрільби. При правильному розміщенні значно підвищує точність, скорострільність а також зменшує віддачу. Однак у нерозгорнутому стані збільшує габарити зброї та знижує скорострільність. Підходить, якщо ви хочете використовувати зброю, як переносний кулемет.
   components:
   - type: Sprite
     state: bipod
@@ -142,7 +141,7 @@
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentBurstFireAssembly # burstfire_assembly
   name: модуль чергового вогню
-  description: Невеликий кутовий механізм, що дозволяє стріляти чергами на деяких видах зброї
+  description: Невеликий кутовий механізм, що дозволяє стріляти чергами на деяких видах зброї.
   components:
   - type: Sprite
     state: rapidfire
@@ -207,7 +206,7 @@
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentLaserSight
   name: лазерний цілевказник
-  description: Лазерний цілевказівник, який кріпиться до нижньої частини більшості видів зброї. Підвищує точність і зменшує розсіювання, особливо при стрільбі однією рукою.
+  description: Лазерний цілевказівник, який кріпиться до нижньої частини більшості видів зброї. Підвищує точність і зменшує розсіювання, особливо при стрільбі однією рукою. Гарний вибір, якщо ви любите стріляти з однієї руки або вам важливий мінімальний розмір зброї.
   components:
   - type: Sprite
     state: lasersight
@@ -232,8 +231,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMicroLaserSight
-  name: micro laser sight
-  description: A compact, high-precision laser sight engineered exclusively for the M13 Auto Pistol. Offers exceptional accuracy gains by interfacing directly with the weapon's internal targeting systems.
+  name: лазерний міні-цілевказівник
+  description: Компактний високоточний лазерний приціл, розроблений ексклюзивно для автоматичного пістолета М13. Забезпечує виняткове підвищення точності завдяки безпосередній взаємодії з внутрішніми системами прицілювання зброї.
   components:
   - type: Sprite
     state: lasersight_micro
@@ -256,8 +255,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMiniFlamethrower
-  name: міні-вогнемет # TODO RMC14 intensity toggle
-  description: Вогнеметна установка, що монтується на зброю, з можливістю перезарядки. Має додаткове налаштування для більш інтенсивного полум'я при значно меншій тязі та більшій витраті пального.
+  name: підствольний міні-вогнемет # TODO RMC14 intensity toggle
+  description: Вогнеметна установка, що монтується на зброю, з можливістю перезарядки. Має додатковий тумблер для більш інтенсивного полум'я при значно меншій тязі та більшій витраті пального, але схоже він зламаний... Гарний вибір, щоб перекривати ворогам (чи побратимам) шлях.
   components:
   - type: Sprite
     state: flamethrower
@@ -322,8 +321,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: CMAttachmentXMVESG1FlamerNozzle
-  name: XM-VESG-1 штурмова насадка для вогнемета
-  description: Спеціальна насадка, яка модифікує вогнемет для більш наступального використання. Внутрішнє покриття насадки з гелю та смоли спричиняє затвердіння пального під час проходження. Замість потоку полум’я випускається палаюча грудка гелю.
+  name: ТМ-ВЕСГ-1 штурмова насадка для вогнемета
+  description: Спеціальна насадка, яка модифікує вогнемет для більш наступального використання. Внутрішнє покриття насадки з гелю та смоли спричиняє затвердіння пального під час проходження. Замість потоку полум’я випускається палаюча купа гелю. # Sich. Коли це зроблять не пробом – покращити опис
   components:
   - type: Sprite
     state: flamer_nozzle
@@ -333,8 +332,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU7UnderbarrelShotgun
-  name: U7 підствольний дробовик
-  description: "Тактичний дробовик AEGIS U7. Кріпиться до нижньої частини ствола більшості видів зброї. Заряджається лише п'ятьма набоями з картеччю. Спеціалізовано для проникнення в будівлі."
+  name: П7 підствольний дробовик # Sich. U – Undebarrel, Підствольний – П
+  description: Тактичний дробовик ЕГІДА П7. Кріпиться до нижньої частини ствола більшості видів зброї. Заряджається п'ятьма набоями з картеччю. Поставляється вже зарядженим. Спеціально для створення проходів там, де для вас їх не було.
   components:
   - type: Sprite
     state: masterkey
@@ -405,8 +404,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentUnderbarrelExtinguisher
-  name: HME-12 підствольний вогнегасник
-  description: "Підствольний вогнегасник Taiho-Technologies HME-12. Кріпиться до підствольника більшості видів зброї. Перед тим, як застосовувати, спрямувати на полум'я."
+  name: РМВ-12 підствольний вогнегасник # Sich. HME – Handled Mountable Extinguisher, Ручний Монтований Вогнегасник – РМВ
+  description: Продукт Тайхо-Технолоджис, Ручний Монтований Вогнегасник-12. Кріпиться до підствольника більшості видів зброї. Перед тим, як застосовувати – спрямувайте на полум'я. Ідеал, якщо ви не впевнені в здатності безпечно застосовувати інші типи підствольників.
   components:
   - type: Sprite
     state: extinguisher
@@ -475,8 +474,8 @@
 - type: entity
   parent: RMCAttachmentUnderbarrelExtinguisher
   id: RMCAttachmentUnderbarrelExtinguisherSpec
-  name: HME-88B underbarrel extinguisher
-  description: An experimental Taiho-Technologies HME-88B underbarrel extinguisher integrated with a select few gun models. It is capable of putting out the strongest of flames. Point at flame before applying pressure.
+  name: РМВ-88Б підствольний вогнегасник
+  description: Експериментальний продукт Тайхо-Технолоджис, Ручний Монтований Вогнегасник-88Б. Зроблений спеціально для надпотужних вогнеметів. Він здатний загасити найсильніше полум'я та має значно більший бак з водою. Перед тим, як застосовувати – спрямувайте на полум'я.
   components:
   - type: Spray
     sprayedPrototype: RMCExtinguisherSpraySpec
@@ -494,8 +493,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU1GrenadeLauncher
-  name: U1 підствольний гранатомет
-  description: Підствольний гранатомет з можливістю перезаряджання.
+  name: П1 підствольний гранатомет # Sich. U – Undebarrel, Підствольний – П
+  description: Підствольний гранатомет. Поставляється незарядженим. Перед заряджанням гранат необхідно відкрити затвор. Після кожного пострілу також необхідно передьоргувати затвор. Якщо у вас є гранати та вміння їх кидати – можете спробувати!
   components:
   - type: Sprite
     layers:
@@ -584,8 +583,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentMK1GrenadeLauncher
-  name: MK1 підствольний гранатомет
-  description: "Стара версія класичного підствольного гранатомета. Може зберігати п'ять гранат, але стріляє повільно."
+  name: МК1 підствольний гранатомет
+  description: Стара версія класичного підствольного гранатомета. Може зберігати до п'яти гранат, але стріляє повільніше. Поставляється незарядженим. Перед заряджанням гранат необхідно відкрити затвор. Після кожного пострілу також необхідно передьоргувати затвор.
   components:
   - type: Sprite
     layers:
@@ -627,7 +626,7 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentM203GrenadeLauncher
-  name: M203 гранатомет
+  name: М203 гранатомет
   description: Антикварний підствольний гранатомет. Вміщує лише одну 40-мм гранату, не має сучасних систем УДВ, та не уникне влучання в ваших друзів.
   components:
   - type: Sprite
@@ -671,7 +670,7 @@
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
   name: вертикальна рукоятка
-  description: "Вертикальна рукоятка забезпечує кращу точність, зменшену віддачу та менше розсіювання, особливо під час стрільби чергами. Однак збільшує розміри зброї."
+  description: Вертикальна рукоятка, забезпечує кращу точність, зменшену віддачу та менше розсіювання, особливо під час стрільби чергами. Однак збільшує розміри зброї. Гарний вибір, якщо ви любите стріляти тримаючи зброю в двох руках.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -700,8 +699,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
-  name: підствольне кріплення для ліхтаря
-  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Трохи знижує віддачу та розсіювання. Працює як джерело світла. 
+  name: вертикальна рукоятка з ліхтариком
+  description: Святі небеса, чоловіче, вони поклали руку на ліхтарик! Трохи знижує віддачу та розсіювання. Працює як джерело світла. На випадок, коли вам або треба більше світла, або закінчились нормальні вертикальні рукоятки.
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
@@ -784,8 +783,8 @@
 - type: entity
   parent: RMCAttachmentFlashlightGrip
   id: RMCAttachmentLaserLightModule
-  name: MK80 лазерно-променевий модуль
-  description: Модуль лазерного цілевказівника для службового пістолета MK80, який наразі проходить обмежені польові випробування в рамках програми створення пістолета нового покоління для маринів. Усі пістолети MK80 оснащуються цим модулем.
+  name: МК80 лазерно-освітлювальний модуль
+  description: Модуль лазерного цілевказівника разом з ліхтариком для пістолета МК80, який наразі проходить обмежені польові випробування в рамках програми створення пістолета нового покоління для КМПОН. Усі пістолети МК80 оснащуються цим модулем.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -824,8 +823,8 @@
   parent: RMCAttachmentBipod
   id: RMCAttachmentL91Bipod
   categories: [ HideSpawnMenu ]
-  name: "L91 SWS integrated bipod"
-  description: "Blimey! This should be bolted to your rifle, you twat - put it back on and get back to it, mate!"
+  name: Л91 СВС інтегровані сошки
+  description: Блін! Це ж треба повинно бути НА твоїй гвинтівці, дурнику. Прикріпи його назад і повертайся до справу, брате!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -863,8 +862,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentL90GL
-  name: L90U3 grenade launcher
-  description: A grenade launcher designed specifically for L90 pattern rifles. Holds three 30mm grenades.
+  name: Л90П3 гранатомет
+  description: Гранатомет, розроблений спеціально для гвинтівок моделі Л90. Вміщує три 40-мм гранати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -894,8 +893,8 @@
 - type: entity
   parent: RMCAttachmentU7UnderbarrelShotgun
   id: RMCAttachmentL90UBS
-  name: L90U1 underbarrel shotgun
-  description: An underbarrel shotgun designed specifically for L90 pattern rifles, capable of loading up to five buckshot shells.
+  name: Л90П1 підствольний дробовик
+  description: Підствольна рушниця, розроблена спеціально для гвинтівок моделі Л90, здатна мати в собі до п'яти картечних набоїв.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
