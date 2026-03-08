@@ -163,7 +163,7 @@
 - type: entity
   id: RMCCrateAttachmentAllStocks
   parent: RMCCrateBase
-  name: Ящик прикладів (по 3 шт кожного та 1 шт М63 кріплення на руку)
+  name: Ящик прикладів (по 3 шт кожного та 1 шт кріплення на руку)
   components:
   - type: StorageFill
     contents:

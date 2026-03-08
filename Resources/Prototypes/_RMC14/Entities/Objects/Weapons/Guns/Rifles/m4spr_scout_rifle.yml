@@ -200,7 +200,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM4SPRA19
-  name: високошвидкісний набій А19
+  name: ВШ набій А19
   description: Високошвидкісний набій А19. Використовується в спеціальних магазинах для М4СПГ.
   components:
   - type: Tag
@@ -213,7 +213,7 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Impact
-  name: високошвидкісний ПУД набій А19
+  name: ВШ ПУД набій А19
   description: Високошвидкісний набій А19 з підвищеною уражаючою дією. Використовується в спеціальних магазинах для М4СПГ.
   components:
   - type: Tag
@@ -226,7 +226,7 @@
 - type: entity
   parent: RMCCartridgeRifleM4SPRA19
   id: RMCCartridgeRifleM4SPRA19Incendiary
-  name: високошвидкісний запалювальний набій А19
+  name: ВШ запалювальний набій А19
   description: Високошвидкісний набій А19 із запальною дією. Використовується в спеціальних магазинах для М4СПГ.
   components:
   - type: Tag
