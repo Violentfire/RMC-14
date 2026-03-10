@@ -83,7 +83,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolMK80
-  name: МК80 Магазин (9 мм м'якоголовна куля)
+  name: МК80 магазин (9 мм м'якоголовна куля)
   components:
   - type: Tag
     tags:
