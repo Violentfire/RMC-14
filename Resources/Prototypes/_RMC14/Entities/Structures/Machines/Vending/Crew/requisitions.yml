@@ -69,9 +69,9 @@
       - id: RMCM54CMK1Case
         amount: 3
       - id: RMCML66DCase
-        amount: 2
+        amount: 1 # Sich. 2 в оригіналі
       - id: RMCM2CCase
-        amount: 2
+        amount: 1 # Sich. 2 в оригіналі
       - id: RMCCaseFlamer
         amount: 2
       - id: RMCM85A1Case

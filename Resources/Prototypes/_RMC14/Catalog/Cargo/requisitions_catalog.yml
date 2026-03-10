@@ -335,10 +335,10 @@
         crate: RMCCrateXM51
       - cost: 4000
         crate: RMCCrateM85A1
-      - cost: 6000
-        crate: RMCCrateML66D
-      - cost: 6000
-        crate: RMCCrateM2C
+#      - cost: 6000 – Sich. Імба зброя, тимчасова міра
+#        crate: RMCCrateML66D
+#      - cost: 6000
+#        crate: RMCCrateM2C
     - name: Спеціальні Набої
       entries:
       - cost: 4000
