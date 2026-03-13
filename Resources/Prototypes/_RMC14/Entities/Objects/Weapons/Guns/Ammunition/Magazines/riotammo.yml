@@ -3,8 +3,8 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CRubber
-  name: "M54C rubber magazine (10x24mm)"
-  description: "A magazine of less-lethal rubber 10x24mm rounds for use in the M54C battle rifle."
+  name: М54С гумовий магазин (10х24 мм)
+  description: Магазин нелетальних гумових набоїв калібру 10х24 мм для використання в бойовій гвинтівці М54С.
   components:
   - type: Tag
     tags:
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleM4SPRRubber
-  name: "M4SPR rubber magazine (10x24mm)"
-  description: "A magazine of less-lethal rubber 10x24mm rounds for use in the M4SPR battle rifle."
+  name: М4СПГ гумовий магазин (10х24 мм)
+  description: Магазин нелетальних гумових набоїв калібру 10х24 мм для використання в бойовій гвинтівці М4СПГ.
   components:
   - type: Tag
     tags:
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifle10x24mmRubber
-  name: rubber cartridge (10x24mm)
-  description: A 10x24mm cartridge. Fits in 10x24mm magazines, this one is designed to be less lethal.
+  name: гумовий набій (10х24 мм)
+  description: Набій 10х24 мм. Підходить для магазинів 10х24 мм, цей розроблений для меншої летальності.
   components:
   - type: Tag
     tags:
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63Rubber
-  name: "M63 rubber magazine (10x20mm)"
+  name: М63 гумовий магазин (10х20 мм)
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridge10x20mmRubber
-  name: rubber cartridge (10x20mm)
+  name: гумовий набій (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM1984Rubber
-  name: M1984 rubber magazine (9mm)
+  name: М1984 гумовий магазин (9 мм)
   components:
   - type: Tag
     tags:
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM77Rubber
-  name: M77 rubber magazine (9mm)
+  name: М77 гумовий магазин (9 мм)
   components:
   - type: Tag
     tags:
@@ -197,7 +197,7 @@
 
 - type: entity
   id: RMCCartridgePistol9mmRubber
-  name: rubber cartridge (9mm)
+  name: гумовий набій (9 мм)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -210,7 +210,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistol9mmRubber
-  name: rubber bullet (9mm)
+#  name: гумова куля (9 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

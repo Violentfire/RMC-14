@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCCPRDummy
-  name: CPR dummy
-  description: A CPR dummy, for training all those privates how to save a life! Does not accurately emulate battle wounds, does not simulate rib breaking, plastic toxic to touch, please contact a doctor if skin irritation persists for more than two hours.
+  name: манекен для СЛР
+  description: Манекен для серцево-легеневої реанімації. Використовується під навчання всіх рядових та не тільки рятувати життя! Не імітує реальний бойовий досвід чи можливість зламати ребра. Пластик токсичний на дотик, зверніться до лікаря, якщо подразнення шкіри триває більше двох годин.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/cpr_dummy.rsi

@@ -2,8 +2,7 @@
   parent: RMCBaseWeaponSniperRifle
   id: CMM96SSniperRifle
   name: М96С снайперська гвинтівка
-  description: "Потужна снайперська гвинтівка виробництва компанії АЕГІС Арнаментс. Гвинтівка має оптичний приціл та стріляє бронебійними патронами з 15-зарядного магазину.
-    'Мир за допомогою військової сили'"
+  description: Потужна снайперська гвинтівка виробництва компанії ЕГІДА Армаментс. Гвинтівка має оптичний приціл та здатна стріляти різноманітними набоями, калібру 10х28 мм з 15-зарядних магазинів. 'Мир за допомогою військової сили'
   components:
   - type: GuideHelp
     guides:
@@ -91,7 +90,7 @@
 - type: entity
   parent: BaseItem
   id: CMMagazineSniperM96S
-  name: "М96С снайперський магазин (10x28 мм)"
+  name: М96С снайперський магазин (10x28 мм)
   description: Магазин набоїв для снайперської гвинтівки. При прицільному пострілі завдає значної шкоди.
   components:
   - type: Tag
@@ -130,7 +129,7 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SIncendiary
-  name: "М96С запальний магазин (10x28 мм)"
+  name: М96С запальний магазин (10x28 мм)
   description: Магазин набоїв для снайперської гвинтівки. При прицільному пострілі з нього тимчасово засліпить ціль і підпалить її.
   components:
   - type: BallisticAmmoProvider
@@ -149,7 +148,7 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SFlak
-  name: "М96С зенітний магазин (10x28 мм)"
+  name: М96С зенітний магазин (10x28 мм)
   description: Магазин набоїв для снайперської гвинтівки. При прицільному пострілі з нього тимчасово сповільнить ціль.
   components:
   - type: BallisticAmmoProvider
@@ -168,7 +167,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmIncendiary
-  name: гільза (10x28 мм) (запальна)
+  name: запальний набій (10x28 мм)
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmIncendiary
@@ -176,7 +175,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmFlak
-  name: гільза (10x28 мм) (зенітна)
+  name: зенітний набій (10x28 мм)
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmFlak
@@ -184,7 +183,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: CMBulletSniper10x28mm
-  name: куля (10x28 мм)
+#  name: куля (10x28 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -217,7 +216,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmIncendiary
-  name: куля (10x28 мм)
+#  name: куля (10x28 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -236,7 +235,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmFlak
-  name: куля (10x28 мм)
+#  name: куля (10x28 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

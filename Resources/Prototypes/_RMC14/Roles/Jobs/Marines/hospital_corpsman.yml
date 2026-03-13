@@ -30,7 +30,7 @@
   accessGroups:
   - HospitalCorpsman
   overwatchSortPriority: -2
-  overwatchRoleName: Hospital Corpsmen
+  overwatchRoleName: Бойові Медики # Sich, бо це назва
   roleWeight: 1
   displayWeight: 2
   special:

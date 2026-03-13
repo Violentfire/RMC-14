@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: М4СПГ бойова гвинтівка
   id: WeaponRifleM4SPR
-  description: Бойова гвинтівка М4СПГ - це спеціальна гвинтівка для стрільби на ураження, що стоїть на озброєнні морпіхів. Має конструкцію булпап, що робить її ідеальною для розвідувальних підрозділів та команд вогневої підтримки.
+  description: Бойова гвинтівка М4СПГ – це спеціальна гвинтівка для стрільби на ураження, що стоїть на озброєнні морпіхів. Має конструкцію булпап, що робить її ідеальною для розвідувальних підрозділів та команд вогневої підтримки. Використовує безгільзові набої 10х24 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
@@ -267,7 +267,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
-  name: "М4СПГ магазин (10x24 мм)"
+  name: "М4СПГ магазин (10х24 мм)"
   description: "Магазин зі стандартними набоями 10х24 мм для бойової гвинтівки М4СПГ."
   components:
   - type: Tag
@@ -373,7 +373,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
-  name: М4СПГ ББ магазин (10x24 мм)
+  name: М4СПГ ББ магазин (10х24 мм)
   description: "Магазин бронебійних набоїв 10х24 мм для бойової гвинтівки М4СПГ."
   suffix: AP
   components:
@@ -409,7 +409,7 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
-  name: "М4СПГ розширений магазин (10x24 мм)"
+  name: "М4СПГ розширений магазин (10х24 мм)"
   description: "Розширений магазин зі стандартними набоями 10х24 мм для бойової гвинтівки М4СПГ."
   components:
   - type: BallisticAmmoProvider

@@ -1,7 +1,7 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: вогнемет М34
+  name: М34 вогнемет
   description: М34 – один з найефективніших вогнеметів для знищення легкозаймистих цілей. Це зброя, яку бояться й поважають – настільки вона смертоносна, як для ворогів, так й для побратимів.
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCBaseTankFlamer
   id: RMCTankFlamer
-  name: паливний бак М34
+  name: М34 паливний бак
   description: Бак з пальним для вогнемета М34. Може використовуватися для підствольних вогнеметів також.
   components:
   - type: Sprite
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerCustom
-  name: кастомний паливний бак М34
+  name: М34 кастомний паливний бак
   description: Паливний бак для використання вогнеметом М34 та йому подібним.
   # description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a pressure regulator and an internal propellant tank.
   components:
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerBGel
-  name: паливний бак М34 (Бі-Гель)
+  name: М34 паливний бак (Бі-Гель)
   description: Паливний бак, заповнений спеціалізованим надгустим нафталевим паливом типу Бі-Гель, гелеподібним варіантом напалму. Легко гаситься, але при цьому діє на більшій відстані та довше горить. Поводьтеся з надзвичайно обережно.
   components:
   - type: RMCFlamerTank
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerUpgraded
-  name: покращений паливний бак М34
+  name: М34 покращений паливний бак
   description: Паливний бак для використання вогнеметом М34. Цей бак був модифікований, завдяки чому має більший об'єм й здатен використовувати потужніші суміші.
   components:
   - type: RMCFlamerTank
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
-  name: набір вогнемета М34
-  description: Комлпект має вогнемет М34 та баки з пальним.
+  name: кейс вогнемета М34
+  description: Кейс із вогнеметом М34. У комплекті 2 додаткових баків з паливом та підствольний вогнегасник.
   components:
   - type: Storage
     maxItemSize: Huge

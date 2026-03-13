@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverM44
-  name: M44 бойовий револьвер
-  description: Масивний револьвер, який час від часу носять штурмовики та офіцери, а також цивільні правоохоронці. Стріляє набоями .44 Магнум.
+  name: М44 бойовий револьвер
+  description: Масивний револьвер, який час від часу носять штурмовики та офіцери, а також цивільні правоохоронці. Стріляє кулями .44 Магнум.
   components:
   - type: Tag
     tags:
@@ -80,7 +80,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader44
-  name: "M44 швидкозарядник (.44)"
+  name: M44 швидкозарядник (.44)
   parent: BaseItem
   abstract: true
   components:
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCBaseSpeedLoader44
   id: RMCSpeedLoaderM44
-  name: "M44 швидкозарядник (.44)"
+  name: M44 швидкозарядник (.44)
   description: Револьверний швидкозарядник.
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCSpeedLoaderM44
   id: RMCSpeedLoader44Marksman
-  name: "M44 швидкозарядник для точної стрільби (.44)"
+  name: M44 швидкозарядник для точної стрільби (.44)
   description: Револьверний швидкісний зарядник, наповнений патронами для точної стільби.
   components:
   - type: Tag
@@ -150,7 +150,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44
-  name: гільза (.44)
+  name: набій (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -162,7 +162,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver44Marksman
-  name: гільза (.44)
+  name: набій (.44)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -175,7 +175,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletRevolver44
-  name: куля (.44)
+#  name: куля (.44) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver44Marksman
-  name: куля (.44 для точної стрільби)
+#  name: куля (.44 для точної стрільби) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

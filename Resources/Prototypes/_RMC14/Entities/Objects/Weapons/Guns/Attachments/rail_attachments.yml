@@ -13,7 +13,7 @@
   parent: [ RMCRailAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentRailFlashlight
   name: рейковий ліхтар
-  description: Ліхтар для кріплення на рейки зброї. Може вмикатися та вимикатися. Забезпечує кращий рівень освітлення порівняно зі стандартними ліхтарями броні M3.
+  description: Ліхтар для кріплення на рейку зброї. Може вмикатися та вимикатися. Забезпечує кращий рівень освітлення порівняно зі стандартними ліхтарями броні М3.
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
@@ -93,7 +93,7 @@
   parent: RMCRailAttachmentBase
   id: RMCAttachmentMagneticHarness
   name: магнітне кріплення
-  description: Комплект магнітного кріплення, що фіксується на рейковій планці зброї. У разі падіння зброя автоматично фіксується до будь-якої броні Морпіхів із відповідним кріпленням.
+  description: Комплект магнітного кріплення, що фіксується на рейці зброї та автоматично причеплюється до броні з відповідним кріпленням. У разі падіння зброя автоматично закріпиться на броню. Ідеальний вибір, якщо ви любите губите зброю.
   components:
   - type: Sprite
     state: magnetic
@@ -110,8 +110,8 @@
 - type: entity
   parent: RMCAttachmentMagneticHarness
   id: RMCAttachmentTwoPointSling # PVE
-  name: two-point sling
-  description: A traditional strip of toughened nylon fabric with clips on either end for attaching to suitable mounting points on most longarms in the UN armed forces arsenals.
+  name: двоточкова стропа
+  description: Традиційна смужка міцної нейлонової тканини із затискачами на обох кінцях. Використовується для кріплення зброї до броні, зазвичай використовується підрозділами ОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rifle_sling/classic-desert-jungle.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS5RedDotSight
-  name: приціл S5 з червоною крапкою
-  description: Універсальний коліматорний приціл, відомий як AN/PVQ-64 Dot Sight. Оснащений сонцезахисним козирком для покращення видимості у яскравих умовах і стійкості до погодних впливів. Компактний і ефективний, приклад військового дизайну... але насправді це просто масовий комерційний продукт із наклеєною військовою назвою.
+  name: С5 приціл з червоною крапкою
+  description: Універсальний коліматорний приціл, відомий як "AN/PVQ-64 Dot Sight". Оснащений сонцезахисним козирком для покращення видимості у яскравих умовах і стійкості до погодних впливів. Компактний і ефективний, приклад військового дизайну... Але, насправді – це просто масовий комерційний продукт із наклеєною військовою назвою. Краще придивіться до моделі С6.
   components:
   - type: Sprite
     state: reddot
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS5MicroRedDotSight
-  name: S5-Micro dot sight
-  description: A lightweight, low-profile dot optic designed for rapid target acquisition with minimal weight penalty. Optimized for submachine guns and sidearms, it's ideal for close-quarters combat where speed and agility matter most.
+  name: С5-мікро приціл з червоною крапкою
+  description: Легкий, низькопрофільний точковий оптичний приціл, розроблений для легшого прицілення за умови мінімальної ваги. Оптимізований для пістолетів-кулеметів та іншої зброї, він ідеально підходить для ближнього бою, де швидкість та спритність мають найбільше значення.
   components:
   - type: Sprite
     state: reddot_small
@@ -184,8 +184,8 @@
 - type: entity
   parent: RMCRailAttachmentBase
   id: RMCAttachmentS6ReflexSight # reflex
-  name: рефлекторний приціл S6
-  description: Рефлекторний приціл AEGIS S6. Альтернатива залізним прицілам з нульовим збільшенням з більш відкритим оптичним вікном порівняно з прицілом S5 з червоною крапкою. Допомагає зменшити розсіювання під час автоматичної стрільби.
+  name: С6 рефлекторний приціл
+  description: Рефлекторний приціл ЕГІДА С6. Альтернатива прицілам з нульовим збільшенням з більш відкритим оптичним вікном порівняно з прицілом С5. Допомагає зменшити розсіювання під час автоматичної стрільби. Якщо у вас гвинтівка – краще беріть його.
   components:
   - type: Sprite
     state: reflex
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS84xTelescopicScope
-  name: S8 4x телескопічний приціл
-  description: Телескопічний приціл AEGIS S8. Фіксоване 4-кратне збільшення.
+  name: С8 4х телескопічний приціл
+  description: Телескопічний приціл ЕГІДА С8. Має фіксоване 4-ох кратне збільшення.
   components:
   - type: Sprite
     state: sniperscope
@@ -310,8 +310,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentS42xTelescopicMiniscope
-  name: міні-телескопічний приціл S4 2x
-  description: Телескопічний приціл S4 від AEGIS із фіксованим збільшенням у 2x.
+  name: С4 2х телескопічний міні-приціл
+  description: Телескопічний приціл ЕГІДА С4. Має фіксоване 2-ох кратне збільшення.
   components:
   - type: Sprite
     state: miniscope
@@ -360,8 +360,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentFP9000Scope # mini
-  name: FP9000 2x telescopic mini-scope
-  description: Scope for the FN FP9000 SMG. Fixed at a modest 2x zoom.
+  name: ФП9000 2х телескопічний міні-приціл
+  description: Приціл для ФН9000. Має скромне 2-ох кратне збільшення.
   components:
   - type: Sprite
     state: miniscope_fp9000
@@ -382,8 +382,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentHuntingScope
-  name: 2x hunting mini-scope
-  description: This civilian-grade scope is a common sight on hunting rifles due to its cheap price and great optics. Fixed at a modest 2x zoom.
+  name: 2х мисливський міні-приціл
+  description: Цивільний приціл, популярний на мисливських гвинтівках завдяки низькій ціні та чудовій оптиці. Має скромне 2-ох кратне збільшення.
   components:
   - type: Sprite
     state: huntingscope
@@ -395,8 +395,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentS42xAdvancedTelescopicMiniscope
-  name: ВеЯ S4 2x Покращений міні-оптичний приціл
-  description: Телескопічний приціл AEGIS S4, спеціально налаштований вченими ВеЯ, щоб бути настільки ергономічним, наскільки це можливо.
+  name: Ве-Я С4 2х покращений оптичний міні-приціл
+  description: Телескопічний приціл ЕГІДА С4 з деякими модифікаціями. Спеціально налаштований вченими Ве-Я, щоб бути настільки ергономічним, наскільки це можливо.
   components:
   - type: Sprite
     state: miniscope-nsg23
@@ -422,8 +422,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentMiniscopeHunting
-  name: 2x мисливський міні-приціл
-  description: Цивільний приціл, популярний на мисливських гвинтівках завдяки низькій ціні та чудовій оптиці. Забезпечує скромне 2x збільшення.
+  name: 2х мисливський міні-приціл
+  description: Цивільний приціл, популярний на мисливських гвинтівках завдяки низькій ціні та чудовій оптиці. Має скромне 2-ох кратне збільшення..
   components:
   - type: Sprite
     state: huntingscope
@@ -443,8 +443,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentB8SmartScope
-  name: розумний приціл B8
-  description: Експериментальний приціл B8 Smart-Scope. Базується на технологіях Smart Gun від AEGIS, має вбудовані системи розпізнавання «свій-чужий» (IFF). Може кріпитися тільки до M4SPR Battle Rifle і M44 Combat Revolver.
+  name: Б8 розумний приціл
+  description: Експериментальний приціл Б8. Базується на технологіях СмартГан від ЕГІДА, має вбудовані системи розпізнавання 'свій-чужий' (УДВ). Може кріпитися тільки на бойову гвинтівку М4СПГ та бойовий револьвер М44. Якщо ти впевнений у своїй здатності не рострілювати спини побратимів або просто хочеш стояти позаду – це гарний вибір.
   components:
   - type: Sprite
     state: iffbarrel
@@ -473,7 +473,7 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCM96SIntegratedScope
-  name: інтегрований приціл M96S
+  name: М96С інтегрований приціл
   description: Цей приціл не мав зніматися з гвинтівки. Як ви це зробили?
   components:
   - type: Sprite
@@ -526,8 +526,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCXM43E1IntegratedScope
-  name: XM43E1 integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: ТМ43Е1 інтегрований приціл
+  description: Цей приціл не мав зніматися з гвинтівки. Як ви це зробили?
   components:
   - type: Sprite
     state: xm43e1_scope
@@ -545,8 +545,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCType88IntegratedScope
-  name: Type 88 integrated scope
-  description: This isn't supposed to come off the gun. How did you get it?
+  name: Тип 88 інтегрований приціл
+  description: Цей приціл не мав зніматися з гвинтівки. Як ви це зробили?
   components:
   - type: Sprite
     state: type88_scope
@@ -564,8 +564,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCL112IntegratedScope
-  name: L112O1 integrated scope
-  description: Blimey! I don't think that bit was supposed to come off the rifle...
+  name: Л112А1 інтегрований приціл
+  description: Ого! Я не думаю, що воно повиино бути окремо від гвинтівки...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi
@@ -585,8 +585,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentXS-9
-  name: релейна система прицілювання ПП-9
-  description: На етапі розробки ПП-9 має багато функцій, більшість із яких вимкнено для польових випробувань. Працює трохи краще за стандартний приціл.
+  name: ПП-9 релейна система прицілювання
+  description: На етапі розробки він мав багааааато функцій, більшість із яких вимкнено для польових випробувань... Працює трохи краще за стандартний приціл.
   components:
   - type: Sprite
     state: d_boomslang-scope
@@ -641,8 +641,8 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentSASOS
-  name: L91O1 SASOS
-  description: The TSE-produced Small Arms Smart Optical Sight, or SASOS, is an experimental, next-gen IFF-enabling optic designed for use as part of the L91 Support Weapon System.
+  name: Л91О1 РОПСЗ
+  description: Розумний Оптичний Приціл для Стрілецької Зброї або РОПСЗ виробництва ІТС. Експериментальна оптика наступного покоління з функцією міжточкового прицілювання, розроблена для використання як частина новітньої зброї Л91.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi

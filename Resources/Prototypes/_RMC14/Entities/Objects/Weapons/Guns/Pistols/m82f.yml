@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseSlideMagazineVisualsBallistic, CMBaseWeaponGun, RMCBaseAttachableHolder ]
   id: RMCWeaponPistolM82F
-  name: сигнальний пістолет М82Ф
-  description: Сигнальний пістолет операторів КАТА. Має вбудований приціл.
+  name: М82Ф сигнальний пістолет
+  description: Сигнальний пістолет операторів КАТА. Стриляє фаєрами. Має вбудований приціл. Обережно, фаєр випущений з пістолета здатен підпалювати живі цілі!
   components:
   - type: AmmoCounter
   - type: Sprite

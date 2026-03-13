@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCChemDispenserBase
   id: RMCChemDispenserGround
-  suffix: Підлога
+  suffix: Ground
   components:
   - type: RMCChemicalDispenser
     network: RMCChemStorageGround
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCChemStorageBase
   id: RMCChemStorageGround
-  suffix: Підлога
+  suffix: Ground
   components:
   - type: RMCChemicalStorage
     network: RMCChemStorageGround
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCChemStorageBase
   id: RMCChemStorageMedbay
-  suffix: Медблок
+  suffix: Medbay
   components:
   - type: RMCChemicalStorage
     network: RMCChemStorageMedbay
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCChemStorageBase
   id: RMCChemStorageResearch
-  suffix: Дослідження
+  suffix: Research
   components:
   - type: RMCChemicalStorage
     network: RMCChemStorageResearch
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCChemDispenserCorpsmanBase
   id: RMCChemDispenserCorpsmanMedbay
-  suffix: Медблок
+  suffix: Medbay
   components:
   - type: RMCChemicalDispenser
     network: RMCChemStorageGround

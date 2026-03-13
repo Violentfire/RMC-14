@@ -1,7 +1,7 @@
 - type: entity
   id: RMCOrbitalCannonDerelict
   name: стара орбітальна гармата
-  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Ця, схоже, непрацездатна..."
+  description: Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Ця, схоже, непрацездатна...
   placement:
     mode: SnapgridCenter
   components:
@@ -37,7 +37,7 @@
   parent: RMCOrbitalCannonDerelict
   id: RMCOrbitalCannon
   name: орбітальна гармата
-  description: "Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Задіює тверде паливо для сильного пришвидшення боєголовки перед запуском тієї по цілі, завдаючи руйнівного удару."
+  description: Орбітальна Гарматна Система КМПОН. Використовується для стрільби по великих цілях на планеті, поряд з якою розташоване судно. Задіює тверде паливо для сильного пришвидшення боєголовки перед запуском тієї по цілі, завдаючи руйнівного удару.
   components:
   - type: OrbitalCannon
     warheadTypes:
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньої кількості твердого палива. Ця конкретна модель призначена для використання в сильно укріплених районах й викликає великий круговий вибух при ударі."
+  description: Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньої кількості твердого палива. Ця конкретна модель призначена для використання в сильно укріплених районах й викликає великий круговий вибух при ударі.
   name: фугасна орбітальна боєголовка
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для відсікання ворожих сил й створює велике коло надгарячого блакитного вогню."
+  description: Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для відсікання ворожих сил й створює велике коло надгарячого блакитного вогню.
   name: запальна орбітальна боєголовка
   components:
   - type: Sprite
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  description: "Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для використання у тісних добре укріплених районах та викликає численні кругові вибухи."
+  description: Орбітальна боєголовка, призначена для запуску з орбітальної гармати КМПОН після заправки достатньою кількістю твердого палива. Ця конкретна модель призначена для використання у тісних добре укріплених районах та викликає численні кругові вибухи.
   name: кластерна орбітальна боєголовка
   components:
   - type: Sprite
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок АЕГІС. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо."
-  name: орбітальна боєголовка АЕГІС
+  description: Експериментальна орбітальна боєголовка на основі форону, розроблена відділом досліджень і розробок ЕГІДА. Призначена для ураження цілей, де однієї звичайної орбітальної боєголовки недостатньо.
+  name: орбітальна боєголовка ЕГІДА
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -157,7 +157,7 @@
 - type: entity
   id: RMCOrbitalCannonWarheadSpawner
   name: випадкова орбітальна боєголовка
-  description: "Це випадкова орбітальна боєголовка."
+  description: Це випадкова орбітальна боєголовка.
   placement:
     mode: SnapgridCenter
   components:
@@ -203,7 +203,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionAegis
-  name: вибух орбітального бомбардування АЕГІС
+  name: вибух орбітального бомбардування ЕГІДА
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -277,7 +277,7 @@
 - type: entity
   id: RMCOrbitalCannonComputer
   name: консоль орбітальної гармати
-  description: "Консоль керування системами завантаження орбітальної гармати."
+  description: Консоль керування системами завантаження орбітальної гармати.
   placement:
     mode: SnapgridCenter
   components:
@@ -305,7 +305,7 @@
   parent: CMSeatBase
   id: RMCOrbitalCannonChair
   name: сидіння
-  description: "Зручне сидіння."
+  description: Зручне сидіння.
   placement:
     mode: SnapgridCenter
   components:
@@ -321,8 +321,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCableConnector
-  name: "роз'єм гарматного кабелю"
-  description: "Роз'єм для підключення великогабаритних гарматних кабелів."
+  name: роз'єм гарматного кабелю
+  description: Роз'єм для підключення великогабаритних гарматних кабелів.
   placement:
     mode: SnapgridCenter
   components:
@@ -348,7 +348,7 @@
 - type: entity
   id: RMCOrbitalCannonCable
   name: гарматні кабелі
-  description: "Кілька великих кабелів."
+  description: Кілька великих кабелів.
   placement:
     mode: SnapgridCenter
   components:
@@ -386,8 +386,8 @@
 # Tray
 - type: entity
   id: RMCOrbitalCannonTray
-  name: loading tray
-  description: "The orbital cannon's loading tray."
+  name: завантажувальний порт
+  description: Порт для завантаження боєголовок та палива в орбітальну гармату.
   suffix: Cannon spawns with one that's linked to it.
   placement:
     mode: SnapgridCenter

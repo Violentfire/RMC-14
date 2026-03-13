@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: CMWeaponPistolM1984
-  name: M1984 службовий пістолет
-  description: Службовий пістолет M1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет M77. Стріляє 9-мм пістолетними патронами.
+  name: М1984 службовий пістолет
+  description: Службовий пістолет М1984, який колись був стандартною зброєю морських піхотинців, але нещодавно був замінений на бойовий пістолет М77. Стріляє 9-мм пістолетними кулями.
   components:
   - type: Tag
     tags:
@@ -66,7 +66,7 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: CMWeaponPistolM1984Empty
-  suffix: Пустий
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M1984 магазин (9мм)
+  name: М1984 магазин (9 мм)
   components:
   - type: Tag
     tags:
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: куля (9 мм)
+#  name: куля (9 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M1984 ББ магазин (9мм)
-  description: Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу уражаючу здатність по броньованим цілям і значно меншу - по неброньованим або легкоброньованим цілям.
+  name: M1984 ББ магазин (9 мм)
+  description: Пістолетний магазин. Цей магазин містить бронебійні кулі, які мають значно більшу уражаючу здатність по броньованим цілям і значно меншу по неброньованим або легкоброньованим цілям.
   components:
   - type: Tag
     tags:
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984HP
-  name: М1984 експансивний магазин (9мм)
+  name: М1984 експансивний магазин (9 мм)
   description: Магазин з експансивними кулями для М1984. Ці кулі демонструють підвищену ефективність проти незахищених цілей, але менш ефективні проти броньованих цілей.
   components:
   - type: BallisticAmmoProvider
@@ -191,7 +191,7 @@
 - type: entity
   parent: CMCartridgePistol9mm
   id: RMCCartridgePistol9mmHP
-  name: cartridge (9mm HP)
+  name: експансивний набій (9 мм)
   components:
   - type: Tag
     tags:
@@ -203,7 +203,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistol9mmHP
-  name: bullet (9mm HP)
+#  name: експансивна куля (9 мм) – Sich
   components:
   - type: Projectile
     damage:

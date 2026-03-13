@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateM54CMK1
   parent: RMCCrateWeapons
-  name: Ящик гвинтівок M54C MK1 (2 шт. mk1, 2 шт. магазинів)
+  name: Ящик гвинтівок М54С МК1 (2 шт гвинтівки, 2 шт магазини)
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateM54CE2
-  name: Ящик M54CE2 ВШГ (2 шт. ВШГ, 2 шт. коробок з набоями ВШГ)
+  name: Ящик М54СЕ2 ВШГ (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -23,7 +23,7 @@
 - type: entity
   id: RMCCrateMK80
   parent: RMCCrateWeapons
-  name: Ящик пістолетів MK80 (2 шт.)
+  name: Ящик пістолетів МК80 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -35,7 +35,7 @@
 - type: entity
   id: RMCCrateXM88
   parent: RMCCrateWeapons
-  name: Ящик важких гвинтівок ТМГ-88 (2 шт.)
+  name: Ящик важких гвинтівок ТМГ-88 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateSmartGunSet
-  name: Набір системи СмартГану МЛ66A
+  name: Набір системи СмартГану МЛ66А
   components:
   - type: StorageFill
     contents:
@@ -55,7 +55,7 @@
 - type: entity
   id: RMCCrateSU6
   parent: RMCCrateWeapons
-  name: Ящик смарт пістолетів СУ-6 (2 шт.)
+  name: Ящик смарт пістолетів СП-6 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateM34
-  name: Ящик вогнеметів M34 (2 шт. M34, 2 шт. паливних ранців Г4-1)
+  name: Ящик вогнеметів М34 (2 шт М34, 2 шт паливних ранців В4-1)
   components:
   - type: StorageFill
     contents:
@@ -77,7 +77,7 @@
 - type: entity
   id: RMCCrateMOU53
   parent: RMCCrateWeapons
-  name: Ящик рушниць УМО-53 з переламним стволом (2 шт.)
+  name: Ящик рушниць УМО-53 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateXM51
-  name: Ящик штурмових дробовиків ТМД-51 (2 шт.)
+  name: Ящик штурмових дробовиків ТМД-51 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateM85A1
-  name: M85A1 Grenade Launcher Crate (x2)
+  name: Ящик гранатометів М85А1 (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateML66D
-  name: ML66D Machine Gun Crate (x1)
+  name: Ящик з важким кулеметом МЛ66Д (1 шт)
   components:
   - type: StorageFill
     contents:
@@ -117,7 +117,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateM2C
-  name: M2C Machine Gun Crate (x1)
+  name: Ящик з важким кулеметом М2С (1 шт)
   components:
   - type: StorageFill
     contents:

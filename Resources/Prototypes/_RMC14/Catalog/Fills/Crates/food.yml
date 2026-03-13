@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateFoodDonuts
   parent: RMCCratePlastic
-  name: Ящик з донатами
+  name: Ящик з пончиками
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   id: RMCCrateFoodPizza
   parent: RMCCratePlastic
-  name: Ящик з пайками піц (3 шт.)
+  name: Ящик з пайками піц (3 шт)
   components:
   - type: StorageFill
     contents:

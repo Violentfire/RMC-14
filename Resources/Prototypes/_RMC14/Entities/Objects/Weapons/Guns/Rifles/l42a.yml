@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ] # L42A battle rifle base remove wield stuff (uses m54c ammo diffrent mags)
-  name: L42A battle rifle
+  name: Л42А бойова гвинтівка
   id: RMCWeaponRifleL42A
-  description: The L42A Battle Rifle, found commonly around the frontiers of the Galaxy. It's commonly used by colonists for self defense, as well as many colonial militias, whomever they serve due to it's rugged reliability and ease of use without much training. This rifle was put up for adoption by the UNMC and tested for a time, but ultimately lost to the M4SPR already in service.
+  description: Бойова гвинтівка Л42А, яку часто можна знайти у зовнішних секторах. Її зазвичай використовують колоністи для самооборони, а також багато колоніальних ополчень, кому б вони не служили, завдяки її надійності та простоті використання без особливої ​​підготовки. Також цю гвинтівку було запропоновано на прийняття КМПОН та деякий час вона випробовувалася, але зрештою програла М4СПГ, яка вже була на озброєнні.
   suffix: Filled
   components:
   - type: Sprite
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42A
-  name: L42A magazine (10x24mm)
-  description: A 10x24mm battle rifle magazine.
+  name: Л42А магазин (10х24 мм)
+  description: Магазин для бойової гвинтівки з набоями калібру 10х24 мм безгільзовими.
   components:
   - type: Tag
     tags:
@@ -125,8 +125,8 @@
 - type: entity
   parent: RMCMagazineRifleL42A
   id: RMCMagazineRifleL42AExtended
-  name: L42A Extended magazine (10x24mm)
-  description: A Extended 10x24mm battle rifle magazine.
+  name: Л42А розширений магазин (10х24 мм)
+  description: Розширений магазин для бойової гвинтівки з набоями калібру 10х24 мм безгільзовими.
   components:
   - type: Tag
     tags:
@@ -159,8 +159,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AAP
-  name: L42A AP magazine (10x24mm)
-  description: A 10x24mm Armor Piercing battle rifle magazine.
+  name: Л42А ББ магазин (10х24 мм)
+  description: Магазин для бойової гвинтівки з бронебійними набоями калібру 10х24 мм безгільзовими.
   components:
   - type: Tag
     tags:
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AWP
-  name: L42A WP magazine (10x24mm)
-  description: A 10x24mm Wall Piercing battle rifle magazine.
+  name: Л42А СП магазин (10х24 мм)
+  description: Магазин для бойової гвинтівки з стінопробивними набоями калібру 10х24 мм безгільзовими.
   components:
   - type: Tag
     tags:
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AIncendiary
-  name: L42A incendiary magazine (10x24mm)
-  description: A 10x24mm Incendiary battle rifle magazine.
+  name: Л42А запальний магазин (10х24 мм)
+  description: Магазин для бойової гвинтівки з запальними набоями калібру 10х24 мм безгільзовими.
   components:
   - type: Tag
     tags:

@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCGroundsideOperationsConsole
-  name: groundside operations console
-  description: This can be used for various important functions.
+  name: консоль керування операцією
+  description: Консоль завдяки якій можна віддавати накази, дивитися мапу, моніторити стан загонів та видавати медалі. Все для проведення наземної операції!
   components:
   - type: ActivatableUI
     key: enum.MarineCommunicationsComputerUI.Key
@@ -63,8 +63,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
-  name: almayer control console
-  description: This is used for controlling ship and its related functions.
+  name: консоль керування саванною
+  description: Консоль завдяки якій можна змінювати рівень тривоги, робити оголошення для судна, видавати медалі та викликати евакуацію. Все для Саванни!
   components:
   - type: ActivatableUI
     key: enum.MarineControlComputerUi.Key
@@ -84,8 +84,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCOverwatchConsole
-  name: overwatch console
-  description: State of the art machinery for giving orders to a squad.
+  name: консоль спостереження
+  description: Найсучасніша техніка для віддання наказів та спостереженням за загонами.
   components:
   - type: Transform
     anchored: false
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTacticalMapTable
-  name: map table
-  description: A table that displays a map of the current operation location.
+  name: мапостіл
+  description: Стіл на якому відображається стан зони проведення операції в реальному часі.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/map_table.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCEscapePodController
-  name: escape pod controller
-  description: A shuttle control computer.
+  name: контролер рятувальної капсули
+  description: Контролер для керування шатлом. Вам тут потрібна лише одна кнопка.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/escape_pod_panel.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCLifeboatConsole
-  name: lifeboat console
-  description: A lifeboat control computer.
+  name: консоль керування лодкою евакуації
+  description: Консоль для керування евакуаційною лодкою. Краще вам бути пілотом та впевнитися, що всі встигли на борт.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

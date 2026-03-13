@@ -65,6 +65,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxProvost
+  name: факс-апарат Провосту # Sich
   suffix: Provost
   components:
   - type: FaxMachine
@@ -74,6 +75,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxPress
+  name: факс-апарат Преси # Sich
   suffix: Press
   components:
   - type: FaxMachine
@@ -83,6 +85,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxCLF
+  name: факс-апарат ФВК # Sich
   suffix: CLF
   components:
   - type: FaxMachine
@@ -92,6 +95,8 @@
 - type: entity
   parent: CMFax
   id: CMFaxSPP
+  name: факс-апарат СПН # Sich
+  description: Нащо тобі це лайно... # Sich
   suffix: SPP
   components:
   - type: FaxMachine
@@ -101,6 +106,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxTSE
+  name: факс-апарат ІТС # Sich
   suffix: TSE
   components:
   - type: FaxMachine

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverSpearhead
-  name: CMB Spearhead autorevolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .357 Magnum rounds.
+  name: БКМ 'Вістря Списа' револьвер
+  description: Масивний автоматичний револьвер, який найчастіше зустрічається в представників БКМ та в колоніях, якими вони займаються. Стріляє кулями .357. # Sich. Оригінальний опис був копією від М44, тож трошки логіки додано
   components:
   - type: Tag
     tags:
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCWeaponRevolverSpearhead
   id: RMCWeaponRevolverSpearheadCustom
-  name: Spearhead custom autorevolver
-  description: An automatic revolver chambered in .357, custom made of darker metal and with a wooden handle, clearly made for a person with taste in mind.
+  name: "'Вістря Списа' кастомний револьвер"
+  description: Автоматичний револьвер калібру .357, виготовлений на замовлення з темнішого металу та з дерев'яною рукояткою, явно створений для людини зі смаком.
   components:
   - type: Tag
     tags:
@@ -124,7 +124,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoader357
-  name: "Speed loader (.357)"
+  name: швидкозарядник (.357)
   parent: BaseItem
   abstract: true
   components:
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader357
   id: RMCSpeedLoader357
-  name: "Speed loader (.357)"
-  description: A revolver speed loader.
+  name: швидкозарядник (.357)
+  description: Швидкозарядник для револьвера.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/spearhead.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCBaseSpeedLoader357
   id: RMCSpeedLoader357Hollowpoint
-  name: "hollowpoint speed loader (.357)"
-  description: A revolver speed loader filled with Hollowpoint ammo.
+  name: швидкозарядник експансивний (.357)
+  description: Швидкозарядник для револьвера з експансивними набоями.
   components:
   - type: Tag
     tags:
@@ -196,7 +196,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver357
-  name: cartridge (.357)
+  name: набій (.357)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -208,7 +208,7 @@
 
 - type: entity
   id: RMCCartridgeRevolver357Hollowpoint
-  name: cartridge (.357) Hollowpoint
+  name: експансивний набій (.357)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -221,7 +221,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357
-  name: bullet (.357)
+#  name: куля (.357)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -241,7 +241,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletRevolver357Hollowpoint
-  name: bullet (.357) Hollowpoint
+#  name: експансивна куля (.357) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

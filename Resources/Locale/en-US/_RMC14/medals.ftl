@@ -19,46 +19,46 @@ rmc-medal-error-self-award = Ви не можете видати медаль с
 rmc-medal-error-officer-only = Тільки Командуючий Офіцер може видавати медалі!
 
 # Medal Recommendations
-rmc-award-recommendation-verb = Recommend for award
-rmc-award-recommendation-verb-message = Recommend a person for an award for special merits.
-rmc-award-recommendation-title = Award Recommendation
-rmc-award-recommendation-prompt = Who do you want to recommend for award?
-rmc-award-recommendation-reason = [bold]Why are you recommending?[/bold]
-rmc-award-recommendation-empty = You need to provide a reason for the recommendation.
-rmc-award-recommendation-invalid = Could not find that marine.
-rmc-award-recommendation-no-targets = There is no one to recommend right now.
-rmc-award-recommendation-no-computer = Unable to store the recommendation.
-rmc-award-recommendation-success = { $name } has been successfully recommended for an award { $count }.
-rmc-award-recommendation-out = You have reached the limit of recommendations for an award.
-rmc-award-recommendation-no-authority = You do not have the authority to recommend for an award.
-rmc-award-recommendation-too-early = It is too early to submit award recommendations. Wait {$minutes} minutes.
-rmc-award-recommendation-rank-unknown = No rank
+rmc-award-recommendation-verb = Рекомендувати до нагородження
+rmc-award-recommendation-verb-message = Рекомендувати особу до нагородження за особливі заслуги.
+rmc-award-recommendation-title = Рекомендація до Нагородження
+rmc-award-recommendation-prompt = Кого ви хочете рекомендувати для нагородження?
+rmc-award-recommendation-reason = [bold]Чому ви рекомендуєте саме цю особу?[/bold]
+rmc-award-recommendation-empty = Ви повинні написати причини рекомендації.
+rmc-award-recommendation-invalid = Цієї особи не існує.
+rmc-award-recommendation-no-targets = Наразі нема кого рекомендувати.
+rmc-award-recommendation-no-computer = Не вдалося зберегти рекомендацію.
+rmc-award-recommendation-success = { $name } було успішно рекомендовано до нагородження { $count }.
+rmc-award-recommendation-out = Ви досягли ліміту рекомендацій до нагородження.
+rmc-award-recommendation-no-authority = Ви не маєте права рекомендувати до нагородження.
+rmc-award-recommendation-too-early = Ще зарано рекомендувати до нагордження. Зачекайте ще {$minutes} хвилин.
+rmc-award-recommendation-rank-unknown = Без рангу
 
 # Medal Recommendation Display
-rmc-medal-panel = Medals Panel
-rmc-medal-panel-give-new-medal = Give new medal
-rmc-medal-panel-tab-give-medals = Give medals
-rmc-medal-panel-tab-view-medals = View medals
-rmc-medal-panel-approve-recommendation = Approve
-rmc-medal-panel-reject-recommendation = Reject
-rmc-medal-panel-recommender-label = [color=#5B88B0]Recommender:[/color]
-rmc-medal-panel-job-label = [color=#5B88B0]Job:[/color]
-rmc-medal-panel-reason-label = [color=#5B88B0]Reason:[/color]
-rmc-medal-panel-print-medal = Print medal
-rmc-medal-panel-medal-printed = Medal printed
-rmc-medal-panel-cant-print = Printing is not supported
+rmc-medal-panel = Панель Медалей
+rmc-medal-panel-give-new-medal = Видати нову медаль
+rmc-medal-panel-tab-give-medals = Видати медалі
+rmc-medal-panel-tab-view-medals = Подивитися медалі
+rmc-medal-panel-approve-recommendation = Пітвердити
+rmc-medal-panel-reject-recommendation = Відхилити
+rmc-medal-panel-recommender-label = [color=#5B88B0]Рекомендував:[/color]
+rmc-medal-panel-job-label = [color=#5B88B0]Посада:[/color]
+rmc-medal-panel-reason-label = [color=#5B88B0]Причина:[/color]
+rmc-medal-panel-print-medal = Надрукувати медаль
+rmc-medal-panel-medal-printed = Медаль надрукована
+rmc-medal-panel-cant-print = Друк медалі неможливий
 
 # Commendation Types
-rmc-commendation-type-medal = Medals
-rmc-commendation-type-jelly = Jelly
+rmc-commendation-type-medal = Медалі
+rmc-commendation-type-jelly = Желешки
 
 # Commendation Display
-rmc-commendation-window = Commendations
-rmc-commendation-title = [bold]Round {$round} - {$name}[/bold]
-rmc-commendation-description = Issued to [bold]{$receiver}[/bold] by [bold]{$giver}[/bold] for:
+rmc-commendation-window = Нагороди
+rmc-commendation-title = [bold]Раунд {$round} – {$name}[/bold]
+rmc-commendation-description = [bold]{$receiver}[/bold] отримав від [bold]{$giver}[/bold] за:
     {$text}
 
-rmc-commendation-examine-title = Inscription
-rmc-commendation-examine-1 = The inscription on this award reads:
-rmc-commendation-examine-2 = [italic]Issued to [bolditalic]{$receiver}[/bolditalic] by [bolditalic]{$giver}[/bolditalic] for: {$text}[/italic]
-rmc-commendation-examine-hover = Read the full inscription on this award
+rmc-commendation-examine-title = Напис
+rmc-commendation-examine-1 = Напис на цій нагороді гласить:
+rmc-commendation-examine-2 = [italic][bolditalic]{$receiver}[/bolditalic] отримав медаль від [bolditalic]{$giver}[/bolditalic] за: {$text}[/italic]
+rmc-commendation-examine-hover = Прочитати повний текст до цієї нагороди.

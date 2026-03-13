@@ -1,6 +1,6 @@
 - type: entity
   parent: CMBaseWeaponSMG
-  name: MP5 пістолет-кулемет
+  name: МП5 пістолет-кулемет
   id: WeaponSMGMP5
   description: Німецька розробка, яка була одним із найпоширеніших пістолетів-кулеметів у світі. І досі цю вогнепальну зброю можна зустріти в руках колекціонерів або шанувальників стрілецької справи.
   suffix: Filled
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineSMGMP5
-  name: "MP5 магазин (9 мм)"
-  description: "Магазин з 9-мм набоями для MP5."
+  name: МП5 магазин (9 мм)
+  description: Магазин з 9-мм набоями для МП5.
   components:
   - type: Tag
     tags:
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge9mmSMG
-  name: набій (9 мм ПК)
-  description: 9-мм набій для пістолета-кулемета MP5.
+  name: набій (9 мм)
+  description: 9-мм набій для пістолета-кулемета МП5.
   components:
   - type: Tag
     tags:

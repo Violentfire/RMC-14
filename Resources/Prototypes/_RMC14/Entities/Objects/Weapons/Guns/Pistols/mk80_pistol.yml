@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCMK80
-  name: MK80 пістолет
-  description: Масивний, потужний напівавтоматичний пістолет, споряджений 9-мм патронами з плоскою головкою. Його часто можна побачити в ООН та на території ІТС, його часто тримають у себе на озброєнні підрозділи ВЕ-Я та керівники корпорацій. Ця зброя також проходить обмежені польові випробування в рамках програми маринів по створенню пістолетів нового покоління. На затворі викарбувано логотип ВЕ-Я, який нагадує, хто насправді тут головний.
+  name: МК80 пістолет
+  description: Масивний, потужний напівавтоматичний пістолет, споряджений 9-мм набоями з плоскою головкою. Його часто можна побачити в ОН та на території ІТС, його тримають у себе на озброєнні підрозділи Ве-Я та керівники корпорацій. Ця зброя також проходить обмежені польові випробування в рамках програми КМПОН по створенню пістолетів нового покоління. На затворі викарбувано логотип Ве-Я, який нагадує, хто насправді тут головний.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolMK80
-  name: "MK80 Магазин (9мм м'якоголовна куля)"
+  name: МК80 магазин (9 мм м'якоголовна куля)
   components:
   - type: Tag
     tags:
@@ -115,7 +115,7 @@
 
 - type: entity
   id: RMCCartridgePistol9mmSquashHead
-  name: "гільза (9мм м'якоголовна куля)"
+  name: набій (9 мм м'якоголовна куля)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -128,7 +128,7 @@
 - type: entity # todo rmc14 this is missing a lot of effects, shrapnel, debilitate etc
   parent: CMBulletBase
   id: RCMBulletPistol9mmSquashHead
-  name: "куля (9мм м'якоголовна куля)"
+#  name: куля (9 мм м'якоголовна куля) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

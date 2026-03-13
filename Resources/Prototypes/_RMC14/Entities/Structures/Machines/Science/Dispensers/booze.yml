@@ -1,8 +1,8 @@
 - type: entity
   parent: BoozeDispenser
   id: CMDispenserBooze
-  name: booze dispenser
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  name: диспенсер алкоголю
+  description: Технологічне диво, яке нібито здатне змішувати саме ту суміш, яку ви хочете випити, щойно ви її попросите (це називається бармен поряд з цією штукою).
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/Science/small_dispensers.rsi

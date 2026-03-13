@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFlamerSpec
-  name: вогнемет М34-Т
+  name: М34-Т вогнемет
   description: Модель М34-Т, вдосконалена версія вогнемета М34. Здатна працювати з більшими баками з паливом.
   components:
   - type: Corrodible
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerLarge
-  name: великий паливний бак М34
+  name: М34 великий паливний бак
   description: Великий паливний бак для використання вогнеметом М34-Т. Поводьтеся з ним вкрай обережно.
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeB
-  name: великий паливний бак М34 (Бі)
+  name: М34 великий паливний бак (Бі)
   description: Великий паливний бак для надгустого нафталевого палива типу Бі, спеціального варіанту напалму, який легко гасне, але розсіюється на широку площу під час повільного горіння.
   components:
   - type: RMCFlamerTank
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeX
-  name: великий паливний бак М34 (Ікс)
+  name: М34 великий паливний бак (Ікс)
   description: Великий паливний бак для надгустого нафталю типу Ікс, липкої горючої рідкої хімічної речовини, яка горить при надзвичайно високій температурі. Для використання потрібен вогнемет М34-Т. Поводьтеся з надзвичайною обережністю.
   components:
   - type: RMCFlamerTank
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeEX
-  name: великий паливний бак М34 (Екс)
+  name: М34 великий паливний бак (Екс)
   description: Великий паливний бак для надгустого нафталевого палива типу Екс, липкої горючої рідкої хімічної речовини, яка горить так сильно, що плавиться крізь більшість вогнестійких матеріалів. Для використання потрібен вогнемет М34-Т. Поводьтеся з надзвичайною обережністю.
   components:
   - type: RMCFlamerTank
@@ -129,7 +129,7 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeCustom
-  name: великий кастомний паливний бак М34
+  name: М34 великий кастомний паливний бак
   description: Великий паливний бак для використання вогнеметом М34-Т.
   # description: A large fuel tank for use in the M34-T incinerator unit. This one has been modified with a pressure regulator and a large internal propellant tank. Must be manually attached.
   components:

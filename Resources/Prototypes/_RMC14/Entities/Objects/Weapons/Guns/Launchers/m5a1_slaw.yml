@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCBaseWeaponLauncher
   id: RMCWeaponLauncherDisposable
-  name: M5A1 SLAW
+  name: М5А1 СЛАВ # Sich. SLAW – Shoulder Launched Assault Weapon. . . Трансліт в студію!
   suffix: AP
-  description: The M5A1 SLAW is a lightweight one-shot anti-armor weapon capable of engaging enemy vehicles at ranges up to 1,000m. Fully disposable, the rocket's launcher is discarded after firing. When stowed, the SLAW system consists of a watertight carbon-fiber composite blast tube, inside of which is an aluminum launch tube containing the missile. The weapon is fired by pushing a charge button on the trigger grip. It is sighted and fired from the shoulder.
+  description: М5А1 СЛАВ – це легка однозарядна протитанкова зброя, здатна вражати ворожу техніку на відстані до 1000 м. Ракетна пускова установка повністю одноразова, її викидають після пострілу. Ссистема SLAW складається з водонепроникної вуглецево-композитної детонаційної труби, всередині якої знаходиться алюмінієва пускова труба з ракетою. Зброя стріляє натисканням кнопки заряджання на спусковому гачку. Прицілювання та постріл здійснюються з плеча. Схоже, це якась "цивільна" версія з сильно обмеженою дальністю та відірваним прицілом... Майте це на увазі!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5a1_disposable.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCWeaponLauncherDisposableFolded
-  name: M5A1 SLAW
-  description: An M5A1 SLAW Anti-Tank RPG, compacted for easier storage.
+  name: М5А1 СЛАВ
+  description: Протитанкова РПГ М5А1 СЛАВ, складена для легшого зберігання.
   suffix: AP, folded
   components:
   - type: Sprite

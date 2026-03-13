@@ -35,7 +35,7 @@
 - type: entity
   id: RMCCrateSuppliesBoxes
   parent: RMCCrateSupply
-  name: Картонні листи (50 шт.) #empty boxes (x10)
+  name: Ящик з картонками (50 шт) #empty boxes (x10)
   components:
   - type: StorageFill
     contents:
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCCrateSupply
   id: RMCCrateSupplyJanitor
-  name: Різноманітні прибиральні засоби
+  name: Ящик з прибиральним обладнанням
   components:
   - type: StorageFill
     contents:
@@ -74,7 +74,7 @@
 - type: entity
   id: RMCCrateSuppliesCrayons
   parent: RMCCrateSupply
-  name: Коробки з олівцями
+  name: Коробки з олівцями (5 шт)
   components:
   - type: StorageFill
     contents:
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCCrateSupply
   id: RMCCrateAegisLobby
-  name: AEGIS tracking equipment crate (x3 pinpointers, x1 pamphlet)
-  description: A supply crate containing AEGIS ID tracking equipment and documentation.
+  name: Ящик з спорядженням для відстеження ЕГІДА (3 пінпоінтера та 1 памфлет)
+  description: Ящик з обладнанням для відстеження обладнання ЕГІДА та необхідною документиацією.
   components:
   - type: StorageFill
     contents:

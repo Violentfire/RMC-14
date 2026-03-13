@@ -1,8 +1,8 @@
 - type: entity
   parent: [ WeaponShotgunM357, RMCBaseAttachableHolder ]
-  name: укорочений M357 'Суперник'
+  name: укорочений М357 'Суперник'
   id: WeaponShotgunM357Sawn
-  description: Двоствольний дробовик виробництва Aegis. Старий, міцний, дешевий. Спеціально вкорочений, щоб зменшити дальність, але збільшити шкоду та розліт дробу.
+  description: Двоствольний дробовик виробництва ЕГІДА Армаментс. Старий, міцний, дешевий. Спеціально вкорочений, щоб зменшити дальність, але збільшити шкоду та розліт дробу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/dbsawnoff.rsi

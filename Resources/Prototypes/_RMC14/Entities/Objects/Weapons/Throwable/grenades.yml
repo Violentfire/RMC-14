@@ -75,8 +75,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeHighExplosive
-  name: M40 ФПП граната
-  description: Фугасна граната Подвійного-Призначення. Оманливо невелика, але дуже потужна фугасна граната яка разом з М40 ОФ поступово витісняють M15 ОФ. Можна зарядити в гранатомет, або кинути рукою. Намагайтеся не підірвати нею себе, чи союзників.
+  name: М40 ФПП граната
+  description: Фугасна граната Подвійного-Призначення. Оманливо невелика, але дуже потужна. Вона разом з М40 ОФ поступово витісняють М15 ОФ. Можна зарядити в гранатомет або кинути рукою. Час до детонації після активації 4 секунди. Намагайтеся не підірвати нею себе чи побратимів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hedp.rsi
@@ -102,8 +102,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeSmoke
-  name: M40 ВДР граната
-  description: Високодимна Розсіювальна граната. M40 ВДР маленька, але потужна димова граната. Базується на тій самій основі, що й M40 ФПП. Час до детонації після активації 2 секунди.
+  name: М40 ВДР граната
+  description: Високодимна Розсіювальна граната. М40 ВДР маленька, але потужна димова граната. Базується на тій самій основі, що й М40 ФПП. Час до детонації після активації 2 секунди.
   components:
   - type: OnUseTimerTrigger
     delay: 2
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFrag
-  name: M40 ОФ граната
-  description: Осколково-Фугасна граната. Маленька, але сильна шрапнельна граната яка поступово витісняє М15. Можна зарядити в гранатомет, чи кинути рукою.
+  name: М40 ОФ граната
+  description: Осколково-Фугасна граната. Маленька, але сильна шрапнельна граната яка поступово витісняє М15. Можна зарядити в гранатомет чи кинути рукою. Час до детонації після активації 4 секунди. Намагайтеся не підірвати нею себе чи побратимів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hefa.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFragOld
-  name: M15 осколкова граната
-  description: Застаріла осколкова граната. Ці гранати, що десятиліттями служили КМПООН, потроху замінюються більш безпечними аналогами серії М40. Час детонації після активації становить 4 секунди.
+  name: М15 осколкова граната
+  description: Застаріла осколкова граната. Ці гранати, що десятиліттями служили КМПОН, потроху замінюються більш безпечними аналогами серії М40. Час детонації після активації становить 4 секунди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m15frag.rsi
@@ -282,8 +282,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeTraining
-  name: M07 Навчальна Граната
-  description: Учбова версія гранати М40 ФПП, яка точно не має вибухнути, ТОЧНО. Можна зарядити в гранатомет, чи кинути рукою.
+  name: М07 Навчальна Граната
+  description: Учбова версія гранати М40 ФПП, яка точно не має вибухнути... ТОЧНО. Можна зарядити в гранатомет, чи кинути рукою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m07training.rsi
@@ -302,7 +302,7 @@
   - RMCM40DPTags
   - CMGrenadeBase
   id: RMCGrenadeIncendiary
-  name: M40 ВІРЗ граната
+  name: М40 ВІРЗ граната
   description: Високоімпульсна Розсіювальна Запалювальна граната. М40 ВІРЗ хоч і маленька, але потужна запалювальна граната, призначена для спалення ворогів живцем або зменшення їх мобільності. Час до детонації після активації 4 секунди.
   components:
   - type: Sprite
@@ -337,8 +337,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeIED
-  name: improvised explosive device
-  description: An improvised chemical explosive grenade. Designed to kill through fragmentation.
+  name: саморобний вибуховий пристрій
+  description: Саморобна хімічна вибухова граната. Призначена для вбивства осколками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/ied.rsi

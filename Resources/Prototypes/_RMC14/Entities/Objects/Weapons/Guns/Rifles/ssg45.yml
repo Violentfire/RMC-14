@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleSSG45NoLock
-  name: SSG-45 Assault Rifle
+  name: ССГ-45 бойова гвинтівка
   description: A hard-hitting, prototype assault rifle typically found in the hands of Weston-Yamada’s PMC teams. Exclusively produced in corporate white.
   suffix: No ID Lock
   components:
@@ -169,7 +169,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleSSG45
-  name: "SSG45 magazine (10x24mm)"
+  name: ССГ-45 магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -196,7 +196,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Extended
-  name: "SSG45 extended magazine (10x24mm)"
+  name: ССГ-45 розширений магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -224,7 +224,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45AP
-  name: "SSG45 AP magazine (10x24mm)"
+  name: ССГ-45 ББ магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -250,7 +250,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45HEAP
-  name: "SSG45 HEAP magazine (10x24mm)"
+  name: ССГ-45 ВБ магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Incend
-  name: "SSG45 Incendiary magazine (10x24mm)"
+  name: ССГ-45 запальний магазин (10х24 мм)
   components:
   - type: Tag
     tags:

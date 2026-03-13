@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem]
   id: RMCSmartGunMounted
-  name: ML66D heavy machine gun
-  description: The top half of a ML66D heavy machine gun post. However it ain't much use without the tripod.
+  name: МЛ66Д важкий кулемет
+  description: Верхня половина великокаліберного кулемета MЛ66Д. Однак без триноги вона не дуже корисна.
   components:
   - type: Item
     size: Huge
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCSmartGunMounted
   id: RMCSmartGunMountedStatic
-  name: ML66D heavy machine gun
+  name: МЛ66Д важкий кулемет
   suffix: Scoped
   components:
   - type: MagazineAmmoProvider
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineML66D
-  name: ML66D drum magazine (10x28mm)
-  description: A box of 700, 10x28mm caseless tungsten rounds for the ML66D heavy machine gun system.
+  name: МЛ66Д барабанний магазин (10x28 мм)
+  description: Барабан із 700 безгільзовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д.
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: RMCMagazineML66D
   id: RMCMagazineML66DLarge
-  name: large ML66D drum magazine (10x28mm)
-  description: A box of 1500, 10x28mm caseless tungsten rounds for the ML66D heavy machine gun system.
+  name: МЛ66Д великий барабанний магазин (10x28 мм)
+  description: Барабан із 1500 безгільзовими набоями калібру 10x28 мм для важкої кулеметної системи МЛ66Д. Нащо тобі так багато куль...
   components:
   - type: Tag
     tags:
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeHMG10x28mm
-  name: cartridge (10x28mm)
+  name: набій (10x28 мм)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCCartridgeHMG10x28mm
   id: RMCCartridgeHMG10x28mmOffset #DIfferent muzzle flash location
-  name: cartridge (10x28mm)
+  name: набій (10x28 мм)
   components:
   - type: CartridgeAmmo
     muzzleFlashOffset: 0.25, 0
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mm
-  name: bullet (10x28mm)
+#  name: куля (10x28 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

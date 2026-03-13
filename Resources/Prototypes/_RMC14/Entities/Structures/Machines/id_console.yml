@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCIDComputer
-  name: Identification Computer
-  description: Terminal for programming UNMC employee ID card access.
+  name: ідентифікаційний комп'ютер
+  description: Термінал для керування доступами жетонів чи ID-карток персоналу КМПОН. В теорії може працювати й з картками колоній чи інших угрупувань.
   components:
   - type: IdModificationConsole
     jobList:

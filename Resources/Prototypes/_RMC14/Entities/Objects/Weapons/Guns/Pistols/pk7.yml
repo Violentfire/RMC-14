@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolPK7
-  name: PK-7 electrostatic pistol
-  description: A Weston-Yamada manufactured less-than-lethal pistol. Originally manufactured in the 2080s, the PK-7 electrostatic pistol fires electrically-charged bullets with high accuracy, though its cost and constant need for cleaning makes it a rare sight.
+  name: ПК-7 електростатичний пістолет
+  description: Пістолет виробництва Вестон-Ямада під нелетальне усунення цілей. Спочатку виготовлений у 2080-х роках, електростатичний пістолет ПК-7 стріляє електрично зарядженими кулями з високою точністю, хоча його вартість та постійна потреба в чищенні роблять його рідкісним явищем.
   components:
   - type: Tag
     tags:
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolPK7
-  name: PK-7 electrostatic magazine (9mm)
-  description: Holds 19 rounds of specialized Conductive 9mm. Electrostatic propulsion in the PK-7 functions by propelling an cV9mm round, at a proportionally slower velocity to maintain a higher kinetic energy transfer rate. All this turns a penetrative round into a less-than-lethal round.
+  name: ПК-7 електростатичний магазин (9 мм)
+  description: Вміщує 19 набоїв спеціалізованого кондуктивного калібру 9 мм. Електростатичний рух у ПК-7 працює за рахунок виштовхування набої 9 мм з пропорційно меншою швидкістю для підтримки вищої швидкості передачі кінетичної енергії. Все це перетворює пробивний снаряд на менш смертельний.
   components:
   - type: Tag
     tags:
@@ -81,7 +81,7 @@
 
 - type: entity
   id: RMCCartridgePistol9mmElectrostatic
-  name: electrostatic cartridge (9mm)
+  name: електростатичний набій (9 мм)
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCProjectileTaser
   id: RMCBulletPistol9mmElectrostatic
-  name: electrostatic bullet (9mm)
+#  name: електростатична куля (9 мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

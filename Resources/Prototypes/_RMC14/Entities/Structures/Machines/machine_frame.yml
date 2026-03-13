@@ -1,6 +1,8 @@
 ﻿- type: entity
   parent: UnfinishedMachineFrame
   id: CMMachineFrameUnfinished
+  name: рама машини # Sich
+  description: Машина на стадії будівництва. Потрібно більше деталей. # Sich
   suffix: RMC14, Unfinished
   placement:
     mode: SnapgridCenter
@@ -27,6 +29,8 @@
 - type: entity
   parent: MachineFrame
   id: CMMachineFrame
+  name: рама машини # Sich
+  description: Машина на стадії будівництва. Потрібно більше деталей. # Sich
   suffix: RMC14, Ready
   placement:
     mode: SnapgridCenter
@@ -55,6 +59,8 @@
 - type: entity
   parent: MachineFrameDestroyed
   id: CMMachineFrameDestroyed
+  name: зруйнована рама машини # Sich
+  description: Колись це була машина... Наврядч від цього зараз багато сенсу. # Sich
   suffix: RMC14
   placement:
     mode: SnapgridCenter
@@ -81,7 +87,7 @@
 - type: entity
   parent: CMMachineFrameUnfinished
   id: RMCComputerFrameUnfinished
-  name: computer frame
+  name: каркас комп'ютера
   suffix: RMC14, Unfinished
   placement:
     mode: SnapgridCenter

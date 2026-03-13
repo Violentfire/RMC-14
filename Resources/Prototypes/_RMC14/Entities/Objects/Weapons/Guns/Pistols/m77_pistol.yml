@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolM77
-  name: бойовий пістолет M77 # TODO RMC14 sounds
-  description: Стандартна вогнепальна зброя морської піхоти. Також зустрічається на озброєнні команд ПВК «Ве-Я». Стріляє 9-мм бронебійними кулями і здатна виконувати постріли чергою з 3 набоїв.
+  name: М77 бойовий пістолет # TODO RMC14 sounds
+  description: Стандартна вогнепальна зброя морської піхоти. Також зустрічається на озброєнні команд ПВК Ве-Я. Стріляє 9-мм бронебійними кулями і здатна виконувати постріли чергою з 3 куль.
   components:
   - type: Tag
     tags:
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCWeaponPistolM77
   id: RMCWeaponPistolM77Empty
-  suffix: Пустий
+  suffix: Empty
   components:
   - type: ItemSlots
     slots:
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: M77 ББ магазин (9мм)
+  name: M77 ББ магазин (9 мм)
   components:
   - type: Tag
     tags:
@@ -128,7 +128,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: куля (9мм ББ)
+#  name: бронебійна куля (9мм) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -140,7 +140,7 @@
 
 - type: entity
   id: CMCartridgePistolM77AP
-  name: набій (9 мм ББ)
+  name: ББ набій (9 мм)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

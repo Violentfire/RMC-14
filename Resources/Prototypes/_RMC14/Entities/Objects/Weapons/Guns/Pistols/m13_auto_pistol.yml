@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM13
-  name: M13 автоматичний пістолет
-  description: Автоматичний пістолет M13 - компактна, швидкострільна зброя, розроблена для самозахисту на близькій дистанції. Завдяки магазину на 40 набоїв він робить ставку на швидкість стрільби, а не на точність, забезпечуючи ефективне подавлення противника на коротких відстанях.
+  name: М13 автоматичний пістолет
+  description: Автоматичний пістолет М13 – компактна, швидкострільна зброя, розроблена для самозахисту на близькій дистанції. Завдяки магазину на 40 набоїв він робить ставку на швидкість стрільби, а не на точність, забезпечуючи перетворення супротивника в суміш свинцю з фаршем на близькій дистанції. Стріляє модифікованими 10х20 мм АПК кулями.
   components:
   - type: Tag
     tags:
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13
-  name: M13 ВШ магазин (10x20мм)
+  name: M13 ВШ магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCMagazinePistolM13
   id: RMCMagazinePistolM13AP
-  name: М13 ББ магазин (10x20мм)
+  name: М13 ББ магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Ext
-  name: M13 ВШ розширений магазин (10x20мм)
+  name: M13 ВШ розширений магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13ExtAP
-  name: М13 ББ розширений магазин (10x20мм)
+  name: М13 ББ розширений магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -233,7 +233,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Drum
-  name: M13 ВШ барабанний магазин (10x20мм)
+  name: M13 ВШ барабанний магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -259,7 +259,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13DrumAP
-  name: М13 ББ барабанний магазин (10x20мм)
+  name: М13 ББ барабанний магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeAutoPistol
-  name: cartridge (10x20mm-APC)
+  name: набій (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -299,7 +299,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeAutoPistolAP
-  name: armor-piercing cartridge (10x20mm-APC)
+  name: бронебійний набій (10х20 мм АПК)
   components:
   - type: Tag
     tags:

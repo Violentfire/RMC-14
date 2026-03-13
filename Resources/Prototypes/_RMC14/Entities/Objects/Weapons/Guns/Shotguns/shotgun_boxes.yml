@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot
-  name: коробка з картечними набоями (12 калібр)
-  description: Містить 12-каліберні картечні набої.
+  name: коробка з картечними набоями
+  description: Містить 12-каліберні картечні набої. Винищення всього живого на малій дистанції.
   components:
   - type: Storage
     whitelist:
@@ -162,7 +162,7 @@
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunFlechette
   name: коробка з флешетними набоями
-  description: Містить 12-каліберні набої, начинені дрібними металевими голками - флешетами.
+  description: Містить 12-каліберні набої, начинені дрібними металевими голками – флешетами. Дуже гарно для прошивання ворожої броні.
   components:
   - type: Storage
     whitelist:
@@ -256,8 +256,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot8g
-  name: box of buckshot shells
-  description: A box filled with buckshot spread shotgun shells. 8 Gauge.
+  name: коробка з картечними набоями
+  description: Містить 8-каліберні картечні набої. Винищення всього живого на малій дистанції.
   suffix: 8 Gauge
   components:
   - type: Storage
@@ -286,8 +286,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHeavyBuckshot
-  name: box of heavy buckshot shells
-  description: A box filled with heavy buckshot spread shotgun shells. 8 Gauge.
+  name: коробка з важкими картечними набоями
+  description: Містить важкі 8-каліберні картечні набої. Винищення всього живого на малій дистанції.
   components:
   - type: Storage
     whitelist:
@@ -315,8 +315,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHeavySlugs
-  name: box of heavy slugs shells
-  description: A box filled with heavy shotgun shells. A timeless classic.
+  name: коробка важких кулевих набоїв
+  description: Містить важкі набої з кулею. Безвідмовна класика для точного пострілу.
   components:
   - type: Storage
     whitelist:
@@ -344,8 +344,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHeavyBeanbagSlugs
-  name: box of heavy beanbag slugs shells
-  description: A box filled with heavy beanbag shotgun shells used for non-lethal crowd control. 8 Gauge.
+  name: коробка з важкими травматичними набоями
+  description: Містить важкі 8-каліберні не летальні травматичні набої для контролю натовпу.
   components:
   - type: Storage
     whitelist:
@@ -373,8 +373,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHeavyFlechette
-  name: box of heavy flechette shells
-  description: A box filled with heavy flechette shotgun shells. 8 Gauge.
+  name: коробка з важкими флешетними набоями
+  description: Містить важкі 8-каліберні набої, начинені дрібними металевими голками – флешетами.
   components:
   - type: Storage
     whitelist:
@@ -402,8 +402,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHeavyDragonbreath
-  name: box of dragonbreath buckshot shells
-  description: A box filled with dragonbreath buckshot shotgun shells. 8 Gauge.
+  name: коробка набоїв 'Дихання дракона' з картеччю
+  description: Містит важкі 8-каліберні набої Дихання дракона з картеччю.
   components:
   - type: Storage
     whitelist:

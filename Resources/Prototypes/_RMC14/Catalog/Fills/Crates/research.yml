@@ -7,7 +7,7 @@
 - type: entity
   parent: RMCCrateSecurePhoron
   id: RMCCrateResearchPhoron
-  name: Ящик форону (30 шт.)
+  name: Ящик форону (30 шт)
   components:
   - type: StorageFill
     contents:
@@ -16,7 +16,7 @@
 - type: entity
   parent: RMCCrateSecurePhoron
   id: RMCCrateResearchPlastic
-  name: Ящик пластику (20 шт.)
+  name: Ящик пластику (20 шт)
   components:
   - type: StorageFill
     contents:

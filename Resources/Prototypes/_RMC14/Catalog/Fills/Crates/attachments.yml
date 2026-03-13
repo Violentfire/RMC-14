@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateAttachmentRedDot
   parent: RMCCrateBase
-  name: Ящик прицілів S5 з червоною крапкою (8 шт.)
+  name: Ящик прицілів з червоною крапкою С5 (8 шт)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   id: RMCCrateAttachmentSmartScope
   parent: RMCCrateBase
-  name: Ящик розумних прицілів В8 (4 шт.)
+  name: Ящик розумних прицілів Б8 (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   id: RMCCrateAttachmentRailFlashlight
   parent: RMCCrateBase
-  name: Ящик рейкових ліхтарів (8 шт.)
+  name: Ящик рейкових ліхтарів (8 шт)
   components:
   - type: StorageFill
     contents:
@@ -31,7 +31,7 @@
 - type: entity
   id: RMCCrateAttachmentTelescopicScope
   parent: RMCCrateBase
-  name: Ящик телескопічних прицілів S8 4х (2 шт.)
+  name: Ящик телескопічних прицілів С8 4х (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -41,7 +41,7 @@
 - type: entity
   id: RMCCrateAttachmentMiniScope
   parent: RMCCrateBase
-  name: Ящик міні-телескопічних прицілів S4 2х (2 шт.)
+  name: Ящик телескопічних міні-прицілів С4 2х (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -51,7 +51,7 @@
 - type: entity
   id: RMCCrateAttachmentMagneticHarness
   parent: RMCCrateBase
-  name: Ящик магнітних кріплень (6 шт.)
+  name: Ящик магнітних кріплень (6 шт)
   components:
   - type: StorageFill
     contents:
@@ -61,7 +61,7 @@
 - type: entity
   id: RMCCrateAttachmentSuppressor
   parent: RMCCrateBase
-  name: Ящик глушників (8 шт.)
+  name: Ящик глушників (8 шт)
   components:
   - type: StorageFill
     contents:
@@ -71,7 +71,7 @@
 - type: entity
   id: RMCCrateAttachmentExtendedBarrel
   parent: RMCCrateBase
-  name: Ящик подовжених стволів (6 шт.)
+  name: Ящик подовжених стволів (6 шт)
   components:
   - type: StorageFill
     contents:
@@ -81,7 +81,7 @@
 - type: entity
   id: RMCCrateAttachmentCompensator
   parent: RMCCrateBase
-  name: Ящик компенсаторів віддачі (6 шт.)
+  name: Ящик компенсаторів віддачі (6 шт)
   components:
   - type: StorageFill
     contents:
@@ -91,7 +91,7 @@
 - type: entity
   id: RMCCrateAttachmentForegrip
   parent: RMCCrateBase
-  name: Ящик рукояток (4 шт. кутових, 4 шт. вертикальних)
+  name: Ящик рукояток (4 шт кутових, 4 шт вертикальних)
   components:
   - type: StorageFill
     contents:
@@ -103,7 +103,7 @@
 - type: entity
   id: RMCCrateAttachmentGyro
   parent: RMCCrateBase
-  name: Ящик гіроскопічних стабілізаторів (2 шт.)
+  name: Ящик гіроскопічних стабілізаторів (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -113,7 +113,7 @@
 - type: entity
   id: RMCCrateAttachmentBipod
   parent: RMCCrateBase
-  name: Ящик сошок (6 шт.)
+  name: Ящик сошок (6 шт)
   components:
   - type: StorageFill
     contents:
@@ -123,7 +123,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelShotgun
   parent: RMCCrateBase
-  name: Ящик підствольних дробовиків U7 (4 шт.)
+  name: Ящик підствольних дробовиків П7 (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -133,7 +133,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelExtinguisher
   parent: RMCCrateBase
-  name: Ящик підствольних вогнегасників (4 шт.)
+  name: Ящик підствольних вогнегасників РМВ-12 (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -143,7 +143,7 @@
 - type: entity
   id: RMCCrateAttachmentUnderbarrelFlamer
   parent: RMCCrateBase
-  name: Ящик міні-вогнеметів (4 шт.)
+  name: Ящик підствольних міні-вогнеметів (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -153,7 +153,7 @@
 - type: entity
   id: RMCCrateAttachmentBurstfire
   parent: RMCCrateBase
-  name: Ящик модулів чергового вогню (2 шт.)
+  name: Ящик модулів чергового вогню (2 шт)
   components:
   - type: StorageFill
     contents:
@@ -163,7 +163,7 @@
 - type: entity
   id: RMCCrateAttachmentAllStocks
   parent: RMCCrateBase
-  name: Ящик прикладів (3 шт. кожного, +1 ручна підпора для пістолет-кулемета)
+  name: Ящик прикладів (по 3 шт кожного та 1 шт кріплення на руку)
   components:
   - type: StorageFill
     contents:
@@ -181,7 +181,7 @@
 - type: entity
   id: RMCCrateAttachmentRevolverStock
   parent: RMCCrateBase
-  name: Ящик стрілецьких прикладів М44 Magnum (4 шт.)
+  name: Ящик стрілецьких прикладів М44 Магнум (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -191,7 +191,7 @@
 - type: entity
   id: RMCCrateAttachmentRifleStock
   parent: RMCCrateBase
-  name: Яшик цілісних прикладів М54С (4 шт.)
+  name: Яшик цілісних прикладів М54С (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -201,7 +201,7 @@
 - type: entity
   id: RMCCrateAttachmentShotgunStock
   parent: RMCCrateBase
-  name: Ящик дерев'яних прикладів М42А2 (4 шт.)
+  name: Ящик розкладних прикладів М42А2 (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -211,7 +211,7 @@
 - type: entity
   id: RMCCrateAttachmentSmgStock
   parent: RMCCrateBase
-  name: Ящик цільних прикладів для пістолета-кулемета (4 шт.)
+  name: Ящик цілісних прикладів М63 (4 шт)
   components:
   - type: StorageFill
     contents:

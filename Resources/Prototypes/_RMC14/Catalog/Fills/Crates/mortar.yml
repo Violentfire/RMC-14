@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateWeapons
   id: RMCCrateMortarKit
-  name: Ящик міномета M402 (1 міномет, 1 рюкзак мінометних снарядів)
+  name: Ящик з комплектом міномета М402 (міномет та рюкзак для мін)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: RMCCrateMortarShellHE
-  name: Ящик мінометних снарядів M402 (6 ОФ)
+  name: Ящик мінометних снарядів М402 (6 шт ОФ)
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: RMCCrateMortarShellIncendiary
-  name: Ящик мінометних снарядів M402 (6 запальних)
+  name: Ящик мінометних снарядів М402 (6 шт запальних)
   components:
   - type: StorageFill
     contents:
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: RMCCrateMortarShellFlare
-  name: Ящик мінометних снарядів M402 (6 шт. Фаєр/Камера)
+  name: Ящик мінометних снарядів М402 (6 шт камер)
   components:
   - type: StorageFill
     contents:

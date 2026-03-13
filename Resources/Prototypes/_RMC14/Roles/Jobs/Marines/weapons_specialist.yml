@@ -28,7 +28,7 @@
   - WeaponSpec
   overwatchSortPriority: -4
   overwatchShowName: true
-  overwatchRoleName: Specialist
+  overwatchRoleName: Спеціалісти # Sich, бо це назва
   roleWeight: 1
   displayWeight: 4
   special:

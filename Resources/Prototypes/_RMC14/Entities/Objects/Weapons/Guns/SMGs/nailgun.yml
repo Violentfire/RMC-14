@@ -2,7 +2,7 @@
   parent: CMBaseWeaponSMG
   name: цвяхостріл
   id: WeaponNailgun
-  description: "Столярський інструмент для забивання цвяхів у тверді матеріали. Але якщо перед ним нічого немає - це просто цвях, який летить тобі в лоба на шаленій швидкості."
+  description: Столярський інструмент для забивання цвяхів у тверді матеріали. Але якщо перед ним нічого немає – це просто цвях, який летить тобі в лоба на шаленій швидкості.
   suffix: Filled
   components:
   - type: Sprite
@@ -75,8 +75,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGNailgun
-  name: "магазин цвяхостріла (7x45 мм)"
-  description: "Магазин великих пласталевих цвяхів. Через високу ціну їх рідко використовують у військових цілях - лише для специфічних будівельних задач."
+  name: магазин цвяхостріла (7x45 мм)
+  description: Магазин великих пласталевих цвяхів. Через високу ціну їх рідко використовують у військових цілях - лише для специфічних будівельних задач.
   components:
   - type: Tag
     tags:
@@ -108,7 +108,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridge7x45mm
-  name: nail (7x45mm)
+  name: цвях (7x45 мм)
   components:
   - type: Tag
     tags:

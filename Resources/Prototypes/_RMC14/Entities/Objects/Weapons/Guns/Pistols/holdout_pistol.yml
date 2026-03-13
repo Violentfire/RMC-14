@@ -85,7 +85,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol22mm
-  name: куля (.22)
+#  name: куля (.22) – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

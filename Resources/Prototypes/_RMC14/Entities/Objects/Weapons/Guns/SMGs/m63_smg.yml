@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: M63 пістолет-кулемет
+  name: М63 пістолет-кулемет
   id: WeaponSMGM63
-  description: Пістолет-кулемет Aegis Battlefield Armaments M-63. Зазвичай використовується у легкій піхоті, медикі та розвідці.
+  description: Пістолет-кулемет виробництва ЕГІДА Армаментс. Зазвичай використовується у легкій піхоті, медиками та розвідкою. Найбільш ефективний на близькій дистанції, в той час як на середній-дальній майже не наносить пошкоджень. Використовує безгільзові набої 10х20 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63/desert.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineSMGM63
-  name: "M63 ВШ магазин (10x20мм)"
+  name: М63 ВШ магазин (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63AP
-  name: "M63 ББ магазин (10x20мм)"
+  name: М63 ББ магазин (10х20 мм)
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63HEAP
-  name: "M63 HEAP magazine (10x20mm)"
+  name: М63 ВБ магазин (10х20 мм) # Sich. ВБ (HEAP) – ВибуховоБронебійні
   suffix: HEAP
   components:
   - type: BallisticAmmoProvider
@@ -231,7 +231,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63WP
-  name: "M63 WP magazine (10x20mm)"
+  name: М63 СП магазин (10х20 мм) # Sich. СП(WP) – СтіноПробивні
   suffix: WP
   components:
   - type: BallisticAmmoProvider
@@ -258,7 +258,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63Incendiary
-  name: "M63 incendiary magazine (10x20mm)"
+  name: М63 запальний магазин (10х20 мм)
   suffix: Incendiary
   components:
   - type: BallisticAmmoProvider
@@ -285,7 +285,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63Ext
-  name: "M63 розширений магазин (10x20мм)"
+  name: М63 розширений магазин (10х20 мм)
   components:
   - type: BallisticAmmoProvider
     capacity: 72
@@ -304,7 +304,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: CMCartridge10x20mm
-  name: гільза (10x20мм)
+  name: набій (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge10x20mmAP
-  name: ББ гільза (10x20mm)
+  name: ББ набій (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmHEAP
-  name: HEAP cartridge (10x20mm)
+  name: ВБ набій (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -340,7 +340,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmWP
-  name: WP cartridge (10x20mm)
+  name: СП набій (10х20 мм)
   components:
   - type: Tag
     tags:
@@ -352,7 +352,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmIncendiary
-  name: incendiary cartridge (10x20mm)
+  name: запальний набій (10х20 мм)
   components:
   - type: Tag
     tags:

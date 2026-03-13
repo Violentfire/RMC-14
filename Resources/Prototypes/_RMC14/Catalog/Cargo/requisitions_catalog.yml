@@ -6,7 +6,7 @@
     speechVerb: Robotic
   - type: RequisitionsComputer
     categories:
-    - name: Набої
+    - name: Амуніція
       entries:
       - cost: 2000
         crate: RMCCrateBoxBulletsSMG
@@ -283,11 +283,11 @@
         crate: RMCCrateMortarShellFlare
 #    - name: Operations
 #      entries: []
-    - name: Танкери з рідинами
+    - name: Танкери
       entries:
       - cost: 2000
         crate: RMCTankReagentFuel
-    - name: Наука
+    - name: Наукове
       entries:
       - cost: 3000
         crate: RMCCrateResearchPhoron
@@ -339,7 +339,7 @@
 #        crate: RMCCrateML66D
 #      - cost: 6000
 #        crate: RMCCrateM2C
-    - name: Спеціальні Набої
+    - name: Спеціальна Амуніція
       entries:
       - cost: 4000
         crate: RMCCrateMagazineM96SMixed
