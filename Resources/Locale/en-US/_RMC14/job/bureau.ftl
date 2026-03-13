@@ -15,6 +15,9 @@ rmc-ghost-name-bureau-deputy = Помічник БКМ (Дружні)
 rmc-job-name-bureau-deputy = Помічник БКМ
 rmc-job-prefix-bureau-deputy = ПОМ БКМ
 
+rmc-job-name-bureau-riot-control-team-leader = CMB Riot Control Team Leader
+rmc-job-prefix-bureau-riot-control-team-leader = CMB RCTL
+
 rmc-ghost-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі (Дружні)
 rmc-job-name-bureau-observer = Спостерігач за Правами Розумних Істот в Міжзоряному Просторі
 rmc-job-prefix-bureau-observer = СПВ

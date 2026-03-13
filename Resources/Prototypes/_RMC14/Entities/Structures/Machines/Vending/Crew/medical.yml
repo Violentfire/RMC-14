@@ -28,22 +28,59 @@
       takeAll: CMMedicalSet
       entries:
       - id: RMCVendorBundleCrewMedicalEssentialsDoctor
-    - name: Medical Set (Mandatory)
+    - name: "Медичний набір (обов'язково)"
       jobs:
       - CMNurse
       takeAll: CMMedicalSet
       entries:
       - id: CMVendorBundleCrewMedicalEssentialsNurse
     - name: Стандартне екіпірування
+      jobs: # Sich
+      - CMNurse
+      - CMDoctor
+      - CMResearcher
+      - CMCMO
       takeAll: CMStandard
       entries:
       - id: CMHandsLatex
       - id: CMHeadsetMedical
+    - name: Стандартне екіпірування # Sich
+      jobs:
+      - RMCFieldDoctor
+      takeAll: CMStandard
+      entries:
+      - id: CMHandsLatex
+      - id: CMHeadsetMedical
+      - id: CMMRE
+      - id: RMCBinoculars
+      - id: RMCMotionDetectorCompact
+      - id: CMBootsBlackFilled
     - name: Окуляри
       choices: { CMEyewear: 1 }
       entries:
       - id: RMCGlassesMedicalHUDGlasses
+      - id: RMCGlassesReagentHUDGlasses # Sich
 #      - id: Prescription Medical HUD Glasses
+    - name: Броня # Sich
+      jobs:
+      - RMCFieldDoctor
+      choices: { CMArmor: 1 }
+      entries:
+      - id: RMCArmorVestOfficer
+      - id: RMCArmorM3LightVariants
+        recommended: true
+      - id: CMArmorM3VLBallistics
+        recommended: true
+    - name: Зброя # Sich
+      jobs:
+      - RMCFieldDoctor
+      choices: { RMCKitBase: 1 }
+      entries:
+      - id: RMCGunCasePistolSmart
+        recommended: true
+      - id: RMCGunCasePistolMK80
+      - id: RMCM42A2ShotgunCase
+      - id: RMCWeaponPistolM82FEmpty # Це теж зброя :godo:
     - name: Уніформа
       choices: { CMUniform: 1 }
       entries:
@@ -100,6 +137,11 @@
       - id: CMSatchelMedical
         replaceSlot: back
     - name: Підсумки
+      jobs: # Sich
+      - CMNurse
+      - CMDoctor
+      - CMResearcher
+      - CMCMO
       choices: { RMCPouch: 2 }
       entries:
       - id: RMCPouchAutoinjector
@@ -132,9 +174,44 @@
         recommended: true
         name: Pressurized Reagent Canister Pouch\n(EMPTY)
       - id: RMCPouchSling
+    - name: Підсумки # Sich
+      jobs:
+      - RMCFieldDoctor
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: підсумок з герметичною каністрою\n(Суміш для реанімації - Трикодразин)
+        recommended: true
+      - id: RMCPouchFlareFilled
+        recommended: true
+#     - id: CMPressurizedReagentCanisterPouchPeridaxonRevivalMix
+#       name: Pressurized Reagent Canister Pouch\n(Revival Mix - Peridaxon)
+#       recommended: true
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchReagentCanisterBicaridine
+        name: підсумок з герметичною каністрою\n(Бікаридин)
+      - id: RMCPouchReagentCanisterKelotane
+        name: підсумок з герметичною каністрою\n(Келотан)
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: підсумок з герметичною каністрою\n(Трикодразин)
+      - id: RMCPouchReagentCanister
+        name: підсумок з герметичною каністрою\n(Порожній)
+      - id: RMCPouchVialFill
+        name: підсумок для пробірок (Повний)
+      - id: RMCPouchMedkit
+      - id: RMCPouchGeneralLarge
+      - id: RMCPouchSling
+      - id: RMCPouchMagazinePistolLarge
+      - id: RMCPouchMagazine
+      - id: RMCPouchShotgun
+      - id: RMCPouchPistol
     - name: Жилети
       choices: { CMAccessories: 1 }
       entries:
+      - id: CMWebbingSurgicalGreen # Sich
+        recommended: true
+      - id: CMWebbingSurgicalBlue # Sich
+        recommended: true
       - id: CMWebbingBrown
       - id: CMWebbingBlack
       - id: RMCWebbingLegPouch
@@ -143,3 +220,42 @@
       - id: RMCWebbingBlackSmall
       - id: RMCWebbingDropPouch
       - id: RMCWebbingDropPouchBlack
+    - name: Маски # Sich
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskSterile
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+    - name: Додаткове обладнання # Sich
+      jobs:
+      - RMCFieldDoctor
+      entries:
+      - id: CMMiniTank
+        points: 3
+      - id: RMCWhistle
+        points: 5
+      - id: RMCPouchMacheteFilled
+        points: 10
+      - id: RMCScabbardMacheteFilled
+        points: 5
+      - id: RMCBackpackRTO
+        points: 10
+      - id: RMCLaserDesignator
+        points: 15
+      - id: CMPamphletEngineer
+        points: 15
+      - id: CMPamphletJTAC
+        points: 15
+      - id: CMEncryptionKeyJTAC
+        points: 3
+      - id: RMCAttachmentExtendedBarrel
+        points: 6
+      - id: RMCAttachmentS6ReflexSight
+        points: 6
+      - id: RMCAttachmentLaserSight
+        points: 6
+      - id: RMCAttachmentRailFlashlight
+        points: 3
+      - id: RMCCaseFlamer # Простий натяк
+        points: 45

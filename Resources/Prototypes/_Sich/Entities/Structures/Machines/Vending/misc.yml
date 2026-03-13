@@ -1,0 +1,157 @@
+# Нащо страждати з РМСним, якщо можна зробити власний?
+## ТОДО: Коли РМСи все ж додадуть систему його поповнення – адаптувати/перенести її сюди
+- type: entity
+  parent: ColMarTechBase
+  id: SichColMarTechFOBSupplies
+  name: КолМорТех Автоматична Стійка Припасів ПОБа
+  description: Автоматична стійка з припасами для потреб ПОБу.
+  components:
+  - type: ApcPowerReceiver
+    powerLoad: 0
+    needsPower: false
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
+  - type: CMAutomatedVendor # Без обмежень по доступу, бо ПОБ
+    hackable: false
+    ejectContentsOnDestruction: false # Будь ласка ні, бо серверу погано, коли тут не 1,5 стільця... А ще воно чомусь висипає й коробки, й магазини які б в них пішли.
+    sections:
+    - name: Зброя
+      entries:
+      - id: RMCWeaponRifleM54C
+        amount: 6
+      - id: WeaponSMGM63
+        amount: 6
+      - id: WeaponRifleM4SPR
+        amount: 2
+      - id: WeaponShotgunM42A2
+        amount: 3
+      - id: RMCWeaponRevolverM44Empty
+        amount: 5
+      - id: CMWeaponPistolM1984Empty
+        amount: 3
+      - id: RMCWeaponPistolM13Empty
+        amount: 3
+      - id: RMCWeaponPistolM82FEmpty
+        amount: 2
+      - id: RMCM5Bayonet
+        amount: 10
+    - name: Амуніція
+      entries:
+      - id: CMMagazineRifleM54C
+        amount: 30
+      - id: CMMagazineSMGM63
+        amount: 25
+      - id: CMMagazineRifleM4SPR
+        amount: 16
+      - id: RMCBoxShotgunBuckshot
+        amount: 8
+      - id: RMCBoxShotgunSlugs
+        amount: 4
+      - id: RMCBoxShotgunFlechette
+        amount: 4
+      - id: RMCSpeedLoaderM44
+        amount: 16
+      - id: CMMagazinePistolM1984
+        amount: 16
+      - id: RMCMagazinePistolM13
+        amount: 22
+    - name: Ящики з Амуніцією
+      hasBoxes: true
+      entries:
+      - id: RMCBoxMagazineRifleM54C
+        box: CMMagazineRifleM54C
+      - id: RMCBoxMagazineSMGM63
+        box: CMMagazineSMGM63
+      - id: RMCBoxMagazineRifleM4SPR
+        box: CMMagazineRifleM4SPR
+      - id: RMCBoxShellsBuckshot
+        box: RMCBoxShotgunBuckshot
+        boxAmount: 4
+      - id: RMCBoxShellsSlugs
+        box: RMCBoxShotgunSlugs
+        boxAmount: 4
+      - id: RMCBoxShellsFlechette
+        box: RMCBoxShotgunFlechette
+        boxAmount: 4
+      - id: RMCBoxMagazineRevolverM44
+        box: RMCSpeedLoaderM44
+      - id: RMCBoxMagazinePistolM1984
+        box: CMMagazinePistolM1984
+      - id: RMCBoxMagazinePistolM13
+        box: RMCMagazinePistolM13
+      - id: RMCBoxBulletsRifle
+        box: CMMagazineRifleM54C
+        boxSlots: 15 # 600 / 40
+      - id: RMCBoxBulletsSMG
+        box: CMMagazineSMGM63
+        boxSlots: 13 # 600 / 48, та, ми втрачаємо половину магазина внікуди
+    - name: Матеріали
+      entries:
+      - id: CMSheetMetal50
+        amount: 2
+      - id: CMSheetPlasteel40
+        amount: 1
+      - id: BarbedWire10
+        amount: 2
+      - id: CMSandbagEmpty50
+        amount: 1
+      - id: RMCSheetCardboard25
+        amount: 1
+    - name: Додаткове Обладнання
+      entries:
+      - id: RMCMotionDetector
+        amount: 2
+      - id: RMCIntelDetector
+        amount: 1
+      - id: RMCBinoculars
+        amount: 2
+      - id: RMCFulton20
+        amount: 1
+      - id: RMCSentryLaptop
+        amount: 1
+      - id: CMEntrenchingTool
+        amount: 2
+      - id: RMCScabbardMacheteFilled
+        amount: 3
+      - id: RMCBoxMRE
+        amount: 1
+    - name: Освітлення
+      entries:
+      - id: RMCBoxPackFlare
+        amount: 1
+      - id: RMCBoxFlashlights
+        amount: 3
+      - id: RMCPackFlareCAS
+        amount: 1
+    - name: Броня
+      entries:
+      - id: ArmorHelmetM10
+        amount: 5
+      - id: CMArmorHelmetM10Tech
+        amount: 3
+      - id: CMArmorHelmetM10Medic
+        amount: 2
+      - id: RMCArmorM3HeavyPadded
+        amount: 2
+      - id: RMCArmorM3MediumSmooth
+        amount: 5
+      - id: RMCArmorM3LightPadded
+        amount: 3
+      - id: RMCArmorVestSquad
+        amount: 2
+    - name: Меблі
+      entries:
+      - id: BedrollFolded
+        amount: 10
+      - id: CMRollerBedSpawnFolded
+        amount: 2
+      - id: RMCTablePartTan
+        amount: 5
+      - id: RMCRackParts
+        amount: 5
+      - id: CMClipboard
+        amount: 3
+      - id: CMPen
+        amount: 3
+      - id: CMChairFolded
+        amount: 5

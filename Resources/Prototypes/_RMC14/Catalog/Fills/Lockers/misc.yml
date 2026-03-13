@@ -132,15 +132,21 @@
     - id: RMCMagazinePistolPK7
     - id: RMCMagazinePistolPK7
 
-- type: entity
-  parent: CMLockerBase
+- type: entity # Sich. Ця шафа фактично поглинула в себе частину речей з RMCCrateFieldDoctor, а частину віддала вендору. Вміст змінений.
+  parent: CMLockerMedical
   id: RMCLockerFieldDoctor
+  name: шафа польового лікаря # Sich
   suffix: Filled, Field Doctor
   components:
   - type: StorageFill
     contents:
-    - id: CMArmorM3VLBallistics
     - id: RMCArmorHelmetM10FieldDoctor
     - id: RMCPatchMedic
-    - id: CMBootsBlack
-    - id: CMMRE
+    - id: RMCPortableDialysis
+    - id: CMPortableSurgicalBedSpawnFolded
+    - id: RMCBoxSterileMask
+    - id: RMCBoxLatexGloves
+    - id: RMCSprayBottleSpaceCleaner
+    - id: CMMaskGasMedical
+    - id: CMEntrenchingTool
+    - id: RMCToolboxMechanicalFilled
