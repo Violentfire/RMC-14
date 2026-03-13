@@ -1,68 +1,68 @@
 # Auxiliary Support
-highlights-auxiliary-support-officer = Auxiliary Support Officer, "ASO", Auxiliary Support, "Intel", Flight Crew
-highlights-dropship-crew-chief = Dropship Crew Chief, "DCC", Alamo, Normandy, Flight Crew, Dropship, "Evac", Evacuation, Medevac, Fulton, "JTAC"
-highlights-dropship-pilot = Dropship Pilot, "DP", Pilot, Alamo, Flight Crew, Dropship, "Evac", Evacuation, Medevac, Fulton, "JTAC"
-highlights-gunship-pilot = Gunship Pilot, "GP", Pilot, Normandy, Flight Crew, Gunship, "CAS", Medevac, Fulton, "JTAC"
-highlights-intelligence-officer = Intelligence Officer, "IO", "Intel", Intelligence, Survivors
-highlights-senior-enlisted-advisor = Senior Enlisted Advisor, "SEA", New Recruit, E1, New Player, Training, Mentor
+highlights-cmauxiliarysupportofficer = Офіцер Підтримки, "ОП", ЛТ, Лейтенант, Команд, Підтримка, Інтел, Розвідк, Поїнти, Поінти, Доки, Документи, Папірці, Нормандія, Нормі, Аламо, "БАП", КАС", "БПП", Мітк, Медевак, Фултон, "КАТА", Евак, Евакуація, Постачання, "Карго", Логістика, Саплай, "Скид", Ящик, Бюджет, Патрони, БК, Бойовий Інформаційний Центр, "БІЦ", Команд, Овервотч, "ОВ", Апеляц, Королева, Квіна, Краля, "ОБ", Коорди, Корди, Координати, Лярва, "ПОБ", Зв'язок, Такмап, Мап, Телефон, "TECH REPORT", "ЛЗ", Командувач, Штаб
+highlights-cmdropshipcrewchief = Помічник, Пілот, "ПП", Нормандія, Нормі, Аламо, "БАП", КАС", "БПП", Мітк, Медевак, Фултон, "КАТА", Евак, Евакуація
+highlights-cmpilotdropship = Пілот, Транспортного, Шатла, "ПТ", Ворент, Офіцер, Нормандія, Нормі, Аламо, "БАП", КАС", "БПП", Мітк, Медевак, Фултон, "КАТА", Евак, Евакуація
+highlights-cmpilotgunship = Пілот, Бойового, Шатла, "БП", Ворент, Офіцер, Нормандія, Нормі, Аламо, "БАП", КАС", "БПП", Мітк, Медевак, Фултон, "КАТА", Евак, Евакуація
+highlights-cmintelofficer = Офіцер, Розвідк, "ОР", ЛТ, Лейтенант, Інтел, "TECH REPORT", Виживші, Виживший, Колоніст, Сурв, Виживш, Вціліл, Поїнти, Поінти, Доки, Документи, Папірці
+highlights-cmseniorenlistedadvisor = Інструктор, "ІНС", Рекрут, Е1, Новий Гравець, Тренування, Ментор, Рядовий, Новачок
 
 # Command
-highlights-commanding-officer = Commanding Officer, "CO", Major, Lieutenant Colonel, Colonel, Combat Information Center, "CIC", Command, Overwatch, "OW", Appeal, Queen, "OB", Coords, Coordinates, Supply, Loose, Burst, "FOB", Comms, Tacmap, Map, "Intel", Phone, "TECH REPORT", "SL", Commander
-highlights-executive-officer = Executive Officer, "XO", Captain, "Cap", Combat Information Center, "CIC", Command, Overwatch, "OW", Appeal, Queen, "OB", Coords, Coordinates, Supply, Loose, Burst, "FOB", Comms, Tacmap, Map, "Intel", Phone, "TECH REPORT", "SL", Commander
-highlights-staff-officer = Staff Officer, "SO", Combat Information Center, "CIC", Command, Overwatch, "OW", Appeal, Queen, "OB", Coords, Coordinates, Supply, Loose, Burst, "FOB", Comms, Tacmap, Map, Phone, "TECH REPORT", "SL", Commander
+highlights-cmcommandingofficer = Командуючий, Офіцер, "КО", Майор, Підполковник, Полковник, Бойовий Інформаційний Центр, "БІЦ", Команд, Овервотч, "ОВ", Апеляц, Королева, Квіна, Краля, "ОБ", Коорди, Корди, Координати, Постачання, Скид, Саплай, Лярва, "ПОБ", Зв'язок, Такмап, Мап, Інтел, Телефон, "TECH REPORT", "ЛЗ", Командувач, Штаб
+highlights-cmexecutiveofficer = Виконавчий, Офіцер, "ВО", Капітан, "Кеп", Бойовий Інформаційний Центр, "БІЦ", Команд, Овервотч, "ОВ", Апеляц, Королева, Квіна, Краля, "ОБ", Коорди, Корди, Координати, Постачання, Скид, Саплай, Лярва, "ПОБ", Зв'язок, Такмап, Мап, Інтел, Телефон, "TECH REPORT", "ЛЗ", Командувач, Штаб
+highlights-cmstaffofficer = Штабний, Офіцер, "ШО", ЛТ, Лейтенант, Бойовий Інформаційний Центр, "БІЦ", Команд, Овервотч, "ОВ", Апеляц, Королева, Квіна, Краля, "ОБ", Коорди, Корди, Координати, Постачання, Скид, Саплай, Лярва, "ПОБ", Зв'язок, Такмап, Мап, Інтел, Телефон, "TECH REPORT", "ЛЗ", Командувач, Штаб
 
 # Requisitions
-highlights-logistics-officer = Logistics Officer, "LO", Requisitions, "Req", Command, Supply, "Drop", Crate, Budget, Ammo
-highlights-requisitions-technician = Requisitions Technician, Req Technician, Requisitions Tech, Req Tech, "RT", Requisitions, "Req", Supply, "Drop", Crate, Budget, Ammo
+highlights-cmquartermaster = Офіцер, Логістики, "ОЛ", ЛТ, Лейтенант, Постачання, "Карго", Команд, Логістика, Саплай, "Скид", Ящик, Бюджет, Патрони, БК
+highlights-cmcargotech = Вантажник, "ВНТ", Постачання, "Карго", Логістика, Саплай, "Скид", Ящик, Бюджет, Патрони, БК
 
 # Engineering
-highlights-chief-engineer = Chief Engineer, "CE", Engineering, Engineer, "Engi", Command, "OB", "OT"
-highlights-maintenance-technician = Maintenance Technician, "MT", Engineering, Engineer, "Engi", "OB"
-highlights-ordnance-technician = Ordnance Technician, "OT", Engineering, Engineer, "Engi", "OB"
+highlights-cmchiefengineer = Головний Інженер, "ГІ", Офіцер, ЛТ, Лейтенант, Інженерний, Інженер, Інж, Команд, "ОБ", Барикад, Сталь
+highlights-cmmainttech = Обслуговуючий Інженер, "ОІ", Інженерний, Інженер, Інж, "ОБ", Барикад, Сталь
+highlights-cmordnancetech = Інженер-Зброяр, "ІЗ", Інженерний, Інженер, Інж, "ОБ", Барикад, Сталь
 
 # Medical
-highlights-chief-medical-officer = Chief Medical Officer, "CMO", Medical, MedBay, "Med", Infected, Surgery, "Chem", "Chems", Pill, Command
-highlights-doctor = Doctor, "Doc", Medical, MedBay, "Med", Infected, Surgery, "Chem", "Chems", Pill
-highlights-nurse = Nurse, Medical, MedBay, "Med", Infected, Surgery, "Chem", "Chems", Pill
-highlights-researcher = Researcher, Research, Science, "Sci", "Chem", "Chems"
+highlights-cmcmo = Головний, Лікар, "ГЛ", Офіцер, ЛТ, Лейтенант, Медичний, Мед, Заражен, Операція, Тіл, Морг, Хім, "Ліки", Пігулк, Команд, "ЗЛ"
+highlights-cmdoctor = Лікар, "ЛКР", Медичний, Мед, Заражен, Операція, Тіл, Морг, Хім, "Ліки", Пігулк, "ЗЛ"
+highlights-cmnurse = Медичний, Помічник, "МДПМ", Медичний, Мед, Заражен, Операція, Тіл, Морг, Хім, "Ліки", Пігулк, "ЗЛ"
+highlights-cmresearcher = Науковець, "НАУК", Медичний, Мед, Рісерч, Дослідження, Дослідник, Наука, Хім, "Ліки"
 
 # Military Police
-highlights-chief-mp = Chief MP, "CMP", "MP", "MPs", "MW", "Alert", Brig, "Perma", Loose, Burst, Colonist, Survivor, "SOP", Arrest, Detain, Appeal, "Command", Execution, Executed
-highlights-military-warden = Military Warden, Warden, "CMP", "MP", "MPs", "MW", "Alert", Brig, "Perma", Loose, Burst, Colonist, Survivor, "SOP", Arrest, Detain, Appeal, Execution, Executed
-highlights-military-police = Military Police, "CMP", "MP", "MPs", "MW", "Alert", Brig, "Perma", Loose, Burst, Colonist, Survivor, "SOP", Arrest, Detain, Appeal, Execution, Executed
-highlights-provost-inspector = Provost Inspector, Inspector, @"PvI", "CMP", "MP", "MPs", "MW", "Alert", Brig, "Perma", Loose, Burst, Colonist, Survivor, "SOP", "Mlaw", Marine Law, Arrest, Detain, Appeal, Execution, Executed
+highlights-cmchiefmp = Голова ВСП, "ГВСП", Офіцер, ЛТ, Лейтенант,  "ВСП", "ВП", "ВН", "Тривога", Бріг, Бриг, "Перма", Лярва, Колоніст, Сурв, Виживший, "СОП", Арест, Затрим, Апеляц, Команд
+highlights-cmmilitarywarden = Військовий Наглядач, Наглядач, "ГВСП", "ВСП", "ВП", "ВН", "Тривога", Бріг, Бриг, "Перма", Лярва, Колоніст, Сурв, Виживш, Вціліл, "СОП", Арешт, Затрим, Апеляц
+highlights-cmmilitarypolice = Військовий Поліціянт, "ГВСП", "ВСП", "ВП", "ВН", "Тривога", Бріг, Бриг, "Перма", Лярва, Колоніст, Сурв, Виживш, Вціліл, "СОП", Арешт, Затрим, Апеляц
+highlights-provost-inspector = Інспектор Провосту, Інспектор, @"ІнП", "ГВСП", "ВСП", "ВН", "Тривога", Бриг, "Перма", Лярва, Сурв, Виживш, Вціліл, "СОП", Морське Право, Прав, Арешт, Затрим, Апеляц, Страта, Страчено
 
 # Other
-highlights-corporate-liaison = Corporate Liaison, "CL", Liaison, Weston-Yamada, Weston Yamada, "WeYa", We-Ya
-highlights-correspondent = Correspondent, "CC", News
-highlights-mess-technician = Mess Technician, "MST", Mess Tech, "Mess", Kitchen, Food, Hungry
+highlights-cmliaison = Представник Корпорації, "ПК", Представник, Вестон-Ямада, Вестон Ямада, Ве-Я, Вея, Договір, Папір, Печатка, Сурв, Колоніст, Виживш, Вціліл
+highlights-cmcorrespondent = Кореспондент, "ПРЕСС", Новин, Преса, Пресса, Журналіст, Журналюг, Камера, Засняв
+highlights-cmmesstech = Кок, Кухня, Їжа, Жрать, Їсти, М'ясо, Сніданок, Обід, Вечеря
 
 # Marines
-highlights-squad-leader = Squad Leader, "SL", Command, Queen, "OB", Coords, Coordinates, Supply, Tacmap, Comms, Map, "FT", Fireteam, Squad
-highlights-fireteam-leader = Fireteam Leader, "FTL", "JTAC", "CAS", Normandy, "FT", Fireteam, Coords, Coordinates, "SL", Command
-highlights-smart-gun-operator = Smart Gun Operator, "SGO", "SG", "SL", Command
-highlights-weapons-specialist = Weapons Specialist, "WS", "SADAR", Grenadier, Scout, Pyro, "AMR", Sniper, "SL", Command
-highlights-combat-technician = Combat Technician, "CT", "ComTech", Engineer, Barricade, Cade, "SL", Command
-highlights-hospital-corpsman = Hospital Corpsman, "HM", Corpsman, "Medic", Injured, Infected, Hugged, "SL", Command
-highlights-rifleman = Rifleman, "RFN", "SL", Command
+highlights-cmsquadleader = Лідер, Загону, "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ", Коорди, Корди, Координати, Постачання, Саплай, Дроп, "КАТА", "БАП", "КАС", "БПП", Такмап, Зв'язок, Мап, "ВГ", Вогнева, Група, Загін
+highlights-cmfireteamleader = Лідер, Вогневої Групи, "ЛВГ", "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ", Коорди, Корди, Координати, Постачання, Саплай, Дроп, "КАТА", "БАП", "КАС", "БПП", Нормандія, Нормі, Міномет, Такмап, Зв'язок, Мап, "ВГ", Вогнева, Група, Загін
+highlights-cmsmartgunoperator = Оператор СмартГана, "СГО", "СГ", Смарт,"ЛЗ", Команд, Королева, Краля, Квіна, "ОБ" , Вогнева, Група, Загін
+highlights-cmweaponsspecialist = Збройний Спеціаліст, "ЗС", Спец, "САДАР", "Труба", Ракетник, Демо, Гренадер, Скаут, Скутер, Піротехнік, Піро, Пайро, "АМГ", "АМР", Снайпер, "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ" , Вогнева, Група, Загін
+highlights-cmcombattech = Бойовий Технік, "БТ", Інженер, Інж, Барикад, "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ" , Вогнева, Група, Загін
+highlights-cmhospitalcorpsman = Бойовий Медик, "БМ", Лікар, Медик, Поранен, Заражений, "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ" , Вогнева, Група, Загін
+highlights-cmrifleman = Стрілець, "СТЛ", "ЛЗ", Команд, Королева, Краля, Квіна, "ОБ" , Вогнева, Група, Загін
 
 # Xenonids
 
-highlights-boiler = Boiler, "Pat"
-highlights-burrower = Burrower, "Pat", Tunnel, "Weed", Trap, Traps
-highlights-carrier = Carrier, "Pat", Parasite, "Weed", Cluster, Morpher, "Infect", Trap, Traps, Capture, child, children
-highlights-crusher = Crusher, "Pat"
-highlights-defender = Defender, "Pat"
-highlights-drone = "Drone", "Pat", "Weed", Cluster, Heal, Capture
-highlights-hivelord = Hivelord, "Pat", "Weed", Cluster
-highlights-larva = Larva, "Pat"
-highlights-lesser-drone = "Lesser Drone", "Pat", "Lesser", "Weed"
-highlights-lurker = Lurker, "Pat"
-highlights-parasite = Parasite, "Infect", child, children
-highlights-praetorian = Praetorian, "Pat"
-highlights-queen = "Queen", "Mom", "Mother", "Tall Lurker", "Tuber"
-highlights-ravager = Ravager, "Pat"
-highlights-runner = Runner, "Pat", Capture
-highlights-sentinel = Sentinel, "Pat"
-highlights-spitter = Spitter, "Pat"
-highlights-warrior = Warrior, "Pat"
+highlights-cmxenoboiler = Бойлер, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenoburrower = Копач, Буро, Тонель, Тунель, Пастк, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenocarrier = Носій, Носійка, Яйцетворчий, Паразит, Дитя, Діти, Зарази, Пастк, Захоп, Яйц, Морфер, Яйцетворець, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenocrusher = Руйнівник, Руйнівниц, Крашер, Чарджер, Бойовий, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenodefender = Захисник, Захисниц, Деф, Фендер, Сталев, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenodrone = Дрон, Лік, Бери, Лікувальник, Цілитель, Лікарка, Лікувальниця, Садівниця, Садівник, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenohivelord = Володар, Лорд, Трав'яний повелитель, Шептун, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenolarva = Лярва, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenolesserdrone = Малий, Дрон, Лессер, Лесер, Малий, Мала, Заповни, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenolurker = Мисливець, Люркер, Люрк, Вампір, Кровосіся, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenoparasite = Паразит, Пара, Дитя, Діти, Спостерігач, Зараз, Стрибай, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenopraetorian = Преторіанець, Претор, Валя, Валькірія, Валька, Вальку, Авангард, Вангард, Опресор, Опрессор, Гнобитель, Дансер, Денсер, Танцівник, Танцівниця, Танцюрист, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenoqueen = "Королева", Мам, Мат, Крик, Ові, Кладк, Трав, Пілон, Кластер, Ядро, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenoravager = Спустошувач, Рава, Берсерк, Зерк, Їжак, Хедж, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenorunner = Бігун, Ранер, Руня, Кислот, Бери, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenosentinel = Вартовий, Плювака, Сенті, Сентінель, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenospitter = Плювака, Спіттер, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш
+highlights-cmxenowarrior = Воїн, Вогонь, "Люркер", "Труба", Птах, "Обійми", Туш

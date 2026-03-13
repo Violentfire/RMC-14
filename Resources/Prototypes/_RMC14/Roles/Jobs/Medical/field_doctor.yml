@@ -27,6 +27,9 @@
         RMCSkillFireman: 1
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
+    - type: CMVendorUser # Sich
+      id: RMCFieldDoctor
+      points: 45
     - type: RMCUserBulkyArmorIncapable
     - type: JobPrefix
       prefix: rmc-job-prefix-field-doctor

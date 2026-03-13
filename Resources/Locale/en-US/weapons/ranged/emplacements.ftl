@@ -4,9 +4,12 @@ emplacement-mount-anchored-examine = Прикріпіть [color={$color}]важ
 emplacement-mount-weapon-secured-examine = Використайте [color={$color}]викрутку[/color], щоб відкріпити кулемет для перенесення.
 emplacement-mount-too-close = Ви занадто близько до найближчого {$mount}.
 emplacement-mount-deploy-broken = Ви не можете встановити {$mount}, він розтрощений вщент!
+emplacement-mount-deploy-invisible = Ви не можете встановити {$mount} будучи під плащем!
 emplacement-mounted-weapon-overheated = {$weapon} пошкоджено перегрівом!
 emplacement-mount-broken-examine = [color=red]Кулемет не можна використовувати в поточному несправному стані, скористайтеся[/color] [color=cyan]зварювальним апаратом[/color][color=red], щоб поремонтувати його.[/color]
 emplacement-mount-need-hands-free = Щоб використовувати цю зброю вам потрібні обидві руки вільними!
+emplacement-mount-too-far = Ви занадто далеко, щоб використовувати {$mount}!
+emplacement-mount-rotate-fail = Ви не можете повернути кулемет сюди!
 
 mountable-weapon-no-free-hands = Для керування цією зброєю треба мати обидві руки вільними.
 

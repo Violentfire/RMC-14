@@ -17,3 +17,4 @@ ui-holocard-change-searchbar-placeholder = Голокартка
 ui-health-scanner-holocard-change = Змінити
 
 ui-holocard-change-insufficient-skill = У вас недостатньо знань, щоб застосувати голокартку.
+ui-holocard-change-synth-invalid = Голокартки статусу можуть бути застосовані лише до гуманоїдів.
