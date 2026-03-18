@@ -13,12 +13,12 @@
           mapNameTemplate: 'ДКП-Тундра "Наполеон"'
         - type: StationJobs
           availableJobs:
-            # Command
+            # Командування
             CMPVEPlatoonCommander: [1, 1]
 
-            # Marines
+            # Морпіхи
             CMPVESectionSergeant: [1, 1]
             CMPVESquadLeader: [2, 2]
             CMPVESmartGunOperator: [2, 2]
             CMPVEHospitalCorpsman: [2, 2]
-            CMPVERifleman: [ 10, 10 ]
+            CMPVERifleman: [10, 10]

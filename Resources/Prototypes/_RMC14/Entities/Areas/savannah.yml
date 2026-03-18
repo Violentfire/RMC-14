@@ -1,32 +1,45 @@
-# Структура:
-# . Тех. Приміщення
-# . Коридори (загальні)
-# . Бріг
-# . Командування
-# . Медичний
-# . Підтримка
-# . Казарми
-# . Інженерний
-# . Помпи
-# . Інше
+# Structure:
+# . Maints
+# . Corridors
+# . Brig
+# . Command
+# . Medical
+# . Auxiliary
+# . Prep
+# . Engi
+# . Other
 
 - type: entity
-  parent: RMCAreaAlmayer
+  parent: RMCAreaBase
   id: RMCAreaSavannah
-  suffix: Зона Саванни
+  suffix: Savannah Area
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
     state: savannah
   - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: false # TODO RMC14 true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
     powerNet: savannah
+    hijackEvacuationArea: false
+    hijackEvacuationWeight: 0
+    hijackEvacuationType: None
+  - type: IntelRescueSurvivorArea
 
-# ТЕХ. ПРИМІЩЕННЯ
+# MAINTS
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahMaints
   abstract: true
+  name: Maints
   components:
   - type: Sprite
     state: other
@@ -34,39 +47,39 @@
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardBow
-  name: Тех. Приміщення Переднього Правого Борту
+  name: Starboard Bow Maints
 
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortBow
-  name: Тех. Приміщення Переднього Лівого Борту
+  name: Port Bow Maints
 
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardBeam
-  name: Тех. Приміщення Центрального Правого Борту
+  name: Starboard Beam Maints
 
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortBeam
-  name: Тех. Приміщення Центрального Лівого Борту
+  name: Port Beam Maints
 
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsStarboardQuarter
-  name: Тех. Приміщення Заднього Правого Борту
+  name: Starboard Quarter Maints
 
 - type: entity
   parent: RMCAreaSavannahMaints
   id: RMCAreaSavannahMaintsPortQuarter
-  name: Тех. Приміщення Заднього Лівого Борту
+  name: Port Quarter Maints
 
-# КОРИДОРИ (загальні)
+# Corridors
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahCorridorAmidship
-  name: Центральний Коридор
+  name: Amidship Corridor
   components:
   - type: Sprite
     state: other
@@ -74,24 +87,24 @@
 - type: entity
   parent: RMCAreaSavannahCorridorAmidship
   id: RMCAreaSavannahCorridorEngineering
-  name: Інженерний Коридор
+  name: Engineering Corridor
 
 - type: entity
   parent: RMCAreaSavannahCorridorAmidship
   id: RMCAreaSavannahCorridorEscape
-  name: Коридор до Подів Евакуації
+  name: Escape Pods Corridor
 
 - type: entity
   parent: RMCAreaSavannahCorridorAmidship
   id: RMCAreaSavannahCorridorBriefingStarboard
-  name: Коридор Брифінгу Правого Борту
+  name: Briefing Starboard Corridor
 
 - type: entity
   parent: RMCAreaSavannahCorridorAmidship
   id: RMCAreaSavannahCorridorBriefingPort
-  name: Коридор Брифінгу Лівого Борту
+  name: Briefing Port Corridor
 
-# БРІГ
+# BRIG
 
 - type: entity
   parent: RMCAreaSavannah
@@ -104,64 +117,54 @@
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigCMP
-  name: Офіс ГВСП
+  name: CMP Office
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigWarden
-  name: Офіс Наглядача
+  name: Warden Office
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigRange
-  name: Тир Брігу
+  name: Brig Shooting Range
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigOB
-  name: Гармата Орбітального Бомбардування
+  name: Orbital Cannon Room
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigCorridor
-  name: Головний Коридор Брігу
+  name: Brig Main Corridor
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigBow
-  name: Передній Коридор Брігу
+  name: Brig Bow Corridor
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigPrison
-  name: Тюрма Брігу
+  name: Brig Prison
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahBrigPrep
-  name: Казарми Брігу
+  name: Brig Preparations
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahStarboardPointDefense
-  name: Аварійні Порти Стикування Правого Борту
+  name: Starboard Point Defense
 
 - type: entity
   parent: RMCAreaSavannahBrig
   id: RMCAreaSavannahPortPointDefense
-  name: Аварійні Порти Стикування Лівого Борту
+  name: Port Point Defense
 
-- type: entity
-  parent: RMCAreaSavannahBrig
-  id: RMCAreaSavannahArmory # Додано білдом Січі
-  name: Зброярня Брігу
-
-- type: entity
-  parent: RMCAreaSavannahBrig
-  id: RMCAreaSavannahObservationRoom # Додано білдом Січі
-  name: Кімната Спостереження
-
-# КОМАНДУВАННЯ
+# COMMAND
 
 - type: entity
   parent: RMCAreaSavannah
@@ -179,67 +182,67 @@
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahLiaison
-  name: Офіс Представника
+  name: Liaison Office
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahPilotBunks
-  name: Койки Пілотів
+  name: Pilot Bunks
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahOfficerBunks
-  name: Койки Офіцерів
+  name: Officer Bunks
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahCommandingOfficer
-  name: Офіс Командуючого Офіцера
+  name: Commanding Officer Bunks
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahCICCorridorPort
-  name: Лівий Коридор БІЦ
+  name: CIC Port Corridor
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahCICCorridorStarboard
-  name: Правий Коридор БІЦ
+  name: CIC Starboard Corridor
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahCIC
-  name: Бойовий Інформаційний Центр
+  name: Combat Information Center
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: False
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahASO
-  name: Офіс ОП та Гіперсон Командування
+  name: ASO and Command Cryo
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahTComms
-  name: Телекоми
+  name: TComms
 
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahIO
-  name: Офіс Розвідки
+  name: IO office
   components:
   - type: Area
     retrieveItemObjective: true
 
-- type: entity
-  parent: RMCAreaSavannahBrig
-  id: RMCAreaSavannahSynthetic # Додано (перенесено) білдом Січі
-  name: Сховище Синтетиків
-
-# МЕДИЧНИЙ
+# MEDICAL
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahMedical
-  name: Медичний Відділ
+  name: Medical
   components:
   - type: Sprite
     state: medical
@@ -248,39 +251,27 @@
 - type: entity
   parent: RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalSurgery
-  name: Хірургічні палати
+  name: Surgery Room
 
 - type: entity
   parent: RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalChemistry
-  name: Хімічна
+  name: Chemistry Room
 
 - type: entity
   parent: RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalPreparation
-  name: Медичні Казарми
+  name: Medical Preparation
 
 - type: entity
   parent: RMCAreaSavannahMedical
   id: RMCAreaSavannahMedicalResearch
-  name: Лабораторія
+  name: Research
+  components:
+  - type: Area
+    retrieveItemObjective: true
 
-- type: entity
-  parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalMorgue # Додано білдом Січі
-  name: Морг
-
-- type: entity
-  parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalCMO # Додано білдом Січі
-  name: Офіс Головного Лікаря
-
-- type: entity
-  parent: RMCAreaSavannahMedical
-  id: RMCAreaSavannahMedicalRestroom # Додано білдом Січі
-  name: Кімната Відпочинку Медичного
-
-# ПІДТРИМКА
+# Auxiliary
 
 - type: entity
   parent: RMCAreaSavannah
@@ -293,39 +284,39 @@
 - type: entity
   parent: RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahHangarPort
-  name: Ангар Лівого Борту
+  name: Hangar Port
 
 - type: entity
   parent: RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahHangarStarboard
-  name: Ангар Правого Борту
+  name: Hangar Starboard
 
 - type: entity
   parent: RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahPilotsRoom
-  name: Кімната Пілотів
+  name: Pilots Room
 
 - type: entity
   parent: RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahRequisitions
-  name: Постачання
+  name: Requisitions
 
 - type: entity
   parent: RMCAreaSavannahRequisitions
   id: RMCAreaSavannahQuartermaster
-  name: Офіс Офіцера Логістики
+  name: Logistics Officer Office
 
 - type: entity
   parent: RMCAreaSavannahAuxiliary
   id: RMCAreaSavannahCanteen
-  name: Їдальня
+  name: Canteen
 
-# КАЗАРМИ
+# PREP
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahAlphaBravo
-  name: Казарми Альфа-Браво
+  name: Alpha-Bravo Preparation
   components:
   - type: Sprite
     state: alpha_bravo
@@ -333,7 +324,7 @@
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahAlpha
-  name: Казарми Альфа
+  name: Alpha Preparation
   components:
   - type: Sprite
     state: alpha
@@ -341,7 +332,7 @@
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahBravo
-  name: Казарми Браво
+  name: Bravo Preparation
   components:
   - type: Sprite
     state: bravo
@@ -349,7 +340,7 @@
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahCharlieDelta
-  name: Казарми Чарлі-Дельта
+  name: Charlie-Delta Preparation
   components:
   - type: Sprite
     state: charlie_delta
@@ -357,7 +348,7 @@
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahCharlie
-  name: Казарми Чарлі
+  name: Charlie Preparation
   components:
   - type: Sprite
     state: charlie
@@ -365,17 +356,17 @@
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahDelta
-  name: Казарми Дельта
+  name: Delta Preparation
   components:
   - type: Sprite
     state: delta
 
-# ІНЖЕНЕРНИЙ
+# ENGI
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahEngineering
-  name: Інженерія
+  name: Engineering
   components:
   - type: Sprite
     state: engineering
@@ -385,79 +376,84 @@
 - type: entity
   parent: RMCAreaSavannahEngineering
   id: RMCAreaSavannahEngineeringGenerator
-  name: Інженерна Генераторна
+  name: Engineering Generator
+  components:
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.2
+    hijackEvacuationType: Add
 
 - type: entity
   parent: RMCAreaSavannahEngineering
   id: RMCAreaSavannahChiefEngineer
-  name: Офіс Головного Інженера
+  name: Chief Engineer Room
 
 - type: entity
   parent: RMCAreaSavannahEngineering
   id: RMCAreaSavannahEngineeringPreparations
-  name: Інженерні Казарми
+  name: Engineering Preparations
 
 - type: entity
   parent: RMCAreaSavannahEngineering
   id: RMCAreaSavannahAtmosStarboard
-  name: Атмос Правого Борту
+  name: Starboard Atmos
 
 - type: entity
   parent: RMCAreaSavannahEngineering
   id: RMCAreaSavannahAtmosPort
-  name: Атмос Лівого Борту
+  name: Port Atmos
 
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahSynthetic
+  name: Synthetic Storage
 
-# ПОМПИ
 - type: entity
   parent: RMCAreaSavannah
-  id: RMCAreaSavannahLifeboatPumps
-  name: Паливні Помпи Рятувальних Шлюпок
+  id: RMCAreaSavannahPumpBase
+  abstract: true
   components:
-  - type: Sprite
-    sprite: _RMC14/Areas/areas_almayer.rsi
-    state: lifeboat_pump
   - type: Area
     hijackEvacuationArea: true
-    hijackEvacuationWeight: 0.25 # 0.1 в оригіналі. Змінено білдом Січі
+    hijackEvacuationWeight: 0.1
     hijackEvacuationType: Add
 
 - type: entity
-  parent: RMCAreaSavannahLifeboatPumps
+  parent: RMCAreaSavannahPumpBase
   id: RMCAreaSavannahPumpStarboardBow
-  name: Помпа Переднього Правого Борту
+  name: Starboard Bow Pump
 
 - type: entity
-  parent: RMCAreaSavannahLifeboatPumps
+  parent: RMCAreaSavannahPumpBase
   id: RMCAreaSavannahPumpStarboardQuarter
-  name: Помпа Заднього Правого Борту
+  name: Starboard Quarter Pump
 
 - type: entity
-  parent: RMCAreaSavannahLifeboatPumps
+  parent: RMCAreaSavannahPumpBase
   id: RMCAreaSavannahPumpPortBow
-  name: Помпа Переднього Лівого Борту
+  name: Port Bow Pump
 
 - type: entity
-  parent: RMCAreaSavannahLifeboatPumps
+  parent: RMCAreaSavannahPumpBase
   id: RMCAreaSavannahPumpPortQuarter
-  name: Помпа Заднього Лівого Борту
+  name: Port Quarter Pump
 
-# ІНШЕ
+# OTHER
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahSEA
-  name: Офіс Інструктора та Тир
+  name: Ordnance and SEA Offices
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahBriefing
-  name: Брифінг Зала
+  name: Briefing
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahLifeboatAmidship
-  name: Центральне Стикування Рятувальних Шлюпок
+  name: Lifeboat Docking Amidship
   components:
   - type: Area
     avoidBioscan: false
@@ -467,34 +463,19 @@
 - type: entity
   parent: RMCAreaSavannahLifeboatAmidship
   id: RMCAreaSavannahLifeboatStarboard
-  name: Стикування Рятувальної Шлюпки Правого Борту
+  name: Lifeboat Docking Starboard
 
 - type: entity
   parent: RMCAreaSavannahLifeboatAmidship
   id: RMCAreaSavannahLifeboatPort
-  name: Стикування Рятувальної Шлюпки Лівого Борту
+  name: Lifeboat Docking Port
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahMemorial
-  name: Меморіал
+  name: Memorial
 
 - type: entity
   parent: RMCAreaSavannah
   id: RMCAreaSavannahChurch
-  name: Церква
-
-- type: entity
-  parent: RMCAreaSavannah
-  id: RMCAreaSavannahPress # Додано білдом Січі
-  name: Офіс Преси
-
-- type: entity
-  parent: RMCAreaSavannah
-  id: RMCAreaSavannahDisposals # Додано білдом Січі
-  name: Смітник
-
-- type: entity
-  parent: RMCAreaSavannah
-  id: RMCAreaSavannahToilets # Додано білдом Січі
-  name: Вбиральні
+  name: Church

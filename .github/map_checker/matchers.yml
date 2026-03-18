@@ -1,3 +1,4 @@
+# Sich. Змінено під наші потреби
 - id: "GeneralBlacklist"
   type: "Blacklist"
   entityMatchers:
@@ -27,23 +28,20 @@
 - id: "AllowAllOnAdminMaps"
   type: "Whitelist"
   on_paths:
-  - "admin_fax.yml"
   - "admin_fax_old.yml"
-  - "dev_map.yml"
   entityMatchers:
   - ".*"
 
 - id: "AllowStampsOnWarshipMaps"
   type: "Whitelist"
   on_paths:
-  - "almayer.yml"
   - "savannah.yml"
+  - "tundra.yml"
   entityMatchers:
   - "CMStamp.*" # All stamps.
-  - "RMCPlushieAlec" # Sich до кінця прототипу. Дайте мені пхати іграшки які я хочу :godo:
+  - "RMCPlushieAlec"
   - "RMCPlushieNyx"
   - "RMCPlushieXippy"
   - "RMCPlushieProvost"
   - "RMCPlushieCrow"
   - "RMCPlushieMotivationalMoth"
-

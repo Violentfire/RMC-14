@@ -1,6 +1,6 @@
 - type: entity
   parent: RMCAreaBase
-  id: RMCAreaTundraCryo # зони без префіксу Sich щоб не забивати ними пошук по префіксу в спавн меню
+  id: SMCAreaTundraCryo
   name: Камери Гіперсну
   components:
   - type: Sprite
@@ -26,88 +26,88 @@
     weatherEnabled: false
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraAI
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraAI
   name: Ядро ШІ
   components:
   - type: Sprite
     state: aicore
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraArmory
-  name: Зброярня 
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraArmory
+  name: Зброярня
   components:
   - type: Sprite
     state: armory
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraBridge
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraBridge
   name: Місток
   components:
   - type: Sprite
     state: bridge
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraCargo
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraCargo
   name: Постачання
   components:
   - type: Sprite
     state: cargo
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraDorm
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraDorm
   name: Кімната Відпочинку
   components:
   - type: Sprite
     state: dorm
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraEngi
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraEngi
   name: Технічні Приміщення
   components:
   - type: Sprite
     state: engi
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraHanger
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraHanger
   name: Ангар
   components:
   - type: Sprite
     state: hanger
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraKitchen
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraKitchen
   name: Їдальня
   components:
   - type: Sprite
     state: kitchen
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraLowerHall
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraLowerHall
   name: Південний Коридор
   components:
   - type: Sprite
     state: lowerhall
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraMed
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraMed
   name: Медичний Відсік
   components:
   - type: Sprite
     state: med
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraOOB
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraOOB
   name: Поза Межами
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
     alwaysPowered: true
 
 - type: entity
-  parent: RMCAreaTundraCryo
-  id: RMCAreaTundraUpperHall
+  parent: SMCAreaTundraCryo
+  id: SMCAreaTundraUpperHall
   name: Північний Коридор
   components:
   - type: Sprite

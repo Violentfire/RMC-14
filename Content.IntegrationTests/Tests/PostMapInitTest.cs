@@ -84,19 +84,22 @@ namespace Content.IntegrationTests.Tests
             // "Relic",
             // "dm01-entryway",
             // "Exo",
-            "RMCDev", // RMC14
-            "Savannah",
-            "Almayer",
-            "RMCAdminFax",
-            "GoldenArrowLarge",
-            "OCP-583",
-            "Haurchefant",
-            "Breakwater_Strand",
-            "UNSEndeavour",
-            "Berkley",
-            "SSVDeyneka",
-			"HMSPratchett",
-            "Rover"
+            //"RMCDev", // RMC14
+            //"Savannah",
+            //"Almayer",
+            //"RMCAdminFax",
+            //"GoldenArrowLarge",
+            //"OCP-583",
+            //"Haurchefant",
+            //"Breakwater_Strand",
+            //"UNSEndeavour",
+            //"Berkley",
+            //"SSVDeyneka",
+			//"HMSPratchett",
+            //"Rover"
+            "SichSavannah", // Sich
+            "SichAdminFax",
+            "SichUNSTundra"
         };
 
         private static readonly ProtoId<EntityCategoryPrototype> DoNotMapCategory = "DoNotMap";
