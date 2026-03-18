@@ -19,6 +19,7 @@
     - CMXenoLurker
     - CMXenoPraetorian
     - CMXenoQueen
+    - SichXenoQueenPlus # Sich
     - CMXenoRavager
     - CMXenoRunner
     - CMXenoSentinel
@@ -39,6 +40,7 @@
     - CMXenoHivelord
     - CMXenoLesserDrone
     - CMXenoQueen
+    - SichXenoQueenPlus # Sich
 
 - type: entity
   id: CMJobsXenoTierThree
