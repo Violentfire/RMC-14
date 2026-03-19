@@ -7,7 +7,7 @@ department-CMMilitaryPolice = Військова Служба Правопоря
 cm-department-MilitaryPolice-description = Стежте за дотриманням закону. Забезпечте безпеку екіпажу Саванни. Не катуйте ув'язнених, будь ласка.
 
 # Постачання
-department-CMRequisitions = Відділ Постачань
+department-CMRequisitions = Постачання
 cm-department-Requisitions-description = Дістаньте/замовте/відправте морпіхам усе, що їм буде потрібно.
 
 # Морпіхи

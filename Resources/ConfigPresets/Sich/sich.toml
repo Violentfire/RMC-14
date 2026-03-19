@@ -49,6 +49,7 @@ xeno_damage_dealt_multiplier = 0.85
 survivors_minimum = 0
 survivors_maximum = 3
 marines_per_survivor = 15
+job_slot_scaling = false
 distress_xenos_minimum = 1
 emote_cooldown_seconds = 0
 force_hijack_end_time_minutes = 15
