@@ -24,7 +24,7 @@
     - map: [ "enum.RMCShieldVisuals.Base" ]
       sprite: _RMC14/Effects/xeno_shields.rsi
       visible: false
-  # Збільше потужності феромонів на 50%
+  # Збільшення потужності феромонів на 50%
   - type: XenoPheromones
     pheromonesMultiplier: 6
     pheroSuffix: king
@@ -41,12 +41,3 @@
   # Прибирання необхідності чекати 10 хвилин
   - type: XenoMaturing
     delay: 0
-    critThreshold: 1000
-    deadThreshold: 1100
-    addComponents:
-    - type: XenoScreech
-    - type: XenoToggleSpit
-    addActions:
-    - ActionXenoScreech
-    - ActionXenoSpitQueen
-    - ActionXenoToggleSpitType
