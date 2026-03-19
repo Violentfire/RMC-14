@@ -43,7 +43,9 @@ new_player_threshold = 600
 server_ban_hwid_ban_default = false
 
 [rmc]
-#Обмеження сурвів для нашого білду, зміна кількості ксено, зняття обмежень на емоції, такс 20 хвилин, зняття раундстарт обмежень на паразитів та кулдауну на взяття буровед лярв, скорочення часу хайджека до 15 хвилин, зміна короля й королівського желе та ще декілька моментів для саме РМСних механік
+#Зменшення дамагу, обмеження сурвів для нашого білду, зміна кількості ксено, зняття обмежень на емоції, такс 20 хвилин, зняття раундстарт обмежень на паразитів та кулдауну на взяття буровед лярв, скорочення часу хайджека до 15 хвилин, зміна короля й королівського желе та ще декілька моментів для саме РМСних механік
+xeno_damage_received_multiplier = 0.85
+xeno_damage_dealt_multiplier = 0.85
 survivors_minimum = 0
 survivors_maximum = 3
 marines_per_survivor = 15
@@ -56,6 +58,7 @@ late_joins_per_burrowed_larva_early = 6.5
 late_joins_per_burrowed_larva = 6
 xeno_evolve_same_caste_cooldown_seconds = 60
 parasite_spawn_initial_delay_minutes = 0
+xeno_spawn_initial_mute_duration_seconds = 60
 dropship_initial_delay_minutes = 20
 evolution_points_accumulate_before_minutes = 20
 evolution_early_evo_point_boost_minutes = 20
