@@ -9,7 +9,7 @@ meta:
 maps:
 - 1
 grids:
-- 2
+- 1
 orphans: []
 nullspace: []
 tilemap:
@@ -35,13 +35,7 @@ entities:
     - type: GridTree
     - type: Broadphase
     - type: OccluderTree
-  - uid: 2
-    components:
-    - type: MetaData
-      name: Адмін факси
-    - type: Transform
-      pos: -0.5069444,-0.4687284
-      parent: 1
+    - type: Physics
     - type: MapGrid
       chunks:
         0,0:
@@ -60,19 +54,8 @@ entities:
           ind: -1,-1
           tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABhAAAAAAAArgAAAAAAAA==
           version: 7
-    - type: Broadphase
-    - type: Physics
-      bodyStatus: InAir
-      angularDamping: 0.05
-      linearDamping: 0.05
-      fixedRotation: False
-      bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
-    - type: OccluderTree
-    - type: SpreaderGrid
-    - type: Shuttle
-      dampingModifier: 0.25
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -89,7 +72,6 @@ entities:
     - type: BecomesStation
       id: AdminFax
     - type: RadiationGridResistance
-    - type: ImplicitRoof
     - type: AreaGrid
       labels: {}
       areaEntities: {}
@@ -179,7 +161,7 @@ entities:
     components:
     - type: Transform
       pos: 0.5,1.5
-      parent: 2
+      parent: 1
 - proto: CMChairOfficeDark
   entities:
   - uid: 10
@@ -187,382 +169,382 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 1.5,1.5
-      parent: 2
+      parent: 1
   - uid: 11
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,2.5
-      parent: 2
+      parent: 1
   - uid: 12
     components:
     - type: Transform
       pos: 0.5,0.5
-      parent: 2
+      parent: 1
   - uid: 13
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -0.5,1.5
-      parent: 2
+      parent: 1
 - proto: CMDrinkWEYAWaterBottle30
   entities:
   - uid: 14
     components:
     - type: Transform
       pos: 0.92042696,-0.14747718
-      parent: 2
+      parent: 1
 - proto: CMFaxCLF
   entities:
   - uid: 15
     components:
     - type: Transform
       pos: -1.5,2.5
-      parent: 2
+      parent: 1
 - proto: CMFaxCMB
   entities:
   - uid: 16
     components:
     - type: Transform
       pos: -0.5,-0.5
-      parent: 2
+      parent: 1
 - proto: CMFaxHighCom
   entities:
   - uid: 17
     components:
     - type: Transform
       pos: 1.5,3.5
-      parent: 2
+      parent: 1
 - proto: CMFaxPress
   entities:
   - uid: 18
     components:
     - type: Transform
       pos: 2.5,2.5
-      parent: 2
+      parent: 1
 - proto: CMFaxProvost
   entities:
   - uid: 19
     components:
     - type: Transform
       pos: -0.5,3.5
-      parent: 2
+      parent: 1
 - proto: CMFaxSPP
   entities:
   - uid: 20
     components:
     - type: Transform
       pos: -1.5,0.5
-      parent: 2
+      parent: 1
 - proto: CMFaxTSE
   entities:
   - uid: 21
     components:
     - type: Transform
       pos: 2.5,0.5
-      parent: 2
+      parent: 1
 - proto: CMFaxWY
   entities:
   - uid: 22
     components:
     - type: Transform
       pos: 1.5,-0.5
-      parent: 2
+      parent: 1
 - proto: CMIDCardHighCommand
   entities:
   - uid: 23
     components:
     - type: Transform
       pos: 1.2002206,3.6412532
-      parent: 2
+      parent: 1
 - proto: CMIDCardLiaison
   entities:
   - uid: 24
     components:
     - type: Transform
       pos: 1.3058436,-0.6683105
-      parent: 2
+      parent: 1
 - proto: CMPaper
   entities:
   - uid: 25
     components:
     - type: Transform
       pos: -1.4560294,2.0289207
-      parent: 2
+      parent: 1
   - uid: 26
     components:
     - type: Transform
       pos: -1.3154044,2.1070457
-      parent: 2
+      parent: 1
 - proto: CMPaperBin20
   entities:
   - uid: 27
     components:
     - type: Transform
       pos: 0.5,3.5
-      parent: 2
+      parent: 1
   - uid: 28
     components:
     - type: Transform
       pos: 2.5,1.5
-      parent: 2
+      parent: 1
   - uid: 29
     components:
     - type: Transform
       pos: 0.5,-0.5
-      parent: 2
+      parent: 1
 - proto: CMPen
   entities:
   - uid: 30
     components:
     - type: Transform
       pos: -1.3643814,1.2294956
-      parent: 2
+      parent: 1
 - proto: CMPenClicky
   entities:
   - uid: 31
     components:
     - type: Transform
       pos: 0.6111111,-0.3034965
-      parent: 2
+      parent: 1
 - proto: CMPenFountain
   entities:
   - uid: 32
     components:
     - type: Transform
       pos: 0.68249357,3.2607455
-      parent: 2
+      parent: 1
   - uid: 33
     components:
     - type: Transform
       pos: 2.6043684,1.2229341
-      parent: 2
+      parent: 1
 - proto: CMStampCMB
   entities:
   - uid: 34
     components:
     - type: Transform
       pos: 0.107926905,-0.70997727
-      parent: 2
+      parent: 1
 - proto: CMStampMarine
   entities:
   - uid: 35
     components:
     - type: Transform
       pos: 0.9033456,3.3882957
-      parent: 2
+      parent: 1
 - proto: CMStampProvost
   entities:
   - uid: 36
     components:
     - type: Transform
       pos: 0.18459558,3.6382957
-      parent: 2
+      parent: 1
 - proto: CMStampWeYa
   entities:
   - uid: 37
     components:
     - type: Transform
       pos: 0.9412603,-0.61622727
-      parent: 2
+      parent: 1
 - proto: CMTableWoodenFancy
   entities:
   - uid: 38
     components:
     - type: Transform
       pos: -0.5,3.5
-      parent: 2
+      parent: 1
   - uid: 39
     components:
     - type: Transform
       pos: 0.5,3.5
-      parent: 2
+      parent: 1
   - uid: 40
     components:
     - type: Transform
       pos: 1.5,3.5
-      parent: 2
+      parent: 1
   - uid: 41
     components:
     - type: Transform
       pos: -0.5,-0.5
-      parent: 2
+      parent: 1
   - uid: 42
     components:
     - type: Transform
       pos: 0.5,-0.5
-      parent: 2
+      parent: 1
   - uid: 43
     components:
     - type: Transform
       pos: 1.5,-0.5
-      parent: 2
+      parent: 1
   - uid: 44
     components:
     - type: Transform
       pos: 2.5,2.5
-      parent: 2
+      parent: 1
   - uid: 45
     components:
     - type: Transform
       pos: 2.5,1.5
-      parent: 2
+      parent: 1
   - uid: 46
     components:
     - type: Transform
       pos: 2.5,0.5
-      parent: 2
+      parent: 1
   - uid: 47
     components:
     - type: Transform
       pos: -1.5,2.5
-      parent: 2
+      parent: 1
   - uid: 48
     components:
     - type: Transform
       pos: -1.5,1.5
-      parent: 2
+      parent: 1
   - uid: 49
     components:
     - type: Transform
       pos: -1.5,0.5
-      parent: 2
+      parent: 1
 - proto: CMTarbackCigarSpent
   entities:
   - uid: 50
     components:
     - type: Transform
       pos: -1.5050066,1.7763706
-      parent: 2
+      parent: 1
 - proto: CMWallWood
   entities:
   - uid: 51
     components:
     - type: Transform
       pos: 1.5,4.5
-      parent: 2
+      parent: 1
   - uid: 52
     components:
     - type: Transform
       pos: 2.5,4.5
-      parent: 2
+      parent: 1
   - uid: 53
     components:
     - type: Transform
       pos: 3.5,4.5
-      parent: 2
+      parent: 1
   - uid: 54
     components:
     - type: Transform
       pos: -2.5,4.5
-      parent: 2
+      parent: 1
   - uid: 55
     components:
     - type: Transform
       pos: -1.5,4.5
-      parent: 2
+      parent: 1
   - uid: 56
     components:
     - type: Transform
       pos: -0.5,4.5
-      parent: 2
+      parent: 1
   - uid: 57
     components:
     - type: Transform
       pos: 0.5,4.5
-      parent: 2
+      parent: 1
   - uid: 58
     components:
     - type: Transform
       pos: 3.5,3.5
-      parent: 2
+      parent: 1
   - uid: 59
     components:
     - type: Transform
       pos: 3.5,2.5
-      parent: 2
+      parent: 1
   - uid: 60
     components:
     - type: Transform
       pos: 3.5,1.5
-      parent: 2
+      parent: 1
   - uid: 61
     components:
     - type: Transform
       pos: 3.5,0.5
-      parent: 2
+      parent: 1
   - uid: 62
     components:
     - type: Transform
       pos: 3.5,-0.5
-      parent: 2
+      parent: 1
   - uid: 63
     components:
     - type: Transform
       pos: 3.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 64
     components:
     - type: Transform
       pos: 2.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 65
     components:
     - type: Transform
       pos: 1.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 66
     components:
     - type: Transform
       pos: 0.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 67
     components:
     - type: Transform
       pos: -0.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 68
     components:
     - type: Transform
       pos: -1.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 69
     components:
     - type: Transform
       pos: -2.5,-1.5
-      parent: 2
+      parent: 1
   - uid: 70
     components:
     - type: Transform
       pos: -2.5,3.5
-      parent: 2
+      parent: 1
   - uid: 71
     components:
     - type: Transform
       pos: -2.5,2.5
-      parent: 2
+      parent: 1
   - uid: 72
     components:
     - type: Transform
       pos: -2.5,1.5
-      parent: 2
+      parent: 1
   - uid: 73
     components:
     - type: Transform
       pos: -2.5,0.5
-      parent: 2
+      parent: 1
   - uid: 74
     components:
     - type: Transform
       pos: -2.5,-0.5
-      parent: 2
+      parent: 1
 - proto: RMCLampGreen
   entities:
   - uid: 3
     components:
     - type: Transform
       pos: 0.5283456,3.7037532
-      parent: 2
+      parent: 1
     - type: HandheldLight
       toggleActionEntity: 4
     - type: ActionsContainer
@@ -575,7 +557,7 @@ entities:
     components:
     - type: Transform
       pos: 2.6981184,2.1669955
-      parent: 2
+      parent: 1
     - type: HandheldLight
       toggleActionEntity: 6
     - type: ActionsContainer
@@ -588,7 +570,7 @@ entities:
     components:
     - type: Transform
       pos: 0.05584359,-0.26206055
-      parent: 2
+      parent: 1
     - type: HandheldLight
       toggleActionEntity: 8
     - type: ActionsContainer
@@ -605,7 +587,7 @@ entities:
       name: Офіс Вестон-Ямада
     - type: Transform
       pos: 1.6808436,-0.19134906
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -616,7 +598,7 @@ entities:
       name: Пресслужба Вільних медіа
     - type: Transform
       pos: 2.32,1.8414208
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -627,7 +609,7 @@ entities:
       name: Відділ зовнішньої комунікації ІТС
     - type: Transform
       pos: 2.3252206,0.99767077
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -638,7 +620,7 @@ entities:
       name: Служба Провосту
     - type: Transform
       pos: 0.20022058,3.3101707
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -649,7 +631,7 @@ entities:
       name: Головний офіс ВК-КМПОН
     - type: Transform
       pos: 0.8877206,3.7007957
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -660,7 +642,7 @@ entities:
       name: Радіопідтримка ячейки ФВК
     - type: Transform
       pos: -1.6747794,1.8414208
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -671,7 +653,7 @@ entities:
       name: Бюро Інтернаціональних Комунікацій СПН
     - type: Transform
       pos: -1.6591544,1.0289208
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -682,7 +664,7 @@ entities:
       name: Служба Підтримки БКМ
     - type: Transform
       pos: -0.6597223,-0.22016326
-      parent: 2
+      parent: 1
     - type: RotaryPhone
       category: Ретранслятори
     - type: Fixtures
@@ -693,35 +675,35 @@ entities:
     components:
     - type: Transform
       pos: -1.6925066,2.1226707
-      parent: 2
+      parent: 1
 - proto: RMCStampFreePress
   entities:
   - uid: 84
     components:
     - type: Transform
       pos: 2.3185792,2.0757957
-      parent: 2
+      parent: 1
 - proto: RMCStampSPP
   entities:
   - uid: 85
     components:
     - type: Transform
       pos: -1.2550064,0.81017077
-      parent: 2
+      parent: 1
 - proto: RMCStampTSE
   entities:
   - uid: 86
     components:
     - type: Transform
       pos: 2.7404542,0.88829577
-      parent: 2
+      parent: 1
 - proto: WarpPoint
   entities:
   - uid: 87
     components:
     - type: Transform
       pos: 0.5,1.5
-      parent: 2
+      parent: 1
     - type: WarpPoint
       location: Факси
 ...

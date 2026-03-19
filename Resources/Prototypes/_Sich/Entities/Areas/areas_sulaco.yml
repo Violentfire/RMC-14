@@ -1,0 +1,36 @@
+- type: entity
+  parent: RMCAreaShuttle
+  id: TMCAreaShuttleDrop
+  components:
+  - type: Area
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    landingZone: true
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    weatherEnabled: false
+
+- type: entity
+  parent: TMCAreaShuttleDrop
+  id: TMCAreaShuttleAlamo
+  name: Шатл Аламо
+  components:
+  - type: Sprite
+    state: shuttlered
+
+- type: entity
+  parent: TMCAreaShuttleDrop
+  id: TMCAreaShuttleNormandy
+  name: Шатл Нормандія
+  components:
+  - type: Sprite
+    state: shuttle
