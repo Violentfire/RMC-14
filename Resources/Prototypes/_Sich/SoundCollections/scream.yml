@@ -1,5 +1,5 @@
 - type: soundCollection
-  id: AvaliScreams
+  id: SichAvaliScreams
   files:
-    - /Audio/_RMC14/Voice/Avali/avali_scream.ogg
-    - /Audio/_Sich/Voice/Avali/avali_scream2.ogg
+    - /Audio/_RMC14/Voice/Avali/avali_scream.ogg # РМСний звук
+    - /Audio/_Sich/Voice/Avali/avali_scream2.ogg # Сенсея звук

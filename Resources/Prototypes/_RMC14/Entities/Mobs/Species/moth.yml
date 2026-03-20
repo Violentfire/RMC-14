@@ -16,7 +16,7 @@
   - type: Speech
     speechVerb: Moth
     speechSounds: Moth # Sich. Перенесено з КД
-    allowedEmotes: ['Chitter', 'Squeak', 'Flap'] # Sich додала Flap. Перенесено з Губа
+    allowedEmotes: ['Chitter', 'Squeak', 'Flap'] # Sich додала Flap. Перенесено з Губа. Вже є у Візардів, як з'явиться в РМС – видалити наше
   - type: TypingIndicator
     proto: moth
   - type: Vocal # Sich

@@ -40,12 +40,12 @@ rmc-emote-xeno-help = потребує допомоги!
 rmc-emote-name-peep = Піп
 rmc-emote-name-anger = Трелити агресивно
 rmc-emote-name-trill = Трелити
-rmc-emote-name-warble = Співати
+rmc-emote-name-warble = Тьохкати
 
 rmc-emote-peep = здивовано піпає!
 rmc-emote-anger = агресивно трелить!
 rmc-emote-trill = трелить!
-rmc-emote-warble = співає!
+rmc-emote-warble = тьохкає!
 
 rmc-emote-name-slime-bubble = Булькати
 rmc-emote-name-slime-pop = Попати

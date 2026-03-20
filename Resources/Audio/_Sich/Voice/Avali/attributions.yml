@@ -1,4 +1,49 @@
-- files: ["avali_whistle, avali_scream2, avali_laugh2, avali_laugh3, avali_cry1, avali_cry2, avali_cough"]
+- files: ["avali_whistle_1, avali_scream_2, avali_laugh_2, avali_laugh_3, avali_cry_1, avali_cry_2, avali_cough_1"]
   license: "CC-BY-NC-SA-3.0"
-  copyright: "Знайдено й додано sunsetsensei."
+  copyright: "Знайдено й додано sunsetsensei (ДС)"
   source: "https://www.reddit.com/r/avali/s/UauWrFSU8r"
+
+- files: ["avali_cry_3"]
+  license: "CC-BY-NC-SA-4.0"
+  copyright: "Перенесено з МоффСтейшон. Voice made by @lillian_industries (Discord) and edited by Huaqas (Discord)."
+  source: https://discord.com/channels/1322447119252062260/1380861162362503371/1381604298735095921
+
+- files: ["avali_gasp"]
+  license: "CC0-1.0"
+  copyright: "Перенесено з МоффСтейшон. From Freesound.org, edited by @lillian_industries (Discord)"
+  source: https://freesound.org/people/uwesoundboiz/sounds/109840/
+
+- files: ["avali_hiss"]
+  license: "CC0-1.0"
+  copyright: "Перенесено з МоффСтейшон. From Freesound.org, edited by @lillian_industries (Discord)"
+  source: https://freesound.org/people/designerschoice/sounds/805091/
+
+- files: ["avali_yawn"]
+  license: "CC0-1.0"
+  copyright: "Перенесено з МоффСтейшон. Renamed from avali_yawn.ogg. Taken from Freesound.org, edited by @lillian_industries (Discord)"
+  source: https://freesound.org/people/designerschoice/sounds/805091/
+
+- files: ["avali_cough_2"]
+  license: "CC0-1.0"
+  copyright: "Перенесено з МоффСтейшон. From Freesound.org, edited by @lillian_industries (Discord)"
+  source: https://freesound.org/people/Vrymaa/sounds/737756/
+
+- files: ["avali_deathgasp"]
+  license: "CC-BY-3.0"
+  copyright: "Перенесено з МоффСтейшон. From Freesound.org, edited by @lillian_industries (Discord)"
+  source: https://freesound.org/people/xpoki/sounds/432735/
+
+- files: ["avali_chirp_1, avali_chirp_2, avali_chirp_3, avali_chirp_4, avali_chirp_5"]
+  copyright: "Перенесено з Старлайту. Bird Chirps by whiskeyecho, Taken from https://freesound.org/"
+  license: "CC0-1.0"
+  source: https://freesound.org/s/727256/
+
+- files: ["avali_call_1, avali_call_2, avali_squawk, avali_whistle, avali_scree_1, avali_scree_2"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Перенесено з Старлайту. Taken from public wildlife sound library xeno-canto.org"
+  source: "https://xeno-canto.org"
+
+- files: ["avali_trill, avali_warble, avali_wurble"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Перенесено з Губа. Taken from 'FD-NewBay' - Other places link to freesound.org. warble.ogg converted to mono by @deltanedas (github)"
+  source: https://github.com/RepoStash/FD-NewBay/tree/dev-sierra/mods/_fd/resomi_fd/sound

@@ -1,6 +1,8 @@
-- type: emote 
+# Тут емоції перенесені з інших білдів, бо... Бо чому ні?
+## Емоція перенесена з Губу, також була додана в білд Візардів, але біс зна, коли це буде перенесено в РМС. Тож, коли нарешті зроблять – видалити ось це
+- type: emote
   id: Flap
-  name: chat-emote-name-flap
+  name: sich-chat-emote-name-flap
   category: Vocal
   available: false
   icon: _Sich/Interface/Emotes/flap.png
@@ -10,7 +12,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-flap"]
+  chatMessages: ["sich-chat-emote-msg-flap"]
   chatTriggers:
    - маше крилами
    - машуть крилами
@@ -18,3 +20,78 @@
    - трепушать крилами
    - тріпотить крилами
    - тріпотять крилами
+
+# Емоції взяті з Старлайту/Губа для авалі. Іконка РМСна, бо оригінальні русняві
+- type: emote
+  id: Call
+  name: sich-chat-emote-name-call
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/peep.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["sich-chat-emote-msg-call"]
+  chatTriggers:
+   - співає
+   - співають
+   - наспівує
+   - наспівають
+
+- type: emote
+  id: Scree
+  name: sich-chat-emote-name-scree
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/peep.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["sich-chat-emote-msg-scree"]
+  chatTriggers:
+   - чірікає
+   - чірікають
+
+- type: emote
+  id: Squawk
+  name: sich-chat-emote-name-squawk
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/peep.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["sich-chat-emote-msg-squawk"]
+  chatTriggers:
+   - каркає
+   - каркають
+   - кряче
+   - крячуть
+
+- type: emote
+  id: Wurble
+  name: sich-chat-emote-name-wurble
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/peep.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["sich-chat-emote-msg-wurble"]
+  chatTriggers:
+   - вурчить
+   - вурчать
+   - воркоче
+   - воркочуть

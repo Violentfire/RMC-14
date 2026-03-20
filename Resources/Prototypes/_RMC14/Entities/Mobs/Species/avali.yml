@@ -26,6 +26,7 @@
   - type: Speech
     speechVerb: Parrot # Didn't come with one
     speechSounds: MaleAvali
+    allowedEmotes: ['Call', 'Chirp', 'Hiss', 'Scree', 'Squawk', 'RMCSkrellTrill', 'RMCSkrellWarble', 'Wurble'] # Sich
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
