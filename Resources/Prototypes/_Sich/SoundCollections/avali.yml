@@ -1,7 +1,7 @@
 - type: soundCollection
   id: SichAvaliLaugh
   files:
-    - /Audio/_RMC_14/Voice/Avali/avali_laugh.ogg # РМСний звук
+    - /Audio/_RMC14/Voice/Avali/avali_laugh.ogg # РМСний звук
     - /Audio/_Sich/Voice/Avali/avali_laugh_2.ogg # Сенсея звук
     - /Audio/_Sich/Voice/Avali/avali_laugh_3.ogg # Сенсея звук
 
