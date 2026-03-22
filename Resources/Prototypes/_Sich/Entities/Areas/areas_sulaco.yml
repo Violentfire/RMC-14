@@ -1,6 +1,6 @@
 - type: entity
   parent: RMCAreaShuttle
-  id: TMCAreaShuttleDrop
+  id: SMCAreaShuttleDrop
   components:
   - type: Area
     resinAllowed: false
@@ -20,16 +20,16 @@
     weatherEnabled: false
 
 - type: entity
-  parent: TMCAreaShuttleDrop
-  id: TMCAreaShuttleAlamo
+  parent: SMCAreaShuttleDrop
+  id: SMCAreaShuttleAlamo
   name: Шатл Аламо
   components:
   - type: Sprite
     state: shuttlered
 
 - type: entity
-  parent: TMCAreaShuttleDrop
-  id: TMCAreaShuttleNormandy
+  parent: SMCAreaShuttleDrop
+  id: SMCAreaShuttleNormandy
   name: Шатл Нормандія
   components:
   - type: Sprite
