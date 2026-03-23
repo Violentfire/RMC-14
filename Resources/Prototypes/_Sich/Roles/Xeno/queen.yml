@@ -1,5 +1,0 @@
-- type: job # Для працюючого рахуваля часу
-  parent: CMXenoQueen
-  id: SichXenoQueenPlus
-  requirements:
-  hidden: true # Щоб не можна було обрати цю версію з лобі
