@@ -1,0 +1,43 @@
+- type: entity # Версія королева для випадків, коли вона одна проти 6+ морпіхів. Застосовується адміністрацією вручну
+  parent: CMXenoQueen
+  id: SichXenoQueenPlus
+  name: Кривава Королева
+  description: Велетенська чужопланетна істота. Найбільша і найжорстокіша. Вона вкрита якоюсь жахливою червоною смолою, виглядає ще більш загрозливо...
+  components:
+  - type: Xeno
+    role: SichXenoQueenPlus
+  # Час ставати червоною
+  - type: Sprite
+    layers:
+    - map: [ "enum.XenoVisualLayers.Base" ]
+      state: alive
+      color: "#BB0A1E"
+    - map: [ "enum.XenoVisualLayers.Ovipositor" ]
+      sprite: _RMC14/Mobs/Xenonids/Queen/ovipositor.rsi
+      color: "#BB0A1E"
+    - map: [ "enum.RMCDamageVisualLayers.Base" ]
+      visible: false
+    - map: [ "enum.XenoInhandVisualLayers.Left" ]
+      visible: false
+    - map: [ "enum.XenoInhandVisualLayers.Right" ]
+      visible: false
+    - map: [ "enum.RMCShieldVisuals.Base" ]
+      sprite: _RMC14/Effects/xeno_shields.rsi
+      visible: false
+  # Збільшення потужності феромонів на 50%
+  - type: XenoPheromones
+    pheromonesMultiplier: 6
+    pheroSuffix: king
+  # Збільшення запасів та швидкості відновлення плазми на 50%
+  - type: XenoPlasma
+    plasma: 1500
+    maxPlasma: 1500
+    plasmaRegenOnWeeds: 6
+    plasmaTransferDelay: 0
+  # Збільшення броні до рівня короля
+  - type: CMArmor
+    xenoArmor: 45
+    explosionArmor: 100
+  # Прибирання необхідності чекати 10 хвилин
+  - type: XenoMaturing
+    delay: 0

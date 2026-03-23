@@ -76,7 +76,7 @@
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidAcider
   name: Стійка корозійна кислота (100 acid)
-  description: З часом роз'їдає барикади і предмети. Ви не можете розплавити споруди. 
+  description: З часом роз'їдає барикади і предмети. Ви не можете розплавити споруди.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -330,7 +330,7 @@
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: xeno_spit
-    useDelay: 2
+    useDelay: 1.5 # Sich. 2 в оригіналі
   - type: TargetAction
     range: 15
     checkCanAccess: false
@@ -378,7 +378,7 @@
     icon:
       sprite: _RMC14/Actions/xeno_actions.rsi
       state: xeno_spit
-    useDelay: 2.5
+    useDelay: 1.5 # Sich. 2.5 в оригіналі
   - type: TargetAction
     range: 15
     checkCanAccess: false
@@ -393,7 +393,7 @@
   parent: ActionXenoSpit
   components:
   - type: Action
-    useDelay: 2
+    useDelay: 1.5 # Sich. 2 в оригіналі
 
 - type: entity
   parent: CMGuidebookActionXenoBase
