@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeDistinguishedConduct
-  name: distinguished conduct medal
-  description: A bronze medal awarded for distinguished conduct. Whilst a great honor, this is the most basic award given by the UNMC.
+  name: Медаль за Визначні Заслуги
+  description: Бронзова медаль, яка видається за визначні заслуги. Хоча це й велика честь, але це й найпростіша з іменних медалей в КМПОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeHeart
-  name: bronze heart medal
-  description: A bronze heart-shaped medal awarded for sacrifice. It is often awarded posthumously or for severe injury in the line of duty.
+  name: Медаль «Бронзове Серце»
+  description: Бронзова медаль у формі серця, яка видається за самопожертву на благо КМПОН. Часто вручається посмертно або за тяжке поранення, отримане під час виконання службових обов'язків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_heart.rsi
@@ -63,7 +63,7 @@
   parent: RMCMedalBronze
   id: RMCMedalBronzeService
   name: бронзова медаль за службу
-  description: Бронзова медаль, якою нагороджують за службу в КМПОН. Це найпоширеніша версія медалі за службу, і найперша яку отримує морпіхотинець.
+  description: Бронзова медаль, якою нагороджують за службу в КМПОН. Це найпоширеніша версія медалі за службу й найперша, яку отримує морський піхотинець.
 
 - type: entity
   parent: RMCMedalBase
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCMedalSilver
   id: RMCMedalSilverValor
-  name: medal of valor
-  description: A silver medal awarded for acts of exceptional valor. Normally given to those who outstand themselves from the ranks, either it be in Leadership skills or actions crucial to the mission success.
+  name: Медаль за Доблесть
+  description: Срібна медаль, яка видається за виняткову доблесть під час служби в рядах КМПОН. Зазвичай вручається тим, хто виділяється з-поміж інших, будь-то лідерськьими якостями чи визначними діями на успіх операції.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver.rsi
@@ -97,7 +97,7 @@
   parent: RMCMedalSilver
   id: RMCMedalSilverService
   name: срібна медаль за службу
-  description: Блискуча срібна медаль, якою нагороджують за службу в КМПОН. Це доволі поширена медаль, яка вказує на кількість часу проведеного морпіхотинцем на службі.
+  description: Блискуча срібна медаль, якою нагороджують за службу в КМПОН. Це доволі поширена медаль, яка вказує на вже не таку й малу кількість часу проведеного морським піхотинцем в лавах КМПОН.
 
 - type: entity
   parent: RMCMedalBase
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalGoldExceptionalHeroism
-  name: medal of exceptional heroism
-  description: An extremely rare golden medal awarded only by the UNMC. To receive such a medal is the highest honor and as such, very few exist.
+  name: Медаль за Винятковий Героїзм
+  description: Надзвичайно рідкісна золота медаль, яка вручається в справді особливих випадках при службі в силах КМПОН. Отримати таку медаль – найвища честь та їх кількість налічується десятками по всьому світу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalHighCommandHonor
-  name: UNMC High Command Medal of honor
-  description: A star-shaped golden medal bestowed solely by UNMC High Command. It is not earned through valor alone, but granted by command authority for deeds that transcend recognized heroism. As the UNMC’s ultimate distinction, it eclipses every other commendation. Its recipients are known to history, not statistics.
+  name: Почесна Медаль Верховного Командування КМПОН
+  description: Золота медаль у формі зірки, яка вручається виключно Верховним Командуванням КМПОН. Вона не заробляється лише за просту доблесть чи героїзм, а надається командуванням за вчинки, що перевершують будь-які очікування чи навіть людські можливості. Як найвища нагорода Об'єднаних Націй, вона затьмарює всі інші нагороди. Імена її лауреатів записані в історію, а не в таблиці статистики.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold_star.rsi
@@ -145,13 +145,13 @@
   parent: RMCMedalGold
   id: RMCMedalGoldService
   name: золота медаль за службу
-  description: Престижна медаль з домішками золота, якою нагороджують за службу в КМПОН. Це рідкісна медаль, яка видається побитим боями ветеранам.
+  description: Престижна медаль з домішками золота, якою нагороджують за службу в КМПОН. Це досить рідкісна медаль, яка видається тим, кого можна назвати свого роду ветеранам.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinum
   name: платинова медаль
-  description: ДУЖЕ престижна медаль, що може бути вручена лиш генералом, і лише за особоливі заслуги.
+  description: ДУЖЕ престижна медаль, що може бути вручена лиш Генералом чи кимось таким ж важливим й лише за особливі заслуги.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/platinum.rsi
@@ -165,13 +165,13 @@
   parent: RMCMedalPlatinum
   id: RMCMedalPlatinumService
   name: платинова медаль за службу
-  description: Не найвища, але все ще дуже почесна медаль, яку можуть вручити за заслуги морському піхотинцю. Видається особисто генералом. Це досить рідкісна медаль за заслуги, вона є лише у найзагартованіших боями бійців.
+  description: ДУЖЕ престижна медаль, якою нагороджують за службу в КМПОН. Справді рідкісна медаль, яка видається тим, хто ймовірно вже віддав своє життя та найкращі роки заради служби.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRuby
-  name: ruby medal
-  description: An exalted ruby medal, only able to be handed out by Generals due to special circumstances.
+  name: рубінова медаль
+  description: Особлива рубінова медаль, яку можуть вручати лише Генерали за особливих обставин.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/ruby.rsi
@@ -184,14 +184,14 @@
 - type: entity
   parent: RMCMedalRuby
   id: RMCMedalRubyService
-  name: ruby service medal
-  description: A deep crimson colored medal awarded for a marine's consistent service within the UNMC. This medal represent true dedication to one department and position.
+  name: рубінова медаль за службу
+  description: Медаль темно-малинового кольору, якою нагороджують за довгу службу в КМПОН. Дуже рідкісна медаль, яки видається тим, хто віддав себе всього якійсь одній посаді.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalAmethyst
-  name: amethyst medal
-  description: A mythical amethyst medal, only able to be handed out by High Command due to especially special circumstances.
+  name: аметистова медаль
+  description: Міфічна аметистова медаль, яку може вручати Верховне Командування за особливих обставин.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/amethyst.rsi
@@ -204,14 +204,14 @@
 - type: entity
   parent: RMCMedalAmethyst
   id: RMCMedalAmethystService
-  name: amethyst service medal
-  description: A pale violet colored medal awarded for a marine's service within the UNMC. This medal and those after represent someone who has weathered countless long and difficult deployments but conquered and learned from them.
+  name: аметистова медаль за службу
+  description: Медаль блідо-фіолетового кольору, якою нагороджують за справді довгу службу в КМПОН. Одна з найрідкісніших медалей, яка вже робить з людини символ посади, яку вона займає.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalEmerald
-  name: emerald medal
-  description: A revered emerald medal, only able to be handed out by High Command due to especially special circumstances.
+  name: смарагдова медаль
+  description: Шанована смарагдова медаль, яку може вручати Верховне Командування лише за особливо особливих обставин.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/emerald.rsi
@@ -224,14 +224,14 @@
 - type: entity
   parent: RMCMedalEmerald
   id: RMCMedalEmeraldService
-  name: emerald service medal
-  description: A bright emerald medal awarded for a marine's service within the UNMC. Emerald medals are awarded to represent a marine's multiple years of effort to grow and learn in their position, it is one of the final awards representing a marine's career through service medals.
+  name: смарагдова медаль за службу
+  description: Яскрава смарагдова медаль, якою нагороджують за справді дуже довгу службу в КМПОН. Друга за рідкістю медаль, яка видається тим, кого вже нічим не здивувати та вони є експертами та найкращими знавцями своєї сфери.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPrismatic
-  name: prismatic medal
-  description: A mythical prismatic medal, only able to be handed out by High Command due to especially special circumstances.
+  name: призматична медаль
+  description: Міфічна призматична медаль, яку може вручати Верховне Командування лише за особливо-особливо особливих обставин.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/prismatic.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: RMCMedalPrismatic
   id: RMCMedalPrismaticService
-  name: prismatic service medal
-  description: A multi-colored prismatic medal awarded for a marine's service within the UNMC. Prismatic medals are traditionally awarded to those who have spent countless years of service in their position. Medals like these are generally issued directly by adjutants or staff representing members of UNMC Command as the final possible service medal.
+  name: призматична медаль за службу
+  description: Різнокольорова призматична медаль, якою нагороджують за певно вічну службу в КМПОН. Найрідкісніша медаль всього Корпусу. Це остання з можливих медалей за службу та зазвичай її отримують ті, хто вже виходять на пенсію з кількістю років в лавах КМПОН більшою за вік рядових.
 
 # Civilian Ribbons
 

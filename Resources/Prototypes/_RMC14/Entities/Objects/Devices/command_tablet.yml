@@ -30,7 +30,7 @@
     canInitiateEvac: true
   - type: TacticalMapComputer
   - type: MarineControlComputer
-    canPrintCommendations: false
+    canPrintCommendations: true # Sich. false в оригіналі, дайте КО робити медалі де він захоче
   - type: Tag
     tags:
     - CommandTablet

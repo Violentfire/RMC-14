@@ -1,0 +1,52 @@
+# НЕ ПЕРЕКЛАДАТИ ТА НЕ ЧИПАТИ!
+# Так, це костиль. Створений для того, щоб всі раніше видані медалі відображалися нормально. Питання: "А чому медалі одночасно й до назв, й до айді?", – задавайте РМСам, мучатися з міграціями ДБ я не хочу. . .
+
+## Англомовні варіанти
+- type: entity
+  parent: RMCMedalBronzeDistinguishedConduct
+  id: SichMedalBronzeDistinguishedConductEngilsh
+  name: distinguished conduct medal
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalBronzeHeart
+  id: SichMedalBronzeHeartEngilsh
+  name: bronze heart medal
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalSilverValor
+  id: SichMedalSilverValorEngilsh
+  name: medal of valor
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalGoldExceptionalHeroism
+  id: SichMedalGoldExceptionalHeroismEngilsh
+  name: medal of exceptional heroism
+  categories: [ HideSpawnMenu ]
+
+## Старі українські варіанти
+- type: entity
+  parent: RMCMedalBronzeDistinguishedConduct
+  id: SichMedalBronzeDistinguishedConductUkrainian
+  name: Медаль «За визначні заслуги»
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalBronzeHeart
+  id: SichMedalBronzeHeartUkrainian
+  name: Медаль «Бронзове серце»
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalSilverValor
+  id: SichMedalSilverValorUkrainian
+  name: Медаль за Доблесть
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCMedalGoldExceptionalHeroism
+  id: SichMedalGoldExceptionalHeroismUkrainian
+  name: Медаль за Винятковий Героїзм
+  categories: [ HideSpawnMenu ]

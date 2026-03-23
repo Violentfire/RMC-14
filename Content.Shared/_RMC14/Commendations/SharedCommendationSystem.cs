@@ -35,7 +35,17 @@ public abstract class SharedCommendationSystem : EntitySystem
     /// </summary>
     protected static readonly IReadOnlyList<ProtoId<EntityPrototype>> SpecialMedalIds = new[]
     {
-        new ProtoId<EntityPrototype>("RMCMedalHighCommandHonor")
+        new ProtoId<EntityPrototype>("RMCMedalHighCommandHonor"),
+        // Sich starts. Костиль, подробиці в Prototypes\_Sich\Entities\Objects\medals.yml
+        new ProtoId<EntityPrototype>("SichMedalGoldExceptionalHeroismEngilsh"),
+        new ProtoId<EntityPrototype>("SichMedalSilverValorEngilsh"),
+        new ProtoId<EntityPrototype>("SichMedalBronzeDistinguishedConductEngilsh"),
+        new ProtoId<EntityPrototype>("SichMedalBronzeHeartEngilsh"),
+        new ProtoId<EntityPrototype>("SichMedalGoldExceptionalHeroismUkrainian"),
+        new ProtoId<EntityPrototype>("SichMedalSilverValorUkrainian"),
+        new ProtoId<EntityPrototype>("SichMedalBronzeDistinguishedConductUkrainian"),
+        new ProtoId<EntityPrototype>("SichMedalBronzeHeartUkrainian")
+        // Sich ends.
     };
 
     /// <summary>

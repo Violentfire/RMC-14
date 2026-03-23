@@ -1,9 +1,3 @@
-# Типи Медалей
-rmc-medal-1 = Медаль «За визначні заслуги»
-rmc-medal-2 = Медаль «Бронзове серце»
-rmc-medal-3 = Медаль за Доблесть
-rmc-medal-4 = Медаль за Винятковий Героїзм
-
 # Medal UI
 rmc-medal-recipient = Одержувач Медалі
 rmc-medal-recipient-prompt = Кому ви хочете вручити Медаль?
@@ -28,7 +22,7 @@ rmc-award-recommendation-empty = Ви повинні написати причи
 rmc-award-recommendation-invalid = Цієї особи не існує.
 rmc-award-recommendation-no-targets = Наразі нема кого рекомендувати.
 rmc-award-recommendation-no-computer = Не вдалося зберегти рекомендацію.
-rmc-award-recommendation-success = { $name } було успішно рекомендовано до нагородження { $count }.
+rmc-award-recommendation-success = {$name} було успішно рекомендовано до нагородження {$count}.
 rmc-award-recommendation-out = Ви досягли ліміту рекомендацій до нагородження.
 rmc-award-recommendation-no-authority = Ви не маєте права рекомендувати до нагородження.
 rmc-award-recommendation-too-early = Ще зарано рекомендувати до нагордження. Зачекайте ще {$minutes} хвилин.
@@ -60,5 +54,5 @@ rmc-commendation-description = [bold]{$receiver}[/bold] отримав від [b
 
 rmc-commendation-examine-title = Напис
 rmc-commendation-examine-1 = Напис на цій нагороді гласить:
-rmc-commendation-examine-2 = [italic][bolditalic]{$receiver}[/bolditalic] отримав медаль від [bolditalic]{$giver}[/bolditalic] за: {$text}[/italic]
+rmc-commendation-examine-2 = [italic][bolditalic]{$receiver}[/bolditalic] отримав медаль від [bolditalic]{$giver}[/bolditalic] за {$text}[/italic]
 rmc-commendation-examine-hover = Прочитати повний текст до цієї нагороди.
