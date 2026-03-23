@@ -40,7 +40,7 @@
       background:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_medical
-  hidden: true # TODO RMC14
+#  hidden: true # TODO RMC14 – Sich
 
 - type: startingGear
   id: CMGearFieldDoctor
