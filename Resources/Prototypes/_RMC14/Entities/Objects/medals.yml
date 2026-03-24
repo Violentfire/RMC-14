@@ -252,8 +252,8 @@
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonBronze
-  name: bronze ribbon
-  description: A bronze ribbon.
+  name: бронзова стрічка-орден
+  description: Бронзова стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_ribbon.rsi
@@ -266,14 +266,14 @@
 - type: entity
   parent: RMCMedalRibbonBronze
   id: RMCMedalRibbonBronzeService
-  name: bronze award ribbon
-  description: A bronze ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a very common award, and is typically the first award a civilian would receive.
+  name: бронзова нагородна стрічка-орден
+  description: Бронзова стрічка-орден, яка вручається цивільним особам за участь у заходах, що спонсорувалися КМПОН. Це дуже поширена нагорода й зазвичай – це перша нагорода, яку цивільні отримають від Морпіхоти.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonWhite
-  name: white ribbon
-  description: A white ribbon.
+  name: біла стрічка-орден
+  description: Біла стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/white_ribbon.rsi
@@ -286,14 +286,14 @@
 - type: entity
   parent: RMCMedalRibbonWhite
   id: RMCMedalRibbonWhiteService
-  name: white award ribbon
-  description: A white ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a somewhat common award, signifying their dedication and support for the organization.
+  name: біла нагородна стрічка-орден
+  description: Біла стрічка-орден, яка вручається цивільним особам за участь у заходах, що спонсорувалися КМПОН. Це досить поширена нагорода, що символізує їхню відданість та підтримку Морпіхоти.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonYellow
-  name: yellow ribbon
-  description: A yellow ribbon.
+  name: жовта стрічка-орден
+  description: Жовта стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/yellow_ribbon.rsi
@@ -306,14 +306,14 @@
 - type: entity
   parent: RMCMedalRibbonYellow
   id: RMCMedalRibbonYellowService
-  name: yellow award ribbon
-  description: A bright yellow ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a rare award, signifying their dedication and support for the organization.
+  name: жовта нагородна стрічка-орден
+  description: Яскраво-жовта стрічка-орден, яка вручається цивільним особам за участь у заходах, що спонсорувалися КМПОН. Це рідкісна нагорода, що символізує їхню відданість та підтримку Морпіхоти.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonBlue
-  name: blue ribbon
-  description: A blue ribbon.
+  name: синя стрічка-орден
+  description: Синя стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/blue_ribbon.rsi
@@ -326,14 +326,14 @@
 - type: entity
   parent: RMCMedalRibbonBlue
   id: RMCMedalRibbonBlueService
-  name: blue award ribbon
-  description: A prestigious blue ribbon awarded to civilians for participation in a UNMC-sponsored event. Such awards require significant amounts of time and dedication to the organization to achieve.
+  name: синя нагородна стрічка-орден
+  description: Престижна блакитна стрічка-орден, яка вручається цивільним особам за участь у заходах, що спонсорувалися КМПОН. Для отримання такої нагороди потрібна значна кількість часу та справжня відданість Морпіхоті.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonRed
-  name: red ribbon
-  description: A red ribbon.
+  name: червона стрічка-орден
+  description: Червона стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/red_ribbon.rsi
@@ -346,14 +346,14 @@
 - type: entity
   parent: RMCMedalRibbonRed
   id: RMCMedalRibbonRedService
-  name: red award ribbon
-  description: A vibrant red ribbon awarded to civilians for going above and beyond in UNMC-sponsored events. Such awards require excessive amounts of time and dedication to the organization to achieve.
+  name: червона нагородна стрічка-орден
+  description: Яскрава червона стрічка-орден, яка вручається цивільним особам за виняткову участь у заходах, що спонсорувалися КМПОН. Для досягнення такої нагороди потрібна величезна кількість часу та справжня відданість Морпіхоті.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonEmerald
-  name: emerald ribbon
-  description: An emerald ribbon.
+  name: смарагдова стрічка-орден
+  description: Смарагдова стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/emerald_ribbon.rsi
@@ -366,14 +366,14 @@
 - type: entity
   parent: RMCMedalRibbonEmerald
   id: RMCMedalRibbonEmeraldService
-  name: emerald award ribbon
-  description: A revered emerald ribbon awarded to civilians for going above and beyond in UNMC-sponsored events. Such awards require exorbitant amounts of time and dedication to the organization to achieve.
+  name: смарагдова нагородна стрічка-орден
+  description: Шанована смарагдова стрічка-орден, яка вручається цивільним особам за виняткову участь у заходах, що спонсорувалися КМПОН. Для досягнення такої нагороди потрібна величезна кількість часу та справжня відданість Морпіхоті.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonAmethyst
-  name: Amethyst ribbon
-  description: An amethyst ribbon.
+  name: аметистова стрічка-орден
+  description: Аметистова стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/amethyst_ribbon.rsi
@@ -386,14 +386,14 @@
 - type: entity
   parent: RMCMedalRibbonAmethyst
   id: RMCMedalRibbonAmethystService
-  name: amethyst award ribbon
-  description: A mythical amethyst ribbon awarded to civilians for going far above and beyond in UNMC-sponsored events. Such awards require unreasonable amounts of time and dedication to the organization to achieve.
+  name: аметистова нагородна стрічка-орден
+  description: Міфічна аметистова стрічка-орден, яка вручається цивільним особам за виняткову участь у заходах, що спонсорувалися КМПОН. Для досягнення такої нагороди потрібна величезна кількість часу та справжня відданість Морпіхоті.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonPrismatic
-  name: Prismatic ribbon
-  description: An prismatic ribbon.
+  name: прізматична стрічка-орден
+  description: Прізматична стрічка-орден.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/prismatic_ribbon.rsi
@@ -406,16 +406,16 @@
 - type: entity
   parent: RMCMedalRibbonPrismatic
   id: RMCMedalRibbonPrismaticService
-  name: prismatic award ribbon
-  description: A legendary prismatic ribbon awarded to civilians, whom may be a god walking amongst mere mortals. Such awards require a nigh on impossible amount of time and dedication to the organization to achieve.
+  name: прізматична нагородна стрічка-орден
+  description: Легендарна призматична стрічка-орден, яка вручається цивільним особам за виняткову участь у заходах, що спонсорувалися КМПОН. Хтось називає їх богами, але чесно кажучи – вони просто скажені. Для отримання такої нагороди потрібна величезна кількість часу та справжня відданість Морпіхоті.
 
 
   # Liaison Medals
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalBronzeNametag
-  name: bronze name badge
-  description: A bronze name badge.
+  name: бронзовий бейдж з іменем
+  description: Бронзовий бейдж з іменем.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_nametag.rsi
@@ -428,14 +428,14 @@
 - type: entity
   parent: RMCMedalBronzeNametag
   id: RMCMedalBronzeNametagService
-  name: junior executive name badge
-  description: An engraved bronze badge, containing the wearer's name, rank, and department. This one is given to those who have just begun to climb the Corporate ladder.
+  name: бейдж молодшого керівника
+  description: Бронзовий значок, на якому вигравіювано ім'я власника, посаду та відділ до якого він належить. Вручається тим, хто щойно почав підніматися кар'єрними сходами Корпорації Вестон-Ямада.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalSilverNametag
-  name: silver name badge
-  description: A silver name badge.
+  name: срібний бейдж з іменем
+  description: Срібний бейдж з іменем.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver_nametag.rsi
@@ -448,14 +448,14 @@
 - type: entity
   parent: RMCMedalSilverNametag
   id: RMCMedalSilverNametagService
-  name: executive name badge
-  description: An engraved bright silver badge, containing the wearer's name, rank, and department. This one is given to those who have proven their worth to Weston-Yamada as a valuable employee.
+  name: бейдж керівника
+  description: Яскравий срібний значок, на якому вигравіювано ім'я власника, посаду та відділ до якого він належить. Вручається тим, хто довів свою цінність для корпорації Вестон-Ямада, як цінний працівник.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalGoldNametag
-  name: gold name badge
-  description: A prestigious golden name badge.
+  name: золотий бейдж з іменем
+  description: Престижний золотий бейдж з іменем.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold_nametag.rsi
@@ -468,14 +468,14 @@
 - type: entity
   parent: RMCMedalGoldNametag
   id: RMCMedalGoldNametagService
-  name: senior executive name badge
-  description: An engraved golden badge, containing the wearer's name, rank, and department. This one is rare, awarded to those who have shown their dedication to the Company, and has been deemed both a skilled and reliable asset.
+  name: бейдж старшого керівника
+  description: Золотий значок, на якому вигравіювано ім'я власника, посаду та відділ до якого він належить. Рідкісна відзнака, вручається тим, хто продемонстрував свою відданість Корпорації Вестон-Ямада й вважається як кваліфікованим, так й надійним активом.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinumNametag
-  name: gold and black name badge
-  description: A very prestigious gold-black name badge, handed out to those deemed worthy by the chief executives.
+  name: золотисто-чорний бейдж з іменем
+  description: Дуже престижний золотисто-чорний бейдж, який вручають тим, кого Директори вважають гідними.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/plat_nametag.rsi
@@ -488,7 +488,7 @@
 - type: entity
   parent: RMCMedalPlatinumNametag
   id: RMCMedalPlatinumNametagService
-  name: executive specialist name badge
-  description: An engraved gold-and-black badge, containing the wearer's name, rank, and department. The highest rank most executives can reach within their lifetimes, it signifies ones influence, skill, and importance to the Weston-Yamada Corporation.
+  name: бейдж керівника-спеціаліста
+  description: Золотисто-чорний значок, на якому вигравіювано ім'я власника, посаду та відділ до якого він належить. Найвища посада, якої більшість керівників можуть досягти протягом свого життя. Вона символізує вплив, майстерність та важливість для корпорації Вестон-Ямада.
 
 
