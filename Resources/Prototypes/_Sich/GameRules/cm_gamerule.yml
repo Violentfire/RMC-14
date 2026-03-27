@@ -1,21 +1,4 @@
 - type: entity
-  id: SichEventSunRiders
-  parent: CMDistressSignal
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: GameRule
-    minPlayers: 0
-  - type: CMDistressSignalRule
-    requireXenoPlayers: false # не треба готові ксено
-    spawnXenos: false         # готових ксено не заспавнить
-    spawnSurvivors: false     # готових виживших не заспавнить
-    roundEndCheckDelay: 10800 # перша перевірка чи виконано умови для завершення раунду відбудеться 3 години після старту раунду
-    bioscan: false            # без біоскану
-    startARESAnnouncements: false # АРЕС не вітає морпіхів
-    squadIds: ["SquadSunRiders"] # загін "Сонячні вершники" з івентового корабля
-    extraSquadIds: []         # без інтелу й форкону(сурви не спавняться)
-
-- type: entity
   id: SichCalmed
   parent: CMDistressSignal
   categories: [ HideSpawnMenu ]
@@ -23,7 +6,18 @@
   - type: GameRule
     minPlayers: 0
   - type: CMDistressSignalRule
-    requireXenoPlayers: false 
-    spawnXenos: false         
-    spawnSurvivors: false     
-    roundEndCheckDelay: 108000 # 30 годин
+    requireXenoPlayers: false     # не треба готові ксено
+    spawnXenos: false             # готових ксено не заспавнить
+    spawnSurvivors: false         # готових виживших не заспавнить
+    roundEndCheckDelay: 108000    # перша перевірка чи виконано умови для завершення раунду відбудеться 30 години після старту раунду  (адміністрація розбереться)
+    bioscan: false                # без біоскану (адміністрація розбереться х2)
+    startARESAnnouncements: false # АРЕС не вітає морпіхів. ТОДО: зробити кастомні оголошення
+
+- type: entity
+  id: SichEventSunRiders
+  parent: SichCalmed
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: CMDistressSignalRule
+    squadIds: ["SquadSunRiders"] # загін "Сонячні вершники" з івентового корабля
+    extraSquadIds: []            # без інтелу й форкону (сурви не спавняться)
