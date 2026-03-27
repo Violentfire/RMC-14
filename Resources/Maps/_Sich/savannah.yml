@@ -89826,11 +89826,6 @@ entities:
     - type: Transform
       pos: -73.5,-15.5
       parent: 1
-  - uid: 11448
-    components:
-    - type: Transform
-      pos: -73.5,-14.5
-      parent: 1
 - proto: RMCOuterClothingExternalWebbingBlack
   entities:
   - uid: 11449
