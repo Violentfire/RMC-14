@@ -14,7 +14,7 @@
   - type: Corrodible
     isCorrodible: false
   - type: Gun
-    fireRate: 2.5
+    fireRate: 1.5 # Sich. 2.5 в оригіналі, нерф, поки їм хоча б не повернуть дамаг від плювків
   - type: BallisticAmmoProvider
     cycleable: false
     proto: RMCCartridgeSentry
