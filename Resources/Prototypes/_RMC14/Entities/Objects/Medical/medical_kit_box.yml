@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMMedicalUpgradeKit
-  name: medical upgrade kit
-  description: This kit holds upgraded trauma and burn kits, for critical injuries.
+  name: просунутий медичний комплект
+  description: Цей комплект містить покращені набори для лікування критичних травм та опіків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/medical_upgrade_kit.rsi

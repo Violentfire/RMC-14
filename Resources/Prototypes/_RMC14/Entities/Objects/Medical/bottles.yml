@@ -95,7 +95,7 @@
   parent: CMBottleFilled
   id: CMBottleBicaridine
   name: пляшка бікаридину
-  description: Маленька пляшка. Містить бікардин - використовується для лікування фізичних ушкоджень.
+  description: Маленька пляшка. Містить Бікаридин, використовується для лікування фізичних ушкоджень.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -112,7 +112,7 @@
   parent: CMBottleFilled
   id: CMBottleKelotane
   name: пляшка келотану
-  description: Мала пляшка. Містить келотан - використовується для обробки обпалених ділянок.
+  description: Маленька пляшка. Містить Келотан, використовується для обробки обпалених ділянок.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -129,7 +129,7 @@
   parent: CMBottleFilled
   id: CMBottleDylovene
   name: пляшка диловену
-  description: Мала пляшка диловену. Протидіє отрутам і відновлює пошкодження, спричинені токсинами. Чудодійні ліки.
+  description: Маленька пляшка. Містить Диловен, протидіє отрутам і відновлює пошкодження, спричинені токсинами. Чудодійні ліки.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -146,7 +146,7 @@
   parent: CMBottleFilled
   id: CMBottleDexalin
   name: пляшка дексаліну
-  description: Мала пляшка. Містить дексалін - використовується для лікування кисневого голодування.
+  description: Маленька пляшка. Містить Дексалін, використовується для лікування кисневого голодування.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -163,7 +163,7 @@
   parent: CMBottleFilled
   id: CMBottleInaprovaline
   name: пляшка інапроваліну
-  description: Мала пляшка. Містить інапровалін - використовується для стабілізації пацієнтів.
+  description: Маленька пляшка. Містить Інапровалін, використовується для стабілізації пацієнтів.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -180,7 +180,7 @@
   parent: CMBottleFilled
   id: CMBottleTricordrazine
   name: пляшка трикодразину
-  description: Мала пляшка. Містить трикордразин – слабкий, але універсальний препарат для лікування всіх видів пошкоджень.
+  description: Маленька пляшка. Містить Трикордразин, використовується як слабкий, але універсальний препарат для лікування всіх видів пошкоджень.
   components:
   - type: SolutionContainerManager
     solutions:

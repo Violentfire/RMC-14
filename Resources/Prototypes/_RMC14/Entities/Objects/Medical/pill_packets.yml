@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketPills
-  name: pill packet
-  description: Contains pills. Once you take them out, they don't go back in.
+  name: блістер для пігулок
+  description: Містить пігуоки. Після того, як ви їх виймете – назад вже не повернути.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/pill_packets.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsTricordrazine
-  name: tricordazine pill packet
-  description: This packet contains tricordazine pills. Heals all types of damage slightly. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
+  name: блістер з пігулками трикодразину
+  description: Цей блістер містить пігулки трикордазину. Їх використання допоможе пришвидшити загоєння більшості ран. Після виймання назад їх не вставити. Не приймайте більше 2 пігулок за короткий проміжок часу.
   components:
   - type: Sprite
     state: tricordrazine_packet
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsBicaridine
-  name: bicaridine pill packet
-  description: This packet contains bicaridine pills. Heals brute damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
+  name: блістер з пігулками бікаридину
+  description: Цей блістер містить пігулки бікаридину. Їх використання допоможе сильно пришвидшити загоєння фізичних травм. Після виймання назад їх не вставити. Не приймайте більше 2 пігулок за короткий проміжок часу.
   components:
   - type: Sprite
     state: bicaridine_packet
@@ -69,8 +69,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsKelotane
-  name: kelotane pill packet
-  description: This packet contains kelotane pills. Heals burn damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
+  name: блістер з пігулками келотану
+  description: Цей блістер містить пігулки келотану. Їх використання допоможе сильно пришвидшити загоєння опіків. Після виймання назад їх не вставити. Не приймайте більше 2 пігулок за короткий проміжок часу.
   components:
   - type: Sprite
     state: kelotane_packet

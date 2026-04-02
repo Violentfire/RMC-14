@@ -22,7 +22,7 @@
   abstract: true
   id: CMOintment
   name: мазь
-  description: Використовується щоб замазати ваші проколи... ой, щоб вилікувати ваші опіки. Меньш ефективна проти опіків кислотою.
+  description: Використовується щоб замазати ваші проколи... Ой, щоб вилікувати ваші опіки. Менш ефективна проти кислотних опіків.
   suffix: Ten
   components:
   - type: Tag
@@ -92,7 +92,7 @@
   abstract: true
   id: CMGauze
   name: марля
-  description: Стерильна марля, використовується щоб зупинити кровотечу.
+  description: Стерильна марля, використовується, щоб зупинити кровотечу.
   suffix: Десяток
   components:
   - type: Tag
@@ -201,7 +201,7 @@
   parent: CMBaseHealingItem
   id: CMSynthGraft
   name: трансплантант синтетики
-  description: Річ, яка може пересадити вам шкіру, щоправда силіконову. Пересаджена шкіра невимовно смердить і страшенно свербить, до того ж її колір не пасує нікому. Але, принаймні, не треба буде відлежуватися в лікарні... хоча, це теж радше до мінусів.
+  description: Річ, за допомогою якої можна пересадити вам шкіру, щоправда силіконову. Пересаджена шкіра невимовно смердить і страшенно свербить, до того ж її колір не пасує нікому. Але, принаймні, не треба буде відлежуватися в лікарні... Хоча, це теж радше до мінусів.
   components:
   - type: Tag
     tags:
@@ -304,7 +304,7 @@
 
 - type: stack
   id: CMBurnKit
-  name: просунутий протиопіковий набір
+  name: протиопіковий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -372,7 +372,7 @@
 
 - type: stack
   id: CMTraumaKit
-  name: просунутий біоклеєвий набір
+  name: біоклеєвий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit }
   spawn: CMTraumaKit1
   maxCount: 10
@@ -381,8 +381,8 @@
   parent: CMBurnKit
   abstract: true
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
-  description: An upgraded burn treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical burns.
+  name: просунутий протиопіковий набір
+  description: Удосконалений набір для лікування опіків. Утричі ефективніший за стандартний й наврядч ви десь ще знайдете такий. Використовуйте економно лише для найкритичніших опіків.
   components:
   - type: Sprite
     state: burnkit_upgraded
@@ -426,7 +426,7 @@
 
 - type: stack
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
+  name: просунутий протиопіковий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit_upgraded }
   spawn: CMUpgradedBurnKit1
   maxCount: 10
@@ -434,8 +434,8 @@
 - type: entity
   parent: CMTraumaKit
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
-  description: An upgraded trauma treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical wounds.
+  name: просунутий біоклеєвий набір
+  description: Удосконалений набір для лікування фізичних травм. Утричі ефективніший за стандартний й наврядч ви десь ще знайдете такий. Використовуйте економно лише для найкритичніших ран.
   components:
   - type: Sprite
     state: traumakit_upgraded
@@ -466,7 +466,7 @@
 
 - type: stack
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
+  name: просунутий біоклеєвий набір
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit_upgraded }
   spawn: CMUpgradedTraumaKit1
   maxCount: 10

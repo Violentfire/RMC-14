@@ -98,7 +98,7 @@
   parent: CMAutoInjector
   id: CMTricordrazineAutoInjector
   name: автоінжектор трикордразину
-  description: Автоінжектор заповнений трьома дозами Трикордразину, слабким препаратом загальної дії.
+  description: Автоінжектор заповнений трьома дозами Трикордразину по 15 одиниць, який є слабким препаратом загальної дії. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -117,7 +117,7 @@
   parent: CMTricordrazineAutoInjector
   id: CMTricordrazineAutoInjectorNoSkill
   name: автоінжектор першої допомоги
-  description: Автоінжектор з малою дозою ліків які мають покращити самопочуття пораненого бійця.
+  description: Автоінжектор з малою дозою ліків які мають покращити самопочуття пораненого бійця. Ви можете поповнити його в автоматах Ве-Я Мед Плюс та Наномедах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/auto_injectors.rsi
@@ -148,7 +148,7 @@
   parent: CMAutoInjector
   id: CMKelotaneAutoInjector
   name: автоінжектор келотану
-  description: Автоінжектор заповнений трьома дозами Келотану, який лікує опіки, що від вогню, що від кислоти.
+  description: Автоінжектор заповнений трьома дозами Келотану по 15 одиниць, який лікує опіки, що від вогню, що від кислоти. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -167,7 +167,7 @@
   parent: CMAutoInjector
   id: CMDexalinPlusAutoInjector
   name: автоінжектор дексаліну плюс
-  description: Автоінжектор заповнений трьома дозами Дексаліну Плюс, який миттєво наповнює організм киснем.
+  description: Автоінжектор заповнений трьома дозами Дексаліну Плюс по 1 одиниці, який миттєво наповнює організм киснем. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: Hypospray
     transferAmount: 1
@@ -187,8 +187,8 @@
 - type: entity
   parent: CMAutoInjector
   id: RMCDyloveneAutoInjector
-  name: dylovene autoinjector
-  description: An autoinjector loaded with 3 doses of 15u of Dylovene, a common toxin damage medicine. You can refill it at Weya-Med vending machines.
+  name: автоінжектор диловену
+  description: Автоінжектор заповнений трьома дозами Диловену по 15 одиниць, який фактично загальна протиотрута. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -209,7 +209,7 @@
   parent: CMAutoInjector
   id: CMBicaridineAutoInjector
   name: автоінжектор бікаридину
-  description: Автоінжектор заповнений трьома дозами Бікаридину, який лікує всі фізичні пошкодження.
+  description: Автоінжектор заповнений трьома дозами Бікаридину по 15 одиниць, який лікує всі фізичні пошкодження. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -228,7 +228,7 @@
   parent: CMAutoInjector
   id: CMInaprovalineAutoInjector
   name: автоінжектор інапроваліну
-  description: Автоінжектор заповнений трьома дозами Інапроваліну, який стабілізує пацієнтів в критичному стані.
+  description: Автоінжектор заповнений трьома дозами Інапроваліну по 30 одиниць, який стабілізує пацієнтів в критичному стані. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -251,7 +251,7 @@
   parent: CMAutoInjector
   id: CMEpinephrineAutoInjector
   name: автоінжектор епінефрину
-  description: Автоінжектор заповнений трьома дозами Епінефрину, краще знаним як Адреналін, стимулятор м'язів, корисний при намаганні відновити серцебиття.
+  description: Автоінжектор заповнений трьома дозами Епінефрину по 5,25 одиниці, краще знаним як Адреналін, стимулятор м'язів, корисний при намаганні відновити серцебиття. Ви можете поповнити його в автоматах Ве-Я Мед Плюс.
   components:
   - type: Hypospray
     transferAmount: 5.25
@@ -310,7 +310,7 @@
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjector15
   name: медичний автоінжектор (M-M)
-  description: Професійний медичний автоінжектор виготовлений на замовлення. Виглядає так, наче над ними працювала ціла наукова команда. Має такий самий замок, як на пляшках з пігулками та здатен містити у собі до шести доз препарату.
+  description: Кастомний професійний медичний автоінжектор. Виглядає так, наче над ними працювала ціла наукова команда. Має такий самий замок, як на пляшках з пігулками та здатен містити у собі до шести доз препарату.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/medic_auto_injector.rsi
@@ -357,7 +357,7 @@
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorEZ1
   name: автоінжектор (E-U)
-  description: Виготовлений на замовлення EZ автоінжектор, схоже на його дизайн та створення сильно не витрачалися. Вводить весь запас рідини за один укол, але при цьому не вимагає ніяких навичок.
+  description: Кастомний EZ автоінжектор, схоже на його дизайн та створення сильно не витрачалися. Вводить весь запас рідини за один укол, але при цьому не вимагає ніяких навичок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/ez_medic_auto_injector.rsi
@@ -600,7 +600,7 @@
   parent: RMCMedicAutoInjectorBase
   id: RMCMedicAutoInjectorCS5
   name: автоінжектор (C-XS)
-  description: Автоінжектор виготовлений на замовлення. Ймовірно він з лабораторії.
+  description: Кастомний автоінжектор. Ймовірно він з лабораторії.
   components:
   - type: Sprite
     layers:

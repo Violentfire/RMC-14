@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCBaseStorageBag
   id: CMBodyBag
-  name: body bag
-  description: A folded bag designed for the storage and transportation of cadavers.
+  name: мішок для тіла
+  description: Мішок, призначений для зберігання та транспортування трупів.
   components:
   - type: InsertBlacklist
     whitelistedMobStates:
@@ -212,8 +212,8 @@
 - type: entity
   parent: RMCBaseStorageBag
   id: RMCThermalTarpV2
-  name: V2 reactive thermal tarp
-  description: A tarp carried by some UNMC infantry. This updated tarp is capable of blending into its environment nearly flawlessly, given that it can properly collate data once deployed. The tarp is able to hide the wearer's heat signature.
+  name: реактивний термобрезент V2
+  description: Брезент, який носить частина піхотинців КМПОН. Цей оновлений брезент здатний майже бездоганно зливатися з навколишнім середовищем, враховуючи, що він може правильно збирати дані після розгортання. Брезент здатний приховувати теплову сигнатуру власника.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/bodybags.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: RMCBaseStorageBag
   id: RMCThermalTarp
-  name: Реактивний термобрезент V3
-  description: "Більш компактна та вдосконалена версія термобрезенту V2, призначена головним чином для транспортування загиблих або поранених морпіхів. Має покращену технологію маскування порівняно з попередніми моделями, що дозволяє швидше й ефективніше приховувати об'єкт, але потребує спеціальної підготовки для використання."
+  name: реактивний термобрезент V3
+  description: Більш компактна та вдосконалена версія термобрезенту V2, призначена головним чином для транспортування загиблих або поранених морпіхів. Має покращену технологію маскування порівняно з попередніми моделями, що дозволяє швидше й ефективніше приховувати об'єкт, але потребує спеціальної підготовки для використання.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/bodybags.rsi

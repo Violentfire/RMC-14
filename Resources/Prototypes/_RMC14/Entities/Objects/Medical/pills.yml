@@ -2,7 +2,7 @@
   name: пігулка
   parent: BaseItem
   id: CMPill
-  description: "Пігулка... пігулка... пігулка... гірка певно"
+  description: Пігулка... Пігулка... Пігулка... гірка певно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pills.rsi
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillCyanide
-  description: A cyanide pill. Don't swallow this!
+  description: Пігулка ціаніду. Не ковтай це!
   components:
   - type: SolutionContainerManager
     solutions:

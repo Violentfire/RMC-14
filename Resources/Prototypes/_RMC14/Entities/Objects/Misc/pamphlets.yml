@@ -229,8 +229,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletHeavyMachineGunner
-  name: heavy machinegunner instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an engineering and a machinegun insignia
+  name: довідник важкого кулеметника
+  description: Навчить вас, як встановлювати та використовувати важкі кулемети так, щоб їх першою жертвою не стали ви самі!
   components:
   - type: Sprite
     state: pamphlet_machinegunner
@@ -246,7 +246,7 @@
   parent: CMPamphlet
   id: RMCPamphletHonorGuard
   name: довідник почесного вартового
-  description: Навчить вас завжди бути поряд з Командувачем та красиво виглядати на спільних знімках. В обов'язки Почесного Вартового входить захист життя Командувача операції, можливо, навіть ціною свого. 
+  description: Навчить вас завжди бути поряд з Командувачем та красиво виглядати на спільних знімках. В обов'язки Почесного Вартового входить захист життя Командувача операції, можливо, навіть ціною свого.
   components:
   - type: Sprite
     state: pamphlet_honorguard
@@ -314,7 +314,7 @@
   parent: CMPamphletLanguage
   id: CMPamphletLanguageYautja
   name: пофарбований пергамент
-  description: Пожовклий шматок пергаменту, на якому виведені дивні руни. Здається вони рухаються, і прямо у вас на очах складаються в якісь слова. 
+  description: Пожовклий шматок пергаменту, на якому виведені дивні руни. Здається вони рухаються, і прямо у вас на очах складаються в якісь слова.
 
 # gives xenonid language
 - type: entity

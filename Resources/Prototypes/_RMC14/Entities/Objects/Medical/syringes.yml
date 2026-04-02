@@ -1,6 +1,8 @@
 - type: entity
   parent: Syringe
   id: CMSyringe
+  name: шприц # Sich
+  description: Використовується для забору крові або введення речовин в тіло пацієнта. # Sich
   suffix: RMC14
   components:
   - type: SolutionContainerVisuals
@@ -40,8 +42,8 @@
 - type: entity
   parent: CMSyringe
   id: RMCSyringeLethal
-  name: lethal injection syringe
-  description: A syringe used for lethal injections.
+  name: шприц для смертельної ін'єкції
+  description: Шприц, який використовується для смертельних ін'єкцій. Після ін'єкції пацієнт швидко та безболісно... помре.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/lethal_syringe.rsi

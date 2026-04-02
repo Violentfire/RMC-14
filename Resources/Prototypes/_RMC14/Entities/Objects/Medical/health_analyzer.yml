@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: CMHealthAnalyzer
-  name: HF2 аналізатор здоров'я
+  name: аналізатор здоров'я ХФ2
   description: Ручний сканер тіла, що здатний відстежувати життєві функції об'єкта. На екран виводиться базова інформація про стан обстежуваного.
   suffix: RMC14
   components:

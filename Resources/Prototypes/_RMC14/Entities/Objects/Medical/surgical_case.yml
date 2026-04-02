@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMSurgicalCase
-  name: surgical case
-  description: It's a medical case for storing basic surgical tools. # TODO RMC14 extended description with instructions for treating internal bleeds once those are added
+  name: хірургічний кейс
+  description: Це медичний кейс для зберігання основних хірургічних інструментів. # TODO RMC14 extended description with instructions for treating internal bleeds once those are added
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/surgical_case.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: CMSurgicalCase
   id: RMCSurgicalCaseRCM
-  name: RCM surgical case
-  description: An improved surgical case used by the Royal Crown Marines, capable of fitting more tools.
+  name: королівський хірургічний кейс
+  description: Вдосконалена версія хірургічного кейсу, що використовується Королівськими морпіхами. Здатний вмістити більше інструментів.
   suffix: RCM
   components:
   - type: Storage

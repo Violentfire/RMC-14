@@ -1,6 +1,7 @@
 ﻿- type: entity
   parent: Dropper
-  description: A dropper. Transfers 5 units.
+  name: піпетка # Sich
+  description: Піпетка, піпетка звичайна. Здатна переміщувати до 5 одиниць речовини.
   id: RMCDropper
   components:
   - type: Sprite

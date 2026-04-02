@@ -3,7 +3,7 @@
   id: RMCWeaponLauncherDisposable
   name: М5А1 СЛАВ # Sich. SLAW – Shoulder Launched Assault Weapon. . . Трансліт в студію!
   suffix: AP
-  description: М5А1 СЛАВ – це легка однозарядна протитанкова зброя, здатна вражати ворожу техніку на відстані до 1000 м. Ракетна пускова установка повністю одноразова, її викидають після пострілу. Ссистема SLAW складається з водонепроникної вуглецево-композитної детонаційної труби, всередині якої знаходиться алюмінієва пускова труба з ракетою. Зброя стріляє натисканням кнопки заряджання на спусковому гачку. Прицілювання та постріл здійснюються з плеча. Схоже, це якась "цивільна" версія з сильно обмеженою дальністю та відірваним прицілом... Майте це на увазі!
+  description: М5А1 СЛАВ – це легка однозарядна плечова пускова протитанкова установка, здатна вражати ворожу техніку на відстані до 1000 м. Вона повністю одноразова, її викидають після пострілу. Система СЛАВ складається з водонепроникної вуглецево-композитної детонаційної труби, всередині якої знаходиться алюмінієва пускова труба з ракетою. Прицілювання та постріл здійснюються з плеча. Схоже, це якась "цивільна" версія з сильно обмеженою дальністю та відірваним прицілом... Майте це на увазі!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5a1_disposable.rsi
@@ -90,9 +90,9 @@
 - type: entity
   parent: RMCWeaponLauncherDisposable
   id: RMCWeaponLauncherDisposableHE
-  name: M5A2 SHEL
+  name: М5А2 ШЕЛ # Sich. SHEL – Shoulder High-Explosive Launcher?. . Окей, у SLAW був трансліт, тут теж буде.
   suffix: HE
-  description: The M5A2 SHEL is a lightweight, single-shot, shoulder-mounted launcher equipped with a high-explosive payload. Much like the M5A1, the launcher is discarded after firing and folded when stowed.
+  description: М5А2 ШЕЛ – це легка однозарядна плечова пускова установка, оснащена фугасним зарядом. Як і М5А1 після пострілу стає безкорисною. Знову цивільна версія з сильно зменшеною дальністю...
   components:
   - type: BallisticAmmoProvider
     proto: RMCRocket84mm
@@ -114,8 +114,8 @@
 - type: entity
   parent: RMCWeaponLauncherDisposableFolded
   id: RMCWeaponLauncherDisposableHEFolded
-  name: M5A2 SHEL
-  description: An M5A2 SHEL High-Explosive RPG, compacted for easier storage.
+  name: М5А2 ШЕЛ
+  description: М5А2 ШЕЛ, але складена для легшого перенесення.
   suffix: HE, folded
   components:
   - type: RMCFoldableGun

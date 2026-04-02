@@ -2,7 +2,7 @@
   parent: BaseItem
   id: CMBaseDefibrillator
   name: екстрений дефібрилятор
-  description: Дефібрилятор, що можна тримати в руках, основна його задача це нормалізувати серцевий ритм. За його допомогою можна повертати людей з мертвих.
+  description: Дефібрилятор, який можна тримати однією рукою, основна його задача – це нормалізувати серцевий ритм пацієнта. За допомогою нього можна повертати людей з мертвих!
   abstract: true
   components:
   - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   id: RMCDefibrillatorCompact
   parent: CMDefibrillator
-  name: compact defibrillator
-  description: This particular defibrillator has halved charge capacity compared to the standard emergency defibrillator, but can fit in your pocket.
+  name: компактний дефібрилятор
+  description: Цей дефібрилятор має вдвічі меншу ємність заряду порівняно зі стандартними моделями, зате без проблем влізе у вашу кишеню.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/compact_defib.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: [CMBaseDefibrillator, RMCPowerCellSlotUnremovable]
   id: RMCSynthResetKey
-  name: ключ перезевантаження синтетика Ве-Я
-  description: Цей пристрій може виправити серйозні збої чи програмні помилки синтетиків, а також перезапустити їх.Через високе енергоспоживання в вас є тільки одне використанння перед необхідністю перезарядки.
+  name: ключ перезавантаження синтетика Ве-Я
+  description: Цей пристрій може виправити серйозні збої чи програмні помилки у прошивці синтетів, а також перезапускати їх після аварійного завершення роботи. Через високе енергоспоживання після кожного використання потрібно заряджати його.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/reset_key.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeySMART
-  name: SMART WeYa synthetic reset key
-  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It can only be used once before being reset. This one has a microfunction AI and can be operated by anyone.
+  name: СМАРТ ключ перезавантаження синтетика Ве-Я
+  description: Цей пристрій може виправити серйозні збої чи програмні помилки у прошивці синтетів, а також перезапускати їх після аварійного завершення роботи. Через високе енергоспоживання після кожного використання потрібно заряджати його. Цей пристрій має власний штучний інтелект, завдяки чому будь-хто може використовувати його без ризику пошкодити обладнання.
   components:
   - type: RequiresSkill
     skills:
