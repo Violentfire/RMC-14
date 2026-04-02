@@ -116,13 +116,13 @@ public sealed partial class CMDistressSignalRuleComponent : Component
     public List<ProtoId<JobPrototype>> IgnoreMaximumSurvivorJobs = new() { "RMCSurvivorCommandingOfficer" };
 
     [DataField]
-    public Dictionary<ProtoId<JobPrototype>, List<(ProtoId<JobPrototype> Insert, int Amount)>>? SurvivorJobInserts;
+    public Dictionary<ProtoId<JobPrototype>, List<(ProtoId<JobPrototype> Variant, int Amount)>>? SurvivorJobVariants;
 
     [DataField]
     public Dictionary<ProtoId<JobPrototype>, ProtoId<JobPrototype>>? SurvivorJobOverrides;
 
     [DataField]
-    public Dictionary<ProtoId<JobPrototype>, List<(ProtoId<JobPrototype> Special, int Amount)>>? SurvivorJobScenarios;
+    public Dictionary<ProtoId<JobPrototype>, List<(ProtoId<JobPrototype> Special, int Amount)>>? SurvivorJobVariantScenarios;
 
     [DataField]
     public TimeSpan AresGreetingDelay = TimeSpan.FromSeconds(5);
@@ -163,12 +163,12 @@ public sealed partial class CMDistressSignalRuleComponent : Component
     [DataField]
     public TimeSpan RoundEndCheckDelay = TimeSpan.FromMinutes(1);
 
-    // Тандердом, ОСР видалено білдом Січі, а мапа факсів замінена на стару версію (ми всеодно їх не використовували)
+    // Sich. Тандердом, ОСР видалено білдом Січі, а мапа факсів замінена на стару версію (ми всеодно їх не використовували)
     [DataField]
     public ResPath Thunderdome = new("/Maps/Test/empty.yml");
 
     public List<string> AuxiliaryMaps = new() {
-        "/Maps/_RMC14/admin_fax_old.yml"
+        "/Maps/_Sich/admin_fax_old.yml"
     };
 
     [DataField]

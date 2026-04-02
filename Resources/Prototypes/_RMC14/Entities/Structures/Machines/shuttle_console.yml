@@ -13,8 +13,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigation
-  name: dropship navigation computer
-  description: A flight computer that can be used for autopilot or long-range flights.
+  name: навігаціний комп'ютер шатла
+  description: Бортовий комп'ютер, який можна використовувати для польотів за допомогою шатла.
   components:
   - type: GuideHelp
     guides:
@@ -25,7 +25,7 @@
   - type: ActivatableUI
     key: enum.DropshipNavigationUiKey.Key
   - type: AccessReader
-    access: [ ["CMAccessSquadLeaderPrep"], [ "CMAccessDropship" ] ]
+    access: [["CMAccessSquadLeaderPrep"], ["CMAccessDropship"], ["CMAccessXeno"]] # Xeno have access as to not cause the "Access denied!" popup.
   - type: ActivatableUIRequiresAccess
   - type: UserInterface
     interfaces:
@@ -37,8 +37,8 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationERT
-  name: transport shuttle
-  description: A transport shuttle flight computer.
+  name: навігаціний комп'ютер шатла
+  description: Бортовий комп'ютер транспортного шатла, який можна використовувати для польотів за допомогою шатла.
   components:
   - type: Sprite
     state: syndishuttle
@@ -48,29 +48,29 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigationPlanetside
-  name: dropship navigation computer
-  description: A flight computer that can be used to direct linked dropships.
+  name: шатловий навігаційний комп'ютер
+  description: Комп'ютер, завдяки якому можна керувати автопілотом прив'язаних до нього шатлів.
   suffix: Planetside
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/dropship_nav_computer.rsi
     state: on
-#  - type: ActivatableUI
-#    key: enum.DropshipNavigationUiKey.Key
-#  - type: AccessReader
-#    access: [["CMAccessDropship"], ["CMAccessSquadLeaderPrep"], ["CMAccessXenoQueen"]] # TODO RMC14 make xeno queen just swipe
-#  - type: ActivatableUIRequiresAccess
+  - type: ActivatableUI
+    key: enum.DropshipTerminalUiKey.Key
+  - type: AccessReader
+    access: [["CMAccessDropship"], ["CMAccessSquadLeaderPrep"], ["CMAccessXeno"]] # Xeno have access as to not cause the "Access denied!" popup.
+  - type: ActivatableUIRequiresAccess
   - type: DropshipTerminal
-#  - type: UserInterface
-#    interfaces:
-#      enum.DropshipTerminalUiKey.Key:
-#        type: DropshipTerminalBui
+  - type: UserInterface
+    interfaces:
+      enum.DropshipTerminalUiKey.Key:
+        type: DropshipTerminalBui
 
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
-  name: camera controls
-  description: A computer to monitor cameras linked to the dropship.
+  name: керування камерами
+  description: Консоль для моніторингу камер підключених до шатла.
   suffix: Alamo
   components:
   - type: GuideHelp
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMComputerDropshipCamerasAlamo
   id: RMCComputerDropshipCamerasNormandy
-  name: camera controls
-  description: A computer to monitor cameras linked to the dropship.
+  name: керування камерами
+  description: Консоль для моніторингу камер підключених до шатла.
   suffix: Normandy
   components:
   - type: RMCCameraComputer
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeapons
-  name: weapons controls
-  description: A computer to manage equipment, weapons and simulations installed on the dropship.
+  name: керування озброєнням
+  description: Консоль для використання й керування озброєнням та обладнанням встановленим на шатл.
   components:
   - type: GuideHelp
     guides:
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipNavigationSmall
-  name: dropship navigation computer
-  description: A flight computer that can be used for autopilot or long-range flights.
+  name: шатловий навігаційний комп'ютер
+  description: Комп'ютер, завдяки якому можна керувати автопілотом прив'язаних до нього шатлів.
   components:
   - type: Transform
     anchored: false
@@ -175,8 +175,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipWeaponsSmall
-  name: weapons controls
-  description: A computer to manage equipment, weapons and simulations installed on the dropship.
+  name: керування озброєнням
+  description: Консоль для використання й керування озброєнням та обладнанням встановленим на шатл.
   components:
   - type: Transform
     anchored: false

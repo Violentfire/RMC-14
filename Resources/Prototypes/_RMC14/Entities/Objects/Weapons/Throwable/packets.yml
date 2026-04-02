@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCPacketGrenadeFlashBang
-  name: упаковка світлошумових гранат (WARNING)
+  name: упаковка світлошумових гранат (ОБЕРЕЖНО)
   suffix: Filled
   components:
   - type: Sprite
@@ -358,7 +358,7 @@
   parent: RMCBoxBase
   id: RMCBoxHEDP
   name: коробка гранат М40 ФПП
-  description: Надійна коробка, яка зберігає 25 фугасних гранат М40 ФПП. Вибухонебезпечний! Не зберігати поблизу пального для вогнемета.
+  description: Надійна коробка, яка зберігає 25 фугасних гранат М40 ФПП. Вибухонебезпечно! Не зберігати поблизу пального для вогнемета.
   components:
   - type: Sprite
     layers:
@@ -381,7 +381,7 @@
   parent: RMCBoxBase
   id: RMCBoxHEFA
   name: коробка гранат М40 ОФ
-  description: Надійна коробка, яка зберігає 25 осколково-фугасних гранат М40 ОФ. Вибухонебезпечний! Не зберігати поблизу пального для вогнемета.
+  description: Надійна коробка, яка зберігає 25 осколково-фугасних гранат М40 ОФ. Вибухонебезпечно! Не зберігати поблизу пального для вогнемета.
   components:
   - type: Sprite
     layers:
@@ -404,7 +404,7 @@
   parent: RMCBoxBase
   id: RMCBoxAGMF
   name: коробка гранат M74 ПВГ-О
-  description: Надійна коробка, яка зберігає 25 гранатометних осколкових гранат М74 ПВГ-О. Вибухонебезпечний! Не зберігати поблизу пального для вогнемета.
+  description: Надійна коробка, яка зберігає 25 гранатометних осколкових гранат М74 ПВГ-О. Вибухонебезпечно! Не зберігати поблизу пального для вогнемета.
   components:
   - type: Sprite
     layers:
@@ -427,7 +427,7 @@
   parent: RMCBoxBase
   id: RMCBoxAGMI
   name: коробка гранат M74 ПВГ-З
-  description: Надійна коробка, яка зберігає 25 гранатометних запалювальних гранат М74 ПВГ-З. Легкозаймистий! Не зберігати поблизу пального для вогнемета.
+  description: Надійна коробка, яка зберігає 25 гранатометних запалювальних гранат М74 ПВГ-З. Легкозаймисто! Не зберігати поблизу пального для вогнемета.
   components:
   - type: Sprite
     layers:
@@ -445,3 +445,74 @@
     contents:
     - id: RMC40MMGrenadeM74AGMI
       amount: 25
+
+- type: entity
+  parent: CMPacketBase
+  id: RMCPacketGrenade20mmHE
+  name: L109A1 HE grenade packet
+  suffix: PVE
+  description: It contains eight L109A1 20mm HE grenades.
+  components:
+  - type: Tag
+    tags: 
+    - RMCGrenadePacket20mm
+  - type: Sprite
+    layers:
+    - state: hedp_packet
+      map: [ "closedLayer" ]
+    - state: hedp_packet_e
+      map: [ "openLayer", "emptyLayer" ]
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,15,1 # 8 slots
+    whitelist:
+      tags:
+      - RMCGrenade20mm
+
+- type: entity
+  parent: RMCPacketGrenade20mmHE
+  id: RMCPacketGrenade20mmHEFilled
+  suffix: PVE, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCGrenade20mmHE
+      amount: 8
+
+- type: entity
+  parent: CMPacketBase
+  id: RMCPacketGrenade20mmIncendiary
+  name: L109A2 Incendiary grenade packet
+  suffix: PVE
+  description: It contains eight L109A2 20mm incendiary grenades.
+  components:
+  - type: Tag
+    tags: 
+    - RMCGrenadePacket20mm
+  - type: Sprite
+    layers:
+    - state: agmi_packet
+      map: [ "closedLayer" ]
+    - state: agmi_packet_e
+      map: [ "openLayer", "emptyLayer" ]
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,15,1 # 8 slots
+    whitelist:
+      tags:
+      - RMCGrenade20mm
+
+- type: entity
+  parent: RMCPacketGrenade20mmIncendiary
+  id: RMCPacketGrenade20mmIncendiaryFilled
+  suffix: PVE, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCGrenade20mmIncendiary
+      amount: 8
+
+- type: Tag
+  id: RMCGrenadePacket20mm

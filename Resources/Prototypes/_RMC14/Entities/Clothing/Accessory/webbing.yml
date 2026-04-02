@@ -293,6 +293,53 @@
     - type: StoreAfterFailedInteract
     - type: RMCStorageEjectHand
       state: Open
+      
+- type: entity
+  parent: CMWebbing
+  id: RMCParaWebbing
+  name: paramarine webbing
+  description: A durable harness system issued to the RCM's Paramarines, designed to distribute weight evenly for comfort and mobility. Fitted with reinforced pouches for carrying essential gear during high-risk insertions.
+  suffix: Paramarine, Survivor
+  components:
+    - type: Sprite
+      sprite: _RMC14/Objects/Clothing/Webbing/para_webbing.rsi
+      state: webbing
+    - type: Appearance
+      
+- type: entity
+  parent: RMCParaWebbing
+  id: RMCParaWebbingL88
+  name: paramarine webbing
+  suffix: Paramarine, Survivor, Filled, L88
+  components:
+    - type: StorageFill
+      contents:
+        - id: RMCTacticalPrybar
+        - id: RMCMagazineRifleL88
+        - id: RMCMagazineRifleL88
+        
+- type: entity
+  parent: RMCParaWebbing
+  id: RMCParaWebbingPDW90AP
+  name: paramarine webbing
+  suffix: Paramarine, Survivor, Filled, PDW90
+  components:
+    - type: StorageFill
+      contents:
+        - id: RMCTacticalPrybar
+        - id: RMCMagazineSMGPDW90AP
+        - id: RMCMagazineSMGPDW90AP
+
+- type: entity
+  parent: CMWebbingHolster
+  id: RMCWebbingHolsterMK80
+  suffix: PMC FOL, Survivor, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMK80
+    - id: CMMagazinePistolMK80
+    - id: CMMagazinePistolMK80
 
 - type: entity
   parent: CMWebbingHolster
@@ -303,6 +350,54 @@
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi
     state: holster
+
+- type: entity
+  parent: RMCWebbingHolsterBlack
+  id: RMCWebbingHolsterBlackB92FS
+  suffix: Filled, B92FS
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponPistolB92FS
+      amount: 1
+    - id: RMCMagazinePistolB92FS
+      amount: 2
+
+- type: entity
+  parent: RMCWebbingHolsterBlack
+  id: RMCWebbingHolsterBlackMK45
+  suffix: Filled, MK45
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponPistolMK45
+      amount: 1
+    - id: RMCMagazinePistolMK45
+      amount: 2
+
+- type: entity
+  parent: RMCWebbingHolsterBlack
+  id: RMCWebbingHolsterBlackM1984
+  suffix: Filled, M1984
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMWeaponPistolM1984
+      amount: 1
+    - id: CMMagazinePistolM1984
+      amount: 2
+
+- type: entity
+  parent: RMCWebbingHolsterBlack
+  id: RMCWebbingHolsterBlackSpearhead
+  suffix: Filled, Spearhead
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponRevolverSpearhead
+      amount: 1
+    - id: RMCSpeedLoader357
+      amount: 2
 
 - type: entity
   parent: CMWebbingBase
@@ -487,6 +582,8 @@
       - PowerCell
       - RMCNailgunCompact
       - RMCNailgunTactical
+      - RMCSynthResetKey
+      - RodMetal1
       components:
       - Welder
       - PowerCell
@@ -514,6 +611,8 @@
         - PowerCell
         - RMCNailgunCompact
         - RMCNailgunTactical
+        - RMCSynthResetKey
+        - RodMetal1
         components:
         - Welder
         - PowerCell
@@ -547,9 +646,23 @@
 
 - type: entity
   parent: RMCToolWebbingSmall
+  id: RMCToolWebbingSmallFilledRCMPVEAssaultEngi
+  suffix: Filled, RCM, PVE
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMScrewdriver
+    - id: CMWrench
+    - id: RMCWelderIndustrial
+    - id: CMCrowbar
+    - id: RMCCableCoil30
+    - id: CMMultitool
+
+- type: entity
+  parent: RMCToolWebbingSmall
   id: RMCToolWebbing
-  name: tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
+  name: інструментальна розвантажка
+  description: Коричнева розвантажка з синтетичної бавовни, схожа за функціями на цивільні фартухи для інструментів, але більш міцна для польового використання.
   components:
   - type: Storage
     grid:
@@ -565,6 +678,8 @@
       - PowerCell
       - RMCNailgunCompact
       - RMCNailgunTactical
+      - RMCSynthResetKey
+      - RodMetal1
       components:
       - Welder
       - PowerCell
@@ -586,6 +701,8 @@
         - PowerCell
         - RMCNailgunCompact
         - RMCNailgunTactical
+        - RMCSynthResetKey
+        - RodMetal1
         components:
         - Welder
         - PowerCell
@@ -665,7 +782,7 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: жилет для ножів зразка M272 
+  name: жилет для ножів зразка М272 
   description: Розвантажувальний жилет, який колись використовував КМПОН. Може вміщувати до п'яти ножів. Зроблений з синтетичної бавовни.
   components:
   - type: Sprite
@@ -729,7 +846,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: RMCMREWeYa
+    - id: RMCMREWeYaPMC
     - id: RMCRangefinder
     - id: RMCGrenadeBlastM12
     - id: RMCTelescopicBaton
@@ -742,9 +859,9 @@
   components:
   - type: StorageFill
     contents:
-    - id: RMCMREWeYa
-    - id: RMCMREWeYa
-    - id: CMCrowbar # TODO RMC14: tactical prybar
+    - id: RMCMREWeYaPMC
+    - id: RMCMREWeYaPMC
+    - id: RMCTacticalPrybar
     - id: RMCGrenadeBlastM12
     - id: RMCExplosivePlastic
 
@@ -757,7 +874,7 @@
     contents:
     # - id: CMSplint5
     - id: CMFireExtinguisherPortable
-    - id: RMCMREWeYa
+    - id: RMCMREWeYaPMC
     - id: RMCGrenadeBlastM12
     - id: RMCPowerCellSmartgun
 
@@ -817,8 +934,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalGreen
-  name: surgical webbing vest
-  description: A robust webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -870,8 +987,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalBlue
-  name: surgical webbing vest
-  description: A robust blue webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: хірургічний жилет
+  description: Міцний жилет, спеціально розроблений для розміщення повного спектру хірургічного обладнання. Зазвичай видається польовим лікарям або синтетичному персоналу.
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -920,3 +1037,13 @@
       - id: CMSurgicalLine
       - id: CMSynthGraft
 
+- type: entity
+  parent: CMWebbing
+  id: RMCWebbingSPPCommandFilled
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleType71AP
+    - id: RMCMagazineRifleType71AP
+    - id: RMCMagazineRifleType71AP

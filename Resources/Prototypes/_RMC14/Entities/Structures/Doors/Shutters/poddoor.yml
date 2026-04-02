@@ -199,6 +199,23 @@
     activeLoad: 0
 
 - type: entity
+  parent: RMCPodDoorHybrisaIndestructibleUltra
+  id: RMCPodDoorHybrisaIndestructibleUltraOpen
+  description: A heavily reinforced metal-alloy door, designed to be virtually indestructible—nothing can penetrate its defenses.
+  suffix: Indestructible, Open
+  components:
+  - type: Door
+    state: Open
+  - type: Occluder
+    enabled: false
+  - type: Physics
+    canCollide: false
+  - type: Airtight
+    airBlocked: false
+  - type: RadiationBlocker
+    enabled: false
+
+- type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
   description: Здається, що його зовсім не легко відчинити. Може краще пошукати якусь кнопку чи щось типу того?

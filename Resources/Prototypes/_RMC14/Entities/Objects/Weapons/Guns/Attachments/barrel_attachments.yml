@@ -13,7 +13,7 @@
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentExtendedBarrel
   name: подовжений ствол
-  description: Подовжений ствол прискорює і стабілізує кулю, збільшуючи її швидкість. # and accuracy.
+  description: Подовжений ствол, прискорює і стабілізує кулю, збільшуючи її швидкість. # and accuracy.
   components:
   - type: Sprite
     state: ebarrel
@@ -36,7 +36,7 @@
   parent: RMCAttachmentExtendedBarrel
   id: RMCAttachmentExtendedCompensator
   name: ПК-РВС подовжений компенсатор
-  description: Точно інженерно виконаний вентильований подовжувач ствола що використовується різними силами ООН. Значно покращує точність, контроль і швидкість кулі але знижує термінальну шкоду через відведення тиску.
+  description: Точно інженерно виконаний вентильований подовжувач ствола що використовується різними підрозділами ОН. Значно покращує точність, контроль і швидкість кулі, хоча й якось зменшує пошкодження від кулі.
   components:
   - type: Sprite
     state: ebarrel_vented
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentBarrelMar50
-  name: МАРА-50 ствол
+  name: ствол МАР-50
   description: Важкий ствол.
   components:
   - type: Sprite
@@ -122,8 +122,7 @@
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensator
   name: компенсатор віддачі
-  description: "Кріплення на дуло, що зменшує віддачу спрямовуючи викид газів вгору.
-    Зменшує віддачу, але трохи знижує шкоду від зброї." # increases accuracy and reduces recoil
+  description: Кріплення на дуло, що спрямовує викид газів вгору. Зменшує віддачу ціною швидкості та, відповідно, шкодою кулі. # increases accuracy and reduces recoil
   components:
   - type: Sprite
     state: comp
@@ -148,7 +147,7 @@
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentRecoilCompensatorM13
   name: М13 компенсатор віддачі
-  description: Важкий та надміцний компенсатор для автоматичного пістолета М13. Значно покращує контроль віддачі під час автоматичної стрільби, але додає громіздкості й ускладнює керування. Компенсує щось - і робить брутально.
+  description: Важкий та надміцний компенсатор для автоматичного пістолета М13. Значно покращує контроль віддачі під час автоматичної стрільби, але додає громіздкості й ускладнює керування. Щось компенсує та робить зброю брутальніше.
   components:
   - type: Sprite
     state: m10_overcomp
@@ -160,7 +159,7 @@
   - type: AttachableWeaponRangedMods
     modifiers:
     - accuracyAddMult: 0.15
-      damageAddMult: 0.1
+      damageAddMult: 0.05
       recoilFlat: -2
     - conditions:
         unwieldedOnly: true
@@ -172,12 +171,14 @@
       Snow: s_m10_overcomp
       Classic: c_m10_overcomp
       Urban: u_m10_overcomp
+  - type: RMCLoreExaminable
+    content: rmc-lore-examinable-m13-extended-recoil-compensator
 
 - type: entity
   parent: RMCAttachmentRecoilCompensatorM13
   id: RMCAttachmentRecoilCompensatorM13Spiked
   name: М13 шипований компенсатор
-  description: Надзвичайно важкий та гарно спроєктований подовжувач ствола для пістолета M13, оснащений загартованим наконечником із шипами. Значно покращує контроль віддачі під час автоматичної стрільби та перетворює пістолет на небезпечну зброю ближнього бою. Компенсує щось - і робить брутально.
+  description: Надзвичайно важкий та гарно спроєктований подовжувач ствола для пістолета М13, оснащений загартованим наконечником із шипами. Значно покращує контроль віддачі під час автоматичної стрільби та перетворює пістолет на небезпечну зброю ближнього бою. Щось компенсує та робить зброю брутальніше.
   components:
   - type: Sprite
     state: m10_overcomp_spike
@@ -201,10 +202,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentShotgunChoke # choke
-  name: глушник рушниці
-  description: «Різьбовий глушник який можна встановити на рушницю M42A2.
-    Покращує точність, швидкість, зменшує розкид і збільшує інтенсивність стрільби.
-    Натомість зменшує силу та шкоду від пострілу. Також збільшує віддачу. Не рекомендується для куль».
+  name: глушник для рушниці
+  description: Різьбовий глушник який можна встановити на рушницю М42А2. Покращує точність, швидкість, зменшує розкид і збільшує інтенсивність стрільби. Натомість зменшує силу й шкоду від пострілу та збільшує віддачу. Не рекомендується для кульових набоїв.
   components:
   - type: Sprite
     state: choke
@@ -231,13 +230,16 @@
     - conditions:
         unwieldedOnly: true
       recoilFlat: 2
+  - type: AttachableSilencer
+    sound:
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_shotgun_choke.ogg
+    hideMuzzleFlash: false
 
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentSuppressor # suppressor
   name: глушник
-  description: "Невелика трубка з отворами для зменшення шуму та відведення газів.
-    Не забезпечує повної тиші при стрільбі, але значно знижує рівень шуму. Незначною мірою зменшує шкоду від кулі."
+  description: Невелика трубка з отворами. Не забезпечує повної тиші при стрільбі, але значно знижує рівень шуму. Незначною мірою зменшує шкоду від кулі.
   components:
   - type: Sprite
     state: suppressor
@@ -277,8 +279,7 @@
   parent: RMCAttachmentSuppressor
   id: RMCAttachmentSuppressorXM40
   name: ТМ40 глушник
-  description: «Невелика трубка з отворами для виведення шуму та газів.
-    Не повністю глушить зброю, але робить її набагато тихішою за рахунок незначного зниження шкоди».
+  description: Невелика трубка з отворами. Не забезпечує повної тиші при стрільбі, але значно знижує рівень шуму. Незначною мірою зменшує шкоду від кулі.
   components:
   - type: Sprite
     state: m40sd_suppressor
@@ -320,6 +321,44 @@
 
 - type: entity
   parent: RMCBarrelAttachmentBase
+  id: RMCAttachmentSuppressorM96SB
+  name: М96С-Б інтегрований глушник
+  description: Ви не повинні мати це.
+  components:
+  - type: Sprite
+    state: suppressed_sniper_barrel
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RMCAttachmentSuppressorM96SB
+  - type: AttachableSilencer
+    sound:
+      collection: CMSilencedShoot
+      params:
+        maxDistance: 6
+
+- type: entity
+  parent: RMCBarrelAttachmentBase
+  id: RMCAttachmentSuppressorL112
+  name: Л112А1 інтегрований глушник
+  description: Капра-... Наврядч це можна якось прикріпити назад.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_barrel.rsi
+    state: suppressor_l112
+  - type: Tag
+    tags:
+    - RMCAttachmentBarrel
+    - RMCAttachmentSuppressorL112
+  - type: AttachableVisuals
+  - type: AttachableSilencer
+    sound:
+      collection: RMCL112Shoot
+      params:
+        maxDistance: 6
+
+- type: entity
+  parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaStandard
   name: ствол Матеби
   description: Стандартний ствол для матеби. Забезпечує баланс між точністю та швидкістю стрільби.
@@ -336,8 +375,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaMarksman
-  name: точний створл Матеби
-  description: Ствол матеби з підвищеною точністю. Забезпечує більшу точність за рахунок зниження швидкості стрільби.
+  name: подовжений ствол Матеби
+  description: Подовжений ствол для матеби. Призначений для точнішої стрільби. Забезпечує більшу точність за рахунок зниження швидкості стрільби.
   components:
   - type: Sprite
     state: mateba_long
@@ -355,8 +394,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentMatebaSnubNose
-  name: короткий ствол матеби
-  description: Скорострільний ствол матеби. Забезпечує високу інтенсивність стрільби за рахунок точності.
+  name: короткий ствол Матеби
+  description: Укорочений ствол матеби. Призначений для швидкої стрільби. Забезпечує високу інтенсивність стрільби за рахунок точності.
   components:
   - type: Sprite
     state: mateba_short
@@ -439,6 +478,12 @@
 
 - type: Tag
   id: RMCAttachmentSuppressorNPZ92
+
+- type: Tag
+  id: RMCAttachmentSuppressorM96SB
+
+- type: Tag
+  id: RMCAttachmentSuppressorL112
 
 - type: Tag
   id: RMCAttachmentBarrelCharger

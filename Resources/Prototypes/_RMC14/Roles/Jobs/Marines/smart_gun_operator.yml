@@ -28,7 +28,7 @@
   - SmartGunOperator
   overwatchSortPriority: -3
   overwatchShowName: true
-  overwatchRoleName: Smart Gun Operator
+  overwatchRoleName: Оператори СмартГану # Sich, бо це назва
   roleWeight: 1
   displayWeight: 3
   special:

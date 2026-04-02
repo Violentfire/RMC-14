@@ -1,15 +1,15 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitHonorGuard
-  name: honor guard kit
-  description: A case containing the equipment for an Honor Guard.
+  name: комплект почесного вартового
+  description: "Кейс, який містить в собі комплект спорядження Почесного Вартового.\nНа нього приклеєна записка: \"Цей комплект може бути виданий Поліціанту ВСП будь-яким чинним Командувачем операції. В обов'язки Почесного Вартового буде входити захист життя Командувача операції, можливо, навіть ціною свого.\""
   components:
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Ginormous
     grid:
-    - 0,0,8,0
+    - 0,0,9,0 # Sich. 0,0,8,0 в оригіналі
   - type: Sprite
     sprite: _RMC14/Objects/Storage/procase_mini.rsi
   - type: Icon
@@ -22,6 +22,7 @@
     - id: CMPacketPillsKelotane
     - id: CMPacketPillsBicaridine
     - id: WeaponShotgunM890Guard
-    - id: RMCPouchGeneralLarge
-    - id: CMShellShotgunBuckshot
-    - id: CMShellShotgunBuckshot
+    - id: RMCPouchShotgunLarge # Sich. RMCPouchGeneralLarge в оригіналі
+    - id: RMCBoxShotgunBuckshot # Sich. CMShellShotgunBuckshot в оригіналі
+    - id: RMCBoxShotgunBuckshot # Sich. CMShellShotgunBuckshot в оригіналі
+    - id: RMCBinoculars # Sich

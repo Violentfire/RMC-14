@@ -3,7 +3,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunSlugs
-  name: Коробка набоїв (100 шт. кулевих набоїв)
+  name: Коробка набоїв для дробовиків (100 шт кулевих)
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunBuckshot
-  name: Коробка набоїв (100 шт. картечних набоїв)
+  name: Коробка набоїв для дробовиків (100 шт картечних)
   components:
   - type: StorageFill
     contents:
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunFlechette
-  name: Коробка набоїв (100 шт. флешетних набоїв)
+  name: Коробка набоїв для дробовиків (100 шт флешетних)
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxShellsShotgunBreaching
-  name: Коробка набоїв (120 шт. пробивних набоїв)
+  name: Коробка набоїв для дробовиків (120 шт пробивних)
   components:
   - type: StorageFill
     contents:
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxAmmo458
-  name: Коробка набоїв .458 (.458 297 шт.)
+  name: Коробка набоїв КОМСО (297 шт .458)
   components:
   - type: StorageFill
     contents:

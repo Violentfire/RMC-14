@@ -48,7 +48,7 @@ humanoid-profile-editor-preference-spawn-priority-arrivals = Прибуття
 humanoid-profile-editor-preference-spawn-priority-cryosleep = Кріосон
 
 humanoid-profile-editor-jobs-amount-in-department-tooltip = Ролі у категорії {$departmentName}
-humanoid-profile-editor-department-jobs-label = Ролі {$departmentName}
+humanoid-profile-editor-department-jobs-label = {$departmentName}
 humanoid-profile-editor-antags-tab = Антагоністи
 humanoid-profile-editor-antag-preference-yes-button = Так
 humanoid-profile-editor-antag-preference-no-button = Ні
@@ -57,7 +57,7 @@ humanoid-profile-editor-job-priority-high-button = Високий
 humanoid-profile-editor-job-priority-medium-button = Середній
 humanoid-profile-editor-job-priority-low-button = Низький
 humanoid-profile-editor-job-priority-never-button = Ніколи
-humanoid-profile-editor-naming-rules-warning = Попередження: Образливі або ЛРП назви та описи в IC призведуть до втручання адміністратора. Прочитайте наші \[Правила Серверу\] для більш детальної інформації.
+humanoid-profile-editor-naming-rules-warning = Попередження. Образливі або неадекватні імена чи описи персонажів призведуть до втручання адміністратора. Прочитайте Правила Серверу для більш детальної інформації.
 humanoid-profile-editor-markings-tab = Маркування
 humanoid-profile-editor-flavortext-tab = Опис
 

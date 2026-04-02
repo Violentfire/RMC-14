@@ -1,0 +1,10 @@
+- type: gameMapPool
+  id: SichDefaultMapPool
+  maps:
+  - SichSavannah
+#  - Almayer – На жаль це лише проб
+
+- type: gameMapPool
+  id: SichDefaultMapPoolSavannah
+  maps:
+  - SichSavannah

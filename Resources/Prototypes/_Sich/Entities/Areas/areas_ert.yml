@@ -1,0 +1,25 @@
+- type: entity
+  parent: RMCAreaBase
+  id: SMCAreaERT
+  abstract: true
+  components:
+  - type: Area
+    avoidBioscan: true
+
+- type: entity
+  parent: SMCAreaERT
+  id: SMCAreaERTFax
+  name: Аванпост Факс-Відповідача
+  suffix: Аванпост Факс-Відповідача, Всередині
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: SMCAreaERT
+  id: SMCAreaERTFaxExterior
+  name: Аванпост Факс-Відповідача
+  suffix: Аванпост Факс-Відповідача, Ззовні
+  components:
+  - type: Sprite
+    state: red

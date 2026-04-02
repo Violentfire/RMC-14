@@ -1,0 +1,17 @@
+# Те, чого не було в звичайному РМС. Для розширених трекерів гарнітур
+## Трекери ролей
+- type: trackerMode
+  id: StaffOfficer
+  job: CMStaffOfficer
+
+- type: trackerMode
+  id: PilotGunship
+  job: CMPilotGunship
+
+- type: trackerMode
+  id: PilotDropship
+  job: CMPilotDropship
+
+- type: trackerMode
+  id: DropshipCrewChief
+  job: CMDropshipCrewChief

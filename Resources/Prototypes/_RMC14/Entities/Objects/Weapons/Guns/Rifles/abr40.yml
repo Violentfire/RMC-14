@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ABR-40 hunting rifle
+  name: АБР-40 мисливська гвинтівка
   id: RMCWeaponRifleABR40
-  description: The civilian version of the L42A battle rifle. Almost identical and even cross-compatible with L42 magazines, just don't take the stock off.
+  description: Цивільна версія бойової гвинтівки Л42А. Майже ідентична і навіть сумісна з магазинами Л42, тільки не знімайте приклад.
   suffix: Filled
   components:
   - type: Sprite
@@ -87,9 +87,9 @@
 
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: ABR-40 Tactical hunting rifle
+  name: АБР-40 Тактична мисливська гвинтівка
   id: RMCWeaponRifleABR40Tactical
-  description: TThe civilian version of the L42A battle rifle that is often wielded by Marines. Almost identical and even cross-compatible with L42 magazines, just don't take the stock off. This rifle seems to have unique tacticool blue-black furniture alongside some miscellaneous aftermarket modding.
+  description: Цивільна версія бойової гвинтівки Л42А, яку часто використовують морські піхотинці. Майже ідентична і навіть сумісна з магазинами Л42, тільки не знімайте приклад. Ця гвинтівка, здається, має унікальну тактичну синьо-чорну фурнітуру, а також деякі різні неоригінальні модифікації.
   suffix: Filled
   components:
   - type: Sprite
@@ -176,8 +176,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleABR40
-  name: ABR-40 magazine (10x24mm)
-  description: An ABR-40 magazine loaded with full metal jacket ammunition, for use at the firing range or while hunting. Theoretically cross-compatible with an L42A battle rifle.
+  name: АБР-40 магазин (10х24 мм)
+  description: Магазин АБР-40 з повністю металевою оболонкою, що заряджається патронами, для використання на стрільбищі або під час полювання. Теоретично сумісний з бойовою гвинтівкою Л42А.
   components:
   - type: Tag
     tags:

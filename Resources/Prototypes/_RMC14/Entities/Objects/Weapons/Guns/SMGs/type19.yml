@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: Type-19 Submachinegun
+  name: Тип 19 пістолет-кулемет
   id: RMCWeaponSMGType19
-  description: An outdated, but reliable and powerful, submachinegun originating in the Socialist Progressive Peoples, it is still in limited service in the SPP but is most often used by paramilitary groups or corporate security forces. It is usually used with a 35 round stick magazine, or a 71 round drum.
+  description: Застарілий, але надійний все ще працюючий пістолет-кулемет, що походить з СПН. Він досі обмежено використовується їхніми силами, але найчастіше зустрічається у всіляких ПВК чи сил безпеки корпорацій. Зазвичай використовується з магазином на 35 патронів або барабаном на 71 патрон. Комуняцьке лайно...
   suffix: Filled
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
   - type: Gun
     shotsPerBurst: 3
     soundGunshot:
-      path: /Audio/_RMC14/Weapons/Guns/Gunshots/p90_shot.ogg # TODO SMG HEAVY Sound
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/pdw90_shot.ogg # TODO SMG HEAVY Sound
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGType19
-  name: Type-19 stick magazine (7.62x25mm)
-  description: A stick magazine for the Type-19 submachinegun.
+  name: Тип 19 палковий магазин (7.62х25 мм)
+  description: Магазин, який виглядає, як мала палка. Зроблений для пістолета-кулемета Тип-19.
   components:
   - type: Tag
     tags:
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGType19Drum
-  name: Type-19 drum magazine (7.62x25mm)
-  description: A 7.62x25mm drum magazine for the Type-19 submachinegun.
+  name: Тип 19 барабанний магазин (7.62х25 мм)
+  description: Барабан з напиханими в нього набоями 7.62х25 мм. Зроблений для пістолета-кулемета Тип-19.
   components:
   - type: Tag
     tags:
@@ -160,8 +160,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge762x25mm
-  name: cartridge (7.62x25mm SMG)
-  description: A 7.62x25mm magazine for the Type19.
+  name: набій (7.62х25 мм)
+  description: Набій 7.62х25 мм для пістолета-кулемета Тип 19.
   components:
   - type: Tag
     tags:

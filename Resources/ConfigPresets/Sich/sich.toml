@@ -1,0 +1,172 @@
+﻿# Ті ж значення конфігу, що й на сервері морпіхоти Січі (крім чисто серверної частини). Для тестів якихось механік та й десь це б зберігати.
+
+## Загальні налаштування
+[game]
+#Налаштування самого серверу. Назва, опис, режим, мапа, час лобі
+hostname = "[UA]🟦🟦🟨🟨 СіЧ Колоніальні Морпіхи. Marine Corpse УКРАЇНСЬКОЮ"
+desc = "СіЧ – перша українська спільнота на просторах СС14. Цей сервер базується на білді RMC (РМС).\nРМС – асиметрична ПВП-гра про боротьбу Морпіхів проти Ксеноморфів. Можливо бути за кожну з сторін!\nУ нас ви знайдете:\n- 💛 Свідому спільноту українців без толерації будь-яких ворожих елементів\n- 📝 Власна версія білду з українським перекладом та міні-додаваннями.\n- 🤝 Привітну адміністрацію та гравців, які завжди будуть раді допомогти\n- 🎭 Періодичні події. Від просто розбавлень звичайних раундів та до власного ПВЕ режиму\n-  🛡️ Бан окупантів по айпі\n\nБільшість заходить ввечері, але в інший час можна відіграти у Спокійних раундах (без загрози).\nЗавітайте у наш Дискорд, щоб бути в курсі всіх новин й обговорень та у Гітхаб, якщо маєте бажання щось змінити чи додати!"
+map_pool = "SichDefaultMapPool"
+defaultpreset = "CMDistressSignal"
+fallbackenabled = false
+fallbackpreset = "CMDistressSignal"
+round_end_sound_collection = "CMRoundEnd"
+contraband_examine = false
+panic_bunker.enabled = false
+round_end_pvs_overrides = false
+round_restart_time = 180
+lobbyduration = 230
+
+[infolinks]
+discord = "https://discord.gg/qKNsBbV22F"
+github = "https://github.com/Violentfire/RMC-14"
+patreon = "https://send.monobank.ua/jar/8nmcqa8vnz" #Патреон, але монобанка, бо підтримка серверу йде саме через неї
+website = "https://www.ss14webpanel.online"
+wiki = "https://wiki.rouny-ss14.com"
+
+[server]
+#Базові налаштування для відображення гайдів та правил Січі
+rules_file = "SichOverview"
+default_guide = "RMC14"
+lobby_name = "Колоніальна Морпіхота Січі"
+
+[adminlogs]
+#Назва серверу у адмін нотатках
+server_name = "Морпіхота"
+
+[admin]
+#Адмінські штучки для банів, прибирання зайвих повідомлень та увімкнення відображень нотаток гравцям
+admins_count_in_playercount = true
+alert.explosion_min_intensity = -1
+see_own_notes = true
+server_ban_erase_player = true
+new_player_threshold = 600
+server_ban_hwid_ban_default = false
+
+[rmc]
+#Зменшення дамагу, обмеження сурвів для нашого білду, зміна кількості ксено, зняття обмежень на емоції, такс 20 хвилин, зняття раундстарт обмежень на паразитів та кулдауну на взяття буровед лярв, скорочення часу хайджека до 15 хвилин, зміна короля й королівського желе та ще декілька моментів для саме РМСних механік
+xeno_damage_received_multiplier = 0.85
+xeno_damage_dealt_multiplier = 0.85
+survivors_minimum = 0
+survivors_maximum = 3
+marines_per_survivor = 15
+job_slot_scaling = false
+distress_xenos_minimum = 1
+emote_cooldown_seconds = 0
+force_hijack_end_time_minutes = 15
+late_joins_burrowed_larva_death_time = 0
+disconnected_xeno_ghost_role_time_seconds = 120
+late_joins_per_burrowed_larva_early = 6.5
+late_joins_per_burrowed_larva = 6
+xeno_evolve_same_caste_cooldown_seconds = 60
+parasite_spawn_initial_delay_minutes = 0
+xeno_spawn_initial_mute_duration_seconds = 60
+dropship_initial_delay_minutes = 20
+evolution_points_accumulate_before_minutes = 20
+evolution_early_evo_point_boost_minutes = 20
+auto_balance_min = 4
+auto_balance_max = 6
+bioscan_initial_delay_seconds = 600
+bioscan_base_cooldown_seconds = 900
+king_vote_candidate_time_requirement = 10
+boons_live_marine_requirement = 6
+royal_resin_every_minutes = 10
+
+[ic]
+#Додає описи для персонажів та тех. штука
+flavor_text = true
+id_job_length = 50
+
+[guidebook]
+#Прибирає зайві кнопки в меню редагування персонажа
+show_editor_species_button = false
+
+[tips]
+#Поради (вже тут, але не перекладені)
+dataset = "RMC_Tips"
+login_dataset = "RMC_Tips"
+out_of_game_frequency = 115
+
+[vote]
+#Приколи з голосуванням для РМС. Відредаговано під наші потреби
+preset_enabled = true
+restart_ghost_percentage = 75
+timerpreset = 60
+
+[votekick]
+eligible_number = 3
+initiator_ghost_requirement = false
+initiator_whitelist_requirement = false
+initiator_time_requirement = true
+voter_ghost_requirement = false
+voter_playtime = 72
+
+## Технічні налаштування серверу
+[net]
+#Тікрейт, вимкнення зайвих повідомлень в консоль серверу
+tickrate = 20
+bindto = "::,0.0.0.0"
+log_late_msg = false
+
+[build]
+#Версія білду, у РМС вона зазвичай не та, що остання. З часом буде змінюватися
+engine_version = "264.0.2-fix-physics"
+
+## Технічні налаштування білду
+[physics]
+#Зміни фізики для РМС. Прибирає можливість розділення грідів
+grid_splitting = false
+maxlinvelocity = 72
+target_minimum_tickrate = 120
+
+[atmos]
+#Зміни атмосу для РМС (фактично вимикає його залишки)
+space_wind = false
+monstermos_rip_tiles = false
+grid_impulse = false
+max_process_time = 1
+
+[explosion]
+#Обмеження вибухів, щоб вони буквально не пробивали планети до космосу
+can_create_vacuum = false
+
+[shuttle]
+#Налаштування для нормальної праці шатлів та вимикає раундстарт спавн зайвих мап ваніли
+arrivals_planet = false
+arrivals = false
+preload_grids = false
+startup_time = 10
+travel_time = 100
+arrival_time = 10
+cooldown = 120
+mass_limit = -1
+emergency = false
+auto_call_time = 0
+
+[movement]
+#КОЛІЗІЯЯЯЯ
+mob_pushing = true
+
+[events]
+#Вимикає ігрові події з ваніли, бо це РМС
+enabled = false
+
+[gateway]
+#Вимикає раундстарт спавн зайвих мап ваніли №2
+generator_enabled = false
+
+[procgen]
+#Вимикає раундстарт спавн зайвих мап ваніли №3
+preload = false
+
+[accessibility]
+#Технічна штука з налаштуваннями доступності
+screen_shake_intensity = 1
+
+[interaction]
+#Менше зайвих повідомлень адміністрації
+rate_limit_announce_admins_delay = -1
+
+[ghost]
+#Прибирає можливість гостатися в кріті та зайві таймери
+kill_crit = false
+role_time = 0

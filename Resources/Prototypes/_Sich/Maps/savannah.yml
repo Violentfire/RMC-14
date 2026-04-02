@@ -1,0 +1,64 @@
+- type: gameMap
+  id: SichSavannah
+  mapName: Саванна
+  mapPath: /Maps/_Sich/savannah.yml
+  minPlayers: 0
+  maxPlayers: 50
+  maxRandomOffset: 0
+  randomRotation: false
+  stations:
+    Savannah:
+      stationProto: StandardUNMCWarship
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'ДКП-Саванна "Січ"' # LSC-Savannah. Landing Ship Carrier – Десантний Корабель-Перевізник. Назва корабля "Січ", тип Саванна.
+        - type: StationJobs
+          availableJobs: # 59 (61 загалом), плюс нескінченні стрільці
+            # Командування. 4 загалом
+            CMCommandingOfficer: [1, 1]
+            CMExecutiveOfficer: [1, 1]
+            CMStaffOfficer: [2, 2]
+
+            # ВСП. 5 загалом
+            CMChiefMP: [1, 1]
+            CMMilitaryWarden: [1, 1]
+            CMMilitaryPolice: [3, 3]
+#            CMProvostInspector: [1, 1] – сенс нам від нього, плюс поки нікому вайтліст не видавали
+
+            # Підтримка. 7 загалом
+            CMAuxiliarySupportOfficer: [1, 1]
+            CMIntelOfficer: [1, 1]
+            CMPilotDropship: [1, 1]
+            CMPilotGunship: [1, 1]
+            CMDropshipCrewChief: [2, 2]
+            CMSeniorEnlistedAdvisor: [1, 1]
+
+            # Інженерія. 3 (4) загалом
+            CMChiefEngineer: [1, 1]
+#            CMOrdnanceTech: [1, 1] – відсутнє у грі
+            CMMaintTech: [2, 2]
+
+            # Медичний. 7 (8) загалом
+            CMCMO: [1, 1]
+            CMDoctor: [2, 2]
+            RMCFieldDoctor: [1, 1]
+            CMNurse: [3, 3]
+#            CMResearcher: [1, 1] – відсутнє у грі
+
+            # Постачання. 3 загалом
+            CMQuartermaster: [1, 1]
+            CMCargoTech: [2, 2]
+
+            # Морпіхи. 26 загалом (плюс нескінченні стрільці)
+            CMSquadLeader: [4, 4]
+            CMFireteamLeader: [4, 4]
+            CMSmartGunOperator: [2, 2]
+            CMWeaponsSpecialist: [2, 2]
+            CMCombatTech: [6, 6]
+            CMHospitalCorpsman: [8, 8]
+            CMRifleman: [-1, -1]
+
+            # Інші. 4 загалом
+            CMCorrespondent: [2, 2]
+            CMLiaison: [1, 1]
+            CMMessTech: [1, 1]

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: RMCTelevision
-  name: television set
-  description: An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.
+  name: телевізор
+  description: Старий телевізор з можливістю підключення відеопрогравача. Ви можете ДИВИТИСЯ на ньому щось під час операції, вау!
   components:
   - type: Transform
     anchored: true

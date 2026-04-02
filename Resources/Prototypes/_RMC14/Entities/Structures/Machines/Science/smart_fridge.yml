@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: RMCSmartFridge
-  name: smart chemical storage
-  description: A refrigerated storage unit for medicine and chemical storage.
+  name: розумна система зберігання хімікатів
+  description: Охолоджувальний міні-склад для зберігання ліків та хімікатів.
   placement:
     mode: SnapgridCenter
   components:

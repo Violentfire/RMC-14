@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxBulletsRifle
-  name: Ящик з коробкою гвинтівкових набоїв (10х24 мм) (600 шт.)
+  name: Коробка набоїв для гвинтівок (600 шт 10х24 мм)
   components:
   - type: StorageFill
     contents:
@@ -10,7 +10,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxBulletsRifleAP
-  name: Ящик з коробкою гвинтівкових ББ набоїв (10х24 мм ББ) (600 шт.)
+  name: Коробка набоїв для гвинтівок (600 шт 10х24 мм ББ)
   components:
   - type: StorageFill
     contents:
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxBulletsSMG
-  name: Ящик з коробкою набоїв для пістолета-кулемета (10х20 мм) (600 шт.)
+  name: Коробка набоїв для пістолетів-кулеметів (600 шт 10х20 мм)
   components:
   - type: StorageFill
     contents:
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: RMCCrateBoxBulletsSMGAP
-  name: Ящик з коробкою ББ набоїв для пістолета-кулемета (10х20 мм ББ) (600 шт.)
+  name: Коробка набоїв для пістолетів-кулеметів (600 шт 10х20 мм ББ)
   components:
   - type: StorageFill
     contents:

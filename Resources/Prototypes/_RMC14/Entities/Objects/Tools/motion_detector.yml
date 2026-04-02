@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCMotionDetector
   id: RMCMotionDetectorCompact
-  name: M717 pocket motion detector
-  description: This prototype motion detector sacrifices versatility, having only the long-range mode, for size, being so small it can even fit in pockets.
+  name: кишеньковий детектор руху М717
+  description: Це прототип датчика руху жертвує універсальністю, маючи лише режим далекого радіусу дії, заради розміру, будучи настільки малим, що може поміститися навіть у кишені.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/compact_motion_detector.rsi

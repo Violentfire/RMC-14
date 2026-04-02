@@ -1,8 +1,10 @@
-﻿- type: entity
+﻿# Bases
+- type: entity
   parent: RMCBaseArmor
-  id: RMCSuitEVAUNMC # TODO make into a base
-  name: космічний костюм МК.35 КМПОН
-  description: Важкий, незручний військовий космічний костюм, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН.
+  id: RMCSuitEVABase
+  name: космічний костюм
+  description: Важкий, незручний космічний костюм.
+  abstract: true
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
@@ -16,7 +18,7 @@
     tags:
     - Hardsuit
   - type: CMArmor
-    bio: 30 # TODO 30 rads aswel;
+    bio: 30 # RMC14 TODO: 30 rads aswell
     melee: 15
     bullet: 20
     explosionArmor: 10
@@ -31,10 +33,11 @@
 
 - type: entity
   parent: RMCHardHat
-  id: RMCHelmetEVAUNMC # TODO make into a base
+  id: RMCHelmetEVABase
   categories: [ HideSpawnMenu ]
-  name: космічний шолом МК.35 КМПОН
-  description: Важкий космічний шолом, створений в парі з космічним костюмом МК.35, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН. Відчувається наче ви можете тут зваритися.
+  name: космічний шолом
+  description: Важкий космічний шолом, створений в парі з космічним костюмом.
+  abstract: true
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
@@ -66,3 +69,142 @@
     netsync: false
     color: "#FFFFFF"
     mask: /Textures/_RMC14/Effects/LightMasks/wide_ellipsis.png
+  - type: RemoveComponents
+    components:
+    - type: Storage
+    - type: LimitedStorage
+
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVASGO
+  name: космічний костюм для смартгану
+  suffix: Smart Gun harness
+  description: Важкий, незручний космічний костюм. З якоїсь причини, схоже, що цей костюм має всі необхідні елементи для використання СмартГану.
+  abstract: true
+  components:
+  - type: ClothingBlockBackpack
+  - type: SmartGunArmor
+
+# UNMC
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVAUNMC
+  name: космічний костюм МК.35 КМПОН
+  description: Важкий, незручний військовий космічний костюм, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVAUNMC
+  - type: ClothingRequireEquipped
+    denyReason: rmc-armor-not-marine-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformMarine
+
+- type: entity
+  parent: RMCSuitEVASGO
+  id: RMCSuitEVAUNMCSGO
+  name: космічний костюм МК.35 КМПОН для системи МЛ66А
+  description: Важкий, незручний військовий космічний костюм, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН. Схоже, цей костюм має необхідні кріплення для сумісності з СмартГаном МЛ66А.
+  components:
+  - type: ClothingRequireEquipped
+    denyReason: rmc-armor-not-marine-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformMarine
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVAUNMC
+  categories: [ HideSpawnMenu ]
+  name: космічний шолом МК.35 КМПОН
+  description: Важкий космічний шолом, створений в парі з космічним костюмом МК.35, який використовується Корпусом Морської Піхоти Об'єднаних Націй та кількома іншими організаціями ОН. Відчувається наче ви можете тут зваритися.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: ClothingRequireEquipped
+    denyReason: rmc-armor-not-marine-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformMarine
+
+# SPP
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVASPP
+  name: космічний костюм Тип 2 СПН
+  description: Важкий, незручний військовий космічний костюм, який використовується Соціалістичними Прогресивними Народами та дотичними до них організаціями. Якщо воно не треба тобі для виживання, то такий собі трофей.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/spp.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/spp.rsi
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVASPP
+  - type: ClothingRequireEquipped
+    denyReason: rmc-armor-not-spp-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformSPP
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVASPP
+  categories: [ HideSpawnMenu ]
+  name: SPP Type 2 pressure helmet
+  description: Важкий космічний шолом, створений в парі з космічним костюмом Тип 2, який використовується Соціалістичними Прогресивними Народами та дотичними до них організаціями. Якщо воно не треба тобі для виживання, то такий собі трофей.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/spp.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/spp.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: ClothingRequireEquipped
+    denyReason: rmc-armor-not-spp-jumpsuit
+    whitelist:
+      tags:
+      - RMCUniformSPP
+
+# Civilian/Generic
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVACivilian
+  name: білий космічний костюм
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/white.rsi # TODO
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/white.rsi # TODO
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVACivilian
+  - type: RMCBulkyArmor
+    isBulky: false
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVACivilian
+  categories: [ HideSpawnMenu ]
+  name: білий космічний шолом
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/white.rsi # TODO
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/white.rsi # TODO
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+
+# RMC14 TODO: Port the other colored hardsuits (Orange, Yellow, Cyan, Red)

@@ -2,7 +2,7 @@
   parent: RMCBaseWeaponRifleNoMagazineProvider
   name: ТМГ-88 важка гвинтівка
   id: WeaponRifleXM88
-  description: Тестова модель гвинтівка під набій .458 SOCOM. Після кожного пострілу набій потрібно досилати вручну.
+  description: Тестова модель гвинтівки під набої .458 КОМСО. Зазвичай використовується на середній-дальній дистанції. Її постріли болючі для будь-якого ворога, але скорострільність бажає кращого. Після кожного пострілу новий набій потрібно досилати вручну.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm88/desert.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBox458SOCOM
-  name: коробка набоїв .458 SOCOM
-  description: Коробка, наповнена набоями .458 SOCOM, призначеними для важкої гвинтівки ТМГ-88.
+  name: коробка набоїв .458 КОМСО
+  description: Коробка, наповнена набоями .458 КОМСО, призначеними для важкої гвинтівки ТМГ-88.
   components:
   - type: Storage
     grid:

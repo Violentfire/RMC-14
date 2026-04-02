@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: M54CE2 важка штурмова гвинтівка
+  name: М54СЕ2 важка штурмова гвинтівка
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleM54CE2
-  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: Велика зброя підтримки загону, здатна вести тривалий вогонь на придушення ворога. Хоча вона й нестабільна та менш точна в порівнянні з іншими гвинтівками – її можна носити та використовувати як фактично кулемет без встановлення на позицію. Використовує безгільзові набої 10х24 мм.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
-  name: "M54CE2 магазин (10x24 мм)"
+  name: М54СЕ2 магазин (10х24 мм)
   components:
   - type: Tag
     tags:
@@ -154,7 +154,8 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
-  name: "M54CE2 магазин з голографічним наведенням (10x24 мм)"
+  name: М54СЕ2 магазин з ГН (10х24 мм)
+  description: ГН – голографічне наведення. Має всередині відповідні кулі, на відміну від звичайних початково наносить менше пошкоджень та вміщає менше куль, але чим більше куль влучить в одну ціль, тим більше пошкоджень будуть наносити наступні кулі. # Sich
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -176,7 +177,7 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmHT
-  name: ГН набій (10x24 мм)
+  name: ГН набій (10х24 мм)
   description: Набій з системою голографічного наведення, калібру 10×24 мм. Підходить до магазинів із системою голографічного наведення.
   components:
   - type: Tag
@@ -200,7 +201,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2AP
-  name: "M54CE2 ББ магазин (10x24 мм)"
+  name: М54СЕ2 ББ магазин (10х24 мм)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -222,7 +223,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2HEAP
-  name: "M54CE2 HEAP magazine (10x24mm)"
+  name: М54СЕ2 ВБ магазин (10х24 мм)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -244,7 +245,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2WP
-  name: "M54CE2 WP magazine (10x24mm)"
+  name: М54СЕ2 СП магазин (10х24 мм)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -266,7 +267,7 @@
 - type: entity
   parent: CMMagazineRifleM54CE2
   id: RMCMagazineRifleM54CE2Incendiary
-  name: "M54CE2 incendiary magazine (10x24mm)"
+  name: М54СЕ2 запальний магазин (10х24 мм)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True

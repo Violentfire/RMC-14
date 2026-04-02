@@ -1,0 +1,35 @@
+- type: entity
+  abstract: true
+  parent: CMPacketBase
+  id: RMCBoxSmallBase
+  name: packet
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/packets.rsi
+    layers:
+    - state: minebox
+      map: [ "closedLayer" ]
+    - state: minebox_e
+      map: [ "openLayer", "emptyLayer" ]
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,9,1
+    whitelist:
+      tags:
+      - RMCExplosiveClaymoreMine
+  - type: Tag
+    tags:
+    - RMCPacketGrenade
+
+- type: entity
+  parent: RMCBoxSmallBase
+  id: RMCBoxClaymoreMineFilled
+  name: М20 коробка з мінами
+  suffix: Filled
+  description: Скринька, в якій зберігається п'ять протипіхотних мін близького радіуса дії М20 'Клеймор'. Будь ласка, обережно з цим...
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCExplosiveClaymoreMine
+      amount: 5

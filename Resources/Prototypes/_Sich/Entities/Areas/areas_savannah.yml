@@ -1,0 +1,493 @@
+# Структура:
+# . Тех. Приміщення
+# . Коридори (загальні)
+# . Бріг
+# . Командування
+# . Медичний
+# . Підтримка
+# . Казарми
+# . Інженерний
+# . Помпи
+# . Інше
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: SMCAreaSavannah
+  suffix: Зона Саванни
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/savannah.rsi
+    state: savannah
+  - type: Area
+    powerNet: savannah
+
+# ТЕХ. ПРИМІЩЕННЯ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahMaints
+  abstract: true
+  components:
+  - type: Sprite
+    state: other
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsStarboardBow
+  name: Тех. Приміщення Переднього Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsPortBow
+  name: Тех. Приміщення Переднього Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsStarboardBeam
+  name: Тех. Приміщення Центрального Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsPortBeam
+  name: Тех. Приміщення Центрального Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsStarboardQuarter
+  name: Тех. Приміщення Заднього Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahMaints
+  id: SMCAreaSavannahMaintsPortQuarter
+  name: Тех. Приміщення Заднього Лівого Борту
+
+# КОРИДОРИ (загальні)
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahCorridorAmidship
+  name: Центральний Коридор
+  components:
+  - type: Sprite
+    state: other
+
+- type: entity
+  parent: SMCAreaSavannahCorridorAmidship
+  id: SMCAreaSavannahCorridorEngineering
+  name: Інженерний Коридор
+
+- type: entity
+  parent: SMCAreaSavannahCorridorAmidship
+  id: SMCAreaSavannahCorridorEscape
+  name: Коридор до Подів Евакуації
+
+- type: entity
+  parent: SMCAreaSavannahCorridorAmidship
+  id: SMCAreaSavannahCorridorBriefingStarboard
+  name: Коридор Брифінгу Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahCorridorAmidship
+  id: SMCAreaSavannahCorridorBriefingPort
+  name: Коридор Брифінгу Лівого Борту
+
+# БРІГ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahBrig
+  abstract: true
+  components:
+  - type: Sprite
+    state: security
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigCMP
+  name: Офіс ГВСП
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigWarden
+  name: Офіс Наглядача
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigRange
+  name: Тир Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigOB
+  name: Гармата Орбітального Бомбардування
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigCorridor
+  name: Головний Коридор Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigBow
+  name: Передній Коридор Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigPrison
+  name: Тюрма Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahBrigPrep
+  name: Казарми Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahStarboardPointDefense
+  name: Аварійні Порти Стикування Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahPortPointDefense
+  name: Аварійні Порти Стикування Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahArmory # Додано білдом Січі
+  name: Зброярня Брігу
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahObservationRoom # Додано білдом Січі
+  name: Кімната Спостереження
+
+# КОМАНДУВАННЯ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahCommand
+  abstract: true
+  components:
+  - type: Sprite
+    state: command
+  - type: Area
+    minimapColor: '#2D3FA2EE'
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahLiaison
+  name: Офіс Представника
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahPilotBunks
+  name: Койки Пілотів
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahOfficerBunks
+  name: Койки Офіцерів
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahCommandingOfficer
+  name: Офіс Командуючого Офіцера
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahCICCorridorPort
+  name: Лівий Коридор БІЦ
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahCICCorridorStarboard
+  name: Правий Коридор БІЦ
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahCIC
+  name: Бойовий Інформаційний Центр
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahASO
+  name: Офіс ОП та Гіперсон Командування
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahTComms
+  name: Телекоми
+
+- type: entity
+  parent: SMCAreaSavannahCommand
+  id: SMCAreaSavannahIO
+  name: Офіс Розвідки
+  components:
+  - type: Area
+    retrieveItemObjective: true
+
+- type: entity
+  parent: SMCAreaSavannahBrig
+  id: SMCAreaSavannahSynthetic # Додано (перенесено) білдом Січі
+  name: Сховище Синтетиків
+
+# МЕДИЧНИЙ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahMedical
+  name: Медичний Відділ
+  components:
+  - type: Sprite
+    state: medical
+  - type: IntelRecoverCorpsesArea
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalSurgery
+  name: Хірургічні палати
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalChemistry
+  name: Хімічна
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalPreparation
+  name: Медичні Казарми
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalResearch
+  name: Лабораторія
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalMorgue # Додано білдом Січі
+  name: Морг
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalCMO # Додано білдом Січі
+  name: Офіс Головного Лікаря
+
+- type: entity
+  parent: SMCAreaSavannahMedical
+  id: SMCAreaSavannahMedicalRestroom # Додано білдом Січі
+  name: Кімната Відпочинку Медичного
+
+# ПІДТРИМКА
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahAuxiliary
+  abstract: true
+  components:
+  - type: Sprite
+    state: requi
+
+- type: entity
+  parent: SMCAreaSavannahAuxiliary
+  id: SMCAreaSavannahHangarPort
+  name: Ангар Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannahAuxiliary
+  id: SMCAreaSavannahHangarStarboard
+  name: Ангар Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahAuxiliary
+  id: SMCAreaSavannahPilotsRoom
+  name: Кімната Пілотів
+
+- type: entity
+  parent: SMCAreaSavannahAuxiliary
+  id: SMCAreaSavannahRequisitions
+  name: Постачання
+
+- type: entity
+  parent: SMCAreaSavannahRequisitions
+  id: SMCAreaSavannahQuartermaster
+  name: Офіс Офіцера Логістики
+
+- type: entity
+  parent: SMCAreaSavannahAuxiliary
+  id: SMCAreaSavannahCanteen
+  name: Їдальня
+
+# КАЗАРМИ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahAlphaBravo
+  name: Казарми Альфа-Браво
+  components:
+  - type: Sprite
+    state: alpha_bravo
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahAlpha
+  name: Казарми Альфа
+  components:
+  - type: Sprite
+    state: alpha
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahBravo
+  name: Казарми Браво
+  components:
+  - type: Sprite
+    state: bravo
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahCharlieDelta
+  name: Казарми Чарлі-Дельта
+  components:
+  - type: Sprite
+    state: charlie_delta
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahCharlie
+  name: Казарми Чарлі
+  components:
+  - type: Sprite
+    state: charlie
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahDelta
+  name: Казарми Дельта
+  components:
+  - type: Sprite
+    state: delta
+
+# ІНЖЕНЕРНИЙ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahEngineering
+  name: Інженерія
+  components:
+  - type: Sprite
+    state: engineering
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: SMCAreaSavannahEngineering
+  id: SMCAreaSavannahEngineeringGenerator
+  name: Реакторна Установа Судна
+
+- type: entity
+  parent: SMCAreaSavannahEngineering
+  id: SMCAreaSavannahChiefEngineer
+  name: Офіс Головного Інженера
+
+- type: entity
+  parent: SMCAreaSavannahEngineering
+  id: SMCAreaSavannahEngineeringPreparations
+  name: Інженерні Казарми
+
+- type: entity
+  parent: SMCAreaSavannahEngineering
+  id: SMCAreaSavannahAtmosStarboard
+  name: Атмос Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahEngineering
+  id: SMCAreaSavannahAtmosPort
+  name: Атмос Лівого Борту
+
+# ПОМПИ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahLifeboatPumps
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_almayer.rsi
+    state: lifeboat_pump
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.25 # 0.1 в оригіналі. Змінено білдом Січі
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatPumps
+  id: SMCAreaSavannahPumpStarboardBow
+  name: Помпа Переднього Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatPumps
+  id: SMCAreaSavannahPumpStarboardQuarter
+  name: Помпа Заднього Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatPumps
+  id: SMCAreaSavannahPumpPortBow
+  name: Помпа Переднього Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatPumps
+  id: SMCAreaSavannahPumpPortQuarter
+  name: Помпа Заднього Лівого Борту
+
+# ІНШЕ
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahSEA
+  name: Офіс Інструктора та Тир
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahBriefing
+  name: Брифінг Зала
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahLifeboatAmidship
+  name: Центральне Стикування Рятувальних Шлюпок
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatAmidship
+  id: SMCAreaSavannahLifeboatStarboard
+  name: Стикування Рятувальної Шлюпки Правого Борту
+
+- type: entity
+  parent: SMCAreaSavannahLifeboatAmidship
+  id: SMCAreaSavannahLifeboatPort
+  name: Стикування Рятувальної Шлюпки Лівого Борту
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahMemorial
+  name: Меморіал
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahChurch
+  name: Церква
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahPress # Додано білдом Січі
+  name: Офіс Преси
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahDisposals # Додано білдом Січі
+  name: Смітник
+
+- type: entity
+  parent: SMCAreaSavannah
+  id: SMCAreaSavannahToilets # Додано білдом Січі
+  name: Вбиральні

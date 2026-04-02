@@ -11,6 +11,7 @@
   - type: Tag
     tags:
     - ClothMade
+    - SichBeret # Sich
 
 - type: entity
   parent: CMHeadBeret
@@ -126,7 +127,7 @@
 - type: entity
   parent: CMHeadBeret
   id: CMHeadBeretCOCol
-  name: полковницький берет
+  name: берет полковника
   description: Темно-синій берет, пошитий на замовлення, має вкраплення золотих ниток, а по центру написано 'Полковник'. Цей берет йому дорожче за всіх.
   components:
   - type: Sprite
@@ -137,7 +138,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretGreen
-  name: берет морпіхів ООН
+  name: берет морпіхів ОН
   suffix: Green
   components:
   - type: Sprite
@@ -148,7 +149,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretASO
-  name: ASO beret
+  name: берет ОП
   description: A black beret worn by Auxiliary Support Officers.
   components:
   - type: Sprite
@@ -159,8 +160,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretPurple
-  name: purple beret
-  description: A stylish, if purple, beret.
+  name: фіолетовий берет
+  description: Стильний фіолетовий берет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_purple.rsi
@@ -170,8 +171,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretOfficerHos
-  name: officer beret
-  description: A navy-blue beret with a captain's rank emblem. For officers that are more inclined towards style than safety.
+  name: офіцерський берет
+  description: Морський синій берет із знаком розрізнення капітана. Для офіцерів, що схиляються до стилю, а не безпеки.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_hos.rsi
@@ -295,8 +296,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCYellowCap
-  name: yellow cap
-  description: It's a baseball hat in a tasteless yellow color.
+  name: жовта кепка
+  description: Це бейсболка в несмачному жовтому кольорі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -381,8 +382,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadCapASO
-  name: UNMC ASO cap
-  description: A hat usually worn by ASOs in the UNMC. Provides no protection, but makes you look better when sorting papers.
+  name: кепка ОП КМПОН
+  description: Кепка, яку зазвичай носять ОП КМПОН. Забезпечує нуль захисту, але ви виглядаєте потужніше підчас перебирання папірців.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/ASO/cap_aso.rsi
@@ -422,8 +423,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapPeakedASO
-  name: ASO peaked cap
-  description: A peaked cap. Wearer may suffer the heavy weight of responsibility upon their head and shoulders.
+  name: кашкет ОП
+  description: Кашкет. Носій може постраждати від тягару відповідальності на їхній голові та плечах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/ASO/cap_peaked_aso.rsi
@@ -433,8 +434,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapPeakedCMP
-  name: chief mp peaked cap
-  description: A peaked cap given to experienced CMP. Wearer may suffer the heavy weight of responsibility upon their head and shoulders.
+  name: кашкет голови всп
+  description: Кашкет, який видається досвідченим ГВСП. Власник відчуватиме важкий тягар відповідальності на своїй голові та, можливо, плечах.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_peaked_cmp.rsi
@@ -445,7 +446,7 @@
   parent: CMHeadCap
   id: CMHeadCapCMO
   name: кепка головного лікаря
-  description: A peaked cap given to high-ranking civilian medical officers. Looks just a touch silly.
+  description: Кашкет, який видається високо поставленим цивільним медичним офіцерам. Виглядає трошки дурнувато.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cmo_cap.rsi
@@ -455,8 +456,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: CMHeadFlapCap
-  name: UNMC expedition cap
-  description: It's a cap, with flaps. A patch stitched across the front reads "UNS ALMAYER".
+  name: експедиційна кепка КМПОН
+  description: Це кепка, з вушками. Спереду нашивка з написом 'ДКП-САВАННА СІЧ'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/flapcap/jungle.rsi
@@ -474,8 +475,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapCorrespondent
-  name: combat correspondent cap
-  description: A faithful cap for any terrain war correspondents may find themselves in.
+  name: кепка військового кореспондента
+  description: Вірна кепка для кожної ситуації, в якій військовий кореспондент може побувати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/correspondent_cap.rsi
@@ -487,8 +488,8 @@
 - type: entity
   parent: CMHeadCapMP
   id: RMCHeadBlueSoftCap
-  name: blue cap
-  description: It's a baseball hat in a tasteless blue color.
+  name: синя кепка
+  description: Це бейсболка в несмачному синьому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/softcap/blue_cap.rsi
@@ -512,8 +513,8 @@
 - type: entity
   parent: RMCHeadBlueSoftCap
   id: RMCHeadYellowSoftCap
-  name: yellow cap
-  description: It's a baseball hat in a tasteless yellow color.
+  name: жовта кепка
+  description: Це бейсболка в несмачному жовтому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/softcap/yellow_cap.rsi
@@ -655,8 +656,8 @@
 - type: entity
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadEcho
-  description: Щільно сплетений, як і належить.
-  suffix: Ехо
+  description: ільно сплетений, як і належить.
+  suffix: Echo
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/echo.rsi
@@ -678,7 +679,7 @@
   parent: RMCHeadBeretSquadAlpha
   id: RMCHeadBeretSquadIntel
   description: Виглядає розумніше за свого власника.
-  suffix: Розвідка
+  suffix: Intel
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/SquadBeret/intel.rsi
@@ -701,8 +702,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeanie
-  name: beanie
-  description: A standard military beanie, often worn by non-combat military personnel and support crews, though it is not uncommon to see combat personnel who no longer care about self-preservation wearing one of these as well. Popular due to being comfortable and snug.
+  name: шапка
+  description: Стандартна військова шапка, яку часто носить небойовий персонал та персонал підтримки. Проте, це не так вже й нечасно можна побачити бойовий персонал, якому вже байдуже на самозбереження, що носить такі шапки. Популярна через комфорт.
   suffix: Black, RMC
   components:
   - type: Sprite
@@ -713,7 +714,7 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadBeanieTan
-  name: tan beanie
+  name: пісочна шапка
   suffix: Tan, RMC
   components:
   - type: Sprite
@@ -724,7 +725,7 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadBeanieGray
-  name: gray beanie
+  name: сіра шапка
   suffix: Gray, RMC
   components:
   - type: Sprite
@@ -735,7 +736,7 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadBeanieGreen
-  name: green beanie
+  name: зелена шапка
   suffix: Green, RMC
   components:
   - type: Sprite
@@ -746,7 +747,7 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadBeanieCargo
-  name: cargo beanie
+  name: шапка логістики
   suffix: Cargo, RMC
   components:
   - type: Sprite
@@ -757,8 +758,8 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadBeanieTSE
-  name: royal marine beanie
-  description: A standard military beanie.
+  name: шапка королівського морпіха
+  description: Стандартна військова шапка.
   suffix: TSE
   components:
   - type: Sprite
@@ -771,8 +772,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHeadRadiationHood
-  name: radiation hood
-  description: "A hood with radiation protective properties. Label: Made with lead, do not eat insulation"
+  name: радіаційний каптур
+  description: "Каптур, що захищає від радіації. Мітка: Зроблено зі свинцю, не їжте ізоляцію"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/radiation_hood.rsi
@@ -788,8 +789,8 @@
 - type: entity
   parent: RMCHeadRadiationHood
   id: RMCHeadTychoRadiationHood
-  name: Tycho 4000 radiation protection hood
-  description: The burn-resistant hood for the Weston-Yamada Tycho 4000 Radiation Protection Suit. It's lined with lead, and it's recommended you wear a rebreather or gas mask under it.
+  name: радіаційний захисний каптур Тичо 4000
+  description: Вогнетривкий радіаційний захисний каптур костюму Тичо 4000 Вестон-Ямада. Підбитий свинцем, але не забувайте носити респіратор або протигаз під ним.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/rad_hood_weya.rsi
@@ -805,8 +806,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadWeYaPilotCap
-  name: Weston-Yamada Pilot cap
-  description: A dark peaked cap enscribed with the Weston-Yamada 'Wings' logo. A formal cap for qualified civillian Pilots, akin to old Earth formal Pilots-wear.
+  name: кепка пілота Вестон-Ямада
+  description: Темний кашкет з нашитим логотипом 'Крила' Вестон-Ямада. Формальна кепка для кваліфікованих цифільних пілотів, подібно до формального пілотського одягу старої Землі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/weya_pilot_cap.rsi
@@ -822,8 +823,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHeadDurag
-  name: durag
-  description: An improvised head wrap made out of a standard issue neckerchief. Great for keeping the sweat out of your eyes and protecting your hair.
+  name: дураг
+  description: Імпровізована пов'язка на голову зроблена з хустки. Чудовий спосіб тримати піт подалі від очей та захистити волосся.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/durag.rsi
@@ -836,7 +837,7 @@
 - type: entity
   parent: RMCHeadDurag
   id: RMCHeadDuragBlack
-  description: An improvised head wrap made out of a black neckerchief. Great for keeping the sweat out of your eyes and protecting your hair.
+  description: Імпровізована пов'язка на голову зроблена з чорної хустки. Чудовий спосіб тримати піт подалі від очей та захистити волосся.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/durag_black.rsi
@@ -848,8 +849,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadCapGrey
-  name: grey cap
-  description: It's a baseball hat in a tasteful grey color.
+  name: сіра кепка
+  description: Це бейсболка в несмачному сірому кольорі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
@@ -861,8 +862,8 @@
 - type: entity
   parent: RMCHeadCapGrey
   id: RMCHeadCapFerret
-  name: ferret heavy industries trucker hat
-  description: It's a trucker hat. They're becoming collector items since Ferret went under in 2080.
+  name: кепка далекобійника феррет хефі індастріз
+  description: Це кепка далекобійника. Вони стають колекційними предметами з тих пір, як Феррет збанкрутував у 2080 році.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/ferret_cap.rsi
@@ -872,8 +873,8 @@
 - type: entity
   parent: RMCHeadCapGrey
   id: RMCHeadCapTruckerRed
-  name: red trucker hat
-  description: It's a red trucker hat.
+  name: червона кепка далекобійника
+  description: Це червона кепка далекобійника.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/red_trucker_cap.rsi
@@ -883,8 +884,8 @@
 - type: entity
   parent: RMCHeadCapTruckerRed
   id: RMCHeadCapTruckerBlue
-  name: blue trucker hat
-  description: It's a blue trucker hat.
+  name: синя кепка далекобійника
+  description: Це синя кепка далекобійника.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/blue_trucker_cap.rsi
@@ -894,8 +895,8 @@
 - type: entity
   parent: RMCHeadCapGrey
   id: RMCHeadCapWeyamart
-  name: orange cap
-  description: It's a baseball style cap in the 'Weyamart' orange color, with the 'Weyamart' logo on the front.
+  name: помаранчева кепка
+  description: Це бейсболка у помаранчевому кольорві 'Веямарту', з логотипом 'Веямарт' спереду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/weyamart_cap.rsi
@@ -905,8 +906,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadCapPatrol
-  name: patrol cap
-  description: A casual cap issued as part of the non-combat uniform. While it only protects from the sun, it's much more comfortable than a helmet.
+  name: патрульна кепка
+  description: Повсякденна кепка, яку видають як частину небойової уніформи. Незважаючи на те, що вона захищає лише від сонця, вона набагато зручніша за шолом.
   components:
   - type: ItemCamouflage
     camouflageVariations: {}
@@ -914,8 +915,8 @@
 - type: entity
   parent: RMCHeadCapGrey
   id: RMCHeadCapPizzaGalaxy
-  name: Pizza-Galaxy red cap
-  description: It's a baseball style cap in a red color, with the 'Pizza-Galaxy' logo on the front.
+  name: червона кепка Галактики Піци
+  description: Це бейсболка у червоному кольорі, з логотипом 'Галактики Піци' спереду.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/pizza_galaxy_cap.rsi
@@ -925,8 +926,8 @@
 - type: entity
   parent: RMCHeadCapGrey
   id: RMCHeadCapCargo
-  name: cargo cap
-  description: It's a baseball hat in a tasteless yellow color.
+  name: кепка логістики
+  description: Це бесболка у несмачному жовтому кольорі.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cargo_cap_old.rsi
@@ -936,8 +937,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHeadCowboyHatLight
-  name: light cowboy hat
-  description: A finely made cowboy hat.
+  name: світла ковбойська шляпа
+  description: Чудово зроблена ковбойська шляпа.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cowboy/light_cowboy.rsi
@@ -947,7 +948,7 @@
 - type: entity
   parent: RMCHeadCowboyHatLight
   id: RMCHeadCowboyHatDark
-  name: dark cowboy hat
+  name: темна ковбойська шляпа
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cowboy/dark_cowboy.rsi
@@ -957,8 +958,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHeadFedoraBrown
-  name: brown fedora
-  description: A classic brown fedora.
+  name: коричнева федора
+  description: Класична коричнева федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/brown_fedora.rsi
@@ -968,8 +969,8 @@
 - type: entity
   parent: RMCHeadFedoraBrown
   id: RMCHeadFedoraTan
-  name: tan fedora
-  description: A classic tan fedora.
+  name: піщана федора
+  description: Класична піщана федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/tan_fedora.rsi
@@ -979,8 +980,8 @@
 - type: entity
   parent: RMCHeadFedoraBrown
   id: RMCHeadFedoraGrey
-  name: grey fedora
-  description: A classic grey fedora.
+  name: сіра федора
+  description: Класична сіра федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/grey_fedora.rsi
@@ -990,8 +991,8 @@
 - type: entity
   parent: RMCHeadCapFlippable
   id: RMCHeadUshanka
-  name: ushanka
-  description: Perfect for winter in Siberia, da?
+  name: вушанка
+  description: Може й тепла, але не дивуйтеся, якщо вас пристрелять свої ж.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/ushanka.rsi
@@ -1012,8 +1013,8 @@
 - type: entity
   parent: ClothingHeadHatHoodNunHood
   id: RMCHeadNunHood
-  name: nun hood
-  description: Maximum piety in this star system
+  name: каптур священниці
+  description: Максимальна побожність у цій зоряній системі.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -1025,8 +1026,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapFedoraTan
-  name: tan fedora
-  description: A classic tan fedora.
+  name: піщана федора
+  description: Класична піщана федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/tan.rsi
@@ -1036,8 +1037,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapFedoraBrown
-  name: brown fedora
-  description: A classic brown fedora.
+  name: Коричнева федора
+  description: Класична коричнева федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/brown.rsi
@@ -1047,8 +1048,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapFedoraGrey
-  name: grey fedora
-  description: A classic grey fedora.
+  name: сіра федора
+  description: Класична сіра федора.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/Fedora/grey.rsi
@@ -1058,8 +1059,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadHorizonsWreath
-  name: new horizons day wreath
-  description: A wreath of blue and white flowers, traditionally worn on New Horizons Day.
+  name: вінок дня нових горизонтів
+  description: Вінок з синіми та білими квітами, який традиційно одягають на День Нових Горизонтів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/horizons_wreath.rsi

@@ -11,7 +11,7 @@
       scenarioProbability: 0.1
     - scenarioName: asset_protection
       scenarioProbability: 0.1
-    survivorJobInserts:
+    survivorJobVariants:
       CMSurvivor:
       - CMSurvivor: -1
       - CMSurvivorPriest: 1
@@ -29,7 +29,14 @@
       CMSurvivorScientist:
       - CMSurvivorLV624Archeologist: 2
     survivorJobScenarios:
-      asset_protection:
+      asset_protection: # Corporate Dome Goons, order of job priority for goons. Scientist is overriden into doctor.
+      - CMSurvivorCorporate: 1
+      - CMSurvivorEngineer: 1
+      - CMSurvivorDoctor: 1
+      - CMSurvivorSecurity: 1
+      - CMSurvivor: -1
+    survivorJobVariantScenarios:
+      asset_protection: # Corporate Dome Goons
         CMSurvivor:
         - CMSurvivorLV624CorporateDomeGoon: -1
         CMSurvivorCorporate:
@@ -42,6 +49,9 @@
         - CMSurvivorLV624CorporateDomeGoonLead: 1
         CMSurvivorScientist:
         - CMSurvivor: 0
+    survivorJobOverrideScenarios:
+      asset_protection: # Corporate Dome Goons
+        CMSurvivorScientist: CMSurvivorDoctor
 
 
 - type: entity
@@ -52,11 +62,21 @@
     map: /Maps/_RMC14/solaris.yml
     camouflage: Desert
     announcement: "Вестон-Ямада втратили зв'язок з одним зі своїх біосховищ, колонією Хребет Солярис на планеті ЖЗ-1413 (Рутерра-І). Початково вона використовувалась для експериментів з тераформуванням лишайником, але після їх провалу – продана корпорації Вестон-Ямада. Вас відправлено, щоб розібратися з причинами втрати зв'язку."
+    specialFaxes:
+      Liaison: RMCPaperWeYaLiaisonBriefingSolaris
     nightmareScenarios:
-    - scenarioName: clfmining
-      scenarioProbability: 0.1
     - scenarioName: crashlanding_offices
       scenarioProbability: 0.2
+    - scenarioName: solaris_surv_spawn_admin # 80% chance of regular surv. Reduce to 70% (0.14 each) once CLF survs are in.
+      scenarioProbability: 0.16
+    - scenarioName: solaris_surv_spawn_bar
+      scenarioProbability: 0.16
+    - scenarioName: solaris_surv_spawn_office
+      scenarioProbability: 0.16
+    - scenarioName: solaris_surv_spawn_south_marshals
+      scenarioProbability: 0.16
+    - scenarioName: solaris_surv_spawn_storage
+      scenarioProbability: 0.16
     survivorJobs:
     - RMCSurvivorCommandingOfficer: 1
     - CMSurvivor: -1
@@ -65,7 +85,7 @@
     - CMSurvivorEngineer: 4
     - CMSurvivorSecurity: 2
     - CMSurvivorScientist: 2
-    survivorJobInserts:
+    survivorJobVariants:
       RMCSurvivorCommandingOfficer:
       - CMSurvivorSolarisCMBMarshal: 1
       CMSurvivor:
@@ -85,46 +105,52 @@
       - CMSurvivorSolarisEngineer: -1
       CMSurvivorSecurity:
       - CMSurvivorSolarisCMBDeputy: -1
-      - CMSurvivorSolarisUNPeacekeeper: -1
+      - CMSurvivorSolarisILRCPeacekeeper: -1
       CMSurvivorScientist:
       - CMSurvivorSolarisScientist: -1
-#    survivorJobScenarios:
-#      clfmining:
-#        CMSurvivor:
-#        - : 1
-#        - : -1
-#        CMSurvivorCorporate:
-#        - : 1
-#        - : -1
-#        CMSurvivorDoctor:
-#        - : 1
-#        - : -1
-#        CMSurvivorEngineer:
-#        - : 1
-#        - : -1
-#        CMSurvivorSecurity:
-#        - : 1
-#        - : -1
-#        CMSurvivorScientist:
-#        - : -1
-#      crashlanding_offices:
-#        CMSurvivor:
-#        - : 1
-#        - : -1
-#        CMSurvivorCorporate:
-#        - : 1
-#        - : -1
-#        CMSurvivorDoctor:
-#        - : 1
-#        - : -1
-#        CMSurvivorEngineer:
-#        - : 1
-#        - : -1
-#        CMSurvivorSecurity:
-#        - : 1
-#        - : -1
-#        CMSurvivorScientist:
-#        - : -1
+    survivorJobScenarios:
+      crashlanding_offices: # PMC, order of job priority for PMCs. Scientist is overriden into doctor.
+      - RMCSurvivorCommandingOfficer: 1
+      - CMSurvivorEngineer: 1
+      - CMSurvivorDoctor: 1
+      - CMSurvivorSecurity: 1
+      - CMSurvivorCorporate: 1
+      - CMSurvivor: -1
+    survivorJobVariantScenarios:
+      crashlanding_offices: # PMC
+        RMCSurvivorCommandingOfficer:
+        - RMCSurvivorSolarisPMCCommander: 1
+        CMSurvivorSecurity:
+        - RMCSurvivorSolarisPMCLeader: 1
+        CMSurvivorDoctor:
+        - RMCSurvivorSolarisPMCMedic: 1
+        CMSurvivorCorporate:
+        - RMCSurvivorSolarisCorporateSupervisor: 1
+        CMSurvivorEngineer:
+        - RMCSurvivorSolarisPMCEngineer: 1
+        CMSurvivor:
+        - RMCSurvivorSolarisPMCStandard: -1
+      # clfmining:
+      #   CMSurvivor:
+      #   - : 1
+      #   - : -1
+      #   CMSurvivorCorporate:
+      #   - : 1
+      #   - : -1
+      #   CMSurvivorDoctor:
+      #   - : 1
+      #   - : -1
+      #   CMSurvivorEngineer:
+      #   - : 1
+      #   - : -1
+      #   CMSurvivorSecurity:
+      #   - : 1
+      #   - : -1
+      #   CMSurvivorScientist:
+      #   - : -1
+    survivorJobOverrideScenarios:
+      crashlanding_offices: # PMC
+        CMSurvivorScientist: CMSurvivorDoctor
 
 - type: entity
   id: RMCPlanetShiva
@@ -134,7 +160,10 @@
     map: /Maps/_RMC14/shiva.yml
     camouflage: Snow
     announcement: "Автоматичний сигнал лиха було отримано з місця археологічних розкопок \"Шивас Сніжка\", на кордоні льодяного світу \"Іфрит\" (ЖЗ-52). Вночі температура в колонії може досягати -50°C, основною її ціллю наразі є дослідження ██████████. Для встановлення причин сигналу СОС, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
-    survivorJobInserts: # Civ survivor is default one
+    nightmareScenarios:
+    - scenarioName: panic_room_hold
+      scenarioProbability: 0.1
+    survivorJobVariants: # Civ survivor is default one
       CMSurvivorCorporate:
       - RMCSurvivorShivasCorporateLiaison: -1
       CMSurvivorDoctor:
@@ -143,9 +172,31 @@
       - RMCSurvivorShivasEngineer: -1
       CMSurvivorSecurity:
       - RMCSurvivorShivasCMBDeputy: -1
-      - RMCSurvivorShivasUNPeacekeeper: -1
+      - RMCSurvivorShivasILRCPeacekeeper: -1
       CMSurvivorScientist:
       - RMCSurvivorShivasResearcher: -1
+    survivorJobScenarios:
+      panic_room_hold:
+      - CMSurvivorSecurity: 1
+      - CMSurvivor: 2
+      - CMSurvivorCorporate: 1
+      - CMSurvivorDoctor: 2
+      - CMSurvivorEngineer: 2
+      - CMSurvivorScientist: 2
+    survivorJobVariantScenarios:
+      panic_room_hold:
+        CMSurvivorEngineer:
+        - RMCSurvivorShivasPanicRoomEngineer: 2
+        CMSurvivorScientist:
+        - RMCSurvivorShivasPanicRoomResearcher: 2
+        CMSurvivorDoctor:
+        - RMCSurvivorShivasPanicRoomDoctor: 2
+        CMSurvivorSecurity:
+        - RMCSurvivorPMCCommandoShivas: 1
+        CMSurvivorCorporate:
+        - RMCSurvivorAssistantManager: 1
+        CMSurvivor:
+        - RMCSurvivorShivasPanicRoomCivilian: 2
 
 - type: entity
   id: RMCPlanetFiorina
@@ -156,7 +207,10 @@
     camouflage: Classic
     # minPlayers: 130 in RMC. Прибрано білдом Січі (ми любимо Флоріду)
     announcement: "Автоматичний сигнал лиха було отримано з в'язниці суворого режиму \"Орбітальна Тюрма Фіоріна\". Початково станція існувала на орбіті планети Фіоріна-161 заради розвідки покладів платини цієї ж планети, але після їх вичерпання була перебудована у Орбітальну тюрму та Науковий комплекс, ціллю дослідження якого стало ████████. Для встановлення причин сигналу СОС, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
-    survivorJobInserts:
+    nightmareScenarios:
+    - scenarioName: riot_in_progress
+      scenarioProbability: 0.15
+    survivorJobVariants:
       CMSurvivor:
       - CMSurvivor: -1
       - CMSurvivorISR: -1
@@ -173,6 +227,22 @@
       - CMSurvivorFiorinaRiotOfficer: 2
       CMSurvivorScientist:
       - CMSurvivorFiorinaResearcher: 2
+    survivorJobScenarios:
+      riot_in_progress: # Riot In Progress CMB Team. One as the main CMB RCTL, the rest as supporting officers.
+        - CMSurvivorSecurity: 1
+        - CMSurvivor: -1
+    survivorJobVariantScenarios:
+      riot_in_progress: # Riot In Progress Riot Control team
+        CMSurvivorSecurity:
+        - RMCSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader: 1
+        CMSurvivor:
+        - RMCSurvivorFiorinaRiotInProgressCMBRiotControlOfficer: -1
+    survivorJobOverrideScenarios:
+      riot_in_progress: # Riot In Progress job overrides.
+        CMSurvivorCorporate: CMSurvivor
+        CMSurvivorEngineer: CMSurvivor
+        CMSurvivorDoctor: CMSurvivor
+        CMSurvivorScientist: CMSurvivor
 
 - type: entity
   id: RMCPlanetTrijent
@@ -183,7 +253,7 @@
     camouflage: Desert
     minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     announcement: "Ми втратили контакт з позасонячною колонією Вестон-Ямади, \"Дамба Тріджент\", що на планеті \"Райжин\" (в минулому ЖЗ-670). Вона відома своїми великими запасами та видобутком Літію-6 (компонент для Тритію, палива термоядерних реакторів), який активно відправляється на експорт по всім системам. На допомогу було надіслано ДКП-Саванна \"Січ\"."
-    survivorJobInserts:
+    survivorJobVariants:
       CMSurvivor:
       - CMSurvivor: -1
       - CMSurvivorMiner: -1
@@ -204,7 +274,7 @@
       - CMSurvivorCMBDeputy: 1
       CMSurvivorScientist:
       - CMSurvivorTrijentResearcher: 2
-#    survivorJobScenarios:
+#    survivorJobVariantScenarios:
 #      clf_pods:
 #        CMSurvivor:
 #        - : -1
@@ -222,7 +292,7 @@
 #        - : -1
 #        CMSurvivorScientist:
 #        - : -1
-#    survivorJobScenarios:
+#    survivorJobVariantScenarios:
 #      spp_bar:
 #        CMSurvivor:
 #        - : -1
@@ -266,7 +336,7 @@
     - CMSurvivorEngineer: 4
     - CMSurvivorSecurity: 2
     - CMSurvivorScientist: 2
-    survivorJobInserts:
+    survivorJobVariants:
       RMCSurvivorCommandingOfficer:
       - RMCSurvivorCommanderNewVaradero: 1
       CMSurvivor:
@@ -281,7 +351,7 @@
       - CMSurvivorTechnician: 2
       - CMSurvivorCargoTechnician: 2
       CMSurvivorSecurity:
-      - CMSurvivorUNPeacekeeper: 2
+      - CMSurvivorILRCPeacekeeper: 2
       CMSurvivorScientist:
       - RMCSurvivorNewVaraderoResearcher: 2
 
@@ -293,7 +363,9 @@
     map: /Maps/_RMC14/kutjevo.yml
     camouflage: Desert
     announcement: "Автоматичний сигнал лиха отримано з планети Дікума-І (ЖЗ-686), колонії Вестон-Ямади, Заводи з Розливу Води Кутєво. Він відомий своїми біологічними дослідженнями та експортом фасованої води для всього сектору Нейроїд. Для встановлення причин, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
-    survivorJobInserts:
+    specialFaxes:
+      Liaison: RMCPaperWeYaLiaisonBriefingKutjevo
+    survivorJobVariants:
       CMSurvivor:
       - CMSurvivor: -1
       - RMCSurvivorKutjevoChaplain: 1
@@ -318,16 +390,16 @@
     map: /Maps/_RMC14/chances.yml
     camouflage: Classic
     announcement: "Пан-Пан. Це командуючий офіцер КОН \"Ганют\", ФОРКОН КМПОН. Ми висадилися на планеті ЖЗ-522 неподалік \"Землі Фортуни\", повторюю, неподалік \"Землі Фортуни\". Ми втратили контакт з Ганютом, також наші шатли не в змозі вилетіти. МИ ПОТРЕБУЄМО ДОПОМОГИ ВІД УСІХ КОРАБЛІВ ПОБЛИЗУ; це повідомлення транслюватиметься кожні 24 години."
-    selectRandomSurvivorInsert: false
+    selectRandomSurvivorVariant: false
     survivorJobs:
     - RMCSurvivorCommandingOfficer: 1
-    - RMCSurvivorForeconBase: 7
-    survivorJobInserts:
+    - RMCSurvivorForeconSupportTech: 1
+    - RMCSurvivorForeconBase: 6 # todo 7 when eight survs
+    survivorJobVariants:
       RMCSurvivorCommandingOfficer:
       - RMCSurvivorForeconCommander: 1
       RMCSurvivorForeconBase:
-      - RMCSurvivorForeconSupportTech: 1
-#      - RMCSurvivorForeconSquadLeader: 1 - всі ролі під коментаром, зміна білду Січі. З нашими 1-2 сурвами воно просто не має сенсу
+#      - RMCSurvivorForeconSquadLeader: 1 - Sich commented. З нашими 1-2 сурвами воно просто не має сенсу
 #      - RMCSurvivorForeconSniper: 1
 #      - RMCSurvivorForeconSmartgunOperator: 1
       - RMCSurvivorForeconMarksman: 1
@@ -335,8 +407,8 @@
     survivorJobOverrides:
       CMSurvivor: RMCSurvivorForeconBase
       CMSurvivorCorporate: RMCSurvivorForeconBase
-      CMSurvivorDoctor: RMCSurvivorForeconBase
-      CMSurvivorEngineer: RMCSurvivorForeconBase
+      CMSurvivorDoctor: RMCSurvivorForeconSupportTech
+      CMSurvivorEngineer: RMCSurvivorForeconSupportTech
       CMSurvivorSecurity: RMCSurvivorForeconBase
       CMSurvivorScientist: RMCSurvivorForeconBase
 
@@ -348,8 +420,11 @@
     map: /Maps/_RMC14/hybrisa.yml
     camouflage: Urban
     announcement: "Автоматичний сигнал лиха надійшов з колонії Вестон-Ямади, Процвітаюча Гібріса. Вона являє собою величезне місто, відоме своїми гірничодобувними проєктами, велечезними статками, а також захмарними цінами. Нещодавно викуплена у ІТС, ця колонія тепер ключовий актив Вестон-Ямади. Для встановлення причин, найближчим часом з ДКП-Саванна \"Січ\" буде відправлена група реагування."
+    nightmareScenarios:
+    - scenarioName: tse_airbase
+      scenarioProbability: 0.3
     minPlayers: 40 # 130 in RMC. Змінено білдом Січі
-    survivorJobInserts:
+    survivorJobVariants:
       CMSurvivor:
       - RMCSurvivorHybrisaCivilian: -1
       - RMCSurvivorHybrisaTMCCMiner: -1
@@ -375,17 +450,48 @@
       CMSurvivorScientist:
       - RMCSurvivorHybrisaXenoarchaeologist: 2
       - RMCSurvivorHybrisaXenobiologist: 2
+    survivorJobScenarios:
+      tse_airbase: # Order of job priority for paramarines. Scientist is overriden into doctor, Corporate into survivor
+      - RMCSurvivorCommandingOfficer: 1
+      - RMCJobSyntheticColony: 1
+      - CMSurvivorDoctor: 1
+      - CMSurvivorEngineer: 1
+      - CMSurvivorSecurity: 2
+      - CMSurvivor: -1
+    survivorJobVariantScenarios:
+      tse_airbase: # RCM Paramarines
+        RMCSurvivorCommandingOfficer:
+        - RMCSurvivorParaCommander: 1
+        RMCJobSyntheticColony:
+        - RMCSurvivorParaSupportSynthetic: 1
+        CMSurvivorDoctor:
+        - RMCSurvivorParaMedicalTechnician: 1
+        CMSurvivorEngineer:
+        - RMCSurvivorParaAssaultEngineer: 1
+        CMSurvivorSecurity:
+        - RMCSurvivorParaTeamLeader: 1
+        - RMCSurvivorParaPilot: 1
+        CMSurvivor:
+        - RMCSurvivorParamarine: -1
+    survivorJobOverrideScenarios:
+      tse_airbase: # RCM Paramarines
+        CMSurvivorScientist: CMSurvivorDoctor
+        CMSurvivorCorporate: CMSurvivor
+
 
 - type: entity
   id: RMCPlanetSorokyne
-  name: ЖЗ-976 Сорокіне Страта # Комуністи (СПП). . . "Сорокина Срака", наврядч ми її будемо задіювати.
+  name: ЖЗ-976 Сорокіна Страта # Комуністи (СПП). . . "Сорокина Срака", наврядч ми її будемо задіювати.
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/sorokyne.yml
     camouflage: Jungle
     minPlayers: 40 # 130 in RMC. Змінено білдом Січі
     announcement: "З колонії гірничодобувної компанії на прикордонній планеті ЖЗ-976, \"Форпост Сорокіно\", отримано автоматичний сигнал СОС. Для розслідування причин цього буде відправлена група з ДКП-Саванна \"Січ\"."
-    survivorJobInserts:
+    nightmareScenarios:
+    - scenarioName: spp_sof
+      scenarioProbability: 0.4
+    survivorJobVariants:
       CMSurvivor:
       - CMJobSurvivorSoroCivilian: -1
       - CMJobSurvivorSoroMiner: -1
@@ -401,8 +507,8 @@
       - CMJobSurvivorArmedPoliceOfficer: 2
       - CMJobSurvivorArmyReservist: 2
       CMSurvivorScientist:
-      - CMJobSurvivorCECResearcher: 2
-#    survivorJobScenarios:
+      - CMJobSurvivorMSCResearcher: 2
+#    survivorJobVariantScenarios:
 #      clfcamp:
 #        CMSurvivor:
 #        - : -1
@@ -420,11 +526,32 @@
 #        - : -1
 #        CMSurvivorScientist:
 #        - : -1
+    survivorJobScenarios:
+      spp_sof:
+      - CMSurvivorEngineer: 1
+      - CMSurvivorDoctor: 1
+      - CMSurvivorSecurity: 2
+      - CMSurvivor: -1
+    survivorJobVariantScenarios:
+      spp_sof:
+        CMSurvivorSecurity:
+        - RMCSurvivorSPPSOFSpec: 1
+        - RMCSurvivorSPPSOFSL: 1
+        CMSurvivorDoctor:
+        - RMCSurvivorSPPSOFMedic: 1
+        CMSurvivorEngineer:
+        - RMCSurvivorSPPSOFSapper: 1
+        CMSurvivor:
+        - RMCSurvivorSPPSOFSoldier: -1
+    survivorJobOverrideScenarios: # Scientist rolls for SOF medic
+      spp_sof :
+        CMSurvivorScientist: CMSurvivorDoctor
+        CMSurvivorCorporate: CMSurvivor
 
 # PVE Maps Below
 - type: entity
   id: RMCPlanetArcticValley
-  name: Arctic Valley
+  name: Арктична Долина
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/arctic_valley.yml
@@ -433,7 +560,7 @@
 
 - type: entity
   id: RMCPlanetJungleDelta
-  name: Jungle Delta
+  name: Джунглі Дельта
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/jungle_delta.yml
@@ -442,7 +569,7 @@
 
 - type: entity
   id: RMCPlanetCorsat
-  name: CORSAT
+  name: КОРСАТ
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/corsat.yml
@@ -451,7 +578,7 @@
 
 - type: entity
   id: RMCPlanetHybrisaRepaired
-  name: LV-759 Hybrisa Prospera (Repaired)
+  name: ЖЗ-759 Процвітаюча Гібріса (Відновлена)
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/hybrisa_greenshift.yml
@@ -460,7 +587,7 @@
 
 - type: entity
   id: RMCPlanetSorokyneRepaired
-  name: LV-976 - Sorokyne Strata (Repaired)
+  name: ЖЗ-976 Сорокіна Страта (Відновлена)
   components:
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/PVE/sorokyne_repaired.yml

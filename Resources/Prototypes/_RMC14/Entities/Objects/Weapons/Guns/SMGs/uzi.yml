@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponSMG # TODO RMC14 UZI CAN JAM
-  name: UZI
+  name: УЗІ
   id: RMCWeaponSMGUZI
-  description: Exported to over 90 countries, somehow this relic has managed to end up here. Couldn't be simpler to use.
+  description: Експортована до понад 90 країн, ця реліквія якимось чином опинилася тут. Користуватися нею зможе навіть дитина!... Головне обережно.
   suffix: Filled
   components:
   - type: Sprite
@@ -86,8 +86,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGUZI
-  name: UZI magazine (9x21mm)
-  description: A 9x21mm magazine for the UZI. Seems pretty small, huh? Anything larger could cause feeding errors.
+  name: УЗІ магазин (9x21 мм)
+  description: Магазин для УЗІ з набоями 9х21 мм. Здається досить маленьким, чи не так? Будь-що більше може призвести до помилок подачі патронів.
   components:
   - type: Tag
     tags:
@@ -117,7 +117,7 @@
 - type: entity
   parent: RMCMagazineSMGUZI
   id: RMCMagazineSMGUZIExt
-  name: UZI Extended magazine (9x21mm)
+  name: УЗІ розширений магазин (9x21 мм)
   components:
   - type: BallisticAmmoProvider
     capacity: 32
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMCartridge9mmSMG
   id: RMCCartridge9x21mmSMGUZI
-  description: A 9x21mmcartridge for the UZI submachinegun.
+  description: Набій для пістолета-кулемета УЗІ, калібру 9х21 мм.
   components:
   - type: Tag
     tags:

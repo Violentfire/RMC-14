@@ -24,7 +24,7 @@
   parent: RMCBaseAirBurstGrenade
   id: RMC40MMGrenadeM74AGMF
   name: М74 ПВГ-О 40 мм осколкова граната
-  description: M74 - Повітряно-Вибухова Граната - Осколкова. Цією гранатою слід стріляти з гранатомета. Трохи пролетівши розсіює перед собою рій смертоносних осколків так, щоб вражати великі цілі. Надсмертоносна при прямому попаданні.
+  description: М74 Повітряно-Вибухова Граната Осколкова. Для її використання потрібний гранатомет. Трохи пролетівши розсіює перед собою рій смертоносних осколків так, щоб вражати великі цілі. Надсмертоносна при прямому попаданні.
   components:
   - type: Tag
     tags:
@@ -43,7 +43,7 @@
   parent: RMC40MMGrenadeM74AGMF
   id: RMC40MMGrenadeM74AGMI
   name: М74 ПВГ-З 40 мм запалювальна граната
-  description: M74 - Повітряно-Вибухова Граната - Запалювальна. Цією гранатою слід стріляти з гранатомета. Запалює підлогу після влучання. Розсіює перед собою рій смертоносних розпечених осколків. Надсмертоносна при прямому попаданні.
+  description: М74 Повітряно-Вибухова Граната Запалювальна. Для її використання потрібний гранатомет. Запалює підлогу після влучання. Розсіює перед собою рій смертоносних розпечених осколків. Надсмертоносна при прямому попаданні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -63,7 +63,7 @@
   parent: RMC40MMGrenadeM74AGMF
   id: RMCHornetShellM74AGMS
   name: М74 ПВГ-К 40 мм Шершень
-  description: Ідентична M74 ПВГ-О, лиш окрім того моменту, що замість шрапнелі вистрілює кулями калібру .22дг. Одним словом - картеч, але на непоганій відстані.
+  description: Ідентична М74 ПВГ-О, лиш окрім того моменту, що замість шрапнелі вистрілює кулями калібру .22дг. Одним словом – картеч, але на середній дистанції. Для її використання потрібний гранатомет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -77,7 +77,7 @@
   parent: RMC40MMGrenadeM74AGMF
   id: RMCStarShellM74AGMS
   name: М74 ПВГ-З Зіркова
-  description: Ідентична M74 ПВГ-О, за винятком того, що замість шрапнелі розкидує навколо зіркоподібні сяючі уламки, що освітлять ваш темний шлях.
+  description: Ідентична М74 ПВГ-О, за винятком того, що замість шрапнелі розкидує навколо зіркоподібні сяючі уламки, що освітлять ваш темний шлях. Для її використання потрібний гранатомет.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMC40MMGrenadeM74AGMF
   id: RMCBatonSlugHIRR
-  name: ВІГС сповільнюючий 
-  description: Родич гумової М15. Був знятий з озброєння поліції через завелику смертність тих, в кого ним стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
+  name: ВІГС сповільнюючий # Sich. HIRR – High-Intensity Rubber Round, Високо-Інтенсивний Гумовний Снаряд – ВІГС
+  description: Високо-Інтенсивний Гумовний Снаряд, родич гумової М15. Для його використання потрібний гранатомет. Був знятий з озброєння поліції через завелику смертність тих, в кого нею стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -110,7 +110,7 @@
   parent: RMC40MMGrenadeM74AGMF
   id: RMC40MMGrenadeM74AGMS
   name: М74 ПВГ-Д 40 мм димова граната
-  description: M74 - Повітряно-Вибухова Граната - Димова. Вистрілюється з гранатомету. Детонуючи, випускає нешкідливу хмару диму.
+  description: М74 Повітряно-Вибухова Граната Димова. Для її використання потрібний гранатомет. Детонуючи, випускає нешкідливу хмару диму.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/grenade_launcher.rsi
@@ -205,7 +205,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileHornet
-  name: М74 ПВГ-К 40 мм шершень
+  name: М74 ПВГ-К 40 мм Шершень граната
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -224,7 +224,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: RMCAirBurstProjectileStarShell
-  name: М74 ПВГ-З Зіркова
+  name: М74 ПВГ-З Зіркова граната
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCStarShellBullet
-  name: сяюча зірочка
+#  name: сяюча зірочка – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -330,6 +330,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBaseAirburstRound
+  name: снаряд # Sich
   categories: [ HideSpawnMenu ]
   abstract: true
   components:
@@ -338,7 +339,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCHornetRound
-  name: .22 патрон шершня
+#  name: .22 шрапнель шершня – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -360,7 +361,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCShrapnelJagged
-  name: зазубрена шрапнель
+#  name: зазубрена шрапнель – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -393,7 +394,7 @@
 - type: entity
   parent: RMCBaseAirburstRound
   id: RMCShrapnelIncendiary
-  name: розпечена шрапнель
+#  name: розпечена шрапнель – Sich
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -426,7 +427,7 @@
   parent: RMCBaseBullet
   id: RMCBatonSlugProjectile
   name: ВІГС сповільнюючий
-  description: Родич гумової М15. Був знятий з озброєння поліції через завелику смертність тих, в кого ним стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
+  description: Високо-Інтенсивний Гумовний Снаряд, родич гумової М15. Для його використання потрібний гранатомет. Був знятий з озброєння поліції через завелику смертність тих, в кого нею стріляли. Зараз використовується як менш смертоносний варіант боротьби з ворожими силами. ВІГС був неймовірно популярним під час конфлікту на Арктурі, бо зміг дуже ефективно виводити сили спротиву майже на той світ.
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnFixedDistanceStop

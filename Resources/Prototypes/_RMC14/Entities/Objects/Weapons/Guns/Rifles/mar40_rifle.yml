@@ -1,7 +1,7 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleMAR40
-  name: MAR-40 бойова гвинтівка
+  name: МАР-40 бойова гвинтівка
   description: Дешева, надійна штурмова гвинтівка під набій 7.62х39 мм. Зазвичай зустрічається в руках злочинців, найманців, а також бійців СПП чи ФВК.
   suffix: Filled
   components:
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleMAR40
-  name: MAR магазин (7.62x39 мм)
-  description: Магазин під набій 7.62х39 мм для зброї серії MAR.
+  name: МАР магазин (7.62х39 мм)
+  description: Магазин МАР під набій 7.62х39 мм для зброї серії МАР.
   components:
   - type: Tag
     tags:
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCMagazineRifleMAR40
   id: RMCMagazineRifleMAR40Ext
-  name: MAR розширений магазин (7.62x39 мм)
-  description: Магазин MAR під набій 7.62х39 мм, вміщує більше набоїв, ніж стандартна версія.
+  name: МАР розширений магазин (7.62х39 мм)
+  description: Магазин МАР під набій 7.62х39 мм, вміщує більше набоїв, ніж стандартна версія.
   components:
   - type: Tag
     tags:
@@ -172,8 +172,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineMar50LMG
-  name: MAR drum magazine (7.62x39mm)
-  description: A 7.62x39mm drum magazine for the MAR-50 LMG.
+  name: МАР барабанний магазин (7.62х39 мм)
+  description: Барабанний магазин під набій 7.62х39 мм, створений спеціально для легкого кулемета МАР-50.
   components:
   - type: Tag
     tags:

@@ -46,7 +46,7 @@
   table: !type:AllSelector
     children:
     - id: RMCTabletCO
-    - id: RMCHeadsetMarineCommand
+    - id: CMHeadsetSeniorCommand
     - id: RMCIDCCardReserve # Додавання білду Січі. Резервна картка
 
 - type: entity # Додавання білду Січі. Резервна картка для потреб офіцерів.

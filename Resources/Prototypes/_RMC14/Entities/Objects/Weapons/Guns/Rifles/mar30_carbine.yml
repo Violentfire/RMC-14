@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponRifleMAR40
   id: RMCWeaponRifleMAR30
-  name: MAR-30 battle carbine
-  description: A cheap, reliable carbine chambered in 7.62x39mm. Commonly found in the hands of criminals or mercenaries.
+  name: МАР-30 бойовий карабін
+  description: Дешевий, надійний карабін під набої 7,62x39 мм. Часто зустрічається в руках злочинців або найманців.
   suffix: Filled
   components:
   - type: Sprite

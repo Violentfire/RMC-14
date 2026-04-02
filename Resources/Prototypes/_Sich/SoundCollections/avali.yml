@@ -1,0 +1,46 @@
+- type: soundCollection
+  id: SichAvaliLaugh
+  files:
+    - /Audio/_RMC14/Voice/Avali/avali_laugh.ogg # РМСний звук
+    - /Audio/_Sich/Voice/Avali/avali_laugh_2.ogg # Сенсея звук
+    - /Audio/_Sich/Voice/Avali/avali_laugh_3.ogg # Сенсея звук
+
+- type: soundCollection
+  id: SichAvaliCry
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_cry_1.ogg # Сенсея звук
+    - /Audio/_Sich/Voice/Avali/avali_cry_2.ogg # Сенсея звук
+    - /Audio/_Sich/Voice/Avali/avali_cry_3.ogg # Старлайта звук
+
+- type: soundCollection
+  id: SichAvaliCough
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_cough_1.ogg # Сенсея звук
+    - /Audio/_Sich/Voice/Avali/avali_cough_2.ogg # Старлайта звук
+
+- type: soundCollection
+  id: SichAvaliWhistle
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_whistle_1.ogg # Сенсея звук
+    - /Audio/_Sich/Voice/Avali/avali_whistle_2.ogg # Старлайта звук
+
+- type: soundCollection # Чисто звуки Старлайта
+  id: SichAvaliCall
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_call_1.ogg
+    - /Audio/_Sich/Voice/Avali/avali_call_2.ogg
+
+- type: soundCollection # Чисто звуки Старлайта
+  id: SichAvaliChirp
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_chirp_1.ogg
+    - /Audio/_Sich/Voice/Avali/avali_chirp_2.ogg
+    - /Audio/_Sich/Voice/Avali/avali_chirp_3.ogg
+    - /Audio/_Sich/Voice/Avali/avali_chirp_4.ogg
+    - /Audio/_Sich/Voice/Avali/avali_chirp_5.ogg
+
+- type: soundCollection # Чисто звуки Старлайта
+  id: SichAvaliScree
+  files:
+    - /Audio/_Sich/Voice/Avali/avali_scree_1.ogg
+    - /Audio/_Sich/Voice/Avali/avali_scree_2.ogg

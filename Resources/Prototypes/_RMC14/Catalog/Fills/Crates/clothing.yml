@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateClothingLargePouches
   parent: RMCCrateBase
-  name: "Ящик великих підсумків (по 2 шт.: пістолетні, магазинні, універсальні)"
+  name: Ящик великих підсумків (по 2 шт пістолетних, магазинних, загальних)
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   id: RMCCrateClothingMedicalPouches
   parent: RMCCrateBase
-  name: "Ящик медичних підсумків (1 шт. кожного: першої допомоги, автоінжекторний, для шприців, медичний, для меднабору)"
+  name: Ящик медичних підсумків (по 1 шт першої допомоги, автоінжекторний, для шприців, медичний, великий медичний)
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,7 @@
 - type: entity
   id: RMCCrateClothingWebbing
   parent: RMCCrateBase
-  name: Ящик розвантажок (4 шт.)
+  name: Ящик розвантажок (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -43,7 +43,7 @@
 - type: entity
   id: RMCCrateClothingWebbingBlack
   parent: RMCCrateBase
-  name: black webbing crate (x4)
+  name: Ящик чорних розвантажок (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -53,7 +53,7 @@
 - type: entity
   id: RMCCrateClothingWebbingVest
   parent: RMCCrateBase
-  name: Ящик коричневих і чорних жилетів (по 2 шт.)
+  name: Ящик коричневих і чорних жилетів (по 2 шт)
   components:
   - type: StorageFill
     contents:
@@ -65,7 +65,7 @@
 - type: entity
   id: RMCCrateClothingWebbingKnife
   parent: RMCCrateBase
-  name: Ящик жилетів для ножів (3 шт.)
+  name: Ящик жилетів для ножів (3 шт)
   components:
   - type: StorageFill
     contents:
@@ -75,7 +75,7 @@
 - type: entity
   id: RMCCrateClothingWebbingHolster
   parent: RMCCrateBase
-  name: Ящик плечових кобур (4 шт.)
+  name: Ящик плечових кобур (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -85,7 +85,7 @@
 - type: entity
   id: RMCCrateClothingWebbingHolsterBlack
   parent: RMCCrateBase
-  name: black shoulder holster crate (x4)
+  name: Ящик чорних плечових кобур (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -95,7 +95,7 @@
 - type: entity
   id: RMCCrateClothingDropPouch
   parent: RMCCrateBase
-  name: Ящик сумків для скиду (4 шт.)
+  name: Ящик сумок для скиду (4 шт)
   components:
   - type: StorageFill
     contents:
@@ -105,7 +105,7 @@
 - type: entity
   id: RMCCrateClothingDropPouchBlack
   parent: RMCCrateBase
-  name: black drop pouch crate (x4)
+  name: Ящик чорних сумок для скиду (4 шт)
   components:
   - type: StorageFill
     contents:

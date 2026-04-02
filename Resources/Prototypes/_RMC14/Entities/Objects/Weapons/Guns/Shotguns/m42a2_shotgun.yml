@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: M42A2 помповий дробовик
+  name: М42А2 помповий дробовик
   id: WeaponShotgunM42A2
-  description: "Класичний дизайн від Aegis Battlefield Armaments: M42A2 поєднує вогневу міць на близькій дистанції з тривалою надійністю. Після пострілу - пересмикни й добий."
+  description: Класичний дизайн від ЕГІДА Армаментс. М42А2 поєднує вогневу міць на близькій дистанції з високою надійністю. Здатний використовувати картечні, кулеві та флешетні набої. Після кожного пострілу не забудьте пересмикувати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m42a2/desert.rsi

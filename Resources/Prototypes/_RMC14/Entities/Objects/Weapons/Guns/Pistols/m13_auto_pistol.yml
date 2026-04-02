@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM13
-  name: M13 автоматичний пістолет
-  description: Автоматичний пістолет M13 - компактна, швидкострільна зброя, розроблена для самозахисту на близькій дистанції. Завдяки магазину на 40 набоїв він робить ставку на швидкість стрільби, а не на точність, забезпечуючи ефективне подавлення противника на коротких відстанях.
+  name: М13 автоматичний пістолет
+  description: Автоматичний пістолет М13 – компактна, швидкострільна зброя, розроблена для самозахисту на близькій дистанції. Завдяки магазину на 40 набоїв він робить ставку на швидкість стрільби, а не на точність, забезпечуючи перетворення супротивника в суміш свинцю з фаршем на близькій дистанції. Стріляє модифікованими 10х20 мм АПК кулями.
   components:
   - type: Tag
     tags:
@@ -47,7 +47,7 @@
   - type: RMCWeaponAccuracy
     accuracyMultiplier: 1
   - type: GunDamageModifier
-    multiplier: .65
+    multiplier: .75
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13
-  name: M13 ВШ магазин (10x20мм)
+  name: M13 ВШ магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -144,12 +144,12 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMG
+    bulletType: RMCBoxBulletsPistol
 
 - type: entity
   parent: RMCMagazinePistolM13
   id: RMCMagazinePistolM13AP
-  name: М13 ББ магазин (10x20мм)
+  name: М13 ББ магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -172,13 +172,13 @@
     - state: ammo_band
       color: "#1F951F"
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMGAP
+    bulletType: RMCBoxBulletsPistolAP
 
 #Missing Jam mod medium "the blicky"
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Ext
-  name: M13 ВШ розширений магазин (10x20мм)
+  name: M13 ВШ розширений магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -199,12 +199,12 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMG
+    bulletType: RMCBoxBulletsPistol
 
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13ExtAP
-  name: М13 ББ розширений магазин (10x20мм)
+  name: М13 ББ розширений магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -227,13 +227,13 @@
     - state: ammo_band
       color: "#1F951F"
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMGAP
+    bulletType: RMCBoxBulletsPistolAP
 
 #missing Jam mod critical "cant handle this shit brap brap brap"
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13Drum
-  name: M13 ВШ барабанний магазин (10x20мм)
+  name: M13 ВШ барабанний магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -254,12 +254,12 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMG
+    bulletType: RMCBoxBulletsPistol
 
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolM13DrumAP
-  name: М13 ББ барабанний магазин (10x20мм)
+  name: М13 ББ барабанний магазин (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -282,12 +282,12 @@
     - state: ammo_band
       color: "#1F951F"
   - type: RefillableByBulletBox
-    bulletType: RMCBoxBulletsSMGAP
+    bulletType: RMCBoxBulletsPistolAP
 
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeAutoPistol
-  name: cartridge (10x20mm-APC)
+  name: набій (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -299,7 +299,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeAutoPistolAP
-  name: armor-piercing cartridge (10x20mm-APC)
+  name: бронебійний набій (10х20 мм АПК)
   components:
   - type: Tag
     tags:
@@ -322,14 +322,14 @@
     - range: 22
       falloff: 9999
       ignoreModifiers: true
-    - range: 4
+    - range: 3
       falloff: 7
   - type: CMArmorPiercing
     amount: 5
   - type: RMCProjectileAccuracy
     accuracy: 115
     thresholds:
-    - range: 4
+    - range: 2
       falloff: 10
 
 - type: entity

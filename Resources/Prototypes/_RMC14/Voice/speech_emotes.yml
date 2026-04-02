@@ -17,7 +17,7 @@
     - hisses
     - hissing
     - hissed
-    - шипить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - шипить # Sich. До кінця прототипу наше додавання
     - шиплять
 
 - type: emote
@@ -42,7 +42,7 @@
     - miaus
     - nya
     - nyas
-    - мявчить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - мявчить # Sich. До кінця прототипу наше додавання
     - мявчать
     - нявчить
     - нявчать
@@ -73,7 +73,7 @@
     - mews
     - mewing
     - mewed
-    - мєвкає # Це та все нижче (до кінця прототипу) - з білду Січі
+    - мєвкає # Sich. До кінця прототипу наше додавання
     - мєвкають
 
 - type: emote
@@ -97,10 +97,8 @@
     - growls!
     - growling
     - growled
-    - гарчить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - гарчить # Sich. До кінця прототипу наше додавання
     - гарчать
-    - ричить
-    - ричать
 
 - type: emote
   id: Purr
@@ -120,7 +118,7 @@
     - purrs
     - purring
     - purred
-    - мурчить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - мурчить # Sich. До кінця прототипу наше додавання
     - мурчать
     - мурликає
     - мурличуть
@@ -128,8 +126,6 @@
     - мурмочуть
     - муркоче
     - муркочуть
-    - воркоче
-    - воркочуть
 
 #Вульпапкіни
 
@@ -156,7 +152,7 @@
     - barked.
     - barked!
     - barking.
-    - гавкає # Це та все нижче (до кінця прототипу) - з білду Січі
+    - гавкає # Sich. До кінця прототипу наше додавання
     - гавкають
     - тявкає
     - тявкають
@@ -184,7 +180,7 @@
     - snarled.
     - snarled!
     - snarling.
-    - огризається # Це та все нижче (до кінця прототипу) - з білду Січі
+    - огризається # Sich. До кінця прототипу наше додавання
     - огризаються
 
 - type: emote
@@ -210,10 +206,35 @@
     - whined.
     - whined!
     - whining.
-    - скиглить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - скиглить # Sich. До кінця прототипу наше додавання
     - скиглять
     - скавчить
     - скавчать
+
+- type: emote
+  id: Yip
+  name: rmc-emote-name-yip
+  category: Vocal
+  available: false
+  icon: _RMC14/Actions/species_emotes.rsi/bark.png
+  whitelist:
+    components:
+      - Vocal
+  blacklist:
+    components:
+      - BorgChassis
+  chatMessages: ["rmc-emote-yip"]
+  chatTriggers:
+    - yip
+    - yip.
+    - yip?
+    - yip!
+    - yips
+    - yips.
+    - yips?
+    - yips!
+    - їпає # Sich. До кінця прототипу наше додавання
+    - їпають
 
 - type: emote
   id: Gnash
@@ -240,7 +261,7 @@
     - gnashes her teeth
     - gnashes his teeth
     - gnashes its teeth
-    - скрежетить # Це та все нижче (до кінця прототипу) - з білду Січі
+    - скрежетить # Sich. До кінця прототипу наше додавання
     - скрежетять
     - скрежетить зубами
     - скережетять зубами
@@ -275,7 +296,7 @@
     - trills angrily
     - trills angrily.
     - trills angrily!
-    - гнівається # Це та все нижче (до кінця прототипу) - з білду Січі
+    - гнівається # Sich. До кінця прототипу наше додавання
     - гніваються
 
 - type: emote
@@ -298,7 +319,7 @@
     - peeps
     - peeps.
     - peeps!
-    - піпає # Це та все нижче (до кінця прототипу) - з білду Січі
+    - піпає # Sich. До кінця прототипу наше додавання
     - піпають
 
 - type: emote
@@ -321,7 +342,7 @@
     - trills
     - trills.
     - trills!
-    - треліть # Це та все нижче (до кінця прототипу) - з білду Січі
+    - треліть # Sich. До кінця прототипу наше додавання
     - трелять
     - трелить
 
@@ -345,8 +366,8 @@
     - warbles
     - warbles.
     - warbles!
-    - співає # білд Січі
-    - співають # білд Січі
+    - тьохкає # Sich. До кінця прототипу наше додавання
+    - тьохкають
 
 # Reptilian
 
@@ -374,3 +395,70 @@
     - rattles her tail
     - rattles his tail
     - rattles its tail
+    - брязкає хвостом # Це та все нижче (до кінця прототипу) - з білду Січ
+    - брязкають хвостом
+    - гримить хвостом
+    - гримлять хвостом
+
+# Slime
+
+- type: emote
+  id: RMCSlimeBubble
+  name: rmc-emote-name-slime-bubble
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-bubble"]
+  chatTriggers:
+  - bubbles
+  - bubbling
+  - булькає # Sich. До кінця прототипу наше додавання
+  - булькають
+
+- type: emote
+  id: RMCSlimePop
+  name: rmc-emote-name-slime-pop
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-pop"]
+  chatTriggers:
+  - pops
+  - popping
+  - попає # Sich. До кінця прототипу наше додавання
+  - попають
+
+- type: emote
+  id: RMCSlimeWobble
+  name: rmc-emote-name-slime-wobble
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/squish.png # todo: new icons?
+  whitelist:
+    components: 
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-slime-wobble"]
+  chatTriggers:
+  - wobbles
+  - wobbling
+  - wibbles 
+  - wibbling
+  - дрижжить # Sich. До кінця прототипу наше додавання
+  - дрижжать
+  - коливається
+  - коливаються

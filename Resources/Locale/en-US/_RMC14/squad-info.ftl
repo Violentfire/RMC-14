@@ -16,6 +16,7 @@ rmc-squad-info-fireteam = [font size=16][bold]Вогнева Група №{$fir
 rmc-squad-info-tracking-selection = Вибір відстеження
 rmc-squad-info-tracking-choose = Оберіть нову ціль відстеження:
 rmc-squad-info-change-tracker = Змінити відстежувач
+rmc-squad-info-none = нічого
 
 rmc-squad-info-CommandingOfficer = Командуючий Офіцер
 rmc-squad-info-ExecutiveOfficer = Виконавчий Офіцер
@@ -24,10 +25,10 @@ rmc-squad-info-ChiefMilitaryPolice = Голова ВСП
 rmc-squad-info-ChiefEngineer = Головний Інженер
 rmc-squad-info-ChiefMedicalOfficer = Головний Лікар
 rmc-squad-info-SeniorEnlistedAdvisor = Інструктор
-rmc-squad-info-Quartermaster = Квартирмейстер
+rmc-squad-info-Quartermaster = Офіцер Логістики
 rmc-squad-info-MilitaryWarden = Військовий Наглядач
-rmc-squad-info-SectionSergeant = Section Sergeant
-rmc-squad-info-PVESquadLeader = Squad Leader
+rmc-squad-info-SectionSergeant = Сержант Відділення
+rmc-squad-info-PVESquadLeader = Лідер Загону
 rmc-squad-info-SquadLeader = Лідер Загону
 rmc-squad-info-FireteamLeader = Лідер Вогневої Групи
 rmc-squad-info-Rifleman = Стрілець
@@ -61,3 +62,14 @@ rmc-squad-info-InspectorTSEPA = Інспектор ІТСПА
 rmc-squad-info-SeniorConstableTSEPA = ІТСПА Старший Констебль
 
 rmc-squad-info-PrimaryLandingZone = Основна Посадкова Зона
+
+rmc-squad-info-RCMPVESectionLead = Section Leader
+rmc-squad-info-RCMPVETeamLead = Team Leader
+rmc-squad-info-RCMPVETroopSergeant = Troop Sergeant
+rmc-squad-info-RCMPVETroopCommander = Troop Commander
+
+rmc-squad-info-RCMTeamLead = Team Leader
+rmc-squad-info-RCMLieutenant = Lieutenant
+
+rmc-squad-info-ParaTeamLeader = Team Leader
+rmc-squad-info-ParaCommander = Commander

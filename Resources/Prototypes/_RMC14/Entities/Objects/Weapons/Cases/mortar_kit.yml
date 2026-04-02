@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCMortarEquipmentCase
-  name: mortar kit
-  description: Contains the equipment needed for the mortar.
+  name: мінометний набір
+  description: Містить все необхідне для використання міномету! Інструкції, навідники, міни та місце де їх зберігати, ну й звісно – сам міномет!
   components:
   - type: Sprite
     layers:

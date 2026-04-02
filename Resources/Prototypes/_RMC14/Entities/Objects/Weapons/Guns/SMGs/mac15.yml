@@ -1,6 +1,6 @@
 - type: entity
   parent: CMBaseWeaponSMG
-  name: MAC-15 пістолет-кулемет
+  name: МАК-15 пістолет-кулемет
   id: WeaponSMGMAC15 # TODO RMC14 10% chance to have an underbarrel grenade launcher
   description: Дешева та надійна конструкція, а також простота у виробництві зробили цей всюдисущий пістолет-кулемет популярним навіть попри його вік.
   suffix: Filled
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGMAC15
-  name: MAC-15 магазин (9 мм)
-  description: Магазин з 9-мм набоями для MAC-15.
+  name: МАК-15 магазин (9 мм)
+  description: Магазин з 9-мм набоями для МАК-15.
   components:
   - type: Tag
     tags:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCMagazineSMGMAC15
   id: RMCMagazineSMGMAC15Ext
-  name: MAC-15 розширений магазин (9 мм)
+  name: МАК-15 розширений магазин (9 мм)
   components:
   - type: BallisticAmmoProvider
     capacity: 50
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMCartridge9mmSMG
   id: RMCCartridge9mmSMGMAC15
-  description: 9-мм набій для пістолета-кулемета MAC-15.
+  description: 9-мм набій для пістолета-кулемета МАК-15.
   components:
   - type: Tag
     tags:

@@ -2,8 +2,8 @@
   parent: BaseMachinePowered
   abstract: true
   id: RMCBasePhotocopier
-  name: Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by AEGIS Armaments in a cheaper frame than most modern photocopiers. It uses more primitive copying technology resulting in more toner waste and less printing capabilities. Nonetheless, its cheap construction means cheaper costs, and for people that only need to print a paper or two most of the time, it becomes cost-effective.
+  name: копірувальний апарат
+  description: Копіювальний апарат, який використовується для копіювання... Ну, знаєте, фотографій! Також корисний для копіювання документів на папері. Ця конкретна модель була виготовлена ​​компанією ЕГІДА Армаментс у дешевшому корпусі, ніж більшість сучасних копіювальних апаратів. Він використовує примітивну технологію копіювання, що призводить до більшої витрати фарби та менших можливостей друку. Тим не менш, його дешева конструкція означає нижчі витрати, а для людей, яким здебільшого потрібно друкувати лише один-два аркуші, він стає економічно вигідним.
   components:
   - type: Transform
     anchored: false
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopier
-  name: Photocopier
+  name: копірувальний апарат
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopierPro
-  name: We-Ya Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by We-Ya in a more modern and robust frame than the average photocopiers you see from smaller companies. It uses some of the most advanced technologies in the area of paper-printing such as bigger toner economy and much higher printing capabilities. All that makes it the favorite among consumers that need to print high amounts of paperwork for their daily duties.
+  name: копірувальний апарат Ве-Я
+  description: Копіювальний апарат, який використовується для копіювання... Ну, знаєте, фотографій! Також корисний для копіювання документів на папері. Ця конкретна модель виготовлена ​​компанією Ве-Я у сучаснішому та міцнішому корпусі (не треба його бити), ніж звичайні фотокопіювальні апарати. Він використовує одні з найпередовіших технологій у галузі друку на папері, завдяки чому сильно економить фарбу та покращує якість. Все це робить його улюбленим серед споживачів, яким потрібно друкувати великі обсяги документів для своїх щоденних обов'язків.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi

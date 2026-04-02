@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCSupplyDropConsole
-  name: supply drop console
-  description: An old-fashioned computer hooked into the nearby Supply Drop system.
+  name: консоль відправлення ящика
+  description: Старомодний комп'ютер, підключений до найближчої системи Скидання Поставок.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

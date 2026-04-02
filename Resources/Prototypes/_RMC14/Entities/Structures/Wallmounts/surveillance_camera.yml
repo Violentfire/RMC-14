@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCSurveillanceCameraAlmayer
-  name: ship-grade camera
-  description: It's used to monitor rooms.
+  name: камера відеоспостереження
+  description: Використовується для... спостереження за вами.
   placement:
     mode: SnapgridCenter
     snap:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCMonitorCameraAlmayer
-  name: ship security cameras
-  description: Used to access the various cameras on the station.
+  name: монітор камер судна
+  description: Використовується для перегляду камер судна.
   suffix: Almayer
   components:
   - type: Transform
@@ -86,15 +86,15 @@
   - type: RMCCameraComputer
     protoIds:
     - RMCSurveillanceCameraAlmayer
-    - RMCMonitorCameraAlamo
-    - RMCMonitorCameraNormandy
+#    - RMCMonitorCameraAlamo - Sich, бо нєфіг
+#    - RMCMonitorCameraNormandy
   - type: WallMount
     arc: 360
 
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraAlamo
-  description: It's used to monitor the dropship.
+  description: Використовується для спостереженням за Аламо.
   suffix: "Alamo"
   components:
   - type: RMCCamera
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraNormandy
-  description: It's used to monitor the dropship.
+  description: Використовується для спостереженням за Нормандією.
   suffix: "Normandy"
   components:
   - type: RMCCamera

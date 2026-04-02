@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: FN FP9000 Submachinegun
+  name: ФН ФП9000 пістолет-кулемет # Sich. ФН – назва реально існуючої компанії (FN Herstal)
   id: RMCWeaponSMGFP9000
-  description: An old design, but one that's stood the test of time. A leaked and unencrypted 3D-printing pattern alongside an extremely robust and reasonably cheap to manufacture frame have ensured this weapon be a mainstay of rim colonies and private security firms for over a century.
+  description: Старий дизайн, але такий, що витримав випробування часом. Витік інформації та незашифрований 3Д-друкований шаблон разом із надзвичайно міцною та відносно дешевою у виробництві рамою забезпечили цій зброї популярність у більшості зовнішних секторах.
   suffix: Filled
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
   - type: Gun
     shotsPerBurst: 3
     soundGunshot:
-      path: /Audio/_RMC14/Weapons/Guns/Gunshots/p90_shot.ogg
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/pdw90_shot.ogg
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
@@ -93,9 +93,9 @@
 
 - type: entity
   parent: CMBaseWeaponSMG
-  name: FN FP9000/2 Submachinegun
+  name: ФН ФП9000/2 пістолет-кулемет
   id: RMCWeaponSMGFP9000PMC
-  description: Despite the rather ancient design, the FN FP9K sees frequent use in PMC teams due to its extreme reliability and versatility, allowing it to excel in any situation, especially due to the fact that they use the patented, official version of the gun, which has received several upgrades and tuning to its design over time.
+  description: Незважаючи на досить старовинну конструкцію, ФН ФП9К часто використовується в командах ПВК завдяки своїй надзвичайній надійності та універсальності, що дозволяє йому досягати успіху в будь-якій ситуації. Також, ця версія вироблена по офіційній ліцензії, тож якісь набагато краще за кустарні аналоги.
   suffix: Filled
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
   - type: Gun
     shotsPerBurst: 3
     soundGunshot:
-      path: /Audio/_RMC14/Weapons/Guns/Gunshots/p90_shot.ogg
+      path: /Audio/_RMC14/Weapons/Guns/Gunshots/pdw90_shot.ogg
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
@@ -188,8 +188,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGFP9000
-  name: "FN FP9000 magazine (5.7x28mm)"
-  description: "A 5.7x28mm magazine for the FN FP9000 SMG."
+  name: ФН ФП9000 магазин (5.7х28 мм)
+  description: Магазин під набій калібру 5.7х28 мм, який використовується ФН ФП9000.
   components:
   - type: Tag
     tags:
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge57x28mmFP9000
-  name: cartridge (57×28mm SMG)
-  description: A 5.7×28mm magazine for the FN FP9000 SMG.
+  name: набій (5.7х28 мм)
+  description: Набій калібру 5.7х28 мм який використовується ФН ФП9000.
   components:
   - type: Tag
     tags:

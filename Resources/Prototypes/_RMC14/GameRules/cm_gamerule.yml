@@ -6,3 +6,4 @@
   - type: GameRule
     minPlayers: 1
   - type: CMDistressSignalRule
+    roundEndCheckDelay: 300 # Sich. 60 в оригіналі

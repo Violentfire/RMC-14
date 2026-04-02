@@ -20,6 +20,9 @@
     slots:
       - mask
       - neck
+  - type: Tag # Sich
+    tags:
+    - SichScarf
 
 - type: entity
   parent: RMCBaseScarfMask
@@ -243,6 +246,9 @@
     slots:
     - mask
     - neck
+  - type: Tag # Sich
+    tags:
+    - SichScarf
 
 - type: entity
   parent: RMCMaskTornScarfBase

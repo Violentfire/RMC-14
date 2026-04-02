@@ -20,7 +20,7 @@ struct Args {
     config_file: String,
 
     /// Map file directory location
-    #[arg(short, long, default_value_t = String::from("../../Resources/Maps/_RMC14"))]
+    #[arg(short, long, default_value_t = String::from("../../Resources/Maps/_Sich"))] // Sich
     maps_directory: String,
 }
 
@@ -56,7 +56,7 @@ fn main() {
             }
         }
     }
-    
+
     // Exit.
     if found_errors {
         error!("Mapchecker ran successfully and found errors. Exiting.");

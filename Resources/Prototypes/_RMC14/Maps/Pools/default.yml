@@ -1,3 +1,4 @@
+# Sich. У нашому білді використовується SichDefaultMapPool та SichDefaultMapPoolSavannah
 - type: gameMapPool
   id: RMCDefaultMapPool
   maps:

@@ -1,7 +1,8 @@
-cm-ui-rmc14 = РМС14
+cm-ui-rmc14 = РМС
 
 rmc-ui-options-cassettes-volume = Гучність касет:
-rmc-ui-options-hijack-song-volume = Гучність пісні захоплення:
+rmc-ui-options-hijack-song-volume = Гучність музики хайджеку:
+rmc-ui-options-xeno-ability-previews = Показувати попередній перегляд здібностей ксено
 
 rmc-ui-voicelines = Репліки
 rmc-ui-options-tab-voicelines = Репліки
@@ -16,8 +17,8 @@ rmc-ui-audio-voicelines-reptilian = Відтворювати репліки ун
 rmc-ui-audio-voicelines-slime = Відтворювати репліки слаймолюдей
 rmc-ui-audio-voicelines-avali = Відтворювати репліки авалі
 rmc-ui-audio-voicelines-vulpkanin = Відтворювати репліки вульпканінів
-rmc-ui-audio-voicelines-rodentia = Відтворювати репліки родентів
-rmc-ui-audio-voicelines-feroxi = Відтворювати репліки фероксів
+rmc-ui-audio-voicelines-rodentia = Відтворювати репліки родентій
+rmc-ui-audio-voicelines-feroxi = Відтворювати репліки фероксі
 rmc-ui-audio-voicelines-skrell = Відтворювати репліки скреллів
 
 rmc-ui-emotes = Емоції
@@ -32,13 +33,13 @@ rmc-ui-audio-emotes-reptilian = Відтворювати емоції унатх
 rmc-ui-audio-emotes-slime = Відтворювати емоції слаймолюдей
 rmc-ui-audio-emotes-avali = Відтворювати емоції авалі
 rmc-ui-audio-emotes-vulpkanin = Відтворювати емоції вульпканінів
-rmc-ui-audio-emotes-rodentia = Відтворювати емоції родентів
-rmc-ui-audio-emotes-feroxi = Відтворювати емоції фероксів
+rmc-ui-audio-emotes-rodentia = Відтворювати емоції родентій
+rmc-ui-audio-emotes-feroxi = Відтворювати емоції фероксі
 rmc-ui-audio-emotes-skrell = Відтворювати емоції скреллів
 
 cm-ui-roadmap = Дорожня мапа
 
-rmc-ui-link-discord-account = Прив'язати Діскорд
+rmc-ui-link-discord-account = Прив'язати Дискорд
 rmc-ui-link-discord-account-text = Натисни кнопку нижче, щоб скопіювати свій код.
   Потім перейдіть до каналу #account-linking, щоб прив'язати облікові записи.
 rmc-ui-link-discord-account-copy = Скопіювати код
@@ -75,7 +76,7 @@ rmc-ui-named-items-in-preferences = Можете змінювати назви �
 rmc-ui-figurine = Фігурка персонажа
 rmc-ui-figurine-in-preferences = Можете експортувати свого персонажа у вигляді фігурки в налаштуваннях персонажа.
   Обмеження - одна активна фігурка на людину!
-  Якщо хочете змінити свою - повідомте у Діскорд.
+  Якщо хочете змінити свою - повідомте у Дискорд.
 rmc-ui-ghost-color = Колір привида
 rmc-ui-ghost-color-clear = Очистити
 rmc-ui-ghost-color-save = Зберегти
@@ -83,18 +84,24 @@ rmc-ui-ghost-color-save = Зберегти
 rmc-ui-shoutout-marine = [bold]Операцію профінансував [color=green]{$name}[/color]![/bold]
 rmc-ui-shoutout-xeno = [bold]Вулик засновано завдяки [color=purple]{$name}[/color]![/bold]
 
-rmc-ui-discord = Діскорд
-rmc-ui-patreon = Патреон
+rmc-ui-discord = Дискорд
+rmc-ui-patreon = Монобанка
 
 rmc-other-credits-tab = Інше
 
 rmc-ui-auto-punctuate = Автоматично ставити розділові знаки в IC-повідомленнях
 rmc-ui-auto-eject-magazines = Автоматично виймати магазини зі зброї
-rmc-ui-damage-yourself = Увімкнути можливість пошкодити себе ближнім боєм або вогнепальною зброєю
+rmc-ui-damage-yourself = Увімкнути можливість нашкодити самому собі власною зброєю
+rmc-ui-show-new-player-icons = Показувати значки нових гравців будучи на ролі інструктора або керівників відділів
+rmc-ui-xeno-night-vision-default = Тип нічного бачення ксено за замовченням
+rmc-ui-xeno-night-vision-default-off = Вимкнуто
+rmc-ui-xeno-night-vision-default-half = На половину
+rmc-ui-xeno-night-vision-default-full = Повне
+rmc-night-vision-mode-verb = Встановити режим нічного бачення: {$mode}
 
 rmc-area-info = {$area}{$restrictions}
 rmc-tacmap-alert-ceiling-level-0 = [color=green]✓[/color] Усі дії дозволено
-rmc-tacmap-alert-ceiling-level-1 = [color=red]✗[/color] Міномет, лазерна наводка, евакуація
+rmc-tacmap-alert-ceiling-level-1 = [color=red]✗[/color] Міномет, лазерне наведення, медевакуація
 rmc-tacmap-alert-ceiling-level-2 = [color=red]✗[/color] Постачання, мінометний вогонь
 rmc-tacmap-alert-ceiling-level-3 = [color=red]✗[/color] Підтримка з повітря
 rmc-tacmap-alert-ceiling-level-4 = [color=red]✗[/color] Орбітальний удар
@@ -104,4 +111,8 @@ rmc-tacmap-alert-no-area = Невідома зона
 
 rmc-ui-options-alternate-sprites = Використовувати спрайти, що не викликають тріпофобію
 
-rmc-ui-options-chat-squad-color-mode = Розфарбовувати імена морпіхів за загіном
+rmc-ui-options-chat-squad-color-mode = Розфарбовувати імена морпіхів відповідно до їх загону
+
+# Dialog input
+rmc-dialog-input-placeholder-default = Введіть текст
+rmc-dialog-input-placeholder-smart-check = Більше 3 послідовних пробілів буде видалено
