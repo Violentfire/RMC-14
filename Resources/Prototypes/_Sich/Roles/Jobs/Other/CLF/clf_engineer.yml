@@ -1,15 +1,8 @@
 ﻿- type: job
-  parent: CMJobBase
+  parent: RMCCLFEngineer
   id: SichCLFEngineer
-  name: rmc-clf-engineer
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: RMCJobCLFEngineer
-  ranks:
-    RMCRankCLFRebel: [ ]
   startingGear: SichGearCLFEngineer
-  icon: RMCJobIconCLFEngineer
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Engineer
+  spawnMenuRoleName: ФВК Інженер
   special:
   - !type:AddComponentSpecial
     components:
@@ -27,23 +20,18 @@
         RMCSkillConstruction: 2
         RMCSkillEngineer: 2
         RMCSkillPowerLoader: 2
-    - type: NpcFactionMember
-      factions:
-      - CLF
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-engineer
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFEngineer
-  name: clf ghost role engineer
+  name: ФВК спавнер ролі привидів Інженера
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFEngineer
+    settings: SichCLFEngineer
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -54,7 +42,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFEngineer
+    job: SichCLFEngineer
     raffle:
       settings: short
     requirements:
@@ -70,9 +58,9 @@
     head: RMCHelmetWelding
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
-  #  eyes: RMCMesonGoggles TODO RMC14
-    jumpsuit: RMCJumpsuitCLFWebbingBuckshot
-    outerClothing: RMCCoatMilitiaHauberk
+    eyes: ClothingEyesGlassesMeson # ТОДО. Замінити на РМСні
+    jumpsuit: RMCJumpsuitCLFWebbingMAR50
+    outerClothing: SichCoatMilitiaHauberk
     gloves: CMHandsInsulated
     shoes: RMCShoesBrown
     id: RMCIDCardCLFEngineer
@@ -82,18 +70,28 @@
     pocket2: RMCPouchFirstAidERTFill
   inhand:
   - WeaponShotgunM357Sawn # TODO RMC14 - Make randomized
-  - CMShellShotgunBuckshot # TODO RMC14 - Make randomized
+  - CMShellShotgunIncendiaryBuckshot # TODO RMC14 - Make randomized
   storage:
+    jumpsuit:
+    - CMShellShotgunBuckshot
+    - CMShellShotgunBuckshot
+    - CMShellShotgunBuckshot
+    - CMShellShotgunBuckshot
+    - CMShellShotgunBuckshot
     back:
     - RMCExplosiveBreachingCharge
     - RMCExplosiveBreachingCharge
-    - RMCExplosiveBreachingCharge
-    - RMCExplosivePlastic
     - RMCGrenadeMolotov
+    - RMCGrenadeMolotov
+    - RMCBinocularsCiv
     - RMCMRECLF
     - RMCFlashlight
-    - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
+    - RMCBoxClaymoreMineFilled
+    - RMCBoxClaymoreMineFilled
+    belt:
+    - RMCExplosivePlastic
+    - RMCExplosivePlastic
+    - RMCExplosivePlastic
     outerClothing:
-    - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
+    - CMShellShotgunFlechette
+    - CMShellShotgunFlechette

@@ -1,15 +1,8 @@
 ﻿- type: job
-  parent: CMJobBase
+  parent: RMCCLFSpecialist
   id: SichCLFSpecialist
-  name: rmc-clf-specialist
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: RMCJobCLFSpecialist
-  ranks:
-    RMCRankCLFRebel: [ ]
   startingGear: SichGearCLFSpecialist
-  icon: RMCJobIconCLFSpecialist
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Specialist
+  spawnMenuRoleName: ФВК Спеціаліст
   special:
   - !type:AddComponentSpecial
     components:
@@ -27,29 +20,18 @@
         RMCSkillJtac: 2
         RMCSkillCqc: 1
         RMCSkillLeadership: 1
-    - type: DemoSpecWhitelist
-    - type: GrenadeSpecWhitelist
-    - type: ScoutWhitelist
-    - type: SniperWhitelist
-    - type: PyroWhitelist
-    - type: MarineOrders
-    - type: NpcFactionMember
-      factions:
-      - CLF
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-specialist
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFSpecialist
-  name: clf ghost role specialist
+  name: ФВК спавнер ролі привидів Спеціаліста
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFSpecialist
+    settings: SichCLFSpecialist
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -60,7 +42,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFSpecialist
+    job: SichCLFSpecialist
     raffle:
       settings: short
     requirements:
@@ -78,11 +60,11 @@
     ears: RMCHeadsetDistressCLF
     eyes: RMCGlassesM4SPRBattleSight
     jumpsuit: RMCJumpsuitCLFWebbingMAR50
-    outerClothing: RMCCoatMilitia
+    outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
     shoes: RMCShoesBrown
     id: RMCIDCardCLFSpecialist
-    belt: RMCM77BeltFilled
+    belt: RMCMK80BeltFilled
     back: RMCSatchelLightpack
     suitstorage: RMCWeaponMar50LMG
     pocket1: RMCPouchExplosiveFilledC4SPP
@@ -90,18 +72,21 @@
   inhand:
   - RMCEarmuffs
   storage:
-    back:
-    - RMCFlashlight
-    - CMFirstAidKitFilled
+    jumpsuit:
     - CMCrowbar
     - RMCMRECLF
-    - RMCRangefinder
-    - RMCGrenadeIED
-    - RMCGrenadeIED
+    - RMCBinoculars
+    - RMCGrenadeMolotov
+    - RMCGrenadeMolotov
+    back:
+    - RMCBoxClaymoreMineFilled
+    - CMPacketGrenadeFragOldFilled
+    - CMPacketGrenadeFragOldFilled
     - RMCWeaponLauncherDisposableFolded
     - RMCMagazineMar50LMG
     - RMCMagazineMar50LMG
     outerClothing:
+    - RMCMagazineMar50LMG
     - RMCMagazineMar50LMG
     - RMCMagazineMar50LMG
     pocket1:

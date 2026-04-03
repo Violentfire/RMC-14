@@ -1,15 +1,8 @@
 ﻿- type: job
-  parent: CMJobBase
+  parent: RMCCLFCellLeader
   id: SichCLFCellLeader
-  name: rmc-clf-cell-leader
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: CMJobCLFCellLeader
-  ranks:
-    RMCRankCLFRebelCommander: [ ]
   startingGear: SichGearCLFCellLeader
-  icon: RMCJobIconCLFCellLeader
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Cell Leader
+  spawnMenuRoleName: ФВК Лідер
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,29 +25,18 @@
         RMCSkillOverwatch: 1
         RMCSkillLeadership: 3
         RMCSkillCqc: 2
-    - type: NpcFactionMember
-      factions:
-      - CLF
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-cell-leader
-    - type: SquadLeader
-      icon:
-        sprite: _RMC14/Interface/cm_job_icons.rsi
-        state: clf_sl
-    - type: RMCPointing
-    - type: MarineOrders
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFCellLeader
-  name: clf ghost role cell leader
+  name: ФВК спавнер ролі привидів Лідера
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFCellLeader
+    settings: SichCLFCellLeader
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -65,7 +47,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFCellLeader
+    job: SichCLFCellLeader
     raffle:
       settings: short
     requirements:
@@ -78,11 +60,12 @@
 - type: startingGear
   id: SichGearCLFCellLeader
   equipment:
-    head: CMHeadBeret # TODO RMC14 Officer beret
+    head: RMCHeadBeretOfficerHos
     mask: RMCCombatUtilityKnifeB # TODO RMC14 Type 80 bayonet
     ears: RMCHeadsetDistressCLF
-    jumpsuit: RMCJumpsuitCLFSoldier
-    outerClothing: RMCCoatMilitia
+    eyes: RMCSunglassesBig
+    jumpsuit: RMCJumpsuitCLFWebbingMAR50
+    outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
     suitstorage: WeaponRifleMAR40
@@ -90,19 +73,31 @@
     belt: RMCMAR40BeltFilled
     back: RMCSatchelLightpack
     pocket1: RMCFlashlight
-    pocket2: RMCPouchFirstAidInjectors
+    pocket2: RMCPouchMedkit
   storage:
-      back:
-      - RMCGrenadeIED
-      - RMCGrenadeIED
-      - RMCExplosivePlastic
+      jumpsuit:
       - CMCrowbar
       - CMScrewdriver
       - CMMultitool
-      - CMWeaponPistolM1984
-      - CMMagazinePistolM1984
-      - CMMagazinePistolM1984
-      - RMCMagazineRifleMAR40
+      - RMCExplosivePlastic
+      - RMCExplosivePlastic
+      back:
+      - RMCGrenadeMolotov
+      - CMPacketGrenadeFragOldFilled
+      - RMCRangefinder
+      - RMCWeaponPistolHandcannon
+      - RMCMagazinePistolHandcannon
+      - RMCMagazinePistolHandcannon
+      - RMCBoxClaymoreMineFilled
+      - RMCBoxClaymoreMineFilled
       outerClothing:
       - RMCMagazineRifleMAR40
       - RMCMagazineRifleMAR40
+      pocket2:
+      - CMSurgicalLine
+      - CMSynthGraft
+      - CMBloodPackFull
+      - CMHealthAnalyzer
+      - CMPillCanisterKelotane
+      - CMPillCanisterBicaridine
+      - CMRollerBedSpawnFolded

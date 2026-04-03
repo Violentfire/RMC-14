@@ -1,15 +1,9 @@
-﻿- type: job
-  parent: CMJobBase
+﻿# Всеодно поки використовуватися не буде. Не завершено.
+- type: job
+  parent: RMCCLFCellCommander
   id: SichCLFCellCommander
-  name: rmc-clf-cell-commander
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: CMJobCLFCellCommander
-  ranks:
-    RMCRankCLFRebelCommander: [ ]
-  startingGear: RMCGearCLFCellCommander
-  icon: RMCJobIconCLFCellCommander
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Cell Commander
+  startingGear: SichGearCLFCellCommander
+  spawnMenuRoleName: ФВК Командир Ячейки
   special:
   - !type:AddComponentSpecial
     components:
@@ -35,29 +29,18 @@
 
         RMCSkillSmartGun: 1
         RMCSkillExecution: 1
-    - type: NpcFactionMember
-      factions:
-      - CLF
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-cell-commander
-    - type: SquadLeader
-      icon:
-        sprite: _RMC14/Interface/cm_job_icons.rsi
-        state: clf_cellcom
-    - type: RMCPointing
-    - type: MarineOrders
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFCellCommander
-  name: clf ghost role cell commander
+  name: ФВК спавнер ролі привидів командира Ячейки
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFCellCommander
+    settings: SichCLFCellCommander
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -68,7 +51,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFCellCommander
+    job: SichCLFCellCommander
     raffle:
       settings: short
     requirements:
@@ -85,7 +68,7 @@
     mask: RMCCombatUtilityKnifeB
     ears: RMCHeadsetDistressCLF
     jumpsuit: RMCJumpsuitCLFSoldier
-    outerClothing: RMCCoatMilitiaHarness
+    outerClothing: SichCoatMilitiaHarness
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
     suitstorage: RMCSmartGunCLF

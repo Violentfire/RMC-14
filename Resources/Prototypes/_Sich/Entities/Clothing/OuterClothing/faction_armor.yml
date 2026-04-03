@@ -1,0 +1,69 @@
+# Фактично копії РМСних тих самих предметів, але з зміними характеристиками, бо оригінальні. . . Відчуття, що недороблені.
+- type: entity
+  id: SichMilitiaLightBase
+  abstract: true
+  components:
+  - type: CMArmor # Броня звісно кустарна, але це більше питання балансу. Плюс, захист від біо на нулі, тож скажем, що все пішло в інші категорії
+    melee: 25 # мід-хай
+    bullet: 25 # мід-хай
+    explosionArmor: 20 # мід
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_LIGHT
+    walkModifier: 0.725
+    sprintModifier: 0.725
+  - type: Storage
+    grid:
+    - 0,0,5,1 # 3 slots
+  - type: FixedItemSizeStorage
+  - type: IgnoreContentsSize
+    items:
+      tags:
+      - RMCMagazineMar50LMG
+      - RMCMagazineRifleMAR40
+      - RMCMagazineSMGMAC15
+      - RMCMagazineSMGMAC15Ext
+
+- type: entity
+  id: SichMilitiaVeryLightBase
+  abstract: true
+  components:
+  - type: CMArmor
+    melee: 15 # лоу
+    bullet: 15 # лоу
+    explosionArmor: 10 # лоу-лоу
+  - type: RMCArmorSpeedTier
+    speedTier: very light
+  - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_VERY_LIGHT
+    walkModifier: 0.897
+    sprintModifier: 0.897
+  - type: Storage
+    grid:
+    - 0,0,3,1 # 2 slots
+  - type: FixedItemSizeStorage
+  - type: IgnoreContentsSize
+    items:
+      tags:
+      - RMCMagazineRifleMAR40
+      - RMCMagazineSMGMAC15
+      - RMCMagazineSMGMAC15Ext
+
+- type: entity
+  parent: [SichMilitiaLightBase, RMCCoatMilitia]
+  id: SichCoatMilitia
+
+- type: entity # Це для СГ, не плутай
+  parent: [SichMilitiaLightBase, RMCCoatMilitiaHarness]
+  id: SichCoatMilitiaHarness
+
+- type: entity
+  parent: [SichMilitiaVeryLightBase, RMCCoatMilitiaVest]
+  id: SichCoatMilitiaVest
+
+- type: entity
+  parent: [SichMilitiaVeryLightBase, RMCCoatMilitiaBrace]
+  id: SichCoatMilitiaBrace
+
+- type: entity
+  parent: [SichMilitiaVeryLightBase, RMCCoatMilitiaHauberk]
+  id: SichCoatMilitiaHauberk

@@ -1,21 +1,11 @@
 ﻿- type: job
-  parent: CMJobBase
+  parent: RMCCLFSoldier
   id: SichCLFSoldier
-  name: rmc-clf-soldier
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: CMJobCLFSoldier
-  ranks:
-    RMCRankCLFRebel: [ ]
   startingGear: SichGearCLFSoldier
-  icon: RMCJobIconCLFSoldier
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Soldier
+  spawnMenuRoleName: ФВК Солдат
   special:
   - !type:AddComponentSpecial
     components:
-    - type: NpcFactionMember
-      factions:
-      - CLF
     - type: Skills
       skills:
         RMCSkillFirearms: 1
@@ -28,20 +18,18 @@
         RMCSkillConstruction: 1
         RMCSkillEngineer: 1
         RMCSkillMedical: 1
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-soldier
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFSoldier
-  name: clf ghost role soldier
+  name: ФВК спавнер ролі привидів Солдата
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFSoldier
+    settings: SichCLFSoldier
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -52,7 +40,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFSoldier
+    job: SichCLFSoldier
     raffle:
       settings: short
     requirements:
@@ -69,7 +57,7 @@
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
     jumpsuit: RMCJumpsuitCLFWebbing
-    outerClothing: RMCCoatMilitia
+    outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
     shoes: RMCShoesBrown
     id: RMCIDCardCLFSoldier
@@ -81,5 +69,6 @@
   - WeaponRifleMAR40
   storage:
     outerClothing:
-    - RMCMagazineRifleMAR40
+    - RMCBinocularsCiv
     - CMCrowbar
+    - RMCGrenadeMolotov

@@ -1,15 +1,8 @@
 ﻿- type: job
-  parent: CMJobBase
+  parent: RMCCLFMedic
   id: SichCLFMedic
-  name: rmc-clf-medic
-  description: rmc-ghost-role-information-clf-description
-  playTimeTracker: RMCJobCLFMedic
-  ranks:
-    RMCRankCLFRebel: [ ]
   startingGear: SichGearCLFMedic
-  icon: RMCJobIconCLFMedic
-  joinNotifyCrew: false
-  spawnMenuRoleName: CLF Medic
+  spawnMenuRoleName: ФВК Медик
   special:
   - !type:AddComponentSpecial
     components:
@@ -27,23 +20,18 @@
 
         RMCSkillMedical: 2
         RMCSkillSurgery: 2
-    - type: NpcFactionMember
-      factions:
-      - CLF
-    - type: JobPrefix
-      prefix: rmc-job-prefix-clf-medic
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFMedic
-  name: clf ghost role medic
+  name: ФВК спавнер ролі привидів Медика
   suffix: Spawner, Player
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Armbands/clf_armband.rsi
     state: icon
   - type: RandomHumanoidSpawner
-    settings: RMCCLFMedic
+    settings: SichCLFMedic
 
 - type: randomHumanoidSettings
   parent: RMCEventHumanoid
@@ -54,7 +42,7 @@
     description: rmc-ghost-role-information-clf-description
     rules: rmc-ghost-role-information-clf-rules
     reregister: false
-    job: RMCCLFMedic
+    job: SichCLFMedic
     raffle:
       settings: short
     requirements:
@@ -72,7 +60,7 @@
     eyes: RMCGlassesMedicalHUDGlasses
     head: CMHeadBandRed
     jumpsuit: RMCJumpsuitCLFWebbingSurgical
-    outerClothing: RMCCoatMilitiaVest
+    outerClothing: SichCoatMilitiaVest
     gloves: CMHandsBlackMarine
     shoes: RMCShoesBrown
     id: RMCIDCardCLFMedic
@@ -85,22 +73,27 @@
   storage:
     back:
     - RMCGrenadeIED
-    - CMAdvFirstAidKitFilled
+    - RMCGrenadeMolotov
+    - RMCGrenadeMolotov
     - CMAdvFirstAidKitFilled
     - RMCPacketGrenadeSmokeFilled
     - RMCMRECLF
-    - CMSynthGraft
     - CMCrowbar
+    - RMCBinocularsCiv
+    - RMCFlashlightPen
     pocket2:
-    - RMCMagazineSMGMAC15
-    - RMCMagazineSMGMAC15
-    - RMCMagazineSMGMAC15
-    - RMCMagazineSMGMAC15
-    - RMCMagazineSMGMAC15
+    - RMCMagazineSMGMAC15Ext
+    - RMCMagazineSMGMAC15Ext
+    - RMCMagazineSMGMAC15Ext
+    - RMCMagazineSMGMAC15Ext
     belt:
     - CMDefibrillator
     - CMHealthAnalyzer
     - CMRollerBedSpawnFolded
+    - CMEpinephrineAutoInjector
+    - CMEpinephrineAutoInjector
+    - CMBloodPackFull
+    - CMBloodPackFull
     outerClothing:
     - RMCMagazineSMGMAC15
     - RMCMagazineSMGMAC15
