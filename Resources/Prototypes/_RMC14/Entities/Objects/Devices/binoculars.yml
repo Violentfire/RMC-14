@@ -48,8 +48,8 @@
   parent: RMCBinoculars
   id: RMCBinocularsPVE
   suffix: PVE
-  name: tactical monocular
-  description: A military-issued monocular.
+  name: тактичний монокуляр
+  description: Стандартний військовий монокуляр.
   components:
   - type: Sprite
     state: monocular
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCBinoculars
   id: RMCBinocularsCiv
-  name: binoculars
-  description: A pair of binoculars.
+  name: біноль
+  description: Цивільний бінокль. Звичайний такий.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/binoculars.rsi
@@ -90,7 +90,7 @@
   parent: RMCBinoculars
   id: RMCRangefinder
   name: далекомір
-  description: "Той самий бінокль, але з функцією визначення координат. Натисніть на клітинку, щоб отримати її координати."
+  description: Той самий бінокль, але з функцією визначення координат. Натисніть на клітинку, щоб отримати її координати.
   components:
   - type: Item
     heldPrefix: rangefinder
@@ -142,8 +142,8 @@
   parent: RMCLaserDesignator
   id: RMCLaserDesignatorPVE
   suffix: PVE
-  name: tactical monocular designator
-  description: Two-mode tactical monocular, developed for use alongside CAS elements and orbital support. Click a tile to target something.
+  name: тактичний монокулярний цілевказівник
+  description: Дворежимний тактичний монокуляр, розроблений для використання разом з елементами БАП та орбітальної підтримки. Натисніть на клітинку, щоб зробити щось з цього.
   components:
   - type: Sprite
     layers:
