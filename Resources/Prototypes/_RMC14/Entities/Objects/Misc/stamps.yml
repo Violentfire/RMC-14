@@ -5,7 +5,7 @@
   id: CMStampBase
   abstract: true
   name: печатка
-  description: A rubber stamp for stamping important documents.
+  description: Гумова печатка для проштампування дуже важливих документів.
   components:
   - type: Item
     heldPrefix: stamp
