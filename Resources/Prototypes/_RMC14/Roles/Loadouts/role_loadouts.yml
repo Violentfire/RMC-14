@@ -487,7 +487,7 @@
   - MeleeWeaponsRMC
 
 - type: roleLoadout
-  id: RMCFieldDoctor # Sich. JobCMFieldDoctor в оригіналі, ти на це ПР офіційкам закинеш, не дивуйся
+  id: JobRMCFieldDoctor # Sich. JobCMFieldDoctor в оригіналі, ти на це ПР офіційкам закинеш, не дивуйся
   points: 10 # 7 в РМС, зміна білду Січі
   groups:
   - MarineBackpack
