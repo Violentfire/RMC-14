@@ -46,9 +46,10 @@
   components:
   - type: Accentless
     removes:
+    - type: ArachnidAccent # Sich
     - type: LizardAccent
     - type: MothAccent
-    - type: FelinidAccent
+    - type: FelinidAccent # Sich
     - type: VulpkaninAccent
     - type: ReplacementAccent
       accent: dwarf

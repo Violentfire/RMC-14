@@ -35,6 +35,7 @@
   - SpaceNinja
   # accents
   - Accentless
+  - ArachnidAccent # Sich
   - BackwardsAccent
   - BarkAccent
   - BleatingAccent
@@ -43,7 +44,7 @@
   - FrontalLisp
   - GermanAccent
   - LizardAccent
-  - FelinidAccent
+  - FelinidAccent # Sich
   - MobsterAccent
   - MonkeyAccent
   - MothAccent

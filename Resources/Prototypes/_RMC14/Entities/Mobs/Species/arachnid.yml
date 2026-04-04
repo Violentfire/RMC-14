@@ -14,6 +14,7 @@
         color: "#162581"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
+  - type: ArachnidAccent # Sich
   - type: Speech
     speechVerb: Arachnid
     speechSounds: Arachnid
