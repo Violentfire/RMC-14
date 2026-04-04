@@ -2,7 +2,7 @@
 
 [game]
 # Час лобі до 30 хвилин, а час до рестарту до 5 годин (тримати 2 клієнта не завжди зручно, tbh)
-map = RMCDev
+map = "RMCDev"
 lobbyduration = 18000
 round_restart_time = 180000
 

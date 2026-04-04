@@ -92068,27 +92068,27 @@ entities:
     - type: Transform
       pos: 34.5,-12.5
       parent: 1
-  - uid: 11727
-    components:
-    - type: Transform
-      pos: 33.5,-13.5
-      parent: 1
-    - type: RMCRequisitionsChair
-      offsetItem: 1,2
-  - uid: 11728
-    components:
-    - type: Transform
-      pos: 34.5,-13.5
-      parent: 1
-    - type: RMCRequisitionsChair
-      offsetItem: 0,2
-  - uid: 11729
-    components:
-    - type: Transform
-      pos: 35.5,-13.5
-      parent: 1
-    - type: RMCRequisitionsChair
-      offsetItem: -1,2
+#  - uid: 11727
+#    components:
+#    - type: Transform
+#      pos: 33.5,-13.5
+#      parent: 1
+#    - type: RMCRequisitionsChair
+#      offsetItem: 1,2
+#  - uid: 11728
+#    components:
+#    - type: Transform
+#      pos: 34.5,-13.5
+#      parent: 1
+#    - type: RMCRequisitionsChair
+#      offsetItem: 0,2
+#  - uid: 11729
+#    components:
+#    - type: Transform
+#      pos: 35.5,-13.5
+#      parent: 1
+#    - type: RMCRequisitionsChair
+#      offsetItem: -1,2
 - proto: RMCRollerBedHospital
   entities:
   - uid: 11730
