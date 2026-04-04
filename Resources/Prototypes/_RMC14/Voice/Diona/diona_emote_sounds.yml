@@ -1,7 +1,7 @@
 - type: emoteSounds
-  parent: [UnisexDiona, RMCMaleHuman]
+  parent: [RMCMaleHuman, UnisexDiona] # Sich. Змінено порядок
   id: RMCMaleDiona
 
 - type: emoteSounds
-  parent: [UnisexDiona, RMCFemaleHuman]
+  parent: [RMCFemaleHuman, UnisexDiona] # Sich. Змінено порядок
   id: RMCFemaleDiona
