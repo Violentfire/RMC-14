@@ -56,7 +56,7 @@
   parent: CMPamphlet
   id: CMPamphletEngineer
   name: інженерний довідник
-  description: Тут описуються усілякі інженерні напрацювання.
+  description: Тут описуються усілякі інженерні практики, по типу будування барикад.
   components:
   - type: Sprite
     state: pamphlet_construction
@@ -70,7 +70,7 @@
   parent: CMPamphlet
   id: CMPamphletJTAC
   name: довідник КАТА
-  description: Тут написано про якогось ТАРАСа.
+  description: Тут описується, як використовувати обладнання для взяття координат чи наведення БАП. Також тут є щось про ТАРАСа.
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -83,7 +83,7 @@
   parent: CMPamphlet
   id: CMPamphletSpotter
   name: довідник навідника
-  description: Він навчить вас правильно дивитися в бінокль.
+  description: Тут описується, як правильно дивитися в бінокль та наводити постріли снайпера.
   components:
   - type: Sprite
     state: pamphlet_spotter
@@ -113,7 +113,7 @@
   parent: CMPamphlet
   id: CMPamphletPowerloader
   name: довідник по навантажувачу
-  description: На обгордці довідника написано 'Перевезення вантажів і розчавлювання голів - практичний посібник для оператора навантажувача'.
+  description: На обгордці довідника написано 'Перевезення вантажів і розчавлювання голів – практичний посібник для оператора навантажувача'.
   components:
     - type: Sprite
       state: pamphlet_powerloader
@@ -127,7 +127,7 @@
   parent: CMPamphlet
   id: CMPamphletPolice
   name: довідник поліціянта
-  description: Читайте - законом ставайте.
+  description: Тут описується, як правильно користуватися обладнанням ВСП. Читайте – законом ставайте.
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -141,7 +141,7 @@
   parent: CMPamphlet
   id: CMPamphletSurgery
   name: довідник хірурга
-  description: Бути хірургом легко, ось, прочитайте.
+  description: Бути хірургом легко, ось, прочитайте. Тут описується, як проводити базові хірургічні маніпуляції.
   components:
   - type: Sprite
     state: pamphlet_medical
@@ -155,7 +155,7 @@
   parent: CMPamphlet
   id: CMPamphletIntel
   name: довідник з польової розвідки
-  description: Розвідка на полі бою - це важливо, тут ви дізнаєтеся як її провести.
+  description: Тут описується, як працювати з документами. Ось вона, справжня "розвідка".
   components:
   - type: Sprite
     state: pamphlet_reading
@@ -170,7 +170,7 @@
   parent: CMPamphlet
   id: RMCPamphletLoader
   name: довідник заряджаючого
-  description: Навчить вас як правильно запихувати ракету в гранатомет, щоб та не вибухнула.
+  description: Тут описується, як правильно запхати ракету в гранатомет, щоб вона не вибухнула.
   components:
   - type: Sprite
     state: pamphlet_loader
@@ -199,7 +199,7 @@
   parent: CMPamphlet
   id: RMCPamphletMortarOperator
   name: довідник оператора міномета
-  description: Навчить вас як швидко закидати міну в ствол міномета і не втратити декілька пальців.
+  description: Тут описується, як користуватися мінометом та в процесі не втратити декілька пальців.
   components:
   - type: Sprite
     state: pamphlet_mortar
@@ -230,7 +230,7 @@
   parent: CMPamphlet
   id: RMCPamphletHeavyMachineGunner
   name: довідник важкого кулеметника
-  description: Навчить вас, як встановлювати та використовувати важкі кулемети так, щоб їх першою жертвою не стали ви самі!
+  description: Тут описується, як встановлювати та використовувати важкі кулемети так, щоб їх першою жертвою не стали ви самі!
   components:
   - type: Sprite
     state: pamphlet_machinegunner
@@ -302,8 +302,8 @@
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageSpanish
-  name: Латинська Америка - Перекладач
-  description: Цей довідник призначений для розвідників, що працюють з місцевими. Але лише для тих, хто проспав це на курсах.
+  name: Латинська Америка – Перекладач
+  description: Цей довідник призначений для розвідників, що працюють з місцевими. Але лише тим, хто спав на курсах.
 
 
 # RESTRICTED LANGUAGES
@@ -314,14 +314,14 @@
   parent: CMPamphletLanguage
   id: CMPamphletLanguageYautja
   name: пофарбований пергамент
-  description: Пожовклий шматок пергаменту, на якому виведені дивні руни. Здається вони рухаються, і прямо у вас на очах складаються в якісь слова.
+  description: Пожовклий шматок пергаменту, на якому виведені дивні руни. Здається, вони рухаються й прямо у вас на очах складаються в якісь слова.
 
 # gives xenonid language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageXenonid
-  name: Записи Ксенобіолога
-  description: Документ ксенобіолога де записані усі деталі спілкування ксеноморфів у неволі, а також намагання людей їх відтворити.
+  name: записи ксенобіолога
+  description: Документ ксенобіолога, де записані усі деталі спілкування ксеноморфів у неволі, а також намагання людей їх відтворити.
 
 # gives primitive language
 - type: entity
