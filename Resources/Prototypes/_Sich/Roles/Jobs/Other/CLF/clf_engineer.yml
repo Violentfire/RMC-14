@@ -20,6 +20,11 @@
         RMCSkillConstruction: 2
         RMCSkillEngineer: 2
         RMCSkillPowerLoader: 2
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-engineer
   hidden: true
 
 - type: entity
@@ -62,7 +67,7 @@
     jumpsuit: RMCJumpsuitCLFWebbingMAR50
     outerClothing: SichCoatMilitiaHauberk
     gloves: CMHandsInsulated
-    shoes: RMCShoesBrown
+    shoes: RMCShoesOrange
     id: RMCIDCardCLFEngineer
     belt: CMBeltUtilityFilled
     back: RMCSatchelLightpackWelder
@@ -76,8 +81,8 @@
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
+    - CMShellShotgunIncendiary
+    - CMShellShotgunIncendiary
     back:
     - RMCExplosiveBreachingCharge
     - RMCExplosiveBreachingCharge

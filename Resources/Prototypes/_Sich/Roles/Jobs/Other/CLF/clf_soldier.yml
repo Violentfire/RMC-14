@@ -18,6 +18,11 @@
         RMCSkillConstruction: 1
         RMCSkillEngineer: 1
         RMCSkillMedical: 1
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-soldier
   hidden: true
 
 - type: entity
@@ -53,12 +58,12 @@
 - type: startingGear
   id: SichGearCLFSoldier
   equipment:
-    head: RMCHeadMilitiaHood
+    head: SichHeadMilitiaHood
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
     jumpsuit: RMCJumpsuitCLFWebbing
     outerClothing: SichCoatMilitia
-    gloves: CMHandsBlackMarine
+    gloves: RMCHandsBlack
     shoes: RMCShoesBrown
     id: RMCIDCardCLFSoldier
     belt: RMCM276ShotgunShellLoadingRigFill # TODO RMC14

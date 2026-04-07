@@ -29,11 +29,22 @@
 
         RMCSkillSmartGun: 1
         RMCSkillExecution: 1
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-cell-commander
+    - type: SquadLeader
+      icon:
+        sprite: _RMC14/Interface/cm_job_icons.rsi
+        state: clf_cellcom
+    - type: RMCPointing
+    - type: MarineOrders
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFCellCommander
-  name: ФВК спавнер ролі привидів командира Ячейки
+  name: ФВК спавнер ролі привидів Командира Ячейки
   suffix: Spawner, Player
   components:
   - type: Sprite

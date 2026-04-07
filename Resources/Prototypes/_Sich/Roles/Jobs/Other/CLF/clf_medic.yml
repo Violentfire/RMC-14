@@ -20,6 +20,11 @@
 
         RMCSkillMedical: 2
         RMCSkillSurgery: 2
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-medic
   hidden: true
 
 - type: entity
@@ -57,12 +62,13 @@
   equipment:
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
+    ears2: RMCFlashlightPen
     eyes: RMCGlassesMedicalHUDGlasses
     head: CMHeadBandRed
     jumpsuit: RMCJumpsuitCLFWebbingSurgical
     outerClothing: SichCoatMilitiaVest
-    gloves: CMHandsBlackMarine
-    shoes: RMCShoesBrown
+    gloves: CMHandsLatex
+    shoes: RMCShoesWhite
     id: RMCIDCardCLFMedic
     belt: CMBeltMedicalFilled
     back: RMCSatchelLightpack
@@ -80,7 +86,7 @@
     - RMCMRECLF
     - CMCrowbar
     - RMCBinocularsCiv
-    - RMCFlashlightPen
+    - CMFireExtinguisherPortable
     pocket2:
     - RMCMagazineSMGMAC15Ext
     - RMCMagazineSMGMAC15Ext

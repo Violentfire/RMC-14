@@ -5,7 +5,7 @@
   components:
   - type: CMArmor # Броня звісно кустарна, але це більше питання балансу. Плюс, захист від біо на нулі, тож скажем, що все пішло в інші категорії
     melee: 25 # мід-хай
-    bullet: 25 # мід-хай
+    bullet: 30 # хай
     explosionArmor: 20 # мід
   - type: RMCArmorSpeedTier
     speedTier: light

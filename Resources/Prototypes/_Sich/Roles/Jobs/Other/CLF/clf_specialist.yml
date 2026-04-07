@@ -20,6 +20,17 @@
         RMCSkillJtac: 2
         RMCSkillCqc: 1
         RMCSkillLeadership: 1
+    - type: DemoSpecWhitelist
+    - type: GrenadeSpecWhitelist
+    - type: ScoutWhitelist
+    - type: SniperWhitelist
+    - type: PyroWhitelist
+    - type: MarineOrders
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-specialist
   hidden: true
 
 - type: entity
@@ -55,14 +66,14 @@
 - type: startingGear
   id: SichGearCLFSpecialist
   equipment:
-    head: RMCHeadMilitiaBucket
+    head: SichHeadMilitiaBucket
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
     eyes: RMCGlassesM4SPRBattleSight
     jumpsuit: RMCJumpsuitCLFWebbingMAR50
     outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
-    shoes: RMCShoesBrown
+    shoes: RMCShoesCombat
     id: RMCIDCardCLFSpecialist
     belt: RMCMK80BeltFilled
     back: RMCSatchelLightpack
