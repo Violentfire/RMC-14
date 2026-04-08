@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMachinePowered
   id: RMCMedilathe
-  name: медилат
+  name: медистат
   suffix: Right Output
   description: Спеціальна версія автостату для друкування медичного приладдя.
   components:

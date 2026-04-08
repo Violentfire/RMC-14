@@ -28,7 +28,7 @@
   parent: CMPen
   id: CMPenClicky # TODO RMC14 make it clicky
   name: ручка Ве-Я
-  description: Ручка з надзвичайно приємним кліком, клікніть раз - і вже ніколи не зможете перестати.
+  description: Ручка з надзвичайно приємним кліком, клікніть раз й вже ніколи не зможете перестати.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMPen
   id: CMPenFountain
-  name: fountain pen
-  description: A lavish testament to the ingenuity of AEGIS' craftsmanship, this fountain pen is a paragon of design and functionality. Detailed with golden accents and intricate mechanics, the pen allows for a swift change between a myriad of ink colors with a simple twist. A product of precision engineering, each mechanism inside the pen is designed to provide a seamless, effortless transition from one color to the next, creating an instrument of luxurious versatility.
+  name: перова ручка
+  description: Ця авторучка, що є розкішним свідченням винахідливості майстерності інженерів ЕГІДА. Дизайн та функціональність були тут передусім. Деталізована позолотою та складною механікою, ручка дозволяє швидко змінювати безліч кольорів чорнила простим поворотом. Кожен механізм всередині ручки – є продуктом точної інженерії, розробленої для забезпечення плавного та легкого переходу використання, створюючи інструмент розкішної універсальності.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
