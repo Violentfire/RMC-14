@@ -2,7 +2,7 @@
 ## ТОДО: Коли РМСи все ж додадуть систему його поповнення – адаптувати/перенести її сюди
 - type: entity
   parent: ColMarTechBase
-  id: SichColMarTechFOBSupplies
+  id: SMCColMarTechFOBSupplies
   name: КолМорТех Автоматична Стійка Припасів ПОБа
   description: Автоматична стійка з припасами для потреб ПОБу.
   components:

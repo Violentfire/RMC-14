@@ -1,7 +1,7 @@
 # Для оновлених палаток
 - type: entity
   parent: RMCRotaryPhoneWallmount
-  id: SichRotaryPhoneWallmountMedicalTent
+  id: SMCRotaryPhoneWallmountMedicalTent
   name: Медичний Намет
   components:
   - type: RotaryPhone
@@ -9,7 +9,7 @@
 
 - type: entity
   parent: RMCRotaryPhoneWallmount
-  id: SichRotaryPhoneWallmountMPTent
+  id: SMCRotaryPhoneWallmountMPTent
   name: Намет ВСП
   components:
   - type: RotaryPhone
@@ -17,7 +17,7 @@
 
 - type: entity
   parent: RMCRotaryPhoneWallmount
-  id: SichRotaryPhoneWallmountMessTent
+  id: SMCRotaryPhoneWallmountMessTent
   name: Польова Кухня
   components:
   - type: RotaryPhone
