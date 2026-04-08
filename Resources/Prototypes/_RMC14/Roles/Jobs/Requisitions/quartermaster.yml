@@ -36,6 +36,7 @@
         RMCSkillIntel: 1
         RMCSkillJtac: 3
         RMCSkillLeadership: 2
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
         RMCSkillOverwatch: 1
         RMCSkillPolice: 1
         RMCSkillPowerLoader: 2

@@ -33,6 +33,7 @@
       skills:
         RMCSkillEndurance: 1
         RMCSkillFirearms: 1
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
     - type: CMVendorUser
       id: CMRifleman
       points: 45

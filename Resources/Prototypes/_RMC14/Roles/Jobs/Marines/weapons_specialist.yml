@@ -43,6 +43,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillJtac: 1
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
         RMCSkillMeleeWeapons: 1
         RMCSkillSpecialistWeapons: 1
     - type: CMVendorUser

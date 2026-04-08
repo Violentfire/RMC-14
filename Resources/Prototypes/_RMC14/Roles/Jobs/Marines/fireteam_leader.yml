@@ -41,6 +41,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillJtac: 3
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
     - type: CMVendorUser
       id: CMFireteamLeader
       points: 45

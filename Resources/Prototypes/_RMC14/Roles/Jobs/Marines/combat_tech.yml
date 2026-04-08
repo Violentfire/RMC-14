@@ -42,6 +42,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillJtac: 1
+        RMCSkillMedical: 1 # Sich
         RMCSkillVehicles: 1
     - type: CMVendorUser
       id: CMCombatTech

@@ -10,7 +10,7 @@
     needsPower: false
   - type: RequiresSkill
     skills:
-      RMCSkillMedical: 3
+      RMCSkillMedical: 2 # Sich. 3 в оригіналі
   - type: Sprite
     sprite: _RMC14/Structures/Machines/medilathe.rsi
     layers:
