@@ -21,3 +21,13 @@
   - type: CMDistressSignalRule
     squadIds: ["SquadSunRiders"] # загін "Сонячні вершники" з івентового корабля
     extraSquadIds: []            # без інтелу й форкону (сурви не спавняться)
+
+- type: entity
+  id: SichDistressSignalCLF
+  parent: SichCalmed
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: CMDistressSignalRule
+    startARESAnnouncements: true
+    bioscan: true
+#    spawnSurvivors: true – ТОДО

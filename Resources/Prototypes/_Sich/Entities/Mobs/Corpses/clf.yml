@@ -1,6 +1,16 @@
 # Більше варіацій в порівнянні з РМС
 - type: randomHumanoidSettings
-  parent: RMCCorpse
+  id: SMCCorpseCLF
+  abstract: true
+  components:
+  - type: Rank
+    rank: RMCRankCLFRebel
+  - type: NpcFactionMember
+    factions:
+      - CLF
+
+- type: randomHumanoidSettings
+  parent: [SMCCorpseCLF, RMCCorpse]
   id: SMCCorpseCLFSoldier
   components:
   - type: Loadout
@@ -51,7 +61,7 @@
     - RMCMagazineRifleMAR40
 
 - type: randomHumanoidSettings
-  parent: RMCCorpse
+  parent: [SMCCorpseCLF, RMCCorpse]
   id: SMCCorpseCLFMedic
   components:
   - type: Loadout
@@ -112,7 +122,7 @@
     - CMDefibrillator
 
 - type: randomHumanoidSettings
-  parent: RMCCorpse
+  parent: [SMCCorpseCLF, RMCCorpse]
   id: SMCCorpseCLFEngineer
   components:
   - type: Loadout
@@ -185,7 +195,7 @@
     - CMShellShotgunFlechette
 
 - type: randomHumanoidSettings
-  parent: RMCCorpse
+  parent: [SMCCorpseCLF, RMCCorpse]
   id: SMCCorpseCLFSpecialist
   components:
   - type: Loadout
@@ -200,7 +210,7 @@
     outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
-    id: SichIDCardCLFSoldier
+    id: SichIDCardCLFSpecialist
     back: RMCSatchelLightpack
     belt: RMCMK80BeltFilled
     pocket1: RMCFlashlight
