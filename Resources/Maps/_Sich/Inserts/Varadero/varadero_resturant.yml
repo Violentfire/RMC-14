@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 264.0.2
+  engineVersion: 264.0.2-fix-physics
   forkId: ""
   forkVersion: ""
-  time: 02/11/2026 23:28:01
-  entityCount: 166
+  time: 04/07/2026 09:53:45
+  entityCount: 171
 maps: []
 grids:
 - 1
@@ -398,13 +398,6 @@ entities:
     components:
     - type: Transform
       pos: 2.5436602,9.166679
-      parent: 1
-- proto: CMSpawnPointSurvivor
-  entities:
-  - uid: 165
-    components:
-    - type: Transform
-      pos: 2.5,4.5
       parent: 1
 - proto: CMTableAlmayer
   entities:
@@ -904,18 +897,6 @@ entities:
     - type: Transform
       pos: 1.5,3.5
       parent: 1
-- proto: RMCDecalSpawnerXenoSplatters
-  entities:
-  - uid: 144
-    components:
-    - type: Transform
-      pos: 11.5,3.5
-      parent: 1
-  - uid: 145
-    components:
-    - type: Transform
-      pos: 10.5,3.5
-      parent: 1
 - proto: RMCDoubleDoorGenericGlass
   entities:
   - uid: 156
@@ -1140,7 +1121,7 @@ entities:
     - type: Transform
       pos: 1.5200396,6.666679
       parent: 1
-- proto: RMCSpawnerCorpseSecurity
+- proto: SMCSpawnerCorpseSecurity
   entities:
   - uid: 150
     components:
@@ -1153,6 +1134,41 @@ entities:
     components:
     - type: Transform
       pos: 7.5,2.5
+      parent: 1
+- proto: RMCSpawnerRandomGunPistolHigh
+  entities:
+  - uid: 168
+    components:
+    - type: Transform
+      pos: 7.5,4.5
+      parent: 1
+- proto: RMCSpawnerRandomGunShotgunHigh
+  entities:
+  - uid: 169
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+- proto: RMCSpawnerRandomGunSMGMed
+  entities:
+  - uid: 171
+    components:
+    - type: Transform
+      pos: 11.5,8.5
+      parent: 1
+- proto: RMCSpawnerRandomPillBottleHighChance
+  entities:
+  - uid: 167
+    components:
+    - type: Transform
+      pos: 7.5,1.5
+      parent: 1
+- proto: RMCSpawnerRandomSentryMidChance
+  entities:
+  - uid: 170
+    components:
+    - type: Transform
+      pos: 1.5,3.5
       parent: 1
 - proto: RMCSpawnRatGray
   entities:

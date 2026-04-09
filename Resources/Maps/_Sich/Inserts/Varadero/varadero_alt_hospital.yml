@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 264.0.2
+  engineVersion: 264.0.2-fix-physics
   forkId: ""
   forkVersion: ""
-  time: 02/11/2026 23:28:53
-  entityCount: 563
+  time: 04/07/2026 09:52:12
+  entityCount: 574
 maps: []
 grids:
 - 1
@@ -794,13 +794,6 @@ entities:
     components:
     - type: Transform
       pos: 23.645504,12.51382
-      parent: 1
-- proto: CMSpawnPointSurvivor
-  entities:
-  - uid: 520
-    components:
-    - type: Transform
-      pos: 4.5,13.5
       parent: 1
 - proto: CMStampApproved
   entities:
@@ -2183,6 +2176,26 @@ entities:
     - type: Transform
       pos: 24.5,14.5
       parent: 1
+  - uid: 564
+    components:
+    - type: Transform
+      pos: 27.5,9.5
+      parent: 1
+  - uid: 565
+    components:
+    - type: Transform
+      pos: 18.5,11.5
+      parent: 1
+  - uid: 566
+    components:
+    - type: Transform
+      pos: 20.5,7.5
+      parent: 1
+  - uid: 567
+    components:
+    - type: Transform
+      pos: 4.5,13.5
+      parent: 1
 - proto: RMCDigitalClock
   entities:
   - uid: 327
@@ -3048,7 +3061,7 @@ entities:
     - type: Transform
       pos: 27.5,9.5
       parent: 1
-- proto: RMCSpawnerCorpseDoctor
+- proto: SMCSpawnerCorpseDoctor
   entities:
   - uid: 386
     components:
@@ -3141,12 +3154,55 @@ entities:
     - type: Transform
       pos: 27.5,7.5
       parent: 1
+- proto: RMCSpawnerRandomGunPistolHigh
+  entities:
+  - uid: 571
+    components:
+    - type: Transform
+      pos: 6.5,10.5
+      parent: 1
+  - uid: 572
+    components:
+    - type: Transform
+      pos: 1.5,5.5
+      parent: 1
 - proto: RMCSpawnerRandomGunPistolMed
   entities:
   - uid: 557
     components:
     - type: Transform
       pos: 24.5,14.5
+      parent: 1
+- proto: RMCSpawnerRandomGunRifleHigh
+  entities:
+  - uid: 574
+    components:
+    - type: Transform
+      pos: 11.5,2.5
+      parent: 1
+- proto: RMCSpawnerRandomGunSMGMed
+  entities:
+  - uid: 573
+    components:
+    - type: Transform
+      pos: 2.5,16.5
+      parent: 1
+- proto: RMCSpawnerRandomPillBottleHighChance
+  entities:
+  - uid: 568
+    components:
+    - type: Transform
+      pos: 21.5,12.5
+      parent: 1
+  - uid: 569
+    components:
+    - type: Transform
+      pos: 16.5,9.5
+      parent: 1
+  - uid: 570
+    components:
+    - type: Transform
+      pos: 27.5,7.5
       parent: 1
 - proto: RMCSpawnRatBrown
   entities:

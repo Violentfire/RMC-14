@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 264.0.2
+  engineVersion: 264.0.2-fix-physics
   forkId: ""
   forkVersion: ""
-  time: 01/08/2026 21:53:22
-  entityCount: 684
+  time: 04/08/2026 22:58:53
+  entityCount: 678
 maps: []
 grids:
 - 1
@@ -950,7 +950,7 @@ entities:
       pos: 16.5,20.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -5269.2847
+      secondsUntilStateChange: -5537.5244
       state: Opening
   - uid: 474
     components:
@@ -959,7 +959,7 @@ entities:
       pos: 20.5,17.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -5234.485
+      secondsUntilStateChange: -5502.7246
       state: Opening
 - proto: CMBarricadeSandbag
   entities:
@@ -1572,18 +1572,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 2.2175903,6.5
-      parent: 1
-- proto: CMSpawnMobMonkey
-  entities:
-  - uid: 133
-    components:
-    - type: Transform
-      pos: 0.5,16.5
-      parent: 1
-  - uid: 237
-    components:
-    - type: Transform
-      pos: 8.5,25.5
       parent: 1
 - proto: CMStampApproved
   entities:
@@ -2709,14 +2697,14 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 200
           - 201
-          - 202
-          - 203
-          - 204
-          - 205
-          - 206
           - 207
+          - 206
+          - 205
+          - 204
+          - 203
+          - 202
+          - 200
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -2766,6 +2754,36 @@ entities:
           ent: null
 - proto: RMCDecalSpawnerBloodSplatters
   entities:
+  - uid: 124
+    components:
+    - type: Transform
+      pos: 19.5,7.5
+      parent: 1
+  - uid: 126
+    components:
+    - type: Transform
+      pos: 19.5,8.5
+      parent: 1
+  - uid: 127
+    components:
+    - type: Transform
+      pos: 7.5,24.5
+      parent: 1
+  - uid: 128
+    components:
+    - type: Transform
+      pos: 10.5,4.5
+      parent: 1
+  - uid: 129
+    components:
+    - type: Transform
+      pos: 3.5,10.5
+      parent: 1
+  - uid: 131
+    components:
+    - type: Transform
+      pos: 8.5,20.5
+      parent: 1
   - uid: 373
     components:
     - type: Transform
@@ -3734,11 +3752,6 @@ entities:
       parent: 1
 - proto: RMCMagazineMar50LMG
   entities:
-  - uid: 212
-    components:
-    - type: Transform
-      pos: 8.580988,17.478876
-      parent: 1
   - uid: 213
     components:
     - type: Transform
@@ -4433,6 +4446,13 @@ entities:
     - type: Transform
       pos: 5.5,18.5
       parent: 1
+- proto: RMCSpawnerRandomSentryMidChance
+  entities:
+  - uid: 125
+    components:
+    - type: Transform
+      pos: 13.5,13.5
+      parent: 1
 - proto: RMCSpawnerRandomToolbox
   entities:
   - uid: 247
@@ -4706,23 +4726,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 19.5,19.5
       parent: 1
-  - uid: 292
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 13.5,19.5
-      parent: 1
   - uid: 303
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 7.5,14.5
-      parent: 1
-  - uid: 304
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 16.5,4.5
       parent: 1
 - proto: RMCWaterCooler
   entities:
@@ -4743,8 +4751,38 @@ entities:
   - uid: 679
     components:
     - type: Transform
-      pos: 7.4960375,20.758202
+      pos: 7.494541,20.793102
       parent: 1
+    - type: RMCWeaponAccuracy
+      modifiedAccuracyMultiplier: 0.6
+    - type: ContainerContainer
+      containers:
+        gun_magazine: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        gun_chamber: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        rmc-aslot-barrel: !type:ContainerSlot
+          showEnts: False
+          occludes: False
+          ent: null
+        rmc-aslot-rail: !type:ContainerSlot
+          showEnts: False
+          occludes: False
+          ent: null
+        rmc-aslot-underbarrel: !type:ContainerSlot
+          showEnts: False
+          occludes: False
+          ent: null
+    - type: UseDelay
+      delays:
+        RMCWieldDelay:
+          endTime: 2298.9310618
+          startTime: 2349.7976502
+          length: 0.4
 - proto: RMCWeaponRifleMAR30
   entities:
   - uid: 495
@@ -4792,6 +4830,13 @@ entities:
     components:
     - type: Transform
       pos: 4.5,12.5
+      parent: 1
+- proto: SMCSpawnerCorpseCLFSpecialist
+  entities:
+  - uid: 130
+    components:
+    - type: Transform
+      pos: 8.5,20.5
       parent: 1
 - proto: WeaponNailgun
   entities:
