@@ -3,6 +3,8 @@
   id: SichCLFSoldier
   startingGear: SichGearCLFSoldier
   spawnMenuRoleName: ФВК Солдат
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -13,7 +15,7 @@
         RMCSkillMeleeWeapons: 1
         RMCSkillPolice: 1
         RMCSkillEndurance: 1
-        RMCSkillJtac: 1
+        RMCSkillJtac: 0
         RMCSkillVehicles: 1
         RMCSkillConstruction: 1
         RMCSkillEngineer: 1
@@ -65,7 +67,7 @@
     outerClothing: SichCoatMilitia
     gloves: RMCHandsBlack
     shoes: RMCShoesBrown
-    id: RMCIDCardCLFSoldier
+    id: SichIDCardCLFSoldier
     belt: RMCM276ShotgunShellLoadingRigFill # TODO RMC14
     back: RMCWeaponShotgunHG3712
     pocket1: RMCFlashlight

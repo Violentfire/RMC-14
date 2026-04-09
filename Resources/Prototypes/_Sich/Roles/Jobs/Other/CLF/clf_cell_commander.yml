@@ -4,6 +4,8 @@
   id: SichCLFCellCommander
   startingGear: SichGearCLFCellCommander
   spawnMenuRoleName: ФВК Командир Ячейки
+  accessGroups:
+  - Colony # Доступ до всієї колонії. Вони там достатньо довго, щоб накрасти доступи
   special:
   - !type:AddComponentSpecial
     components:
@@ -83,7 +85,7 @@
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
     suitstorage: RMCSmartGunCLF
-    id: RMCIDCardCLFCellCommander # TODO RMC14
+    id: SichIDCardCLFCellCommander # TODO RMC14
     belt: RMCBeltSmartGunOperatorPistolCLF
     pocket1: RMCPouchSurvivalFill
     pocket2: RMCPouchFirstAidInjectors

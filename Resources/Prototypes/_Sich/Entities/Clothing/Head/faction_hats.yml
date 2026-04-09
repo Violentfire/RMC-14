@@ -2,9 +2,10 @@
 - type: entity
   id: SichHeadMilitiaBase
   abstract: true
+  prefix: Січ
   components:
   - type: CMArmor
-    melee: 20
+    melee: 15
     bullet: 15
     explosionArmor: 10
 

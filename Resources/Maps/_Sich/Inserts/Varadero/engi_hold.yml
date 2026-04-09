@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 264.0.2
+  engineVersion: 264.0.2-fix-physics
   forkId: ""
   forkVersion: ""
-  time: 02/11/2026 22:51:41
-  entityCount: 225
+  time: 04/07/2026 09:49:28
+  entityCount: 221
 maps: []
 grids:
 - 1
@@ -395,6 +395,15 @@ entities:
     - type: Transform
       pos: 6.5,0.5
       parent: 1
+- proto: CMSheetPlasteel40
+  entities:
+  - uid: 140
+    components:
+    - type: Transform
+      parent: 199
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: CMTable
   entities:
   - uid: 84
@@ -924,6 +933,17 @@ entities:
     - type: Transform
       pos: 10.506985,7.5001097
       parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 140
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: RMCDecalSpawnerBloodSplatters
   entities:
   - uid: 146
@@ -1172,14 +1192,14 @@ entities:
     - type: Transform
       pos: 5.6522884,5.652348
       parent: 1
-- proto: RMCSpawnerCorpseEngineer
+- proto: SMCSpawnerCorpseEngineer
   entities:
   - uid: 165
     components:
     - type: Transform
       pos: 5.5,8.5
       parent: 1
-- proto: RMCSpawnerCorpseSecurity
+- proto: SMCSpawnerCorpseSecurity
   entities:
   - uid: 151
     components:
@@ -1239,12 +1259,26 @@ entities:
     - type: Transform
       pos: 5.5,9.5
       parent: 1
+- proto: RMCSpawnerRandomGunRifleHigh
+  entities:
+  - uid: 162
+    components:
+    - type: Transform
+      pos: 5.5,2.5
+      parent: 1
 - proto: RMCSpawnerRandomGunShotgun
   entities:
   - uid: 150
     components:
     - type: Transform
       pos: 3.5,3.5
+      parent: 1
+- proto: RMCSpawnerRandomPillBottleHighChance
+  entities:
+  - uid: 145
+    components:
+    - type: Transform
+      pos: 8.5,11.5
       parent: 1
 - proto: RMCSpawnerRandomPowercell
   entities:

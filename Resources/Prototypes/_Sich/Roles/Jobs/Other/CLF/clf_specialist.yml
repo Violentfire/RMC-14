@@ -3,6 +3,8 @@
   id: SichCLFSpecialist
   startingGear: SichGearCLFSpecialist
   spawnMenuRoleName: ФВК Спеціаліст
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -74,7 +76,7 @@
     outerClothing: SichCoatMilitia
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
-    id: RMCIDCardCLFSpecialist
+    id: SichIDCardCLFSpecialist
     belt: RMCMK80BeltFilled
     back: RMCSatchelLightpack
     suitstorage: RMCWeaponMar50LMG

@@ -3,6 +3,8 @@
   id: SichCLFEngineer
   startingGear: SichGearCLFEngineer
   spawnMenuRoleName: ФВК Інженер
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -17,8 +19,8 @@
         RMCSkillVehicles: 1
         RMCSkillMedical: 1
 
-        RMCSkillConstruction: 2
-        RMCSkillEngineer: 2
+        RMCSkillConstruction: 3
+        RMCSkillEngineer: 3
         RMCSkillPowerLoader: 2
     - type: NpcFactionMember
       factions:
@@ -68,7 +70,7 @@
     outerClothing: SichCoatMilitiaHauberk
     gloves: CMHandsInsulated
     shoes: RMCShoesOrange
-    id: RMCIDCardCLFEngineer
+    id: SichIDCardCLFEngineer
     belt: CMBeltUtilityFilled
     back: RMCSatchelLightpackWelder
     pocket1: RMCPouchConstructionFillLowGrade

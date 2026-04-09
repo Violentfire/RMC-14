@@ -1,6 +1,7 @@
 # Фактично копії РМСних тих самих предметів, але з зміними характеристиками, бо оригінальні. . . Відчуття, що недороблені.
 - type: entity
   id: SichMilitiaLightBase
+  suffix: Січ
   abstract: true
   components:
   - type: CMArmor # Броня звісно кустарна, але це більше питання балансу. Плюс, захист від біо на нулі, тож скажем, що все пішло в інші категорії
@@ -26,6 +27,7 @@
 
 - type: entity
   id: SichMilitiaVeryLightBase
+  suffix: Січ
   abstract: true
   components:
   - type: CMArmor

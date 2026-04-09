@@ -3,6 +3,8 @@
   id: SichCLFCellLeader
   startingGear: SichGearCLFCellLeader
   spawnMenuRoleName: ФВК Лідер
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -80,8 +82,8 @@
     outerClothing: SichCoatMilitia
     gloves: RMCHandsVeteranPMC
     shoes: RMCBootsPMC
-    suitstorage: WeaponRifleMAR40
-    id: RMCIDCardCLFCellLeader # TODO RMC14
+    suitstorage: RMCWeaponRifleMAR30
+    id: SichIDCardCLFCellLeader # TODO RMC14
     belt: RMCMAR40BeltFilled
     back: RMCSatchelLightpack
     pocket1: RMCFlashlight
@@ -103,8 +105,8 @@
       - RMCBoxClaymoreMineFilled
       - RMCBoxClaymoreMineFilled
       outerClothing:
-      - RMCMagazineRifleMAR40
-      - RMCMagazineRifleMAR40
+      - RMCMagazineRifleMAR40Ext
+      - RMCMagazineRifleMAR40Ext
       pocket2:
       - CMSurgicalLine
       - CMSynthGraft
