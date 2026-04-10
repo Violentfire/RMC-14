@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCBucket
-  name: bucket
-  description: It's a bucket. Holds 120 units.
+  name: відро
+  description: Це відро. Вміщує до 120 одиниць рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/bucket.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCBucket
   id: CMBucketMop
-  name: mop bucket
-  description: A larger bucket, typically used with a mop. Holds 240 units
+  name: відро для швабри
+  description: Велике відро, яке зазвичай використовується зі шваброю. Вміщує до 240 одиниць рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/mopbucket.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: RMCBucket
   id: RMCBucketJanitorial
-  name: janitorial bucket
-  description: It's a large bucket that fits in a janitorial cart. Holds 500 units.
+  name: відро для прибирання
+  description: Величезне відро, яке зазвичай ставлять у візок для прибирання. Вміщує до 500 одиниць рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Janitorial/janibucket.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCBucketJanitorial
   id: RMCReagentJug
-  name: reagent jug
-  description: A large jug made of non-reactive plastic, capable of carrying large amounts of diverse chemicals to wherever they are needed. Holds 500 units.
+  name: глечик для реагентів
+  description: Великий глечик з нереактивного пластику для зберігання великих обсягів хімікатів. Вміщує до 500 одиниць рідини.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/reagent_jug.rsi

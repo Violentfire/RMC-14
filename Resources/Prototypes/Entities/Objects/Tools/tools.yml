@@ -1,8 +1,8 @@
 - type: entity
-  name: кусачки
+  name: wirecutter
   parent: BaseItem
   id: Wirecutter
-  description: Гострогубці які перекусують все, що ви лиш можете уявити. Обережно, не відкусіть собі пальці.
+  description: This kills the wire.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -45,10 +45,10 @@
     price: 30
 
 - type: entity
-  name: викрутка
+  name: screwdriver
   parent: BaseItem
   id: Screwdriver
-  description: Крутіть туди, потім сюди, розкрутіть, перекрутіть, відкрутіть, закрутіть, якщо ви ще не зрозуміли вона дозволяє крутити шурупи і таке інше.
+  description: Industrial grade torque in a small screwdriving package.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -89,10 +89,10 @@
     price: 30
 
 - type: entity
-  name: гайковий ключ
+  name: wrench
   parent: BaseItem
   id: Wrench
-  description: "Дуже поширений інструмент для відкручування і прикручування. Не забувайте: \"По часовій - закручую, проти часової - відкручую\" ."
+  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
   components:
   - type: EmitSoundOnLand
     sound:

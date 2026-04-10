@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMSoap
-  name: soap
-  description: A cheap bar of soap. Doesn't smell.
+  name: мило
+  description: Дешевий шматок мила. Не пахне, на щастя.
   components:
   - type: Tag
     tags:
@@ -12,7 +12,7 @@
     state: soap
   - type: Item
     sprite: Objects/Specific/Janitorial/soap.rsi
-    size: Tiny  
+    size: Tiny
   - type: Physics
     bodyType: Dynamic
   - type: SolutionContainerManager
@@ -42,12 +42,12 @@
   - type: Residue
     residueAdjective: residue-slippery
     residueColor: residue-green
-    
+
 - type: entity
-  name: soap
+#  name: soap – Sich
   id: CMSoapDeluxe
   parent: CMSoap
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: Розкішний шматок мила від Ваффл Ко. Пахне полуницею та романтизованим тероризмом.
   components:
   - type: Sprite
     state: soap_deluxe
@@ -58,12 +58,12 @@
   - type: Residue
     residueAdjective: residue-slippery
     residueColor: residue-brown
-    
+
 - type: entity
-  name: soap
+#  name: soap – Sich
   id: CMSoapSyndie
   parent: CMSoap
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: Ненадійний шматок мила. Пахне страхом та реальним тероризмом.
   components:
   - type: Sprite
     state: soap_syndie
@@ -78,12 +78,12 @@
     flavors:
       - clean
       - punishment
-    
+
 - type: entity
-  name: soap
+#  name: soap – Sich
   id: CMSoapNT
   parent: CMSoap
-  description: A WeYa brand bar of soap. Smells of phoron.
+  description: Брендовий шматок мила від Ве-Я. Пахне фороном та корпоративною політикою.
   components:
   - type: Sprite
     state: soap_nt

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: RMCGeneralFormalCloak
-  name: General's formal cloak
-  description: A lavish cloak and decorated only worn for special occasions.
+  name: парадний плащ генерала
+  description: Розкішний та дорого прикрашений плащ, який одягають особливі люди для особливих випадків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Neck/generalformal.rsi

@@ -2,7 +2,7 @@
   parent: BaseItem
   id: RMCIntelDetector
   name: детектор інформації
-  description: "Пристрій, який виявляє об'єкти, що можуть бути корисними для збору інформації."
+  description: Пристрій, який виявляє об'єкти, що можуть бути корисними для збору інформації про колонію та події, які в ній сталися.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/intel_detector.rsi

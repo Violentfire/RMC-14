@@ -1,6 +1,8 @@
 - type: entity
   parent: Screwdriver
   id: CMScrewdriver
+  name: викрутка # Sich
+  description: Крутіть туди, потім сюди, розкрутіть, перекрутіть, відкрутіть, закрутіть, якщо ви ще не зрозуміли вона дозволяє крутити шурупи і таке інше. # Sich
   components:
   - type: RandomSprite
     available:
@@ -44,6 +46,8 @@
 - type: entity
   parent: Wirecutter
   id: CMWirecutter
+  name: кусачки # Sich
+  description: Гострогубці які перекусують все, що ви лиш можете уявити. Обережно, не відкусіть собі пальці. # Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/wirecutters.rsi
@@ -85,6 +89,8 @@
 - type: entity
   parent: Wrench
   id: CMWrench
+  name: гайковий ключ # Sich
+  description: "Дуже поширений інструмент для відкручування і прикручування. Не забувайте: \"По часовій - закручую, проти часової - відкручую\"." # Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/wrench.rsi
@@ -162,8 +168,8 @@
 - type: entity
   parent: trayScanner
   id: CMTRayScanner
-  name: t-ray scanner
-  description: A high-tech scanning device that uses terahertz radiation to detect subfloor infrastructure.
+  name: т-променевий сканер
+  description: Високотехнологічний скануючий пристрій, який використовує терагерцове випромінювання для виявлення об'єктів під підлогою.
   suffix: trayScanner
   components:
   - type: Sprite
@@ -210,6 +216,8 @@
 - type: entity
   parent: [Crowbar, RMCBaseMeleeWeapon]
   id: CMCrowbar
+  name: лом # Sich
+  description: Багатофункціональна річ, нею можна як і двері відчинити, так і голову ксеноморфа проломити. # Sich
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/crowbar.rsi
@@ -266,8 +274,8 @@
 - type: entity
   parent: CMCrowbar
   id: RMCTacticalPrybar
-  name: tactical prybar
-  description: Holding this makes you want to raid a townhouse filled with terrorists. Also doubles as a blunt weapon.
+  name: тактичний лом
+  description: Тримаючи це, ви хочете здійснити набіг на таунхаус повний терористів. Виглядає, як прекрасна зброя ближнього бою...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/tac_prybar.rsi
@@ -285,6 +293,8 @@
 - type: entity
   parent: HandLabeler
   id: CMHandLabeler
+  name: ручний етикетувальник # Sich
+  description: Штуковина, яка використовується для маркування предметів та об'єктів будь-яким написом, який прийде вам в голову. # Sich
   suffix: RMC14
   components:
     - type: Sprite
@@ -308,6 +318,8 @@
 - type: entity
   parent: Shovel
   id: RMCShovel
+  name: лопата # Sich
+  description: Великий інструмент для вскапування та перекидання землі. # Sich
   suffix: RMC
   components:
   - type: Sprite
@@ -334,8 +346,8 @@
 - type: entity
   parent: BaseItem
   id: RMCWireSnappers
-  name: wire snappers
-  description: The jaws are perfect for snipping large wires and other small metal bits, but are a bit too heavy for delicate work.
+  name: дротяні кусачки
+  description: Щелепи, які ідеально підходять для різання великих дротів та й звичайних дротів. Єдина біда – вони важкуваті для делікатної роботи.
   suffix: INSTANT, Repeating
   components:
   - type: RMCDeviceBreaker

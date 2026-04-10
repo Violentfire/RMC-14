@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCMegaphone
-  name: Megaphone
-  description: A device used to project your voice. Loudly.
+  name: мегафон
+  description: Гучномовець рупорного типу. Пристрій для трансляції вашого голосу так голосно, щоб у всіх закладало вуха.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/megaphone.rsi

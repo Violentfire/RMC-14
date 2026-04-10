@@ -2,8 +2,8 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCPridePinBase
-  name: pride pin
-  description: An abstract pride pin.
+  name: значок гордості
+  description: Абстрактний значок гордості.
   components:
   - type: UniformAccessory
     category: PridePin
@@ -15,6 +15,8 @@
 - type: entity
   parent: [ ClothingNeckLGBTPin, RMCPridePinBase ]
   id: RMCClothingNeckLGBTPin
+  name: значок ЛГБТК+ # Sich
+  description: Бі гей – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -28,6 +30,8 @@
 - type: entity
   parent: [ClothingNeckAromanticPin, RMCPridePinBase ]
   id: RMCClothingNeckAromanticPin
+  name: значок аромантиків # Sich
+  description: Бі аро – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -41,6 +45,8 @@
 - type: entity
   parent: [ClothingNeckAsexualPin, RMCPridePinBase ]
   id: RMCClothingNeckAsexualPin
+  name: значок асексуалів # Sich
+  description: Бі асо – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -54,6 +60,8 @@
 - type: entity
   parent: [ClothingNeckBisexualPin, RMCPridePinBase ]
   id: RMCClothingNeckBisexualPin
+  name: значок бісексуалів # Sich
+  description: Бі бі – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -67,6 +75,8 @@
 - type: entity
   parent: [ClothingNeckGayPin, RMCPridePinBase ]
   id: RMCClothingNeckGayPin
+  name: значок геїв # Sich
+  description: Бі гей-гей – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -80,6 +90,8 @@
 - type: entity
   parent: [ClothingNeckIntersexPin, RMCPridePinBase ]
   id: RMCClothingNeckIntersexPin
+  name: значок інтерсексуалів # Sich
+  description: Бі інтер – ду е крайм.  # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -93,6 +105,8 @@
 - type: entity
   parent: [ClothingNeckLesbianPin, RMCPridePinBase ]
   id: RMCClothingNeckLesbianPin
+  name: значок лесбійок # Sich
+  description: Бі лесбі – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -106,6 +120,8 @@
 - type: entity
   parent: [ClothingNeckNonBinaryPin, RMCPridePinBase ]
   id: RMCClothingNeckNonBinaryPin
+  name: значок небінарних # Sich
+  description: 11010000 10010001 11010001 10010110 00100000 11010000 10111101 11010000 10111110 11010000 10111101 00100000 11010000 10110001 11010000 10110000 11010000 10111001 11010000 10111101 11010000 10110000 11010001 10000000 11010001 10010110 00100000 11100010 10000000 10010011 00100000 11010000 10110100 11010001 10000011 00100000 11010000 10110101 00100000 11010000 10111010 11010001 10000000 11010000 10110000 11010000 10111001 11010000 10111100 # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -119,6 +135,8 @@
 - type: entity
   parent: [ClothingNeckPansexualPin, RMCPridePinBase ]
   id: RMCClothingNeckPansexualPin
+  name: значок пансексуалів # Sich
+  description: Бі пан – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -132,6 +150,8 @@
 - type: entity
   parent: [ClothingNeckOmnisexualPin, RMCPridePinBase ]
   id: RMCClothingNeckOmnisexualPin
+  name: значок омнісексуалів # Sich
+  description: Бі омні – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -145,6 +165,8 @@
 - type: entity
   parent: [ClothingNeckTransPin, RMCPridePinBase ]
   id: RMCClothingNeckTransPin
+  name: значок трансгендерів # Sich
+  description: Бі транс – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -158,6 +180,8 @@
 - type: entity
   parent: [ClothingNeckAutismPin, RMCPridePinBase ]
   id: RMCClothingNeckAutismPin
+  name: значок нейродивергентних # Sich
+  description: Бі нейродивергент – ду е крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
@@ -171,6 +195,8 @@
 - type: entity
   parent: [ClothingNeckGoldAutismPin, RMCPridePinBase ]
   id: RMCClothingNeckGoldAutismPin
+  name: золотий значок нейродивергентних # Sich
+  description: Бі нейродивергент – ду е біг крайм. # Sich
   components:
   - type: HelmetAccessory
     rsi:
