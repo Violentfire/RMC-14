@@ -50,7 +50,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillIntel: 2
-        RMCSkillJtac: 3
+        RMCSkillJtac: 4 # Sich. 3 в оригіналі
         RMCSkillLeadership: 3
         RMCSkillMedical: 2
         RMCSkillNavigations: 1

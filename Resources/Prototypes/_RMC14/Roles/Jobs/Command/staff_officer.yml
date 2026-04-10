@@ -39,7 +39,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillIntel: 1
-        RMCSkillJtac: 3
+        RMCSkillJtac: 4 # Sich. 3 в оригіналі
         RMCSkillLeadership: 2
         RMCSkillMedical: 2
         RMCSkillOverwatch: 1
