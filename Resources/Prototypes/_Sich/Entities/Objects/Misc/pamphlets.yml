@@ -25,3 +25,20 @@
       jobWhitelists:
         - popup: rmc-pamphlets-rifleman-warning
           jobProto: CMRifleman
+
+# Я тільки зараз зрозумів, як воно схоже на шерпу, тому це фактично буде те саме, але на мінімалках. . .
+- type: entity
+  parent: CMPamphlet
+  id: SichCMPamphletFireman
+  name: довідник перенесення на плечах
+  description: Він навчить вас переносити людей на собі.
+  components:
+    - type: Sprite
+      sprite: _Sich/Objects/Misc/pamphlets.rsi
+      state: pamphlet_sherpa
+    - type: SkillPamphlet
+      addSkills:
+        RMCSkillFireman: 1
+      jobWhitelists:
+        - popup: rmc-pamphlets-rifleman-warning
+          jobProto: CMRifleman
