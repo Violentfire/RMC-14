@@ -33,7 +33,6 @@
       skills:
         RMCSkillEndurance: 1
         RMCSkillFirearms: 1
-        RMCSkillFireman: 1 # Sich. 0 в оригіналі
         RMCSkillJtac: 1 # Sich. 0 в оригіналі
         RMCSkillMedical: 1 # Sich. 0 в оригіналі
     - type: CMVendorUser
