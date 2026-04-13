@@ -274,8 +274,8 @@
     mountOnDeploy: true
     mountExclusionAreaSize: 0
     barricadeExclusionAreaSize: 2
-    assembleDelay: 10 # Sich. 0.5 в оригіналі
-    disassembleDelay: 3 # Sich. 1.5 в оригіналі
+    assembleDelay: 5 # Sich. 0.5 в оригіналі
+    disassembleDelay: 2.5 # Sich. 1.5 в оригіналі
     undeploySound: null
     acidableWhileUndeployed: true
   - type: Tag

@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCWheelchairBase
   id: RMCWheelchair
-  name: wheelchair
-  description: Helps those with injuries related to immobility to move freely
+  name: колісне крісло
+  description: Допомагає людям з травмами, пов'язаними з опорно-руховим апаратом, вільно рухатися.
   components:
   - type: RMCAllowStrapMovement
   - type: Wheelchair
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCWheelchairBase
   id: RMCWheelchairBell
-  name: wheelchair with bell
-  description: Helps those with injuries related to immobility to move freely. Has a bell attached.
+  name: колісне крісло з дзвіночком
+  description: Допомагає людям з травмами, пов'язаними з опорно-руховим апаратом, вільно рухатися. Має дзвіночок, "Yes is a bell, no is no bell".
   components:
   - type: RMCAllowStrapMovement
   - type: Wheelchair

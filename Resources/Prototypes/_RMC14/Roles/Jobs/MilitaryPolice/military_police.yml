@@ -37,6 +37,7 @@
         RMCSkillEndurance: 2
         RMCSkillFirearms: 1
         RMCSkillFireman: 2
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
         RMCSkillPolice: 2
     - type: JobPrefix
       prefix: cm-job-prefix-militarypolice

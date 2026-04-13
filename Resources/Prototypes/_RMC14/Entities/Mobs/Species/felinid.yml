@@ -20,7 +20,7 @@
       Male: RMCMaleFelinid
       Unsexed: RMCUnisexFelinid
       Female: RMCFemaleFelinid
-  - type: FelinidAccent
+  - type: FelinidAccent # Sich
   - type: Speech
     allowedEmotes: ['Hiss', 'Meow', 'Mew', 'Growl', 'Purr']
   - type: FixedIdentity

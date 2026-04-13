@@ -3,6 +3,8 @@
   id: SichCLFSoldier
   startingGear: SichGearCLFSoldier
   spawnMenuRoleName: ФВК Солдат
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -13,11 +15,16 @@
         RMCSkillMeleeWeapons: 1
         RMCSkillPolice: 1
         RMCSkillEndurance: 1
-        RMCSkillJtac: 1
+        RMCSkillJtac: 0
         RMCSkillVehicles: 1
         RMCSkillConstruction: 1
         RMCSkillEngineer: 1
         RMCSkillMedical: 1
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-soldier
   hidden: true
 
 - type: entity
@@ -53,14 +60,14 @@
 - type: startingGear
   id: SichGearCLFSoldier
   equipment:
-    head: RMCHeadMilitiaHood
+    head: SichHeadMilitiaHood
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
     jumpsuit: RMCJumpsuitCLFWebbing
     outerClothing: SichCoatMilitia
-    gloves: CMHandsBlackMarine
+    gloves: RMCHandsBlack
     shoes: RMCShoesBrown
-    id: RMCIDCardCLFSoldier
+    id: SichIDCardCLFSoldier
     belt: RMCM276ShotgunShellLoadingRigFill # TODO RMC14
     back: RMCWeaponShotgunHG3712
     pocket1: RMCFlashlight

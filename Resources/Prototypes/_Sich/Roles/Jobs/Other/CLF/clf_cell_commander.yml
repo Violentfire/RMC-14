@@ -4,6 +4,8 @@
   id: SichCLFCellCommander
   startingGear: SichGearCLFCellCommander
   spawnMenuRoleName: ФВК Командир Ячейки
+  accessGroups:
+  - Colony # Доступ до всієї колонії. Вони там достатньо довго, щоб накрасти доступи
   special:
   - !type:AddComponentSpecial
     components:
@@ -29,11 +31,22 @@
 
         RMCSkillSmartGun: 1
         RMCSkillExecution: 1
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-cell-commander
+    - type: SquadLeader
+      icon:
+        sprite: _RMC14/Interface/cm_job_icons.rsi
+        state: clf_cellcom
+    - type: RMCPointing
+    - type: MarineOrders
   hidden: true
 
 - type: entity
   id: SichRandomHumanoidCLFCellCommander
-  name: ФВК спавнер ролі привидів командира Ячейки
+  name: ФВК спавнер ролі привидів Командира Ячейки
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -72,7 +85,7 @@
     gloves: CMHandsBlackMarine
     shoes: RMCShoesCombat
     suitstorage: RMCSmartGunCLF
-    id: RMCIDCardCLFCellCommander # TODO RMC14
+    id: SichIDCardCLFCellCommander # TODO RMC14
     belt: RMCBeltSmartGunOperatorPistolCLF
     pocket1: RMCPouchSurvivalFill
     pocket2: RMCPouchFirstAidInjectors

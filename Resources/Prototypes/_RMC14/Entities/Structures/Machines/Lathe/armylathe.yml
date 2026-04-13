@@ -1,8 +1,8 @@
 - type: entity
   parent: CMAutolathe
   id: CMArmylathe
-  name: armylathe
-  description: The armylathe is a specialized UNMC autolathe meant for printing parts to construct various ordnance, such as grenade casings and mortar shells.
+  name: армістат
+  description: "Токарний верстат військового зразка – це спеціалізована машина КМПОН, призначена для друку деталей для виготовлення різних боєприпасів, таких як гільзи гранат, баки під паливо та мінометні снаряди. На ньому висить записка: \"Вибачення, але наразі пристрій потребує ремоенту. Функціонал обмежений\"."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/armylathe.rsi

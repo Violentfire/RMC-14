@@ -3,6 +3,8 @@
   id: SichCLFEngineer
   startingGear: SichGearCLFEngineer
   spawnMenuRoleName: ФВК Інженер
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -17,9 +19,14 @@
         RMCSkillVehicles: 1
         RMCSkillMedical: 1
 
-        RMCSkillConstruction: 2
-        RMCSkillEngineer: 2
+        RMCSkillConstruction: 3
+        RMCSkillEngineer: 3
         RMCSkillPowerLoader: 2
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-engineer
   hidden: true
 
 - type: entity
@@ -62,8 +69,8 @@
     jumpsuit: RMCJumpsuitCLFWebbingMAR50
     outerClothing: SichCoatMilitiaHauberk
     gloves: CMHandsInsulated
-    shoes: RMCShoesBrown
-    id: RMCIDCardCLFEngineer
+    shoes: RMCShoesOrange
+    id: SichIDCardCLFEngineer
     belt: CMBeltUtilityFilled
     back: RMCSatchelLightpackWelder
     pocket1: RMCPouchConstructionFillLowGrade
@@ -76,8 +83,8 @@
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
     - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
-    - CMShellShotgunBuckshot
+    - CMShellShotgunIncendiary
+    - CMShellShotgunIncendiary
     back:
     - RMCExplosiveBreachingCharge
     - RMCExplosiveBreachingCharge

@@ -42,10 +42,10 @@
         RMCSkillEngineer: 2
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
-        RMCSkillJtac: 2
+        RMCSkillJtac: 3 # Sich. 2 в оригіналі
         RMCSkillLeadership: 1
         RMCSkillMedical: 2
-        RMCSkillPilot: 2 # 1 в оригіналі. Змінено білдом Січі
+        RMCSkillPilot: 2 # Sich. 1 в оригіналі
         RMCSkillPowerLoader: 2
         RMCSkillSurgery: 1
     - type: MarineOrders

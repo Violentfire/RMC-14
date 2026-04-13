@@ -1,0 +1,48 @@
+# Чомусь РМСні спавнери цих ролей лише з пробитими грудьми. Не підходить для режиму з ФВК, тому робимо власні
+- type: randomHumanoidSettings
+  parent: RMCCorpseDoctor
+  id: SMCCorpseDoctor
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst
+
+- type: randomHumanoidSettings
+  parent: RMCCorpseEngineer
+  id: SMCCorpseEngineer
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst
+
+- type: randomHumanoidSettings
+  parent: RMCCorpseSecurity
+  id: SMCCorpseSecurity
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst
+
+- type: randomHumanoidSettings
+  parent: RMCCorpseScientist
+  id: SMCCorpseScientist
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst
+
+- type: randomHumanoidSettings
+  parent: RMCCorpseLiaison
+  id: SMCCorpseLiaison
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst
+
+- type: randomHumanoidSettings
+  parent: RMCCorpseMiner
+  id: SMCCorpseMiner
+  components:
+  - type: RemoveComponents
+    components:
+    - type: VictimBurst

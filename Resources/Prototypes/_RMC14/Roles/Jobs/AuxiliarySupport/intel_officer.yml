@@ -32,12 +32,13 @@
       skills:
         RMCSkillCqc: 1
         RMCSkillEndurance: 1
-        RMCSkillConstruction: 1 # Додано білдом Січі
+        RMCSkillConstruction: 1 # Sich. 0 в оригіналі
         RMCSkillEngineer: 2
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillIntel: 2
-        RMCSkillJtac: 2
+        RMCSkillJtac: 3 # Sich. 2 в оригіналі
+        RMCSkillMedical: 1 # Sich. 0 в оригіналі
         RMCSkillLeadership: 1
         RMCSkillMeleeWeapons: 1
         RMCSkillOverwatch: 1

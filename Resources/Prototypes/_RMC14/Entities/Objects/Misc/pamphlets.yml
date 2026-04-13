@@ -76,7 +76,7 @@
     state: pamphlet_jtac
   - type: SkillPamphlet
     addSkills:
-      RMCSkillJtac: 1
+      RMCSkillJtac: 2 # Sich. 1 в оригіналі
 
 # gives spotter skill / bypasses limit
 - type: entity
@@ -91,7 +91,7 @@
     addComps:
     - type: SpotterWhitelist
     addSkills:
-      RMCSkillJtac: 2 # 1 в RMC. Змінено білдом Січі (багфікс)
+      RMCSkillJtac: 2 # Sich. 1 в оригіналі
     giveJobTitle: rmc-job-name-spotter
     givePrefix: rmc-job-prefix-spotter
     isAppendPrefix: false
@@ -206,10 +206,10 @@
   - type: SkillPamphlet
     addSkills:
       RMCSkillEngineer: 1
-      RMCSkillJtac: 2
+      RMCSkillJtac: 3 # Sich. 2 в оригіналі
     skillCap:
       RMCSkillEngineer: 1
-      RMCSkillJtac: 2
+      RMCSkillJtac: 3 # Sich. 2 в оригіналі
     giveJobTitle: rmc-job-name-mortar-operator
     givePrefix: rmc-job-prefix-mortar-operator
     isAppendPrefix: false

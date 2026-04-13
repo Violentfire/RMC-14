@@ -3,6 +3,8 @@
   id: SichCLFMedic
   startingGear: SichGearCLFMedic
   spawnMenuRoleName: ФВК Медик
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -13,13 +15,18 @@
         RMCSkillMeleeWeapons: 1
         RMCSkillPolice: 1
         RMCSkillEndurance: 1
-        RMCSkillJtac: 1
+        RMCSkillJtac: 0
         RMCSkillVehicles: 1
         RMCSkillConstruction: 1
         RMCSkillEngineer: 1
 
-        RMCSkillMedical: 2
+        RMCSkillMedical: 3
         RMCSkillSurgery: 2
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-medic
   hidden: true
 
 - type: entity
@@ -57,13 +64,14 @@
   equipment:
     mask: RMCCombatUtilityKnifeA
     ears: RMCHeadsetDistressCLF
+    ears2: RMCFlashlightPen
     eyes: RMCGlassesMedicalHUDGlasses
-    head: CMHeadBandRed
+    head: CMHeadBandRebel
     jumpsuit: RMCJumpsuitCLFWebbingSurgical
     outerClothing: SichCoatMilitiaVest
-    gloves: CMHandsBlackMarine
-    shoes: RMCShoesBrown
-    id: RMCIDCardCLFMedic
+    gloves: CMHandsLatex
+    shoes: RMCShoesWhite
+    id: SichIDCardCLFMedic
     belt: CMBeltMedicalFilled
     back: RMCSatchelLightpack
     pocket1: RMCFlashlight
@@ -80,7 +88,7 @@
     - RMCMRECLF
     - CMCrowbar
     - RMCBinocularsCiv
-    - RMCFlashlightPen
+    - CMFireExtinguisherPortable
     pocket2:
     - RMCMagazineSMGMAC15Ext
     - RMCMagazineSMGMAC15Ext

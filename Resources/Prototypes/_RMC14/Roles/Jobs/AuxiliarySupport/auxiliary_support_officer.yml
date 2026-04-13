@@ -37,7 +37,7 @@
   marineAuthorityLevel: 12
   supervisors: rmc-job-supervisors-commander
   accessGroups:
-  - MarineMain
+  - MarineMain # Sich. ASO в оригіналі. Більше доступів
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -50,7 +50,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillIntel: 2
-        RMCSkillJtac: 3
+        RMCSkillJtac: 4 # Sich. 3 в оригіналі
         RMCSkillLeadership: 3
         RMCSkillMedical: 2
         RMCSkillNavigations: 1

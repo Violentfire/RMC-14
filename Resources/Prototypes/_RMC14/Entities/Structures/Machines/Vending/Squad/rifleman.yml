@@ -240,6 +240,8 @@
         points: 15
       - id: CMPamphletEngineer
         points: 15
+      - id: SichCMPamphletFireman # Sich
+        points: 5
     - name: Ключі Шифрування
       entries:
       - id: CMEncryptionKeyEngineer

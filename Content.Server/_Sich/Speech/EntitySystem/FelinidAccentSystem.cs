@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿// Зроблено potatoed (ДС). Одна з перших фішок нашого білду :face_holding_back_tears:
+using System.Text.RegularExpressions;
 using Content.Server.Speech.Components;
 using Robust.Shared.Random;
 

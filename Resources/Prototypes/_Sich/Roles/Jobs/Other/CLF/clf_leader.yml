@@ -3,6 +3,8 @@
   id: SichCLFCellLeader
   startingGear: SichGearCLFCellLeader
   spawnMenuRoleName: ФВК Лідер
+  accessGroups:
+  - Colony
   special:
   - !type:AddComponentSpecial
     components:
@@ -25,6 +27,17 @@
         RMCSkillOverwatch: 1
         RMCSkillLeadership: 3
         RMCSkillCqc: 2
+    - type: NpcFactionMember
+      factions:
+      - CLF
+    - type: JobPrefix
+      prefix: rmc-job-prefix-clf-cell-leader
+    - type: SquadLeader
+      icon:
+        sprite: _RMC14/Interface/cm_job_icons.rsi
+        state: clf_sl
+    - type: RMCPointing
+    - type: MarineOrders
   hidden: true
 
 - type: entity
@@ -63,13 +76,14 @@
     head: RMCHeadBeretOfficerHos
     mask: RMCCombatUtilityKnifeB # TODO RMC14 Type 80 bayonet
     ears: RMCHeadsetDistressCLF
+    ears2: CMScrewdriver
     eyes: RMCSunglassesBig
     jumpsuit: RMCJumpsuitCLFWebbingMAR50
     outerClothing: SichCoatMilitia
-    gloves: CMHandsBlackMarine
-    shoes: RMCShoesCombat
-    suitstorage: WeaponRifleMAR40
-    id: RMCIDCardCLFCellLeader # TODO RMC14
+    gloves: RMCHandsVeteranPMC
+    shoes: RMCBootsPMC
+    suitstorage: RMCWeaponRifleMAR30
+    id: SichIDCardCLFCellLeader # TODO RMC14
     belt: RMCMAR40BeltFilled
     back: RMCSatchelLightpack
     pocket1: RMCFlashlight
@@ -77,7 +91,7 @@
   storage:
       jumpsuit:
       - CMCrowbar
-      - CMScrewdriver
+      - CMWrench
       - CMMultitool
       - RMCExplosivePlastic
       - RMCExplosivePlastic
@@ -91,8 +105,8 @@
       - RMCBoxClaymoreMineFilled
       - RMCBoxClaymoreMineFilled
       outerClothing:
-      - RMCMagazineRifleMAR40
-      - RMCMagazineRifleMAR40
+      - RMCMagazineRifleMAR40Ext
+      - RMCMagazineRifleMAR40Ext
       pocket2:
       - CMSurgicalLine
       - CMSynthGraft
