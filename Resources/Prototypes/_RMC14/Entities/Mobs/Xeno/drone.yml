@@ -10,7 +10,7 @@
   - RMCXenoVentCrawler
   id: CMXenoDroneBase
   name: Дрон
-  description: Чужопланетний дрон.
+  description: Чужопланетна істота з повноцінними лапами та малим хоботом, яка видається досить універсальною.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-drone
@@ -110,6 +110,7 @@
 - type: entity
   parent: CMXenoDroneBase
   id: CMXenoDrone
+  description: Чужопланетна істота з повноцінними лапами та малим хоботом, яка видається досить універсальною. # Sich
   components:
   - type: GuideHelp
     guides:
@@ -154,6 +155,7 @@
 - type: entity
   parent: CMXenoDroneBase
   id: CMXenoDroneGardener
+  description: Чужопланетна зелена істота з повноцінними лапами та малим хоботом, виглядає особливо притягливо. # Sich
   suffix: Gardener
   components:
   - type: Sprite
@@ -218,6 +220,7 @@
 - type: entity
   parent: CMXenoDroneBase
   id: CMXenoDroneHealer
+  description: Чужопланетна більш фіолетова істота з повноцінними лапами та малим хоботом. # Sich
   suffix: Healer
   components:
   - type: Sprite

@@ -7,7 +7,7 @@
   - RMCXenoMobCollision
   id: RMCXenoKing
   name: Король
-  description: Кінець.
+  description: Кінець. Ось справді найгірша та найжорстокіша істота!
   components:
   - type: GhostRole
     name: rmc-job-name-xeno-king

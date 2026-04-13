@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoRavagerBase
-  name: Спустошувач
-  description: Величезний, огидний червоний чужопланетянин з велетенськими серпоподібними кігтями.
+  name: Жнець
+  description: Величезна, огидна, червона чужопланетна істота з броньованим панцирем та серпоподібними метровими лезами. Виглядає, ніби природжена вбивця.
   abstract: true
   components:
   - type: GuideHelp
@@ -53,7 +53,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: 0,0.1
-    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
+    unlockAt: 1200 # Sich. 20 хвилин. 15 (900) в оригіналі
   - type: XenoRegen
     standHealingMultiplier: 0.66
   - type: XenoHeavy
@@ -144,6 +144,7 @@
 - type: entity
   parent: RMCXenoRavagerBase
   id: CMXenoRavager
+  description: Величезна, огидна, червона чужопланетна істота з броньованим панцирем та серпоподібними метровими лезами. Виглядає, ніби природжена вбивця. # Sich
   components:
   - type: XenoShield
   - type: XenoLeap
@@ -179,6 +180,7 @@
 - type: entity
   parent: RMCXenoRavagerBase
   id: RMCXenoRavagerBerserker
+  description: Величезна, огидна, більш червона чужопланетна істота з броньованим панцирем та серпоподібними метровими лезами. Виглядає, ніби справді природжена вбивця. # Sich
   suffix: Berserker
   components:
   - type: Sprite
@@ -252,6 +254,7 @@
 - type: entity
   parent: RMCXenoRavagerBase
   id: RMCXenoRavagerHedgehog
+  description: Величезна, огидна, червона чужопланетна істота з броньованим панцирем та серпоподібними метровими лезами. Більшість її тіла вкрита дивними кісткоподібними уламками. # Sich
   suffix: Hedgehog
   components:
   - type: Sprite

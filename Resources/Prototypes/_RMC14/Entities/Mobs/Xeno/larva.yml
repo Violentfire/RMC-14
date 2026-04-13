@@ -5,6 +5,7 @@
   - RMCXenoVentCrawler
   id: CMXenoLarva
   name: Лярва
+  description: Мала чужопланетна червоподібна істота, яка дуже швидко збільшується в розмірах. Схоже скоро з неї з'явиться щось нове. # Sich
   components:
   - type: GuideHelp
     guides:
@@ -109,8 +110,8 @@
 - type: entity
   id: RMCXenoEmbryo
   parent: BaseItem
-  name: alien embryo
-  description: All slimy and yucky.
+  name: чужопланетний ембріон
+  description: Виглядає слизьким та гидким. Якщо ви вважаєте ембріонів за дітей, то це чиясь мертва дитина.
   components:
     - type: Sprite
       sprite: _RMC14/Mobs/Xenonids/Larva/larva.rsi

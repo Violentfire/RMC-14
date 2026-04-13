@@ -8,7 +8,7 @@
   - RMCXenoMobCollision
   id: RMCXenoQueenBase
   name: Королева
-  description: Велетенська чужопланетна істота. Найбільша і найжорстокіша.
+  description: Велетенська чужопланетна істота від кроків якої тремтить земля. Найбільша та найжорстокіша.
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp

@@ -8,7 +8,7 @@
   - RMCXenoMobCollision
   id: CMXenoBoiler
   name: Бойлер
-  description: Величезний та потворний ксеноїд, вкритий світним пульсуючим кислотним слизом.
+  description: Величезна жовта чужопланетна істота, вкрита купою пульсуючих кислотних почок. Виглядає, ніби міномет.
   components:
   - type: GuideHelp
     guides:
@@ -63,7 +63,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: -0.15,0.05
-    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
+    unlockAt: 1200 # Sich. 20 хвилин. 15 (900) в оригіналі
   - type: XenoHeavy
   - type: XenoDevolve
     devolvesTo:

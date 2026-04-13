@@ -9,7 +9,7 @@
   - RMCXenoVentCrawler
   id: CMXenoSpitter
   name: Плювака
-  description: Огидний чужопланетянин, що сочиться слизом
+  description: Огидна жовта чужопланетна істота з якої сочиться кислота.
   components:
   - type: GuideHelp
     guides:

@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoCarrierBase
-  name: Носій
-  description: Дивна чужопланетна істота з кількома крабоподібними лапами.
+  name: Носійка
+  description: Висока чужопланетна істота з дивними лапами, величезним пузом та купою ніг. По ній повзають дивні крапобоподібні істоти.
   abstract: true
   components:
   - type: CanBuildThickFromConstructNode
@@ -110,6 +110,7 @@
 - type: entity
   parent: RMCXenoCarrierBase
   id: CMXenoCarrier
+  description: Висока чужопланетна істота з дивними лапами, величезним пузом та купою ніг. По ній повзають дивні крапобоподібні істоти. # Sich
   components:
   - type: GuideHelp
     guides:
@@ -157,6 +158,7 @@
 - type: entity
   parent: RMCXenoCarrierBase
   id: RMCXenoCarrierEggsac
+  description: Висока чужопланетна істота з дивними лапами, величезним пузом та купою ніг. Її пузо постійно дивно пульсує... # Sich
   suffix: Eggsac
   components:
   - type: CanBuildThickFromConstructNode

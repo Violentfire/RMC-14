@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoBurrower
-  name: Копач
-  description: Кремезний ксеноїд з гострими кігтями.
+  name: Копачка
+  description: Дужа чужопланетна істота з товстим панцирем, лапами схожі на ковші та дивним ротом-хоботом.
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp

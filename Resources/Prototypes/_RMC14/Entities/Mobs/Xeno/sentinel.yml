@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoSentinel
-  name: Вартовий
-  description: Слизький чужопланетянин що плюється.
+  name: Вартова
+  description: Невеличка жовта чужопланетна істота з кислотною залозою на шиї.
   components:
   - type: GuideHelp
     guides:

@@ -6,8 +6,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoVentCrawler
   id: CMXenoLesserDrone
-  name: Малий Дрон
-  description: Чужопланетний дрон. Виглядає… дрібнішою.
+  name: Мала Дрон
+  description: Чужопланетна істота з повноцінними лапами та малим хоботом. Виглядає… малою.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lesser-drone

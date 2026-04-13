@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoDefenderBase
-  name: Захисник
-  description: Ксеноїд з панцирним гребенем.
+  name: Захисниця
+  description: Кремезна чужопланетна істота з величезним броньованим панцирем, потужним хвостом та двома лапами.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-defender
@@ -115,6 +115,7 @@
 - type: entity
   parent: CMXenoDefenderBase
   id: CMXenoDefender
+  description: Кремезна чужопланетна істота з величезним броньованим панцирем, потужним хвостом та двома лапами. # Sich
   components:
   - type: GuideHelp
     guides:
@@ -144,6 +145,7 @@
   parent: CMXenoDefenderBase
   id: CMXenoDefenderSteelcrest
   suffix: Steelcrest
+  description: Кремезна чужопланетна істота з величезним чорним броньованим панцирем та двома лапами. # Sich
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Defender/steelcrest_defender.rsi

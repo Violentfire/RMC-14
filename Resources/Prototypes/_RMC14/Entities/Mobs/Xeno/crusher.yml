@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoCrusherBase
-  name: Руйнівник
-  description: Гігантська чужопланетна істота з масивним броньованим гребенем.
+  name: Руйнівниця
+  description: Масивна чужопланетна істота з панцирем на все тіло й величезними лапами. Виглядає, ніби танк.
   components:
   - type: GuideHelp
     guides:
@@ -39,7 +39,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: -0.15,0.1
-    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
+    unlockAt: 1200 # Sich. 20 хвилин. 15 (900) в оригіналі
   - type: XenoRegen
     standHealingMultiplier: 0.66
   - type: XenoHeavy
@@ -116,6 +116,7 @@
 - type: entity
   parent: CMXenoCrusherBase
   id: RMCXenoCrusher
+  description: Масивна чужопланетна істота з чорним панцирем на все тіло й величезними лапами. Виглядає, ніби танк. # Sich
   components:
   - type: Xeno
     actionIds:
@@ -143,6 +144,7 @@
 - type: entity
   parent: CMXenoCrusherBase
   id: RMCXenoCrusherCharger
+  description: Масивна чужопланетна істота з коричневим панцирем на все тіло й величезними лапами. Виглядає, ніби таран?.. # Sich
   suffix: Charger
   components:
   - type: Sprite

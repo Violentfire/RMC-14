@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoWarrior
-  name: Воїн
-  description: Кремезний чужопланетянин з броньованим панцирем.
+  name: Воїтелька
+  description: Кремезна чужопланетна істота з броньованим панцирем, потужними лапами та великими іклами.
   components:
   - type: GuideHelp
     guides:

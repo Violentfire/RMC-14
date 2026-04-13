@@ -9,8 +9,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoRunnerBase
-  name: Бігун
-  description: Малий червоний ксеноїд, схоже він здатен бігати доволі швидко... 
+  name: Бігунша
+  description: Невеличка червона та дуже аеродинамічна чужопланетна істота, схоже її лапи створені для бігу.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-runner
@@ -129,6 +129,7 @@
 - type: entity
   parent: CMXenoRunnerBase
   id: CMXenoRunner
+  description: Невеличка червона та дуже аеродинамічна чужопланетна істота, схоже її лапи створені для бігу.
   components:
   - type: GuideHelp
     guides:
@@ -168,6 +169,7 @@
 - type: entity
   parent: CMXenoRunnerBase
   id: RMCXenoRunnerAcider
+  description: Невеличка жовта та аеродинамічна чужопланетна істота, схоже її лапи створені для бігу. Весь її хребет вкритий кислотними почками. # Sich
   suffix: Acider
   components:
   - type: Sprite

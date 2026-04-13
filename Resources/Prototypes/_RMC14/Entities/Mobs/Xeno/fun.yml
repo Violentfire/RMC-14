@@ -3,9 +3,9 @@
   - CMXenoRunner
   - RMCXenoCommendationReceiver
   id: RMCXenoRouny
-  name: Rouny
+  name: Руня
   suffix: RMC14
-  description: thas a fuckin rouny.
+  description: Це Руня!
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Rouny/rouny.rsi
@@ -21,8 +21,8 @@
   - CMXenoRunner
   - RMCXenoCommendationReceiver
   id: RMCXenoWehny
-  name: Wehny
-  description: A cruel, cruel joke made by some sick individual.
+  name: Веххі
+  description: Жорстокий, дуже жорстокий жарт, вигаданий якоюсь хворою людиною.
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Xenonids/Wehny/wehny.rsi
@@ -40,8 +40,8 @@
   - CMXenoFlammable
   - RMCXenoSpeechSounds
   id: RMCXenoLesserCarrier
-  name: Lesser Carrier
-  description: A strange-looking alien creature. It carries a number of scuttling jointed crablike creatures. Looks... smaller.
+  name: Мала Носійка
+  description: Дивна на вигляд інопланетна істота. Схоже по ній повзають дивні крапобоподібні істоти. Виглядає... малою.
   components:
   - type: GhostRole
     name: roles-lesser-carrier-name

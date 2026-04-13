@@ -9,7 +9,7 @@
   - RMCXenoMobCollision
   id: CMXenoPraetorianBase
   name: Преторіанець
-  description: Масивний та лячний чужопланетний звір.
+  description: Велика й небезпечна чужопланетна істота, яка видається досить універсальною.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-praetorian
@@ -40,7 +40,7 @@
     - ActionXenoDevolve
     tier: 3
     hudOffset: -0.15,0.16
-    unlockAt: 1200 # 900 (15 minutes) in RMC. 20 хвилин, зміна білду Січі
+    unlockAt: 1200 # Sich. 20 хвилин. 15 (900) в оригіналі
   - type: XenoHeavy
   - type: XenoDevolve
     devolvesTo:
@@ -124,6 +124,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: CMXenoPraetorian
+  description: Велика й небезпечна чужопланетна істота, у якої на шиї велика кислотна почка. Видається досить універсальною. # Sich
   components:
   - type: GuideHelp
     guides:
@@ -156,6 +157,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianValkyrie
+  description: Велика й небезпечна чужопланетна істота, має характерний синій гребінь та товстий панцир й потужні лапи, а на хвості якась дивна штуковина. # Sich
   suffix: Valkyrie
   components:
   - type: GuideHelp
@@ -229,6 +231,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianDancer
+  description: Велика й небезпечна чужопланетна істота, має характерний фіолетовий гребінь та видається швидкою й дуже маневреною. # Sich
   suffix: Dancer
   components:
   - type: Sprite
@@ -265,6 +268,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianVanguard
+  description: Велика й небезпечна чужопланетна істота, у неї характерний червоний гребінь та її панцир видається досить "динамічним". # Sich
   suffix: Vanguard
   components:
   - type: GuideHelp
@@ -318,6 +322,7 @@
 - type: entity
   parent: CMXenoPraetorianBase
   id: RMCXenoPraetorianOppressor
+  description: Велика й небезпечна чужопланетна істота, її хвіст виглядає набагато більшим та потужнішим. # Sich
   suffix: Oppressor
   components:
   - type: GuideHelp

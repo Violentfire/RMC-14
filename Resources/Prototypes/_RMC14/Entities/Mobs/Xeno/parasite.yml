@@ -6,6 +6,7 @@
   - RMCXenoVentCrawler
   id: CMXenoParasiteBase
   name: Паразит
+  description: Мала чужопланетна крабоподібна істота з... "ротом" на пузі? Цікаво, нащо ж він. # Sich
   components:
   - type: GuideHelp
     guides:
