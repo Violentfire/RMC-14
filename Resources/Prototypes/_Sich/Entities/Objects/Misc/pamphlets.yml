@@ -2,7 +2,7 @@
   parent: CMPamphlet
   id: SichCMPamphletSherpa
   name: довідник шерпи
-  description: Він навчить вас переносити важкі речі.
+  description: Тут описується, як правильно переносити важкі речі.
   components:
     - type: Sprite
       sprite: _Sich/Objects/Misc/pamphlets.rsi
@@ -31,7 +31,7 @@
   parent: CMPamphlet
   id: SichCMPamphletFireman
   name: довідник перенесення на плечах
-  description: Він навчить вас переносити людей на собі.
+  description: Тут описується, як правильно переносити людей на собі.
   components:
     - type: Sprite
       sprite: _Sich/Objects/Misc/pamphlets.rsi

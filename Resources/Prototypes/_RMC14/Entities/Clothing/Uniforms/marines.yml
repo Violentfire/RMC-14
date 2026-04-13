@@ -185,7 +185,7 @@
   parent: RMCMarineUniformBase
   id: CMJumpsuitChiefEngineer
   name: уніформа головного інженера
-  description: Її вдягають лише найкращі інженери. 
+  description: Її вдягають лише найкращі інженери.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/ec.rsi
@@ -302,7 +302,7 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitXOFormal
-  name: парадна службова морпіхотна уніформа 
+  name: парадна службова морпіхотна уніформа
   description: Офіційна військова форма, яку зазвичай носять морські піхотинці ОН. Все ще практична, але стильніша, ніж стандартна військова форма.
   components:
   - type: Sprite
@@ -500,7 +500,7 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitSurvivorMarine
-  name: уніформа КМПООН
+  name: уніформа КМПОН
   description: Розірвана, обгоріла і заплямована кров'ю. Ця форма бачила біль, страждання, радість, смерть... поразку й тріумф, та ще багато чого.
   suffix: FORECON, Survivor
   components:
@@ -568,7 +568,7 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitSynthetic
-  name: морпіхотна уніформа підтримки 
+  name: морпіхотна уніформа підтримки
   description: Проста уніформа зроблена для синтетичних членів екіпажу.
   components:
   - type: Sprite

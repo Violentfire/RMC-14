@@ -25,7 +25,7 @@
   parent: RMCHelmetGarbToggleableBase
   id: RMCHelmetGarbNightVision
   name:  старі окуляри нічного бачення М2
-  description: Цю пару позбавлено всієї електроніки, тож вони більше не працюють. Але гей! Вони ж змушують тебе почуватися більш… Професійно, чи не так?
+  description: Цю пару позбавлено всієї електроніки, тож вони більше не працюють. Але гей! Вони ж змушують тебе почуватися більш... Професійно, чи не так?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/nv_goggles.rsi
@@ -128,7 +128,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbRainCover
   name: чохол від дощу
-  description: Стандартний бойовий шолом M10 вже має водостійкість на глибині до 10 метрів. Але якщо ти хочеш бути абсолютно сухим - ось чохол. Не обіцяємо, що він працює, але виглядає солідно.
+  description: Стандартний бойовий шолом М10 вже має водостійкість на глибині до 10 метрів. Але якщо ти хочеш бути абсолютно сухим – ось чохол. Не обіцяємо, що він працює, але виглядає солідно.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/HelmetCovers/raincover.rsi
@@ -239,7 +239,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbCartridge
   name: гільза
-  description: Це гільза з автоматичної гвинтівки Type 54. Деформована внаслідок удару об броньовану поверхню. Тепер це просто трофей на удачу.
+  description: Це гільза з автоматичної гвинтівки Тип 54. Деформована внаслідок удару об броньовану поверхню. Тепер це просто трофей на удачу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/cartridge.rsi
@@ -257,7 +257,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbGasmask
   name: інтегрований противогаз М5
-  description: "Виробництво було припинено КМПОН, коли з’ясувалося, що не кожен боєць носить шолом 24/7, якби це дивно не звучало; Ця новина звела Вище Командування ООН у повний ступор."
+  description: Виробництво було припинено КМПОН, коли з’ясувалося, що не кожен боєць носить шолом 24/7. Якби це дивно не звучало – ця новина звела Вище Командування ОН у повний ступор.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Gasmasks/gasmask.rsi
@@ -337,7 +337,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbFeather
   name: щасливе біле перо
-  description: Найкраща зброя снайпера - це не гвинтівка, а його розум.
+  description: Найкраща зброя снайпера – це не гвинтівка, а його розум.
   components:
   - type: Sprite
     sprite:  _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather.rsi
@@ -353,7 +353,7 @@
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherRed
   name: щасливе червоне перо
-  description: Яскраво-червоне, пластикове й неякісне перо - ідеально пасує до душевної стійкості будь якого корпората. Тобто - відсутньої.
+  description: Яскраво-червоне, пластикове й неякісне перо – ідеально пасує до душевної стійкості будь якого корпората. Тобто – відсутньої.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_red.rsi
@@ -369,7 +369,7 @@
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherBlue
   name: щасливе синє перо
-  description: Має яскравий синій колір. Тобі здається, що колись бачив пташку в якомусь старому мультику… Домашня, трохи незграбна, але з добрим серцем.
+  description: Має яскравий синій колір. Тобі здається, що колись бачив пташку в якомусь старому мультику... Домашня, трохи незграбна, але з добрим серцем.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_blue.rsi
@@ -385,7 +385,7 @@
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherPurple
   name: щасливе фіолетове перо
-  description: Фіолетове перо, створене в результаті симуляції 1000 друкарських мавп. Деякі кажуть - це геніальне мистецтво. Інші - що це просто ШІ перегрівся.
+  description: Фіолетове перо, створене в результаті симуляції 1000 друкарських мавп. Деякі кажуть – це геніальне мистецтво. Інші – що це просто ШІ перегрівся.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_purple.rsi
@@ -401,7 +401,7 @@
   parent: RMCHelmetGarbFeather
   id: RMCHelmetGarbFeatherYellow
   name: щасливе жовте перо
-  description: Має насичений, невблаганний жовтий колір. Кажуть, колонія Новий Канзас виробляє найбільшу кількість парт на душу населення серед усіх колоній під контролем ООН.
+  description: Має насичений, невблаганний жовтий колір. Кажуть, колонія Новий Канзас виробляє найбільшу кількість парт на душу населення серед усіх колоній під контролем ОН.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/Feathers/feather_yellow.rsi
@@ -419,7 +419,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbGunOil
   name: масло для зброї
-  description: Не слухай дурнів - М54С не чиститься сама, скільки б ти не молився.
+  description: Не слухай дурнів – М54С не чиститься сама, скільки б ти не молився.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/gun_oil.rsi
@@ -435,7 +435,7 @@
   parent: [RMCHelmetGarbBase, RMCUtilityBase]
   id: RMCHelmetGarbRosary
   name: хрестик
-  description: "Ісус рятує життя! Во ім'я Отця, і Сина, і Святого Духа! Амінь!"
+  description: Ісус рятує життя! Во ім'я Отця, і Сина, і Святого Духа! Амінь!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/rosary.rsi
@@ -487,7 +487,7 @@
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbChaplainPatch
   name: нашивка капелана КМПОН
-  description: Ця нашивка — це все, що залишилося від капеланства ДКП-Саванна Січ, разом із самими капеланами. Обидва більше не існують через втрати, понесені під час битви на Тайхоні.
+  description: Ця нашивка – це все, що залишилося від капеланства ДКП-Саванна Січ, разом із самими капеланами. Обидва більше не існують через втрати, понесені під час битви на Тайхоні.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/chaplain_patch.rsi
