@@ -1,0 +1,120 @@
+- type: entity
+  abstract: true
+  parent:
+  - SichXenoAIDeveloped
+  - CMXenoTail
+  - CMXenoFlammable
+  - RMCXenoSpeechSounds
+  - RMCXenoCommendationReceiver
+  - RMCXenoMobCollision
+  id: SichXenoAIDefenderBase
+  name: Захисник
+  description: Ксеноїд з панцирним гребенем.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Mobs/Xenonids/Defender/defender.rsi
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      500: Critical
+      600: Dead
+  - type: Xeno
+    role: CMXenoDefender
+    tier: 1
+    hudOffset: -0.1,0.2
+    unlockAt: 999999999 # never
+  - type: XenoLight
+  - type: XenoPlasma
+    plasma: 100
+    maxPlasma: 100
+    plasmaRegenOnWeeds: 5
+  - type: CMArmor
+    xenoArmor: 35
+    explosionArmor: 70
+  - type: XenoCrest
+  - type: XenoDevour
+  - type: XenoHeadbutt
+    damage:
+      types:
+        Blunt: 30
+    crestedDamageReduction:
+      types:
+        Blunt: -10
+  - type: XenoAnimateMovement
+  - type: XenoFortify
+  - type: MeleeWeapon
+    damage:
+      groups:
+        Brute: 27.5
+  - type: XenoTailStab
+    tailDamage:
+      groups:
+        Brute: 36
+    soundHit:
+        collection: Punch
+        params:
+          variation: 0.15
+    hitAnimationId: RMCEffectSlam
+  - type: Tackle
+    max: 4
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        mask:
+        - MobMask
+        - BarbedBarricade
+        - BarricadeImpassable
+        layer:
+        - MobLayer
+      fix2:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.45
+        density: 185
+        layer:
+        - BulletImpassable
+  - type: RMCXenoDamageVisuals
+    prefix: defender
+  - type: TacticalMapIcon
+    icon:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: defender
+  - type: IntelRecoverCorpseObjectiveOnDeath
+    value: 0.1
+  - type: FixedIdentity
+    name: cm-job-name-xeno-defender
+  - type: RMCSurgeryXenoHeart
+    item: RMCOrganXenoHeartT1
+
+- type: entity
+  parent: SichXenoAIDefenderBase
+  id: SichXenoAIDefender
+  components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideRoleDefender
+  - type: Xeno
+    actionIds:
+    - ActionXenoRest
+    - ActionXenoRegurgitate
+    - ActionXenoWatch
+    - ActionXenoTailSlam
+    - ActionXenoToggleCrest
+    - ActionXenoHeadbutt
+    - ActionXenoTailSweep
+    - ActionXenoFortify
+  - type: XenoTailSweep
+    damage:
+      types:
+        Slash: 30
+  - type: RMCActionOrder
+    id: CMXenoDefender

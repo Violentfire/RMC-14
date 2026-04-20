@@ -1,0 +1,131 @@
+- type: entity
+  abstract: true
+  parent:
+  - SichXenoAIDeveloped
+  - CMXenoTail
+  - CMXenoFlammable
+  - RMCXenoSpeechSounds
+  - RMCXenoCommendationReceiver
+  - RMCXenoMobCollision
+  - RMCXenoVentCrawler
+  id: SichXenoAIDroneBase
+  name: Дрон
+  description: Чужопланетний дрон.
+  components:
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      500: Critical
+      600: Dead
+  - type: MeleeWeapon
+    damage:
+      groups:
+        Brute: 22.5
+  - type: XenoTailStab
+    tailDamage:
+      groups:
+        Brute: 30
+  - type: Xeno
+    role: CMXenoDrone
+    hudOffset: -0.1,0.15
+    tier: 1
+    bypassTierCount: true
+    unlockAt: 999999999 # never
+  - type: XenoLight
+  - type: XenoDevolve
+    devolvesTo:
+    - CMXenoLarva
+    canBeDevolvedByOther: false
+  - type: XenoDevour
+  - type: XenoPheromones
+    pheromonesMultiplier: 2
+  - type: XenoPlasma
+    plasma: 1000
+    maxPlasma: 1000
+    plasmaRegenOnWeeds: 4.5
+  - type: Tackle
+    max: 4
+    stunMin: 3
+    stunMax: 4
+  - type: WhitelistPickup
+    whitelist:
+      components:
+      - XenoParasite
+      - XenoEgg
+      - XenoFruit
+  - type: TunnelRenamer
+  - type: EggPlantTime
+    plantTime: 2.5
+  - type: MultiHandedHolder
+    items:
+    - hands: 2
+      whitelist:
+        components:
+        - XenoEgg
+  - type: RMCXenoDamageVisuals
+    prefix: drone
+  - type: TacticalMapIcon
+    icon:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: drone
+  - type: XenoConstruction
+    buildDelay: 2
+    canOrderConstruction:
+    - HiveCoreXenoConstructionNode
+    - HiveEggMorpherXenoConstructionNode
+    - HiveClusterXenoConstructionNode
+    - HiveRecoveryNodeXenoConstructionNode
+  - type: Evasion
+    evasion: 20
+  - type: XenoInhands
+    prefix: drone
+  - type: IntelRecoverCorpseObjectiveOnDeath
+    value: 0.1
+  - type: FixedIdentity
+    name: cm-job-name-xeno-drone
+  - type: RMCSurgeryXenoHeart
+    item: RMCOrganXenoHeartT1
+
+- type: entity
+  parent: SichXenoAIDroneBase
+  id: SichXenoAIDrone
+  components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideRoleDrone
+  - type: Sprite
+    sprite: _RMC14/Mobs/Xenonids/Drone/drone.rsi
+  - type: Xeno
+    actionIds:
+    - ActionXenoRest
+    - ActionXenoRegurgitate
+    - ActionXenoWatch
+    - ActionXenoTailStab
+    - ActionXenoAcidWeak
+    - ActionXenoPheromones
+    - ActionXenoOrderConstruction
+    - ActionXenoPlantWeeds
+    - ActionXenoChooseStructure
+    - ActionXenoSecreteStructure
+    - ActionXenoTransferPlasma
+  - type: XenoAcid
+  - type: AcidTrap
+    trapLevel: 1
+    cost: 70
+    spray: XenoAcidSprayTrapWeak
+  - type: XenoConstruction
+    canBuild:
+    - WallXenoResin
+    - WallXenoMembrane
+    - DoorXenoResin
+    - XenoStickyResin
+    - XenoFastResin
+  - type: VentCrawler
+    ventCrawlIcon: drone
+  - type: RMCActionOrder
+    id: CMXenoDrone

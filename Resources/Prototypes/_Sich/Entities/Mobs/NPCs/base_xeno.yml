@@ -1,0 +1,544 @@
+# Xeno AI
+- type: htnCompound
+  id: SichXenoCompound
+  branches:
+  - tasks:
+    - !type:HTNCompoundTask
+      task: SichXenoMeleeCombatCompound
+  - tasks:
+    - !type:HTNCompoundTask
+      task: IdleCompound
+
+# Selects a target in melee and tries to attack it.
+- type: htnCompound
+  id: SichXenoMeleeCombatCompound
+  branches:
+  - tasks:
+    - !type:HTNPrimitiveTask
+      operator: !type:UtilityOperator
+        proto: SichNearbyBarricadeOrEnemy
+    - !type:HTNCompoundTask
+      task: SichXenoBeforeMeleeAttackTargetCompound
+
+- type: htnCompound
+  id: SichXenoBeforeMeleeAttackTargetCompound
+  branches:
+    - preconditions:
+        - !type:BuckledPrecondition
+          isBuckled: true
+      tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:UnbuckleOperator
+            shutdownState: TaskFinished
+
+    - preconditions:
+        - !type:PulledPrecondition
+          isPulled: true
+      tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:UnPullOperator
+            shutdownState: TaskFinished
+
+    - preconditions:
+        - !type:InContainerPrecondition
+          isInContainer: true
+      tasks:
+        - !type:HTNCompoundTask
+          task: EscapeCompound
+
+    # Attack barricades, then attack melee targets
+    - tasks:
+        - !type:HTNCompoundTask
+          task: SichXenoMeleeAttackTargetCompound
+
+- type: htnCompound
+  id: SichXenoMeleeAttackTargetCompound
+  branches:
+    - preconditions:
+      - !type:KeyExistsPrecondition
+        key: Target
+      tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:MoveToOperator
+            shutdownState: PlanFinished
+            pathfindInPlanning: true
+            removeKeyOnFinish: false
+            targetKey: TargetCoordinates
+            pathfindKey: TargetPathfind
+            rangeKey: MeleeRange
+        - !type:HTNPrimitiveTask
+          operator: !type:JukeOperator
+            jukeType: Away
+        - !type:HTNPrimitiveTask
+          operator: !type:MeleeOperator
+            targetKey: Target
+          preconditions:
+            - !type:KeyExistsPrecondition
+              key: Target
+            - !type:TargetInRangePrecondition
+              targetKey: Target
+              rangeKey: MeleeRange
+          services:
+            - !type:UtilityService
+              id: MeleeService
+              proto: SichNearbyBarricadeOrEnemy
+              key: Target
+
+- type: utilityQuery
+  id: SichNearbyBarricadeOrEnemy
+  query:
+    - !type:NearbyHostilesQuery
+    - !type:ComponentQuery
+      components:
+        - type: Barricade
+        - type: Entity
+  considerations:
+    - !type:TargetDistanceCon
+      curve: !type:PresetCurve
+        preset: TargetDistance
+    - !type:TargetAccessibleCon
+      curve: !type:BoolCurve
+    - !type:TargetInLOSOrCurrentCon
+      curve: !type:BoolCurve
+
+- type: htnCompound
+  id: SichXenoBarricadeAttackTargetCompound
+  branches:
+    - preconditions:
+      - !type:KeyExistsPrecondition
+        key: Target
+      tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:MoveToOperator
+            shutdownState: PlanFinished
+            pathfindInPlanning: true
+            removeKeyOnFinish: false
+            targetKey: TargetCoordinates
+            pathfindKey: TargetPathfind
+            rangeKey: MeleeRange
+        - !type:HTNPrimitiveTask
+          operator: !type:JukeOperator
+            jukeType: Away
+        - !type:HTNPrimitiveTask
+          operator: !type:MeleeOperator
+            targetKey: Target
+          preconditions:
+            - !type:KeyExistsPrecondition
+              key: Target
+            - !type:TargetInRangePrecondition
+              targetKey: Target
+              rangeKey: MeleeRange
+          services:
+            - !type:UtilityService
+              id: MeleeService
+              proto: SichNearbyBarricade
+              key: Target
+
+- type: utilityQuery
+  id: SichNearbyBarricade
+  query:
+    - !type:ComponentQuery
+      components:
+        - type: Barricade
+        - type: Entity
+  considerations:
+    - !type:TargetDistanceCon
+      curve: !type:PresetCurve
+        preset: TargetDistance
+    - !type:TargetAccessibleCon
+      curve: !type:BoolCurve
+    - !type:TargetInLOSOrCurrentCon
+      curve: !type:BoolCurve
+
+- type: entity
+  id: SichXenoAIBase
+  suffix: ШІ
+  abstract: true
+  save: false
+  components: # TODO RMC14 camera recoil from large explosions? check 13
+  - type: HTN # TODO RMC14 needs to not target nested marines
+    rootTask:
+      task: SichXenoCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavInteract: !type:Bool
+        true
+      NavPry: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: Damageable
+    damageContainer: Xeno
+  - type: Destructible
+    thresholds: []
+  - type: RMCMedicalExamine
+    simple: true
+    deadText: rmc-medical-examine-dead-xeno
+  - type: RMCBlockMedicalExamine
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Critical
+      300: Dead
+    stateAlertDict:
+      Alive: XenoHealth
+      Critical: XenoCrit
+      Dead: XenoDead
+    displayDamageInAlert: true
+  - type: MobStateActions
+    actions:
+      Critical:
+      - CMActionGhost
+      Dead:
+      - CMActionGhost
+  - type: Deathgasp
+    prototype: CMXenoDeathGasp
+  - type: SoundOnDeath
+    sound:
+      collection: XenoDeath
+      params:
+        volume: -4
+  - type: RMCHealthExaminable
+  - type: AcidBloodSplash
+    damage:
+      types:
+        Heat: 25
+  - type: RMCDefibrillatorBlocked
+    popup: defibrillator-xeno
+    showOnExamine: false
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.2
+    baseSprintSpeed: 4
+  - type: Climbing
+  - type: Insulated
+  - type: Input
+    context: "xenonid"
+  - type: Clickable
+  - type: InteractionOutline
+  - type: InputMover
+  - type: LagCompensation
+  - type: MobMover
+  - type: Emoting
+  - type: Actions
+  - type: Alerts
+  - type: AreaInfo
+  - type: Appearance
+  - type: DoAfter
+  - type: Examiner
+  - type: Eye
+  - type: ContentEye
+  - type: CameraRecoil
+  - type: MindContainer
+    showExamineInfo: true
+  - type: StatusIcon
+  - type: RotationVisuals
+    defaultRotation: 0
+    horizontalRotation: 0
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+  - type: FireVisuals
+    sprite: Mobs/Effects/onfire.rsi
+    normalState: Generic_mob_burning
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    layers:
+    - map: [ "enum.XenoVisualLayers.Base" ]
+      state: alive
+    - map: [ "enum.RMCDamageVisualLayers.Base" ]
+      visible: false
+    - map: [ "enum.XenoInhandVisualLayers.Left" ]
+      visible: false
+    - map: [ "enum.XenoInhandVisualLayers.Right" ]
+      visible: false
+    - map: [ "focused" ]
+      sprite: _RMC14/Interface/xeno_hud.rsi
+      state: hudeye
+      visible: false
+    - map: [ "targetedDirection" ]
+      sprite: _RMC14/Effects/targeted.rsi
+      state: sniper_lockon_direction
+      visible: false
+    - map: [ "targetedDirectionIntense" ]
+      sprite: _RMC14/Effects/targeted.rsi
+      state: sniper_lockon_intense_direction
+      visible: false
+  - type: GenericVisualizer
+    visuals:
+      enum.TargetedVisuals.Targeted:
+        targeted:
+          None:
+            visible: false
+          Spotted:
+            sprite: _RMC14/Effects/targeted.rsi
+            state: spotter_lockon
+            visible: true
+          Targeted:
+            sprite: _RMC14/Effects/targeted.rsi
+            state: sniper_lockon
+            visible: true
+          TargetedIntense:
+            sprite: _RMC14/Effects/targeted.rsi
+            state: sniper_lockon_intense
+            visible: true
+      enum.TargetedVisuals.TargetedDirection:
+        targetedDirection:
+          True: { visible: true}
+          False: { visible: false}
+      enum.TargetedVisuals.TargetedDirectionIntense:
+        targetedDirectionIntense:
+          True: { visible: true }
+          False: { visible: false }
+      enum.FocusedVisuals.Focused:
+        focused:
+          True: { visible: true}
+          False: { visible: false}
+  - type: Spottable
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        mask:
+        - MobMask
+        - BarbedBarricade
+        layer:
+        - MobLayer
+      fix2:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.40
+        density: 0
+        layer:
+        - BulletImpassable
+  - type: CMSurgeryTarget
+  - type: Body
+    prototype: Xenonid
+  - type: Xeno
+  - type: XenoRegen
+  - type: XenoStateVisuals
+  - type: UserInterface
+    interfaces:
+      enum.CMSurgeryUIKey.Key:
+        type: CMSurgeryBui
+      enum.XenoEvolutionUIKey.Key:
+        type: XenoEvolutionBui
+      enum.XenoDevolveUIKey.Key:
+        type: XenoDevolveBui
+      enum.XenoWatchUIKey.Key:
+        type: XenoWatchBui
+      enum.XenoChooseStructureUI.Key:
+        type: XenoChooseStructureBui
+      enum.XenoPheromonesUI.Key:
+        type: XenoPheromonesBui
+      enum.XenoOrderConstructionUI.Key:
+        type: XenoOrderConstructionBui
+      enum.XenoFruitChooseUI.Key:
+        type: XenoFruitChooseBui
+      enum.XenoWordQueenUI.Key:
+        type: XenoWordQueenBui
+      enum.TacticalMapUserUi.Key:
+        type: TacticalMapUserBui
+      enum.XenoReserveParasiteChangeUI.Key:
+        type: ReserveParasitesBoundUserInterface
+      enum.XenoParasiteGhostUI.Key:
+        type: XenoParasiteGhostBui
+        requireInputValidation: false
+      enum.DialogUiKey.Key:
+        type: DialogBui
+  - type: TypingIndicator
+    proto: alien
+  - type: MovedByPressure
+  - type: NoSlip
+  - type: RMCSize
+    size: Xeno
+  - type: Pullable
+  - type: Speech
+    speechVerb: Xeno
+    allowedEmotes: [ "Growl", "Hiss", "XenoRoar", "XenoHelp", "XenoTailSwipe" ]
+  - type: GhostOnMove
+    mustBeDead: true
+  - type: WhitelistPickup
+  - type: DropHeldOnIncapacitate
+  - type: NightVision
+    alert: XenoNightVision
+    overlay: true
+  - type: ParalyzeOnPullAttemptImmune
+  - type: InfectOnPullAttemptImmune
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+    - SlowedDown
+    - Muted
+    - Dazed
+    - Blinded
+    - Unconscious
+    - TemporaryBlindness
+    - Deaf
+  - type: ImmuneToClothingRequiredStepTrigger
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Hivemind
+  - type: ActiveRadio
+    channels:
+    - Hivemind
+  - type: StandingState
+  - type: SlowOnPull
+    slowdowns:
+      - multiplier: 0.6
+        whitelist:
+          components:
+          - Marine
+      - multiplier: 0.665
+        whitelist:
+          components:
+          - XenoLight
+      - multiplier: 0.445
+        whitelist:
+          components:
+          - XenoHeavy
+  - type: PullWhitelist
+    whitelist:
+      components:
+      - Xeno
+      - Infectable
+      - Synth
+  - type: BlockPullingDead
+  - type: XenoFriendly
+  - type: Undisposable
+  - type: ShortExamine
+  - type: DamageMobState
+    critDamage:
+      groups:
+        Brute: 1.25
+  - type: AffectableByWeeds
+  - type: ComplexInteraction
+  - type: UserLimitHits
+  - type: MovementIgnoreGravity
+  - type: DisableConstruction
+  - type: XenoAnnounceDeath
+    message: cm-xeno-death
+    color: "#459A62"
+  - type: ExplosionResistance
+    damageCoefficient: 2
+  - type: NpcFactionMember
+    factions:
+    - RMCXeno
+  - type: RMCNightVisionVisible
+  - type: CrashLandable
+  - type: UserBlacklistActivatableUI
+    keys:
+    - enum.VendingMachineUiKey.Key
+    - enum.PaperUiKey.Key
+    - enum.RMCCameraUiKey.Key
+  - type: HiveTracker
+    trackerModes:
+    - Queen
+    - HiveLeader
+    - Tunnel
+    - HiveCore
+  - type: RequireProjectileTarget
+    active: false
+  - type: TacticalMapTracked
+  - type: TacMapXenoAlert
+  - type: TacticalMapUser
+    actionId: RMCActionOpenTacticalMapXeno
+    xenos: true
+  - type: TacticalMapLiveUpdateOnOvi
+    enabled: true
+  - type: MotionDetectorTracked
+  - type: TacticalMapIcon
+    icon:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: xeno
+    background:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_xeno
+  - type: XenoMapTracked
+  - type: Evasion
+  - type: RMCWeaponAccuracy # This is so projectiles fired by xenos get a correctly-generated seed for RNG.
+  - type: StunOnExplosionReceived
+    weak: true
+  - type: AssignXenoName
+  - type: MobGibbedByExplosionType
+  - type: TileFirePatter
+  - type: CanBeFirePatted
+  - type: BlockIdExamine
+  - type: NoStunOnExit
+  - type: RMCSpeciesSlowdownModifier
+    slowModifier: 0.75
+    superSlowModifier: 1.5
+    durationMultiplier: 0.666
+  - type: RMCCanBeFultoned
+  - type: CMArmor
+  - type: CriticalGraceTime
+  - type: RMCObstacleSlamming
+  - type: Buckle
+    buckleDelay: 0
+    clickUnbuckle: false
+  - type: BuckleWhitelist
+    whitelist:
+      tags:
+      - CMRollerBed
+  - type: RMCBuckleDrawDepth
+    buckleDepth: Mobs
+  - type: RMCBuckleOffset
+    offset: 0, 0.5
+  - type: RMCArmorModifier
+  - type: RMCObstacleSlamCauserImmune
+  - type: RMCMobCollisionMass
+  - type: XenoRankNames
+  - type: Blindable
+  - type: FixedIdentity
+    name: cm-xeno-name
+    whitelist:
+      components:
+      - Marine
+  - type: EmoteCooldown
+  - type: RMCMesonsNonviewable
+    xenoVisible: true
+
+- type: entity
+  id: SichXenoAIDeveloped
+  parent:
+  - SichXenoAIBase
+  - CMXenoPrying
+  - CMXenoPuller
+  - CMXenoMelee
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: Hands
+    examineShowEmpty: false
+  - type: GiveHands
+    hands:
+    - name: Right Hand
+      location: Right
+    - name: Left Hand
+      location: Left
+  - type: WhitelistPickup
+    whitelist:
+      components:
+      - XenoFruit
+  - type: ParalyzeOnPullAttempt
+  - type: FirePatter
+    stacks: -5
+  - type: RMCHandEmotes
+  - type: XenoToggleChargingKnockback
+  - type: XenoCanAddPlasmaToConstruct
