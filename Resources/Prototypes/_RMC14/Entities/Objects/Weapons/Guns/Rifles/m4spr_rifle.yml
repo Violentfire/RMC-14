@@ -64,6 +64,7 @@
       rmc-aslot-barrel:
         whitelist:
           tags:
+          - RMCSichAttachmentBarrelGrenadeLauncher
           - RMCAttachmentExtendedBarrel
           - RMCAttachmentExtendedCompensator
           - RMCAttachmentSuppressor
