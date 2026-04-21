@@ -1,0 +1,89 @@
+﻿<Document>
+  # Капітальні злочини
+  - Ці злочини є особливо тяжкими.
+  - Усі ці злочини можуть каратися [bold]Довічним ув'язненням та пониженням або стратою і видаленням особистості.[/bold]
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+        Звинувачення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Опис
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Втеча із в'язниці
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Втеча, допомога у втечі, спроба втекти або бути навмисно та свідомо вирватися з камери.
+      </Box>
+    </ColorBox>
+
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Замах на вбивство
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Безуспішна спроба вбивства. Якщо докази свідчать, що арештована особа ясно пробувала вбити когось зі злими намірами, проте невдало.
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Вбивство/Незаконна страта
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Вбивство зі злим наміром. Це включає синтетичних осіб. Звинувачення застосовується, навіть якщо потерпілого пізніше реанімують. Страти є легальними лише відповідно до Процедури Страт.
+        \nThis also includes refusing or preventing to revive anyone not executed by the execution procedure.
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Заколот
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Здійснення дій або відмова виконувати накази з метою повалення або узурпації законної командної структури.
+        Створення значної загрози для корабля без відома та схвалення [color=#008000][bold]Командувача[/bold][/color] підпадає під категорію заколоту.
+        [color=#90EE90][bold]Офіцер Чергування[/bold][/color] не має права схвалювати дії, які підпадають під цю категорію.
+        Проголошення лояльності або дії від імені, нібито, ФВК є актом заколоту проти ОН.
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Дезертирство
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Відмова виконувати обов'язки, відповідні для займаної посади, або самовільне залишення поста без наміру повернутися. (Відступ з планети при прориві ПОБ не вважається дезертирством; відмова повертатися за наказом вважається.)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Злочини проти людяності
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Здійснення дій, що порушують права розумних істот або є особливо жорстокими злочинами проти розумних істот. Прикладами є тортури, канібалізм та примусове зараження будь-яким чином.
+      </Box>
+    </ColorBox>
+
+  </Table>
+</Document>

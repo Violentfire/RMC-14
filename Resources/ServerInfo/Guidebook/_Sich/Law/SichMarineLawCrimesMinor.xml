@@ -1,0 +1,150 @@
+﻿<Document>
+  # Дрібні злочини
+  - Ці злочини є незначними та можуть каратися ПП або попередженням.
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        Звинувачення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Опис
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Покарання
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Недотриманя процедур
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Недотримання регламентів Стандартний Операційних Процедур.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин, конфіскація спорядження де релевантно.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Куріння в медичних зонах
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Куріння в зонах, визначених для використання медичним персоналом, наприклад, увесь медичний відділ та операційні.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Хуліганство
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Поведінка, яку можна окреслити як загальні порушення порядку на кораблі та серед екіпажу, що є дрібними витівками. Наприклад, надмірне стукання в вікна, примусове годування інших або неналежна поведінка під час брифінгу. Це може ескалюватися до [bold]Порушення порядку[/bold].
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]ПП.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Проникнення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Несанкціонований доступ до зони, до якої особа зазвичай не має доступу, або без дозволу командування/вищестоящої особи.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]Випровадження з зони та опціонально 7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Інтоксикація
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Вживання алкоголю або інших речовин, зокрема алкогольних чи галюциногенних препаратів, що призводить до погіршення виконання службових обов'язків.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин, з продовженям строку до витверезіння.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Крадіжка
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Заволодіння предметами (або майном), що належать іншій особі чи організації, без їхнього прямого дозволу, а також утримання у володінні предметів, отриманих без дозволу. Це також включає вилучення вендорів із зон підрозділів без належного дозволу.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин, та повернення предметів до власника.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Неповага до вищестоящого
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Використання лайки або пряма неповага до особи вищого звання чи посади.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]ПП.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Неправдиві свідчення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Навмисне надання неправдивої інформації під час кримінального розслідування з наміром зірвати це розслідування.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+  </Table>
+</Document>

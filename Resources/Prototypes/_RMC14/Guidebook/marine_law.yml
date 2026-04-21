@@ -2,7 +2,8 @@
   parent: RMC
   id: RMCMarineLaw
   name: rmc-guide-entry-rules-marine-law
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLaw.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLaw.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLaw.xml"
   priority: 3
   children:
   - RMCCommandChain
@@ -22,20 +23,23 @@
   id: RMCCommandChain
   name: rmc-guide-entry-rules-command-chain
   priority: 0
-  text: "/ServerInfo/Guidebook/_RMC14/Rules/Roleplay/RMCCommandChain.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Rules/Roleplay/RMCCommandChain.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Rules/Roleplay/SichCommandChain.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawRanks
   name: rmc-guide-entry-marine-law-ranks
   priority: 0
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawRanks.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawRanks.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawRanks.xml"
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawDefinitions
   name: rmc-guide-entry-marine-law-definitions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDefinitions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDefinitions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawDefinitions.xml"
   priority: 1
 
 # Procedures
@@ -43,7 +47,8 @@
   parent: RMC
   id: RMCMarineLawProcedures
   name: rmc-guide-entry-marine-law-procedures
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawProcedures.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawProcedures.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawProcedures.xml"
   priority: 2
   children:
   - RMCMarineLawArresting
@@ -58,49 +63,56 @@
   parent: RMC
   id: RMCMarineLawArresting
   name: rmc-guide-entry-marine-law-arresting
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawArresting.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawArresting.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawArresting.xml"
   priority: 1
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCharging
   name: rmc-guide-entry-marine-law-charging
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCharging.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCharging.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCharging.xml"
   priority: 2
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawNJP
   name: rmc-guide-entry-marine-law-njp
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawNJP.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawNJP.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawNJP.xml"
   priority: 3
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawLethal
   name: rmc-guide-entry-marine-law-lethal
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawLethal.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawLethal.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawLethal.xml"
   priority: 4
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawSearches
   name: rmc-guide-entry-marine-law-searches
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSearches.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSearches.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawSearches.xml"
   priority: 5
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawDemotions
   name: rmc-guide-entry-marine-law-demotions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDemotions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawDemotions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawDemotions.xml"
   priority: 6
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawExecutions
   name: rmc-guide-entry-marine-law-executions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawExecutions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawExecutions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawExecutions.xml"
   priority: 7
 
 # Crimes
@@ -108,7 +120,8 @@
   parent: RMC
   id: RMCMarineLawCrimes
   name: rmc-guide-entry-marine-law-crimes
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimes.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimes.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimes.xml"
   priority: 3
   children:
   - RMCMarineLawCrimesVariable
@@ -121,35 +134,40 @@
   parent: RMC
   id: RMCMarineLawCrimesVariable
   name: rmc-guide-entry-marine-law-crimes-variable
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesVariable.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesVariable.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesVariable.xml"
   priority: 0
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCrimesMinor
   name: rmc-guide-entry-marine-law-crimes-minor
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMinor.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMinor.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesMinor.xml"
   priority: 1
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCrimesMajor
   name: rmc-guide-entry-marine-law-crimes-major
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMajor.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesMajor.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesMajor.xml"
   priority: 2
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCrimesCapital
   name: rmc-guide-entry-marine-law-crimes-capital
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesCapital.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesCapital.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesCapital.xml"
   priority: 3
 
 - type: guideEntry
   parent: RMC
   id: RMCMarineLawCrimesPrecautionary
   name: rmc-guide-entry-marine-law-crimes-precautionary
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesPrecautionary.xml"
+#  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCrimesPrecautionary.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCrimesPrecautionary.xml"
   priority: 4
 
 # Prisoner Rights
@@ -157,7 +175,8 @@
   parent: RMC
   id: RMCMarineLawPrisonerRights
   name: rmc-guide-entry-marine-law-prisoner-rights
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawPrisonerRights.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawPrisonerRights.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawPrisonerRights.xml"
   priority: 4
 
 # Appeals
@@ -165,7 +184,8 @@
   parent: RMC
   id: RMCMarineLawAppeals
   name: rmc-guide-entry-marine-law-appeals
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawAppeals.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawAppeals.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawAppeals.xml"
   priority: 5
 
 # Special Circumstances
@@ -173,7 +193,8 @@
   parent: RMC
   id: RMCMarineLawSpecialProvisions
   name: rmc-guide-entry-marine-law-special-provisions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSpecialProvisions.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSpecialProvisions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawSpecialProvisions.xml"
   priority: 6
 
 # Synthetics
@@ -181,7 +202,8 @@
   parent: RMC
   id: RMCMarineLawSynthetics
   name: rmc-guide-entry-marine-law-synthetics
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSynthetics.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawSynthetics.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawSynthetics.xml"
   priority: 7
 
 # Commanding Officer provisions and regulations
@@ -189,7 +211,8 @@
   parent: RMC
   id: RMCMarineLawCOProvisions
   name: rmc-guide-entry-marine-law-co-provisions
-  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCOProvisions.xml"
+#  text: "/ServerInfo/Guidebook/_RMC14/Law/RMCMarineLawCOProvisions.xml"
+  text: "/ServerInfo/Guidebook/_Sich/Law/SichMarineLawCOProvisions.xml"
   priority: 8
 
   # SOP
@@ -199,7 +222,8 @@
   parent: RMC
   id: RMCMarineSOP
   name: rmc-guide-entry-marine-sop
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOP.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOP.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOP.xml"
   priority: 9
   children:
   - RMCMarineSOPGeneral
@@ -215,7 +239,8 @@
   parent: RMC
   id: RMCMarineSOPGeneral
   name: rmc-guide-entry-marine-sop-general
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPGeneral.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPGeneral.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPGeneral.xml"
   priority: 1
 
 # Equipment Regulations
@@ -223,7 +248,8 @@
   parent: RMC
   id: RMCMarineSOPEquipment
   name: rmc-guide-entry-marine-sop-equipment
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPEquipment.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPEquipment.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPEquipment.xml"
   priority: 2
 
 # Department Regulations
@@ -231,7 +257,8 @@
   parent: RMC
   id: RMCMarineSOPDepartment
   name: rmc-guide-entry-marine-sop-department
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPDepartment.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPDepartment.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPDepartment.xml"
   priority: 3
 
   # NON-Modifiable
@@ -241,7 +268,8 @@
   parent: RMC
   id: RMCMarineSOPNONModDepartment
   name: rmc-guide-entry-marine-sop-nonmod-department
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModDepartment.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModDepartment.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPNONModDepartment.xml"
   priority: 4
 
 # NON-Modifiable Command
@@ -249,7 +277,8 @@
   parent: RMC
   id: RMCMarineSOPNONModCommand
   name: rmc-guide-entry-marine-sop-nonmod-command
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModCommand.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModCommand.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPNONModCommand.xml"
   priority: 5
 
 # NON-Modifiable Deployment Restrictions
@@ -257,7 +286,8 @@
   parent: RMC
   id: RMCMarineSOPNONModDeployment
   name: rmc-guide-entry-marine-sop-nonmod-deployment
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModDeployment.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModDeployment.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPNONModDeployment.xml"
   priority: 6
 
 # NON-Modifiable Third Parties
@@ -265,5 +295,6 @@
   parent: RMC
   id: RMCMarineSOPNONModThirdparty
   name: rmc-guide-entry-marine-sop-nonmod-thirdparty
-  text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModThirdParty.xml"
+# text: "/ServerInfo/Guidebook/_RMC14/SOP/RMCMarineSOPNONModThirdParty.xml"
+  text: "/ServerInfo/Guidebook/_Sich/SOP/SichMarineSOPNONModThirdParty.xml"
   priority: 7

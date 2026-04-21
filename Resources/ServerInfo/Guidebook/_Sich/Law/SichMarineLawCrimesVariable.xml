@@ -1,0 +1,195 @@
+﻿<Document>
+  # Змінні злочини
+  - Ці злочини можуть бути різного ступеня тяжкості та мати відповідні покарання.
+  <Table Columns="4">
+    <ColorBox>
+      <Box>
+        Звинувачення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Опис
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Дрібні
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Тяжкі
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Пошкодження майна КМПОН
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Пошкодження корабля або внесення будь-яких несанкціонованих модифікацій до нього, як зазначено в Стандартних Операційних Процедурах.\nМатеріали для ремонту слід брати зі сховищ для технічного обслуговування.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Розбите вікно, пошкоджена стінка, і так далі.\n[bold]Повернути корабель у попередній стан, або 7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Більш грубі порушення, до чого відноситься знищення /демонтаж стін чи кількох вікон.\n[bold]10 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Несубординація
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Невиконання законного наказу вищестоящої особи за рангом або посадою, перебуваючи під його командуванням. \n[italic]Це не стосується наказів, виданих особі з наміром заарештувати, замість цього вона має звинувачуватися у [bold]Опорі арешту[/bold][/italic]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Невиконання наказу, який не був особисто спрямованим.\n[bold]7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Невиконання наказу, який був персонально спрямований з використанням ім'я, або з чітким призначенням для звинуваченного.\n[bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Перешкоджання
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Перешкоджання проведенню легального арешту.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Перешкоджання без злого наміру, наприклад, блокування шляху або допомога комусь піднятися.\n[bold]7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Перешкоджання зі зілим наміром, чітко зазначена, під час проведення арешту.\n[bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне використання підслуховуючих пристроїв
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Несанкціоноване використання підслуховуючих пристроїв з порушенням Стандартних Операційних Процедур.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне розміщення прослуховувального пристрою в громадських місцях, наприклад у спортзалі.\n[bold]7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне розміщення прослуховувального пристрою в закритій зоні, наприклад БІЦ або офіс ПК.\n[italic]Якщо пристрій для прослуховування також пов'язаний з іноземним урядом чи терористичною організацією, це додатково вважається Саботажем[/italic].\n[bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Опір Арешту
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Опиратися або відмовлятися підкорюватися законному арешту, затриманню, обшуку чи ПП.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Відмова підкорюватися.\n[bold]5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Опір через втечу або силу.\n[bold]10 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Пособництво та підбурювання
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Сприяння іншим особам у вчиненні злочину, прямо чи опосередковано, або заохочення їх до його вчинення. Будь-якій особі, яка пособничала та сприяла, необхідно розповісти про злочини особи, якій вони допомагали.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]Таке ж покарання, як і за скоєний злочин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]Таке ж покарання, як і за скоєний злочин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Порушення порядку в \Ув'язненні
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Спричинення серйозних порушень порядку під час перебування в бригу та під арештом. Це можна додати до будь-якого звинувачення.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Дрібне порушення під час арешту або в Тюрмі.\n[bold]7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Тяжке порушення під час арешту або в Тюрмі.\n[bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Навмисне публічне лихоліття
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Неправдиві заяви, які звинувачують когось у вчиненні правопорушення. \nБудь-які дії з метою викликати підозру у вчиненні злочину, якого ця особа не вчиняла. \nДля відвернення підозри від себе, повідомялючи про скоєне правопорушення, хоча його не було скоєно. \nНеправдиві заяви щодо розслідування вважаються [bold]Неправдивими свідченнями[/bold].
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Заява про дрібний злочин.\n[bold]7.5 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Заява про тяжкий, або вище, злочин.\n[bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+  </Table>
+</Document>

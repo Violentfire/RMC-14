@@ -1,0 +1,202 @@
+﻿<Document>
+  # Тяжкі злочини
+  - Ці злочини мають високу тяжкість.
+  <Table Columns="3">
+    <ColorBox>
+      <Box>
+        Звинувачення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Опис
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Покарання
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Порушення порядку
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Пряме та навмисне зривання основних операцій корабля. Бійки у чергі постачання, значне або неодноразове зривання брифінгу.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Саботаж
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Виконання завдань або наявність доказів, що описують заплановані дії, спрямовані проти КМПОН. Потрібні переконливі докази того, що особа діє на шкоду КМПОН.\n[italic]Тяжке обвинувачення у Несанкціонованjve використаннs підслуховуючих пристроїв, якщо такий пристрій також пов`язаний з іноземним урядом або терористичною організацією, додатково кваліфікується як Саботаж.[/italic]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]15 хвилин, видалення особистості та видалення на планету.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Невиконання службових обов'язків
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Невиконання або неналежне виконання своїх службових обов'язків на прийнятному рівні. [italic]Наприклад, [color=#008000][bold]Командувач[/bold][/color], який не забезпечує належної організації та доведення наказів до підлеглого персоналу; невиконання встановлених процедур на шкоду службовим обов'язкам; або члени екіпажу корабля, які залишають корабель чи своє робоче місце без дозволу [color=#008000][bold]Командувача[/bold][/color] або голови свого відділу.[/italic]
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Напад
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Погроза застосування або застосування фізичної сили щодо іншої особи зі злим наміром, але без наміру вбивства.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]15 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Свавілля
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Умисне затримання або арешт особи за завідомо неправдивими обвинуваченнями з власної ініціативи. Застосування неправомірного ПП.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Ненамисне вбивство
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Вбивство без злих намірів. Звинувачення у ненавмивствому вбивстві можуть бути висунуті, у разі смерті як результат бійки, де не було наміру вбити.
+        \nЦе також включає ігнорування спроб реанімувати особу без явних причин, якщо її попередньо не було страчено.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин, та/або пониження.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Озброєний напад
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Погроза застосування або застосування фізичної сили проти іншої особи зі злим наміром із використанням зброї, такої як пістолет, клинок або гвинтівка, але без наміру вбивства.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне ув'язнення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Незаконне затримання особи проти її волі. Включає викрадення, взяття у заручники та ув'язнення до камер без жодних звинувачень. Це не стосується військовополонених.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Жорстоке поводження з тваринами
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Завдання шкоди або вбивство домових або диких тварин зі злими намірами. Мавпи, які використовуються для досліджень хімікатів, наукових цілей чи ворожа фауна є виключенням.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]30 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Зловживання владою
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Зловживання владою [color=#ff000d][bold]ВСП[/bold][/color] у злочинних цілях.
+        \n[italic]Прикладами є побиття поваленого ув'язненого, надмірне застосування шкідливої або несмертельної сили, або інші зловживання, які призвели до шкоди особі під вартою.[/italic]. До затриманих підозрюваних не слід застосовувати більше сили, ніж необхідно для їхньої нейтралізації.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]20 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Неавторизована висадка
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Розгортання в зону операцій без дозволу чинного голови відділу або [color=#008000][bold]Командувача[/bold][/color], де це доречно, продовжуючи виконувати свої обов'язки. (наприклад, лікар, що висадився для виконання операції.) Розгортання без мети виконання обов'язків є Дезертирством.
+        \n- Голова відділу або [color=#008000][bold]Командувач[/bold][/color] можуть заднім числом дозволити розгортання, де це доречно. [color=#008000][bold]Командувач[/bold][/color] має останній голос щодо цього.
+        \n- Відповідний Голова відділу [color=#008000][bold]Командувач[/bold][/color] можуть назначити іншу особу на розгортання для заміни неавторизованої, в такому випадку [color=#ff000d][bold]ВСП[/bold][/color] повинні кооридинуватися з вибраною особою, щоби запобігти непорозумінь. Максимальний термін цього періоду становить п'ять хвилин.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        [bold]10 хвилин.[/bold]
+      </Box>
+    </ColorBox>
+
+  </Table>
+</Document>

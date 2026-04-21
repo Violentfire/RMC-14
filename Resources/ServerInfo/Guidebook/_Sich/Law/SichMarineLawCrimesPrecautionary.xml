@@ -1,0 +1,54 @@
+﻿<Document>
+  # Превентивні злочини
+  - Ці звинувачення використовуються для ув'язнення людей на невизначений термін.
+  <Table Columns="2">
+    <ColorBox>
+      <Box>
+        Звинувачення
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box>
+        Опис
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Божевілля
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Оголошується виключно [bold]Головним Лікарем[/bold] або синтетиком у випадках, коли поведінка особи свідчить про відсутність ясності розуму. Після підтвердження психічної осудності суб'єкт може бути звільнений від цього конкретного обвинувачення.
+        \nЗа відсутності [bold]Головного Лікаря[/bold] або синтетика, [color=#008000][bold]Командувач[/bold][/color] або [color=#8B0000][bold]Голова ВСП[/bold][/color] можуть призначити офіцера медичного відділу для проведення оцінки замість них.
+        \nВинятком є випадки підтвердженого самогубства або спроби самогубства; у таких ситуаціях суб'єкт має право подати апеляцію або звернутися з апеляцією до будь-якого медичного персоналу.
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Військовополонений
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Належність до ворожої сторони законної та визнаної фракції. (Наприклад, ФВК та СПН)
+        \nВійськовополонені не можуть бути страчені. Див. [textlink="Треті сторони" link="RMCMarineSOPNONModThirdparty"] для отримання додаткової інформації та винятків.
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Дискреційне утримання
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="3">
+        Дискреційне обвинувачення, що застосовується [color=#00CBFE][bold]Командуючим Офіцером[/bold][/color] для утримання персоналу з будь-яких причин — в інтересах успішного проведення операції або безпеки.
+        \nЦе рішення може бути оскаржене виключно до [color=#00CBFE][bold]Командуючого Офіцера[/bold][/color] або [color=#ffa500][bold]Офісу Маршалів Провосту[/bold][/color] і може бути скасоване у будь-який момент за рішенням [color=#00CBFE][bold]Командуючого Офіцера[/bold][/color]..
+      </Box>
+    </ColorBox>
+
+  </Table>
+</Document>
