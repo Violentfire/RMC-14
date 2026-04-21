@@ -1,7 +1,7 @@
 - type: entity
   id: RMCMirror
-  name: mirror
-  description: Mirror mirror on the wall, who's the most robust of them all?
+  name: дзеркало
+  description: "Дзеркальце, правду скажи-но мені: Хто в нас найкращий, у цій стороні?"
   placement:
     mode: SnapgridCenter
   components:

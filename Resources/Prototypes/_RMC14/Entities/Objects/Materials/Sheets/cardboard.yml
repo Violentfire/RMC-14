@@ -18,7 +18,8 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetCardboard
-  name: cardboard
+  name: картон
+  description: Шматки щільного багатошарового матеріалу схожого на папір. Зроблено у формі зручній для того, щоб скласти його у коробку для зберігання будь-чого. # Sich
   suffix: Full, RMC
   components:
   - type: RMCConstructionItem

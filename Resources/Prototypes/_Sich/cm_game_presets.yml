@@ -3,6 +3,8 @@
   alias:
   - calmed
   - Calmed
+  - extended
+  - Extended
   name: sich-calmed-preset-title
   description: sich-calmed-preset-description
   showInVote: true
