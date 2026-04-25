@@ -1,0 +1,68 @@
+- type: entity
+  parent: CMPlatform
+  id: HunterPlatform
+  name: платформа
+  description: Масивна металева платформа. Бережіть ноги!
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/platforms.rsi
+    state: hunter_platform
+  - type: Construction
+    graph: HunterPlatformBaseDestructible
+    node: start
+
+- type: entity
+  parent: CMPlatformBaseBroken
+  id: HunterPlatformBroken
+  name: зруйнована платформа
+  description: Квадратна металева поверхня. Вона була зруйнована.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/platforms.rsi
+    state: hunter_platform_broken
+  - type: Construction
+    graph: HunterPlatformBaseDestructible
+    node: platformBroken
+
+- type: entity
+  parent: RMCPlatformRound
+  id: HunterPlatformRound
+  name: платформа
+  description: Масивна металева платформа. Бережіть ноги!
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/platforms.rsi
+    state: hunter_platform_round
+  - type: Construction
+    graph: HunterPlatformBaseDestructible
+    node: start
+
+- type: entity
+  parent: CMPlatformCorner
+  id: HunterPlatformCorner
+  name: платформа
+  description: Масивна металева платформа. Бережіть ноги!
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/platforms.rsi
+    state: hunter_platform_corner
+  - type: Construction
+    graph: HunterPlatformBaseDestructible
+    node: start
+  
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: HunterPlatformCornerSmall
+  name: платформа
+  description: Масивна металева платформа. Бережіть ноги!
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/platforms.rsi
+    state: hunter_platform_deco
+  - type: Construction
+    graph: HunterPlatformBaseDestructible
+    node: start

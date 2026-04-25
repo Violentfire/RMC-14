@@ -1,0 +1,112 @@
+- type: entity
+  parent: HuntTechBaseAnchorable
+  id: HuntTech
+  name: Стійка спорядження мисливця
+  description: Масивна стійка з спорядженням для полювання
+  components:
+  - type: CMAutomatedVendor
+    hackable: true
+    sections:
+    - name: Основні мисливські припаси
+      takeAll: CMStandard
+      entries:
+      - id: VendorBundleHunterClothing
+        name: Мисливське спорядження
+        recommended: true
+        amount: 3
+      - id: VendorBundleHunterArmor
+        name: Броня
+        recommended: true
+        amount: 3
+    - name: Основна зброя
+      choices: { HunterMelee: 1 }
+      entries:
+      - id: HunterSword
+        name: Основний мисливський меч
+        amount: 3
+      - id: HunterSwordRending
+        name: Роздираючий мисливський меч
+        amount: 3
+      - id: HunterSwordPiercing
+        name: Плазмовий мисливський меч
+        amount: 3
+      - id: HunterSwordSevering
+        name: Відтинаючий мисливський меч
+        amount: 3
+      - id: HunterStaff
+        name: Посох Таруулана
+        amount: 3
+      - id: HunterScytheCleaving
+        name: Бойова коса
+        amount: 3
+      - id: HunterWarAxe
+        name: Сокира війни
+        amount: 3
+      - id: HunterGlaiveLumbering
+        name: Громіздка глефа
+        amount: 3
+      - id: HunterGlaiveImposing
+        name: Велична глефа
+        amount: 3
+      - id: HunterLongAxe
+        name: Дробляча довга сокира
+        amount: 3
+      - id: HunterCombistick
+        name: Комбі-Жезл
+        amount: 3
+    - name: Модулі для браслетів
+      choices: { HunterModule: 1 }
+      entries:
+      - id: RMCHunterClawModule
+        name: Наручні кігті
+        amount: 3
+    - name: Аксесуари
+      entries:
+      - id: RMCHunterCape
+        name: Плащ
+        amount: 3
+      - id: RMCHunterCapeCeremonial
+        name: Церемоніальний плащ
+        amount: 3
+  - type: UserInterface
+    interfaces:
+      enum.CMAutomatedVendorUI.Key:
+        type: SichHunterVendorBui
+  - type: ActivatableUI
+    key: enum.CMAutomatedVendorUI.Key
+
+- type: entity
+  parent: HuntTech
+  id: HuntTechleft
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Machines/VendingMachines/hunter.rsi
+    state: left
+    offset: 0, 0.5
+
+- type: entity
+  parent: HuntTech
+  id: HuntTechlcenter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Machines/VendingMachines/hunter.rsi
+    state: lcenter
+    offset: 0, 0.5
+
+- type: entity
+  parent: HuntTech
+  id: HuntTechrcenter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Machines/VendingMachines/hunter.rsi
+    state: rcenter
+    offset: 0, 0.5
+
+- type: entity
+  parent: HuntTech
+  id: HuntTechright
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Machines/VendingMachines/hunter.rsi
+    state: right
+    offset: 0, 0.5

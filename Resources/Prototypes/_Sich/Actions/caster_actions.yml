@@ -1,0 +1,39 @@
+- type: entity
+  id: ActionToggleHunterCaster
+  name: Розгорнути плазмовий кастер
+  description: Розгортає наплічний плазмовий кастер та готує його до стрільби.
+  components:
+  - type: Action
+    icon: { sprite: _Sich/Actions/hunter_action.rsi, state: plasma }
+    itemIconStyle: NoItem
+  - type: RMCActionBackground
+    background:
+      sprite: _Sich/Actions/hunter_action.rsi
+      state: hunter_template
+    backgroundOn:
+      sprite: _Sich/Actions/hunter_action.rsi
+      state: hunter_template_on
+  - type: InstantAction
+    event: !type:HunterCasterActionEvent
+
+- type: entity
+  id: HunterCaster
+  name: плазмовий кастер
+  description: Наплічна енергетична зброя мисливців. Використовуйте Space для зміни режимів.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Weapons/caster.rsi
+    state: plasma_bone
+  - type: Item
+    sprite: _Sich/Objects/Weapons/caster.rsi
+  - type: HunterCaster
+  - type: Unremoveable
+  - type: UniqueAction
+  - type: Gun
+    fireRate: 1
+    useAction: true
+  - type: HunterCasterAmmoProvider
+    fireCost: 30
+    proto: ProjectileHunterStun
+  - type: StaticPrice
+    price: 5000

@@ -1,0 +1,10 @@
+- type: entity
+  parent: RMCMarineUniformBase
+  id: RMCHunterUniform
+  name: уніформа мисливця
+  description: Проста, але міцна уніформа мисливця.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Uniforms/hunter.rsi
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/Uniforms/hunter.rsi

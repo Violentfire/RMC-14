@@ -1,0 +1,18 @@
+- type: entity
+  id: HunterActionTranslator
+  parent: BaseAction
+  name: hunter-action-translator-name
+  description: hunter-action-translator-desc
+  components:
+  - type: Action
+    useDelay: 0
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Sich/Interface/Actions/translator.rsi
+      state: icon
+  - type: RMCActionBackground
+    background:
+      sprite: _Sich/Actions/hunter_action.rsi
+      state: hunter_template
+  - type: InstantAction
+    event: !type:HunterTranslatorActionEvent

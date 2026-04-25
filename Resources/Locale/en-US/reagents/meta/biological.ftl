@@ -30,3 +30,11 @@ reagent-desc-vomit = You can see a few chunks of someone's last meal in it.
 
 reagent-name-grey-matter = grey matter
 reagent-desc-grey-matter = Thought juice, the stuff that leaks out of your ears.
+
+reagent-name-hunter-blood = зелена кров
+reagent-desc-hunter-blood = Дивна зелена рідина, схожа на кислоту, але з виразним металевим запахом.
+
+reagent-name-cellular-biomass = клітинна біомаса
+reagent-desc-cellular-biomass = Суміш стовбурових клітин та нанітів для швидкої регенерації тканин.
+
+reagent-physical-desc-cellular-biomass = густа синя паста

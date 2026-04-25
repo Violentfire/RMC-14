@@ -1,11 +1,24 @@
 ﻿- type: npcFaction
   id: UNMC
   hostile:
+  - Hunters
   - RMCXeno
   - CLF
 
 - type: npcFaction
   id: RMCXeno
+  hostile:
+  - Hunters
+  - UNMC
+  - SPP
+  - Halcyon
+  - WeYa
+  - Civilian
+  - CLF
+  - TSE
+
+- type: npcFaction
+  id: Hunters
   hostile:
   - UNMC
   - SPP
@@ -18,6 +31,7 @@
 - type: npcFaction
   id: RMCDumb
   hostile:
+  - Hunters
   - UNMC
   - RMCXeno
   - SPP
@@ -30,40 +44,48 @@
 - type: npcFaction
   id: SPP
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: Halcyon
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: CLF
   hostile:
+  - Hunters
   - RMCXeno
   - UNMC
 
 - type: npcFaction
   id: WeYa
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: Civilian
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: RoyalMarines
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: Bureau
   hostile:
+  - Hunters
   - RMCXeno
 
 - type: npcFaction
   id: TSE
   hostile:
+  - Hunters
   - RMCXeno

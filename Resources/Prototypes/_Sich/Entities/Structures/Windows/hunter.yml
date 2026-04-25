@@ -1,0 +1,20 @@
+- type: entity
+  id: HunterWindow
+  parent: CMBaseWindowIndestructible
+  name: корпусне вікно
+  description: Оглядове вікно, що відділяє холодний вакуум космосу від безпечного простору корабля. Посилене багатошарове скло витримує значні механічні навантаження.
+  components: 
+  - type: Corrodible
+    isCorrodible: false
+  - type: Sprite
+    sprite: _Sich/Structures/Windows/hunter_window.rsi
+    state: hunter_window0
+  - type: Icon
+    sprite: _Sich/Structures/Windows/hunter_window.rsi
+    state: hunter_window0
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    base: hunter_window
+    mode: CardinalFlags

@@ -681,5 +681,41 @@
 - type: Tag
   id: CMAutoInjector
 
+- type: entity
+  parent: CMAutoInjectorBase
+  id: CMCellularBioinjector
+  name: клітинний біо-інжектор
+  description: Просунутий біо-інжектор, для застосування необхідно розвернути інжектор та розділивши на дві частини вколоти шипами в уражену ділянку тіла.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/cellular_bioinjector.rsi
+    layers:
+    - state: injector
+    - state: injector1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+  - type: Hypospray
+    transferAmount: 5
+    injectSound: /Audio/_RMC14/Medical/hypospray.ogg
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 10
+        reagents:
+        - ReagentId: CMCellularBiomass
+          Quantity: 10
+  - type: MedicallyUnskilledDoAfter
+    min: 100
+    doAfter: 10
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    fillBaseName: injector
+    emptySpriteName: injector
+    changeColor: true
+  - type: IconLabel
+    labelTextLocId: null
+  - type: Item
+    size: Small
+
 - type: Tag
   id: RMCAutoInjectorMedical

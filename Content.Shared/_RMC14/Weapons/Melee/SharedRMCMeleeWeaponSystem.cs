@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Numerics;
 using Content.Shared._RMC14.CCVar;
 using Content.Shared._RMC14.Marines.Skills;
@@ -186,6 +186,15 @@ public abstract class SharedRMCMeleeWeaponSystem : EntitySystem
             weaponUid != GetEntity(msg.Weapon))
         {
             return;
+        }
+
+        if (MetaData(weaponUid).EntityPrototype?.ID == "HunterCombistick")
+        {
+            if (!_itemToggle.IsActivated(weaponUid))
+            {
+                _itemToggle.Toggle((weaponUid, null), user);
+                return;
+            }
         }
 
         TryMeleeReset(weaponUid, weapon, false);

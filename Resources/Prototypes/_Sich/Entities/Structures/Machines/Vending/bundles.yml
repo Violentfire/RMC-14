@@ -1,0 +1,29 @@
+- type: entity
+  id: VendorBundleHunterArmor
+  name: набір броні мисливця
+  description: Містить маску та броню мисливця
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/OuterClothing/Armor/hunter.rsi
+    state: icon
+  - type: CMVendorBundle
+    bundle:
+    - RMCHunterMask
+    - RMCArmorHunter
+    - RMCBeltBag
+    - RMCBootsHunter
+
+- type: entity
+  id: VendorBundleHunterClothing
+  name: набір одягу мисливця
+  description: Містить звичний одяг мисливця
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Uniforms/hunter.rsi
+    state: icon
+  - type: CMVendorBundle
+    bundle:
+    - RMCHunterUniform
+    - RMCMediComp

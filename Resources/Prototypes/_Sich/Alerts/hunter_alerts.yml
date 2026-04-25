@@ -1,0 +1,29 @@
+- type: alert
+  id: HunterBattery
+  icons:
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "0"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "10"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "20"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "30"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "40"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "50"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "60"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "70"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "80"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "90"
+  - sprite: _Sich/Interface/Alerts/hunter_battery.rsi
+    state: "100"
+  name: Заряд батареї
+  description: Поточний стан заряду ваших браслетів.
+  minSeverity: 0
+  maxSeverity: 10

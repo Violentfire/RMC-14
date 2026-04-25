@@ -1,0 +1,27 @@
+- type: entity
+  parent:
+  - CMAirlockPrep
+  - CMBaseDoor
+  - CMBaseDoorConstructible
+  id: HunterAirlock
+  name: шлюз
+  description: Міцний шлюз.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Doors/Airlocks/hunter_door.rsi
+  - type: AccessReader
+    access: [["RMCAccessHunter"]]
+  - type: Airlock
+    powered: true
+  - type: ApcPowerReceiver
+    powerLoad: 0
+    needsPower: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+  - type: Corrodible
+    isCorrodible: true

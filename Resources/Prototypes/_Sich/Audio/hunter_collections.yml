@@ -1,0 +1,20 @@
+- type: soundCollection
+  id: HunterScream
+  files:
+    - /Audio/_Sich/Voice/Hunter/Hunter_roar1.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_roar2.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_roar3.ogg
+
+- type: soundCollection
+  id: HunterLaugh
+  files:
+    - /Audio/_Sich/Voice/Hunter/Hunter_laugh1.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_laugh2.ogg
+
+- type: soundCollection
+  id: HunterClick
+  files:
+    - /Audio/_Sich/Voice/Hunter/Hunter_click1.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_click2.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_click3.ogg
+    - /Audio/_Sich/Voice/Hunter/Hunter_click4.ogg

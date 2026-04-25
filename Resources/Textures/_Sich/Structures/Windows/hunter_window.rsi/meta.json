@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13-pve/blob/0afcb527e30cb9d24151005c28f095d704b24c83/icons/turf/walls/upp_grey_windows.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "hunter_window0"
+    },
+    {
+      "name": "hunter_window1"
+    },
+    {
+      "name": "hunter_window2"
+    },
+    {
+      "name": "hunter_window3"
+    },
+    {
+      "name": "hunter_window4"
+    },
+    {
+      "name": "hunter_window5"
+    },
+    {
+      "name": "hunter_window6"
+    },
+    {
+      "name": "hunter_window7"
+    },
+    {
+      "name": "hunter_window8"
+    },
+    {
+      "name": "hunter_window9"
+    },
+    {
+      "name": "hunter_window10"
+    },
+    {
+      "name": "hunter_window11"
+    },
+    {
+      "name": "hunter_window12"
+    },
+    {
+      "name": "hunter_window13"
+    },
+    {
+      "name": "hunter_window14"
+    },
+    {
+      "name": "hunter_window15"
+    }
+  ]
+}

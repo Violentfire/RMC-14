@@ -1,0 +1,44 @@
+- type: entity
+  id: RMCArmorHunter
+  parent: [RMCArmorVest, AllowSuitStorageClothing]
+  name: броня мисливця
+  description: Надзвичайно дорога та якісна броня мисливців. Оснащена голографічними проєкторами приховування. Доведена до ідеалу, ця модель притаманна лише кільком найвідомішим кланам мисливців.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/OuterClothing/Armor/hunter.rsi
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/OuterClothing/Armor/hunter.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - map: ["enum.HunterCasterVisualLayers.Base"]
+        sprite: _Sich/Objects/Weapons/caster.rsi
+        state: onmob
+        visible: false
+  - type: FireProtection
+    reduction: 0.8
+  - type: CMArmor
+    melee: 15
+    bullet: 30
+    bio: 20
+    explosionArmor: 35
+  - type: HunterCloak
+    actionId: ActionToggleHunterCloak
+  - type: RMCDefibrillatorBlocked
+    popup: cm-defib-take-off-armor
+    showOnExamine: false
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
+  - type: CMHardArmor
+  - type: SuitSensor
+    mode: SensorCords
+    controlsLocked: true
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    transmitFrequencyId: SichHunterSensor
+    receiveFrequencyId: SichHunterSensor
+  - type: HunterCasterProvider
+

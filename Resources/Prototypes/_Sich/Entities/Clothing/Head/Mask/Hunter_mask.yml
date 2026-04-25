@@ -1,0 +1,43 @@
+- type: entity
+  id: RMCHunterMask
+  parent: RMCMarineHelmetBase
+  name: маска мисливця
+  description: Високотехнологічна маска, що забезпечує надійний захист обличчя.
+  suffix: Sich, Hunter
+  components:
+  - type: RMCParasiteImmune
+  - type: EyeProtection
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Mask/hunter_mask.rsi
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/Mask/hunter_mask.rsi
+    equippedPrefix: off
+    clothingVisuals:
+      head:
+      - state: equipped-HEAD
+  - type: CMArmor
+    melee: 20
+    bullet: 35
+    bio: 50
+    explosionArmor: 20
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
+  - type: ItemSlots
+    slots:
+      hunter_visor_slot:
+        name: Модуль маски
+        whitelist:
+          components:
+          - Visor
+  - type: CycleableVisor
+    actionId: RMCActionCycleVisorHunter
+    offIcon:
+      sprite: _Sich/Actions/hunter_action.rsi
+      state: visor
+    containers:
+    - hunter_visor_slot
+  - type: IntegratedVisors
+    visorsToAdd:
+    - RMCHunterVisorNightVision

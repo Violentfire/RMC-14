@@ -1,0 +1,13 @@
+- type: entity
+  name: recall chain
+  id: HunterRecallChain
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: /Textures/_RMC14/Effects/beam.rsi
+    drawdepth: Effects
+    state: "chain"
+  - type: HunterRecallChain
+  - type: Tag
+    tags:
+    - HideContextMenu

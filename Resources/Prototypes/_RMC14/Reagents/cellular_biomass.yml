@@ -1,0 +1,16 @@
+- type: reagent
+  parent: CMReagentMedicine
+  id: CMCellularBiomass
+  name: reagent-name-cellular-biomass
+  desc: reagent-desc-cellular-biomass
+  physicalDesc: reagent-physical-desc-cellular-biomass
+  color: "#3a75c4"
+  metabolisms:
+    Medicine:
+      metabolismRate: 5
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -45 
+            Burn: -45 

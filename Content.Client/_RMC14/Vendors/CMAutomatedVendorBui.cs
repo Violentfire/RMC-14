@@ -139,6 +139,8 @@ public sealed class CMAutomatedVendorBui : BoundUserInterface
             }
         }
 
+
+
         _window.Search.OnTextChanged += OnSearchChanged;
         Refresh();
     }

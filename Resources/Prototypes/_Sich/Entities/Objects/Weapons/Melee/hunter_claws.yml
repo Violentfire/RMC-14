@@ -1,0 +1,36 @@
+- type: entity
+  parent: AbstractHunterMeleeBase
+  id: RMCHunterClaws
+  name: кігті мисливця
+  description: Гострі як бритва кігті, висунуті з браслетів.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Weapons/Melee/hunter_claws.rsi
+    state: icon
+  - type: Item
+    sprite: _Sich/Objects/Weapons/Melee/hunter_claws.rsi
+    size: Large
+    inhandVisuals:
+      Left:
+      - state: claws
+      Right:
+      - state: claws
+  - type: MeleeWeapon
+    attackRate: 1.6
+    damage:
+      types:
+        Slash: 12
+  - type: HunterClaws
+  - type: StaticPrice
+    price: 0
+
+- type: entity
+  parent: BaseItem
+  id: RMCHunterClawModule
+  name: модуль кігтів
+  description: Модуль для браслетів мисливця, що додає висувні кігті.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Devices/hunter_module.rsi
+    state: module
+  - type: HunterClawModule

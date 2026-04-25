@@ -1,0 +1,72 @@
+- type: entity
+  id: ProjectileHunterStun
+  parent: BaseBullet
+  name: stun bolt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/stun_projectiles.rsi
+    state: stun
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 5
+  - type: RMCStunOnHit
+    stuns:
+    - stunTime: 2.0
+      stunArea: 0.1
+
+- type: entity
+  id: ProjectileHunterImmobilizer
+  parent: BaseBullet
+  name: immobilizer bolt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Xeno/xeno_projectiles.rsi
+    state: neurotoxin
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 5
+  - type: RMCStunOnHit
+    stuns:
+    - stunTime: 5.0
+      stunArea: 7.0
+
+- type: entity
+  id: ProjectileHunterBolt
+  parent: BaseBullet
+  name: plasma bolt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Xeno/xeno_projectiles.rsi
+    state: xeno_acid_normal
+  - type: Projectile
+    damage:
+      types:
+        Heat: 20
+  - type: ExplodeOnMobHit
+    explosionId: Default
+    range: 1.5
+
+- type: entity
+  id: ProjectileHunterEradicator
+  parent: BaseBullet
+  name: eradicator bolt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Xeno/xeno_projectiles.rsi
+    state: xeno_acid_strong
+  - type: Projectile
+    damage:
+      types:
+        Heat: 50
+  - type: TriggerOnCollide
+    fixtureID: projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: RMC
+    maxIntensity: 10
+    intensitySlope: 5
+    totalIntensity: 150
+    maxTileBreak: 0
+

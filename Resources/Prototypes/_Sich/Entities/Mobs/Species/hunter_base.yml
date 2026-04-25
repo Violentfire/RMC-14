@@ -1,0 +1,271 @@
+- type: entity
+  save: false
+  parent: BaseMobSpecies
+  id: BaseMobSpeciesHunter
+  abstract: true
+  name: Urist C.M. McHunter
+  suffix: Sich
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        restitution: 0.0
+        mask:
+        - MobMask
+        - BarricadeImpassable
+        - BarbedBarricade
+        layer:
+        - Opaque
+        - XenoProjectileImpassable
+      fix2:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 0
+        restitution: 0.0
+        layer:
+        - BulletImpassable
+  - type: SolutionContainerManager
+  - type: InjectableSolution
+    solution: chemicals
+  - type: RMCStamina
+  - type: Bloodstream
+    bloodReagent: Blood
+    bloodMaxVolume: 560
+    maxBleedAmount: 50
+    bleedReductionAmount: 0
+    bloodRefreshAmount: 0.15
+    bloodlossDamage:
+      types:
+        Bloodloss: 0.5
+    bloodlossHealDamage:
+      types:
+        Bloodloss: -1
+    damageBleedModifiers: CMBloodlossHuman
+  - type: Woundable
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+    - SlowedDown
+    - Stutter
+    - Electrocution
+    - ForcedSleep
+    - TemporaryBlindness
+    - Drunk
+    - SlurredSpeech
+    - RatvarianLanguage
+    - PressureImmunity
+    - Muted
+    - Pacified
+    - StaminaModifier
+    - Flashed
+    - Dazed
+    - Blinded
+    - Deaf
+    - Unconscious
+  - type: Blindable
+  - type: Tag
+    tags:
+    - FootstepSound
+    - DoorBumpOpener
+  - type: RMCSuitLight
+  - type: Hunter
+  - type: HunterEnergy
+    energy: 1000
+    maxEnergy: 1000
+    energyRegen: 10
+  - type: Hunger
+    baseDecayRate: 0.025
+    thresholds:
+      Overfed: 550
+      Okay: 400
+      Peckish: 250
+      Starving: 50
+      Dead: 0
+    hungerThresholdDecayModifiers:
+      Overfed: 1
+      Okay: 1
+      Peckish: 1
+      Starving: 1
+      Dead: 0
+  - type: Thirst
+    baseDecayRate: 0.01666666666
+  - type: Body
+    prototype: Human
+    requiredLegs: 2
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: null
+    healthBarThreshold: 5
+  - type: Vocal
+    screamAction: null
+    sounds:
+      Male: MaleHuman
+      Female: FemaleHuman
+      Unsexed: MaleHuman
+  - type: Flammable
+    fireSpread: false
+    canResistFire: true
+    firestackFade: 1
+    damage:
+      types:
+        Heat: 1
+  - type: RMCRevivable
+  - type: RMCMedicalExamine
+  - type: FireVisuals
+    sprite: _RMC14/Mobs/Effects/on_fire.rsi
+    normalState: standing_weak
+    alternateState: standing_medium
+    fireStackAlternateState: 14
+    lightRadiusPerStack: 0.2
+    maxLightRadius: 3
+  - type: RMCFireColor
+  - type: MeleeWeapon
+    soundHit:
+      collection: Punch
+    angle: 0
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 5
+  - type: UserInterface
+    interfaces:
+      enum.VoiceMaskUIKey.Key:
+        type: VoiceMaskBoundUserInterface
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
+      enum.CMSurgeryUIKey.Key:
+        type: CMSurgeryBui
+      enum.CMMobStateActionsUI.Key:
+        type: CMGhostActionBui
+        requireInputValidation: false
+      enum.DialogUiKey.Key:
+        type: DialogBui
+  - type: Infectable
+  - type: XenoNestable
+  - type: Devourable
+  - type: ImmuneToClothingRequiredStepTrigger
+  - type: Undisposable
+  - type: ShortExamine
+  - type: MaxDamage
+    max: 1000
+  - type: AtmosExposed
+  - type: Temperature
+    heatDamageThreshold: 325
+    coldDamageThreshold: 260
+    currentTemperature: 310.15
+    specificHeat: 42
+  - type: TemperatureSpeed
+    thresholds:
+      273: 1
+  - type: ThermalRegulator
+    metabolismHeat: 800
+    radiatedHeat: 100
+    implicitHeatRegulation: 500
+    sweatHeatRegulation: 2000
+    shiveringHeatRegulation: 2000
+    normalBodyTemperature: 310.15
+    thermalRegulationTemperatureThreshold: 25
+  - type: DamageMobState
+    critDamage:
+      types:
+        Asphyxiation: 1
+    nonDeadDamage:
+      types:
+        Asphyxiation: -0.33
+  - type: NoSlip
+  - type: NoClothingSlowdown
+  - type: RMCSize
+    size: Humanoid
+  - type: AffectableByWeeds
+  - type: UserLimitHits
+  - type: MovementIgnoreGravity
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.7
+    baseSprintSpeed: 5
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Critical
+      200: Dead
+  - type: MobStateActions
+    actions:
+      Critical:
+      - CMActionGhost
+      Dead:
+      - CMActionGhost
+  - type: Destructible
+    thresholds: [ ]
+  - type: NpcFactionMember
+    factions:
+    - Hunters 
+  - type: RMCNightVisionVisible
+  - type: CrashLandable
+  - type: StunShakeable
+  - type: StunShakeableUser
+  - type: MindCheck
+  - type: Spottable
+  - type: ActiveInputMover
+  - type: DropItemsOnRest
+  - type: RMCSuicide
+    damage:
+      types:
+        Piercing: 100
+        Asphyxiation: 200
+  - type: RMCUserPryingRequiresTool
+  - type: RMCSetPose
+  - type: Evasion
+  - type: RMCPickupDroppedItems
+  - type: RMCSpeciesSlowdownModifier
+    slowModifier: 2
+    superSlowModifier: 4
+  - type: RMCHandEmotes
+  - type: RMCBuckleDrawDepth
+  - type: RMCObstacleSlamming
+  - type: AllowPullWhileDeadAndInfected
+  - type: DamageOnPulledWhileCrit
+    damage:
+      types:
+        Asphyxiation: 1.6
+    pullerWhitelist:
+      components:
+      - Xeno
+  - type: RMCArmorModifier
+    meleeArmorModifier: 5
+  - type: RMCObstacleSlamCauserImmune
+  - type: MobCollision
+  - type: RMCMobCollision
+  - type: RMCRest
+  - type: RMCMeleeDamageSkill
+  - type: RMCStripTimeSkill
+  - type: RMCDisarm
+  - type: RMCDisarmable
+  - type: StunOnExplosionReceived
+  - type: DeafenWhileCrit
+  - type: RMCStopDropRollVisuals
+  - type: RMCMobStateDrawDepth
+    drawDepths:
+      Dead: BelowMobs
+  - type: FixedIdentity
+    name: hunter
+    whitelist:
+      components:
+      - Xeno
+  - type: RMCHealthIcons
+  - type: RMCMesonsNonviewable
+    xenoVisible: true
+  - type: RMCActionOrder
+    id: BaseMobSpeciesHunter
+  - type: HumanoidAppearance
+    species: Human
+    hideLayersOnEquip:
+    - UndergarmentTop
+    - Hair

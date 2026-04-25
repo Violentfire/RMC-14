@@ -1,0 +1,24 @@
+- files: ["Hunter_click.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://freesound.org/people/Ediecz/sounds/507771/"
+
+- files: ["pred_cloakoff.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/effects/pred_cloakoff.ogg"
+
+- files: ["pred_cloakon.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/effects/pred_cloakon.ogg"
+
+- files: ["pred_countdown.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/effects/pred_countdown.ogg"
+
+- files: ["pred_vision.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/effects/pred_vision.ogg"

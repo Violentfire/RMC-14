@@ -1,0 +1,8 @@
+- type: accessLevel
+  id: RMCAccessHunter
+  name: cm-access-hunter
+
+- type: accessGroup
+  id: RMCAccessHunter
+  tags:
+  - RMCAccessHunter

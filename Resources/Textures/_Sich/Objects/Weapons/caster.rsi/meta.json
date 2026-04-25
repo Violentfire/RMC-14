@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "plasma_bone",
+            "directions": 1
+        },
+        {
+            "name": "onmob",
+            "directions": 1
+        }
+    ]
+}

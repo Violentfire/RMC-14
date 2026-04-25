@@ -1,0 +1,23 @@
+- type: entity
+  parent: CMClosetBaseUnanchored
+  id: RMCLockerHunter
+  name: захищена шафа
+  description: Шафа з посиленим захистом, забезпечує безпечне зберігання важливих речей.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Storage/Closets/hunter.rsi
+  - type: StorageFill
+    contents:
+      - id: RMCHunterBracers
+
+- type: entity
+  parent: CMClosetBaseUnanchored
+  id: RMCLockerHunterClosed
+  name: шафа
+  description: Масивна шафа для зберігання спорядження.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Storage/Closets/hunter_closed.rsi
+    state: closed

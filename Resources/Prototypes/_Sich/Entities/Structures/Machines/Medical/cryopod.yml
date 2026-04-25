@@ -1,0 +1,22 @@
+- type: entity
+  id: HunterCryopod
+  parent: CryoPod
+  name: кріокапсула мисливця
+  description: Спеціальна машина, призначена для створення безпечного середовища для використання хімікатів, що реагують у холодному середовищі.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Machines/Medical/hunter_cryopod.rsi
+    layers:
+      - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        state: pipeHalf
+        offset: 0, -0.5
+        map: [ "enum.PipeVisualLayers.Pipe" ]
+      - state: pod-open
+        map: [ "enum.CryoPodVisualLayers.Base" ]
+      - state: cover-on
+        map: [ "enum.CryoPodVisualLayers.Cover" ]
+        visible: false
+      - state: pod-panel
+        map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+        visible: false

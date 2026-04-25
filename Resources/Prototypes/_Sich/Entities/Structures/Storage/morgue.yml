@@ -1,0 +1,31 @@
+- type: entity
+  id: HunterMorgue
+  parent: Morgue
+  name: морг мисливця
+  description: Використовується для зберігання тіл до того, як хтось їх забере. Включає високотехнологічну систему оповіщення про помилкові спрацьовування!
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Storage/morgue.rsi
+    layers:
+    - state: morgue_closed
+      map: ["enum.MorgueVisualLayers.Base"]
+    - state: morgue_tray
+      offset: 0, -1
+      visible: false
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        enum.MorgueVisualLayers.Base:
+          True: { state: morgue_open}
+          False: { state: morgue_closed}
+        enum.StorageVisualLayers.Door:
+          True: { visible: true}
+          False: { visible: false}
+      enum.MorgueVisuals.Contents:
+        enum.MorgueVisualLayers.Light:
+          Empty: {visible: false}
+          HasContents: {visible: true, state: morgue_contents}
+          HasMob: {visible: true, state: morgue_contents}
+          HasSoul: {visible: true, state: morgue_contents}

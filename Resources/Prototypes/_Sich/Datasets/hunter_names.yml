@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: RMCNamesHunterFirst
+  values:
+    prefix: rmc-name-hunter-first-
+    count: 22
+
+- type: localizedDataset
+  id: RMCNamesHunterLast
+  values:
+    prefix: rmc-name-hunter-last-
+    count: 7

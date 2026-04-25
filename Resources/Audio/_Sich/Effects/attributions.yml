@@ -1,0 +1,29 @@
+- files: ["Hunter_click.ogg"]
+  license: "CC0-1.0"
+  copyright: "Modifications by Roct"
+  source: "https://freesound.org/people/Ediecz/sounds/507771/"
+
+- files: ["Hunter_laugh1.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/voice/pred_laugh4.ogg"
+
+- files: ["Hunter_laugh2.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/voice/pred_laugh5.ogg"
+
+- files: ["Hunter_roar1.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/voice/pred_roar3.ogg"
+
+- files: ["Hunter_roar2.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/voice/pred_roar5.ogg"
+
+- files: ["Hunter_roar3.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "CMSS13 contributors"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/sound/voice/predalien_death.ogg"

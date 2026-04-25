@@ -1,4 +1,4 @@
-﻿<controls:CMAutomatedVendorSection
+<controls:CMAutomatedVendorSection
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client._RMC14.Vendors"
     xmlns:customControls="clr-namespace:Content.Client.Administration.UI.CustomControls"
@@ -8,4 +8,6 @@
         <customControls:HSeparator Color="#4972A1" />
         <BoxContainer Orientation="Vertical" Name="Entries" Access="Public" SeparationOverride="2" Margin="0 10 0 0" />
     </BoxContainer>
+
+
 </controls:CMAutomatedVendorSection>

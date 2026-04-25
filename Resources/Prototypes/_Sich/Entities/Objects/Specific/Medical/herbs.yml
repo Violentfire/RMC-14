@@ -1,0 +1,23 @@
+- type: entity
+  parent: Ointment
+  id: BurnHerbs
+  name: мазь
+  description: Це суміш трав для лікування від опіків.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Specific/Medical/herbs.rsi
+    state: burn
+  - type: Item
+    sprite: _Sich/Objects/Specific/Medical/herbs.rsi
+
+- type: entity
+  parent: Brutepack
+  id: BruteHerbs
+  name: лікувальні трави
+  description: Це суміш трав для лікування синців та інших механічних травм.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Specific/Medical/herbs.rsi
+    state: brute
+  - type: Item
+    sprite: _Sich/Objects/Specific/Medical/herbs.rsi

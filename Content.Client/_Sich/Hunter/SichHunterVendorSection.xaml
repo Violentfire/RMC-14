@@ -1,0 +1,13 @@
+<controls:SichHunterVendorSection
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._Sich.Hunter"
+    xmlns:customControls="clr-namespace:Content.Client.Administration.UI.CustomControls"
+    Margin="0 15 0 0">
+    <BoxContainer Orientation="Vertical">
+        <PanelContainer Name="Header" Access="Public" HorizontalExpand="True" VerticalExpand="False">
+            <RichTextLabel Name="Label" Access="Public" />
+        </PanelContainer>
+        <customControls:HSeparator Name="Separator" Access="Public" Color="#700303" />
+        <BoxContainer Orientation="Vertical" Name="Entries" Access="Public" SeparationOverride="2" Margin="0 10 0 0" />
+    </BoxContainer>
+</controls:SichHunterVendorSection>

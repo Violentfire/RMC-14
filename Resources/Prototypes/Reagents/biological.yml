@@ -241,3 +241,22 @@
         damage:
           types:
             Cellular: 2
+
+- type: reagent
+  id: HunterBlood
+  name: reagent-name-hunter-blood
+  desc: reagent-desc-hunter-blood
+  group: Biological
+  parent: Blood
+  color: "#00A86B"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateHunger
+        factor: 0.5
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cellular: 1

@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: RMCBootsHunter
+  name: чоботи мисливця
+  description: Надміцні чоботи, які захищають від холоду та вологи. Ідеально підходять для полювання.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Shoes/Misc/hunter_boots.rsi
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/Shoes/Misc/hunter_boots.rsi
+  - type: ContainerContainer
+    containers:
+      item: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      item:
+        name: ніж
+        insertSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
+        whitelist:
+          tags:
+          - Knife
+          - Holdout
+          - Screwdriver
+        startingItem: HunterKnife
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepCatwalk
+      params:
+        volume: -8
+        maxDistance: 0

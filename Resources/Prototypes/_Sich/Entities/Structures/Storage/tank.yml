@@ -1,0 +1,43 @@
+- type: entity
+  parent: RMCTankReagentEmpty
+  id: RMCHunterTankReagentFuel
+  name: паливний бак
+  description: Паливний бак для зберігання зварювального палива.
+  suffix: Fuel
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Storage/hunter_tank.rsi
+    layers:
+    - state: fuel_tank
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 1000
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 60
+  - type: ReagentTank
+    tankType: Fuel
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:SolutionExplosionBehavior
+        solution: tank
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageOnToolInteract
+    tools: Welding
+    weldingDamage:
+      types:
+        Heat: 100
+  - type: Label
+    currentLabel: reagent-name-welding-fuel
+  - type: Tag
+    tags:
+    - RMCTankFuel
+    - RMCTankReagent

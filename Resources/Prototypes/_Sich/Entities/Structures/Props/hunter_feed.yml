@@ -1,0 +1,12 @@
+- type: entity
+  parent: RMCPropBase
+  id: RMCPropFeed
+  name: лінія живлення
+  description: Лінія живлення що забезпечує енергопостачання корабля.
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Props/feed.rsi
+    state: feed
+  - type: Icon
+    sprite: _Sich/Structures/Props/feed.rsi
+    state: feed

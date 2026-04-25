@@ -1,0 +1,59 @@
+- type: job
+  parent: CMJobBase
+  id: CMHunter
+  name: Мисливець
+  description: Мисливець що вже почав полювання.
+  startingGear: RMCGearHunter
+  hasIcon: false
+  departmentRadio: null
+  headOfDepartment: null
+  playTimeTracker: JobCMHunter
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - Hunters
+
+- type: playTimeTracker
+  id: JobCMHunter
+  name: Мисливець
+  isHumanoid: true
+
+- type: startingGear
+  id: RMCGearHunter
+  equipment:
+    jumpsuit: RMCHunterUniform
+    outerClothing: RMCArmorHunter
+    gloves: RMCHunterBracers
+    shoes: RMCBootsHunter
+    belt: RMCBeltBag
+    head: RMCHunterMask
+
+- type: entity
+  parent: CMMobHunter
+  id: CMMobHunterGhostRole
+  suffix: Гост роль
+  components:
+  - type: RMCJobSpawner
+    job: CMHunter
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - RMCNamesHunterFirst
+    - RMCNamesHunterLast
+    nameFormat: name-format-ert
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointHunter
+  name: спавн мисливця
+  components:
+  - type: HumanoidAppearance
+    species: Hunter
+  - type: SpawnPoint
+    job_id: CMHunter
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

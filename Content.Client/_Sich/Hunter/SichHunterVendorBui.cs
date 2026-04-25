@@ -1,0 +1,371 @@
+using System.Linq;
+using Content.Client._RMC14.Vendors;
+using Content.Shared._RMC14.Holiday;
+using Content.Shared._RMC14.Marines.Roles.Ranks;
+using Content.Shared._RMC14.Medical.Refill;
+using Content.Shared._RMC14.Vendors;
+using Content.Shared.Mind;
+using Content.Shared.Roles.Jobs;
+using JetBrains.Annotations;
+using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
+using Robust.Client.Player;
+using Robust.Client.ResourceManagement;
+using Robust.Client.UserInterface;
+using Robust.Client.UserInterface.CustomControls;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Utility;
+using static System.StringComparison;
+using static Robust.Client.UserInterface.Controls.LineEdit;
+
+namespace Content.Client._Sich.Hunter;
+
+[UsedImplicitly]
+public sealed class SichHunterVendorBui : BoundUserInterface
+{
+    [Dependency] private readonly IPlayerManager _player = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly IResourceCache _resource = default!;
+
+    private readonly SharedJobSystem _job;
+    private readonly SharedMindSystem _mind;
+    private readonly SharedRankSystem _rank;
+    private readonly SharedRMCHolidaySystem _rmcHoliday;
+    private readonly SpriteSystem _spriteSystem;
+
+    private SichHunterVendorWindow? _window;
+
+    public SichHunterVendorBui(EntityUid owner, Enum uiKey) : base(owner, uiKey)
+    {
+        _job = EntMan.System<SharedJobSystem>();
+        _mind = EntMan.System<SharedMindSystem>();
+        _rmcHoliday = EntMan.System<SharedRMCHolidaySystem>();
+        _rank = EntMan.System<SharedRankSystem>();
+        _spriteSystem = EntMan.System<SpriteSystem>();
+    }
+
+    protected override void Open()
+    {
+        base.Open();
+        _window = this.CreateWindow<SichHunterVendorWindow>();
+        _window.Title = EntMan.GetComponentOrNull<MetaDataComponent>(Owner)?.EntityName ?? "Yautja Hunting Gear Rack";
+        _window.ReagentsBar.ForegroundStyleBoxOverride = new StyleBoxFlat(Color.FromHex("#700303"));
+
+        var user = EntMan.GetComponentOrNull<CMVendorUserComponent>(_player.LocalEntity);
+        if (EntMan.TryGetComponent(Owner, out CMAutomatedVendorComponent? vendor))
+        {
+            for (var sectionIndex = 0; sectionIndex < vendor.Sections.Count; sectionIndex++)
+            {
+                var section = vendor.Sections[sectionIndex];
+                var uiSection = new SichHunterVendorSection { Section = section };
+                uiSection.Label.SetMessage(GetSectionName(user, section));
+
+                if (!IsSectionValid(section))
+                    uiSection.Visible = false;
+
+                for (var entryIndex = 0; entryIndex < section.Entries.Count; entryIndex++)
+                {
+                    var entry = section.Entries[entryIndex];
+                    var uiEntry = new SichHunterVendorEntry();
+
+                    if (_prototype.TryIndex(entry.Id, out var entity))
+                    {
+                        uiEntry.Texture.Textures = _spriteSystem.GetPrototypeTextures(entity)
+
+                            .Select(o => o.Default)
+                            .ToList();
+
+                        if (entity.TryGetComponent<SpriteComponent>("Sprite", out var entitySprites))
+                            uiEntry.Texture.Modulate = entitySprites.AllLayers.First().Color;
+
+                        uiEntry.Panel.Button.Label.Text = entry.Name?.Replace("\\n", "\n") ?? entity.Name;
+
+                        var name = entity.Name;
+                        if (section.TakeAll != null || section.TakeOne != null)
+                        {
+                            name = $"Mandatory: {name}";
+                            uiEntry.Panel.Color = Color.FromHex("#400303");
+                            uiEntry.Panel.BorderColor = Color.Black;
+                            uiEntry.Panel.HoveredColor = Color.FromHex("#600303");
+                        }
+                        else if (entry.Recommended)
+                        {
+                            uiEntry.Panel.Button.Label.Text = $"★ {uiEntry.Panel.Button.Label.Text}";
+                            name = $"Recommended: {name}";
+                            uiEntry.Panel.Color = Color.FromHex("#800303");
+                            uiEntry.Panel.BorderColor = Color.FromHex("#700303");
+                            uiEntry.Panel.HoveredColor = Color.FromHex("#B00303");
+                        }
+
+
+                        var msg = new FormattedMessage();
+                        msg.AddText(name);
+                        msg.PushNewline();
+
+                        if (!string.IsNullOrWhiteSpace(entity.Description))
+                            msg.AddText(entity.Description);
+
+                        var tooltip = new Tooltip();
+                        tooltip.SetMessage(msg);
+
+                        uiEntry.TooltipLabel.ToolTip = entity.Description;
+                        uiEntry.TooltipLabel.TooltipDelay = 0;
+                        uiEntry.TooltipLabel.TooltipSupplier = _ => tooltip;
+
+                        var sectionI = sectionIndex;
+                        var entryI = entryIndex;
+                        var linkedEntryIndexes = new List<int>();
+
+                        foreach (var linkedEntry in entry.LinkedEntries)
+                        {
+                            var linkedEntryIndex = 0;
+                            foreach (var vendorEntry in section.Entries)
+                            {
+                                if(vendorEntry.Id == linkedEntry)
+                                    linkedEntryIndexes.Add(linkedEntryIndex);
+
+                                linkedEntryIndex++;
+                            }
+                        }
+
+                        uiEntry.Panel.Button.OnPressed += _ => OnButtonPressed(sectionI, entryI, linkedEntryIndexes);
+                    }
+
+                    uiSection.Entries.AddChild(uiEntry);
+                }
+
+                _window.Sections.AddChild(uiSection);
+            }
+        }
+
+        _window.Search.OnTextChanged += OnSearchChanged;
+        Refresh();
+    }
+
+    private bool IsSectionValid(CMVendorSection section)
+    {
+        var validJob = true;
+        var validRank = true;
+        if (_player.LocalSession != null && _mind.TryGetMind(_player.LocalSession.UserId, out var mindId))
+        {
+            foreach (var job in section.Jobs)
+            {
+                if (!_job.MindHasJobWithId(mindId, job.Id))
+                    validJob = false;
+                else
+                {
+                    validJob = true;
+                    break;
+                }
+            }
+
+            if (_player.LocalEntity != null)
+            {
+                foreach (var rank in section.Ranks)
+                {
+                    var userRank = _rank.GetRank(_player.LocalEntity.Value);
+                    if (userRank is null || userRank != rank)
+                        validRank = false;
+                    else
+                    {
+                        validRank = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        var validHoliday = section.Holidays.Count == 0;
+        foreach (var holiday in section.Holidays)
+        {
+            if (_rmcHoliday.IsActiveHoliday(holiday))
+                validHoliday = true;
+        }
+
+        return validJob && validHoliday && validRank;
+    }
+
+    private void OnButtonPressed(int sectionIndex, int entryIndex, List<int> linkedEntryIndexes)
+    {
+        var msg = new CMVendorVendBuiMsg(sectionIndex, entryIndex, linkedEntryIndexes);
+        SendPredictedMessage(msg);
+    }
+
+    private void OnSearchChanged(LineEditEventArgs args)
+    {
+        if (_window == null)
+            return;
+
+        foreach (var sectionControl in _window.Sections.Children)
+        {
+            if (sectionControl is not SichHunterVendorSection section)
+                continue;
+
+            var any = false;
+            foreach (var entriesControl in section.Entries.Children)
+            {
+                if (entriesControl is not SichHunterVendorEntry entry)
+                    continue;
+
+                if (string.IsNullOrWhiteSpace(args.Text))
+                    entry.Visible = true;
+                else
+                    entry.Visible = entry.Panel.Button.Label.Text?.Contains(args.Text, OrdinalIgnoreCase) ?? false;
+
+                if (entry.Visible)
+                    any = true;
+            }
+
+            section.Visible = any && (section.Section == null || IsSectionValid(section.Section));
+        }
+    }
+
+    public void Refresh()
+    {
+        if (_window == null)
+            return;
+
+        if (!EntMan.TryGetComponent(Owner, out CMAutomatedVendorComponent? vendor))
+            return;
+
+        var anyEntryWithPoints = false;
+        var user = EntMan.GetComponentOrNull<CMVendorUserComponent>(_player.LocalEntity);
+        var userPoints = vendor.PointsType == null
+            ? user?.Points ?? 0
+            : user?.ExtraPoints?.GetValueOrDefault(vendor.PointsType) ?? 0;
+        for (var sectionIndex = 0; sectionIndex < vendor.Sections.Count; sectionIndex++)
+        {
+            var section = vendor.Sections[sectionIndex];
+            var uiSection = (SichHunterVendorSection) _window.Sections.GetChild(sectionIndex);
+            uiSection.Label.SetMessage(GetSectionName(user, section));
+
+            var sectionDisabled = false;
+            if (section.Choices is { } choices)
+            {
+                if (user?.Choices.GetValueOrDefault(choices.Id) >= choices.Amount ||
+                    user == null && choices.Amount <= 0)
+                {
+                    sectionDisabled = true;
+                }
+            }
+
+            var anyAmount = false;
+            for (var entryIndex = 0; entryIndex < section.Entries.Count; entryIndex++)
+            {
+                var entry = section.Entries[entryIndex];
+                var uiEntry = (SichHunterVendorEntry) uiSection.Entries.GetChild(entryIndex);
+                var disabled = sectionDisabled || entry.Amount <= 0;
+                if (section.TakeAll is { } takeAllId)
+                {
+                    var takeAll = user?.TakeAll;
+                    if (takeAll != null && takeAll.Contains((takeAllId, entry.Id)))
+                        disabled = true;
+                }
+                if (section.TakeOne is { } takeOneId)
+                {
+                    var takeOne = user?.TakeOne;
+                    if (takeOne != null && takeOne.Contains(takeOneId))
+                        disabled = true;
+                }
+
+                if (entry.Points != null)
+                {
+                    anyEntryWithPoints = true;
+                    uiEntry.Amount.Text = $"{entry.Points}P";
+
+                    if (user == null || userPoints < entry.Points)
+                    {
+                        disabled = true;
+                    }
+                }
+                else
+                {
+                    uiEntry.Amount.Text = entry.Amount.ToString();
+                }
+
+                uiEntry.Amount.Modulate = disabled ? Color.Red : Color.White;
+                uiEntry.Panel.Button.Disabled = disabled;
+
+                if (!string.IsNullOrWhiteSpace(uiEntry.Amount.Text))
+                    anyAmount = true;
+            }
+
+            for (var entryIndex = 0; entryIndex < section.Entries.Count; entryIndex++)
+            {
+                var uiEntry = (SichHunterVendorEntry) uiSection.Entries.GetChild(entryIndex);
+                uiEntry.Amount.Visible = anyAmount;
+            }
+        }
+
+        _window.PointsLabel.Text = anyEntryWithPoints ? $"Points Remaining: {userPoints}" : string.Empty;
+
+        if (!EntMan.TryGetComponent(Owner, out CMSolutionRefillerComponent? refiller))
+        {
+            _window.ReagentsContainer.Visible = false;
+            return;
+        }
+
+        _window.ReagentsContainer.Visible = true;
+
+        var current = refiller.Current;
+        var max = refiller.Max;
+        _window.ReagentsBar.MinValue = 0;
+        _window.ReagentsBar.MaxValue = max.Int();
+        _window.ReagentsBar.SetAsRatio((refiller.Current / refiller.Max).Float());
+        _window.ReagentsLabel.Text = $"{current.Int()} units";
+    }
+
+    protected override void ReceiveMessage(BoundUserInterfaceMessage message)
+    {
+        switch (message)
+        {
+            case CMVendorRefreshBuiMsg:
+                Refresh();
+                break;
+        }
+    }
+
+    private FormattedMessage GetSectionName(CMVendorUserComponent? user, CMVendorSection section)
+    {
+        var name = new FormattedMessage();
+        name.PushTag(new MarkupNode("bold", new MarkupParameter(section.Name.ToUpperInvariant()), null));
+        name.AddText(section.Name.ToUpperInvariant());
+
+        if (section.TakeAll != null)
+        {
+            var takeAll = user?.TakeAll;
+            foreach (var entry in section.Entries)
+            {
+                if (takeAll == null || !takeAll.Contains((section.TakeAll, entry.Id)))
+                {
+                    name.AddText(" (TAKE ALL)");
+                    break;
+                }
+            }
+        }
+        else if (section.TakeOne != null)
+        {
+            var takeOne = user?.TakeOne;
+            if (takeOne == null || !takeOne.Contains(section.TakeOne))
+            {
+                name.AddText(" (TAKE ONE)");
+            }
+        }
+        else if (section.Choices is { } choices)
+        {
+            if (user == null)
+            {
+                name.AddText($" (CHOOSE {choices.Amount})");
+            }
+            else
+            {
+                var left = choices.Amount - user.Choices.GetValueOrDefault(choices.Id);
+                if (left > 0)
+                    name.AddText($" (CHOOSE {left})");
+            }
+        }
+
+        name.Pop();
+        return name;
+    }
+}

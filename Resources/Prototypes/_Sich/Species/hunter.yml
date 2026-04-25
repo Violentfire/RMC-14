@@ -1,0 +1,156 @@
+- type: species
+  id: Hunter
+  name: species-name-hunter
+  roundStart: false
+  prototype: CMMobHunter
+  sprites: MobHunterSprites
+  defaultSkinTone: "#8cd7a3"
+  markingLimits: MobHunterMarkingLimits
+  dollPrototype: MobHunterDummy
+  skinColoration: HumanToned
+  maleFirstNames: RMCNamesHunterFirst
+  femaleFirstNames: RMCNamesHunterFirst
+  lastNames: RMCNamesHunterLast
+  naming: FirstLast
+
+- type: speciesBaseSprites
+  id: MobHunterSprites
+  sprites:
+    Head: MobHunterHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Chest: MobHunterTorso
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
+    Eyes: MobHunterEyes
+    HeadTop: MobHumanoidAnyMarking
+    LArm: MobHunterLArm
+    RArm: MobHunterRArm
+    LHand: MobHunterLHand
+    RHand: MobHunterRHand
+    LLeg: MobHunterLLeg
+    RLeg: MobHunterRLeg
+    LFoot: MobHunterLFoot
+    RFoot: MobHunterRFoot
+
+- type: markingPoints
+  id: MobHunterMarkingLimits
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Snout:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: true
+    Chest:
+      points: 1
+      required: false
+    UndergarmentBottom:
+      points: 1
+      required: true
+    UndergarmentTop:
+      points: 1
+      required: true
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobHunterEyes
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: eyes
+
+- type: humanoidBaseSprite
+  id: MobHunterHead
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobHunterHeadMale
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobHunterHeadFemale
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobHunterTorso
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobHunterTorsoMale
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobHunterTorsoFemale
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobHunterLLeg
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobHunterLHand
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobHunterLArm
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobHunterLFoot
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobHunterRLeg
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobHunterRHand
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobHunterRArm
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobHunterRFoot
+  baseSprite:
+    sprite: _Sich/Mobs/Hunter/parts.rsi
+    state: r_foot

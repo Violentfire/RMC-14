@@ -969,6 +969,17 @@ public abstract partial class SharedXenoParasiteSystem : EntitySystem
         {
             if ((inventorySlot.SlotFlags & slotFlags) != 0 || _tagSystem.HasTag(containedEntity, "RipOffOnInfection"))
             {
+                if (HasComp<RMCParasiteImmuneComponent>(containedEntity))
+                {
+                    if (_net.IsServer && doPopup)
+                    {
+                        var popupMessage = Loc.GetString("rmc-xeno-infect-fail", ("target", victim), ("clothing", containedEntity));
+                        _popup.PopupEntity(popupMessage, victim, PopupType.SmallCaution);
+                    }
+
+                    return false;
+                }
+
                 TryComp(containedEntity, out ParasiteResistanceComponent? resistance);
 
                 if (resistance != null && resistance.Count < resistance.MaxCount)

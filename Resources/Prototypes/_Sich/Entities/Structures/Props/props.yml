@@ -1,0 +1,83 @@
+- type: entity
+  parent: CMBaseStructure
+  id: HuggerTank
+  name: капсула зберігання
+  description: Використовується для зберігання різних зразків біологічних форм.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 200
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Sprite
+    sprite: _Sich/Structures/Props/hugger_tank.rsi
+    state: tank
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Damageable
+    damageContainer: StructuralMarine
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          HuggerTankBroken:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: CMBaseStructure
+  id: HuggerTankBroken
+  name: розбита капсула зберігання
+  description: Використовується для зберігання різних зразків біологічних форм. Вона розбита.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+    canCollide: true
+  - type: Sprite
+    sprite: _Sich/Structures/Props/hugger_tank.rsi
+    state: broken
+
+- type: entity
+  parent: CMBaseStructure
+  id: GlobeMap
+  name: глобус
+  description: Масивна платформа з голографічною проекцією планети.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _Sich/Structures/Props/globe.rsi
+    state: globe
+  - type: Clickable
+  - type: InteractionOutline
+  - type: TacticalMapComputer
+    skillLevel: 20
+  - type: ActivatableUI
+    key: enum.TacticalMapComputerUi.Key
+  - type: UserInterface
+    interfaces:
+      enum.TacticalMapComputerUi.Key:
+        type: TacticalMapComputerBui

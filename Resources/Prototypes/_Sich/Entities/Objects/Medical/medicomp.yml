@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseStorageItem
+  id: RMCMediComp
+  name: медікомп
+  description: Компактне сховище для медичних розхідників.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Storage/medicomp.rsi
+    layers:
+    - state: icon
+      map: [ "base" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: open }
+          False: { state: icon }
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,13,1
+  - type: StorageFill
+    contents:
+    - id: CMCellularBioinjector
+    - id: BurnHerbs
+    - id: BruteHerbs
+  - type: Item
+    size: Small

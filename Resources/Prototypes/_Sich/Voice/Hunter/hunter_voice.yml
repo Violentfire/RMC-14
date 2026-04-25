@@ -1,0 +1,11 @@
+- type: emoteSounds
+  id: HunterEmoteSounds
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: HunterScream
+    Laugh:
+      collection: HunterLaugh
+    Hiss:
+      collection: HunterClick

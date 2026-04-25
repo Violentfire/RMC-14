@@ -1,0 +1,98 @@
+- type: tile
+  abstract: true
+  parent: CMTileBase
+  id: FloorHunter
+  name: tiles-cm-hunter
+  allowRotationMirror: true
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter1
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor1.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter1Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor1_alt.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter2
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor2.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter2Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor2_alt.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter3
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor3.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter3Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor3_alt.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter4
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor4.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter5
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor5.png
+
+- type: tile
+  parent: FloorHunter
+  id: FloorHunter5Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor5_alt.png
+
+- type: tile
+  abstract: true
+  parent: CMTileBase
+  id: FloorHunterRed
+  name: tiles-cm-hunter
+
+- type: tile
+  parent: FloorHunterRed
+  id: FloorHunterRed0
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor_red.png
+
+- type: tile
+  parent: FloorHunterRed
+  id: FloorHunterRed0Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor_red_alt.png
+
+- type: tile
+  parent: FloorHunterRed
+  id: FloorHunterRed1
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor_red1.png
+
+- type: tile
+  parent: FloorHunterRed
+  id: FloorHunterRed1Alt
+  sprite: /Textures/_Sich/Tiles/Yautja_ship/hunter_flor_red1_alt.png
+
+
+
+- type: entity
+  id: FloorHunterGlow
+  name: елемент живлення
+  description: Дивна сукупність світла та металу яка, здається живить корабель.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    sprite: _Sich/Tiles/Yautja_ship/hunter_glow.rsi
+    drawdepth: FloorTiles
+    layers:
+    - state: hunter_glow
+      shader: unshaded
+  - type: Tag
+    tags:
+    - HideContextMenu

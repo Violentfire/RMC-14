@@ -9,6 +9,7 @@
     size: Tiny
   - type: ToggleVisor
 
+
 - type: entity
   parent: [ RMCVisorBase, RMCPowerCellSlotUnremovableSuper ]
   id: RMCVisorNightVision

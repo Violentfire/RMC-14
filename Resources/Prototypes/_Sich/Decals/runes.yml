@@ -1,0 +1,28 @@
+- type: decal
+  id: HunterRune_s
+  name: руна (південь)
+  sprite:
+    sprite: _Sich/Decals/yautja_ship.rsi
+    state: rune_s
+
+- type: decal
+  id: HunterRune_w
+  name: руна (захід)
+  sprite:
+    sprite: _Sich/Decals/yautja_ship.rsi
+    state: rune_w
+
+- type: decal
+  id: HunterRune_n
+  name: руна (північ)
+  sprite:
+    sprite: _Sich/Decals/yautja_ship.rsi
+    state: rune_n
+
+- type: decal
+  id: HunterRune_e
+  name: руна (схід)
+  sprite:
+    sprite: _Sich/Decals/yautja_ship.rsi
+    state: rune_e
+

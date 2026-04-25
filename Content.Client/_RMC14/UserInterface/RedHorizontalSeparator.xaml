@@ -1,0 +1,6 @@
+<controls:RedHorizontalSeparator
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._RMC14.UserInterface"
+    xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls">
+    <cc:HSeparator Color="#880000" />
+</controls:RedHorizontalSeparator>

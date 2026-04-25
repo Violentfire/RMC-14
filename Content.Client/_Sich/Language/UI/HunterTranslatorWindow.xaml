@@ -1,0 +1,13 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:x="http://schemas.microsoft.com/winfx/2000/xaml"
+               Title="{Loc 'hunter-translator-window-title'}"
+               MinWidth="300"
+               MinHeight="100">
+    <BoxContainer Orientation="Vertical" Margin="4">
+        <BoxContainer Orientation="Horizontal" Margin="4">
+            <Label Text="{Loc 'hunter-translator-label'}" Margin="0, 0, 4, 0" />
+            <LineEdit Name="MessageLineEdit" HorizontalExpand="True" />
+        </BoxContainer>
+        <Button Name="SendButton" Text="{Loc 'hunter-translator-send'}" Margin="4" HorizontalAlignment="Center" />
+    </BoxContainer>
+</DefaultWindow>

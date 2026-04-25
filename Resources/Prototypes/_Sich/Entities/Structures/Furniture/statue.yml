@@ -52,3 +52,14 @@
     drawdepth: Mobs
     noRot: true
     offset: "0.0,0.5"
+
+## Трохи привласню файл статуй для свого мисливця
+- type: entity
+  parent: BaseStructure
+  id: HunterStatue
+  name: статуя мисливця
+  description: "Кам'яна статуя що зображує мисливця."
+  components:
+  - type: Sprite
+    sprite: _Sich/Structures/Furniture/hunter_statues.rsi
+    drawdepth: Mobs

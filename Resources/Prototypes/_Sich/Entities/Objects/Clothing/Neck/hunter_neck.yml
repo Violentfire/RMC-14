@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: RMCHunterCape
+  name: плащ
+  description: Масивний плащ, виготовлений з невідомого матеріалу.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Neck/hunter_cape.rsi
+    state: fullcape
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/Neck/hunter_cape.rsi
+    slots:
+    - Neck
+    clothingVisuals:
+      neck:
+      - state: full_cape
+
+- type: entity
+  parent: RMCHunterCape
+  id: RMCHunterCapeCeremonial
+  name: церемоніальний плащ
+  description: Розкішний плащ з візерунками.
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Neck/hunter_cape.rsi
+    state: ceremonialcape
+  - type: Clothing
+    sprite: _Sich/Objects/Clothing/Neck/hunter_cape.rsi
+    slots:
+    - Neck
+    clothingVisuals:
+      neck:
+      - state: ceremonial_cape

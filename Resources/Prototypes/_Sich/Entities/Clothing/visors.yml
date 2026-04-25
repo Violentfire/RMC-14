@@ -1,0 +1,26 @@
+- type: entity
+  parent: [ RMCVisorBase, RMCPowerCellSlotUnremovableSuper ]
+  id: RMCHunterVisorNightVision
+  name: модуль нічного бачення
+  description: Модуль маски хижака, забезпечує нічне бачення. Завдяки просунутій технології майже не споживає енергію.
+  suffix: Sich, Hunter
+  components:
+  - type: Sprite
+    sprite: _Sich/Objects/Clothing/Head/Mask/visor.rsi
+    state: icon
+  - type: Visor
+    onIcon:
+      sprite: _Sich/Objects/Clothing/Head/Mask/visor.rsi
+      state: icon
+  - type: RMCHunterNightVisionVisor
+  - type: ToggleVisor
+    ignoreRedundancy: true
+    soundOn: /Audio/_Sich/Effects/pred_vision.ogg
+    soundOff: /Audio/_Sich/Effects/pred_vision.ogg
+  - type: ComponentToggler
+    components:
+    - type: PointLight
+      enabled: true
+      radius: 0
+      softness: 1
+      color: "#008000"

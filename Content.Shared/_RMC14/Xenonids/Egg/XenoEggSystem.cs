@@ -1,4 +1,4 @@
-﻿using Content.Shared._RMC14.Actions;
+using Content.Shared._RMC14.Actions;
 using Content.Shared._RMC14.Dropship;
 using Content.Shared._RMC14.Hands;
 using Content.Shared._RMC14.Marines;
@@ -22,6 +22,7 @@ using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
+using Content.Shared.Inventory;
 using Content.Shared.Item;
 using Content.Shared.Jittering;
 using Content.Shared.Maps;
@@ -58,6 +59,7 @@ public sealed class XenoEggSystem : EntitySystem
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly FixtureSystem _fixture = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
+    [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly SharedInteractionSystem _interaction = default!;
     [Dependency] private readonly SharedXenoHiveSystem _hive = default!;
     [Dependency] private readonly SharedXenoParasiteSystem _parasite = default!;
@@ -454,6 +456,18 @@ public sealed class XenoEggSystem : EntitySystem
 
     private bool CanTrigger(EntityUid user)
     {
+        if (HasComp<RMCParasiteImmuneComponent>(user))
+            return false;
+
+        if (_inventory.TryGetContainerSlotEnumerator(user, out var slots))
+        {
+            while (slots.NextItem(out var item, out _))
+            {
+                if (HasComp<RMCParasiteImmuneComponent>(item))
+                    return false;
+            }
+        }
+
         return TryComp<InfectableComponent>(user, out var infected)
                && !infected.BeingInfected
                && !_mobState.IsDead(user)

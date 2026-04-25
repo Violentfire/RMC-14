@@ -525,3 +525,19 @@
   priority: 2
   text: "/ServerInfo/Guidebook/_RMC14/Chemicals/OT.xml"
   filterEnabled: True
+
+- type: guideEntry
+  parent: RMC
+  id: RMCGuideHunter
+  name: Посібник мисливця
+  priority: 1
+  text: "/ServerInfo/Guidebook/_Sich/Guides/RMCGuideHunter.xml"
+  children:
+  - RMCGuideHunterCodex 
+
+- type: guideEntry
+  parent: RMC
+  id: RMCGuideHunterCodex
+  name: Кодекс полювання
+  priority: 2
+  text: "/ServerInfo/Guidebook/_Sich/Guides/RMCGuideHunterCodex.xml"

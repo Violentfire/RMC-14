@@ -1,0 +1,26 @@
+<controls:HunterCrewWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._Sich.Hunter"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    xmlns:ui="clr-namespace:Content.Client._RMC14.UserInterface"
+    Title="Термінал екіпажу" MinSize="450 300" SetSize="450 400">
+    <PanelContainer>
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#111111" BorderColor="#880000" BorderThickness="2" />
+        </PanelContainer.PanelOverride>
+        <BoxContainer Orientation="Vertical" Margin="10">
+            <BoxContainer Orientation="Horizontal" Margin="4">
+                <Label Text="#" MinWidth="30" FontColorOverride="Gray"/>
+                <Label Text="Ім'я" HorizontalExpand="True" FontColorOverride="#E5B107"/>
+                <Label Text="Стан" MinWidth="100" FontColorOverride="Gray"/>
+                <Label Text="Позиція" MinWidth="120" FontColorOverride="Gray"/>
+            </BoxContainer>
+            
+            <ui:RedHorizontalSeparator Margin="0 5" />
+
+            <ScrollContainer VerticalExpand="True">
+                <BoxContainer Name="HunterList" Access="Public" Orientation="Vertical" />
+            </ScrollContainer>
+        </BoxContainer>
+    </PanelContainer>
+</controls:HunterCrewWindow>
